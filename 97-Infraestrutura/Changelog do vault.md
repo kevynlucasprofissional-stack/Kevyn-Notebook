@@ -105,4 +105,7 @@ Correções técnicas finais são registradas também no arquivo externo `Change
 - `Linha do tempo mestre`, `Kevyn Lucas`, `Estado atual - setembro de 2026`, `Rede de relacoes`, `Claims principais` e `Matriz-Claims.csv` passam a referenciar `Iasmin Alencar`, eliminando a ambiguidade de nome;
 - `Cha e Prosa` (v2.3) passa a datar a criação do grupo (17/10/2025) e a listar as novas fontes;
 - `Mari e a experiencia de idealizacao` (v1.5) ganha afirmação sustentada por fonte primária sobre a parceria criativa (edital Centelha, "Muralistas do Futuro", Ateliê Ciranda);
-- links internos permanecem em 0 quebrados.
+- links internos permanecem em 0 quebrados;
+- aprofundadas as fontes de relacionamento: `Cha e Prosa` (cronologia out–nov/2025, ação solidária, cozinha coletiva, votação de temas) e `Mari e a experiencia de idealizacao` (cronologia do edital Centelha, "Muralistas do Futuro", Ateliê Ciranda);
+- criada `Auditoria de saude da camada canonica 2026-09-29` (`95-Auditorias/`): 130 notas canônicas, 0 links quebrados, 2 órfãos corrigidos, 8 MOCs com defasagem de revisão, lacunas temporais em 2022 e 2004–2017, sem duplicação semântica real;
+- `MOC Relacionamentos e rede` (v1.8) atualizado com `Aline e o ciclo de reciprocidade e ritmo` e `Iasmin Alencar`.

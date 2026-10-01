@@ -98,6 +98,8 @@ Protocolo implementado em junho de 2026. Revisões baseadas em transcrições de
 
 Revisões documentadas: 01/06, 05/06, 06/06, 07/06, 15/06/2026. Padrão central identificado: "quando existe prazo, destinatário e consequência externa, você executa. Quando depende apenas de autogestão, tende a ampliar o planejamento."
 
+Detalhamento do ciclo: [[Revisao de autorregulacao 15 de junho de 2026]].
+
 ## Leis de Kevin (abril/2026)
 
 Formulação pessoal de produtividade registrada em áudio (27/04/2026):

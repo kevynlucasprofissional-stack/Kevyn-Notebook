@@ -55,6 +55,18 @@ O caso importa porque mostra a diferença entre relação vivida e relação rei
 | Kevyn posteriormente reinterpretou o vínculo como idealização/projeção. | [[Fonte - Segundo cerebro consolidado]], [[Fonte - Contexto completo]], [[Fonte - Contexto extra]] | médio | A interpretação é de Kevyn e de dossiês derivados; não prova intenção de Mari. |
 | Um exercício de imaginação ativa em fevereiro de 2026 manteve Mari como figura simbólica de elaboração. | [[Fonte - Diario Negro 02 - 130226 ate 250426]] | medio_baixo | Material simbólico não pode ser lido como fato sobre a outra pessoa. |
 
+## Cronologia da parceria (out–nov/2025)
+
+Fonte primária: [[Fonte - Conversa do WhatsApp com Mari que Cria]].
+
+- **24/10/2025**: Kevyn apresenta a Mari um pitch para o edital ("movimento empoderador", foco em impacto social); prazo curto.
+- **01/11/2025**: inscrição no **Programa Centelha**; Kevyn pede um vídeo curto de apresentação de Mari sobre a trajetória dela na arte.
+- **07/11/2025**: ideia **"Muralistas do Futuro"** submetida; Mari propõe projeto do ateliê ("substituindo telas por telas"), conectando comunidade e arte.
+- **08–09/11/2025**: Kevyn dedica tempo a inscrever as ideias dela; **"Ateliê Ciranda — a experiência que se sente"** é submetida; cronograma do edital (resultado preliminar em 04/12/2025).
+- **11/11/2025**: Kevyn não consegue confirmar ida ao ateliê por reunião de trabalho.
+- **15/11/2025**: Kevyn visita o ateliê e elogia o espaço.
+- **25/11/2025**: Kevyn é convocado a cobrir um workshop e não vai ao ateliê.
+
 ## O que isso permite concluir
 
 - O vínculo foi relevante o suficiente para entrar na elaboração posterior de Kevyn.

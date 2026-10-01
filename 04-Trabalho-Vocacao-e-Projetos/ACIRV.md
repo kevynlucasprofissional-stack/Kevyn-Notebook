@@ -130,3 +130,4 @@ No mesmo período, uma conversa com Vivi redefine o contexto do trabalho e leva 
 - [[Linha do tempo mestre]] situa a ACIRV na sequência maior da trajetória.
 - [[Trilha rapida - quem e Kevyn]] oferece o atalho biográfico que conecta a ACIRV ao resto do núcleo.
 - [[MOC Trabalho vocacao e projetos]] enquadra a ACIRV dentro do território de projetos e trabalho.
+- [[ACIRV - nota de transcricao]] registra a leitura operacional a partir de uma transcrição de trabalho.

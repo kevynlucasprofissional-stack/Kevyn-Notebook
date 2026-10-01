@@ -57,8 +57,14 @@ Chá e Prosa foi um grupo relacional curto, mas biograficamente importante, porq
 ## Cronologia
 
 - **17/10/2025**: grupo criado por [[Mari e a experiencia de idealizacao|Mari que Cria]]; Kevyn entra por link de convite em 18/10/2025 ([[Fonte - Conversa do WhatsApp com Cha e Prosa]]).
-- **Out–Nov/2025**: Kevyn participa ativamente e circula sua oferta profissional; o grupo discute leitura coletiva sobre comunicação.
-- **Nov-Dez/2025**: participação ativa.
+- **18/10/2025**: Kevyn divulga sua "Imersão IA para Negócios" e começa a organizar uma **ação solidária** ("pão com carne moída").
+- **22–23/10/2025**: arrecadação da ação solidária (cofrinho coletivo) e divulgação, no grupo, do **edital Centelha** do governo de Goiás (R$ 89 mil para ideias inovadoras de jovens).
+- **24/10/2025**: Kevyn registra o encontro anterior como "muito massa"; um integrante o descreve como "o melhor e o pior" ao mesmo tempo, e Mari concorda — sinal do **formato vivencial e ambíguo** do grupo.
+- **31/10–01/11/2025**: Halloween e cozinha coletiva (preparo de molho) na casa de um integrante; o grupo funciona também como **rede de apoio prática**.
+- **06/11/2025**: votação de temas ("Espelho Negro", "Natureza e percepção do tempo"); encontro "espacial".
+- **07/11/2025**: proposta de trilha na Cachoeira Pitanga (16/11).
+- **20/11/2025**: Mari cancela o encontro por motivo de saúde.
+- **26/11/2025**: última data do export do grupo; o incidente de 27/11 ocorre logo em seguida.
 - **27/11/2025**: incidente em que Kevyn usa metáfora intelectualizada e Mari reage com expressão de nojo.
 - **Dez/2025**: ruminação e reinterpretação do episódio com IA-Jung e IA-Freud.
 - **22/01/2026**: saída formal; a mensagem de despedida registra limite de espaço mental e encerramento da participação.

@@ -5,10 +5,10 @@ tipo: moc
 status: curado
 profundidade: intermediaria
 versao_schema: '1.0'
-versao_conteudo: '1.7'
+versao_conteudo: '1.8'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-30
+ultima_revisao: 2026-09-29
 fontes_primarias:
   - '[[Fonte - Briefing do projeto]]'
 notas_relacionadas:
@@ -22,6 +22,8 @@ notas_relacionadas:
   - '[[Amor idealizacao e projecao]]'
   - '[[Amor intimidade e vulnerabilidade]]'
   - '[[Mari e a experiencia de idealizacao]]'
+  - '[[Aline e o ciclo de reciprocidade e ritmo]]'
+  - '[[Iasmin Alencar]]'
   - '[[Lethicia]]'
   - '[[Cha e Prosa]]'
   - '[[Tribo pertencimento e lideranca]]'
@@ -98,7 +100,7 @@ Comece pela família. Ela é o primeiro eixo para entender cuidado, ausência, a
 
 ## Afeto e intimidade
 
-[[Amor idealizacao e projecao]], [[Amor intimidade e vulnerabilidade]], [[Mari e a experiencia de idealizacao]] e [[Lethicia]] mostram como desejo, idealização, medo de exposição e necessidade de vínculo aparecem juntos. A regra é sempre separar o que é experiência de Kevyn do que é inferência sobre a outra pessoa.
+[[Amor idealizacao e projecao]], [[Amor intimidade e vulnerabilidade]], [[Mari e a experiencia de idealizacao]] e [[Lethicia]] mostram como desejo, idealização, medo de exposição e necessidade de vínculo aparecem juntos. No recorte de 2026, [[Aline e o ciclo de reciprocidade e ritmo]] (reciprocidade real, limite e luto) e [[Iasmin Alencar]] (aceleração, término e revisão) atualizam esse mesmo eixo. A regra é sempre separar o que é experiência de Kevyn do que é inferência sobre a outra pessoa.
 
 ## Pertencimento e grupo
 
