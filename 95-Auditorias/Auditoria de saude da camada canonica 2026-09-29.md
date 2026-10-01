@@ -25,7 +25,7 @@ notas_relacionadas:
 
 ## Escopo e método
 
-Auditoria da camada canônica (`00`–`08` + `80-MOCs-e-Trilhas`), considerando as zonas definidas em [[AGENTS.md]]. Foram verificados: links quebrados, notas órfãs, MOCs desatualizados, cobertura temporal e duplicação semântica.
+Auditoria da camada canônica (`00`–`08` + `80-MOCs-e-Trilhas`), considerando as zonas definidas em `AGENTS.md`. Foram verificados: links quebrados, notas órfãs, MOCs desatualizados, cobertura temporal e duplicação semântica.
 
 ## Métricas gerais
 
