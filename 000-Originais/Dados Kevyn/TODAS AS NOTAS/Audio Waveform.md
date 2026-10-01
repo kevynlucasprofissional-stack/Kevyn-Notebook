@@ -1,0 +1,1 @@
+Funciona criando uma onda visual de acordo com a música. O Waveform deve ser aplicado em uma pré-composição no tamanho exato do audio, sem espaços vazios.

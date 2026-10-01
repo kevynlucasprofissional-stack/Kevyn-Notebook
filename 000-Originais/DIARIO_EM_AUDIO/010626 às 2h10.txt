@@ -1,0 +1,2 @@
+Eu estou percebendo que os prompts não estão ainda muito bem formatados. Eu acho que, principalmente naquela parte de "alguém está me ouvindo", os prompts não estão muito bem formatados.
+Eu acho que, principalmente naquela parte de "alguém está me ouvindo", os textos prontos para copiar e jogar no bloco do Excel, eu acho que não deveria ter aqueles blocos Markdown.

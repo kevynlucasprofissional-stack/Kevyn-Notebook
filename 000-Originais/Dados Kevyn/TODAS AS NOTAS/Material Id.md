@@ -1,0 +1,1 @@
+Este passe separa todos os modelos da renderização com uma cor sólida diferente para cada um. Assim, a seleção e ajuste de um modelo específico na pós-produção com o After Effects fica mais fácil.

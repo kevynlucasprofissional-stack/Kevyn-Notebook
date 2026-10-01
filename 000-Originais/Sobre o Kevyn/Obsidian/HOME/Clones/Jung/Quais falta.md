@@ -1,0 +1,12 @@
+- [x] O Zaratustra de Nietzsche
+- [x] Sincronicidade
+- [x] Psicologia e Alquimia
+- [x] Liber Novus
+- [ ] Os arquetipos e o Inconsciente coletivo
+- [x] A energia psíquica
+- [x] Psicologia do inconsciente
+- [ ] O eu e o inconsciente
+- [x] O desenvolvimento da personalidade
+- [x] Memórias, sonhos e reflexões
+- [x] O segredo da flor de ouro
+- [x] O homem e seus simbolos

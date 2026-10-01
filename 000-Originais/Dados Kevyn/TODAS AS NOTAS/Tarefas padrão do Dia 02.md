@@ -1,0 +1,10 @@
+- [ ] Role o feed
+- [ ] Comentar, curtir e compartilhar algumas publicações do feed.
+- [ ] Postar uma foto no grupo de amizade pedindo para te adicionarem.
+- [ ] Mandar um oi para pessoas que te adicionaram.
+- [ ] Jogar um jogo do Facebook Gaming
+- [ ] Adicione autenticação de dois fatores usando o Google Authenticator.
+- [ ] Personalizar ID para verificar no Facebook Developer usando o [[NPPR.Team]]
+- [ ] Personalize no formato padrão para o Facebook (.jpg 1500x1000)
+- [ ] Guarde a identidade
+- [ ] Voltar e rolar o feed mais um pouco.

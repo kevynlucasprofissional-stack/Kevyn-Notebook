@@ -1,0 +1,1 @@
+Colore com 3 cores: Preto, branco e o meio tom (Todos personalizáveis.)

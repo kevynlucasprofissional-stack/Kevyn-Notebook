@@ -1,0 +1,1 @@
+Adiciona uma sombra projetada.

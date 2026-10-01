@@ -1,0 +1,159 @@
+---
+id: registro-diario-em-audio-parte-01
+titulo: Registro - Diario em audio - Parte 01
+tipo: registro_fonte
+subtipo: diario
+status: arquivado
+profundidade: fonte_integral
+versao_schema: '1.0'
+versao_conteudo: '1.0'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+camada_evidencia: registro_direto
+grau_confianca: alto
+sensibilidade: muito_alta
+fonte_catalogo: '[[Fonte - Diario em audio - Parte 01]]'
+caminho_origem: Diários/Diário em audio - Parte 01.txt
+sha256_origem: a7a584587281bc2d804e5f77c3dee22bf62cb52318081ff50a6f7ffe1c347482
+normalizacao: wikilinks_desativados; frontmatter_adicionado
+tags:
+- tipo/registro-fonte
+- privacidade/restrita
+---
+# Registro - Diario em audio - Parte 01
+
+> [!warning] Cópia de leitura normalizada
+> O conteúdo abaixo foi copiado da origem; sequências de wikilink foram desativadas para não contaminar o grafo. O original byte a byte permanece no ZIP arquivado.
+
+(Transcrito por TurboScribe. Atualize para Ilimitado para remover esta mensagem.)
+
+25 de abril de 2026. Olha, hoje já não começou muito bem, por causa que... eu tive toda aquela conversa comigo mesmo no... no diário, só que aí... logo depois eu já fui dispensar tempo com um negócio que... não gera tanto retorno assim, né? É... prazeres, um prazer aí que você conhece bem. Masturbação.
+
+Mas... isso foi bem. Eu não tenho que me culpar nem me... crucificar por isso. E também eu tinha... combinado comigo que eu ia levar a sério o Liber Hash... e fazer a saudação ao Sol... todo dia... nos quatro horários principais... às seis... na manhã e na noite... e ao meio-dia e à meia-noite.
+
+Esses quatro momentos eu tenho que estar acordado para fazer a saudação ao Sol. O objetivo é... colocar um mínimo de... de... como se fala... de disciplina na minha rotina. Colocar quatro pontos fixos na minha rotina.
+
+E logo no primeiro dia eu já falhei para você ver o tanto que eu estou indisciplinado. Essa doação ao Sol não precisa ser alguma coisa tipo tão complicada quanto o Crowley faz para CC. É... e... bem, que nem... que nem a gente aprendeu com a Imperatriz Criança... a gente pode... é... como se fala... pegar o ritual que o Crowley criou e fazer a nossa própria versão.
+
+Se basear... tipo, as palavras antigas, os nomes antigos já não servem mais. Mas a gente... pode se apoiar aí nas palavras que já foram inventadas. A gente precisa criar... os nossos próprios nomes... só que a gente pode se basear nos nomes que já foram inventados.
+
+A gente pode criar os nossos... eu preciso criar os meus próprios atuais só que... eu posso me basear aí no que já foi inventado. É só um jeito muito mais complicado de falar uma coisa simples. Eu sou rei de fazer isso, né... rei de complicar as coisas.
+
+É o meu jeitinho. Enfim, por enquanto é isso. Agora eu estou aqui na Fundação Getúlio Vargas, quer dizer, no Hotel Gelps, na aula... na aula da Fundação Getúlio Vargas com o professor Rafael, fazendo uma disciplina de Finanças Corporativas.
+
+O livro-base é o... Princípios das Finanças Corporativas. Você baixou o livro. Eu pretendo, durante a aula... como eu estava dizendo... aulas sobre Princípios das Finanças Corporativas e o que eu pretendo fazer durante a aula é fazer as minhas anotações sobre o que o professor está ensinando e desenvolver um pouco mais o meu motor de geração de slides, de geração de resumos.
+
+Às vezes é interessante a gente... ver se dá para fazer em outros formatos também. Por causa que aí, se dá para fazer em outros formatos, a gente usa aquela estratégia que a gente estava usando para o Gama. A gente desenvolve um design system, foca em fazer o criativo só da capa, e aí o miolo do carrossel... o miolo do carrossel o chat APT faz, e aí a CTA eu deixo padrão.
+
+Toda... toda a CTA a mesma, entendeu? Assim eu posso criar carrosséis com mais agilidade. Ou seja, capa, design pensado, miolo o chat APT cria, se ele conseguir criar no formato de 1080x1350 ou 1440, e CTA padrão. Vamos desenvolver essa ideia aí.
+
+O que mais? É... refinar o motor de... refinar o motor de slides. O motor gerador de slides. Com o chat APT.
+
+Preciso também responder... o... o... como se fala? O Henrique. O Henrique da Biovision e a galera do Agra. É isso.
+
+Vou fazer isso essa manhã. Agora são oito e doze. Agora são... quatorze e cinquenta e nove do dia vinte e cinco de abril de dois mil e vinte e seis.
+
+É... basicamente pela manhã eu somente... eu só mexi no motor de... criação de... de slides. Mexi no... roadmap de criação de slides do... que eu estou fazendo aí pro... pro... pro chat APT, né? É um roadmap de como criar um slide de qualquer tipo de... de qualquer tipo de livro, de documento, de ideia solta. Entendeu? Usando o chat APT, porque o chat APT tem essa skill de criar slides.
+
+Basicamente eu só mexi nisso, só que eu não estou muito satisfeito, por causa que eu quero... é... eu quero fazer com que seja... diferente, não sei, eu acho que ele está focando muito como se fosse uma apresentação. Tá, eu acho que talvez uma apresentação, na verdade, já seja bom. O que eu não gostei... o que eu não gostei muito, ponto de melhoria.
+
+O design system tem que ficar melhor. Tipo, os slides têm que ficar mais bonitos. E eu posso ver aquele site de design system... pra... pra tentar melhorar isso.
+
+E... também eu tenho que criar uma versão desse roadmap, só que em vez de... de ser pra... pra apresentação de slides, pra apresentações, pra criar... específico pra criar carrosséis no... no... para o Instagram. Eu falo isso por causa que o estilo de apresentar tem que ser um pouco mais completo, né. A ideia tem que estar toda no carrossel.
+
+Entendeu? É... Acho que é isso. Tipo, eu não sei se é ideal para carrossel o texto ser... webscaneável ou ser um storytelling, entendeu? Tipo, estilo webscaneável ou ser storytelling. Eu sei que precisa mudar um pouco.
+
+Eu já validei que o Instagram consegue fazer na proporção 3x4, só que... só que ele tem muita dificuldade em como encaixar as imagens que ele mesmo gera nos slides. Então eu tenho que colocar instruções em ambos os motores, ou pra apresentação e para o... e para o de carrossel, que ele precisa colocar todas as imagens que ele gerar no fundo. E de que precisa existir um contraste alto entre o texto e as imagens que ele gerar.
+
+Para que o texto seja legível e que, para garantir isso, ele pode mexer na opacidade das imagens que ele gerar. Colocando a opacidade delas um pouco baixa, tipo 50, 75, para destacar o texto. É... por enquanto é só. 
+
+Eu ainda tenho que fazer aquele negócio do Henrique e eu tenho que fazer também... eu tenho que responder a galera lá do Ágora também. Eu tenho que ficar rico logo pra ficar o dia todo só desenvolvendo. Desenvolver é divertido demais.
+
+Agora eu descobri que com o Codex eu consigo personalizar os plugins do meu Obsidian. Imagino o que eu vou conseguir fazer com isso. Já estou imaginando aqui se eu consigo instalar Python no meu Obsidian.
+
+Putz, se eu conseguir rodar Python... localmente... Falou, bom trabalho! Se eu conseguir rodar Python localmente... Se eu conseguir de algum jeito... rodar Python... Apesar de que, na verdade, eu não sei se isso tem muita necessidade. Rodar Python no Obsidian, transformar o Obsidian numa IDE. Pra isso eu precisaria... Ah, eu precisaria do código base, do código fonte do Obsidian.
+
+Mas seria legal se o Obsidian fosse uma IDE. Eu gosto do tipo de interface dele. O Visual Studio serve só pra isso, mas... Podia rolar um filler entre os dois, né? Sei lá.
+
+Se tivesse só as melhores partes dos dois. Fora isso, agora são 18h37 do dia 25 de abril. Acabei... Acabamos de terminar... a aula aqui do... da Fundação Getúlio Vargas.
+
+Finanças. É sobre finanças. E eu passei o dia todo, tipo... codando uns... mexendo com o Obsidian, mexendo com o meu motor de... criação de slides.
+
+Pesquisando sobre design systems. E agora eu quero... Eu tô animado com isso, cara. Eu queria... mexer mais com isso, só que... Real oficial dever me chama.
+
+Tipo... Segunda-feira tem... Tem reunião de Scrum. Segunda-feira de manhã tem reunião de Scrum. Deixa eu pensar... E... Além disso... Eu não terminei o Whiskering dessa semana.
+
+Tem umas coisas que ficou meio que pra trás e eu... queria terminar. Pra fazer bonito. E eu tenho que... terminar a lista também do que eu fiz.
+
+Que, tipo assim, ficou fora da... Fora do escopo dos crianças, só que eu fiz, entendeu? Tipo, isso adiciona... Como se fala? Volume no meu trabalho. Fora isso, eu tô muito animado com as perspectivas de que eu possa, tipo assim... pegar... pegar código... do Open Source, de plugins no... GitHub. E personalizar eles do jeito que eu quero, tipo... Eu já tive bons resultados com o plugin de repetição espaçária.
+
+Já tô até imaginando de... criar um plugin... das soluções que eu criei, né? Com o IA, por exemplo. O plugin de... geração de flashcards. Mas... criar um plugin de... Tipo, pegar o GitHub e o Copilot e misturar com o plugin de repetição espaçada e... Como se o plugin de repetição espaçada fosse um skill, né? Do Copilot, do Obsidian, que é... Open Source.
+
+E misturar com o fluxo que eu criei, né? O Atom. Deixa eu pensar. É isso.
+
+Tipo, criar... o plugin para todos dominar. Ou um plugin do Obsidian, sabe? Aliás, eu esqueci de fazer hoje a saudação ao sol no meio-dia. Esqueci a das seis... das seis da manhã, a do meio-dia.
+
+E eu tava cochilando nesses dois horários. E... Só que a das seis horas eu fiz. Eu fiz agora, né? Às seis e quarenta, na verdade. 
+
+Mas eu fiz. Agora fica faltando a da meia-noite. Pelo menos o LiberHash, né? Inclusive, eu quero... Quero criar um... uma organização para ajudar.
+
+Essa questão da minha espiritualidade. Eu tenho que rever a Roda da Vida também. Quando eu falo que eu tenho que rever a Roda da Vida, eu tô falando daquela Roda da Vida 3.0 que a Caroline, a psicóloga, conversou com a gente lá no... lá na CIRV naquele... naquele tempo lá.
+
+Que, tipo assim, eu coloquei a espiritualidade como 10, só que na real, hoje em dia eu colocaria um 6, um 7, por causa que eu não tô tão praticando, né? Eu falo que tá 10, por causa que eu reconheço Deus no meu arredor, né? E Deus em mim. Só que... isso me torna um mago, e não um hierofante. E também eu não ando praticando todas as cartas do Tarot também.
+
+Não ando fazendo orações, não ando fazendo as alações ao sol. Tipo, eu não vivo a espiritualidade. Quer dizer, a única coisa da espiritualidade que eu vivo é reconhecer a espiritualidade no meu dia a dia.
+
+Reconhecer que todo o movimento meu é um orgasmo de radite se movendo no corpo de noite. E tá tudo bem, eu acho, quer dizer... Eu acho que não precisava ser mais do que isso, mas eu quero que seja mais do que isso, é como eu quero me posicionar. E eu tô pensando em comer um rodízio.
+
+Eu tô do lado de um rodízio aqui. Tô diferente com escarola, só que ainda falta 15 minutos pra começar a sair pizza. E se eu fosse ficar aqui, eu queria ficar até bem tarde.
+
+Lá dentro. O que eu tô é com fome, então... Na real, eu quero economizar. Vamos passar lá em cima no Bretas e comprar fruta, comprar, sei lá, aveia.
+
+Comprar alguma coisa assim. Se você não quiser voltar pra casa ainda, você senta lá na praça de alimentação e... E fica trabalhando um pouco de lá até dar vontade de ir pra casa. É isso.
+
+Eu quero, a partir de segunda-feira, no caso, dia 27, começar a fazer uma gestão mais rígida do meu tempo. Como eu demoro muito pra escrever e organizar em tabela o meu tempo, a gestão do meu tempo, eu quero fazer aqui por áudio mesmo. Por causa que eu tenho uma hora e meia de transcrição de áudio pelo Turboscribe.
+
+E... Putz, eu preciso falar muito pra dar uma hora e meia de áudio por dia. Eu sei que... E eu posso ir quebrando, né? Pra ficar menor. O que eu sei é que eu vou fazer desse jeito. 
+
+Eu vou ir mandando áudio nesse grupo aqui e aí... Depois eu junto tudo, transcrevo, peço pra ganhar e reescrever pra ficar mais... Como se fala? Mais bem escrito. Só que aí eu guardo os dois. Eu guardo a versão bem escrita e guardo a versão bruta.
+
+Porque a versão bruta tem o meu tom de voz, tem o meu estilo de fala, tem... os meus atos falhos, tem as minhas confusões, né? Isso tudo aí é dado. Dado pra ser analisado. E é isso.
+
+Aí na segunda-feira, tipo, eu chego lá na CIRV e falo, ó... Vou começar fazendo isso, isso... Comecei agora, essa hora, aí eu mando esse áudio e quando eu terminar eu mando outro áudio, ó... Finalizei a tarefa, a tarefa tal, agora são... Hora... Levei tantos minutos pra ser feito. Pra... Levei tantos minutos pra fazer. Me distraí tantas vezes olhando pro Instagram.
+
+Ou fazendo outra coisa que não é a tarefa, ou... Me distraí pois precisei fazer alguma atividade fora do escopo. Enfim. Gestão.
+
+Hoje é dia... 26 de abril, agora são 3 e 8. Ou seja, são 15 e 8. 3 e 8 da tarde do dia 26 de abril de 2026. Eu terminei hoje a aula sobre finanças corporativas com o professor Fernando do Instituto da FGV, né? Fundação Getúlio Vargas. Não é Instituto, é Fundação.
+
+Enfim. Terminei hoje as aulas sobre finanças corporativas com o professor Rafael da Fundação Getúlio Vargas, lá no Hotel Gelps. E vou ganhar R$400,00 pra isso, porque eles meio que me pagam pra instalar, e isso é muito legal.
+
+Lá eu sou monitor. Eu sou tipo um monitor. E... Bem.
+
+O que acontece? Gostei muito da aula. Eu acho que diversos daqueles conceitos eu posso estar tentando aplicar para gerenciamento pessoal. Eu não sei se tipo faz muito sentido a gente fazer todas aquelas contas de forma analógica, que nem a gente estava fazendo, porque, tipo assim, eram muitas contas.
+
+Eu entendo que é importante a gente saber como fazer, só que eu acho que não devia ser tão complicado assim. Quer dizer... Interessante. Talvez ele tenha respondido essa pergunta algumas vezes durante a aula, e eu que não estou sabendo se poderia lembrar agora, mas... Puts.
+
+Eu... Ah, não, não. Eu ia falar que eu não conseguia ver uma aplicação muito prática, só que isso é mentira. Eu consigo ver sim, principalmente se eu quiser fazer valuation nas empresas, se eu quiser operar seriamente, de forma profissional aí na... na bolsa de valores.
+
+Se eu quiser medir de uma forma mais profissional, por exemplo, a saúde financeira de uma empresa, eu consigo. Enfim, foi muito enriquecedor. Gratidão, professor Rafael.
+
+Te mando aí amor e luz. Tá. Mas... Enfim, agora falando sobre outras questões.
+
+Eu estou muito animado por causa que eu descobri que dá pra eu pegar um repositório do GitHub que seja de código aberto e personalizar esse código do meu jeito. Entendeu? Sabendo disso, eu peguei um plugin de repetição espaçada do Obsidian, que é de código aberto e tem um repositório no GitHub, e... ele não tinha opção de... ele não tinha opção de fazer cartões de repetição espaçada que fossem múltipla escolha. Entendeu? Que teria várias opções e a gente escolheria uma. 
+
+Não tinha essa opção. Aí... aí eu coloquei. Eu consegui.
+
+Tipo assim, eu peguei o código, pedi pro GitHub repetir, analisar todo o código, expliquei a ideia do que eu queria implementar. Ele leu o código todinho, entendeu como é que funcionava, entendeu quais arquivos a gente ia precisar modificar pra implementar essa função. E... ele passou o plano de implementação.
+
+Eu joguei o código descompressado, descomprimido dentro do códex. O códex tem um limite, né? Eu já te apetei um site meio que não tem, pelo menos eu nunca consegui chegar nele. Eu sei que tem, só que eu nunca consegui chegar nesse limite.
+
+Eu uso pra caramba. Uso muito mesmo. E o códex no primeiro prompt resolveu tudo.
+
+Implementou o negócio que eu queria e funcionou. Funcionou. O que já tava funcionando continua funcionando.
+
+E... a implementação que eu queria, que era o cartão de múltipla escolha, que era o cartão o flashcard, o cartão de repetição espaçada de múltipla escolha, funcionou perfeitamente, entendeu? Então... Então pra mim isso é ótimo. É ótimo mesmo. E eu tô super animado com isso.
+
+Que agora eu posso começar a criar os meus próprios plugins, entendeu?
+
+(Transcrito por TurboScribe. Atualize para Ilimitado para remover esta mensagem.)

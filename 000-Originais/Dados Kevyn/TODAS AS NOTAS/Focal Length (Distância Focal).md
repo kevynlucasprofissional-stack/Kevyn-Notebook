@@ -1,0 +1,1 @@
+Focal Length (Distância Focal) se refere ao tamanho da abertura da câmera. Quanto maior, mais distante a câmera irá precisar estar para centralizar um modelo na visualização da câmera.

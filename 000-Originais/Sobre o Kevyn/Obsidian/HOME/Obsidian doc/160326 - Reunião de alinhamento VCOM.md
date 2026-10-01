@@ -1,0 +1,1 @@
+Vamos melhorar a comunicação com a Samara e os outros social media em busca de diminuir a quantidade de material urgente.

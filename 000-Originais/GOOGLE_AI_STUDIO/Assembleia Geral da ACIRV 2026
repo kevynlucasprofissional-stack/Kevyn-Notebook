@@ -1,0 +1,241 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.5-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_MEDIUM",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+    "text": "# 📘 Playbook: Como Construir um Release de Imprensa\n\n## 1. O Conceito (O que é e para que serve?)\n**O que é:** Um texto jornalístico informativo (não publicitário) enviado para a imprensa.\n**Objetivo:** Conquistar \"mídia espontânea\" (espaço editorial gratuito) em jornais, portais e blogs, ou ser utilizado por influenciadores. É a ponte entre o que acontece na sua empresa e o que vira notícia.\n\n---\n\n## 2. A Anatomia Perfeita de um Release\nPara que o jornalista aproveite seu texto, ele deve seguir uma estrutura padrão de pirâmide invertida (informação mais importante primeiro).\n\n### 🏗️ Estrutura Obrigatória\n1.  **Cabeçalho:** Local e Data (ex: *São Paulo, 21 de Novembro de 2024*).\n2.  **Título (Manchete):** Curto, direto e com verbo de ação. Deve ter valor de notícia.\n    *   *Ruim:* Nova atualização do software.\n    *   *Bom:* Empresa X lança tecnologia que reduz custos operacionais em 30%.\n3.  **Lead (1º Parágrafo):** O resumo de tudo. Deve responder aos **5 Ws**:\n    *   **Quem?** (A empresa/pessoa)\n    *   **O quê?** (O fato/novidade)\n    *   **Quando?** (Data do ocorrido/lançamento)\n    *   **Onde?** (Local)\n    *   **Por quê/Como?** (O motivo ou explicação breve)\n4.  **Corpo do Texto (Body):** Desenvolvimento da notícia. Aqui entram dados estatísticos, contexto de mercado e explicações técnicas (sem \"jargão\" difícil).\n5.  **Citação (Quote):** Uma frase aspeada de um porta-voz (CEO, Diretor ou Especialista). Isso humaniza o texto e dá opinião, algo que o jornalista adora usar para dar credibilidade.\n6.  **Serviço (Opcional, mas ideal para eventos):** Um bloco rápido com datas, horários, preços e locais.\n7.  **Boilerplate (Sobre a empresa):** Um parágrafo padrão no final que resume quem é a empresa (ex: *\"Fundada em 2010, a Empresa X é líder em...\"*).\n8.  **Contato de Imprensa:** Nome, e-mail e telefone do assessor responsável.\n\n---\n\n## 3. Passo a Passo de Execução\n\n### Fase 1: Planejamento\n*   **Defina a Pauta:** O que estou anunciando é *realmente* relevante para o público geral ou para um setor específico? (Lembre-se: Jornalista quer novidade, não propaganda).\n*   **Escolha o Tipo de Release:**\n    *   *Padrão/Institucional:* Lançamentos, fusões, novos executivos.\n    *   *De Evento:* Para convidar ou cobrir uma realização (focar no *timing*).\n    *   *Editorial/Artigo:* Opinião de um especialista sobre um tema quente no mercado.\n\n### Fase 2: Escrita (Mão na Massa)\n*   **Título:** Limite a cerca de 50-60 caracteres para não cortar no assunto do e-mail.\n*   **Tom de Voz:** Use a 3ª pessoa (\"A empresa lançou\" e não \"Nós lançamos\"). Seja objetivo. Evite adjetivos exagerados como \"incrível\", \"maravilhoso\", \"o melhor\".\n*   **SEO:** Se o objetivo for publicação em portais online, inclua palavras-chave estratégicas no título e no primeiro parágrafo.\n\n### Fase 3: Revisão\n*   **Checklist de Ouro:**\n    *   As datas e grafias de nomes estão corretas?\n    *   O link para o site/produto está funcionando?\n    *   Há imagens em alta resolução para acompanhar? (Jornalistas amam pautas que já vêm com foto pronta para publicar).\n\n---\n\n## 4. Melhores Práticas (Do\u0027s and Don\u0027ts)\n\n| ✅ O QUE FAZER | ❌ O QUE EVITAR |\n| :--- | :--- |\n| **Focar em dados:** Números e pesquisas dão credibilidade. | **Excesso de \"marketing\":** Release não é panfleto de vendas. |\n| **Facilitar a vida do jornalista:** Texto pronto para copiar e colar. | **Anexos pesados:** Nunca mande o release como anexo PDF. Cole o texto no corpo do e-mail. |\n| **Personalizar:** \"Oi [Nome do Jornalista], essa pauta é a cara da sua coluna\". | **Disparo em massa cego:** Mandar pauta de tecnologia para jornalista de esportes. |\n| **Timing:** Enviar com antecedência (para eventos) ou logo que o fato ocorre. | **Mentir ou exagerar:** Se perder a confiança do jornalista uma vez, perde para sempre. |\n\n---\n\n## 5. Estratégia de Distribuição (O \"Pulo do Gato\")\n\nDe nada adianta um texto perfeito se ele não chegar a quem publica.\n\n1.  **Segmentação de Mailing:** Crie listas específicas. Se o release é sobre Finanças, mande apenas para editores de Economia e Negócios.\n2.  **Assunto do E-mail:** É a sua única chance de ser aberto. Use o título do release ou uma variação atrativa dele.\n    *   *Dica:* Use colchetes para ajudar na identificação. Ex: `[Lançamento] Startup X recebe aporte de R$ 10mi`.\n3.  **O Corpo do E-mail:**\n    *   Cumprimente o jornalista.\n    *   Faça um \"pitch\" (resumo de 2 linhas) vendendo a pauta.\n    *   Cole o release completo logo abaixo.\n    *   Link para fotos/vídeos em uma pasta na nuvem (Drive/Dropbox).\n4.  **Follow-up:** Se não houver resposta em 24h-48h, vale um contato telefônico ou novo e-mail educado perguntando se ele recebeu o material.\n"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1z1t6naUa1bllYLqqUOO7oiLHnGEzlaZS"
+      },
+      "role": "user",
+      "tokenCount": 27044,
+      "createTime": "2026-07-09T16:01:45.849Z"
+    }, {
+      "driveDocument": {
+        "id": "1oNRQRBwkoACCSIlZro4CNOQA9NJHVwZD"
+      },
+      "role": "user",
+      "tokenCount": 19273,
+      "createTime": "2026-07-09T16:01:45.849Z"
+    }, {
+      "text": "Detalhe: O correto é ACIRV.\nCria um release dessa assembléia com os dados em anexo e os dados abaixo:\n\nContato de Imprensa: comunicação@acirv.com.br | (64) 99247-0988\nResponsável: Agência VCom",
+      "role": "user",
+      "tokenCount": 70,
+      "createTime": "2026-07-09T16:01:45.848Z"
+    }, {
+      "text": "**Comprehending the Objective**\n\nI\u0027m now focused on grasping the core of this ACIRV general assembly transcription. My initial task is clearly to create a press release, and my attention is on the nuances within the provided text. I\u0027m aiming to identify the key takeaways, decisions, and any noteworthy information that would be relevant for a press release.\n\n\n**Gathering Relevant Details**\n\nI\u0027ve moved on to gathering critical context. I\u0027ve confirmed ACIRV\u0027s correct name (Associação Comercial e Industrial de Rio Verde). I\u0027m incorporating the press contact details and the PR agency information. I\u0027m also confirming the target date is July 9, 2026, which is today! I\u0027m now cross-referencing this information with the transcription and dossier, and confirming a few items provided in the prompt.\n\n\n**Defining the Association Name**\n\nI\u0027ve nailed down the full name as \"Associação Comercial, Industrial e Serviços de Rio Verde – ACIRV\". I\u0027m considering shortening it in some contexts, but I think the full name has greater value. I will use the full name as the key reference.\n\n\n**Confirming Precise Details**\n\nI\u0027ve just confirmed the details with precision. The association name, ACIRV - Associação Comercial, Industrial e de Serviços de Rio Verde, is spot on. Furthermore, the president is definitively José Carlos Cintra, not the initially misheard names.\n\n\n**Verifying Financial Accuracy**\n\nI\u0027m now diving into the financial figures. Ana Rosa Moreno from Nexa/Necta Contabilidade presented them. I\u0027m focusing on key metrics: R$ 2.679 million in Total Wealth, R$ 1.044 million in Circulating Capital, and R$ 764,000 in Financial Availability, which includes bank and short-term investments. Also checking other figures, like Accounts Receivable, Prepaid Expenses, and Fixed Assets of the Association. I will now analyze the Net Equity.\n\n\n**Analyzing Financial Strengths**\n\nI\u0027m now analyzing ACIRV\u0027s financial strengths, particularly its own resources. The social equity of R$2.010 million constitutes 75% of the total wealth. The 2025 surplus of R$127,943 was fully reinvested, and income rose to R$1.427 million, a 7.35% increase, driven by membership dues, room rentals, and digital certificates. Administrative costs totaled R$1.27 million.\n\nI have included the Extraordinaria agenda where the deed transfer for the Le Monde room was approved. I\u0027ve noted inspirational speaker João Sassi\u0027s address on resilience and overcoming adversity, and have considered his words regarding my work on an action plan. Now, I\u0027m organizing a press release, starting with the header format as suggested.\n\n\n**Crafting PR Strategy**\n\nI\u0027m now drafting the press release, structuring it according to the provided guidelines. I\u0027ve formulated the headline, lead paragraph (focusing on the \"who, what, when, where\"), and I\u0027m currently working on the body, incorporating key financial figures and market context. Quotes from President José Carlos Cintra, Accountant Ana Rosa Moreno, and speaker João Sassi will be integrated for depth. I\u0027m also preparing the boilerplate about ACIRV and the press contact information, ensuring the piece is ready for distribution, maintaining a professional and accurate tone.\n\n\n**Summarizing Assembly Outcomes**\n\nI\u0027m now summarizing the key outcomes from the General Assembly. I see unanimous approval of the 2025 financial report and authorization for the Le Monde room deed transfer. Financial details provided by Ana Rosa Moreno highlight the entity\u0027s strength: R$ 2.67 million in total wealth and R$ 764,000 in financial availability. There was 7.35% revenue growth to R$ 1.427 million. The surplus of R$127,943 was fully reinvested.\n\n\n**Highlighting Association Investments**\n\nI\u0027m now highlighting investments made by the association for modernization. A complete refurbishment of the institutional auditorium is included. Dr. Luciano read the Fiscal Council\u0027s opinion, recommending the approval of financial statements without reservations, which was unanimously approved by the members. Following the AGM, the Extraordinary General Assembly addressed the regularization of a commercial room in the Le Monde building, with the deed transfer, which was approved. I have also noted President José Carlos Cintra\u0027s quote, which highlighted the importance of a strong, connected, and representative association.\n\n\n**Emphasizing Sudoexpo Advancements**\n\nI\u0027m now emphasizing the significant 33% financial advancement for Sudoexpo 2026, the multisetorial fair in Sudoeste Goiano, with R$250,279 invested. The event is set for September 9-12. Following the meeting, João Sassi\u0027s motivational talk on resilience and strategic planning resonated with its theme of overcoming adversity through clear goals and action.\n\n\n",
+      "role": "model",
+      "tokenCount": 2961,
+      "isThought": true,
+      "parts": [{
+        "text": "**Comprehending the Objective**\n\nI\u0027m now focused on grasping the core of this ACIRV general assembly transcription. My initial task is clearly to create a press release, and my attention is on the nuances within the provided text. I\u0027m aiming to identify the key takeaways, decisions, and any noteworthy information that would be relevant for a press release.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Gathering Relevant Details**\n\nI\u0027ve moved on to gathering critical context. I\u0027ve confirmed ACIRV\u0027s correct name (Associação Comercial e Industrial de Rio Verde). I\u0027m incorporating the press contact details and the PR agency information. I\u0027m also confirming the target date is July 9, 2026, which is today! I\u0027m now cross-referencing this information with the transcription and dossier, and confirming a few items provided in the prompt.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining the Association Name**\n\nI\u0027ve nailed down the full name as \"Associação Comercial, Industrial e Serviços de Rio Verde – ACIRV\". I\u0027m considering shortening it in some contexts, but I think the full name has greater value. I will use the full name as the key reference.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Confirming Precise Details**\n\nI\u0027ve just confirmed the details with precision. The association name, ACIRV - Associação Comercial, Industrial e de Serviços de Rio Verde, is spot on. Furthermore, the president is definitively José Carlos Cintra, not the initially misheard names.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Verifying Financial Accuracy**\n\nI\u0027m now diving into the financial figures. Ana Rosa Moreno from Nexa/Necta Contabilidade presented them. I\u0027m focusing on key metrics: R$ 2.679 million in Total Wealth, R$ 1.044 million in Circulating Capital, and R$ 764,000 in Financial Availability, which includes bank and short-term investments. Also checking other figures, like Accounts Receivable, Prepaid Expenses, and Fixed Assets of the Association. I will now analyze the Net Equity.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing Financial Strengths**\n\nI\u0027m now analyzing ACIRV\u0027s financial strengths, particularly its own resources. The social equity of R$2.010 million constitutes 75% of the total wealth. The 2025 surplus of R$127,943 was fully reinvested, and income rose to R$1.427 million, a 7.35% increase, driven by membership dues, room rentals, and digital certificates. Administrative costs totaled R$1.27 million.\n\nI have included the Extraordinaria agenda where the deed transfer for the Le Monde room was approved. I\u0027ve noted inspirational speaker João Sassi\u0027s address on resilience and overcoming adversity, and have considered his words regarding my work on an action plan. Now, I\u0027m organizing a press release, starting with the header format as suggested.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Crafting PR Strategy**\n\nI\u0027m now drafting the press release, structuring it according to the provided guidelines. I\u0027ve formulated the headline, lead paragraph (focusing on the \"who, what, when, where\"), and I\u0027m currently working on the body, incorporating key financial figures and market context. Quotes from President José Carlos Cintra, Accountant Ana Rosa Moreno, and speaker João Sassi will be integrated for depth. I\u0027m also preparing the boilerplate about ACIRV and the press contact information, ensuring the piece is ready for distribution, maintaining a professional and accurate tone.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Summarizing Assembly Outcomes**\n\nI\u0027m now summarizing the key outcomes from the General Assembly. I see unanimous approval of the 2025 financial report and authorization for the Le Monde room deed transfer. Financial details provided by Ana Rosa Moreno highlight the entity\u0027s strength: R$ 2.67 million in total wealth and R$ 764,000 in financial availability. There was 7.35% revenue growth to R$ 1.427 million. The surplus of R$127,943 was fully reinvested.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Highlighting Association Investments**\n\nI\u0027m now highlighting investments made by the association for modernization. A complete refurbishment of the institutional auditorium is included. Dr. Luciano read the Fiscal Council\u0027s opinion, recommending the approval of financial statements without reservations, which was unanimously approved by the members. Following the AGM, the Extraordinary General Assembly addressed the regularization of a commercial room in the Le Monde building, with the deed transfer, which was approved. I have also noted President José Carlos Cintra\u0027s quote, which highlighted the importance of a strong, connected, and representative association.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Emphasizing Sudoexpo Advancements**\n\nI\u0027m now emphasizing the significant 33% financial advancement for Sudoexpo 2026, the multisetorial fair in Sudoeste Goiano, with R$250,279 invested. The event is set for September 9-12. Following the meeting, João Sassi\u0027s motivational talk on resilience and strategic planning resonated with its theme of overcoming adversity through clear goals and action.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-07-09T16:01:45.849Z"
+    }, {
+      "text": "**Rio Verde (GO), 9 de Julho de 2026**\n\n### ACIRV aprova contas de 2025 e avança na regularização patrimonial em Assembleia Geral\n\n**RIO VERDE (GO)** – A Associação Comercial, Industrial e de Serviços de Rio Verde (ACIRV) realizou, nesta quinta-feira (9), suas Assembleias Gerais Ordinária (AGO) e Extraordinária (AGE) em sua sede. O encontro, que reuniu associados, diretores e parceiros institucionais, foi marcado pela prestação de contas do exercício de 2025, pela aprovação unânime do parecer do Conselho Fiscal e pela autorização para a outorga de uma escritura pendente no Edifício Le Monde.\n\nDurante a Assembleia Geral Ordinária, a contadora Ana Rosa Moreno, representando a Nexa Contabilidade, apresentou detalhadamente os indicadores econômico-financeiros da entidade. A ACIRV registrou uma solidez financeira consistente, com riqueza patrimonial mensurada em R$ 2,67 milhões e disponibilidade de R$ 764 mil em caixa e aplicações financeiras. \n\nA receita total do exercício de 2025 atingiu R$ 1.427.033, representando um crescimento de 7,35% em relação ao período anterior. Esse desempenho foi impulsionado principalmente pela arrecadação de mensalidades associativas (R$ 269 mil), locações de salas e emissão de certificados digitais (R$ 64.879,00). A gestão encerrou o período com um superávit de R$ 127.943,00, montante integralmente reinvestido no patrimônio da associação para modernização e melhorias estruturais de suporte aos associados.\n\nNa sequência, durante a Assembleia Geral Extraordinária, a presidência conduziu a pauta de regularização patrimonial de uma sala comercial no Edifício Le Monde, empreendimento erguido na área excedente da sede da ACIRV. Com a aprovação unânime dos associados, a diretoria obteve a autorização legal para outorgar a escritura pendente de compra e venda ao proprietário adquirente, encerrando um trâmite administrativo histórico.\n\n\u003e *\"Nosso papel primordial é a representatividade. Manter uma associação ativa, transparente e com a saúde financeira em dia exige dedicação contínua, mas o verdadeiro retorno para o empresariado está no fortalecimento coletivo, no ecossistema de conexões e no apoio ao desenvolvimento de Rio Verde\"*, destacou o presidente da ACIRV, José Carlos Cintra.\n\n#### Foco no fomento: Sudoexpo 2026 e Palestra Magna\nOs dados financeiros apresentados também evidenciaram o planejamento de longo prazo da entidade, com um crescimento de 33% voltado para a realização da Sudoexpo 2026 — considerada uma das maiores feiras multissetoriais do Centro-Oeste brasileiro, agendada para ocorrer entre 9 e 12 de setembro deste ano. A ACIRV registrou custos antecipados de R$ 250.279,00 aplicados na infraestrutura do evento.\n\nApós as deliberações oficiais de governança, o evento contou com a palestra de João Carlos Sandoval de Costa (João Sassi), atleta de crossfit, montanhista e palestrante. Sassi, que superou cinco diagnósticos de câncer e uma amputação na juventude, compartilhou insights práticos de resiliência, metas e execução estratégica voltados para o ambiente corporativo e pessoal. O encerramento teve ainda a participação de Antônio Oswaldo Santos Carvalho, que compartilhou uma mensagem de perseverança e fortalecimento das lideranças locais.\n\n---\n\n**Sobre a ACIRV:**  \nFundada em junho de 1984 por iniciativa de lideranças empresariais locais, a Associação Comercial, Industrial e de Serviços de Rio Verde (ACIRV) é uma entidade sem fins lucrativos comprometida em representar, defender e impulsionar o desenvolvimento econômico e social de Rio Verde e região. A associação oferece suporte técnico, capacitação, assessoria jurídica, networking empresarial e infraestrutura para fortalecer o comércio, a indústria e o setor de serviços.\n\n---\n\n**Contato de Imprensa:**  \nE-mail: comunicação@acirv.com.br  \nTelefone: (64) 99247-0988  \nResponsável: Agência VCom",
+      "role": "model",
+      "grounding": {
+        "corroborationSegments": [{
+          "index": 340,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGc668X36SDcg8Jlj4MN0wt5k2erbJjqPwBvs-7rHVTkg24c9bX7CJy6dcjnTb3EpU8IKxkB6pVI0msfzgGPbysRh1zTtQSm6jmyT9znU1BwtMF_1N0QuseksvrsWd8LyFLO4VIciKLlI3DJ1tjCtQuNOdhaA%3D%3D",
+          "footnoteNumber": 1
+        }, {
+          "index": 1292,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGc668X36SDcg8Jlj4MN0wt5k2erbJjqPwBvs-7rHVTkg24c9bX7CJy6dcjnTb3EpU8IKxkB6pVI0msfzgGPbysRh1zTtQSm6jmyT9znU1BwtMF_1N0QuseksvrsWd8LyFLO4VIciKLlI3DJ1tjCtQuNOdhaA%3D%3D",
+          "footnoteNumber": 1
+        }, {
+          "index": 2304,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH31SIVkS8hTXi-adctK3OXgDhTb8XmP9G6NzNCEXtSJw8p019kbjwqqj48479ePNHcz0nofLlF0cj7uXziRdPULpw0zKcfn-hvfi1EHewFWQ_m3mXP5AuZ67utWtbHFe4bxowNZ2MpCNSJTkJkhZysXheRG8DBj8wXsrSuyO66H1x499ad4yq3VRgNhkP8OUAkbxZbJ90GHTt0FHGb9rHiot87KjqTVQMCu0c0JTTAPbOnSO-hUowYBCup2ezH5V-gkudKsAu1vWMJG3uMTN15ojE%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 2668,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEGIA6yBmJkxZ3J6QDwTBhn4jRcXXb-o_lQu-eRt2aNQTKDTWjogNRIvw1z6DUPNd-Um3AqMViufWMRP1p6HVicLbY820O8ENgbs6RPSJYfKj-S4SPX5QLEj7TOlrpHB-Je5IlzHcf-mPnVKDdHvUwJOJtetVNFIfjuzHVKD5w-HO-XISOrLHA7iVLioTh93XyhW2sWfg%3D%3D",
+          "footnoteNumber": 3
+        }, {
+          "index": 2668,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFelH6-LZwq8r0K-9MSRhAYWYZuZZ-ZRWylhUC--DbwB2qm-KnN9pLMFkrzwCBic90Li_CcYL_QRJU-LlMqd-JV7C5M2EMvejlPJoFomU8jmfGzJ157TTI7GehiBRtqid21MNWFkiWJaNyEQnDRnGjva6dEaGCuGf3BMY3Rz1Xeu30MTHjVqG_ei36MQcdhIC64DGcIMyGau2Eh",
+          "footnoteNumber": 4
+        }, {
+          "index": 3643,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQG89e82z8CpRodmSTmtOXYs1kEJKPx4L9ZevlhYiczykDUIpHHsgxMQe4urxe4Cs6F_cOuKMiZP_geLYjs_Tt0jOItlsu5eTXV17Vna029S61KRqJKlZDHcPzmEn6vj3V0XUgjVSEaexoNBPQ%3D%3D",
+          "footnoteNumber": 5
+        }, {
+          "index": 3827,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQG89e82z8CpRodmSTmtOXYs1kEJKPx4L9ZevlhYiczykDUIpHHsgxMQe4urxe4Cs6F_cOuKMiZP_geLYjs_Tt0jOItlsu5eTXV17Vna029S61KRqJKlZDHcPzmEn6vj3V0XUgjVSEaexoNBPQ%3D%3D",
+          "footnoteNumber": 5
+        }],
+        "webSearchQueries": ["Sudoexpo ACIRV", "ACIRV Rio Verde", "Associação Comercial e Industrial de Rio Verde", "\"Sudoexpo\" Rio Verde 2026"],
+        "groundingSources": [{
+          "referenceNumber": 1,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGc668X36SDcg8Jlj4MN0wt5k2erbJjqPwBvs-7rHVTkg24c9bX7CJy6dcjnTb3EpU8IKxkB6pVI0msfzgGPbysRh1zTtQSm6jmyT9znU1BwtMF_1N0QuseksvrsWd8LyFLO4VIciKLlI3DJ1tjCtQuNOdhaA%3D%3D",
+          "title": "acirv.com.br"
+        }, {
+          "referenceNumber": 2,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH31SIVkS8hTXi-adctK3OXgDhTb8XmP9G6NzNCEXtSJw8p019kbjwqqj48479ePNHcz0nofLlF0cj7uXziRdPULpw0zKcfn-hvfi1EHewFWQ_m3mXP5AuZ67utWtbHFe4bxowNZ2MpCNSJTkJkhZysXheRG8DBj8wXsrSuyO66H1x499ad4yq3VRgNhkP8OUAkbxZbJ90GHTt0FHGb9rHiot87KjqTVQMCu0c0JTTAPbOnSO-hUowYBCup2ezH5V-gkudKsAu1vWMJG3uMTN15ojE%3D",
+          "title": "go.leg.br"
+        }, {
+          "referenceNumber": 3,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEGIA6yBmJkxZ3J6QDwTBhn4jRcXXb-o_lQu-eRt2aNQTKDTWjogNRIvw1z6DUPNd-Um3AqMViufWMRP1p6HVicLbY820O8ENgbs6RPSJYfKj-S4SPX5QLEj7TOlrpHB-Je5IlzHcf-mPnVKDdHvUwJOJtetVNFIfjuzHVKD5w-HO-XISOrLHA7iVLioTh93XyhW2sWfg%3D%3D",
+          "title": "go.leg.br"
+        }, {
+          "referenceNumber": 4,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFelH6-LZwq8r0K-9MSRhAYWYZuZZ-ZRWylhUC--DbwB2qm-KnN9pLMFkrzwCBic90Li_CcYL_QRJU-LlMqd-JV7C5M2EMvejlPJoFomU8jmfGzJ157TTI7GehiBRtqid21MNWFkiWJaNyEQnDRnGjva6dEaGCuGf3BMY3Rz1Xeu30MTHjVqG_ei36MQcdhIC64DGcIMyGau2Eh",
+          "title": "jornalfc.com"
+        }, {
+          "referenceNumber": 5,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQG89e82z8CpRodmSTmtOXYs1kEJKPx4L9ZevlhYiczykDUIpHHsgxMQe4urxe4Cs6F_cOuKMiZP_geLYjs_Tt0jOItlsu5eTXV17Vna029S61KRqJKlZDHcPzmEn6vj3V0XUgjVSEaexoNBPQ%3D%3D",
+          "title": "acirv.com.br"
+        }]
+      },
+      "finishReason": "STOP",
+      "tokenCount": 1021,
+      "parts": [{
+        "text": "**Rio Verde (GO), 9 de Julho de 2026**\n\n"
+      }, {
+        "text": "### ACIRV aprova contas de 2025 e avança na regularização patrimonial em Assembleia Geral\n\n"
+      }, {
+        "text": "**RIO VERDE (GO)** – A Associação Comercial, Industrial e de Serviços de Rio Verde (ACIRV) realiz"
+      }, {
+        "text": "ou, nesta quinta-feira (9), suas Assembleias Gerais Ordinária (AGO) e Extraordinária (AGE) em sua sede"
+      }, {
+        "text": ". O encontro, que reuniu associados, diretores e parceiros institucionais,"
+      }, {
+        "text": " foi marcado pela prestação de contas do exercício de 2025, pela aprovação unânime do parecer do Conselho Fiscal e"
+      }, {
+        "text": " pela autorização para a outorga de uma escritura pendente no Edifício Le Monde.\n\nDurante a Assembleia Geral Ordinária"
+      }, {
+        "text": ", a contadora Ana Rosa Moreno, representando a Nexa Contabilidade, apresentou detalhadamente os indicadores econômico-financeiros da entidade"
+      }, {
+        "text": ". A ACIRV registrou uma solidez financeira consistente, com riqueza patrimonial mensurada em R$ 2,6"
+      }, {
+        "text": "7 milhões e disponibilidade de R$ 764 mil em caixa e aplicações financeiras. \n\nA receita total do exercício"
+      }, {
+        "text": " de 2025 atingiu R$ 1.427.033, representando um crescimento de 7,"
+      }, {
+        "text": "35% em relação ao período anterior. Esse desempenho foi impulsionado principalmente pela arrecadação de mensalidades associativas (R$ "
+      }, {
+        "text": "269 mil), locações de salas e emissão de certificados digitais (R$ 64.879,"
+      }, {
+        "text": "00). A gestão encerrou o período com um superávit de R$ 127"
+      }, {
+        "text": ".943,00, montante integralmente reinvestido no patrimônio da associação para modernização e melhorias estruturais de"
+      }, {
+        "text": " suporte aos associados.\n\nNa sequência, durante a Assembleia Geral Extraordinária, a presidência conduziu a pauta"
+      }, {
+        "text": " de regularização patrimonial de uma sala comercial no Edifício Le Monde, empreendimento erguido na área excedente"
+      }, {
+        "text": " da sede da ACIRV. Com a aprovação unânime dos associados, a diretoria obteve a autorização legal"
+      }, {
+        "text": " para outorgar a escritura pendente de compra e venda ao proprietário adquirente, encerrando um trâmite administrativo histórico"
+      }, {
+        "text": ".\n\n\u003e *\"Nosso papel primordial é a representatividade. Manter uma associação ativa, transparente e com a saúde financeira em"
+      }, {
+        "text": " dia exige dedicação contínua, mas o verdadeiro retorno para o empresariado está no fortalecimento coletivo, no ec"
+      }, {
+        "text": "ossistema de conexões e no apoio ao desenvolvimento de Rio Verde\"*, destacou o presidente da ACIRV,"
+      }, {
+        "text": " José Carlos Cintra.\n\n#### Foco no fomento: Sudoexpo 202"
+      }, {
+        "text": "6 e Palestra Magna\nOs dados financeiros apresentados também evidenciaram o planejamento de longo prazo da entidade, com um crescimento de"
+      }, {
+        "text": " 33% voltado para a realização da Sudoexpo 2026 — considerada uma das maiores feiras multisset"
+      }, {
+        "text": "oriais do Centro-Oeste brasileiro, agendada para ocorrer entre 9 e 12 de setembro deste ano"
+      }, {
+        "text": ". A ACIRV registrou custos antecipados de R$ 25"
+      }, {
+        "text": "0.279,00 aplicados na infraestrutura do evento.\n\nApós as deliberações oficiais"
+      }, {
+        "text": " de governança, o evento contou com a palestra de João Carlos Sandoval de Costa (João Sassi), atleta de crossfit, montanhista"
+      }, {
+        "text": " e palestrante. Sassi, que superou cinco diagnósticos de câncer e uma amputação na juventude"
+      }, {
+        "text": ", compartilhou insights práticos de resiliência, metas e execução estratégica voltados para o ambiente corporativo e pessoal. O enc"
+      }, {
+        "text": "erramento teve ainda a participação de Antônio Oswaldo Santos Carvalho, que compartilhou uma mensagem de perseverança e fortalecimento das lider"
+      }, {
+        "text": "anças locais.\n\n---\n\n**Sobre a ACIRV:**  \nFundada em junho de 1984"
+      }, {
+        "text": " por iniciativa de lideranças empresariais locais, a Associação Comercial, Industrial e de Serviços de Rio Verde (ACIRV) é uma"
+      }, {
+        "text": " entidade sem fins lucrativos comprometida em representar, defender e impulsionar o desenvolvimento econômico e social de Rio Verde e região"
+      }, {
+        "text": ". A associação oferece suporte técnico, capacitação, assessoria jurídica, networking empresarial e infra"
+      }, {
+        "text": "estrutura para fortalecer o comércio, a indústria e o setor de serviços.\n\n---\n\n**Contato"
+      }, {
+        "text": " de Imprensa:**  \nE-mail: comunicação@acirv.com.br  \nTelefone:"
+      }, {
+        "text": " (64) 99247-0988  \nResponsável: Agência VCom"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-07-09T16:02:11.430Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

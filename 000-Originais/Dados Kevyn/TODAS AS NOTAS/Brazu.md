@@ -1,0 +1,1 @@
+É lindo de mais, copilot, parallaxer, easy keyframes, tudo de bom. É um plugin pago.

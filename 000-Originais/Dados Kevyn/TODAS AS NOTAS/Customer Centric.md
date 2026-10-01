@@ -1,0 +1,1 @@
+Significa pedir feedback constante e fazer acontecer o que o cliente pede. Coloque o cliente no centro e ouvir ele com sinceridade.

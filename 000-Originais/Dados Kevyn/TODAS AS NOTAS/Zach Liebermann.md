@@ -1,0 +1,1 @@
+Artista de programação de Nova York, ele está sempre se inovando e trabalhando em novos experimentos.

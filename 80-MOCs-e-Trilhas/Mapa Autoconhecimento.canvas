@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"kevyn","type":"file","file":"01-Perfil-e-Autoconhecimento/Kevyn Lucas.md","x":0,"y":0,"width":360,"height":220},
+		{"id":"qualities","type":"file","file":"01-Perfil-e-Autoconhecimento/Mapa de qualidades.md","x":-800,"y":-320,"width":360,"height":220},
+		{"id":"difficult","type":"file","file":"01-Perfil-e-Autoconhecimento/Mapa de dificuldades.md","x":-400,"y":-320,"width":360,"height":220},
+		{"id":"contr","type":"file","file":"01-Perfil-e-Autoconhecimento/Contradicoes centrais.md","x":0,"y":-320,"width":360,"height":220},
+		{"id":"care","type":"file","file":"01-Perfil-e-Autoconhecimento/Cuidado de si.md","x":400,"y":-320,"width":360,"height":220},
+		{"id":"learn","type":"file","file":"01-Perfil-e-Autoconhecimento/Estilo de aprendizagem.md","x":800,"y":-320,"width":360,"height":220},
+		{"id":"work","type":"file","file":"04-Trabalho-Vocacao-e-Projetos/Trajetoria profissional.md","x":-600,"y":350,"width":360,"height":220},
+		{"id":"rel","type":"file","file":"03-Relacionamentos-e-Rede/Rede de relacoes.md","x":-200,"y":350,"width":360,"height":220},
+		{"id":"spirit","type":"file","file":"05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md","x":200,"y":350,"width":360,"height":220},
+		{"id":"health","type":"file","file":"06-Saude-Autocuidado-e-Autorregulacao/Revisao semanal de autocuidado.md","x":600,"y":350,"width":360,"height":220}
+	],
+	"edges":[
+		{"id":"e01","fromNode":"kevyn","toNode":"qualities","label":"apresenta","fromSide":"left","toSide":"right"},
+		{"id":"e02","fromNode":"kevyn","toNode":"difficult","label":"enfrenta","fromSide":"top","toSide":"bottom"},
+		{"id":"e03","fromNode":"kevyn","toNode":"contr","label":"integra","fromSide":"top","toSide":"bottom"},
+		{"id":"e04","fromNode":"kevyn","toNode":"care","label":"pratica","fromSide":"top","toSide":"bottom"},
+		{"id":"e05","fromNode":"kevyn","toNode":"learn","label":"aprende por","fromSide":"right","toSide":"left"},
+		{"id":"e06","fromNode":"kevyn","toNode":"work","label":"atua em","fromSide":"left","toSide":"right"},
+		{"id":"e07","fromNode":"kevyn","toNode":"rel","label":"participa de","fromSide":"bottom","toSide":"top"},
+		{"id":"e08","fromNode":"kevyn","toNode":"spirit","label":"produz sentido com","fromSide":"bottom","toSide":"top"},
+		{"id":"e09","fromNode":"kevyn","toNode":"health","label":"revisa","fromSide":"right","toSide":"left"}
+	]
+}

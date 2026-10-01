@@ -1,0 +1,42 @@
+---
+id: registro-tecnologias-de-si
+titulo: Registro - Tecnologias de Si
+tipo: registro_fonte
+subtipo: nota_autorregulacao
+status: arquivado
+profundidade: fonte_integral
+versao_schema: '1.0'
+versao_conteudo: '1.0'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+camada_evidencia: misto
+grau_confianca: medio
+sensibilidade: muito_alta
+fonte_catalogo: '[[Fonte - Tecnologias de Si]]'
+caminho_origem: Vontade/Tecnologias de Si.md
+sha256_origem: 05b250ff474b76e23fecc0db75e0394f3516b44da51fc268b95ee92b094c28b2
+normalizacao: wikilinks_desativados; frontmatter_adicionado
+tags:
+- tipo/registro-fonte
+- privacidade/restrita
+---
+# Registro - Tecnologias de Si
+
+> [!warning] Cópia de leitura normalizada
+> O conteúdo abaixo foi copiado da origem; sequências de wikilink foram desativadas para não contaminar o grafo. O original byte a byte permanece no ZIP arquivado.
+
+Um estudo do ensaio de mesmo nome do Michel Focault.
+O contexto do "Conhece-te a ti mesmo" foi deturpado pelo tempo e o saber inconsciente coletivo sobre essa frase é uma superficialidade ilusória. O objetivo real dessa frase colocada no portal de entrada do Oráculo de Delfos era simplesmente evitar que perguntas tolas fossem feitas ao oráculo. O que se define aqui por "perguntas tolas" é exatamente aquelas que poderiam ser respondidas caso o consultante parasse por um minuto para refletir e que considerasse com seriedade sobre o que de fato deseja consultar com o oráculo.
+O verdadeiro princípio máximo da filosofia antiga a qual "Conhece-te a ti mesmo" parece se submeter é "Cuida de ti mesmo".
+Alcibiades I é o primeiro texto de platão no qual foi dialogado sobre a dominância do último sobre o primeiro. 
+No sentido platônico, o indivíduo deve se tornar o médico de si. Somente cuidando de si, ainda segundo platão, podemos estar sempre prontos para uma realização plena da vida.
+Vigiar e punir parece ser desde muito tempo atrás uma técnica interessante para ser aplicada até mesmo no domínio de si. Sêneca já fazia isso em seus diários, mas ele não se colocava como carrasco e juiz, e sim como administrador de si, ou seja, sem culpa ou julgamento, talvez com punições brandas porém constantes enquanto que o comportamento não se ajuste. Ele via o erro estratégico cometido enquanto tentava se aproximar de si como o melhor dos erros.
+Eu gostaria de sublinhar o fato de que no estoicismo não é a decifração de si, nem os meios de revelar um segredo, que importam; é a memória daquilo que fez e daquilo que teve que fazer.
+O texto acabou se voltando bastante para o estoicismo, e isso estava interessante.
+Depois se voltou um pouco para o cristianismo, e isso não estava interessante.
+Em suma, tu deve se tornar um administrador de si, e para isso, deve tratar de com bastante constância revelar-se a si mesmo em particular, tratar de medir a distância do seu comportamento atual com o comportamento desejado e planejar essa mudança. A próprio ato de "Vigiar" já é uma punição branda e constante que irá fazer com que a mudança ocorra.
+Uma parte interessante estudada por Foucault neste trecho é a metáfora do vigia e do cambista desenvolvida por Epíteto, que aqui vou adaptar um pouco: O vigia deve ser aquele monitora o comportamento, anotando hora, duração, potência e sentimento durante execução, enquanto que o cambista é aquele que pesa os pensamentos.
+O objetivo e a medida de pesagem do cambista ficou subjetivo em Foucault, mas aqui eu irei as definir: O cambista deve pesar o pensamento para o comparar com o conceito de verdade no estoicismo: _Askêsis_. 
+Askêsis significa, não a renúncia, mas a progressiva consideração de si, ou o domínio de si, obtido não por meio da renúncia da realidade, mas pela aquisição e assimilação da verdade. Askêsis é um conjunto de práticas pela qual o indivíduo pode adquirir, assimilar e transformar a verdade em um permanente princípio de ação. Aletheia torna-se ethos, logos torna-se práxis. 
+É com a askêsis que o pensamento deve ser medido. Como quando Anúbis pesa o coração na mitologia egípcia, neste caso, a metáfora seria assim: Se o seu coração for mais pesado que askêsis, significa que você ainda não está alinhado com a verdade, a verdade nesse caso sendo a prática diária de se administrar para que se alcance o comportamento desejado.

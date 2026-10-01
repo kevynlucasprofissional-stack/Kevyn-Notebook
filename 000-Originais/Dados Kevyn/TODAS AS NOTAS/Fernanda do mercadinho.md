@@ -1,0 +1,1 @@
+Faz aniversário no dia dos namorados.

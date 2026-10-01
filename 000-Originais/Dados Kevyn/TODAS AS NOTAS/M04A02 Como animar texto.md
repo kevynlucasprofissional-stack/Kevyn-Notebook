@@ -1,0 +1,2 @@
+Basta clicar duas vezes em um efeito que ele já será adicionado a camada selecionada. Geralmente os efeitos também levam em conta a posição da agulha na timeline.
+Na camada de texto tem um botão escrito "Animate", ao clicar nele irá aparecer diversos parâmetros de texto que podem ser animados. Alguns deles são os parâmetros que podem ser modificados pelo menu "Character", mas que não podem ser animados por lá.

@@ -1,0 +1,1 @@
+Wrap cria um efeito líquido. Fazendo um shape ficar com um rastro mole.

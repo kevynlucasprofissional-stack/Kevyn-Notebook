@@ -1,0 +1,408 @@
+{
+  "descricao": "Resolução literal dos nomes extraídos, sem decodificar sequências #Uxxxx. Exclui a nota acidental de contexto.",
+  "wikilinks_ocorrencias": 1488,
+  "ocorrencias_sem_destino": 387,
+  "alvos_distintos_sem_destino": 77,
+  "amostra": [
+    {
+      "origem": "00 - In#U00edcio/Como usar este cofre V4.5.md",
+      "link": "MOC - Pós-Nietzsche V4.5"
+    },
+    {
+      "origem": "00 - In#U00edcio/Como usar este cofre V4.5.md",
+      "link": "Metodologia do índice argumentado de síntese"
+    },
+    {
+      "origem": "00 - In#U00edcio/MOC - P#U00f3s-Nietzsche V4.5.md",
+      "link": "Metodologia do índice argumentado de síntese"
+    },
+    {
+      "origem": "00 - In#U00edcio/MOC - P#U00f3s-Nietzsche V4.5.md",
+      "link": "Centralidade visual não é verdade filosófica"
+    },
+    {
+      "origem": "00 - In#U00edcio/MOC - P#U00f3s-Nietzsche V4.5.md",
+      "link": "Jürgen Habermas"
+    },
+    {
+      "origem": "00 - In#U00edcio/MOC - P#U00f3s-Nietzsche V4.5.md",
+      "link": "Auditoria técnica da V4.5"
+    },
+    {
+      "origem": "00 - In#U00edcio/MOC - P#U00f3s-Nietzsche V4.5.md",
+      "link": "Auditoria científica da V4.5"
+    },
+    {
+      "origem": "00 - In#U00edcio/MOC - P#U00f3s-Nietzsche V4.5.md",
+      "link": "Auditoria ontológica da V4.5"
+    },
+    {
+      "origem": "00 - In#U00edcio/MOC - P#U00f3s-Nietzsche V4.5.md",
+      "link": "Auditoria de poluição do grafo da V4.5"
+    },
+    {
+      "origem": "01 - Autores centrais/Achille Mbembe.md",
+      "link": "Pós-colonialismo"
+    },
+    {
+      "origem": "01 - Autores centrais/Achille Mbembe.md",
+      "link": "Teoria política"
+    },
+    {
+      "origem": "01 - Autores centrais/Achille Mbembe.md",
+      "link": "Necropolítica"
+    },
+    {
+      "origem": "01 - Autores centrais/Achille Mbembe.md",
+      "link": "Biopolítica"
+    },
+    {
+      "origem": "01 - Autores centrais/Achille Mbembe.md",
+      "link": "Pós-colonialismo"
+    },
+    {
+      "origem": "01 - Autores centrais/Achille Mbembe.md",
+      "link": "Teoria política"
+    },
+    {
+      "origem": "01 - Autores centrais/Achille Mbembe.md",
+      "link": "Necropolítica"
+    },
+    {
+      "origem": "01 - Autores centrais/Achille Mbembe.md",
+      "link": "Biopolítica"
+    },
+    {
+      "origem": "01 - Autores centrais/Achille Mbembe.md",
+      "link": "Necropolítica"
+    },
+    {
+      "origem": "01 - Autores centrais/Achille Mbembe.md",
+      "link": "Biopolítica"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Pós-humanismo"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Estudos de ciência e tecnologia"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Híbridos"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Tradução"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Purificação"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Pós-humanismo"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Estudos de ciência e tecnologia"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Híbridos"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Tradução"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Purificação"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Híbridos"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Tradução"
+    },
+    {
+      "origem": "01 - Autores centrais/Bruno Latour.md",
+      "link": "Purificação"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Filosofia contemporânea"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Crítica social"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Filosofia da Técnica"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Psicopolítica"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Sociedade do cansaço"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Autoexploração"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Transparência"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Filosofia contemporânea"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Crítica social"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Filosofia da Técnica"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Psicopolítica"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Sociedade do cansaço"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Autoexploração"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Transparência"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Psicopolítica"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Sociedade do cansaço"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Autoexploração"
+    },
+    {
+      "origem": "01 - Autores centrais/Byung-Chul Han.md",
+      "link": "Transparência"
+    },
+    {
+      "origem": "01 - Autores centrais/Donna Haraway.md",
+      "link": "Pós-humanismo"
+    },
+    {
+      "origem": "01 - Autores centrais/Donna Haraway.md",
+      "link": "Estudos de ciência e tecnologia"
+    },
+    {
+      "origem": "01 - Autores centrais/Donna Haraway.md",
+      "link": "Tecnociência"
+    },
+    {
+      "origem": "01 - Autores centrais/Donna Haraway.md",
+      "link": "Pós-humanismo"
+    },
+    {
+      "origem": "01 - Autores centrais/Donna Haraway.md",
+      "link": "Estudos de ciência e tecnologia"
+    },
+    {
+      "origem": "01 - Autores centrais/Donna Haraway.md",
+      "link": "Tecnociência"
+    },
+    {
+      "origem": "01 - Autores centrais/Donna Haraway.md",
+      "link": "Tecnociência"
+    },
+    {
+      "origem": "01 - Autores centrais/Friedrich Nietzsche.md",
+      "link": "Crítica da moral"
+    },
+    {
+      "origem": "01 - Autores centrais/Friedrich Nietzsche.md",
+      "link": "Vontade de potência"
+    },
+    {
+      "origem": "01 - Autores centrais/Friedrich Nietzsche.md",
+      "link": "Crítica da moral"
+    },
+    {
+      "origem": "01 - Autores centrais/Friedrich Nietzsche.md",
+      "link": "Vontade de potência"
+    },
+    {
+      "origem": "01 - Autores centrais/Friedrich Nietzsche.md",
+      "link": "Vontade de potência"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Pós-estruturalismo"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Filosofia da diferença"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Diferença"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Forças ativas"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Afirmação"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Pós-estruturalismo"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Filosofia da diferença"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Diferença"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Forças ativas"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Afirmação"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Diferença"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Forças ativas"
+    },
+    {
+      "origem": "01 - Autores centrais/Gilles Deleuze.md",
+      "link": "Afirmação"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Derrida.md",
+      "link": "Desconstrução (corrente)"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Derrida.md",
+      "link": "Pós-estruturalismo"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Derrida.md",
+      "link": "Desconstrução (corrente)"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Derrida.md",
+      "link": "Différance"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Derrida.md",
+      "link": "Desconstrução (corrente)"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Derrida.md",
+      "link": "Pós-estruturalismo"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Derrida.md",
+      "link": "Desconstrução (corrente)"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Derrida.md",
+      "link": "Différance"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Derrida.md",
+      "link": "Desconstrução (corrente)"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Derrida.md",
+      "link": "Différance"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Lacan.md",
+      "link": "Psicanálise"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Lacan.md",
+      "link": "Estádio do espelho"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Lacan.md",
+      "link": "Psicanálise"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Lacan.md",
+      "link": "Estádio do espelho"
+    },
+    {
+      "origem": "01 - Autores centrais/Jacques Lacan.md",
+      "link": "Estádio do espelho"
+    },
+    {
+      "origem": "01 - Autores centrais/Jean-Paul Sartre.md",
+      "link": "Má-fé"
+    },
+    {
+      "origem": "01 - Autores centrais/Jean-Paul Sartre.md",
+      "link": "Situação"
+    },
+    {
+      "origem": "01 - Autores centrais/Jean-Paul Sartre.md",
+      "link": "Má-fé"
+    },
+    {
+      "origem": "01 - Autores centrais/Jean-Paul Sartre.md",
+      "link": "Situação"
+    },
+    {
+      "origem": "01 - Autores centrais/Jean-Paul Sartre.md",
+      "link": "Má-fé"
+    },
+    {
+      "origem": "01 - Autores centrais/Jean-Paul Sartre.md",
+      "link": "Situação"
+    },
+    {
+      "origem": "01 - Autores centrais/Judith Butler.md",
+      "link": "Pós-estruturalismo"
+    },
+    {
+      "origem": "01 - Autores centrais/Judith Butler.md",
+      "link": "Sujeição"
+    },
+    {
+      "origem": "01 - Autores centrais/Judith Butler.md",
+      "link": "Gênero"
+    },
+    {
+      "origem": "01 - Autores centrais/Judith Butler.md",
+      "link": "Pós-estruturalismo"
+    }
+  ]
+}

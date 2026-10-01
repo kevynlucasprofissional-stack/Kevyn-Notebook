@@ -1,0 +1,1 @@
+Ao clicar um objeto animado via KeyFrames, é mostrado as track properties (Propriedades de movimento). Em "After" tem várias propriedades interessantes, incluindo a de looping, que faz uma animação se repetir até o final da composição.

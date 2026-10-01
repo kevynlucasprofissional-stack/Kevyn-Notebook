@@ -1,0 +1,1 @@
+Um efeito que pode ser aplicado em um adjustment Layer, e tudo abaixo dele será renderizado na taxa de FPS programada. É usando este efeito que se pode estilizar um vídeo como se fosse "Step-to-step", que a animação vai pulando de um ponto ao outro.

@@ -1,0 +1,446 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1yNk3v4CmapDLBGq4XztUNV7lDoTrpSDo"
+      },
+      "role": "user",
+      "tokenCount": 22108,
+      "createTime": "2026-03-15T10:45:01.372Z"
+    }, {
+      "text": "Anexei um pdf contendo o plano completo para construir o meu SaaS no Lovable. Preciso que otimize isso para um prompt que o Lovable vá entender perfeitamente, e que já me entregue o script SQL que será necessário rodar antes de o Lovable começar a construir o código, pois assim iremos facilitar o trabalho da IA do Lovable. Resumindo, gere o Script SQL e gere o prompt para Lovable que irá construir por completo e com precisão o SaaS descrito no documento em anexo.",
+      "role": "user",
+      "tokenCount": 109,
+      "createTime": "2026-03-15T10:45:01.372Z"
+    }, {
+      "text": "**Defining the Scope**\n\nI\u0027m now focusing on understanding the ultimate objective: building Ágora. I need to fully grasp the scope as outlined in the Markdown documentation, specifically its multi-agent AI marketing analyst functionality, and how *Lovable* will be used. Currently, I\u0027m working through these requirements to outline the core components for Ágora\u0027s development using *Lovable*.\n\n\n**Refining the Deliverables**\n\nI\u0027m now zeroing in on the outputs. My aim is to crystallize all the specs into two crucial assets. Firstly, a ready-to-use SQL script for Supabase is being developed. Secondly, I\u0027m meticulously crafting an optimal Prompt for *Lovable*, ensuring the AI builds Ágora accurately. Currently, I\u0027m breaking down the Ágora SaaS specs to refine these outputs. This includes the core engine\u0027s multi-agent system, along with feature details for auth, subscription tiers, dashboards, chats, etc.\n\n\n**Defining the Database Structure**\n\nI\u0027m now deep-diving into the database tables and Row Level Security (RLS) rules. The user flow I\u0027ve defined is: Landing -\u003e Login -\u003e Dashboard -\u003e Chat -\u003e Processing -\u003e Report -\u003e Feedback. I\u0027m focusing on key integrations like Supabase, Stripe, OpenAI, and various APIs. Security measures, including RLS and input sanitization, are a key focus. The SQL script is a priority, adapting the base structure and incorporating RLS policies and seed data for immediate functionality. I\u0027m correcting my approach to align with Supabase auth tables for the user table.\n\n\n**Structuring the Supabase Schema**\n\nI\u0027m now implementing the Supabase database schema, creating tables for `user_request`, `user_uploads`, `agent`, `agent_response`, `agent_uploads`, `enterprises`, and `user_enterprise`. I\u0027m enabling RLS on all tables and crafting policies that grant users read/write access to their own data, allow the System/Service role to write agent responses, and permit any authenticated user to read plans/agents. I\u0027m also preparing a trigger for new user signups and working to align the auth tables.\n\n\n\n**Mapping the App Screens**\n\nI\u0027m now outlining the UI flow for Ágora, focusing on Supabase for auth, database, and storage. I\u0027ve broken down the app\u0027s screens: Landing, Auth, Dashboard, Chat, and Report. The core logic now includes subscription checks and multi-agent flow. I\u0027m aiming for a professional, consulting-style aesthetic for the app UI, incorporating dark mode. I\u0027m clarifying that the system prompts will be managed backend, and the UI will send user requests and listen for responses.",
+      "role": "model",
+      "tokenCount": 1395,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Scope**\n\nI\u0027m now focusing on understanding the ultimate objective: building Ágora. I need to fully grasp the scope as outlined in the Markdown documentation, specifically its multi-agent AI marketing analyst functionality, and how *Lovable* will be used. Currently, I\u0027m working through these requirements to outline the core components for Ágora\u0027s development using *Lovable*.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Refining the Deliverables**\n\nI\u0027m now zeroing in on the outputs. My aim is to crystallize all the specs into two crucial assets. Firstly, a ready-to-use SQL script for Supabase is being developed. Secondly, I\u0027m meticulously crafting an optimal Prompt for *Lovable*, ensuring the AI builds Ágora accurately. Currently, I\u0027m breaking down the Ágora SaaS specs to refine these outputs. This includes the core engine\u0027s multi-agent system, along with feature details for auth, subscription tiers, dashboards, chats, etc.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Defining the Database Structure**\n\nI\u0027m now deep-diving into the database tables and Row Level Security (RLS) rules. The user flow I\u0027ve defined is: Landing -\u003e Login -\u003e Dashboard -\u003e Chat -\u003e Processing -\u003e Report -\u003e Feedback. I\u0027m focusing on key integrations like Supabase, Stripe, OpenAI, and various APIs. Security measures, including RLS and input sanitization, are a key focus. The SQL script is a priority, adapting the base structure and incorporating RLS policies and seed data for immediate functionality. I\u0027m correcting my approach to align with Supabase auth tables for the user table.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Structuring the Supabase Schema**\n\nI\u0027m now implementing the Supabase database schema, creating tables for `user_request`, `user_uploads`, `agent`, `agent_response`, `agent_uploads`, `enterprises`, and `user_enterprise`. I\u0027m enabling RLS on all tables and crafting policies that grant users read/write access to their own data, allow the System/Service role to write agent responses, and permit any authenticated user to read plans/agents. I\u0027m also preparing a trigger for new user signups and working to align the auth tables.",
+        "thought": true
+      }, {
+        "text": "\n\n\n\n**Mapping the App Screens**\n\nI\u0027m now outlining the UI flow for Ágora, focusing on Supabase for auth, database, and storage. I\u0027ve broken down the app\u0027s screens: Landing, Auth, Dashboard, Chat, and Report. The core logic now includes subscription checks and multi-agent flow. I\u0027m aiming for a professional, consulting-style aesthetic for the app UI, incorporating dark mode. I\u0027m clarifying that the system prompts will be managed backend, and the UI will send user requests and listen for responses.",
+        "thought": true
+      }],
+      "createTime": "2026-03-15T10:49:12.944Z"
+    }, {
+      "text": "\n\n\nCom base em toda a documentação estruturada do Ágora, preparei os dois entregáveis exatos que você precisa para ter sucesso com o Lovable. \n\nO Lovable é uma IA fantástica para construir o frontend (React/Vite/Tailwind + shadcn/ui) e conectar nativamente com o Supabase. Para que ele não se perca na complexidade do seu motor de IA, **nós vamos dividir as responsabilidades:**\n\n1. **Você** vai rodar o Script SQL no Supabase primeiro (já com todas as regras de segurança e tabelas essenciais).\n2. **O Lovable** vai receber o prompt otimizado dizendo que o banco já existe e instruindo a criação de todas as telas, rotas e integrações do Supabase.\n\nAqui está o seu plano de ação:\n\n---\n\n### PASSO 1: O Script SQL (Rode isso no seu Supabase)\n\nCrie um projeto no Supabase, vá até o **SQL Editor**, cole o código abaixo e clique em *Run*. Este script cria as tabelas, configura os planos iniciais, os agentes, vincula a autenticação e aplica as regras de segurança (RLS) descritas no seu documento.\n\n```sql\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n-- BANCO DE DADOS ÁGORA - SCRIPT DE INICIALIZAÇÃO (SUPABASE)\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\n-- 1. TABELAS DE CONFIGURAÇÃO E ASSINATURA\nCREATE TABLE public.plan (\n    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,\n    name VARCHAR(50) NOT NULL,\n    price DECIMAL(10, 2) NOT NULL,\n    uploads_limit INTEGER NOT NULL,\n    recurrence VARCHAR(20) NOT NULL\n);\n\n-- Tabela de Usuários vinculada ao auth.users do Supabase\nCREATE TABLE public.users (\n    id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,\n    name VARCHAR(255),\n    email VARCHAR(255) UNIQUE NOT NULL,\n    plan_id BIGINT REFERENCES public.plan(id) DEFAULT 1,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 2. TABELAS DE NEGÓCIO E FLUXO DE ANÁLISE\nCREATE TABLE public.user_request (\n    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    user_id UUID NOT NULL REFERENCES public.users(id) ON DELETE CASCADE,\n    content TEXT NOT NULL,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),\n    updated_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\nCREATE TABLE public.user_uploads (\n    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    user_id UUID NOT NULL REFERENCES public.users(id) ON DELETE CASCADE,\n    request_id UUID REFERENCES public.user_request(id),\n    file_url TEXT NOT NULL,\n    content_transcription TEXT,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 3. TABELAS DO SISTEMA MULTI-AGENTE\nCREATE TABLE public.agent (\n    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    agent_name VARCHAR(100) NOT NULL,\n    agent_type VARCHAR(50) NOT NULL\n);\n\nCREATE TABLE public.agent_response (\n    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,\n    agent_id UUID NOT NULL REFERENCES public.agent(id),\n    request_id UUID NOT NULL REFERENCES public.user_request(id) ON DELETE CASCADE,\n    content JSONB NOT NULL,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\nCREATE TABLE public.agent_uploads (\n    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    agent_id UUID NOT NULL REFERENCES public.agent(id),\n    request_id UUID NOT NULL REFERENCES public.user_request(id),\n    content TEXT NOT NULL,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 4. INSERÇÃO DE DADOS INICIAIS (SEED)\nINSERT INTO public.plan (name, price, uploads_limit, recurrence) VALUES\n(\u0027Freemium\u0027, 0.00, 2, \u0027mensal\u0027),\n(\u0027Standard\u0027, 97.00, 5, \u0027mensal\u0027),\n(\u0027Pro\u0027, 297.00, 999999, \u0027mensal\u0027),\n(\u0027Enterprise\u0027, 997.00, 999999, \u0027mensal\u0027);\n\nINSERT INTO public.agent (agent_name, agent_type) VALUES\n(\u0027Agente Orquestrador Master\u0027, \u0027Master\u0027),\n(\u0027Analista Sociocomportamental\u0027, \u0027Analista\u0027),\n(\u0027Engenheiro de Oferta e Valor\u0027, \u0027Analista\u0027),\n(\u0027Cientista de Dados de Performance\u0027, \u0027Analista\u0027),\n(\u0027Estrategista-Chefe\u0027, \u0027Sintetizador\u0027);\n\n-- 5. TRIGGER DE AUTENTICAÇÃO (Cria perfil automaticamente após SignUp)\nCREATE OR REPLACE FUNCTION public.handle_new_user() \nRETURNS trigger AS $$\nBEGIN\n  INSERT INTO public.users (id, email, name, plan_id)\n  VALUES (new.id, new.email, new.raw_user_meta_data-\u003e\u003e\u0027full_name\u0027, 1);\n  RETURN new;\nEND;\n$$ LANGUAGE plpgsql SECURITY DEFINER;\n\nCREATE TRIGGER on_auth_user_created\n  AFTER INSERT ON auth.users\n  FOR EACH ROW EXECUTE PROCEDURE public.handle_new_user();\n\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n-- 6. ROW LEVEL SECURITY (RLS) - GOVERNANÇA DE DADOS\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nALTER TABLE public.plan ENABLE ROW LEVEL SECURITY;\nALTER TABLE public.users ENABLE ROW LEVEL SECURITY;\nALTER TABLE public.user_request ENABLE ROW LEVEL SECURITY;\nALTER TABLE public.user_uploads ENABLE ROW LEVEL SECURITY;\nALTER TABLE public.agent ENABLE ROW LEVEL SECURITY;\nALTER TABLE public.agent_response ENABLE ROW LEVEL SECURITY;\nALTER TABLE public.agent_uploads ENABLE ROW LEVEL SECURITY;\n\n-- Políticas\nCREATE POLICY \"Planos são públicos para leitura\" ON public.plan FOR SELECT USING (true);\nCREATE POLICY \"Agentes são públicos para leitura\" ON public.agent FOR SELECT USING (true);\n\nCREATE POLICY \"Usuário gerencia seu perfil\" ON public.users \nFOR ALL USING (auth.uid() \u003d id);\n\nCREATE POLICY \"Usuário gerencia suas requisições\" ON public.user_request \nFOR ALL USING (auth.uid() \u003d user_id);\n\nCREATE POLICY \"Usuário gerencia seus uploads\" ON public.user_uploads \nFOR ALL USING (auth.uid() \u003d user_id);\n\nCREATE POLICY \"Usuário lê respostas de agentes da sua requisição\" ON public.agent_response \nFOR SELECT USING (\n    EXISTS (SELECT 1 FROM public.user_request WHERE id \u003d agent_response.request_id AND user_id \u003d auth.uid())\n);\n```\n\n---\n\n### PASSO 2: O Prompt Mestre para o Lovable\n\nCopie o texto abaixo **exatamente como está** e cole no primeiro chat de criação do Lovable. Ele servirá como o \"documento de arquitetura\" para a IA construir o frontend com precisão.\n\n***\n\n**PROMPT PARA O LOVABLE:**\n\n```text\nAct as a Senior Full-Stack React Developer. I need you to build the MVP for \"Ágora\", an AI-powered B2B Marketing SaaS. \n\nThe tech stack must be: React, Vite, Tailwind CSS, shadcn/ui, Lucide Icons, and Supabase (for Auth, Database, and Storage).\n\nCRITICAL CONTEXT:\nI have ALREADY executed the SQL script in my Supabase instance. The database tables (plan, users, user_request, user_uploads, agent, agent_response), triggers, and RLS policies already exist. Do NOT try to invent a new database schema. Your job is to connect to this structure and build the UI, routing, and business logic.\n\nAPP VIBE \u0026 STYLING:\nProfessional, C-Level consulting tool (think McKinsey meets modern AI). Dark mode enabled by default. Clean layouts, high-end typography, glassmorphism effects for cards, and smooth transitions.\n\nPlease build the application with the following 5 main areas:\n\n1. LANDING PAGE \u0026 AUTHENTICATION\n- A hero section: \"O Marketing que Prevê o Futuro\" with a CTA \"Começar Agora\".\n- Features section and a Pricing section displaying the 4 plans (Freemium, Standard, Pro, Enterprise).\n- Supabase Auth implementation: Login and Signup pages (Email/Password).\n- Upon signup, redirect the user to the Dashboard. (Note: my DB trigger will automatically set them to the Freemium plan).\n\n2. DASHBOARD (Hub Central)\n- Protected route (requires Auth).\n- Sidebar navigation: \"Nova Análise\", \"Histórico de Campanhas\", \"Configurações\".\n- Main area: Display basic user stats (current plan, uploads used vs limit).\n- A grid showing recent analysis cards (fetched from `user_request` table).\n\n3. CHAT INTERFACE (Core Engine - \"Nova Análise\")\n- A ChatGPT-style interface where the user talks to \"Agent Prin\".\n- An upload button (File input) to attach files. \n- BUSINESS LOGIC: Before uploading, query the `users` and `plan` tables. Check if `uploads_limit` is reached for the day. If yes, block the upload and show an \"Upgrade Plan\" modal.\n- When the user sends a message, save it to `user_request`.\n- Create a visual \"Processing Checklist\" UI that simulates the AI thinking (Orchestrator -\u003e Socio-behavioral -\u003e Offer -\u003e Performance -\u003e Synthesizer) with loaders.\n\n4. THE REPORT PAGE (Apresentação da Campanha Otimizada)\n- Once the \"analysis\" is done, navigate the user to the Report Dashboard.\n- Show a Score Circle (0-100).\n- Render tabs: \"Visão Geral\", \"Canais\", \"Audiência\", \"Criativos\".\n- Display the content using Markdown rendering (react-markdown), as the AI will output the final strategy in Markdown format.\n- Add \"Export\" buttons (PDF, Canva, Gamma) - for now, make them just trigger a toast notification.\n- Include a Like/Dislike (👍/👎) feedback section at the bottom.\n\n5. INFRASTRUCTURE \u0026 API CALLS\n- Create a Supabase client utility.\n- Use React Query (@tanstack/react-query) for fetching user data, requests, and plans.\n- Mock the AI response for now: When a user submits a campaign in the chat, wait 3 seconds, create a mock entry in `agent_response`, and redirect to the Report Page with a mocked Markdown report.\n\nLet\u0027s do this step-by-step. Start by setting up the routing, the Supabase Auth wrapper, and the main Landing Page layout. Do not write the whole app in one file, use a modular component architecture.\n```\n\n***\n\n### 💡 Dicas para a Execução no Lovable:\n\n1. **Variáveis de Ambiente:** Assim que o Lovable iniciar o projeto, ele vai pedir as credenciais do seu Supabase (`VITE_SUPABASE_URL` e `VITE_SUPABASE_ANON_KEY`). Tenha elas em mãos (você pega nas configurações do seu projeto Supabase).\n2. **Mock primeiro, Backend depois:** O prompt instrui o Lovable a criar o app visualmente perfeito e a *simular* o tempo da IA respondendo. Isso é ideal, pois uma vez que o app esteja lindo e navegável, você pode criar as *Edge Functions* no Supabase usando os System Prompts gigantes de cada agente que estruturamos no seu PDF, conectando o visual com o cérebro real da OpenAI.\n3. **Iteração:** O Lovable vai construir as telas. Se alguma não ficar como você quer, diga: *\"A Tela de Report Page precisa ter uma cara mais analítica, melhore o design dos cards de métricas usando o shadcn/ui\"*.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 2670,
+      "parts": [{
+        "text": "\n\n\nCom base em toda a documentação estruturada do Ágora, preparei os"
+      }, {
+        "text": " dois entregáveis exatos que você precisa para ter sucesso com o Lovable. \n\nO Lovable é uma IA fant"
+      }, {
+        "text": "ástica para construir o frontend (React/Vite/Tailwind + shadcn/ui) e conectar nativamente com o Sup"
+      }, {
+        "text": "abase. Para que ele não se perca na complexidade do seu motor de IA, **nós vamos dividir as"
+      }, {
+        "text": " responsabilidades:**\n\n1. **Você** vai rodar o Script SQL no Supabase primeiro (já com todas as regras de segurança"
+      }, {
+        "text": " e tabelas essenciais).\n2. **O Lovable** vai receber o prompt otimizado dizendo que o"
+      }, {
+        "text": " banco já existe e instruindo a criação de todas as telas, rotas e integrações do Supabase.\n\nAqui"
+      }, {
+        "text": " está o seu plano de ação:\n\n---\n\n### PASSO 1: O Script SQL (Rode isso no seu Supabase"
+      }, {
+        "text": ")\n\nCrie um projeto no Supabase, vá até o **SQL Editor**, cole o código abaixo e clique em *"
+      }, {
+        "text": "Run*. Este script cria as tabelas, configura os planos iniciais, os agentes, vincula a autenticação e"
+      }, {
+        "text": " aplica as regras de segurança (RLS) descritas no seu documento.\n\n```sql\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+      }, {
+        "text": "\n-- BANCO DE DADOS ÁGORA - SCRIPT DE INICIALIZAÇÃO (SUPABASE)\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+      }, {
+        "text": "\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\n-- 1. TABELAS DE CONFIGURAÇÃO E ASSINATURA\nCREATE TABLE public.plan ("
+      }, {
+        "text": "\n    id BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,\n    name VARCHAR(50) NOT NULL,\n    price DECIMAL"
+      }, {
+        "text": "(10, 2) NOT NULL,\n    uploads_limit INTEGER NOT NULL,\n    recurrence VARCHAR"
+      }, {
+        "text": "(20) NOT NULL\n);\n\n-- Tabela de Usuários vinculada ao auth.users do Supabase"
+      }, {
+        "text": "\nCREATE TABLE public.users (\n    id UUID PRIMARY KEY REFERENCES auth.users(id) ON DELETE CASCADE,"
+      }, {
+        "text": "\n    name VARCHAR(255),\n    email VARCHAR(255) UNIQUE NOT NULL,\n    plan"
+      }, {
+        "text": "_id BIGINT REFERENCES public.plan(id) DEFAULT 1,\n    created_at TIMESTAMP WITH TIME ZONE"
+      }, {
+        "text": " DEFAULT NOW()\n);\n\n-- 2. TABELAS DE NEGÓCIO E FLUXO DE ANÁ"
+      }, {
+        "text": "LISE\nCREATE TABLE public.user_request (\n    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),"
+      }, {
+        "text": "\n    user_id UUID NOT NULL REFERENCES public.users(id) ON DELETE CASCADE,\n    content TEXT NOT"
+      }, {
+        "text": " NULL,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW(),\n    updated_at TIMESTAMP WITH TIME ZONE DEFAULT"
+      }, {
+        "text": " NOW()\n);\n\nCREATE TABLE public.user_uploads (\n    id UUID PRIMARY KEY DEFAULT gen_random_"
+      }, {
+        "text": "uuid(),\n    user_id UUID NOT NULL REFERENCES public.users(id) ON DELETE CASCADE,\n    request"
+      }, {
+        "text": "_id UUID REFERENCES public.user_request(id),\n    file_url TEXT NOT NULL,\n    content"
+      }, {
+        "text": "_transcription TEXT,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 3."
+      }, {
+        "text": " TABELAS DO SISTEMA MULTI-AGENTE\nCREATE TABLE public.agent (\n    id UUID PRIMARY KEY"
+      }, {
+        "text": " DEFAULT gen_random_uuid(),\n    agent_name VARCHAR(100) NOT NULL,\n    agent"
+      }, {
+        "text": "_type VARCHAR(50) NOT NULL\n);\n\nCREATE TABLE public.agent_response (\n    id BIG"
+      }, {
+        "text": "INT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,\n    agent_id UUID NOT NULL REFERENCES public.agent(id),"
+      }, {
+        "text": "\n    request_id UUID NOT NULL REFERENCES public.user_request(id) ON DELETE CASCADE,\n    content"
+      }, {
+        "text": " JSONB NOT NULL,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\nCREATE TABLE public."
+      }, {
+        "text": "agent_uploads (\n    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    agent_id UUID NOT"
+      }, {
+        "text": " NULL REFERENCES public.agent(id),\n    request_id UUID NOT NULL REFERENCES public.user_request(id"
+      }, {
+        "text": "),\n    content TEXT NOT NULL,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n--"
+      }, {
+        "text": " 4. INSERÇÃO DE DADOS INICIAIS (SEED)\nINSERT INTO public.plan (name"
+      }, {
+        "text": ", price, uploads_limit, recurrence) VALUES\n(\u0027Freemium\u0027, 0.00, 2"
+      }, {
+        "text": ", \u0027mensal\u0027),\n(\u0027Standard\u0027, 97.00, 5, \u0027mensal\u0027),"
+      }, {
+        "text": "\n(\u0027Pro\u0027, 297.00, 999999, \u0027mensal\u0027),"
+      }, {
+        "text": "\n(\u0027Enterprise\u0027, 997.00, 999999, \u0027mensal\u0027);"
+      }, {
+        "text": "\n\nINSERT INTO public.agent (agent_name, agent_type) VALUES\n(\u0027Agente Orquestrador Master\u0027,"
+      }, {
+        "text": " \u0027Master\u0027),\n(\u0027Analista Sociocomportamental\u0027, \u0027Analista\u0027),\n(\u0027Engenheiro de Oferta e"
+      }, {
+        "text": " Valor\u0027, \u0027Analista\u0027),\n(\u0027Cientista de Dados de Performance\u0027, \u0027Analista\u0027),\n(\u0027Estrateg"
+      }, {
+        "text": "ista-Chefe\u0027, \u0027Sintetizador\u0027);\n\n-- 5. TRIGGER DE AUTENTICAÇÃO (C"
+      }, {
+        "text": "ria perfil automaticamente após SignUp)\nCREATE OR REPLACE FUNCTION public.handle_new_user() \nRETURNS trigger AS $$\nBEGIN"
+      }, {
+        "text": "\n  INSERT INTO public.users (id, email, name, plan_id)\n  VALUES (new."
+      }, {
+        "text": "id, new.email, new.raw_user_meta_data-\u003e\u003e\u0027full_name\u0027, 1);"
+      }, {
+        "text": "\n  RETURN new;\nEND;\n$$ LANGUAGE plpgsql SECURITY DEFINER;\n\nCREATE TRIGGER on_auth_user_"
+      }, {
+        "text": "created\n  AFTER INSERT ON auth.users\n  FOR EACH ROW EXECUTE PROCEDURE public.handle_new_user"
+      }, {
+        "text": "();\n\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n-- 6. ROW LEVEL SECURITY (RLS) - GOVERNANÇA DE"
+      }, {
+        "text": " DADOS\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\nALTER TABLE public.plan ENABLE ROW LEVEL SECURITY;\nALTER TABLE public.users ENABLE"
+      }, {
+        "text": " ROW LEVEL SECURITY;\nALTER TABLE public.user_request ENABLE ROW LEVEL SECURITY;\nALTER TABLE public.user_"
+      }, {
+        "text": "uploads ENABLE ROW LEVEL SECURITY;\nALTER TABLE public.agent ENABLE ROW LEVEL SECURITY;\nALTER TABLE public.agent_"
+      }, {
+        "text": "response ENABLE ROW LEVEL SECURITY;\nALTER TABLE public.agent_uploads ENABLE ROW LEVEL SECURITY;\n\n-- Políticas\nCREATE POLICY \"Plan"
+      }, {
+        "text": "os são públicos para leitura\" ON public.plan FOR SELECT USING (true);\nCREATE POLICY \"Agentes são públicos para"
+      }, {
+        "text": " leitura\" ON public.agent FOR SELECT USING (true);\n\nCREATE POLICY \"Usuário gerencia seu perfil\" ON public.users"
+      }, {
+        "text": " \nFOR ALL USING (auth.uid() \u003d id);\n\nCREATE POLICY \"Usuário gerencia suas requisições\" ON"
+      }, {
+        "text": " public.user_request \nFOR ALL USING (auth.uid() \u003d user_id);\n\nCREATE POLICY \""
+      }, {
+        "text": "Usuário gerencia seus uploads\" ON public.user_uploads \nFOR ALL USING (auth.uid() \u003d"
+      }, {
+        "text": " user_id);\n\nCREATE POLICY \"Usuário lê respostas de agentes da sua requisição\" ON public.agent_response"
+      }, {
+        "text": " \nFOR SELECT USING (\n    EXISTS (SELECT 1 FROM public.user_request WHERE id \u003d agent_response"
+      }, {
+        "text": ".request_id AND user_id \u003d auth.uid())\n);\n```\n\n---\n\n### PASSO"
+      }, {
+        "text": " 2: O Prompt Mestre para o Lovable\n\nCopie o texto abaixo **exatamente como está** e cole no"
+      }, {
+        "text": " primeiro chat de criação do Lovable. Ele servirá como o \"documento de arquitetura\" para a IA construir"
+      }, {
+        "text": " o frontend com precisão.\n\n***\n\n**PROMPT PARA O LOVABLE:**\n\n```text\nAct as a Senior"
+      }, {
+        "text": " Full-Stack React Developer. I need you to build the MVP for \"Ágora\", an AI-powered B"
+      }, {
+        "text": "2B Marketing SaaS. \n\nThe tech stack must be: React, Vite, Tailwind CSS, shadcn/ui,"
+      }, {
+        "text": " Lucide Icons, and Supabase (for Auth, Database, and Storage).\n\nCRITICAL CONTEXT:\nI have AL"
+      }, {
+        "text": "READY executed the SQL script in my Supabase instance. The database tables (plan, users, user_request, user"
+      }, {
+        "text": "_uploads, agent, agent_response), triggers, and RLS policies already exist. Do NOT try to invent a"
+      }, {
+        "text": " new database schema. Your job is to connect to this structure and build the UI, routing, and business logic.\n\nAPP V"
+      }, {
+        "text": "IBE \u0026 STYLING:\nProfessional, C-Level consulting tool (think McKinsey meets modern AI). Dark mode enabled by"
+      }, {
+        "text": " default. Clean layouts, high-end typography, glassmorphism effects for cards, and smooth transitions.\n\nPlease build the application"
+      }, {
+        "text": " with the following 5 main areas:\n\n1. LANDING PAGE \u0026 AUTHENTICATION\n- A hero section:"
+      }, {
+        "text": " \"O Marketing que Prevê o Futuro\" with a CTA \"Começar Agora\".\n- Features section and a Pricing section"
+      }, {
+        "text": " displaying the 4 plans (Freemium, Standard, Pro, Enterprise).\n- Supabase Auth implementation: Login and"
+      }, {
+        "text": " Signup pages (Email/Password).\n- Upon signup, redirect the user to the Dashboard. (Note: my DB trigger"
+      }, {
+        "text": " will automatically set them to the Freemium plan).\n\n2. DASHBOARD (Hub Central)\n- Protected route ("
+      }, {
+        "text": "requires Auth).\n- Sidebar navigation: \"Nova Análise\", \"Histórico de Campanhas\", \"Configurações\"."
+      }, {
+        "text": "\n- Main area: Display basic user stats (current plan, uploads used vs limit).\n- A grid showing recent analysis"
+      }, {
+        "text": " cards (fetched from `user_request` table).\n\n3. CHAT INTERFACE (Core Engine - \"Nova Análise\")"
+      }, {
+        "text": "\n- A ChatGPT-style interface where the user talks to \"Agent Prin\".\n- An upload button (File input"
+      }, {
+        "text": ") to attach files. \n- BUSINESS LOGIC: Before uploading, query the `users` and `plan"
+      }, {
+        "text": "` tables. Check if `uploads_limit` is reached for the day. If yes, block the upload and show an"
+      }, {
+        "text": " \"Upgrade Plan\" modal.\n- When the user sends a message, save it to `user_request`.\n- Create a"
+      }, {
+        "text": " visual \"Processing Checklist\" UI that simulates the AI thinking (Orchestrator -\u003e Socio-behavioral -\u003e Offer -\u003e Performance -\u003e"
+      }, {
+        "text": " Synthesizer) with loaders.\n\n4. THE REPORT PAGE (Apresentação da Campanha Otimizada)"
+      }, {
+        "text": "\n- Once the \"analysis\" is done, navigate the user to the Report Dashboard.\n- Show a Score Circle (0-"
+      }, {
+        "text": "100).\n- Render tabs: \"Visão Geral\", \"Canais\", \"Audiência\", \"Criativos\"."
+      }, {
+        "text": "\n- Display the content using Markdown rendering (react-markdown), as the AI will output the final strategy in Markdown format.\n- Add"
+      }, {
+        "text": " \"Export\" buttons (PDF, Canva, Gamma) - for now, make them just trigger a toast notification.\n-"
+      }, {
+        "text": " Include a Like/Dislike (👍/👎) feedback section at the bottom.\n\n5. INFRASTRUCTURE \u0026 API"
+      }, {
+        "text": " CALLS\n- Create a Supabase client utility.\n- Use React Query (@tanstack/react-query) for"
+      }, {
+        "text": " fetching user data, requests, and plans.\n- Mock the AI response for now: When a user submits a campaign"
+      }, {
+        "text": " in the chat, wait 3 seconds, create a mock entry in `agent_response`, and redirect to the Report Page with a"
+      }, {
+        "text": " mocked Markdown report.\n\nLet\u0027s do this step-by-step. Start by setting up the routing, the Sup"
+      }, {
+        "text": "abase Auth wrapper, and the main Landing Page layout. Do not write the whole app in one file, use a modular"
+      }, {
+        "text": " component architecture.\n```\n\n***\n\n### 💡 Dicas para a Execução no Lovable:\n\n1."
+      }, {
+        "text": " **Variáveis de Ambiente:** Assim que o Lovable iniciar o projeto, ele vai pedir as credenciais do seu Supabase (`V"
+      }, {
+        "text": "ITE_SUPABASE_URL` e `VITE_SUPABASE_ANON_KEY`). Tenha elas em"
+      }, {
+        "text": " mãos (você pega nas configurações do seu projeto Supabase).\n2. **Mock primeiro, Backend depois:** O prompt instru"
+      }, {
+        "text": "i o Lovable a criar o app visualmente perfeito e a *simular* o tempo da IA respondendo. Isso é"
+      }, {
+        "text": " ideal, pois uma vez que o app esteja lindo e navegável, você pode criar as *Edge Functions* no Supabase usando os"
+      }, {
+        "text": " System Prompts gigantes de cada agente que estruturamos no seu PDF, conectando o visual com o cérebro real da"
+      }, {
+        "text": " OpenAI.\n3. **Iteração:** O Lovable vai construir as telas. Se alguma não ficar como você quer, diga"
+      }, {
+        "text": ": *\"A Tela de Report Page precisa ter uma cara mais analítica, melhore o design dos cards de métricas"
+      }, {
+        "text": " usando o shadcn/ui\"*."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-15T10:49:29.522Z"
+    }, {
+      "text": "Tem como mudar um pouco isso para usar o Lovable Cloud mesmo? Que é o SupaBase interno do Lovable",
+      "role": "user",
+      "tokenCount": 25,
+      "createTime": "2026-03-15T10:51:28.966Z"
+    }, {
+      "text": "**Adapting the Instructions**\n\nI\u0027m now focused on modifying the initial instructions to fit Lovable Cloud\u0027s Supabase integration. The key challenge is removing the manual SQL script execution step and leveraging the built-in features. This will simplify the setup for users, which is the main goal here.\n\n\n**Refining the Approach**\n\nI\u0027m now zeroing in on integrating the schema directly within the Lovable AI prompt. I realize the platform can handle table creation, RLS implementation, and schema generation with its built-in Supabase integration. To ensure optimal performance, I am currently evaluating providing the schema definition upfront within the prompt. This shift eliminates the need for any external SQL execution. I\u0027m aiming to create a seamless user experience.\n\n\n**Formulating the Prompt**\n\nI\u0027m now drafting a new comprehensive prompt tailored for Lovable\u0027s Supabase integration, assuming the database *does not* yet exist. The prompt will outline the tables, relationships, and RLS policies, along with initial data (seed) instructions and the UI framework. I\u0027m focusing on structuring it clearly to facilitate parsing by Lovable\u0027s LLM. I\u0027m experimenting with TypeScript-like syntax for the database definitions to ensure clarity.",
+      "role": "model",
+      "tokenCount": 781,
+      "isThought": true,
+      "parts": [{
+        "text": "**Adapting the Instructions**\n\nI\u0027m now focused on modifying the initial instructions to fit Lovable Cloud\u0027s Supabase integration. The key challenge is removing the manual SQL script execution step and leveraging the built-in features. This will simplify the setup for users, which is the main goal here.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Refining the Approach**\n\nI\u0027m now zeroing in on integrating the schema directly within the Lovable AI prompt. I realize the platform can handle table creation, RLS implementation, and schema generation with its built-in Supabase integration. To ensure optimal performance, I am currently evaluating providing the schema definition upfront within the prompt. This shift eliminates the need for any external SQL execution. I\u0027m aiming to create a seamless user experience.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Formulating the Prompt**\n\nI\u0027m now drafting a new comprehensive prompt tailored for Lovable\u0027s Supabase integration, assuming the database *does not* yet exist. The prompt will outline the tables, relationships, and RLS policies, along with initial data (seed) instructions and the UI framework. I\u0027m focusing on structuring it clearly to facilitate parsing by Lovable\u0027s LLM. I\u0027m experimenting with TypeScript-like syntax for the database definitions to ensure clarity.",
+        "thought": true
+      }],
+      "createTime": "2026-03-15T10:51:28.966Z"
+    }, {
+      "text": "\n\n\nCom certeza! Usar o **Supabase integrado nativamente no Lovable (Lovable Cloud)** é uma decisão excelente. Isso remove o trabalho manual de rodar scripts SQL, pois a própria IA do Lovable consegue criar as tabelas, as políticas de segurança (RLS) e a interface ao mesmo tempo, mantendo tudo sincronizado.\n\nComo o paradigma mudou (agora o banco *não* existe previamente), nós precisamos adaptar o prompt. O novo prompt vai instruir o Lovable a **construir o banco de dados do zero** usando sua integração nativa e, em seguida, construir o frontend.\n\nBasta iniciar um novo projeto no Lovable, habilitar o Supabase na aba \"Backend/Integrations\" da ferramenta, e colar o prompt abaixo no chat.\n\n***\n\n### 📋 O NOVO PROMPT MESTRE PARA O LOVABLE\n\nCopie o texto abaixo **exatamente como está** e cole no chat do Lovable:\n\n```text\nAct as a Senior Full-Stack React Developer and Database Architect. I need you to build the MVP for \"Ágora\", an AI-powered B2B Marketing SaaS. \n\nThe tech stack must be: React, Vite, Tailwind CSS, shadcn/ui, Lucide Icons, and the NATIVE SUPABASE INTEGRATION (Lovable Cloud).\n\nCRITICAL CONTEXT \u0026 DATABASE SETUP:\nPlease set up the Supabase database schema first. Create the following tables, relationships, and RLS policies:\n\n1. `plan`: id (serial, PK), name (text), price (numeric), uploads_limit (integer), recurrence (text). (Public read access).\n2. `users`: id (uuid, PK, references auth.users), name (text), email (text), plan_id (references plan). (RLS: User can only read/update their own data).\n3. `user_request`: id (uuid, PK), user_id (references users), content (text), created_at (timestamp). (RLS: User can only CRUD their own requests).\n4. `user_uploads`: id (uuid, PK), user_id (references users), request_id (references user_request), file_url (text). (RLS: User can only CRUD their own uploads).\n5. `agent`: id (uuid, PK), agent_name (text), agent_type (text). (Public read access).\n6. `agent_response`: id (serial, PK), agent_id (references agent), request_id (references user_request), content (jsonb). (RLS: User can only read if they own the related request_id).\n\nIMPORTANT DB TRIGGERS \u0026 SEED:\n- Create an Auth Trigger so whenever a user signs up, a record is automatically created in the `users` table with `plan_id` defaulting to the \"Freemium\" plan.\n- Seed the `plan` table with: Freemium (0, limit 2), Standard (97, limit 5), Pro (297, limit 999), Enterprise (997, limit 999).\n\nAPP VIBE \u0026 STYLING:\nProfessional, C-Level consulting tool (think McKinsey meets modern AI). Dark mode enabled by default. Clean layouts, high-end typography, glassmorphism effects for cards, and smooth transitions. Use shadcn/ui heavily.\n\nFRONTEND DEVELOPMENT - MAIN AREAS:\n\n1. LANDING PAGE \u0026 AUTHENTICATION\n- Hero section: \"O Marketing que Prevê o Futuro\" with a \"Começar Agora\" CTA.\n- Pricing section displaying the 4 plans.\n- Implement Supabase Auth (Email/Password Login and Signup).\n- Upon signup/login, redirect to the Dashboard.\n\n2. DASHBOARD (Hub Central)\n- Protected route.\n- Sidebar: \"Nova Análise\", \"Histórico de Campanhas\", \"Configurações\".\n- Main area: Display basic user stats (current plan name, uploads used vs limit today).\n- A grid showing recent analysis cards fetched from the `user_request` table.\n\n3. CHAT INTERFACE (Core Engine - \"Nova Análise\")\n- A ChatGPT-style interface where the user talks to \"Agent Prin\".\n- An upload button to attach files (connects to Supabase Storage). \n- BUSINESS LOGIC: Before allowing the chat to proceed or files to upload, check if the user reached their `uploads_limit` based on their plan. If yes, block and show an \"Upgrade Plan\" dialog.\n- Create a visual \"Processing Checklist\" UI that simulates the AI thinking (Orchestrator -\u003e Socio-behavioral -\u003e Offer -\u003e Performance -\u003e Synthesizer) with loading spinners.\n\n4. THE REPORT PAGE (Apresentação da Campanha Otimizada)\n- After the chat simulation, navigate to the Report Dashboard.\n- Show a big Score Circle (0-100).\n- Render tabs: \"Visão Geral\", \"Canais\", \"Audiência\", \"Criativos\".\n- Display content using Markdown (use `react-markdown`), as the AI strategy will be in MD format.\n- Add mockup \"Export\" buttons (PDF, Canva, Gamma) that show a toast notification for now.\n- Add Like/Dislike (👍/👎) feedback buttons at the bottom.\n\nLet\u0027s do this step-by-step. Start by creating the Database Schema, setting up the Supabase client, and building the Landing Page and Auth flow. Use a modular component architecture.\n```\n\n***\n\n### 🚀 O que muda com esse prompt?\n\n1. **Autonomia do Lovable:** A IA do Lovable vai ler a seção `CRITICAL CONTEXT \u0026 DATABASE SETUP` e vai gerar as migrações (tabelas e RLS) diretamente no Supabase interno deles.\n2. **Triggers e Seed:** Ele vai configurar automaticamente a criação do usuário no banco assim que alguém se cadastrar, e vai pré-preencher os 4 planos que definimos.\n3. **Fluxo Contínuo:** Como ele gerou o banco, ele já sabe exatamente o nome de cada tabela e coluna, evitando qualquer erro de conexão na hora de criar as telas (Frontend).\n\n**Como proceder:**\n1. Abra o Lovable.\n2. Crie um novo projeto.\n3. Conecte o Supabase nativo deles (tem um botão na interface para isso, geralmente no canto superior direito ou menu lateral).\n4. Jogue o prompt acima e deixe a mágica acontecer! Se ele pausar pedindo confirmação, apenas diga \"Continue\" ou \"Looks good, proceed to the Dashboard\".",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1416,
+      "parts": [{
+        "text": "\n\n\nCom certeza! Usar o **Supabase integrado nativamente no Lovable (Lovable Cloud)** é"
+      }, {
+        "text": " uma decisão excelente. Isso remove o trabalho manual de rodar scripts SQL, pois a própria IA do Lovable consegue criar as tabelas"
+      }, {
+        "text": ", as políticas de segurança (RLS) e a interface ao mesmo tempo, mantendo tudo sincronizado.\n\nComo o paradigma"
+      }, {
+        "text": " mudou (agora o banco *não* existe previamente), nós precisamos adaptar o prompt. O novo prompt vai instruir o Lov"
+      }, {
+        "text": "able a **construir o banco de dados do zero** usando sua integração nativa e, em seguida, construir o"
+      }, {
+        "text": " frontend.\n\nBasta iniciar um novo projeto no Lovable, habilitar o Supabase na aba \"Backend/Integrations\""
+      }, {
+        "text": " da ferramenta, e colar o prompt abaixo no chat.\n\n***\n\n### 📋 O NOVO PROMPT MESTRE"
+      }, {
+        "text": " PARA O LOVABLE\n\nCopie o texto abaixo **exatamente como está** e cole no chat do Lovable:"
+      }, {
+        "text": "\n\n```text\nAct as a Senior Full-Stack React Developer and Database Architect. I need you to build the MVP for \""
+      }, {
+        "text": "Ágora\", an AI-powered B2B Marketing SaaS. \n\nThe tech stack must be: React,"
+      }, {
+        "text": " Vite, Tailwind CSS, shadcn/ui, Lucide Icons, and the NATIVE SUPABASE INTEGRATION (Lov"
+      }, {
+        "text": "able Cloud).\n\nCRITICAL CONTEXT \u0026 DATABASE SETUP:\nPlease set up the Supabase database schema first. Create the following tables"
+      }, {
+        "text": ", relationships, and RLS policies:\n\n1. `plan`: id (serial, PK), name (text), price (numeric"
+      }, {
+        "text": "), uploads_limit (integer), recurrence (text). (Public read access).\n2. `users`: id (uuid,"
+      }, {
+        "text": " PK, references auth.users), name (text), email (text), plan_id (references plan). (RLS: User"
+      }, {
+        "text": " can only read/update their own data).\n3. `user_request`: id (uuid, PK), user"
+      }, {
+        "text": "_id (references users), content (text), created_at (timestamp). (RLS: User can only CRUD"
+      }, {
+        "text": " their own requests).\n4. `user_uploads`: id (uuid, PK), user_id (references users"
+      }, {
+        "text": "), request_id (references user_request), file_url (text). (RLS: User can only CRUD their own"
+      }, {
+        "text": " uploads).\n5. `agent`: id (uuid, PK), agent_name (text), agent_type ("
+      }, {
+        "text": "text). (Public read access).\n6. `agent_response`: id (serial, PK), agent_id"
+      }, {
+        "text": " (references agent), request_id (references user_request), content (jsonb). (RLS: User can only read"
+      }, {
+        "text": " if they own the related request_id).\n\nIMPORTANT DB TRIGGERS \u0026 SEED:\n- Create an Auth Trigger so whenever"
+      }, {
+        "text": " a user signs up, a record is automatically created in the `users` table with `plan_id` defaulting to the"
+      }, {
+        "text": " \"Freemium\" plan.\n- Seed the `plan` table with: Freemium (0, limit 2"
+      }, {
+        "text": "), Standard (97, limit 5), Pro (297, limit 999), Enterprise (99"
+      }, {
+        "text": "7, limit 999).\n\nAPP VIBE \u0026 STYLING:\nProfessional, C-Level consulting"
+      }, {
+        "text": " tool (think McKinsey meets modern AI). Dark mode enabled by default. Clean layouts, high-end typography, glassm"
+      }, {
+        "text": "orphism effects for cards, and smooth transitions. Use shadcn/ui heavily.\n\nFRONTEND DEVELOPMENT - MAIN AREAS:\n\n1"
+      }, {
+        "text": ". LANDING PAGE \u0026 AUTHENTICATION\n- Hero section: \"O Marketing que Prevê o Futuro\" with a \""
+      }, {
+        "text": "Começar Agora\" CTA.\n- Pricing section displaying the 4 plans.\n- Implement Supabase Auth (Email"
+      }, {
+        "text": "/Password Login and Signup).\n- Upon signup/login, redirect to the Dashboard.\n\n2. DASHBOARD (Hub Central)"
+      }, {
+        "text": "\n- Protected route.\n- Sidebar: \"Nova Análise\", \"Histórico de Campanhas\", \"Configurações\"."
+      }, {
+        "text": "\n- Main area: Display basic user stats (current plan name, uploads used vs limit today).\n- A grid showing recent analysis"
+      }, {
+        "text": " cards fetched from the `user_request` table.\n\n3. CHAT INTERFACE (Core Engine - \"Nova"
+      }, {
+        "text": " Análise\")\n- A ChatGPT-style interface where the user talks to \"Agent Prin\".\n- An upload button"
+      }, {
+        "text": " to attach files (connects to Supabase Storage). \n- BUSINESS LOGIC: Before allowing the chat to proceed or"
+      }, {
+        "text": " files to upload, check if the user reached their `uploads_limit` based on their plan. If yes, block and"
+      }, {
+        "text": " show an \"Upgrade Plan\" dialog.\n- Create a visual \"Processing Checklist\" UI that simulates the AI thinking (Orchestr"
+      }, {
+        "text": "ator -\u003e Socio-behavioral -\u003e Offer -\u003e Performance -\u003e Synthesizer) with loading spinners.\n\n4. THE REPORT PAGE"
+      }, {
+        "text": " (Apresentação da Campanha Otimizada)\n- After the chat simulation, navigate to the Report Dashboard."
+      }, {
+        "text": "\n- Show a big Score Circle (0-100).\n- Render tabs: \"Visão Geral\", \""
+      }, {
+        "text": "Canais\", \"Audiência\", \"Criativos\".\n- Display content using Markdown (use `react-markdown`),"
+      }, {
+        "text": " as the AI strategy will be in MD format.\n- Add mockup \"Export\" buttons (PDF, Canva, Gamma) that"
+      }, {
+        "text": " show a toast notification for now.\n- Add Like/Dislike (👍/👎) feedback buttons at the bottom"
+      }, {
+        "text": ".\n\nLet\u0027s do this step-by-step. Start by creating the Database Schema, setting up the Supabase client"
+      }, {
+        "text": ", and building the Landing Page and Auth flow. Use a modular component architecture.\n```\n\n***\n\n### 🚀"
+      }, {
+        "text": " O que muda com esse prompt?\n\n1. **Autonomia do Lovable:** A IA do Lovable vai ler a"
+      }, {
+        "text": " seção `CRITICAL CONTEXT \u0026 DATABASE SETUP` e vai gerar as migrações (tabelas e RLS"
+      }, {
+        "text": ") diretamente no Supabase interno deles.\n2. **Triggers e Seed:** Ele vai configurar automaticamente a criação do"
+      }, {
+        "text": " usuário no banco assim que alguém se cadastrar, e vai pré-preencher os 4 planos que definimos.\n3"
+      }, {
+        "text": ". **Fluxo Contínuo:** Como ele gerou o banco, ele já sabe exatamente o nome de cada tabela"
+      }, {
+        "text": " e coluna, evitando qualquer erro de conexão na hora de criar as telas (Frontend).\n\n**Como proceder:**\n1."
+      }, {
+        "text": " Abra o Lovable.\n2. Crie um novo projeto.\n3. Conecte o Supabase nat"
+      }, {
+        "text": "ivo deles (tem um botão na interface para isso, geralmente no canto superior direito ou menu lateral).\n4. J"
+      }, {
+        "text": "ogue o prompt acima e deixe a mágica acontecer! Se ele pausar pedindo confirmação, apenas diga \"Continue"
+      }, {
+        "text": "\" ou \"Looks good, proceed to the Dashboard\"."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-15T10:51:39.658Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

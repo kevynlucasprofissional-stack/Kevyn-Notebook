@@ -1,0 +1,208 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-2.5-pro",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+    "text": "Utilize o Playbook abaixo para ajudar o usuário a resolver os problemas dele.\n\n# 📘 O Playbook Definitivo de Engenharia de Prompt\n\n## FASE 1: Configurando o Motor (Parâmetros)\nAntes de escrever, entenda os \"botões\" que você pode girar no seu LLM (Large Language Model). \n*   **Temperature (0.0 a 2.0):** Controla a criatividade.\n    *   *Tarefas exatas (Código, Extração de Dados, Matemática):* Use **0.0** (respostas determinísticas).\n    *   *Tarefas criativas (Ideação, Escrita de e-mails, Brainstorming):* Use entre **0.7 e 0.9**.\n*   **Top-K e Top-P:** Controlam a aleatoriedade limitando o vocabulário de onde o modelo pode escolher a próxima palavra. Se for mexer na Temperature, geralmente deixe esses no padrão (ou vice-versa).\n*   **Max Tokens:** Limite o tamanho da resposta para evitar que o modelo entre em *loops* de repetição sem fim.\n\n---\n\n## FASE 2: A Anatomia do Prompt Ideal\nUm prompt de nível de produção não é apenas uma frase. Ele deve ser estruturado como um documento. Lembre-se do **Princípio da Chapeuzinho Vermelho**: *os modelos imitam os dados em que foram treinados*. Se o seu prompt parece um documento de alta qualidade e bem estruturado, a resposta também será.\n\nDivida seu prompt nestes 4 blocos (usando Markdown para separar):\n\n1.  **Introdução / Preamble (System Prompt):** Define o papel (Persona), o tom e o comportamento do modelo.\n2.  **Contexto (Context):** A injeção de dados (documentos, histórico de chat, regras de negócio).\n3.  **Refoco (Refocus):** Modelos sofrem do *\"Valley of Meh\"* (eles lembram do começo e do fim do prompt, mas ignoram o meio). Coloque sua pergunta principal ou instrução mais importante no **final** do prompt para \"refocar\" a atenção da IA.\n4.  **Transição / Inception:** Deixe a porta aberta para o modelo começar a falar exatamente no formato que você quer. (Ex: `Resposta em JSON: {`)\n\n---\n\n## FASE 3: Os 5 Princípios de Ouro do Prompting\n\n### 1. Dê Direção (Give Direction)\nDiga exatamente o que o modelo deve fazer.\n*   **Aja como um especialista:** Use *Role Prompting* (Ex: \"Aja como um consultor sênior de marketing...\").\n*   **Instruções \u003e Restrições:** LLMs funcionam melhor quando você diz o que eles *devem* fazer, em vez do que *não devem*.\n    *   ❌ *Não faça:* \"Não escreva uma introdução longa.\"\n    *   ✅ *Faça:* \"Vá direto ao ponto e comece no primeiro tópico.\"\n\n### 2. Especifique o Formato (Specify Format)\nNunca deixe a formatação por conta do modelo. Use formatos estruturados para evitar \"enrolação\" (fluff).\n*   Peça a saída em **JSON, YAML, XML ou Markdown**. \n*   Forneça o *schema* (esqueleto) exato que você espera receber. Isso facilita a extração de dados por sistemas automatizados.\n\n### 3. Forneça Exemplos (Provide Examples / Few-Shot)\nO modelo aprende melhor vendo do que ouvindo. \n*   **Zero-shot:** Sem exemplos (útil para tarefas muito simples).\n*   **Few-shot:** Dê de 3 a 5 exemplos de pares \"Entrada -\u003e Saída desejada\". \n*   *Atenção:* Misture as classes nos exemplos para não viciar o modelo (ex: não coloque 3 exemplos positivos seguidos se quiser que ele também identifique sentimentos negativos).\n\n### 4. Divida o Trabalho (Divide Labor)\nLLMs falham em tarefas gigantescas. Se a tarefa é complexa, divida-a em partes.\n*   **Cadeias de Prompts (Prompt Chaining):** Use a saída do Prompt 1 como entrada do Prompt 2. (Ex: Prompt 1 extrai dados de um site -\u003e Prompt 2 cria ideias de produtos -\u003e Prompt 3 escreve o e-mail de vendas).\n\n### 5. Avalie a Qualidade (Evaluate Quality)\nNão dependa da sorte. Avalie seus prompts metodicamente.\n*   Use o método **SOMA** para fazer o próprio LLM avaliar saídas: Faça perguntas **S**pecíficas, use notas **O**rdinais (1 a 5), com cobertura **M**ulti-**A**specto (avalie tom, precisão e formatação separadamente).\n\n---\n\n## FASE 4: Técnicas Avançadas de Raciocínio\n\nQuando o modelo erra lógica ou matemática, aplique estes \"hacks\" cognitivos:\n\n*   **Chain of Thought (CoT):** Adicione a frase mágica *\"Let\u0027s think step-by-step\"* (Vamos pensar passo a passo) no final do seu prompt. Isso força o modelo a criar uma \"voz interna\" e fazer os cálculos antes de dar a resposta final, aumentando drasticamente a precisão.\n*   **Self-Consistency:** Gere 5 ou mais respostas diferentes (usando Temperature alta) e programe seu sistema para escolher a resposta que mais se repetiu (votação por maioria).\n*   **Step-Back Prompting:** Antes de pedir a solução de um problema específico, peça ao modelo para listar os princípios gerais ou as leis fundamentais que regem aquele problema.\n*   **ReAct (Reason + Act):** A arquitetura para Agentes. O modelo opera em um loop: *Pensar -\u003e Escolher uma Ferramenta (ex: Busca no Google) -\u003e Observar o resultado -\u003e Pensar novamente -\u003e Dar a resposta final*.\n\n---\n\n## FASE 5: Tratando Contexto e Dados (RAG)\n\nQuando precisar que o modelo responda com base em documentos da sua empresa (Retrieval-Augmented Generation):\n\n1.  **Snippetizing (Fatiamento):** Não jogue um PDF de 500 páginas no prompt. Fatie o texto em \"pedaços\" (chunks) com sobreposição (overlap) para não cortar o sentido das frases no meio.\n2.  **Cuidado com a Falácia da Arma de Chekhov:** Se você colocar uma informação inútil no contexto, a IA tentará usá-la a todo custo. Filtre rigorosamente o contexto usando busca semântica (bancos de dados vetoriais como FAISS ou Pinecone) antes de enviar ao modelo.\n3.  **Prevenindo Alucinações:** Adicione a regra: *\"Responda APENAS usando os documentos fornecidos. Se a resposta não estiver nos documentos, diga \u0027Não sei\u0027.\"*\n\n---\n\n## FASE 6: Prompts para Imagens (Midjourney, DALL-E, Stable Diffusion)\n\nModelos de imagem de difusão não \"entendem\" a gramática da mesma forma que os de texto. A ordem e o vocabulário mandam:\n\n*   **Palavras-Chave de Qualidade (Boosters):** Adicione termos como *4k, highly detailed, photorealistic, trending on artstation, masterpiece*. \n*   **Modificadores de Formato e Estilo:** Defina a mídia física. (Ex: *oil painting, 35mm photography, polaroid, 1960s comic book, studio lighting*).\n*   **Negative Prompts:** Diga o que você *não quer*. Para remover distorções, use: *ugly, deformed, bad anatomy, low resolution*.\n*   **Pesos (Weights):** Em Midjourney (::) e Stable Diffusion (()), você pode dar pesos às palavras. Ex: `A cat::2 and a dog::1` fará o gato ser duas vezes mais proeminente que o cachorro.\n*   **Engenharia Reversa:** Não sabe descrever uma imagem? Use comandos como `/describe` no Midjourney (ou o CLIP Interrogator) fazendo upload da imagem para que a própria IA gere o prompt perfeito para você copiar.\n\n---\n\n## ✅ O Checklist de Mesa (Cheat Sheet)\n\nSempre que for criar um novo prompt profissional, passe por este checklist:\n\n- [ ] Defini um papel/persona claro no início do prompt? (System Prompt)\n- [ ] Forneci instruções dizendo o que *fazer* em vez de apenas o que *não fazer*?\n- [ ] Inseri contexto relevante e excluí o lixo informacional?\n- [ ] Coloquei a instrução principal e a pergunta no final do prompt para fugir do *Valley of Meh*?\n- [ ] Pedi uma saída em um formato rigoroso (JSON/Markdown) para facilitar a automação?\n- [ ] Mostrei pelo menos 2 exemplos (Few-shot) do que eu considero uma resposta perfeita?\n- [ ] Pedi para a IA \"pensar passo a passo\" e mostrar a lógica antes de me dar a resposta final?\n- [ ] \"Forcei a largada\" (Inception) escrevendo a primeira palavra da resposta esperada (Ex: `"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1NYTbhlKxYu2bpANXsHxt0LfzYw_HfOr_"
+      },
+      "role": "user",
+      "tokenCount": 967,
+      "createTime": "2026-03-15T08:31:40.982Z"
+    }, {
+      "text": "Crie para mim um prompt que seja um manual de como criar prompts em \u003ctags\u003e\u003c/tags\u003e exatamente como está exemplificado no arquivo em anexo. ",
+      "role": "user",
+      "tokenCount": 33,
+      "createTime": "2026-03-15T08:31:40.982Z"
+    }, {
+      "text": "**Initiating Document Analysis**\n\nI\u0027m now diving into \"Sprint 01 - Em texto corr ido.md.\" I\u0027m dissecting its structure and custom tags like `\u003ctela_0\u003e`, `\u003cao_abrir\u003e`, etc. My focus is on instruction nesting and metadata inclusion, looking for patterns to form initial rules.\n\n\n**Defining Prompting Rules**\n\nI am now focused on extracting the core components from the user\u0027s \"Sprint 01 - Em texto corrido.md\" file. My goal is to determine the fundamental rules of their prompt-writing style. Specifically, I am pinpointing the uses of various tags, instruction nesting, and data inclusion. This analysis will form the basis of a comprehensive how-to guide, which must itself adhere to their tagging structure.\n\n\n**Constructing User Manual**\n\nI\u0027m now drafting the structure of the prompt-writing manual. I am focusing on replicating the user\u0027s document style using `\u003ctag\u003e` elements. I am deconstructing their file to outline the fundamental structure. This involves analyzing metadata, understanding custom tag semantics, instruction nesting, content types, and how the tags reference each other. My goal is to outline all these elements, ensuring each has an equivalent in the manual.\n\n\n**Defining Prompting Framework**\n\nI am now focusing on understanding the user\u0027s methodology. The \"Sprint 01\" file is not a prompt, but a blueprint using tags to structure instructions and notes. I\u0027ve broken down its components: metadata, custom tags (semantic descriptions), and nesting/referencing for flow control. The file mixes plain text, lists, and directives, so my manual must address these content types, emphasizing how to encapsulate information effectively.\n\n\n**Formulating Guide Principles**\n\nI\u0027m now formulating the key principles for this prompting style. The goal is a manual for crafting prompts structured with `\u003ctag\u003e` elements. I\u0027ve identified encapsulation with tags, metadata blocks, hierarchical structure, and interlinking as crucial principles. I\u0027m focusing on \"componentization\" of reusable information and clear instruction within tags.\n\n\n**Formulating Principles \u0026 Manual**\n\nI\u0027m now consolidating the observed structures into actionable principles for prompt creation. I\u0027ll translate these into a detailed, tag-formatted manual. The goal is to provide a complete \"how-to\" guide, illustrated with a new practical example and following their style from the \u0027Sprint 01\u0027 file.\n\n\n**Formulating Final Manual Structure**\n\nI\u0027m now outlining the structure for the complete manual, which will be the end product. I will translate the observations of user\u0027s workflow into a document. This will be an organized set of instructions, including a new practical example using similar tags to demonstrate the method. The manual will itself adhere to the described tag-based format.\n\n\n",
+      "role": "model",
+      "tokenCount": 1520,
+      "isThought": true,
+      "thinkingBudget": -1,
+      "parts": [{
+        "text": "**Initiating Document Analysis**\n\nI\u0027m now diving into \"Sprint 01 - Em texto corr ido.md.\" I\u0027m dissecting its structure and custom tags like `\u003ctela_0\u003e`, `\u003cao_abrir\u003e`, etc. My focus is on instruction nesting and metadata inclusion, looking for patterns to form initial rules.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining Prompting Rules**\n\nI am now focused on extracting the core components from the user\u0027s \"Sprint 01 - Em texto corrido.md\" file. My goal is to determine the fundamental rules of their prompt-writing style. Specifically, I am pinpointing the uses of various tags, instruction nesting, and data inclusion. This analysis will form the basis of a comprehensive how-to guide, which must itself adhere to their tagging structure.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Constructing User Manual**\n\nI\u0027m now drafting the structure of the prompt-writing manual. I am focusing on replicating the user\u0027s document style using `\u003ctag\u003e` elements. I am deconstructing their file to outline the fundamental structure. This involves analyzing metadata, understanding custom tag semantics, instruction nesting, content types, and how the tags reference each other. My goal is to outline all these elements, ensuring each has an equivalent in the manual.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining Prompting Framework**\n\nI am now focusing on understanding the user\u0027s methodology. The \"Sprint 01\" file is not a prompt, but a blueprint using tags to structure instructions and notes. I\u0027ve broken down its components: metadata, custom tags (semantic descriptions), and nesting/referencing for flow control. The file mixes plain text, lists, and directives, so my manual must address these content types, emphasizing how to encapsulate information effectively.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Formulating Guide Principles**\n\nI\u0027m now formulating the key principles for this prompting style. The goal is a manual for crafting prompts structured with `\u003ctag\u003e` elements. I\u0027ve identified encapsulation with tags, metadata blocks, hierarchical structure, and interlinking as crucial principles. I\u0027m focusing on \"componentization\" of reusable information and clear instruction within tags.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Formulating Principles \u0026 Manual**\n\nI\u0027m now consolidating the observed structures into actionable principles for prompt creation. I\u0027ll translate these into a detailed, tag-formatted manual. The goal is to provide a complete \"how-to\" guide, illustrated with a new practical example and following their style from the \u0027Sprint 01\u0027 file.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Formulating Final Manual Structure**\n\nI\u0027m now outlining the structure for the complete manual, which will be the end product. I will translate the observations of user\u0027s workflow into a document. This will be an organized set of instructions, including a new practical example using similar tags to demonstrate the method. The manual will itself adhere to the described tag-based format.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-03-15T08:31:40.982Z"
+    }, {
+      "text": "Com certeza! Analisei a estrutura do seu arquivo e criei um manual de \"prompting estruturado\" que segue exatamente o mesmo sistema de tags.\n\nEste manual ensina como organizar prompts complexos em blocos lógicos e interligados, tornando suas instruções para a IA mais claras, modulares e fáceis de manter.\n\n---\n\n\u003cmanual_de_prompting_estruturado\u003e\n---\nModificado: domingo 15/03/2026\nCriado: domingo 15/03/2026\nAutor: Assistente de IA\nVersão: 1.0\n---\n\u003cintroducao\u003e\nEste documento é um guia prático para a criação de prompts usando uma metodologia estruturada com tags, inspirada no seu arquivo \"Sprint 01 - Em texto corrido.md\". O objetivo é transformar uma tarefa complexa em componentes lógicos e referenciáveis, aumentando a precisão e o controle sobre a resposta da IA.\n\nCada pedaço de informação, contexto, regra ou instrução é encapsulado em suas próprias tags, como \u003cexemplo_de_tag\u003e.\n\u003c/introducao\u003e\n\n\u003cprincipios_fundamentais\u003e\nPara criar um prompt eficaz neste formato, siga estes princípios:\n\n1.  **\u003cprincipio_encapsulamento\u003e**\n    Toda e qualquer instrução deve estar dentro de um par de tags de abertura e fechamento. O nome da tag deve descrever de forma clara e concisa o seu conteúdo.\n    Exemplo: em vez de um parágrafo longo, separe o público-alvo em `\u003cpublico_alvo\u003e` e o tom de voz em `\u003ctom_de_voz\u003e`.\n    **\u003c/principio_encapsulamento\u003e**\n\n2.  **\u003cprincipio_modularidade\u003e**\n    Crie blocos de informação reutilizáveis. Por exemplo, informações legais, personas ou regras de formatação podem ser definidas em uma tag específica, como \u003cregras_gerais\u003e, e depois apenas referenciadas quando necessário.\n    **\u003c/principio_modularidade\u003e**\n\n3.  **\u003cprincipio_referencia\u003e**\n    Conecte os diferentes blocos lógicos mencionando o nome de outras tags. Isso cria um fluxo de trabalho claro para a IA seguir.\n    Exemplo: \"Após executar a \u003ctarefa_1\u003e, use o resultado como entrada para a \u003ctarefa_2\u003e.\"\n    **\u003c/principio_referencia\u003e**\n\n4.  **\u003cprincipio_hierarquia\u003e**\n    Organize as tags de forma lógica, começando do mais geral para o mais específico. Use a indentação para visualizar a hierarquia e a relação entre as diferentes partes do prompt.\n    **\u003c/principio_hierarquia\u003e**\n\u003c/principios_fundamentais\u003e\n\n\u003cguia_passo_a_passo\u003e\nSiga estes passos para construir seu prompt:\n\n1.  **\u003cpasso_1_definir_objetivo_geral\u003e**\n    Comece com a descrição do objetivo principal que você quer alcançar. Coloque isso em uma tag de alto nível, como `\u003cobjetivo_principal\u003e`.\n    **\u003c/passo_1_definir_objetivo_geral\u003e**\n\n2.  **\u003cpasso_2_identificar_componentes\u003e**\n    Divida o objetivo principal em partes menores. Cada parte será um componente do seu prompt.\n    Componentes comuns incluem:\n    - Persona/Papel da IA: `\u003cpersona\u003e`\n    - Contexto/Informação de base: `\u003ccontexto\u003e`\n    - Dados de entrada: `\u003cdados_de_entrada\u003e`\n    - Regras e restrições: `\u003cregras\u003e`\n    - Sequência de tarefas: `\u003ctarefa_1\u003e`, `\u003ctarefa_2\u003e`\n    - Formato de saída desejado: `\u003cformato_de_saida\u003e`\n    **\u003c/passo_2_identificar_componentes\u003e**\n\n3.  **\u003cpasso_3_escrever_o_conteudo_das_tags\u003e**\n    Preencha cada tag com instruções claras e diretas. Use listas, texto em negrito e exemplos sempre que possível para evitar ambiguidades.\n    **\u003c/passo_3_escrever_o_conteudo_das_tags\u003e**\n\n4.  **\u003cpasso_4_conectar_os_componentes\u003e**\n    Use o \u003cprincipio_referencia\u003e para criar o fluxo lógico. Explicite como a saída de um bloco deve ser usada em outro.\n    **\u003c/passo_4_conectar_os_componentes\u003e**\n\u003c/guia_passo_a_passo\u003e\n\n\u003cexemplo_pratico_criar_email\u003e\nVamos criar um prompt para gerar um e-mail de marketing usando esta estrutura.\n\n\u003cobjetivo_principal\u003e\nCriar 3 variações de um e-mail de marketing para anunciar um novo produto, seguindo a persona e o formato definidos.\n\u003c/objetivo_principal\u003e\n\n\u003cpersona\u003e\nAja como um especialista em marketing digital sênior, com um tom de voz persuasivo, mas profissional. A comunicação deve ser clara e direta.\n\u003c/persona\u003e\n\n\u003ccontexto_produto\u003e\nO produto é o \"Quantum CRM\", um software de gerenciamento de clientes que usa IA para prever as necessidades dos clientes antes mesmo que eles saibam. O público-alvo está definido em \u003cpublico_alvo\u003e.\n\u003c/contexto_produto\u003e\n\n\u003cpublico_alvo\u003e\nGerentes de vendas de empresas de tecnologia de médio porte (50-500 funcionários).\n\u003c/publico_alvo\u003e\n\n\u003ctarefa_principal\u003e\nSua tarefa é escrever o e-mail.\n1. Comece com uma linha de assunto que chame a atenção.\n2. No corpo do e-mail, explique o problema que o \u003cpublico_alvo\u003e enfrenta.\n3. Apresente o \u003ccontexto_produto\u003e como a solução ideal.\n4. Finalize com uma chamada para ação (CTA) clara para agendar uma demonstração.\n5. Crie 3 versões diferentes, variando a linha de assunto e o CTA.\n6. Siga estritamente as regras de \u003cformato_de_saida\u003e.\n\u003c/tarefa_principal\u003e\n\n\u003cformato_de_saida\u003e\nA saída final deve ser um único bloco de código JSON contendo uma lista chamada \"variacoes_email\". Cada item da lista deve ser um objeto com as chaves \"assunto\", \"corpo_email\" e \"cta\". Não inclua nenhuma outra explicação ou texto fora do bloco JSON.\n\u003c/formato_de_saida\u003e\n\u003c/exemplo_pratico_criar_email\u003e\n\n\u003c/manual_de_prompting_estruturado\u003e",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1445,
+      "parts": [{
+        "text": "Com certeza! Analisei a estrutura do seu arquivo e criei um manual de \"prompting estrut"
+      }, {
+        "text": "urado\" que segue exatamente o mesmo sistema de tags.\n\nEste manual ensina como organizar prompts complexos em blocos l"
+      }, {
+        "text": "ógicos e interligados, tornando suas instruções para a IA mais claras, modulares e fáceis de manter.\n\n---\n\n"
+      }, {
+        "text": "\u003cmanual_de_prompting_estruturado\u003e\n---\nModificado: domingo 15/03/2"
+      }, {
+        "text": "026\nCriado: domingo 15/03/2026\nAutor: Assistente de IA"
+      }, {
+        "text": "\nVersão: 1.0\n---\n\u003cintroducao\u003e\nEste documento é um guia prático para"
+      }, {
+        "text": " a criação de prompts usando uma metodologia estruturada com tags, inspirada no seu arquivo \"Sprint 01 - Em texto corr"
+      }, {
+        "text": "ido.md\". O objetivo é transformar uma tarefa complexa em componentes lógicos e referenciáveis, aumentando a precis"
+      }, {
+        "text": "ão e o controle sobre a resposta da IA.\n\nCada pedaço de informação, contexto, regra ou instrução é encapsulado em"
+      }, {
+        "text": " suas próprias tags, como \u003cexemplo_de_tag\u003e.\n\u003c/introducao\u003e\n\n\u003cprincipios_fundamentais"
+      }, {
+        "text": "\u003e\nPara criar um prompt eficaz neste formato, siga estes princípios:\n\n1.  **\u003cprincipio_encaps"
+      }, {
+        "text": "ulamento\u003e**\n    Toda e qualquer instrução deve estar dentro de um par de tags de abertura e fechamento"
+      }, {
+        "text": ". O nome da tag deve descrever de forma clara e concisa o seu conteúdo.\n    Exemplo: em"
+      }, {
+        "text": " vez de um parágrafo longo, separe o público-alvo em `\u003cpublico_alvo\u003e` e o tom"
+      }, {
+        "text": " de voz em `\u003ctom_de_voz\u003e`.\n    **\u003c/principio_encapsulamento\u003e**\n\n2."
+      }, {
+        "text": "  **\u003cprincipio_modularidade\u003e**\n    Crie blocos de informação reutilizáveis. Por exemplo, informações"
+      }, {
+        "text": " legais, personas ou regras de formatação podem ser definidas em uma tag específica, como \u003cregras_gerais\u003e,"
+      }, {
+        "text": " e depois apenas referenciadas quando necessário.\n    **\u003c/principio_modularidade\u003e**\n\n3.  **\u003cprincipio"
+      }, {
+        "text": "_referencia\u003e**\n    Conecte os diferentes blocos lógicos mencionando o nome de outras tags. Isso cria"
+      }, {
+        "text": " um fluxo de trabalho claro para a IA seguir.\n    Exemplo: \"Após executar a \u003ctarefa_1"
+      }, {
+        "text": "\u003e, use o resultado como entrada para a \u003ctarefa_2\u003e.\"\n    **\u003c/principio_referencia"
+      }, {
+        "text": "\u003e**\n\n4.  **\u003cprincipio_hierarquia\u003e**\n    Organize as tags de forma lógica, começando"
+      }, {
+        "text": " do mais geral para o mais específico. Use a indentação para visualizar a hierarquia e a relação entre as diferentes partes do prompt."
+      }, {
+        "text": "\n    **\u003c/principio_hierarquia\u003e**\n\u003c/principios_fundamentais\u003e\n\n\u003cguia_passo_"
+      }, {
+        "text": "a_passo\u003e\nSiga estes passos para construir seu prompt:\n\n1.  **\u003cpasso_1_"
+      }, {
+        "text": "definir_objetivo_geral\u003e**\n    Comece com a descrição do objetivo principal que você quer alcançar."
+      }, {
+        "text": " Coloque isso em uma tag de alto nível, como `\u003cobjetivo_principal\u003e`.\n    **\u003c/passo_"
+      }, {
+        "text": "1_definir_objetivo_geral\u003e**\n\n2.  **\u003cpasso_2_identificar"
+      }, {
+        "text": "_componentes\u003e**\n    Divida o objetivo principal em partes menores. Cada parte será um componente do seu prompt.\n"
+      }, {
+        "text": "    Componentes comuns incluem:\n    - Persona/Papel da IA: `\u003cpersona\u003e`\n    - Contexto/"
+      }, {
+        "text": "Informação de base: `\u003ccontexto\u003e`\n    - Dados de entrada: `\u003cdados_de_entrada\u003e`\n"
+      }, {
+        "text": "    - Regras e restrições: `\u003cregras\u003e`\n    - Sequência de tarefas: `\u003ctarefa_"
+      }, {
+        "text": "1\u003e`, `\u003ctarefa_2\u003e`\n    - Formato de saída desejado: `\u003cformato_de_"
+      }, {
+        "text": "saida\u003e`\n    **\u003c/passo_2_identificar_componentes\u003e**\n\n3.  **\u003c"
+      }, {
+        "text": "passo_3_escrever_o_conteudo_das_tags\u003e**\n    Preencha cada tag"
+      }, {
+        "text": " com instruções claras e diretas. Use listas, texto em negrito e exemplos sempre que possível para evitar ambiguidades.\n    "
+      }, {
+        "text": "**\u003c/passo_3_escrever_o_conteudo_das_tags\u003e**\n\n4.  **"
+      }, {
+        "text": "\u003cpasso_4_conectar_os_componentes\u003e**\n    Use o \u003cprincipio_referencia\u003e para criar"
+      }, {
+        "text": " o fluxo lógico. Explicite como a saída de um bloco deve ser usada em outro.\n    **\u003c/passo"
+      }, {
+        "text": "_4_conectar_os_componentes\u003e**\n\u003c/guia_passo_a_passo\u003e\n\n\u003c"
+      }, {
+        "text": "exemplo_pratico_criar_email\u003e\nVamos criar um prompt para gerar um e-mail de marketing usando"
+      }, {
+        "text": " esta estrutura.\n\n\u003cobjetivo_principal\u003e\nCriar 3 variações de um e-mail de marketing para anunciar"
+      }, {
+        "text": " um novo produto, seguindo a persona e o formato definidos.\n\u003c/objetivo_principal\u003e\n\n\u003cpersona\u003e"
+      }, {
+        "text": "\nAja como um especialista em marketing digital sênior, com um tom de voz persuasivo, mas profissional."
+      }, {
+        "text": " A comunicação deve ser clara e direta.\n\u003c/persona\u003e\n\n\u003ccontexto_produto\u003e\nO produto é o"
+      }, {
+        "text": " \"Quantum CRM\", um software de gerenciamento de clientes que usa IA para prever as necessidades dos clientes antes mesmo que eles sa"
+      }, {
+        "text": "ibam. O público-alvo está definido em \u003cpublico_alvo\u003e.\n\u003c/contexto_produto\u003e"
+      }, {
+        "text": "\n\n\u003cpublico_alvo\u003e\nGerentes de vendas de empresas de tecnologia de médio porte (50-5"
+      }, {
+        "text": "00 funcionários).\n\u003c/publico_alvo\u003e\n\n\u003ctarefa_principal\u003e\nSua tarefa é escrever"
+      }, {
+        "text": " o e-mail.\n1. Comece com uma linha de assunto que chame a atenção.\n2. No"
+      }, {
+        "text": " corpo do e-mail, explique o problema que o \u003cpublico_alvo\u003e enfrenta.\n3. Ap"
+      }, {
+        "text": "resente o \u003ccontexto_produto\u003e como a solução ideal.\n4. Finalize com uma chamada para ação ("
+      }, {
+        "text": "CTA) clara para agendar uma demonstração.\n5. Crie 3 versões diferentes, variando a linha de assunto e"
+      }, {
+        "text": " o CTA.\n6. Siga estritamente as regras de \u003cformato_de_saida\u003e.\n\u003c/tarefa"
+      }, {
+        "text": "_principal\u003e\n\n\u003cformato_de_saida\u003e\nA saída final deve ser um único bloco de código JSON cont"
+      }, {
+        "text": "endo uma lista chamada \"variacoes_email\". Cada item da lista deve ser um objeto com as chaves \"ass"
+      }, {
+        "text": "unto\", \"corpo_email\" e \"cta\". Não inclua nenhuma outra explicação ou texto fora do bloco JSON.\n"
+      }, {
+        "text": "\u003c/formato_de_saida\u003e\n\u003c/exemplo_pratico_criar_email\u003e\n\n\u003c/manual_de_"
+      }, {
+        "text": "prompting_estruturado\u003e"
+      }],
+      "createTime": "2026-03-15T08:31:57.836Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

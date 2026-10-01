@@ -1,0 +1,1 @@
+É um plugin que auxilia na hora de criar sombras no Photoshop.

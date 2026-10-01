@@ -1,0 +1,1 @@
+Page Up e Page Down servem para se movimentar pela timeline com o teclado.

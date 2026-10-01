@@ -1,0 +1,1 @@
+Ao importar um arquivo com texto para o After, antes de editar o texto é necessário converter em texto editável com **Botão Direito - Converter em texto editável**

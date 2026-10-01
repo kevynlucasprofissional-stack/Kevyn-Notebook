@@ -1,0 +1,1 @@
+A ferramenta de Animo consegue controlar vários keyframes ao mesmo tempo.

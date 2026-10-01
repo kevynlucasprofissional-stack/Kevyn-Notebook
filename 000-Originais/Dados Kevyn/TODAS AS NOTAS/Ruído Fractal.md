@@ -1,0 +1,1 @@
+É um efeito de ruído com bastante estilo, gera uma sensação de distorção e tem vários parâmetros personalizáveis e animáveis. É um pouco parecido com o Ruído Turbulento, mas este último é mais utilizado e por isso se torna mais genérico. Para um criativo mais único e autêntico, prefira o Ruído Fractal (Sem contar que o Ruído Fractal é mais versátil).

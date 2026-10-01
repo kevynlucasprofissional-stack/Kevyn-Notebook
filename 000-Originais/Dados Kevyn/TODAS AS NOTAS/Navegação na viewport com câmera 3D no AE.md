@@ -1,0 +1,1 @@
+Use o botões do mouse. O CE orbita, o Scroll arrasta e o CD dá zoom. Lembre-se de segurar Alt.

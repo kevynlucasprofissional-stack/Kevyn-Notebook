@@ -1,0 +1,1 @@
+Aparente é possível ativar ou desativar uma expressão sem precisar deletar ela, basta usar o botão de igual no editor de expressões.

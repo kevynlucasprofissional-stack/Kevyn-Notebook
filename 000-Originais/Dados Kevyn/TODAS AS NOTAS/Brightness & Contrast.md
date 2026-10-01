@@ -1,0 +1,1 @@
+É um efeito de ajuste de brilho e contraste.

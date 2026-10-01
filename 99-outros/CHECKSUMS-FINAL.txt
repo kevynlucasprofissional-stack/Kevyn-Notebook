@@ -1,0 +1,26 @@
+﻿b8c4a98c8f82e2e7e6ac5ebe2db2b7f4d591c506670e9a6b3d2214c179347c62  4650  Controle-Integracao/Estado-Integracao.json
+01ed5f1fceb567aed1eead8bd8d08330a857d5b0310d32d7f4962e73286aec4b  1332730  Controle-Integracao/Manifesto-Fontes.csv
+006b3f72551c3cca2032382d8fdf62a52d18cf8076c1f9ee08926245fed10121  968474  Controle-Integracao/Matriz-Cobertura.csv
+f2c58de86ab9353f4a17d0c759258af8671124a064dcf53977536e97b8f924b3  8289  Controle-Integracao/Matriz-Claims.csv
+8786f0d37228a8ed88dfa59a36a6f5fc9c58afec342822902084c41f289ae914  15230  Controle-Integracao/Registro-de-Decisoes.md
+abb5b843d421241846b748b2b31cc349c595ff64f224e4c2051ce334ec9ab785  42366  Controle-Revisao-100/Matriz-Revisao-100.csv
+1845a8a17753a68718c20af13e692d98f71dd69b4d281ad5e9acf7f7aec943ea  7599  Changelog.md
+0a413e357db69772011b965950208fbc51c8a53624ceb36a0812ca48002d3711  4774  Pendencias-Assumidas.md
+13b2bc62faf34cb79387f04d5c35c3a961c0328e0d9df6a112a1f01591838e73  6480  Metricas.json
+32e52e81bba3a1e8009b2212abf3d8f1af0172177995adeae8a46eb33f366280  8606  Relatorio-Executivo.md
+d82869b3db4ae293183ad1491ab45bd9d1601d7ace0dd1a47f772fd20d1e6859  5802  Relatorio-de-Auditoria.md
+e7a289bd6a0f2a6ad1b20cb069086e3062398374667a2e84194713ea43f59a67  4435  09-Fontes-e-Evidencias/Fonte - Reuniao com psicologa Suzana 2026-06-26.md
+5b1c1f5d9e2f3ad671ba0fb9aca1597bf72b29542e35e7f0756f931d8154bb70  3961  06-Saude-Autocuidado-e-Autorregulacao/Estado atual - 27 de junho de 2026.md
+09dc35c9dcf5609e43d1eedbdbae1973c46923897d33662545a22e43d39c25b1  3351  95-Auditorias/auditoria-inicial-integracao-dados-270626.md
+ed6b822be64c7b00323ae6532d6b23038e7234c593e86fe9d27d5607d7b9a5f9  1597  95-Auditorias/auditoria-final-escopo-ativo-integracao-270626.md
+da77e139719473f66d3fc0ff419308158c23827c1d4325379df50d03a94f1868  1645  95-Auditorias/auditoria-final-escopo-completo-integracao-270626.md
+1e8f1e8fbb99fc987d1d25c15c4624018419390e7741bd1f614afd5bd81b08de  2294  95-Auditorias/relatorio-final-integracao-dados-270626.md
+339e7f7b021b8de645d35a0fb24d51e19bd8f00a3b8620805ebc56927f6c3395  2866  98-Infraestrutura/checksums-depois-integracao-270626.txt
+3796a295ca609ba5ae4f0370d265772e6f1236190082e85790bfc7e6e2d6711c  2085  95-Auditorias/relatorio-reconciliacao-manifesto-matriz-v6.md
+5960aae4a6fba44365ab8c4e749c583418c4b2ce1bdfaf61e5f0dfacc1e5605c  2292  95-Auditorias/auditoria-semantica-nucleo-v6.md
+e6e72e63917899e6014b0d71ad8e73097a92cc952e99ddae7e05ac6e66e0f19c  1609  95-Auditorias/auditoria-final-escopo-ativo-v6.md
+7b509eb7d6664fb60109da24183c92550c246d04ff22fe89631daa05de5b9fcb  1494  95-Auditorias/auditoria-final-escopo-completo-v6.md
+e87955e7c133576627bbea2f9165d24a43ce0606469af6a1ee9e3dfc9ea2a18d  1510  95-Auditorias/auditoria-semantica-final-v6.md
+76164a10e31d37f60a45997ccecd866ea3fced4b9c16dccef609fdfe475e95d3  1820  95-Auditorias/relatorio-final-v6-curadoria-semantica.md
+1323d52e6458501c1b19cc257cf78ef4da82bf8bf8a9b329bf8026b9eab93f9b  373876  98-Infraestrutura/checksums-depois-v6-curadoria-semantica.txt
+

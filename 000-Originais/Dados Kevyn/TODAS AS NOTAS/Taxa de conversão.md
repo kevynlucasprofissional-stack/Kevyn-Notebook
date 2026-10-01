@@ -1,0 +1,1 @@
+Sempre fique atento a taxa de conversão. Quantas pessoas compram o produto a cada 100 pessoas que entram na página de vendas?

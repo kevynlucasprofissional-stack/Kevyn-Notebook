@@ -1,0 +1,1 @@
+Existe uma interface pronta que otimiza o processo de animação, está dentre as interfaces nativas do C4D. Todas disponíveis na parte superior direita.

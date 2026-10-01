@@ -1,0 +1,1 @@
+Echo cria um rastro, é parecido com o efeito, mas esse tem mais parâmetros personalizáveis.

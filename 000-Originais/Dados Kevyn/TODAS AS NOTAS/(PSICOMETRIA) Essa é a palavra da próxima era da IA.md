@@ -1,0 +1,1 @@
+Estude Psicometria, essa ciência aliada a IA é a próxima era.

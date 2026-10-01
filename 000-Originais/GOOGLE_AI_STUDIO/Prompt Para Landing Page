@@ -1,0 +1,151 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "environmentMode": "new"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveVideo": {
+        "id": "1ZQlmb9OIb8eCiVAUFr3bv1sd1ZbxpTpt"
+      },
+      "role": "user",
+      "tokenCount": 3709,
+      "createTime": "2026-07-16T17:56:42.466Z"
+    }, {
+      "text": "Cria um prompt para eu enviar para o Lovable e ele criar um site igual esse, mas\nsem a logo do linktree no cabeçalho, sem o botão animado e as informações no\nrodapé.\n",
+      "role": "user",
+      "tokenCount": 47,
+      "createTime": "2026-07-16T17:56:57.855Z"
+    }, {
+      "text": "**Defining the Target**\n\nOkay, I\u0027m zeroing in on the core of the request. My primary task is to clearly define the target website from the video; currently, it seems to be a Linktree-style page. I\u0027m focusing on distilling the essential features from the video to make sure I grasp the core essence of the request.\n\n\n**Refining the Specification**\n\nI\u0027m now zeroing in on the specific visual elements. I have a clearer idea of the overall landing page style, especially after filtering out Linktree-specific features. The focus is now on the deep blue gradient background and the centered, mobile-first design. I\u0027ve also defined the logo (white circle with dark blue \"A\"), and the title \"ACIRV\".\n\n\n**Detailing the Social Elements**\n\nI\u0027m now diving into the specifics of the social icons and button section. I\u0027ve confirmed the four icons: Facebook, Instagram, Email, and a website icon/external link. I\u0027m focusing on their white color and horizontal arrangement. For the links/buttons, I\u0027m nailing down the outline style with white borders, transparent backgrounds, rounded corners (pill shape), and white text. I\u0027m also capturing the specific text and \"three dots\" icon for each button.\n\n\n**Clarifying the Core Structure**\n\nI\u0027m now zeroing in on prompt engineering. My focus is on structuring the instructions for the AI builder. I need to ensure the AI understands the key elements: role, styling, structure, and specifics, as well as the exclusions as explicitly as possible to avoid unnecessary features. I\u0027m focusing on defining clear and distinct sections in the structure.\n\n\n**Structuring the Header**\n\nI\u0027m now focusing on organizing the visual details. I\u0027ve defined a centered, responsive layout. The header incorporates a round, white logo with a dark blue \u0027A\u0027 in the center, and the title \"ACIRV\" in bold, white text. I\u0027ve also added the white subtitle, \"Presente em cada história!\".\n\n\n",
+      "role": "model",
+      "tokenCount": 1447,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Target**\n\nOkay, I\u0027m zeroing in on the core of the request. My primary task is to clearly define the target website from the video; currently, it seems to be a Linktree-style page. I\u0027m focusing on distilling the essential features from the video to make sure I grasp the core essence of the request.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Specification**\n\nI\u0027m now zeroing in on the specific visual elements. I have a clearer idea of the overall landing page style, especially after filtering out Linktree-specific features. The focus is now on the deep blue gradient background and the centered, mobile-first design. I\u0027ve also defined the logo (white circle with dark blue \"A\"), and the title \"ACIRV\".\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Detailing the Social Elements**\n\nI\u0027m now diving into the specifics of the social icons and button section. I\u0027ve confirmed the four icons: Facebook, Instagram, Email, and a website icon/external link. I\u0027m focusing on their white color and horizontal arrangement. For the links/buttons, I\u0027m nailing down the outline style with white borders, transparent backgrounds, rounded corners (pill shape), and white text. I\u0027m also capturing the specific text and \"three dots\" icon for each button.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Clarifying the Core Structure**\n\nI\u0027m now zeroing in on prompt engineering. My focus is on structuring the instructions for the AI builder. I need to ensure the AI understands the key elements: role, styling, structure, and specifics, as well as the exclusions as explicitly as possible to avoid unnecessary features. I\u0027m focusing on defining clear and distinct sections in the structure.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Header**\n\nI\u0027m now focusing on organizing the visual details. I\u0027ve defined a centered, responsive layout. The header incorporates a round, white logo with a dark blue \u0027A\u0027 in the center, and the title \"ACIRV\" in bold, white text. I\u0027ve also added the white subtitle, \"Presente em cada história!\".\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-07-16T17:56:57.856Z"
+    }, {
+      "text": "Aqui está um prompt detalhado e estruturado que você pode copiar e colar no Lovable para que ele gere exatamente o que você precisa, respeitando as suas restrições:\n\n***\n\n**Copie o texto abaixo:**\n\n\u003e \"Crie uma página de destino (landing page) estilo \u0027link-in-bio\u0027 (semelhante ao Linktree), focada em design mobile-first, mas que fique centralizada na tela quando vista no desktop.\n\u003e \n\u003e **Estilo e Cores:**\n\u003e *   **Fundo:** Um gradiente suave em tons de azul escuro (começando com um azul um pouco mais claro no topo e escurecendo em direção à base).\n\u003e *   **Fonte:** Limpa, moderna e sem serifa (como Inter ou Roboto). A cor de todo o texto deve ser branca.\n\u003e \n\u003e **Estrutura da Página (de cima para baixo):**\n\u003e \n\u003e **1. Perfil (Cabeçalho):**\n\u003e *   Uma imagem de perfil circular (avatar) com fundo branco e uma letra \u0027A\u0027 maiúscula e em negrito na cor azul escuro no centro.\n\u003e *   Abaixo da imagem, o título \"ACIRV\" em texto grande, branco e em negrito.\n\u003e *   Abaixo do título, o subtítulo \"Presente em cada história!\" em texto branco, tamanho menor e peso normal.\n\u003e \n\u003e **2. Ícones Sociais:**\n\u003e *   Uma linha horizontal contendo 4 ícones minimalistas e brancos: Facebook, Instagram, E-mail (envelope) e um ícone genérico de link/globo. Os ícones devem ter um espaçamento igual entre eles.\n\u003e \n\u003e **3. Botões de Links:**\n\u003e *   **Estilo dos botões:** Formato de pílula (bordas totalmente arredondadas), fundo transparente (apenas a cor de fundo da tela aparecendo), contorno (borda) com uma linha branca fina e texto branco. \n\u003e *   Todos os botões devem ter um ícone de \"três pontinhos verticais\" alinhado na extremidade direita do botão.\n\u003e *   **Botão 1:** Texto centralizado \"Fique por dentro das notícias\".\n\u003e *   **Botão 2:** Texto centralizado \"Entre em contato com a ACIRV\".\n\u003e *   **Botão 3:** Deve conter um pequeno círculo branco (como um mini avatar) alinhado à esquerda dentro do botão, o texto centralizado \"CAM-ACIRV\" e os três pontinhos à direita.\n\u003e \n\u003e **REGRAS E RESTRIÇÕES IMPORTANTES (O que NÃO fazer):**\n\u003e *   NÃO inclua nenhuma logo, ícone ou botão de \"Subscribe\" ou compartilhar flutuando no topo da página. O topo deve começar direto com o avatar.\n\u003e *   NÃO adicione animações pulsantes ou flutuantes em nenhum botão. O design deve ser estático e limpo.\n\u003e *   NÃO inclua NENHUM rodapé. Remova qualquer texto sobre \"Cookie Preferences\", \"Privacy\", logos da plataforma de criação ou botões fixos na parte inferior da tela. A página deve terminar logo após o último botão de link.\"\n\n***\n\n### Dica extra ao usar o Lovable:\nSe o Lovable gerar os botões com um fundo branco sólido, você pode enviar um segundo prompt rápido de correção dizendo: *\"Altere os botões para terem o fundo 100% transparente, deixando apenas a borda branca fina e o texto branco\"*.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 775,
+      "parts": [{
+        "text": "Aqui"
+      }, {
+        "text": " está um prompt detalhado e estruturado que você pode copiar e colar no Lovable para que ele gere exatamente o que"
+      }, {
+        "text": " você precisa, respeitando as suas restrições:\n\n***\n\n**Copie o texto abaixo:**\n\n\u003e \""
+      }, {
+        "text": "Crie uma página de destino (landing page) estilo \u0027link-in-bio\u0027 (semelhante ao Linktree),"
+      }, {
+        "text": " focada em design mobile-first, mas que fique centralizada na tela quando vista no desktop.\n\u003e \n"
+      }, {
+        "text": "\u003e **Estilo e Cores:**\n\u003e *   **Fundo:** Um gradiente suave em tons de azul escuro (come"
+      }, {
+        "text": "çando com um azul um pouco mais claro no topo e escurecendo em direção à base).\n\u003e *   **Fonte:** Lim"
+      }, {
+        "text": "pa, moderna e sem serifa (como Inter ou Roboto). A cor de todo o texto deve ser branca.\n\u003e \n\u003e"
+      }, {
+        "text": " **Estrutura da Página (de cima para baixo):**\n\u003e \n\u003e **1. Perfil ("
+      }, {
+        "text": "Cabeçalho):**\n\u003e *   Uma imagem de perfil circular (avatar) com fundo branco e uma letra \u0027A"
+      }, {
+        "text": "\u0027 maiúscula e em negrito na cor azul escuro no centro.\n\u003e *   Abaixo da imagem,"
+      }, {
+        "text": " o título \"ACIRV\" em texto grande, branco e em negrito.\n\u003e *   Abaixo do título,"
+      }, {
+        "text": " o subtítulo \"Presente em cada história!\" em texto branco, tamanho menor e peso normal.\n\u003e \n\u003e **2."
+      }, {
+        "text": " Ícones Sociais:**\n\u003e *   Uma linha horizontal contendo 4 ícones minimalistas e brancos:"
+      }, {
+        "text": " Facebook, Instagram, E-mail (envelope) e um ícone genérico de link/globo. Os ícones devem ter"
+      }, {
+        "text": " um espaçamento igual entre eles.\n\u003e \n\u003e **3. Botões de Links:**\n\u003e *   **"
+      }, {
+        "text": "Estilo dos botões:** Formato de pílula (bordas totalmente arredondadas), fundo transparente (ap"
+      }, {
+        "text": "enas a cor de fundo da tela aparecendo), contorno (borda) com uma linha branca fina e texto branco."
+      }, {
+        "text": " \n\u003e *   Todos os botões devem ter um ícone de \"três pontinhos verticais\" alinhado na"
+      }, {
+        "text": " extremidade direita do botão.\n\u003e *   **Botão 1:** Texto centralizado \"Fique por dentro"
+      }, {
+        "text": " das notícias\".\n\u003e *   **Botão 2:** Texto centralizado \"Entre em contato com a ACIR"
+      }, {
+        "text": "V\".\n\u003e *   **Botão 3:** Deve conter um pequeno círculo branco (como um mini avatar) alinhado à esquerda"
+      }, {
+        "text": " dentro do botão, o texto centralizado \"CAM-ACIRV\" e os três pontinhos à direita.\n\u003e \n\u003e **"
+      }, {
+        "text": "REGRAS E RESTRIÇÕES IMPORTANTES (O que NÃO fazer):**\n\u003e *   NÃO inclua"
+      }, {
+        "text": " nenhuma logo, ícone ou botão de \"Subscribe\" ou compartilhar flutuando no topo da página. O topo deve começar"
+      }, {
+        "text": " direto com o avatar.\n\u003e *   NÃO adicione animações pulsantes ou flutuantes em nenhum botão. O"
+      }, {
+        "text": " design deve ser estático e limpo.\n\u003e *   NÃO inclua NENHUM rodapé. Rem"
+      }, {
+        "text": "ova qualquer texto sobre \"Cookie Preferences\", \"Privacy\", logos da plataforma de criação ou botões fixos na parte inferior da tela"
+      }, {
+        "text": ". A página deve terminar logo após o último botão de link.\"\n\n***\n\n### Dica extra ao usar o Lovable:\nSe"
+      }, {
+        "text": " o Lovable gerar os botões com um fundo branco sólido, você pode enviar um segundo prompt rápido de correção dizendo: *\"Al"
+      }, {
+        "text": "tere os botões para terem o fundo 100% transparente, deixando apenas a borda branca fina e o texto branco\""
+      }, {
+        "text": "*."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-07-16T17:57:13.876Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

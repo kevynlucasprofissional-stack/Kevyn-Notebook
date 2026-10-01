@@ -1,0 +1,178 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1iooYUNXhGbmLvqqP9cyQAPhTIC1akuzp"
+      },
+      "role": "user",
+      "tokenCount": 198664,
+      "createTime": "2026-03-18T16:39:37.252Z"
+    }, {
+      "text": "Crie um resumo executivo sobre a ACIRV com base nos dados",
+      "role": "user",
+      "tokenCount": 16,
+      "createTime": "2026-03-18T16:39:37.252Z"
+    }, {
+      "text": "**Defining the ACIRV Scope**\n\nI\u0027m focusing now on precisely defining the parameters of this executive summary for ACIRV. The goal is clear, I need to craft a concise, impactful overview. I\u0027m exploring the key aspects that need to be addressed to give the user the information they require in a distilled fashion.\n\n\n**Extracting Key Data**\n\nI\u0027m now diving into the source files, extracting key data points about ACIRV. I\u0027m focusing on its definition, history, leadership (specifically President José Carlos Cintra), strategic goals, key events like Sudoexpo, and marketing. I\u0027ve begun to catalogue its services, core concept (\"Tradição em Movimento\"), and slogan (\"Conectar para Crescer\"), aiming for a solid overview.\n\n\n**Analyzing ACIRV\u0027s Structure**\n\nI\u0027ve moved on to examining ACIRV\u0027s internal structure and achievements. I\u0027m focusing on their service offerings, including arbitration, digital certification, and their sectorial nucleus like ACIRV Mulher. Also looking closely at their Strategic Pillars for 2026. I\u0027m also examining the impressive ROI from recent achievements like Sudoexpo and other events, as well as the positive impact of their political efforts and massive digital growth. The shift in marketing strategy is also under review.\n\n\n**Refining the Narrative Framework**\n\nI\u0027m now integrating the shift to the new, storytelling-focused approach championed by Renata. I\u0027m focusing on weaving in community aspects and incorporating Vivianne and Kevyn\u0027s guidance into the narrative. The planned structure is clear: Overview, Leadership/Strategy, Key Solutions, Results/ROI, and Digital Transformation. I will begin by working on the Overview section. I am working on using a concise yet informative tone.\n\n\n**Synthesizing Foundational Data**\n\nI\u0027m synthesizing the foundational data related to ACIRV, which was founded in 1984, emphasizing its 40+ year legacy. This organization\u0027s mission centers on regional economic, political, and social development. I\u0027m noting the leadership under President José Carlos Cintra (2025-2028), whose pragmatic, data-driven approach and focus on agribusiness and infrastructure are key. The updated concept for 2026, \"Tradição em Movimento\" and its slogan \"Conectar para Crescer\" are also being woven into the narrative.",
+      "role": "model",
+      "tokenCount": 1396,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the ACIRV Scope**\n\nI\u0027m focusing now on precisely defining the parameters of this executive summary for ACIRV. The goal is clear, I need to craft a concise, impactful overview. I\u0027m exploring the key aspects that need to be addressed to give the user the information they require in a distilled fashion.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Extracting Key Data**\n\nI\u0027m now diving into the source files, extracting key data points about ACIRV. I\u0027m focusing on its definition, history, leadership (specifically President José Carlos Cintra), strategic goals, key events like Sudoexpo, and marketing. I\u0027ve begun to catalogue its services, core concept (\"Tradição em Movimento\"), and slogan (\"Conectar para Crescer\"), aiming for a solid overview.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Analyzing ACIRV\u0027s Structure**\n\nI\u0027ve moved on to examining ACIRV\u0027s internal structure and achievements. I\u0027m focusing on their service offerings, including arbitration, digital certification, and their sectorial nucleus like ACIRV Mulher. Also looking closely at their Strategic Pillars for 2026. I\u0027m also examining the impressive ROI from recent achievements like Sudoexpo and other events, as well as the positive impact of their political efforts and massive digital growth. The shift in marketing strategy is also under review.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Refining the Narrative Framework**\n\nI\u0027m now integrating the shift to the new, storytelling-focused approach championed by Renata. I\u0027m focusing on weaving in community aspects and incorporating Vivianne and Kevyn\u0027s guidance into the narrative. The planned structure is clear: Overview, Leadership/Strategy, Key Solutions, Results/ROI, and Digital Transformation. I will begin by working on the Overview section. I am working on using a concise yet informative tone.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Synthesizing Foundational Data**\n\nI\u0027m synthesizing the foundational data related to ACIRV, which was founded in 1984, emphasizing its 40+ year legacy. This organization\u0027s mission centers on regional economic, political, and social development. I\u0027m noting the leadership under President José Carlos Cintra (2025-2028), whose pragmatic, data-driven approach and focus on agribusiness and infrastructure are key. The updated concept for 2026, \"Tradição em Movimento\" and its slogan \"Conectar para Crescer\" are also being woven into the narrative.",
+        "thought": true
+      }],
+      "createTime": "2026-03-18T16:40:38.650Z"
+    }, {
+      "text": "\n\n\nCom base na vasta documentação fornecida, aqui está um Resumo Executivo estratégico e analítico sobre a **ACIRV (Associação Comercial, Industrial e de Serviços de Rio Verde)**, focado em seu momento atual (2025-2026).\n\n---\n\n# RESUMO EXECUTIVO: ACIRV\n\n## 1. Visão Geral e Identidade\nFundada em junho de 1984, a ACIRV é a principal entidade representativa do setor produtivo de Rio Verde (Goiás) e região. Com mais de 40 anos de história, a associação atua como uma ponte entre o comércio, a indústria, os serviços e o agronegócio, defendendo os interesses da classe empresarial em todas as esferas institucionais e fomentando o desenvolvimento econômico local.\n\n*   **Conceito de Marca (2026):** *\"Tradição em Movimento\"* – Unindo a credibilidade de mais de quatro décadas com a inovação tecnológica.\n*   **Lema Estratégico (2026):** *\"Conectar para Crescer\"* – Foco em transformar o networking em resultados financeiros reais para os associados.\n\n## 2. Liderança e Gestão (Triênio 2025-2028)\nA atual gestão é presidida por **José Carlos Cintra**, empresário e produtor rural. A diretoria possui um perfil pragmático, focado em ROI (Retorno sobre Investimento), dados e forte articulação política. \nA gestão atua fortemente em frentes como a defesa do Simples Nacional em Brasília, a busca por investimentos em infraestrutura (ex: duplicação da GO-174/210 e ampliação de energia com a Equatorial) e o apoio incondicional à segurança pública (ex: reestruturação do Batalhão de Polícia Militar Rural, que reduziu em 80% a criminalidade no campo).\n\n## 3. Principais Produtos, Serviços e Projetos\nA ACIRV deixou de ser apenas uma entidade de \"representação\" para se tornar um hub ativo de negócios. Seus principais ativos incluem:\n\n*   **SUDOEXPO:** A segunda maior feira multissetorial do Brasil e o maior evento empresarial do Centro-Oeste. É o principal gerador de caixa e visibilidade da entidade.\n*   **Eventos de Networking de Alto Impacto:**\n    *   *Conecta ACIRV / Conecta Saúde:* Rodadas de negócios estruturadas que já movimentaram milhões em parcerias locais.\n    *   *Café entre Amigos:* Eventos matinais mensais que unem networking a capacitação técnica (ex: Gestão da Atenção, NR-01).\n*   **Inovação e Educação:** Realização do *1º Fórum de Inteligência Artificial*, trazendo gigantes como Google e Microsoft para capacitar o varejo e o agro local.\n*   **Núcleos Setoriais:** Criação de comunidades focadas, como o *ACIRV Mulher*, *Fórum de RH* e a recém-lançada *Câmara Setorial da Saúde*.\n*   **Serviços B2B:** Emissão de Certificado Digital, Câmara de Arbitragem e Mediação (CAM-ACIRV), análise de crédito (Boa Vista/Serasa) e locação de infraestrutura (Auditório e Salas de Treinamento).\n\n## 4. Tração Comercial e Resultados Recentes (Destaques 2025)\nA associação vive um momento de forte expansão, comprovado por métricas sólidas:\n*   **Antecipação de Receita:** Lançamento da Sudoexpo 2026 com **60% dos estandes vendidos em apenas 4 horas**, gerando mais de R$ 216 mil de caixa imediato.\n*   **Geração de Negócios:** O ecossistema do *Conecta ACIRV* registrou movimentações superiores a **R$ 2,5 milhões** em negócios fechados entre associados.\n*   **Crescimento da Base:** Entrada de mais de 120 novos associados no último ano.\n*   **Impacto Social:** Projetos como o *Sorriso Verdadeiro* (arrecadação de brinquedos no Natal) e apoio a entidades filantrópicas locais.\n\n## 5. Transformação Digital e Comunicação\nA ACIRV está passando por uma profunda reestruturação em sua comunicação (guiada pela agência VCOM e sua equipe interna). O objetivo é abandonar a postura de \"mural de recados\" e adotar um **Marketing de Comunidade e Retenção**.\n*   **Novo Tom de Voz:** A comunicação mescla os arquétipos do *Sábio* (diagnóstico de mercado, dados frios, autoridade) e do *Conector* (networking, comunidade).\n*   **Estratégia Digital:** Forte investimento em vídeos, cobertura de eventos em tempo real e conteúdo de valor agregado para atrair a nova geração de empreendedores (25+), sem alienar a base tradicional (35+). \n*   **Presença Digital:** A entidade atingiu números expressivos, como o alcance orgânico de mais de 430 mil visualizações em novembro de 2025, posicionando-se no Top 3 de engajamento da rede FACIEG (Federação das Associações Comerciais de Goiás).\n\n**Síntese:** A ACIRV em 2026 posiciona-se não como um gasto ou um clube social, mas como um **investimento estratégico essencial** para qualquer empresa em Rio Verde que deseje previsibilidade, proteção institucional e escala de negócios através de networking qualificado.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1247,
+      "parts": [{
+        "text": "\n\n\nCom base na vasta documentação fornecida, aqui está um Resumo Executivo estratégico e"
+      }, {
+        "text": " analítico sobre a **ACIRV (Associação Comercial, Industrial e de Serviços de Rio Verde)**, focado em seu momento"
+      }, {
+        "text": " atual (2025-2026).\n\n---\n\n# RESUMO EXECUTIVO: ACIRV\n\n## 1."
+      }, {
+        "text": " Visão Geral e Identidade\nFundada em junho de 1984, a ACIRV é a principal entidade representativa"
+      }, {
+        "text": " do setor produtivo de Rio Verde (Goiás) e região. Com mais de 40 anos de história, a associação at"
+      }, {
+        "text": "ua como uma ponte entre o comércio, a indústria, os serviços e o agronegócio, defendendo os interesses da classe empresarial em"
+      }, {
+        "text": " todas as esferas institucionais e fomentando o desenvolvimento econômico local.\n\n*   **Conceito de Marca (202"
+      }, {
+        "text": "6):** *\"Tradição em Movimento\"* – Unindo a credibilidade de mais de quatro décadas com a inovação tecnológica.\n*"
+      }, {
+        "text": "   **Lema Estratégico (2026):** *\"Conectar para Crescer\"* – Foco em"
+      }, {
+        "text": " transformar o networking em resultados financeiros reais para os associados.\n\n## 2. Liderança e Gestão ("
+      }, {
+        "text": "Triênio 2025-2028)\nA atual gestão é presidida por **José Carlos Cintra**,"
+      }, {
+        "text": " empresário e produtor rural. A diretoria possui um perfil pragmático, focado em ROI (Retorno sobre Investimento),"
+      }, {
+        "text": " dados e forte articulação política. \nA gestão atua fortemente em frentes como a defesa do Simples Nacional em Brasília, a busca"
+      }, {
+        "text": " por investimentos em infraestrutura (ex: duplicação da GO-174/210 e ampliação de"
+      }, {
+        "text": " energia com a Equatorial) e o apoio incondicional à segurança pública (ex: reestruturação do Batalhão de Polícia Militar Rural,"
+      }, {
+        "text": " que reduziu em 80% a criminalidade no campo).\n\n## 3. Principais Produtos, Serviços"
+      }, {
+        "text": " e Projetos\nA ACIRV deixou de ser apenas uma entidade de \"representação\" para se tornar um hub"
+      }, {
+        "text": " ativo de negócios. Seus principais ativos incluem:\n\n*   **SUDOEXPO:** A segunda maior feira multissetorial do Brasil"
+      }, {
+        "text": " e o maior evento empresarial do Centro-Oeste. É o principal gerador de caixa e visibilidade da entidade."
+      }, {
+        "text": "\n*   **Eventos de Networking de Alto Impacto:**\n    *   *Conecta ACIRV /"
+      }, {
+        "text": " Conecta Saúde:* Rodadas de negócios estruturadas que já movimentaram milhões em parcerias locais.\n    *   *Café"
+      }, {
+        "text": " entre Amigos:* Eventos matinais mensais que unem networking a capacitação técnica (ex: Gestão da Atenção, NR-0"
+      }, {
+        "text": "1).\n*   **Inovação e Educação:** Realização do *1º Fórum de Inteligência Artificial*,"
+      }, {
+        "text": " trazendo gigantes como Google e Microsoft para capacitar o varejo e o agro local.\n*   **Núcleos Setoriais:**"
+      }, {
+        "text": " Criação de comunidades focadas, como o *ACIRV Mulher*, *Fórum de RH* e a"
+      }, {
+        "text": " recém-lançada *Câmara Setorial da Saúde*.\n*   **Serviços B2B:** Emissão de Certificado"
+      }, {
+        "text": " Digital, Câmara de Arbitragem e Mediação (CAM-ACIRV), análise de crédito (Boa Vista/Serasa)"
+      }, {
+        "text": " e locação de infraestrutura (Auditório e Salas de Treinamento).\n\n## 4. Tração Comercial e Resultados Rec"
+      }, {
+        "text": "entes (Destaques 2025)\nA associação vive um momento de forte expansão, comprovado"
+      }, {
+        "text": " por métricas sólidas:\n*   **Antecipação de Receita:** Lançamento da Sudoexpo 2"
+      }, {
+        "text": "026 com **60% dos estandes vendidos em apenas 4 horas**, gerando mais de R$"
+      }, {
+        "text": " 216 mil de caixa imediato.\n*   **Geração de Negócios:** O ecossistema do"
+      }, {
+        "text": " *Conecta ACIRV* registrou movimentações superiores a **R$ 2,5 milhões** em negócios fechados entre associ"
+      }, {
+        "text": "ados.\n*   **Crescimento da Base:** Entrada de mais de 120 novos associados no último"
+      }, {
+        "text": " ano.\n*   **Impacto Social:** Projetos como o *Sorriso Verdadeiro* (arrecadação de"
+      }, {
+        "text": " brinquedos no Natal) e apoio a entidades filantrópicas locais.\n\n## 5. Transformação Digital e Comunicação"
+      }, {
+        "text": "\nA ACIRV está passando por uma profunda reestruturação em sua comunicação (guiada pela agência VCOM e"
+      }, {
+        "text": " sua equipe interna). O objetivo é abandonar a postura de \"mural de recados\" e adotar um **Marketing"
+      }, {
+        "text": " de Comunidade e Retenção**.\n*   **Novo Tom de Voz:** A comunicação mescla os arquétipos do *Sábio"
+      }, {
+        "text": "* (diagnóstico de mercado, dados frios, autoridade) e do *Conector* (networking, comunidade"
+      }, {
+        "text": ").\n*   **Estratégia Digital:** Forte investimento em vídeos, cobertura de eventos em tempo real e conteúdo de valor agregado para"
+      }, {
+        "text": " atrair a nova geração de empreendedores (25+), sem alienar a base tradicional (35+)."
+      }, {
+        "text": " \n*   **Presença Digital:** A entidade atingiu números expressivos, como o alcance orgânico de mais de 430"
+      }, {
+        "text": " mil visualizações em novembro de 2025, posicionando-se no Top 3 de engajamento da"
+      }, {
+        "text": " rede FACIEG (Federação das Associações Comerciais de Goiás).\n\n**Síntese:** A ACIRV"
+      }, {
+        "text": " em 2026 posiciona-se não como um gasto ou um clube social, mas como um **investimento estratégico essencial"
+      }, {
+        "text": "** para qualquer empresa em Rio Verde que deseje previsibilidade, proteção institucional e escala de negócios através de networking qualificado."
+      }, {
+        "text": "",
+        "thoughtSignature": "EoYxCoMxAb4+9vv0JE6q5bRaiR6kbptuQhaAIJeGeRhvdgyv55AjVKbqrlQ5N6ctMR0hIVQ8CuNBR038d4cY2l1CMulFKdnQ515aK8gj/p6k4uM0JCcS23TLMKX/W+dGlrUhlTwa16PUWz8TTfQmMn6NP1SOVGiE3VB9nYEA0qPNF2mDR2dehD+g4VDEPJdjNtEwOw1C2OnygcoouyGXhdIMsdn9aIKcsSaD9+vrREt7vAJdxWu3T2kDubQM8kVYoWLh3PALa77KDaR6GwJlJwAmxNOPeNwdDgUu3Mue/e5W59XZS6Gqae5tGZtY/NMVYQlKQ2FGaFMaLhqPMz/NTGk7QmQlN6G2D1OEnDa0gADy6jyX40JAXPWSUIRJ1bwWUTtfp8BIJebqduqBytWpRBP1+ElF9D6nFtXWXRKcO1zD8mguwZ8XSzLY5sZlwly5vqyXdCK3RkGt+zW6iBBXL6Vc9vTvU2aMe7ujyHvexraIvPdBienFG+ZMrIlzQqbZJu3aVzrBsaBU3mZCWbhQk5CdSVRjSD81Kn8w5+k2F/hgpuyT9FwSjJzoANSaZRAJsd3UDOM8mI8sBDKHaSKH81+Jp+aNtcNwYK41x2mY4QnMyNPquZk3WXExi2hYcC4ektEKSaD60S4b6q+hwAe5a0qER3O1hT74w+UphhMh1UtHjdvORjfl7Nig7S4ehmccELWqDfSY0XZBda4dk/t74J3YsUAF0jLM8hxPRSA98UcI4TVKEzPjRQZYYqMDAywTeNAQIBugA6LSICdWHqXcAaSXRbNNNi/mY19GVXpxmsoJfeloIv3pQt8p/t2Kg0cab9/rbfB6VpsxIobXn6tkCkZM98xlLfYbuDbm2owL1TT/FiUhpcAPXtXvxXmf47nz8WHloALiPC9Xh9CX7A/bk3mVErNEj1tL4YOXtIM/BCv5hgpD4iorXGwh17QP+tu0x688sqf7ppulsooPM7wko1Xb/VG6uhOl8TvoJ+uDqCsLZ6cMwjoyNo1hR/Eye0gTBdRQzHzWY1n6x0wN3+nii33XeRh56y+EEkl/MuRYStrJTPmAY3qicInADeVd/3JyeC8ex9ar0Vv04QfuimISbXMf945xIlPY7SlNOxDBGNeekti+8MJNB1cFhJdnzPTzCnovNAPUAc4SewqhobVj9Ly6JayxaQw3JsG/Ag1TnW9AOhaE2Yf7TGlw0gGA88KYH4Yfk/BFUYN+j3AcxEFIZYABz/1KYkJqiMPs/NFuweQphGZNjJOW9mSqprMrbhwTCSZKetp2hUJvuQsEVf0WpPK9cn/HieGCx6QPWYeHy4XK5FKO+mGwUX1N9VoSim0s0HBxk1igRWBqttL5t+v5v4lyHi+4g85GyHjAW+FyUTmwmn8cwG9SqOVff/2lyr2QwxcwlBDSVPRhi/4a2FdWx7mFYGKslbkvIlqJPhPjZsM+zat7f/ntZUaHNrkl1QGzxpriiP4ifdafYFrLu2cGweQ/IVNBTx6HbDItl6wz8L5vIyMNkiEHep0RxlkF3Q1BikaQP4SClKCVVyvVKjjAIuivqKTCynnGpzWN4gOvKtVTzSO1MLx7XimJWQlAxQSNoKHVOFOOAPCZhUe2BqkXKbcNEAdp4N4O9WZXbucPMRZ3vTDF3D6c8lV4X23sbALGZrutuen9JEA57bA20qXQmiAvdp1yB+bpjnKunWb+uUxOlauN3u0GGjOyu6hSgWBc91y5kQDjrtQed0uXmRTZJkEnpETHmUVuwM6vFuG5/hSVa+aNO5hwLGu7VCsBQ/iiN1vhBBXm68EKD0otJdfpB+BBKicYiZgDBcRYz0RWwHI+CsYMxODWedJ/4Bt9cBy/fWnRioBEGbSSithVihuvtFcy4mO+KDq2Awbw+KMYvaA5Tan5s5Oa5G2i4s5C5Md/s1F/7jsxpNKqmIqwoFpU4zQmXYcurS1E/yIffQeN09fO2rejddesJLN/MH+Ir/ZZzMRPiLb05tGWzj2iiZ+h6UJRyGqixhP1GN4itkhtQLTGLpjHamkEtMmm5K6vJo53RguhMXN6f05ZzpxQrrBJtUHp1j/U0FhAc5c4cSgIT6FtbBjnOFQIA/j/PvYSjlyRM/N6/mwSyW/2nV7/unK4ZYaaVIoXg0inSRZG4dMAVPZ6GgJKS4Qrxmv7QoJLfwriJK/lBoTFpZXdvmlqSlhePXmY61asMsTc/o24u5iCcJZPO91agauJSdQ6zgSgOMH89z+HVqllew3OGTmlrAyvAdeF7z8GlbalGaN+9pfQtMYAXJ/f4sJ9HLYTT29dndZESUkPHuHWKzm0VOgYMRDcsVDrjod9fa3Pqy5LY4UlR9U4j5GyH6DAh62TB0xhlLUoIgLDhyLReo6ZDwUHvqZ2I2gLKzYHQRXRZsYNMpq3XxeVf5ZVDKDcdvm+tATVBr4Pmz4IitBcLmaiiw9WzU3fF3KsBJIemGHb2DpA+bUGkPpFs/2yBQO4yiqw3IoFaW+WfBxgP3qAZl0QmHQOxh3zOEgMKlDY4OlJA2iSclfGawok9wmVNz3szuUbqBcOYBxCgz1sWWcGh4onV9lM0KJjbcIpTrF9RUbQeHtY9QRYki8c6noBBt8XsPKJS+svY2xgvQk+p0I4sdzEme2JjrAy2i8EOGq/4EMGzM4t6Mpo8LeEN3I/wopNJIdKxIifdjt8aJnmevhUIfe/+tIPuKahgkBmL5piBlftSY7POxaI/Jrb/PZOxwaeOpDpVpzrNO87gHiCmc1R+EqIV7Jeb1eBTbqAhJ0IQscP6fZGtqTWN+mWnn5PJ+6d/5xIVkzzfzi390vvn7oVa5lnSqHKqPsuIKgr6PKNQsuHm9I/9t1/XnVA/cmau6kjMvp+a3y4BxVK3Ot8ifr+TQiefePBvmxv+TiBGmTEctgRIG4TeZ/rwGpPTVoQ8G+jed2ptFWKq6Q4Q1NJNcd21l0qswfABOIAg9I+eU56+pg9y98tnIjHyV9sQVVtpYJqbwgfiXikIwr6kvdHVi822AaLC82bzoacS+G7y3h1jy0UZT8dXbLo4FjhrEQc/mRQg431EWUA03n68maI2fvdEbnKMDT/bM5XQVGewUU/EAAIo8bp+WSUNDH1lXYOXVttsQp8jr58gK5vYHhGMfG8wNHeLP2MWPs629YsYYn3aV0QZzSOprbDhbS7SKYHW8gkN+uzT8l8CFiw000ZQndDiEMZId4hBRQdHkQeF/ryLxzcLL4G0vW05D+xaIK/KB8IKDj3Rdi+Gn3Q3H/G77X+/pFkFBdiQDkItFDsz+mfi3P9M/0ySEBNUCkjdOPh2UaVSHwCunHbxDXho27mVD/zQX0v0I/OgOQyUuyjHePo9rsyPCSNFVdDKMn88CbyO6rwSvKT1GGp1zloTFuh4c6zpaCnMe1LB5OcmEfuVUnRacQVK7lpqmIq0LPoL00OoEyO2kfW0twKGusn8odxEU350TNTjrIZ0urnKl3zzBeDxzgDFjIVpSzi7VaN7ERs6Sq0LDlZhURX34GAl6+nuY/UtbCnAhgeu/gP1fVGwtfZh2vp7hrvBI/n5057+cZoTwlk04n1ZR02OTffuaG+bVId0L5OlwCEW4xh9GpUZo3wzYW6+dQJXZWoa8zSfHd6fgEpb7NVxAoKD99KFchs6b/2mB3u2tcKGiZGXK3yPn21rwOuELwLI3noixD++9W25FaSxzvvq7yKGXQGyinfZu+Yvp0n8QVX8oHeo2uNo8hXxhu6kdH6gsxocgFB9z6DmXQlnndadyUSIXJTJJQf98NJUHcInMw27RjE7ufGVxgkwbfTUslymBh6nLi8gqRpsurc6Lemt9cb1WpE8wpbk9KQsOwwngMWNMUB+8giWnpojfqQ660FYs3h34yeqUer7WiVAnnjDidV+TUcOsOZZesOorFiEFZkXxD8djHXIULaqCVn/nbV5vX/7UPftMzQIWHMZ+N+wmNcfMrAyXx1KmzIi/Ck8o9bfB4JGNgxW4zuK6ODORLioTGcFSkwCxO8WDDw4gq/1U9F1O6LvwHYOVcdMA8rmt0XS0YWvrfKy5oDO1K8GmAfGoi/pNMsai9AFOC+HktclohpX6PideXM7Irx7rgeEAH4Ekt49u/qDfvyCswmqVErpo/N9Am+BqdQo8zZDRnb1foU4UsGRRs+t8dDOJrohQfKpmnEZJmeKoEF5RJgutDa1M08HmfjPdwmygzmEEYOqQI9LzRUE/uso5mcTpLqIubM/Y+P3fahJPufAbscicOhHTRlTOT8VtVlLRInqDztl/eHd+dnFaeMqPmn2cDyaVvDrdSfM7iVv9VFBlqPJpHObySsmeM8uR+3LnOm/Rg56aiG3WUDEFZP8/MptbF0VIs+eeZvccjzx0YqQbnzX95QGYR8NQtWSYVc+w0U+AxIvEJSg/RVBHsRbsxKxD4SKuHRIx9yfO9pRngCMi8BWxyZiqDCti2AhPkoq76mtMvVrCxiUvfuY3cCUYVzLySMToksthIxBHSD7jd9Hb3BxoNamfqzKxBAD+D4+AGD74+lOnD6/0p9l/vBf73xeQBLsZAvVRJjUWsxpcOWwTAmbM49fe2BPBpFzyd/e0UHlN1pQ3iyieS9XvTuzoSpVP8inNi7QKmiZvn3qNV7Sll1hLaFyfmISDOaTgMJvGVvkobBs1079UPnO1D9LmQJP2XOSBefhmodLHhRsL0eM9NKQkDabU8zPCdEvcVb9SOy2HRAB8MtPf2644d+av50TezvlA7aMe/y4BkayHWbjZEwmPC8NE862dO1IpmxXTR1P4nIg6NBnlNdF3tFkq5ahS956Yo3X4aWBavgJ++r436AlfYZGvZiY/t2ZICzVUFAqufOjWuubsvXSM7UlQX+aAfBxrW1MOsf1fCWmU+RhHhBroET0bzZWF/eqEv18CZ+YBWywt2gUWfPDR6tAH9MxQ3UyqrILWWVHyzf/zK05H5wwU9aiQ8bAnOUKfXhTZ+yyGRi+Q/cQhWrUItLuYln8ms3NEO6iE1tWNALXqglRJSDGClUPkgy91XR23XOzxggsVTP497mcZGdZSQA6iBZJtWtRhEldtG6gyZxWUdy/mSBiwU984BcJSK7CYtKAJdB15aLGNncHEEMSlnl4ONgEcL/tFDd3aouuM4uZ06DR2Z/DwYYbV8ykXnPUv/Wya3I503K1Zd++7PiSDf1m2KDAsElzN57Zx89U0FHOKbb9YsD4tVuKnSuAbvHihfjWdM4zfCVGf0vDjz8Y8TGGG8rIkkKkAziiSVUwVwQrkIyyOsW3MtojUAfzo1jFAPXfSE0NJVN7UCqo9kU23TEgUQFD8SoRi3mdiyyRaleafR0vg8z6obGAI/cc8UKo8GCZrruXScRpTomZrS/wo5n4K5exdfpV68nsuhkuPxepq3qizngHydk49KbI1633GJLak5jLED71/6PS1ptMTLV0xogEzXT1P29N3VJQYzmpw99gBe6mrgZ2VyLZdZ8Qgl0D3Rq8n83mNwqg56oGmcWnuNiIAT2x5K3QyWjflL3anACXqyh59OEuBfu4ACo5SqDCMKlAEoAlZT8J98dysrxHdzHhgc7v7k/IC2tOw8/ZL/ctJG/xb+wckEhuh9ZCD6I0Ffilskq4rpycz+v+QmQo2L2dssOFHwJK/gmsvMc+1KynISjlW5be9vhjKfTujjZGOuGfu91NmQQ+uTrSssPub4vZVOHomJTZB2006ndt7zTDevh2SUTfQcXoNzbZocHIA4Hnt/ZrjoqysCYzN+HjxUNfyLH9jSL/7w5Nbja/vqEGeMLrxaoLuGt+rRVvs1Fu7kbhKAPEmy/mG7ch2VJpRG4Y6vsii6GWnCG5c23HCk1443x3cVdHruWJoiGJzYuZCL2mwgvMoHgTg2IF24ji+NAC10tPaZKwhJs09nGGrzm1YsMg2LSBC9uw/dZBBpcKYBR14oGvFXpPB4uDTIWgO4tiJMUrHRVjznzjG1FcJVBSBRfJGzYh27Z8NTJpu5G1RzEKyq74YQU7A+d2dytMctpxbe1SKahxBbsRaL7mawUhRo1fXmo2SjFlx7XoeRM9xkVirNn+Vkd0h5WxDczazjsWfR/SOAESwH4kkjrnVgpWOIeb5R9uwejShVi6JeBUc2c3d78vV7NXrVrmEXIRV1dJ+sq7U/rpJs/7SM4UDUpqz4yt2RUvdq5aUYtoxVziQDekjBnL6UzBbehW0YS1pFciWr6w5RmGGwU1VyLJmYx3L7GrZ5uUk+5rzwE/UFW4VBaungcV1fusz19UHJM9T7msb/UdTEGbXrrgEez6nan7ZasHXfHZq6UNI7ACrAoAhM374CrPyQrldcJn4SjSfSVvR1STKV80E0dUn0Kk4Oj7ltLTwAa8xO/Z5OHs8FZXjuTysYX/2ZnEfNkQ8wQcjURhFNS1Wu/tuEvxyRIf/ej/p/B+EQBukujpfqZWs7DbH1/VMUXaKx0AzHRaEvdMT7Rqhx3ZBOoI5ipDTP+wp1Vjomxkzv+IQWWchuLYls3nhE0Z2T2bBPfr/QEdR5F8rZ59pHBc9MdTFeEWSC+G1raOMIC+XMteH2Sn5LRxokSdW/gPGRbRS7g5VF7ErcmMSV333AtJHcltECPDvKE7PxroliSn8Ulcjh16Yb7jVClEMgQ/suv4LzJHy4g0bxv5U2KU0+BlzHzzeZpdKNFV30etwnMMEbN/iS8tv6APo/w/cE3tTOqb6lzkIk33hLG55GTo0PZ/1FLfNcsbC7bdn+U4sfyF5Ayi0u9HsNRv94xj3pAQyenazGXjYce3Yw6ZXozQLAhKGmiGzSsDkcrh2Pzkxb981jAPUYGcJ1Nigo3QU68TtuvwYJ/SiZVqt+89HX3udVQtYEJ9tt1M6E0t+nw7fJV2P8X9dud9D5ELjuRXTEfRfP3V9FmtQFuTWw2DyCxHTUHeLU1bCbu58/c0q8TpEi/3LTd4mU8x0aKdWF2z82e3zbJvPGgzTh/PRw8N2LEtegDnXSzo3dAF0kQRL5v3kW+yWPRt+4Gm4JdFomw5zOCss5NkMSrf2J7DqHXHjaisVNtNYfRDS7FKeLDS/W+0j0JEU0uU5iMOvBJsnMQ56rcRN2FNW4fjM3HjfjvGyH6TwPHyQ425gVAXwIy+11pBluiSOtsMs3J4hvd08LPVzJySjyKWgQacRTbmZCgAEGbmkzfI5qpzw/mxwb/qMO7ygmnb0S2uImSTTE9UX3iDDuyWql1DeqNaBYevlZb5s6ixQUT2oBS5KrEKIjnO/tuoaozlDM2/0RG4RIHMepARAXBZk2/923MCcfctP0UaelCtAWck2cKF4fFokBf3hW53zVcyqtNkIKq5T0NRwK2D7vhx4k5O4shGLBCC7d5OVEf3r/R8rrhU6Bjeap5jtAhfpGZiGM9kP5nOo0WB35nokEG49bXwBSXKtLNFgztuiBpBTPEJVeZe5ygHiziKiWM1+H13rARgZ3TLxQ9LAGbtXWfbScwdaFj9GOnLfWxCV+W9afVJjui3F0RAav7lbpQzfKV6LgQFb6414nkUefXJ0dyLAYssX+Lquj1KTE9TrrF3LHyV6uVUCPWIm8jjPNyml35tOKu3FDl8zvTq1ofcpDGoHZE4yHzoA4jLJdkKU5KpclZ7v1dRj3t9DDCScbxgUkqPbp8XMzH4k0kcELU6JqKDuCF0yTuPVWDSInDXJ0cQXBEOXB0w2Wyw8GNgvFFFwuu6ZxnBo+oSVJlIYx8niskXPr1EHahj2ZZBn8ntWWYPG2tssnfUbuuNdzVJfD9tiU6q51gUvDKXfIh/xQVpkbpRNvzM7Z2Zv3zdRwoHZhZwyOPGqeQ94veNQPQD+vZDS2mORGozd7Ne11GQ1spgzIwNZSfFU/U+Ime0Q/baMQH4HU1mwQvFAOMTeyaZ+IsJNThu3fLh4IROSeIvLyn27dgOvNgyE9A9EdRh+XrJUk4ra/q1VBpe0Roog5Arscvy/QGOHsvUYpI7m6akKbRdQdx3Z8+DhHJ7sJFUJzo8uA/pnsE8pjmavSoiTfUAwQKZhPmrbUozqdytba7sy4U/k5v46ZOsu+ClYhA2lnw5PScN27AFg1OZeFDL7HtsALQ34wa7qnt8q4l1O7R0LWRbC6hV3VPze2v2Q58HwmTevz+a9LRI3ff0AJR0Dy6S1tKbO3Dp8+OQRvdH9Cqdja90d2a2aq0yplNu9J3ZMU/NLsB+YkI8b1aYDLvv8bp9lE2e3zMOqm+gQzS3eO1jwj2LEfH0C3d1l87d5PmX9H3ARoHJyaz3nHGypITvc3VkdvlUIDMHkJzedNCO7gQvu9EIILGlkgX3w6+HUj+g1hvtZaH8v+zFHTqUqItLSKpC4lg6wsylnH30Ee8oBSeV+yZkXh0HxE="
+      }],
+      "createTime": "2026-03-18T16:40:58.546Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

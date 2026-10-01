@@ -1,0 +1,3 @@
+Na verdade essa técnica serve para usar uma primeira camada para recortar uma segunda, não necessariamente precisando ser sólidos.
+A técnica é usando o Track Matte. Se ativa o Track Matte a partir da camada que servirá de conteúdo para o corte, assim, no Track Matte temos duas camadas diferentes: Uma camada de corte e uma camada de conteúdo.
+A camada de corte tem de estar imediatamente acima da camada de conteúdo.

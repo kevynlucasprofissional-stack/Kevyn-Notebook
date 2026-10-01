@@ -1,0 +1,89 @@
+﻿[
+    {
+        "mudanca_id":  "MUD-000093",
+        "caminho":  [
+                        "09-Fontes-e-Evidencias\\Fonte - Roteiros e lancamento semente DS21 2025.md"
+                    ],
+        "operacao":  "criar",
+        "motivo":  "registrar lote de planejamento e copy do lancamento semente DS21 em nota-fonte agregada",
+        "fontes":  [
+                       "SRC-000103",
+                       "SRC-000104",
+                       "SRC-000105",
+                       "SRC-000106",
+                       "SRC-000107"
+                   ],
+        "hash_anterior":  "",
+        "hash_posterior":  "5570323163953b1a234836b553985169a0c474c0a0b0c7d45f48ffe2b8eb6e42",
+        "validacao":  "nota_fonte_criada_com_redacao_de_seguranca_e_hashes_reais"
+    },
+    {
+        "mudanca_id":  "MUD-000094",
+        "caminho":  [
+                        "04-Trabalho-Vocacao-e-Projetos\\Marketing comunicacao e processos.md"
+                    ],
+        "operacao":  "ampliar",
+        "motivo":  "integrar planejamento operacional do lancamento semente e redacao de credenciais",
+        "fontes":  [
+                       "SRC-000103"
+                   ],
+        "hash_anterior":  "d8948c41000270799f35f31b37e7e9df3fefa43ddd3e4a66a184e3301f94d0ac",
+        "hash_posterior":  "da16db321a6c420e4201eb10478c8475d397a70d0637f6bf4616371e36c98774",
+        "validacao":  "planejamento_editorial_registrado_sem_transcrever_segredos"
+    },
+    {
+        "mudanca_id":  "MUD-000095",
+        "caminho":  [
+                        "04-Trabalho-Vocacao-e-Projetos\\Marketing comunicacao e processos.md"
+                    ],
+        "operacao":  "ampliar",
+        "motivo":  "integrar CTA, VSL e prova social como repertorio de copy",
+        "fontes":  [
+                       "SRC-000104",
+                       "SRC-000105",
+                       "SRC-000106",
+                       "SRC-000107"
+                   ],
+        "hash_anterior":  "d8948c41000270799f35f31b37e7e9df3fefa43ddd3e4a66a184e3301f94d0ac",
+        "hash_posterior":  "da16db321a6c420e4201eb10478c8475d397a70d0637f6bf4616371e36c98774",
+        "validacao":  "copy_de_meio_e_fundo_de_funil_registrada_sem_validar_produto"
+    },
+    {
+        "mudanca_id":  "MUD-000096",
+        "caminho":  [
+                        "02-Cronologia-e-Memorias\\Salus e Desafio Svelte.md"
+                    ],
+        "operacao":  "ampliar",
+        "motivo":  "refinar contexto cronologico do lancamento semente DS21",
+        "fontes":  [
+                       "SRC-000103",
+                       "SRC-000104",
+                       "SRC-000105",
+                       "SRC-000106",
+                       "SRC-000107"
+                   ],
+        "hash_anterior":  "9151fa96558aec2b47dfaf990dc52b5118f48e5fa0415c27f6775948af2242f4",
+        "hash_posterior":  "49b88674488de08b1f0310d964c2232957b03fe381d694c2df8c8e2aec9d8b57",
+        "validacao":  "estrutura_de_lancamento_documentada_com_limites_epistemicos"
+    },
+    {
+        "mudanca_id":  "MUD-000097",
+        "caminho":  [
+                        "95-Auditorias/Estado da integracao.md",
+                        "Controle-Integracao/Manifesto-Fontes.csv",
+                        "Controle-Integracao/Matriz-Cobertura.csv",
+                        "Controle-Integracao/Estado-Integracao.json",
+                        "Controle-Integracao/Registro-de-Decisoes.md",
+                        "Controle-Integracao/Relatorio-Acumulado.md"
+                    ],
+        "operacao":  "atualizar",
+        "motivo":  "sincronizar estado, cobertura e decisao do ciclo",
+        "fontes":  [
+                       "UNI-000062",
+                       "UNI-000063"
+                   ],
+        "hash_anterior":  "multiplos: estado=c109a8cd1c8ce9eb942399ceb8930f110f5ed05f230647b40e49e3ae2e476293; statejson=cfe88873da133e8dfebe937feb6b045ced269a700c53e575fa5aad8f91e5b1c6; manifesto=6d9f827a20a4de42e8429bc562fddaab226a0405e8394f2c6d4de653053d1905; matriz=3c7efd738bf43f804129537cb9667c6f44940929f6eda27b83c76451584e7eeb; decisoes=bd2f47d3b1ac999dc85e537bce886445c3a29dd62588fd3047f5e47fb9e17f93; relatorio=f8933f90d36d3c51759a07252690bc7b25c21dbff82034b4508d55c250dff9d4",
+        "hash_posterior":  "multiplos",
+        "validacao":  "saldo_parcial_reduzido_para_1159_e_proximo_item_SRC-000108"
+    }
+]

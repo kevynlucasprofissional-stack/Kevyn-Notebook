@@ -1,0 +1,1 @@
+Ser o homem que transcendeu sua origem através da inteligência e construiu uma posição incontestável no mundo.

@@ -1,0 +1,182 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "Crie um frankstein dos 3 prompts abaixo, unindo o melhor dos 3 mundos.\n\n# Prompt 01\nAja como um Analista Junguiano Forense Sênior. Sua tarefa é dissecar a mente de Kevyn Lucas cruzando dados de seus diários, sonhos, autoanálises e conversas com IAs.\n\nVocê deve ignorar a superfície e olhar para as engrenagens. Execute a análise seguindo estritamente a estrutura abaixo. Para cada afirmação, você deve se perguntar: \"Onde está a prova disso no texto?\" e \"Onde está a contradição?\".\n\nGere o **Dossiê da Anatomia Psíquica** contendo as seguintes 4 seções obrigatórias:\n\n### SEÇÃO A: A Arquitetura Interna (O Mapa Junguiano)\nDefina as estruturas psíquicas operantes. Não quero definições de livro didático, quero a definição de como isso se manifesta EXCLUSIVAMENTE na vida do Kevyn.\n1. **O SELF (Centro Organizador):** Qual é o arquétipo regente que busca a totalidade?\n2. **O EGO (O Agente):** Quem opera a consciência no dia a dia? É rígido ou permeável?\n3. **A PERSONA (A Máscara Social):** Quais são as faces específicas que ele apresenta ao mundo para ser aceito?\n4. **A SOMBRA (O Reprimido):** O que vive no porão? O que ele julga nos outros (O Espelho Negro) que revela o que ele nega em si mesmo?\n5. **A ANIMA (A Alma/Feminino):** Como o feminino se manifesta nele? Onde é projetado?\n6. **O SUPEREGO (O Juiz):** Qual a natureza da voz crítica interna? De quem é essa voz?\n\n### SEÇÃO B: A Guerra Civil e Teologia Pessoal\nIdentifique as forças em conflito e o sistema de crenças que sustenta a psique.\n1. **Os Combatentes:** Quem é \u0027Hoor\u0027? Quem é o \u0027Menino/Lobo\u0027? Qual a função tática do \u0027Rei Jardineiro\u0027 e do \u0027Magus\u0027? Como esses arquétipos colidem?\n2. **A Doutrina da Estrela:** Analise friamente o uso de Thelema/Crowley. Isso é uma busca espiritual genuína ou uma ferramenta de estruturação do ego?\n3. **O Ciclo do Conflito:** Quais dilemas ele menciona repetidamente sem resolver? Onde o discurso teológico falha em resolver a dor emocional?\n\n### SEÇÃO C: Mecanismos de Defesa e Trincheiras\nComo a mente dele se protege da dor ou da verdade?\n1. **Intelectualização e Sistematização:** Como ele usa a inteligência para não sentir?\n2. **A Caverna:** O que é este lugar simbólico e quando ele foge para lá?\n3. **Outras Defesas:** Identifique padrões de negação, projeção ou racionalização não citados explicitamente, mas visíveis nas entrelinhas.\n\n### SEÇÃO D: Perfil Psicológico Analítico (O Resultado Prático)\nAnalise o tom e a frequência de palavras para diagnosticar o estado atual.\n1. **Padrões Emocionais:** Gatilhos específicos de felicidade vs. ansiedade. Existe um ciclo vicioso?\n2. **Crenças Centrais:** No que ele *realmente* acredita sobre si mesmo (não o que ele *diz* que acredita)?\n3. **Evolução da Mentalidade:** Compare o início das notas com o final. Houve amadurecimento ou apenas sofisticação das defesas?\n4. **Vícios e Hábitos:** O que ele tenta mudar mas falha consistentemente?\n\n**Regra de Ouro:** Se houver uma discrepância entre a \"Teologia Pessoal\" (Seção B) e o comportamento real (Seção D), aponte-a impiedosamente. Isso é vital.\n# Prompt 02\nAja como um Arquiteto Psicológico Forense com especialização em Psicologia Analítica (Jung). Sua missão é dissecar a mente de Kevyn Lucas cruzando dados dos diários, sonhos, conversas com IAs e confissões.\n\nIgnorando a superfície, mergulhe nas profundezas e gere o **Dossiê da Engenharia Mental**, estruturado obrigatoriamente nas 4 seções abaixo.\n\nPara cada afirmação, cite a evidência (arquivo/data) conforme a Regra Global #2.\n\n### SEÇÃO 1: A ARQUITETURA (O Mapa da Psique)\nMapeie as estruturas fixas da mente dele. Não descreva apenas conceitos teóricos; descreva como eles *são* no Kevyn especificamente.\n1.  **O Self e o Ego:** Quem opera a consciência? Qual é o arquétipo regente do Self?\n2.  **O Panteão Interno (Arquétipos):** Identifique e defina as \"entidades\" internas citadas (ex: \u0027Hoor\u0027, o \u0027Menino/Lobo\u0027, o \u0027Rei Jardineiro\u0027, o \u0027Magus\u0027). Quem manda em quem? Quem está em guerra com quem?\n3.  **A Persona (A Máscara):** Quais faces ele apresenta ao mundo para ser aceito?\n4.  **A Sombra e o Espelho Negro:** O que vive no porão? O que ele julga nos outros que revela a própria sombra reprimida?\n5.  **A Anima:** Como o feminino se manifesta e onde é projetado?\n\n### SEÇÃO 2: A MECÂNICA (Defesas e Processamento)\nComo a mente dele processa a realidade e se protege da dor.\n1.  **Mecanismos de Defesa:** Analise o uso da \u0027Intelectualização\u0027, \u0027Sistematização\u0027 e a metáfora da \u0027Caverna\u0027. Ele usa a inteligência para evitar sentir?\n2.  **Padrões Emocionais:** Identifique os gatilhos (triggers) de felicidade, ansiedade e tristeza. Existe um loop emocional repetitivo?\n3.  **Conflitos Não Resolvidos:** Quais dilemas aparecem repetidamente nos textos sem solução definitiva?\n\n### SEÇÃO 3: A COSMOLOGIA (O Sistema Operacional)\nAnalise o sistema de crenças que ele construiu para dar sentido ao mundo.\n1.  **Teologia Pessoal:** Analise a \u0027Doutrina da Estrela\u0027 e o uso de referências a Thelema/Crowley.\n2.  **Função da Espiritualidade:** Ele usa a espiritualidade para expansão da consciência ou como fuga da realidade material (bypass espiritual)?\n3.  **Crenças Centrais:** No que ele acredita fundamentalmente sobre si mesmo (ex: \"sou um gênio\", \"sou uma fraude\", \"sou o escolhido\")?\n\n### SEÇÃO 4: O RESULTADO (Evolução e Hábitos)\nComo toda essa estrutura interna se traduz em comportamento observável.\n1.  **Evolução Cronológica:** Comparando as notas antigas com as recentes, ele amadureceu? Onde ele estagnou?\n2.  **Vícios e Hábitos:** O que ele tenta mudar mas falha consistentemente? O que ele mantém com sucesso?\n\n**Instrução de Ouro:** Procure a contradição entre a **Cosmologia** (o que ele diz acreditar/ser) e o **Resultado** (o que ele realmente faz/sente). A verdade está nessa lacuna.\n# Prompt 3\nPASSO 2: O Mapeamento Psíquico Profundo\nObjetivo: Unificar a estrutura interna (arquétipos), a dinâmica funcional (hábitos/emoções) e a superestrutura ideológica (teologia) para criar o \"Manual de Instruções\" da mente de Kevyn Lucas.\n\nPrompt:\n\"Aja como um Psicanalista Junguiano Sênior com especialização em Perfilamento Comportamental Forense. Sua missão é dissecar a psique de Kevyn Lucas baseada estritamente nas evidências dos anexos.\n\nIgnore diagnósticos superficiais. Eu quero a engenharia reversa da mente dele. Siga esta estrutura de análise rigorosa (Chain of Thought):\n\n## 1. A Topografia da Psique (Estrutura)\nNão apenas liste, mas explique a *função* de cada peça no tabuleiro de xadrez mental dele:\n*   **O Self e o Ego:** Quem opera a consciência? Qual o arquétipo regente do Self?\n*   **A Guerra Civil Interna (Arquétipos Específicos):** Defina com precisão as entidades citadas (\u0027Hoor\u0027, \u0027Menino/Lobo\u0027, \u0027Rei Jardineiro\u0027, \u0027Magus\u0027). Quem está no comando e quando?\n*   **A Sombra e o Espelho Negro:** O que vive no porão? O que Kevyn julga nos outros que é, na verdade, uma projeção da sua própria sombra reprimida?\n*   **A Anima:** Como o feminino se manifesta e onde é projetado?\n\n## 2. A Dinâmica Operacional (Comportamento e Defesa)\nComo essa máquina reage sob pressão?\n*   **Mecanismos de Defesa Predominantes:** Analise como ele usa a \u0027Intelectualização\u0027, a \u0027Sistematização\u0027 e a \u0027Caverna\u0027 para não sentir dor. Existem outros visíveis nas entrelinhas?\n*   **Padrões Emocionais e Gatilhos:** Identifique o loop emocional repetitivo (felicidade -\u003e ansiedade -\u003e queda?). O que dispara esses estados?\n*   **Crenças Centrais e Conflitos:** Quais são as \u0027verdades absolutas\u0027 que ele conta para si mesmo? Quais dilemas ele repete há anos sem resolver?\n*   **Vícios e Hábitos:** O que ele tenta mudar mas falha repetidamente? (Contraste o discurso de melhoria com a evidência de estagnação).\n\n## 3. A Superestrutura (Teologia Pessoal)\nAnalise a espiritualidade não como fé, mas como ferramenta psicológica.\n*   **Uso Prático da Metafísica:** Como ele utiliza a \u0027Doutrina da Estrela\u0027, Thelema ou Crowley? É uma busca genuína ou uma armadura intelectual para o Ego?\n*   **Evolução da Mentalidade:** Trace a linha de amadurecimento do início dos registros até hoje. Onde ele evoluiu e onde ele continua sendo uma \u0027criança\u0027?\n\n**Regra de Ouro:** Para cada afirmação psicológica, cite o fato, diário ou comportamento do anexo que comprova essa tese. Se houver contradição entre o que ele prega (teologia/intelecto) e como ele age (hábitos/sombra), DESTAQUE isso em negrito. É na contradição que reside a verdade.\"",
+      "role": "user",
+      "tokenCount": 2402
+    }, {
+      "text": "**Defining the Framework**\n\nI\u0027m starting to build the framework for combining the three prompts into a single, cohesive \"Frankenstein\" prompt. I\u0027m focusing on identifying the core strengths and user intent from each individual prompt to ensure the final product delivers the intended results effectively and efficiently.\n\n\n**Refining the Structure**\n\nI\u0027m now diving deep into the individual components of the first prompt. I\u0027m scrutinizing its structure to extract the specific strengths, the forensic angle, and the Jungian psychology angle to ensure seamless integration into a combined framework. The emphasis on contradictions and the \"exclusive manifestation\" concept are particularly compelling.\n\n\n**Analyzing the Structure**\n\nI am now dissecting the architecture of the third prompt, specifically, the unique approach to incorporating a \"Cosmology\" as an operating system. I am trying to understand the distinctions between genuine spiritual expansion and spiritual bypass. I\u0027m focusing on its section structure and the concept of \"evidence citing\" requirement.\n\n\n**Constructing the Synthesis**\n\nI am now focusing on the \"Chessboard\" analogy and the functional use of archetypes within the third prompt, especially how it contrasts discourse and stagnation. My goal is to synthesize the \"Architect\" and \"Analyst\" roles to form a structural and functional approach. I\u0027m focusing on dissecting the mind to find the gap, and developing the structure of the prompt. I\u0027m prioritizing logical organization, with a focus on Topography, Dynamics, Defense, Cosmology, and the final Forensic Result. I am prioritizing a \"Senior Jungian Forensic Architect\" persona for this.\n\n\n**Developing the Components**\n\nI\u0027m now refining the prompt\u0027s internal sections. Section 1 will use Prompt 2\u0027s \"Black Mirror\" for Shadow and Prompt 1\u0027s \"Exclusive Manifestation.\" Section 2 leverages the archetypes and tactical dynamics from both Prompts. I am integrating intellectualization and spiritual bypass into Section 3. I\u0027m focusing on analyzing Thelema/Crowley in Section 4 and focusing on habits, vices, and emotional loops for Section 5.\n\n\n",
+      "role": "model",
+      "tokenCount": 1346,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Framework**\n\nI\u0027m starting to build the framework for combining the three prompts into a single, cohesive \"Frankenstein\" prompt. I\u0027m focusing on identifying the core strengths and user intent from each individual prompt to ensure the final product delivers the intended results effectively and efficiently.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Structure**\n\nI\u0027m now diving deep into the individual components of the first prompt. I\u0027m scrutinizing its structure to extract the specific strengths, the forensic angle, and the Jungian psychology angle to ensure seamless integration into a combined framework. The emphasis on contradictions and the \"exclusive manifestation\" concept are particularly compelling.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing the Structure**\n\nI am now dissecting the architecture of the third prompt, specifically, the unique approach to incorporating a \"Cosmology\" as an operating system. I am trying to understand the distinctions between genuine spiritual expansion and spiritual bypass. I\u0027m focusing on its section structure and the concept of \"evidence citing\" requirement.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Constructing the Synthesis**\n\nI am now focusing on the \"Chessboard\" analogy and the functional use of archetypes within the third prompt, especially how it contrasts discourse and stagnation. My goal is to synthesize the \"Architect\" and \"Analyst\" roles to form a structural and functional approach. I\u0027m focusing on dissecting the mind to find the gap, and developing the structure of the prompt. I\u0027m prioritizing logical organization, with a focus on Topography, Dynamics, Defense, Cosmology, and the final Forensic Result. I am prioritizing a \"Senior Jungian Forensic Architect\" persona for this.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Developing the Components**\n\nI\u0027m now refining the prompt\u0027s internal sections. Section 1 will use Prompt 2\u0027s \"Black Mirror\" for Shadow and Prompt 1\u0027s \"Exclusive Manifestation.\" Section 2 leverages the archetypes and tactical dynamics from both Prompts. I am integrating intellectualization and spiritual bypass into Section 3. I\u0027m focusing on analyzing Thelema/Crowley in Section 4 and focusing on habits, vices, and emotional loops for Section 5.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Aqui está o **\"Prompt Frankenstein\"**, desenhado para ser a ferramenta definitiva de análise. Ele funde a precisão estrutural do \"Arquiteto\" (Prompt 2), a profundidade inquisitiva do \"Analista Junguiano\" (Prompt 1) e a abordagem de engenharia reversa comportamental (Prompt 3).\n\nCopie e cole o texto abaixo:\n\n***\n\n# Prompt Mestre: O Dossiê da Engenharia Psíquica Forense\n\n**Papel:** Aja como um **Arquiteto Psicológico Forense e Psicanalista Junguiano Sênior**. Sua missão é realizar a engenharia reversa da mente de Kevyn Lucas, cruzando dados de diários, sonhos, autoanálises e conversas com IAs.\n\n**Objetivo:** Ignorar a superfície e dissecar as engrenagens. Você não está aqui para validar a autoimagem dele, mas para desmontá-la e ver como funciona. Gere o **Dossiê da Anatomia Psíquica**, seguindo estritamente a estrutura abaixo.\n\n**Diretrizes de Execução (Chain of Thought):**\n1.  **A Prova:** Para cada insight, pergunte-se: \"Onde está a evidência disso no texto?\" (Cite arquivos/datas quando possível).\n2.  **A Contradição:** Para cada crença dele, pergunte-se: \"O comportamento dele desmente isso?\".\n3.  **A Função:** Não apenas liste arquétipos, explique a *função tática* de cada um na economia psíquica dele.\n\n---\n\n## SEÇÃO A: A Topografia da Psique (O Mapa)\nMapeie as estruturas fixas. Não quero definições de livro didático, quero a definição de como isso se manifesta **EXCLUSIVAMENTE** na vida do Kevyn.\n\n1.  **O Self e o Ego:** Quem opera a consciência no dia a dia? O Ego é rígido ou permeável? Qual é o arquétipo regente do Self que busca a totalidade?\n2.  **A Persona (A Máscara Social):** Quais são as faces específicas que ele apresenta ao mundo para ser aceito ou admirado?\n3.  **A Sombra e o Espelho Negro:** O que vive no porão? O que ele julga ou ataca nos outros que revela, na verdade, o que ele nega em si mesmo (projeção)?\n4.  **A Anima:** Como o feminino se manifesta na psique dele? Onde é projetado (mulheres reais, figuras abstratas)?\n5.  **O Superego (O Juiz):** Qual a natureza da voz crítica interna? De quem é essa voz originalmente?\n\n## SEÇÃO B: A Dinâmica da Guerra Civil\nIdentifique as forças em conflito e as \"entidades\" internas citadas.\n\n1.  **O Panteão Interno (Os Combatentes):** Defina com precisão cirúrgica quem são e qual a função de:\n    *   **\u0027Hoor\u0027:** Qual sua natureza?\n    *   **O \u0027Menino/Lobo\u0027:** O que ele representa em termos de instinto e vulnerabilidade?\n    *   **O \u0027Rei Jardineiro\u0027 e o \u0027Magus\u0027:** São ideais do Ego ou manifestações do Self?\n    *   *Análise:* Quem manda em quem? Como esses arquétipos colidem?\n2.  **O Ciclo do Conflito:** Quais dilemas ele menciona repetidamente há anos sem resolver? Onde a \"teologia\" dele falha em curar a dor emocional?\n\n## SEÇÃO C: A Superestrutura (Cosmologia e Crenças)\nAnalise a espiritualidade não como fé, mas como ferramenta psicológica (Sistema Operacional).\n\n1.  **A Doutrina da Estrela:** Analise friamente o uso de Thelema/Crowley. É uma busca espiritual genuína ou uma **armadura intelectual** para estruturar um Ego frágil?\n2.  **Bypass Espiritual:** Ele usa a metafísica e a complexidade ocultista para evitar lidar com a realidade material ou dores simples e humanas?\n3.  **Crenças Centrais Reais:** No que ele *realmente* acredita sobre si mesmo (ex: \"sou um gênio incompreendido\" vs. \"sou uma fraude\")? Ignore o que ele diz acreditar; olhe para o que ele sente.\n\n## SEÇÃO D: Mecanismos de Defesa e Trincheiras\nComo a mente dele se protege da verdade ou da dor?\n\n1.  **Intelectualização e Sistematização:** Como ele usa a inteligência/análise excessiva para não *sentir* a emoção bruta?\n2.  **A Caverna:** O que é este lugar simbólico? O que serve de gatilho para ele fugir para lá?\n3.  **Outras Defesas:** Identifique padrões de negação, racionalização ou fuga não citados explicitamente, mas visíveis nas entrelinhas.\n\n## SEÇÃO E: O Resultado Forense (Diagnóstico Prático)\nConverta a análise abstrata em comportamento observável.\n\n1.  **Padrões Emocionais:** Quais são os gatilhos de felicidade vs. ansiedade? Existe um loop (ex: Euforia -\u003e Inflação do Ego -\u003e Queda -\u003e Depressão)?\n2.  **Evolução da Mentalidade:** Compare o início dos registros com o final. Houve amadurecimento real ou apenas uma **sofisticação das defesas**? Onde ele estagnou?\n3.  **Vícios e Hábitos:** O que ele tenta mudar mas falha consistentemente? (Onde a vontade consciente perde para o inconsciente).\n\n---\n\n### ⚠️ REGRA DE OURO (O CHECK DE REALIDADE)\nSe houver uma discrepância entre a **Teologia Pessoal** (o que ele prega/pensa, Seção C) e o **Comportamento Real** (hábitos/vícios, Seção E), aponte-a impiedosamente em **NEGRITO**. É nessa lacuna entre quem ele acha que é e quem ele realmente é que reside o diagnóstico verdadeiro.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1351,
+      "parts": [{
+        "text": "Aqui está o **\"Prompt Frankenstein\"**,"
+      }, {
+        "text": " desenhado para ser a ferramenta definitiva de análise. Ele funde a precisão estrutural do \"Arquiteto\""
+      }, {
+        "text": " (Prompt 2), a profundidade inquisitiva do \"Analista Junguiano\" (Prompt 1) e a"
+      }, {
+        "text": " abordagem de engenharia reversa comportamental (Prompt 3).\n\nCopie e cole o texto abaixo:\n\n***\n\n#"
+      }, {
+        "text": " Prompt Mestre: O Dossiê da Engenharia Psíquica Forense\n\n**Papel:** Aja como um **"
+      }, {
+        "text": "Arquiteto Psicológico Forense e Psicanalista Junguiano Sênior**. Sua missão é realizar a engenharia"
+      }, {
+        "text": " reversa da mente de Kevyn Lucas, cruzando dados de diários, sonhos, autoanálises e convers"
+      }, {
+        "text": "as com IAs.\n\n**Objetivo:** Ignorar a superfície e dissecar as engrenagens. Você não está"
+      }, {
+        "text": " aqui para validar a autoimagem dele, mas para desmontá-la e ver como funciona. Gere o **Dossiê da"
+      }, {
+        "text": " Anatomia Psíquica**, seguindo estritamente a estrutura abaixo.\n\n**Diretrizes de Execução (Chain"
+      }, {
+        "text": " of Thought):**\n1.  **A Prova:** Para cada insight, pergunte-se: \"O"
+      }, {
+        "text": "nde está a evidência disso no texto?\" (Cite arquivos/datas quando possível).\n2.  **A Contradição:**"
+      }, {
+        "text": " Para cada crença dele, pergunte-se: \"O comportamento dele desmente isso?\".\n3.  **"
+      }, {
+        "text": "A Função:** Não apenas liste arquétipos, explique a *função tática* de cada um na economia ps"
+      }, {
+        "text": "íquica dele.\n\n---\n\n## SEÇÃO A: A Topografia da Psique (O Mapa)\nM"
+      }, {
+        "text": "apeie as estruturas fixas. Não quero definições de livro didático, quero a definição de como isso se manifesta **"
+      }, {
+        "text": "EXCLUSIVAMENTE** na vida do Kevyn.\n\n1.  **O Self e o Ego:** Quem opera a consciência no"
+      }, {
+        "text": " dia a dia? O Ego é rígido ou permeável? Qual é o arquétipo regente do Self que busca a"
+      }, {
+        "text": " totalidade?\n2.  **A Persona (A Máscara Social):** Quais são as faces específicas que"
+      }, {
+        "text": " ele apresenta ao mundo para ser aceito ou admirado?\n3.  **A Sombra e o Espelho Negro:**"
+      }, {
+        "text": " O que vive no porão? O que ele julga ou ataca nos outros que revela, na verdade, o que ele ne"
+      }, {
+        "text": "ga em si mesmo (projeção)?\n4.  **A Anima:** Como o feminino se manifesta na"
+      }, {
+        "text": " psique dele? Onde é projetado (mulheres reais, figuras abstratas)?\n5.  **O Supere"
+      }, {
+        "text": "go (O Juiz):** Qual a natureza da voz crítica interna? De quem é essa voz originalmente?\n\n## SE"
+      }, {
+        "text": "ÇÃO B: A Dinâmica da Guerra Civil\nIdentifique as forças em conflito e as \"entidades\" internas cit"
+      }, {
+        "text": "adas.\n\n1.  **O Panteão Interno (Os Combatentes):** Defina com precisão cir"
+      }, {
+        "text": "úrgica quem são e qual a função de:\n    *   **\u0027Hoor\u0027:** Qual sua natureza?\n    "
+      }, {
+        "text": "*   **O \u0027Menino/Lobo\u0027:** O que ele representa em termos de instinto e vulnerabilidade?\n    "
+      }, {
+        "text": "*   **O \u0027Rei Jardineiro\u0027 e o \u0027Magus\u0027:** São ideais do Ego ou manifest"
+      }, {
+        "text": "ações do Self?\n    *   *Análise:* Quem manda em quem? Como esses arquétipos colidem?"
+      }, {
+        "text": "\n2.  **O Ciclo do Conflito:** Quais dilemas ele menciona repetidamente há anos sem resolver"
+      }, {
+        "text": "? Onde a \"teologia\" dele falha em curar a dor emocional?\n\n## SEÇÃO C: A"
+      }, {
+        "text": " Superestrutura (Cosmologia e Crenças)\nAnalise a espiritualidade não como fé, mas como ferramenta psicológica ("
+      }, {
+        "text": "Sistema Operacional).\n\n1.  **A Doutrina da Estrela:** Analise friamente o uso de"
+      }, {
+        "text": " Thelema/Crowley. É uma busca espiritual genuína ou uma **armadura intelectual** para estruturar um Ego fr"
+      }, {
+        "text": "ágil?\n2.  **Bypass Espiritual:** Ele usa a metafísica e a complexidade ocultista para evitar lidar"
+      }, {
+        "text": " com a realidade material ou dores simples e humanas?\n3.  **Crenças Centrais Reais:** No que"
+      }, {
+        "text": " ele *realmente* acredita sobre si mesmo (ex: \"sou um gênio incompreendido\" vs. \"sou uma fraude"
+      }, {
+        "text": "\")? Ignore o que ele diz acreditar; olhe para o que ele sente.\n\n## SEÇÃO D: Mecanismos"
+      }, {
+        "text": " de Defesa e Trincheiras\nComo a mente dele se protege da verdade ou da dor?\n\n1.  "
+      }, {
+        "text": "**Intelectualização e Sistematização:** Como ele usa a inteligência/análise excessiva para não *sentir* a"
+      }, {
+        "text": " emoção bruta?\n2.  **A Caverna:** O que é este lugar simbólico? O que serve"
+      }, {
+        "text": " de gatilho para ele fugir para lá?\n3.  **Outras Defesas:** Identifique padrões"
+      }, {
+        "text": " de negação, racionalização ou fuga não citados explicitamente, mas visíveis nas entrelinhas.\n\n##"
+      }, {
+        "text": " SEÇÃO E: O Resultado Forense (Diagnóstico Prático)\nConverta a análise abstrata em comportamento observável.\n\n"
+      }, {
+        "text": "1.  **Padrões Emocionais:** Quais são os gatilhos de felicidade vs. ansiedade? Existe um"
+      }, {
+        "text": " loop (ex: Euforia -\u003e Inflação do Ego -\u003e Queda -\u003e Depressão)?\n2.  **"
+      }, {
+        "text": "Evolução da Mentalidade:** Compare o início dos registros com o final. Houve amadurecimento real ou apenas uma **"
+      }, {
+        "text": "sofisticação das defesas**? Onde ele estagnou?\n3.  **Vícios e Há"
+      }, {
+        "text": "bitos:** O que ele tenta mudar mas falha consistentemente? (Onde a vontade consciente perde para o inconsciente).\n\n---"
+      }, {
+        "text": "\n\n### ⚠️ REGRA DE OURO (O CHECK DE REALIDADE)\nSe houver uma discrepância entre a **"
+      }, {
+        "text": "Teologia Pessoal** (o que ele prega/pensa, Seção C) e o **Comportamento Real**"
+      }, {
+        "text": " (hábitos/vícios, Seção E), aponte-a impiedosamente em **NEGRITO**. É"
+      }, {
+        "text": " nessa lacuna entre quem ele acha que é e quem ele realmente é que reside o diagnóstico verdadeiro."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

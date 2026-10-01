@@ -1,0 +1,1 @@
+É o curves como você já conhece. E aqui você pode ajustas as curvas de cada canal da camada com o efeito ativo.

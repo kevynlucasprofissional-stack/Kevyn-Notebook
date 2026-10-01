@@ -1,0 +1,46 @@
+---
+id: estado-da-integracao
+titulo: Estado da integracao
+tipo: estado
+status: em_andamento
+profundidade: operacional
+versao_schema: '1.0'
+versao_conteudo: '1.6'
+idioma: pt-BR
+data_criacao: 2026-06-19
+ultima_revisao: 2026-06-21
+tags:
+- tipo/estado
+- privacidade/restrita
+---
+# Estado da integracao
+
+## Situacao atual
+
+A conclusao automatica registrada ao fim de `CICLO-0024` foi invalidada no `CICLO-0025`. Os lotes `CICLO-0011`, `CICLO-0023` e `CICLO-0024` permanecem em revisao porque parte da integracao anterior confundiu triagem automatica com curadoria manual.
+
+No `CICLO-0029`, `SRC-000111` e `SRC-000112` receberam ajuste de escopo e proveniencia: o primeiro ficou explicitamente como reflexao simbolica de autoanalise; o segundo ficou restrito a monitoramento de publico e concorrencia na Salus.
+
+No CICLO-0030, SRC-000116 a SRC-000120 foram reavaliados como estudos de caso de marketing e funil; o escopo ficou restrito ao que esclarece a trajetoria de Kevyn.
+
+No CICLO-0031, SRC-000121 a SRC-000125 tiveram as proveniencias restauradas nas notas vivas: Kevyn Lucas voltou a registrar o uso de um guia de extracao de conhecimento, exploracao de cursos na Hotmart e um criativo autobiografico de treino; Marketing comunicacao e processos voltou a registrar Hoor Digital e a ideia do clone de Alex Hormozi. O material continua limitado ao que permite concluir sobre estudo, pratica e planejamento, sem importar o conteudo tematico bruto.
+
+No CICLO-0032, SRC-000126 voltou a ficar explicitamente ligado a sustentabilidade financeira e trabalho como estudo de iscas e monetizacao; SRC-000127 a SRC-000129 voltaram para Kevyn Lucas como evidencia de linha de lancamento e refinamento de copy. O bloco permanece curto e biografico, sem importar o material tematico bruto.
+
+No CICLO-0033, SRC-000131 voltou a Salus e Capital Green como proveniencia curta para a linha editorial definitiva revisada por Kevyn, evidenciando refinamento de copy e enquadramento de campanha. SRC-000130 segue como duplicata confirmada historica e o proximo item real passa a SRC-000132.
+
+## Correcao aplicada
+
+- 23 notas tematicas e cronologicas tiveram blocos de auto-sintese ampla removidos.
+- 1156 fontes dos lotes `0023` e `0024` permanecem em `parcialmente_integrado`.
+- `SRC-000079` a `SRC-000082`, `SRC-000099` a `SRC-000102`, `SRC-000103` a `SRC-000107` e `SRC-000108` a `SRC-000110` foram reavaliadas manualmente e reincorporadas com escopo epistemico restrito.
+
+## Proximo item
+
+`SRC-000132`
+
+## Gate
+
+`NAO`
+
+

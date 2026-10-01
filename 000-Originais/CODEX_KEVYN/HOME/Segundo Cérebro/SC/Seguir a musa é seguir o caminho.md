@@ -1,0 +1,1 @@
+Dentre as que me tocam o coração, a ilustração, o audio-visual, o design gráfico e a fotografia. A sua Musa para isso é ELAMOR, quanto mais conectado com ela melhor será seu foco nesse caminho. **Você não sabe onde pode chegar caso siga nesse caminho até o fim.**

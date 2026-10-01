@@ -1,0 +1,1 @@
+O nome "ducking" vem do inglês **“to duck”**, que significa **abaixar-se** — ou seja, uma faixa "se abaixa" quando outra entra.

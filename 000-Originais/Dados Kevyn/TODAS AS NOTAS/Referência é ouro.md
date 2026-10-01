@@ -1,0 +1,1 @@
+**Nunca subestime a hora de buscar por referências**, pois roubar como um artista muitas vezes pode fazer a diferença entre um criativo "Ok" e um criativo "Wow".

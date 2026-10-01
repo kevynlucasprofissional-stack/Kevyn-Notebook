@@ -1,0 +1,1275 @@
+﻿{
+    "generated_at":  "2026-04-04T11:42:50.2961019-03:00",
+    "objective":  "Identificar candidatos de baixo risco para quarentena, sem mover nada, com base no inventario do vault.",
+    "method":  [
+                   "Leitura de reports/01-inventory.json como base unica de inventario estrutural.",
+                   "Classificacao de pastas por heuristicas pedidas: Google Drive nao sincronizado, Clones, .trash, importacao redundante e nomes genericos.",
+                   "Separacao entre candidatos de baixo risco e excecoes de risco maior, especialmente quando o arquivo e nao vazio ou esta dentro de sub-vault."
+               ],
+    "criteria":  [
+                     "Nenhum arquivo foi movido, apagado ou renomeado.",
+                     "Sub-vaults continuam tratados como fronteiras de risco.",
+                     "Arquivos genericos so entram como baixo risco quando sao vazios e estao em zonas de espelho/lixo/import ou equivalente muito proximo."
+                 ],
+    "source_inventory":  "reports/01-inventory.json",
+    "affected_files":  [
+                           "reports/02-quarantine-candidates.md",
+                           "reports/02-quarantine-candidates.json",
+                           "logs/02-quarantine-candidates.md"
+                       ],
+    "risks":  [
+                  "A raiz de Google Drive (Not synced) mistura conteudo espelho com ao menos um sub-vault aninhado; qualquer acao futura deve ser fatiada por subarvore.",
+                  "Pasta com nome de importacao pode ainda conter anexos uteis; a recomendacao continua sendo manifesto revisavel, nao move direto.",
+                  "Nomes genericos fora dessas zonas foram excluidos do recorte de baixo risco para evitar quarentena indevida de rascunhos reais."
+              ],
+    "next_steps":  [
+                       "Escolher quais pastas candidatas devem virar manifesto em _staging/.",
+                       "Validar amostras rapidas das pastas de importacao antes de qualquer move.",
+                       "Se aprovado, preparar uma rodada separada de manifestos por subarvore, respeitando fronteiras de sub-vault."
+                   ],
+    "summary":  {
+                    "folder_candidates":  14,
+                    "file_candidates":  58,
+                    "total_candidates":  72,
+                    "low_risk_candidates":  71,
+                    "medium_risk_candidates":  1,
+                    "excluded_higher_risk_generic_names":  7,
+                    "candidates_by_bucket":  [
+                                                 {
+                                                     "bucket":  "Google Drive (Not synced)",
+                                                     "count":  1
+                                                 },
+                                                 {
+                                                     "bucket":  "Clones",
+                                                     "count":  2
+                                                 },
+                                                 {
+                                                     "bucket":  ".trash",
+                                                     "count":  5
+                                                 },
+                                                 {
+                                                     "bucket":  "import",
+                                                     "count":  6
+                                                 },
+                                                 {
+                                                     "bucket":  "generic-name",
+                                                     "count":  58
+                                                 }
+                                             ]
+                },
+    "folder_candidates":  [
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  "Google Drive (Not synced)",
+                                  "path":  "Google Drive (Not synced)",
+                                  "file_count":  201,
+                                  "seems_like":  [
+                                                     "espelho",
+                                                     "import",
+                                                     "sub-vault"
+                                                 ],
+                                  "risk":  "medium",
+                                  "reason":  "Raiz de espelho do Google Drive nao sincronizado. O inventario ja marcou a area como espelho/import e ha um sub-vault aninhado dentro dela.",
+                                  "recommendation":  "Nao mover a raiz inteira de uma vez. Priorizar manifestos por subarvore e isolar qualquer trecho com sub-vault para revisao humana separada."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  "Clones",
+                                  "path":  "HOME\\Clones",
+                                  "file_count":  232,
+                                  "seems_like":  [
+                                                     "espelho",
+                                                     "lixo"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Pasta explicitamente nomeada como Clones, com alta chance de copias redundantes e baixa centralidade para navegacao do vault principal.",
+                                  "recommendation":  "Preparar manifesto de quarentena por pasta e revisar apenas se algum clone ainda for ambiente ativo."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  "Clones",
+                                  "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Clones",
+                                  "file_count":  3,
+                                  "seems_like":  [
+                                                     "espelho",
+                                                     "import",
+                                                     "lixo"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Subarvore de clones dentro do espelho do Google Drive, reforcando o sinal de redundancia.",
+                                  "recommendation":  "Candidato forte para manifesto de quarentena por pasta inteira."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  ".trash",
+                                  "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash",
+                                  "file_count":  35,
+                                  "seems_like":  [
+                                                     "lixo"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Conteudo localizado em .trash, com indicio forte de descarte, sobra de importacao ou material ja removido do fluxo principal.",
+                                  "recommendation":  "Candidato forte para quarentena por pasta inteira apos revisao humana rapida."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  ".trash",
+                                  "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\TranscriÃ§Ã£o da reuniÃ£o de AnÃ¡lise do LanÃ§amento Semente - Ocorrida no dia 22\\09",
+                                  "file_count":  1,
+                                  "seems_like":  [
+                                                     "lixo"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Conteudo localizado em .trash, com indicio forte de descarte, sobra de importacao ou material ja removido do fluxo principal.",
+                                  "recommendation":  "Candidato forte para quarentena por pasta inteira apos revisao humana rapida."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  ".trash",
+                                  "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash",
+                                  "file_count":  18,
+                                  "seems_like":  [
+                                                     "lixo"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Conteudo localizado em .trash, com indicio forte de descarte, sobra de importacao ou material ja removido do fluxo principal.",
+                                  "recommendation":  "Candidato forte para quarentena por pasta inteira apos revisao humana rapida."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  ".trash",
+                                  "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash",
+                                  "file_count":  22,
+                                  "seems_like":  [
+                                                     "lixo"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Conteudo localizado em .trash, com indicio forte de descarte, sobra de importacao ou material ja removido do fluxo principal.",
+                                  "recommendation":  "Candidato forte para quarentena por pasta inteira apos revisao humana rapida."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  ".trash",
+                                  "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash",
+                                  "file_count":  41,
+                                  "seems_like":  [
+                                                     "lixo"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Conteudo localizado em .trash, com indicio forte de descarte, sobra de importacao ou material ja removido do fluxo principal.",
+                                  "recommendation":  "Candidato forte para quarentena por pasta inteira apos revisao humana rapida."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  "import",
+                                  "path":  "HOME\\SaaS com Kelvyn\\TPM\\Arquivos",
+                                  "file_count":  6,
+                                  "seems_like":  [
+                                                     "import"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Nome de pasta sugere deposito auxiliar de arquivos, separado da camada principal de notas.",
+                                  "recommendation":  "Revisar amostra curta e, se confirmado o padrao, colocar a pasta inteira em manifesto de quarentena."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  "import",
+                                  "path":  "HOME\\Neuron\\ARQUIVOS",
+                                  "file_count":  5,
+                                  "seems_like":  [
+                                                     "import"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Pasta em caixa alta tipica de deposito bruto/importacao, com baixo volume e baixa probabilidade de ser estrutura principal de notas.",
+                                  "recommendation":  "Candidato de baixo risco para manifesto por pasta."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  "import",
+                                  "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Kevyn Lucas\\Dados brutos",
+                                  "file_count":  19,
+                                  "seems_like":  [
+                                                     "espelho",
+                                                     "import"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Caminho explicito de dados brutos dentro de area espelho, sugerindo lote de captura ou importacao ainda nao integrado.",
+                                  "recommendation":  "Quarentenar por pasta apos revisao humana curta do conteudo."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  "import",
+                                  "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Kevyn Lucas\\Dados brutos\\TODAS AS NOTAS",
+                                  "file_count":  19,
+                                  "seems_like":  [
+                                                     "espelho",
+                                                     "import"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Subpasta explicitamente rotulada como lote total de notas, com forte sinal de dump de importacao.",
+                                  "recommendation":  "Priorizar esta subpasta no manifesto antes da pasta mae, se quiser granularidade maior."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  "import",
+                                  "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\TODAS AS NOTAS DA ACIRV",
+                                  "file_count":  2,
+                                  "seems_like":  [
+                                                     "espelho",
+                                                     "import"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Nome de lote total de notas dentro do espelho do Google Drive, sugerindo agregacao redundante.",
+                                  "recommendation":  "Candidato de baixo risco para manifesto por pasta."
+                              },
+                              {
+                                  "kind":  "folder",
+                                  "requested_bucket":  "import",
+                                  "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Obsidian Hormoziano-20250829T003213Z-1-001",
+                                  "file_count":  4,
+                                  "seems_like":  [
+                                                     "espelho",
+                                                     "import"
+                                                 ],
+                                  "risk":  "low",
+                                  "reason":  "Nome com timestamp e sufixo de pacote indica snapshot/exportacao importada, nao uma area curada do vault principal.",
+                                  "recommendation":  "Candidato forte para manifesto de quarentena por pasta inteira."
+                              }
+                          ],
+    "generic_name_groups":  [
+                                {
+                                    "parent_path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash",
+                                    "file_count":  22,
+                                    "seems_like":  [
+                                                       "espelho",
+                                                       "import",
+                                                       "lixo",
+                                                       "rascunho"
+                                                   ],
+                                    "risk":  "low",
+                                    "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                    "recommendation":  "Priorizar quarentena por pasta-matriz.",
+                                    "sample_files":  [
+                                                         "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\novo.md",
+                                                         "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 12.md",
+                                                         "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 15.md"
+                                                     ]
+                                },
+                                {
+                                    "parent_path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash",
+                                    "file_count":  12,
+                                    "seems_like":  [
+                                                       "espelho",
+                                                       "import",
+                                                       "lixo",
+                                                       "rascunho"
+                                                   ],
+                                    "risk":  "low",
+                                    "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                    "recommendation":  "Priorizar quarentena por pasta-matriz.",
+                                    "sample_files":  [
+                                                         "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\novo.md",
+                                                         "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 12.md",
+                                                         "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 15.md"
+                                                     ]
+                                },
+                                {
+                                    "parent_path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash",
+                                    "file_count":  11,
+                                    "seems_like":  [
+                                                       "espelho",
+                                                       "import",
+                                                       "lixo",
+                                                       "rascunho"
+                                                   ],
+                                    "risk":  "low",
+                                    "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                    "recommendation":  "Priorizar quarentena por pasta-matriz.",
+                                    "sample_files":  [
+                                                         "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 1.md",
+                                                         "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 10.md",
+                                                         "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 2.md"
+                                                     ]
+                                },
+                                {
+                                    "parent_path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash",
+                                    "file_count":  10,
+                                    "seems_like":  [
+                                                       "espelho",
+                                                       "import",
+                                                       "lixo",
+                                                       "rascunho"
+                                                   ],
+                                    "risk":  "low",
+                                    "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                    "recommendation":  "Priorizar quarentena por pasta-matriz.",
+                                    "sample_files":  [
+                                                         "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\novo.md",
+                                                         "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 12.md",
+                                                         "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 15.md"
+                                                     ]
+                                },
+                                {
+                                    "parent_path":  "HOME\\CÃ©rebro Profissional\\Notas",
+                                    "file_count":  1,
+                                    "seems_like":  [
+                                                       "rascunho"
+                                                   ],
+                                    "risk":  "low",
+                                    "reason":  "Nome generico e tamanho zero, sem identificacao semantica. Arquivo vazio em area de notas, com titulo genericamente criado.",
+                                    "recommendation":  "Revisar rapidamente e incluir em manifesto individual ou por subpasta.",
+                                    "sample_files":  "HOME\\CÃ©rebro Profissional\\Notas\\Sem tÃ­tulo.md"
+                                },
+                                {
+                                    "parent_path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\Notas",
+                                    "file_count":  1,
+                                    "seems_like":  [
+                                                       "espelho",
+                                                       "import",
+                                                       "rascunho"
+                                                   ],
+                                    "risk":  "low",
+                                    "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Nome generico e tamanho zero, sem identificacao semantica.",
+                                    "recommendation":  "Revisar rapidamente e incluir em manifesto individual ou por subpasta.",
+                                    "sample_files":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\Notas\\Sem tÃ­tulo.md"
+                                },
+                                {
+                                    "parent_path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Kevyn Lucas\\Dados brutos\\TODAS AS NOTAS",
+                                    "file_count":  1,
+                                    "seems_like":  [
+                                                       "espelho",
+                                                       "import",
+                                                       "rascunho"
+                                                   ],
+                                    "risk":  "low",
+                                    "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Nome generico e tamanho zero, sem identificacao semantica.",
+                                    "recommendation":  "Revisar rapidamente e incluir em manifesto individual ou por subpasta.",
+                                    "sample_files":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Kevyn Lucas\\Dados brutos\\TODAS AS NOTAS\\Sem tÃ­tulo.md"
+                                }
+                            ],
+    "file_candidates":  [
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\novo.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 12.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 15.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 16.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 17.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 2.canvas",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 25.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 31.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 34.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 37.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 39.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 40.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 41.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 42.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 43.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 46.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 47.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 48.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 50.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Untitled 1.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Untitled.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\Notas\\Sem tÃ­tulo.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Candidato de baixo risco para manifesto individual apos confirmacao visual rapida."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Kevyn Lucas\\Dados brutos\\TODAS AS NOTAS\\Sem tÃ­tulo.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Candidato de baixo risco para manifesto individual apos confirmacao visual rapida."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\novo.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 12.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 15.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 16.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 17.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 25.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 31.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 34.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 37.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\novo.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 12.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 15.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 16.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 17.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 25.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 31.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 34.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 37.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 39.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 40.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 1.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 10.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 2.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 3.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 4.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 5.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 6.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 7.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 8.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 9.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "espelho",
+                                                   "import",
+                                                   "lixo",
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Arquivo em area espelho do Google Drive nao sincronizado. Arquivo dentro de .trash. Nome generico e tamanho zero, sem identificacao semantica.",
+                                "recommendation":  "Incluir no manifesto individual ou por pasta-matriz de .trash; risco baixo por ser vazio e generico."
+                            },
+                            {
+                                "kind":  "file",
+                                "requested_bucket":  "generic-name",
+                                "path":  "HOME\\CÃ©rebro Profissional\\Notas\\Sem tÃ­tulo.md",
+                                "size":  0,
+                                "seems_like":  [
+                                                   "rascunho"
+                                               ],
+                                "risk":  "low",
+                                "reason":  "Nome generico e tamanho zero, sem identificacao semantica. Arquivo vazio em area de notas, com titulo genericamente criado.",
+                                "recommendation":  "Candidato de baixo risco para manifesto individual apos confirmacao visual rapida."
+                            }
+                        ],
+    "excluded_higher_risk":  [
+                                 {
+                                     "path":  "ACIRV\\Notas\\00_rascunho.md",
+                                     "size":  18337,
+                                     "in_nested_subvault":  false,
+                                     "risk":  "medium",
+                                     "exclusion_reason":  "arquivo nao vazio; fora das zonas mais seguras de espelho/lixo/import",
+                                     "recommendation":  "Manter apenas como sugestao revisavel; nao tratar como candidato de baixo risco nesta rodada."
+                                 },
+                                 {
+                                     "path":  "Google Drive (Not synced)\\Meu Drive\\HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian\\00_rascunho.md",
+                                     "size":  3615,
+                                     "in_nested_subvault":  true,
+                                     "risk":  "medium",
+                                     "exclusion_reason":  "arquivo nao vazio; dentro de sub-vault",
+                                     "recommendation":  "Manter apenas como sugestao revisavel; nao tratar como candidato de baixo risco nesta rodada."
+                                 },
+                                 {
+                                     "path":  "HOME\\Ãgora\\Ãgora Obsidian\\00_rascunho.md",
+                                     "size":  9068,
+                                     "in_nested_subvault":  true,
+                                     "risk":  "medium",
+                                     "exclusion_reason":  "arquivo nao vazio; dentro de sub-vault; fora das zonas mais seguras de espelho/lixo/import",
+                                     "recommendation":  "Manter apenas como sugestao revisavel; nao tratar como candidato de baixo risco nesta rodada."
+                                 },
+                                 {
+                                     "path":  "HOME\\ACIRV\\Notas\\00_rascunho.md",
+                                     "size":  18337,
+                                     "in_nested_subvault":  false,
+                                     "risk":  "medium",
+                                     "exclusion_reason":  "arquivo nao vazio; fora das zonas mais seguras de espelho/lixo/import",
+                                     "recommendation":  "Manter apenas como sugestao revisavel; nao tratar como candidato de baixo risco nesta rodada."
+                                 },
+                                 {
+                                     "path":  "HOME\\BioVision\\Notas\\00_rascunho.md",
+                                     "size":  8313,
+                                     "in_nested_subvault":  false,
+                                     "risk":  "medium",
+                                     "exclusion_reason":  "arquivo nao vazio; fora das zonas mais seguras de espelho/lixo/import",
+                                     "recommendation":  "Manter apenas como sugestao revisavel; nao tratar como candidato de baixo risco nesta rodada."
+                                 },
+                                 {
+                                     "path":  "HOME\\GestÃ£o de Tempo\\Untitled.sheet",
+                                     "size":  1777,
+                                     "in_nested_subvault":  false,
+                                     "risk":  "medium",
+                                     "exclusion_reason":  "arquivo nao vazio; fora das zonas mais seguras de espelho/lixo/import",
+                                     "recommendation":  "Manter apenas como sugestao revisavel; nao tratar como candidato de baixo risco nesta rodada."
+                                 },
+                                 {
+                                     "path":  "HOME\\Kevyn Lucas\\Outros\\NÃ£o integrados\\00_rascunho.md",
+                                     "size":  15683,
+                                     "in_nested_subvault":  true,
+                                     "risk":  "medium",
+                                     "exclusion_reason":  "arquivo nao vazio; dentro de sub-vault; fora das zonas mais seguras de espelho/lixo/import",
+                                     "recommendation":  "Manter apenas como sugestao revisavel; nao tratar como candidato de baixo risco nesta rodada."
+                                 }
+                             ]
+}

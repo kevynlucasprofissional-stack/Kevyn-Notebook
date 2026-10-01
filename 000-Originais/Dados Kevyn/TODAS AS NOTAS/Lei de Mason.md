@@ -1,0 +1,1 @@
+A resistência a mudança é proporcional a quão fundamental esta mudança é. 

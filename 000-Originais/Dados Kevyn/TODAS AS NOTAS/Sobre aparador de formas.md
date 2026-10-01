@@ -1,0 +1,1 @@
+Em português, o animador de camada de formas que controla inicio e fim de linhas de formas é chamado de aparador de formas. Meio estranho, já que como efeito se chama traçado.

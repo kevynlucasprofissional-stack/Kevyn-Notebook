@@ -1,0 +1,3 @@
+Será um estúdio criativo dedicado a grande obra. O grande sonho é reunir o máximo de pessoas que também sonham em trabalhar com artes digitais. A visão de futuro é ter departamentos de todos os tipos de criativos digitais, incluindo: Animação, ilustração, web design (UI, UX, Front e Back), design de games, audio-visual, marketing e gestão de tráfego. Este é o sonho.
+
+O sonho é criar um espaço onde a criatividade em todas as suas formas será cultivada e incentivada. Empreendedorismo, para dentro e para fora. Um lugar para realizar sonhos, para construir sonhos. Um lugar onde trabalho duro será feito, onde construiremos e assinaremos nossos nomes na história do marketing, do design, do empreendedorismo, da comunicação e da realização de obras.

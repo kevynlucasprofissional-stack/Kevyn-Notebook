@@ -1,0 +1,211 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+    "text": "Utilize o Playbook abaixo para ajudar o usuário a resolver os problemas dele.\n\n# 📘 O Playbook Definitivo de Engenharia de Prompt\n\n## FASE 1: Configurando o Motor (Parâmetros)\nAntes de escrever, entenda os \"botões\" que você pode girar no seu LLM (Large Language Model). \n*   **Temperature (0.0 a 2.0):** Controla a criatividade.\n    *   *Tarefas exatas (Código, Extração de Dados, Matemática):* Use **0.0** (respostas determinísticas).\n    *   *Tarefas criativas (Ideação, Escrita de e-mails, Brainstorming):* Use entre **0.7 e 0.9**.\n*   **Top-K e Top-P:** Controlam a aleatoriedade limitando o vocabulário de onde o modelo pode escolher a próxima palavra. Se for mexer na Temperature, geralmente deixe esses no padrão (ou vice-versa).\n*   **Max Tokens:** Limite o tamanho da resposta para evitar que o modelo entre em *loops* de repetição sem fim.\n\n---\n\n## FASE 2: A Anatomia do Prompt Ideal\nUm prompt de nível de produção não é apenas uma frase. Ele deve ser estruturado como um documento. Lembre-se do **Princípio da Chapeuzinho Vermelho**: *os modelos imitam os dados em que foram treinados*. Se o seu prompt parece um documento de alta qualidade e bem estruturado, a resposta também será.\n\nDivida seu prompt nestes 4 blocos (usando Markdown para separar):\n\n1.  **Introdução / Preamble (System Prompt):** Define o papel (Persona), o tom e o comportamento do modelo.\n2.  **Contexto (Context):** A injeção de dados (documentos, histórico de chat, regras de negócio).\n3.  **Refoco (Refocus):** Modelos sofrem do *\"Valley of Meh\"* (eles lembram do começo e do fim do prompt, mas ignoram o meio). Coloque sua pergunta principal ou instrução mais importante no **final** do prompt para \"refocar\" a atenção da IA.\n4.  **Transição / Inception:** Deixe a porta aberta para o modelo começar a falar exatamente no formato que você quer. (Ex: `Resposta em JSON: {`)\n\n---\n\n## FASE 3: Os 5 Princípios de Ouro do Prompting\n\n### 1. Dê Direção (Give Direction)\nDiga exatamente o que o modelo deve fazer.\n*   **Aja como um especialista:** Use *Role Prompting* (Ex: \"Aja como um consultor sênior de marketing...\").\n*   **Instruções \u003e Restrições:** LLMs funcionam melhor quando você diz o que eles *devem* fazer, em vez do que *não devem*.\n    *   ❌ *Não faça:* \"Não escreva uma introdução longa.\"\n    *   ✅ *Faça:* \"Vá direto ao ponto e comece no primeiro tópico.\"\n\n### 2. Especifique o Formato (Specify Format)\nNunca deixe a formatação por conta do modelo. Use formatos estruturados para evitar \"enrolação\" (fluff).\n*   Peça a saída em **JSON, YAML, XML ou Markdown**. \n*   Forneça o *schema* (esqueleto) exato que você espera receber. Isso facilita a extração de dados por sistemas automatizados.\n\n### 3. Forneça Exemplos (Provide Examples / Few-Shot)\nO modelo aprende melhor vendo do que ouvindo. \n*   **Zero-shot:** Sem exemplos (útil para tarefas muito simples).\n*   **Few-shot:** Dê de 3 a 5 exemplos de pares \"Entrada -\u003e Saída desejada\". \n*   *Atenção:* Misture as classes nos exemplos para não viciar o modelo (ex: não coloque 3 exemplos positivos seguidos se quiser que ele também identifique sentimentos negativos).\n\n### 4. Divida o Trabalho (Divide Labor)\nLLMs falham em tarefas gigantescas. Se a tarefa é complexa, divida-a em partes.\n*   **Cadeias de Prompts (Prompt Chaining):** Use a saída do Prompt 1 como entrada do Prompt 2. (Ex: Prompt 1 extrai dados de um site -\u003e Prompt 2 cria ideias de produtos -\u003e Prompt 3 escreve o e-mail de vendas).\n\n### 5. Avalie a Qualidade (Evaluate Quality)\nNão dependa da sorte. Avalie seus prompts metodicamente.\n*   Use o método **SOMA** para fazer o próprio LLM avaliar saídas: Faça perguntas **S**pecíficas, use notas **O**rdinais (1 a 5), com cobertura **M**ulti-**A**specto (avalie tom, precisão e formatação separadamente).\n\n---\n\n## FASE 4: Técnicas Avançadas de Raciocínio\n\nQuando o modelo erra lógica ou matemática, aplique estes \"hacks\" cognitivos:\n\n*   **Chain of Thought (CoT):** Adicione a frase mágica *\"Let\u0027s think step-by-step\"* (Vamos pensar passo a passo) no final do seu prompt. Isso força o modelo a criar uma \"voz interna\" e fazer os cálculos antes de dar a resposta final, aumentando drasticamente a precisão.\n*   **Self-Consistency:** Gere 5 ou mais respostas diferentes (usando Temperature alta) e programe seu sistema para escolher a resposta que mais se repetiu (votação por maioria).\n*   **Step-Back Prompting:** Antes de pedir a solução de um problema específico, peça ao modelo para listar os princípios gerais ou as leis fundamentais que regem aquele problema.\n*   **ReAct (Reason + Act):** A arquitetura para Agentes. O modelo opera em um loop: *Pensar -\u003e Escolher uma Ferramenta (ex: Busca no Google) -\u003e Observar o resultado -\u003e Pensar novamente -\u003e Dar a resposta final*.\n\n---\n\n## FASE 5: Tratando Contexto e Dados (RAG)\n\nQuando precisar que o modelo responda com base em documentos da sua empresa (Retrieval-Augmented Generation):\n\n1.  **Snippetizing (Fatiamento):** Não jogue um PDF de 500 páginas no prompt. Fatie o texto em \"pedaços\" (chunks) com sobreposição (overlap) para não cortar o sentido das frases no meio.\n2.  **Cuidado com a Falácia da Arma de Chekhov:** Se você colocar uma informação inútil no contexto, a IA tentará usá-la a todo custo. Filtre rigorosamente o contexto usando busca semântica (bancos de dados vetoriais como FAISS ou Pinecone) antes de enviar ao modelo.\n3.  **Prevenindo Alucinações:** Adicione a regra: *\"Responda APENAS usando os documentos fornecidos. Se a resposta não estiver nos documentos, diga \u0027Não sei\u0027.\"*\n\n---\n\n## FASE 6: Prompts para Imagens (Midjourney, DALL-E, Stable Diffusion)\n\nModelos de imagem de difusão não \"entendem\" a gramática da mesma forma que os de texto. A ordem e o vocabulário mandam:\n\n*   **Palavras-Chave de Qualidade (Boosters):** Adicione termos como *4k, highly detailed, photorealistic, trending on artstation, masterpiece*. \n*   **Modificadores de Formato e Estilo:** Defina a mídia física. (Ex: *oil painting, 35mm photography, polaroid, 1960s comic book, studio lighting*).\n*   **Negative Prompts:** Diga o que você *não quer*. Para remover distorções, use: *ugly, deformed, bad anatomy, low resolution*.\n*   **Pesos (Weights):** Em Midjourney (::) e Stable Diffusion (()), você pode dar pesos às palavras. Ex: `A cat::2 and a dog::1` fará o gato ser duas vezes mais proeminente que o cachorro.\n*   **Engenharia Reversa:** Não sabe descrever uma imagem? Use comandos como `/describe` no Midjourney (ou o CLIP Interrogator) fazendo upload da imagem para que a própria IA gere o prompt perfeito para você copiar.\n\n---\n\n## ✅ O Checklist de Mesa (Cheat Sheet)\n\nSempre que for criar um novo prompt profissional, passe por este checklist:\n\n- [ ] Defini um papel/persona claro no início do prompt? (System Prompt)\n- [ ] Forneci instruções dizendo o que *fazer* em vez de apenas o que *não fazer*?\n- [ ] Inseri contexto relevante e excluí o lixo informacional?\n- [ ] Coloquei a instrução principal e a pergunta no final do prompt para fugir do *Valley of Meh*?\n- [ ] Pedi uma saída em um formato rigoroso (JSON/Markdown) para facilitar a automação?\n- [ ] Mostrei pelo menos 2 exemplos (Few-shot) do que eu considero uma resposta perfeita?\n- [ ] Pedi para a IA \"pensar passo a passo\" e mostrar a lógica antes de me dar a resposta final?\n- [ ] \"Forcei a largada\" (Inception) escrevendo a primeira palavra da resposta esperada (Ex: `"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1Y0Q5TuanFHa1Xy9ab8_hgpzCs6J7hJUF"
+      },
+      "role": "user",
+      "tokenCount": 4715,
+      "createTime": "2026-03-22T01:02:15.434Z"
+    }, {
+      "text": "Transforme esse feedback que o agent de UX e UI deu sobre meu SaaS em um prompt para o Lovable, crie o prompt de uma forma que o Lovable vá entender 100% e que vá implementar os ajustes com precisão e sem erros.",
+      "role": "user",
+      "tokenCount": 55,
+      "createTime": "2026-03-22T01:02:15.434Z"
+    }, {
+      "text": "**Analyzing the Request**\n\nI\u0027m starting by carefully examining the request and its source material. The core task involves analyzing user flow feedback from two documents. My immediate focus is identifying key insights that can be extracted from \"Feedback 01\" and \"Feedback 02\" to inform the generation of a relevant prompt.\n\n\n**Refining the Objectives**\n\nNow, I\u0027m defining the concrete goals for the prompt generation, keeping Lovable in mind. My focus is on ensuring absolute clarity and precision in Lovable\u0027s understanding. I need a prompt that directly translates user feedback to actionable adjustments in Lovable\u0027s UI generation. The Playbook will be used as the ultimate guide to refine the prompt, and ensure Lovable\u0027s 100% compliance.\n\n\n**Prioritizing UI Improvements**\n\nI\u0027m now zeroing in on specific UI elements highlighted in the feedback.  \"Favorites\" need a strategic rethink to become a core conversion tool.  \"Logout/Settings\" are getting a more logical categorization within the profile page. I am keeping in mind the React/Vite/Node frontend architecture as I work, so I can create a prompt that accounts for all the technical details.\n\n\n**Structuring the Tasks**\n\nI\u0027m now translating the abstract feedback into concrete coding and UI tasks for Lovable. I\u0027m focusing on \"Onboarding,\" the \"Client Area,\" and the \"Professional Area.\" I\u0027m using clear action verbs, specifying the Markdown format for output, and requiring specific file structures for each task. I\u0027ll also be asking Lovable to think step-by-step before generating any code, utilizing the Chain of Thought method.\n\n\n**Defining the Approach**\n\nI\u0027m now breaking down the tasks for Lovable, specifically the welcome screen, client and professional areas, and chat access, ensuring clear steps. I\u0027m focusing on \"Sou Cliente\"/\"Sou Profissional\", cleaning the home screen, integrating search, and re-purposing \"Favorites.\" I\u0027m also transforming the dashboard and reorganizing the profile. I\u0027m making sure Lovable understands architectural and design considerations. I\u0027m also going to provide specific format directions.\n\n\n\n",
+      "role": "model",
+      "tokenCount": 1246,
+      "isThought": true,
+      "parts": [{
+        "text": "**Analyzing the Request**\n\nI\u0027m starting by carefully examining the request and its source material. The core task involves analyzing user flow feedback from two documents. My immediate focus is identifying key insights that can be extracted from \"Feedback 01\" and \"Feedback 02\" to inform the generation of a relevant prompt.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Objectives**\n\nNow, I\u0027m defining the concrete goals for the prompt generation, keeping Lovable in mind. My focus is on ensuring absolute clarity and precision in Lovable\u0027s understanding. I need a prompt that directly translates user feedback to actionable adjustments in Lovable\u0027s UI generation. The Playbook will be used as the ultimate guide to refine the prompt, and ensure Lovable\u0027s 100% compliance.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Prioritizing UI Improvements**\n\nI\u0027m now zeroing in on specific UI elements highlighted in the feedback.  \"Favorites\" need a strategic rethink to become a core conversion tool.  \"Logout/Settings\" are getting a more logical categorization within the profile page. I am keeping in mind the React/Vite/Node frontend architecture as I work, so I can create a prompt that accounts for all the technical details.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Tasks**\n\nI\u0027m now translating the abstract feedback into concrete coding and UI tasks for Lovable. I\u0027m focusing on \"Onboarding,\" the \"Client Area,\" and the \"Professional Area.\" I\u0027m using clear action verbs, specifying the Markdown format for output, and requiring specific file structures for each task. I\u0027ll also be asking Lovable to think step-by-step before generating any code, utilizing the Chain of Thought method.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining the Approach**\n\nI\u0027m now breaking down the tasks for Lovable, specifically the welcome screen, client and professional areas, and chat access, ensuring clear steps. I\u0027m focusing on \"Sou Cliente\"/\"Sou Profissional\", cleaning the home screen, integrating search, and re-purposing \"Favorites.\" I\u0027m also transforming the dashboard and reorganizing the profile. I\u0027m making sure Lovable understands architectural and design considerations. I\u0027m also going to provide specific format directions.\n\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-03-22T01:02:15.434Z"
+    }, {
+      "text": "Aqui está o prompt estruturado rigorosamente de acordo com o **Playbook Definitivo de Engenharia de Prompt**. \n\nEle foi desenhado para contornar o \"Valley of Meh\" (foco no início e no fim), usa a técnica de divisão de trabalho, estabelece restrições claras e pede raciocínio passo a passo (Chain of Thought) para garantir que o Lovable não quebre a sua aplicação ao tentar consertar a UX.\n\nCopie o bloco de código abaixo e cole no Lovable:\n\n***\n\n```markdown\nVocê é um Engenheiro de Software Sênior e Especialista em UX/UI de Produtos Digitais. Sua missão é refatorar a interface e o fluxo de navegação de um SaaS (que possui perfis de Cliente e Profissional) para resolver problemas críticos de usabilidade, encontrabilidade e arquitetura de informação.\n\nA base técnica e o roteamento (auth/callback) já funcionam. O objetivo agora é elevar a maturidade da UX, transformando \"telas soltas\" em \"fluxos orientados à ação\" e reduzindo a carga cognitiva do usuário.\n\nAbaixo estão as especificações exatas do que deve ser implementado. Dividi o trabalho em 4 frentes principais. Leia atentamente e prepare as atualizações de código.\n\n### FRENTE 1: Refatoração do Onboarding Público (Acesso)\n**Problema atual:** A tela de Welcome causa ambiguidade na criação de conta. O usuário só descobre a diferença entre Cliente e Profissional tarde demais no funil.\n**O que você deve fazer:**\n1. Redesenhe a tela de Welcome/Cadastro inicial.\n2. Crie uma bifurcação visual explícita e impossível de ignorar ANTES do formulário de cadastro.\n3. Use botões de CTA claros: \"Criar conta como Cliente\" e \"Criar conta como Profissional\".\n4. Remova qualquer fricção ou links confusos que misturem os dois fluxos.\n\n### FRENTE 2: Reestruturação da Jornada do Cliente\n**Problema atual:** A Home está sobrecarregada (Busca + Feed + Editorial + Listagem) e a rota `/cliente/busca` está órfã ou competindo com a Home. Os Favoritos não têm peso estratégico.\n**O que você deve fazer:**\n1. **Limpeza da Home:** Transforme a Home do Cliente estritamente em um hub de \"Encontrar e Contratar\". Remova o excesso de informações. O bloco editorial (\"História das Heroínas\") deve ser movido para um destaque secundário, abaixo do fold principal.\n2. **Unificação da Busca:** Integre definitivamente a busca na Home ou transforme o CTA da Home em um redirecionamento limpo para `/cliente/busca`. Elimine a concorrência de funções. Crie um fluxo progressivo (Filtros claros: categoria \u003e proximidade \u003e disponibilidade \u003e preço).\n3. **Elevação dos Favoritos:** Transforme a tela de Favoritos em uma \"Shortlist de Decisão\". Adicione CTAs rápidos nos cards favoritados para \"Agendar\" ou \"Enviar Mensagem\", permitindo reentrada rápida no funil de conversão.\n\n### FRENTE 3: Transformação da Área do Profissional (Cockpit)\n**Problema atual:** O dashboard é apenas um resumo passivo. Faltam conexões entre Pedidos, Agenda e Chat. A tela de Perfil está sobrecarregada servindo de depósito de links.\n**O que você deve fazer:**\n1. **Dashboard Ativo (Cockpit):** Refatore o dashboard inicial do Profissional para priorizar ações. O topo da tela deve mostrar \"Pedidos que exigem ação\" e \"Agenda do dia\".\n2. **Conexão de Fluxo:** Implemente continuidade visual e lógica: Quando um profissional aceita um \"Pedido\", deve haver um botão imediato de \"Ir para Agenda\" ou \"Abrir Chat com Cliente\". \n3. **Limpeza do Perfil \u0026 Logout:** Retire o botão de Logout e as configurações gerais do meio do Perfil. Crie uma seção clara de \"Configurações\" separada por: Dados Pessoais, Conta, Plano, Ajuda e um botão isolado e claro para Logout.\n\n### FRENTE 4: Descoberta e Regras do Chat\n**Problema atual:** O chat é restrito a vínculos prévios (agendamentos), mas a interface não deixa isso claro e faltam atalhos para acessá-lo.\n**O que você deve fazer:**\n1. Adicione botões de \"Abrir Chat\" diretamente nos cards de Agendamentos (tanto para o Cliente quanto para o Profissional).\n2. Se o chat estiver bloqueado (por falta de vínculo/agendamento), mostre o botão desabilitado com um tooltip ou microcopy claro explicando a regra: \"O chat será liberado após a confirmação do agendamento\".\n\n---\n\n### INSTRUÇÕES DE FORMATAÇÃO E REGRAS DE EXECUÇÃO:\n- Utilize os componentes de UI já existentes no projeto (Tailwind/shadcn ou a biblioteca padrão que estamos usando) para manter a consistência visual.\n- Mantenha a rota `/auth/callback` intacta, ela gerencia o estado da sessão perfeitamente.\n- O código gerado deve ser modular, limpo e devidamente comentado.\n\n### REFOCO DA TAREFA:\nPara evitar falhas na arquitetura, quero que você aplique a técnica de raciocínio lógico. Antes de escrever o código das telas, escreva \"Let\u0027s think step-by-step\" e descreva brevemente como você vai estruturar a árvore de componentes para resolver os problemas citados. \n\nApós a explicação lógica, forneça os códigos atualizados para as principais telas afetadas (Welcome, Home Cliente, Dashboard Profissional e a nova estrutura de Navegação/Logout).\n\nResponda em formato Markdown, estruturando os arquivos de código claramente: ```tsx\n```\n\n### POR QUE ESTE PROMPT FUNCIONA NO LOVABLE:\n\n1. **Role Prompting:** Define que a IA não é apenas um \"gerador de código\", mas um \"Especialista em UX\", forçando-a a tomar decisões de design baseadas nas melhores práticas.\n2. **Divisão de Trabalho (Divide Labor):** O Lovable se perde se você pedir \"arrume meu app inteiro\". Dividir em 4 frentes (Onboarding, Cliente, Profissional, Chat) cria um escopo delimitado e fácil de processar.\n3. **Instruções Positivas (Give Direction):** Em vez de dizer \"o dashboard tá ruim\", o prompt diz exatamente o que colocar lá (\"Pedidos que exigem ação\" e \"Agenda do dia\").\n4. **Step-by-Step (CoT) + Inception:** Obriga o Lovable a planejar a arquitetura mentalmente antes de cuspir o código, garantindo que ele não vai quebrar suas rotas atuais (que o feedback disse que estão boas).\n5. **Prevenção da Arma de Chekhov:** O prompt isola a rota `/auth/callback`, avisando para a IA *não mexer* nela, evitando que ela tente refatorar o que já está funcionando.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1571,
+      "parts": [{
+        "text": "Aqui está o prompt estrut"
+      }, {
+        "text": "urado rigorosamente de acordo com o **Playbook Definitivo de Engenharia de Prompt**. \n\nEle foi desen"
+      }, {
+        "text": "hado para contornar o \"Valley of Meh\" (foco no início e no fim), usa a técnica de divisão"
+      }, {
+        "text": " de trabalho, estabelece restrições claras e pede raciocínio passo a passo (Chain of Thought) para garantir"
+      }, {
+        "text": " que o Lovable não quebre a sua aplicação ao tentar consertar a UX.\n\nCopie o bloco de"
+      }, {
+        "text": " código abaixo e cole no Lovable:\n\n***\n\n```markdown\nVocê é um Engenheiro de Software Sênior e Especialista"
+      }, {
+        "text": " em UX/UI de Produtos Digitais. Sua missão é refatorar a interface e o fluxo de navegação de um"
+      }, {
+        "text": " SaaS (que possui perfis de Cliente e Profissional) para resolver problemas críticos de usabilidade, encontrabilidade e arquitet"
+      }, {
+        "text": "ura de informação.\n\nA base técnica e o roteamento (auth/callback) já funcionam. O objetivo agora"
+      }, {
+        "text": " é elevar a maturidade da UX, transformando \"telas soltas\" em \"fluxos orientados à ação\""
+      }, {
+        "text": " e reduzindo a carga cognitiva do usuário.\n\nAbaixo estão as especificações exatas do que deve ser implementado. Divid"
+      }, {
+        "text": "i o trabalho em 4 frentes principais. Leia atentamente e prepare as atualizações de código.\n\n### FREN"
+      }, {
+        "text": "TE 1: Refatoração do Onboarding Público (Acesso)\n**Problema atual:** A tela de Welcome"
+      }, {
+        "text": " causa ambiguidade na criação de conta. O usuário só descobre a diferença entre Cliente e Profissional tarde demais no"
+      }, {
+        "text": " funil.\n**O que você deve fazer:**\n1. Redesenhe a tela de Welcome/Cadastro inicial"
+      }, {
+        "text": ".\n2. Crie uma bifurcação visual explícita e impossível de ignorar ANTES do formul"
+      }, {
+        "text": "ário de cadastro.\n3. Use botões de CTA claros: \"Criar conta como Cliente\" e \"Criar conta"
+      }, {
+        "text": " como Profissional\".\n4. Remova qualquer fricção ou links confusos que misturem os dois flux"
+      }, {
+        "text": "os.\n\n### FRENTE 2: Reestruturação da Jornada do Cliente\n**Problema atual:** A Home está"
+      }, {
+        "text": " sobrecarregada (Busca + Feed + Editorial + Listagem) e a rota `/cliente/busca` está"
+      }, {
+        "text": " órfã ou competindo com a Home. Os Favoritos não têm peso estratégico.\n**O que você deve"
+      }, {
+        "text": " fazer:**\n1. **Limpeza da Home:** Transforme a Home do Cliente estritamente em um hub de \"En"
+      }, {
+        "text": "contrar e Contratar\". Remova o excesso de informações. O bloco editorial (\"História das Heroínas\") deve ser"
+      }, {
+        "text": " movido para um destaque secundário, abaixo do fold principal.\n2. **Unificação da Busca:** Integre definitivamente"
+      }, {
+        "text": " a busca na Home ou transforme o CTA da Home em um redirecionamento limpo para `/cliente/busca`. Elimine a conc"
+      }, {
+        "text": "orrência de funções. Crie um fluxo progressivo (Filtros claros: categoria \u003e proximidade \u003e disponibilidade \u003e preço).\n"
+      }, {
+        "text": "3. **Elevação dos Favoritos:** Transforme a tela de Favoritos em uma \"Shortlist de Decisão"
+      }, {
+        "text": "\". Adicione CTAs rápidos nos cards favoritados para \"Agendar\" ou \"Enviar Mensagem\", permitindo reentrada rápida"
+      }, {
+        "text": " no funil de conversão.\n\n### FRENTE 3: Transformação da Área do Profissional (Cockpit"
+      }, {
+        "text": ")\n**Problema atual:** O dashboard é apenas um resumo passivo. Faltam conexões entre Pedidos, Agenda e"
+      }, {
+        "text": " Chat. A tela de Perfil está sobrecarregada servindo de depósito de links.\n**O que você deve fazer:**"
+      }, {
+        "text": "\n1. **Dashboard Ativo (Cockpit):** Refatore o dashboard inicial do Profissional para priorizar ações"
+      }, {
+        "text": ". O topo da tela deve mostrar \"Pedidos que exigem ação\" e \"Agenda do dia\".\n2. **"
+      }, {
+        "text": "Conexão de Fluxo:** Implemente continuidade visual e lógica: Quando um profissional aceita um \"Pedido\", deve"
+      }, {
+        "text": " haver um botão imediato de \"Ir para Agenda\" ou \"Abrir Chat com Cliente\". \n3. **Limpeza"
+      }, {
+        "text": " do Perfil \u0026 Logout:** Retire o botão de Logout e as configurações gerais do meio do Perfil. Crie uma seção"
+      }, {
+        "text": " clara de \"Configurações\" separada por: Dados Pessoais, Conta, Plano, Ajuda e um"
+      }, {
+        "text": " botão isolado e claro para Logout.\n\n### FRENTE 4: Descoberta e Regras do Chat\n"
+      }, {
+        "text": "**Problema atual:** O chat é restrito a vínculos prévios (agendamentos), mas a interface não deixa"
+      }, {
+        "text": " isso claro e faltam atalhos para acessá-lo.\n**O que você deve fazer:**\n1. Ad"
+      }, {
+        "text": "icione botões de \"Abrir Chat\" diretamente nos cards de Agendamentos (tanto para o Cliente quanto para o Profiss"
+      }, {
+        "text": "ional).\n2. Se o chat estiver bloqueado (por falta de vínculo/agendamento), mostre o"
+      }, {
+        "text": " botão desabilitado com um tooltip ou microcopy claro explicando a regra: \"O chat será liberado após a confirmação do ag"
+      }, {
+        "text": "endamento\".\n\n---\n\n### INSTRUÇÕES DE FORMATAÇÃO E REGRAS DE EXECUÇÃO:\n"
+      }, {
+        "text": "- Utilize os componentes de UI já existentes no projeto (Tailwind/shadcn ou a biblioteca padrão que estamos usando) para manter a"
+      }, {
+        "text": " consistência visual.\n- Mantenha a rota `/auth/callback` intacta, ela gerencia o estado da sessão per"
+      }, {
+        "text": "feitamente.\n- O código gerado deve ser modular, limpo e devidamente comentado.\n\n### REFOCO"
+      }, {
+        "text": " DA TAREFA:\nPara evitar falhas na arquitetura, quero que você aplique a técnica de raciocínio lógico"
+      }, {
+        "text": ". Antes de escrever o código das telas, escreva \"Let\u0027s think step-by-step\" e descre"
+      }, {
+        "text": "va brevemente como você vai estruturar a árvore de componentes para resolver os problemas citados. \n\nApós a explicação lógica"
+      }, {
+        "text": ", forneça os códigos atualizados para as principais telas afetadas (Welcome, Home Cliente, Dashboard Profissional e a nova"
+      }, {
+        "text": " estrutura de Navegação/Logout).\n\nResponda em formato Markdown, estruturando os arquivos de código claramente: "
+      }, {
+        "text": "```tsx\n```\n\n### POR QUE ESTE PROMPT FUNCIONA NO LOVABLE:\n\n1. **Role Prompting"
+      }, {
+        "text": ":** Define que a IA não é apenas um \"gerador de código\", mas um \"Especialista em UX\", forçando-"
+      }, {
+        "text": "a a tomar decisões de design baseadas nas melhores práticas.\n2. **Divisão de Trabalho (Divide Labor):"
+      }, {
+        "text": "** O Lovable se perde se você pedir \"arrume meu app inteiro\". Dividir em 4 frentes (On"
+      }, {
+        "text": "boarding, Cliente, Profissional, Chat) cria um escopo delimitado e fácil de processar.\n3."
+      }, {
+        "text": " **Instruções Positivas (Give Direction):** Em vez de dizer \"o dashboard tá ruim\", o prompt diz exatamente o"
+      }, {
+        "text": " que colocar lá (\"Pedidos que exigem ação\" e \"Agenda do dia\").\n4. **Step-by-Step (Co"
+      }, {
+        "text": "T) + Inception:** Obriga o Lovable a planejar a arquitetura mentalmente antes de cuspir o código,"
+      }, {
+        "text": " garantindo que ele não vai quebrar suas rotas atuais (que o feedback disse que estão boas).\n5."
+      }, {
+        "text": " **Prevenção da Arma de Chekhov:** O prompt isola a rota `/auth/callback`, avisando para"
+      }, {
+        "text": " a IA *não mexer* nela, evitando que ela tente refatorar o que já está funcionando."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-22T01:02:29.117Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

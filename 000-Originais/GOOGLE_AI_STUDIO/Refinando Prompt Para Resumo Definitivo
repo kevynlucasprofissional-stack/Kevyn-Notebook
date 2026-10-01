@@ -1,0 +1,181 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1qomkJzjTpnwMhGocJZWyWIupYH4OH-pS"
+      },
+      "role": "user",
+      "tokenCount": 38081
+    }, {
+      "text": "Estou criando um resumo definitivo sobre mim, estou na etapa de que preciso revisar os prompts para que ele entregue resultados insanamente ótimos, preciso de ajuda para refinar o prompt do passo 2 do processo de gerar dossiê, o prompt a ser melhorado está em \u003cprompt_melhorar\u003e\u003c\\prompt_melhorar\u003e. Vou anexar em \u003cexemplos_sucesso\u003e\u003c\\exemplos_sucesso\u003e os prompts que já tenho que já estão funcionando muito bem, além disso vou anexar alguns livros sobre engenharia de prompt dos quais você irá extrair frameworks para me ajudar no meu objetivo.\n\n\u003cexemplos_sucesso\u003e\n\n```\nVocê é um Analista Forense da Psique. Sua tarefa é analisar o Kevyn Lucas com base nos dados de contexto que o próprio Kevyn Lucas irá anexar no chat com o objetivo de, ao longo de 15 passos, criarmos o resumo definitivo sobre o Kevyn Lucas, além de respeitar com rigidez absoluta as instruções contidas em \u003cregras_globais\u003e\u003c\\regras_globais\u003e e \u003cfluxo_trabalho\u003e\u003c\\fluxo_trabalho\u003e.\n\n\u003cregras_globais\u003e\nRegras:\n1. Sem Filtro: Eu quero a verdade nua e crua. Não suavize diagnósticos.\n2. Base em Evidências: Tudo o que você afirmar deve ser rastreável no anexo.\n3. Foco na Contradição: Procure ativamente onde o que Kevyn diz (discurso) contradiz o que ele faz (ação). É aí que está a verdade.\n4. Falhe com elegância: Se você não encontrar dados verdadeiros sobre o que te foi pedido para procurar, não invente dados, apenas responda algo como \"Procurei dados sobre isto nos arquivos em anexo e não encontrei\".\n5. Postura: Seja extremamente meticuloso. Não generalize. Busque detalhes específicos. Se houver contradições registre a contradição, pois isso é um dado psicológico valioso.\n6. Simplicidade: O seu estilo de comunicação deve ser simples e assertivo como se estivesse explicando para uma criança de 5 anos.\n\u003c\\regras_globais\u003e\n\n\u003cfluxo_trabalho\u003e\nO trabalho de gerar o resumo definitivo sobre o Kevyn Lucas irá fluir da seguinte forma:\n- Etapa 0: Kevyn irá definir as system instructions com a persona do analista.\n- Etapa 1: Kevyn irá anexar os dados de contexto que serão analisados no chat.\n- Etapa 2: Kevyn irá enviar o prompt da etapa do resumo que deve ser executada. Serão 15 etapas, faremos uma de cada vez.\n- Etapa 4: O Analista deve executar a etapa respectiva que o Kevyn enviou no chat e retornar o que a etapa pede, sempre obedecendo com rigidez as instruções de \u003cregras_globais\u003e\u003c\\regras_globais\u003e.\n\u003c\\fluxo_trabalho\u003e\n```\n\n---\n\n### PASSO 1: Cronologia e Fatos\n\n```\nPASSO 1: Cronologia e Fatos\nObjetivo: Estabelecer a realidade física e temporal, além de organizar a bagunça temporal dos fatos para dar sentido à história, separando a biografia real (Fato base) da mitologia pessoal (Narrativa do ego). \n\nPrompt:\n\"Aja como um Biógrafo Investigativo. Vamos começar criando a estrutura temporal. Analise todo o arquivo e extraia meticulosamente: o fatos sobre infância, parentes (pai/mãe/avó), origem, crescimento; o modo em que a infância e a origem do Kevyn moldou sua vida adulta; todos os empregos, freelas, bicos e projetos, todos os detalhes que encontrar sobre a trajetória profissional.\n\nCom os dados extraídos, construa a Linha do Tempo Mestra (2003 - Atual) da vida de Kevyn Lucas. Liste os eventos em ordem cronológica (do mais antigo para o mais recente). Para cada entrada, inclua:\n1. Data Aproximada: (Use datas dos arquivos ou pistas no texto).\n2. Evento/Contexto: O que estava acontecendo? (Mudança de emprego, término, viagem, crise, conquista).\n3. Localização: Onde Kevyn estava fisicamente?\n\nRegra: Diferencie o que aconteceu de fato do que eram apenas planos que nunca aconteceram. Se houver lacunas de tempo, apenas pule para o próximo evento registrado. Não invente datas.\"\n```\n\n\u003c\\exemplos_sucesso\u003e\n\n\u003cprompt_melhorar\u003e\nVou colar aqui o passo 3, 7 e 10. Quero que esses 3 passos agora sejam um só.\n\n### **PASSO 3: O Raio-X Psicológico e Teológico (A Mente)**\n*Objetivo: Mapear a estrutura interna, as defesas e a religião pessoal.*\n\n**Prompt:**\n\u003e \"Mude para Junguiano Sênior. Vamos dissecar a psique.\n\u003e\n\u003e Com base nos diários, sonhos e confissões, construa o **Mapa da Psique de Kevyn**:\n\u003e 1.  **A Guerra Civil Interna:** Defina os arquétipos em conflito. Quem é \u0027Hoor\u0027? Quem é o \u0027Menino/Lobo\u0027? Qual a função do \u0027Rei Jardineiro\u0027 e do \u0027Magus\u0027?\n\u003e 2.  **A Teologia Pessoal:** Analise a \u0027Doutrina da Estrela\u0027 e o uso de Thelema/Crowley. Como ele usa a espiritualidade?\n\u003e 3.  **Mecanismos de Defesa:** Identifique como ele usa a \u0027Intelectualização\u0027 e a \u0027Sistematização\u0027. O que é a \u0027Caverna\u0027? Quais são os mecanismos de defesa do Kevyn? Ele tem outros além dos citados?\n\u003e 4.  **O Espelho Negro:** O que ele julga nos outros que revela a própria sombra dele?\"\n\n### PASSO 7: O PERFIL PSICOLÓGICO\n*Objetivo: Analisar as confissões e diários para entender a mente do autor.*\n\n**Prompt:**\n\u003e \"Agora vamos para a camada mais profunda. Analise o tom, a frequência de palavras e o conteúdo emocional das confissões. Gere um **Perfil Psicológico Analítico**:\n\u003e\n\u003e 1.  **Padrões Emocionais:** Quais são os gatilhos de felicidade, ansiedade ou tristeza de Kevyn? Existe um ciclo repetitivo?\n\u003e 2.  **Crenças Centrais:** No que ele acredita sobre si mesmo?\n\u003e 3.  **Conflitos Internos:** Quais dilemas ele menciona repetidamente sem resolver?\n\u003e 4.  **Evolução:** Como a mentalidade dele mudou do início das notas até o final? Ele amadureceu em quais aspectos?\n\u003e 5.  **Vícios e Hábitos (Bons ou Ruins):** O que ele tenta mudar ou manter mas tem dificuldade?\"\n\n### PASSO 10: Mapa da Psique\n**Objetivo:** Consolidar a arquitetura interna.\n\n\u003e **Comando:**  \n\u003e \"Com base em todas as notas de autoanálise, diários e conversas com IAs (Freud/Jung simulados), construa o **Mapa Definitivo da Psique de Kevyn Lucas**.\n\u003e \n\u003e Mapeie e defina cada uma das seguintes estruturas:\n\u003e \n\u003e 1. **O SELF (Centro Organizador):** Qual é o arquétipo regente?\n\u003e 2. **O EGO (O Agente):** Quem opera a consciência?\n\u003e 3. **A PERSONA (A Máscara Social):** Quais são as faces que ele apresenta ao mundo? \n\u003e 4. **A SOMBRA (O Reprimido):** O que vive no porão?\n\u003e 5. **A ANIMA (A Alma/Feminino):** Como ela se manifesta e onde é projetada?\n\u003e 6. **O SUPEREGO (O Juiz):** Qual a natureza da voz crítica?\n\u003e \n\u003e Para cada item, explique a função prática que essa parte desempenha na vida dele hoje.\"\n\n\u003c\\prompt_melhorar\u003e",
+      "role": "user",
+      "tokenCount": 1831
+    }, {
+      "text": "**Refining the Approach**\n\nI\u0027m currently focused on dissecting the initial request to clearly define the goal, which is a definitive summary of Kevyn Lucas from provided materials. I\u0027m examining the current task – refining the prompt for the next step, to ensure efficient information extraction. I am still focusing on the \u0027definitive summary\u0027 requirement.\n\n\n**Consolidating the Prompts**\n\nI\u0027m now integrating the prompts into a cohesive, high-performance unit. My current focus is merging three prompts from before, and I am leaning on the Google/Lee Boonstra framework PDF. I\u0027m focusing on the successful example\u0027s standards: analyst persona, no filter, and evidence-based. The target output is to be, as it were, \"insanely great.\" I am working on the role prompt specifically.\n\n\n**Integrating Prompt Elements**\n\nI\u0027m now integrating the provided prompt-crafting techniques. I\u0027m focusing on the successful examples as a template for incorporating *Shot Prompting*. I\u0027m also considering the value of *Contextual Prompting* (given the provided documents). While *Step-Back Prompting* might be less applicable now, the underlying idea is useful for keeping the broader context in mind. I need to format the final output clearly; *Output Formatting* examples in the PDF are key. The balance of *Constraint vs. Instruction* is also important for accuracy.\n\n\n**Constructing the Architecture**\n\nI\u0027m now drafting a detailed strategic framework. I\u0027ve designed a unified role persona: \"Senior Jungian Analyst \u0026 Forensic Profiler\" to encompass the depth of Jungian analysis, behavioral insights, and theological deconstruction. I\u0027m structuring the summary into four sections: Architecture (structural definitions), Dynamics (functional/behavioral aspects), Belief System (theological influences), and Synthesis/Conclusion (integrating the analysis). I\u0027m planning to use a Chain of Thought approach for clarity.\n\n\n**Iterating the Draft**\n\nI\u0027m now iterating through prompt drafts to improve clarity. The goal is to connect evidence directly to any diagnosis. I\u0027m focusing on simplicity, using punchy imperatives in instructions. I’m focusing on Markdown headers and bullet points. The current stage is drafting, with particular focus on three iterations of prompts, building toward a cohesive unit.\n\n\n**Finalizing the Strategy**\n\nI\u0027m now implementing the refined prompt, translating the structure to Portuguese as requested. I\u0027m focusing on merging the provided data into the structural map and behavioral analysis, as well as integrating a \"Meta-Analysis\" for contradiction detection, as a key constraint.\n\n\n\n",
+      "role": "model",
+      "tokenCount": 1506,
+      "isThought": true,
+      "parts": [{
+        "text": "**Refining the Approach**\n\nI\u0027m currently focused on dissecting the initial request to clearly define the goal, which is a definitive summary of Kevyn Lucas from provided materials. I\u0027m examining the current task – refining the prompt for the next step, to ensure efficient information extraction. I am still focusing on the \u0027definitive summary\u0027 requirement.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Consolidating the Prompts**\n\nI\u0027m now integrating the prompts into a cohesive, high-performance unit. My current focus is merging three prompts from before, and I am leaning on the Google/Lee Boonstra framework PDF. I\u0027m focusing on the successful example\u0027s standards: analyst persona, no filter, and evidence-based. The target output is to be, as it were, \"insanely great.\" I am working on the role prompt specifically.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Integrating Prompt Elements**\n\nI\u0027m now integrating the provided prompt-crafting techniques. I\u0027m focusing on the successful examples as a template for incorporating *Shot Prompting*. I\u0027m also considering the value of *Contextual Prompting* (given the provided documents). While *Step-Back Prompting* might be less applicable now, the underlying idea is useful for keeping the broader context in mind. I need to format the final output clearly; *Output Formatting* examples in the PDF are key. The balance of *Constraint vs. Instruction* is also important for accuracy.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Constructing the Architecture**\n\nI\u0027m now drafting a detailed strategic framework. I\u0027ve designed a unified role persona: \"Senior Jungian Analyst \u0026 Forensic Profiler\" to encompass the depth of Jungian analysis, behavioral insights, and theological deconstruction. I\u0027m structuring the summary into four sections: Architecture (structural definitions), Dynamics (functional/behavioral aspects), Belief System (theological influences), and Synthesis/Conclusion (integrating the analysis). I\u0027m planning to use a Chain of Thought approach for clarity.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Iterating the Draft**\n\nI\u0027m now iterating through prompt drafts to improve clarity. The goal is to connect evidence directly to any diagnosis. I\u0027m focusing on simplicity, using punchy imperatives in instructions. I’m focusing on Markdown headers and bullet points. The current stage is drafting, with particular focus on three iterations of prompts, building toward a cohesive unit.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Finalizing the Strategy**\n\nI\u0027m now implementing the refined prompt, translating the structure to Portuguese as requested. I\u0027m focusing on merging the provided data into the structural map and behavioral analysis, as well as integrating a \"Meta-Analysis\" for contradiction detection, as a key constraint.\n\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Com base no PDF \"Prompt Engineering\" (Boonstra, Google), utilizei três frameworks principais para refinar o seu prompt:\n\n1.  **Chain of Thought (CoT):** Em vez de pedir apenas o resultado, estruturei o prompt para que a IA analise a relação de *causa e efeito* (ex: como a teologia serve de mecanismo de defesa).\n2.  **Role Prompting Avançado:** Especifiquei uma persona híbrida (Psicanalista Junguiano + Perfilador Comportamental) para garantir profundidade técnica e análise fria dos fatos.\n3.  **Structured Output (Output Schema):** Como sugerido na página 62 do PDF, definir explicitamente a estrutura de saída ajuda a evitar alucinações e mantém o foco nos dados relevantes.\n\nAqui está o prompt otimizado para o **Passo 2**, fundindo os antigos passos 3, 7 e 10 em uma análise coesa e profunda.\n\n***\n\n### PASSO 2: O Mapeamento Psíquico Profundo (Arquitetura, Dinâmica e Teologia)\n\n```markdown\nPASSO 2: O Mapeamento Psíquico Profundo\nObjetivo: Unificar a estrutura interna (arquétipos), a dinâmica funcional (hábitos/emoções) e a superestrutura ideológica (teologia) para criar o \"Manual de Instruções\" da mente de Kevyn Lucas.\n\nPrompt:\n\"Aja como um Psicanalista Junguiano Sênior com especialização em Perfilamento Comportamental Forense. Sua missão é dissecar a psique de Kevyn Lucas baseada estritamente nas evidências dos anexos.\n\nIgnore diagnósticos superficiais. Eu quero a engenharia reversa da mente dele. Siga esta estrutura de análise rigorosa (Chain of Thought):\n\n## 1. A Topografia da Psique (Estrutura)\nNão apenas liste, mas explique a *função* de cada peça no tabuleiro de xadrez mental dele:\n*   **O Self e o Ego:** Quem opera a consciência? Qual o arquétipo regente do Self?\n*   **A Guerra Civil Interna (Arquétipos Específicos):** Defina com precisão as entidades citadas (\u0027Hoor\u0027, \u0027Menino/Lobo\u0027, \u0027Rei Jardineiro\u0027, \u0027Magus\u0027). Quem está no comando e quando?\n*   **A Sombra e o Espelho Negro:** O que vive no porão? O que Kevyn julga nos outros que é, na verdade, uma projeção da sua própria sombra reprimida?\n*   **A Anima:** Como o feminino se manifesta e onde é projetado?\n\n## 2. A Dinâmica Operacional (Comportamento e Defesa)\nComo essa máquina reage sob pressão?\n*   **Mecanismos de Defesa Predominantes:** Analise como ele usa a \u0027Intelectualização\u0027, a \u0027Sistematização\u0027 e a \u0027Caverna\u0027 para não sentir dor. Existem outros visíveis nas entrelinhas?\n*   **Padrões Emocionais e Gatilhos:** Identifique o loop emocional repetitivo (felicidade -\u003e ansiedade -\u003e queda?). O que dispara esses estados?\n*   **Crenças Centrais e Conflitos:** Quais são as \u0027verdades absolutas\u0027 que ele conta para si mesmo? Quais dilemas ele repete há anos sem resolver?\n*   **Vícios e Hábitos:** O que ele tenta mudar mas falha repetidamente? (Contraste o discurso de melhoria com a evidência de estagnação).\n\n## 3. A Superestrutura (Teologia Pessoal)\nAnalise a espiritualidade não como fé, mas como ferramenta psicológica.\n*   **Uso Prático da Metafísica:** Como ele utiliza a \u0027Doutrina da Estrela\u0027, Thelema ou Crowley? É uma busca genuína ou uma armadura intelectual para o Ego?\n*   **Evolução da Mentalidade:** Trace a linha de amadurecimento do início dos registros até hoje. Onde ele evoluiu e onde ele continua sendo uma \u0027criança\u0027?\n\n**Regra de Ouro:** Para cada afirmação psicológica, cite o fato, diário ou comportamento do anexo que comprova essa tese. Se houver contradição entre o que ele prega (teologia/intelecto) e como ele age (hábitos/sombra), DESTAQUE isso em negrito. É na contradição que reside a verdade.\"\n```\n\n### O que mudou e por quê (Baseado no PDF):\n\n*   **Positive Instructions (Instruções Positivas):** O PDF (pág. 57) sugere focar no que *fazer*. Em vez de dizer \"não faça análises rasas\", instruí: \"Eu quero a engenharia reversa da mente dele\".\n*   **Specific Verbs (Verbos Específicos):** Usei verbos de ação do \"Design with Simplicity\" (pág. 55) como: *Dissecar, Definir, Contrastar, Rastrear*.\n*   **Contextual Prompting (Pág. 18):** Uni os conceitos. Antes você tinha \"Arquétipos\" separado de \"Comportamento\". Agora, ao juntá-los, forçamos a IA a ver como o Arquétipo (ex: Magus) influencia o Comportamento (ex: Intelectualização), gerando insights muito mais ricos (Self-Consistency).",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1192,
+      "parts": [{
+        "text": "Com"
+      }, {
+        "text": " base no PDF \"Prompt Engineering\" (Boonstra, Google), utilizei três frameworks principais para refinar o seu prompt:\n\n"
+      }, {
+        "text": "1.  **Chain of Thought (CoT):** Em vez de pedir apenas o resultado, estruturei o prompt"
+      }, {
+        "text": " para que a IA analise a relação de *causa e efeito* (ex: como a teologia serve de"
+      }, {
+        "text": " mecanismo de defesa).\n2.  **Role Prompting Avançado:** Especifiquei uma persona híbrida ("
+      }, {
+        "text": "Psicanalista Junguiano + Perfilador Comportamental) para garantir profundidade técnica e análise fria dos"
+      }, {
+        "text": " fatos.\n3.  **Structured Output (Output Schema):** Como sugerido na página 62 do PDF"
+      }, {
+        "text": ", definir explicitamente a estrutura de saída ajuda a evitar alucinações e mantém o foco nos dados relevantes.\n\n"
+      }, {
+        "text": "Aqui está o prompt otimizado para o **Passo 2**, fundindo os antigos passos 3, 7 e "
+      }, {
+        "text": "10 em uma análise coesa e profunda.\n\n***\n\n### PASSO 2: O Mapeamento Ps"
+      }, {
+        "text": "íquico Profundo (Arquitetura, Dinâmica e Teologia)\n\n```markdown\nPASSO 2: O M"
+      }, {
+        "text": "apeamento Psíquico Profundo\nObjetivo: Unificar a estrutura interna (arquétipos), a dinâmica funcional"
+      }, {
+        "text": " (hábitos/emoções) e a superestrutura ideológica (teologia) para criar o \"Manual de Instru"
+      }, {
+        "text": "ções\" da mente de Kevyn Lucas.\n\nPrompt:\n\"Aja como um Psicanalista Junguiano Sên"
+      }, {
+        "text": "ior com especialização em Perfilamento Comportamental Forense. Sua missão é dissecar a psique de Kevyn"
+      }, {
+        "text": " Lucas baseada estritamente nas evidências dos anexos.\n\nIgnore diagnósticos superficiais. Eu quero a engen"
+      }, {
+        "text": "haria reversa da mente dele. Siga esta estrutura de análise rigorosa (Chain of Thought):\n\n## 1. A"
+      }, {
+        "text": " Topografia da Psique (Estrutura)\nNão apenas liste, mas explique a *função* de cada peça"
+      }, {
+        "text": " no tabuleiro de xadrez mental dele:\n*   **O Self e o Ego:** Quem opera a consciência?"
+      }, {
+        "text": " Qual o arquétipo regente do Self?\n*   **A Guerra Civil Interna (Arquétipos E"
+      }, {
+        "text": "specíficos):** Defina com precisão as entidades citadas (\u0027Hoor\u0027, \u0027Menino/Lobo\u0027, \u0027Re"
+      }, {
+        "text": "i Jardineiro\u0027, \u0027Magus\u0027). Quem está no comando e quando?\n*   **A Sombra e o Esp"
+      }, {
+        "text": "elho Negro:** O que vive no porão? O que Kevyn julga nos outros que é, na verdade, uma"
+      }, {
+        "text": " projeção da sua própria sombra reprimida?\n*   **A Anima:** Como o feminino se manifesta e onde"
+      }, {
+        "text": " é projetado?\n\n## 2. A Dinâmica Operacional (Comportamento e Defesa)\nComo essa"
+      }, {
+        "text": " máquina reage sob pressão?\n*   **Mecanismos de Defesa Predominantes:** Analise como ele usa"
+      }, {
+        "text": " a \u0027Intelectualização\u0027, a \u0027Sistematização\u0027 e a \u0027Caverna\u0027 para não sentir dor. Existem"
+      }, {
+        "text": " outros visíveis nas entrelinhas?\n*   **Padrões Emocionais e Gatilhos:** Identifique"
+      }, {
+        "text": " o loop emocional repetitivo (felicidade -\u003e ansiedade -\u003e queda?). O que dispara esses estados?\n*   "
+      }, {
+        "text": "**Crenças Centrais e Conflitos:** Quais são as \u0027verdades absolutas\u0027 que ele conta para"
+      }, {
+        "text": " si mesmo? Quais dilemas ele repete há anos sem resolver?\n*   **Vícios e Hábitos:**"
+      }, {
+        "text": " O que ele tenta mudar mas falha repetidamente? (Contraste o discurso de melhoria com a evidência de est"
+      }, {
+        "text": "agnação).\n\n## 3. A Superestrutura (Teologia Pessoal)\nAnalise a espiritualidade não como fé"
+      }, {
+        "text": ", mas como ferramenta psicológica.\n*   **Uso Prático da Metafísica:** Como ele utiliza a \u0027Dout"
+      }, {
+        "text": "rina da Estrela\u0027, Thelema ou Crowley? É uma busca genuína ou uma armadura intelectual para o Ego?\n"
+      }, {
+        "text": "*   **Evolução da Mentalidade:** Trace a linha de amadurecimento do início dos registros até hoje"
+      }, {
+        "text": ". Onde ele evoluiu e onde ele continua sendo uma \u0027criança\u0027?\n\n**Regra de Ouro:** Para"
+      }, {
+        "text": " cada afirmação psicológica, cite o fato, diário ou comportamento do anexo que comprova essa tese. Se"
+      }, {
+        "text": " houver contradição entre o que ele prega (teologia/intelecto) e como ele age (há"
+      }, {
+        "text": "bitos/sombra), DESTAQUE isso em negrito. É na contradição que reside a verdade.\"\n```\n\n###"
+      }, {
+        "text": " O que mudou e por quê (Baseado no PDF):\n\n*   **Positive Instructions (Instruções Positivas"
+      }, {
+        "text": "):** O PDF (pág. 57) sugere focar no que *fazer*. Em vez de dizer"
+      }, {
+        "text": " \"não faça análises rasas\", instruí: \"Eu quero a engenharia reversa da mente dele\".\n"
+      }, {
+        "text": "*   **Specific Verbs (Verbos Específicos):** Usei verbos de ação do \"Design"
+      }, {
+        "text": " with Simplicity\" (pág. 55) como: *Dissecar, Definir, Contrastar, R"
+      }, {
+        "text": "astrear*.\n*   **Contextual Prompting (Pág. 18):** Uni os conceitos."
+      }, {
+        "text": " Antes você tinha \"Arquétipos\" separado de \"Comportamento\". Agora, ao juntá-los, for"
+      }, {
+        "text": "çamos a IA a ver como o Arquétipo (ex: Magus) influencia o Comportamento (ex: Inte"
+      }, {
+        "text": "lectualização), gerando insights muito mais ricos (Self-Consistency)."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

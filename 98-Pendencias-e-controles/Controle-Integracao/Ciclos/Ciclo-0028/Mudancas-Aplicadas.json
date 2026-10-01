@@ -1,0 +1,81 @@
+﻿[
+    {
+        "mudanca_id":  "MUD-000098",
+        "caminho":  [
+                        "09-Fontes-e-Evidencias\\Fonte - Estrategia de criacao e agentes IA 2025.md"
+                    ],
+        "operacao":  "criar",
+        "motivo":  "registrar lote de estrategia de criacao e agentes IA em nota-fonte agregada",
+        "fontes":  [
+                       "SRC-000108",
+                       "SRC-000109",
+                       "SRC-000110"
+                   ],
+        "hash_anterior":  "",
+        "hash_posterior":  "c2f276b1a2d3448f67f62a463995ffe97a6255637b62eef96fe61d474f0ba840",
+        "validacao":  "nota_fonte_criada_com_limites_de_inferencia_e_hashes_reais"
+    },
+    {
+        "mudanca_id":  "MUD-000099",
+        "caminho":  [
+                        "08-Estudos-e-Referencias\\Tecnologia IA e automacao.md"
+                    ],
+        "operacao":  "ampliar",
+        "motivo":  "integrar pesquisa de personality AI e conceito do agente Esbelta",
+        "fontes":  [
+                       "SRC-000108",
+                       "SRC-000110"
+                   ],
+        "hash_anterior":  "74145df72809d4c8ff953ee8846b011898531a421fe0d768c489b8ef7d114744",
+        "hash_posterior":  "dfce30eb596aa5bd61256d2bddbe969bf3e20438f85bc9668dce842c68166a95",
+        "validacao":  "pesquisa_e_conceito_de_agente_registrados_sem_provar_produto"
+    },
+    {
+        "mudanca_id":  "MUD-000100",
+        "caminho":  [
+                        "04-Trabalho-Vocacao-e-Projetos\\Hoor Digital.md"
+                    ],
+        "operacao":  "ampliar",
+        "motivo":  "registrar arquitetura editorial do perfil profissional",
+        "fontes":  [
+                       "SRC-000109"
+                   ],
+        "hash_anterior":  "59d958da6f781ded7f5e499b61c23d8bb515273b2c370fcadf7af9e626857e9a",
+        "hash_posterior":  "59b9730adad7804e2af4fe2079263fc22c24a1fae068d47036e4ac3e25c8f84f",
+        "validacao":  "posicionamento_pretendido_distinto_de_operacao_real"
+    },
+    {
+        "mudanca_id":  "MUD-000101",
+        "caminho":  [
+                        "04-Trabalho-Vocacao-e-Projetos\\Execucao versus complexidade.md"
+                    ],
+        "operacao":  "ampliar",
+        "motivo":  "registrar formulacao direta de fazer como criterio de sabedoria",
+        "fontes":  [
+                       "SRC-000109"
+                   ],
+        "hash_anterior":  "b56a38667714360d3d36d4726976d8393b8fd67cad316f4fc4afdb5f8592287f",
+        "hash_posterior":  "0c7880fdbd04dc3fe03f2faf58a02c57edd36cd7244b3c89b88cb63e8ccafa1f",
+        "validacao":  "padrao_de_meta_trabalho_refinado_por_auto_orientacao_explicita"
+    },
+    {
+        "mudanca_id":  "MUD-000102",
+        "caminho":  [
+                        "95-Auditorias/Estado da integracao.md",
+                        "Controle-Integracao/Manifesto-Fontes.csv",
+                        "Controle-Integracao/Matriz-Cobertura.csv",
+                        "Controle-Integracao/Estado-Integracao.json",
+                        "Controle-Integracao/Registro-de-Decisoes.md",
+                        "Controle-Integracao/Relatorio-Acumulado.md"
+                    ],
+        "operacao":  "atualizar",
+        "motivo":  "sincronizar estado, cobertura e decisao do ciclo",
+        "fontes":  [
+                       "UNI-000064",
+                       "UNI-000065"
+                   ],
+        "hash_anterior":  "multiplos",
+        "hash_posterior":  "multiplos",
+        "validacao":  "saldo_parcial_reduzido_para_1156_e_proximo_item_SRC-000111"
+    }
+]

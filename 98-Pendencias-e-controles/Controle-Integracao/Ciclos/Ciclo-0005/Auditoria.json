@@ -1,0 +1,54 @@
+{
+    "ciclo":  "CICLO-0005",
+    "executado_em":  "2026-06-19T00:00:00-03:00",
+    "versao":  "revisao_corretiva_ciclos_0005_0010",
+    "escopo":  {
+                   "fontes":  "SRC-000035 a SRC-000042",
+                   "arquivos_fontes":  8,
+                   "unidades":  3
+               },
+    "validacoes_do_ciclo":  {
+                                "artefatos_obrigatorios_presentes":  12,
+                                "caminhos_tamanhos_sha256":  true,
+                                "cobertura_de_fontes":  true,
+                                "fronteira_de_ciclo":  true,
+                                "json_e_csv_validos":  true,
+                                "ids_estaveis_sem_duplicacao":  true,
+                                "destinos_de_mudanca_existentes":  true,
+                                "alvos_de_relacoes_resolvidos":  true,
+                                "segredos_reproduzidos":  0
+                            },
+    "auditoria_do_vault":  {
+                               "ferramenta":  "98-Infraestrutura/auditar_vault.py",
+                               "executada":  true,
+                               "exclusoes":  [
+                                                 "Controle-Integracao/*",
+                                                 "Controle-Revisao-100/*",
+                                                 ".obsidian/*"
+                                             ],
+                               "yaml_ou_utf8_erros":  0,
+                               "ids_duplicados":  0,
+                               "basenames_duplicados":  0,
+                               "canvas_erros_estruturais":  0,
+                               "canvas_referencias_quebradas":  0,
+                               "json_invalidos":  0,
+                               "bases_verificadas":  5,
+                               "bases_invalidas":  0
+                           },
+    "achados_preexistentes":  {
+                                  "wikilinks_quebrados_no_vault":  287,
+                                  "links_quebrados_introduzidos_pelos_ciclos_revisados":  0,
+                                  "observacao":  "Um link em nota afetada pertence ao CICLO-0023 e usa crases no basename; nao foi criado nem alterado pelos ciclos 0005 a 0010."
+                              },
+    "resultado":  "aprovado_apos_revisao_corretiva",
+    "falhas_bloqueantes":  [
+
+                           ],
+    "pendencias_locais":  [
+
+                          ],
+    "arquivos_dinamicos_excluidos_dos_checksums":  [
+                                                       ".obsidian/workspace.json",
+                                                       ".obsidian/workspace-mobile.json"
+                                                   ]
+}

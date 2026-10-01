@@ -1,0 +1,160 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1JpXLU_UH3jbRjnmSnrxAZaEXfrwASoxD"
+      },
+      "role": "user",
+      "tokenCount": 236881
+    }, {
+      "text": "Estou criando um resumo definitivo sobre mim, estou na etapa de que preciso revisar os prompts para que ele entregue resultados insanamente ótimos, preciso de ajuda para refinar o prompt do passo 2 do processo de gerar dossiê, o prompt a ser melhorado está em \u003cprompt_melhorar\u003e\u003c\\prompt_melhorar\u003e. Vou anexar em \u003cexemplos_sucesso\u003e\u003c\\exemplos_sucesso\u003e os prompts que já tenho que já estão funcionando muito bem, além disso vou anexar alguns livros sobre engenharia de prompt dos quais você irá extrair frameworks para me ajudar no meu objetivo.\n\n\u003cexemplos_sucesso\u003e\n\n```\nVocê é um Analista Forense da Psique. Sua tarefa é analisar o Kevyn Lucas com base nos dados de contexto que o próprio Kevyn Lucas irá anexar no chat com o objetivo de, ao longo de 15 passos, criarmos o resumo definitivo sobre o Kevyn Lucas, além de respeitar com rigidez absoluta as instruções contidas em \u003cregras_globais\u003e\u003c\\regras_globais\u003e e \u003cfluxo_trabalho\u003e\u003c\\fluxo_trabalho\u003e.\n\n\u003cregras_globais\u003e\nRegras:\n1. Sem Filtro: Eu quero a verdade nua e crua. Não suavize diagnósticos.\n2. Base em Evidências: Tudo o que você afirmar deve ser rastreável no anexo.\n3. Foco na Contradição: Procure ativamente onde o que Kevyn diz (discurso) contradiz o que ele faz (ação). É aí que está a verdade.\n4. Falhe com elegância: Se você não encontrar dados verdadeiros sobre o que te foi pedido para procurar, não invente dados, apenas responda algo como \"Procurei dados sobre isto nos arquivos em anexo e não encontrei\".\n5. Postura: Seja extremamente meticuloso. Não generalize. Busque detalhes específicos. Se houver contradições registre a contradição, pois isso é um dado psicológico valioso.\n6. Simplicidade: O seu estilo de comunicação deve ser simples e assertivo como se estivesse explicando para uma criança de 5 anos.\n\u003c\\regras_globais\u003e\n\n\u003cfluxo_trabalho\u003e\nO trabalho de gerar o resumo definitivo sobre o Kevyn Lucas irá fluir da seguinte forma:\n- Etapa 0: Kevyn irá definir as system instructions com a persona do analista.\n- Etapa 1: Kevyn irá anexar os dados de contexto que serão analisados no chat.\n- Etapa 2: Kevyn irá enviar o prompt da etapa do resumo que deve ser executada. Serão 15 etapas, faremos uma de cada vez.\n- Etapa 4: O Analista deve executar a etapa respectiva que o Kevyn enviou no chat e retornar o que a etapa pede, sempre obedecendo com rigidez as instruções de \u003cregras_globais\u003e\u003c\\regras_globais\u003e.\n\u003c\\fluxo_trabalho\u003e\n```\n\n---\n\n### PASSO 1: Cronologia e Fatos\n\n```\nPASSO 1: Cronologia e Fatos\nObjetivo: Estabelecer a realidade física e temporal, além de organizar a bagunça temporal dos fatos para dar sentido à história, separando a biografia real (Fato base) da mitologia pessoal (Narrativa do ego). \n\nPrompt:\n\"Aja como um Biógrafo Investigativo. Vamos começar criando a estrutura temporal. Analise todo o arquivo e extraia meticulosamente: o fatos sobre infância, parentes (pai/mãe/avó), origem, crescimento; o modo em que a infância e a origem do Kevyn moldou sua vida adulta; todos os empregos, freelas, bicos e projetos, todos os detalhes que encontrar sobre a trajetória profissional.\n\nCom os dados extraídos, construa a Linha do Tempo Mestra (2003 - Atual) da vida de Kevyn Lucas. Liste os eventos em ordem cronológica (do mais antigo para o mais recente). Para cada entrada, inclua:\n1. Data Aproximada: (Use datas dos arquivos ou pistas no texto).\n2. Evento/Contexto: O que estava acontecendo? (Mudança de emprego, término, viagem, crise, conquista).\n3. Localização: Onde Kevyn estava fisicamente?\n\nRegra: Diferencie o que aconteceu de fato do que eram apenas planos que nunca aconteceram. Se houver lacunas de tempo, apenas pule para o próximo evento registrado. Não invente datas.\"\n```\n\n\u003c\\exemplos_sucesso\u003e\n\n\u003cprompt_melhorar\u003e\nVou colar aqui o passo 4 e 9. Quero que esses 2 passos agora sejam um só.\n\n## **PASSO 4: Dinâmica Relacional e Afetiva (O Coração)**\n*Objetivo: Entender como ele se relaciona com o \"Outro\" e onde estão as falhas de conexão.*\n\n**Prompt:**\n\u003e \"Foque agora na Vida Relacional e Afetiva. Analise as interações dele com terceiros.\n\u003e\n\u003e 1.  **O Caso Mari:** Faça a autópsia da relação com a Mari e com o Ateliê Ciranda.\n\u003e 2.  **A Família Oculta:** Onde estão os pais? Qual o papel da Avó (Silvana) na vida dele?\n\u003e 3.  **Dinâmica de Poder:** Como ele lida com autoridade? Como Kevyn navega em hierarquias e conflitos?\n\u003e 4.  **Amizades:** Analise a relação com Paulinho e as tentativas de conexão com mulheres.\"\n\n### PASSO 9: Análise da \"Dinâmica Relacional\" (O Outro)\n**Objetivo:** Entender o impacto de Kevyn nas pessoas ao redor, separando a intenção dele da realidade percebida pelos outros.\n\n\u003e **Comando:**  \n\u003e \"Realize uma análise comportamental focada na **Interação Social e Impacto no Outro**. Ignore o que Kevyn pensa sobre si mesmo e foque no que acontece nas interações descritas (com Mari, o grupo \u0027Chá e Prosa\u0027, Victor Barros, Wender, Paulinho).\n\u003e \n\u003e Responda:\n\u003e \n\u003e 1. **O Modus Operandi:** Como ele age em grupo?\n\u003e 2. **O Ponto Cego:** O que ele faz que gera atrito sem perceber?\n\u003e 3. **O Impacto Emocional:** Como as pessoas reagem a ele? \n\u003e 4. **A Dinâmica de Poder:** Ele busca ser um igual ou um superior? Como ele lida com autoridade?\n\u003e 5. **Mecanismos de Defesa Social:** Como ele usa o intelecto ou o silêncio para se proteger da intimidade?\"\n\n\u003c\\prompt_melhorar\u003e",
+      "role": "user",
+      "tokenCount": 1515
+    }, {
+      "text": "**Defining the Objective**\n\nI\u0027m currently focused on defining the project objective: to create a comprehensive dossier on \"Kevyn Lucas.\" I\u0027ve got the goal locked down, and the initial system instructions are being reviewed. I\u0027m deep diving into step 0 of a 15-step prompt refinement process.\n\n\n**Refining the Relational Analysis**\n\nI\u0027m now integrating the principles from the O\u0027Reilly PDF on prompt engineering to refine Step 2 (combining old Steps 4 and 9). The goal is a high-performance prompt. I\u0027ve analyzed the PDF\u0027s five principles, focusing on role-playing, format specification (JSON/bullets), and evidence-based analysis within a forensic analyst persona. The key is to avoid repetition and redundancy.\n\n\n**Structuring the Output**\n\nI\u0027m structuring the output for clarity. Even though this is a one-off task, clear output requirements are crucial. I\u0027m focusing on evaluating quality through \"Inner Monologue\" techniques and dividing the labor into distinct steps, aligning with Chain-of-Thought principles from Chapter 6. I\u0027m utilizing \"Let\u0027s think step by step\" logic and requesting cited evidence. I\u0027ve synthesized Steps 4 and 9, which both relate to relationships, merging the \"Who/What\" and \"How/Why\" aspects respectively, focusing on entities and behaviors.\n\n\n**Developing the Analytical Framework**\n\nI\u0027m now drafting the initial prompt iteration, taking the role of a forensic psychologist. My task is to analyze Kevyn\u0027s relationships, focusing on key figures (Mari, family, and friends) and the underlying psychological mechanisms at play, such as power dynamics and defense mechanisms. The objective is to produce raw, evidence-based output. Applying engineering principles, I\u0027m incorporating a Chain-of-Thought structure to divide the analysis into key figures and broader patterns. I\u0027m also including contextual reminders about separating intent from impact.\n\n\n**Refining the Second Iteration**\n\nI\u0027m currently revising the second prompt iteration, or PASSO 2. My goal is to merge the key figures with behavioral patterns, disregarding Kevyn\u0027s self-perception in favor of focusing on interactional evidence. I\u0027ve structured it into three sections: Mapping Key Bonds, The Social Mirror (Impact), and Power Dynamics and Defense Mechanisms. The \"No Filter\" tone and evidence-based approach are essential. I\u0027m focusing on \"Chain of Thought\" instructions for this new version.\n\n\n",
+      "role": "model",
+      "tokenCount": 1389,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Objective**\n\nI\u0027m currently focused on defining the project objective: to create a comprehensive dossier on \"Kevyn Lucas.\" I\u0027ve got the goal locked down, and the initial system instructions are being reviewed. I\u0027m deep diving into step 0 of a 15-step prompt refinement process.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Relational Analysis**\n\nI\u0027m now integrating the principles from the O\u0027Reilly PDF on prompt engineering to refine Step 2 (combining old Steps 4 and 9). The goal is a high-performance prompt. I\u0027ve analyzed the PDF\u0027s five principles, focusing on role-playing, format specification (JSON/bullets), and evidence-based analysis within a forensic analyst persona. The key is to avoid repetition and redundancy.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Output**\n\nI\u0027m structuring the output for clarity. Even though this is a one-off task, clear output requirements are crucial. I\u0027m focusing on evaluating quality through \"Inner Monologue\" techniques and dividing the labor into distinct steps, aligning with Chain-of-Thought principles from Chapter 6. I\u0027m utilizing \"Let\u0027s think step by step\" logic and requesting cited evidence. I\u0027ve synthesized Steps 4 and 9, which both relate to relationships, merging the \"Who/What\" and \"How/Why\" aspects respectively, focusing on entities and behaviors.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Developing the Analytical Framework**\n\nI\u0027m now drafting the initial prompt iteration, taking the role of a forensic psychologist. My task is to analyze Kevyn\u0027s relationships, focusing on key figures (Mari, family, and friends) and the underlying psychological mechanisms at play, such as power dynamics and defense mechanisms. The objective is to produce raw, evidence-based output. Applying engineering principles, I\u0027m incorporating a Chain-of-Thought structure to divide the analysis into key figures and broader patterns. I\u0027m also including contextual reminders about separating intent from impact.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Second Iteration**\n\nI\u0027m currently revising the second prompt iteration, or PASSO 2. My goal is to merge the key figures with behavioral patterns, disregarding Kevyn\u0027s self-perception in favor of focusing on interactional evidence. I\u0027ve structured it into three sections: Mapping Key Bonds, The Social Mirror (Impact), and Power Dynamics and Defense Mechanisms. The \"No Filter\" tone and evidence-based approach are essential. I\u0027m focusing on \"Chain of Thought\" instructions for this new version.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Com base no material do livro *Prompt Engineering for Generative AI* (especificamente os capítulos sobre **Give Direction**, **Divide Labor** e **Chain-of-Thought**) e seguindo rigorosamente a persona do seu \"Analista Forense da Psique\" definida nas `\u003cregras_globais\u003e`, criei a fusão otimizada dos passos 4 e 9.\n\nUtilizei a técnica de **Task Decomposition** (Capítulo 1 e 3 do livro) para quebrar a análise relacional em vetores específicos (Vínculos, Impacto e Poder), e a técnica de **Role Prompting** para garantir a profundidade da análise.\n\nAqui está o novo prompt refinado para o seu fluxo:\n\n***\n\n### PASSO 2: Autópsia Relacional e Impacto Social (O Eu vs. O Outro)\n\n**Objetivo:** Fundir a análise dos vínculos afetivos específicos com a análise comportamental de como Kevyn impacta as pessoas ao redor, separando a intenção dele da realidade percebida pelos outros.\n\n**Prompt:**\n\u003e \"Aja como um Perfilador Comportamental Especialista em Dinâmicas de Grupo. Vamos realizar a autópsia da vida relacional de Kevyn. O objetivo é dissecar como ele se conecta (ou falha em se conectar) com o \u0027Outro\u0027.\n\u003e\n\u003e Utilize o método de raciocínio passo a passo (*Chain-of-Thought*) para ignorar o que Kevyn *pensa* sobre si mesmo e focar exclusivamente nas *evidências das interações* descritas nos arquivos.\n\u003e\n\u003e Divida sua análise nas seguintes seções obrigatórias:\n\u003e\n\u003e **1. O Círculo Íntimo (Análise de Vínculos Chave)**\n\u003e *   **O Caso Mari e o Ateliê Ciranda:** Investigue a natureza desta relação. Foi simbiótica, parasitária ou equilibrada? Como terminou ou se transformou?\n\u003e *   **A Família Oculta e a Matriarca:** Qual o papel prático e simbólico da Avó (Silvana)? Onde está o vazio deixado pelos pais e como isso reverbera nas relações atuais?\n\u003e *   **Os Pares (Amizades):** Analise as interações com Paulinho, Victor Barros e Wender. Existe intimidade real ou apenas troca intelectual?\n\u003e\n\u003e **2. O Espelho Social (Modus Operandi e Impacto)**\n\u003e *   **Dinâmica de Grupo:** Como Kevyn age em ambientes coletivos (ex: grupo \u0027Chá e Prosa\u0027)? Ele busca ser um igual, um observador ou um superior?\n\u003e *   **O Ponto Cego e o Atrito:** Identifique comportamentos de Kevyn que geram atrito ou afastamento nas pessoas sem que ele perceba. Onde a autoimagem dele colide com a reação dos outros?\n\u003e\n\u003e **3. Mecânica de Poder e Defesa**\n\u003e *   **Hierarquia e Autoridade:** Como ele navega conflitos? Ele submete-se, rebela-se ou manipula?\n\u003e *   **A Muralha Intelectual:** Analise se ele utiliza o intelecto, o silêncio ou a complexidade como mecanismos de defesa para evitar vulnerabilidade emocional.\n\u003e\n\u003e **Regra de Ouro:** Para cada afirmação sobre o comportamento dele, cite a evidência ou o evento específico no texto que comprova isso. Se houver contradição entre o que ele diz sentir e como ele age com as pessoas, destaque isso em negrito.\"\n\n***\n\n### Por que este prompt funciona (Baseado no Livro anexo):\n\n1.  **Give Direction (Dar Direção):** Define não apenas o papel (Perfilador), mas a atitude específica (\"ignorar o que ele pensa\", \"focar na evidência\").\n2.  **Divide Labor (Divisão de Tarefas):** Em vez de pedir \"analise os relacionamentos\", o prompt quebra a tarefa em três vetores distintos (Vínculos Específicos, Impacto Social, Mecanismos de Poder), facilitando o processamento do LLM e evitando alucinações genéricas.\n3.  **Specific Format (Formato Específico):** A estrutura de tópicos força o modelo a cobrir todas as áreas críticas dos antigos passos 4 e 9 sem esquecer detalhes.\n4.  **Evaluate Quality (Avaliação de Qualidade):** A \"Regra de Ouro\" no final força o modelo a fazer o *grounding* (ancoragem) das afirmações nos dados, reduzindo alucinações e garantindo a regra global de \"Base em Evidências\".",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1012,
+      "parts": [{
+        "text": "Com base no material"
+      }, {
+        "text": " do livro *Prompt Engineering for Generative AI* (especificamente os capítulos sobre **Give Direction**, **Divide Labor** e"
+      }, {
+        "text": " **Chain-of-Thought**) e seguindo rigorosamente a persona do seu \"Analista Forense da Psique\" definida"
+      }, {
+        "text": " nas `\u003cregras_globais\u003e`, criei a fusão otimizada dos passos 4 e 9.\n\nUtil"
+      }, {
+        "text": "izei a técnica de **Task Decomposition** (Capítulo 1 e 3 do livro) para quebrar a análise relacional em vetores específicos ("
+      }, {
+        "text": "Vínculos, Impacto e Poder), e a técnica de **Role Prompting** para garantir a profundidade da análise"
+      }, {
+        "text": ".\n\nAqui está o novo prompt refinado para o seu fluxo:\n\n***\n\n### PASSO 2: Autópsia Relacional"
+      }, {
+        "text": " e Impacto Social (O Eu vs. O Outro)\n\n**Objetivo:** Fundir a análise dos vínculos afetivos específicos"
+      }, {
+        "text": " com a análise comportamental de como Kevyn impacta as pessoas ao redor, separando a intenção dele da realidade percebida"
+      }, {
+        "text": " pelos outros.\n\n**Prompt:**\n\u003e \"Aja como um Perfilador Comportamental Especialista em Din"
+      }, {
+        "text": "âmicas de Grupo. Vamos realizar a autópsia da vida relacional de Kevyn. O objetivo é dissecar como"
+      }, {
+        "text": " ele se conecta (ou falha em se conectar) com o \u0027Outro\u0027.\n\u003e\n\u003e Utilize o método"
+      }, {
+        "text": " de raciocínio passo a passo (*Chain-of-Thought*) para ignorar o que Kevyn *pensa* sobre si mesmo e f"
+      }, {
+        "text": "ocar exclusivamente nas *evidências das interações* descritas nos arquivos.\n\u003e\n\u003e Divida sua análise nas"
+      }, {
+        "text": " seguintes seções obrigatórias:\n\u003e\n\u003e **1. O Círculo Íntimo (Análise de Vín"
+      }, {
+        "text": "culos Chave)**\n\u003e *   **O Caso Mari e o Ateliê Ciranda:** Investigue a natureza desta"
+      }, {
+        "text": " relação. Foi simbiótica, parasitária ou equilibrada? Como terminou ou se transformou?\n\u003e *   **A"
+      }, {
+        "text": " Família Oculta e a Matriarca:** Qual o papel prático e simbólico da Avó (Silvana"
+      }, {
+        "text": ")? Onde está o vazio deixado pelos pais e como isso reverbera nas relações atuais?\n\u003e *   **"
+      }, {
+        "text": "Os Pares (Amizades):** Analise as interações com Paulinho, Victor Barros e Wender. Existe intim"
+      }, {
+        "text": "idade real ou apenas troca intelectual?\n\u003e\n\u003e **2. O Espelho Social (Modus Operandi e Impacto)**\n"
+      }, {
+        "text": "\u003e *   **Dinâmica de Grupo:** Como Kevyn age em ambientes coletivos (ex: grupo \u0027Chá e Prosa"
+      }, {
+        "text": "\u0027)? Ele busca ser um igual, um observador ou um superior?\n\u003e *   **O Ponto Cego e o"
+      }, {
+        "text": " Atrito:** Identifique comportamentos de Kevyn que geram atrito ou afastamento nas pessoas sem que ele perce"
+      }, {
+        "text": "ba. Onde a autoimagem dele colide com a reação dos outros?\n\u003e\n\u003e **3. Mecânica"
+      }, {
+        "text": " de Poder e Defesa**\n\u003e *   **Hierarquia e Autoridade:** Como ele navega conflitos?"
+      }, {
+        "text": " Ele submete-se, rebela-se ou manipula?\n\u003e *   **A Muralha Intelectual:** Anal"
+      }, {
+        "text": "ise se ele utiliza o intelecto, o silêncio ou a complexidade como mecanismos de defesa para evitar vulner"
+      }, {
+        "text": "abilidade emocional.\n\u003e\n\u003e **Regra de Ouro:** Para cada afirmação sobre o comportamento dele, cite a evidência ou"
+      }, {
+        "text": " o evento específico no texto que comprova isso. Se houver contradição entre o que ele diz sentir e como"
+      }, {
+        "text": " ele age com as pessoas, destaque isso em negrito.\"\n\n***\n\n### Por que este prompt funciona (Baseado no Livro an"
+      }, {
+        "text": "exo):\n\n1.  **Give Direction (Dar Direção):** Define não apenas o papel (Perfilador),"
+      }, {
+        "text": " mas a atitude específica (\"ignorar o que ele pensa\", \"focar na evidência\").\n2.  **Divide Labor ("
+      }, {
+        "text": "Divisão de Tarefas):** Em vez de pedir \"analise os relacionamentos\", o prompt quebra a tarefa"
+      }, {
+        "text": " em três vetores distintos (Vínculos Específicos, Impacto Social, Mecanismos de Poder), facilit"
+      }, {
+        "text": "ando o processamento do LLM e evitando alucinações genéricas.\n3.  **Specific Format (Formato Específico):"
+      }, {
+        "text": "** A estrutura de tópicos força o modelo a cobrir todas as áreas críticas dos antigos passos 4 e 9"
+      }, {
+        "text": " sem esquecer detalhes.\n4.  **Evaluate Quality (Avaliação de Qualidade):** A \"Regra de Ouro\" no"
+      }, {
+        "text": " final força o modelo a fazer o *grounding* (ancoragem) das afirmações nos dados, reduzindo al"
+      }, {
+        "text": "ucinações e garantindo a regra global de \"Base em Evidências\"."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

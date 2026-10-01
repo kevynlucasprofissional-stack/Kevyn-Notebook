@@ -1,0 +1,1 @@
+Octane é um bom renderizador. Dá para fazer efeitos facilmente com configurações nativas.

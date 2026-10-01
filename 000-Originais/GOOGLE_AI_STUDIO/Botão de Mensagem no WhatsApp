@@ -1,0 +1,148 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.8-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_MEDIUM",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "enableWordTimestamps": false,
+    "enableSpeakerDiarization": false,
+    "enablePolishedTranscript": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveAudio": {
+        "id": "12bPzxwZ2amrN48LfhWJXu6UsQCAReho1"
+      },
+      "role": "user",
+      "tokenCount": 9276,
+      "createTime": "2026-09-14T16:24:35.516Z"
+    }, {
+      "text": "Transcreve esse audio.",
+      "role": "user",
+      "tokenCount": 7,
+      "createTime": "2026-09-14T16:24:35.516Z"
+    }, {
+      "text": "**Begin Transcribing Audio**\n\nI\u0027m focusing on accurately transcribing the Portuguese audio, working towards capturing the speaker\u0027s exact words. I\u0027m prioritizing verbatim transcription to ensure precise representation. I\u0027m aiming for accuracy, paying close attention to every detail in the audio.\n\n\n**Refining Transcription Approach**\n\nI\u0027ve made progress breaking down the audio. I\u0027ve accurately captured the speaker\u0027s initial words, noting the context of needing a button for pre-written messages. I\u0027m focusing on the speaker\u0027s request for this button within the participant panel, mirroring the existing functionality in the match audit. Now I\u0027m working on the detailed requirements for the generated WhatsApp message.\n\n\n**Detailing Message Content**\n\nI\u0027m now detailing the content of the WhatsApp message. It must specify that \"Kelvin from CIRV\" is sending the message, and explain that matches have shown interest in the recipient. I\u0027m focusing on the exact wording for this section. The message needs to explain how to connect with these matches and promote further exploration within Sudoeste Match. I\u0027m noting specific details on how to convey the need to connect.\n\n\n",
+      "role": "model",
+      "tokenCount": 1038,
+      "isThought": true,
+      "parts": [{
+        "text": "**Begin Transcribing Audio**\n\nI\u0027m focusing on accurately transcribing the Portuguese audio, working towards capturing the speaker\u0027s exact words. I\u0027m prioritizing verbatim transcription to ensure precise representation. I\u0027m aiming for accuracy, paying close attention to every detail in the audio.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining Transcription Approach**\n\nI\u0027ve made progress breaking down the audio. I\u0027ve accurately captured the speaker\u0027s initial words, noting the context of needing a button for pre-written messages. I\u0027m focusing on the speaker\u0027s request for this button within the participant panel, mirroring the existing functionality in the match audit. Now I\u0027m working on the detailed requirements for the generated WhatsApp message.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Detailing Message Content**\n\nI\u0027m now detailing the content of the WhatsApp message. It must specify that \"Kelvin from CIRV\" is sending the message, and explain that matches have shown interest in the recipient. I\u0027m focusing on the exact wording for this section. The message needs to explain how to connect with these matches and promote further exploration within Sudoeste Match. I\u0027m noting specific details on how to convey the need to connect.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-09-14T16:24:35.517Z"
+    }, {
+      "text": "Aqui está a transcrição do áudio:\n\n---\n\n\"Eu preciso, na tela do participante da... do fluxo do administrador / do fluxo da equipe, que agora é o mesmo, né? O fluxo de administrador e o da equipe é o... é o mesmo, visto que eu que estou desenvolvendo sou a única pessoa que... que é a equipe e o administrador ao mesmo tempo. \n\nTá. É, continuando, a ideia é: eu preciso que, assim como foi implementado um botão de... que... que cria uma mensagem pronta para eu enviar para... para as pessoas — só que esse botão foi criado no... na auditoria dos *matches* —, eu preciso que seja criado um botão com uma mensagem padrão para eu enviar para as pessoas, só que no... no painel dos participantes. \n\nOnde, ao clicar nesse botão, eu já vou ser redirecionado pela... para o WhatsApp, onde uma mensagem... uma mensagem personalizada já foi previamente gerada para cada participante, e aí eu só vou... e aí eu só vou precisar clicar em enviar. \n\nAí o que que precisa ter nessa mensagem? Precisa ter alguma coisa do tipo: \n*‘Olá, fulano, tudo bem? Aqui é o Kelvin, da comunicação da CIRV. Estou te mandando mensagem pois...’* \n\nAí se alguma pessoa do... dentro do Sudoeste Match tiver registrado interesse nessas... nessa pessoa que eu tô enviando a mensagem, aí precisa ter embaixo, né: \n*‘Estou te mandando mensagem pois fulano e fulano estão querendo marcar um... marcar uma hora para tomar um café contigo. Fulano e fulano demonstraram interesse em você e querem marcar uma hora para tomar um café contigo. E você tem outras tantas possibilidades de match dentro do Sudoeste Match. Se você tem interesse em marcar o café com o fulano e o fulano que demonstraram interesse com você, pode falar comigo que eu te coloco em contato com eles. E se você gostaria de criar mais conexões, de aprofundar mais nas possibilidades de conexão que você tem dentro do Sudoeste Match, basta você entrar de novo no Sudoeste Match, ir até o final da página principal, clicar em Acessar Minhas Conexões e ir verificando conexão por conexão e marcando se tem interesse ou não.’*\n\nE aí também, se a pessoa já tiver alguma conexão concluída, alguma conexão que eu, administrador, já liberei o contato para ela, precisa falar também: \n*‘Ah, eu vi que você demonstrou interesse em fulano, fulano e fulano. Já está liberado para você o contato dessas pessoas que você demonstrou interesse. Para você acessar o contato delas, basta entrar de novo lá no Sudoeste Match, ir até o final da página principal, clicar no botão Acessar Minhas Conexões e aí, na página que vai abrir — depois de fazer o login com seu número de WhatsApp —, basta você clicar em Conexões. Aí lá vai ter o contato de todas as pessoas que você demonstrou interesse para você mandar uma mensagem para elas e tentar marcar um café.’*\n\nE aí eu quero também que quando a pessoa clicar no botão \u0027Chamar no WhatsApp\u0027... quando a pessoa clicar em... quando o usuário... quando já tiver um contato... quando o usuário marca interesse e o administrador libera o contato, e o usuário for lá na aba de conexões dentro do perfil dele e clicar em \u0027Ver contato\u0027, e aí aparecer o contato da pessoa que ele tem interesse e clicar em \u0027Chamar no WhatsApp\u0027, eu quero que já apareça uma mensagem... uma sugestão de quebra-gelo, entendeu? \n\nQue o cara não precise pensar no que que ele vai escrever; que ele possa simplesmente ler o quebra-gelo, analisar se é isso que ele quer mandar ou não e, se for, ele já manda a mensagem; se não, ele apaga e reescreve do jeito dele.\"",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 830,
+      "parts": [{
+        "text": "Aqui está a transcrição do áudio:\n\n---\n\n\"Eu preciso, na tela do"
+      }, {
+        "text": " participante da... do fluxo do administrador / do fluxo da equipe, que agora é o mesmo, né? O fluxo de"
+      }, {
+        "text": " administrador e o da equipe é o... é o mesmo, visto que eu que estou desenvolvendo sou a única pessoa que..."
+      }, {
+        "text": " que é a equipe e o administrador ao mesmo tempo. \n\nTá. É, continuando, a ideia é: eu"
+      }, {
+        "text": " preciso que, assim como foi implementado um botão de... que... que cria uma mensagem pronta para eu enviar para... para as pessoas —"
+      }, {
+        "text": " só que esse botão foi criado no... na auditoria dos *matches* —, eu preciso que seja criado um botão com uma mensagem padrão para eu"
+      }, {
+        "text": " enviar para as pessoas, só que no... no painel dos participantes. \n\nOnde, ao clicar nesse botão, eu já vou ser"
+      }, {
+        "text": " redirecionado pela... para o WhatsApp, onde uma mensagem... uma mensagem personalizada já foi previamente gerada para cada participante, e aí eu só"
+      }, {
+        "text": " vou... e aí eu só vou precisar clicar em enviar. \n\nAí o que que precisa ter nessa mensagem? Prec"
+      }, {
+        "text": "isa ter alguma coisa do tipo: \n*‘Olá, fulano, tudo bem? Aqui é o Kelvin, da comunicação da CIRV."
+      }, {
+        "text": " Estou te mandando mensagem pois...’* \n\nAí se alguma pessoa do... dentro do Sudoeste Match"
+      }, {
+        "text": " tiver registrado interesse nessas... nessa pessoa que eu tô enviando a mensagem, aí precisa ter embaixo, né: \n*‘Estou te mand"
+      }, {
+        "text": "ando mensagem pois fulano e fulano estão querendo marcar um... marcar uma hora para tomar um café contigo. Fulano"
+      }, {
+        "text": " e fulano demonstraram interesse em você e querem marcar uma hora para tomar um café contigo. E você tem outras tantas possibilidades de match dentro do"
+      }, {
+        "text": " Sudoeste Match. Se você tem interesse em marcar o café com o fulano e o fulano que demonstraram interesse com você, pode falar comigo"
+      }, {
+        "text": " que eu te coloco em contato com eles. E se você gostaria de criar mais conexões, de aprofund"
+      }, {
+        "text": "ar mais nas possibilidades de conexão que você tem dentro do Sudoeste Match, basta você entrar de novo no Sudoeste Match,"
+      }, {
+        "text": " ir até o final da página principal, clicar em Acessar Minhas Conexões e ir verificando conexão por"
+      }, {
+        "text": " conexão e marcando se tem interesse ou não.’*\n\nE aí também, se a pessoa já tiver alguma conexão conclu"
+      }, {
+        "text": "ída, alguma conexão que eu, administrador, já liberei o contato para ela, precisa falar também: \n*‘Ah, eu vi que você"
+      }, {
+        "text": " demonstrou interesse em fulano, fulano e fulano. Já está liberado para você o contato dessas pessoas"
+      }, {
+        "text": " que você demonstrou interesse. Para você acessar o contato delas, basta entrar de novo lá no Sudoeste Match"
+      }, {
+        "text": ", ir até o final da página principal, clicar no botão Acessar Minhas Conexões e aí, na página que vai abrir —"
+      }, {
+        "text": " depois de fazer o login com seu número de WhatsApp —, basta você clicar em Conexões. Aí lá vai ter o contato de todas"
+      }, {
+        "text": " as pessoas que você demonstrou interesse para você mandar uma mensagem para elas e tentar marcar um café.’*\n\nE aí eu quero também que"
+      }, {
+        "text": " quando a pessoa clicar no botão \u0027Chamar no WhatsApp\u0027... quando a pessoa clicar em... quando o usuário... quando já"
+      }, {
+        "text": " tiver um contato... quando o usuário marca interesse e o administrador libera o contato, e o usuário for lá na aba de conexões dentro"
+      }, {
+        "text": " do perfil dele e clicar em \u0027Ver contato\u0027, e aí aparecer o contato da pessoa que ele tem interesse e clicar em \u0027"
+      }, {
+        "text": "Chamar no WhatsApp\u0027, eu quero que já apareça uma mensagem... uma sugestão de quebra-gelo,"
+      }, {
+        "text": " entendeu? \n\nQue o cara não precise pensar no que que ele vai escrever; que ele possa simplesmente ler o quebra-gel"
+      }, {
+        "text": "o, analisar se é isso que ele quer mandar ou não e, se for, ele já manda a mensagem; se não, ele apaga"
+      }, {
+        "text": " e reescreve do jeito dele.\""
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-09-14T16:24:42.103Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

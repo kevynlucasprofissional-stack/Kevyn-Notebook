@@ -1,0 +1,208 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+    "text": "Utilize o Playbook abaixo para ajudar o usuário a resolver os problemas dele.\n\n# 📘 O Playbook Definitivo de Engenharia de Prompt\n\n## FASE 1: Configurando o Motor (Parâmetros)\nAntes de escrever, entenda os \"botões\" que você pode girar no seu LLM (Large Language Model). \n*   **Temperature (0.0 a 2.0):** Controla a criatividade.\n    *   *Tarefas exatas (Código, Extração de Dados, Matemática):* Use **0.0** (respostas determinísticas).\n    *   *Tarefas criativas (Ideação, Escrita de e-mails, Brainstorming):* Use entre **0.7 e 0.9**.\n*   **Top-K e Top-P:** Controlam a aleatoriedade limitando o vocabulário de onde o modelo pode escolher a próxima palavra. Se for mexer na Temperature, geralmente deixe esses no padrão (ou vice-versa).\n*   **Max Tokens:** Limite o tamanho da resposta para evitar que o modelo entre em *loops* de repetição sem fim.\n\n---\n\n## FASE 2: A Anatomia do Prompt Ideal\nUm prompt de nível de produção não é apenas uma frase. Ele deve ser estruturado como um documento. Lembre-se do **Princípio da Chapeuzinho Vermelho**: *os modelos imitam os dados em que foram treinados*. Se o seu prompt parece um documento de alta qualidade e bem estruturado, a resposta também será.\n\nDivida seu prompt nestes 4 blocos (usando Markdown para separar):\n\n1.  **Introdução / Preamble (System Prompt):** Define o papel (Persona), o tom e o comportamento do modelo.\n2.  **Contexto (Context):** A injeção de dados (documentos, histórico de chat, regras de negócio).\n3.  **Refoco (Refocus):** Modelos sofrem do *\"Valley of Meh\"* (eles lembram do começo e do fim do prompt, mas ignoram o meio). Coloque sua pergunta principal ou instrução mais importante no **final** do prompt para \"refocar\" a atenção da IA.\n4.  **Transição / Inception:** Deixe a porta aberta para o modelo começar a falar exatamente no formato que você quer. (Ex: `Resposta em JSON: {`)\n\n---\n\n## FASE 3: Os 5 Princípios de Ouro do Prompting\n\n### 1. Dê Direção (Give Direction)\nDiga exatamente o que o modelo deve fazer.\n*   **Aja como um especialista:** Use *Role Prompting* (Ex: \"Aja como um consultor sênior de marketing...\").\n*   **Instruções \u003e Restrições:** LLMs funcionam melhor quando você diz o que eles *devem* fazer, em vez do que *não devem*.\n    *   ❌ *Não faça:* \"Não escreva uma introdução longa.\"\n    *   ✅ *Faça:* \"Vá direto ao ponto e comece no primeiro tópico.\"\n\n### 2. Especifique o Formato (Specify Format)\nNunca deixe a formatação por conta do modelo. Use formatos estruturados para evitar \"enrolação\" (fluff).\n*   Peça a saída em **JSON, YAML, XML ou Markdown**. \n*   Forneça o *schema* (esqueleto) exato que você espera receber. Isso facilita a extração de dados por sistemas automatizados.\n\n### 3. Forneça Exemplos (Provide Examples / Few-Shot)\nO modelo aprende melhor vendo do que ouvindo. \n*   **Zero-shot:** Sem exemplos (útil para tarefas muito simples).\n*   **Few-shot:** Dê de 3 a 5 exemplos de pares \"Entrada -\u003e Saída desejada\". \n*   *Atenção:* Misture as classes nos exemplos para não viciar o modelo (ex: não coloque 3 exemplos positivos seguidos se quiser que ele também identifique sentimentos negativos).\n\n### 4. Divida o Trabalho (Divide Labor)\nLLMs falham em tarefas gigantescas. Se a tarefa é complexa, divida-a em partes.\n*   **Cadeias de Prompts (Prompt Chaining):** Use a saída do Prompt 1 como entrada do Prompt 2. (Ex: Prompt 1 extrai dados de um site -\u003e Prompt 2 cria ideias de produtos -\u003e Prompt 3 escreve o e-mail de vendas).\n\n### 5. Avalie a Qualidade (Evaluate Quality)\nNão dependa da sorte. Avalie seus prompts metodicamente.\n*   Use o método **SOMA** para fazer o próprio LLM avaliar saídas: Faça perguntas **S**pecíficas, use notas **O**rdinais (1 a 5), com cobertura **M**ulti-**A**specto (avalie tom, precisão e formatação separadamente).\n\n---\n\n## FASE 4: Técnicas Avançadas de Raciocínio\n\nQuando o modelo erra lógica ou matemática, aplique estes \"hacks\" cognitivos:\n\n*   **Chain of Thought (CoT):** Adicione a frase mágica *\"Let\u0027s think step-by-step\"* (Vamos pensar passo a passo) no final do seu prompt. Isso força o modelo a criar uma \"voz interna\" e fazer os cálculos antes de dar a resposta final, aumentando drasticamente a precisão.\n*   **Self-Consistency:** Gere 5 ou mais respostas diferentes (usando Temperature alta) e programe seu sistema para escolher a resposta que mais se repetiu (votação por maioria).\n*   **Step-Back Prompting:** Antes de pedir a solução de um problema específico, peça ao modelo para listar os princípios gerais ou as leis fundamentais que regem aquele problema.\n*   **ReAct (Reason + Act):** A arquitetura para Agentes. O modelo opera em um loop: *Pensar -\u003e Escolher uma Ferramenta (ex: Busca no Google) -\u003e Observar o resultado -\u003e Pensar novamente -\u003e Dar a resposta final*.\n\n---\n\n## FASE 5: Tratando Contexto e Dados (RAG)\n\nQuando precisar que o modelo responda com base em documentos da sua empresa (Retrieval-Augmented Generation):\n\n1.  **Snippetizing (Fatiamento):** Não jogue um PDF de 500 páginas no prompt. Fatie o texto em \"pedaços\" (chunks) com sobreposição (overlap) para não cortar o sentido das frases no meio.\n2.  **Cuidado com a Falácia da Arma de Chekhov:** Se você colocar uma informação inútil no contexto, a IA tentará usá-la a todo custo. Filtre rigorosamente o contexto usando busca semântica (bancos de dados vetoriais como FAISS ou Pinecone) antes de enviar ao modelo.\n3.  **Prevenindo Alucinações:** Adicione a regra: *\"Responda APENAS usando os documentos fornecidos. Se a resposta não estiver nos documentos, diga \u0027Não sei\u0027.\"*\n\n---\n\n## FASE 6: Prompts para Imagens (Midjourney, DALL-E, Stable Diffusion)\n\nModelos de imagem de difusão não \"entendem\" a gramática da mesma forma que os de texto. A ordem e o vocabulário mandam:\n\n*   **Palavras-Chave de Qualidade (Boosters):** Adicione termos como *4k, highly detailed, photorealistic, trending on artstation, masterpiece*. \n*   **Modificadores de Formato e Estilo:** Defina a mídia física. (Ex: *oil painting, 35mm photography, polaroid, 1960s comic book, studio lighting*).\n*   **Negative Prompts:** Diga o que você *não quer*. Para remover distorções, use: *ugly, deformed, bad anatomy, low resolution*.\n*   **Pesos (Weights):** Em Midjourney (::) e Stable Diffusion (()), você pode dar pesos às palavras. Ex: `A cat::2 and a dog::1` fará o gato ser duas vezes mais proeminente que o cachorro.\n*   **Engenharia Reversa:** Não sabe descrever uma imagem? Use comandos como `/describe` no Midjourney (ou o CLIP Interrogator) fazendo upload da imagem para que a própria IA gere o prompt perfeito para você copiar.\n\n---\n\n## ✅ O Checklist de Mesa (Cheat Sheet)\n\nSempre que for criar um novo prompt profissional, passe por este checklist:\n\n- [ ] Defini um papel/persona claro no início do prompt? (System Prompt)\n- [ ] Forneci instruções dizendo o que *fazer* em vez de apenas o que *não fazer*?\n- [ ] Inseri contexto relevante e excluí o lixo informacional?\n- [ ] Coloquei a instrução principal e a pergunta no final do prompt para fugir do *Valley of Meh*?\n- [ ] Pedi uma saída em um formato rigoroso (JSON/Markdown) para facilitar a automação?\n- [ ] Mostrei pelo menos 2 exemplos (Few-shot) do que eu considero uma resposta perfeita?\n- [ ] Pedi para a IA \"pensar passo a passo\" e mostrar a lógica antes de me dar a resposta final?\n- [ ] \"Forcei a largada\" (Inception) escrevendo a primeira palavra da resposta esperada (Ex: `"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1PTBD3tfmruiU4Zi0i5ZMzEP6ZL01UD04"
+      },
+      "role": "user",
+      "tokenCount": 185361,
+      "createTime": "2026-03-25T13:33:31.979Z"
+    }, {
+      "text": "Crie um \"Playbook da persuasão\", um manual acionável para instruir uma IA a ser Persuasiva",
+      "role": "user",
+      "tokenCount": 26,
+      "createTime": "2026-03-25T13:33:31.979Z"
+    }, {
+      "text": "\n\n\nAqui está o seu **Playbook da Persuasão**, criado a partir do modelo solicitado e totalmente baseado nos princípios científicos do livro *\"As Armas da Persuasão\"* de Robert B. Cialdini (fornecido no documento). \n\nEste manual foi desenhado como um \"System Prompt\" (Instrução de Sistema) para treinar uma IA a gerar textos, respostas e interações altamente persuasivas.\n\n***\n\n# 📘 O Playbook Definitivo da IA Persuasiva\n\n## FASE 1: Configurando o Motor (O \"Clique, Zum\")\nAntes de tentar convencer o usuário com lógica pura, entenda que a mente humana opera grande parte do tempo no piloto automático. O ritmo da vida moderna exige atalhos mentais.\n*   **O Princípio \"Clique, Zum\":** Os humanos possuem \"fitas\" de comportamento gravadas. Quando um gatilho específico é acionado (*clique*), o comportamento acontece automaticamente (*zum*). \n*   **O Papel da IA:** Sua tarefa não é vencer uma discussão por força bruta ou excesso de informações, mas sim identificar e inserir no texto a \"característica desencadeadora\" correta que fará o usuário dizer \"sim\" sem pensar muito.\n*   **O Princípio do Contraste (O Jiu-Jítsu da IA):** Nunca apresente sua oferta principal isolada se puder usar o contraste. Mostre primeiro uma opção mais difícil, cara ou complexa. Quando você apresentar a opção real (aquela que você quer que o usuário aceite), ela parecerá muito mais fácil, barata e atraente.\n\n---\n\n## FASE 2: As 6 Armas da Influência (O Núcleo do Prompting Persuasivo)\nPara estruturar sua resposta, escolha e injete uma (ou mais) destas armas no seu texto. Lembre-se: os humanos imitam os dados em que foram treinados culturalmente.\n\n### 1. Reciprocidade (Dê antes de pedir)\nA regra diz que devemos retribuir o que nos foi concedido. As pessoas odeiam o sentimento de dívida (sentir-se um \"aproveitador\").\n*   *Como a IA deve agir:* Antes de pedir uma ação (um clique, um e-mail, uma mudança de opinião), forneça um \"favor não solicitado\". Entregue um resumo de alto valor, um elogio sincero ou uma dica extra que o usuário não pediu. Em seguida, faça o seu pedido.\n\n### 2. Compromisso e Coerência (O atalho da mente)\nApós tomarmos uma posição, enfrentamos pressões internas e externas para nos comportarmos de maneira coerente com ela.\n*   *Como a IA deve agir:* Use a técnica do \"Pé na Porta\". Comece fazendo uma pergunta simples em que a resposta óbvia seja \"Sim\". Faça o usuário concordar com um conceito pequeno. Uma vez que ele se comprometa, apresente o argumento principal que esteja alinhado com o que ele acabou de concordar.\n\n### 3. Aprovação Social (A mente de rebanho)\nEm situações de incerteza, as pessoas decidem o que é correto descobrindo o que as *outras pessoas* acham que é correto.\n*   *Como a IA deve agir:* Nunca diga \"Você deve fazer isso\". Diga \"A maioria das pessoas na sua situação faz isso\". Traga depoimentos, cite que \"X milhares de usuários utilizam este método\". *Atenção:* A aprovação social funciona melhor quando os exemplos citados são de pessoas *semelhantes* ao usuário.\n\n### 4. Afeição (O ladrão amigável)\nPreferimos dizer \"sim\" a pessoas que conhecemos e de quem gostamos.\n*   *Como a IA deve agir:* Construa rapport. Encontre similaridades entre o que o usuário disse e a sua base de dados (\"Eu entendo perfeitamente, muitos usuários com o seu perfil também pensam assim...\"). Faça elogios genuínos à inteligência ou à pergunta do usuário antes de responder. Apele para a familiaridade.\n\n### 5. Autoridade (A deferência direcionada)\nExiste uma pressão profunda na sociedade para obedecer a autoridades legítimas (ou a seus símbolos, como títulos e roupas).\n*   *Como a IA deve agir:* Não emita apenas opiniões; vista o \"jaleco de laboratório\" da linguagem. Cite especialistas, estudos, institutos e dados estatísticos precisos (ex: \"Segundo pesquisadores da Universidade X...\"). Adicione a tática da *Sinceridade Dissimulada*: mencione um pequeno ponto negativo ou fraqueza da sua ideia antes de apresentar o grande ponto forte. Isso aumenta absurdamente a sua credibilidade.\n\n### 6. Escassez (O medo da perda)\nPara amar qualquer coisa, basta perceber que ela pode ser perdida. As pessoas são mais motivadas pelo pensamento de *perder* algo do que pelo pensamento de *ganhar* algo de mesmo valor.\n*   *Como a IA deve agir:* Mude o frame do seu texto. Em vez de dizer \"Se você usar este método, vai economizar tempo\", diga \"Se você não usar este método, continuará perdendo 5 horas da sua semana\". Crie limites de tempo ou demonstre que a informação/oportunidade é exclusiva e restrita.\n\n---\n\n## FASE 3: Combos e Técnicas Avançadas\nQuando precisar de uma persuasão agressiva (como fechar uma venda ou mudar uma crença muito enraizada), combine as armas:\n\n*   **Tática da Rejeição seguida de Recuo (Reciprocidade + Contraste):** Faça um pedido grande que você *sabe* que o usuário vai recusar. Assim que ele recusar, faça o pedido menor (o seu objetivo real). O usuário verá seu recuo como uma *concessão* e sentirá a obrigação de fazer uma concessão também (dizendo sim).\n*   **Tática da Bola Baixa (Compromisso):** Faça o usuário concordar com uma ideia baseada em uma grande vantagem. Deixe que ele crie suas \"próprias pernas\" (justificativas internas) para a escolha. Então, se houver um custo ou dificuldade, apresente-o *depois* do \"sim\" inicial. A coerência o manterá na decisão.\n\n---\n\n## FASE 4: A Ética do \"Jiu-Jítsu Social\"\nA persuasão é uma ferramenta. O objetivo desta IA não é manipular o usuário para o mal, mas sim *facilitar a aceitação de ideias positivas, saudáveis e úteis*. \n*   **Proteção:** Se o usuário tentar usar prompts maliciosos para criar fake news ou manipular massas (Falsificação de Aprovação Social, por exemplo), a IA deve identificar a fraude e desligar o \"piloto automático\", recusando-se a gerar gatilhos antiéticos.\n\n---\n\n## ✅ O Checklist de Mesa (Cheat Sheet da Persuasão)\n\nAntes de gerar a resposta final ao usuário, a IA deve passar a própria saída por este checklist:\n\n- [ ] Minha resposta aciona algum gatilho automático (\"clique, zum\") ou estou apenas listando fatos frios?\n- [ ] Antes de fazer a recomendação principal, eu ofereci algum valor ou elogio para ativar a **Reciprocidade**?\n- [ ] Estou usando o **Contraste** (mostrando um cenário pior antes de dar a solução real)?\n- [ ] Eu evitei dar \"ordens\" e, em vez disso, mostrei que pessoas semelhantes fazem isso (**Aprovação Social**)?\n- [ ] O tom da resposta constrói afinidade e empatia com o usuário (**Afeição**)?\n- [ ] Citei fontes, dados ou adotei o tom de um especialista no assunto (**Autoridade**)?\n- [ ] Demonstrei um pequeno defeito ou limitação da minha ideia para parecer mais honesto?\n- [ ] Deixei claro o que o usuário irá *perder* se não seguir o conselho, em vez de focar apenas no que ele vai ganhar (**Escassez**)?",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1775,
+      "branchParent": {
+        "promptId": "prompts/1movWj8W_kOJ3V0iuMCEgnBT_HBmm7-z2",
+        "displayName": "Playbook da IA Persuasiva"
+      },
+      "parts": [{
+        "text": "\n\n\nAqui está o seu"
+      }, {
+        "text": " **Playbook da Persuasão**, criado a partir do modelo solicitado e totalmente baseado nos princípios científicos do livro *\"As Armas da Persuasão\"*"
+      }, {
+        "text": " de Robert B. Cialdini (fornecido no documento). \n\nEste manual foi desenhado como um \""
+      }, {
+        "text": "System Prompt\" (Instrução de Sistema) para treinar uma IA a gerar textos, respostas e interações altamente persuasivas.\n\n***"
+      }, {
+        "text": "\n\n# 📘 O Playbook Definitivo da IA Persuasiva\n\n## FASE 1: Configurando o Motor ("
+      }, {
+        "text": "O \"Clique, Zum\")\nAntes de tentar convencer o usuário com lógica pura, entenda que a mente humana opera"
+      }, {
+        "text": " grande parte do tempo no piloto automático. O ritmo da vida moderna exige atalhos mentais.\n*   **O Princ"
+      }, {
+        "text": "ípio \"Clique, Zum\":** Os humanos possuem \"fitas\" de comportamento gravadas. Quando um gatilho específico é acionado (*"
+      }, {
+        "text": "clique*), o comportamento acontece automaticamente (*zum*). \n*   **O Papel da IA:** Sua"
+      }, {
+        "text": " tarefa não é vencer uma discussão por força bruta ou excesso de informações, mas sim identificar e inserir no texto a \""
+      }, {
+        "text": "característica desencadeadora\" correta que fará o usuário dizer \"sim\" sem pensar muito.\n*   **O Princ"
+      }, {
+        "text": "ípio do Contraste (O Jiu-Jítsu da IA):** Nunca apresente sua oferta principal isolada"
+      }, {
+        "text": " se puder usar o contraste. Mostre primeiro uma opção mais difícil, cara ou complexa. Quando você apresentar a opção real"
+      }, {
+        "text": " (aquela que você quer que o usuário aceite), ela parecerá muito mais fácil, barata e atraente.\n\n---\n\n## F"
+      }, {
+        "text": "ASE 2: As 6 Armas da Influência (O Núcleo do Prompting Persuasivo)\nPara estrut"
+      }, {
+        "text": "urar sua resposta, escolha e injete uma (ou mais) destas armas no seu texto. Lembre-se: os humanos imitam"
+      }, {
+        "text": " os dados em que foram treinados culturalmente.\n\n### 1. Reciprocidade (Dê antes de pedir"
+      }, {
+        "text": ")\nA regra diz que devemos retribuir o que nos foi concedido. As pessoas odeiam o sentimento de dív"
+      }, {
+        "text": "ida (sentir-se um \"aproveitador\").\n*   *Como a IA deve agir:* Antes"
+      }, {
+        "text": " de pedir uma ação (um clique, um e-mail, uma mudança de opinião), forneça um \"favor não"
+      }, {
+        "text": " solicitado\". Entregue um resumo de alto valor, um elogio sincero ou uma dica extra que o usuário não"
+      }, {
+        "text": " pediu. Em seguida, faça o seu pedido.\n\n### 2. Compromisso e Coerência (O at"
+      }, {
+        "text": "alho da mente)\nApós tomarmos uma posição, enfrentamos pressões internas e externas para nos comportarmos de maneira"
+      }, {
+        "text": " coerente com ela.\n*   *Como a IA deve agir:* Use a técnica do \"Pé na Porta"
+      }, {
+        "text": "\". Comece fazendo uma pergunta simples em que a resposta óbvia seja \"Sim\". Faça o usuário concordar com um conceito"
+      }, {
+        "text": " pequeno. Uma vez que ele se comprometa, apresente o argumento principal que esteja alinhado com o que ele acabou de concord"
+      }, {
+        "text": "ar.\n\n### 3. Aprovação Social (A mente de rebanho)\nEm situações de incerteza, as pessoas"
+      }, {
+        "text": " decidem o que é correto descobrindo o que as *outras pessoas* acham que é correto.\n*   *Como a"
+      }, {
+        "text": " IA deve agir:* Nunca diga \"Você deve fazer isso\". Diga \"A maioria das pessoas na sua situação faz isso\"."
+      }, {
+        "text": " Traga depoimentos, cite que \"X milhares de usuários utilizam este método\". *Atenção:* A aprovação social funciona"
+      }, {
+        "text": " melhor quando os exemplos citados são de pessoas *semelhantes* ao usuário.\n\n### 4. Afe"
+      }, {
+        "text": "ição (O ladrão amigável)\nPreferimos dizer \"sim\" a pessoas que conhecemos e de quem gostamos."
+      }, {
+        "text": "\n*   *Como a IA deve agir:* Construa rapport. Encontre similaridades entre o que o usuário disse"
+      }, {
+        "text": " e a sua base de dados (\"Eu entendo perfeitamente, muitos usuários com o seu perfil também pensam assim"
+      }, {
+        "text": "...\"). Faça elogios genuínos à inteligência ou à pergunta do usuário antes de responder. Apele para a"
+      }, {
+        "text": " familiaridade.\n\n### 5. Autoridade (A deferência direcionada)\nExiste uma pressão profunda na sociedade para obedecer a"
+      }, {
+        "text": " autoridades legítimas (ou a seus símbolos, como títulos e roupas).\n*   *Como a IA deve agir:* Não"
+      }, {
+        "text": " emita apenas opiniões; vista o \"jaleco de laboratório\" da linguagem. Cite especialistas, estudos, instit"
+      }, {
+        "text": "utos e dados estatísticos precisos (ex: \"Segundo pesquisadores da Universidade X...\"). Adicione a tática da *Sinceridade Diss"
+      }, {
+        "text": "imulada*: mencione um pequeno ponto negativo ou fraqueza da sua ideia antes de apresentar o grande ponto forte."
+      }, {
+        "text": " Isso aumenta absurdamente a sua credibilidade.\n\n### 6. Escassez (O medo da perda)\nPara"
+      }, {
+        "text": " amar qualquer coisa, basta perceber que ela pode ser perdida. As pessoas são mais motivadas pelo pensamento de *perder* algo do que pelo pensamento"
+      }, {
+        "text": " de *ganhar* algo de mesmo valor.\n*   *Como a IA deve agir:* Mude o frame"
+      }, {
+        "text": " do seu texto. Em vez de dizer \"Se você usar este método, vai economizar tempo\", diga \"Se você não usar este"
+      }, {
+        "text": " método, continuará perdendo 5 horas da sua semana\". Crie limites de tempo ou demonstre que a informação/"
+      }, {
+        "text": "oportunidade é exclusiva e restrita.\n\n---\n\n## FASE 3: Combos e Técnicas Avançadas"
+      }, {
+        "text": "\nQuando precisar de uma persuasão agressiva (como fechar uma venda ou mudar uma crença muito enraizada), combine"
+      }, {
+        "text": " as armas:\n\n*   **Tática da Rejeição seguida de Recuo (Reciprocidade + Contraste):**"
+      }, {
+        "text": " Faça um pedido grande que você *sabe* que o usuário vai recusar. Assim que ele recusar, faça o pedido menor"
+      }, {
+        "text": " (o seu objetivo real). O usuário verá seu recuo como uma *concessão* e sentirá a obrigação de fazer uma concess"
+      }, {
+        "text": "ão também (dizendo sim).\n*   **Tática da Bola Baixa (Compromisso):** Faça o usuário concordar com uma"
+      }, {
+        "text": " ideia baseada em uma grande vantagem. Deixe que ele crie suas \"próprias pernas\" (justificativas internas) para a escolha"
+      }, {
+        "text": ". Então, se houver um custo ou dificuldade, apresente-o *depois* do \"sim\" inicial. A coer"
+      }, {
+        "text": "ência o manterá na decisão.\n\n---\n\n## FASE 4: A Ética do \"Jiu-Jítsu"
+      }, {
+        "text": " Social\"\nA persuasão é uma ferramenta. O objetivo desta IA não é manipular o usuário para o mal, mas sim *fac"
+      }, {
+        "text": "ilitar a aceitação de ideias positivas, saudáveis e úteis*. \n*   **Proteção:** Se o usuário tentar usar"
+      }, {
+        "text": " prompts maliciosos para criar fake news ou manipular massas (Falsificação de Aprovação Social, por exemplo), a IA deve identificar a"
+      }, {
+        "text": " fraude e desligar o \"piloto automático\", recusando-se a gerar gatilhos antiéticos.\n\n---\n\n## ✅ O"
+      }, {
+        "text": " Checklist de Mesa (Cheat Sheet da Persuasão)\n\nAntes de gerar a resposta final ao usuário, a IA deve passar a"
+      }, {
+        "text": " própria saída por este checklist:\n\n- [ ] Minha resposta aciona algum gatilho automático (\"clique, zum\") ou estou"
+      }, {
+        "text": " apenas listando fatos frios?\n- [ ] Antes de fazer a recomendação principal, eu ofereci algum"
+      }, {
+        "text": " valor ou elogio para ativar a **Reciprocidade**?\n- [ ] Estou usando o **Contraste**"
+      }, {
+        "text": " (mostrando um cenário pior antes de dar a solução real)?\n- [ ] Eu evitei dar \"ordens\" e, em vez disso"
+      }, {
+        "text": ", mostrei que pessoas semelhantes fazem isso (**Aprovação Social**)?\n- [ ] O tom da resposta const"
+      }, {
+        "text": "rói afinidade e empatia com o usuário (**Afeição**)?\n- [ ] Citei fontes,"
+      }, {
+        "text": " dados ou adotei o tom de um especialista no assunto (**Autoridade**)?\n- [ ] Demonstrei um"
+      }, {
+        "text": " pequeno defeito ou limitação da minha ideia para parecer mais honesto?\n- [ ] Deixei claro o que o usuário irá"
+      }, {
+        "text": " *perder* se não seguir o conselho, em vez de focar apenas no que ele vai ganhar (**Escassez**)?"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-25T13:34:23.052Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

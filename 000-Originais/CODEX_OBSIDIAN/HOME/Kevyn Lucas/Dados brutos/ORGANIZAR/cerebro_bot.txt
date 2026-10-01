@@ -1,0 +1,35 @@
+[
+  {
+    "id": 101,
+    "projeto": "PL 45/2024",
+    "autor": "Vereador Cláudio Papelada",
+    "categoria": "Urbanismo",
+    "texto_original": "Dispõe sobre a alteração de zoneamento da área central, permitindo a instalação de comércios ambulantes fixos na Praça da Matriz e revoga o inciso II do artigo 4º da Lei de Posturas.",
+    "resumo_ia": "🌮 Food Trucks na Praça: Esse projeto libera barracas de comida fixa na Praça da Matriz. Vai trazer mais vida noturna, mas pode reduzir o espaço para caminhar.",
+    "impacto": "Alto",
+    "imagem_url": "https://source.unsplash.com/random/400x300/?foodtruck",
+    "termometro_votos": { "apoio": 65, "rejeicao": 35 }
+  },
+  {
+    "id": 102,
+    "projeto": "PL 12/2024",
+    "autor": "Vereadora Maria Escola",
+    "categoria": "Educação",
+    "texto_original": "Institui a obrigatoriedade de instalação de detectores de metais nas entradas de todas as escolas da rede municipal de ensino e dispõe sobre a contratação de segurança privada.",
+    "resumo_ia": "🛡️ Segurança nas Escolas: Quer obrigar todas as escolas municipais a terem detector de metais e guarda. Aumenta a segurança, mas vai custar R$ 2 milhões por ano do orçamento.",
+    "impacto": "Muito Alto",
+    "imagem_url": "https://source.unsplash.com/random/400x300/?school",
+    "termometro_votos": { "apoio": 80, "rejeicao": 20 }
+  },
+  {
+    "id": 103,
+    "projeto": "PL 88/2024",
+    "autor": "Prefeitura Municipal",
+    "categoria": "Trânsito",
+    "texto_original": "Altera o sentido de circulação da Rua das Acácias para mão única no sentido Bairro-Centro e proíbe estacionamento no lado par da via.",
+    "resumo_ia": "🚗 Mudança na Rua das Acácias: A rua vai virar mão única (indo para o centro) e não vai mais poder estacionar do lado par. O objetivo é diminuir o trânsito na hora do rush.",
+    "impacto": "Médio",
+    "imagem_url": "https://source.unsplash.com/random/400x300/?traffic",
+    "termometro_votos": { "apoio": 40, "rejeicao": 60 }
+  }
+]

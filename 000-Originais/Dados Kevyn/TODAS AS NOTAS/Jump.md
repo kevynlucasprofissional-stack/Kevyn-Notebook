@@ -1,0 +1,1 @@
+Jump parece a expressão bounce.

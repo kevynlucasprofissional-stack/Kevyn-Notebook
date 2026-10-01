@@ -1,0 +1,56 @@
+---
+id: negocios-e-marketing
+titulo: Negócios e marketing
+tipo: area_estudo
+status: auditado
+profundidade: avancada
+versao_schema: '1.0'
+versao_conteudo: '1.0'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+fontes_primarias:
+- '[[Fonte - 150626 RNIDIQAOUP]]'
+- '[[Fonte - Visao geral consolidada]]'
+- '[[Fonte - Materiais IMRIA e marketing 2025]]'
+- '[[Fonte - Palestra IA e pitches Espaco Prema 2025]]'
+grau_confianca: medio_alto
+sensibilidade: alta
+camada_evidencia: sintese_derivada
+tags:
+- tipo/area_estudo
+- tema/estudos
+- privacidade/restrita
+aliases:
+- Negócios e marketing
+---
+# Negócios e marketing
+
+## Competências registradas
+
+Kevyn trabalha com comunicação, design, vídeo, marketing, relatórios, briefings e desenho de processos. Também formula produtos e modelos de negócio.
+
+## Eixos de estudo
+
+- pesquisa de mercado;
+- proposta de valor;
+- posicionamento;
+- aquisição e retenção;
+- operação e processos;
+- finanças básicas;
+- experimentação;
+- ética de comunicação.
+
+## Critério de aprendizagem
+
+Cada conceito deve ser ligado a uma entrega, análise ou teste. Evitar acumular frameworks sem decisão.
+
+## Evidencia de producao
+
+O lote [[Fonte - Materiais IMRIA e marketing 2025]] mostra aplicacao de principios de copy, funil e oferta em materiais concretos: criativos para oficina de IA, e-book de topo de funil, promessa, escassez, garantia e segmentacao. O valor principal para o vault e o repertorio demonstrado, nao o conteudo integral das pecas.
+
+[[Fonte - Palestra IA e pitches Espaco Prema 2025]] reforca estudo aplicado de modelos de lancamento e oferta: Erico, Hormozi e uma versao autoral aparecem como molduras para adaptar proposta, funil, objeções e roadmap a um caso real. Isso demonstra repertorio de marketing estrategico, nao validacao dos modelos em campo.
+
+## Relações
+
+[[Marketing comunicacao e processos]], [[Design video e direcao criativa]], [[Criterios de decisao para projetos]] e [[Sustentabilidade financeira e trabalho]].

@@ -1,0 +1,1 @@
+Tem como, com as opções de 3D avançado, criar efeitos de extrusão e texturização com o After Effects. Mas para isso, até onde sei, é necessário trabalhar com vetores e Shape Layers.

@@ -1,0 +1,117 @@
+---
+id: registro-00-diario-parte-final-m4a
+titulo: Registro - 00 diario parte final.m4a
+tipo: registro_fonte
+subtipo: diario
+status: arquivado
+profundidade: fonte_integral
+versao_schema: '1.0'
+versao_conteudo: '1.0'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+camada_evidencia: registro_direto
+grau_confianca: alto
+sensibilidade: muito_alta
+fonte_catalogo: '[[Fonte - 00 diario parte final.m4a]]'
+caminho_origem: Diários/00 diario parte final.m4a.txt
+sha256_origem: 530fc6f72916dedb4b9ffdae1f1f488d28d78337e8b3d0d3c131b52cba67558f
+normalizacao: wikilinks_desativados; frontmatter_adicionado
+tags:
+- tipo/registro-fonte
+- privacidade/restrita
+---
+# Registro - 00 diario parte final.m4a
+
+> [!warning] Cópia de leitura normalizada
+> O conteúdo abaixo foi copiado da origem; sequências de wikilink foram desativadas para não contaminar o grafo. O original byte a byte permanece no ZIP arquivado.
+
+(Transcrito por TurboScribe.ai. Atualize para Ilimitado para remover esta mensagem.)
+
+Dia 29 de 6 de 2024. Muito me vem à mente e penso na empresa que seria minha árvore nutridora e das futuras gerações. Eu gostaria de ter o mapa, a entrelinha pontilhada, o passo a passo de como realizar meus objetivos, que não são poucos.
+
+Mas isso não existe. O plano deve ser estruturado e seguido e a disciplina deve ser constante. O plano depende da vontade de fazer acontecer e da compreensão do sagrado anjo guardião que guarda a vontade e define o sagrado anjo guardião.
+
+Ikigai pode ser uma boa para ter foco em menos coisas. 0 Ikigai, 1 personalidade, 2 particularidade, 3 arquétipo, 4 carreira. Faço bem design e livros.
+
+Posso ser pago design e livros. O mundo precisa design e livros que eu amo design e livros. 5 missão, 6 paixão, 7 profissão, 8 focação, 9 precisa, 10 ama, 11 é bom, 12 dinheiro.
+
+25 de setembro de 2024. Oh Adonai, preciso de ti. Tu guarda em tuas asas a luz da minha vontade verdadeira.
+
+O êxtase de minha alma. Corrigindo, Adonai, preciso de ti. Tu guarda em tuas asas a luz da minha vontade verdadeira.
+
+O êxtase de minha alma. Diga-me como poderei eu te encontrar. Anseio por teu beijo, por tua voz, pelo teu toque.
+
+E por uma faísca de conexão, de amor, de visão de ti. Confio em tu, todo o sangue de minhas veias. Espero por tua instrução.
+
+Adonai diz, encontre-me pela manhã, encontre-me nos dons que eu te dei. Encontre-me na atitude de buscar o que sabe que é o melhor. Encontre-me na música e dedique teus êxtase em todos estes a mim, que sou a alegria de tua alegria.
+
+Veja bem, tua vontade verdadeira é um perfil de design bem estruturado. Domínio dos instrumentos, escaleta, ukulele, gaita, violão e estudo profundo sobre design e livros publicados. Fará um sobre cada carta do tarô.
+
+Esta é a sua vontade verdadeira e a alegria do mundo. Fará assim, levantará às seis. Essa é a primeira ordalha.
+
+Fale nessa e perde a mim por todo o dia. Vá praça e saúde a mim. Volte e vá no ônibus das seis e quarenta ao trabalho.
+
+Cuide por estar com os arquivos da sua empresa para estudar sobre a vontade verdadeira do Insta estruturado. Os instrumentos não têm o que dizer. É treino, todo dia, é necessário.
+
+Os livros devem ser estruturados com os teus estudos, poesia, português e telema. Dia 15 de nove de 2024. Falar mais com a ânima.
+
+Não fazer mais comentários sobre o seu peso e não insinuar que mulheres são putas. Não regular dinheiro. Detalhe do leitor, do cara que está lendo o diário.
+
+O dia 15 de nove de 2024 parece que teve uma discussão e eu fui anotando várias coisas que a Letícia estava me pedindo e eu vou trazer aqui na íntegra. Dia 15 de nove de 2024. Falar mais com a Letícia.
+
+Não fazer mais comentários sobre o peso e não insinuar que a Letícia é uma puta. Não regular dinheiro para a Letícia. Aceitar os nãos da Letícia.
+
+Me esforçar mais no relacionamento. Não levar a Letícia para lugares. Seria interessante conversar mais com a Letícia.
+
+Procurar academia, FightFit e entrar. Domingo que vem fazer café da manhã para a semana. Salada de fruta e sanduíche natural.
+
+Depilar o sovaco e outros. Lavar lá fora. Comprar uma poltrona.
+
+Comprar cama de casal. Não fazer bilu bilu na Letícia. Comprar um computador.
+
+Ter uma empresa. Ter uma casa grande e bonita e funcional. Entrar lá fora.
+
+Comprar uma nova mesa. Envelopar fogueira e fogão. Fogueira e fogão.
+
+Emagrecer. Superar a mim mesmo. Dia 17 de nove de 2024.
+
+Hoje a Nani mostrou um primeiro indício de suas garras e que saiu por cima no negócio do PDF. Ela tem razão. PDF é o melhor.
+
+Contudo, este acontecimento tem me abrido os olhos para o fato de que preciso ser melhor no que tenho. Você não tem diploma. Então tem que ser o melhor onde todos os outros pecam.
+
+Na criatividade. Sabedoria diz. Não use o post da Aliance e nem da Império.
+
+Não vou gostar da ideia. Crie outra. Da Império, fale de algo relacionado ao serviço de entrega e as ofertas especiais para empresas.
+
+Comece falando sobre estes dois. Coloque QR Code no post. Preste atenção no que a Nani diz, pois ela é formada e instruída.
+
+Sabe muito. Lembre-se que a consequência de fumar prensado e tomar cerveja é tomar Daime. Se fizer um ou outro, terá de ir tomar Daime.
+
+A consequência de quebrar as tábuas é o Daime. Nota do leitor. Na verdade, hoje em dia até que eu gosto de Daime.
+
+Eu diminuí um pouco. Acho que eu não gostava do lugar que eu estava indo tomar Daime. Por isso que aqui eu estava colocando o Daime como se ele fosse tipo uma punição.
+
+Dia 18 de nove de 2024. Falei sobre a criatividade. Dei algumas sugestões quanto aos criativos e percebi que ando usando muitas hipérboles.
+
+Dia 4 de 11 de 2024. Palestra do Paulo Vespúcio. Introdução ao cinema.
+
+Não coloque coisas na boca. Siga com as pernas confortavelmente abertas, com a palma da mão sobre o joelho e o cotovelo relaxado. Inicie com uma história clássica e nostálgica.
+
+Paulo é um investigador usando o método socrático em uma clara amadora para tentar extrair uma história de uma jovem. O objetivo final é narrar a jornada do herói. Meu pai sempre teve muitos sonhos quando... Agora vai seguir um conto que eu escrevi no workshop do Paulo Vespúcio.
+
+Meu pai sempre teve muitos sonhos quando eu era mais jovem. Ele quase sempre me contava de seu sonho mais recente enquanto desenhávamos juntos na sala. Ele era fã de Salvador Dalí e uma vez me contou de um sonho que teve com o Dalí.
+
+Estava no sonho em um abobadá do azul celeste onde estava uma chique mesa de 12 lugares com um vazio. Estava na mesa o Dalí, a sua musa que sempre o acompanhava e outros nove amigos que meu pai não reconheceu. Meu pai se senta na mesa e o Dalí nota sua presença e diz Sabe Kermit, estou em uma estranha situação.
+
+Pois sempre que vou à praia eu e minha musa encontramos vários relógios sem explicação. Você também encontra relógios na praia? Meu pai diz ter pensado que precisava dizer algo inteligente. Então disse Não Dalí, nunca encontrei nenhum relógio na praia mas eu já perdi vários.
+
+Entendeu? É por causa que todos os relógios que o Dalí achou foi o meu pai que perdeu. Adendo Meu pai num sonho não lembrou de olhar para si mesmo então não sabia que estava vestido. Sua idade aproximava ser dos 25 anos.
+
+Eu era uma criança usando uma camiseta cavada com uma barriga perfeitamente redonda uma bolinha certinha. O Dalí vestia uma roupa estampada com frutas de cores variadas rodeado de frutas uma batata havia uma batata e sua musa era formada de triângulos holográficos luminosos. O conflito de minha história é a luta interna de meu pai para fazer algo inteligente ao Dalí.
+
+Versão 2 Meu pai era um homem que vivia nas nuvens e sabia ouvir as histórias que as estrelas contavam. Elas me contam suas histórias me enviando em formas de sonhos disse-me uma vez enquanto desenhávamos juntos na sala. Eu era um menino gordinho usando camiseta cavada a camiseta bem colada na barriga formando uma bolinha perfeitamente redonda.
+
+Na folha eu tentava desenhar uma floresta meu pai também desenhava uma floresta mas a dele tinha vários coelhos brancos correndo. Uma vez sonhei com Salvador Dalí comentou eu não conheço respondi Dalí é um pintor que tem um bigode grande e engraçado eu ri nunca tinha visto o bigode do Dalí mas me divertir imaginando-o mas me divertir mas me divertir imaginando diversos bigodes mirabolantes e como foi o sonho? indaguei no sonho eu estava num lugar que era como um azul abobadado celeste com diversas estrelas douradas a brilhar havia uma mesa rica como nenhuma outra ouro fino diamantes e lápis lazuli estavam lá e os adornos lapidados em em curvas floreadas com brilho primaveral doze lugares a mesa apenas onze ocupados nove por desconhecidos pelo meu pai um para a musa de Dalí que sempre o acompanhava a musa era formada por diversos triângulos holográficos e luminosos contudo em seus milagres de ângulos retos que dão vida a seu corpo é bem perceptível as curvas de uma mulher e por fim Dalí vestido de arte dos pés à cabeça tinha laranja e azul violeta e lilás como um imperador alienígena vestiu um chapéu de alumínio e tiara de antena GT meu pai que esquecera-se de olhar para si mesmo no sonho não sabia como estava vestido mesmo assim sentou-se à mesa Dalí percebeu sua presença o analisou com o olhar oblíquo de um louco inspirado e finalmente perguntou é hilário a situação em que me encontro entrei no carro chamado milhões de anos e vi através do véu do mundo uma praia com inúmeros relógios inexplicávelmente jogados na areia você também já encontrou relógios na areia da praia? meu pai sentiu do coração o rebentar como águas que jorra milagrosamente da terra seca a resposta que deveria dar não Dalí nunca encontrei nenhum relógio na praia mas eu já perdi vários versão 3, capítulo 1 faltavam 11 minutos para a meia noite eu já conseguia mover levemente minhas mãos mas tudo da cintura para baixo ainda estava anestesiado gratidão e ansiedade misturavam e eu não conseguia me afastar em meu âmago a cirurgia tinha sido um sucesso mas logo sentiria o rosto o rosto do corpo e a dor do corte do bisturi corrigindo mas logo sentiria o resto do corpo e a dor do corte do bisturi eu vestia apenas um roupão cirúrgico enquanto que minha avó Lili sentada na poltrona ao lado do meu leito hospitalar vestia um longo vestido florido óculos de fundo de garrafa e tintilava suas agulhas de crochê com uma constância uniforme ela estava quase finalizando um cachecol o tec-tec-tec ressoava pelo ar frio da noite e se misturava com o tic-tac do relógio e na parede o tempo passava e eu receava pela dor que me esperava precisava me distanciar de alguma forma vó Lili, pode me contar uma de suas histórias? dagui eu não precisava explicar muito mais que isso a Lili me conhecia ela guardava em sua bolsa os mais diversos contos de fada visões de beleza e sonhos enigmáticos esses eram seus favoritos mesmo assim, resolveu perguntar qual história gostaria de ouvir? uma assustadora a Lili sorriu, já esperava por essa resposta pois bem, lhe contarei sobre uma criatura feia que em sua presunção de se considerar superior aos animais se tornou o animal mais cruel já visto capítulo 2 o início do que poderia ser uma ótima ideia o homem não tinha grande opção o que queria era viver uma vida tranquila seu nome era Alexandre Costa e tinha uma rotina bem definida Alexandre Costa tinha uma rotina bem definida coisas que tenho que fazer amanhã falar com Paulo e pedir para me acompanhar até o dia de sua viagem na elaboração de uma versão final do primeiro roteiro dia 17 de nove de 2025 estudo do tarot de tote prático a terminar tarefas dos post-its e treinar n8n escolha uma ação criativa esse foi o item 0 1 diga o acima em voz alta e faça uma vitória rápida 2 10 minutos de meditação anota tudo que vir 3 cuida do corpo e dá carinho ao projeto 4 diga os nós necessários para o desenvolvimento do projeto tenha foco, põe limites 5 descreva o porquê do seu esforço e releia sempre o que desfocar 6 corte ruídos, define o que é essencial do que é surpléfilo despreze caprichos, foque 7 disciplina, define e cumpre não quebre os combinados e compromissos que faz contigo e com os outros 8 revise a cada passo ajuste a rota no caso de imprevistos mas sempre 1% melhor e mais perto do objetivo 9 entre em flow, organize tudo para entrar em foco profundo e se tornar 1 com a vontade verdadeira 10 quando algo mudar, volte ao 8 aqui é afirmada a certeza da mudança 11 direcionar energia para a vontade verdadeira com beleza e alegria tenha prazer em dar um belo corpo para sua força ao se render sua vontade definida em 0 12 confie no processo, monitoramento obsessivo e ansiedade para o resultado são armadilhas largue o que está fora do seu controle se concentre no que está dentro do seu controle se entregue ao processo foque 13 elimine hábitos e ruídos não essenciais recicle tempo e energia, foque no que é essencial 14 agora que cortou os ruídos, realize com esmero, carinho, profissionalismo e na justa medida a vontade verdadeira definida no 0 15 aqui é a energia, o símbolo dela o grande arcano e o líquido do graal garanta que a sua está sendo bem direcionada observe e liste mau direcionamento de energia e os elimine 16 aqui você se torna um raio, um destruidor se você não assume a responsabilidade de destruir o macro fará isso por ti e será mais doloroso destrua a energia mal direcionada 17 aqui você respira e se cura depois de se destruir a torre caiu e você vê o céu limpo cheio de possibilidades se cure, contemple, cultive e colhe a generosidade tempo de construção e realizar a vontade verdadeira com serenidade e alegria 18 aqui é a hora dos testes e de fé e de coragem é seguir em frente, prestando atenção se lembrando que a hora mais escura é sempre um pouco antes do amanhecer 19 aqui você se sente corajoso, forte e feliz há abundância de resultados e você se deleita com tua clareza e lucidez se libertando ao escolher com sanidade se limitar, se disciplinar 20 aqui você entende que deve brilhar e aprender como uma criança que acorda para o mundo novo a carta pede responsabilidade pelo próprio crescimento e renovação faça uma análise diária 21 celebração e júbilo a vontade verdadeira se cristalizou o macro e o micro se alinharam e a vida grita sim com prazer e alegria 56 é... nessa lista que eu fiz no dia 19 do 5 opa perdão, corrigindo nesta lista que eu fiz no dia 17 do 9 de 2025 o 0, 1, 2, 3, 4, 5 6 até o 22 representam os atos do tarot ou os arcanos maiores do tarot de TOT dia 20 do 9 de 2025 estudo o tarot TOT novamente eu fiz uma lista do 0 até o 10 não, não, não deixa eu ver até onde eu fui eu fiz uma lista do 0 até o 14 e aqui cada número vai representar um arcano maior no tarot de TOT vamos lá 0, havia o nada e de repente surgiu algo como algo surge do nada? o louco sabe, mas não conta o algo toma forma e se torna tudo que é ou o que pode ser o mago é essa vontade que deu forma a tudo a forma precisa de um útero para se desenvolver uma mãe para aparecer e um espaço para existir alta sacerdotisa é o útero de todas as possibilidades 3, mãe dos elementos e guardiã da vida ela é a fertilidade do universo e também nosso planeta que nos abrigou e nos deu luz 4, surge o DNA e nele o emperador escreve suas regras e deixa sua assinatura além de fornecer um tema para o teatro cósmico a vida 5, o DNA evolui vai de um verme para um peixe para um réptil, depois para penas e pelos para por fim chegar ao homem o hierofante é essa força mística que guia a vida inexperiente em sua evolução 6, enquanto a vida era ameba sem DNA éramos imortais e hermafroditas Eva surgida de parte do Adão representa isso uma ameba surgindo de uma parte cortada de outra ameba mas nesse tempo éramos inúteis então a serpente DNA trouxe o sexo e a morte para a vida 7, o homem tribal tinha como seus guias os xamãs drogados que tinham visões da carruagem que os levavam para os mais altos níveis de consciência assim surgiu nossa consciência nossos mitos e histórias, a matemática a linguagem, a música a arte e a sociedade foram inspiradas por visões dos xamãs que calvalgaram a carruagem que mostra a rota do futuro da humanidade 8, ajustes se mostram necessários e a humanidade torna a sociedade o seu objetivo assim surgem a lei, a ordem e as burocracias 9, a cultura humana evolui como um eremita que medita numa caverna escura sonhando com o que pode se tornar 10, a roda da fortuna gira impérios surgem e cessam de existir, a Babilônia cai o Egito proguide o Egito tem progresso, até os gregos de Alexandre chegarem a mudança nunca muda e essa é a única verdade permanente 13, não há morte que não seja um começo, o fim é sempre transformação, o fim é infinito, justamente porque todo momento é um novo começo vida e morte, destruição e criação são o fim infinito tudo muda, nada realmente acaba essa dança eterna de fim e começo é como uma roda que gira sem cessar aqui já no 10 né falando sobre a carta 10 é é é ah tá, entendi eu tinha acabado de falar sobre a carta 10, nota do leitor, eu tinha acabado de falar sobre a carta 10, a roda da fortuna e aí eu pulei pra 13 no que eu pulei pra 13 já era outro dia já era anotações sobre sobre o dia do chaiprozo, anotações de coisas que eu falei no chaiprozo eu falei sobre a carta 13 do tarot e também falei sobre a carta 10 o que eu falei pra carta 10 é o seguinte 10 essa dança eterna de fim e começo é como uma roda que gira sem cessar e o interessante é que a mão que gira essa roda é o tempo, matamos o tempo e percebemos que tudo é e sempre foi, explicar mais sobre esse mistério seria impróprio a ordem do universo é circular tudo se repete ou a ordem seria aspirão espirão a roda gira e tudo que permanece é o instante, o momento o único ponto onde todos os opostos se tocam tudo se repete nos dando a oportunidade de vivermos de novo com mais consciência sobre o ato 14 no dia do tema o fim infinito reconhecer o momento como eterno ao unir todas as possibilidades no aqui e agora, unir seus polos unir seu criar com seu destruir, isso é totalmente sobre a carta da arte dizer sim a totalidade do movimento eterno e dançar com alegria fim infinito é potência de eterno renascimento notas, fim é um padrão que acontece de várias formas o sentimento que causa depende do contexto o fim de uma dor é alívio o fim de um amor é dor perguntas a consciência é coletiva? Deus interfere? a espiritualidade é exterior? leitura autoral a escada do Aion eu existo para objeto qualidade para ao benefício escala eu existo para ação o que você entrega para quem ou com que impacto eu crio valor para quem por meio de prática eu sirvo princípio ao mundo contexto fazendo verbo medite, a palavra é uma ilusão a verdade se encontra apenas no silêncio prazer que facilita fazer, se abra ao que nutre e se fecha ao que drena cuida do corpo e da beleza do prazer que santifica a vontade verdadeira não fui além dia 17 de 12 de 2025 insights sobre o efeito de Santo Daime foco, foco, foco, mas é foco com amor, sinta a presença esteja no aqui e agora sua mente tenta fugir desse momento procurando outra realidade, procurando prazer mas acaba fugindo da responsabilidade entenda o que o Rafael fez por ti te deu um emprego em um lugar top você quer ser insubstituível então todo dia cedo silencie e nesse silêncio se pergunte com o que meus irmãos estão preocupados o que os incomoda, qual a necessidade deles busque sanar essas necessidades resolva os problemas deles e eles retribuirão o presidente bem que te falou pense no outro, ajude o outro ame o outro, mas ame de verdade um amor que se sacrifica que se doa, um amor caridoso quando você percebe que existe uma relação profunda dentro de ti o self guia o ego você é o self, não o ego e deixe de ser teimoso fala com a Mária, explica que está em um momento que precisa focar no trabalho precisa honrar a si mesmo vá em busca de honra seja honrado na sua palavra agradeça ao Rafael por ter te chamado para aquela reunião de planejamento foi bem companheiro da parte dele seja um goleiro resposta as perguntas que me foram feitas no chai prosa hashtag 1 primeira, a consciência coletiva a consciência nasce individual mas pode expandir-se por meio de aumento de frequência vibracional ou meditação integrando o inconsciente pessoal toca-se o inconsciente coletivo com bastante prática esse processo pode se tornar mais simples e natural e o chamamos de intuição segundo, a espiritualidade interfere no exterior ou é restrita ao interior se definirmos milagre como a ciência e a arte de causar mudança em conformidade com a verdadeira vontade então sim, a espiritualidade interfere no exterior e realiza milagres o macro está no micro não o contrário terceiro, eu sou Deus? eu não sou Deus mas tenho uma esperança de realizar o Deus em mim ele está em mim, mas eu não estou nele
+
+(Transcrito por TurboScribe.ai. Atualize para Ilimitado para remover esta mensagem.)

@@ -1,0 +1,1 @@
+Foi só uma breve introdução a existência das modificações possíveis em uma Layer. E a funcionalidade dos keyframes.

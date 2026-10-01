@@ -1,0 +1,1 @@
+É um brilho externo.

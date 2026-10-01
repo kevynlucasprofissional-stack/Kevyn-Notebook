@@ -1,0 +1,67 @@
+---
+id: inteligencia-artificial-e-automacao
+titulo: Inteligência artificial e automação
+tipo: tema_pessoal
+status: auditado
+profundidade: avancada
+versao_schema: '1.0'
+versao_conteudo: '1.0'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+fontes_primarias:
+- '[[Fonte - Conversas com ChatGPT]]'
+- '[[Fonte - Segundo cerebro consolidado]]'
+- '[[Fonte - Gerador de dossie]]'
+- '[[Fonte - Gerador de visao geral]]'
+- '[[Fonte - Materiais IMRIA e marketing 2025]]'
+- '[[Fonte - Palestra IA e pitches Espaco Prema 2025]]'
+fontes_derivadas:
+- '[[Fonte - Modus operandi]]'
+grau_confianca: alto
+sensibilidade: alta
+camada_evidencia: misto
+tags:
+- tipo/tema_pessoal
+- privacidade/restrita
+aliases:
+- Inteligência artificial e automação
+---
+# Inteligência artificial e automação
+
+## Uso documentado
+
+Kevyn utiliza ChatGPT e outras ferramentas generativas para texto, imagem, roteiro, pesquisa, síntese, criação de personas e apoio a processos. Também aparecem n8n, Supabase, ComfyUI, Stable Diffusion e estudos de Python/Data Science.
+
+## Competência comprovada
+
+O material mostra uso avançado como operador e arquiteto de prompts. Não há evidência suficiente para equiparar isso automaticamente a engenharia de software ou ciência de dados profissional.
+
+Os geradores de dossie e visao geral demonstram arquitetura de prompts aplicada ao proprio sistema de autoconhecimento: definicao de papel, escopo, filtros de evidencia, estrutura de saida e criterios de aceitacao. Isso sustenta competencia em desenho de interacoes com IA, com o limite de que prompt bem estruturado nao equivale a validacao factual nem a entrega fora do ambiente textual.
+
+## IMRIA e ferramentas externas
+
+[[Fonte - Materiais IMRIA e marketing 2025]] acrescenta evidencia de uso operacional de IA em 2025: manutencao de credencial Gemini, intencao de criar agente RAG a partir de curso e roteiros para uma oficina pratica de co-pilotos de IA. O material sustenta familiaridade com linguagem de automacao e oferta de IA aplicada, mas nao prova por si so a execucao tecnica completa dos co-pilotos nem a realizacao do evento.
+
+[[Fonte - Palestra IA e pitches Espaco Prema 2025]] aprofunda a mesma frente com planejamento de palestra sobre IA, demos, calculo de ROI, governanca, agentes/clones, roadmap de 90 dias e roteiro de ligacao para leads. O lote demonstra capacidade de traduzir IA em proposta comercial e educacional para empresarios, mantendo como pendente a confirmacao de execucao do evento.
+
+## Benefícios
+
+- prototipação rápida;
+- síntese de grandes volumes;
+- criação de conteúdo;
+- documentação;
+- automação de tarefas;
+- exploração de produtos.
+
+## Riscos
+
+- aceitar interpretação do modelo como verdade;
+- terceirizar julgamento;
+- produzir excesso de texto;
+- criar “clones” ou sistemas antes de haver necessidade;
+- expor dados sensíveis a serviços externos.
+
+## Regra do vault
+
+IA gera proposta; fonte direta, teste ou decisão humana determina o status.

@@ -1,0 +1,1 @@
+No caso de um cilindro, no parâmetros de primitiva, é possível remover as "tampas" em Caps. E deixar as bordas mais suaves ativando o fillet. Existe o modo slice também, que corta o objeto no meio.

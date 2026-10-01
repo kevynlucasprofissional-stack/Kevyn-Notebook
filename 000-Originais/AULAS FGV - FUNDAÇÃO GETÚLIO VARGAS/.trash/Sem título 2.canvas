@@ -1,0 +1,68 @@
+{
+	"nodes":[
+		{
+			"id":"b1ac05039e820475",
+			"type":"text",
+			"text":"Cliente querendo acessar dados dele",
+			"styleAttributes":{},
+			"x":-540,
+			"y":-160,
+			"width":260,
+			"height":60
+		},
+		{
+			"id":"496be48b0f6ab710",
+			"type":"text",
+			"text":"Tela de login \nEmail:\nSenha:",
+			"styleAttributes":{},
+			"x":-100,
+			"y":-185,
+			"width":260,
+			"height":110
+		},
+		{
+			"id":"a1318c1aa3d1067b",
+			"type":"text",
+			"text":"Após validar o fluxo encaminha para a pasta correta no drive\n",
+			"styleAttributes":{},
+			"x":460,
+			"y":-152,
+			"width":260,
+			"height":105
+		},
+		{
+			"id":"fb9dd3c089066615",
+			"type":"text",
+			"text":"\n|     |     |\n| --- | --- |\n|     |     |\n",
+			"styleAttributes":{},
+			"x":320,
+			"y":-700,
+			"width":260,
+			"height":60
+		}
+	],
+	"edges":[
+		{
+			"id":"56ec490bb39977b5",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"b1ac05039e820475",
+			"fromSide":"right",
+			"toNode":"496be48b0f6ab710",
+			"toSide":"left"
+		},
+		{
+			"id":"9bfb839c9737a35d",
+			"styleAttributes":{},
+			"toFloating":false,
+			"fromNode":"496be48b0f6ab710",
+			"fromSide":"right",
+			"toNode":"fb9dd3c089066615",
+			"toSide":"left"
+		}
+	],
+	"metadata":{
+		"version":"1.0-1.0",
+		"frontmatter":{}
+	}
+}

@@ -1,0 +1,1 @@
+Funciona basicamente como uma sobreposição de degradê.

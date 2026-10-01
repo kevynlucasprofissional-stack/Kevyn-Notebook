@@ -1,0 +1,1 @@
+Text Break separa os caracteres de uma camada de texto em várias camadas, uma para cada caractere.

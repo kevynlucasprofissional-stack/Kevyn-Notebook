@@ -1,0 +1,243 @@
+{
+  "generated_at": "2026-04-04T17:26:50.213145-03:00",
+  "report_id": "11",
+  "summary": {
+    "candidate_count": 26
+  },
+  "candidates": [
+    {
+      "folder": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações",
+      "target_path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Agir sem Hesitação.md",
+      "tag": "estoicismo",
+      "folder_size": 85,
+      "tag_note_count": 75,
+      "coverage_ratio": 0.882,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações",
+      "target_path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Amizade e Virtude.md",
+      "tag": "estoicismo",
+      "folder_size": 85,
+      "tag_note_count": 75,
+      "coverage_ratio": 0.882,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações",
+      "target_path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Beleza do Acidental.md",
+      "tag": "estoicismo",
+      "folder_size": 85,
+      "tag_note_count": 75,
+      "coverage_ratio": 0.882,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações",
+      "target_path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Bem Racional vs. Sensorial.md",
+      "tag": "estoicismo",
+      "folder_size": 85,
+      "tag_note_count": 75,
+      "coverage_ratio": 0.882,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações",
+      "target_path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Consistência do Sábio.md",
+      "tag": "estoicismo",
+      "folder_size": 85,
+      "tag_note_count": 75,
+      "coverage_ratio": 0.882,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações",
+      "target_path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Filosofia como Guia.md",
+      "tag": "estoicismo",
+      "folder_size": 85,
+      "tag_note_count": 75,
+      "coverage_ratio": 0.882,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações",
+      "target_path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Honra e Voluntariedade.md",
+      "tag": "estoicismo",
+      "folder_size": 85,
+      "tag_note_count": 75,
+      "coverage_ratio": 0.882,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações",
+      "target_path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Valor do Tempo Presente.md",
+      "tag": "estoicismo",
+      "folder_size": 85,
+      "tag_note_count": 75,
+      "coverage_ratio": 0.882,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações",
+      "target_path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Violência contra a Alma.md",
+      "tag": "estoicismo",
+      "folder_size": 85,
+      "tag_note_count": 75,
+      "coverage_ratio": 0.882,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações",
+      "target_path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Visão Física da Morte.md",
+      "tag": "estoicismo",
+      "folder_size": 85,
+      "tag_note_count": 75,
+      "coverage_ratio": 0.882,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\A Causa Real da Raiva.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\A Fome de Apreciação.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\A Raiva como Alarme.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\A Superficialidade da Punição.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\Amtssprache (Linguagem de Escritório).md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\Auto-perdão na CNV.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\Autocompaixão e o Luto na CNV.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\Inteligência Humana e Observação.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\O Deveria como Violência Interior.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\O Foco no Positivo.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\Quatro Passos para Expressar a Raiva.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\Reanimar Conversas Mortas.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\Resolução de Conflitos Interiores.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\Tenho de para Escolho porque....md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\Tradução de Autojulgamentos.md",
+      "tag": "cnv",
+      "folder_size": 65,
+      "tag_note_count": 50,
+      "coverage_ratio": 0.769,
+      "reason": "sibling-majority"
+    },
+    {
+      "folder": "HOME\\O Professor\\00_Cérebro Operacional\\V1",
+      "target_path": "HOME\\O Professor\\00_Cérebro Operacional\\V1\\00_modelo_nota_atomica.md",
+      "tag": "flashcards",
+      "folder_size": 4,
+      "tag_note_count": 3,
+      "coverage_ratio": 0.75,
+      "reason": "sibling-majority"
+    }
+  ]
+}

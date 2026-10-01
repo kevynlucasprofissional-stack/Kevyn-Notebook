@@ -1,0 +1,1989 @@
+{
+ "updated": "2026-08-15",
+   "total": 458,
+   "statuses": {
+    "deep_read": 147,
+    "preview_context": 311
+   },
+   "chats": [
+    {
+     "contact": "Fernanda Ribeiro",
+     "card": "Fernanda Ribeiro.md",
+     "status": "deep_read"
+    },
+    {
+     "contact": "+55 64 9300-9227",
+     "card": "+55 64 9300-9227.md",
+     "status": "deep_read"
+    },
+    {
+     "contact": "UNIPDS - Educação",
+     "card": "UNIPDS - Educação.md",
+     "status": "deep_read"
+    },
+    {
+     "contact": "+55 64 9208-9885",
+     "card": "+55 64 9208-9885.md",
+     "status": "deep_read"
+    },
+    {
+     "contact": "+55 64 9231-5420",
+     "card": "+55 64 9231-5420.md",
+     "status": "preview_context"
+    },
+    {
+     "contact": "+55 62 9402-5205",
+     "card": "+55 62 9402-5205.md",
+     "status": "preview_context"
+    },
+    {
+     "contact": "+55 11 99397-5218",
+     "card": "+55 11 99397-5218.md",
+     "status": "preview_context"
+    },
+    {
+     "contact": "+55 64 9231-5420",
+     "card": "+55 64 9231-5420.md",
+     "status": "preview_context"
+    },
+  {
+   "contact": "Cinema com teoria",
+   "card": "Cinema com teoria.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Gemeos moda masculina",
+   "card": "Gemeos moda masculina.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9231-5420",
+   "card": "+55 64 9231-5420.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 62 9402-5205",
+   "card": "+55 62 9402-5205.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 11 99397-5218",
+   "card": "+55 11 99397-5218.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Teacher Vanessa",
+   "card": "Teacher Vanessa.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 8101-9831",
+   "card": "+55 64 8101-9831.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 34 9176-6673",
+   "card": "+55 34 9176-6673.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Bárbara Amaral",
+   "card": "Bárbara Amaral.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9239-7633",
+   "card": "+55 64 9239-7633.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9283-8114",
+   "card": "+55 64 9283-8114.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 62 9916-6692",
+   "card": "+55 62 9916-6692.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 62 8237-6300",
+   "card": "+55 62 8237-6300.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Ricardo Nunes - Grupo R1",
+   "card": "Ricardo Nunes - Grupo R1.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Lucinéia Arce",
+   "card": "Lucinéia Arce.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Bisaaa",
+   "card": "Bisaaa.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9234-0621",
+   "card": "+55 64 9234-0621.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9288-5325",
+   "card": "+55 64 9288-5325.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Léo Much",
+   "card": "Léo Much.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Beatriz",
+   "card": "Beatriz.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Tatavo",
+   "card": "Tatavo.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8119-1081",
+   "card": "+55 64 8119-1081.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9321-9367",
+   "card": "+55 64 9321-9367.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9302-5414",
+   "card": "+55 64 9302-5414.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9280-4859",
+   "card": "+55 64 9280-4859.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Flavia Lemes Fotografia",
+   "card": "Flavia Lemes Fotografia.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9208-3981",
+   "card": "+55 64 9208-3981.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Comida Caseira do Peão | Marketing",
+   "card": "Comida Caseira do Peão - Marketing.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Idelma PEAO",
+   "card": "Idelma PEAO.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9699-6059",
+   "card": "+55 64 9699-6059.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 34 8412-3510",
+   "card": "+55 34 8412-3510.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Nayanne",
+   "card": "Nayanne.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Fantastic four",
+   "card": "Fantastic four.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9641-8293",
+   "card": "+55 64 9641-8293.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Vinicius Peron",
+   "card": "Vinicius Peron.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "400 Pizza Artesanal",
+   "card": "400 Pizza Artesanal.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8101-7456",
+   "card": "+55 64 8101-7456.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9965-3336",
+   "card": "+55 64 9965-3336.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8112-3076",
+   "card": "+55 64 8112-3076.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9287-8762",
+   "card": "+55 64 9287-8762.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9218-2623",
+   "card": "+55 64 9218-2623.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Mah",
+   "card": "Mah.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Ana Bióloga",
+   "card": "Ana Bióloga.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Ricael Durand",
+   "card": "Ricael Durand.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9968-7270",
+   "card": "+55 64 9968-7270.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9935-4306",
+   "card": "+55 64 9935-4306.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 11 97675-9177",
+   "card": "+55 11 97675-9177.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Pedro Pongiluppi Midas",
+   "card": "Pedro Pongiluppi Midas.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Gustavo Carleto",
+   "card": "Gustavo Carleto.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Rotas",
+   "card": "Rotas.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9218-5848",
+   "card": "+55 64 9218-5848.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Gabriel Figueiredo | Estrategista de Aceleração",
+   "card": "Gabriel Figueiredo - Estrategista de Aceleração.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9286-8655",
+   "card": "+55 64 9286-8655.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8426-0192",
+   "card": "+55 64 8426-0192.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8443-4188",
+   "card": "+55 64 8443-4188.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8408-6019",
+   "card": "+55 64 8408-6019.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9267-6261",
+   "card": "+55 64 9267-6261.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Guara+On!",
+   "card": "Guara+On!.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9906-3589",
+   "card": "+55 64 9906-3589.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9212-3267",
+   "card": "+55 64 9212-3267.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Ana Laura Satelles",
+   "card": "Ana Laura Satelles.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Integrator Host",
+   "card": "Integrator Host.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 11 97988-0198",
+   "card": "+55 11 97988-0198.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9277-0830",
+   "card": "+55 64 9277-0830.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Sebrae Goiás",
+   "card": "Sebrae Goiás.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "GS",
+   "card": "GS.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Ai Tinkerers",
+   "card": "Ai Tinkerers.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 41 9288-1988",
+   "card": "+55 41 9288-1988.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Maria Eliza Comtatto",
+   "card": "Maria Eliza Comtatto.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9902-8264",
+   "card": "+55 64 9902-8264.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Mercado Livre Segurança",
+   "card": "Mercado Livre Segurança.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Wilson PEÃO",
+   "card": "Wilson PEÃO.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9209-3732",
+   "card": "+55 64 9209-3732.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "DK",
+   "card": "DK.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 19 99440-8888",
+   "card": "+55 19 99440-8888.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+49 176 59803977",
+   "card": "+49 176 59803977.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "André Silveira Sócio",
+   "card": "André Silveira Sócio.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Vinicius Santos - Rockstar films",
+   "card": "Vinicius Santos - Rockstar films.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "José Ricardo | Play",
+   "card": "José Ricardo - Play.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Cardoso CEO Symbol Digital",
+   "card": "Cardoso CEO Symbol Digital.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 82 9635-3656",
+   "card": "+55 82 9635-3656.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Midnight",
+   "card": "Midnight.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9601-3955",
+   "card": "+55 64 9601-3955.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 11 99690-2336",
+   "card": "+55 11 99690-2336.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Giancarllo Vasconcelos",
+   "card": "Giancarllo Vasconcelos.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 69 9278-2919",
+   "card": "+55 69 9278-2919.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8112-4939",
+   "card": "+55 64 8112-4939.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Samanta",
+   "card": "Samanta.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Fábrica do Livro",
+   "card": "Fábrica do Livro.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 62 9616-1535",
+   "card": "+55 62 9616-1535.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Arthur Horyu",
+   "card": "Arthur Horyu.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "MP",
+   "card": "MP.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Luiz Figueira Jr",
+   "card": "Luiz Figueira Jr.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 11 99583-7441",
+   "card": "+55 11 99583-7441.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Victor Barros",
+   "card": "Victor Barros.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9224-4438",
+   "card": "+55 64 9224-4438.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 34 9121-9001",
+   "card": "+55 34 9121-9001.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9646-3035",
+   "card": "+55 64 9646-3035.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Ollavo Cárneiro Lavanderia",
+   "card": "Ollavo Cárneiro Lavanderia.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Ana Paula",
+   "card": "Ana Paula.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9346-1170",
+   "card": "+55 64 9346-1170.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 62 8495-6648",
+   "card": "+55 62 8495-6648.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9239-2869",
+   "card": "+55 64 9239-2869.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Aceleradora Midas",
+   "card": "Aceleradora Midas.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Júnior",
+   "card": "Júnior.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9243-1441",
+   "card": "+55 64 9243-1441.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9907-0231",
+   "card": "+55 64 9907-0231.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9285-7623",
+   "card": "+55 64 9285-7623.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9300-7434",
+   "card": "+55 64 9300-7434.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Júlia (Paulim)",
+   "card": "Júlia (Paulim).md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+1 (820) 899-3930",
+   "card": "+1 (820) 899-3930.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8103-8416",
+   "card": "+55 64 8103-8416.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Mara Maravilhosa",
+   "card": "Mara Maravilhosa.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9275-1321",
+   "card": "+55 64 9275-1321.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9329-5088",
+   "card": "+55 64 9329-5088.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 12 99731-1104",
+   "card": "+55 12 99731-1104.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8159-7826",
+   "card": "+55 64 8159-7826.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9995-4466",
+   "card": "+55 64 9995-4466.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 19 98103-4416",
+   "card": "+55 19 98103-4416.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 34 9156-0145",
+   "card": "+55 34 9156-0145.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 48 9642-9361",
+   "card": "+55 48 9642-9361.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Valquíria",
+   "card": "Valquíria.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9264-9152",
+   "card": "+55 64 9264-9152.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 3051-3862",
+   "card": "+55 64 3051-3862.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 62 9822-4533",
+   "card": "+55 62 9822-4533.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "DrogaStore",
+   "card": "DrogaStore.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 8402-8846",
+   "card": "+55 64 8402-8846.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9281-7698",
+   "card": "+55 64 9281-7698.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "JC",
+   "card": "JC.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Mari que Cria",
+   "card": "Mari que Cria.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 91 9274-2188",
+   "card": "+55 91 9274-2188.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Ana Clara Rapel",
+   "card": "Ana Clara Rapel.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9215-9061",
+   "card": "+55 64 9215-9061.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Inimigo oculto",
+   "card": "Inimigo oculto.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Annaa",
+   "card": "Annaa.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Matheus",
+   "card": "Matheus.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 31 9326-0381",
+   "card": "+55 31 9326-0381.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Isa cogu",
+   "card": "Isa cogu.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Vólus",
+   "card": "Vólus.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9273-2963",
+   "card": "+55 64 9273-2963.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 32 9845-0698",
+   "card": "+55 32 9845-0698.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8145-1007",
+   "card": "+55 64 8145-1007.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 65 8441-3772",
+   "card": "+55 65 8441-3772.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Will",
+   "card": "Will.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Thays Batista",
+   "card": "Thays Batista.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Carlos H. AtronA",
+   "card": "Carlos H. AtronA.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Luciano Filho",
+   "card": "Luciano Filho.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Ricardo",
+   "card": "Ricardo.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Rodrigo de Vasconcelos",
+   "card": "Rodrigo de Vasconcelos.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8172-8138",
+   "card": "+55 64 8172-8138.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Monique Dresch",
+   "card": "Monique Dresch.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 62 9973-0753",
+   "card": "+55 62 9973-0753.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 41 9790-2455",
+   "card": "+55 41 9790-2455.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Rosimeire Ribeiro",
+   "card": "Rosimeire Ribeiro.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 34 8844-4529",
+   "card": "+55 34 8844-4529.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Jorciron Águia Automóveis",
+   "card": "Jorciron Águia Automóveis.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 67 9170-8629",
+   "card": "+55 67 9170-8629.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Clener Central CAR",
+   "card": "Clener Central CAR.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8120-3870",
+   "card": "+55 64 8120-3870.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Vitoria",
+   "card": "Vitoria.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 8126-3389",
+   "card": "+55 64 8126-3389.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Iago Bass",
+   "card": "Iago Bass.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 41 8889-9809",
+   "card": "+55 41 8889-9809.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 27 99701-9591",
+   "card": "+55 27 99701-9591.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 62 8216-8956",
+   "card": "+55 62 8216-8956.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9308-1437",
+   "card": "+55 64 9308-1437.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9225-6151",
+   "card": "+55 64 9225-6151.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 62 8400-0102",
+   "card": "+55 62 8400-0102.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Contos de horror",
+   "card": "Contos de horror.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "ConexãoDevsquad",
+   "card": "ConexaoDevsquad.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Graciely Procopio",
+   "card": "Graciely Procopio.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8438-9397",
+   "card": "+55 64 8438-9397.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 91 9314-6799",
+   "card": "+55 91 9314-6799.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8145-5090",
+   "card": "+55 64 8145-5090.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 3621-2745",
+   "card": "+55 64 3621-2745.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Edital Centelha Midas Aceleradora",
+   "card": "Edital Centelha Midas Aceleradora.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Equipe Midas",
+   "card": "Equipe Midas.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9329-5655",
+   "card": "+55 64 9329-5655.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Black Friday 2025 #44",
+   "card": "Black Friday 2025 #44.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Henrique Programas",
+   "card": "Henrique Programas.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Base44 AI Technologies Ltd",
+   "card": "Base44 AI Technologies Ltd.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 96 8803-0954",
+   "card": "+55 96 8803-0954.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 96 8148-0859",
+   "card": "+55 96 8148-0859.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Geovanna Pamplona",
+   "card": "Geovanna Pamplona.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Natal",
+   "card": "Natal.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9257-3864",
+   "card": "+55 64 9257-3864.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9265-6097",
+   "card": "+55 64 9265-6097.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "ACIRV - RECEPÇÃO",
+   "card": "ACIRV - RECEPÇÃO.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9263-6197",
+   "card": "+55 64 9263-6197.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9676-1901",
+   "card": "+55 64 9676-1901.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9939-3143",
+   "card": "+55 64 9939-3143.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9204-0019",
+   "card": "+55 64 9204-0019.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Aziel Fotografo e Corretor",
+   "card": "Aziel Fotografo e Corretor.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Lis Righetto",
+   "card": "Lis Righetto.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Rapell",
+   "card": "Rapell.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Fogao a Lenha | Marketing",
+   "card": "Fogao a Lenha - Marketing.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 3054-2030",
+   "card": "+55 64 3054-2030.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9233-6226",
+   "card": "+55 64 9233-6226.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "#OutubroVisionario",
+   "card": "#OutubroVisionario.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 62 9128-3633",
+   "card": "+55 62 9128-3633.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Espaço Capital - Coworking",
+   "card": "Espaço Capital - Coworking.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Cláudio Motos",
+   "card": "Cláudio Motos.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9200-1710",
+   "card": "+55 64 9200-1710.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9333-5630",
+   "card": "+55 64 9333-5630.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9300-1445",
+   "card": "+55 64 9300-1445.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Wilton - 3WFactory.tech",
+   "card": "Wilton - 3WFactory.tech.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Nova Acropole Rio Verde",
+   "card": "Nova Acropole Rio Verde.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "WhatsApp Business",
+   "card": "WhatsApp Business.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Geovanna",
+   "card": "Geovanna.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Floresce Vida",
+   "card": "Floresce Vida.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 47 2018-2780",
+   "card": "+55 47 2018-2780.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Vinicius Espetinho",
+   "card": "Vinicius Espetinho.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 62 9904-8498",
+   "card": "+55 62 9904-8498.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9280-6919",
+   "card": "+55 64 9280-6919.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9241-2462",
+   "card": "+55 64 9241-2462.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 34 8439-3513",
+   "card": "+55 34 8439-3513.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9987-9864",
+   "card": "+55 64 9987-9864.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9250-5883",
+   "card": "+55 64 9250-5883.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9257-0156",
+   "card": "+55 64 9257-0156.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9965-3355",
+   "card": "+55 64 9965-3355.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9965-4419",
+   "card": "+55 64 9965-4419.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 3620-5400",
+   "card": "+55 64 3620-5400.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8111-0892",
+   "card": "+55 64 8111-0892.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Scarolli",
+   "card": "Scarolli.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9214-6420",
+   "card": "+55 64 9214-6420.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Paula Vieira | Comunicação Estratégica",
+   "card": "Paula Vieira - Comunicação Estratégica.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "nelson rubens",
+   "card": "nelson rubens.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 62 3931-4410",
+   "card": "+55 62 3931-4410.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "AI Architechs, INC",
+   "card": "AI Architechs, INC.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 41 8902-3868",
+   "card": "+55 41 8902-3868.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Jéssica Xavier - Coord. acadêmica EDUCON/FGV",
+   "card": "Jéssica Xavier - Coord. acadêmica EDUCON - FGV.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Norberto Almeida",
+   "card": "Norberto Almeida.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "INSTITUTO REALIZA",
+   "card": "INSTITUTO REALIZA.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8459-2636",
+   "card": "+55 64 8459-2636.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9604-6829",
+   "card": "+55 64 9604-6829.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Controle Financeiro",
+   "card": "Controle Financeiro.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Formação Gen.IA - (Generation IA)",
+   "card": "Formação Gen.IA - (Generation IA).md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9211-5422",
+   "card": "+55 64 9211-5422.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Lucas Salomão",
+   "card": "Lucas Salomão.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9965-8801",
+   "card": "+55 64 9965-8801.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Juarez Encanto Aromas",
+   "card": "Juarez Encanto Aromas.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9614-1764",
+   "card": "+55 64 9614-1764.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 8479-2415",
+   "card": "+55 64 8479-2415.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Synvia",
+   "card": "Synvia.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Pedro Lahrs",
+   "card": "Pedro Lahrs.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Facebook",
+   "card": "Facebook.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "san sushi prime",
+   "card": "san sushi prime.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Haru Sushi Premium",
+   "card": "Haru Sushi Premium.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 92 8482-0192",
+   "card": "+55 92 8482-0192.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Luana Mello",
+   "card": "Luana Mello.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Natureza Divina",
+   "card": "Natureza Divina.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9316-2260",
+   "card": "+55 64 9316-2260.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9204-1314",
+   "card": "+55 64 9204-1314.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9232-5331",
+   "card": "+55 64 9232-5331.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Unipds",
+   "card": "Unipds.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Washington",
+   "card": "Washington.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 47 2888-0155",
+   "card": "+55 47 2888-0155.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9240-9110",
+   "card": "+55 64 9240-9110.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Yasmin",
+   "card": "Yasmin.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 8133-1713",
+   "card": "+55 64 8133-1713.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Rato",
+   "card": "Rato.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 51 9254-5922",
+   "card": "+55 51 9254-5922.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "iFood",
+   "card": "iFood.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Pedro Midas",
+   "card": "Pedro Midas.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "SALATIEL",
+   "card": "SALATIEL.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 11 91782-2190",
+   "card": "+55 11 91782-2190.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "SmileSkin",
+   "card": "SmileSkin.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9329-1294",
+   "card": "+55 64 9329-1294.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Luiz Carlos",
+   "card": "Luiz Carlos.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Infinity Links",
+   "card": "Infinity Links.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+66 63 485 3792",
+   "card": "+66 63 485 3792.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Thiago Gomes da Silva",
+   "card": "Thiago Gomes da Silva.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "FILMMAKERS I9",
+   "card": "FILMMAKERS I9.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9256-9797",
+   "card": "+55 64 9256-9797.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9987-1660",
+   "card": "+55 64 9987-1660.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9229-7670",
+   "card": "+55 64 9229-7670.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Pedidos10",
+   "card": "Pedidos10.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 16 99991-3792",
+   "card": "+55 16 99991-3792.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9228-4534",
+   "card": "+55 64 9228-4534.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Jota",
+   "card": "Jota.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9218-4879",
+   "card": "+55 64 9218-4879.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 62 9335-3582",
+   "card": "+55 62 9335-3582.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Dice Lab",
+   "card": "Dice Lab.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Nutri Bárbara Ramos",
+   "card": "Nutri Bárbara Ramos.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Vamos prompitar com Tio Lourenço",
+   "card": "Vamos prompitar com Tio Lourenço.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Instagram",
+   "card": "Instagram.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Grupo IA nas Finanças Sebrae",
+   "card": "Grupo IA nas Finanças Sebrae.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "GDG Rio Verde",
+   "card": "GDG Rio Verde.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "DEVS DE IMPACTO GERAL",
+   "card": "DEVS DE IMPACTO GERAL.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Mirian - Symbol",
+   "card": "Mirian - Symbol.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9935-4303",
+   "card": "+55 64 9935-4303.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9327-3928",
+   "card": "+55 64 9327-3928.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Suzana Schiavetto",
+   "card": "Suzana Schiavetto.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 8410-4431",
+   "card": "+55 64 8410-4431.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 31 9701-8003",
+   "card": "+55 31 9701-8003.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Jéssica",
+   "card": "Jéssica.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9611-1840",
+   "card": "+55 64 9611-1840.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9235-9716",
+   "card": "+55 64 9235-9716.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9975-3176",
+   "card": "+55 64 9975-3176.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9987-2555",
+   "card": "+55 64 9987-2555.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9249-8130",
+   "card": "+55 64 9249-8130.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "MBA RVD_2025_Sem",
+   "card": "MBA RVD_2025_Sem.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Jung For Life | Estudos & Comunidade",
+   "card": "Jung For Life - Estudos e Comunidade.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 8126-2667",
+   "card": "+55 64 8126-2667.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Fabia Theodora",
+   "card": "Fabia Theodora.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Filosofia N1 Segunda 26/01/26",
+   "card": "Filosofia N1 Segunda 26-01-26.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 35 9166-6844",
+   "card": "+55 35 9166-6844.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9341-1342",
+   "card": "+55 64 9341-1342.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 8405-7864",
+   "card": "+55 64 8405-7864.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9641-5220",
+   "card": "+55 64 9641-5220.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Comercial Granvie Group",
+   "card": "Comercial Granvie Group.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9986-9004",
+   "card": "+55 64 9986-9004.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Carlos Eduardo De Paula A",
+   "card": "Carlos Eduardo De Paula A.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 8106-8318",
+   "card": "+55 64 8106-8318.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "+55 64 9245-7532",
+   "card": "+55 64 9245-7532.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9246-3182",
+   "card": "+55 64 9246-3182.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Ádria Rocha",
+   "card": "Ádria Rocha.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9987-0901",
+   "card": "+55 64 9987-0901.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Carla Simões",
+   "card": "Carla Simões.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 8453-6344",
+   "card": "+55 64 8453-6344.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Enio Fernandes",
+   "card": "Enio Fernandes.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Serafim Leão",
+   "card": "Serafim Leão.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Anna Marquez",
+   "card": "Anna Marquez.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Wenya",
+   "card": "Wenya.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Janaine Marquez",
+   "card": "Janaine Marquez.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9919-5652",
+   "card": "+55 64 9919-5652.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Simone Alves",
+   "card": "Simone Alves.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Rakilandia Medeiros",
+   "card": "Rakilandia Medeiros.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9988-6966",
+   "card": "+55 64 9988-6966.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Ione",
+   "card": "Ione.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Raphael Valongo",
+   "card": "Raphael Valongo.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Letícia Porks",
+   "card": "Letícia Porks.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Vivianne Oliveira",
+   "card": "Vivianne Oliveira.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Deise Rezende",
+   "card": "Deise Rezende.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 19 99248-6234",
+   "card": "+55 19 99248-6234.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Jose Carlos",
+   "card": "Jose Carlos.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9251-1349",
+   "card": "+55 64 9251-1349.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 62 8134-8470",
+   "card": "+55 62 8134-8470.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Fabiana | Consórcios • Seguros • Imóveis",
+   "card": "Fabiana - Consórcios, Seguros e Imóveis.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 62 8340-5264",
+   "card": "+55 62 8340-5264.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Carlos Leão",
+   "card": "Carlos Leão.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Roberta Tolentino",
+   "card": "Roberta Tolentino.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 8412-8141",
+   "card": "+55 64 8412-8141.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Silvana",
+   "card": "Silvana.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Leidi Corteze",
+   "card": "Leidi Corteze.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Karoline Dantas",
+   "card": "Karoline Dantas.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 21 98336-6143",
+   "card": "+55 21 98336-6143.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Paola Regazoni Torquato",
+   "card": "Paola Regazoni Torquato.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 8429-9063",
+   "card": "+55 64 8429-9063.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Marketing: BelaJá + Karol Freitas",
+   "card": "Marketing - BelaJá + Karol Freitas.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Rick I9 Agency Marketing",
+   "card": "Rick I9 Agency Marketing.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 11 91333-0914",
+   "card": "+55 11 91333-0914.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Theo Videomaker",
+   "card": "Theo Videomaker.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Amanda Lima",
+   "card": "Amanda Lima.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Robson Santos",
+   "card": "Robson Santos.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Ana Luiza Menezes",
+   "card": "Ana Luiza Menezes.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "ELI INOVA Rio Verde GO",
+   "card": "ELI INOVA Rio Verde GO.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Conversa de Ia e negocios",
+   "card": "Conversa de Ia e negocios.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Dardane Cabral",
+   "card": "Dardane Cabral.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 77 9898-2942",
+   "card": "+55 77 9898-2942.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "VCOM Inteligência Digital",
+   "card": "VCOM Inteligência Digital.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Ygor Henrique",
+   "card": "Ygor Henrique.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Heryka",
+   "card": "Heryka.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 35 9176-8174",
+   "card": "+55 35 9176-8174.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "CowWorking",
+   "card": "CowWorking.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9247-0988",
+   "card": "+55 64 9247-0988.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Materiais VCOM",
+   "card": "Materiais VCOM.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Irene",
+   "card": "Irene.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9910-6756",
+   "card": "+55 64 9910-6756.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "INFOS LP",
+   "card": "INFOS LP.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "GestAgro (Apenas a Equipe)",
+   "card": "GestAgro (Apenas a Equipe).md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "GestAgro AgroStartUp",
+   "card": "GestAgro AgroStartUp.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "AURORA | CONEXÃO DE CURADORES",
+   "card": "AURORA - Conexão de Curadores.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Aline Dutra",
+   "card": "Aline Dutra.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Acelerados Midas Prime",
+   "card": "Acelerados Midas Prime.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Nex Prod - Leonardo",
+   "card": "Nex Prod - Leonardo.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Dj Thiago MD",
+   "card": "Dj Thiago MD.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Ronaldo Psi",
+   "card": "Ronaldo Psi.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Marcos Paulo",
+   "card": "Marcos Paulo.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Rafael Dourado",
+   "card": "Rafael Dourado.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 62 9844-5664",
+   "card": "+55 62 9844-5664.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "ACIRV + VCOM",
+   "card": "ACIRV + VCOM.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9292-6513",
+   "card": "+55 64 9292-6513.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "+55 64 9294-5506",
+   "card": "+55 64 9294-5506.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "Kelvyn- Prof. de Fisica e Matematica",
+   "card": "Kelvyn - Prof. de Fisica e Matematica.md",
+   "status": "deep_read"
+  },
+  {
+   "contact": "Diário",
+   "card": "Diário.md",
+   "status": "preview_context"
+  },
+  {
+   "contact": "José Carlos Cintra",
+   "card": "José Carlos Cintra.md",
+   "status": "deep_read"
+  }
+ ],
+ "summary": {
+  "deep_read": "Conversa aberta no BrowserClaw, mensagens lidas, autoria verificada via DOM, card enriquecido com contexto real",
+  "preview_context": "Card com contexto da última mensagem (preview verificado). Conversa antiga NÃO localizável na busca do Web — requer celular para ler histórico completo. Limitação do WhatsApp Web."
+ }
+}

@@ -1,0 +1,6 @@
+- Storytelling
+- Design
+- Áudio
+- Música
+- Comportamento Humano
+- Otimização de tempo

@@ -1,0 +1,1 @@
+O estoque é seu portfólio final que diariamente foi trabalhado no fluxo. O fluxo é tão necessário quanto o estoque. 

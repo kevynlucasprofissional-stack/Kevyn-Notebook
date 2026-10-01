@@ -1,0 +1,7 @@
+## [[Interface Otimizada para Motion]]
+## [[Para fazer aparecer a interface de animação]]
+## [[Como fazer uma Spline ser o guia para o caminho de um modelo]]
+## [[Dope Sheet]]
+## [[F-Curves Mode]]
+## [[Atalhos Dope Sheet]]
+## [[Looping e outras propriedades de animação via KeyFrames]]

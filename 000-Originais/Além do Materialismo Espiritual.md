@@ -1,0 +1,1 @@
+Para compreender a relação entre o físico e o divino, **"Além do Materialismo Espiritual"** (Chögyam Trungpa) é a obra definitiva. O livro alerta sobre como usamos a espiritualidade para inflar o ego. Para uma espiritualidade encarnada no dia a dia, confira **"O Poder da Matéria"** (Francesco Scarinci). 

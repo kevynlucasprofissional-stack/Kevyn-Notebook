@@ -1,0 +1,1 @@
+Dynamics é tipo um wiggle mais refinado.

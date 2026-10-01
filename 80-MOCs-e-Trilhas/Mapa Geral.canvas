@@ -1,0 +1,25 @@
+{
+	"nodes":[
+		{"id":"start","type":"file","file":"00-Inicio/MOC Geral.md","x":0,"y":0,"width":360,"height":220},
+		{"id":"profile","type":"file","file":"80-MOCs-e-Trilhas/MOC Perfil e autoconhecimento.md","x":-850,"y":-350,"width":360,"height":220},
+		{"id":"time","type":"file","file":"80-MOCs-e-Trilhas/MOC Cronologia e memorias.md","x":-420,"y":-350,"width":360,"height":220},
+		{"id":"rel","type":"file","file":"80-MOCs-e-Trilhas/MOC Relacionamentos e rede.md","x":10,"y":-350,"width":360,"height":220},
+		{"id":"work","type":"file","file":"80-MOCs-e-Trilhas/MOC Trabalho vocacao e projetos.md","x":440,"y":-350,"width":360,"height":220},
+		{"id":"spirit","type":"file","file":"80-MOCs-e-Trilhas/MOC Sonhos simbolos e espiritualidade.md","x":-850,"y":350,"width":360,"height":220},
+		{"id":"health","type":"file","file":"80-MOCs-e-Trilhas/MOC Saude autocuidado e autorregulacao.md","x":-420,"y":350,"width":360,"height":220},
+		{"id":"plans","type":"file","file":"80-MOCs-e-Trilhas/MOC Planos e decisoes.md","x":10,"y":350,"width":360,"height":220},
+		{"id":"study","type":"file","file":"80-MOCs-e-Trilhas/MOC Estudos e referencias.md","x":440,"y":350,"width":360,"height":220},
+		{"id":"sources","type":"file","file":"80-MOCs-e-Trilhas/MOC Fontes e evidencias.md","x":870,"y":0,"width":360,"height":220}
+	],
+	"edges":[
+		{"id":"e01","fromNode":"start","toNode":"profile","label":"organiza","fromSide":"left","toSide":"right"},
+		{"id":"e02","fromNode":"start","toNode":"time","label":"organiza","fromSide":"top","toSide":"bottom"},
+		{"id":"e03","fromNode":"start","toNode":"rel","label":"organiza","fromSide":"top","toSide":"bottom"},
+		{"id":"e04","fromNode":"start","toNode":"work","label":"organiza","fromSide":"top","toSide":"bottom"},
+		{"id":"e05","fromNode":"start","toNode":"spirit","label":"organiza","fromSide":"left","toSide":"right"},
+		{"id":"e06","fromNode":"start","toNode":"health","label":"organiza","fromSide":"bottom","toSide":"top"},
+		{"id":"e07","fromNode":"start","toNode":"plans","label":"organiza","fromSide":"bottom","toSide":"top"},
+		{"id":"e08","fromNode":"start","toNode":"study","label":"organiza","fromSide":"bottom","toSide":"top"},
+		{"id":"e09","fromNode":"start","toNode":"sources","label":"fundamenta","fromSide":"right","toSide":"left"}
+	]
+}

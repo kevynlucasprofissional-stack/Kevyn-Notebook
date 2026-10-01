@@ -1,0 +1,89 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "enableWordTimestamps": false,
+    "enableSpeakerDiarization": false,
+    "languageCode": ""
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveAudio": {
+        "id": "1wc8flAR2nFkLPQEU_GEn1ywXFT2KrvCx"
+      },
+      "role": "user",
+      "tokenCount": 727,
+      "createTime": "2026-08-12T18:41:22.793Z"
+    }, {
+      "text": "Transcreve",
+      "role": "user",
+      "tokenCount": 4,
+      "createTime": "2026-08-12T18:41:22.793Z"
+    }, {
+      "text": "**Defining the Scope**\n\nI\u0027m zeroing in on the task: transcribing Portuguese audio spoken by a woman. I\u0027m taking the initial steps to define the scope and specific constraints of the project. I\u0027ve noted the audio source\u0027s language and the speaker\u0027s gender. This foundational understanding will guide the transcription process.\n\n\n**Formulating Specific Instructions**\n\nI\u0027m now giving Kevin precise instructions for a video introduction. I have provided sample phrases in Portuguese for Kevin to use. I\u0027ve noted that \"Acirv\" needs to be verified for spelling and that the introduction includes dates and details about an event. I am confident in providing instructions for Kevin\u0027s introduction to the video.\n\n\n",
+      "role": "model",
+      "tokenCount": 651,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Scope**\n\nI\u0027m zeroing in on the task: transcribing Portuguese audio spoken by a woman. I\u0027m taking the initial steps to define the scope and specific constraints of the project. I\u0027ve noted the audio source\u0027s language and the speaker\u0027s gender. This foundational understanding will guide the transcription process.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Formulating Specific Instructions**\n\nI\u0027m now giving Kevin precise instructions for a video introduction. I have provided sample phrases in Portuguese for Kevin to use. I\u0027ve noted that \"Acirv\" needs to be verified for spelling and that the introduction includes dates and details about an event. I am confident in providing instructions for Kevin\u0027s introduction to the video.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-08-12T18:41:22.794Z"
+    }, {
+      "text": "Aqui está a transcrição do áudio:\n\n\"Não, Kevin, você tem que fazer uma introdução. \u0027Esse ano, eh, nos dias tal, tal, de 9 a 12 de setembro, a Acirv realiza mais uma Sudoexpo. E esse ano, nosso estande está lindo, receptivo, a casa do empresário...\u0027, nesse sentido, entendeu?\"",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 80,
+      "parts": [{
+        "text": "Aqui está a transcrição do áudio:\n\n\"Não, Kevin"
+      }, {
+        "text": ", você tem que fazer uma introdução. \u0027Esse ano, eh, nos dias tal, tal, de 9 a 12"
+      }, {
+        "text": " de setembro, a Acirv realiza mais uma Sudoexpo. E esse ano, nosso estande está lindo,"
+      }, {
+        "text": " receptivo, a casa do empresário...\u0027, nesse sentido, entendeu?\""
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-08-12T18:41:31.130Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

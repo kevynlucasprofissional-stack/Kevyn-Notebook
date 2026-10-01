@@ -1,0 +1,302 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+    "text": "Sempre retorne a resposta para o usuário em português\n\nThe Definitive Playbook of Pitches\nA pitch is a concise and impactful presentation of an idea, product, service, or business,\ntypically delivered to persuade an audience—such as investors, clients, or partners—to take a\ndesired action. Its primary goal is to generate interest and open the door for further discussion,\nrather than to close a deal immediately.\nTypes of Pitches\nPitches vary significantly based on objective, audience, and available time.\nCore Components of a Successful Pitch\nRegardless of the type, a strong pitch typically includes these elements:\n1. Elevator Pitch: A very brief, 30-60 second presentation, designed to be delivered quickly,\nlike during a short elevator ride. It focuses on the core problem, your solution, and what\nmakes it unique.\n2. Tweet Pitch: An even shorter version, limited to a few sentences or 140 characters, aiming\nto grab attention instantly.\n3. One-Sentence Pitch: The most challenging, condensing the entire value proposition into a\nsingle, impactful sentence.\n4. Sales Pitch (Commercial Pitch): Focused on selling a product or service, highlighting its\nvalue, features, and benefits to potential customers.\n5. Pitch Deck (for Investors/Capital Raising): A more comprehensive presentation, often 10-\n20 slides, used to secure investment or partnerships. It combines visuals with detailed\ninformation about the business, market, financials, and team.\n6. Professional/Personal Pitch: Focuses on the presenter\u0027s skills, experience, and abilities.\nHook/Pé na Porta: Start with an attention-grabbing statement, an impactful data point, a\nmission, or a compelling metaphor to immediately engage the audience.\nProblem: Clearly articulate the specific problem or need your business addresses and for\nwhom it is relevant. Use numbers to demonstrate its scale and impact.\nSolution: Present your unique solution in a clear, simple, and empathetic manner, focusing\non how it creates value and benefits the user. Visuals like diagrams, photos, or even a quick\ndemo can be highly effective.\nDifferentiation: Explain what makes your solution unique and superior to existing\nalternatives or competitors. A comparative analysis or a feature matrix can be useful.\nMarket Size: Quantify your potential customer base and the total addressable market\n(TAM, SAM, SOM) to demonstrate the business\u0027s growth potential. Anchor these figures\nIntegrating Data into Your Pitch\nData is paramount for building trust, providing transparency, and strengthening your narrative.\nwith reliable data.\nBusiness Model/Revenue: Explain clearly how your company generates revenue,\nincluding pricing strategies, revenue streams, and current/projected profitability.\nTraction \u0026 Metrics: Showcase achievements, key performance indicators (KPIs), and\nvalidated results (e.g., customer numbers, revenue growth, customer acquisition cost\n(CAC), lifetime value (LTV), churn rate). These data points validate your solution and reduce\ninvestment risk.\nTeam: Introduce the core team members, highlighting their relevant experience, skills, and\nentrepreneurial history. Investors often invest in people as much as in ideas.\nCall to Action (The Ask): Clearly state what you want from your audience – be it\ninvestment, a partnership, a follow-up meeting, or product adoption. Specify how any\nrequested funds will be used and the expected outcomes.\nProjections/Roadmap: Illustrate your vision for the future, including financial projections,\ngrowth milestones, and development plans for your solution. Ensure these are realistic and\nwell-justified.\nClosing: End with an enthusiastic, impactful summary or a direct call to action, leaving a\nlasting positive impression.\n1. Why Data is Crucial:\nCredibility: Numbers and validated research reinforce your arguments.\nClarity: Visualizing data helps investors grasp your points instantly, saving them from\nwading through text.\nTrust: Presenting data cleanly and organized builds confidence in your business.\nImpact: Data-driven storytelling makes your message more persuasive and memorable.\nDecision-Making: Investors look for clear viability, market understanding, and potential\nreturns.\n2. What Kind of Data to Use:\nMarket Data: Quantify the problem, market size, growth trends, and your target market\nshare.\nFinancials: 1, 3, and 5-year revenue and profitability projections, break-even point, and\nfunding needs.\nTraction Metrics: Customer sign-ups, customer acquisition costs (CAC), lifetime value\n(LTV), churn rate, engagement, and conversion rates.\nProblem Validation: Research data or statistics that confirm the existence and severity\nof the problem you\u0027re solving.\nCrafting Your Pitch - Step-by-Step Guide\nSocial Insights: Data on how your brand, competitors, and market are perceived on\nsocial media can reveal surprising insights and help align messaging with audience\ninterests.\n3. How to Visualize Data Effectively:\nChoose the Right Visual: Select appropriate charts (bar, line, pie, scatter plots) for the\nmessage. For example, scatter plots can show relationships between variables like\ncustomer retention and average order value.\nClarity over Aesthetics: While appealing visuals are good, prioritize clarity. Avoid\nclutter, too much text, or more than four categories in a single visual.\nHighlight Insights: Don\u0027t just show data; tell the audience what the visual means.\nHighlight the key insight, not just the raw numbers.\nSimplify Labels and Annotations: Keep labels simple, and use brief, concise notes to\nclarify context (e.g., explaining why a metric shifted).\nConsistency: Maintain a consistent design across all data visuals in your presentation.\n4. Storytelling with Data:\nStart with a Question: Frame your data presentation with a question to pique curiosity\nbefore revealing the chart that answers it.\nWalk the Audience to the Insight: Guide your audience through the data, pointing out\npatterns and key takeaways rather than describing every number.\nRelate to the Audience: Use numbers in a way that gives context and perspective,\nideally relating it to the audience\u0027s experience or understanding.\nPause: After showing an important chart, pause to allow investors to absorb the\ninformation.\n1. Preparation:\nDefine Objective: What do you want to achieve with this pitch (investment, partnership,\nsale)?.\nKnow Your Audience: Research who you are presenting to (investors, clients, general\npublic). Tailor your language, depth of technical detail, and focus areas to their interests\nand knowledge level.\nChoose Format \u0026 Time: Select the appropriate pitch type and adapt your content to\nthe allotted time (e.g., 30 seconds, 3 minutes, 10 slides).\nResearch Thoroughly: Understand your market, competitors, and your own business\nfinancials inside and out.\n2. Structure (Example for a Pitch Deck):\nSlide 1: Title/Cover. Company logo, tagline, and contact info. Start with a compelling\nhook.\nCommon Mistakes to Avoid\nSlide 2: Problem/Opportunity. Clearly define the problem and its impact, supported by\ndata.\nSlide 3: Solution. Explain your solution and its core value proposition. Focus on\nbenefits.\nSlide 4: Market Size. Present TAM, SAM, SOM with credible sources.\nSlide 5: Business Model. How you make money, pricing, and key revenue streams.\nSlide 6: Traction/Metrics. Show evidence of growth, key KPIs, and achievements. Use\ncompelling visuals.\nSlide 7: Competition/Differentiation. Identify competitors and clearly articulate your\nunique advantages.\nSlide 8: Team. Introduce core members, highlighting relevant experience and expertise.\nSlide 9: Financial Projections \u0026 Roadmap. Realistic financial forecasts and future\ndevelopment plans.\nSlide 10: The Ask/Call to Action. State your specific request and how it will fuel future\ngrowth.\n3. Delivery:\nStorytelling: Weave a narrative that connects emotionally with your audience and helps\nthem understand the problem and solution.\nBe Concise: Get straight to the point. Avoid jargon and unnecessary details.\nConfidence \u0026 Enthusiasm: Project conviction in your idea and your ability to execute.\nPractice, Practice, Practice: Rehearse your pitch multiple times to ensure fluency,\ntiming, and a natural delivery. Seek feedback from others.\nPrepare for Q\u0026A: Anticipate potential questions and have data and additional\ninformation ready to support your answers.\nToo Much Text on Slides: Slides are a visual aid, not a script. Use minimal text and large\nfonts.\nLack of Clarity/Focus: Trying to cover too much information. Prioritize your key messages.\nNot Adapting to the Audience: Using a one-size-fits-all pitch for different audiences.\nIgnoring Time Limits: Going over time causes loss of interest.\nForgetting the Ask: Failing to clearly state what you want from the audience at the end.\nNo Data or Vague Metrics: Arguments without numbers are weak. Avoid presenting \"bad\"\ndata poorly; instead, shape it for clarity.\nClaiming No Competition: Every business has competitors, direct or indirect. Not\nacknowledging them shows a lack of market understanding.\nPoor Closing: An abrupt or uninspired ending can undermine the entire presentation.\nLack of Transparency with Metrics: Be honest and convincing with your data.\nBy following this playbook, entrepreneurs and professionals can craft powerful, data-driven\npitches that effectively communicate their vision and secure the necessary support to achieve\ntheir goals.\nNot Training: Improvisation is risky; practice builds confidence and refines delivery."
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1x6x2kgbrrQDA8YQE_zORNcszS5ht2uZa"
+      },
+      "role": "user",
+      "tokenCount": 1121,
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "driveDocument": {
+        "id": "1ji1MsyryvGWjbpRDwoCGE4QixxZZeMkO"
+      },
+      "role": "user",
+      "tokenCount": 1121,
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "driveDocument": {
+        "id": "14lTBXa3JEGozjcDR7DK7dzzB3ePKgccj"
+      },
+      "role": "user",
+      "tokenCount": 1681,
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "driveDocument": {
+        "id": "1lDkPsfeb8239NKGPnYIgwm5LI6i9y-vx"
+      },
+      "role": "user",
+      "tokenCount": 3921,
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "driveDocument": {
+        "id": "1niQWwkc_QqrcjzaAvTIadA3Ld7lxuTEa"
+      },
+      "role": "user",
+      "tokenCount": 5601,
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "driveDocument": {
+        "id": "1_1n76--7gzJ4BhEi6GdXYReqfZFPLPuP"
+      },
+      "role": "user",
+      "tokenCount": 5601,
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "driveDocument": {
+        "id": "1Tm5EmfjciO12GBw4nNXsOUuoAMOEKomV"
+      },
+      "role": "user",
+      "tokenCount": 1409,
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "driveDocument": {
+        "id": "1zdZZMwb-WWSzX6aWoAwwhRoITpmXEV87"
+      },
+      "role": "user",
+      "tokenCount": 1608,
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "driveDocument": {
+        "id": "1YL3rtpc_96L8p7WaHhYBF2pvWEoJC-mY"
+      },
+      "role": "user",
+      "tokenCount": 1917,
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "driveDocument": {
+        "id": "1wn41wiFa0oWuXvD6LX63t5X1a9qait7a"
+      },
+      "role": "user",
+      "tokenCount": 172,
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "driveDocument": {
+        "id": "1CSyk5mkSTDPZo5qReXRJoHtZqyxHoRAp"
+      },
+      "role": "user",
+      "tokenCount": 5112,
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "text": "Crie um pitch de elevador para nós, em português.\nCrie um pitch de elevador curto.",
+      "role": "user",
+      "tokenCount": 24,
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "text": "**Defining the Target**\n\nI\u0027m currently focused on defining the target for the elevator pitch, which is the \"TPM (Tudo Para Mulheres)\" app. The aim is to create a succinct, Portuguese-language pitch. I am considering the specific needs of the app to create a strong hook.\n\n\n**Analyzing the Core Components**\n\nI\u0027m now diving into the core components of an elevator pitch. I\u0027ve broken down the key information from the TPM app sources: the problem of fragmented beauty services, the solution (a one-stop marketplace), and the value proposition – convenience, curation, and empowerment. I am formulating how the core components align with the elevator pitch framework, aiming to create a strong hook. The focus is now on the first version, connecting clients with homecare beauty professionals.\n\n\n**Refining the First Draft**\n\nI\u0027m now iterating on my initial draft for the elevator pitch, focusing on streamlining the language and sharpening the core message. I am aiming for maximum impact, particularly within the Portuguese-speaking context of the TPM app. I am specifically targeting a punchier hook.\n\n\n**Crafting the Core Message**\n\nI\u0027m now focusing on crafting the core message for a short elevator pitch. The core highlights the \"Uber da beleza\" concept connecting women with homecare beauty professionals. The differentiation centers on hyper-convenience and empowering female entrepreneurs, and the closing suggests a conversation to learn more. It\u0027s concise and addresses the target audience\u0027s needs, using direct language. The focus is now on polishing this version.\n\n\n",
+      "role": "model",
+      "tokenCount": 1043,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Target**\n\nI\u0027m currently focused on defining the target for the elevator pitch, which is the \"TPM (Tudo Para Mulheres)\" app. The aim is to create a succinct, Portuguese-language pitch. I am considering the specific needs of the app to create a strong hook.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing the Core Components**\n\nI\u0027m now diving into the core components of an elevator pitch. I\u0027ve broken down the key information from the TPM app sources: the problem of fragmented beauty services, the solution (a one-stop marketplace), and the value proposition – convenience, curation, and empowerment. I am formulating how the core components align with the elevator pitch framework, aiming to create a strong hook. The focus is now on the first version, connecting clients with homecare beauty professionals.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the First Draft**\n\nI\u0027m now iterating on my initial draft for the elevator pitch, focusing on streamlining the language and sharpening the core message. I am aiming for maximum impact, particularly within the Portuguese-speaking context of the TPM app. I am specifically targeting a punchier hook.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Crafting the Core Message**\n\nI\u0027m now focusing on crafting the core message for a short elevator pitch. The core highlights the \"Uber da beleza\" concept connecting women with homecare beauty professionals. The differentiation centers on hyper-convenience and empowering female entrepreneurs, and the closing suggests a conversation to learn more. It\u0027s concise and addresses the target audience\u0027s needs, using direct language. The focus is now on polishing this version.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-03-18T23:52:31.754Z"
+    }, {
+      "text": "Com base nos materiais fornecidos e nas diretrizes do seu *Playbook of Pitches*, criei duas opções de **Elevator Pitch** para o TPM (Tudo Para Mulheres). \n\nA primeira é o modelo clássico de 30 a 45 segundos, e a segunda é uma versão ultra-curta (estilo *Tweet Pitch*), ideal para quando você tem apenas 10 ou 15 segundos para captar a atenção.\n\n### Opção 1: O Elevator Pitch Clássico (30 a 45 segundos)\n*Ideal para eventos, rodadas de networking ou conversas rápidas.*\n\n\u003e **(O Gancho / O Problema):** \"Você já parou para pensar no tempo e na energia que as mulheres perdem pulando de rede social em rede social só para encontrar e agendar um serviço de beleza em casa? Hoje, essa jornada é totalmente fragmentada e frustrante.\n\u003e \n\u003e **(A Solução):** Por isso nós criamos o **TPM — Tudo Para Mulheres**. Nós somos um marketplace, como um \u0027Uber da beleza\u0027, que conecta mulheres que precisam de serviços de *homecare* — como cabeleireiras, manicures e maquiadoras — com profissionais qualificadas da sua própria região.\n\u003e \n\u003e **(O Diferencial / Impacto):** Nosso diferencial é entregar hiperconveniência e segurança em um só lugar. E o melhor: fazemos isso fomentando o empreendedorismo feminino, dando às profissionais autônomas uma plataforma para escalar sua renda com uma taxa justa de apenas 5%. \n\u003e \n\u003e **(Fechamento / Call to Action):** Nós estamos construindo o maior ecossistema digital para a mulher moderna. Gostaria de te mostrar um protótipo do nosso aplicativo, podemos agendar uma conversa de 10 minutos nesta semana?\"\n\n---\n\n### Opção 2: O Pitch Curto / \"Tweet Pitch\" (10 a 15 segundos)\n*Ideal para aberturas rápidas, mensagens de texto ou o verdadeiro \"passeio de elevador\".*\n\n\u003e \"O **TPM (Tudo Para Mulheres)** é um aplicativo que funciona como o \u0027Uber da beleza homecare\u0027. Nós resolvemos a perda de tempo das mulheres ao conectar, em uma única plataforma, clientes que buscam conveniência para agendar serviços de beleza em casa com profissionais autônomas que querem aumentar sua renda. É hiperconveniência para quem contrata e independência financeira para quem atende.\"\n\n**Dica de Entrega (Delivery):** Ao apresentar qualquer um desses pitches, lembre-se do que diz o seu playbook: *fale com confiança e entusiasmo*. O objetivo não é explicar cada tela do app que você estruturou no Sprint, mas sim fazer a pessoa brilhar os olhos com o problema resolvido e marcar uma próxima reunião!",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 610,
+      "parts": [{
+        "text": "Com base nos materiais fornecidos e nas diretrizes do"
+      }, {
+        "text": " seu *Playbook of Pitches*, criei duas opções de **Elevator Pitch** para o TPM (Tudo Para Mul"
+      }, {
+        "text": "heres). \n\nA primeira é o modelo clássico de 30 a 45 segundos, e a segunda é"
+      }, {
+        "text": " uma versão ultra-curta (estilo *Tweet Pitch*), ideal para quando você tem apenas 10 ou "
+      }, {
+        "text": "15 segundos para captar a atenção.\n\n### Opção 1: O Elevator Pitch Clássico (30 a"
+      }, {
+        "text": " 45 segundos)\n*Ideal para eventos, rodadas de networking ou conversas rápidas.*\n\n\u003e **"
+      }, {
+        "text": "(O Gancho / O Problema):** \"Você já parou para pensar no tempo e na energia que as mulheres per"
+      }, {
+        "text": "dem pulando de rede social em rede social só para encontrar e agendar um serviço de beleza em casa? Hoje, essa"
+      }, {
+        "text": " jornada é totalmente fragmentada e frustrante.\n\u003e \n\u003e **(A Solução):** Por isso nós"
+      }, {
+        "text": " criamos o **TPM — Tudo Para Mulheres**. Nós somos um marketplace, como um \u0027Uber da beleza\u0027, que"
+      }, {
+        "text": " conecta mulheres que precisam de serviços de *homecare* — como cabeleireiras, manicures e maquiadoras —"
+      }, {
+        "text": " com profissionais qualificadas da sua própria região.\n\u003e \n\u003e **(O Diferencial / Impacto):**"
+      }, {
+        "text": " Nosso diferencial é entregar hiperconveniência e segurança em um só lugar. E o melhor: fazemos isso foment"
+      }, {
+        "text": "ando o empreendedorismo feminino, dando às profissionais autônomas uma plataforma para escalar sua renda com uma taxa justa de"
+      }, {
+        "text": " apenas 5%. \n\u003e \n\u003e **(Fechamento / Call to Action):** Nós estamos constru"
+      }, {
+        "text": "indo o maior ecossistema digital para a mulher moderna. Gostaria de te mostrar um protótipo do nosso aplicativo"
+      }, {
+        "text": ", podemos agendar uma conversa de 10 minutos nesta semana?\"\n\n---\n\n### Opção 2: O"
+      }, {
+        "text": " Pitch Curto / \"Tweet Pitch\" (10 a 15 segundos)\n*Ideal para aberturas rápid"
+      }, {
+        "text": "as, mensagens de texto ou o verdadeiro \"passeio de elevador\".*\n\n\u003e \"O **TPM (Tudo"
+      }, {
+        "text": " Para Mulheres)** é um aplicativo que funciona como o \u0027Uber da beleza homecare\u0027. Nós resolvemos a perda de tempo das mulheres"
+      }, {
+        "text": " ao conectar, em uma única plataforma, clientes que buscam conveniência para agendar serviços de beleza em casa com"
+      }, {
+        "text": " profissionais autônomas que querem aumentar sua renda. É hiperconveniência para quem contrata e independência financeira para quem"
+      }, {
+        "text": " atende.\"\n\n**Dica de Entrega (Delivery):** Ao apresentar qualquer um desses pitches, lembre-se"
+      }, {
+        "text": " do que diz o seu playbook: *fale com confiança e entusiasmo*. O objetivo não é explicar cada tela do app que"
+      }, {
+        "text": " você estruturou no Sprint, mas sim fazer a pessoa brilhar os olhos com o problema resolvido e marcar uma"
+      }, {
+        "text": " próxima reunião!"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-18T23:52:58.262Z"
+    }, {
+      "text": "Esse pitch parece estar vendendo para um homem.\nO que eu gostei é a palavra \"rapidez\", focar mais no público feminino,  tem que falar a linguagem do público, falar algo tipo \"Minha irmã\". Foque em rapport, falta rapport, tá muito técnico.\n\nDores do público:\nA dor da correria de ser mãe e profissional\nA dor de não conseguir ou conhecer uma boa profissional\nA beleza é superficial, o nosso negócio é sobre amor-próprio e autocuidado.\n\nAgora crie um pitch com esses dados\n",
+      "role": "user",
+      "tokenCount": 118,
+      "createTime": "2026-03-19T00:11:57.040Z"
+    }, {
+      "text": "**Refining Approach**\n\nI\u0027ve been analyzing the feedback on my previous attempts. I need to pivot away from a technical, impersonal tone. I should focus on building rapport and selling the \"rapidez\" element, as it resonated well. I\u0027m aiming for a much more engaging style this time.\n\n\n**Prioritizing Rapport and Empathy**\n\nI\u0027m now fully immersed in understanding the target audience – women, specifically balancing career and motherhood. I\u0027m centering my approach on building genuine rapport and speaking their language, using relatable examples like \"Minha irmã.\" The core focus is on pain points like the constant rush and the difficulty of finding reliable professionals. My value proposition centers around self-love and self-care. I am working on creating new pitches incorporating these components and applying a deconstructed pitch structure.\n\n\n**Crafting Compelling Narrative**\n\nI\u0027m developing the emotional pitch, the \"sister\" narrative is pivotal, aiming for immediate relatability. I\u0027m carefully outlining the problem: the perpetual time constraints, the lack of trusted options, and the missed self-care opportunities for busy women. I\u0027m highlighting the value proposition as a bridge to self-care through trusted, at-home beauty services. My goal is to use the story to get a clear \"Call to Action.\"\n\n\n**Refining The Value Proposition**\n\nI\u0027m now honing in on a more direct, conversational pitch format, keeping the sister narrative as an undercurrent. The focus is on articulating the core problem, the time constraints and trust issues, quickly and warmly. I\u0027m framing TPM as the solution: connecting women with validated beauty professionals in a comfortable setting. The aim is to get a quick pitch with a clear call to action. I want to convey how this app helps women regain time and self-esteem.\n\n\n**Focusing on Core Messaging**\n\nI\u0027m now zeroing in on the essence of the value proposition. My pitch will emphasize the core problem: the relentless demands of motherhood and career, and the difficulty finding reliable beauty professionals who offer homecare. The core value of the offer isn\u0027t just a service, it\u0027s about providing *rapidez* for self-care and self-love. I\u0027ll highlight the convenience of connecting women with high-quality professionals, right at home.\n\n\n",
+      "role": "model",
+      "tokenCount": 1226,
+      "isThought": true,
+      "parts": [{
+        "text": "**Refining Approach**\n\nI\u0027ve been analyzing the feedback on my previous attempts. I need to pivot away from a technical, impersonal tone. I should focus on building rapport and selling the \"rapidez\" element, as it resonated well. I\u0027m aiming for a much more engaging style this time.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Prioritizing Rapport and Empathy**\n\nI\u0027m now fully immersed in understanding the target audience – women, specifically balancing career and motherhood. I\u0027m centering my approach on building genuine rapport and speaking their language, using relatable examples like \"Minha irmã.\" The core focus is on pain points like the constant rush and the difficulty of finding reliable professionals. My value proposition centers around self-love and self-care. I am working on creating new pitches incorporating these components and applying a deconstructed pitch structure.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Crafting Compelling Narrative**\n\nI\u0027m developing the emotional pitch, the \"sister\" narrative is pivotal, aiming for immediate relatability. I\u0027m carefully outlining the problem: the perpetual time constraints, the lack of trusted options, and the missed self-care opportunities for busy women. I\u0027m highlighting the value proposition as a bridge to self-care through trusted, at-home beauty services. My goal is to use the story to get a clear \"Call to Action.\"\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining The Value Proposition**\n\nI\u0027m now honing in on a more direct, conversational pitch format, keeping the sister narrative as an undercurrent. The focus is on articulating the core problem, the time constraints and trust issues, quickly and warmly. I\u0027m framing TPM as the solution: connecting women with validated beauty professionals in a comfortable setting. The aim is to get a quick pitch with a clear call to action. I want to convey how this app helps women regain time and self-esteem.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Focusing on Core Messaging**\n\nI\u0027m now zeroing in on the essence of the value proposition. My pitch will emphasize the core problem: the relentless demands of motherhood and career, and the difficulty finding reliable beauty professionals who offer homecare. The core value of the offer isn\u0027t just a service, it\u0027s about providing *rapidez* for self-care and self-love. I\u0027ll highlight the convenience of connecting women with high-quality professionals, right at home.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-03-19T00:11:57.041Z"
+    }, {
+      "text": "Com toda a razão. O pitch anterior estava com uma roupagem de \"apresentação para fundo de investimento\", focado em modelo de negócio e taxas. Se o objetivo é gerar **conexão real (rapport)** com o seu público feminino ou com parceiras, precisamos tocar na emoção, na rotina e no propósito.\n\nAqui estão novas versões do seu Elevator Pitch, reescritas com foco total na empatia, na linguagem da mulher real e nas dores que você mencionou.\n\n### Opção 1: O Pitch Emocional e de Conexão (30 a 45 segundos)\n*Ideal para conversas, eventos voltados para mulheres ou apresentação do app para potenciais clientes e parceiras.*\n\n\u003e **(O Gancho / Rapport):** \"Eu olho para a minha irmã e vejo a realidade de quase toda mulher hoje: ela é mãe, é profissional, vive numa correria absurda e acaba sempre se deixando para depois. \n\u003e \n\u003e **(A Dor):** E o pior é que, quando ela finalmente decide tirar uma horinha para ela, esbarra em outro problema: a dificuldade de encontrar uma profissional boa e de confiança para atendê-la. Ir ao salão gasta um tempo que ela simplesmente não tem.\n\u003e \n\u003e **(O Propósito):** Nós entendemos que a beleza pela beleza é superficial. O nosso negócio, de verdade, é sobre **amor-próprio e autocuidado**.\n\u003e \n\u003e **(A Solução):** Foi por isso que criamos o **TPM — Tudo Para Mulheres**. Nós somos um aplicativo que resolve essa exaustão com **rapidez**. Com poucos cliques, conectamos mulheres que precisam dessa pausa com profissionais de beleza excelentes e validadas, que vão até o conforto da casa delas. É o seu momento de se cuidar, sem estresse e no seu tempo.\"\n\n---\n\n### Opção 2: O Pitch Curto e Direto (15 a 20 segundos)\n*Ideal para uma introdução rápida, abertura de vídeos (Reels/TikTok) ou para puxar assunto.*\n\n\u003e \"Sabe aquela correria insana de tentar dar conta dos filhos, do trabalho e da casa, e no fim não sobrar tempo nem pra fazer as unhas? E, quando sobra, você nem sabe onde achar uma profissional de confiança? \n\u003e \n\u003e O **TPM** nasceu para resolver isso. Nós conectamos você a profissionais de beleza excelentes que vão até a sua casa com total **rapidez** e segurança. Porque, para nós, a estética é só um detalhe; o que nós entregamos na sua porta é amor-próprio e autocuidado.\"\n\n---\n\n**Por que essa estrutura funciona muito melhor para o seu público?**\n1. **O \"Sabe a minha irmã?\"** humaniza o problema imediatamente. Quem está ouvindo vai pensar: *\"Eu sou essa irmã\"* ou *\"Eu também tenho uma irmã/amiga assim\"*.\n2. **Substitui a técnica pela empatia:** Trocamos termos como \"marketplace\" e \"ecossistema digital\" por \"conforto da sua casa\" e \"rapidez\".\n3. **Eleva o valor do serviço:** Ao dizer que *\"beleza é superficial, entregamos amor-próprio\"*, você deixa de vender apenas um agendamento de manicure e passa a vender bem-estar e saúde mental para mulheres exaustas. Isso gera um *rapport* poderoso.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 738,
+      "parts": [{
+        "text": "Com toda a razão."
+      }, {
+        "text": " O pitch anterior estava com uma roupagem de \"apresentação para fundo de investimento\", focado em modelo de negócio e taxas"
+      }, {
+        "text": ". Se o objetivo é gerar **conexão real (rapport)** com o seu público feminino ou com parceiras, precisamos tocar"
+      }, {
+        "text": " na emoção, na rotina e no propósito.\n\nAqui estão novas versões do seu Elevator Pitch, reescritas com foco"
+      }, {
+        "text": " total na empatia, na linguagem da mulher real e nas dores que você mencionou.\n\n### Opção 1:"
+      }, {
+        "text": " O Pitch Emocional e de Conexão (30 a 45 segundos)\n*Ideal para conversas, eventos"
+      }, {
+        "text": " voltados para mulheres ou apresentação do app para potenciais clientes e parceiras.*\n\n\u003e **(O Gancho / Rapport):"
+      }, {
+        "text": "** \"Eu olho para a minha irmã e vejo a realidade de quase toda mulher hoje: ela é mãe, é"
+      }, {
+        "text": " profissional, vive numa correria absurda e acaba sempre se deixando para depois. \n\u003e \n\u003e **(A"
+      }, {
+        "text": " Dor):** E o pior é que, quando ela finalmente decide tirar uma horinha para ela, esbarra em outro"
+      }, {
+        "text": " problema: a dificuldade de encontrar uma profissional boa e de confiança para atendê-la. Ir ao salão gasta um"
+      }, {
+        "text": " tempo que ela simplesmente não tem.\n\u003e \n\u003e **(O Propósito):** Nós entendemos que a beleza"
+      }, {
+        "text": " pela beleza é superficial. O nosso negócio, de verdade, é sobre **amor-próprio e autocuidado**.\n"
+      }, {
+        "text": "\u003e \n\u003e **(A Solução):** Foi por isso que criamos o **TPM — Tudo Para Mulheres"
+      }, {
+        "text": "**. Nós somos um aplicativo que resolve essa exaustão com **rapidez**. Com poucos cliques, conectamos mulheres que"
+      }, {
+        "text": " precisam dessa pausa com profissionais de beleza excelentes e validadas, que vão até o conforto da casa delas. É o seu"
+      }, {
+        "text": " momento de se cuidar, sem estresse e no seu tempo.\"\n\n---\n\n### Opção 2: O Pitch Curto e"
+      }, {
+        "text": " Direto (15 a 20 segundos)\n*Ideal para uma introdução rápida, abertura de vídeos ("
+      }, {
+        "text": "Reels/TikTok) ou para puxar assunto.*\n\n\u003e \"Sabe aquela correria insana de tentar dar conta dos"
+      }, {
+        "text": " filhos, do trabalho e da casa, e no fim não sobrar tempo nem pra fazer as unhas? E,"
+      }, {
+        "text": " quando sobra, você nem sabe onde achar uma profissional de confiança? \n\u003e \n\u003e O **TPM**"
+      }, {
+        "text": " nasceu para resolver isso. Nós conectamos você a profissionais de beleza excelentes que vão até a sua casa com total **rapidez"
+      }, {
+        "text": "** e segurança. Porque, para nós, a estética é só um detalhe; o que nós entregamos na sua porta"
+      }, {
+        "text": " é amor-próprio e autocuidado.\"\n\n---\n\n**Por que essa estrutura funciona muito melhor para o seu público?"
+      }, {
+        "text": "**\n1. **O \"Sabe a minha irmã?\"** humaniza o problema imediatamente. Quem está ouvindo vai"
+      }, {
+        "text": " pensar: *\"Eu sou essa irmã\"* ou *\"Eu também tenho uma irmã/amiga assim\"*.\n2."
+      }, {
+        "text": " **Substitui a técnica pela empatia:** Trocamos termos como \"marketplace\" e \"ecossistema digital"
+      }, {
+        "text": "\" por \"conforto da sua casa\" e \"rapidez\".\n3. **Eleva o valor do serviço"
+      }, {
+        "text": ":** Ao dizer que *\"beleza é superficial, entregamos amor-próprio\"*, você deixa de vender apenas"
+      }, {
+        "text": " um agendamento de manicure e passa a vender bem-estar e saúde mental para mulheres exaustas. Isso gera um *"
+      }, {
+        "text": "rapport* poderoso."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-19T00:12:25.911Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

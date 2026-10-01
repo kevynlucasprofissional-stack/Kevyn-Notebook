@@ -1,0 +1,1 @@
+Taxa de emissão que será renderizada.

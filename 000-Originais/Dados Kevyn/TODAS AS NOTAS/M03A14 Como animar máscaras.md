@@ -1,0 +1,3 @@
+Basta marcar o reloginho do "Mask Path" nas propriedades da máscara. E pronto, agora pode animar a máscara através de KeyFrames e movimento de nós.
+Clicar duas vezes em qualquer nó da máscara seleciona a máscara toda.
+Dá para substituir um arquivo da timeline por um outro do projeto. Basta selecionar o arquivo a ser substituido na timeline, selecionar o arquivo que vai substituir no projeto, e arrastar o arquivo do projeto para a timeline segundo Alt, sobrepondo o arquivo a ser substituido.

@@ -1,0 +1,1 @@
+É possível criar uma seleção por cores usando o lumetri color. Basta ir em HSL Secondary, na opção "Key", ótimo para fazer ajustes em cores específicas de vídeos.

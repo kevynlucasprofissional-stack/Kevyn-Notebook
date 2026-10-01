@@ -1,0 +1,7 @@
+﻿"origem","destino","tipo","justificativa","evidencia","confianca","ciclo","acao"
+"Marketing comunicacao e processos","SRC-000079","documenta","estudo aplicado de oferta para WSI","UNI-000057","medio","CICLO-0025","criar"
+"Marketing comunicacao e processos","SRC-000082","contextualiza","calibragem comunicacional de risco no Svelte","UNI-000060","medio","CICLO-0025","criar"
+"Salus e Desafio Svelte","SRC-000080","documenta","enquadramento inicial do DS21","UNI-000058","medio_alto","CICLO-0025","criar"
+"Salus e Desafio Svelte","SRC-000082","contextualiza","alinhamento comercial sobre contra-indicacoes","UNI-000060","medio","CICLO-0025","criar"
+"Narrativa de grandeza e vida comum","SRC-000081","documenta","autorrelato simbolico sobre vida comum","UNI-000059","medio","CICLO-0025","criar"
+"notas centrais do nucleo","blocos AUTO-SINTETIZACAO","contextualiza","remocao de links automaticos amplos nao curados","UNI-000056","alto","CICLO-0025","remover"

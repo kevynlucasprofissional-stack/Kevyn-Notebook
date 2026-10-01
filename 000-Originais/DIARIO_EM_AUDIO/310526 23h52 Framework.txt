@@ -1,0 +1,100 @@
+Tá, vamos lá pro framework de como é que eu vou fazer isso no comportamento. De analisar, de acompanhar o meu comportamento. O que que acontece? Todo objetivo, todo comportamento que eu queira começar, que eu queira tornar natural, que eu queira colocar na minha rotina, ele primeiro precisa ser smart.
+E segundo, que eu preciso acompanhar isso e que eu preciso usar a psicologia do poder, como definido por Marko Foucault, pra ser eu mesmo o juiz e o carrasco da minha própria lei.
+O que que isso significa? Que eu vou acompanhar as métricas do meu comportamento, se ele não tiver sendo, se ele não tiver conseguindo me aproximar da meta que eu determinei pra mim mesmo, eu vou me punir, branda, só que constantemente, até que o comportamento se torne natural.
+Até que eu molde o meu comportamento.
+O framework pra isso é, eu falo um áudio, eu gravo um áudio aqui pelo Windows mesmo, falando tudo que eu quero transformar em comportamento, falando o que que eu tô observando no meu comportamento, o que que, tipo assim, eu vou, eu vou ter, obviamente que eu vou ter definido antes, né, tipo, uma meta, uma meta de comportamento.
+Aí, primeiro passo, definição de meta de comportamento.
+Segundo passo, é...
+Tudo por áudio.
+Pra ser mais rápido.
+E até pra conseguir captar as nuances também.
+Da minha voz, dos meus atos falhos, tudo.
+Definição de meta de comportamento.
+E...
+Aí eu faço a transcrição.
+Então, penso pra amanhã organizar isso pra mim como plano de ação, já considerando metas smart, já pegando os comportamentos que precisam.
+Precisam ser mais smart.
+E depois criando uma...
+Eu vou usar o Trello como minha ferramenta de organização principal.
+Principalmente por causa que tem como exportar os dados dele depois.
+Como, como JSON.
+Tá, eu vou utilizar o Trello, então...
+A IA, que eu vou fazer isso, precisa tá...
+Precisa ter esse contexto, por causa que ela precisa me entregar tudo pronto, já que eu vou fazer isso.
+Precisa ter esse contexto, por causa que ela precisa me entregar tudo pronto, já que eu vou fazer isso.
+Precisa ter esse contexto, por causa que ela precisa me entregar tudo pronto, já que eu vou fazer isso.
+Precisa ter esse contexto, por causa que ela precisa me entregar tudo pronto, já que eu vou fazer isso.
+Precisa ter esse contexto, por causa que ela precisa me entregar tudo pronto, já que eu vou fazer isso.
+já para eu encaminhar para o trelo, entendeu?
+Tipo, a lógica dos cartões já pronta.
+E para isso também a AI, eu gostaria que ela fizesse uma pesquisa na web
+para ver quais que são as melhores práticas para eu conseguir fazer isso
+com mais governança, com mais gestão e com mais estratégia.
+Tá, então eu vou gravar um áudio falando tudo o que eu quero fazer,
+tudo o que eu quero transformar em comportamento,
+e aí depois eu faço um acompanhamento, depois eu retorno em um outro momento,
+falo o que eu observei, o que eu consegui alcançar daquele comportamento
+que eu defini como meta e o que eu não consegui ainda.
+E aí eu...
+E o que eu não consegui ainda.
+Aí, de acordo com esses novos dados, o que foi feito e o que não foi feito,
+a gente traça um novo plano de ação.
+Visando fazer o que ainda não foi feito,
+e reforçar novos comportamentos, ou criar um plano para continuar,
+ou intensificar comportamentos já estabelecidos, entendeu?
+Tudo vai girar em torno de comportamento observado.
+Tem que girar em torno de comportamento observado.
+Eu preciso criar um...
+um framework para eu já deixar isso protocolado,
+para eu não precisar pensar depois em como é que eu vou fazer isso.
+Então, faz o seguinte.
+Eu preciso de um fluxo de prompts.
+É para todos os momentos que eu for enviar alguma coisa para IA.
+Tipo, eu vou... Primeiro eu vou gravar aquele áudio falando quais que são as minhas metas
+de...
+de comportamento, entendeu? Quais que são as minhas metas de comportamento observável, o que que eu quero atingir.
+E aí, eu preciso... Eu vou pegar esse áudio e enviar para IA, e aí eu tenho que ter um prompt pronto para IA já saber o que fazer com esse áudio.
+Aí, esse é a parte 1. Aí, na parte 2, eu vou... Vai ser o acompanhamento, onde eu vou falar o que que eu consegui alcançar aquelas metas.
+Ah...
+Eu vou ter que enviar um contexto também, por acaso que provavelmente vai ser o novo chat, né?
+Então, o prompt 1, ele tem que ter isso, ele tem que ter um...
+Ele tem que...
+Tanto me ajudar a organizar isso para eu mandar para o Trello, para eu conseguir acompanhar,
+organizar as metas que eu...
+que eu defini... Me ajudar a organizar as metas que eu defini para o...
+pelo Trello.
+Me ajudar a organizar as metas que eu defini no Trello, tipo, ela tem que me entregar...
+Meio que os cartões prontos, entendeu?
+Mas ela também tem que dar a instrução para o... para ir...
+O prompt, ele tem que dar a instrução para IA, para ela criar um resumo curto,
+para eu colar esse resumo na parte 2 como contexto, entendeu?
+Aí, eu vou... Aí, na parte 2, eu vou colar o contexto.
+Eu vou... Eu vou...
+Gravar um áudio falando, tipo assim, o que que da parte 1 eu consegui cumprir, o que que eu não cumpri, entendeu?
+E aí, tem que ter um prompt pronto também já para a parte 2.
+Para instruir a IA o que fazer com o contexto adicionado, com um áudio...
+Que eu encaminhei, falando o que que foi feito, o que que não foi feito.
+Aí, tem que ter um prompt para a IA já entender o que fazer com esses dados na parte 2, entendeu?
+Para ela traçar um novo plano de ação, entendeu? Fazer um...
+E já...
+Isso eu vou fazer semanalmente.
+Não, eu vou fazer diariamente.
+Não, eu vou fazer diariamente, na verdade.
+É, aí... Aí, na parte 2...
+Porque depois que eu fizer a partinha 1 uma vez, eu acho que vai ser eternamente parte 2, né?
+Vai... Depois que eu fizer a definição das primeiras metas, aí vai ser uma...
+Eternamente uma parte 2. Vai ser sempre uma parte 2.
+Tipo... Eu vou estar constantemente revisando as metas que não foram feitas e tentando estabelecer os próximos passos.
+É...
+Aí, nessa parte 2 é eterna, eu vou estar sempre colocando o contexto.
+Colocando o meu áudio com a minha análise da situação atual e eu também vou estar colocando o arquivo JSON do trelo atual.
+Aí, o prompt dessa parte 2 é eterna, ele tem que instruir a IA do que fazer com esses dados.
+Analisar tudo e me ajudar a reorganizar o plano para...
+Para...
+Para...
+Para...
+Para...
+Para...
+Para eu estar em constante melhoria. Para eu conseguir alcançar as metas que ainda não foram alcançadas e que já foram definidas como metas.
+E como incluir as novas metas de comportamento no trelo atual.
+É isso. Eu acho que é isso.

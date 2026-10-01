@@ -1,0 +1,1 @@
+Conteúdo gerado pelo usuário (UGC) é ==qualquer conteúdo criado por consumidores sobre uma marca, em vez da própria marca==. Pode ser em forma de fotos, vídeos, depoimentos, avaliações, comentários, entre outros.

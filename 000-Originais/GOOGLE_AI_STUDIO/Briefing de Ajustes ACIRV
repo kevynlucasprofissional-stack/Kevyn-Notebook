@@ -1,0 +1,159 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "environmentMode": "new"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveImage": {
+        "id": "13Z5eMws0WdbslO3FMLI-XDxWcKtY6XAy"
+      },
+      "role": "user",
+      "tokenCount": 1093,
+      "createTime": "2026-05-27T19:57:21.296Z"
+    }, {
+      "driveVideo": {
+        "id": "1ftXRXerVku0elEBB8cdf5TTMjsbz9X5C"
+      },
+      "role": "user",
+      "tokenCount": 3812,
+      "createTime": "2026-05-27T19:57:21.296Z"
+    }, {
+      "driveDocument": {
+        "id": "1BOw3GuWjGw_RSHElJ5GDKNCtkoGjuS9W"
+      },
+      "role": "user",
+      "tokenCount": 1243,
+      "createTime": "2026-05-27T19:57:21.296Z"
+    }, {
+      "text": "Eu printei o pedido de ajuste da Vivi, o ajuste é sobre o video em anexo. Coloquei um arquivo de contexto sobre quem é a ACIRV.\nCria para mim um briefing desse ajuste que a Vivi pediu para eu passar para a designer.",
+      "role": "user",
+      "tokenCount": 56,
+      "createTime": "2026-05-27T19:57:21.296Z"
+    }, {
+      "text": "**Considering the Input**\n\nI\u0027m currently analyzing the request. The primary input is an image, specifically a screenshot of a WhatsApp conversation. Within that screenshot is a video frame\u0027s thumbnail, including the text \"Conexões que valem negócios. Eventos que geram oportunidades.\"\n\n\n**Analyzing the Event Details**\n\nI\u0027ve moved on to understanding the event. The video at 00:16-00:18 appears directly relevant to the WhatsApp screenshot. Vivi\u0027s comments specifically address the \"Conecta\" screen, but there are multiple iterations of this scene in the video. I\u0027m focusing on \"Rodadas de negócios e networking. SUDOEXPO 2026\". The context document confirms Sudoexpo\u0027s significance.\n\n\n**Refining the Brief**\n\nI\u0027m now refining the briefing for the designer based on Vivi\u0027s feedback. I\u0027ve pinpointed specific areas in the video and linked them to the WhatsApp screenshot. For example, the need to remove \"2026\" from the Sudoexpo logo at 00:16 and 00:29 is clear, and I\u0027ll recommend the same change across all instances of the logo in the video, or at the least, the one in the screenshot. I\u0027ll also add a request to incorporate \"Happy hour\" into the \"Rodadas de negócios e networking\" text.\n\n\n**Integrating \"Conecta Saúde\"**\n\nI\u0027m now determining how to incorporate \"Conecta Saúde.\" The focus is now on the \"Eventos\" screen and considering how to best represent this specific sub-brand. Should it be added as a logo alongside Sudoexpo, or integrated into the existing text like the headline? It\u0027s possible she wants the addition on a completely new scene, or alternatively, a modification of the current \"Conecta\" screen at `00:25`. But, considering the screenshot, the safest bet is the original frame.\n\n\n**Structuring the Brief**\n\nI\u0027m now outlining a clear and professional brief. I\u0027ve chosen a concise title, set the context for the designer, and specified the target scene for adjustments, which is around 00:16-00:18. My actionable steps include removing \"2026\" from the Sudoexpo logo and adding \"Happy hour\" to the list. I\u0027ll also clarify the integration of \"Conecta Saúde\" for this same frame, likely as a logo or text. My plan is to also make the designer check frame at 00:29.\n\n\n**Clarifying the Text Details**\n\nI\u0027m now zeroing in on the text. I need to be precise about adding \"Happy hour\" to the bullet point, making it \"Rodadas de negócios, networking e happy hour.\" The \"Conecta Saúde\" addition requires more clarity. The document mentions \"Conecta ACIRV / Conecta Saúde\", and so I am instructing the designer to include \"Conecta Saúde\" in the event list with clear hierarchy to indicate a relationship to Sudoexpo. Also, I think there may have been confusion in how to phrase my first note, so I will ensure the designer knows I mean the \"Conecta\" screen at 00:25, and potentially the frame in the screenshot.\n\n\n",
+      "role": "model",
+      "tokenCount": 1625,
+      "isThought": true,
+      "parts": [{
+        "text": "**Considering the Input**\n\nI\u0027m currently analyzing the request. The primary input is an image, specifically a screenshot of a WhatsApp conversation. Within that screenshot is a video frame\u0027s thumbnail, including the text \"Conexões que valem negócios. Eventos que geram oportunidades.\"\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing the Event Details**\n\nI\u0027ve moved on to understanding the event. The video at 00:16-00:18 appears directly relevant to the WhatsApp screenshot. Vivi\u0027s comments specifically address the \"Conecta\" screen, but there are multiple iterations of this scene in the video. I\u0027m focusing on \"Rodadas de negócios e networking. SUDOEXPO 2026\". The context document confirms Sudoexpo\u0027s significance.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Brief**\n\nI\u0027m now refining the briefing for the designer based on Vivi\u0027s feedback. I\u0027ve pinpointed specific areas in the video and linked them to the WhatsApp screenshot. For example, the need to remove \"2026\" from the Sudoexpo logo at 00:16 and 00:29 is clear, and I\u0027ll recommend the same change across all instances of the logo in the video, or at the least, the one in the screenshot. I\u0027ll also add a request to incorporate \"Happy hour\" into the \"Rodadas de negócios e networking\" text.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Integrating \"Conecta Saúde\"**\n\nI\u0027m now determining how to incorporate \"Conecta Saúde.\" The focus is now on the \"Eventos\" screen and considering how to best represent this specific sub-brand. Should it be added as a logo alongside Sudoexpo, or integrated into the existing text like the headline? It\u0027s possible she wants the addition on a completely new scene, or alternatively, a modification of the current \"Conecta\" screen at `00:25`. But, considering the screenshot, the safest bet is the original frame.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Brief**\n\nI\u0027m now outlining a clear and professional brief. I\u0027ve chosen a concise title, set the context for the designer, and specified the target scene for adjustments, which is around 00:16-00:18. My actionable steps include removing \"2026\" from the Sudoexpo logo and adding \"Happy hour\" to the list. I\u0027ll also clarify the integration of \"Conecta Saúde\" for this same frame, likely as a logo or text. My plan is to also make the designer check frame at 00:29.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Clarifying the Text Details**\n\nI\u0027m now zeroing in on the text. I need to be precise about adding \"Happy hour\" to the bullet point, making it \"Rodadas de negócios, networking e happy hour.\" The \"Conecta Saúde\" addition requires more clarity. The document mentions \"Conecta ACIRV / Conecta Saúde\", and so I am instructing the designer to include \"Conecta Saúde\" in the event list with clear hierarchy to indicate a relationship to Sudoexpo. Also, I think there may have been confusion in how to phrase my first note, so I will ensure the designer knows I mean the \"Conecta\" screen at 00:25, and potentially the frame in the screenshot.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-05-27T19:57:21.296Z"
+    }, {
+      "text": "Com base no print da conversa com a Vivi, no vídeo atual e no documento de contexto da ACIRV, elaborei um briefing claro e direto para você enviar à sua equipe de design/edição de vídeo. \n\nO foco principal das alterações solicitadas pela Vivi concentra-se na cartela que aparece aos **00:16 segundos** do vídeo.\n\nAqui está o modelo de briefing pronto para copiar e colar:\n\n***\n\n**Assunto: Pedido de Ajuste - Vídeo Institucional ACIRV (Cartela de Eventos)**\n\nOlá equipe, \n\nPrecisamos fazer algumas alterações pontuais no vídeo institucional da ACIRV, especificamente na cena que fala sobre eventos e oportunidades. As alterações foram solicitadas pela Vivi com base na revisão do material.\n\n**📍 Cena a ser alterada:**\nCartela \"Eventos que geram oportunidades\" (Aparece em **00:16** no vídeo atual).\n\n**🛠️ O que precisa ser feito:**\n\n1. **Remover o ano da Sudoexpo:**\n   * **Ação:** Na logo da \"SUDOEXPO 2026\" que aparece nesta tela, **retirar o bloco com o ano \"2026\"**. Deixar apenas a tipografia principal \"SUDOEXPO\".\n   * *Atenção:* Verificar também a cartela final de \"Save the Date\" (aos **00:29**). Se a ideia for padronizar a ausência do ano agora, remover de lá também (por favor, confirmar se aplicamos a remoção na cartela final também).\n\n2. **Inclusão de texto (Happy Hour):**\n   * **Ação:** No texto de apoio abaixo do título, onde atualmente lê-se *\"Rodadas de negócios e networking\"*, precisamos acrescentar o Happy Hour.\n   * **Sugestão de novo texto:** *\"Rodadas de negócios, networking e happy hour.\"*\n\n3. **Inclusão do evento \"Conecta Saúde\":**\n   * **Ação:** A Vivi pediu para incluir o **\"Conecta Saúde\"** nesta mesma tela de eventos. Como o Conecta Saúde é uma das rodadas de negócios de alto impacto da ACIRV (conforme nosso documento de contexto), ele precisa ganhar destaque junto à Sudoexpo nesta cartela.\n   * **Sugestão de layout:** Adicionar o nome (ou a logo, se houver uma específica) do **Conecta Saúde** na área de destaque, dividindo o peso visual com a logo da Sudoexpo, já que a tela fala de \"Eventos\" no plural. \n\n**Resumo visual esperado da tela em 00:16:**\n* Título mantido: Eventos que geram oportunidades.\n* Subtítulo alterado: Rodadas de negócios, networking e happy hour.\n* Marcas em destaque: SUDOEXPO (sem o 2026) + CONECTA SAÚDE.\n\nFico no aguardo da nova versão para aprovação final! Qualquer dúvida de layout sobre como encaixar o \"Conecta Saúde\", me avisem.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 668,
+      "parts": [{
+        "text": "Com base no print da conversa"
+      }, {
+        "text": " com a Vivi, no vídeo atual e no documento de contexto da ACIRV, elaborei um briefing claro"
+      }, {
+        "text": " e direto para você enviar à sua equipe de design/edição de vídeo. \n\nO foco principal das alterações solicit"
+      }, {
+        "text": "adas pela Vivi concentra-se na cartela que aparece aos **00:16 segundos** do vídeo.\n\nAqui"
+      }, {
+        "text": " está o modelo de briefing pronto para copiar e colar:\n\n***\n\n**Assunto: Pedido de Ajuste - Vídeo Institucional"
+      }, {
+        "text": " ACIRV (Cartela de Eventos)**\n\nOlá equipe, \n\nPrecisamos fazer algumas alterações pontuais no vídeo institucional da"
+      }, {
+        "text": " ACIRV, especificamente na cena que fala sobre eventos e oportunidades. As alterações foram solicitadas pela Vivi com base"
+      }, {
+        "text": " na revisão do material.\n\n**📍 Cena a ser alterada:**\nCartela \"Eventos que geram oportunidades"
+      }, {
+        "text": "\" (Aparece em **00:16** no vídeo atual).\n\n**🛠️ O que precisa ser feito:**\n\n"
+      }, {
+        "text": "1. **Remover o ano da Sudoexpo:**\n   * **Ação:** Na logo da \"SUDOEXPO"
+      }, {
+        "text": " 2026\" que aparece nesta tela, **retirar o bloco com o ano \"2026\""
+      }, {
+        "text": "**. Deixar apenas a tipografia principal \"SUDOEXPO\".\n   * *Atenção:* Verificar também a cartela"
+      }, {
+        "text": " final de \"Save the Date\" (aos **00:29**). Se a ideia for padronizar a aus"
+      }, {
+        "text": "ência do ano agora, remover de lá também (por favor, confirmar se aplicamos a remoção na cartela final também).\n\n2"
+      }, {
+        "text": ". **Inclusão de texto (Happy Hour):**\n   * **Ação:** No texto de apoio abaixo do"
+      }, {
+        "text": " título, onde atualmente lê-se *\"Rodadas de negócios e networking\"*, precisamos acrescentar o Happy Hour.\n"
+      }, {
+        "text": "   * **Sugestão de novo texto:** *\"Rodadas de negócios, networking e happy hour.\"*\n\n3. **"
+      }, {
+        "text": "Inclusão do evento \"Conecta Saúde\":**\n   * **Ação:** A Vivi pediu para incluir o"
+      }, {
+        "text": " **\"Conecta Saúde\"** nesta mesma tela de eventos. Como o Conecta Saúde é uma das rodadas de negócios de alto impacto"
+      }, {
+        "text": " da ACIRV (conforme nosso documento de contexto), ele precisa ganhar destaque junto à Sudoexpo nesta cartela"
+      }, {
+        "text": ".\n   * **Sugestão de layout:** Adicionar o nome (ou a logo, se houver uma"
+      }, {
+        "text": " específica) do **Conecta Saúde** na área de destaque, dividindo o peso visual com a logo da Sudoexpo, já"
+      }, {
+        "text": " que a tela fala de \"Eventos\" no plural. \n\n**Resumo visual esperado da tela em 00:16"
+      }, {
+        "text": ":**\n* Título mantido: Eventos que geram oportunidades.\n* Subtítulo alterado: Rodadas de negócios"
+      }, {
+        "text": ", networking e happy hour.\n* Marcas em destaque: SUDOEXPO (sem o 2026) +"
+      }, {
+        "text": " CONECTA SAÚDE.\n\nFico no aguardo da nova versão para aprovação final! Qualquer dúvida de"
+      }, {
+        "text": " layout sobre como encaixar o \"Conecta Saúde\", me avisem."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-05-27T19:57:43.503Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

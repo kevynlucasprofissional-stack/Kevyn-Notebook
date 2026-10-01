@@ -1,0 +1,1 @@
+Para que as partículas escalonem conforme chegam ao seu fim.

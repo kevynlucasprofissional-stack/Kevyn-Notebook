@@ -1,0 +1,176 @@
+{
+  "generated_at": "2026-04-04T17:27:43-03:00",
+  "objective": "Aumentar a consistência de tags e aliases nas notas core usando apenas heurísticas de alta confiança.",
+  "source_manifest": "_staging/manifests/13-metadata-enrichment.json",
+  "summary": {
+    "targeted_files": 321,
+    "material_diff_files": 316,
+    "alias_updates": 17,
+    "tag_domains": [
+      "#cerebro-profissional",
+      "#acirv"
+    ]
+  },
+  "applied": {
+    "domain_scopes": [
+      {
+        "area": "HOME/Cérebro Profissional",
+        "tag": "#cerebro-profissional"
+      },
+      {
+        "area": "ACIRV",
+        "tag": "#acirv"
+      }
+    ],
+    "alias_updates": [
+      {
+        "file": "HOME/Cérebro Profissional/Notas/(Criativos) - Palestra sobre IA.md",
+        "aliases": [
+          "Palestra sobre IA - Criativos"
+        ]
+      },
+      {
+        "file": "HOME/Cérebro Profissional/Notas/(Palestra IA) Pitch por Ligação.md",
+        "aliases": [
+          "Pitch por Ligação"
+        ]
+      },
+      {
+        "file": "HOME/Cérebro Profissional/Notas/(Pitch Hormozi) Espaço Prema.md",
+        "aliases": [
+          "Pitch Hormozi - Espaço Prema"
+        ]
+      },
+      {
+        "file": "HOME/Cérebro Profissional/Notas/(Pitch Kevyn) - Espaço Prema.md",
+        "aliases": [
+          "Pitch Kevyn - Espaço Prema"
+        ]
+      },
+      {
+        "file": "HOME/Cérebro Profissional/Notas/(Pitch Érico) Espaço Prema.md",
+        "aliases": [
+          "Pitch Érico - Espaço Prema"
+        ]
+      },
+      {
+        "file": "HOME/Cérebro Profissional/Notas/(Planejamento) - Palestra sobre IA - 25 de Outubro.md",
+        "aliases": [
+          "Palestra sobre IA - 25 de Outubro"
+        ]
+      },
+      {
+        "file": "HOME/Cérebro Profissional/Notas/(Sugestão Alan) Palestra sobre IA - 25.md",
+        "aliases": [
+          "Palestra sobre IA - 25"
+        ]
+      },
+      {
+        "file": "HOME/Cérebro Profissional/Notas/PROMPT - Comparação notas atômicas com conteúdo original.md",
+        "aliases": [
+          "Comparação notas atômicas com conteúdo original"
+        ]
+      },
+      {
+        "file": "HOME/Cérebro Profissional/Notas/PROMPT - Criador de System Prompt para Agentes de IA.md",
+        "aliases": [
+          "Criador de System Prompt para Agentes de IA"
+        ]
+      },
+      {
+        "file": "HOME/Cérebro Profissional/Notas/PROMPT - Notas atômicas.md",
+        "aliases": [
+          "Notas atômicas"
+        ]
+      },
+      {
+        "file": "HOME/Cérebro Profissional/Notas/PROMPT - Resumo e tags.md",
+        "aliases": [
+          "Resumo e tags"
+        ]
+      },
+      {
+        "file": "HOME/Cérebro Profissional/Notas/PROMPT - System message da ESBELTA (nutrição & comportamento).md",
+        "aliases": [
+          "System message da ESBELTA"
+        ]
+      },
+      {
+        "file": "ACIRV/Notas/(Desatualizado) Padrão de qualidade do novo tom de voz.md",
+        "aliases": [
+          "Padrão de qualidade do novo tom de voz"
+        ]
+      },
+      {
+        "file": "ACIRV/Notas/(PLANEJAMENTO ANUAL) CONECTA ACIRV 2026.md",
+        "aliases": [
+          "CONECTA ACIRV 2026"
+        ]
+      },
+      {
+        "file": "ACIRV/Notas/(RELEASE) Seminário Multiplicadores de Sucesso.md",
+        "aliases": [
+          "Seminário Multiplicadores de Sucesso"
+        ]
+      },
+      {
+        "file": "ACIRV/Notas/1º Fórum de IA da ACIRV - Planejamento Social Media.md",
+        "aliases": [
+          "Planejamento Social Media"
+        ]
+      },
+      {
+        "file": "ACIRV/Notas/300326 - Notas reunião com VCOM.md",
+        "aliases": [
+          "Notas reunião com VCOM"
+        ]
+      }
+    ]
+  },
+  "pending": [
+    {
+      "file": "ACIRV/Notas/(RELATÓRIO MÉTRICAS) - Janeiro.md",
+      "reason": "Alias mensal sozinho é genérico e ambíguo."
+    },
+    {
+      "file": "ACIRV/Notas/(RELATÓRIO MÉTRICAS) - Fevereiro.md",
+      "reason": "Alias mensal sozinho é genérico e ambíguo."
+    },
+    {
+      "file": "ACIRV/Notas/(RELATÓRIO MÉTRICAS) - Março.md",
+      "reason": "Alias mensal sozinho é genérico e ambíguo."
+    },
+    {
+      "file": "ACIRV/Notas/(RELATÓRIO MÉTRICAS PARA DIRETORIA) - Janeiro.md",
+      "reason": "Alias mensal sozinho é genérico e ambíguo."
+    },
+    {
+      "file": "ACIRV/Notas/(MÉTRICAS) - 2025.md",
+      "reason": "Título curto demais para derivar um alias sem ambiguidade."
+    },
+    {
+      "file": "HOME/Cérebro Profissional/Notas/(IMRIA) - V01.md",
+      "reason": "Acrônimo local não foi expandido com confiança suficiente."
+    },
+    {
+      "file": "HOME/Cérebro Profissional/Notas/(IMRIA) - V10.md",
+      "reason": "Acrônimo local não foi expandido com confiança suficiente."
+    }
+  ],
+  "rejected_low_confidence": [
+    {
+      "file": "HOME/Cérebro Profissional/Notas/(PLANO 10K EM 15 DIAS) -.md",
+      "reason": "Nome-canônico malformado; qualquer alias aqui seria especulativo."
+    },
+    {
+      "file": "ACIRV/Notas/(1º Conecta de 2026) Planejamento.md",
+      "reason": "Apenas 'Planejamento' ficaria genérico demais para virar alias."
+    }
+  ],
+  "inconsistent_areas": [
+    "HOME/O Professor",
+    "HOME/Segundo Cérebro",
+    "HOME/Kevyn Lucas",
+    "ACIRV/Diário"
+  ]
+}

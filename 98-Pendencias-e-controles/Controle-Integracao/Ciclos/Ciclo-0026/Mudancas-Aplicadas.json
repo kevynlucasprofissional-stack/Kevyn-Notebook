@@ -1,0 +1,71 @@
+﻿[
+    {
+        "mudanca_id":  "MUD-000089",
+        "caminho":  [
+                        "04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md"
+                    ],
+        "operacao":  "ampliar",
+        "motivo":  "integrar lote curto de criativos DS21",
+        "fontes":  [
+                       "SRC-000099",
+                       "SRC-000100",
+                       "SRC-000101",
+                       "SRC-000102"
+                   ],
+        "hash_anterior":  "ver_csv_notas",
+        "hash_posterior":  "ver_csv_notas",
+        "validacao":  "lote_tratado_como_repertorio_de_campanha"
+    },
+    {
+        "mudanca_id":  "MUD-000090",
+        "caminho":  [
+                        "02-Cronologia-e-Memorias/Salus e Desafio Svelte.md"
+                    ],
+        "operacao":  "ampliar",
+        "motivo":  "integrar criativos como contexto de lancamento",
+        "fontes":  [
+                       "SRC-000099",
+                       "SRC-000100",
+                       "SRC-000101",
+                       "SRC-000102"
+                   ],
+        "hash_anterior":  "ver_csv_notas",
+        "hash_posterior":  "ver_csv_notas",
+        "validacao":  "posicionamento_do_lancamento_refinado"
+    },
+    {
+        "mudanca_id":  "MUD-000091",
+        "caminho":  [
+                        "Controle-Integracao/Manifesto-Fontes.csv",
+                        "Controle-Integracao/Matriz-Cobertura.csv"
+                    ],
+        "operacao":  "corrigir",
+        "motivo":  "promover 4 fontes para integrado apos leitura manual",
+        "fontes":  [
+                       "SRC-000099",
+                       "SRC-000100",
+                       "SRC-000101",
+                       "SRC-000102"
+                   ],
+        "hash_anterior":  "multiplos",
+        "hash_posterior":  "multiplos",
+        "validacao":  "saldo_parcial_reduzido_para_1164"
+    },
+    {
+        "mudanca_id":  "MUD-000092",
+        "caminho":  [
+                        "95-Auditorias/Estado da integracao.md",
+                        "Controle-Integracao/Estado-Integracao.json",
+                        "Controle-Integracao/Relatorio-Acumulado.md",
+                        "Controle-Integracao/Registro-de-Decisoes.md"
+                    ],
+        "operacao":  "atualizar",
+        "motivo":  "sincronizar estado e proximo item",
+        "fontes":  [
+                       "UNI-000061"
+                   ],
+        "hash_anterior":  "multiplos",
+        "hash_posterior":  "multiplos",
+        "validacao":  "proximo_item_SRC-000103"
+    }
+]

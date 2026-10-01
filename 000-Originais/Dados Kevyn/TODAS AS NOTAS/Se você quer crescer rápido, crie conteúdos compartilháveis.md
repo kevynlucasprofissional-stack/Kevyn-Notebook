@@ -1,0 +1,1 @@
+Para viralizar, você precisa criar a necessidade na pessoa de ela compartilhar o seu vídeo com alguém, para isso, crie conteúdos que faça a pessoa lembrar de alguém. Simples, mas memorável. Se você quiser crescer rápido, crie vídeos que as pessoas podem mandar para os amigos, para a família, para as pessoas que ela ama.

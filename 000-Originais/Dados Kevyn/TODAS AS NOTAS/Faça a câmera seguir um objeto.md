@@ -1,0 +1,1 @@
+Coloque a tag "Animation Tag > Target" na câmera, arraste o modelo que a câmera vai seguir para as propriedades da tag Target da câmera (Mais especificamente, arrastar para "Target Object").

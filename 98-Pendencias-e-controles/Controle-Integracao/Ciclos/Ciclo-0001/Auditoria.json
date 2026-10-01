@@ -1,0 +1,26 @@
+﻿{
+    "ciclo":  "CICLO-0001",
+    "status":  "concluido_com_gate_nao",
+    "auditorias_executadas":  [
+                                  {
+                                      "nome":  "auditar_vault.py",
+                                      "status":  "nao_executada",
+                                      "motivo":  "PyYAML indisponivel no Python padrao e no runtime empacotado"
+                                  },
+                                  {
+                                      "nome":  "auditoria_complementar_sem_dependencias",
+                                      "status":  "aprovada",
+                                      "arquivo":  "Auditoria-Complementar.json"
+                                  }
+                              ],
+    "falhas":  [
+
+               ],
+    "criado_em":  "2026-06-17T21:49:22.5653125-03:00",
+    "links_quebrados":  0,
+    "ids_duplicados":  0,
+    "basenames_duplicados":  0,
+    "observacoes":  [
+                        "Controle-Integracao excluido da auditoria de conteudo para nao confundir artefatos operacionais com notas do vault."
+                    ]
+}

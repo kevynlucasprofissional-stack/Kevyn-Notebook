@@ -1,0 +1,1 @@
+Lembre-se de sempre divulgar o produto com o seu link de afiliado, pois é com esse link que a sua comissão vai ser gerada. Este link deve levar o cliente para a página de vende.

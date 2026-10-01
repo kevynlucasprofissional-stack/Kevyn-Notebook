@@ -1,0 +1,1 @@
+Isso sugere uma oportunidade interessante: **não ensinar apenas “o que é IA” ou “como usar ChatGPT”, mas ajudar as pessoas a transformar um uso frequente, porém superficial, em aplicação concreta no trabalho.**

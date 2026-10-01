@@ -1,0 +1,65 @@
+[
+  {
+    "caminho": "04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md",
+    "operacao": "ampliar",
+    "motivo": "Restaurar proveniencia curta de SRC-000131 no projeto Salus.",
+    "fontes": "SRC-000131",
+    "hash_anterior": "65BF8D9A060AE2DC08E959E5E90695677620C00C2C2967F26757CFA525D65E42",
+    "hash_posterior": "ADDA961BC59F8C1FA97CC3BDE7EC443A67A5D97C5AE69B861AFD368BD83B1EA3",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "Controle-Integracao/Manifesto-Fontes.csv",
+    "operacao": "corrigir",
+    "motivo": "Reclassificar SRC-000131 como integrado e registrar a restauracao de proveniencia.",
+    "fontes": "SRC-000131",
+    "hash_anterior": "9E614D6C5854EDC1366B4F83E9FA28CA2352647C52AA37046BD882AFEF544B61",
+    "hash_posterior": "84771DC7D0AF62E86EB10BA97BD86A44FBAB77C25DDE14E0FE4FD2BDAC76FF16",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "Controle-Integracao/Matriz-Cobertura.csv",
+    "operacao": "corrigir",
+    "motivo": "Registrar a restauracao de proveniencia do bloco 131 na matriz de cobertura.",
+    "fontes": "SRC-000131",
+    "hash_anterior": "0A02758FDB76DD2F7EDA7C572054A821AC444F56A51F8EDE47226A4DEA2F0818",
+    "hash_posterior": "E378FE37BEBC3D6FD820EABDD303AEDB78EAE899B8B0B9C9AD716B81D9484B3E",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "Controle-Integracao/Estado-Integracao.json",
+    "operacao": "corrigir",
+    "motivo": "Avancar o estado global para o proximo item apos a restauracao do bloco 131.",
+    "fontes": "SRC-000131",
+    "hash_anterior": "A820C09294E3E6D96C2E7256352CFD1FF9B0683A04ADD8C9C793FE71A3282C7C",
+    "hash_posterior": "C8060B849C36D5E51502BC3141413F9C9102927AC92601E2A43231BD2770011C",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "95-Auditorias/Estado da integracao.md",
+    "operacao": "corrigir",
+    "motivo": "Registrar a restauracao de proveniencia do bloco 131 na nota de auditoria.",
+    "fontes": "SRC-000131",
+    "hash_anterior": "5B91F1DD546F47EE149C2C0B45DB1943572B8DE2D036D3D989B57C28F358CCB8",
+    "hash_posterior": "E8A0321E22E2A9E372848D626E962DC80B7497FCF6CC240D1487A09B7CCA86B8",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "Controle-Integracao/Relatorio-Acumulado.md",
+    "operacao": "acrescentar",
+    "motivo": "Documentar o ciclo 0033 e seu efeito sobre a proveniencia restaurada.",
+    "fontes": "SRC-000131",
+    "hash_anterior": "EC76022DEA5BFFB6C6FEC2C080DB03F221E69C58C2C767AD5A88917C1E361C6B",
+    "hash_posterior": "BEDC3EE548395CEE586817EA0FDE9CD8A0F25C6429991AEA0B4F4339882DB87A",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "Controle-Integracao/Registro-de-Decisoes.md",
+    "operacao": "acrescentar",
+    "motivo": "Registrar a decisao de restaurar a proveniencia da linha editorial final de Salus.",
+    "fontes": "SRC-000131",
+    "hash_anterior": "8A11D1984F9802B23BF33BBABB4CEEC4B351E3C99F8B7F6D345970189142094D",
+    "hash_posterior": "CCCFA01471813E5A1EE292FD65BC5FCEF221035A2DD6CDF0D59591AB91EF6D6E",
+    "resultado_validacao": "ok"
+  }
+]

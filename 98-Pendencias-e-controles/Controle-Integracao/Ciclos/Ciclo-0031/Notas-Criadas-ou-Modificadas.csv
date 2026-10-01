@@ -1,0 +1,3 @@
+"caminho","operacao","motivo","fontes","hash_anterior","hash_posterior","resultado_validacao"
+"01-Perfil-e-Autoconhecimento/Kevyn Lucas.md","ampliar","Restaurar proveniencias curtas de SRC-000121 a SRC-000123 no perfil de Kevyn.","SRC-000121; SRC-000122; SRC-000123","6CCF2638889B295D326302E56D77DDCE52849C1B92DA265CC174B5DA58D3F7E2","C5D6F83FC5418D44EEA453E02EC2A610DA19737BAA3BFA85F7B51AFE6A047375","ok"
+"04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md","ampliar","Restaurar proveniencias curtas de SRC-000124 e SRC-000125 na nota de marketing.","SRC-000124; SRC-000125","0B64C929427A10B3D15F74912454CC6F3535B566BAC1D0032559315A20554C5B","0BF4EE2B0D2292AE9510A32BCF3E32F8CF748E4542A3512927AAB09B7A7488B4","ok"

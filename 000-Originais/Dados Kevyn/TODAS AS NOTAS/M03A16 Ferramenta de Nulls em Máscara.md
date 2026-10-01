@@ -1,0 +1,1 @@
+É possível trabalhar os nós da máscara como objetos nulos. Basta selecionar a camada em que a máscara será convertida em nulos, clicar M para exibir a máscara, selecionar o Mask Path, ir em Window > Create Nulls from Path, e por fim clicar em Points Follow Nulls. E pronto, serão criados objetos nulos linkados aos nós da máscara da camada desejada. 

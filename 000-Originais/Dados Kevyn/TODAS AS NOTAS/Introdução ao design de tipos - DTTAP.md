@@ -1,0 +1,1 @@
+Enfim, letras. Dá para brincar bastante, e existem várias formas que você já conhece mais ou menos.

@@ -1,0 +1,1 @@
+Um efeito simples de transição, ele abre e fecha, também tem várias formas personalizáveis, a padrão se parece com diversas pontas, ou dentes, por isto o nome.

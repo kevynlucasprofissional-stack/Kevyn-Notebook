@@ -1,0 +1,1 @@
+Clone duplica os keyframes selecionados, se clicar segurando alt, ele duplica invertido.

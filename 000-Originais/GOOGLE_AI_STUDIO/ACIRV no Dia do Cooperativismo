@@ -1,0 +1,249 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.5-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": true,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_MEDIUM",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+    "text": "# 📘 Playbook: Como Construir um Release de Imprensa\n\n## 1. O Conceito (O que é e para que serve?)\n**O que é:** Um texto jornalístico informativo (não publicitário) enviado para a imprensa.\n**Objetivo:** Conquistar \"mídia espontânea\" (espaço editorial gratuito) em jornais, portais e blogs, ou ser utilizado por influenciadores. É a ponte entre o que acontece na sua empresa e o que vira notícia.\n\n---\n\n## 2. A Anatomia Perfeita de um Release\nPara que o jornalista aproveite seu texto, ele deve seguir uma estrutura padrão de pirâmide invertida (informação mais importante primeiro).\n\n### 🏗️ Estrutura Obrigatória\n1.  **Cabeçalho:** Local e Data (ex: *São Paulo, 21 de Novembro de 2024*).\n2.  **Título (Manchete):** Curto, direto e com verbo de ação. Deve ter valor de notícia.\n    *   *Ruim:* Nova atualização do software.\n    *   *Bom:* Empresa X lança tecnologia que reduz custos operacionais em 30%.\n3.  **Lead (1º Parágrafo):** O resumo de tudo. Deve responder aos **5 Ws**:\n    *   **Quem?** (A empresa/pessoa)\n    *   **O quê?** (O fato/novidade)\n    *   **Quando?** (Data do ocorrido/lançamento)\n    *   **Onde?** (Local)\n    *   **Por quê/Como?** (O motivo ou explicação breve)\n4.  **Corpo do Texto (Body):** Desenvolvimento da notícia. Aqui entram dados estatísticos, contexto de mercado e explicações técnicas (sem \"jargão\" difícil).\n5.  **Citação (Quote):** Uma frase aspeada de um porta-voz (CEO, Diretor ou Especialista). Isso humaniza o texto e dá opinião, algo que o jornalista adora usar para dar credibilidade.\n6.  **Serviço (Opcional, mas ideal para eventos):** Um bloco rápido com datas, horários, preços e locais.\n7.  **Boilerplate (Sobre a empresa):** Um parágrafo padrão no final que resume quem é a empresa (ex: *\"Fundada em 2010, a Empresa X é líder em...\"*).\n8.  **Contato de Imprensa:** Nome, e-mail e telefone do assessor responsável.\n\n---\n\n## 3. Passo a Passo de Execução\n\n### Fase 1: Planejamento\n*   **Defina a Pauta:** O que estou anunciando é *realmente* relevante para o público geral ou para um setor específico? (Lembre-se: Jornalista quer novidade, não propaganda).\n*   **Escolha o Tipo de Release:**\n    *   *Padrão/Institucional:* Lançamentos, fusões, novos executivos.\n    *   *De Evento:* Para convidar ou cobrir uma realização (focar no *timing*).\n    *   *Editorial/Artigo:* Opinião de um especialista sobre um tema quente no mercado.\n\n### Fase 2: Escrita (Mão na Massa)\n*   **Título:** Limite a cerca de 50-60 caracteres para não cortar no assunto do e-mail.\n*   **Tom de Voz:** Use a 3ª pessoa (\"A empresa lançou\" e não \"Nós lançamos\"). Seja objetivo. Evite adjetivos exagerados como \"incrível\", \"maravilhoso\", \"o melhor\".\n*   **SEO:** Se o objetivo for publicação em portais online, inclua palavras-chave estratégicas no título e no primeiro parágrafo.\n\n### Fase 3: Revisão\n*   **Checklist de Ouro:**\n    *   As datas e grafias de nomes estão corretas?\n    *   O link para o site/produto está funcionando?\n    *   Há imagens em alta resolução para acompanhar? (Jornalistas amam pautas que já vêm com foto pronta para publicar).\n\n---\n\n## 4. Melhores Práticas (Do\u0027s and Don\u0027ts)\n\n| ✅ O QUE FAZER | ❌ O QUE EVITAR |\n| :--- | :--- |\n| **Focar em dados:** Números e pesquisas dão credibilidade. | **Excesso de \"marketing\":** Release não é panfleto de vendas. |\n| **Facilitar a vida do jornalista:** Texto pronto para copiar e colar. | **Anexos pesados:** Nunca mande o release como anexo PDF. Cole o texto no corpo do e-mail. |\n| **Personalizar:** \"Oi [Nome do Jornalista], essa pauta é a cara da sua coluna\". | **Disparo em massa cego:** Mandar pauta de tecnologia para jornalista de esportes. |\n| **Timing:** Enviar com antecedência (para eventos) ou logo que o fato ocorre. | **Mentir ou exagerar:** Se perder a confiança do jornalista uma vez, perde para sempre. |\n\n---\n\n## 5. Estratégia de Distribuição (O \"Pulo do Gato\")\n\nDe nada adianta um texto perfeito se ele não chegar a quem publica.\n\n1.  **Segmentação de Mailing:** Crie listas específicas. Se o release é sobre Finanças, mande apenas para editores de Economia e Negócios.\n2.  **Assunto do E-mail:** É a sua única chance de ser aberto. Use o título do release ou uma variação atrativa dele.\n    *   *Dica:* Use colchetes para ajudar na identificação. Ex: `[Lançamento] Startup X recebe aporte de R$ 10mi`.\n3.  **O Corpo do E-mail:**\n    *   Cumprimente o jornalista.\n    *   Faça um \"pitch\" (resumo de 2 linhas) vendendo a pauta.\n    *   Cole o release completo logo abaixo.\n    *   Link para fotos/vídeos em uma pasta na nuvem (Drive/Dropbox).\n4.  **Follow-up:** Se não houver resposta em 24h-48h, vale um contato telefônico ou novo e-mail educado perguntando se ele recebeu o material.\n"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "Crie um release utilizando os dados abaixo, contudo, puxe o assunto um pouco mais para a participação da ACIRV no evento:\n\nA ACIRV marcou presença no Dia do Cooperativismo em Rio Verde, reforçando a importância da união, da parceria e do desenvolvimento coletivo para a nossa cidade.\n\nO presidente da ACIRV, José Carlos Cintra, e o vice-presidente @eng.gustavo.lacerda participaram desse momento especial, representando a entidade e fortalecendo o diálogo com a comunidade.\n\nNosso agradecimento a todos que pararam para cumprimentar, conversar e registrar uma foto com o José Carlos e o Gustavo. É sempre uma alegria estar perto das pessoas que fazem Rio Verde crescer.\n\nAqui, ninguém cresce isolado. A gente cresce conectado.\n\nNo último sabado (27), participamos de mais um Dia C realizado em Rio Verde! 💚\n\nFoi um dia marcado por muita interação, com roleta de prêmios, game de adivinhação com as marcas COMIGO e diversas atividades que aproximaram ainda mais a cooperativa da comunidade. 😊",
+      "role": "user",
+      "tokenCount": 238,
+      "createTime": "2026-07-08T13:30:30.765Z"
+    }, {
+      "text": "**Defining the Scope**\n\nI\u0027m now clarifying the objective: crafting a press release centered on the given data, but with a nuanced emphasis on ACIRV\u0027s contributions. I\u0027m focusing on how to best frame the information.\n\n\n**Analyzing the Event Details**\n\nI\u0027ve pinpointed the key details: the \"Dia do Cooperativismo em Rio Verde\" or \"Dia de Cooperar (Dia C)\" event, held on June 27th, 2026. I\u0027ve noted the collaborative hosts/co-organizers: UniRV, OCB/GO, and the cooperatives themselves. Now I\u0027m shifting to consider the implications of this event.\n\n\n**Focusing on ACIRV\u0027s Role**\n\nI\u0027m now zeroing in on ACIRV\u0027s participation. Specifically, I\u0027m integrating the fact that ACIRV, represented by José Carlos Cintra and Gustavo Lacerda, made a strong showing, emphasizing collaboration and local development. I\u0027m noting the interactive elements – the prize wheel and guessing game – and considering how to best highlight these in my approach. The message of interconnected growth is key.\n\n\n**Structuring the Press Release**\n\nI\u0027m now outlining the press release. I\u0027ve chosen \"Rio Verde (GO), [Data de Envio do Release]\" for the date. I\u0027m focusing on a strong title, such as \"ACIRV fortalece laços com a comunidade e apoia o Dia do Cooperativismo em Rio Verde.\" The lead paragraph is being drafted with the 5 Ws: Who (ACIRV), What (participated in Dia C), When (June 27th), and Where (Parque Lauro Martins Filho), and Why (to be written).\n\n\n**Refining the Body Copy**\n\nI\u0027m now deep into the body of the press release. I\u0027m detailing ACIRV\u0027s participation, highlighting President Cintra and VP Lacerda\u0027s presence. I\u0027m focusing on the interactive activities, the prize wheel, and guessing game with COMIGO. Importantly, I\u0027m integrating the core message: \"Aqui, ninguém cresce isolado. A gente cresce conectado.\" It emphasizes the vision of interconnected growth and collaboration. I\u0027m aiming for a professional tone throughout the text.\n\n\n**Crafting the Narrative**\n\nI\u0027m now revising the narrative. I\u0027m focusing specifically on ACIRV\u0027s strategic participation in the Dia C event and aligning the release to highlight their investment in Rio Verde\u0027s development. I\u0027m prioritizing the connection between ACIRV and the community. I\u0027m structuring the narrative around ACIRV\u0027s effort to integrate with local initiatives and partnerships, rather than a broad event overview. I\u0027m drafting the title and subtitles now.\n\n\n**Highlighting ACIRV\u0027s Message**\n\nI am now focusing on refining the press release body to incorporate the core message, which focuses on ACIRV\u0027s presence at the event and how it highlights their organizational view of collaboration and the idea that economic and social growth depends on cooperation. I\u0027m showcasing how I want to stress the value of their space for visitor integration and engagement through the various activities offered, such as the prize wheel and the guessing game with COMIGO. I\u0027m working to make ACIRV\u0027s participation meaningful and impactful.\n\n\n**Emphasizing ACIRV\u0027s Community Ties**\n\nI\u0027m now incorporating ACIRV\u0027s deepened community ties. This goes beyond institutional support; it emphasizes direct engagement with Rio Verde\u0027s economic drivers. Highlighting the physical presence of the directors, including interactions and photos, will solidify the message of a connected business ecosystem. I\u0027m also inserting a direct quote from President José Carlos Cintra, emphasizing ACIRV\u0027s commitment to collective development.\n\n\n",
+      "role": "model",
+      "tokenCount": 2330,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Scope**\n\nI\u0027m now clarifying the objective: crafting a press release centered on the given data, but with a nuanced emphasis on ACIRV\u0027s contributions. I\u0027m focusing on how to best frame the information.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing the Event Details**\n\nI\u0027ve pinpointed the key details: the \"Dia do Cooperativismo em Rio Verde\" or \"Dia de Cooperar (Dia C)\" event, held on June 27th, 2026. I\u0027ve noted the collaborative hosts/co-organizers: UniRV, OCB/GO, and the cooperatives themselves. Now I\u0027m shifting to consider the implications of this event.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Focusing on ACIRV\u0027s Role**\n\nI\u0027m now zeroing in on ACIRV\u0027s participation. Specifically, I\u0027m integrating the fact that ACIRV, represented by José Carlos Cintra and Gustavo Lacerda, made a strong showing, emphasizing collaboration and local development. I\u0027m noting the interactive elements – the prize wheel and guessing game – and considering how to best highlight these in my approach. The message of interconnected growth is key.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Press Release**\n\nI\u0027m now outlining the press release. I\u0027ve chosen \"Rio Verde (GO), [Data de Envio do Release]\" for the date. I\u0027m focusing on a strong title, such as \"ACIRV fortalece laços com a comunidade e apoia o Dia do Cooperativismo em Rio Verde.\" The lead paragraph is being drafted with the 5 Ws: Who (ACIRV), What (participated in Dia C), When (June 27th), and Where (Parque Lauro Martins Filho), and Why (to be written).\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Body Copy**\n\nI\u0027m now deep into the body of the press release. I\u0027m detailing ACIRV\u0027s participation, highlighting President Cintra and VP Lacerda\u0027s presence. I\u0027m focusing on the interactive activities, the prize wheel, and guessing game with COMIGO. Importantly, I\u0027m integrating the core message: \"Aqui, ninguém cresce isolado. A gente cresce conectado.\" It emphasizes the vision of interconnected growth and collaboration. I\u0027m aiming for a professional tone throughout the text.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Crafting the Narrative**\n\nI\u0027m now revising the narrative. I\u0027m focusing specifically on ACIRV\u0027s strategic participation in the Dia C event and aligning the release to highlight their investment in Rio Verde\u0027s development. I\u0027m prioritizing the connection between ACIRV and the community. I\u0027m structuring the narrative around ACIRV\u0027s effort to integrate with local initiatives and partnerships, rather than a broad event overview. I\u0027m drafting the title and subtitles now.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Highlighting ACIRV\u0027s Message**\n\nI am now focusing on refining the press release body to incorporate the core message, which focuses on ACIRV\u0027s presence at the event and how it highlights their organizational view of collaboration and the idea that economic and social growth depends on cooperation. I\u0027m showcasing how I want to stress the value of their space for visitor integration and engagement through the various activities offered, such as the prize wheel and the guessing game with COMIGO. I\u0027m working to make ACIRV\u0027s participation meaningful and impactful.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Emphasizing ACIRV\u0027s Community Ties**\n\nI\u0027m now incorporating ACIRV\u0027s deepened community ties. This goes beyond institutional support; it emphasizes direct engagement with Rio Verde\u0027s economic drivers. Highlighting the physical presence of the directors, including interactions and photos, will solidify the message of a connected business ecosystem. I\u0027m also inserting a direct quote from President José Carlos Cintra, emphasizing ACIRV\u0027s commitment to collective development.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-07-08T13:30:30.765Z"
+    }, {
+      "text": "**SUGESTÃO DE PAUTA / RELEASE DE IMPRENSA**\n\n**Para divulgação imediata**  \n*Rio Verde (GO), [Inserir Data]*\n\n---\n\n### **ACIRV reforça integração comunitária e parcerias locais durante participação ativa no Dia do Cooperativismo**\n\n*Com a presença de sua diretoria, entidade promoveu ações interativas e diálogo direto com o público, destacando a união de forças como motor para o desenvolvimento de Rio Verde.*\n\n**RIO VERDE (GO)** – Com o objetivo de estreitar o diálogo com a sociedade e reafirmar o valor das conexões que impulsionam o desenvolvimento regional, a Associação Comercial e Industrial de Rio Verde (ACIRV) marcou presença ativa no Dia do Cooperativismo (Dia C). Realizado no último sábado (27) em Rio Verde, o evento reuniu a comunidade, cooperativas e entidades locais em uma celebração voltada à união e ao desenvolvimento coletivo.\n\nA participação da ACIRV no evento buscou consolidar o papel da entidade como uma ponte entre o setor produtivo e a população. Representando a associação, o presidente da ACIRV, José Carlos Cintra, e o vice-presidente, Gustavo Lacerda, acompanharam de perto as atividades e interagiram com os visitantes e parceiros estratégicos.\n\nDurante a programação, a ACIRV promoveu uma série de dinâmicas para aproximar a instituição do público. Entre as atividades, destacaram-se uma roleta de prêmios e um game de adivinhação em parceria com marcas tradicionais do município, como a cooperativa COMIGO. As atrações proporcionaram momentos de descontração e lazer aos participantes do Dia C.\n\nPara a diretoria da associação, a presença em campo reforça o lema de que o crescimento econômico e social não ocorre de forma isolada.\n\n\u003e *\"Participar do Dia do Cooperativismo é uma oportunidade valiosa de estar perto das pessoas que fazem a nossa cidade crescer todos os dias. Acreditamos que o associativismo e o cooperativismo compartilham do mesmo princípio: o de que ninguém cresce sozinho, mas sim de maneira conectada\", destacou o presidente da ACIRV, José Carlos Cintra.*\n\nO evento consolidou-se como um espaço para fortalecer parcerias institucionais e debater o futuro colaborativo da região. A ACIRV aproveitou a oportunidade para agradecer a todos os parceiros, empresários e cidadãos que passaram pelo espaço da entidade para conversar e compartilhar ideias voltadas ao fortalecimento do município.\n\n---\n\n**Sobre a ACIRV:**  \nA Associação Comercial e Industrial de Rio Verde (ACIRV) atua na representação e apoio aos empreendedores e empresários da região. Por meio de conexões estratégicas, capacitações e fomento a parcerias, a entidade trabalha continuamente para estimular o desenvolvimento socioeconômico sustentável e integrado de Rio Verde.\n\n**Contato para a Imprensa:**  \nAssessoria de Comunicação da ACIRV  \n**E-mail:** [Inserir e-mail da assessoria]  \n**Telefone/WhatsApp:** [Inserir telefone de contato]  \n**Site:** [www.acirv.com.br](http://www.acirv.com.br)",
+      "role": "model",
+      "grounding": {
+        "corroborationSegments": [{
+          "index": 425,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQED3MhEIyiYe8s4q_0ZQngoD43VjpRihgdxyiii1LfYtw2tDOKUJyG1Sa1TcdXfWJ0HMvTNDMzJI7LVxI4gwbDD-_GyJ4l62K8nRk9fHbwXpM7RSaS-zkpjmgMo_Xkyx77vP4ZGmAW37KfkVPI%3D",
+          "footnoteNumber": 1
+        }, {
+          "index": 425,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHucr9_9jS-MM2f_EkIiO__gg4gQdVzOwpBYqxvgucoeI8jUHJPOzdrNgSjYBCd8QdtVQvXpdAPMA-riGLqDGYSU54o37Ld_ab-JORdM7Os0vFcVcPnjxk73Tjfv2ruwkvbuWXOfRamZVrLDl_BA915JjoOsoYWlZGeuzJD30sn13b-vUKV8pJouyl3jNlJtptPvpJ7zQ%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 699,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQED3MhEIyiYe8s4q_0ZQngoD43VjpRihgdxyiii1LfYtw2tDOKUJyG1Sa1TcdXfWJ0HMvTNDMzJI7LVxI4gwbDD-_GyJ4l62K8nRk9fHbwXpM7RSaS-zkpjmgMo_Xkyx77vP4ZGmAW37KfkVPI%3D",
+          "footnoteNumber": 1
+        }, {
+          "index": 699,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHMYn8impyW4bxP-9WY6QblF9aUbq-nOvsJzpq4l3_AMYu1HmzovV5-p3joVXGjrl2UpSYx-b8hRxbHlLi20f8QkxxxpflDdukgRZliQBdGj5bw-thzceTOOX_mx8-QxKzlMlbf6uEAR6ARgW6gyLQooBxqlvNyuzBAcesjDJinG90Om7BnaG7FwyeppdY3VDGCsZwtRcTP6y5vIAzQD5HZz2EPICkpJpAwIhl9ps-wjjls-HH7c8ptJ0yED_RXXjXt9X_8NQyqpIP4SJmsPznR6PM%3D",
+          "footnoteNumber": 3
+        }, {
+          "index": 699,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQF_AvtJ8lsGdpiIYDWfpyUNpQYyX5PSJ0lvnlpW55jefRC9XrJhILE7Ir8PTXt59LuCLId2aD3-wqFiLzHarOwsWs656pXVjNcqTv5vQPx3",
+          "footnoteNumber": 4
+        }, {
+          "index": 878,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQED3MhEIyiYe8s4q_0ZQngoD43VjpRihgdxyiii1LfYtw2tDOKUJyG1Sa1TcdXfWJ0HMvTNDMzJI7LVxI4gwbDD-_GyJ4l62K8nRk9fHbwXpM7RSaS-zkpjmgMo_Xkyx77vP4ZGmAW37KfkVPI%3D",
+          "footnoteNumber": 1
+        }, {
+          "index": 878,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHMYn8impyW4bxP-9WY6QblF9aUbq-nOvsJzpq4l3_AMYu1HmzovV5-p3joVXGjrl2UpSYx-b8hRxbHlLi20f8QkxxxpflDdukgRZliQBdGj5bw-thzceTOOX_mx8-QxKzlMlbf6uEAR6ARgW6gyLQooBxqlvNyuzBAcesjDJinG90Om7BnaG7FwyeppdY3VDGCsZwtRcTP6y5vIAzQD5HZz2EPICkpJpAwIhl9ps-wjjls-HH7c8ptJ0yED_RXXjXt9X_8NQyqpIP4SJmsPznR6PM%3D",
+          "footnoteNumber": 3
+        }, {
+          "index": 1009,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQF_AvtJ8lsGdpiIYDWfpyUNpQYyX5PSJ0lvnlpW55jefRC9XrJhILE7Ir8PTXt59LuCLId2aD3-wqFiLzHarOwsWs656pXVjNcqTv5vQPx3",
+          "footnoteNumber": 4
+        }, {
+          "index": 1216,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHucr9_9jS-MM2f_EkIiO__gg4gQdVzOwpBYqxvgucoeI8jUHJPOzdrNgSjYBCd8QdtVQvXpdAPMA-riGLqDGYSU54o37Ld_ab-JORdM7Os0vFcVcPnjxk73Tjfv2ruwkvbuWXOfRamZVrLDl_BA915JjoOsoYWlZGeuzJD30sn13b-vUKV8pJouyl3jNlJtptPvpJ7zQ%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 1216,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHxhake94QGxWd5XPpzpIvAWeYHxQZpeNdgB0oyyVkWhXOZQEnB6Km1aP6TKFiYB_EDKZnFJZg3nonjN32fxfTpxg0riUG6SZA1yo-yyKsgDq4rV5Mmj1jZNfJZN_dCtAVZOwOOpEA__rsWi9gN91L2q_RaR9JAE4WYKEDTCEGhZuUvCkTaUCisgQ%3D%3D",
+          "footnoteNumber": 5
+        }, {
+          "index": 1870,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHucr9_9jS-MM2f_EkIiO__gg4gQdVzOwpBYqxvgucoeI8jUHJPOzdrNgSjYBCd8QdtVQvXpdAPMA-riGLqDGYSU54o37Ld_ab-JORdM7Os0vFcVcPnjxk73Tjfv2ruwkvbuWXOfRamZVrLDl_BA915JjoOsoYWlZGeuzJD30sn13b-vUKV8pJouyl3jNlJtptPvpJ7zQ%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 2200,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQED3MhEIyiYe8s4q_0ZQngoD43VjpRihgdxyiii1LfYtw2tDOKUJyG1Sa1TcdXfWJ0HMvTNDMzJI7LVxI4gwbDD-_GyJ4l62K8nRk9fHbwXpM7RSaS-zkpjmgMo_Xkyx77vP4ZGmAW37KfkVPI%3D",
+          "footnoteNumber": 1
+        }, {
+          "index": 2577,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQF_AvtJ8lsGdpiIYDWfpyUNpQYyX5PSJ0lvnlpW55jefRC9XrJhILE7Ir8PTXt59LuCLId2aD3-wqFiLzHarOwsWs656pXVjNcqTv5vQPx3",
+          "footnoteNumber": 4
+        }, {
+          "index": 2774,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQF_AvtJ8lsGdpiIYDWfpyUNpQYyX5PSJ0lvnlpW55jefRC9XrJhILE7Ir8PTXt59LuCLId2aD3-wqFiLzHarOwsWs656pXVjNcqTv5vQPx3",
+          "footnoteNumber": 4
+        }, {
+          "index": 2774,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFp-j0x0Kvm4q5bPoH8lVvRLKVYa_Ry5XQ_bXJb0twf6RbziXoJnVkkRZCB0NX2BWhEP14vVYQQ8PYn0EatTziGVh4_e9wYWxCs7PHM2isbZSIXKAaLOPB271ncwaaZEhpg9RqKzhbBmM9oHOPFP2kJqVU0ZxTgkR8Fcs4prUinti-s4ao1Y4H0FlyNxa-ZH1YZiD5rdFgDDq1A",
+          "footnoteNumber": 6
+        }, {
+          "index": 3000,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQF_AvtJ8lsGdpiIYDWfpyUNpQYyX5PSJ0lvnlpW55jefRC9XrJhILE7Ir8PTXt59LuCLId2aD3-wqFiLzHarOwsWs656pXVjNcqTv5vQPx3",
+          "footnoteNumber": 4
+        }],
+        "webSearchQueries": ["Dia C Rio Verde 2026", "Dia do Cooperativismo Rio Verde ACIRV"],
+        "groundingSources": [{
+          "referenceNumber": 1,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQED3MhEIyiYe8s4q_0ZQngoD43VjpRihgdxyiii1LfYtw2tDOKUJyG1Sa1TcdXfWJ0HMvTNDMzJI7LVxI4gwbDD-_GyJ4l62K8nRk9fHbwXpM7RSaS-zkpjmgMo_Xkyx77vP4ZGmAW37KfkVPI%3D",
+          "title": "unirv.edu.br"
+        }, {
+          "referenceNumber": 2,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHucr9_9jS-MM2f_EkIiO__gg4gQdVzOwpBYqxvgucoeI8jUHJPOzdrNgSjYBCd8QdtVQvXpdAPMA-riGLqDGYSU54o37Ld_ab-JORdM7Os0vFcVcPnjxk73Tjfv2ruwkvbuWXOfRamZVrLDl_BA915JjoOsoYWlZGeuzJD30sn13b-vUKV8pJouyl3jNlJtptPvpJ7zQ%3D%3D",
+          "title": "acirv.com.br"
+        }, {
+          "referenceNumber": 3,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHMYn8impyW4bxP-9WY6QblF9aUbq-nOvsJzpq4l3_AMYu1HmzovV5-p3joVXGjrl2UpSYx-b8hRxbHlLi20f8QkxxxpflDdukgRZliQBdGj5bw-thzceTOOX_mx8-QxKzlMlbf6uEAR6ARgW6gyLQooBxqlvNyuzBAcesjDJinG90Om7BnaG7FwyeppdY3VDGCsZwtRcTP6y5vIAzQD5HZz2EPICkpJpAwIhl9ps-wjjls-HH7c8ptJ0yED_RXXjXt9X_8NQyqpIP4SJmsPznR6PM%3D",
+          "title": "expressomt.com.br"
+        }, {
+          "referenceNumber": 4,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQF_AvtJ8lsGdpiIYDWfpyUNpQYyX5PSJ0lvnlpW55jefRC9XrJhILE7Ir8PTXt59LuCLId2aD3-wqFiLzHarOwsWs656pXVjNcqTv5vQPx3",
+          "title": "acirv.com.br"
+        }, {
+          "referenceNumber": 5,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHxhake94QGxWd5XPpzpIvAWeYHxQZpeNdgB0oyyVkWhXOZQEnB6Km1aP6TKFiYB_EDKZnFJZg3nonjN32fxfTpxg0riUG6SZA1yo-yyKsgDq4rV5Mmj1jZNfJZN_dCtAVZOwOOpEA__rsWi9gN91L2q_RaR9JAE4WYKEDTCEGhZuUvCkTaUCisgQ%3D%3D",
+          "title": "acirv.com.br"
+        }, {
+          "referenceNumber": 6,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFp-j0x0Kvm4q5bPoH8lVvRLKVYa_Ry5XQ_bXJb0twf6RbziXoJnVkkRZCB0NX2BWhEP14vVYQQ8PYn0EatTziGVh4_e9wYWxCs7PHM2isbZSIXKAaLOPB271ncwaaZEhpg9RqKzhbBmM9oHOPFP2kJqVU0ZxTgkR8Fcs4prUinti-s4ao1Y4H0FlyNxa-ZH1YZiD5rdFgDDq1A",
+          "title": "acirv.com.br"
+        }]
+      },
+      "finishReason": "STOP",
+      "tokenCount": 805,
+      "parts": [{
+        "text": "**SUGESTÃO"
+      }, {
+        "text": " DE PAUTA / RELEASE DE IMPRENSA**\n\n**Para divulgação imediata**  \n*Rio Verde (GO),"
+      }, {
+        "text": " [Inserir Data]*\n\n---\n\n### **ACIRV reforça integração comunitária e parcerias locais durante participação ativa"
+      }, {
+        "text": " no Dia do Cooperativismo**\n\n*Com a presença de sua diretoria, entidade promoveu ações interativas e"
+      }, {
+        "text": " diálogo direto com o público, destacando a união de forças como motor para o desenvolvimento de Rio Verde"
+      }, {
+        "text": ".*\n\n**RIO VERDE (GO)** – Com o objetivo de estreitar o"
+      }, {
+        "text": " diálogo com a sociedade e reafirmar o valor das conexões que impulsionam o desenvolvimento regional, a Associação Comercial e Industrial"
+      }, {
+        "text": " de Rio Verde (ACIRV) marcou presença ativa no Dia do Cooperativismo (Dia C)"
+      }, {
+        "text": ". Realizado no último sábado"
+      }, {
+        "text": " (27) em Rio Verde, o evento reuniu a comunidade, cooperativas e entidades locais em uma celebração volt"
+      }, {
+        "text": "ada à união e ao desenvolvimento coletivo.\n\nA"
+      }, {
+        "text": " participação da ACIRV no evento buscou consolidar o papel da entidade como uma ponte entre o setor produtivo e a população"
+      }, {
+        "text": ". Representando a associação, o presidente da ACIRV, José Carlos Cintra, e o vice"
+      }, {
+        "text": "-presidente, Gustavo Lacerda, acompanharam de perto as atividades e interagiram com os visitantes e parceiros estratég"
+      }, {
+        "text": "icos.\n\nDurante a programação, a ACIRV promove"
+      }, {
+        "text": "u uma série de dinâmicas para aproximar a instituição do público. Entre as atividades, destacaram-se uma"
+      }, {
+        "text": " roleta de prêmios e um game de adivinhação em parceria com marcas tradicionais do município, como a"
+      }, {
+        "text": " cooperativa COMIGO. As atrações proporcionaram momentos de descontração e lazer aos participantes do Dia C.\n\nPara a"
+      }, {
+        "text": " diretoria da associação, a presença em campo reforça o lema de que o crescimento econômico e social não ocorre"
+      }, {
+        "text": " de forma isolada.\n\n\u003e *\"Participar do Dia do Cooperativismo é uma oportunidade valiosa de estar perto"
+      }, {
+        "text": " das pessoas que fazem a nossa cidade crescer todos os dias. Acreditamos que o associ"
+      }, {
+        "text": "ativismo e o cooperativismo compartilham do mesmo princípio: o de que ninguém cresce sozinho, mas sim de maneira"
+      }, {
+        "text": " conectada\", destacou o presidente da ACIRV, José Carlos Cintra.*\n\nO evento consolidou-se como um espaço"
+      }, {
+        "text": " para fortalecer parcerias institucionais e debater o futuro colaborativo da região. A ACIRV aprove"
+      }, {
+        "text": "itou a oportunidade para agradecer a todos os parceiros, empresários e cidadãos que passaram pelo espaço da entidade para conversar"
+      }, {
+        "text": " e compartilhar ideias voltadas ao fortalecimento do município.\n\n---\n\n**Sobre a ACIRV:**  \nA Associação Comercial e Industrial"
+      }, {
+        "text": " de Rio Verde (ACIRV) atua na representação e apoio aos empreendedores e empresários da região"
+      }, {
+        "text": ". Por meio de conexões estratégicas, capacitações e fomento a parcerias, a entidade trabalha"
+      }, {
+        "text": " continuamente para estimular o desenvolvimento socioeconômico sustentável e integrado de Rio Verde"
+      }, {
+        "text": ".\n\n**Contato para a Imprensa:**  \nAssessoria de Comunicação da ACIRV  \n**"
+      }, {
+        "text": "E-mail:** [Inserir e-mail da assessoria]  \n**Telefone/WhatsApp:**"
+      }, {
+        "text": " [Inserir telefone de contato]  \n**Site:** [www.acirv.com.br](http://www.acir"
+      }, {
+        "text": "v.com.br)"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-07-08T13:30:47.320Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

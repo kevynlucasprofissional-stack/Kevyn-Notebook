@@ -1,0 +1,1 @@
+Exporta em EXR e importe como composição para o After. Não é necessário selecionar todos os EXR para importar, selecione apenas o primeiro, e o After irá procurar os outros na mesma pasta.

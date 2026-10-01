@@ -1,0 +1,202 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "Crie um frankstein dos 3 prompts abaixo, unindo o melhor dos 3 mundos.\n# Prompt 01\n# CONTEXTO E PERSONA\nVocê é um Perfilador Psicológico de Elite e Biógrafo Investigativo, especializado em \"Leitura de Sombras\" e análise de discurso subtextual. Sua capacidade de dedução é comparável a de um psicanalista forense experiente.\n\nSua tarefa é executar o \"PASSO 8: A VARREDURA DE LACUNAS\" no dossiê de Kevyn. Diferente das etapas anteriores, aqui você NÃO deve olhar para o que foi dito, mas para o que foi **omitido**, **negado** ou **suprimido**.\n\n# INSTRUÇÃO DE RACIOCÍNIO (CHAIN OF THOUGHT)\nPara cada dimensão listada abaixo, siga este processo mental rigoroso antes de responder:\n1. **Varredura:** Onde este tema *deveria* aparecer naturalmente na narrativa de Kevyn?\n2. **Identificação do Vazio:** Onde está o silêncio? (Ex: Ele fala de sucesso, mas nunca de cansaço).\n3. **Correlação:** Use as \"Regras de Interpretação\" fornecidas para traduzir esse silêncio em um diagnóstico psicológico.\n4. **Síntese:** Conclua o que essa omissão serve para proteger.\n\n# AS DIMENSÕES E REGRAS DE INTERPRETAÇÃO (STATIC CONTENT)\nAnalise o texto fornecido (o histórico de Kevyn) através destas 7 Lentes Críticas. Use as regras associadas a cada uma:\n\n## 1. Arqueologia Familiar e Afeto\n*   *O que procurar:* Silêncio sobre a família ou descrições excessivamente formais.\n*   *Regra de Interpretação:* Ausência de menção revela a profundidade do trauma ou dissociação afetiva.\n\n## 2. Padrões de Fuga e Micro-Vícios\n*   *O que procurar:* Além da pornografia, busque padrões de intelectualização excessiva, workaholism ou isolamento.\n*   *Regra de Interpretação:* O vício é o analgésico. Onde ele está se anestesiando?\n\n## 3. Economia Psíquica (Energia)\n*   *O que procurar:* Discrepância entre brilho intelectual e exaustão emocional.\n*   *Regra de Interpretação:* Muita elaboração mental com pouco retorno vital indica que a identidade dele drena a bateria biológica.\n\n## 4. O Corpo Silenciado (Cisão Mente-Corpo)\n*   *O que procurar:* O corpo é narrado como sujeito (que sente) ou objeto/veículo (que carrega a mente)?\n*   *Regra de Interpretação:* Silêncio corporal indica vergonha somática ou racionalização extrema.\n\n## 5. Raiva e Poder (Tabus Centrais)\n*   *O que procurar:* Ironia, cansaço crônico ou \"compreensão excessiva\" dos erros alheios. Negação de ambição ou desejo de controle.\n*   *Regra de Interpretação:* Poder negado vira manipulação sutil. Raiva não nomeada vira depressão ou cinismo.\n\n## 6. Temporalidade e Espiritualidade Defensiva\n*   *O que procurar:* Fuga para o passado, futuro ou para o \"mundo das ideias\" (espiritualidade) para evitar decisões no \"agora\".\n*   *Regra de Interpretação:* Transcendência usada para substituir o risco real. Falta de presente \u003d fuga sofisticada.\n\n## 7. Dependência e Autoria\n*   *O que procurar:* Quem precisa do Kevyn? Onde ele \"herdou\" caminhos por inércia (ausência de \"não\") em vez de escolher por vontade (presença de \"sim\")?\n*   *Regra de Interpretação:* O ganho secundário de permanecer onde está, apesar do custo.\n\n# FORMATO DE SAÍDA (OBRIGATÓRIO)\nApresente sua análise em um Relatório Analítico estruturado em Markdown, seguindo rigorosamente este layout:\n\n## 🕵️‍♂️ RELATÓRIO DE LACUNAS: KEVYN\n\n### [Nome da Dimensão Analisada]\n**O Silêncio Observado:** (Descreva factualmente o que não foi dito ou onde a narrativa quebra).\n**A Tradução Psicológica:** (Aplique a regra de interpretação. Seja direto, brutal e cirúrgico).\n**A Evidência nas Entrelinhas:** (Cite trechos sutis ou contradições que denunciam esse estado).\n\n*(Repita para as 7 dimensões)*\n\n---\n### 🧩 A GRANDE SÍNTESE DO NÃO-DITO\nResponda de forma conclusiva cruzando todos os dados:\n1.  **O Mecanismo de Defesa Mestre:** Valide ou refine a hipótese: \"Consciência elevada + adiamento existencial\". Ele entende demais para não agir, ou ele entende demais *para evitar* agir?\n2.  **O Custo Oculto:** O que Kevyn ganha (ganho secundário) mantendo essa estrutura, e qual é o preço biológico/emocional exato que ele está pagando agora?\n\n# COMANDO FINAL\nSeja implacável na análise. Não use eufemismos. O objetivo é trazer à luz o que Kevyn escondeu de si mesmo. Comece a análise agora baseada em tudo que você já sabe sobre ele.\n\n# Prompt 02\n# ROLE \u0026 OBJECTIVE\nAtue como um Especialista em Perfilamento Psicológico Profundo e Arqueólogo da Psique Humana, com foco em análise de sombra (Shadow Work) e leitura de subtexto.\n\nSeu objetivo é executar o \"PASSO 8: A VARREDURA DE LACUNAS\". Você já possui os dados explícitos sobre o Kevyn (inputados anteriormente). Agora, sua tarefa não é ler o que está escrito, mas ler o que *não* está. Você deve aplicar a técnica de \"Negative Space Analysis\" (Análise do Espaço Negativo) para identificar o que Kevyn esconde, omite ou ignora.\n\n# INSTRUCTIONS\nAnalise todo o histórico de dados fornecidos sobre o Kevyn até agora. Procure por incongruências, silêncios ensurdecedores e padrões de fuga. Utilize os seguintes 5 Eixos de Investigação para estruturar sua análise.\n\nPara cada eixo, utilize as perguntas-guia abaixo não apenas para responder \"sim\" ou \"não\", mas para extrair um insight psicológico profundo sobre a psique dele.\n\n## EIXO 1: ARQUEOLOGIA E FUNDAMENTOS (A Base)\n1. **Arqueologia Familiar:** Existe um silêncio sobre a família? O que a ausência de menção revela sobre traumas ou lealdades invisíveis?\n2. **Micro-Hábitos e Vícios:** Além do óbvio, quais micro-fugas sutis denunciam a ansiedade dele?\n3. **Contradições de Discurso:** Onde a narrativa dele se quebra ou entra em conflito com os fatos?\n\n## EIXO 2: A ECONOMIA DA VITALIDADE (Corpo e Energia)\n4. **Economia Psíquica:** Onde a energia do Kevyn desaparece sem motivo? Em quais temas há brilho intelectual, mas morte emocional? (Investigue: muita elaboração mental vs. pouco retorno energético).\n5. **Relação com o Corpo:** O corpo é sujeito ou apenas veículo? Dor, prazer, fome e sono aparecem na narrativa ou são ignorados? (Hipótese: cisão mente-corpo ou vergonha somática).\n\n## EIXO 3: O CAMPO EMOCIONAL NEGADO (Raiva e Intimidade)\n6. **Raiva Não Nomeada:** Onde a raiva aparece disfarçada de ironia, cansaço ou \"aceitação evoluída\"? Quem ele protege ao não se irar?\n7. **Intimidade Intelectual vs. Real:** Com quem ele compartilha ideias para evitar compartilhar vulnerabilidade? Onde ele fala *sobre* sentir para não *sentir* de fato?\n8. **Dependência Invertida:** Onde ele se torna \"necessário\" e \"cuidador\" para manter o controle e evitar ser cuidado? (O ganho secundário da posição de suporte).\n\n## EIXO 4: O TABU DO PODER E DO TEMPO (Existencial)\n9. **Desejo de Poder (O Tabu Central):** Onde o desejo de influenciar e moldar é negado e reaparece como \"ética\" ou \"observação\"? (Investigue: poder negado virando controle sutil).\n10. **Temporalidade Quebrada:** Ele vive no passado, no futuro ou no \"fora do tempo\"? Ele evita dizer \"eu quero isso agora\"? (Falta de presente \u003d fuga sofisticada).\n11. **Espiritualidade como Escudo:** Onde símbolos e arquétipos surgem para evitar decisões concretas e riscos reais?\n\n## EIXO 5: A INÉRCIA E O CUSTO (A Síntese)\n12. **Escolhas Não Escolhidas:** Que parte da vida dele foi herdada por inércia ou pela ausência de um \"não\"?\n13. **O Lucro do Custo:** O que o Kevyn ganha (em segurança ou identidade) permanecendo exatamente onde está, apesar da dor?\n\n# FINAL SYNTHESIS \u0026 OUTPUT FORMAT\nApós a análise dos eixos, cruze os dados para validar a \"Hipótese Central\".\n\n**Formato de Saída Obrigatório:**\n\n### 1. O Mapa das Sombras\n(Liste os 3 maiores \"Silêncios que Gritam\" identificados na análise, explicando o que eles protegem).\n\n### 2. Análise dos Eixos\n(Para cada um dos 5 Eixos, forneça um parágrafo denso e direto, sem rodeios, expondo a dinâmica oculta).\n\n### 3. O Padrão Oculto (Insight Master)\nCruze: [Silêncio Corporal + Raiva Não Nomeada + Poder Negado + Espiritualização + Hiperconsciência].\nResponda: Isso configura um padrão de **Consciência Elevada + Adiamento Existencial**?\nSe sim, explique como a \"lealdade à identidade de quem entende demais para agir\" está travando a vida dele.\n\n---\n**Nota de Tom:** Seja cirúrgico, direto e analítico. Não use linguagem de autoajuda. Use linguagem de psicologia profunda. Revele o que está nas entrelinhas.\n\n# Prompt 03\n# Role \u0026 Context\nAtue como um Profiler Psicológico Sênior e Especialista em Análise de Discurso. Estamos na fase de construção de um \"Dossiê Profundo\" sobre o sujeito Kevyn.\nVocê já processou o que está explícito na narrativa dele. Agora, sua missão é executar uma **Varredura de Lacunas (Gap Scan)**.\n\n# Objective\nIdentificar o que foi omitido, silenciado ou distorcido. Assuma a premissa de que \"o silêncio grita mais alto que o texto\". Você deve buscar incongruências, cisões e padrões de defesa psíquica.\n\n# Instructions\nAnalise os dados fornecidos anteriormente através das seguintes lentes (dimensões). Para cada dimensão, não apenas aponte a falta, mas diagnostique a *função* desse silêncio na manutenção da identidade do sujeito.\n\nUse a técnica \"Step-Back\" para cada ponto: Primeiro identifique a ausência nos dados, depois abstraia o significado psicológico dessa ausência.\n\n## Dimensões de Análise (O Que Não Foi Dito)\n\n### 1. Arqueologia do Silêncio e Fuga\n*   **Família:** Existe um \"silêncio ensurdecedor\" sobre a origem? O que a ausência de menção a figuras parentais revela sobre traumas fundantes?\n*   **Micro-Vícios:** Além do óbvio (ex: pornografia), identifique padrões de fuga sutis (ex: intellectualização excessiva, procrastinação produtiva).\n*   **Temporalidade:** Onde ele se recusa a viver o \"agora\"? O discurso é focado apenas em nostalgia (passado) ou idealização (futuro)? Diagnostique a \"temporalidade quebrada\".\n\n### 2. A Cisão Mente-Corpo (Somática)\n*   **Status do Corpo:** O corpo é tratado como sujeito (fonte de prazer/dor vivida) ou apenas como veículo/máquina que quebra?\n*   **Sintomas não ditos:** Procure por menções de cansaço sem motivo, picos de brilho intelectual seguidos de apatia emocional ou vergonha somática implícita.\n\n### 3. A Economia da Agressividade e Poder\n*   **Raiva Não Nomeada:** Onde a raiva foi sublimada e transformada em ironia, cansaço crônico ou \"aceitação estoica\"? Quem é \"compreendido demais\" para não ser confrontado?\n*   **Tabu do Poder:** Identifique onde o desejo de influenciar é negado. Onde ele se diz \"observador\" mas age como controlador sutil? Onde a ambição usa uma máscara ética?\n*   **Dependência Invertida:** Quem depende dele? Identifique onde o ato de \"cuidar\" ou \"estar disponível\" gera um ganho secundário de controle ou indispensabilidade.\n\n### 4. O Escudo da Transcendência\n*   **Espiritualidade Defensiva:** Em que momentos ele usa conceitos espirituais, astrológicos ou filosóficos para *evitar* tomar uma decisão prática e arriscada?\n*   **Intimidade:** Diferencie a \"intimidade intelectual\" (troca de ideias) da \"vulnerabilidade real\" (troca de afetos). Onde ele brilha para não ser tocado?\n\n# Synthesis Task (Crucial)\nApós a análise das dimensões, sintetize o perfil oculto respondendo a estas três perguntas finais:\n1.  **O Custo da Estagnação:** O que Kevyn ganha (ganho secundário/segurança) permanecendo exatamente onde está, apesar do sofrimento narrado?\n2.  **O Padrão Mestre:** Valide a hipótese: \"Kevyn sofre de Hiperconsciência + Adiamento Existencial por lealdade a uma identidade antiga?\"\n3.  **A Identidade Fantasma:** Defina em uma frase quem é o Kevyn que existe *apenas* nas entrelinhas.\n\n# Output Format\nForneça a resposta em formato de Relatório Psicológico Estruturado, usando Markdown, com tom analítico, direto e profundo. Evite jargões desnecessários, seja cirúrgico.",
+      "role": "user",
+      "tokenCount": 3295
+    }, {
+      "text": "**Defining the Frankenstein Goal**\n\nI\u0027m now zeroing in on the core objective: crafting a single, superior prompt by synthesizing elements from three distinct starting points, with the psychological profiling of \"Kevyn\" as the central context. The key is in determining which parts of which prompt are truly \"best\" and how they contribute most cohesively to the Frankenstein goal.\n\n\n**Refining the Synthesis Framework**\n\nI\u0027m now zeroing in on the best parts of the source prompts. Prompt 01\u0027s strong points are its \"Chain of Thought\" and \"Rules of Interpretation.\" I\u0027m also finding Prompt 02\u0027s formatting of \"Axes of Investigation\" very helpful. The \"Final Synthesis\" seems like an important feature, and I will be using elements of this.\n\n\n**Analyzing Key New Inputs**\n\nI\u0027m now integrating new elements. Prompt 03\u0027s \"Phantom Identity\" conclusion offers a captivating angle, and I see the value in its \"Step-Back\" instruction. I\u0027m also finding the concepts of the \"Shadow Map\" and the probing questions about \"Intellectual Intimacy\" and \"Inverted Dependency\" quite intriguing. This is a fascinating exercise.\n\n\n**Integrating the Dimensional Framework**\n\nI\u0027m now focusing on integrating the dimensional framework. \"Psychic Economy\" from P1 and \"Vitality Economy\" from P2 will constitute the foundational \"Body/Energy\" dimension, with mental elaboration versus vital return as the central tension. I also see combining the \"Economy of Aggression\" from P3 with P1\u0027s initial elements to generate \"Anger/Power\". I am also considering \"Broken Temporality\" from P2, and merging it with P1\u0027s \"Defensive Spirituality\".\n\n\n**Structuring the Dimensional Analysis**\n\nI\u0027m now integrating a 7-dimensional framework to drive the AI reasoning process. These dimensions will be the core focus, structured as *Arqueologia e Afeto*, *Padrões de Fuga e Micro-Vícios*, *Economia Psíquica*, *A Economia da Agressividade*, *Temporalidade e Espiritualidade Defensiva*, *Intimidade Intelectual vs. Real*, and *Dependência Invertida e Autoria*. I\u0027m also planning the output format.\n\n\n",
+      "role": "model",
+      "tokenCount": 1513,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Frankenstein Goal**\n\nI\u0027m now zeroing in on the core objective: crafting a single, superior prompt by synthesizing elements from three distinct starting points, with the psychological profiling of \"Kevyn\" as the central context. The key is in determining which parts of which prompt are truly \"best\" and how they contribute most cohesively to the Frankenstein goal.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Synthesis Framework**\n\nI\u0027m now zeroing in on the best parts of the source prompts. Prompt 01\u0027s strong points are its \"Chain of Thought\" and \"Rules of Interpretation.\" I\u0027m also finding Prompt 02\u0027s formatting of \"Axes of Investigation\" very helpful. The \"Final Synthesis\" seems like an important feature, and I will be using elements of this.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing Key New Inputs**\n\nI\u0027m now integrating new elements. Prompt 03\u0027s \"Phantom Identity\" conclusion offers a captivating angle, and I see the value in its \"Step-Back\" instruction. I\u0027m also finding the concepts of the \"Shadow Map\" and the probing questions about \"Intellectual Intimacy\" and \"Inverted Dependency\" quite intriguing. This is a fascinating exercise.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Integrating the Dimensional Framework**\n\nI\u0027m now focusing on integrating the dimensional framework. \"Psychic Economy\" from P1 and \"Vitality Economy\" from P2 will constitute the foundational \"Body/Energy\" dimension, with mental elaboration versus vital return as the central tension. I also see combining the \"Economy of Aggression\" from P3 with P1\u0027s initial elements to generate \"Anger/Power\". I am also considering \"Broken Temporality\" from P2, and merging it with P1\u0027s \"Defensive Spirituality\".\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Dimensional Analysis**\n\nI\u0027m now integrating a 7-dimensional framework to drive the AI reasoning process. These dimensions will be the core focus, structured as *Arqueologia e Afeto*, *Padrões de Fuga e Micro-Vícios*, *Economia Psíquica*, *A Economia da Agressividade*, *Temporalidade e Espiritualidade Defensiva*, *Intimidade Intelectual vs. Real*, and *Dependência Invertida e Autoria*. I\u0027m also planning the output format.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Aqui está o **\"Frankenstein\" definitivo**, desenhado para extrair a máxima profundidade psicológica. Ele combina a **estrutura lógica rigorosa do Prompt 01**, os **eixos temáticos profundos do Prompt 02** e a **síntese conclusiva sobre identidade e custo do Prompt 03**.\n\n---\n\n# ROLE \u0026 CONTEXT\nVocê é um **Perfilador Psicológico de Elite e Arqueólogo da Psique**, especializado em *Shadow Work* (Trabalho de Sombra), Análise de Discurso Subtextual e \"Leitura de Espaço Negativo\".\n\nSua missão é executar o **\"PASSO 8: A VARREDURA DE LACUNAS\"** no dossiê de **Kevyn**.\nDiferente das etapas anteriores, aqui você **NÃO** deve olhar para o que foi dito, mas para o que foi **omitido**, **negado**, **suprimido** ou **intelectualizado**. Assuma a premissa de que *\"o silêncio grita mais alto que o texto\"*.\n\n# INSTRUÇÃO DE RACIOCÍNIO (CHAIN OF THOUGHT)\nPara cada dimensão listada abaixo, aplique a técnica \"Step-Back\" seguindo este algoritmo mental antes de gerar a resposta:\n1.  **Varredura do Vazio:** Onde este tema *deveria* aparecer naturalmente na narrativa humana, mas em Kevyn existe um silêncio ou um desvio?\n2.  **A Função do Silêncio:** O que essa omissão serve para proteger? (Ex: Ele racionaliza para não sentir dor; ele cuida para não ser cuidado).\n3.  **Tradução Diagnóstica:** Utilize as \"Regras de Interpretação\" abaixo para traduzir o silêncio em um insight psicológico brutal e cirúrgico.\n\n# AS 7 LENTES DE ANÁLISE (DIMENSÕES E REGRAS)\nAnalise o histórico de Kevyn através destas lentes críticas. Seja implacável.\n\n## 1. Arqueologia do Silêncio (Origem e Família)\n*   *O que buscar:* Silêncio ensurdecedor sobre figuras parentais ou descrições excessivamente formais.\n*   *Regra de Interpretação:* A ausência de menção revela lealdades invisíveis, traumas fundantes ou dissociação afetiva. O que não é nomeado não pode ser curado.\n\n## 2. A Economia da Vitalidade (Cisão Mente-Corpo)\n*   *O que buscar:* O corpo é narrado como **sujeito** (fonte de prazer/dor vivida) ou apenas como **veículo/objeto** que carrega a mente? Busque discrepâncias entre brilho intelectual e exaustão biológica.\n*   *Regra de Interpretação:* Silêncio corporal indica vergonha somática. Muita elaboração mental com pouco retorno vital indica que a *identidade* dele drena a *bateria* dele.\n\n## 3. Padrões de Fuga e Micro-Vícios\n*   *O que buscar:* Além do óbvio (pornografia/substâncias), busque a **\"Procrastinação Produtiva\"**, a intelectualização excessiva ou o isolamento como refúgio.\n*   *Regra de Interpretação:* O vício é o analgésico. Onde ele está se anestesiando para tolerar uma realidade que não escolheu?\n\n## 4. A Economia da Agressividade (Raiva e Poder)\n*   *O que buscar:* Onde a raiva foi sublimada em **ironia**, **cansaço crônico** ou **\"compreensão estoica\"**? Onde o desejo de poder/influência é negado e reaparece como \"ética\" ou \"observação\"?\n*   *Regra de Interpretação:* Poder negado vira manipulação sutil. Raiva não nomeada vira depressão ou cinismo. Quem ele protege ao não se irar?\n\n## 5. Intimidade Intelectual vs. Vulnerabilidade Real\n*   *O que buscar:* Diferencie a troca de ideias (segura) da troca de afetos (arriscada). Com quem ele compartilha conceitos para evitar compartilhar a si mesmo?\n*   *Regra de Interpretação:* Ele \"brilha\" intelectualmente para cegar os outros e impedir que vejam sua fragilidade. Falar *sobre* sentir para não *sentir*.\n\n## 6. Temporalidade e Espiritualidade Defensiva\n*   *O que buscar:* Fuga para o \"Mundo das Ideias\" (espiritualidade, astrologia, filosofia) para evitar decisões no \"agora\" concreto.\n*   *Regra de Interpretação:* Transcendência usada como escudo contra o risco real. Falta de presença no \"agora\" \u003d fuga sofisticada da responsabilidade de agir.\n\n## 7. Dependência Invertida e Autoria\n*   *O que buscar:* Quem precisa do Kevyn? Onde ele se torna \"indispensável\" ou \"cuidador\" para manter o controle e evitar ser cuidado?\n*   *Regra de Interpretação:* O ganho secundário de permanecer na posição de suporte. Onde ele herdou caminhos por inércia (ausência de \"não\") em vez de escolher por vontade (presença de \"sim\")?\n\n---\n\n# FORMATO DE SAÍDA (OBRIGATÓRIO)\nApresente sua análise em um Relatório Analítico estruturado em Markdown.\n\n## 🕵️‍♂️ RELATÓRIO DE SOMBRAS: KEVYN\n\n### [Nome da Dimensão Analisada]\n*   **O Silêncio Observado:** (Descreva factualmente o que não foi dito ou a incongruência narrativa).\n*   **A Tradução Psicológica:** (Aplique a regra de interpretação. Seja direto e cirúrgico).\n*   **A Evidência nas Entrelinhas:** (Cite trechos sutis ou contradições que denunciam esse estado).\n\n*(Repita para as 7 dimensões)*\n\n---\n\n### 🧩 A GRANDE SÍNTESE DO NÃO-DITO\n\n**1. O Mapa das Sombras (Top 3)**\nListe os 3 maiores \"Silêncios que Gritam\" identificados na análise e o que exatamente eles protegem.\n\n**2. A Identidade Fantasma**\nDefina em uma frase quem é o Kevyn que existe *apenas* nas entrelinhas (o oposto da persona pública).\n\n**3. O Custo Oculto e o Ganho Secundário**\nResponda: O que Kevyn ganha (segurança/identidade) permanecendo exatamente onde está, e qual é o preço biológico/emocional exato que ele paga por essa \"Lealdade à Estagnação\"?\n\n**4. O Veredito Final (Padrão Mestre)**\nValide ou refine a hipótese: **\"Consciência Elevada + Adiamento Existencial\"**. Ele entende demais para não agir, ou ele entende demais *para evitar* agir?\n\n# COMANDO FINAL\nComece a análise agora baseada em tudo que você já sabe sobre ele. Não use eufemismos. O objetivo é trazer à luz o que Kevyn escondeu de si mesmo.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1605,
+      "parts": [{
+        "text": "Aqui está o **\"Frankenstein\" definitivo**, desenhado para extrair a máxima profundidade psicológica"
+      }, {
+        "text": ". Ele combina a **estrutura lógica rigorosa do Prompt 01**, os **eixos temáticos profundos do"
+      }, {
+        "text": " Prompt 02** e a **síntese conclusiva sobre identidade e custo do Prompt 03**.\n\n---\n\n#"
+      }, {
+        "text": " ROLE \u0026 CONTEXT\nVocê é um **Perfilador Psicológico de Elite e Arqueólogo da Psique**, especializado"
+      }, {
+        "text": " em *Shadow Work* (Trabalho de Sombra), Análise de Discurso Subtextual e \"Le"
+      }, {
+        "text": "itura de Espaço Negativo\".\n\nSua missão é executar o **\"PASSO 8: A VARREDURA DE LAC"
+      }, {
+        "text": "UNAS\"** no dossiê de **Kevyn**.\nDiferente das etapas anteriores, aqui você **"
+      }, {
+        "text": "NÃO** deve olhar para o que foi dito, mas para o que foi **omitido**, **negado**,"
+      }, {
+        "text": " **suprimido** ou **intelectualizado**. Assuma a premissa de que *\"o silêncio"
+      }, {
+        "text": " grita mais alto que o texto\"*.\n\n# INSTRUÇÃO DE RACIOCÍNIO (CHAIN OF THOUGHT"
+      }, {
+        "text": ")\nPara cada dimensão listada abaixo, aplique a técnica \"Step-Back\" seguindo este algoritmo mental antes"
+      }, {
+        "text": " de gerar a resposta:\n1.  **Varredura do Vazio:** Onde este tema *deveria* aparecer"
+      }, {
+        "text": " naturalmente na narrativa humana, mas em Kevyn existe um silêncio ou um desvio?\n2.  **A"
+      }, {
+        "text": " Função do Silêncio:** O que essa omissão serve para proteger? (Ex: Ele racionaliza para não sentir dor;"
+      }, {
+        "text": " ele cuida para não ser cuidado).\n3.  **Tradução Diagnóstica:** Utilize as \"Regras"
+      }, {
+        "text": " de Interpretação\" abaixo para traduzir o silêncio em um insight psicológico brutal e cirúrgico."
+      }, {
+        "text": "\n\n# AS 7 LENTES DE ANÁLISE (DIMENSÕES E REGRAS)\nAnalise o histórico"
+      }, {
+        "text": " de Kevyn através destas lentes críticas. Seja implacável.\n\n## 1. Arqueologia do Silêncio ("
+      }, {
+        "text": "Origem e Família)\n*   *O que buscar:* Silêncio ensurdecedor sobre figuras parentais ou desc"
+      }, {
+        "text": "rições excessivamente formais.\n*   *Regra de Interpretação:* A ausência de menção"
+      }, {
+        "text": " revela lealdades invisíveis, traumas fundantes ou dissociação afetiva. O que não é nomeado não pode ser curado"
+      }, {
+        "text": ".\n\n## 2. A Economia da Vitalidade (Cisão Mente-Corpo)\n*   *O que"
+      }, {
+        "text": " buscar:* O corpo é narrado como **sujeito** (fonte de prazer/dor vivida) ou apenas"
+      }, {
+        "text": " como **veículo/objeto** que carrega a mente? Busque discrepâncias entre brilho intelectual e exaust"
+      }, {
+        "text": "ão biológica.\n*   *Regra de Interpretação:* Silêncio corporal indica vergonha som"
+      }, {
+        "text": "ática. Muita elaboração mental com pouco retorno vital indica que a *identidade* dele drena a *bateria* dele"
+      }, {
+        "text": ".\n\n## 3. Padrões de Fuga e Micro-Vícios\n*   *O que buscar"
+      }, {
+        "text": ":* Além do óbvio (pornografia/substâncias), busque a **\"Procrastinação Produtiva\"**,"
+      }, {
+        "text": " a intelectualização excessiva ou o isolamento como refúgio.\n*   *Regra de Interpretação:* O v"
+      }, {
+        "text": "ício é o analgésico. Onde ele está se anestesiando para tolerar uma realidade que não escolheu?\n\n"
+      }, {
+        "text": "## 4. A Economia da Agressividade (Raiva e Poder)\n*   *O que buscar"
+      }, {
+        "text": ":* Onde a raiva foi sublimada em **ironia**, **cansaço crônico** ou **\"compreensão esto"
+      }, {
+        "text": "ica\"**? Onde o desejo de poder/influência é negado e reaparece como \"ética\" ou \"observ"
+      }, {
+        "text": "ação\"?\n*   *Regra de Interpretação:* Poder negado vira manipulação sutil. Ra"
+      }, {
+        "text": "iva não nomeada vira depressão ou cinismo. Quem ele protege ao não se irar?\n\n## 5. Int"
+      }, {
+        "text": "imidade Intelectual vs. Vulnerabilidade Real\n*   *O que buscar:* Diferencie a troca de ideias (seg"
+      }, {
+        "text": "ura) da troca de afetos (arriscada). Com quem ele compartilha conceitos para evitar compartilhar a si mesmo?\n*"
+      }, {
+        "text": "   *Regra de Interpretação:* Ele \"brilha\" intelectualmente para cegar os outros e impedir que vejam sua"
+      }, {
+        "text": " fragilidade. Falar *sobre* sentir para não *sentir*.\n\n## 6. Temporalidade e Espiritualidade"
+      }, {
+        "text": " Defensiva\n*   *O que buscar:* Fuga para o \"Mundo das Ideias\" (esp"
+      }, {
+        "text": "iritualidade, astrologia, filosofia) para evitar decisões no \"agora\" concreto.\n*   *Regra de"
+      }, {
+        "text": " Interpretação:* Transcendência usada como escudo contra o risco real. Falta de presença no \"agora\" \u003d"
+      }, {
+        "text": " fuga sofisticada da responsabilidade de agir.\n\n## 7. Dependência Invertida e Autoria\n*   *O"
+      }, {
+        "text": " que buscar:* Quem precisa do Kevyn? Onde ele se torna \"indispensável\" ou \"cuidador"
+      }, {
+        "text": "\" para manter o controle e evitar ser cuidado?\n*   *Regra de Interpretação:* O ganho secund"
+      }, {
+        "text": "ário de permanecer na posição de suporte. Onde ele herdou caminhos por inércia (ausência de \""
+      }, {
+        "text": "não\") em vez de escolher por vontade (presença de \"sim\")?\n\n---\n\n# FORMATO DE SAÍDA"
+      }, {
+        "text": " (OBRIGATÓRIO)\nApresente sua análise em um Relatório Analítico estruturado em Markdown."
+      }, {
+        "text": "\n\n## 🕵️‍♂️ RELATÓRIO DE SOMBRAS: KEVYN\n\n### [Nome da Dimensão Analis"
+      }, {
+        "text": "ada]\n*   **O Silêncio Observado:** (Descreva factualmente o que não foi dito ou"
+      }, {
+        "text": " a incongruência narrativa).\n*   **A Tradução Psicológica:** (Aplique a regra de interpretação"
+      }, {
+        "text": ". Seja direto e cirúrgico).\n*   **A Evidência nas Entrelinhas:** (Cite tre"
+      }, {
+        "text": "chos sutis ou contradições que denunciam esse estado).\n\n*(Repita para as 7 dimensões)*\n\n"
+      }, {
+        "text": "---\n\n### 🧩 A GRANDE SÍNTESE DO NÃO-DITO\n\n**1. O Mapa das Sombras ("
+      }, {
+        "text": "Top 3)**\nListe os 3 maiores \"Silêncios que Gritam\" identificados na análise e o que"
+      }, {
+        "text": " exatamente eles protegem.\n\n**2. A Identidade Fantasma**\nDefina em uma frase quem é o Kev"
+      }, {
+        "text": "yn que existe *apenas* nas entrelinhas (o oposto da persona pública).\n\n**3. O Custo"
+      }, {
+        "text": " Oculto e o Ganho Secundário**\nResponda: O que Kevyn ganha (seg"
+      }, {
+        "text": "urança/identidade) permanecendo exatamente onde está, e qual é o preço biológico/emocional exato"
+      }, {
+        "text": " que ele paga por essa \"Lealdade à Estagnação\"?\n\n**4. O Veredito Final ("
+      }, {
+        "text": "Padrão Mestre)**\nValide ou refine a hipótese: **\"Consciência Elevada + Adi"
+      }, {
+        "text": "amento Existencial\"**. Ele entende demais para não agir, ou ele entende demais *para evitar* agir?"
+      }, {
+        "text": "\n\n# COMANDO FINAL\nComece a análise agora baseada em tudo que você já sabe sobre ele. Não use e"
+      }, {
+        "text": "ufemismos. O objetivo é trazer à luz o que Kevyn escondeu de si mesmo."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

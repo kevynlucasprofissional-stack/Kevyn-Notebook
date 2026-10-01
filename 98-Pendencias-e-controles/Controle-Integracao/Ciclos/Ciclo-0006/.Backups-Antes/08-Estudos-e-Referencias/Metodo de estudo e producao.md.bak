@@ -1,0 +1,56 @@
+---
+id: metodo-de-estudo-e-producao
+titulo: Método de estudo e produção
+tipo: metodo
+status: auditado
+profundidade: avancada
+versao_schema: '1.0'
+versao_conteudo: '1.0'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+fontes_primarias:
+- '[[Fonte - Modus operandi]]'
+- '[[Fonte - Visao geral consolidada]]'
+- '[[Fonte - Gerador de dossie]]'
+- '[[Fonte - Gerador de visao geral]]'
+- '[[Fonte - Materiais IMRIA e marketing 2025]]'
+grau_confianca: medio_alto
+sensibilidade: alta
+camada_evidencia: sintese_derivada
+tags:
+- tipo/metodo
+- tema/estudos
+- privacidade/restrita
+aliases:
+- Método de estudo e produção
+---
+# Método de estudo e produção
+
+## Padrão útil
+
+Kevyn aprende por imersão, associação e criação de sistemas. Isso favorece velocidade conceitual, mas pode produzir excesso de estrutura antes da prática deliberada.
+
+## Protocolo por etapas
+
+Os geradores de dossie e visao geral mostram uma preferencia por decompor problemas em papeis, etapas, criterios de realidade e formatos obrigatorios. Esse metodo e util quando termina em artefato verificavel; torna-se custo quando apenas aumenta a sofisticacao do planejamento.
+
+[[Fonte - Materiais IMRIA e marketing 2025]] registra uma intencao operacional de transformar curso em gravacoes, notas atomicas e agente RAG. Isso reforca o padrao de estudar produzindo infraestrutura de memoria, com o mesmo limite: o plano nao prova implementacao concluida.
+
+## Ciclo recomendado
+
+1. formular uma pergunta;
+2. estudar uma fonte principal;
+3. produzir um exercício;
+4. explicar com palavras próprias;
+5. aplicar em um caso;
+6. registrar dúvida e limite;
+7. revisar após intervalo.
+
+## Critério de término
+
+Uma unidade de estudo termina com evidência: exercício, artefato, decisão ou explicação. Notas e mapas são suporte, não substituto.
+
+## Relações
+
+[[Estilo de aprendizagem]], [[Relacao com complexidade]], [[Formacao em Data Science]] e [[Organizacao do conhecimento]].

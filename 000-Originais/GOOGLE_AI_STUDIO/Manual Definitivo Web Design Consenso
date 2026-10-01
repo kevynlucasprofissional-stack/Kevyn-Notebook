@@ -1,0 +1,237 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+    "text": "Utilize o Playbook abaixo para ajudar o usuário a resolver os problemas dele.\n\n# 📘 O Playbook Definitivo de Engenharia de Prompt\n\n## FASE 1: Configurando o Motor (Parâmetros)\nAntes de escrever, entenda os \"botões\" que você pode girar no seu LLM (Large Language Model). \n*   **Temperature (0.0 a 2.0):** Controla a criatividade.\n    *   *Tarefas exatas (Código, Extração de Dados, Matemática):* Use **0.0** (respostas determinísticas).\n    *   *Tarefas criativas (Ideação, Escrita de e-mails, Brainstorming):* Use entre **0.7 e 0.9**.\n*   **Top-K e Top-P:** Controlam a aleatoriedade limitando o vocabulário de onde o modelo pode escolher a próxima palavra. Se for mexer na Temperature, geralmente deixe esses no padrão (ou vice-versa).\n*   **Max Tokens:** Limite o tamanho da resposta para evitar que o modelo entre em *loops* de repetição sem fim.\n\n---\n\n## FASE 2: A Anatomia do Prompt Ideal\nUm prompt de nível de produção não é apenas uma frase. Ele deve ser estruturado como um documento. Lembre-se do **Princípio da Chapeuzinho Vermelho**: *os modelos imitam os dados em que foram treinados*. Se o seu prompt parece um documento de alta qualidade e bem estruturado, a resposta também será.\n\nDivida seu prompt nestes 4 blocos (usando Markdown para separar):\n\n1.  **Introdução / Preamble (System Prompt):** Define o papel (Persona), o tom e o comportamento do modelo.\n2.  **Contexto (Context):** A injeção de dados (documentos, histórico de chat, regras de negócio).\n3.  **Refoco (Refocus):** Modelos sofrem do *\"Valley of Meh\"* (eles lembram do começo e do fim do prompt, mas ignoram o meio). Coloque sua pergunta principal ou instrução mais importante no **final** do prompt para \"refocar\" a atenção da IA.\n4.  **Transição / Inception:** Deixe a porta aberta para o modelo começar a falar exatamente no formato que você quer. (Ex: `Resposta em JSON: {`)\n\n---\n\n## FASE 3: Os 5 Princípios de Ouro do Prompting\n\n### 1. Dê Direção (Give Direction)\nDiga exatamente o que o modelo deve fazer.\n*   **Aja como um especialista:** Use *Role Prompting* (Ex: \"Aja como um consultor sênior de marketing...\").\n*   **Instruções \u003e Restrições:** LLMs funcionam melhor quando você diz o que eles *devem* fazer, em vez do que *não devem*.\n    *   ❌ *Não faça:* \"Não escreva uma introdução longa.\"\n    *   ✅ *Faça:* \"Vá direto ao ponto e comece no primeiro tópico.\"\n\n### 2. Especifique o Formato (Specify Format)\nNunca deixe a formatação por conta do modelo. Use formatos estruturados para evitar \"enrolação\" (fluff).\n*   Peça a saída em **JSON, YAML, XML ou Markdown**. \n*   Forneça o *schema* (esqueleto) exato que você espera receber. Isso facilita a extração de dados por sistemas automatizados.\n\n### 3. Forneça Exemplos (Provide Examples / Few-Shot)\nO modelo aprende melhor vendo do que ouvindo. \n*   **Zero-shot:** Sem exemplos (útil para tarefas muito simples).\n*   **Few-shot:** Dê de 3 a 5 exemplos de pares \"Entrada -\u003e Saída desejada\". \n*   *Atenção:* Misture as classes nos exemplos para não viciar o modelo (ex: não coloque 3 exemplos positivos seguidos se quiser que ele também identifique sentimentos negativos).\n\n### 4. Divida o Trabalho (Divide Labor)\nLLMs falham em tarefas gigantescas. Se a tarefa é complexa, divida-a em partes.\n*   **Cadeias de Prompts (Prompt Chaining):** Use a saída do Prompt 1 como entrada do Prompt 2. (Ex: Prompt 1 extrai dados de um site -\u003e Prompt 2 cria ideias de produtos -\u003e Prompt 3 escreve o e-mail de vendas).\n\n### 5. Avalie a Qualidade (Evaluate Quality)\nNão dependa da sorte. Avalie seus prompts metodicamente.\n*   Use o método **SOMA** para fazer o próprio LLM avaliar saídas: Faça perguntas **S**pecíficas, use notas **O**rdinais (1 a 5), com cobertura **M**ulti-**A**specto (avalie tom, precisão e formatação separadamente).\n\n---\n\n## FASE 4: Técnicas Avançadas de Raciocínio\n\nQuando o modelo erra lógica ou matemática, aplique estes \"hacks\" cognitivos:\n\n*   **Chain of Thought (CoT):** Adicione a frase mágica *\"Let\u0027s think step-by-step\"* (Vamos pensar passo a passo) no final do seu prompt. Isso força o modelo a criar uma \"voz interna\" e fazer os cálculos antes de dar a resposta final, aumentando drasticamente a precisão.\n*   **Self-Consistency:** Gere 5 ou mais respostas diferentes (usando Temperature alta) e programe seu sistema para escolher a resposta que mais se repetiu (votação por maioria).\n*   **Step-Back Prompting:** Antes de pedir a solução de um problema específico, peça ao modelo para listar os princípios gerais ou as leis fundamentais que regem aquele problema.\n*   **ReAct (Reason + Act):** A arquitetura para Agentes. O modelo opera em um loop: *Pensar -\u003e Escolher uma Ferramenta (ex: Busca no Google) -\u003e Observar o resultado -\u003e Pensar novamente -\u003e Dar a resposta final*.\n\n---\n\n## FASE 5: Tratando Contexto e Dados (RAG)\n\nQuando precisar que o modelo responda com base em documentos da sua empresa (Retrieval-Augmented Generation):\n\n1.  **Snippetizing (Fatiamento):** Não jogue um PDF de 500 páginas no prompt. Fatie o texto em \"pedaços\" (chunks) com sobreposição (overlap) para não cortar o sentido das frases no meio.\n2.  **Cuidado com a Falácia da Arma de Chekhov:** Se você colocar uma informação inútil no contexto, a IA tentará usá-la a todo custo. Filtre rigorosamente o contexto usando busca semântica (bancos de dados vetoriais como FAISS ou Pinecone) antes de enviar ao modelo.\n3.  **Prevenindo Alucinações:** Adicione a regra: *\"Responda APENAS usando os documentos fornecidos. Se a resposta não estiver nos documentos, diga \u0027Não sei\u0027.\"*\n\n---\n\n## FASE 6: Prompts para Imagens (Midjourney, DALL-E, Stable Diffusion)\n\nModelos de imagem de difusão não \"entendem\" a gramática da mesma forma que os de texto. A ordem e o vocabulário mandam:\n\n*   **Palavras-Chave de Qualidade (Boosters):** Adicione termos como *4k, highly detailed, photorealistic, trending on artstation, masterpiece*. \n*   **Modificadores de Formato e Estilo:** Defina a mídia física. (Ex: *oil painting, 35mm photography, polaroid, 1960s comic book, studio lighting*).\n*   **Negative Prompts:** Diga o que você *não quer*. Para remover distorções, use: *ugly, deformed, bad anatomy, low resolution*.\n*   **Pesos (Weights):** Em Midjourney (::) e Stable Diffusion (()), você pode dar pesos às palavras. Ex: `A cat::2 and a dog::1` fará o gato ser duas vezes mais proeminente que o cachorro.\n*   **Engenharia Reversa:** Não sabe descrever uma imagem? Use comandos como `/describe` no Midjourney (ou o CLIP Interrogator) fazendo upload da imagem para que a própria IA gere o prompt perfeito para você copiar.\n\n---\n\n## ✅ O Checklist de Mesa (Cheat Sheet)\n\nSempre que for criar um novo prompt profissional, passe por este checklist:\n\n- [ ] Defini um papel/persona claro no início do prompt? (System Prompt)\n- [ ] Forneci instruções dizendo o que *fazer* em vez de apenas o que *não fazer*?\n- [ ] Inseri contexto relevante e excluí o lixo informacional?\n- [ ] Coloquei a instrução principal e a pergunta no final do prompt para fugir do *Valley of Meh*?\n- [ ] Pedi uma saída em um formato rigoroso (JSON/Markdown) para facilitar a automação?\n- [ ] Mostrei pelo menos 2 exemplos (Few-shot) do que eu considero uma resposta perfeita?\n- [ ] Pedi para a IA \"pensar passo a passo\" e mostrar a lógica antes de me dar a resposta final?\n- [ ] \"Forcei a largada\" (Inception) escrevendo a primeira palavra da resposta esperada (Ex: `"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1tJi_E4CPiZbC8QS7V1Kq9_KqfXg5Dsvk"
+      },
+      "role": "user",
+      "tokenCount": 109201,
+      "createTime": "2026-03-22T00:23:11.955Z"
+    }, {
+      "driveDocument": {
+        "id": "1mbndkkeq5zOB9AMkwGe-m4Mmpdxuw_xo"
+      },
+      "role": "user",
+      "tokenCount": 183681,
+      "createTime": "2026-03-22T00:23:11.955Z"
+    }, {
+      "text": "Crie, com base nestes livros, um manual ou playbook super conciso e direto.\n\nUm manual super prudente.\n\nUm sobre como fazer UX para websites.\n\nWeb design, entende?\n\nPegue tudo, analise, compare, veja o que se repete.\n\nVeja o que é consenso entre todos os livros.\n\nE crie um manual com esse consenso.\n\nUm manual definitivo que sintetiza todos esses quatro livros.\n\nSe possível, depois de sintetizar tudo e pegar o que é consenso e colocar no manual, crie no final do manual uma seção, tipo:\n\nFalando o que cada livro diz de diferente um do outro.\n\nO que cada livro tem de único.\n\nIsso tudo em forma de manual, como dicas aplicáveis.\n\nComo leis acionáveis, entende?",
+      "role": "user",
+      "tokenCount": 171,
+      "createTime": "2026-03-22T00:23:11.955Z"
+    }, {
+      "text": "**Defining the UX/UI Playbook**\n\nI\u0027m now zeroing in on the core objective: crafting this concise UX/UI playbook. I\u0027m focusing intently on synthesizing the consensus from the supplied PDFs, ensuring the output is direct, actionable, and laser-focused on web design principles, per the user\u0027s explicit request. I aim to create the manual the user is seeking.\n\n\n**Structuring the Content**\n\nI\u0027m now outlining the playbook\u0027s architecture. My plan involves distilling the PDFs\u0027 insights into actionable rules and distinct advice from each. I\u0027m taking the prompt playbook as a guide for *how* I should act, not for *what* I should say, as the user seeks *design* advice. This process aims to give the user the guidance they are seeking.\n\n\n**Analyzing Design Principles**\n\nI\u0027m now diving deep into Elisa Paduraru\u0027s modern component-level approach and cross-referencing with Albert Chipman\u0027s insights. My focus is on the shared principles. I see strong agreement on simplicity and clarity, along with the need for consistent UI elements across the board. I\u0027m noting the 3-click rule for cognitive load. I\u0027m synthesizing these viewpoints to form a cohesive, actionable design framework.\n\n\n**Synthesizing Design Concepts**\n\nI\u0027m now integrating common visual design elements. I see the core principles emerging: visual hierarchy (size, color, contrast, alignment), typography rules (limited fonts, readability), grid/alignment for order, contrast/accessibility, and, critically, user-centricity. I\u0027m focusing on distilling these into actionable rules for the playbook, keeping in mind the user\u0027s specific request for a concise manual. I am emphasizing direct applicability.\n\n\n**Outlining the Playbook**\n\nI\u0027m now outlining the playbook with distinct sections, aiming for a structured flow. I\u0027m focusing on the component-building steps, followed by unique insights from the different authors. I\u0027m using the iterative content refinement stage to hone the tone, using an imperative style, professional without fluff, and aiming for Markdown formatting. Part 1, the core laws, is in the works, including a focus on user research, minimizing cognitive load, and visual hierarchy.\n\n\n**Prioritizing Accessibility Rules**\n\nI am now focusing on refining the content. I\u0027ve integrated readability and accessibility principles throughout the playbook\u0027s design section. I\u0027m ensuring all visual and functional elements are user-friendly, and that there are clear paths for users. Part 2 of the playbook is in progress, highlighting the distinct contributions of each book. Actionable tips from Chipman and Paduraru/Creative Tim are being included, such as the 3-Click Rule, Low-Fi wireframes, the 8pt Grid System, the 60-30-10 Color Rule, and avoidance of pure black. I\u0027m synthesizing these.\n\n\n",
+      "role": "model",
+      "tokenCount": 1724,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the UX/UI Playbook**\n\nI\u0027m now zeroing in on the core objective: crafting this concise UX/UI playbook. I\u0027m focusing intently on synthesizing the consensus from the supplied PDFs, ensuring the output is direct, actionable, and laser-focused on web design principles, per the user\u0027s explicit request. I aim to create the manual the user is seeking.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Content**\n\nI\u0027m now outlining the playbook\u0027s architecture. My plan involves distilling the PDFs\u0027 insights into actionable rules and distinct advice from each. I\u0027m taking the prompt playbook as a guide for *how* I should act, not for *what* I should say, as the user seeks *design* advice. This process aims to give the user the guidance they are seeking.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing Design Principles**\n\nI\u0027m now diving deep into Elisa Paduraru\u0027s modern component-level approach and cross-referencing with Albert Chipman\u0027s insights. My focus is on the shared principles. I see strong agreement on simplicity and clarity, along with the need for consistent UI elements across the board. I\u0027m noting the 3-click rule for cognitive load. I\u0027m synthesizing these viewpoints to form a cohesive, actionable design framework.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Synthesizing Design Concepts**\n\nI\u0027m now integrating common visual design elements. I see the core principles emerging: visual hierarchy (size, color, contrast, alignment), typography rules (limited fonts, readability), grid/alignment for order, contrast/accessibility, and, critically, user-centricity. I\u0027m focusing on distilling these into actionable rules for the playbook, keeping in mind the user\u0027s specific request for a concise manual. I am emphasizing direct applicability.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Outlining the Playbook**\n\nI\u0027m now outlining the playbook with distinct sections, aiming for a structured flow. I\u0027m focusing on the component-building steps, followed by unique insights from the different authors. I\u0027m using the iterative content refinement stage to hone the tone, using an imperative style, professional without fluff, and aiming for Markdown formatting. Part 1, the core laws, is in the works, including a focus on user research, minimizing cognitive load, and visual hierarchy.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Prioritizing Accessibility Rules**\n\nI am now focusing on refining the content. I\u0027ve integrated readability and accessibility principles throughout the playbook\u0027s design section. I\u0027m ensuring all visual and functional elements are user-friendly, and that there are clear paths for users. Part 2 of the playbook is in progress, highlighting the distinct contributions of each book. Actionable tips from Chipman and Paduraru/Creative Tim are being included, such as the 3-Click Rule, Low-Fi wireframes, the 8pt Grid System, the 60-30-10 Color Rule, and avoidance of pure black. I\u0027m synthesizing these.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-03-22T00:23:11.955Z"
+    }, {
+      "text": "Com base na análise rigorosa dos documentos fornecidos (nota: o arquivo contém **dois** livros distintos consolidados, e não quatro: *\"UX/UI Design 2022\"* de Albert Chipman e *\"Roots of UI/UX Design\"* de Elisa Paduraru/Creative Tim), extraí o consenso absoluto e as diretrizes únicas de cada um.\n\nAbaixo está o seu **Manual Definitivo e Conciso de Web Design**, estruturado em leis acionáveis.\n\n---\n\n# 📘 O Playbook Definitivo de UX/UI para Web Design\n\n## PARTE 1: O Consenso (As 7 Leis Universais do Web Design)\n*Estas são as regras inegociáveis. Ambos os autores concordam que violar estes princípios destrói a experiência do usuário.*\n\n**Lei 1: A Simplicidade Prevalece (Menos é Mais)**\n*   **Ação:** Remova qualquer elemento que não ajude o usuário a completar uma tarefa.\n*   **Regra:** Não tente reinventar a roda. Use padrões de design familiares (ícones reconhecíveis, menus onde as pessoas esperam que estejam). Complexidade não é sinônimo de qualidade.\n\n**Lei 2: Hierarquia Visual Estrita**\n*   **Ação:** Guie os olhos do usuário pela página usando tamanho, cor, contraste e espaço em branco.\n*   **Regra:** O elemento mais importante da tela (como o botão principal de *Call to Action*) deve ser o que mais chama a atenção. Siga os padrões naturais de leitura (Padrão em F ou Padrão em Z).\n\n**Lei 3: Consistência é Inegociável**\n*   **Ação:** Mantenha cores, tipografia, estilos de botões e comportamentos iguais em todo o site.\n*   **Regra:** Se um botão de \"Salvar\" é verde e arredondado na página inicial, ele deve ser exatamente igual na página de configurações. A consistência reduz a curva de aprendizado (reduz o atrito cognitivo).\n\n**Lei 4: O Domínio da Tipografia Pragmática**\n*   **Ação:** Limite seu site a no máximo 2 famílias de fontes e 3 tamanhos diferentes por seção.\n*   **Regra:** O texto deve ser legível. Ajuste o *line-height* (altura da linha) — para textos pequenos, multiplique o tamanho da fonte por 1.6 (ex: fonte 16px \u003d linha 26px). Mantenha o comprimento da linha (*line length*) entre 40 e 55 caracteres para não cansar os olhos.\n\n**Lei 5: Ancoragem no Grid (Alinhamento)**\n*   **Ação:** Nunca posicione elementos aleatoriamente. Use um sistema de Grid (o padrão da indústria é o **Grid de 12 colunas**).\n*   **Regra:** O alinhamento à esquerda é o mais seguro para blocos de texto (pois 90% da população lê da esquerda para a direita). Evite texto centralizado para parágrafos longos.\n\n**Lei 6: Contraste e Acessibilidade**\n*   **Ação:** Garanta que o texto se destaque do fundo. Use ferramentas de teste de contraste (como o WCAG 2.0).\n*   **Regra:** Se o design parece bom e legível quando colocado em preto e branco (escala de cinza), ele funcionará bem com cores.\n\n**Lei 7: O Design deve \"Respirar\" (White Space)**\n*   **Ação:** Use o espaço negativo (espaço em branco) generosamente entre blocos de texto, botões e imagens.\n*   **Regra:** O espaço vazio não é \"espaço desperdiçado\"; é o que permite ao cérebro processar a informação em blocos digestíveis.\n\n---\n\n## PARTE 2: A Assinatura de Cada Autor (Dicas Únicas e Específicas)\n\nEmbora concordem nos fundamentos, os dois livros abordam o design de perspectivas diferentes. Aqui estão as leis acionáveis exclusivas de cada obra:\n\n### 🛠️ O Foco Estratégico e de Processo\n*(Insights extraídos de \"UX/UI Design 2022\" - Albert Chipman)*\n\n*   **A Lei dos 3 Cliques:** Estruture a navegação (*Information Architecture*) para que o usuário encontre qualquer coisa que procure no site em 3 cliques ou menos. Se demorar mais, a taxa de rejeição (*bounce rate*) dispara.\n*   **Valide com Baixa Fidelidade:** Nunca pule a etapa do Wireframe de papel ou de baixa fidelidade (usando ferramentas como Balsamiq). Valide a lógica e o fluxo do usuário antes de gastar tempo com cores e imagens.\n*   **Escreva \"Microcópias\" Focadas na Ação:** Aja como um redator pragmático em botões e mensagens de erro. Em vez de escrever \"Faça um pagamento\", use apenas \"Pagar\". Mensagens de erro devem sempre dizer *como* resolver o problema, não apenas apontar a falha.\n*   **Case o UI com o SEO:** Um bom design de interface afeta o Google. Garanta que o site tenha um Sitemap XML claro, hierarquia de cabeçalhos correta (H1, H2, H3), URLs amigáveis e seja responsivo (*Mobile-first* é exigência do Google).\n\n### 🎨 O Foco Atômico, Estético e de Componentes\n*(Insights extraídos de \"Roots of UI/UX Design\" - Creative Tim)*\n\n*   **A Regra do 8pt (Grid System):** Ao dimensionar elementos (botões, margens, paddings), use sempre múltiplos de 8 (ex: 8px, 16px, 24px, 32px, 40px). Isso garante uma proporção matemática perfeita em quase todas as telas.\n*   **A Regra da Proporção Áurea das Cores (60-30-10):**\n    *   **60%** do site deve ser a cor primária/dominante (geralmente neutra).\n    *   **30%** deve ser a cor secundária.\n    *   **10%** deve ser a cor de destaque/acento (para CTAs e avisos).\n*   **A Lei do Preto Proibido:** Nunca use preto puro (`#000000`) para textos em fundos brancos. Isso causa extremo cansaço visual e \"halos\" luminosos. Use sempre um cinza muito escuro (ex: *Gray/900*).\n*   **Domínio do Dark Mode:** O Modo Escuro não é apenas inverter cores. Sombras brancas no Dark Mode são um erro grave; use tons escuros do elemento com fundos mais claros. Cores puras (Tints) chamam muito mais atenção no escuro e devem ser usadas com moderação.\n*   **A Anatomia Perfeita do Botão:** O tamanho mínimo de um botão para ser clicável confortavelmente (Touch Target) deve ser de 36x36px a 44x44px. Arredonde os cantos dos botões, pois o cérebro humano processa retângulos arredondados com menos esforço cognitivo do que bordas pontiagudas.\n*   **Uso Tático de Inteligência Artificial:** Utilize IAs como co-pilotos para gerar paletas de cores baseadas em emoções, criar dados falsos realistas (fuja do *Lorem Ipsum* na hora de criar componentes como tabelas) e analisar o contraste.\n\n---\n\n## 🚀 Checklist Final de Execução (SOMA)\n\nAntes de aprovar e publicar qualquer design web, avalie-o com estas 4 perguntas rápidas:\n\n- [ ] **O usuário sabe onde clicar em menos de 2 segundos?** (Hierarquia visual clara).\n- [ ] **As fontes e espaçamentos seguem padrões matemáticos?** (Regra do 8pt, linha de 1.6x).\n- [ ] **A experiência seria frustrante para alguém em um celular pequeno?** (Se sim, aumente os botões e simplifique).\n- [ ] **Há informações inúteis poluindo a tela?** (Se não ajuda a vender ou informar, delete e deixe em branco).",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1841,
+      "parts": [{
+        "text": "Com base na análise rigorosa dos documentos fornecidos (nota: o arquivo contém **dois** livros distintos consol"
+      }, {
+        "text": "idados, e não quatro: *\"UX/UI Design 2022\"* de Albert Chipman e *\"Roots of UI/UX Design\"*"
+      }, {
+        "text": " de Elisa Paduraru/Creative Tim), extraí o consenso absoluto e as diretrizes únicas de cada um.\n\n"
+      }, {
+        "text": "Abaixo está o seu **Manual Definitivo e Conciso de Web Design**, estruturado em leis acionáveis."
+      }, {
+        "text": "\n\n---\n\n# 📘 O Playbook Definitivo de UX/UI para Web Design\n\n## PARTE 1: O"
+      }, {
+        "text": " Consenso (As 7 Leis Universais do Web Design)\n*Estas são as regras inegociáveis. Ambos"
+      }, {
+        "text": " os autores concordam que violar estes princípios destrói a experiência do usuário.*\n\n**Lei 1: A Simplicidade Pre"
+      }, {
+        "text": "valece (Menos é Mais)**\n*   **Ação:** Remova qualquer elemento que não ajude o usuário a completar"
+      }, {
+        "text": " uma tarefa.\n*   **Regra:** Não tente reinventar a roda. Use padrões de design familiares (ícones reconhe"
+      }, {
+        "text": "cíveis, menus onde as pessoas esperam que estejam). Complexidade não é sinônimo de qualidade.\n\n**Lei "
+      }, {
+        "text": "2: Hierarquia Visual Estrita**\n*   **Ação:** Guie os olhos do usuário pela página usando tamanho,"
+      }, {
+        "text": " cor, contraste e espaço em branco.\n*   **Regra:** O elemento mais importante da tela (como o"
+      }, {
+        "text": " botão principal de *Call to Action*) deve ser o que mais chama a atenção. Siga os padrões naturais de leitura (P"
+      }, {
+        "text": "adrão em F ou Padrão em Z).\n\n**Lei 3: Consistência é Inegociável**\n*   **"
+      }, {
+        "text": "Ação:** Mantenha cores, tipografia, estilos de botões e comportamentos iguais em todo o site.\n*   **Reg"
+      }, {
+        "text": "ra:** Se um botão de \"Salvar\" é verde e arredondado na página inicial, ele deve ser exatamente"
+      }, {
+        "text": " igual na página de configurações. A consistência reduz a curva de aprendizado (reduz o atrito cognitivo).\n\n"
+      }, {
+        "text": "**Lei 4: O Domínio da Tipografia Pragmática**\n*   **Ação:** Limite seu"
+      }, {
+        "text": " site a no máximo 2 famílias de fontes e 3 tamanhos diferentes por seção.\n*   **Regra"
+      }, {
+        "text": ":** O texto deve ser legível. Ajuste o *line-height* (altura da linha) — para textos pequenos"
+      }, {
+        "text": ", multiplique o tamanho da fonte por 1.6 (ex: fonte 16px \u003d linha 26px)."
+      }, {
+        "text": " Mantenha o comprimento da linha (*line length*) entre 40 e 55 caracteres para não cansar os"
+      }, {
+        "text": " olhos.\n\n**Lei 5: Ancoragem no Grid (Alinhamento)**\n*   **Ação:** Nunca"
+      }, {
+        "text": " posicione elementos aleatoriamente. Use um sistema de Grid (o padrão da indústria é o **Grid de 1"
+      }, {
+        "text": "2 colunas**).\n*   **Regra:** O alinhamento à esquerda é o mais seguro para bloc"
+      }, {
+        "text": "os de texto (pois 90% da população lê da esquerda para a direita). Evite texto centralizado para"
+      }, {
+        "text": " parágrafos longos.\n\n**Lei 6: Contraste e Acessibilidade**\n*   **A"
+      }, {
+        "text": "ção:** Garanta que o texto se destaque do fundo. Use ferramentas de teste de contraste (como o WCAG 2.0).\n*"
+      }, {
+        "text": "   **Regra:** Se o design parece bom e legível quando colocado em preto e branco (escala de cinza), ele funcion"
+      }, {
+        "text": "ará bem com cores.\n\n**Lei 7: O Design deve \"Respirar\" (White Space)**\n*   **Ação"
+      }, {
+        "text": ":** Use o espaço negativo (espaço em branco) generosamente entre blocos de texto, botões e imagens.\n*   **Regra"
+      }, {
+        "text": ":** O espaço vazio não é \"espaço desperdiçado\"; é o que permite ao cérebro processar a informação em"
+      }, {
+        "text": " blocos digestíveis.\n\n---\n\n## PARTE 2: A Assinatura de Cada Autor (Dicas Ú"
+      }, {
+        "text": "nicas e Específicas)\n\nEmbora concordem nos fundamentos, os dois livros abordam o design de perspectivas diferentes. Aqui estão as leis"
+      }, {
+        "text": " acionáveis exclusivas de cada obra:\n\n### 🛠️ O Foco Estratégico e de Processo\n"
+      }, {
+        "text": "*(Insights extraídos de \"UX/UI Design 2022\" - Albert Chipman)*\n\n*   **A Lei"
+      }, {
+        "text": " dos 3 Cliques:** Estruture a navegação (*Information Architecture*) para que o usuário encontre qualquer coisa que procure"
+      }, {
+        "text": " no site em 3 cliques ou menos. Se demorar mais, a taxa de rejeição (*bounce rate*) dispara.\n*   "
+      }, {
+        "text": "**Valide com Baixa Fidelidade:** Nunca pule a etapa do Wireframe de papel ou de baixa fidelidade (usando ferramentas como"
+      }, {
+        "text": " Balsamiq). Valide a lógica e o fluxo do usuário antes de gastar tempo com cores e imagens.\n*   **Es"
+      }, {
+        "text": "creva \"Microcópias\" Focadas na Ação:** Aja como um redator pragmático em botões e mensagens de"
+      }, {
+        "text": " erro. Em vez de escrever \"Faça um pagamento\", use apenas \"Pagar\". Mensagens de erro devem sempre"
+      }, {
+        "text": " dizer *como* resolver o problema, não apenas apontar a falha.\n*   **Case o UI com o SEO:** Um"
+      }, {
+        "text": " bom design de interface afeta o Google. Garanta que o site tenha um Sitemap XML claro, hierarquia de cabeçalhos corre"
+      }, {
+        "text": "ta (H1, H2, H3), URLs amigáveis e seja responsivo (*Mobile-first*"
+      }, {
+        "text": " é exigência do Google).\n\n### 🎨 O Foco Atômico, Estético e de Componentes\n*(Insights"
+      }, {
+        "text": " extraídos de \"Roots of UI/UX Design\" - Creative Tim)*\n\n*   **A Regra do "
+      }, {
+        "text": "8pt (Grid System):** Ao dimensionar elementos (botões, margens, paddings), use sempre múltiplos de 8 ("
+      }, {
+        "text": "ex: 8px, 16px, 24px, 32px, 40px"
+      }, {
+        "text": "). Isso garante uma proporção matemática perfeita em quase todas as telas.\n*   **A Regra da Proporção Á"
+      }, {
+        "text": "urea das Cores (60-30-10):**\n    *   **60%** do site"
+      }, {
+        "text": " deve ser a cor primária/dominante (geralmente neutra).\n    *   **30%** deve ser a cor secund"
+      }, {
+        "text": "ária.\n    *   **10%** deve ser a cor de destaque/acento (para CTAs e avisos).\n*   "
+      }, {
+        "text": "**A Lei do Preto Proibido:** Nunca use preto puro (`#000000`) para textos"
+      }, {
+        "text": " em fundos brancos. Isso causa extremo cansaço visual e \"halos\" luminosos. Use sempre um cin"
+      }, {
+        "text": "za muito escuro (ex: *Gray/900*).\n*   **Domínio do Dark Mode:** O"
+      }, {
+        "text": " Modo Escuro não é apenas inverter cores. Sombras brancas no Dark Mode são um erro grave; use tons escuros do"
+      }, {
+        "text": " elemento com fundos mais claros. Cores puras (Tints) chamam muito mais atenção no escuro e"
+      }, {
+        "text": " devem ser usadas com moderação.\n*   **A Anatomia Perfeita do Botão:** O tamanho mínimo"
+      }, {
+        "text": " de um botão para ser clicável confortavelmente (Touch Target) deve ser de 36x36px a 44"
+      }, {
+        "text": "x44px. Arredonde os cantos dos botões, pois o cérebro humano processa ret"
+      }, {
+        "text": "ângulos arredondados com menos esforço cognitivo do que bordas pontiagudas.\n*   **Uso T"
+      }, {
+        "text": "ático de Inteligência Artificial:** Utilize IAs como co-pilotos para gerar paletas de cores baseadas em emo"
+      }, {
+        "text": "ções, criar dados falsos realistas (fuja do *Lorem Ipsum* na hora de criar componentes como tabelas) e analisar"
+      }, {
+        "text": " o contraste.\n\n---\n\n## 🚀 Checklist Final de Execução (SOMA)\n\nAntes de aprovar e"
+      }, {
+        "text": " publicar qualquer design web, avalie-o com estas 4 perguntas rápidas:\n\n- [ ] **O usuário sabe"
+      }, {
+        "text": " onde clicar em menos de 2 segundos?** (Hierarquia visual clara).\n- [ ] **As fontes e espaçamentos segu"
+      }, {
+        "text": "em padrões matemáticos?** (Regra do 8pt, linha de 1.6x).\n- [ ]"
+      }, {
+        "text": " **A experiência seria frustrante para alguém em um celular pequeno?** (Se sim, aumente os botões e simpl"
+      }, {
+        "text": "ifique).\n- [ ] **Há informações inúteis poluindo a tela?** (Se não ajuda a vender ou informar"
+      }, {
+        "text": ", delete e deixe em branco)."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-22T00:23:58.258Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

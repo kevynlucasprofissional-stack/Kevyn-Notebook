@@ -1,0 +1,20 @@
+{
+  "schema": "1.0",
+  "created_at": "2026-06-18T14:35:52-03:00",
+  "runs": [
+    {
+      "kind": "idle_check",
+      "idle_check": 1,
+      "pending_count": 0,
+      "checked_at": "2026-06-19T10:53:03-03:00"
+    }
+  ],
+  "completed": true,
+  "last_pending_count": 0,
+  "last_message": "watch_idle_limit",
+  "updated_at": "2026-06-19T10:53:03-03:00",
+  "watch_mode": true,
+  "idle_seconds": 0.0,
+  "idle_checks": 1,
+  "last_idle_at": "2026-06-19T10:53:03-03:00"
+}

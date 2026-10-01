@@ -1,0 +1,135 @@
+[
+    {
+        "mudanca_id":  "MUD-000028",
+        "caminho":  "09-Fontes-e-Evidencias/Fonte - Palestra IA e pitches Espaco Prema 2025.md",
+        "operacao":  "criar",
+        "motivo":  "catalogar fonte agregada do lote de palestra IA e pitches Espaco Prema",
+        "fontes":  [
+                       "SRC-000035",
+                       "SRC-000036",
+                       "SRC-000037",
+                       "SRC-000038",
+                       "SRC-000039",
+                       "SRC-000040",
+                       "SRC-000041",
+                       "SRC-000042"
+                   ],
+        "unidades":  [
+                         "UNI-000017",
+                         "UNI-000018",
+                         "UNI-000019"
+                     ],
+        "hash_anterior":  null,
+        "hash_posterior":  "871ae42b36af0d1bb0ebb113771c39c1d8197610d530ffa2a67086ae9e87b77f",
+        "ciclo":  "CICLO-0005",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000029",
+        "caminho":  "04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md",
+        "operacao":  "modificar",
+        "motivo":  "registrar planejamento de palestra IA, demos, ROI e governanca",
+        "fontes":  [
+                       "SRC-000035",
+                       "SRC-000036",
+                       "SRC-000040",
+                       "SRC-000042"
+                   ],
+        "unidades":  [
+                         "UNI-000017"
+                     ],
+        "hash_anterior":  "da88075c87f6604166ad5640b9f40f1afe8640bb70c24653e080051fc4c36ee6",
+        "hash_posterior":  "331184acea3e1cbd2ce9fa4e261654ae2e6927c8e2962b03690c68b9d94fa6d4",
+        "ciclo":  "CICLO-0005",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000030",
+        "caminho":  "04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md",
+        "operacao":  "modificar",
+        "motivo":  "registrar pitches, FOFA, funil, KPIs, scripts e proposta comercial",
+        "fontes":  [
+                       "SRC-000036",
+                       "SRC-000037",
+                       "SRC-000038",
+                       "SRC-000039",
+                       "SRC-000040",
+                       "SRC-000042"
+                   ],
+        "unidades":  [
+                         "UNI-000017",
+                         "UNI-000018"
+                     ],
+        "hash_anterior":  "0ebdd7c79d2567f94be850ef3a3c47f68bba1b2d51c5f9ce2ceba8c4045031f6",
+        "hash_posterior":  "2125cb8bdef0f7da21eb54830d2ea24b727758879ff1c8dc76953df52f81ca74",
+        "ciclo":  "CICLO-0005",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000031",
+        "caminho":  "04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md",
+        "operacao":  "modificar",
+        "motivo":  "registrar palestra IA e propostas Espaco Prema sem confirmacao de realizacao",
+        "fontes":  [
+                       "SRC-000035",
+                       "SRC-000036",
+                       "SRC-000037",
+                       "SRC-000038",
+                       "SRC-000039",
+                       "SRC-000040",
+                       "SRC-000041",
+                       "SRC-000042"
+                   ],
+        "unidades":  [
+                         "UNI-000017",
+                         "UNI-000018"
+                     ],
+        "hash_anterior":  "6de2a8de3aa6bcad99e24aee142b0bd061941e27e3b2ee1374785842fead456e",
+        "hash_posterior":  "e987d1c1412b36406b7f13d9dfebaada715811834c865e9011cc29d98e3850c7",
+        "ciclo":  "CICLO-0005",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000032",
+        "caminho":  "08-Estudos-e-Referencias/Negocios e marketing.md",
+        "operacao":  "modificar",
+        "motivo":  "registrar adaptacao de frameworks de lancamento/oferta",
+        "fontes":  [
+                       "SRC-000037",
+                       "SRC-000038",
+                       "SRC-000039"
+                   ],
+        "unidades":  [
+                         "UNI-000018"
+                     ],
+        "hash_anterior":  "45ba12f1746289a63723743a03d89f8c8783e7c5888a03170c85912809aab0a2",
+        "hash_posterior":  "b2cd3ed7be240993895f9677ea530e3ab7efe307a052e0ed01aa63689ea78151",
+        "ciclo":  "CICLO-0005",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000033",
+        "caminho":  "09-Fontes-e-Evidencias/Indice geral de fontes selecionadas.md",
+        "operacao":  "modificar",
+        "motivo":  "incluir fonte agregada no indice",
+        "fontes":  [
+                       "SRC-000035",
+                       "SRC-000036",
+                       "SRC-000037",
+                       "SRC-000038",
+                       "SRC-000039",
+                       "SRC-000040",
+                       "SRC-000041",
+                       "SRC-000042"
+                   ],
+        "unidades":  [
+                         "UNI-000017",
+                         "UNI-000018",
+                         "UNI-000019"
+                     ],
+        "hash_anterior":  "45cbb58565b0c6704858f83c99b7a350558925a878befc85ad8ad41c7e5e8b06",
+        "hash_posterior":  "50a3338a97a4e6de1d905e2fcb7c17b8dc6ae6f8da1f46498bee6ee24b113017",
+        "ciclo":  "CICLO-0005",
+        "validacao":  "auditoria_complementar_ok"
+    }
+]

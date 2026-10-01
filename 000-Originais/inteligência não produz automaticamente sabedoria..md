@@ -1,0 +1,2 @@
+A inteligência não nos tornou mais sábios, apenas ampliou a capacidade da nossa estupidez.
+O problema fundamental da humanidade não é simplesmente aumentar inteligência. É alinhar inteligência, incentivos, cooperação e significado.

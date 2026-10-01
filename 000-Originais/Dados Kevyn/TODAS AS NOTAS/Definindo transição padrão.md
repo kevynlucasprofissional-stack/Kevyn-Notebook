@@ -1,0 +1,1 @@
+É possível colocar uma transição como padrão no Premier. Basta clicar com o botão direito e a opção de definir padrão aparecerá.

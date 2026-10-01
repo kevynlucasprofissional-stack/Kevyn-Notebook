@@ -1,0 +1,1 @@
+Um tratamento de cores pela Adobe fica mais profissional quando se consulta o Lumetri Scopes enquanto se edita usando o Lumetri Color. Usar ajustes de equilíbrio de cores, brilho e contraste, curvas e outros efeitos podem ajudar também.

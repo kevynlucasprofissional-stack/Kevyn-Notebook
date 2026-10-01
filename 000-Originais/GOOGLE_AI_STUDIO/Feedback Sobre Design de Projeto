@@ -1,0 +1,106 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveAudio": {
+        "id": "16Un8XEwsOPeB3RI4_H-gy0cfL0goxLg6"
+      },
+      "role": "user",
+      "tokenCount": 1139,
+      "createTime": "2026-07-17T14:12:43.699Z"
+    }, {
+      "text": "Transcreva esse audio",
+      "role": "user",
+      "tokenCount": 5,
+      "createTime": "2026-07-17T14:12:43.699Z"
+    }, {
+      "text": "**Defining the Scope**\n\nI\u0027ve got a grasp of the core objective: transcribing the audio. I\u0027ve pinpointed the speaker as a woman addressing someone named Kevin and giving feedback on a design or presentation, specifically noting a phrase indicating disapproval. This provides a baseline understanding that can guide the transcription process.\n\n\n**Analyzing the Critique**\n\nI\u0027m now zeroing in on the specific feedback. I\u0027ve noted references to colors, fonts, and the need for a description or welcome message. She mentions a client photo and then considers a photo wall or mural idea. I\u0027m carefully transcribing, and re-listening to the first segment. There are some minor ambiguities to address.\n\n\n**Refining the Transcription**\n\nI\u0027m now iterating on the audio transcription of the feedback, focusing on problematic phrases and resolving ambiguities. I\u0027ve corrected the initial assumption regarding \"fez\" to \"ficou\". I am re-listening closely, and carefully making distinctions. I\u0027m focusing specifically on the phrasing around her assessment, \"do jeito que ficou eu achei que ficou meio pobre assim.\" I\u0027m now also transcribing \"esse laranja não é o nosso laranja, não sei se não gostei da fonte\" and \"falando quem que é a Silvia, um bem-vindo\".\n\n\n**Expanding the Details**\n\nI\u0027m now zeroing in on segment analysis. I\u0027ve focused on segments detailing the client photo, and a mural suggestion for events. I\u0027m noting the phrasing \"o cliente já é uma pessoa, não precisa necessariamente ser uma foto, né\" and the possible mural idea. I\u0027m focusing on the speaker\u0027s nuances.\n\n\n**Clarifying the Transcription**\n\nI\u0027m now integrating the additional text provided, refining the formatting and punctuation for clarity. The transcription is now complete and I am preparing the final document. The text includes feedback on a design, mentioning color, font, and a welcome message for Silvia. It also includes comments on a client photo and a suggestion for an event mural.\n\n\n**Finalizing the Details**\n\nI\u0027m now putting the finishing touches on the transcription. I\u0027ve re-listened to the audio carefully, confirming every phrase and nuance. I\u0027ve confirmed that the speaker says \"do jeito que você ficou,\" and I\u0027ve integrated the full text: \"Kevin, do jeito que tava não tava bom também não...mas do jeito que você ficou eu achei que ficou meio pobre assim. Esse laranja não é o nosso laranja, não sei se, não gostei da fonte, é, eu acho que tem que ter uma descrição, falando quem que é a Silvia, um bem-vindo, sabe? É, eu coloquei a foto desse do cliente, mas é porque ele é uma pessoa, o cliente já é uma pessoa, não precisa necessariamente ser uma foto, né? Mas assim, talvez se a gente criasse um mural de fotos ficaria legal dos eventos, né? Você pode... não sei, de repente...\"\n\n\n",
+      "role": "model",
+      "tokenCount": 1646,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Scope**\n\nI\u0027ve got a grasp of the core objective: transcribing the audio. I\u0027ve pinpointed the speaker as a woman addressing someone named Kevin and giving feedback on a design or presentation, specifically noting a phrase indicating disapproval. This provides a baseline understanding that can guide the transcription process.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing the Critique**\n\nI\u0027m now zeroing in on the specific feedback. I\u0027ve noted references to colors, fonts, and the need for a description or welcome message. She mentions a client photo and then considers a photo wall or mural idea. I\u0027m carefully transcribing, and re-listening to the first segment. There are some minor ambiguities to address.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Transcription**\n\nI\u0027m now iterating on the audio transcription of the feedback, focusing on problematic phrases and resolving ambiguities. I\u0027ve corrected the initial assumption regarding \"fez\" to \"ficou\". I am re-listening closely, and carefully making distinctions. I\u0027m focusing specifically on the phrasing around her assessment, \"do jeito que ficou eu achei que ficou meio pobre assim.\" I\u0027m now also transcribing \"esse laranja não é o nosso laranja, não sei se não gostei da fonte\" and \"falando quem que é a Silvia, um bem-vindo\".\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Expanding the Details**\n\nI\u0027m now zeroing in on segment analysis. I\u0027ve focused on segments detailing the client photo, and a mural suggestion for events. I\u0027m noting the phrasing \"o cliente já é uma pessoa, não precisa necessariamente ser uma foto, né\" and the possible mural idea. I\u0027m focusing on the speaker\u0027s nuances.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Clarifying the Transcription**\n\nI\u0027m now integrating the additional text provided, refining the formatting and punctuation for clarity. The transcription is now complete and I am preparing the final document. The text includes feedback on a design, mentioning color, font, and a welcome message for Silvia. It also includes comments on a client photo and a suggestion for an event mural.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Finalizing the Details**\n\nI\u0027m now putting the finishing touches on the transcription. I\u0027ve re-listened to the audio carefully, confirming every phrase and nuance. I\u0027ve confirmed that the speaker says \"do jeito que você ficou,\" and I\u0027ve integrated the full text: \"Kevin, do jeito que tava não tava bom também não...mas do jeito que você ficou eu achei que ficou meio pobre assim. Esse laranja não é o nosso laranja, não sei se, não gostei da fonte, é, eu acho que tem que ter uma descrição, falando quem que é a Silvia, um bem-vindo, sabe? É, eu coloquei a foto desse do cliente, mas é porque ele é uma pessoa, o cliente já é uma pessoa, não precisa necessariamente ser uma foto, né? Mas assim, talvez se a gente criasse um mural de fotos ficaria legal dos eventos, né? Você pode... não sei, de repente...\"\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-07-17T14:12:43.699Z"
+    }, {
+      "text": "Aqui está a transcrição do áudio:\n\n\"Kevin, do jeito que tava não tava bom também não, mas do jeito que você [fez]... ficou, eu achei que ficou meio pobre assim. Esse laranja não é o nosso laranja. Não sei se... não gostei da fonte. É, eu acho que tem que ter uma descrição falando quem que é a Silva, um \u0027bem-vindo\u0027, sabe? É, eu coloquei a foto desse do cliente, mas é porque ele é uma pessoa, o cliente já é uma pessoa, não precisa necessariamente ser uma foto, né? Mas assim, talvez se a gente criasse um mural de fotos ficaria legal, dos eventos, né? Você pode... não sei, de repente...\"",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 151,
+      "parts": [{
+        "text": "Aqui"
+      }, {
+        "text": " está a transcrição do áudio:\n\n\"Kevin, do jeito que tava não tava bom também não, mas do"
+      }, {
+        "text": " jeito que você [fez]... ficou, eu achei que ficou meio pobre assim. Esse laranja não é o nosso laranja."
+      }, {
+        "text": " Não sei se... não gostei da fonte. É, eu acho que tem que ter uma descrição falando quem que é"
+      }, {
+        "text": " a Silva, um \u0027bem-vindo\u0027, sabe? É, eu coloquei a foto desse do cliente, mas é porque"
+      }, {
+        "text": " ele é uma pessoa, o cliente já é uma pessoa, não precisa necessariamente ser uma foto, né? Mas assim,"
+      }, {
+        "text": " talvez se a gente criasse um mural de fotos ficaria legal, dos eventos, né? Você pode... não sei"
+      }, {
+        "text": ", de repente...\""
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-07-17T14:13:01.258Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

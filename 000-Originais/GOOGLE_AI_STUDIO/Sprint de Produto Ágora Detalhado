@@ -1,0 +1,248 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-flash-lite-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_MINIMAL",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1K0Y5KdjjNPcSQcvIDvnrSJyy_TB_P2Ao"
+      },
+      "role": "user",
+      "tokenCount": 9623,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "14B3FZ8Ug0mY848AXmYGcfAFs7uo6uimx"
+      },
+      "role": "user",
+      "tokenCount": 654,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1fyL2ZF4rP2-eQJqFW9EKOxNye5CsPhjW"
+      },
+      "role": "user",
+      "tokenCount": 402,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1BqDKUjT0UGKj8_RWVMAyCeFIG29235sw"
+      },
+      "role": "user",
+      "tokenCount": 1439,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1FArSqiUczuXTRLMEVlrg0tvqHQAObiNM"
+      },
+      "role": "user",
+      "tokenCount": 408,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "10_jYljmEQmFHMvWNY_pMhzIHOty28IXa"
+      },
+      "role": "user",
+      "tokenCount": 684,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1s9YhnfQh5S65qexiCywIgYmjPksc4bZ5"
+      },
+      "role": "user",
+      "tokenCount": 1310,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1AtVjiF9oQDdXyDdsN9O2EQZIT_Gurb6V"
+      },
+      "role": "user",
+      "tokenCount": 2842,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1i6FcMtTEAriVa2Ahfqr2JfoXGU7C70oV"
+      },
+      "role": "user",
+      "tokenCount": 46,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1GTUHvJvbdtEx5EKM6t8MHJiOXcuIsNSk"
+      },
+      "role": "user",
+      "tokenCount": 1328,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1q0bQwNO-q9dqXK0iALzAwvviu8h4z6Ng"
+      },
+      "role": "user",
+      "tokenCount": 4427,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1g_YZQkADJzDk8B7hQ13yeaFw0UmqyoNU"
+      },
+      "role": "user",
+      "tokenCount": 287,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1m-zh8D3jUi6zqz61Bm4tOYZug6rsUc60"
+      },
+      "role": "user",
+      "tokenCount": 4534,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1CADfP6APrJPJpYDNrPfawQS19L_rrBeQ"
+      },
+      "role": "user",
+      "tokenCount": 1477,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1QnWMOKcIbMJAG9X940mgMg6H4yv5Byy4"
+      },
+      "role": "user",
+      "tokenCount": 1178,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "driveDocument": {
+        "id": "1qV2LXvqkADNgqen4HEHkuRhlcA_-skp1"
+      },
+      "role": "user",
+      "tokenCount": 1121,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "text": "Baseado nos dados em anexo, gere para mim:\n\n# 12 — Sprint de Produto\n\nFormato ideal:\n\n```\nTela: Home\n\nElementos\n- barra de busca\n- categorias\n- lista de profissionais\n\nBotões\n- buscar\n- ver perfil\n\nAção\n- clicar em profissional abre tela de perfil\n```",
+      "role": "user",
+      "tokenCount": 72,
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }, {
+      "text": "Com base na documentação, nos fluxos desenhados pelo Henrique e nas necessidades de negócio do Ágora, aqui está o **Sprint de Produto** detalhado para a implementação das telas principais:\n\n---\n\n# 🚀 Sprint de Produto Ágora\n\n### Tela: Landing Page (Boas-vindas)\n**Elementos**\n- Logo Ágora\n- Título: \"O Marketing que Prevê o Futuro\"\n- Subtítulo: Descrição de valor (IA + Previsibilidade)\n- Grade de 4 Cards (Funcionalidades: IA Generativa, Segmentação, Previsibilidade, Resultados)\n- Seção de Prova Social (Redução de desperdício)\n- Grade de 4 Planos (Freemium, Standard, Pro, Enterprise)\n\n**Botões**\n- \"Começar Agora\" (CTA principal)\n- \"Começar Grátis\" / \"Assinar Agora\" (em cada plano)\n\n**Ação**\n- Clicar em \"Começar Agora\" direciona para \u003cTela: Chat\u003e.\n- Clicar nos botões de plano direciona para \u003cTela: Login/Cadastro\u003e.\n\n---\n\n### Tela: Login/Cadastro\n**Elementos**\n- Logo Ágora\n- Título dinâmico (Login ou Criar Conta)\n- Campos de formulário (Nome, Email, Senha)\n- Login Social (Google e Facebook)\n- Link \"Esqueceu a senha?\"\n\n**Botões**\n- \"Entrar\" / \"Criar Conta\"\n- Alternadores (\"Cadastre-se\" / \"Faça login\")\n- \"Voltar\"\n\n**Ação**\n- Submissão do formulário redireciona para \u003cTela: Chat\u003e.\n\n---\n\n### Tela: Chat (Core Engine)\n**Elementos**\n- Avatar do \"Agent Prin\" + Indicador de Status (Pulsante)\n- Área de conversação (mensagens IA e Usuário)\n- Checklist de Análise (Aparece após primeiro envio)\n- Área de composição de mensagem com suporte a anexos\n\n**Botões**\n- Anexo de arquivos\n- Remover anexo\n- Enviar (ou Enter)\n- Voltar (Topo)\n\n**Ação**\n- Envio de briefing/dados inicia fluxo de agentes (Triagem -\u003e Especialistas -\u003e Sintetizador).\n- Após análise e confirmação do usuário, redireciona para \u003cTela: Apresentação\u003e.\n\n---\n\n### Tela: Apresentação da Campanha Otimizada\n**Elementos**\n- Blocos de Estatísticas (Orçamento, Alcance, ROI, Canais)\n- Abas (Visão Geral, Canais, Audiência, Criativos, Exportação)\n- Conteúdo estratégico (Nova Promessa, Mix de Canais, Público-Alvo)\n\n**Botões**\n- \"Compartilhar\"\n- Exportação (Canva, Gamma, PDF, JPEG)\n- Voltar\n\n**Ação**\n- Seleção de \"Canva\" ou \"Gamma\" processa o material e redireciona para \u003cTela: Editor\u003e.\n- Seleção de PDF ou JPEG dispara exportação local.\n\n---\n\n### Tela: Editor de Apresentação\n**Elementos**\n- Miniaturas de slides (lateral esquerda)\n- Canvas de visualização (centro)\n- Ferramentas de Design (cor, layout, elementos)\n- Ferramentas de Conteúdo (texto)\n\n**Botões**\n- Desfazer / Refazer\n- Salvar\n- Exportar (Final)\n- Voltar\n\n**Ação**\n- Navegação entre slides atualiza o Canvas central.\n- Ações de design/conteúdo atualizam o slide selecionado em tempo real.\n\n---\n\n### 💡 Observações do Sprint\n1. **Prioridade Máxima:** O fluxo \u003cTela: Chat\u003e para \u003cTela: Apresentação\u003e é a \"Artéria\" do Ágora. Este é o ponto de maior complexidade de integração (Frontend \u003c-\u003e Backend \u003c-\u003e IAs especialistas).\n2. **Plano Enterprise:** A funcionalidade de \"Vinculação com API da Meta\" citada na mentoria e nos documentos deve estar visível apenas para usuários do plano Enterprise, possivelmente no dashboard de histórico.\n3. **Persistência:** Todas as ações em \u003cTela: Editor\u003e e \u003cTela: Chat\u003e devem ter seus estados persistidos no banco de dados (`user_request` e `agent_response`) para garantir que o usuário não perca o trabalho.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 974,
+      "parts": [{
+        "text": "Com base"
+      }, {
+        "text": " na documentação, nos fluxos desenhados pelo Henrique e nas necessidades de negócio"
+      }, {
+        "text": " do Ágora, aqui está o **Sprint de Produto** detalhado para a implementação das telas principais:\n\n---\n\n"
+      }, {
+        "text": "# 🚀 Sprint de Produto Ágora\n\n### Tela: Landing Page (Boas-vindas)\n**Elementos**"
+      }, {
+        "text": "\n- Logo Ágora\n- Título: \"O Marketing que Prevê o Futuro\"\n- Subtítulo:"
+      }, {
+        "text": " Descrição de valor (IA + Previsibilidade)\n- Grade de 4 Cards (Funcionalidades: IA Gener"
+      }, {
+        "text": "ativa, Segmentação, Previsibilidade, Resultados)\n- Seção de Prova Social (Redução de desper"
+      }, {
+        "text": "dício)\n- Grade de 4 Planos (Freemium, Standard, Pro, Enterprise)\n\n**Bot"
+      }, {
+        "text": "ões**\n- \"Começar Agora\" (CTA principal)\n- \"Começar Grátis\" / \"Assinar Agora"
+      }, {
+        "text": "\" (em cada plano)\n\n**Ação**\n- Clicar em \"Começar Agora\" direciona para \u003c"
+      }, {
+        "text": "Tela: Chat\u003e.\n- Clicar nos botões de plano direciona para \u003cTela: Login/Cadastro\u003e.\n\n---\n\n### Tela"
+      }, {
+        "text": ": Login/Cadastro\n**Elementos**\n- Logo Ágora\n- Título dinâmico (Login ou Cri"
+      }, {
+        "text": "ar Conta)\n- Campos de formulário (Nome, Email, Senha)\n- Login Social (Google e Facebook)\n- Link"
+      }, {
+        "text": " \"Esqueceu a senha?\"\n\n**Botões**\n- \"Entrar\" / \"Criar Conta\""
+      }, {
+        "text": "\n- Alternadores (\"Cadastre-se\" / \"Faça login\")\n- \"Voltar\"\n\n**A"
+      }, {
+        "text": "ção**\n- Submissão do formulário redireciona para \u003cTela: Chat\u003e.\n\n---\n\n### Tela: Chat (Core"
+      }, {
+        "text": " Engine)\n**Elementos**\n- Avatar do \"Agent Prin\" + Indicador de Status (Pulsante)"
+      }, {
+        "text": "\n- Área de conversação (mensagens IA e Usuário)\n- Checklist de Análise (Aparece após primeiro"
+      }, {
+        "text": " envio)\n- Área de composição de mensagem com suporte a anexos\n\n**Botões**\n- Anexo de"
+      }, {
+        "text": " arquivos\n- Remover anexo\n- Enviar (ou Enter)\n- Voltar (Topo)\n\n**Ação**"
+      }, {
+        "text": "\n- Envio de briefing/dados inicia fluxo de agentes (Triagem -\u003e Especialistas -\u003e Sintetizador).\n- Após"
+      }, {
+        "text": " análise e confirmação do usuário, redireciona para \u003cTela: Apresentação\u003e.\n\n---\n\n### Tela:"
+      }, {
+        "text": " Apresentação da Campanha Otimizada\n**Elementos**\n- Blocos de Estatísticas (Orçamento, Alc"
+      }, {
+        "text": "ance, ROI, Canais)\n- Abas (Visão Geral, Canais, Audiência, Criativos,"
+      }, {
+        "text": " Exportação)\n- Conteúdo estratégico (Nova Promessa, Mix de Canais, Público-Alvo)\n\n**Botões**\n"
+      }, {
+        "text": "- \"Compartilhar\"\n- Exportação (Canva, Gamma, PDF, JPEG)\n- Voltar\n\n**A"
+      }, {
+        "text": "ção**\n- Seleção de \"Canva\" ou \"Gamma\" processa o material e redireciona para \u003c"
+      }, {
+        "text": "Tela: Editor\u003e.\n- Seleção de PDF ou JPEG dispara exportação local.\n\n---\n\n### Tela: Editor de"
+      }, {
+        "text": " Apresentação\n**Elementos**\n- Miniaturas de slides (lateral esquerda)\n- Canvas de visualização (centro)"
+      }, {
+        "text": "\n- Ferramentas de Design (cor, layout, elementos)\n- Ferramentas de Conteúdo (texto)\n\n**"
+      }, {
+        "text": "Botões**\n- Desfazer / Refazer\n- Salvar\n- Exportar (Final)\n- Voltar\n\n"
+      }, {
+        "text": "**Ação**\n- Navegação entre slides atualiza o Canvas central.\n- Ações de design/conte"
+      }, {
+        "text": "údo atualizam o slide selecionado em tempo real.\n\n---\n\n### 💡 Observações do Sprint\n1. **"
+      }, {
+        "text": "Prioridade Máxima:** O fluxo \u003cTela: Chat\u003e para \u003cTela: Apresentação\u003e é a \"Art"
+      }, {
+        "text": "éria\" do Ágora. Este é o ponto de maior complexidade de integração (Frontend \u003c-\u003e Backend \u003c-\u003e I"
+      }, {
+        "text": "As especialistas).\n2. **Plano Enterprise:** A funcionalidade de \"Vinculação com API da Meta\" cit"
+      }, {
+        "text": "ada na mentoria e nos documentos deve estar visível apenas para usuários do plano Enterprise, possivelmente no dashboard de"
+      }, {
+        "text": " histórico.\n3. **Persistência:** Todas as ações em \u003cTela: Editor\u003e e \u003cTela: Chat\u003e devem ter"
+      }, {
+        "text": " seus estados persistidos no banco de dados (`user_request` e `agent_response`) para garantir que o usuário não"
+      }, {
+        "text": " perca o trabalho."
+      }, {
+        "text": "",
+        "thoughtSignature": "EjQKMgG+Pvb7jSt08WezCIzLDTN+rUE0BBDY2MsMKdqJGUmVEKuua7DsRqvhf5fna8H1UZHe"
+      }],
+      "createTime": "2026-03-15T09:11:10.972Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

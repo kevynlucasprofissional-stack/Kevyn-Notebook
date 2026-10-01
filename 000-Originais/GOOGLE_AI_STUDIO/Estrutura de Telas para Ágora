@@ -1,0 +1,221 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-flash-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1ezZhfd9slcIUx7batYLHTQsRz_4La7IA"
+      },
+      "role": "user",
+      "tokenCount": 967,
+      "createTime": "2026-03-15T10:31:40.890Z"
+    }, {
+      "driveDocument": {
+        "id": "1aAiXPiANtOP9rXdZjTTvHLcfhZdruOhC"
+      },
+      "role": "user",
+      "tokenCount": 22108,
+      "createTime": "2026-03-15T10:31:40.890Z"
+    }, {
+      "text": "Anexei um pdf contendo o plano completo para construir o meu SaaS no Lovable. Quero que use o arquivo \"Sprint 01 - Em texto corrido.md\" como um modelo de estrutura de resposta, veja como esse arquivo estrutura a lógica de tela e use essa estrutura para me gerar uma reposta e descarte todas as outras informações do arquivo. Dito isto, gere para mim um Sprint de todas as telas da Ágora.\n\nPreciso de uma resposta robusta, completa, com bastante contexto, funcional e bem pensada.",
+      "role": "user",
+      "tokenCount": 94,
+      "createTime": "2026-03-15T10:31:40.890Z"
+    }, {
+      "text": "**Generating Ágora Startup**\n\nOkay, I\u0027m working on generating a complete Sprint based on the specified template for \"Ágora Startup\". I am structuring all screens following the format provided. The template file is my main guide, so I\u0027m paying close attention to that. I will deliver all of the requested screens.\n\n\n**Structuring Ágora Sprint**\n\nI am now focusing on the *structure* of the sprint, ignoring the specific content of the template file. My emphasis is on incorporating tags like `\u003cao_abrir\u003e`, `\u003ctela_X\u003e`, and `\u003cnorma_legal\u003e`. Within each screen, I am ensuring the incorporation of functionality/logic, visual elements, and underlying rules. The core engine is a multi-agent system, so I am incorporating the required functionalities. I am also planning on building in IBGE integration.\n\n\n",
+      "role": "model",
+      "tokenCount": 695,
+      "isThought": true,
+      "parts": [{
+        "text": "**Generating Ágora Startup**\n\nOkay, I\u0027m working on generating a complete Sprint based on the specified template for \"Ágora Startup\". I am structuring all screens following the format provided. The template file is my main guide, so I\u0027m paying close attention to that. I will deliver all of the requested screens.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring Ágora Sprint**\n\nI am now focusing on the *structure* of the sprint, ignoring the specific content of the template file. My emphasis is on incorporating tags like `\u003cao_abrir\u003e`, `\u003ctela_X\u003e`, and `\u003cnorma_legal\u003e`. Within each screen, I am ensuring the incorporation of functionality/logic, visual elements, and underlying rules. The core engine is a multi-agent system, so I am incorporating the required functionalities. I am also planning on building in IBGE integration.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-03-15T10:35:14.334Z"
+    }, {
+      "text": "Com base na estrutura lógica do arquivo de modelo fornecido, estruturei a **Sprint de Telas da Ágora**. Esta documentação detalha o fluxo, a inteligência por trás de cada interação e as regras de negócio que o Lovable deve seguir para construir o SaaS.\n\n---\n\n\u003cao_abrir\u003e\nAnimação fluida do logo **Ágora** (estética Marketing 4.0, tecnológica e limpa). Transição via fade para a `\u003ctela_0\u003e`.\n\u003c/ao_abrir\u003e\n\n\u003ctela_0\u003e\n**Tela de Boas-Vindas e Login/Cadastro.**\n- Seção Superior: Proposta de valor \"O Marketing que Prevê o Futuro\".\n- Formulário: Campos de E-mail e Senha. Botão de \"Entrar\" e \"Criar Conta\".\n- Social Login: Botões para Google e Facebook.\n- Ao autenticar, o sistema verifica o `plan_id`:\n    - Se novo usuário: Atribui Plano Freemium e leva para `\u003ctela_1\u003e`.\n    - Se usuário recorrente: Leva para `\u003ctela_1\u003e`.\n\u003c/tela_0\u003e\n\n\u003ctela_1\u003e\n**Dashboard (Hub Central).**\n- Resumo visual: Card com \"Total de Análises Realizadas\" e \"Status do Plano Atual\".\n- Botão principal **\"Nova Análise\"** (destaque visual): Encaminha para `\u003ctela_2\u003e`.\n- Lista de \"Análises Recentes\": Cards clicáveis que levam para o histórico na `\u003ctela_7\u003e`.\n- Barra Lateral/Navegação: Perfil, Histórico, Biblioteca de Assets e Upgrade.\n\u003c/tela_1\u003e\n\n\u003ctela_2\u003e\n**Input da Campanha (Chat de Intake).**\nInterface estilo ChatGPT onde o **Agente Orquestrador** inicia a conversa.\n- O robô solicita: \"Descreva sua campanha, produto e quem você acredita ser seu público.\"\n- Opção de **Upload de Arquivos**: Botão de clipe para PDF, DOCX ou Imagens de anúncios.\n- **Regra de Negócio (Triagem T1):** A IA deve validar se a descrição contém (Para quem + Resultado + Prazo + Mecanismo).\n    - Se faltar informação: A IA faz perguntas curtas de clarificação.\n    - Se info OK: Libera o botão \"Iniciar Análise Científica\" que leva para `\u003ctela_3\u003e`.\n- **Validação de Limite:** Antes de permitir o upload, o sistema checa o `uploads_limit` do plano do usuário.\n\u003c/tela_2\u003e\n\n\u003ctela_3\u003e\n**Processamento Multi-Agente (Checklist Ativo).**\nTela de transição com animação de \"escaner\" ou checklist processando em tempo real.\n- Status visível para o usuário:\n    - [ ] Consultando dados demográficos (Integração IBGE/Sidra).\n    - [ ] Acionando Analista Sociocomportamental.\n    - [ ] Calculando Equação de Valor e Regras de Triagem.\n    - [ ] Auditando Performance e Timing Index.\n- Ao finalizar (aprox. 10-15 segundos), encaminha automaticamente para `\u003ctela_4\u003e`.\n\u003c/tela_3\u003e\n\n\u003ctela_4\u003e\n**Report Executivo (Diagnóstico).**\nApresentação do resultado analítico gerado pelo **Agente Sintetizador**.\n- **Score Geral:** Círculo de progresso de 0 a 100.\n- **Veredicto do Estrategista:** Texto direto sobre o erro fatal ou maior oportunidade.\n- **Grid de 3 Colunas (Frentes Analíticas):**\n    1. **Sociocomportamental:** Geração identificada, Era do Marketing (1.0 a 4.0) e gatilhos mentais.\n    2. **Oferta:** Notas da Equação de Valor (Resultado, Probabilidade, Latência, Esforço).\n    3. **Performance/Timing:** Análise de KPIs e indicação de timing (Always-on vs Pulsed).\n- Botão \"Gerar Campanha Otimizada\" leva para `\u003ctela_5\u003e`.\n\u003c/tela_4\u003e\n\n\u003ctela_5\u003e\n**Campanha Otimizada (Ready-to-Launch).**\nO plano de ação prático para o usuário.\n- **Nova Promessa:** Título reescrito com base em neuromarketing.\n- **Mix de Canais:** Ícones das redes sociais recomendadas com justificativa.\n- **Audiência Sintética:** Cards laterais com \"comentários fictícios\" de cada geração (Gen Z, Millennial, X, Boomer) sobre a campanha proposta.\n- **Plano de Teste A/B:** Sugestão de variável de controle e variável desafiante.\n- Botão \"Exportar Material\" leva para `\u003ctela_6\u003e`.\n\u003c/tela_5\u003e\n\n\u003ctela_6\u003e\n**Exportação e Integração.**\n- Opções de Download: Botões para PDF, JPEG e DOCX.\n- Integrações Externas:\n    - Botão **Canva**: Abre modal para escolher template e enviar os dados da IA.\n    - Botão **Gamma**: Gera estrutura de apresentação de slides.\n- **Exclusivo Enterprise:** Botão \"Conectar Meta Ads\" para enviar a estratégia direto para o Gerenciador de Anúncios.\n\u003c/tela_6\u003e\n\n\u003ctela_7\u003e\n**Histórico e Biblioteca.**\n- Lista de todas as `UserRequest` passadas.\n- Filtro por data e Score.\n- Cada item tem:\n    - Resumo de uma linha.\n    - Botão de \"Reabrir Chat\" (para continuar conversando com a IA sobre aquela campanha).\n    - Botão de \"Avaliar\" (Like/Deslike) para alimentar o fluxo de feedback da IA.\n\u003c/tela_7\u003e\n\n\u003ctela_8\u003e\n**Gestão de Plano e Assinatura.**\n- Exibição do plano atual.\n- Tabela comparativa de preços e recursos:\n    - **Freemium:** 2 uploads, relatório básico.\n    - **Standard:** 5 uploads, audiência sintética.\n    - **Pro:** Ilimitado, templates avançados.\n    - **Enterprise:** Integração Meta API, Dashboards personalizados.\n- Botão \"Upgrade\" que aciona o fluxo de checkout (Stripe).\n\u003c/tela_8\u003e\n\n\u003cnorma_legal\u003e\n**Diretrizes de Inteligência e Dados:**\n- **Neuromarketing:** Toda análise deve usar o modelo de Sistema 1 (Rápido/Emocional) e Sistema 2 (Lógico/Devagar).\n- **Dados Geográficos:** Sempre que uma localização for mencionada, o sistema deve injetar no prompt do agente os dados de População e Renda via API do IBGE/Sidra.\n- **Equação de Valor:** As notas de oferta devem seguir a lógica: (Resultado x Probabilidade) / (Tempo x Esforço).\n- **Privacidade:** Todos os dados de upload devem ser tratados via RLS (Row Level Security) no Supabase.\n\u003c/norma_legal\u003e\n\n---\n\n### Notas de Implementação para o Lovable:\n1. **Persistência:** O estado do chat na `\u003ctela_2\u003e` deve ser salvo na tabela `user_request` em tempo real.\n2. **JSONB:** O output dos agentes deve ser salvo na coluna `content` da tabela `agent_response` como JSONB para que as telas `\u003ctela_4\u003e` e `\u003ctela_5\u003e` possam renderizar os dados dinamicamente sem latência de novo processamento.\n3. **Feedback Loop:** O botão de Like/Deslike na `\u003ctela_7\u003e` deve atualizar um campo `feedback` na tabela `agent_response` para auditoria de qualidade.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1728,
+      "parts": [{
+        "text": "Com base na estrutura lógica do arquivo de modelo fornecido, estruturei a **Sprint de Telas da Ág"
+      }, {
+        "text": "ora**. Esta documentação detalha o fluxo, a inteligência por trás de cada interação e as regras de negócio que"
+      }, {
+        "text": " o Lovable deve seguir para construir o SaaS.\n\n---\n\n\u003cao_abrir\u003e\nAnimação flu"
+      }, {
+        "text": "ida do logo **Ágora** (estética Marketing 4.0, tecnológica e limpa). Transição via"
+      }, {
+        "text": " fade para a `\u003ctela_0\u003e`.\n\u003c/ao_abrir\u003e\n\n\u003ctela_0\u003e\n**"
+      }, {
+        "text": "Tela de Boas-Vindas e Login/Cadastro.**\n- Seção Superior: Proposta de valor \""
+      }, {
+        "text": "O Marketing que Prevê o Futuro\".\n- Formulário: Campos de E-mail e Senha. Bot"
+      }, {
+        "text": "ão de \"Entrar\" e \"Criar Conta\".\n- Social Login: Botões para Google e Facebook."
+      }, {
+        "text": "\n- Ao autenticar, o sistema verifica o `plan_id`:\n    - Se novo usuário: Atribui Plano"
+      }, {
+        "text": " Freemium e leva para `\u003ctela_1\u003e`.\n    - Se usuário recorrente: Leva para `\u003ctela_"
+      }, {
+        "text": "1\u003e`.\n\u003c/tela_0\u003e\n\n\u003ctela_1\u003e\n**Dashboard (Hub Central).**\n"
+      }, {
+        "text": "- Resumo visual: Card com \"Total de Análises Realizadas\" e \"Status do Plano Atual\".\n"
+      }, {
+        "text": "- Botão principal **\"Nova Análise\"** (destaque visual): Encaminha para `\u003ctela_2\u003e"
+      }, {
+        "text": "`.\n- Lista de \"Análises Recentes\": Cards clicáveis que levam para o histórico na `\u003ctela"
+      }, {
+        "text": "_7\u003e`.\n- Barra Lateral/Navegação: Perfil, Histórico, Biblioteca de Assets e Upgrade."
+      }, {
+        "text": "\n\u003c/tela_1\u003e\n\n\u003ctela_2\u003e\n**Input da Campanha (Chat de Intake).**\nInterface"
+      }, {
+        "text": " estilo ChatGPT onde o **Agente Orquestrador** inicia a conversa.\n- O robô solicita: \"Des"
+      }, {
+        "text": "creva sua campanha, produto e quem você acredita ser seu público.\"\n- Opção de **Upload de Arquivos**: Botão de"
+      }, {
+        "text": " clipe para PDF, DOCX ou Imagens de anúncios.\n- **Regra de Negócio (Triagem T1):"
+      }, {
+        "text": "** A IA deve validar se a descrição contém (Para quem + Resultado + Prazo + Mecanismo).\n    - Se falt"
+      }, {
+        "text": "ar informação: A IA faz perguntas curtas de clarificação.\n    - Se info OK: Libera o botão \""
+      }, {
+        "text": "Iniciar Análise Científica\" que leva para `\u003ctela_3\u003e`.\n- **Validação de Limite:** Antes de"
+      }, {
+        "text": " permitir o upload, o sistema checa o `uploads_limit` do plano do usuário.\n\u003c/tela_2\u003e\n\n\u003c"
+      }, {
+        "text": "tela_3\u003e\n**Processamento Multi-Agente (Checklist Ativo).**\nTela de transição com"
+      }, {
+        "text": " animação de \"escaner\" ou checklist processando em tempo real.\n- Status visível para o usuário:\n"
+      }, {
+        "text": "    - [ ] Consultando dados demográficos (Integração IBGE/Sidra).\n    - [ ]"
+      }, {
+        "text": " Acionando Analista Sociocomportamental.\n    - [ ] Calculando Equação de Valor e Regras de Triagem"
+      }, {
+        "text": ".\n    - [ ] Auditando Performance e Timing Index.\n- Ao finalizar (aprox. 10-15"
+      }, {
+        "text": " segundos), encaminha automaticamente para `\u003ctela_4\u003e`.\n\u003c/tela_3\u003e\n\n\u003ctela_4\u003e\n"
+      }, {
+        "text": "**Report Executivo (Diagnóstico).**\nApresentação do resultado analítico gerado pelo **Agente Sintetizador"
+      }, {
+        "text": "**.\n- **Score Geral:** Círculo de progresso de 0 a 100.\n- **V"
+      }, {
+        "text": "eredicto do Estrategista:** Texto direto sobre o erro fatal ou maior oportunidade.\n- **Grid de 3 Col"
+      }, {
+        "text": "unas (Frentes Analíticas):**\n    1. **Sociocomportamental:** Geração identificada, Era do Marketing ("
+      }, {
+        "text": "1.0 a 4.0) e gatilhos mentais.\n    2. **Oferta:**"
+      }, {
+        "text": " Notas da Equação de Valor (Resultado, Probabilidade, Latência, Esforço).\n    3. **Performance/"
+      }, {
+        "text": "Timing:** Análise de KPIs e indicação de timing (Always-on vs Pulsed).\n- Botão \"Ger"
+      }, {
+        "text": "ar Campanha Otimizada\" leva para `\u003ctela_5\u003e`.\n\u003c/tela_4\u003e\n\n\u003ctela_5"
+      }, {
+        "text": "\u003e\n**Campanha Otimizada (Ready-to-Launch).**\nO plano de ação prático para"
+      }, {
+        "text": " o usuário.\n- **Nova Promessa:** Título reescrito com base em neuromarketing.\n-"
+      }, {
+        "text": " **Mix de Canais:** Ícones das redes sociais recomendadas com justificativa.\n- **Audiência Sintética:**"
+      }, {
+        "text": " Cards laterais com \"comentários fictícios\" de cada geração (Gen Z, Millennial, X, Boomer) sobre"
+      }, {
+        "text": " a campanha proposta.\n- **Plano de Teste A/B:** Sugestão de variável de controle e"
+      }, {
+        "text": " variável desafiante.\n- Botão \"Exportar Material\" leva para `\u003ctela_6\u003e`.\n\u003c/tela"
+      }, {
+        "text": "_5\u003e\n\n\u003ctela_6\u003e\n**Exportação e Integração.**\n- Opções de Download: Bot"
+      }, {
+        "text": "ões para PDF, JPEG e DOCX.\n- Integrações Externas:\n    - Botão **Canva**:"
+      }, {
+        "text": " Abre modal para escolher template e enviar os dados da IA.\n    - Botão **Gamma**: Gera estrutura de apresentação de"
+      }, {
+        "text": " slides.\n- **Exclusivo Enterprise:** Botão \"Conectar Meta Ads\" para enviar a estratégia direto para o Ger"
+      }, {
+        "text": "enciador de Anúncios.\n\u003c/tela_6\u003e\n\n\u003ctela_7\u003e\n**Histórico e"
+      }, {
+        "text": " Biblioteca.**\n- Lista de todas as `UserRequest` passadas.\n- Filtro por data e Score.\n- Cada"
+      }, {
+        "text": " item tem:\n    - Resumo de uma linha.\n    - Botão de \"Reabrir Chat\" (para continuar"
+      }, {
+        "text": " conversando com a IA sobre aquela campanha).\n    - Botão de \"Avaliar\" (Like/Deslike)"
+      }, {
+        "text": " para alimentar o fluxo de feedback da IA.\n\u003c/tela_7\u003e\n\n\u003ctela_8\u003e\n**Gest"
+      }, {
+        "text": "ão de Plano e Assinatura.**\n- Exibição do plano atual.\n- Tabela comparativa de"
+      }, {
+        "text": " preços e recursos:\n    - **Freemium:** 2 uploads, relatório básico.\n    - **Standard:**"
+      }, {
+        "text": " 5 uploads, audiência sintética.\n    - **Pro:** Ilimitado, templates avançados.\n"
+      }, {
+        "text": "    - **Enterprise:** Integração Meta API, Dashboards personalizados.\n- Botão \"Upgrade\" que aciona o fluxo"
+      }, {
+        "text": " de checkout (Stripe).\n\u003c/tela_8\u003e\n\n\u003cnorma_legal\u003e\n**Diretrizes de Intelig"
+      }, {
+        "text": "ência e Dados:**\n- **Neuromarketing:** Toda análise deve usar o modelo de Sistema 1 (Rápido/"
+      }, {
+        "text": "Emocional) e Sistema 2 (Lógico/Devagar).\n- **Dados Geográficos:** Sempre que uma"
+      }, {
+        "text": " localização for mencionada, o sistema deve injetar no prompt do agente os dados de População e Renda via API do IBGE"
+      }, {
+        "text": "/Sidra.\n- **Equação de Valor:** As notas de oferta devem seguir a lógica: (Resultado x Probabilidade"
+      }, {
+        "text": ") / (Tempo x Esforço).\n- **Privacidade:** Todos os dados de upload devem ser tratados via"
+      }, {
+        "text": " RLS (Row Level Security) no Supabase.\n\u003c/norma_legal\u003e\n\n---\n\n### Notas de"
+      }, {
+        "text": " Implementação para o Lovable:\n1. **Persistência:** O estado do chat na `\u003ctela_2"
+      }, {
+        "text": "\u003e` deve ser salvo na tabela `user_request` em tempo real.\n2. **JSONB:** O output dos"
+      }, {
+        "text": " agentes deve ser salvo na coluna `content` da tabela `agent_response` como JSONB para que as telas `\u003ctela_"
+      }, {
+        "text": "4\u003e` e `\u003ctela_5\u003e` possam renderizar os dados dinamicamente sem latência de novo processamento.\n3"
+      }, {
+        "text": ". **Feedback Loop:** O botão de Like/Deslike na `\u003ctela_7\u003e` deve atualizar um campo `feedback"
+      }, {
+        "text": "` na tabela `agent_response` para auditoria de qualidade."
+      }, {
+        "text": "",
+        "thoughtSignature": "EpIYCo8YAb4+9vvqJ/WZpcPDh90RWQlZYLhn2oR3o5t05BfnCMBmi4TfnwVIVhW0009zwoijmMKCQb1UkwFy+JNuWn9uoSkqC4atqBoCDK5r83biBtO9hdcOsLLQFVUtRHh8IJJ6kADM7CkVqZOb9zYEVcEQiUVLvwmAszEUZjnQaemhH98aNsEeUg8KynyB+gdSz9JhMXzYNUtgUAaFZNT2G+089L+K0PMyvyJrgwr/sHuJyVljbLLsx4jx7R5ClrNcsaSNHtJwNG5ynU87QJcxdMDVmHX8rPyZbaY+Y+dFUhGWVLRmQDBHIJyWG47Xkft45IGv0jTbywGfqQXwq7E1DPPoYsi4PsaArwjjnjrS91SGv8wlQRzeKSXlaxvQ7pNA+RhGflYhdoS8/eA0hTPTs4f5sPGXKP/kGLLitYpd5/ir4AmPZGSEI1cZzIMW+9QkuWtdA+MbqySC0sCC1vE7/lI3zAiW0lrZ7CzWWIhZN7fJYsv82ObEEG2f8oIHVE806AbZH1UQslHP6KzkzuH+Oqju1RW4zuYdmw6K6NjKfzh7cfKNKjDP05XqHqUOLeouNcYX2FuOfN213k5VLe4eWMiC2GATj4mop+/f2n3/H3sZS19VcwwdE+Ozfxy84UcDjPYRPcVMTffpa5BppDnO7wV0k48KyBVaYqHs6J/20LRWE5swbFnCSIIvtC4MNaCzR5mdAoMAhEitToxRPSb+CR8f9EJ5InIoU02GE/mHTC/pgPXs36xEEEdMHRLZX3H9L9rWtnwUpR7XV+OWcpdWKwIZ4/6HPnKRlYbjJ+7urRbY+9rhHcXBsTt+qykKmk9mKZCPVtjGHNqAAbLJyz0PtF4m083BD0dsOlm2ZZGWfwCX6FtYLfVScsbKkDN68Bkc9GiNvdti9+Jl6rsAryCjAddt1RPk3iosczIL5t90gG4KqRMfPGEWGbYGeTWtTcrOj8p9HTAgTVPKOtpjwDtfNYLo79lwBMFZY5L0V7pMPJvzy6c1pG9l0Dub/4OU9BUN4XVYS23MZWXrMcrYHlQu47wcTRVU1CHf629GEYVHGzgwn3/YXI4CkbraqREFSoUizzD5npgdqenciQceauzNdPBFlhVYEW7/L3Hwxg8ZjC2AOjTB1xB+c587kXYQQ/eKD6v2posuIwfe5834jHjFziNTZBmffS0u3yftmrZDA8lVcn7UkHoUiG+4ZUyWv/rll5XqAKdEtI6YRwgBZUpYuoDm72C9xwCkDSRIk6DLnp+x++EjJQuH6Bx35dKQFGm7TGZoMrPjieZgebJgy1F+w2+NHs3YNRH2bNUimZbcjhIkl6J69+4altdn9ID9HftYlFIE7DSratIb0bmjTsZ1IiR44mFEHIEiPhQVnT70eTCqWKahXTg/sbzR69v1x8eWooNaQfHxhgUPaYgYuAZ0Uipiy7Lqk/vht6ODrkPCce9lumoTjjWo4LV0r2yKGjvMmB9P9pBklG36iMVBCRHNMHp2PQRH76C/rRoZRQlfr9kTi8qZHHeXuR+4YpYsWgLIxFbrGL9VlMNAf4HPTVjuoE/amvpNvQOvryUpmqlfWMjeChyR7/9NbCfOAe2wkxwc4EAT5m5RMC9qiZBCm1orZkDuWMw/SjUY6af7XTigPNx5sItDKReWFKdO7+lDescVgFMybm66R/ZXrQfusRUr87bfbY9CL09ny1o9SRhuOSXRAbSzCSm6r1QWM85fpDsA11TIQ7Sqnjvv0knQ3OUCjV7MMHHt41DipBt3/ayt3NDB1jhJp1tnsujBlaOVgqu35urM6TFpErCu9zij79YFWZ3BblOyBgQygqHi8SImS4yB6o4H4gsEhWixeL2iBD7Rfkr06ovLSXwL8lx6D6OHNjkEd+ajiWIe28wWJ5C8Wjyef5M5dzPv1LIFhho2yShKiApke+SqqR51LfdoU8L4pqB0zIpeDf3L3u55NzBarCHyWrK0i1tC8ozAyg/QTSuJN1hvEt2XZVe4wlTtZy9bflqXlFU1LB/WtKUizinBLTLOXcBcsC1de1qKyy2VvSbxNFvTq4eZrJiSGBBNiavQwNgapMHlL0XeLM4gZIdWryMimd5OEH1fR0XZUIygqGQWXqrKU9RmE61iwNbZrtmTUedY3/TC/AbAx0MXr5FwKKxY9sHsTMHfEETh2Kco1T4IG4tavD2LTShMx3YnMv7STkRSRVnyz4tH70y/s5lnZPwV38VbsL+x0STLkWhpNO64t9pcioA8s9Hh+nkI1nFLcWi0x8GoKWw0jgUATY1Hs/2XuF4oEdCsDQu82MyyAXI/e6CJaRCTX7DNSCP+RPKKOKLzhnu5lN565FGv1J+mqhUW1xNerZZFWkyiMbylPZFKf5Zmt4yl1RvvM34gtpmE2/iHfpLse+W9AjbNj/bdHS2ShZx6g3GmGmMOKDMBxhQDL/6vDh8JEFYNsbonUMIbS7YuovulXovTzp2H1JerbhBiddX7lWVn2dXGVBJ3ELHHo+UQV5K8OW9FECpaWuHM7b7mrEhZCRBP0jG0/eDxSx3/FzJDAn6qGOwhsj/LUkOI26wJqHVVB4Jwd9kJ0inDjRzZodz6DYZSh4f6kzSL/Ng1Bt4rLKOcTQgnl9O3zVxaXFztL4G2i7y7bD3UpFMQVwDB8kCmvDn/HjXqWX/9rd9QyzYnSSgsxlJpkyUzQSwj2CazGW32UbLOOd/WVQpzB+6KgwyuyInIZiW7+xpUB0ys+W6u1zh/+VpmKHJO2o2grzKa5oHaNYrzGwpm3O9JHAoStiEn7E9NoNKmBXIeLvAKiRiZSRwN5uU8tRqBXwJG7eAU+wYbnbglG4NVMe/Wt1lBgiPVQ1G+ydohXaO6oveWOD+vIhIIcllFfJTNNq2ITEbBABFznt5UhIBhnbMgnoddTQoFUG0l/O3z5B3ax9NB4fhqPnBba/+qPH6zbt/kMrjiWQBlmCfPCvYi7+U7Sn0X+zwS7Wxhp08t9Z5v46/Hit0yWBrAPf8n8sGHAoIynPbBuvT0eJdRJx+YWtwonwVUQpmlJEsE5LCjTvkzflx9eqqwOBy+6DNdZlGx+iwa7MAPI0azXDdJyJktgSwE58k+vwMO3xgMHiN+Y9gTfV89bgpE4XuneQ2ZDWMWLreyC2hhTOnqaMvh8viQ4qLCUSyxM2vDPzbVFN4LARxzhSpkTpvP3OtMCrimqzzUV87UnixyCEOj0bMhVl7hr6TWu+Sh3NBHVSr9oXE0+q/nhYI4aaeWYjeIIlLErmW451THe4oFvL2VcH8SsWtXR46iz/lkiP+4sA05qBUS/Cl2uKZDp2s/g8c0w760fderddYdRFbXr5mk9DPbqZBZPKzCN59/tmTs/L8/P1H0ty4zsodNeagZoVGYXhNDVGcBOrCJeKmhXinV+wjyilCKidHCGVBRpoCNZtwySWjlWjMfDw7WMO6iq/m3H+s5m5wqfyoBdOb3AoJyUNm1Ae681oB8Ac7QBbDEAZubNOcKrE4LlGo8OsXwYiCoGwOt+AAtKoqyGbX+Y+OqIrL3209mVoLl34Pq1m4kVOT96nzshIYXYE+Uh5nZeuIYf/MTaPnkQiQShO3RjR53BOmRRcmhcD+7bREZ0e3P3tAxbkCdty2P1mCTQzR+CrYZYmFxmGyIxu507Wj1RS3KTFfF5gKHCBLUB7aUyb69uq0a9OIZ1sih2gxkdks9rLvqq5Z5DXjXAGLNMY29q4pn7HejpVqSW12bpwYFe/jKdX7LAT0L0fEwz/3CQFhrtI3AU7ufx36T+doXQHhwUMaRYtJ7utwMb7yVaRu0DiQQxeNet88M/OxSgWCXgsqO/5zU/zFsnW5uRIEH7OEK15RXk9sraAdCf8x9ZBceMRH6KsLTrfN6sv5vvAd+KyXkePXrjLaQVzJU62F67DEdruIX1DqWZTKxKqALWV6U4tpwERqSiGp9k1nFGaBt28YZchDC2m9gRBf/RAdkhh3U3lSCKGDtWkV+FPOF3yvjPOVSS8DgHVtJBS2dR19iGWkcRWWQTPq0f92KOgMklvEfx71e34ipezQ8ZgdYUCG8C9RGbr7Ae9O5JQUy2CL6JYfYvzojas1w/Zd/FaaOjT8U4j7PXVm35myhFM41siQc"
+      }],
+      "createTime": "2026-03-15T10:35:24.314Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

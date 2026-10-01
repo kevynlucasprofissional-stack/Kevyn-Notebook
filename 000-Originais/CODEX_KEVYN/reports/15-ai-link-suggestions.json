@@ -1,0 +1,106 @@
+{
+  "generated_at": "2026-04-04T16:45:00-03:00",
+  "objective": "Inserir blocos discretos de links sugeridos por IA em notas core estáveis.",
+  "inputs": [
+    "_staging/07-link-repair-manifest.json",
+    "_staging/14-link-structure-refresh-manifest.json",
+    "reports/05-link-audit.md",
+    "reports/14-link-structure-refresh.md (not found in vault)"
+  ],
+  "selection_rules": {
+    "classes_allowed": [
+      "core"
+    ],
+    "excluded_categories": [
+      "diary",
+      "long_dossier",
+      "mirror",
+      "noise",
+      "_archive_review",
+      "boundary_subvault"
+    ],
+    "max_links_per_note": 1,
+    "min_confidence": "high"
+  },
+  "summary": {
+    "notes_with_blocks": 11,
+    "links_inserted": 11,
+    "rejected_low_confidence": 0,
+    "not_applied_scope_or_stability": 9
+  },
+  "applied": [
+    {
+      "file": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/O Sorriso como Ação Deliberada.md",
+      "suggested_links": [
+        "A Chave da Influência - Falar sobre o que o Outro Quer"
+      ]
+    },
+    {
+      "file": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/PRINCÍPIO 1 (Parte 2) - Torne-se verdadeiramente interessado na outra pessoa..md",
+      "suggested_links": [
+        "A Chave da Influência - Falar sobre o que o Outro Quer"
+      ]
+    },
+    {
+      "file": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/PRINCÍPIO 2 - Aprecie honesta e sinceramente..md",
+      "suggested_links": [
+        "A Chave da Influência - Falar sobre o que o Outro Quer"
+      ]
+    },
+    {
+      "file": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/A Oportunidade Perdida em Gettysburg.md",
+      "suggested_links": [
+        "A Chave da Influência - Falar sobre o que o Outro Quer"
+      ]
+    },
+    {
+      "file": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/O Provérbio Chinês da Loja.md",
+      "suggested_links": [
+        "A Chave da Influência - Falar sobre o que o Outro Quer"
+      ]
+    },
+    {
+      "file": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/O Volume da Prática de Dale Carnegie.md",
+      "suggested_links": [
+        "A Chave da Influência - Falar sobre o que o Outro Quer"
+      ]
+    },
+    {
+      "file": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/PRINCÍPIO 1 - Não critique, não condene, não se queixe.md",
+      "suggested_links": [
+        "A Chave da Influência - Falar sobre o que o Outro Quer"
+      ]
+    },
+    {
+      "file": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/PRINCÍPIO 3 - Desperte um forte desejo na outra pessoa.md",
+      "suggested_links": [
+        "A Chave da Influência - Falar sobre o que o Outro Quer"
+      ]
+    },
+    {
+      "file": "HOME/O Professor/05_PERSONA 03 - O PENDURADO/Comunicação Não Violenta/O Custo da Punição na Educação.md",
+      "suggested_links": [
+        "A Raiz dos Sentimentos"
+      ]
+    },
+    {
+      "file": "HOME/O Professor/05_PERSONA 03 - O PENDURADO/Comunicação Não Violenta/O Foco no Positivo.md",
+      "suggested_links": [
+        "A Raiz dos Sentimentos"
+      ]
+    },
+    {
+      "file": "HOME/O Professor/01_SELF - O IMPERADOR/Meditações/Contemplação das Estrelas.md",
+      "suggested_links": [
+        "Transitoriedade Universal"
+      ]
+    }
+  ],
+  "rejected": [],
+  "skipped": [
+    {
+      "reason": "scope_or_stability",
+      "count": 14
+    }
+  ]
+}

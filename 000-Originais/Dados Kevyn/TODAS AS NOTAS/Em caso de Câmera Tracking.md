@@ -1,0 +1,1 @@
+Ative o Alpha Channel no render settings, e oculte o background da renderização na janela de objetos (Ativar a bolinha vermelha de baixo).

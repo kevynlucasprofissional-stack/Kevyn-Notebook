@@ -1,0 +1,1 @@
+Recomendado renderizar em h.265, formato ideal para o Instagram. Para isso ajuste o formato para **QuickTime**, e ajuste as opções de formato para "Apple ProRes 4444 XQ".

@@ -1,0 +1,379 @@
+{
+  "generated_at": "2026-04-04T17:37:59.042188-03:00",
+  "obsidian_cli_available": false,
+  "app_detected_open": true,
+  "summary": {
+    "broken_links_before": 552,
+    "distinct_unresolved_targets_before": 367,
+    "safe_alias_candidates": 0,
+    "auto_apply_alias_candidates": 0,
+    "strategic_backlink_candidates": 18
+  },
+  "safe_alias_candidates": [],
+  "manual_review_targets": [
+    {
+      "target": "A Crítica como Gatilho para a Defensiva",
+      "count": 13
+    },
+    {
+      "target": "PRINCÍPIO 7: Deixe que a outra pessoa sinta que a ideia é dela",
+      "count": 6
+    },
+    {
+      "target": "O Incidente 'Chá e Prosa' (Análise da Sombra Luciferiana)",
+      "count": 6
+    },
+    {
+      "target": "Perfil Comportamental Alto S/C (Castro)",
+      "count": 5
+    },
+    {
+      "target": "O Ego e o Self",
+      "count": 5
+    },
+    {
+      "target": "03 - quinta-feira.md",
+      "count": 4
+    },
+    {
+      "target": "Compounding (Juros Compostos)",
+      "count": 4
+    },
+    {
+      "target": "Kevyn Lucas: Arquétipo Mago",
+      "count": 4
+    },
+    {
+      "target": "Menor Mercado Viável",
+      "count": 4
+    },
+    {
+      "target": "O Desastre do Svelte (200 vs. 22)",
+      "count": 4
+    },
+    {
+      "target": "Aragorn",
+      "count": 3
+    },
+    {
+      "target": "Numenor",
+      "count": 3
+    },
+    {
+      "target": "Adunaico",
+      "count": 3
+    },
+    {
+      "target": "Anéis de Poder",
+      "count": 3
+    },
+    {
+      "target": "Titulo da Nota/conceito X",
+      "count": 3
+    },
+    {
+      "target": "Titulo da Nota/conceito Y",
+      "count": 3
+    },
+    {
+      "target": "Título da Nota/conceito Z",
+      "count": 3
+    },
+    {
+      "target": "Titulo Exato da Nota",
+      "count": 3
+    },
+    {
+      "target": "Alpha Channel e HDRI",
+      "count": 3
+    },
+    {
+      "target": "Mentalidade Tudo-ou-Nada",
+      "count": 3
+    },
+    {
+      "target": "Oferta Irresistível (Érico Rocha)",
+      "count": 3
+    },
+    {
+      "target": "Freud: Recalcamento",
+      "count": 3
+    },
+    {
+      "target": "Tarot: Dois de Copas",
+      "count": 3
+    },
+    {
+      "target": "La Loba (A Mulher dos Ossos)",
+      "count": 3
+    },
+    {
+      "target": "Ciclo Vida-Morte-Vida",
+      "count": 3
+    },
+    {
+      "target": "Titulo",
+      "count": 3
+    },
+    {
+      "target": "Amor Fati (Nietzsche)",
+      "count": 3
+    },
+    {
+      "target": "A Cidadela Interior",
+      "count": 3
+    },
+    {
+      "target": "Faça a outra pessoa sentir-se importante",
+      "count": 3
+    },
+    {
+      "target": "A Crítica como Agressão ao Orgulho",
+      "count": 3
+    },
+    {
+      "target": "Seja um bom ouvinte, incentive as pessoas a falarem sobre elas mesmas",
+      "count": 3
+    },
+    {
+      "target": "PRINCÍPIO 3 (Parte 2) - O som mais doce e importante",
+      "count": 3
+    },
+    {
+      "target": "A Variável 'Mari' (O Novo Ciclo de Idealização)",
+      "count": 3
+    },
+    {
+      "target": "$100M Branding Playbook_PT-BR",
+      "count": 2
+    },
+    {
+      "target": "$100M Goated Ads Playbook_PT-BR",
+      "count": 2
+    },
+    {
+      "target": "$100M Marketing Machine_PT-BR",
+      "count": 2
+    },
+    {
+      "target": "Projeto de Transformação da Psique",
+      "count": 2
+    },
+    {
+      "target": "Titulo da Nota",
+      "count": 2
+    },
+    {
+      "target": "Estoicismo",
+      "count": 2
+    },
+    {
+      "target": "Congelamento",
+      "count": 2
+    },
+    {
+      "target": "` ou `",
+      "count": 2
+    },
+    {
+      "target": "Titulo Outra Nota Nova",
+      "count": 2
+    },
+    {
+      "target": "Titulo Outra Nota Nova 2",
+      "count": 2
+    },
+    {
+      "target": "\"):\n                        link_final = f\"[[{link_raw}",
+      "count": 2
+    },
+    {
+      "target": "\"):\n                    link_final = f\"[[{item}",
+      "count": 2
+    },
+    {
+      "target": "Flashcards de Omissão (Cloze)",
+      "count": 2
+    },
+    {
+      "target": "After Effects: Expressão LoopIn()",
+      "count": 2
+    },
+    {
+      "target": "After Effects: SeedRandom()",
+      "count": 2
+    },
+    {
+      "target": "Motion Design: Fosco",
+      "count": 2
+    },
+    {
+      "target": "Pensamento por Primeiros Princípios",
+      "count": 2
+    }
+  ],
+  "strategic_backlink_candidates": [
+    {
+      "orphan_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Oportunidade Perdida em Gettysburg.md",
+      "orphan_title": "A Oportunidade Perdida em Gettysburg",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 25,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\O Provérbio Chinês da Loja.md",
+      "orphan_title": "O Provérbio Chinês da Loja",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 25,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\O Volume da Prática de Dale Carnegie.md",
+      "orphan_title": "O Volume da Prática de Dale Carnegie",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 25,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\O Foco no Positivo.md",
+      "orphan_title": "O Foco no Positivo",
+      "orphan_outgoing": 7,
+      "suggested_hub": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\A Raiz dos Sentimentos.md",
+      "hub_title": "A Raiz dos Sentimentos",
+      "hub_incoming": 19,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\Cérebro Profissional\\Notas\\Teorias da Personalidade em mapas mentais Freud 1.md",
+      "orphan_title": "Teorias da Personalidade em mapas mentais Freud 1",
+      "orphan_outgoing": 121,
+      "suggested_hub": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 18,
+      "shared_prefix_depth": 3
+    },
+    {
+      "orphan_path": "HOME\\Cérebro Profissional\\Notas\\Estamos ficando mais burros.md",
+      "orphan_title": "Estamos ficando mais burros",
+      "orphan_outgoing": 34,
+      "suggested_hub": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 18,
+      "shared_prefix_depth": 3
+    },
+    {
+      "orphan_path": "HOME\\Cérebro Profissional\\Notas\\(Pitch Kevyn) - Espaço Prema.md",
+      "orphan_title": "Pitch Definitivo – Espaço Prema (Espiritualidade / New Age)",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 18,
+      "shared_prefix_depth": 3
+    },
+    {
+      "orphan_path": "HOME\\Cérebro Profissional\\Notas\\Notas de uma conversa com o Copilot, não lembro o dia..md",
+      "orphan_title": "Notas de uma conversa com o Copilot, não lembro o dia.",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 18,
+      "shared_prefix_depth": 3
+    },
+    {
+      "orphan_path": "HOME\\Cérebro Profissional\\Notas\\Reunião sobre a Linha editorial.md",
+      "orphan_title": "Clones",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 18,
+      "shared_prefix_depth": 3
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\00_Cérebro Operacional\\V1\\00_prompt_do_sistema_semi_automático.md",
+      "orphan_title": "Prompt do Sistema",
+      "orphan_outgoing": 13,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 25,
+      "shared_prefix_depth": 2
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\00_Cérebro Operacional\\V2\\00_PROMPT_SISTEMA.md",
+      "orphan_title": "00_PROMPT_SISTEMA",
+      "orphan_outgoing": 13,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 25,
+      "shared_prefix_depth": 2
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\00_Cérebro Operacional\\V1\\00_prompt_do_sistema_automático.md",
+      "orphan_title": "Versão Kevyn",
+      "orphan_outgoing": 7,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 25,
+      "shared_prefix_depth": 2
+    },
+    {
+      "orphan_path": "HOME\\Cérebro Profissional\\Diário\\2025\\10 - outubro\\09 - quinta-feira.md",
+      "orphan_title": "Excalidraw Data",
+      "orphan_outgoing": 16,
+      "suggested_hub": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 18,
+      "shared_prefix_depth": 2
+    },
+    {
+      "orphan_path": "HOME\\Muad’Dib\\00_Cérebro Operacional\\00_PROMPT_SISTEMA.md",
+      "orphan_title": "00_PROMPT_SISTEMA",
+      "orphan_outgoing": 13,
+      "suggested_hub": "HOME\\Muad’Dib\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\PARTE I - Técnicas fundamentais para lidar com as pessoas\\temp\\A Futilidade da Crítica.md",
+      "hub_title": "A Futilidade da Crítica",
+      "hub_incoming": 12,
+      "shared_prefix_depth": 2
+    },
+    {
+      "orphan_path": "HOME\\ACIRV\\Notas\\Dados sobre o Fórum.md",
+      "orphan_title": "Dados sobre o Fórum",
+      "orphan_outgoing": 36,
+      "suggested_hub": "HOME\\ACIRV\\Diário\\2025\\11 - novembro\\11 - novembro.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 9,
+      "shared_prefix_depth": 2
+    },
+    {
+      "orphan_path": "HOME\\ACIRV\\Notas\\Oficina VITRINE QUE VENDE.md",
+      "orphan_title": "Email Marketing",
+      "orphan_outgoing": 10,
+      "suggested_hub": "HOME\\ACIRV\\Diário\\2025\\11 - novembro\\11 - novembro.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 9,
+      "shared_prefix_depth": 2
+    },
+    {
+      "orphan_path": "HOME\\ACIRV\\Notas\\Dados Sorriso Verdadeiro.md",
+      "orphan_title": "Checklist",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\ACIRV\\Diário\\2025\\11 - novembro\\11 - novembro.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 9,
+      "shared_prefix_depth": 2
+    },
+    {
+      "orphan_path": "HOME\\ACIRV\\Notas\\Sorriso Verdadeiro.md",
+      "orphan_title": "Checklist",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\ACIRV\\Diário\\2025\\11 - novembro\\11 - novembro.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 9,
+      "shared_prefix_depth": 2
+    }
+  ]
+}

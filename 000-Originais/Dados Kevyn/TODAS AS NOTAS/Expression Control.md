@@ -1,0 +1,2 @@
+É um pacote de efeito que pode ser usado para facilitar controle de parâmetros chaves da composição, como por exemplo cor, valor, etc... Ele é mais eficiente ao se ligar o parâmetro desejado ao efeito de controle que por sua vez, de preferência, esteja aplicado em um objeto nulo. Dessa forma é possível controlar diversos parâmetros de diversos objetos em uma única janela.
+**Resumindo:** Pode te ajudar a controlar melhor as expressões.

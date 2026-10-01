@@ -1,0 +1,4 @@
+- Duplicações novas: nenhuma.
+- Contradições novas: nenhuma.
+- Ajuste aplicado: `SRC-000111` deixou de ser tratado como cronologia literal.
+- Observação: `SRC-000114` permaneceu como irrelevante justificado.

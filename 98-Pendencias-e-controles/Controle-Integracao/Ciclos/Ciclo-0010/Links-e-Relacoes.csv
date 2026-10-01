@@ -1,0 +1,5 @@
+"origem","destino","tipo","justificativa","evidencia","confianca","ciclo","operacao"
+"Inteligencia artificial e automacao","Fonte - Operacao WSI Salus e acessos 2025","documenta","iteracao SQL, N8N e acessos redigidos","UNI-000038; UNI-000042","medio","CICLO-0010","referenciar"
+"Negocios e marketing","Fonte - Operacao WSI Salus e acessos 2025","contextualiza","estudo de SEO e comunicacao","UNI-000039; UNI-000043","medio","CICLO-0010","referenciar"
+"Salus e Desafio Svelte","Fonte - Operacao WSI Salus e acessos 2025","documenta","campanha e responsabilidades planejadas","UNI-000041; UNI-000054","medio_alto","CICLO-0010","referenciar"
+"Indice geral de fontes selecionadas","Fonte - Operacao WSI Salus e acessos 2025","documenta","indexacao de proveniencia","UNI-000038; UNI-000039; UNI-000040; UNI-000041; UNI-000042; UNI-000043; UNI-000054","alto","CICLO-0010","referenciar"

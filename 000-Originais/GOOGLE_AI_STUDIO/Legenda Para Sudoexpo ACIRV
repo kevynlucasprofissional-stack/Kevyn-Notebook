@@ -1,0 +1,219 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.8-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_MEDIUM",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "enableWordTimestamps": false,
+    "enableSpeakerDiarization": false,
+    "enablePolishedTranscript": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveImage": {
+        "id": "1q5TfjFnz3OQAa_ZJ3S1MV5Kv8izLmxAe"
+      },
+      "role": "user",
+      "tokenCount": 1065,
+      "createTime": "2026-09-07T22:10:10.431Z"
+    }, {
+      "driveImage": {
+        "id": "1L-qqWk0b6dnrE63R9IZ9TQqCwj8IpJlS"
+      },
+      "role": "user",
+      "tokenCount": 1065,
+      "createTime": "2026-09-07T22:10:10.431Z"
+    }, {
+      "driveImage": {
+        "id": "1qC_QBJnlmTRXDYdq8fSHlXLNOk2nHwhx"
+      },
+      "role": "user",
+      "tokenCount": 1065,
+      "createTime": "2026-09-07T22:10:10.431Z"
+    }, {
+      "driveImage": {
+        "id": "115MOs6yECjMXnSWkQiAqUezvIoyvQA9T"
+      },
+      "role": "user",
+      "tokenCount": 1065,
+      "createTime": "2026-09-07T22:10:10.431Z"
+    }, {
+      "driveImage": {
+        "id": "1BGfZG0y4-OUJAnlHAS5IxUvu0fskhtNv"
+      },
+      "role": "user",
+      "tokenCount": 1065,
+      "createTime": "2026-09-07T22:10:10.431Z"
+    }, {
+      "driveImage": {
+        "id": "1gQoXEg_oFk8R2n2IswAaAndGpiImdRU0"
+      },
+      "role": "user",
+      "tokenCount": 1065,
+      "createTime": "2026-09-07T22:10:10.431Z"
+    }, {
+      "driveImage": {
+        "id": "189xOB2obCXiuhZjEqVY_JnqsmnOgbiAP"
+      },
+      "role": "user",
+      "tokenCount": 1065,
+      "createTime": "2026-09-07T22:10:10.431Z"
+    }, {
+      "text": "Cria uma legenda para este carrossel, quero ela curta, direta e objetiva.\nSem gancho, sem bullet points.",
+      "role": "user",
+      "tokenCount": 29,
+      "createTime": "2026-09-07T22:10:10.431Z"
+    }, {
+      "text": "**Considering the Details**\n\nI\u0027m currently working through the initial request, focusing on the core elements: seven images for an Instagram carousel. The first image functions as a cover, with text in both Portuguese and English (\"5 motivos para passar pela Casa do Empreendedor na Sudoexpo\" and \"Sudoexpo | 2ª maior feira multissetorial\"). I\u0027m breaking down the content to determine how it is to be formatted.\n\n\n**Analyzing the Text**\n\nI\u0027ve examined the remaining slides, each presenting a distinct reason to visit. Now I\u0027m focusing on the call-to-action slide and constructing a cohesive narrative. The caption is being crafted to summarize the key points succinctly and encourage action. I will begin the constraint checklist to keep focus.\n\n\n",
+      "role": "model",
+      "tokenCount": 756,
+      "isThought": true,
+      "parts": [{
+        "text": "**Considering the Details**\n\nI\u0027m currently working through the initial request, focusing on the core elements: seven images for an Instagram carousel. The first image functions as a cover, with text in both Portuguese and English (\"5 motivos para passar pela Casa do Empreendedor na Sudoexpo\" and \"Sudoexpo | 2ª maior feira multissetorial\"). I\u0027m breaking down the content to determine how it is to be formatted.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing the Text**\n\nI\u0027ve examined the remaining slides, each presenting a distinct reason to visit. Now I\u0027m focusing on the call-to-action slide and constructing a cohesive narrative. The caption is being crafted to summarize the key points succinctly and encourage action. I will begin the constraint checklist to keep focus.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-09-07T22:10:10.432Z"
+    }, {
+      "text": "De 09 a 12 de setembro, visite a Casa do Empreendedor na Sudoexpo para ampliar o seu networking, apresentar suas demandas e descobrir tudo o que a ACIRV oferece para fortalecer o seu negócio. Esperamos por você.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 52,
+      "parts": [{
+        "text": "De 09 a 12"
+      }, {
+        "text": " de setembro, visite a Casa do Empreendedor na Sudoexpo para ampliar o seu networking, apresentar suas demandas e descobrir tudo"
+      }, {
+        "text": " o que a ACIRV oferece para fortalecer o seu negócio. Esperamos por você."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-09-07T22:10:19.894Z"
+    }, {
+      "text": "Ok, pode ter um pouco mais de coisa, adiciona talvez um explicativo do que a pessoa encontra no carrossel, e coloca um reforço de CTA para a pessoa visitar o estande.",
+      "role": "user",
+      "tokenCount": 42,
+      "createTime": "2026-09-07T22:10:56.024Z"
+    }, {
+      "text": "No carrossel acima, você confere 5 motivos para passar pela Casa do Empreendedor e entender como a ACIRV atua aproximando empresas, ouvindo demandas e gerando novas oportunidades de negócio. \n\nDe 09 a 12 de setembro, faça uma parada obrigatória no nosso estande durante a Sudoexpo. Venha conversar com a nossa equipe, conhecer de perto os nossos projetos e descobrir como fortalecer a sua empresa através da nossa rede. Esperamos a sua visita!",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 104,
+      "parts": [{
+        "text": "No carrossel acima, você confere 5 motivos para"
+      }, {
+        "text": " passar pela Casa do Empreendedor e entender como a ACIRV atua aproximando empresas, ouvindo demandas e gerando novas oportunidades de negócio."
+      }, {
+        "text": " \n\nDe 09 a 12 de setembro, faça uma parada obrigatória no nosso estande durante a Sudoexpo. Venha conversar"
+      }, {
+        "text": " com a nossa equipe, conhecer de perto os nossos projetos e descobrir como fortalecer a sua empresa através da nossa rede. Esperamos a sua"
+      }, {
+        "text": " visita!"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-09-07T22:10:56.025Z"
+    }, {
+      "text": "Não esquece do #ConectarParaCrescer (quero que implemente de forma criativa e fora da caixa), e da assinatura emocional.",
+      "role": "user",
+      "tokenCount": 31,
+      "createTime": "2026-09-07T22:11:40.998Z"
+    }, {
+      "text": "**Considering the Details**\n\nI\u0027m now focusing on incorporating the specific hashtag, `#ConectarParaCrescer`, into the Instagram caption concept. I\u0027m exploring the best way to do this without disrupting the established tone or flow of the content about the Casa do Empreendedor and the ACIRV\u0027s Sudoexpo. The goal is a seamless, yet effective inclusion of the hashtag.\n\n\n",
+      "role": "model",
+      "tokenCount": 1082,
+      "isThought": true,
+      "parts": [{
+        "text": "**Considering the Details**\n\nI\u0027m now focusing on incorporating the specific hashtag, `#ConectarParaCrescer`, into the Instagram caption concept. I\u0027m exploring the best way to do this without disrupting the established tone or flow of the content about the Casa do Empreendedor and the ACIRV\u0027s Sudoexpo. The goal is a seamless, yet effective inclusion of the hashtag.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-09-07T22:11:40.998Z"
+    }, {
+      "text": "Neste carrossel, reunimos 5 motivos para você colocar a Casa do Empreendedor no seu mapa da Sudoexpo e descobrir como a ACIRV encurta distâncias entre a sua empresa e grandes oportunidades de mercado.\n\nNenhum negócio prospera de forma isolada. De 09 a 12 de setembro, faça do nosso estande a sua parada obrigatória para tomar um café, conversar com a nossa equipe, levar suas demandas e entender por que, na prática dos negócios, a melhor estratégia sempre será **#ConectarParaCrescer**.\n\nPorque por trás de cada empresa existe a coragem e o sonho de quem faz acontecer — e nós temos orgulho de estar presentes em cada história.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 151,
+      "parts": [{
+        "text": "Neste carrossel,"
+      }, {
+        "text": " reunimos 5 motivos para você colocar a Casa do Empreendedor no seu mapa da Sudoexpo e descobrir como a ACIRV en"
+      }, {
+        "text": "curta distâncias entre a sua empresa e grandes oportunidades de mercado.\n\nNenhum negócio prospera de forma isolada. De 09 a"
+      }, {
+        "text": " 12 de setembro, faça do nosso estande a sua parada obrigatória para tomar um café, conversar com a nossa"
+      }, {
+        "text": " equipe, levar suas demandas e entender por que, na prática dos negócios, a melhor estratégia sempre será **#ConectarParaCrescer**."
+      }, {
+        "text": "\n\nPorque por trás de cada empresa existe a coragem e o sonho de quem faz acontecer — e nós temos orgulho de estar presentes em"
+      }, {
+        "text": " cada história."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-09-07T22:11:49.247Z"
+    }, {
+      "driveImage": {
+        "id": "1ydaGhZ_LW_KF3EhEBwUBR94Lejb9jchx"
+      },
+      "role": "user",
+      "tokenCount": 1065,
+      "createTime": "2026-09-07T22:19:03.238Z"
+    }, {
+      "text": "Agora para este, seja absolutamente curto e direto.",
+      "role": "user",
+      "tokenCount": 11,
+      "createTime": "2026-09-07T22:19:03.238Z"
+    }, {
+      "text": "Amanhã, 9 de setembro, as portas da Casa do Empreendedor se abrem na Sudoexpo. \n\nEsperamos a sua visita no estande da ACIRV!",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 41,
+      "parts": [{
+        "text": "Amanhã, 9 de setembro, as portas da Casa do Em"
+      }, {
+        "text": "preendedor se abrem na Sudoexpo. \n\nEsperamos a sua visita no estande da ACIRV!"
+      }, {
+        "text": "",
+        "thoughtSignature": "EqULCqILARFNMg8CM5sszGrCP3gMxBSY87tdXy3nSb2rFwFkWvfh9SxkVQXeGgNSGxPztTsDlLTfnbDjRWANoyEDF1LvknEGwUpos8Lhp/aV7vhrERRvbnWdfuzj8MMh6jAK6ux141R0jvDWIefyCx9oq7G+TcWYeQ9K8RoSDMR7m5XCx/tIP+d9OaTwJT5De5K1S4LaaQbzyM9NBzE8QB4yFlbS51QPnzhMnfcp892dhtRlHwgjMuCK/osznhuejcB0j8Bqd1SvKIfIFl+XI9ivWP60kmpDwwukSYqbdjBXjXSrBa0nlAllbFElPpqlNCtQdODJW6ZMqxRrvgVngP7df3uidj3HRY43pV/8pZVgXnQQk2SkyzIMMHDlaIhf8/Tl2uVu+86TXNGzpBY+V83Ra4ANfq28uAZRAhfRYvSpJ68MhQzlagHBotwAxByiSnaijw3jpoSBTevR7upCEye+tfjWZ+s5jAW1iOq/ApZ+TLQxn3D/GzuKQ3HSBw6CrNJcKyaAC1F2+d1sgD8HO+P4XeEBbn8WzBTy42g8IwXauzaCjiZjM9TNNBsmFm63uySpBUXtgD0h0xbFVV6Qaq9Ozs0fvx6vzJej3YAlUfHOIMZFv1G32iA70xztKB6mPcS8bD1hUi2sZO0qGreDLq4sRrB69HwnfjY/f6HcdMUGtcnPTpS0Pw9hf9CSppolnQS5waw1mx8gso/6xI9uZBQgqoouj8VTt7rMlfKrljH764uTH4xH5ox63LIXcUaoeM3re/6CRflr+plEH27lPIciondCtcALJdR/RHpntYj8dc/HbFyaAHh1j0AjlyT5sSQBqkyU7vLOiIYTU8avfcaId0eb35PRHdwgtWuwiZi/6ZcTR+AuvhNpj8JSt+mmGPpniu2Jk6Caoyv3L7I9t+dxcclJIIfff2JIL4mSyNIIoU6newS1R6K6YtslYWPBN1AMjAaW5lqkqaQRj6L1Wd2V2xZj/gdbqjU7ddjosfIumaVOgEsinm4K7C276+U6f+uhCPyL2dGHyd1rFiTHXnU+2ibFXYl8e4L4PpqCpan1mmTahbJh6nXFDWVYUt5zpsQzPM9b2ZNeeFIkqe+PpZn/wAV12h0JdwUuuzH6fFC5qeVHiz1Q7jqBB3OlX9EeADvYsfg2XClCv+HfzYeqckr4I7dd7stpCMuooPFx8t/6o6FAAAJ7Lw3tBdmfK5Yws4i6QQZWmHBa4R5tqoTFbncGCmbGt7E9UvsPFvhb6rG495Nz7jEOYpVIZ3zXdwNO/pPgOfmlf1IiXO9tlE9FZlLDLcnV+SIiEbtympHPFT4fuEBr5NRnfYgYbXYiINyAhwbQYjKe7ZJS9O+eHgRogj6qYhYKVEmODeDyIxQLkVcgS3lkXF9ZuxcfQqRI35Vf1KEU5iLKRVQexwtqh+FiQtTlJa4HyrrppzH1INMNEfHbDkxiFHyudzqaip8civbHdTBBwkI0yqQzc/S2EYb25QK9n89xa7TIhILmihcidSmxmDZSZp6mtbmMRfEuEqySzN8gliQWOWrs6HLWcuO63DbWEIN1/jlSJGDtSm2rppFI6yF/DuZHMDdDcPonF+kYGryK3ynJdOgROi8vPhlVHHuCht/eOHia57SK/jdMMxZH5nVXeUrvM/KHGqwPoiOgB9UCMinNcgfXDZOw+4442LOj5hVHs0ihZeF6f61YzS7ODeDqHGIIDV8J2/645+KFKA4LByP5NO14ITZncvYUBXkQv1JchujnYhtzgdbR91XI5M2MEAe3OKicBSY8Oz3ZqCFWMfkb80rKryVFb3ug9l0Fs3z+BVZ+hWg9ANsweIUMTn3XlSXu3pS47gMhYzuiuKYrTpS2NYQ4S7SDpCRUebLrM5bThJyKqMA56JzgE9PfCTddFHVb575WW54TNVW+kv4o2/5YiUs="
+      }],
+      "createTime": "2026-09-07T22:19:03.239Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

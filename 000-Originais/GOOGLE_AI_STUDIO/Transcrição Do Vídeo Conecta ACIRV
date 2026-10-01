@@ -1,0 +1,88 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveVideo": {
+        "id": "10LU6KGWHFlCV6R2zr8kYER6Cn00Y6tUO"
+      },
+      "role": "user",
+      "tokenCount": 3194,
+      "createTime": "2026-07-22T14:08:16.967Z"
+    }, {
+      "text": "Transcreve esse video para mim, quero todo o texto dele exatamente como está\n",
+      "role": "user",
+      "tokenCount": 18,
+      "createTime": "2026-07-22T14:08:16.967Z"
+    }, {
+      "text": "**Defining the Scope**\n\nI\u0027m currently focused on defining the exact scope. The user requires a precise transcription of the video, which features a woman speaking Portuguese, and also has included subtitles.\n\n\n**Confirming the Content**\n\nI\u0027ve confirmed the video\u0027s content includes easily transcribed spoken Portuguese, complete with subtitles. I\u0027ve broken down the video into segments, and compiled the transcribed text. I\u0027ve also identified a section with only visuals. I\u0027m moving on to a final review to ensure accuracy.\n\n\n",
+      "role": "model",
+      "tokenCount": 666,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Scope**\n\nI\u0027m currently focused on defining the exact scope. The user requires a precise transcription of the video, which features a woman speaking Portuguese, and also has included subtitles.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Confirming the Content**\n\nI\u0027ve confirmed the video\u0027s content includes easily transcribed spoken Portuguese, complete with subtitles. I\u0027ve broken down the video into segments, and compiled the transcribed text. I\u0027ve also identified a section with only visuals. I\u0027m moving on to a final review to ensure accuracy.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-07-22T14:08:16.968Z"
+    }, {
+      "text": "Aqui está a transcrição exata do vídeo:\n\n\"Já pensou fazer parte da maior rodada de networking aqui de Rio Verde? No dia 11/09, dentro da SUDOEXPO, faremos quatro edições em apenas um local de evento. Serão mais de 200 empresários nesse movimento. Será a maior rodada de network. Então vem aí o Conecta ACIRV, edição especial. Venha fazer parte desse momento dentro da SUDOEXPO.\"",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 103,
+      "parts": [{
+        "text": "Aqui está a transcrição exata do vídeo:\n\n"
+      }, {
+        "text": "\"Já pensou fazer parte da maior rodada de networking aqui de Rio Verde? No dia 11/0"
+      }, {
+        "text": "9, dentro da SUDOEXPO, faremos quatro edições em apenas um local de evento. Serão mais"
+      }, {
+        "text": " de 200 empresários nesse movimento. Será a maior rodada de network. Então vem aí o Conecta"
+      }, {
+        "text": " ACIRV, edição especial. Venha fazer parte desse momento dentro da SUDOEXPO.\""
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-07-22T14:08:25.468Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

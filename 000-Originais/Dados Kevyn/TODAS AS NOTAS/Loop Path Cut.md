@@ -1,0 +1,1 @@
+O Loop Path Cut está disponível no click do botão direito. Válido para quando um modelo editável está selecionado.

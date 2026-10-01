@@ -1,0 +1,1 @@
+Tenho que pesquisar mais sobre estes, talvez seja um plugin. Eu vi ele no menu de efeitos do pc de um designer alemão.

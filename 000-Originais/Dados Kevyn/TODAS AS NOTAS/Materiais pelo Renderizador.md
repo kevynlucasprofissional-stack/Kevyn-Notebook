@@ -1,0 +1,1 @@
+Quando for texturizar e colorir, crie os materiais já pelas ferramentas do renderizador. Se for usar Pyro, use os materiais do Redshift.

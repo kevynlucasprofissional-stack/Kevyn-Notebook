@@ -1,0 +1,137 @@
+{
+  "generated_at": "2026-04-04T16:20:50.393465-03:00",
+  "objective": "Quarentenar apenas material claramente de baixo risco em _archive_review/, preservando manifesto completo e respeitando fronteiras de sub-vault.",
+  "method": [
+    "Leitura do inventario atual do vault com deteccao de sub-vaults aninhados.",
+    "Cruzamento com reports/03-exact-duplicates.json para exigir prova de duplicata exata quando o criterio depende de copia canonica.",
+    "Selecao conservadora de apenas .trash, nomes genericos muito fracos em areas mirror/noise e duplicatas exatas em areas mirror/noise com canonico fora dessas areas."
+  ],
+  "criteria": [
+    "Nenhum item dentro de sub-vault aninhado foi movido.",
+    "Nada sob HOME/Kevyn Lucas foi tocado.",
+    "Arquivos genericos fora de areas mirror/noise so entram quando ja estavam em .trash.",
+    "Material espelhado do Google Drive so entra quando houve correspondencia canonica exata fora do espelho."
+  ],
+  "affected_files": [
+    "reports\\03-quarantine.md",
+    "reports\\03-quarantine.json",
+    "logs\\03-quarantine.md"
+  ],
+  "risks": [
+    "Ainda pode haver copias espelhadas sem hash identico nesta rodada; elas ficaram apenas sinalizadas.",
+    "Arquivos vazios e genericos fora de areas mirror/noise foram mantidos se houvesse qualquer ambiguidade operacional.",
+    "Mudancas foram feitas por filesystem porque nao ha Obsidian CLI disponivel neste ambiente."
+  ],
+  "next_steps": [
+    "Revisar o manifesto em reports/03-quarantine.md e confirmar se a trilha de arquivo em _archive_review/03-quarantine faz sentido para restauracao futura.",
+    "Se quiser ampliar o recorte, a proxima rodada pode analisar espelhos do Google Drive com validacao textual adicional para casos nao identicos.",
+    "Depois da revisao humana, criar um checkpoint Git dedicado para esta quarentena."
+  ],
+  "summary": {
+    "mode": "dry-run",
+    "moved_count": 0,
+    "moved_from_google_drive": 0,
+    "moved_with_canonical_match": 0,
+    "signaled_count": 19,
+    "by_bucket": [],
+    "by_reason": []
+  },
+  "moved": [],
+  "signaled": [
+    {
+      "path": "ACIRV\\Notas\\00_rascunho.md",
+      "reason": "generic-but-nonempty",
+      "details": "Nome generico, mas arquivo nao vazio."
+    },
+    {
+      "path": "Google Drive (Not synced)\\Meu Drive\\ACIRV\\Notas\\Blocos de foco\\180326 - Bloco de foco tipo operacional.md",
+      "reason": "mirror-without-exact-proof",
+      "details": "Existe caminho canonico potencial fora do espelho (ACIRV\\Notas\\Blocos de foco\\180326 - Bloco de foco tipo operacional.md), mas sem prova estrutural suficiente nesta rodada."
+    },
+    {
+      "path": "Google Drive (Not synced)\\Meu Drive\\ACIRV\\Notas\\Gestão de tempo.md",
+      "reason": "mirror-without-exact-proof",
+      "details": "Existe caminho canonico potencial fora do espelho (ACIRV\\Notas\\Gestão de tempo.md), mas sem prova estrutural suficiente nesta rodada."
+    },
+    {
+      "path": "Google Drive (Not synced)\\Meu Drive\\HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian\\00_Insights.md",
+      "reason": "nested-subvault",
+      "details": "Dentro de sub-vault aninhado."
+    },
+    {
+      "path": "Google Drive (Not synced)\\Meu Drive\\HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian\\00_rascunho.md",
+      "reason": "nested-subvault",
+      "details": "Dentro de sub-vault aninhado."
+    },
+    {
+      "path": "Google Drive (Not synced)\\Meu Drive\\HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian\\210326 - Sessão de desenvolvimento.md",
+      "reason": "nested-subvault",
+      "details": "Dentro de sub-vault aninhado."
+    },
+    {
+      "path": "Google Drive (Not synced)\\Meu Drive\\HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian\\2103262143 - Feedback Agent UX e UI.md",
+      "reason": "nested-subvault",
+      "details": "Dentro de sub-vault aninhado."
+    },
+    {
+      "path": "Google Drive (Not synced)\\Meu Drive\\HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian\\2103262209 - Prompt ajuste de UX UI.md",
+      "reason": "nested-subvault",
+      "details": "Dentro de sub-vault aninhado."
+    },
+    {
+      "path": "Google Drive (Not synced)\\Meu Drive\\HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian\\Agent UX e UI\\Agent UX UI - Prompt 01.md",
+      "reason": "nested-subvault",
+      "details": "Dentro de sub-vault aninhado."
+    },
+    {
+      "path": "Google Drive (Not synced)\\Meu Drive\\HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian\\Agent UX e UI\\Agent UX UI - Prompt 02.md",
+      "reason": "nested-subvault",
+      "details": "Dentro de sub-vault aninhado."
+    },
+    {
+      "path": "Google Drive (Not synced)\\Meu Drive\\HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian\\Agent UX e UI\\Agent UX UI.md",
+      "reason": "nested-subvault",
+      "details": "Dentro de sub-vault aninhado."
+    },
+    {
+      "path": "Google Drive (Not synced)\\Meu Drive\\HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian\\TAREFAS 210326.md",
+      "reason": "nested-subvault",
+      "details": "Dentro de sub-vault aninhado."
+    },
+    {
+      "path": "HOME\\ACIRV\\Notas\\00_rascunho.md",
+      "reason": "generic-but-nonempty",
+      "details": "Nome generico, mas arquivo nao vazio."
+    },
+    {
+      "path": "HOME\\BioVision\\Notas\\00_rascunho.md",
+      "reason": "generic-but-nonempty",
+      "details": "Nome generico, mas arquivo nao vazio."
+    },
+    {
+      "path": "HOME\\Gestão de Tempo\\Untitled.sheet",
+      "reason": "generic-but-nonempty",
+      "details": "Nome generico, mas arquivo nao vazio."
+    },
+    {
+      "path": "HOME\\Kevyn Lucas\\Outros\\Não integrados\\00_rascunho.md",
+      "reason": "protected-area",
+      "details": "Dentro de HOME/Kevyn Lucas."
+    },
+    {
+      "path": "HOME\\O Professor\\00_Aleatórios\\Cérebro Atômico\\Agente Prescritivo (Clone).md",
+      "reason": "nested-subvault",
+      "details": "Dentro de sub-vault aninhado."
+    },
+    {
+      "path": "HOME\\O Professor\\00_Aleatórios\\Cérebro Atômico\\Princípio da Sincronização (Copywriting).md",
+      "reason": "nested-subvault",
+      "details": "Dentro de sub-vault aninhado."
+    },
+    {
+      "path": "HOME\\Ágora\\Ágora Obsidian\\00_rascunho.md",
+      "reason": "nested-subvault",
+      "details": "Dentro de sub-vault aninhado."
+    }
+  ]
+}

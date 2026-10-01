@@ -1,0 +1,2 @@
+É interessante brincarmos bastante com as várias opções de iluminação e cores que temos disponível no C4D. Para isso é necessário um pouco de conhecimento técnico sobre os diferentes tipos de luz. **Existe Luz de Preenchimento, Luz de Corte e vários outros, é necessário estudo fino.**
+>A luz não precisa ser a protagonista da cena, ela pode ser apenas o charmezinho, o tcham.

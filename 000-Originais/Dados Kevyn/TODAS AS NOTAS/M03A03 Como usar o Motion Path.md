@@ -1,0 +1,1 @@
+Ao animar KeyFrames, o caminho que o modelo irá percorrer é mostrado no visualizador. É possível editar este caminho com a Pen Toll (Atalho G). É possível manipular este caminho exatamente como se manipular os nós de um vetor, com total liberdade.

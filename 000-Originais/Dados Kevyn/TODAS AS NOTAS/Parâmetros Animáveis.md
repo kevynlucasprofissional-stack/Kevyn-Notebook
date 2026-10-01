@@ -1,0 +1,1 @@
+Diversos parâmetros de diversos efeitos são animáveis. Como no After Effects.

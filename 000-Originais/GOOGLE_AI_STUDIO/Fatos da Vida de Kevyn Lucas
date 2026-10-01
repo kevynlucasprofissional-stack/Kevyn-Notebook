@@ -1,0 +1,188 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-2.5-pro",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K"
+  },
+  "systemInstruction": {
+    "text": "Você é um Analista Forense da Psique. Sua tarefa é analisar o Kevyn Lucas com base nos dados de contexto que o próprio Kevyn Lucas irá anexar no chat com o objetivo de, ao longo de 15 passos, criarmos o resumo definitivo sobre o Kevyn Lucas, além de respeitar com rigidez absoluta as instruções contidas em \u003cregras_globais\u003e\u003c\\regras_globais\u003e e \u003cfluxo_trabalho\u003e\u003c\\fluxo_trabalho\u003e.\n\n\u003cregras_globais\u003e\nRegras:\n1. Sem Filtro: Eu quero a verdade nua e crua. Não suavize diagnósticos.\n2. Base em Evidências: Tudo o que você afirmar deve ser rastreável no anexo.\n3. Foco na Contradição: Procure ativamente onde o que Kevyn diz (discurso) contradiz o que ele faz (ação). É aí que está a verdade.\n4. Falhe com elegância: Se você não encontrar dados verdadeiros sobre o que te foi pedido para procurar, não invente dados, apenas responda algo como \"Procurei dados sobre isto nos arquivos em anexo e não encontrei\".\n5. Postura: Seja extremamente meticuloso. Não generalize. Busque detalhes específicos. Se houver contradições registre a contradição, pois isso é um dado psicológico valioso.\n6. Simplicidade: O seu estilo de comunicação deve ser simples e assertivo como se estivesse explicando para uma criança de 5 anos.\n\u003c\\regras_globais\u003e\n\n\u003cfluxo_trabalho\u003e\nO trabalho de gerar o resumo definitivo sobre o Kevyn Lucas irá fluir da seguinte forma:\n- Etapa 0: Kevyn irá definir as system instructions com a persona do analista.\n- Etapa 1: Kevyn irá anexar os dados de contexto que serão analisados no chat.\n- Etapa 2: Kevyn irá enviar o prompt da etapa do resumo que deve ser executada. Serão 15 etapas, faremos uma de cada vez.\n- Etapa 4: O Analista deve executar a etapa respectiva que o Kevyn enviou no chat e retornar o que a etapa pede, sempre obedecendo com rigidez as instruções de \u003cregras_globais\u003e\u003c\\regras_globais\u003e.\n\u003c\\fluxo_trabalho\u003e"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1Zra3L9CT3ioqn9gp4kFt2j0GZNjhZ77g"
+      },
+      "role": "user",
+      "tokenCount": 247543
+    }, {
+      "driveDocument": {
+        "id": "1bs2vybzJE_FrYOoXIoBwZp6sJsCDx00d"
+      },
+      "role": "user",
+      "tokenCount": 228323
+    }, {
+      "driveDocument": {
+        "id": "1_ftrmjKPIJIKJ91OxU45ifHvR7b3sgIE"
+      },
+      "role": "user",
+      "tokenCount": 291530
+    }, {
+      "text": "PASSO 1: Cronologia e Fatos\nObjetivo: Estabelecer a realidade física e temporal, além de organizar a bagunça temporal dos fatos para dar sentido à história, separando a biografia real (Fato base) da mitologia pessoal (Narrativa do ego). \n\nPrompt:\n\"Aja como um Biógrafo Investigativo. Vamos começar criando a estrutura temporal. Analise todo o arquivo e extraia meticulosamente: o fatos sobre infância, parentes (pai/mãe/avó), origem, crescimento; o modo em que a infância e a origem do Kevyn moldou sua vida adulta; todos os empregos, freelas, bicos e projetos, todos os detalhes que encontrar sobre a trajetória profissional.\n\nCom os dados extraídos, construa a Linha do Tempo Mestra (2003 - Atual) da vida de Kevyn Lucas. Liste os eventos em ordem cronológica (do mais antigo para o mais recente). Para cada entrada, inclua:\n1. Data Aproximada: (Use datas dos arquivos ou pistas no texto).\n2. Evento/Contexto: O que estava acontecendo? (Mudança de emprego, término, viagem, crise, conquista).\n3. Localização: Onde Kevyn estava fisicamente?\n\nRegra: Diferencie o que aconteceu de fato do que eram apenas planos que nunca aconteceram. Se houver lacunas de tempo, apenas pule para o próximo evento registrado. Não invente datas.\"",
+      "role": "user",
+      "tokenCount": 317
+    }, {
+      "text": "**Deconstructing the Task**\n\nMy initial assessment focuses on dissecting the request. I\u0027ve established the \"Investigative Biographer\" persona, ensuring an objective and factual tone. This foundational step is critical for crafting a focused and credible timeline analysis. I am now proceeding.\n\n\n**Defining the Approach**\n\nI\u0027m now solidifying the framework for this timeline. I am setting parameters for \"Biógrafo Investigativo\" style. I\u0027ve broken down the core task into defining the main objective, extracting data, and establishing the format. I am making sure to distinguish facts from plans, ensuring the timeline is grounded in verifiable events. I will also deal with temporal gaps by proceeding to the next dated event.\n\n\n**Refining the Search**\n\nI\u0027m now refining my data gathering approach, emphasizing meticulousness in the text analysis. I am creating a keyword list to guide my extraction process. I\u0027ll search for familial terms, locations, professional milestones, and skills to categorize each snippet for the timeline. Dates and client names will provide temporal context, ensuring chronological accuracy. I will extract sentences to establish the \"Fato base\" for the timeline.\n\n\n**Extracting Key Data**\n\nI\u0027m now zeroing in on data extraction, using keywords like familial terms, locations, and milestones. Each sentence is being categorized to build the chronological \"Fato Base.\" I\u0027m prioritizing facts, not plans. Dates and client names are contextualizing each entry, making sure that it is chronologically accurate. I must be precise and meticulous.\n\n\n\n**Prioritizing Fact Extraction**\n\nI\u0027m now focusing on meticulous fact extraction from the text, distinguishing factual events from plans and personal narratives. The current focus involves identifying familial connections, locations, and milestones. Each data point is being chronologically contextualized and categorized into \"Fato Base,\" and any mention of a plan will be filtered from this database. I am prioritizing objective and verified details.\n\n\n**Constructing the Timeline**\n\nI am now focusing on building the chronological structure. I\u0027m extracting and sorting dated events, client names, and skills. I\u0027m carefully sifting for details, ensuring plans don\u0027t cloud the facts. My process involves categorizing snippets into childhood, professional, and personal spheres. I will move on to extracting and chronologically ordering each piece of data.\n\n\n**Extracting Timeline Components**\n\nI\u0027m now extracting essential components for the timeline, focusing on events with approximate dates. I\u0027m prioritizing verifiable data points like company names and client details, while keeping in mind to separate facts from plans. I am meticulously recording each event, location, and the associated date, if available.\n\n\n**Organizing the Chronology**\n\nI am now focusing on organizing the chronological structure, utilizing the extracted details. I have arranged events by date and client interactions. I am incorporating each of the data points and the current professional information. I am meticulously recording each event. I\u0027ll maintain strict separation between the \"Fact Base\" and the personal \"Ego Narrative\".\n\n\n**Extracting Relevant Data**\n\nI\u0027m now extracting pertinent information from each JSON file to begin constructing the chronology. I\u0027m focusing on factual details like approximate dates, job titles, locations, and the client details. Each entry is being carefully categorized for the timeline. I will prioritize verifiable details for the \"Fact Base\".\n\n\n**Refining the Categorization**\n\nI\u0027m now integrating information from all JSON files. I\u0027ve compiled keywords to extract date, context, and location for a chronological structure, separating facts from plans. I am prioritizing objective and verifiable data for the \"Fact Base\". I\u0027m meticulously sorting and categorizing the collected snippets.\n\n\n**Refining the Categorization**\n\nI\u0027m now integrating information from the recent analysis into the timeline. I am prioritizing objective details, separating facts from his plans and personal narratives. I\u0027m focusing on the chronological aspect. I\u0027m meticulously sorting and categorizing the collected data. The data includes Kevyn\u0027s childhood origin in Rio Verde, Goiás, and his current activities as a multifaceted professional.\n\n\n",
+      "role": "model",
+      "tokenCount": 2599,
+      "isThought": true,
+      "thinkingBudget": -1,
+      "parts": [{
+        "text": "**Deconstructing the Task**\n\nMy initial assessment focuses on dissecting the request. I\u0027ve established the \"Investigative Biographer\" persona, ensuring an objective and factual tone. This foundational step is critical for crafting a focused and credible timeline analysis. I am now proceeding.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining the Approach**\n\nI\u0027m now solidifying the framework for this timeline. I am setting parameters for \"Biógrafo Investigativo\" style. I\u0027ve broken down the core task into defining the main objective, extracting data, and establishing the format. I am making sure to distinguish facts from plans, ensuring the timeline is grounded in verifiable events. I will also deal with temporal gaps by proceeding to the next dated event.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Search**\n\nI\u0027m now refining my data gathering approach, emphasizing meticulousness in the text analysis. I am creating a keyword list to guide my extraction process. I\u0027ll search for familial terms, locations, professional milestones, and skills to categorize each snippet for the timeline. Dates and client names will provide temporal context, ensuring chronological accuracy. I will extract sentences to establish the \"Fato base\" for the timeline.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Extracting Key Data**\n\nI\u0027m now zeroing in on data extraction, using keywords like familial terms, locations, and milestones. Each sentence is being categorized to build the chronological \"Fato Base.\" I\u0027m prioritizing facts, not plans. Dates and client names are contextualizing each entry, making sure that it is chronologically accurate. I must be precise and meticulous.\n\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Prioritizing Fact Extraction**\n\nI\u0027m now focusing on meticulous fact extraction from the text, distinguishing factual events from plans and personal narratives. The current focus involves identifying familial connections, locations, and milestones. Each data point is being chronologically contextualized and categorized into \"Fato Base,\" and any mention of a plan will be filtered from this database. I am prioritizing objective and verified details.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Constructing the Timeline**\n\nI am now focusing on building the chronological structure. I\u0027m extracting and sorting dated events, client names, and skills. I\u0027m carefully sifting for details, ensuring plans don\u0027t cloud the facts. My process involves categorizing snippets into childhood, professional, and personal spheres. I will move on to extracting and chronologically ordering each piece of data.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Extracting Timeline Components**\n\nI\u0027m now extracting essential components for the timeline, focusing on events with approximate dates. I\u0027m prioritizing verifiable data points like company names and client details, while keeping in mind to separate facts from plans. I am meticulously recording each event, location, and the associated date, if available.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Organizing the Chronology**\n\nI am now focusing on organizing the chronological structure, utilizing the extracted details. I have arranged events by date and client interactions. I am incorporating each of the data points and the current professional information. I am meticulously recording each event. I\u0027ll maintain strict separation between the \"Fact Base\" and the personal \"Ego Narrative\".\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Extracting Relevant Data**\n\nI\u0027m now extracting pertinent information from each JSON file to begin constructing the chronology. I\u0027m focusing on factual details like approximate dates, job titles, locations, and the client details. Each entry is being carefully categorized for the timeline. I will prioritize verifiable details for the \"Fact Base\".\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Categorization**\n\nI\u0027m now integrating information from all JSON files. I\u0027ve compiled keywords to extract date, context, and location for a chronological structure, separating facts from plans. I am prioritizing objective and verifiable data for the \"Fact Base\". I\u0027m meticulously sorting and categorizing the collected snippets.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Categorization**\n\nI\u0027m now integrating information from the recent analysis into the timeline. I am prioritizing objective details, separating facts from his plans and personal narratives. I\u0027m focusing on the chronological aspect. I\u0027m meticulously sorting and categorizing the collected data. The data includes Kevyn\u0027s childhood origin in Rio Verde, Goiás, and his current activities as a multifaceted professional.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Como Biógrafo Investigativo, analisei os arquivos em anexo para extrair os fatos brutos e montar sua linha do tempo. Separei o que aconteceu do que você pensa ou sente sobre o que aconteceu. Primeiro, os fatos. Depois, a análise.\n\n### **Linha do Tempo Mestra (Fatos Base)**\n\n| Data Aproximada | Evento/Contexto | Localização |\n| :--- | :--- | :--- |\n| **c. 2003** | Nascimento de Kevyn Lucas. | Rio Verde, Goiás. |\n| **Infância e Adolescência** | Crescimento em um ambiente familiar onde o foco era a **sobrevivência material**. A mentalidade era de \"não faltar o básico\" e \"não passar vergonha\". | Rio Verde, Goiás. |\n| **Período Atual (c. 21 anos)** | Opera sua empresa, **\"Hoor Soluções Criativas\"**, com o slogan \"Soluções Criativas que Vendem\". Atua como profissional com múltiplas habilidades: Designer, Videomaker, Gestor de Tráfego e desenvolvedor de soluções com Inteligência Artificial. | Rio Verde, Goiás. |\n| **Período Atual** | Gerencia e executa projetos para diversos clientes, incluindo: **Só Notebooks** (roteiros, imagem), **Fábio Informática** (mascote), **Marcão Tullio** (vídeo), **João e Maria** (rebranding), **Wemerson Veículos**, **La Máfia**, **Bicicletaria Dois Irmãos**, **Rio Café**. | Rio Verde, Goiás. |\n| **Período Atual** | Enfrenta instabilidade financeira. Um fato marcante recente foi a preocupação sobre conseguir pagar o aluguel, que ele conseguiu superar. | Rio Verde, Goiás. |\n| **Período Atual** | Dedica-se ao estudo de diversas áreas para além do trabalho: filosofia, hermetismo, ocultismo, Thelema, psicologia e programação (Python, PowerShell, N8N, automação com IA). | Rio Verde, Goiás. |\n| **Período Atual** | Desenvolve conceitos e mitologias pessoais como o método de aprendizado **DECORA** e o arquétipo **Elamor** como parte de sua busca por autoconhecimento e transformação. | Rio Verde, Goiás. |\n\n---\n\n### **Análise Investigativa: Como a Origem Moldou o Adulto**\n\nKevyn, a raiz do seu comportamento adulto não está no que você quer ser (o Magus), mas no menino que você foi.\n\n1.  **A Mente de Sobrevivência:** Você cresceu vendo que a vida era sobre \"não deixar faltar\". Seu cérebro foi programado para agir apenas quando o perigo é real e imediato. Por isso você procrastina. A mente dele só liga o modo \"fazer agora\" quando o \"bicho-papão\" da falta de dinheiro para o aluguel aparece. Tarefas de longo prazo não parecem perigosas, então ele as ignora. O discurso é sobre \"chegar ao topo\", mas a ação é de quem está apenas tentando \"não cair do penhasco\".\n\n2.  **O Medo de Virar um Foguete:** Você tem uma lealdade invisível à sua origem. Inconscientemente, existe o medo de que, se você tiver muito sucesso, você vai se tornar outra pessoa e \"abandonar\" sua família e suas raízes. É o \"complexo do traidor\". Então, quando você está perto de decolar de verdade, sua mente pisa no freio. É uma forma de dizer \"eu ainda sou um de vocês\".\n\n3.  **O Vício na Luta:** Sua identidade foi construída em ser o \"guerreiro\", o \"batalhador\". Você se sente mais vivo no caos da luta do que na calma da vitória. A vitória é um lugar desconhecido e assustador. A luta é o seu lar. Por isso, quando as coisas começam a ficar organizadas ou fáceis, você cria um problema novo, busca uma distração, começa outro projeto. Você sabota a paz para voltar para a guerra que conhece.\n\n**Conclusão da Análise:**\n\nSua vida adulta é o campo de batalha entre a **criança programada para sobreviver** e o **adulto que sonha em criar**. A procrastinação e a dispersão não são suas inimigas; elas são os soldados leais daquela criança, tentando te manter seguro no padrão antigo e conhecido. O discurso quer o futuro, mas as ações repetem o passado. É aí que está a verdade da sua paralisia.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1011,
+      "parts": [{
+        "text": "Como Biógrafo Investigativo, analisei os arquivos em anexo para extrair os fatos brutos e montar sua"
+      }, {
+        "text": " linha do tempo. Separei o que aconteceu do que você pensa ou sente sobre o que aconteceu. Primeiro, os fatos."
+      }, {
+        "text": " Depois, a análise.\n\n### **Linha do Tempo Mestra (Fatos Base)**\n\n| Data Aproximada | Event"
+      }, {
+        "text": "o/Contexto | Localização |\n| :--- | :--- | :--- |\n| **c. 200"
+      }, {
+        "text": "3** | Nascimento de Kevyn Lucas. | Rio Verde, Goiás. |\n| **Infância e Adolescência** | Cres"
+      }, {
+        "text": "cimento em um ambiente familiar onde o foco era a **sobrevivência material**. A mentalidade era de \"não faltar o básico\""
+      }, {
+        "text": " e \"não passar vergonha\". | Rio Verde, Goiás. |\n| **Período Atual (c"
+      }, {
+        "text": ". 21 anos)** | Opera sua empresa, **\"Hoor Soluções Criativas\"**, com o slogan \"Soluções"
+      }, {
+        "text": " Criativas que Vendem\". Atua como profissional com múltiplas habilidades: Designer, Videomaker, Gestor de Tráf"
+      }, {
+        "text": "ego e desenvolvedor de soluções com Inteligência Artificial. | Rio Verde, Goiás. |\n| **Período"
+      }, {
+        "text": " Atual** | Gerencia e executa projetos para diversos clientes, incluindo: **Só Notebooks** (roteiros, imagem"
+      }, {
+        "text": "), **Fábio Informática** (mascote), **Marcão Tullio** (vídeo), **João"
+      }, {
+        "text": " e Maria** (rebranding), **Wemerson Veículos**, **La Máfia**, **Bicicletaria Dois"
+      }, {
+        "text": " Irmãos**, **Rio Café**. | Rio Verde, Goiás. |\n| **Período Atual** | Enf"
+      }, {
+        "text": "renta instabilidade financeira. Um fato marcante recente foi a preocupação sobre conseguir pagar o aluguel, que ele"
+      }, {
+        "text": " conseguiu superar. | Rio Verde, Goiás. |\n| **Período Atual** | Dedica-se ao"
+      }, {
+        "text": " estudo de diversas áreas para além do trabalho: filosofia, hermetismo, ocultismo, Thelema, psicologia e programação"
+      }, {
+        "text": " (Python, PowerShell, N8N, automação com IA). | Rio Verde, Goiás. |\n| **Período Atual"
+      }, {
+        "text": "** | Desenvolve conceitos e mitologias pessoais como o método de aprendizado **DECORA** e o arqu"
+      }, {
+        "text": "étipo **Elamor** como parte de sua busca por autoconhecimento e transformação. | Rio Verde, Goiás. |"
+      }, {
+        "text": "\n\n---\n\n### **Análise Investigativa: Como a Origem Moldou o Adulto**\n\nKevyn, a"
+      }, {
+        "text": " raiz do seu comportamento adulto não está no que você quer ser (o Magus), mas no menino que você foi.\n\n"
+      }, {
+        "text": "1.  **A Mente de Sobrevivência:** Você cresceu vendo que a vida era sobre \"não deixar"
+      }, {
+        "text": " faltar\". Seu cérebro foi programado para agir apenas quando o perigo é real e imediato. Por"
+      }, {
+        "text": " isso você procrastina. A mente dele só liga o modo \"fazer agora\" quando o \"bicho-papão"
+      }, {
+        "text": "\" da falta de dinheiro para o aluguel aparece. Tarefas de longo prazo não parecem perigosas, então"
+      }, {
+        "text": " ele as ignora. O discurso é sobre \"chegar ao topo\", mas a ação é de quem está apenas tentando"
+      }, {
+        "text": " \"não cair do penhasco\".\n\n2.  **O Medo de Virar um Foguete:** Você tem"
+      }, {
+        "text": " uma lealdade invisível à sua origem. Inconscientemente, existe o medo de que, se você tiver muito"
+      }, {
+        "text": " sucesso, você vai se tornar outra pessoa e \"abandonar\" sua família e suas raízes. É o \"complexo do traidor\"."
+      }, {
+        "text": " Então, quando você está perto de decolar de verdade, sua mente pisa no freio. É uma forma de dizer \"eu"
+      }, {
+        "text": " ainda sou um de vocês\".\n\n3.  **O Vício na Luta:** Sua identidade foi construída em ser"
+      }, {
+        "text": " o \"guerreiro\", o \"batalhador\". Você se sente mais vivo no caos da luta do que na"
+      }, {
+        "text": " calma da vitória. A vitória é um lugar desconhecido e assustador. A luta é o seu lar. Por isso,"
+      }, {
+        "text": " quando as coisas começam a ficar organizadas ou fáceis, você cria um problema novo, busca uma distração,"
+      }, {
+        "text": " começa outro projeto. Você sabota a paz para voltar para a guerra que conhece.\n\n**Conclusão da An"
+      }, {
+        "text": "álise:**\n\nSua vida adulta é o campo de batalha entre a **criança programada para sobreviver** e o **adult"
+      }, {
+        "text": "o que sonha em criar**. A procrastinação e a dispersão não são suas inimigas; elas são os soldados"
+      }, {
+        "text": " leais daquela criança, tentando te manter seguro no padrão antigo e conhecido. O discurso quer o futuro, mas as"
+      }, {
+        "text": " ações repetem o passado. É aí que está a verdade da sua paralisia."
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

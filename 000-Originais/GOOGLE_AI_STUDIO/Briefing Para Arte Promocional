@@ -1,0 +1,136 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveImage": {
+        "id": "1pMcj7vwbRUKlQ24bfPCvhdqCtcU478ge"
+      },
+      "role": "user",
+      "tokenCount": 1072,
+      "createTime": "2026-06-12T23:42:42.528Z"
+    }, {
+      "driveAudio": {
+        "id": "16xLZKS0LVwkW2EG2usmRsMSszWVUM2Zc"
+      },
+      "role": "user",
+      "tokenCount": 597,
+      "createTime": "2026-06-12T23:42:42.528Z"
+    }, {
+      "text": "Consegue escrever o briefing para a designer baseado nesses dados em anexo? Escreva como se fosse uma carta.\n",
+      "role": "user",
+      "tokenCount": 25,
+      "createTime": "2026-06-12T23:42:42.528Z"
+    }, {
+      "text": "**Initiating Briefing Analysis**\n\nI\u0027m starting by meticulously analyzing the request. The primary goal is to craft a concise briefing letter for a designer, drawing insights from a WhatsApp chat screenshot and audio data. This initial phase involves thoroughly dissecting the request to pinpoint the specific design needs and desired outcome.\n\n\n**Refining Contextual Understanding**\n\nI\u0027ve clarified that the desired output is a letter, a \"carta,\" formatted for a designer. The source data comprises a Portuguese WhatsApp conversation screenshot and an audio clip. I am now meticulously translating the text messages, and transcribing the audio data to gain context on the conversation about Samara\u0027s design. The messages express concerns regarding the design\u0027s clarity, referencing a \"Show do Milhão\" concept, and a suggestion to make the design more closely resemble the reference material.\n\n\n**Summarizing Feedback Received**\n\nI\u0027ve distilled the core feedback: the design lacks clarity and fails to evoke the \"Show do Conecta\" concept, as expressed in the audio. The speaker explicitly wants the design to more closely resemble the original reference material. I\u0027m focusing on the sender of the feedback being Kevin, who is managing the request, and the recipient being Samara, the designer.\n\n\n**Clarifying Design Requirements**\n\nI\u0027m now identifying the key shortcomings of the design. It\u0027s evident the \"Show do Milhão\" concept isn\u0027t coming across, leading to the need for a stronger visual link to the reference material. I\u0027ve pinpointed that the design needs to be significantly closer to the original, and that including \"Show do Conecta\" directly in the title is essential for clarity.\n\n\n**Formulating Directives for Design**\n\nI\u0027m now integrating feedback into actionable directives. My focus is on clearly stating two key modifications. First, the layout must align more closely with the reference material. Second, \"Show do Conecta\" needs explicit inclusion. The goal is a revised design directly conveying the intended \"Show do Milhão\" theme.\n\n\n**Finalizing Letter Content**\n\nI am now focusing on refining the letter\u0027s content. I\u0027ve integrated Kevin\u0027s directives to the designer. I\u0027m prioritizing directness and clarity, with the design needing to become more faithful to the \"Show do Milhão\" inspiration. The title \"Show do Conecta\" must be incorporated. I\u0027m ensuring an offer of assistance and setting realistic expectations, concluding with a positive outlook and a sign-off.\n\n\n",
+      "role": "model",
+      "tokenCount": 1456,
+      "isThought": true,
+      "parts": [{
+        "text": "**Initiating Briefing Analysis**\n\nI\u0027m starting by meticulously analyzing the request. The primary goal is to craft a concise briefing letter for a designer, drawing insights from a WhatsApp chat screenshot and audio data. This initial phase involves thoroughly dissecting the request to pinpoint the specific design needs and desired outcome.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining Contextual Understanding**\n\nI\u0027ve clarified that the desired output is a letter, a \"carta,\" formatted for a designer. The source data comprises a Portuguese WhatsApp conversation screenshot and an audio clip. I am now meticulously translating the text messages, and transcribing the audio data to gain context on the conversation about Samara\u0027s design. The messages express concerns regarding the design\u0027s clarity, referencing a \"Show do Milhão\" concept, and a suggestion to make the design more closely resemble the reference material.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Summarizing Feedback Received**\n\nI\u0027ve distilled the core feedback: the design lacks clarity and fails to evoke the \"Show do Conecta\" concept, as expressed in the audio. The speaker explicitly wants the design to more closely resemble the original reference material. I\u0027m focusing on the sender of the feedback being Kevin, who is managing the request, and the recipient being Samara, the designer.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Clarifying Design Requirements**\n\nI\u0027m now identifying the key shortcomings of the design. It\u0027s evident the \"Show do Milhão\" concept isn\u0027t coming across, leading to the need for a stronger visual link to the reference material. I\u0027ve pinpointed that the design needs to be significantly closer to the original, and that including \"Show do Conecta\" directly in the title is essential for clarity.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Formulating Directives for Design**\n\nI\u0027m now integrating feedback into actionable directives. My focus is on clearly stating two key modifications. First, the layout must align more closely with the reference material. Second, \"Show do Conecta\" needs explicit inclusion. The goal is a revised design directly conveying the intended \"Show do Milhão\" theme.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Finalizing Letter Content**\n\nI am now focusing on refining the letter\u0027s content. I\u0027ve integrated Kevin\u0027s directives to the designer. I\u0027m prioritizing directness and clarity, with the design needing to become more faithful to the \"Show do Milhão\" inspiration. The title \"Show do Conecta\" must be incorporated. I\u0027m ensuring an offer of assistance and setting realistic expectations, concluding with a positive outlook and a sign-off.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-06-12T23:42:42.528Z"
+    }, {
+      "text": "Com base na conversa do WhatsApp e no áudio fornecido, aqui está uma proposta de briefing estruturado em formato de carta, sendo enviado pelo Kevin (nome mencionado no áudio) para a designer (Samara). \n\nA carta foi redigida com um tom profissional, amigável e direto, traduzindo as preocupações da equipe em direcionamentos claros para o design.\n\n***\n\n**Assunto: Feedback e ajustes na arte \"Show do Milhão\"**\n\nOlá, Samara, tudo bem?\n\nEstou te escrevendo para repassar os feedbacks que a equipe teve sobre a última versão do design que você nos enviou. \n\nApós analisarmos a arte, chegamos à conclusão de que a temática central acabou não ficando tão evidente quanto precisávamos. Nosso maior receio é que o público não bata o olho e entenda imediatamente a referência ao \"Show do Milhão\". Algumas pessoas da equipe, inclusive, relataram que não conseguiram captar essa brincadeira de primeira e acharam que a arte, do jeito que está, ainda não está pronta para ser postada.\n\nPor conta disso, achamos melhor seguir por um caminho mais literal. Gostaríamos de pedir que você refaça a arte aplicando os seguintes direcionamentos:\n\n*   **Fidelidade à referência:** Gostaríamos que o layout ficasse visualmente muito mais parecido com a estética clássica do \"Show do Milhão\" (a referência que havíamos enviado anteriormente). A ideia é que seja quase uma sátira visual, usando os mesmos estilos de caixas de texto, cores e diagramação do programa de TV.\n*   **Texto em destaque:** Para não deixar nenhuma margem de dúvida sobre o tema, por favor, inclua na arte o título explícito: **\"Show do Conecta\"**. \n\nAcreditamos que, deixando o visual mais caricato e parecido com a inspiração original, aliado a esse novo título, a arte vai atingir exatamente o objetivo de comunicação que queremos.\n\nSe precisar que eu reenvie as imagens de referência ou se tiver alguma dúvida sobre esses apontamentos, fique à vontade para me chamar.\n\nAgradeço desde já pelo empenho!\n\nUm abraço,\n\n**Kevin** \n*(e Equipe)*",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 475,
+      "parts": [{
+        "text": "Com base na conversa do WhatsApp e no áudio forne"
+      }, {
+        "text": "cido, aqui está uma proposta de briefing estruturado em formato de carta, sendo enviado pelo Kevin (nome mencionado no áudio) para"
+      }, {
+        "text": " a designer (Samara). \n\nA carta foi redigida com um tom profissional, amigável e direto, trad"
+      }, {
+        "text": "uzindo as preocupações da equipe em direcionamentos claros para o design.\n\n***\n\n**Assunto: Feedback e ajustes"
+      }, {
+        "text": " na arte \"Show do Milhão\"**\n\nOlá, Samara, tudo bem?\n\nEstou te escrevendo para rep"
+      }, {
+        "text": "assar os feedbacks que a equipe teve sobre a última versão do design que você nos enviou. \n\nApós analisarmos a arte, cheg"
+      }, {
+        "text": "amos à conclusão de que a temática central acabou não ficando tão evidente quanto precisávamos. Nosso maior receio é"
+      }, {
+        "text": " que o público não bata o olho e entenda imediatamente a referência ao \"Show do Milhão\". Algumas pessoas da equipe,"
+      }, {
+        "text": " inclusive, relataram que não conseguiram captar essa brincadeira de primeira e acharam que a arte, do"
+      }, {
+        "text": " jeito que está, ainda não está pronta para ser postada.\n\nPor conta disso, achamos melhor seguir por um caminho mais literal."
+      }, {
+        "text": " Gostaríamos de pedir que você refaça a arte aplicando os seguintes direcionamentos:\n\n*   **Fidelidade à"
+      }, {
+        "text": " referência:** Gostaríamos que o layout ficasse visualmente muito mais parecido com a estética clássica do \"Show"
+      }, {
+        "text": " do Milhão\" (a referência que havíamos enviado anteriormente). A ideia é que seja quase uma sátira visual"
+      }, {
+        "text": ", usando os mesmos estilos de caixas de texto, cores e diagramação do programa de TV.\n*   **"
+      }, {
+        "text": "Texto em destaque:** Para não deixar nenhuma margem de dúvida sobre o tema, por favor, inclua na arte o título explícito:"
+      }, {
+        "text": " **\"Show do Conecta\"**. \n\nAcreditamos que, deixando o visual mais caricato e parecido com a inspiração original,"
+      }, {
+        "text": " aliado a esse novo título, a arte vai atingir exatamente o objetivo de comunicação que queremos.\n\nSe precisar que eu re"
+      }, {
+        "text": "envie as imagens de referência ou se tiver alguma dúvida sobre esses apontamentos, fique à vontade para me chamar.\n\nA"
+      }, {
+        "text": "gradeço desde já pelo empenho!\n\nUm abraço,\n\n**Kevin** \n*(e Equipe)*"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-06-12T23:43:01.621Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

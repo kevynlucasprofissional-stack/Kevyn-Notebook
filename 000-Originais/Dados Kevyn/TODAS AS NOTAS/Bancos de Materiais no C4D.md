@@ -1,0 +1,1 @@
+Existe bancos de materiais no Cinema 4D. O que conheço são o Asset Browser e o Live DB (Acesso pelo menu "Material" do renderizador Octane)

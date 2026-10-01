@@ -1,0 +1,227 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-flash-lite-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_MINIMAL",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1YjzWtIc_xcyiGYDDqxGy9dZDa-o81HJ3"
+      },
+      "role": "user",
+      "tokenCount": 9623,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1qdnpVZMBs9XeR2va7ThFUjgSMv7W0fgZ"
+      },
+      "role": "user",
+      "tokenCount": 654,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1yB-DX5Z2v-zs5n7k8IXh9_OOHV0aYK5T"
+      },
+      "role": "user",
+      "tokenCount": 402,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1V4Itj_YvIa1JBmD8s5QhHtzbYBZZm7p5"
+      },
+      "role": "user",
+      "tokenCount": 1439,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1zfqHjg23io4VMKa_CEyBpuvVwlk7kLeN"
+      },
+      "role": "user",
+      "tokenCount": 408,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "13FCKMZ4MgUAMRP8xe_UiF3vdl8j19jpC"
+      },
+      "role": "user",
+      "tokenCount": 684,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1l1wfNuSvhH7IvBcAvUZ9jLZVkRKMuf9Y"
+      },
+      "role": "user",
+      "tokenCount": 1310,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "18oAy0PaECdLNvDHTAknId-6d-kO2jshB"
+      },
+      "role": "user",
+      "tokenCount": 939,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1frgQbMbG9XwtfrNbd8MnKPgfBNfOqEGj"
+      },
+      "role": "user",
+      "tokenCount": 2842,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1DagEYRIXFFwm-69m-14C_T7nwM4VzzVZ"
+      },
+      "role": "user",
+      "tokenCount": 46,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1Yx44mZFOoo2VIS-qAYxR5HCyNIIWhMsF"
+      },
+      "role": "user",
+      "tokenCount": 1328,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1XQe5YRwr7jf2PIgX02TO4KtKUDSAcJGo"
+      },
+      "role": "user",
+      "tokenCount": 4427,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "13tYtv2aFzVGw-2xOMpB3oCYHM9Yf_yZ-"
+      },
+      "role": "user",
+      "tokenCount": 287,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1nOcMugxzXLd7MLu80894QPHTIeXmxjKW"
+      },
+      "role": "user",
+      "tokenCount": 4534,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1AhWlQb8fnBAANXCNsUxD11Kq4uAqW1YA"
+      },
+      "role": "user",
+      "tokenCount": 1477,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1snXUX1ddj6sybcrsg5-bEZ7OZl7MABh8"
+      },
+      "role": "user",
+      "tokenCount": 1178,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "driveDocument": {
+        "id": "1ONdBdNeor1j3ATPfNif-LlRknuzbGeJw"
+      },
+      "role": "user",
+      "tokenCount": 1121,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "text": "Com base nos dados em anexo, gere para mim:\n\n# 13 — Regras do Sistema\n\nExemplo:\n\n```\n- usuários podem ser cliente ou profissional\n- profissionais podem criar serviços\n- clientes podem contratar serviços\n- avaliações apenas após contratação\n```\n\n---\n\n# 14 — Permissões\n\nQuem pode fazer o que.\n\nExemplo:\n\n```\ncliente\n- contratar serviço\n- avaliar profissional\n\nprofissional\n- criar serviço\n- editar serviço\n```",
+      "role": "user",
+      "tokenCount": 106,
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }, {
+      "text": "Com base na análise técnica de toda a documentação fornecida (Arquitetura de Agentes, Fluxos, Funcionalidades e Requisitos de Negócio), aqui estão as Regras do Sistema e a Matriz de Permissões estruturadas para o Ágora:\n\n---\n\n# 13 — Regras do Sistema\n\n```text\n- usuários possuem um plano de assinatura associado (Freemium, Standard, Pro ou Enterprise)\n- o plano determina o limite mensal de uploads de arquivos e o acesso a funcionalidades exclusivas\n- cada interação de análise do usuário é registrada como uma nova \"requisição\" (UserRequest)\n- o sistema utiliza uma arquitetura de multi-agentes para processar as análises, onde cada agente é especializado em um domínio (Sociocomportamental, Oferta, Performance)\n- uploads de arquivos (UserUpload) devem ser transcritos/processados para alimentar o contexto do Agente Orquestrador\n- o sistema gera uma resposta estruturada (AgentResponse) para cada etapa da análise, armazenada em JSONB para permitir reconstrução do fluxo\n- o Agente Sintetizador (Estrategista-Chefe) é o responsável por consolidar todas as respostas dos especialistas em um único relatório executivo e campanha otimizada\n- usuários podem avaliar o resultado gerado pela IA (Like/Deslike) após a entrega do relatório\n- integrações avançadas (API da Meta) são exclusivas para o plano Enterprise\n- usuários podem baixar materiais gerados (PDF, PPT, PNG, etc.) conforme os limites do plano\n- o sistema deve validar a disponibilidade de recursos (limite de uploads) no banco de dados antes de processar novas análises\n```\n\n---\n\n# 14 — Permissões\n\nAqui estão as permissões divididas pelos perfis de usuário do sistema:\n\n```text\nvisitante (não autenticado)\n- visualizar landing page\n- visualizar tabela de planos\n- iniciar fluxo de chat (limitado ao onboarding de avaliação gratuita)\n\nusuário freemium\n- realizar até 2 uploads por mês\n- solicitar análise de campanha (core engine)\n- visualizar relatório executivo básico\n- avaliar resultados da IA\n\nusuário standard\n- realizar até 5 uploads por mês\n- acessar funcionalidades de audiência sintética\n- solicitar análise de campanha (core engine)\n- visualizar relatório executivo completo\n- avaliar resultados da IA\n\nusuário pro\n- realizar uploads ilimitados\n- solicitar análise de campanha (core engine)\n- acessar funcionalidades de audiência sintética\n- acessar templates avançados para redes sociais\n- avaliar resultados da IA\n\nusuário enterprise\n- realizar uploads ilimitados\n- solicitar análise de campanha (core engine)\n- acessar funcionalidades de audiência sintética\n- acessar histórico de feedbacks e contextos personalizados por empresa\n- realizar vinculação com APIs externas (Meta Ads/Pixel/Conversions API)\n- visualizar dashboard com métricas de negócio e previsibilidade\n```",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 622,
+      "parts": [{
+        "text": "Com base"
+      }, {
+        "text": " na análise técnica de toda a documentação fornecida (Arquitetura de Ag"
+      }, {
+        "text": "entes, Fluxos, Funcionalidades e Requisitos de Negócio), aqui estão as Regras do Sistema e a"
+      }, {
+        "text": " Matriz de Permissões estruturadas para o Ágora:\n\n---\n\n# 13 — Reg"
+      }, {
+        "text": "ras do Sistema\n\n```text\n- usuários possuem um plano de assinatura associado (Freemium, Standard, Pro ou Enterprise)\n-"
+      }, {
+        "text": " o plano determina o limite mensal de uploads de arquivos e o acesso a funcionalidades exclusivas\n- cada interação de análise do"
+      }, {
+        "text": " usuário é registrada como uma nova \"requisição\" (UserRequest)\n- o sistema utiliza uma arquitetura de multi"
+      }, {
+        "text": "-agentes para processar as análises, onde cada agente é especializado em um domínio (Sociocomportamental, Oferta"
+      }, {
+        "text": ", Performance)\n- uploads de arquivos (UserUpload) devem ser transcritos/processados para alimentar o contexto do Ag"
+      }, {
+        "text": "ente Orquestrador\n- o sistema gera uma resposta estruturada (AgentResponse) para cada etapa da análise, armazenada em JSONB"
+      }, {
+        "text": " para permitir reconstrução do fluxo\n- o Agente Sintetizador (Estrategista-Chefe) é o"
+      }, {
+        "text": " responsável por consolidar todas as respostas dos especialistas em um único relatório executivo e campanha otimizada\n- usuários podem avaliar"
+      }, {
+        "text": " o resultado gerado pela IA (Like/Deslike) após a entrega do relatório\n- integrações avançadas (API"
+      }, {
+        "text": " da Meta) são exclusivas para o plano Enterprise\n- usuários podem baixar materiais gerados (PDF, PPT, PNG"
+      }, {
+        "text": ", etc.) conforme os limites do plano\n- o sistema deve validar a disponibilidade de recursos (limite de uploads) no"
+      }, {
+        "text": " banco de dados antes de processar novas análises\n```\n\n---\n\n# 14 — Permissões\n\nAqui estão as"
+      }, {
+        "text": " permissões divididas pelos perfis de usuário do sistema:\n\n```text\nvisitante (não autenticado)\n- visualizar"
+      }, {
+        "text": " landing page\n- visualizar tabela de planos\n- iniciar fluxo de chat (limitado ao onboarding de avaliação gratuita)\n\nusu"
+      }, {
+        "text": "ário freemium\n- realizar até 2 uploads por mês\n- solicitar análise de campanha (core engine)\n- visualizar"
+      }, {
+        "text": " relatório executivo básico\n- avaliar resultados da IA\n\nusuário standard\n- realizar até 5 uploads por mês\n- acessar"
+      }, {
+        "text": " funcionalidades de audiência sintética\n- solicitar análise de campanha (core engine)\n- visualizar relatório executivo completo\n- avaliar resultados da IA"
+      }, {
+        "text": "\n\nusuário pro\n- realizar uploads ilimitados\n- solicitar análise de campanha (core engine)\n- acessar"
+      }, {
+        "text": " funcionalidades de audiência sintética\n- acessar templates avançados para redes sociais\n- avaliar resultados da IA\n\nusuário enterprise\n- realizar uploads"
+      }, {
+        "text": " ilimitados\n- solicitar análise de campanha (core engine)\n- acessar funcionalidades de audiência sintética\n-"
+      }, {
+        "text": " acessar histórico de feedbacks e contextos personalizados por empresa\n- realizar vinculação com APIs externas (Meta Ads/Pixel/Con"
+      }, {
+        "text": "versions API)\n- visualizar dashboard com métricas de negócio e previsibilidade\n```"
+      }, {
+        "text": "",
+        "thoughtSignature": "EjQKMgG+Pvb7GIcvq9IFZkZhSM/ZWKG3XQcea4RbUkryiJ8tt37+qFXKnKyCkaC+yNZQorYJ"
+      }],
+      "createTime": "2026-03-15T09:12:51.376Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

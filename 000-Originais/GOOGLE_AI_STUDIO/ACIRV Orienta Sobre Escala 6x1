@@ -1,0 +1,212 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.5-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_MEDIUM",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+    "text": "# 📘 Playbook: Como Construir um Release de Imprensa\n\n## 1. O Conceito (O que é e para que serve?)\n**O que é:** Um texto jornalístico informativo (não publicitário) enviado para a imprensa.\n**Objetivo:** Conquistar \"mídia espontânea\" (espaço editorial gratuito) em jornais, portais e blogs, ou ser utilizado por influenciadores. É a ponte entre o que acontece na sua empresa e o que vira notícia.\n\n---\n\n## 2. A Anatomia Perfeita de um Release\nPara que o jornalista aproveite seu texto, ele deve seguir uma estrutura padrão de pirâmide invertida (informação mais importante primeiro).\n\n### 🏗️ Estrutura Obrigatória\n1.  **Cabeçalho:** Local e Data (ex: *São Paulo, 21 de Novembro de 2024*).\n2.  **Título (Manchete):** Curto, direto e com verbo de ação. Deve ter valor de notícia.\n    *   *Ruim:* Nova atualização do software.\n    *   *Bom:* Empresa X lança tecnologia que reduz custos operacionais em 30%.\n3.  **Lead (1º Parágrafo):** O resumo de tudo. Deve responder aos **5 Ws**:\n    *   **Quem?** (A empresa/pessoa)\n    *   **O quê?** (O fato/novidade)\n    *   **Quando?** (Data do ocorrido/lançamento)\n    *   **Onde?** (Local)\n    *   **Por quê/Como?** (O motivo ou explicação breve)\n4.  **Corpo do Texto (Body):** Desenvolvimento da notícia. Aqui entram dados estatísticos, contexto de mercado e explicações técnicas (sem \"jargão\" difícil).\n5.  **Citação (Quote):** Uma frase aspeada de um porta-voz (CEO, Diretor ou Especialista). Isso humaniza o texto e dá opinião, algo que o jornalista adora usar para dar credibilidade.\n6.  **Serviço (Opcional, mas ideal para eventos):** Um bloco rápido com datas, horários, preços e locais.\n7.  **Boilerplate (Sobre a empresa):** Um parágrafo padrão no final que resume quem é a empresa (ex: *\"Fundada em 2010, a Empresa X é líder em...\"*).\n8.  **Contato de Imprensa:** Nome, e-mail e telefone do assessor responsável.\n\n---\n\n## 3. Passo a Passo de Execução\n\n### Fase 1: Planejamento\n*   **Defina a Pauta:** O que estou anunciando é *realmente* relevante para o público geral ou para um setor específico? (Lembre-se: Jornalista quer novidade, não propaganda).\n*   **Escolha o Tipo de Release:**\n    *   *Padrão/Institucional:* Lançamentos, fusões, novos executivos.\n    *   *De Evento:* Para convidar ou cobrir uma realização (focar no *timing*).\n    *   *Editorial/Artigo:* Opinião de um especialista sobre um tema quente no mercado.\n\n### Fase 2: Escrita (Mão na Massa)\n*   **Título:** Limite a cerca de 50-60 caracteres para não cortar no assunto do e-mail.\n*   **Tom de Voz:** Use a 3ª pessoa (\"A empresa lançou\" e não \"Nós lançamos\"). Seja objetivo. Evite adjetivos exagerados como \"incrível\", \"maravilhoso\", \"o melhor\".\n*   **SEO:** Se o objetivo for publicação em portais online, inclua palavras-chave estratégicas no título e no primeiro parágrafo.\n\n### Fase 3: Revisão\n*   **Checklist de Ouro:**\n    *   As datas e grafias de nomes estão corretas?\n    *   O link para o site/produto está funcionando?\n    *   Há imagens em alta resolução para acompanhar? (Jornalistas amam pautas que já vêm com foto pronta para publicar).\n\n---\n\n## 4. Melhores Práticas (Do\u0027s and Don\u0027ts)\n\n| ✅ O QUE FAZER | ❌ O QUE EVITAR |\n| :--- | :--- |\n| **Focar em dados:** Números e pesquisas dão credibilidade. | **Excesso de \"marketing\":** Release não é panfleto de vendas. |\n| **Facilitar a vida do jornalista:** Texto pronto para copiar e colar. | **Anexos pesados:** Nunca mande o release como anexo PDF. Cole o texto no corpo do e-mail. |\n| **Personalizar:** \"Oi [Nome do Jornalista], essa pauta é a cara da sua coluna\". | **Disparo em massa cego:** Mandar pauta de tecnologia para jornalista de esportes. |\n| **Timing:** Enviar com antecedência (para eventos) ou logo que o fato ocorre. | **Mentir ou exagerar:** Se perder a confiança do jornalista uma vez, perde para sempre. |\n\n---\n\n## 5. Estratégia de Distribuição (O \"Pulo do Gato\")\n\nDe nada adianta um texto perfeito se ele não chegar a quem publica.\n\n1.  **Segmentação de Mailing:** Crie listas específicas. Se o release é sobre Finanças, mande apenas para editores de Economia e Negócios.\n2.  **Assunto do E-mail:** É a sua única chance de ser aberto. Use o título do release ou uma variação atrativa dele.\n    *   *Dica:* Use colchetes para ajudar na identificação. Ex: `[Lançamento] Startup X recebe aporte de R$ 10mi`.\n3.  **O Corpo do E-mail:**\n    *   Cumprimente o jornalista.\n    *   Faça um \"pitch\" (resumo de 2 linhas) vendendo a pauta.\n    *   Cole o release completo logo abaixo.\n    *   Link para fotos/vídeos em uma pasta na nuvem (Drive/Dropbox).\n4.  **Follow-up:** Se não houver resposta em 24h-48h, vale um contato telefônico ou novo e-mail educado perguntando se ele recebeu o material.\n"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveImage": {
+        "id": "1i4Z--mFCgZloNDSiPc_9YiRSQ24-l-wJ"
+      },
+      "role": "user",
+      "tokenCount": 1041,
+      "createTime": "2026-07-07T19:55:33.761Z"
+    }, {
+      "driveImage": {
+        "id": "1WR3uOQ-zguByHNly3w7wxLktlRFaRshY"
+      },
+      "role": "user",
+      "tokenCount": 1086,
+      "createTime": "2026-07-07T19:55:33.761Z"
+    }, {
+      "text": "Crie um release com os dados das imagens e do texto abaixo:\n\nMudanças na legislação trabalhista exigem mais do que opinião: exigem preparo e análise de cenário.\n\nArraste para o lado, entenda os próximos passos da proposta e saiba como começar a preparar o seu negócio.\n\nInformação clara e antecipada protege e fortalece o #Empreendedorismo local. Seguimos orientando nossa rede para #ConectarParaCrescer.\n\nAqui, ninguém cresce isolado. A gente cresce conectado.",
+      "role": "user",
+      "tokenCount": 114,
+      "createTime": "2026-07-07T19:55:33.761Z"
+    }, {
+      "text": "**Defining the Core Task**\n\nI\u0027m now zeroing in on the fundamental task: crafting a compelling press release. I\u0027ve broken down the request, focusing on the goal (release de imprensa) and the provided resources, including an Instagram carousel from ACIRV. I\u0027m focusing on the composite of six slides in the carousel. My current priority is understanding the content and purpose of these images.\n\n\n**Analyzing the Slides\u0027 Content**\n\nI\u0027m now diving deep into each slide\u0027s message. Specifically, the slides from the carousel, highlighting the key points regarding labor changes. The aim is to fully grasp the information on how the proposed changes affect both employees and businesses. Understanding the current and potential future rules is critical to crafting an accurate and informative press release. I\u0027m focusing on the specifics of the current law versus the proposed changes, and the impact on scheduling, costs, and productivity.\n\n\n**Analyzing ACIRV\u0027s Proposal**\n\nI\u0027ve confirmed \"ACIRV\" as the Rio Verde business association and am now focused on their proposed shift from the \"Escala 6x1\" schedule. My objective is to determine the current status of this proposed modification.\n\n\n**Assessing Schedule Change Status**\n\nI\u0027m now zeroing in on the current status of the proposed shift away from the \"Escala 6x1,\" based on the provided images. The cover indicates \"Fim da escala 6x1\" (end of schedule), but the slides clarify that the change isn\u0027t yet in effect. The proposal is currently in the House of Deputies, and requires more steps to become law. It seems the proposed changes aim to reduce work hours and increase rest periods without salary cuts, if finally approved. I also understand that adaptation involves planning for scale reorganization and operational cost analysis.\n\n\n**Structuring Press Release Content**\n\nI am now focusing on structuring the press release. I have defined the header as \"Rio Verde (GO), July 2026\", and brainstormed several title options for the release. For the lead, I am drafting an introductory paragraph to succinctly cover the key points: who, what, when, where, and why of the ACIRV\u0027s orientation campaign regarding the possible end of the 6x1 schedule.\n\n\n**Outlining Body Text Elements**\n\nI\u0027m now outlining the body of the press release. I plan to explain the current work rules (44-hour workweek, 6x1 schedule with one day off) and contrast this with the proposed changes. The focus will be on the fact that the changes aren\u0027t yet in effect. I am including the ACIRV\u0027s considerations: scale reorganization, operational cost analysis, team review, productivity, and contract adjustments. Finally, I will compose a relevant quote from an ACIRV spokesperson.\n\n\n**Finalizing Press Release Details**\n\nI am now completing the press release content. I\u0027ve incorporated a quote from the ACIRV spokesperson emphasizing the need for clear, advance information to protect Rio Verde businesses. I\u0027ve also drafted a boilerplate paragraph about the ACIRV and added space for media contact information. Finally, I\u0027ve reviewed the \"Lead\" section, and updated the title to \"Fim da escala 6x1: ACIRV alerta setor produtivo de Rio Verde sobre a importância do planejamento preventivo\". I feel confident the press release is nearly ready.\n\n\n**Elaborating Impact Statements**\n\nI\u0027m now zeroing in on detailing the impact statements within the press release. I understand the proposals are currently with the Chamber of Deputies, prompting scenario analysis and strategic planning. I will clarify that the changes are not yet in effect, contrasting the current 44-hour workweek with the proposed reduction and increased rest periods. This transition necessitates rigorous planning by the companies.\n\n\n**Refining Contractual Adaptation**\n\nI\u0027m now detailing contract adaptations, administrative routine changes and productivity issues. I am including a quote from the ACIRV spokesperson about the need for preparation and a realistic economic analysis concerning labor law changes. I am also incorporating the ACIRV boilerplate, providing essential details about the association\u0027s role in the Rio Verde business ecosystem, which I hope clarifies their role in facilitating information about upcoming events. Finally, I\u0027ve left space for media contact information.\n\n\n",
+      "role": "model",
+      "tokenCount": 2397,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Core Task**\n\nI\u0027m now zeroing in on the fundamental task: crafting a compelling press release. I\u0027ve broken down the request, focusing on the goal (release de imprensa) and the provided resources, including an Instagram carousel from ACIRV. I\u0027m focusing on the composite of six slides in the carousel. My current priority is understanding the content and purpose of these images.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing the Slides\u0027 Content**\n\nI\u0027m now diving deep into each slide\u0027s message. Specifically, the slides from the carousel, highlighting the key points regarding labor changes. The aim is to fully grasp the information on how the proposed changes affect both employees and businesses. Understanding the current and potential future rules is critical to crafting an accurate and informative press release. I\u0027m focusing on the specifics of the current law versus the proposed changes, and the impact on scheduling, costs, and productivity.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing ACIRV\u0027s Proposal**\n\nI\u0027ve confirmed \"ACIRV\" as the Rio Verde business association and am now focused on their proposed shift from the \"Escala 6x1\" schedule. My objective is to determine the current status of this proposed modification.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Assessing Schedule Change Status**\n\nI\u0027m now zeroing in on the current status of the proposed shift away from the \"Escala 6x1,\" based on the provided images. The cover indicates \"Fim da escala 6x1\" (end of schedule), but the slides clarify that the change isn\u0027t yet in effect. The proposal is currently in the House of Deputies, and requires more steps to become law. It seems the proposed changes aim to reduce work hours and increase rest periods without salary cuts, if finally approved. I also understand that adaptation involves planning for scale reorganization and operational cost analysis.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring Press Release Content**\n\nI am now focusing on structuring the press release. I have defined the header as \"Rio Verde (GO), July 2026\", and brainstormed several title options for the release. For the lead, I am drafting an introductory paragraph to succinctly cover the key points: who, what, when, where, and why of the ACIRV\u0027s orientation campaign regarding the possible end of the 6x1 schedule.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Outlining Body Text Elements**\n\nI\u0027m now outlining the body of the press release. I plan to explain the current work rules (44-hour workweek, 6x1 schedule with one day off) and contrast this with the proposed changes. The focus will be on the fact that the changes aren\u0027t yet in effect. I am including the ACIRV\u0027s considerations: scale reorganization, operational cost analysis, team review, productivity, and contract adjustments. Finally, I will compose a relevant quote from an ACIRV spokesperson.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Finalizing Press Release Details**\n\nI am now completing the press release content. I\u0027ve incorporated a quote from the ACIRV spokesperson emphasizing the need for clear, advance information to protect Rio Verde businesses. I\u0027ve also drafted a boilerplate paragraph about the ACIRV and added space for media contact information. Finally, I\u0027ve reviewed the \"Lead\" section, and updated the title to \"Fim da escala 6x1: ACIRV alerta setor produtivo de Rio Verde sobre a importância do planejamento preventivo\". I feel confident the press release is nearly ready.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Elaborating Impact Statements**\n\nI\u0027m now zeroing in on detailing the impact statements within the press release. I understand the proposals are currently with the Chamber of Deputies, prompting scenario analysis and strategic planning. I will clarify that the changes are not yet in effect, contrasting the current 44-hour workweek with the proposed reduction and increased rest periods. This transition necessitates rigorous planning by the companies.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining Contractual Adaptation**\n\nI\u0027m now detailing contract adaptations, administrative routine changes and productivity issues. I am including a quote from the ACIRV spokesperson about the need for preparation and a realistic economic analysis concerning labor law changes. I am also incorporating the ACIRV boilerplate, providing essential details about the association\u0027s role in the Rio Verde business ecosystem, which I hope clarifies their role in facilitating information about upcoming events. Finally, I\u0027ve left space for media contact information.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-07-07T19:55:33.761Z"
+    }, {
+      "text": "**Sugestão de Release de Imprensa**\n\n---\n\n### **Fim da escala 6x1: ACIRV orienta setor produtivo de Rio Verde sobre planejamento e possíveis mudanças trabalhistas**\n\n**RIO VERDE (GO)** – A Associação Comercial, Industrial e Serviços de Rio Verde (ACIRV) iniciou um trabalho de orientação informativa voltado ao setor empresarial local a respeito das discussões sobre o fim da escala de trabalho 6x1. A iniciativa busca conscientizar o setor produtivo sobre a importância do planejamento e da análise preventiva de cenários diante de possíveis alterações na legislação trabalhista.\n\nAtualmente, a proposta de redução da jornada de trabalho avança na Câmara dos Deputados, mas ainda precisa passar por novas etapas de votação antes de virar lei. A ACIRV ressalta que, até que haja uma aprovação definitiva, as regras atuais continuam em vigor. Pela legislação vigente, é permitida a jornada de até 44 horas semanais e a escala de seis dias trabalhados por um de descanso, respeitando-se os direitos já previstos.\n\nA proposta em debate visa instituir a redução da jornada semanal de trabalho, o estabelecimento de limites de dias trabalhados consecutivos e a ampliação do período de descanso para o trabalhador, sem que haja redução salarial. \n\nSegundo a entidade, caso a medida seja aprovada definitivamente, as empresas deverão se preparar para readequações operacionais e financeiras importantes. O planejamento preventivo sugerido envolve:\n* Reorganização de escalas de trabalho;\n* Análise detalhada dos custos operacionais;\n* Revisão do tamanho das equipes e foco em produtividade;\n* Adaptação de contratos de trabalho e alteração de rotinas internas.\n\n**Citação do Porta-voz:**\n\u003e \"Mudanças na legislação trabalhista exigem mais do que opinião: exigem preparo prático e uma análise realista de cenário. A informação clara e antecipada é uma ferramenta essencial para proteger e fortalecer o empreendedorismo local\", afirma a diretoria da ACIRV. \"Seguimos com o compromisso de orientar nossa rede com a premissa de que ninguém cresce isolado. Nós crescemos conectados.\"\n\n---\n\n#### **Sobre a ACIRV**\nA Associação Comercial, Industrial e Serviços de Rio Verde (ACIRV) é uma entidade de representação empresarial que atua no fortalecimento do ecossistema de negócios em Rio Verde, Goiás. A associação promove serviços de apoio, networking, capacitação e defesa dos interesses das classes comerciais e industriais da região.\n\n#### **Contato de Imprensa:**\n* **Responsável:** [Nome do Assessor / Assessoria]\n* **E-mail:** [E-mail de contato, ex: imprensa@acirv.com.br]\n* **Telefone:** (64) 3620-0199 / [Telefone celular]",
+      "role": "model",
+      "grounding": {
+        "corroborationSegments": [{
+          "index": 409,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHzIJ_qvGssEfz5KDO6uCseX4pSlqDjsUcELrWOvWF2Ni7cobS9TVDTSFlESVLedBi-Fb4ccITAPoGj8-yPatyAnCjFrUDeNKsVG50YS3FzPyWaDdKU-FdNUNH9Spg8n91IpPp7uSSMHT61GDG8Tier4WAWkjQmaGIRQ522MIZUUqtKq9Tz4XUVzyFUqiRQQvT1E5RhI_6VKlZ_hCiI",
+          "footnoteNumber": 1
+        }, {
+          "index": 2008,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGC7hMb05uMIlDf3rb1699i-OHnc6QlxyuDv33I6lPG72TgqggMQZXEqh5ZSlgl3ktezLdlPMqhirLl_dSP8538orx6VceLXcTki4KZOMzEzQ%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 2357,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHx7zjrxUkfUnYR1HodiTeaFhowCXLfbPUdQVDfe0LGwOZKBrIu9kCrJvfrB-QpTgs8cquFXI8SzKijkacvzelOs75-Yx7x0_hqQPSu2uAqmREzCqa2JG08NvqyMtIGGgM4mx2nRFFJ-5HfxP8EsFqUUvsz40oBDuvzZBV9Nm1DYGVtzBadxxWtmEzM4rT4WBLpajonyJaQ5rvpTm6h",
+          "footnoteNumber": 3
+        }, {
+          "index": 2499,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGnuJKpYDI0QbNI5l2vCITmWfdJsv32oROGJcOR5JAxHV96g4pRrih6fijUDg4cUprVn-dOpXSZUY1x5oASzrSfL3OcQWfteyp38WIm_Gs%3D",
+          "footnoteNumber": 4
+        }, {
+          "index": 2499,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFvtf80Ex6JepDhJNRs5lrlklShG7rrh9VC5j1HH-JJNKAHs_Rr1LR49FYpuaCyPF8ITyyN1yQSDLELlmdlxHji-DMet8DSqcvfI86p5N6QXXoiyVh1zw7ISbKNbNjXZeIxHsVoxCdI0mJh6-mtIKFVy4DLfiz3iOpb",
+          "footnoteNumber": 5
+        }, {
+          "index": 2675,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEAJCtjOT2cyzzcixs5H7NDajInhUk2y3grgcLU1NJ9lGVvHI5BVzZ-2OaYncryiV-BB5SrF8wyqkVh9nz-BwrTPqbFl9ijhbD6BJDcjBeZLGsgjwHQLm7LMdfr1KCckcsmcudU1lSKc7MJHoGcMWj4gwA%3D",
+          "footnoteNumber": 6
+        }],
+        "webSearchQueries": ["ACIRV", "ACIRV Rio Verde"],
+        "groundingSources": [{
+          "referenceNumber": 1,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHzIJ_qvGssEfz5KDO6uCseX4pSlqDjsUcELrWOvWF2Ni7cobS9TVDTSFlESVLedBi-Fb4ccITAPoGj8-yPatyAnCjFrUDeNKsVG50YS3FzPyWaDdKU-FdNUNH9Spg8n91IpPp7uSSMHT61GDG8Tier4WAWkjQmaGIRQ522MIZUUqtKq9Tz4XUVzyFUqiRQQvT1E5RhI_6VKlZ_hCiI",
+          "title": "transmissaopolitica.com.br"
+        }, {
+          "referenceNumber": 2,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGC7hMb05uMIlDf3rb1699i-OHnc6QlxyuDv33I6lPG72TgqggMQZXEqh5ZSlgl3ktezLdlPMqhirLl_dSP8538orx6VceLXcTki4KZOMzEzQ%3D%3D",
+          "title": "acirvmulher.com.br"
+        }, {
+          "referenceNumber": 3,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHx7zjrxUkfUnYR1HodiTeaFhowCXLfbPUdQVDfe0LGwOZKBrIu9kCrJvfrB-QpTgs8cquFXI8SzKijkacvzelOs75-Yx7x0_hqQPSu2uAqmREzCqa2JG08NvqyMtIGGgM4mx2nRFFJ-5HfxP8EsFqUUvsz40oBDuvzZBV9Nm1DYGVtzBadxxWtmEzM4rT4WBLpajonyJaQ5rvpTm6h",
+          "title": "rioverde.go.gov.br"
+        }, {
+          "referenceNumber": 4,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGnuJKpYDI0QbNI5l2vCITmWfdJsv32oROGJcOR5JAxHV96g4pRrih6fijUDg4cUprVn-dOpXSZUY1x5oASzrSfL3OcQWfteyp38WIm_Gs%3D",
+          "title": "acirv.com.br"
+        }, {
+          "referenceNumber": 5,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFvtf80Ex6JepDhJNRs5lrlklShG7rrh9VC5j1HH-JJNKAHs_Rr1LR49FYpuaCyPF8ITyyN1yQSDLELlmdlxHji-DMet8DSqcvfI86p5N6QXXoiyVh1zw7ISbKNbNjXZeIxHsVoxCdI0mJh6-mtIKFVy4DLfiz3iOpb",
+          "title": "sympla.com.br"
+        }, {
+          "referenceNumber": 6,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEAJCtjOT2cyzzcixs5H7NDajInhUk2y3grgcLU1NJ9lGVvHI5BVzZ-2OaYncryiV-BB5SrF8wyqkVh9nz-BwrTPqbFl9ijhbD6BJDcjBeZLGsgjwHQLm7LMdfr1KCckcsmcudU1lSKc7MJHoGcMWj4gwA%3D",
+          "title": "acherapido.net"
+        }]
+      },
+      "finishReason": "STOP",
+      "tokenCount": 654,
+      "parts": [{
+        "text": "**Sugestão de Release de"
+      }, {
+        "text": " Imprensa**\n\n---\n\n### **Fim da escala 6x1: ACIRV orienta setor produtivo de Rio"
+      }, {
+        "text": " Verde sobre planejamento e possíveis mudanças trabalhistas**\n\n**RIO VERDE (GO)** – A Associação Comercial, Industrial e Serviços de Rio Verde ("
+      }, {
+        "text": "ACIRV) iniciou um trabalho de orientação informativa voltado ao setor empresarial local a respeito das discussões sobre o fim"
+      }, {
+        "text": " da escala de trabalho 6x1. A iniciativa busca conscientizar o setor produtivo sobre a importância do"
+      }, {
+        "text": " planejamento e da análise preventiva de cenários diante de possíveis alterações na legislação trabalhista.\n\nAtualmente, a proposta de"
+      }, {
+        "text": " redução da jornada de trabalho avança na Câmara dos Deputados, mas ainda precisa passar por novas etapas de votação antes de"
+      }, {
+        "text": " virar lei. A ACIRV ressalta que, até que haja uma aprovação definitiva, as regras atuais continuam em vigor"
+      }, {
+        "text": ". Pela legislação vigente, é permitida a jornada de até 44 horas semanais e a escala de seis"
+      }, {
+        "text": " dias trabalhados por um de descanso, respeitando-se os direitos já previstos.\n\nA proposta em debate visa"
+      }, {
+        "text": " instituir a redução da jornada semanal de trabalho, o estabelecimento de limites de dias trabalhados consecutivos e a ampliação do período de descanso"
+      }, {
+        "text": " para o trabalhador, sem que haja redução salarial. \n\nSegundo a entidade, caso a medida seja aprovada definitivamente, as"
+      }, {
+        "text": " empresas deverão se preparar para readequações operacionais e financeiras importantes. O planejamento preventivo sugerido envolve:\n"
+      }, {
+        "text": "* Reorganização de escalas de trabalho;\n* Análise detalhada dos custos operacionais;\n* Revisão do tamanho"
+      }, {
+        "text": " das equipes e foco em produtividade;\n* Adaptação de contratos de trabalho e alteração de rotinas internas"
+      }, {
+        "text": ".\n\n**Citação do Porta-voz:**\n\u003e \"Mudanças na legislação trabalhista exigem mais do que"
+      }, {
+        "text": " opinião: exigem preparo prático e uma análise realista de cenário. A informação clara e antecipada é uma ferramenta essencial"
+      }, {
+        "text": " para proteger e fortalecer o empreendedorismo local\", afirma a diretoria da ACIRV"
+      }, {
+        "text": ". \"Seguimos com o compromisso de orientar nossa rede com a premissa de que ninguém cresce isolado. Nós"
+      }, {
+        "text": " crescemos conectados.\"\n\n---\n\n#### **Sobre a ACIRV**\nA Associação Comercial, Industrial e Serviços de Rio Verde (ACIR"
+      }, {
+        "text": "V) é uma entidade de representação empresarial que atua no fortalecimento do ecossistema de negócios em Rio Verde, Goiás"
+      }, {
+        "text": ". A associação promove serviços de apoio, networking, capacitação e defesa dos interesses das classes comerciais e industriais da"
+      }, {
+        "text": " região.\n\n#### **Contato de Imprensa:**\n* **"
+      }, {
+        "text": "Responsável:** [Nome do Assessor / Assessoria]\n* **E-mail:**"
+      }, {
+        "text": " [E-mail de contato, ex: imprensa@acirv.com.br]\n* **Telefone:** (64) 3"
+      }, {
+        "text": "620-0199 / [Telefone celular]"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-07-07T19:55:58.101Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

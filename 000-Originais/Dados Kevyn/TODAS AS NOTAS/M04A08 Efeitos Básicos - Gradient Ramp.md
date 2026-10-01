@@ -1,0 +1,1 @@
+Gradient Ramp é uma sobreposição de degradê, basicamente.

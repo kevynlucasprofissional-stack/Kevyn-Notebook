@@ -1,0 +1,1 @@
+Ele tem um navegador de mídia bem bom, que consegue navegar pelos arquivos do computador e até escolher qual composição ou sequência do AE/PR será renderizado.

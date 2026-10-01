@@ -1,0 +1,1 @@
+O Burst é uma ferramenta que cria um animação rápida flat de explosão.

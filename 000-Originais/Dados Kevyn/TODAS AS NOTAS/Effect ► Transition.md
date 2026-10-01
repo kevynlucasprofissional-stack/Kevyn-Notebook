@@ -1,0 +1,1 @@
+É um pacote de transições nativas do After Effects, são bem básicas.

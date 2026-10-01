@@ -1,0 +1,1 @@
+É um software coringa usado para diversos tipos de manipulação em arquivos. HandBreak é bem útil para normalizar FPS e diminuir tamanho de vídeos.

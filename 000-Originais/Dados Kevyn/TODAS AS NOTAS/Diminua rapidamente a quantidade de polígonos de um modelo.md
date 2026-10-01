@@ -1,0 +1,1 @@
+Abra pelo Commander o Volume Bullder, o Volume Mesher e o Remesh. Coloque o modelo dentro do Volume Bullder, e depois coloque o Volume Bullder (Com o Modelo) dentro do Volume Mesher, e por fim arraste este grupo para dentro do Remesh. Ajuste as propriedades de cada um destes modificadores até chegar a um resultado satisfatório.

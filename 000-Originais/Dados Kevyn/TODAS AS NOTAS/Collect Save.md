@@ -1,0 +1,3 @@
+É tipo o empacotamento do illustrator. Ele salva o arquivo junto de todos os materiais externos usados no projeto.
+Basta clicar em "Save Project with assets..." no menu "File" e escolher o lugar onde o C4D irá salvar uma cópia do projeto e uma pasta com todos os assets do projeto.
+Assim você pode zipar a pasta com o collect e transportar sem o risco de dar algum erro de sincronização ou perda de arquivos mais tarde. 

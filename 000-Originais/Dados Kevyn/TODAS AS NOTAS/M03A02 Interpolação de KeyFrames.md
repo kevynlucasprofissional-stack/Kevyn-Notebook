@@ -1,0 +1,1 @@
+Explicação da diferença entre os frames chaves (KeyFrames) e frames de interpolação (Interpolation Frames). Um são os pontos chaves de movimento e o outro é a transição entre esses pontos chaves.

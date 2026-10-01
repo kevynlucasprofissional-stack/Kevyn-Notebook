@@ -1,0 +1,178 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-flash-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveAudio": {
+        "id": "1bMMTNdXuKf9L2ugrQHeuTLU-y2-iF83V"
+      },
+      "role": "user",
+      "tokenCount": 1386,
+      "createTime": "2026-03-25T19:03:07.660Z"
+    }, {
+      "driveAudio": {
+        "id": "1Gf7YKH7ThfEL5Ww5exdHhkRfqw4_H679"
+      },
+      "role": "user",
+      "tokenCount": 1134,
+      "createTime": "2026-03-25T19:03:07.660Z"
+    }, {
+      "driveAudio": {
+        "id": "1ZKU3PSxnXZOSr8W8My5lOmnUvQO6Etgz"
+      },
+      "role": "user",
+      "tokenCount": 2432,
+      "createTime": "2026-03-25T19:03:07.660Z"
+    }, {
+      "text": "Cria um manual, uma lista de tarefas para fazer isso que ele está pedindo nos audios.",
+      "role": "user",
+      "tokenCount": 22,
+      "createTime": "2026-03-25T19:03:07.660Z"
+    }, {
+      "text": "**Initiating Active Communication**\n\nI\u0027m now focusing on a plan to actively communicate with associates. My idea involves leveraging a Chrome extension, perhaps \"Wapook\" or something comparable like \"Booksender,\" to send bulk messages. I\u0027m aiming to integrate this with a Customer Relationship Management (CRM) or Customer Success approach, and data collection will be critical for assessing impact.\n\n\n**Refining Data Collection**\n\nI\u0027m now refining the data collection approach. I\u0027ve realized Google Forms has limitations with editing responses, so a manual clean-up process will be needed. The process is now clarified: associates sign up on a Google Form, choosing their interests. I\u0027ll filter the list, grab the numbers, and then send the message with a Chrome extension like Wapook, aiming for efficiency over broadcast lists.\n\n\n**Structuring the Action Plan**\n\nI\u0027ve broken down the project into distinct phases: Setup, Data Capture, and Spreadsheet Logic. Phase 1 focuses on installing a Chrome extension (like Wapook or Booksender) and setting up a dedicated computer. Phase 2 involves creating a Google Form to gather associate data, including their names, company, and interests. I need to be sure to make the WhatsApp number mandatory.\n\n\n",
+      "role": "model",
+      "tokenCount": 759,
+      "isThought": true,
+      "parts": [{
+        "text": "**Initiating Active Communication**\n\nI\u0027m now focusing on a plan to actively communicate with associates. My idea involves leveraging a Chrome extension, perhaps \"Wapook\" or something comparable like \"Booksender,\" to send bulk messages. I\u0027m aiming to integrate this with a Customer Relationship Management (CRM) or Customer Success approach, and data collection will be critical for assessing impact.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining Data Collection**\n\nI\u0027m now refining the data collection approach. I\u0027ve realized Google Forms has limitations with editing responses, so a manual clean-up process will be needed. The process is now clarified: associates sign up on a Google Form, choosing their interests. I\u0027ll filter the list, grab the numbers, and then send the message with a Chrome extension like Wapook, aiming for efficiency over broadcast lists.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Action Plan**\n\nI\u0027ve broken down the project into distinct phases: Setup, Data Capture, and Spreadsheet Logic. Phase 1 focuses on installing a Chrome extension (like Wapook or Booksender) and setting up a dedicated computer. Phase 2 involves creating a Google Form to gather associate data, including their names, company, and interests. I need to be sure to make the WhatsApp number mandatory.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-03-25T19:03:07.660Z"
+    }, {
+      "text": "Com base nos áudios, o objetivo é criar um sistema de comunicação ativa e segmentada com os associados, utilizando o WhatsApp para disparos em massa personalizados, integrando Google Forms, Planilhas e uma extensão de Chrome (como o **Wapook** ou **Booksender**).\n\nAqui está o manual prático e a lista de tarefas para implementar essa estratégia:\n\n---\n\n# 📘 Manual de Comunicação Ativa e Disparo Segmentado\n\n## 🎯 Objetivo\nSubstituir as listas de transmissão manuais por um sistema de disparo em massa baseado nos interesses específicos de cada associado (Indústria, Comércio, Serviços, Eventos, etc.), garantindo que a base de dados esteja sempre atualizada.\n\n---\n\n## 🛠 Ferramentas Necessárias\n1.  **Google Forms:** Para coleta de dados e interesses.\n2.  **Google Sheets (Planilhas):** Para gestão da base e filtragem.\n3.  **Extensão Chrome (Wapook / Booksender):** Para o envio automatizado.\n4.  **WhatsApp Web:** Conectado em um computador dedicado (ex: Maria Eduarda ou Kevin).\n\n---\n\n## 📋 Lista de Tarefas (Checklist)\n\n### Fase 1: Infraestrutura e Ferramentas\n*   [ ] **Instalação:** Instalar a extensão de disparo em massa (Wapook ou similar) no Chrome do computador que será usado para os envios.\n*   [ ] **Conexão:** Validar o acesso ao WhatsApp Web da conta geral no computador escolhido.\n\n### Fase 2: Criação do Formulário de Cadastro (Google Forms)\n*   [ ] **Criar Campos Obrigatórios:** Nome, Empresa, Cargo e WhatsApp (com DDD).\n*   [ ] **Criar Campo de Interesses (Múltipla Escolha):** Adicionar as opções:\n    *   Indústria\n    *   Comércio\n    *   Serviços\n    *   Pequeno/Médio Porte\n    *   Eventos ADOSOM\n    *   Outros.\n*   [ ] **Configurar Respostas:** Ativar a opção de \"Gerar Planilha de Respostas\".\n\n### Fase 3: Gestão da Base de Dados (Google Sheets)\n*   [ ] **Tratamento de Duplicidade:** Criar uma regra ou script simples para que, quando um associado preencher o formulário novamente (após meses), a resposta antiga seja ocultada ou deletada, mantendo apenas a mais recente (conforme sugerido no áudio).\n*   [ ] **Filtros de Segmentação:** Criar abas ou filtros rápidos na planilha para selecionar contatos por \"Interesse\".\n\n### Fase 4: Estratégia de \"Hacking\" e Expansão (Customer Success)\n*   [ ] **Mapeamento de Lacunas:** Identificar empresas na lista (como o exemplo da PAES) que possuem apenas um contato cadastrado.\n*   [ ] **Ação Ativa:** Entrar em contato com essas empresas para solicitar o WhatsApp de outros gestores que possam ter interesses diferentes dentro da mesma organização.\n\n### Fase 5: Operação de Disparo (Fluxo de Trabalho)\n*   [ ] **Definição da Pauta:** Escolher o assunto (ex: Um evento de Indústria).\n*   [ ] **Filtragem:** Na planilha, filtrar apenas os contatos que marcaram o interesse \"Indústria\".\n*   [ ] **Extração:** Copiar a lista de números filtrados.\n*   [ ] **Disparo:** Colar os números na extensão (Wapook/Booksender), redigir a mensagem e iniciar o envio.\n\n---\n\n## 💡 Recomendações Importantes\n\n1.  **Convite ao Cadastro:** Enviar uma mensagem inicial para todos os associados atuais explicando que, para receberem apenas conteúdos de seu interesse, eles precisam preencher o novo formulário de preferências.\n2.  **Periodicidade de Limpeza:** A cada 3 meses, revisar a planilha para remover números que não existem mais ou atualizar cargos.\n3.  **Humanização:** Mesmo sendo um disparo em massa, tente usar variáveis (como o nome do associado) se a ferramenta permitir, para evitar que o WhatsApp bloqueie o número por SPAM.\n4.  **Gestão de Respostas:** Definir quem será o responsável por responder os associados que interagirem após o disparo em massa.\n\n---\n\n**Quem deve fazer o quê?**\n*   **Kevin/Maria Eduarda:** Configuração técnica e operação do computador de envio.\n*   **Customer Success (Gestão de Associados):** Análise da planilha, busca por novos contatos em empresas sub-representadas e definição dos temas de cada disparo.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1026,
+      "parts": [{
+        "text": "Com base nos áudios, o objetivo é criar um sistema de comunicação ativa e segmentada com"
+      }, {
+        "text": " os associados, utilizando o WhatsApp para disparos em massa personalizados, integrando Google Forms, Planilhas e uma"
+      }, {
+        "text": " extensão de Chrome (como o **Wapook** ou **Booksender**).\n\nAqui está o manual prático e a"
+      }, {
+        "text": " lista de tarefas para implementar essa estratégia:\n\n---\n\n# 📘 Manual de Comunicação Ativa e Disparo Segment"
+      }, {
+        "text": "ado\n\n## 🎯 Objetivo\nSubstituir as listas de transmissão manuais por um sistema de disparo em massa baseado"
+      }, {
+        "text": " nos interesses específicos de cada associado (Indústria, Comércio, Serviços, Eventos, etc.), garantindo que a"
+      }, {
+        "text": " base de dados esteja sempre atualizada.\n\n---\n\n## 🛠 Ferramentas Necessárias\n1.  **"
+      }, {
+        "text": "Google Forms:** Para coleta de dados e interesses.\n2.  **Google Sheets (Planilhas):** Para"
+      }, {
+        "text": " gestão da base e filtragem.\n3.  **Extensão Chrome (Wapook / Booksender):**"
+      }, {
+        "text": " Para o envio automatizado.\n4.  **WhatsApp Web:** Conectado em um computador dedicado (ex: Maria"
+      }, {
+        "text": " Eduarda ou Kevin).\n\n---\n\n## 📋 Lista de Tarefas (Checklist)\n\n### Fase 1"
+      }, {
+        "text": ": Infraestrutura e Ferramentas\n*   [ ] **Instalação:** Instalar a extensão de disparo em massa ("
+      }, {
+        "text": "Wapook ou similar) no Chrome do computador que será usado para os envios.\n*   [ ] **Con"
+      }, {
+        "text": "exão:** Validar o acesso ao WhatsApp Web da conta geral no computador escolhido.\n\n### Fase 2:"
+      }, {
+        "text": " Criação do Formulário de Cadastro (Google Forms)\n*   [ ] **Criar Campos Obrigatórios:** Nome,"
+      }, {
+        "text": " Empresa, Cargo e WhatsApp (com DDD).\n*   [ ] **Criar Campo de Interesses (Múlti"
+      }, {
+        "text": "pla Escolha):** Adicionar as opções:\n    *   Indústria\n    *   Comércio\n    "
+      }, {
+        "text": "*   Serviços\n    *   Pequeno/Médio Porte\n    *   Eventos ADOS"
+      }, {
+        "text": "OM\n    *   Outros.\n*   [ ] **Configurar Respostas:** Ativar a opção de"
+      }, {
+        "text": " \"Gerar Planilha de Respostas\".\n\n### Fase 3: Gestão da Base de Dados (Google Sheets)\n"
+      }, {
+        "text": "*   [ ] **Tratamento de Duplicidade:** Criar uma regra ou script simples para que, quando"
+      }, {
+        "text": " um associado preencher o formulário novamente (após meses), a resposta antiga seja ocultada ou deletada, mantendo"
+      }, {
+        "text": " apenas a mais recente (conforme sugerido no áudio).\n*   [ ] **Filtros de Segment"
+      }, {
+        "text": "ação:** Criar abas ou filtros rápidos na planilha para selecionar contatos por \"Interesse\".\n\n### Fase "
+      }, {
+        "text": "4: Estratégia de \"Hacking\" e Expansão (Customer Success)\n*   [ ] **"
+      }, {
+        "text": "Mapeamento de Lacunas:** Identificar empresas na lista (como o exemplo da PAES) que possuem apenas um contato cadast"
+      }, {
+        "text": "rado.\n*   [ ] **Ação Ativa:** Entrar em contato com essas empresas para solicitar o WhatsApp de outros"
+      }, {
+        "text": " gestores que possam ter interesses diferentes dentro da mesma organização.\n\n### Fase 5: Operação de Disparo ("
+      }, {
+        "text": "Fluxo de Trabalho)\n*   [ ] **Definição da Pauta:** Escolher o assunto (ex: Um"
+      }, {
+        "text": " evento de Indústria).\n*   [ ] **Filtragem:** Na planilha, filtrar apenas os contatos que marcar"
+      }, {
+        "text": "am o interesse \"Indústria\".\n*   [ ] **Extração:** Copiar a lista de números filtrados"
+      }, {
+        "text": ".\n*   [ ] **Disparo:** Colar os números na extensão (Wapook/Booksender),"
+      }, {
+        "text": " redigir a mensagem e iniciar o envio.\n\n---\n\n## 💡 Recomendações Importantes\n\n1."
+      }, {
+        "text": "  **Convite ao Cadastro:** Enviar uma mensagem inicial para todos os associados atuais explicando que, para receberem apenas conteúdos"
+      }, {
+        "text": " de seu interesse, eles precisam preencher o novo formulário de preferências.\n2.  **Periodicidade de Limpeza:** A"
+      }, {
+        "text": " cada 3 meses, revisar a planilha para remover números que não existem mais ou atualizar cargos.\n3.  **Humanização"
+      }, {
+        "text": ":** Mesmo sendo um disparo em massa, tente usar variáveis (como o nome do associado) se a ferramenta permitir,"
+      }, {
+        "text": " para evitar que o WhatsApp bloqueie o número por SPAM.\n4.  **Gestão de Respostas:** Defin"
+      }, {
+        "text": "ir quem será o responsável por responder os associados que interagirem após o disparo em massa.\n\n---\n\n**Quem"
+      }, {
+        "text": " deve fazer o quê?**\n*   **Kevin/Maria Eduarda:** Configuração técnica e operação do computador de"
+      }, {
+        "text": " envio.\n*   **Customer Success (Gestão de Associados):** Análise da planilha, busca por novos cont"
+      }, {
+        "text": "atos em empresas sub-representadas e definição dos temas de cada disparo."
+      }, {
+        "text": "",
+        "thoughtSignature": "EukdCuYdAb4+9vvvTKPMy2CWoxdmePGtDav0MBcriPdIW8ICUPBywy6ujcEcKUNy4BeH8z5S4USxHuDD3bEOFklZs6QH4lNsdBzYo4cJIigLJoge6xvHzZ3s0/pSCS+y59eVkD8rT50yKT0z+4P2a0KnsrpIGRdreFXULGPeZ2i3TOcVnIPq3qV62awBn/t8F9mTZ5dxk5QsmDDX2u07pRsre70dzRTmbULscJdzF/0ap7RxWRJ6a3HVFqudKXcbkBZ5DV5JWrqSsjqtWNitTxYrHA/8djhcQatNeVsxn46wFxxkq/8CPc3ZaoKmBFGakANNuuZ3Bhcabkt/PKR1TUj6uVYwpoMueSefxHWtNeqW894kGzOY3rWlkxrvdr2uwG6gCYAjtGAUMSvfTfeC87Z2sELRTRZwFFAo+TUqO4AIyXY17C2msHpHReDFKM0CrPR9zgSlXJl9bIrUrMj3jc3gMSZm9o1ZA7a66yp9qZnz1AezRQaPIYgtMVkD1LYbrAnqlGJskjmvELDJbeYoE7n1wd12PQmegDmeSSK32kdY6Kbsq8xmvDp8SyOQqHXn2DaFNsHrz+8taCsneZtf14w+3L26eUp9diO6ksG584wCNpMMJL2jfMZrMP/hSONUH2x94aW07q9BSBnOk/kWW9UJ7tvoDV2PwvjOpMa7CDr+mLYY0YsuEARbx8R6deM/OzcPvfsm+YKYzw/bOIwBQZUGPdFxwayRryrmEKTQJXyTvQMax8U1Ggn5CMqq6f1p8Gd7sZwJwB9QrgmpYnP+K8rHnkuKegu1/uhc0lowUD50CsVfa38q2B8qJFc7uEgy6jlOWKA0PGN5gN6PwuB6r/Sidktrwrt8v6YAKCbSAD1ZKM2z4Is2a7XhZVaNyuETFUNGyYnN9RR3Gf8GyuLQeZkcbM9VAu7ymDzlatIXupfnDjoMjLnTSedhG5i5W3srFJ9pTMUmHq4wy8L2e9ufnrBKum9BGZrXVa5tOvPaQhfQQu5+HNc+U98OILwQ5lJ+0fVnTt7lrWzU9Ir0XZLIyuVxkCleerF79FhF2FrHB0rJc6qKJKwZ5S2soyNSjFHZxjkX0P97/vnhqin6EWsMjolTeCLk3cQOJS2enuwsZD+9f392LT0mMixfkXutXj0Bs/nzTZQCCWskrlEpgo7pZOUNPDOnNuLUFC/N5AmJWbm5WlWbck3pAMIe4j6DxsNKKPRSCHIelLoDtdR2qV6pH/Nu1xWXUGFvvHD3w3OHoG9gcMjtefOajI2j51MLqRcLI/k9/WAdqDq57bQIx4sHZLcCvDBISH3zSHrpu93g/0FczpJEB+1gp0QTBX71MHaJR7BdqhhyvQCx1YkJTudAzdVlnPbT10tUKB+YC5NOdQElqC7EiMM8WMv99mpjMuMNMXhYep2kZaa9IUcUYjuK1yzDkA2qcZ3EKxk2BSCmNC+HDPE/ROjx4jZtjnbXaMaurrLu9w+OGI4MXmKi4FjAtLhvQFJP4xNVHxD4BPXVvRPb8xw5QoV28mZEGgfWhSXJwsihWIHWf8RKNVWZffaIl7UwlTKiG9GBaeUGVSS5mQDzfD42slKERAgqHgypQQLDW7F6Ey3ejv/7UGCZ81DwYIck2e32HXWXnSkmDyhmJxajCB41BO2F53m6CAFlLaKubJh2GUH4JFIz3cOwGzS9713lVRGRSeyKHJqdQmZypOzj3J93wGOE7mkdUcON1ol1bRowAKpLZNCbC36QRg31/cAtMcmoD+deIndjTsF4Z/7bO8Y5MJjTz4CfGuzy0Up6KghNayXMMQWMTgh64+9Aw32nnHY93Y0/aKtmwCJAaykCwk2TZIFOpYALmGJRP+LKTNh6VtuOt9aMrYxI0sRIO1NeMn5izGRJhSMbp0Vt603gElnTBPpMvA+H8LkkQ/WBFst+exnZRu78skTp4eFu8+eiyofxnXjpPa1YTi1WC7QMmQLeeVnrJl7YC0/77nkfn8W/Aww6SLOdSE/iKejtoHyzqcS5hHMx+4mjPYfme35kcFyWtCfjkWEWetqPwe3RW8IRDaSAapaSoIV89a4PP4vNqEdCh5MJBjh4chSa6dceDIEsSbUcSZf73Pcqtv77gj+hs0ehnsk7s2bcWGysvz+zw/0q50lAeZ0WMNqDVv57o0ZvbEHwmqN86NqiUhaZf/ugHw02GegIOzOCWeUsSVhD4DghuBkvbo7o9U7ep4EMJ08SoTU1nYO6oAlEbiM6/Oqt+DiCNiXtqFuBDZbFcQLux93GyzFe3EVhIEbJT4IjMemoJ9662eutNppr64eSKZ8SxCh8xS/pDBlotWeD0kqJ/cJuuMOoW1BHz5LNso8RfOUGP9bVNysiuw3eoOeyCGFWcVQmVXV3Mp7rLvbvvfAVaihxwZAgvb5hEqXePVkrKEYXhrzyTPZYRSFQPOVJdmaRdp0dzHSQ12XVjTf+ix/sWi7mlr8w4hJ7EM5J4N/Bmc1XAwJ0jCnHKCaj0j/UZp+XdnqShKvGFJF3ChCPLlFU2ShOiufaGNv5I1M/tBLE7kFGk4QvemOTQvcjw0WarYj2q2wGe+h9lxjOFG5rrGUQKfm8dMm5mZ9SB2RcIp2ZfhSPndLHsv9Z+z6NHzkuRHSNeb+NHPWT9srVvOyfSbTD2JLwAjVLEC7xc98/r3D182Q+7LXIDjTDDrZPS+KOZbLrAgDee90jmho7zfeE3J2KKn2WD9pol0gfhxSvG1tIdNZ8XGG7nfWYtRWM8tS17eL8+QYtge4bQILdNdr1GQgf2Z5yR8LXpP0Q+v+Zm2LqreVpJyGBpFiM0Ikl9NilqzvLwQtI8UhmZGpmhWalBSBNPhraHNjk8931dHUKRImmye/MBU1Bw4W/+yRXaJghG0BT1LF6kIxsHMdnts0xcaoY4/92+nev2q3Gs67ueHPTNVaGtF8P9aTc4exK3UQYzHIhcEorOSHagS9BEy2hbHbvk4ViAzq008yRpL6Pz3+nPRuoNja2rULsn5XXah2ycx4W+GBlhcWDk+ypQY3iNh4x2LKm6wGvFxRtZ6hBqT2wbPLKjf8taTSfJ9XKkHQas8jMin8VaRvKAZJqxOu6O2UHMhl7QUK1RDwmN6xBBru+JdxDUe394+UJZC5JbLi7C0NZ/Rx4HO9MByIrTQFvWZ9B5UPOw7OdCvX+442X0mz1kq/QmKIVM3vzHzghIDsPCYtGRkT+KearSL9G4Pzjn6JfM4yb5z6Kqz+mj/C8me9vpQ+DHPC7XAxnxlvEwaKICcZnsetnlIo5ln9TAN9qPXDvIJyvhbWj+hUlwNgRK2clgTkGc31noIorR9Po5IaAjhBQK55CDD5czBkzOVrNpSUe4VDi/S3j1AfT+KCxOxYc6QOxFilPQEfQyr2tu3LnZpUwnGynQfTQ40ypPT+B64Z7woFqOQnH8vUd+1f0DvnuKyisFOVn5GOF8ikasWKlnc3kYK7mj3DvdqUxnQrKlKTeYA5Qw2Kug1jAmzCkZYxCjMK51H3a4mJRJ3VG5bBY5l4NUumrPpcb8tPhb1diQ6Ez3zIk40M4wKI08bOa5ldrvvWbH9gM/7eVCkD1EsZZdxw9IHWRx2zN15vgpFUf58KnlxznNHthQoj4xCZTzGb1sp7vuFDeRFzvQyOUJrtKaA9q355f5ACdyVr5ob3RgdVYcJE0bFcdInDHK0RexT70oBbJ5AzN0CgO5V3kqb2h63wCCO5PcGF0Fd5cDVNZb6nkqi9mbbieFYsT60wRTWSpGneWopQJuiEQzRo3lRRFZRbD+7ypy48y9uanHbvHEzjVtkEi52tPuCGK63zckpixD8XkKr5yVPjrYjLRgDWuEtly9aL54glkp5CPQmcSbwScqmQNfdOxXCQFdyJBWm8lEvNdlBmarbnUdde6kXQV0ifLhuAoBgtTFM1XaTTh0ph/e3AVrG6yocXXl6AiOeBq++b5zWBRkbNS8FbCGD6ALR1OSXv1CHoqwLh/i93U5ehgYCCwHmCMqqNiwkwvu0Mc0CLS2AjfO10mrjmRy1SzRX/CKA8poIPOtZ8pckIU8Yxn4xIno/po7Caw2dMuqT/Dn8372gpjpFWPUHGSto2UTQx0J9Fpmi6XuRpLYbPp5M2Rn7dVdNjubbSGN9OAAAbe38GZoGyhs4ZoAaMDxSjGfnwH+w5R0j6CNqLWvMVHhB8fIzW6oXjkdRPkSuy+rwNy0bxkcQRwVijntDaS0tz8Hcyq51JRa8abvrjoXFQJc2GZ58o312SUyUZjYDj+4MyOKeeCjk7I3sUZGdRjtPI3x65bJmAqAt4IJIzRgVmk/QyUmBmwKqeSNzB3rZdEmQ/NvfB3mIeDuKBL6GSg1RXSUWoQG5WKIU/dQc1bwq0KHtmHw5sN/uMI6fwOxLzom9VwXLQhQ2vf/gSVx6eJ/nfZT7vuRpZBihsVelPSQg0FEhLu8vEZyVUGkZpVEeLbP2LcjkmE87EzwJyRSu/zOVoENh0+LnCHvZ50ruHjPsXktxVieXdhO8hKWKL3K6ITrB9LnMxQ0f9qfg3IzXq7Qq1EtBVdPz4+LS86AXjj0G5uiZKR4IrGIVApnRn9wyKjB+ye8XiP+0UQABZD2Fk3i6jolD2Wcv6gCL2uJDTI+CX990nu1vUEd9xt/JevEGstsgELZPwbOBYDsaTOrSYd+Ma1ouwLg0AU1iWlcIyu1cMQezSJYsXFvlNpMsKeX4T+I1oY0IV/xKiqqq4dvSol8WxJfzsj0b/8HQlt0MFyCYdUPsRxqxHrVF3Sr9oC53IarvMGGneY1SH4pQ/Mi2BJ+w7DgCMx+zpvdxzg96EZ7adj1jU7ay4bztVbpxF3F21cnme3tadHL4lgIExuV38cQM6etPgkeA+wFtzDoLHeK2p2inAZA8N4C8gNx3mNjKjbskCSppUe3bc330rGyFtmURVBGPk2swIz5xmuDv975NlyFSrGufBAvuH8VsyHG6JJSZoXGSOpEWTu+wMQE58qwchIWOIE2s3ECb7qi6tLmNfu7qAaN8eh22oSnQQjw/boWiR/+FdTJ3LUXMMMBn828FGCk+BOvX9NeRpEgbbdmr4oo1Jzzeqcm3sE/2LpEQ=="
+      }],
+      "createTime": "2026-03-25T19:03:17.426Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

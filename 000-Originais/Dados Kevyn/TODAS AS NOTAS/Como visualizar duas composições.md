@@ -1,0 +1,1 @@
+Para ter a visualização de duas composições ao mesmo tempo, é necessário usar o ícone de cadeado das composições, para travar a visualização e ativar mais de uma ao mesmo tempo.

@@ -1,0 +1,104 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.8-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_MEDIUM",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "enableWordTimestamps": false,
+    "enableSpeakerDiarization": false,
+    "enablePolishedTranscript": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveAudio": {
+        "id": "1UPId7XT080BhjvwfdjUdqMPSUJqK9l5Z"
+      },
+      "role": "user",
+      "tokenCount": 606,
+      "createTime": "2026-09-14T15:04:16.934Z"
+    }, {
+      "text": "Transcreve, depois cria um título e uma descrição para transformar isso em um cartão no trello",
+      "role": "user",
+      "tokenCount": 21,
+      "createTime": "2026-09-14T15:04:16.934Z"
+    }, {
+      "text": "**Reviewing Initial Data**\n\nI\u0027m now analyzing the initial transcription provided, paying close attention to the timestamps and the content related to \"Sudoexpo\" and \"TV Anhanguera.\" I\u0027m identifying key phrases and named entities for further processing. I\u0027m focusing on the relationship between Kevin, the links, and the reports.\n\n\n",
+      "role": "model",
+      "tokenCount": 571,
+      "isThought": true,
+      "parts": [{
+        "text": "**Reviewing Initial Data**\n\nI\u0027m now analyzing the initial transcription provided, paying close attention to the timestamps and the content related to \"Sudoexpo\" and \"TV Anhanguera.\" I\u0027m identifying key phrases and named entities for further processing. I\u0027m focusing on the relationship between Kevin, the links, and the reports.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-09-14T15:04:16.934Z"
+    }, {
+      "text": "Aqui está a transcrição limpa e a sugestão de cartão para o Trello:\n\n---\n\n### **Transcrição**\n\u003e *\"Kevin, olha os links das reportagens que a TV Anhanguera fez a respeito da Sudoexpo. Eu preciso que você crie, Kevin, uma pasta dentro do Drive da Acirv e já coloca esses links todos lá pra gente não perder, tá bom? Não esquece de fazer isso, tá?\"*\n\n---\n\n### **Sugestão de Cartão no Trello**\n\n#### **Título:**\n\u003e 📁 Salvar links das reportagens da TV Anhanguera (Sudoexpo) no Drive da Acirv\n\n---\n\n#### **Descrição:**\n\n**Responsável:** Kevin  \n**Objetivo:** Centralizar a cobertura da imprensa sobre a Sudoexpo para arquivo e não perder os conteúdos.\n\n**Instruções:**\n1. Acessar o Google Drive da **Acirv**.\n2. Criar uma pasta específica para as reportagens/cobertura da **Sudoexpo**.\n3. Adicionar/organizar todos os links das matérias veiculadas pela **TV Anhanguera**.\n\n**Checklist:**\n- [ ] Criar pasta no Drive da Acirv (ex.: *Sudoexpo - Cobertura TV Anhanguera*)\n- [ ] Coletar e colar todos os links das reportagens\n- [ ] Confirmar se os links estão funcionando e salvos",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 308,
+      "parts": [{
+        "text": "Aqui está a transcrição limpa"
+      }, {
+        "text": " e a sugestão de cartão para o Trello:\n\n---\n\n### **Transcrição**\n\u003e *\"Kevin, olha os links"
+      }, {
+        "text": " das reportagens que a TV Anhanguera fez a respeito da Sudoexpo. Eu preciso que você crie,"
+      }, {
+        "text": " Kevin, uma pasta dentro do Drive da Acirv e já coloca esses links todos lá pra gente não perder, tá bom"
+      }, {
+        "text": "? Não esquece de fazer isso, tá?\"*\n\n---\n\n### **Sugestão de Cartão no Trello**\n\n#### **"
+      }, {
+        "text": "Título:**\n\u003e 📁 Salvar links das reportagens da TV Anhanguera (Sudoexpo) no Drive da Ac"
+      }, {
+        "text": "irv\n\n---\n\n#### **Descrição:**\n\n**Responsável:** Kevin  \n**Objetivo:** Centralizar a cobertura da imprensa"
+      }, {
+        "text": " sobre a Sudoexpo para arquivo e não perder os conteúdos.\n\n**Instruções:**\n1. Acessar o Google Drive da **Ac"
+      }, {
+        "text": "irv**.\n2. Criar uma pasta específica para as reportagens/cobertura da **Sudoexpo**."
+      }, {
+        "text": "\n3. Adicionar/organizar todos os links das matérias veiculadas pela **TV Anhanguera**.\n\n**Checklist:**"
+      }, {
+        "text": "\n- [ ] Criar pasta no Drive da Acirv (ex.: *Sudoexpo - Cobertura TV"
+      }, {
+        "text": " Anhanguera*)\n- [ ] Coletar e colar todos os links das reportagens\n- [ ] Confirmar se os links estão"
+      }, {
+        "text": " funcionando e salvos"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-09-14T15:04:23.440Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

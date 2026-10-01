@@ -1,0 +1,1 @@
+Jogue em preto e branco, mesclagem para multiplicação, e ajuste os níveis abaixando o branco e ajustando a mesclagem nos estilos de camada. Depois Agrupe ou Link com a imagem original por cima e com fundo recortado.

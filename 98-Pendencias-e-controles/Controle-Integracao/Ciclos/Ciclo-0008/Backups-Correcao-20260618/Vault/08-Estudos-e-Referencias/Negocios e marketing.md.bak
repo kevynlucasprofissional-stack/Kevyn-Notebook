@@ -1,0 +1,63 @@
+---
+id: negocios-e-marketing
+titulo: Negócios e marketing
+tipo: area_estudo
+status: auditado
+profundidade: avancada
+versao_schema: '1.0'
+versao_conteudo: '1.3'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+fontes_primarias:
+- '[[Fonte - 150626 RNIDIQAOUP]]'
+- '[[Fonte - Visao geral consolidada]]'
+- '[[Fonte - Materiais IMRIA e marketing 2025]]'
+- '[[Fonte - Palestra IA e pitches Espaco Prema 2025]]'
+- '[[Fonte - Notas profissionais e tecnicas 2025]]'
+grau_confianca: medio_alto
+sensibilidade: alta
+camada_evidencia: sintese_derivada
+tags:
+- tipo/area_estudo
+- tema/estudos
+- privacidade/restrita
+aliases:
+- Negócios e marketing
+---
+# Negócios e marketing
+
+## Competências registradas
+
+Kevyn trabalha com comunicação, design, vídeo, marketing, relatórios, briefings e desenho de processos. Também formula produtos e modelos de negócio.
+
+## Eixos de estudo
+
+- pesquisa de mercado;
+- proposta de valor;
+- posicionamento;
+- aquisição e retenção;
+- operação e processos;
+- finanças básicas;
+- experimentação;
+- ética de comunicação.
+
+## Critério de aprendizagem
+
+Cada conceito deve ser ligado a uma entrega, análise ou teste. Evitar acumular frameworks sem decisão.
+
+## Evidencia de producao
+
+O lote [[Fonte - Materiais IMRIA e marketing 2025]] mostra aplicacao de principios de copy, funil e oferta em materiais concretos: criativos para oficina de IA, e-book de topo de funil, promessa, escassez, garantia e segmentacao. O valor principal para o vault e o repertorio demonstrado, nao o conteudo integral das pecas.
+
+[[Fonte - Palestra IA e pitches Espaco Prema 2025]] reforca estudo aplicado de modelos de lancamento e oferta: Erico, Hormozi e uma versao autoral aparecem como molduras para adaptar proposta, funil, objeções e roadmap a um caso real. Isso demonstra repertorio de marketing estrategico, nao validacao dos modelos em campo.
+
+Ha uma nota curta nas fontes identificando o livro "$100 Million Money Models" (Volume 3, Acquisition.com) de Alex Hormozi. A nota apenas identifica a obra, sem desenvolvimento.
+
+Materiais de outubro de 2025 preservam analise de copy e oferta estruturada no framework Hormozi, pontuando 6/10 e sugerindo melhorias em especificidade, prova, risco reverso e empilhamento de valor. A autoria pode ser IA ou assistida.
+
+Notas de setembro de 2025 registram avaliacao de componentes de produto (Svelte Capsulas, Svelte Control, DS21) com notas de 1 a 10 para importancia e qualidade percebida, cobrindo aulas, eBooks, diario e aplicativo com IA. Outubro de 2025 documenta aplicacao do framework Grand Slam Offer a uma empresa de engenharia (WSI), expandindo o repertorio para alem do nicho de saude. O material evidencia uso de frameworks de marketing para diagnostico e reformulacao de propostas.
+
+## Relações
+
+[[Marketing comunicacao e processos]], [[Design video e direcao criativa]], [[Criterios de decisao para projetos]] e [[Sustentabilidade financeira e trabalho]].

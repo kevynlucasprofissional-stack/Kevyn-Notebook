@@ -1,0 +1,1 @@
+Cria um efeito de deslocamento com turbulência, dá uma vida, um tcham, um toque a mais que o deslocamento comum. A diferença real é que esta distorção não gera texturas, enquanto o deslocamento comum gera.

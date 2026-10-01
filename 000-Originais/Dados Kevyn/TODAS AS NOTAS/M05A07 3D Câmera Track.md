@@ -1,0 +1,1 @@
+Na janela de Tracking, basta clicar em "Track Camera", e assim o after irá ler o vídeo e criar pontos de referência e recriar o movimento da câmera do vídeo automaticamente. Vários efeitos diferentes tem o câmera track como uma de suas etapas.

@@ -1,0 +1,2 @@
+Ao clicar duas vezes  na janela do projeto é aberto o menu de importação.
+Existem modos de mesclagem que funcionam como o Track Matte, um deles é o Stencil Alpha, que recorta pelo conteúdo da camada tudo o que está abaixo dela.

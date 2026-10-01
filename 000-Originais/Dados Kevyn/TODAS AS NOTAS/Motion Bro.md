@@ -1,0 +1,1 @@
+É um plugin com vários efeitos gratuitos para o After e para o Premier. Com ele é possível ativar expressões pelo Premier.

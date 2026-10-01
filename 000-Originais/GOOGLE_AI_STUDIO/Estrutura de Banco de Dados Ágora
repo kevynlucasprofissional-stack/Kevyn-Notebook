@@ -1,0 +1,261 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-flash-lite-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_MINIMAL",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1XUyxME7kOpaI4q49o-Sp73AcVcXZxeeh"
+      },
+      "role": "user",
+      "tokenCount": 9623,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "driveDocument": {
+        "id": "1nFoVNfMiNPORQpxzOY5pAzAjgQyBz6OZ"
+      },
+      "role": "user",
+      "tokenCount": 654,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "driveDocument": {
+        "id": "1CA4lpFrEe5o8AISg9fgJ4nCfjyt_eOEW"
+      },
+      "role": "user",
+      "tokenCount": 402,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "driveDocument": {
+        "id": "1OnBewms_G0jUlBlsTw1fqgobS43X_Gib"
+      },
+      "role": "user",
+      "tokenCount": 2842,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "driveDocument": {
+        "id": "1x9pjX4ejg-hxCewSGKBLbC-ImAwIqLFr"
+      },
+      "role": "user",
+      "tokenCount": 46,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "driveImage": {
+        "id": "1Q6XuiZjcxe9Hl2z6GDqLHfOOewxFUGMN"
+      },
+      "role": "user",
+      "tokenCount": 1081,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "driveDocument": {
+        "id": "1kO6ZWSmOJsVklRcvZhtq4dnaB4SPe40F"
+      },
+      "role": "user",
+      "tokenCount": 1328,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "driveDocument": {
+        "id": "1J-0Xm-4j6QK1BCUCo89H-BwcIpL8ojM_"
+      },
+      "role": "user",
+      "tokenCount": 1677,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "driveDocument": {
+        "id": "12Js2bSiTQzZ4CjyVutIk9sNtraMjgzjT"
+      },
+      "role": "user",
+      "tokenCount": 287,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "driveDocument": {
+        "id": "1sWAO_nRxL8zBe3HHYwrJhwStBD8gg45X"
+      },
+      "role": "user",
+      "tokenCount": 4534,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "driveDocument": {
+        "id": "1ElzAZTbZj0Vaf4m8MlnnMnHwrmh7sioN"
+      },
+      "role": "user",
+      "tokenCount": 1477,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "driveDocument": {
+        "id": "1I9KCml9kdY98avrq6fFB11ElQ_fVmn-i"
+      },
+      "role": "user",
+      "tokenCount": 1178,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "driveDocument": {
+        "id": "1SLv7GJCywdO_aB7y1WS2n9Uc4CWla-5j"
+      },
+      "role": "user",
+      "tokenCount": 1121,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "text": "Com base nos dados em anexo, gere para mim:\n\n# 8 — Estrutura do Banco (SQL)\n\nAqui definimos:\n\n- tabelas\n    \n- relacionamentos\n    \n- campos\n    \n\nExemplo:\n\n```\nusers\nservices\ncategories\nbookings\nreviews\n```\n\nEsse SQL normalmente vai para:\n\n**Supabase / Postgres**",
+      "role": "user",
+      "tokenCount": 80,
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }, {
+      "text": "Com base na análise técnica de todos os arquivos fornecidos (especialmente os diagramas de entidade, as regras de negócio dos planos e o fluxo de agentes), apresento abaixo a estrutura de banco de dados otimizada para **PostgreSQL (Supabase)**.\n\nEsta estrutura refatora o modelo conceitual inicial para garantir integridade referencial, performance e escalabilidade, mantendo a compatibilidade com o sistema multi-agentes Ágora.\n\n```sql\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n-- ESTRUTURA DO BANCO DE DADOS ÁGORA\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\n-- 1. TABELAS DE CONFIGURAÇÃO E ASSINATURA\nCREATE TABLE \"plan\" (\n    \"id\" BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,\n    \"name\" VARCHAR(50) NOT NULL, -- Freemium, Standard, Pro, Enterprise\n    \"price\" DECIMAL(10, 2) NOT NULL,\n    \"uploads_limit\" INTEGER NOT NULL, -- 2, 5, 999999 (ilimitado)\n    \"recurrence\" VARCHAR(20) NOT NULL -- \u0027mensal\u0027, \u0027anual\u0027\n);\n\nCREATE TABLE \"user\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"name\" VARCHAR(255) NOT NULL,\n    \"email\" VARCHAR(255) UNIQUE NOT NULL,\n    \"password_hash\" VARCHAR(255) NOT NULL,\n    \"plan_id\" BIGINT REFERENCES \"plan\"(\"id\"),\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 2. TABELAS DE NEGÓCIO E FLUXO DE ANÁLISE\nCREATE TABLE \"user_request\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"user_id\" UUID NOT NULL REFERENCES \"user\"(\"id\") ON DELETE CASCADE,\n    \"content\" TEXT NOT NULL, -- Prompt bruto do usuário\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW(),\n    \"updated_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\nCREATE TABLE \"user_uploads\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"user_id\" UUID NOT NULL REFERENCES \"user\"(\"id\") ON DELETE CASCADE,\n    \"request_id\" UUID REFERENCES \"user_request\"(\"id\"), -- Vincula o upload a uma análise específica\n    \"file_url\" TEXT NOT NULL, -- Referência ao storage\n    \"content_transcription\" TEXT, -- Texto extraído pelo OCR/IA\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 3. TABELAS DO SISTEMA MULTI-AGENTE\nCREATE TABLE \"agent\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"agent_name\" VARCHAR(100) NOT NULL, -- Ex: \"Analista Sociocomportamental\"\n    \"agent_type\" VARCHAR(50) NOT NULL -- Ex: \"Master\", \"Analista\", \"Estrategista\"\n);\n\nCREATE TABLE \"agent_response\" (\n    \"id\" BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,\n    \"agent_id\" UUID NOT NULL REFERENCES \"agent\"(\"id\"),\n    \"request_id\" UUID NOT NULL REFERENCES \"user_request\"(\"id\") ON DELETE CASCADE,\n    \"content\" JSONB NOT NULL, -- Armazena o JSON estruturado do Agente\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\nCREATE TABLE \"agent_uploads\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"agent_id\" UUID NOT NULL REFERENCES \"agent\"(\"id\"),\n    \"request_id\" UUID NOT NULL REFERENCES \"user_request\"(\"id\"),\n    \"content\" TEXT NOT NULL, -- Caminho do relatório gerado (PDF/PPT)\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 4. TABELAS DE SUPORTE (Roadmap Futuro Enterprise)\nCREATE TABLE \"enterprises\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"name\" VARCHAR(255) NOT NULL,\n    \"cnpj\" BIGINT UNIQUE NOT NULL\n);\n\nCREATE TABLE \"user_enterprise\" (\n    \"user_id\" UUID REFERENCES \"user\"(\"id\"),\n    \"enterprise_id\" UUID REFERENCES \"enterprises\"(\"id\"),\n    PRIMARY KEY (\"user_id\", \"enterprise_id\")\n);\n\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n-- ÍNDICES PARA PERFORMANCE\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\nCREATE INDEX idx_user_request_user ON \"user_request\"(\"user_id\");\nCREATE INDEX idx_agent_response_request ON \"agent_response\"(\"request_id\");\nCREATE INDEX idx_user_uploads_user ON \"user_uploads\"(\"user_id\");\n\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n-- NOTAS DE IMPLEMENTAÇÃO SUPABASE:\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n-- 1. O campo \u0027content\u0027 em \u0027agent_response\u0027 é do tipo JSONB \n--    para permitir queries rápidas nos dados estruturados pelos agentes.\n-- 2. Use RLS (Row Level Security) do Supabase para garantir \n--    que usuários só vejam seus próprios \u0027user_request\u0027 e \u0027agent_response\u0027.\n-- 3. O plano \u0027Enterprise\u0027 pode utilizar a tabela \u0027enterprises\u0027 \n--    para segregar contextos de IA (prompt engineering customizado por cliente).\n```\n\n### Principais Refatorações realizadas:\n1.  **Integridade Referencial:** Adicionado `ON DELETE CASCADE` em tabelas vinculadas a usuários e requisições para evitar dados órfãos.\n2.  **JSONB para Agentes:** Alterado o campo `content` da tabela `agent_response` para `JSONB`. Isso é vital para que o frontend/sintetizador consiga ler facilmente os campos estruturados (Score, Raciocínio, Diagnóstico) sem precisar fazer *parse* de texto simples.\n3.  **Vínculos Lógicos:** Adicionado `request_id` na tabela `user_uploads`, permitindo rastrear exatamente qual arquivo foi usado em qual análise.\n4.  **Uso de UUIDs e Identidades:** Substituído tipos de chave primária para os padrões modernos do Postgres/Supabase (`UUID` para entidades principais, `GENERATED ALWAYS AS IDENTITY` para IDs sequenciais).",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1416,
+      "parts": [{
+        "text": "Com base"
+      }, {
+        "text": " na análise técnica de todos os arquivos fornecidos (especialmente os diagramas de entidade, as regras"
+      }, {
+        "text": " de negócio dos planos e o fluxo de agentes), apresento abaixo a estrutura de banco de dados otimizada para **"
+      }, {
+        "text": "PostgreSQL (Supabase)**.\n\nEsta estrutura refatora o modelo conceitual inicial para garantir integridade referencial, performance"
+      }, {
+        "text": " e escalabilidade, mantendo a compatibilidade com o sistema multi-agentes Ágora.\n\n```sql\n--"
+      }, {
+        "text": " \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n-- ESTRUTURA DO BANCO DE DADOS ÁGORA\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+      }, {
+        "text": "\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\n-- 1. TABELAS DE CONFIGURAÇÃO E ASSINATURA\nCREATE TABLE \"plan\" (\n    \""
+      }, {
+        "text": "id\" BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,\n    \"name\" VARCHAR(50) NOT NULL,"
+      }, {
+        "text": " -- Freemium, Standard, Pro, Enterprise\n    \"price\" DECIMAL(10, 2) NOT NULL,"
+      }, {
+        "text": "\n    \"uploads_limit\" INTEGER NOT NULL, -- 2, 5, 999999 ("
+      }, {
+        "text": "ilimitado)\n    \"recurrence\" VARCHAR(20) NOT NULL -- \u0027mensal\u0027, \u0027an"
+      }, {
+        "text": "ual\u0027\n);\n\nCREATE TABLE \"user\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \""
+      }, {
+        "text": "name\" VARCHAR(255) NOT NULL,\n    \"email\" VARCHAR(255) UNIQUE NOT NULL,\n    \""
+      }, {
+        "text": "password_hash\" VARCHAR(255) NOT NULL,\n    \"plan_id\" BIGINT REFERENCES \""
+      }, {
+        "text": "plan\"(\"id\"),\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 2. TAB"
+      }, {
+        "text": "ELAS DE NEGÓCIO E FLUXO DE ANÁLISE\nCREATE TABLE \"user_request\" ("
+      }, {
+        "text": "\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"user_id\" UUID NOT"
+      }, {
+        "text": " NULL REFERENCES \"user\"(\"id\") ON DELETE CASCADE,\n    \"content\" TEXT NOT NULL, -- Prompt bruto do"
+      }, {
+        "text": " usuário\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW(),\n    \"updated_at\" TIMESTAMP WITH"
+      }, {
+        "text": " TIME ZONE DEFAULT NOW()\n);\n\nCREATE TABLE \"user_uploads\" (\n    \"id\" UUID PRIMARY KEY"
+      }, {
+        "text": " DEFAULT gen_random_uuid(),\n    \"user_id\" UUID NOT NULL REFERENCES \"user\"(\"id\") ON"
+      }, {
+        "text": " DELETE CASCADE,\n    \"request_id\" UUID REFERENCES \"user_request\"(\"id\"), -- Vincula o upload a"
+      }, {
+        "text": " uma análise específica\n    \"file_url\" TEXT NOT NULL, -- Referência ao storage\n    \"content_"
+      }, {
+        "text": "transcription\" TEXT, -- Texto extraído pelo OCR/IA\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);"
+      }, {
+        "text": "\n\n-- 3. TABELAS DO SISTEMA MULTI-AGENTE\nCREATE TABLE \"agent\" (\n    \"id"
+      }, {
+        "text": "\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"agent_name\" VARCHAR(100) NOT NULL,"
+      }, {
+        "text": " -- Ex: \"Analista Sociocomportamental\"\n    \"agent_type\" VARCHAR(50) NOT NULL -- Ex"
+      }, {
+        "text": ": \"Master\", \"Analista\", \"Estrategista\"\n);\n\nCREATE TABLE \"agent_response\" (\n    \"id\""
+      }, {
+        "text": " BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,\n    \"agent_id\" UUID NOT NULL REFERENCES \"agent\"(\"id"
+      }, {
+        "text": "\"),\n    \"request_id\" UUID NOT NULL REFERENCES \"user_request\"(\"id\") ON DELETE CASCADE,\n"
+      }, {
+        "text": "    \"content\" JSONB NOT NULL, -- Armazena o JSON estruturado do Agente\n    \"created_"
+      }, {
+        "text": "at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\nCREATE TABLE \"agent_uploads\" (\n    \"id"
+      }, {
+        "text": "\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"agent_id\" UUID NOT NULL REFERENCES \"agent"
+      }, {
+        "text": "\"(\"id\"),\n    \"request_id\" UUID NOT NULL REFERENCES \"user_request\"(\"id\"),\n    \""
+      }, {
+        "text": "content\" TEXT NOT NULL, -- Caminho do relatório gerado (PDF/PPT)\n    \"created_at\" TIMESTAMP WITH TIME ZONE"
+      }, {
+        "text": " DEFAULT NOW()\n);\n\n-- 4. TABELAS DE SUPORTE (Roadmap Futuro Enterprise)\nCREATE TABLE \"enter"
+      }, {
+        "text": "prises\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"name\" VARCHAR"
+      }, {
+        "text": "(255) NOT NULL,\n    \"cnpj\" BIGINT UNIQUE NOT NULL\n);\n\nCREATE TABLE \"user_"
+      }, {
+        "text": "enterprise\" (\n    \"user_id\" UUID REFERENCES \"user\"(\"id\"),\n    \"enterprise_id\""
+      }, {
+        "text": " UUID REFERENCES \"enterprises\"(\"id\"),\n    PRIMARY KEY (\"user_id\", \"enterprise_id\")\n);\n\n"
+      }, {
+        "text": "-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n-- ÍNDICES PARA PERFORMANCE\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n\nCREATE INDEX idx_"
+      }, {
+        "text": "user_request_user ON \"user_request\"(\"user_id\");\nCREATE INDEX idx_agent_response_request ON \"agent_"
+      }, {
+        "text": "response\"(\"request_id\");\nCREATE INDEX idx_user_uploads_user ON \"user_uploads\"(\"user_id\");\n\n--"
+      }, {
+        "text": " \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n-- NOTAS DE IMPLEMENTAÇÃO SUPABASE:\n-- \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\n--"
+      }, {
+        "text": " 1. O campo \u0027content\u0027 em \u0027agent_response\u0027 é do tipo JSONB \n--    para permitir queries"
+      }, {
+        "text": " rápidas nos dados estruturados pelos agentes.\n-- 2. Use RLS (Row Level Security) do Supabase para garantir "
+      }, {
+        "text": "\n--    que usuários só vejam seus próprios \u0027user_request\u0027 e \u0027agent_response\u0027.\n-- 3."
+      }, {
+        "text": " O plano \u0027Enterprise\u0027 pode utilizar a tabela \u0027enterprises\u0027 \n--    para segregar contextos de IA ("
+      }, {
+        "text": "prompt engineering customizado por cliente).\n```\n\n### Principais Refatorações realizadas:\n1.  **Integr"
+      }, {
+        "text": "idade Referencial:** Adicionado `ON DELETE CASCADE` em tabelas vinculadas a usuários e requisições para evitar dados"
+      }, {
+        "text": " órfãos.\n2.  **JSONB para Agentes:** Alterado o campo `content` da tabela `agent_response"
+      }, {
+        "text": "` para `JSONB`. Isso é vital para que o frontend/sintetizador consiga ler facilmente os campos estrut"
+      }, {
+        "text": "urados (Score, Raciocínio, Diagnóstico) sem precisar fazer *parse* de texto simples.\n3.  "
+      }, {
+        "text": "**Vínculos Lógicos:** Adicionado `request_id` na tabela `user_uploads`, permitindo rast"
+      }, {
+        "text": "rear exatamente qual arquivo foi usado em qual análise.\n4.  **Uso de UUIDs e Identidades:** Substit"
+      }, {
+        "text": "uído tipos de chave primária para os padrões modernos do Postgres/Supabase (`UUID` para entidades principais, `GENER"
+      }, {
+        "text": "ATED ALWAYS AS IDENTITY` para IDs sequenciais)."
+      }, {
+        "text": "",
+        "thoughtSignature": "EjQKMgG+Pvb7zodJSLMyIHLkJbpTBkMRMyodKzKHBW0PPn1RjFrMJadjrC59eaQWvK0LZyR1"
+      }],
+      "createTime": "2026-03-15T08:22:23.095Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

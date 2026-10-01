@@ -1,0 +1,17 @@
+- [ ] Criar nome para o perfil
+- [ ] Ative o VPN
+- [ ] Crie a máscara virtual com o Dolphin (Anty), o software, não use o site.
+- [ ] Fechar todos os sites da Meta: Zap, face, meta. Por segurança feche todas as páginas abertas.
+- [ ] Desativar localização do Google do Dolphin.
+- [ ] Coletar 10 cookies.
+- [ ] Crie um outlook.
+- [ ] Crie conta no facebook
+- [ ] Receba o código via SMS usando o Telegram
+- [ ] Coloque uma foto de perfil usando o "thispersondoesnotexist"
+- [ ] Coloque uma foto de banner
+- [ ] Preencha informações
+- [ ] Curta, comente e compartilhe algumas páginas que aparecerem no perfil.
+- [ ] Siga algumas páginas.
+- [ ] Entre no Amizades Britezianas
+- [ ] Entre em grupos de amizades e namoro, comente e adicione pessoas.
+- [ ] Role o feed por alguns minutos.

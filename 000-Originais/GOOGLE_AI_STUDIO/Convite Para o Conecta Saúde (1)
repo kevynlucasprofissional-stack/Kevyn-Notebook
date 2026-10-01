@@ -1,0 +1,97 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.5-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_MEDIUM",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveVideo": {
+        "id": "1wT4fE6w3VYJgeGnoCTR2bfNyBj1Y45xp"
+      },
+      "role": "user",
+      "tokenCount": 6593,
+      "createTime": "2026-06-29T20:56:53.197Z"
+    }, {
+      "text": "Cria um resumo de 200 caracteres sobre o que a @rcadria disse nesse vídeo. ",
+      "role": "user",
+      "tokenCount": 24,
+      "createTime": "2026-06-29T20:56:53.197Z"
+    }, {
+      "text": "**Analyzing the Objective**\n\nI\u0027m now zeroing in on the core request: a Portuguese summary of Ádria Rocha\u0027s video. My current focus is the character limit - precisely 200 characters. I\u0027m exploring the implications of \"approximately\" versus strict adherence to the length.\n\n\n**Refining the Summary**\n\nI\u0027ve just distilled the video\u0027s essence. Ádria Rocha, representing Conecta, is emphasizing ACIRV\u0027s open approach to entrepreneurs for secure, transparent connections. Fear of connecting, sticking with the status quo, and the need to evolve in the market are key themes. All entrepreneurs, regardless of whether they have CPF or CNPJ, are invited. The event, happening on July 2nd, will allow entrepreneurs to connect.\n\n\n**Refining the Portuguese Summary**\n\nI\u0027ve crafted a Portuguese summary that appears to meet the character limit. My focus now is on polishing this draft. It captures Ádria Rocha\u0027s invitation to connect securely through ACIRV, emphasizing overcoming the fear of change. I\u0027ve also noted the event\u0027s details: Conecta Saúde on July 2nd, at ACIRV\u0027s auditorium, open to all entrepreneurs.\n\n\n**Optimizing the Summary Further**\n\nI\u0027m now iterating to ensure clarity and conciseness, especially concerning \"Conecta Saúde.\" The latest version aims to simplify and improve the flow. It highlights Ádria\u0027s invitation, the event\u0027s core focus, and essential details, while being mindful of the character constraint.\n\n\n**Verifying the Summary\u0027s Precision**\n\nI\u0027ve just finished verifying the character count of the Portuguese summary, \"Ádria convida empresários para o Conecta Saúde na ACIRV, visando conexões seguras no mercado em evolução. O evento ocorre dia 2 de julho, no auditório da instituição, aberto a CPFs e CNPJs.\" The total is 187 characters, which fits well within the 200-character constraint. The summary is precise and aligns perfectly with Ádria\u0027s key message. Also confirmed is the date: July 2nd.\n\n\n**Fine-Tuning the Summary**\n\nI\u0027m now iterating to optimize the summary. After adding \"Rocha\" I\u0027ve refined the summary to be 189 characters. I\u0027ve also tried \"em constante evolução,\" which brought the character count to 193. I am continuing to consider changes to bring the final version closer to 200, though I have not yet found the ideal balance between brevity and precision. The event date is verified for July 2nd.\n\n\n\n",
+      "role": "model",
+      "tokenCount": 2380,
+      "isThought": true,
+      "parts": [{
+        "text": "**Analyzing the Objective**\n\nI\u0027m now zeroing in on the core request: a Portuguese summary of Ádria Rocha\u0027s video. My current focus is the character limit - precisely 200 characters. I\u0027m exploring the implications of \"approximately\" versus strict adherence to the length.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Summary**\n\nI\u0027ve just distilled the video\u0027s essence. Ádria Rocha, representing Conecta, is emphasizing ACIRV\u0027s open approach to entrepreneurs for secure, transparent connections. Fear of connecting, sticking with the status quo, and the need to evolve in the market are key themes. All entrepreneurs, regardless of whether they have CPF or CNPJ, are invited. The event, happening on July 2nd, will allow entrepreneurs to connect.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Portuguese Summary**\n\nI\u0027ve crafted a Portuguese summary that appears to meet the character limit. My focus now is on polishing this draft. It captures Ádria Rocha\u0027s invitation to connect securely through ACIRV, emphasizing overcoming the fear of change. I\u0027ve also noted the event\u0027s details: Conecta Saúde on July 2nd, at ACIRV\u0027s auditorium, open to all entrepreneurs.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Optimizing the Summary Further**\n\nI\u0027m now iterating to ensure clarity and conciseness, especially concerning \"Conecta Saúde.\" The latest version aims to simplify and improve the flow. It highlights Ádria\u0027s invitation, the event\u0027s core focus, and essential details, while being mindful of the character constraint.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Verifying the Summary\u0027s Precision**\n\nI\u0027ve just finished verifying the character count of the Portuguese summary, \"Ádria convida empresários para o Conecta Saúde na ACIRV, visando conexões seguras no mercado em evolução. O evento ocorre dia 2 de julho, no auditório da instituição, aberto a CPFs e CNPJs.\" The total is 187 characters, which fits well within the 200-character constraint. The summary is precise and aligns perfectly with Ádria\u0027s key message. Also confirmed is the date: July 2nd.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Fine-Tuning the Summary**\n\nI\u0027m now iterating to optimize the summary. After adding \"Rocha\" I\u0027ve refined the summary to be 189 characters. I\u0027ve also tried \"em constante evolução,\" which brought the character count to 193. I am continuing to consider changes to bring the final version closer to 200, though I have not yet found the ideal balance between brevity and precision. The event date is verified for July 2nd.\n\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-06-29T20:56:53.197Z"
+    }, {
+      "text": "Ádria Rocha convida empresários para o Conecta Saúde na ACIRV, buscando gerar conexões seguras e eficientes em um mercado em evolução. O evento ocorre dia 2 de julho, aberto a CPFs e CNPJs.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 51,
+      "parts": [{
+        "text": "Ádria Rocha convida empresários para o Conecta Saúde na ACIRV, buscando gerar conex"
+      }, {
+        "text": "ões seguras e eficientes em um mercado em evolução. O evento ocorre dia 2 de julho, aberto a CP"
+      }, {
+        "text": "Fs e CNPJs."
+      }, {
+        "text": "",
+        "thoughtSignature": "Etg8CtU8AQw51selmyjmFFtgaAOdloI9ofeihBZhrt1TKav1r1YZr4rEh86edqpZqznh0/ZbomYHpShU3uUKBbAvcoiEvyo6YiPRL77+UFy+8qIwkSOSoSjR4dB2ydJavCp8UlUAgCP9UZjbUpIqq2dcJscZgtv3NrZIwNXPI74I8coW0Cko+ffOI1yBA1yJCYvH4/Ye6pkWGCKM6W6FKWkCvMDIJe6L7oZUqYni9oIwc5uU9fJuJB++IyDNth+dSlo/IPIQg0PRB+HbZWXvEe+OuDrdQNM06J4zsWKGqN1rQyzUp4I4C1235QA6k1yE+VRYD/fmlUxwUJ/gGUXLnXfAQWUplpWM8L/jbWKdxs2MwP7XRwgp3eJ7OH3Qt7CBM2ZkR6qM5pB/KY5/rOFhC00ILd+i2vqNo+G9THlBqAXgXjcsIb4zmAzz8iDM1rP+OQlgvUVA5/IZ7wbYpL01EjhM9fdi00jPS5NzXlVIdv1UDpcq5KmrEjB6SgwGKChUgv2/j06WQacBRTH35r3yHXwf8uH+L4q5ogqgg8MJcdKOVt5izczWOpeOz1oIz960j8s48YrAzSkR8vF27Q5x1f/f0h2fJyuND30/FBTQek7N/63z0Bn04SwIAk4nXJEfp/U36E5f4xvTYncmpc0ga8+PwSkWOyCEf6a7bLzw9gWsW4FIArAvJkBqsfCLG3nmnrLjCgs6XiZCsafhE8OGAb/xW4s2B5Q4Tv63ZZzy/Qc1H4HMVYNhw5xbppCgbMRF6owO7wJjgOow2mMWMZkI4IloYhuvHY+C9FuqF+2ZCgQJoTgulnBaAeCjv3U7O4Q0pksot66XibfQhRmZ8mA/riuUU2Mp3wLUP6Uoj+MTA2P7wK+m3ycr9iA/Nu7gOyfUWN4DgZ7Qru+YpOqDqTHZVlS4OnOm3vZTooI98JYnWatstAVCi4jYGFdTaFQ0v9AWZDAcNp/6hJSLxE8BzCLh+TfJ9Er7WwKLBInk48AOqJNAHOX0MDA1dX7Kh/bJ1WA24S9LeMG220Q5ypvVgnMRTi/iDBpGiu3t0V3w4xFnFbFDm39y8EowNoTTvBk+lROeR5v13LhKvolwUuGdfs/E4SO2fPKM5PYV076mBRvUKW4/w96siDeWYuyll96B1sGZYd09JXbmNV4kxBY5mnHjm9X9U/J394l7BoMge9Gn7Y0O3xf1d0wn/2AvcUxdMHCAec19kNOFCobqn6O9fXGmMoa0KwxYMg3OwwNERPCOFQdc/jLjCJcaCz3pfs2ClWuBYvrVGL3MtLNCKPfauG/8YGPag0e9P61Cf1iGEtZ90HKA4Kegw3ySyCmcZOHYa3cqwik2IorM4wwT934kJFyOApCIMAcpnnuIHCxGAxIFBm8Tw98DWAOSA/u/NY1/IFOCIxJzbPqlUCN5hrUURlaoHk2ZLAbagWLYBlNDZEkcqUWPFjZD2BjGBKfzC7XksbyHscFK1bED0o4ebBVtraiTfPFdbkkah6nictLMdxmQq7gjUfa7Kd4Y7N+6v+rFJPJbdKm6ZVopXEK12vL8LTRcCi2XIp3RXSJ3xAL8M8hnwlp746y6qhCPYLHhW9guShJgv9RNn8uNdla9DbD5mnVQRyif2zhc5vV4xoBNdDfsIbZcH/HseLestXGGuSwRIoIVeMqingQo6mvTNm5LHlbsS/3K2ICmYpZMoy/hUFH9jZI5VraRr+528tOK7GwMYktOy2dBLOtOAvcXG/sfZ4HbmYWWNTkIysyHIRVDIPgyYdmeyLx+1OOV9KMJSuNT0xgOTKwe/E50gjSVuxtK3GQHV+IAluz7QwUMnDcg+zydC33wrzDZWzA6ctsZZw6rMr+80B9vnMJ5CdRr+Fc8QTM04xompoFOtKDqTUH67UglO4vvbkUhFw1YlRpGZPuAuobJzWsT3eVA/pEiInn8efsvI6AdV5SViul4EX9dKkES0YSexA0rqY8lrztr9ik5gCzVWUnUMAiC/j7XZRNo1pi0rFsnvGxQporUxzCQ4lzS4qxxNogk73+JBcDyY2RqxYsMHYku95MazfHQFgvVqLTZ+StJ5UKZ7wQBtoxKr3UH/iSXFnPQ+bCuxr9RruN4LWqRneqH8xBy9/Ke9me5qHxpD8jLDaZL7cvL/ZaJ2tpLfuQz0Sadcp3c65uFX0ctIq1Hd2seQfDBTnJurIITSYfJUpAnCptT4ENQstS2/L065dwET872EfiTc7bi87yInzAVfzDfS8dPCXPfjYa/QRrGMig6d7Gjrh3/1eLQxJg5JwAYot0WgoOMab6CE6nDxYfdw9SUgRebiJ/0+LO0lRxiYcKCUiuQSlVsLH3/72k/NxQ8KicQpqtNqvjUZWY5r/njuyny059CyZ3CnPZrfc7lIhKmvcixXd5MIGDfT5O46uJ5KWC7nM86wH3UYvczC2zBCZ6bFUm1DAgozRYMT/YdSsLGmz6JcRsW8V1a4zL41L5bgDmbNyrFroc62pM08a2D5IYOMHCz4rraFvAtLM9GUmRXidwf8rpXV0AGzx6SxwH2JU5XA0ygttQGazHtmcgf922mvIAdIv0q/+oZrnUB9JXams6WhBEHLEgKfOpxEVwGXgT1jugY8MON98paXINqeEx0wNvl7gey1XXlec52Vl1W2J/UsVUidFsmP0uUfDCwsazw2Gd7RHBg/lCcC2lC9F4FM6BjkCrJJ0ZBEi1cTO+YVON8q+KPD6VHBa/CmKDgJ6oLASxre4J1s7D2rITgD78Z3kYTK4Q5HHdNAVFYzMbORpuIOm3x4rCjQlryW2mtx+sJgndfMjMLGtW9ZP47aVz0yl+AEoVnz+ezm4diPHWpNco4GpEHQ8oVfzHqtEh51Lx/3nakYDw6Tt0p83/omVGHOYAxP68YgXUKzjAfsLpMBVBPz/NEfqpznE4kkNoiuTi2Ig2KZ3t8XHp+fHWImWWmuJEW0Xu8f979bk6lVYMhf1JbkJrzZlnPAfOxH7Io66Z6/MTfSgujicVE0MYNtFkIVJ/wb5+Ka0TJ79UGN+reSCMmS03xkC9Wj50BErynG3TAO0LKJ/Tun6eXMG6zHAvBFvap0RzSGEOvNpSclohaahZMvBsNB0YZfytY23pJkYsnnwNv3pfC8HxTuHyjuZPCvj/4ns6hFDYNq32CdT5xkOyh4Nr7EVndOyJo+bZJuWOLMj9QJjZveo3RKw/186rxjGmA/IycpK0BqwLXSvK55zcKWSqjRwN1bvO43LoshqyF6+WCOI3LW5+n8VvodtXFWJunboOvK4DYGb+KZsUWWXncFVQZO5VmdR49a++OJH5zg2O7vp6hBQn07wQZI+y3UbQgPr/VYI48O7fl8eakiEJAgB+HIOdWttLhCEAQvyJHFpLfjHNrRCKeoikozazCQf+oUoOkkCSSVeQgdCPYyD4qRAfDd9hDNn7BQsto9GIw2W13SbtZedGRW3YPm54C9z1luHdHzL77DSfHFmtiDuuTe91DyEaHkgZ8ATmCF4xl97/3Pbj/9y93zwO4JEjzwAI/XM3f0wXuhrF5w/bficeFTBMwwyV8FAdq/wFCiRb3KsN+LqiLZeJzVe2LVi+LUSc6Jc+dsIE7dcHSjIaY6H6QpMkNfyMB2qoGSrxClcvRAJSuTnjUZSBLgATCJZxyHU6mSWtohTpm9AtASR0TOeyeYLwWTmjuv2eWbgOD4pI8cOYib+34keLbC0EBvh2Urke2hH759P6flFQFM/7NIVIsrLge6tQThRV8TTTh1m1JaQIJVhBpGMbgParEW8FzSl3TvUswY8mhrnX1EjchHe3YcI1JDUUw0GLDvTCheqm0WiErFVzWwELX6G2sV6Hc5qxBDLgunitHxMiQk6qWOaXYdV5pbfEMmomgd315TDWDk8xrkz/OsfRm/OJeMwqCfAia257s+mnCVs2lqS5okQusPQK9GFoGnGfShHK2wnoEOYlHLUD5AVajbIJJSg9IybG7cMfO9ghwZ9plS1nZhGE0I/QtywRZH/i/xMXgELJ9u9RdzCfhtvTuLRYHMn9z7x/fkhuamvrJy+O7wxTndtMTKqoUtAGpgBhX84gJpcGtWPu0ieQfTA7da0UuF5KhOIerp2bYU/T7fr6weI90kLdT9U5c0QjJC8Ciq3A4BwvoItcnv6dEgFqi9Bx+ugzuc2W5dU8Ooivb1pYRAQ0Vibq8SBWUsj6i0awbzXeZoHF6o0WmC6YUikHnEBPdHNq/nPSbuAgTQgYgtJUgjNqMYFR8ecDH1F86KcY1gh1X1lQoAeJBJKF61gQ947GZO/eetR8WPARp3nu+0As2dotjZilFjdKA3ivCfWILOcr0adO2cw5ByOQjNe+D3y+LfYbCZWju1lqeOrxC92NH2+qE5np/3v+nHig5WEb+ha6atNdcTF0hQd8DZ6JT7oRECHQ2CiZiNsgIeQjgIZLauKi6x9ed1eJXcge9KafhFNbFNE+Z09m3+dR+GsnROunmIeD9NL8t0WO/x67lk1fzxwTufvUu5SA3Pf42R4TzuvkX9UVFYASxkp0Z6KjdeNBPH9OAXl04t95ssobHcWvjU2J4Cgmq4Y5sLrJx7HO3r4DGvSwtPAZ7y18n93/TB2z3mN2OO6llOSyUi5D/1jHnsowJpE2YcofI8fMHfUf4fA1dvv+5noN2jhOBTO0SYBE7x3qx6QPcTKXIbC7WmQWnitwRuPqO3t4eovYX4Q2M2mf3QAVbYons7YfOw0hBOvEgkN8jxGsIURUl6gJwyhv/yk+kyLNY/9FJQPab5IYkE9gOD4s6sRoJ7/WFR1ro4o3JGQXE2Y7IGZFH//Vv5zBq3ZSOSuCr/In4ENeJqGXPV952MPNB48M3lFLSj8aJGwtrMDR2rGqv7iex1COfqM4NyOoTj5WynSMPsMr/vkq+x0VCmHL45uvRXyhQJDTHUYznnNKu2mVnuF8/iHKtV/jpl7NzNdZYaBptyoIcqeV9gt6WFyUb6kl2fJwnrgPLFHRg5qKxCOT0KbZDgTvLa3G/YQagC07yjaKKln77OgnDCZnHgXfHV/uuZjKz85t1HfW/BLk7l0Lc8GgAWzg6JncP/9Sde8bxRZs0xziH3OLAXpJgEZyWQpqUIz8v4uDNJ5j3KreUeBaFcU/BCVbRuUkzlyw4WC2NEjaCVfKK9vBr6hvcAsh/AHXoy3Vv/xYUh3Rl6NpClfrySOoDJtjuc9XNjfhoMK7r4f0jVhZYcDkfXWkxs19xwS33h80nWaGlMr/booGdmYl+kPWNnZFhQfnz7bPbacZ8TozQ1XsI6PG3gVrHvaiUWIuaMosjxHT7a85SKWbYneGG9jzVqyXu5HdmFnxWwsTu2UIxsIanGLXixTv9AmvmS9sPZdK4I3cZIG8XBpgSFVKUbvZLwZnXHNk/EXqxMs1Y+43KQJV1IHVcC8CnGTyMBg+r5g3pKQY55HAfMkcoUwnjwTKJ5c64RTlU0p7flEgamET+pefEYL9WPp2/t6VgvUz1rwI7NSyJ7EGFZMr4Vc1dDxstTXlzezwdtSUBX4TCsSOnV125XBNkMEq9TQ7XAwhQR4UxQjQ7dvr2gkhUnIm12btgyIJHagiRnv522uKPwKXDDYdphaXEa5m0zZCIHn+FAr/XLacpsTYngLZ20+MzrIEcUk30YUh9L0nJubCrkaKnuqvteGZGOxCRqA5oCU/CZvmIOjkfKY1qsXb6/VngGZyljMD4pbS3OOAQxsTDEf59NIgbTkGs4tMfPTG/tWLkMRWbj5qi7qCpeA4u1fcKZK8ePOPY1ZpTf+nSglfaCWrcCoePuurATMCKd6Ot5fDTRnZPXjr45dnjo4f3bS7Yb9bWQmFxhQ8QrBSxQse8Yj+2bAdP3QKXG32WwGhwaKEnI/KKghffCLBgg9T/eK7Xb7JJGqcFXgfJpFb0TR9+z2dEhR34tQTAWP116iDlP7ThVshMWHCcXSfXmUHzTH1QYX0pp4LggsagJ293bB7mUZWekCW1cODCaGXwVGRzof4YKHlFjObc52YxGf6ndxy1tH5rAqRSOpeEPNYZmx1sbwE06iZH4Tlfl6NWoIJBuCzJh8td/+weA9Cm0pfh3zSSf9KRxXE+iCcHCz6lap0n4mVvaS9MVYM1mMJumtt0DNFIy+DF6vM+NwVlgUXdn69j4egorgokRYNeQNXor1LsbdHoARMOnqGbwM3sFqt5Zzm4n3q491AoNjhzjfaTJYR3l3qSv3umr0W2NIUZWqnwSSGPT5HTM72meOzMzO+yRrql7TynSZEx+OY1umnhZFAZvOiNuh6Oq0/Gku+sRacuB/oatPSkn2R2M2+0UCjqnKY0DT6//v2udGWUZRwgwy/b1J7aVAaHEe2Lvq6UqSaA9wM+q66K0Ls0BbI9vKg1jvt5o51ODK6RtAyDyjpin6EuzRb9OlBOJvcT0vw/iPFbmQbS9L4NTep0KVq7Dhwh1y8EA+RGv9NdxRASze/DqeW8lt+N5izrVr7xNl4Isfqq0lQj78p/mDFTlIjVCy5315+iHSRs90pTzjmqy97G2QGQcXT4GF4TuLpRB+B0rWfRziedvcBSm0MKKa+vHQC7OfJO99OPpvDaPVwMaz93iUtN7HDRXx7o8fUqJgRxA/RaNF/hP/GpPEeC/983AQSv+4K2ajWL8awYMYknhe19I8sfjmemSPE7bQNbF+iwXHnqRA1vjg3xAGTkK09SDR2RacrmNV1zLj3Ui4jykWBJK9XhY0uEIohEzISqtRC0mIrjISGjkP47s3W+OVcmfp8eLps6WQ7pbDp5jViOKUdNZiv0LPydyUb63/LSebmcMWaFdQQNsJy7Oeyl35RNDM0j1zuq8noVsSdXD5gvWgum67HBLHsOFfi4Z3goPveCd6ROWUVs1/6pYJzOTtdDsJMAIJcSlgTaCZWAD139hoOb01L3xk2glcSVJwQ+XYzIAn1L/SVFMgsE8Z8KJ4UUAYpLMxJ5IUm5AZHlqKGtjjXQtoFW250CUHDDCVW5xj+gG1tcV2upGz8mWUp1mpO/LEFazhsOw2jOw6tvQtwceF/e1hriepFQOGzrfiOAS0TXDEhY6AVSEhrlgrehPzIhewHBk4KgWlJNCTI8OwojzXQmhOkG9LwCyEUXXtDHXpcEUihaTFfm0m2m/3ZrnHgliPNvN3SvLwscFDxrm4iZwgS/gN8zSAuCSy9sUhyBv/Vt7jDrQvmFOjECLW1QKaJ2MtZ2EJvA/89OhWPdbqQzygKGRfF05cMH+V/NFvwS95RQwFV6MHbGR0wWpeQdj0LtqqlZPbp1f/eZIbylFzwyktl7z3ao94CkuCVR7Vlf4mBlnG5CfPEbvaT7rDxpbUcQnfzZbY92gw7W3rDFxokt7PqT7itj2Q0oNlkTyFCq7JmqxBNGvyD5vsgELDpyl0tTReXOTx5y0aWa/XsZVBau9tTVsd8YKckjUB3Cd/9LkJr0TNlV7s9F3kdv/JdMMQVGxxtZ8b4UOT26qCx+5f97NqqINikQKGBdE52XIvsghJOYWg4TX+X8I1xJqi2kZMvTCdAVL+0jlrR/LC1zHdnRXbfJC5GumZCHtTF0nHXqKXXjBjbc/0XAzwp8scLPb14z4OjXEsoHBo5JfmKUeU5tx+KPQWBYjnXeS1N1qKhT9Z4V1BMMyXUy1aFOl2ZPm9Un6bo/SZ6nLESY/Lc3TAWiN4DyUWorl1pubi6wnH6EQx9bacgWpdoCZejRsadd4Q2DOgeeFTxfsHOnViR7t4toEnHwDvpaotljBdj+96tbUsHj4K03LGHzxKePIXK67YhPtuFVwlf+m4PGqAYcF7ALCMgGDeucDLl82kI8rQ4SdwDvdtTYBgBTKp9CZKlr1KrcRai6N9J6292uq1nbtky7eviifg9190kZ0OMK7Pu/JEP/SIPqOrn15WrG6DGXvOg/c0RxUc6Z9IeQ0niJZPnnJlK2odDjb4xrKbv5YiDIFBhDYRhkPkFKJ5MK8Xiv4eBdFt4zA67q5ZICU0BbtyI1Sl/qhe9/UaPZ3UAOpPlFy9KcEyVWm2J3sAvyCP4Xu1WjF/PkSu3BtnHQajt5+/xytuAL34h7cG1iL9THU05iWX7dAcO+6Zfs9p8o8oiur7MKI6qQyvDk2sCZDjuRuea3wRyCKIbxJU0SHyuP14C+27faoZg2MFh3R/+ptoEMr2RtQYerywKDuCiihxnsoOwXuREPFBgqMq7TC41TCkKjrfpa1rK4AV80F7Yt47CDW6PlOvxaVHk8jCq246IcpVwfyF3JPhxmHJvLmM+N5HRmslfFQB5TrTBk7oKknI0wo2JQT598mtCAJOW+aWPF0FX/M1vn8V0sDtjNH3FMjV3PMImk4a9VFov/xGOW57vkPqrX+NaYSC8jtwKpkiaQdvdAXr91YLQXJfR2cMS6nmM8WyJc8FEwI1NU9SGwkoCl6bntLDTYVHvvw9a4mbt1vi2O/BooMDItDtTJnUcplIcSlq0v0QG7PZwcaHIwptuzqYW8Bkoy2i5iT4STQENsg2YFlDuhEZRs/WWNbf9f2t/4KMc1h9K/gInzgwEHFkbyQFW4wwuAZWHUZ+t8GeBdWzUT9/gFr8bVpDTek8tLoy7EkMtK45uN3l/8KmcXm9VOPox2ugzDbv+DKoOQgLCN+ZfJRk2NPZIXkKWqDAspFmevvkuwkLU72XMiLkMg7vS7mF2PNVU8eyoDi2w3i5W+G1jLwiPdSgH3vz0YVkiGkMHXRB27nhwZpwG5Aw8mIXhDZbYdezZv0VFXBKu2tzV35IU+ovkkGs8Si/8IMEMRCn73BC6LLYoAm/5QElPEiIwmG2mezA3+t8BXSk7BcE0DtZ9Q+F+S7QSFduMl6yIptxhdfPz+QOW5+qFI9ySsoOVBJcR948CteHCqLr62OTv185Tox72P5RZPM20PaBs+0a2i8Z7CJTWuGbc9d1HZcgfp+pFUlCsy52KRRShGc+bv753+MkCJtePVeEYndgC9gC/EJEvyNiEucgjX1VeFpOlT1cB/xy/r+qXltZJ3rwghTWvtXSdLRBhcqHvjcwkERLUb2Yas7B02YrDU6uvt+w2BDeW4m/6azjnBiUXmQkBkYBG05XDIxyYPxrFxTt+cquuysZekl12mo2h006pWLXkS3t1wWreUKncqCjUbcL+yu3LgGhyNyQC5BpKnPKEIcnKfsw9Kg1IetB/VU8dkR6uggkv8b5Xc9jx4ytS6jjgr51ONvThc6rdkETieUs2mPS7AYke887+kZG69nl1YTacTlsBU9zrZD2ydOu4UR1oTdYhoQvIN/EGu/1sKdGV1bS+YfTJvMOyqU1HO5fhLqnqZ86gJQYYPsuTX3zDY/gZP4+8Xlq0qPpVUZapmGmulN+5zEtPvl3o3c3R07pSoJ0/yDq7euvAwsgqadUVW8NRxYMkOeelH2s3Sy/Gbv7T1TEQX0f2nOCzSV9sxyGvaKdWdrZJrdOy1RMBf7WZqf+mPITdnMP70bklv8r8gomZODYRtzjz7+tLIPt9IT3+RgkgjxlzQh4W4+Zle+VejXWCBB+r3lnY0r55QBn3X6KKnZAtxL5zPsyyIvLQVh4k0ip5KmfHd9Xl9e39W23Bxg0s99NQORWg0JJDFhjI4gGxhiWrh2F67T+JzJKabvJHuXRE48RVV5sU63Yk/T5BSR0Fo51+fXN/DgIor9WBtO4ACoDl+iHPwTAF3d62uXEexyjh2I9mJs1vEmTXh05cgEYOvjxJqHFG1r2SPI/QUiCpjIjkImnQdL8EEqZSg/2Q1G2uiVVn57LU3izETayhbREdyyoPdDe9/MST5lV1snGXJDmBi0xjTboxerzql6rSTPltttlN0nEDUfjLcaH1VZtSfYPriNs/mZ9l8f60JRLDiMuDPrDOxFjj7Iaqjb1O6WQI3kXRUArM+EmY57RjWmyzXa655m3BKCiSklBEAJUOlUn+zBJ/PJSRe2rbIAWcK+GVBpTRmRW+rgYetqBBId0irAHKZg5eYa7R9W7zDk8CjXjudZlvHEFTTt2XnWACMbaoVRBlztTKzf3xf0kmaTYb+xA5jv6h9VrqwQ7g7Hq7nWG+RJxD8/jQ5X7dVCcWoNtjWB6vx1fiMezVg1ohvOPVMc4Bh35l1xNBN7hqdiKIQoJWQj+GSITZv+G08Of041OIL52eTlb/K+2xSaGpwuQqsa2m9lCx0s8UwH16vRjb2E1FNkNlqeawcVAcxEmuiHsRz36zD836PuW3kxcMwlgSEqSOdzIlsAklM9q9RidI2GTTPNb8Jx/siJMW2WcmhbSeQiDHnDzjJSjFcxiL2sxVGqWADkkQ1CZ9tGCBU9OILnPx3LKhNF57GyuwR63tpJzlzQuDi4EtMOTpft3Kuww=="
+      }],
+      "createTime": "2026-06-29T20:57:06.346Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

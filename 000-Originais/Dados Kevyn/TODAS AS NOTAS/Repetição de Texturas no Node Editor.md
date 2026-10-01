@@ -1,0 +1,1 @@
+Para aplicar texturas baixadas da internet, tem que ser pelo node editor. Pode acontecer de ser necessário ajustar o número de repetições da textura instalada. Nesse caso use um transformado linkado a todas as camadas de textura do material.

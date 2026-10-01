@@ -1,0 +1,23 @@
+[
+  {
+    "intent": "iluminacao_publica",
+    "palavras_chave": ["escuro", "luz", "poste", "lampada", "queimada", "perigo"],
+    "responsavel": "Prefeitura (Executivo)",
+    "educacao_invisivel": "Entendi. Manutenção de luz é responsabilidade da Prefeitura (Secretaria de Obras), e não diretamente dos vereadores. Mas eu vou formalizar seu pedido agora.",
+    "template_formal": "À Secretaria de Obras,\n\nSolicito reparo urgente na iluminação pública localizada na [ENDERECO_USUARIO]. A ausência de iluminação viola o princípio da eficiência na prestação de serviços públicos e compromete a segurança dos munícipes, conforme o Art. 144 da Constituição.\n\nAguardo protocolo de atendimento."
+  },
+  {
+    "intent": "buraco_rua",
+    "palavras_chave": ["buraco", "asfalto", "cratera", "pneu", "rua quebrada"],
+    "responsavel": "Prefeitura (Executivo)",
+    "educacao_invisivel": "Buraco na rua é zeladoria urbana, função da Prefeitura. O vereador pode fiscalizar, mas quem arruma é o executivo. Deixa comigo, vou criar a solicitação técnica.",
+    "template_formal": "À Secretaria de Infraestrutura,\n\nComunico a existência de avaria severa na pavimentação asfáltica (buraco) na altura do número [NUMERO] da [ENDERECO_USUARIO]. O defeito oferece risco de acidentes e danos materiais aos veículos, sendo responsabilidade do município a manutenção da via pública.\n\nSolicito cronograma de reparo."
+  },
+  {
+    "intent": "barulho_vizinho",
+    "palavras_chave": ["barulho", "som alto", "festa", "gritaria", "musica"],
+    "responsavel": "Fiscalização Urbana / Guarda Municipal",
+    "educacao_invisivel": "Perturbação do sossego é infração. Existe uma 'Lei do Silêncio' na cidade. Vou gerar uma denúncia baseada no Código de Posturas.",
+    "template_formal": "Ao Departamento de Fiscalização de Posturas,\n\nDenuncio a ocorrência reiterada de poluição sonora acima dos decibéis permitidos em lei na localidade [ENDERECO_ALVO]. Solicito visita de fiscalização e medição de ruído, com base no Código de Posturas Municipal, visando garantir o sossego público."
+  }
+]

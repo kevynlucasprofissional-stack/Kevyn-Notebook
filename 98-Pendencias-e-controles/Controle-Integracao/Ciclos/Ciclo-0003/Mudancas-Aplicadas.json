@@ -1,0 +1,50 @@
+﻿[
+    {
+        "mudanca_id":  "MUD-000018",
+        "caminho":  "04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md",
+        "operacao":  "modificar",
+        "motivo":  "adicionar leitura derivada sobre autoanalise/simbolizacao versus acao",
+        "fontes":  [
+                       "SRC-000015"
+                   ],
+        "unidades":  [
+                         "UNI-000013"
+                     ],
+        "hash_anterior":  "150f766544bd78981b25b861566573aa2d49e9f954232f3ed0a4bd2f67df72ba",
+        "hash_posterior":  "4a983a00c2aed74cc8e803377b277668c38570121a78aeafff4763416058c9c0",
+        "ciclo":  "CICLO-0003",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000019",
+        "caminho":  "01-Perfil-e-Autoconhecimento/Narrativa de grandeza e vida comum.md",
+        "operacao":  "modificar",
+        "motivo":  "rotular interpretacao de IA sobre grandeza e vida concreta",
+        "fontes":  [
+                       "SRC-000015"
+                   ],
+        "unidades":  [
+                         "UNI-000013"
+                     ],
+        "hash_anterior":  "52c48b2034ae4b0475f8fae6ceb5fc0cc532c60ccea5a6bc73d0a80c83ca601b",
+        "hash_posterior":  "cda1a2c603ca9966904f88465212b36b1e61cbfb5b604424cd2934347843bdfa",
+        "ciclo":  "CICLO-0003",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000020",
+        "caminho":  "01-Perfil-e-Autoconhecimento/Organizacao do conhecimento.md",
+        "operacao":  "modificar",
+        "motivo":  "registrar risco de autoanalise sem acao verificavel",
+        "fontes":  [
+                       "SRC-000015"
+                   ],
+        "unidades":  [
+                         "UNI-000013"
+                     ],
+        "hash_anterior":  "7a6e6b7cb710a0a22fab8f2517c0cda75513ec3b9308dd1343425c2f429aa66a",
+        "hash_posterior":  "da00fa5bcbcf763baecf36b71db2c603f103cd176bf18f92e149364a4c8a06db",
+        "ciclo":  "CICLO-0003",
+        "validacao":  "auditoria_complementar_ok"
+    }
+]

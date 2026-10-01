@@ -1,0 +1,1 @@
+Trim é igual ao efeito trim path, ou traçado.

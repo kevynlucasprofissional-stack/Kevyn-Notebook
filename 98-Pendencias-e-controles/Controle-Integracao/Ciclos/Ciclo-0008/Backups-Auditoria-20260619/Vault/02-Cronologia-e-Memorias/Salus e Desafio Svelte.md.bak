@@ -1,0 +1,55 @@
+---
+id: salus-e-desafio-svelte
+titulo: Salus e Desafio Svelte
+tipo: evento
+status: auditado
+profundidade: avancada
+versao_schema: '1.0'
+versao_conteudo: '1.2'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-18
+fontes_primarias:
+- '[[Fonte - Segundo cerebro consolidado]]'
+fontes_derivadas:
+- '[[Fonte - Cronologia e fatos]]'
+- '[[Fonte - Modus operandi]]'
+grau_confianca: medio
+sensibilidade: alta
+camada_evidencia: sintese_derivada
+tags:
+- tipo/evento
+- privacidade/restrita
+data_inicio: '2025-08-18'
+data_fim: '2025-10-08'
+organizacao: '[[Salus e Capital Green]]'
+---
+# Salus e Desafio Svelte
+
+## Contexto
+
+As fontes situam a contratação na Salus/Capital Green em agosto de 2025, com atuação em marketing e lançamento de um desafio de emagrecimento. Kevyn criou estruturas de IA e estratégia para o projeto. A equipe incluía Bárbara (nutricionista/didática), Amanda (design), Moabe (liderança/tráfego) e Kevyn (edição de vídeo e copy). O mecanismo do produto era o Protocolo Svelte (5min/dia) com nutrição comportamental e treino mental.
+
+## Resultado relatado
+
+A meta comercial não foi atingida. Analises de setembro de 2025 registram metricas do lancamento: 211 leads captados, 69 participantes na Live 1 e 30 na Live 2, 29 alunos na turma (aproximadamente 11 a 15 pagantes). Investimento em trafego de R$ 3.000, ROAS < 0,5. As analises identificam oferta confusa, falta de pagina de vendas, baixo volume de criativos e rastreamento fraco como gargalos principais. O vinculo terminou em outubro.
+
+## Aprendizado documentado
+
+O caso é usado repetidamente como exemplo de diferença entre sofisticação técnica e validação comercial. A interpretação mais útil é:
+
+- tecnologia não substitui oferta clara;
+- arquitetura não substitui contato com público;
+- métricas e definição de funil devem preceder automações complexas;
+- post-mortem precisa separar fatores de produto, mídia, processo e equipe.
+
+As analises do DS21 demonstram uso de frameworks de marketing (SWOT, AIDA, Hormozi, Erico Rocha) e de IA para gerar clones de consultoria, evidenciando metodo analitico e experimentacao com ferramentas.
+
+## Proveniencia
+
+- `CICLO-0007`: [[Fonte - Analises de copy e lancamento DS21 2025]] atualiza o diagnostico do lancamento e a leitura de produto e funil.
+- `CICLO-0009`: `SRC-000063`, `SRC-000074`, `SRC-000076` e `SRC-000077` consolidam a apresentacao DS21, a contagem regressiva, a narrativa de marca e a divisao de responsabilidades.
+- `CICLO-0009`: `SRC-000068` e `SRC-000069` sustentam o desenho de avatar/persona.
+## Relações
+
+Este evento **aplica** [[Execucao versus complexidade]] e **integra** [[Crise e reorganizacao 2025]].

@@ -1,0 +1,265 @@
+{
+  "main": {
+    "id": "5baf63bf5705786b",
+    "type": "split",
+    "children": [
+      {
+        "id": "193b20e9d8666cc4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48e673893b66af8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "03-Relacionamentos-e-Rede/Paulinho.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Paulinho"
+            }
+          },
+          {
+            "id": "06ee82db4e2f679d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "roadmap.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "roadmap"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "c3877e82e7a22ed1",
+    "type": "split",
+    "children": [
+      {
+        "id": "158357bff7816322",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d75b6787d87b771f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de arquivos"
+            }
+          },
+          {
+            "id": "8285661ea329de2b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Procurar"
+            }
+          },
+          {
+            "id": "664bb0e9fcf358cb",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 387.8999938964844
+  },
+  "right": {
+    "id": "01472494f9e88a6d",
+    "type": "split",
+    "children": [
+      {
+        "id": "882520e39613071f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "37b59ea24142b00d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "000-Originais/300926.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Links inversos"
+            }
+          },
+          {
+            "id": "3714e0190b563cac",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Geral/AULAS FGV - FUNDAÇÃO GETÚLIO VARGAS/Notas/0926 - Aulas de Estratégia de Marketing com Prof. Igdal.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Links de saída"
+            }
+          },
+          {
+            "id": "1fa5e1dff3e7a96f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "d7a4c26fcf912347",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas as propriedades"
+            }
+          },
+          {
+            "id": "127f51ffc30cb8dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Geral/AULAS FGV - FUNDAÇÃO GETÚLIO VARGAS/Notas/0926 - Aulas de Estratégia de Marketing com Prof. Igdal.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Sumário"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
+    }
+  },
+  "active": "06ee82db4e2f679d",
+  "lastOpenFiles": [
+    "README.md",
+    "AGENTS.md",
+    "000-Originais/Alternativas open source Plugins ChatGPT-20260930-1548.md",
+    "000-Originais/Dados Kevyn/TODAS AS NOTAS/08 - quarta-feira.md",
+    "000-Originais/300926.md",
+    "000-Originais/Motivo do individualismo e perguntas para fechar lacunas do Kevyn Notebook-20260930-1837.md",
+    "000-Originais/Não confirmado 997923.crdownload",
+    "000-Originais/Arquivos pesados/conversations.json",
+    "000-Originais/Arquivos pesados/Conversas com o ChatGPT.json",
+    "000-Originais/Arquivos pesados/chat.html",
+    "000-Originais/Arquivos pesados/Auditoria e correção do cofre Kevyn Neo.html",
+    "000-Originais/Arquivos pesados/rollout-2026-06-18T02-45-27-019ed943-4042-7b00-932b-d8921482b9f9.jsonl",
+    "000-Originais/Arquivos pesados/rollout-2026-06-17T21-29-41-019ed822-3825-7e12-82fa-a784d41d6e19.jsonl",
+    "000-Originais/Arquivos pesados/Kevyn Lucas.html",
+    "000-Originais/Arquivos pesados",
+    "000-Originais/Nova pasta",
+    "000-Originais/Conversas e zap, talvez redundantes, mas tudo bem/Notas de uma conversa com o Copilot, não lembro o dia.__Cérebro Profissional.md",
+    "000-Originais/Conversas e zap, talvez redundantes, mas tudo bem/Notas de uma conversa com o Copilot, não lembro o dia..md",
+    "000-Originais/Conversas e zap, talvez redundantes, mas tudo bem/ChatGPT_2026-04-03-18-40-21.md",
+    "01-Perfil-e-Autoconhecimento/Autonomia e relacao com autoridade.md",
+    "Analise.md",
+    "000-Originais/VAULTS_NEO/MAT/Dados ACIRV/Notas/Dados sobre o novo tom de voz e planejamento de 2026.md",
+    "000-Originais/VAULTS_NEO/MAT/Dados ACIRV/Notas/(RELATÓRIO MÉTRICAS) - Fevereiro.md",
+    "000-Originais/VAULTS_NEO/MAT/Dados ACIRV/Notas/(MÉTRICAS) - 2025.md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Vendedor de Pílulas (Economia de Tempo).md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Monólogo vs. Diálogo.md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Medo do Barulho (Tigres).md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Guarda-Chaves (Inquietude Adulta).md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Essencial é Invisível.md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Eco e a Falta de Originalidade.md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Desenho da Jiboia (Visão Adulta vs. Infantil).md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Conceito de Efêmero.md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/A Vaidade da Flor.md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/A Raposa e o Conceito de Cativar.md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/A Pedagogia da Desistência.md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/A Paisagem Mais Triste e Bela.md",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/Cérebro Profissional/Notas/Workshop com Alan Nicolas.svg",
+    "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/SAFE ZONE.PNG",
+    "000-Originais/Dados Kevyn/TODAS AS NOTAS/SAFE ZONE.PNG",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/Segundo Cérebro/SAFE ZONE.PNG",
+    "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/imagens/Pasted image 20251011163225.png",
+    "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/imagens/Pasted image 20251011161025.png",
+    "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/imagens/Pasted image 20251011161341.png",
+    "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/imagens/Pasted image 20251011154942.png",
+    "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/imagens/Pasted image 20251011154832.png",
+    "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/imagens/Pasted image 20251011153214.png",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/AULAS FGV - FUNDAÇÃO GETÚLIO VARGAS/Notas/Exemplo de Construção de portfólio.canvas",
+    "000-Originais/Sobre o Kevyn/Obsidian/HOME/Cérebro Profissional/Diário/2025/10 - outubro/Funnel do Alan.canvas",
+    "80-MOCs-e-Trilhas/Projetos e Execucao.canvas",
+    "80-MOCs-e-Trilhas/Mapa Geral.canvas",
+    "80-MOCs-e-Trilhas/Mapa Autoconhecimento.canvas",
+    "80-MOCs-e-Trilhas/Linha do Tempo.canvas",
+    "Geral/000-Arquivos-originais/VAULT_NEO/Kevyn Neo/80-MOCs-e-Trilhas/Projetos e Execucao.canvas",
+    "Geral/000-Arquivos-originais/VAULT_NEO/Kevyn Neo/80-MOCs-e-Trilhas/Mapa Geral.canvas",
+    "Geral/000-Arquivos-originais/VAULT_NEO/Kevyn Neo/80-MOCs-e-Trilhas/Mapa Autoconhecimento.canvas",
+    "Geral/000-Arquivos-originais/VAULT_NEO/Kevyn Neo/80-MOCs-e-Trilhas/Linha do Tempo.canvas"
+  ]
+}

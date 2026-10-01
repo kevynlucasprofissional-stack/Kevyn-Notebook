@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"55f90ea7f1802f81","x":-1280,"y":140,"width":260,"height":244,"type":"text","text":"Conecta 26/03\n\nOpção 01\nR$ 53/3\nAssociar o CPF da Ana Laura\n\nR$ 160/3\nValor do Conecta para não associado"},
+		{"id":"c3218ed3cf13f97a","x":-460,"y":172,"width":280,"height":180,"type":"text","text":"Conecta MULHER\nR$ 160 / 3\n\n53,33 para cada\nFinal ano (Novembro/Dezembro)\nAna Laura vai nos representar"},
+		{"id":"00878f6ca8f0f7fb","type":"text","text":"Start Up Day 21/03\n\nFree\nPalestra\nInvestidor\nGalera com Start Up consolidade\n\nCoffee break","x":-845,"y":-201,"width":260,"height":244},
+		{"id":"ed56f2f6e9623cbd","type":"text","text":"Jantar de Negócios 19/03\n\nDesde semana passada já tá esgotado.","x":-1280,"y":-140,"width":260,"height":123},
+		{"id":"0d3b716383e90b9d","x":-485,"y":-184,"width":330,"height":211,"type":"text","text":"Custos iniciais extras para abrir DAS:\nContador\nPatente\nCertificado digital\nMensalidade CNPJ (Recorrente)\n\nValor total = 300 para cada"},
+		{"id":"6313e0b4dba69fc5","x":-880,"y":113,"width":330,"height":298,"type":"text","text":"SudoExpo\n9 a 12 de Setembro \n\n- Conecta 196 empresários\n- Associar a ACIRV com o CNPJ da TPM\n\t-  Somente assim conseguimos fomento do SEBRAE 70%\n\nAté aqui 132 reais para cada: ACIRV e estande SudoExpo."}
+	],
+	"edges":[
+		{"id":"e539f04c80677116","fromNode":"6313e0b4dba69fc5","fromSide":"right","toNode":"c3218ed3cf13f97a","toSide":"left"},
+		{"id":"bb1f1c6d1469729e","fromNode":"55f90ea7f1802f81","fromSide":"right","toNode":"6313e0b4dba69fc5","toSide":"left"},
+		{"id":"deaa5b791655fdb6","fromNode":"00878f6ca8f0f7fb","fromSide":"right","toNode":"55f90ea7f1802f81","toSide":"left"},
+		{"id":"9331cc71efcd2e77","fromNode":"ed56f2f6e9623cbd","fromSide":"right","toNode":"00878f6ca8f0f7fb","toSide":"left"}
+	]
+}

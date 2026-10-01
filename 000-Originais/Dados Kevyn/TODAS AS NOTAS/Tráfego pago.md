@@ -1,0 +1,8 @@
+[[Principais plataformas de tráfego]]
+[[Evite esse erro de principiante]]
+[[Taxa de conversão]]
+[[Temperatura na Hotmart]]
+[[Defina seu público alvo]]
+[[O objetivo de uma campanha de tráfego]]
+[[Criando uma campanha simples para afiliados]]
+[[Resultado bom em tráfego pago]]

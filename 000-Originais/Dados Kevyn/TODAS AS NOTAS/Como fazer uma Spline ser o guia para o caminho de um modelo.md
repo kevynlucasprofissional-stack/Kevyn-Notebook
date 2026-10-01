@@ -1,0 +1,1 @@
+Basta desenhar a Spline que servirá de caminho para o modelo percorrer, após isso se cria o modelo, coloque nele a tag "Animation Tags > Align to Spline" e por fim arraste a spline até a opção "Spline Path" nas propriedades da tag. Ativar o Tangential geralmente é uma boa opção.

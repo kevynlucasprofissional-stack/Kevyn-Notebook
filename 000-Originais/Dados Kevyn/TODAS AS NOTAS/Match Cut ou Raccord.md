@@ -1,0 +1,2 @@
+É quando você casa uma cena com a outra utilizando de semelhanças visuais ou sonoras
+Existem 3 tipos de match cut, o de som, o de movimento e o de elemento. Um som, movimento ou elemento que se assemelham em duas cenas podem ser usados para criar a transição entre elas.

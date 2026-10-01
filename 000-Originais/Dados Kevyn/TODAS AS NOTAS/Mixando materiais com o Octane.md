@@ -1,0 +1,2 @@
+Com o node editor de materias do Octane, é possível criar uma textura que de início tem uma aparência, se configura um efeito para servir de gatilho, e quando o efeito ocorre, e também na medida em que ocorre, o material muda de textura.
+Basta usar um "Octane Mix Material".

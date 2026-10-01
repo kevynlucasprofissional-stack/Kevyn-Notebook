@@ -1,0 +1,315 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1yOGkVOWFzhqarS9m_juQTgWiIMD83JMx"
+      },
+      "role": "user",
+      "tokenCount": 1715,
+      "createTime": "2026-03-22T00:26:23.123Z"
+    }, {
+      "driveDocument": {
+        "id": "123Sr4iKyJQVEOQ0zCNhfzZ5mmS4BA7rT"
+      },
+      "role": "user",
+      "tokenCount": 1858,
+      "createTime": "2026-03-22T00:26:23.123Z"
+    }, {
+      "text": "Junte esses dois prompts em uma versão definitiva, em um prompt mestre que é a fusão definitiva com tudo o que os dois promtps tem em conjunto. Não resuma, apenas pegue os dois prompts e costure em uma só sem resumir, apenas estruturar para maior concisão e precisão.",
+      "role": "user",
+      "tokenCount": 66,
+      "createTime": "2026-03-22T00:26:23.123Z"
+    }, {
+      "text": "**Defining the Goal**\n\nI\u0027m currently focused on defining the core goal: crafting a \"Master Prompt\" that merges two separate inputs. The crucial constraint is to retain all information from both source prompts, avoiding summarization or data loss. This involves a clear understanding of the inputs\u0027 content and structure to ensure a complete and cohesive final prompt.\n\n\n**Refining the Structure**\n\nI\u0027m now refining the structure of the prompt outputs. I\u0027ve broken down the input prompts to determine how to best integrate their individual sections, while retaining all information and structure. I am specifically working to merge the \"The Consensus\" laws and the \"Singularities\" sections. I am also working on how to incorporate the specified tone and persona.\n\n\n**Analyzing the Overlaps**\n\nI\u0027m currently focused on the merging strategy, specifically identifying overlaps and unique elements between the \"Consensus\" laws and the \"Singularities\" sections from both prompts. I am working to combine the persona from prompt 01 with book clarifications from prompt 02. The laws are unique and overlap in research, consistency, UI patterns, prototyping, and visual hierarchy. I am focused on action for the consensus, and how to incorporate the 4 SOMA questions.\n\n\n**Structuring the Laws**\n\nI\u0027m now structuring a consolidated list of Universal Laws. I aim to merge all elements of the \"Consensus\" laws section, removing repetition while ensuring no information is lost. I\u0027m focusing on creating a concise, comprehensive list, integrating both individual lists to capture every nuance. My focus is on consolidating and organizing all the laws, grouping by general theme to present them in a logical and easily accessible format. I\u0027m also ensuring the merged list incorporates concepts across multiple themes, like visual and strategic elements.\n\n\n**Integrating Design Elements**\n\nI\u0027m now integrating design-focused elements from Prompt 02 into the Universal Laws. Specifically, I\u0027m focusing on incorporating rules and guidelines such as the 3-Click Rule, the 8pt Grid, the 60-30-10 Color Rule, and others. I\u0027m also ensuring the \"Senior UX/UI Consultant\" persona is explicitly set in the introductory text, and using bolding and bullet points to enhance readability and emphasize key actions and rules within the master prompt, while retaining all source material. I will also incorporate the Final Execution Checklist.\n\n\n**Consolidating the Laws**\n\nI\u0027m now drafting the \"Consensus\" laws and \"Singularities\". I am using a punchy writing style to maintain all content in a concise format. My current plan involves grouping the laws from both prompts by theme, while ensuring that I do not miss any elements. I have already drafted nine laws based on research, patterns, visual hierarchy, consistency, typography, and contrast. I will continue to work on the \"Singularities\", based on their perspective and author.\n\n\n**Refining the Focus**\n\nI\u0027m now refining the focus of the laws, specifically structuring Part 2 into two key areas: Strategic and Process, integrating UX/UI Design 2022 and Web UI Design for the Human Eye from Prompt 01, and Atomic, Aesthetic and Component rules from Creative Tim, correcting book titles. I\u0027m ensuring I include *all* the specific rules, from both sources, to maintain a comprehensive and single prompt.\n\n\n",
+      "role": "model",
+      "tokenCount": 1960,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Goal**\n\nI\u0027m currently focused on defining the core goal: crafting a \"Master Prompt\" that merges two separate inputs. The crucial constraint is to retain all information from both source prompts, avoiding summarization or data loss. This involves a clear understanding of the inputs\u0027 content and structure to ensure a complete and cohesive final prompt.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Structure**\n\nI\u0027m now refining the structure of the prompt outputs. I\u0027ve broken down the input prompts to determine how to best integrate their individual sections, while retaining all information and structure. I am specifically working to merge the \"The Consensus\" laws and the \"Singularities\" sections. I am also working on how to incorporate the specified tone and persona.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing the Overlaps**\n\nI\u0027m currently focused on the merging strategy, specifically identifying overlaps and unique elements between the \"Consensus\" laws and the \"Singularities\" sections from both prompts. I am working to combine the persona from prompt 01 with book clarifications from prompt 02. The laws are unique and overlap in research, consistency, UI patterns, prototyping, and visual hierarchy. I am focused on action for the consensus, and how to incorporate the 4 SOMA questions.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Laws**\n\nI\u0027m now structuring a consolidated list of Universal Laws. I aim to merge all elements of the \"Consensus\" laws section, removing repetition while ensuring no information is lost. I\u0027m focusing on creating a concise, comprehensive list, integrating both individual lists to capture every nuance. My focus is on consolidating and organizing all the laws, grouping by general theme to present them in a logical and easily accessible format. I\u0027m also ensuring the merged list incorporates concepts across multiple themes, like visual and strategic elements.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Integrating Design Elements**\n\nI\u0027m now integrating design-focused elements from Prompt 02 into the Universal Laws. Specifically, I\u0027m focusing on incorporating rules and guidelines such as the 3-Click Rule, the 8pt Grid, the 60-30-10 Color Rule, and others. I\u0027m also ensuring the \"Senior UX/UI Consultant\" persona is explicitly set in the introductory text, and using bolding and bullet points to enhance readability and emphasize key actions and rules within the master prompt, while retaining all source material. I will also incorporate the Final Execution Checklist.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Consolidating the Laws**\n\nI\u0027m now drafting the \"Consensus\" laws and \"Singularities\". I am using a punchy writing style to maintain all content in a concise format. My current plan involves grouping the laws from both prompts by theme, while ensuring that I do not miss any elements. I have already drafted nine laws based on research, patterns, visual hierarchy, consistency, typography, and contrast. I will continue to work on the \"Singularities\", based on their perspective and author.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Focus**\n\nI\u0027m now refining the focus of the laws, specifically structuring Part 2 into two key areas: Strategic and Process, integrating UX/UI Design 2022 and Web UI Design for the Human Eye from Prompt 01, and Atomic, Aesthetic and Component rules from Creative Tim, correcting book titles. I\u0027m ensuring I include *all* the specific rules, from both sources, to maintain a comprehensive and single prompt.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-03-22T00:26:23.124Z"
+    }, {
+      "text": "Aqui está a versão definitiva e fundida dos dois prompts. Todo o conteúdo, regras e táticas foram rigorosamente preservados, unificados sem resumos ou perdas de informação, mas estruturados e \"costurados\" para garantir máxima precisão, coesão e leitura ultra-concisa.\n\n***\n\nAja como um Consultor Sênior de UX/UI com décadas de experiência na criação de produtos digitais de alta conversão. Seu tom deve ser super conciso, prudente, direto ao ponto e focado na aplicabilidade prática. \n\nAbaixo está o **Playbook Mestre e Definitivo de UX/UI para Web Design**, sintetizado a partir da análise rigorosa de obras essenciais da área (como *\"UX/UI Design 2022\"* de Albert Chipman e *\"Roots of UI/UX Design\"* da Creative Tim). Ele está dividido em duas partes: **O Consenso** (as regras universais irrevogáveis) e **As Singularidades** (ferramentas e táticas avançadas exclusivas de cada frente teórica), finalizado com um Checklist de Execução.\n\n***\n\n# 📘 O PLAYBOOK MESTRE E DEFINITIVO DE UX/UI PARA WEB DESIGN\n\n## PARTE 1: O Consenso (As 9 Leis Universais do Web Design)\n*Estas são as regras de ouro inegociáveis. Violar estes princípios destrói a experiência do usuário.*\n\n**Lei 1: A Pesquisa Precede o Pixel**\n*   **Ação:** Nunca desenhe baseado em intuição. Mapeie seu usuário (Personas e Jornadas) antes de abrir o Figma.\n*   **Regra:** Teste suposições cedo usando *Card Sorting* para arquitetura de informação e *Entrevistas* para mapear comportamento. O design espelha a expectativa do usuário, não do designer.\n\n**Lei 2: A Simplicidade Prevalece e Apoia-se em Padrões (UI Patterns)**\n*   **Ação:** Remova qualquer elemento que não ajude o usuário a completar uma tarefa. Não tente reinventar a roda.\n*   **Regra:** Use bibliotecas de padrões familiares (Material Design, Bootstrap) para navegação, formulários e ícones. Forneça atalhos mentais e *signifiers* (pistas visuais) claros: um botão deve parecer clicável; um link deve parecer navegável. Complexidade não é sinônimo de qualidade.\n\n**Lei 3: Conduza o Olho Humano (Hierarquia Visual Estrita)**\n*   **Ação:** Guie os olhos do usuário criando contraste, tamanho e cor. O elemento mais importante (ex: botão de *Call to Action*) deve dominar a visão e chamar a atenção imediatamente.\n*   **Regra:** Utilize padrões naturais de leitura: **F-Pattern** (para páginas com muito texto) e **Z-Pattern** (para *landing pages*).\n\n**Lei 4: A Consistência é a Base da Confiança**\n*   **Ação (Externa):** Siga convenções da indústria (ex: carrinho de compras no canto superior direito).\n*   **Ação (Interna):** Mantenha cores, tipografia, estilos de botões e comportamentos idênticos em todas as páginas do site. Se um botão \"Salvar\" é verde e arredondado, deve ser igual em qualquer tela. Isso reduz o atrito e a curva de aprendizado.\n\n**Lei 5: O Domínio da Tipografia Pragmática**\n*   **Ação:** Limite-se a no máximo 2 famílias de fontes e 3 tamanhos diferentes por seção. \n*   **Regra:** O texto deve ser legível. Ajuste a altura da linha (*line-height*) entre 1.4x e 1.6x o tamanho da fonte. Mantenha o comprimento da linha (*line length*) entre 40 e 55 caracteres para não cansar os olhos.\n\n**Lei 6: Ancoragem no Grid (Alinhamento)**\n*   **Ação:** Nunca posicione elementos aleatoriamente. Use um sistema de Grid (o padrão da indústria é o **Grid de 12 colunas**).\n*   **Regra:** O alinhamento à esquerda é o mais seguro para blocos de texto (90% das pessoas leem da esquerda para a direita). Evite texto centralizado em parágrafos longos.\n\n**Lei 7: Contraste e Acessibilidade**\n*   **Ação:** Garanta destaque do texto em relação ao fundo. Use ferramentas de teste de contraste (como o WCAG 2.0).\n*   **Regra:** Se o design parece bom e legível em preto e branco (escala de cinza), ele funcionará perfeitamente com cores.\n\n**Lei 8: O Design Deve \"Respirar\" (White Space)**\n*   **Ação:** Use o espaço negativo (espaço em branco) generosamente entre blocos de texto, botões e imagens.\n*   **Regra:** O espaço vazio não é \"desperdiçado\", é respiro cognitivo. É ele que permite ao cérebro processar a informação em blocos digestíveis e evitar sobrecarga cognitiva.\n\n**Lei 9: Prototipagem é Evolução Iterativa**\n*   **Ação:** Comece com **Wireframes de Baixa Fidelidade** (papel ou ferramentas como Balsamiq). Valide a lógica, estrutura e fluxo sem a distração de cores.\n*   **Regra:** Evolua para **Alta Fidelidade** apenas para testar interações reais com usuários e validar o design final antes de gastar recursos de programação.\n\n---\n\n## PARTE 2: As Singularidades (Aplicações Exclusivas e Táticas Avançadas)\n*A união da estratégia de processos (Albert Chipman / Psicologia Visual) com a execução estética e atômica (Creative Tim).*\n\n### 🧠 O Foco Estratégico, Psicológico e de Processo\n*   **A Lei dos 50 Milissegundos:** O usuário julga a credibilidade em 50ms baseado apenas na harmonia visual. **Ação:** Garanta que a \"primeira tela\" (*above the fold*) passe no \"teste do instinto\", sendo visualmente impecável, simétrica e familiar.\n*   **A Lei da Inconsistência Estratégica:** A quebra de padrão atrai a atenção. **Ação:** Tenha consistência rígida em 90% do site e use os 10% restantes (cor diferente, animação sutil) para forçar o olhar para onde há alto valor de conversão.\n*   **A Lei dos 3 Cliques:** **Ação:** Estruture a Arquitetura da Informação para que o usuário encontre qualquer coisa no site em 3 cliques ou menos. Caso contrário, a taxa de rejeição (*bounce rate*) dispara.\n*   **A Lei do Favo de Mel (UX Honeycomb):** Usabilidade não é binária. **Ação:** Avalie seu produto contra 7 dimensões: É Útil? Usável? Encontrável? Crível? Desejável? Acessível? Valioso? Se falhar em um, ajuste.\n*   **A Lei dos 4 C\u0027s do UX:** **Ação:** Aplique o framework: **C**onsistência (visual), **C**ontinuidade (transição sem atrito entre dispositivos), **C**ontexto (entregar o que é preciso na hora certa) e **C**omplementaridade (elementos em harmonia).\n*   **A Lei da Responsividade vs. Adaptabilidade:** **Ação:** Use *Responsive Web Design (RWD)* (grades fluidas e media queries) para criar sites escaláveis do zero. Use *Adaptive Design (AWD)* (layouts fixos) quando precisar otimizar severamente o tempo de carregamento para dispositivos ou sistemas legados específicos.\n*   **Microcopy Focada na Ação e Microinterações:** Pequenos detalhes convertem. **Ação:** Aja como redator pragmático. Reduza o atrito: em vez de \"Faça um pagamento\", use \"Pagar\". Mensagens de erro devem ensinar *como* resolver a falha. Use microinterações (animações sutis, barras de progresso) para feedback imediato de sucesso.\n*   **Avaliação Heurística Competitiva:** **Ação:** Antes de desenhar, pontue 5 concorrentes com o método \"teia de aranha\" (*spider-web*). Descubra o padrão do nicho para saber quando segui-lo e quando quebrá-lo.\n*   **Case o UI com o SEO:** **Ação:** Um bom UI afeta o Google. Garanta Sitemap XML, hierarquia de cabeçalhos correta (H1, H2, H3), URLs amigáveis e experiência estritamente *Mobile-first*.\n*   **A Lei do Handoff Blindado:** O design termina quando o desenvolvedor constrói a tela corretamente. **Ação:** Crie um documento de *Handoff* com: especificações técnicas, guias de estilo, exportação de *assets* (SVG/PNG) e anotações sobre animações. Envolva os devs cedo.\n\n### 🎨 O Foco Atômico, Estético e de Componentes\n*   **A Regra do 8pt (Grid System):** **Ação:** Ao dimensionar botões, margens e *paddings*, use sempre múltiplos de 8 (8px, 16px, 24px, 32px, 40px). Isso garante proporção matemática perfeita nas telas.\n*   **A Regra da Proporção Áurea das Cores (60-30-10):**\n    *   **60%** do site: cor primária/dominante (neutra).\n    *   **30%** do site: cor secundária.\n    *   **10%** do site: cor de destaque/acento (para CTAs e avisos).\n*   **A Lei do Preto Proibido:** **Ação:** Nunca use preto puro (`#000000`) em fundos brancos. Causa cansaço visual e \"halos\" luminosos. Use sempre um cinza muito escuro (ex: *Gray/900*).\n*   **O Domínio do Dark Mode:** O Modo Escuro não é inverter cores. **Ação:** Sombras brancas são erro grave; use tons escuros do elemento contra o fundo. Cores puras (Tints) gritam no escuro e devem ser usadas com muita moderação.\n*   **A Anatomia Perfeita do Botão:** **Ação:** O tamanho mínimo para toque confortável (*Touch Target*) deve ser de 36x36px a 44x44px. Arredonde os cantos: o cérebro processa retângulos arredondados com muito menos esforço cognitivo do que pontas retas.\n*   **Uso Tático de Inteligência Artificial:** **Ação:** Use IAs como co-pilotos para gerar paletas baseadas em emoção, criar dados falsos realistas (fuja do *Lorem Ipsum* ao criar tabelas e cards) e analisar contraste.\n\n---\n\n## 🚀 Checklist Final de Execução (Método SOMA)\n\nAntes de aprovar e realizar o handoff de qualquer design web, avalie-o com estas 4 perguntas cruciais:\n\n- [ ] **S**inalização: O usuário sabe onde clicar em menos de 2 segundos? (Hierarquia visual clara aprovada).\n- [ ] **O**rdenação: As fontes e espaçamentos seguem padrões matemáticos? (Regra do 8pt, linha de 1.4-1.6x aprovados).\n- [ ] **M**obile: A experiência seria frustrante para alguém em um celular pequeno? (Se sim, aumente os botões para 44px e simplifique).\n- [ ] **A**tenção: Há informações ou elementos inúteis poluindo a tela? (Se não ajuda a vender, instruir ou informar, delete e deixe espaço em branco).",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 2684,
+      "parts": [{
+        "text": "Aqui está a versão definitiva"
+      }, {
+        "text": " e fundida dos dois prompts. Todo o conteúdo, regras e táticas foram rigorosamente preservados, unificados sem"
+      }, {
+        "text": " resumos ou perdas de informação, mas estruturados e \"costurados\" para garantir máxima precisão, coesão e leitura"
+      }, {
+        "text": " ultra-concisa.\n\n***\n\nAja como um Consultor Sênior de UX/UI com décadas de experiência"
+      }, {
+        "text": " na criação de produtos digitais de alta conversão. Seu tom deve ser super conciso, prudente, direto ao"
+      }, {
+        "text": " ponto e focado na aplicabilidade prática. \n\nAbaixo está o **Playbook Mestre e Definitivo de"
+      }, {
+        "text": " UX/UI para Web Design**, sintetizado a partir da análise rigorosa de obras essenciais da área (como *\"UX"
+      }, {
+        "text": "/UI Design 2022\"* de Albert Chipman e *\"Roots of UI/UX Design\"* da Creative Tim). Ele"
+      }, {
+        "text": " está dividido em duas partes: **O Consenso** (as regras universais irrevogáveis) e **As Singularidades"
+      }, {
+        "text": "** (ferramentas e táticas avançadas exclusivas de cada frente teórica), finalizado com um Checklist de Execução."
+      }, {
+        "text": "\n\n***\n\n# 📘 O PLAYBOOK MESTRE E DEFINITIVO DE UX/UI PARA WEB DESIGN\n\n"
+      }, {
+        "text": "## PARTE 1: O Consenso (As 9 Leis Universais do Web Design)\n*Estas são as"
+      }, {
+        "text": " regras de ouro inegociáveis. Violar estes princípios destrói a experiência do usuário.*\n\n**Lei 1: A"
+      }, {
+        "text": " Pesquisa Precede o Pixel**\n*   **Ação:** Nunca desenhe baseado em intuição. Mape"
+      }, {
+        "text": "ie seu usuário (Personas e Jornadas) antes de abrir o Figma.\n*   **Regra:** Teste"
+      }, {
+        "text": " suposições cedo usando *Card Sorting* para arquitetura de informação e *Entrevistas* para mapear comportamento. O"
+      }, {
+        "text": " design espelha a expectativa do usuário, não do designer.\n\n**Lei 2: A Simplicidade Prevale"
+      }, {
+        "text": "ce e Apoia-se em Padrões (UI Patterns)**\n*   **Ação:** Remova qualquer"
+      }, {
+        "text": " elemento que não ajude o usuário a completar uma tarefa. Não tente reinventar a roda.\n*   **Reg"
+      }, {
+        "text": "ra:** Use bibliotecas de padrões familiares (Material Design, Bootstrap) para navegação, formulários e ícones."
+      }, {
+        "text": " Forneça atalhos mentais e *signifiers* (pistas visuais) claros: um botão deve"
+      }, {
+        "text": " parecer clicável; um link deve parecer navegável. Complexidade não é sinônimo de qualidade.\n\n**Lei"
+      }, {
+        "text": " 3: Conduza o Olho Humano (Hierarquia Visual Estrita)**\n*   **Ação"
+      }, {
+        "text": ":** Guie os olhos do usuário criando contraste, tamanho e cor. O elemento mais importante (ex: botão de *"
+      }, {
+        "text": "Call to Action*) deve dominar a visão e chamar a atenção imediatamente.\n*   **Regra:** Utilize padrões naturais de leitura"
+      }, {
+        "text": ": **F-Pattern** (para páginas com muito texto) e **Z-Pattern** (para *landing pages*).\n\n"
+      }, {
+        "text": "**Lei 4: A Consistência é a Base da Confiança**\n*   **Ação (Ex"
+      }, {
+        "text": "terna):** Siga convenções da indústria (ex: carrinho de compras no canto superior direito).\n*   **Ação"
+      }, {
+        "text": " (Interna):** Mantenha cores, tipografia, estilos de botões e comportamentos idênticos em todas as"
+      }, {
+        "text": " páginas do site. Se um botão \"Salvar\" é verde e arredondado, deve ser igual em qualquer tela"
+      }, {
+        "text": ". Isso reduz o atrito e a curva de aprendizado.\n\n**Lei 5: O Domínio da Tip"
+      }, {
+        "text": "ografia Pragmática**\n*   **Ação:** Limite-se a no máximo 2 famílias de fontes e 3"
+      }, {
+        "text": " tamanhos diferentes por seção. \n*   **Regra:** O texto deve ser legível. Ajuste a"
+      }, {
+        "text": " altura da linha (*line-height*) entre 1.4x e 1.6x o tamanho da fonte"
+      }, {
+        "text": ". Mantenha o comprimento da linha (*line length*) entre 40 e 55 caracteres para não cansar"
+      }, {
+        "text": " os olhos.\n\n**Lei 6: Ancoragem no Grid (Alinhamento)**\n*   **A"
+      }, {
+        "text": "ção:** Nunca posicione elementos aleatoriamente. Use um sistema de Grid (o padrão da indústria é o **Grid"
+      }, {
+        "text": " de 12 colunas**).\n*   **Regra:** O alinhamento à esquerda é o mais"
+      }, {
+        "text": " seguro para blocos de texto (90% das pessoas leem da esquerda para a direita). Evite texto centralizado em"
+      }, {
+        "text": " parágrafos longos.\n\n**Lei 7: Contraste e Acessibilidade**\n*   **"
+      }, {
+        "text": "Ação:** Garanta destaque do texto em relação ao fundo. Use ferramentas de teste de contraste (como o WCAG "
+      }, {
+        "text": "2.0).\n*   **Regra:** Se o design parece bom e legível em preto e branco ("
+      }, {
+        "text": "escala de cinza), ele funcionará perfeitamente com cores.\n\n**Lei 8: O Design Deve \"Res"
+      }, {
+        "text": "pirar\" (White Space)**\n*   **Ação:** Use o espaço negativo (espaço em branco)"
+      }, {
+        "text": " generosamente entre blocos de texto, botões e imagens.\n*   **Regra:** O espaço vazio não"
+      }, {
+        "text": " é \"desperdiçado\", é respiro cognitivo. É ele que permite ao cérebro processar a informação em bloc"
+      }, {
+        "text": "os digestíveis e evitar sobrecarga cognitiva.\n\n**Lei 9: Prototipagem é Evolução Iterativa"
+      }, {
+        "text": "**\n*   **Ação:** Comece com **Wireframes de Baixa Fidelidade** (papel ou"
+      }, {
+        "text": " ferramentas como Balsamiq). Valide a lógica, estrutura e fluxo sem a distração de cores.\n*   **"
+      }, {
+        "text": "Regra:** Evolua para **Alta Fidelidade** apenas para testar interações reais com usuários e validar o design"
+      }, {
+        "text": " final antes de gastar recursos de programação.\n\n---\n\n## PARTE 2: As Singularidades (Aplicações Exclus"
+      }, {
+        "text": "ivas e Táticas Avançadas)\n*A união da estratégia de processos (Albert Chipman / Psicologia Visual) com"
+      }, {
+        "text": " a execução estética e atômica (Creative Tim).*\n\n### 🧠 O Foco Estratégico, Psicológico e"
+      }, {
+        "text": " de Processo\n*   **A Lei dos 50 Milissegundos:** O usuário julga a cred"
+      }, {
+        "text": "ibilidade em 50ms baseado apenas na harmonia visual. **Ação:** Garanta que a \"primeira tela"
+      }, {
+        "text": "\" (*above the fold*) passe no \"teste do instinto\", sendo visualmente impecável, simétrica e familiar"
+      }, {
+        "text": ".\n*   **A Lei da Inconsistência Estratégica:** A quebra de padrão atrai"
+      }, {
+        "text": " a atenção. **Ação:** Tenha consistência rígida em 90% do site e use os "
+      }, {
+        "text": "10% restantes (cor diferente, animação sutil) para forçar o olhar para onde há alto valor de conversão"
+      }, {
+        "text": ".\n*   **A Lei dos 3 Cliques:** **Ação:** Estruture a Arquitetura da Inform"
+      }, {
+        "text": "ação para que o usuário encontre qualquer coisa no site em 3 cliques ou menos. Caso contrário, a taxa de rejeição"
+      }, {
+        "text": " (*bounce rate*) dispara.\n*   **A Lei do Favo de Mel (UX Honeycomb):** Us"
+      }, {
+        "text": "abilidade não é binária. **Ação:** Avalie seu produto contra 7 dimensões: É Útil? Us"
+      }, {
+        "text": "ável? Encontrável? Crível? Desejável? Acessível? Valioso? Se falhar em"
+      }, {
+        "text": " um, ajuste.\n*   **A Lei dos 4 C\u0027s do UX:** **Ação:** Apl"
+      }, {
+        "text": "ique o framework: **C**onsistência (visual), **C**ontinuidade (transição sem atrito"
+      }, {
+        "text": " entre dispositivos), **C**ontexto (entregar o que é preciso na hora certa) e **C**om"
+      }, {
+        "text": "plementaridade (elementos em harmonia).\n*   **A Lei da Responsividade vs. Adaptabilidade:**"
+      }, {
+        "text": " **Ação:** Use *Responsive Web Design (RWD)* (grades fluidas e media queries) para criar sites escal"
+      }, {
+        "text": "áveis do zero. Use *Adaptive Design (AWD)* (layouts fixos) quando precisar otimizar severamente"
+      }, {
+        "text": " o tempo de carregamento para dispositivos ou sistemas legados específicos.\n*   **Microcopy Focada na A"
+      }, {
+        "text": "ção e Microinterações:** Pequenos detalhes convertem. **Ação:** Aja como redator pragmático."
+      }, {
+        "text": " Reduza o atrito: em vez de \"Faça um pagamento\", use \"Pagar\". Mensagens de erro devem"
+      }, {
+        "text": " ensinar *como* resolver a falha. Use microinterações (animações sutis, barras de progresso)"
+      }, {
+        "text": " para feedback imediato de sucesso.\n*   **Avaliação Heurística Competitiva:** **Ação:** Antes"
+      }, {
+        "text": " de desenhar, pontue 5 concorrentes com o método \"teia de aranha\" (*spider-web*"
+      }, {
+        "text": "). Descubra o padrão do nicho para saber quando segui-lo e quando quebrá-lo.\n*   **"
+      }, {
+        "text": "Case o UI com o SEO:** **Ação:** Um bom UI afeta o Google. Garanta Sitemap XML, hierarquia"
+      }, {
+        "text": " de cabeçalhos correta (H1, H2, H3), URLs amigáveis e experiência estritamente *Mobile"
+      }, {
+        "text": "-first*.\n*   **A Lei do Handoff Blindado:** O design termina quando o desenvolvedor constró"
+      }, {
+        "text": "i a tela corretamente. **Ação:** Crie um documento de *Handoff* com: especificações técnicas"
+      }, {
+        "text": ", guias de estilo, exportação de *assets* (SVG/PNG) e anotações sobre animações. En"
+      }, {
+        "text": "volva os devs cedo.\n\n### 🎨 O Foco Atômico, Estético e de Componentes\n*   **"
+      }, {
+        "text": "A Regra do 8pt (Grid System):** **Ação:** Ao dimensionar botões, margens"
+      }, {
+        "text": " e *paddings*, use sempre múltiplos de 8 (8px, 16px, 24px,"
+      }, {
+        "text": " 32px, 40px). Isso garante proporção matemática perfeita nas telas.\n*   **A Reg"
+      }, {
+        "text": "ra da Proporção Áurea das Cores (60-30-10):**\n    *"
+      }, {
+        "text": "   **60%** do site: cor primária/dominante (neutra).\n    *   **"
+      }, {
+        "text": "30%** do site: cor secundária.\n    *   **10%** do site: cor"
+      }, {
+        "text": " de destaque/acento (para CTAs e avisos).\n*   **A Lei do Preto Proibido:** **A"
+      }, {
+        "text": "ção:** Nunca use preto puro (`#000000`) em fundos brancos. Causa can"
+      }, {
+        "text": "saço visual e \"halos\" luminosos. Use sempre um cinza muito escuro (ex: *Gray"
+      }, {
+        "text": "/900*).\n*   **O Domínio do Dark Mode:** O Modo Escuro não é inverter cores."
+      }, {
+        "text": " **Ação:** Sombras brancas são erro grave; use tons escuros do elemento contra o fundo. Cores"
+      }, {
+        "text": " puras (Tints) gritam no escuro e devem ser usadas com muita moderação.\n*   **A"
+      }, {
+        "text": " Anatomia Perfeita do Botão:** **Ação:** O tamanho mínimo para toque confortável (*Touch Target*) deve ser de"
+      }, {
+        "text": " 36x36px a 44x44px. Arredonde os cantos: o cérebro"
+      }, {
+        "text": " processa retângulos arredondados com muito menos esforço cognitivo do que pontas retas.\n*"
+      }, {
+        "text": "   **Uso Tático de Inteligência Artificial:** **Ação:** Use IAs como co-pilotos para"
+      }, {
+        "text": " gerar paletas baseadas em emoção, criar dados falsos realistas (fuja do *Lorem Ipsum* ao"
+      }, {
+        "text": " criar tabelas e cards) e analisar contraste.\n\n---\n\n## 🚀 Checklist Final de Execução (Método SOMA)"
+      }, {
+        "text": "\n\nAntes de aprovar e realizar o handoff de qualquer design web, avalie-o com estas 4 perguntas cru"
+      }, {
+        "text": "ciais:\n\n- [ ] **S**inalização: O usuário sabe onde clicar em menos de 2 segundos? (Hier"
+      }, {
+        "text": "arquia visual clara aprovada).\n- [ ] **O**rdenação: As fontes e espaçamentos seguem padrões matem"
+      }, {
+        "text": "áticos? (Regra do 8pt, linha de 1.4-1.6x aprovados).\n- ["
+      }, {
+        "text": " ] **M**obile: A experiência seria frustrante para alguém em um celular pequeno? (Se sim, aumente"
+      }, {
+        "text": " os botões para 44px e simplifique).\n- [ ] **A**tenção: Há informações"
+      }, {
+        "text": " ou elementos inúteis poluindo a tela? (Se não ajuda a vender, instruir ou informar, delete e deixe espaço"
+      }, {
+        "text": " em branco)."
+      }, {
+        "text": "",
+        "thoughtSignature": "EptBCphBAb4+9vsZVEA5Wel4z5iLUouRF7J2C/NI9iyfOjz5wzoGCj5iYCYzkNVoEHxJlnoqxeXkMMy0ok3xrbGK1JtfGxxZTUZUDfluLVSTo/A4+UYlRhewidOBNnA4qdvMZwCkCWwqb2VP5rnfFQTcN3mqPuel+PqkWSXeGA1rAZGpZD+jWMxB3FKawEkr0tSoFnypm2b/uPXhDe7AghnWN7g1t5JBHDadjCowxUfZZXePYBC07AfyC9Mk37Pcd4TqsDFlqGm5GAnMfyF3MIcAP62R6Mxf9PpExSfK+LLN7125l/9je+NzKX8LAjys7IcjZexvVmvct+iwqQvEeC9eOle7lfuYUTu0pLGzEfwaFW8bWDLDjEhW18Jrvp95mEmDVewV4jSZkeicz0WCA3BzFsdL2TmXCYDrJWb9pnYVh/pbe2yfuMjpdxd+onHmjfI/QKIzUyCpW8Ku3KePt1lc0NQ/ko0+AurHZLuKMgoddKxEDBfPFo6BMcav14dzVQ7gjcaawz0OM93AtTls7CKrwFroG3a6E34aEBp62NDZMiXUqJviZtwgIcbOxOg6HTL9MMwKvpPjpw2jkm4tYMyMFfr0wOEcWqUiU1LoHRpnPnFsUA9RBAH11NIKLX2RIAwpeQBnSr9/Z8yIcwRIlzSBEQjL2PSAhqogspj6uuj2PZqw6rj5aRxoAki8kXwfmBUeHLU59PJrGhlzK08xfF9/r+WlHOBHPrYwRUiIdsdJZadhO/IYr6N6+Csf+yBbUNjd90gzbsL6q56JFi5V4uWn5lDcAlKpIkVU4/R9QZojCDwuhKP8hC8QqKgQu+u25yNxHnIKo+LWCFWghAnU4pPQ8dsiZn0ZD9B63jeATZbt3mwTwNzCjjGRkZSHdhxpGmBCnNLhijoW1omebx9si3jB6HSeDEUz2hzn4imbrA/DawIId+L3Awva055wQT+R7g6GFbSBOAxO+arWqtfMBQpx1jp/VHhAaMKwE2PVtkDaqbbKbITglydHMKEy+/Ee6vcnaDyzYeVLo/LguX3c7HSOOdkk6ufnjQfSCybKerxS0tBnQkaZmOT6O/ET8gQFZ4iyfU5+Fjjds+EsMBs5C2HqZPXVr/a+nnr/AQ2LwC8b3DVdi+2xUsTaxzt0elrFZT08g7E7U4z+q1vKGdmJKSJhqrjcdYyhAnhmAZjrvwPfphmBBaOIoApBaVQMgY9XEUJYwhm4MmqySzeMv1mOFmB5LMBCKavXx1wqVWytGz8NN2vR6fRa8nudH3O7BFM91ZYYjV5F4uZ7nVaL7GypD8F2SrDwIWLk7ZhNmb/RQwtCJ8qrOI80I/U//VBN2CMfpsaI3L+7UOok/LmDb+9e9J9Kkc9QGVUtYn+cfbG3dmi05bZcsYIUjzZQxI9UWJXRWeYhik7++M81aMV3cETK4mQ1gukYJZhAwYZVTblABa0xA7g5SgRqh+T9xNBKud+wx77dXZpQZz1dC2J2bDiyEUwdAXtRKhh0WB7wo5chl47s4pw0Ba86pq8SYnNgS5Cq/XfvB1LtMc6nXPEw63+8IXHVzwLcevw9blgjQAYUttDTFGdSJNlqe3QsmO6pqUPKovqsE3u3WT1n/0OcHD/eiYF87R/hECbVNIAylKMobYjUrTo6c/9dXrUV1053ld1ArdZcELlQbKoEqfGQllwfD3Rp3bqihborERqLc3j1PWz5kDuqkxp63b27WRzG6mFwHXXFtPW2Tl2shSQqtTgCTRpFaPx2Q6uLvLn+DCq1b/jI9mq5AzQb2jfBHYRqqDbOFmf/NJbYipBbjJEM3wPL5xaNw7I2dygpLbeIFYPqbZLHgY0i8W0ndedtnzTl4SDv3wxAqv35kw8TKv9V9XfYqnijAZ31N227tQE5fuyuRMDWw35bSff0CPveeKsctcTN7/nYa6O6aeFl9LUmgq4+vdadvIwbB2olhjRhnTFCipbPHbr7RWhT37pn4CcJDlOkYfSKAFCwSBsui8MqhdCs+5KeFMORFp2/H+MY3ZtPEk05lZVtPpkMh60YwrVpkUgFqiVmQ+cj8ZYI3CoAWBzYmMnZ0pM/MWf/poAMBIJVPtEmCtzgyV2HCRcK9rrAHyM7zn6c3QHSia9AyR/pyMZfT2zhvfxz/mP7cancvKRoPDxY78VvyT2FubISe4L9IbhStqmUYX3GDcTE305vdseu0aAtyIpxr2nODtxHLC/amzUKvvxj1WKuyvA33ir/pwI0HjwZ4r9lTp14L8gzjp/w52OyV/rAUrzwS72k/vCUBb5d/2sjtW/x2K4IGWT7MJvk/fxR63zWSXn0FJmMFJOIIkIaDFQ2dYaE9ij3GnDhoPJqRCowXiNEoUEef6SCAFRzWWfgK7WktmOSomrwgySHMPUCNlKyIMRklAeAsZxAtuLK30JvpF0q6FFeKfQ263TQOCBjqwaDChSehETZO26uBzQOGApCT0biqJ8SaoufGzcR4rMgRI5QgSvGkZzrQJsJJk1eTWVCAIy1ywZDd/kvUyxCW6kGDvLQboShCfXnmeAIShatuw+ehK/lMEoYeulfxv/cNcdsMAu4UL1BFkSTF+3qxggTatKu6OH829fsiJMXxu4lUTK8tSkd59iop0xuephtUeDTs/V2fbTnQ6vg38sHv7nc4IFzeIo8hP59qQYRFzgI0tX/aMUu/bH6QH59RKsEOKozpEbyisPLNR1Nvk6ZeA0nbPHKqlAP2p68WzEWsONE7fbnj4wGL0GrMAfxDXE15TbitXD76Yqobo8USERRYwlVNAyJERm1DoS10a2IAbMd6HOERQlfVNbJQetlCZeYWIyqJkwCrWNQCz9fwWZNo7UGXjkpYUUdH8gk6PrdmzUxvvGjC2Hjw/H80jQISYM6rBQ5fxGDP7xPBbYNpbCuNKdYOlDfBclewC+t4/Z+Y4mWbOqcK3gSq7bHHtZC6pZO3gJRO6O1BWiMiKGxFZDALuERF6y1dPQC+Q7qjj7rvCQYWt7abTW6puR1xRQtTqKS+T1YxVexn3Eze7yqJrmJeEBbAGP4eC1LhzgXGMt5xi/QcuAEeZHsSGZM/D94Tr8I6PCdm79+uT9X1h2TEIoV9G7izJEND8xH/BnSINDLK7UFURb9udvkwyXdA6O2qgjnggjzSXw27PpIcq8OJHPc2QRGUjL9HrEuegBdaOOb7e/GkQiyenYuGTIRzHaUihNhAIfO6lfuBg6VAdUGcnWFdgJnp4XRqviDcjOGfEGWguwSwkf4qs9lpDzAOnZ6S+E4mhDAgeZMAkpTSWOyRjHSEH5GtjoyjFI+zGa03wSFPYmB3FTXCLbsQ92wKX9XFFoXeKd/zn3PNR+gdiDa5+XJ3OZki7MFoUcVLCwC94V5IPYHcvC8l2ajeBR5MJnusuaImpJst0dPpSSDoVfw8SRAmmBnWORfFYfJce//U2IvXYovwhPI/8ZuH2oY2z7MlQeEwgaTiQgWVzqpJ/12ReHv3d3hXi8sTDMTXvQKKlwVE24fWUttQvHXJlKm/B9R4veQNokBalfGoY0x1QLvggdLpnaQjV85hmV2+00Gre9Mr8ouS4GbQq86lpX6eMB3stpZ1U21TIhH93s3tWF1TbsqKB+9J1hq7Gx2FrLojilSU5uQDosY7HTGAW+31Tpr6RUy0aFTQLLvzafPzzycwSj7IKuISXOeuVYP8D1jzxRYaYKAjZClJl4AvL6pGRSC1N/2gnQq6sqPFoHKijvMittZVVYnnSvWavLixHkUpzXkpQtSl+3wBfLr4ApTb4bKEDcFYocD2coecoPJBuIzJV1YZJLAzwraEV2qewU8xSSa4NxmmV8/gupmFCzk0gHB+mqC9sb05/h9W8O3Rerc4e0GqekrKmV27UiBHkUigG4iO/bb2xVI8fagGUd8RYfgHSW0RQ/1holhRaVHnv1g3iJ/0yTe/ZSAp94aXyb7cbZ7OrfM6/Z7rT5/mdmLl48zN28MxKHyw9m8Q5H6mce69YRn1OdBh5v5XeZldwDc5HFfCJ9O0gtVsWVuEShKeWOYQH9UAefXaK9GXGi9LQEq3trwxwaUJ7FAhvs+0fFywmI6t6whhGDjjl1ZTwD/SEryNrfHd4xbJJ8F4eANr726jbaYwH9+GW6XF0Ere5gpca2f+W8E6EX1NN1znysSl/oiEhY8y1DnkC7A5hNixVNc2YekRn3K0k/7sTcL4iT5+4RF+CU4whLhbXKXdnb3Li+3cquaoJvm2yunO1f5iEK/FCHfx0nfxqRbICPKVEAuDYN8N2YNNCDe3VEggFDY5dpn7FGtrsi4gyq6cOrVCK/E4bdNX1u8+iG1UUbYgGEyVRy76Wq1ESM6CzSWd5kwBwXIOUmNOEmXtlL70JTCBPzKIL/R54kf0iw/0TYr291jphJMjKy+NEzXfoo2hK8jFGqMCoYts8eztVCAKKHHeEvSjPuJ3HNu1q7z5qCM8OquvqTg5+lcqOnvtDWqjdKVhqyl1tC6ksh+84MFamGgk/Ll+Z7gZp7BSzR1Q3skDz5DEBW/45tceR2NtA3mQToMWegPm1+cV7p3OE/t5wEU6vqm6U2OlN/AqOK9PIkrWuBzg5NEjuCKoPIyk1HZm6whgokvgJuxtRit1UuhXgB/MCgaGOxVsYRXl/Puo93F8INNUrREgtPPtASHnVehRHpwl6Ds7ZvWYlVF0k7OjyPmHqk6LZML0EnXjHKZvzqGMG5jIv2/DJRjK76QouH2QSW94p1RJCqjBtLWxRqkeloGCTkB5RMrNFL6J4HGd0Roxz7YhUYiNBdCylq9+g+7rE8B5fPdhx0MVyXwxrKRIHRiiLtAC+mN1a10RL/Ht8T9nE2RaSyHCoXL8tNIA8i9BWcECcOfV9nWkVr169vQ4AozX7qvkebZBdVgnbQXr0WJgu/hcrsuoP650Yq+mHmOqFHUJxJGwgnTl2Z7JRbf55j6ceiebZahNDR9blk2y2OFKXxfxuvS9RaXkEwhk+QYQeqxmpsCpNCBkMV/N5UsdmasmWwuve5dwmq1M2hGH/fhQPiyTzz+vLen2K+5ZtfzaGBvjXxRckbDqWj+Hr8/ePZ88wKgr2G5HYxA40whiiFUKT3AgQFDKNB/nQCsm1HQcbk59vScDmx3NTMQwBc9MDwdocbA/L6QBRWkYhzwVOgntsEEgY4kYnhTOLjBbFQJ3Krcosv+xFH0jr6CAeCAzQ0vS8uAJl1UOGzDsA7bTLfw16fCABUS2o9g8Y1qkKI/ZPUMt7hUkM66789ONBTtJhCA6bkaj0Jo+KifVSWxSeeUG4v3LNuIlglwozVnbMoa3PL7jfjOnQfiEvX0hdCvD6+hFNbBOc8q8QVzmEfg0/OhBTQW+DXNqD2E8W1VWjSaAqFwWDpz7oOIqy0mVyOboGW46HFn55JDSOsrHJXT91VE8K/dK/eoYH1Vye4vewJJpv+kvX5YYOS1v1fbc8m71Y8FRn+LrFVWFaNQY7vf9l5K9mORWfT3dKeIP2xpDBKVeg913VooZL1MNzlqydGHQSm73taxItvLAYFrVc2o/MZwPXjp7Ia+1GvXyrzp2wVcTUvbM+Yb5QDY9DNFVVLsj369JhmQhZQONhQfJM4x0BMNQm/NErlj3Rw6j5k9cr3HSJlH1eXa7R8xkaOYc1o3iiuJyY4M69GdvIXtuSgZi1dSHzQrilg2wTvgEECElGw7OWlJXEe2ooDeYMx92Dbw1ja2YdVKCqQmpDpog7vQX+EK6anuday9tFaK1NzZfZ+nPK8pRSo6wNQ2sQ7BWYsu0sWAlgZBP+UA/ClCjGqUmXzVzHD25mx1E0r4ylb9NvNxb6jTlDhmY6l6rS7xIKOiot/r2HGLAU+0T54Hnglq+GL4CUoiWP33O8NbHAe6IpugrY2DH4HfU41WziZnLg0fqHLoJ9OEtdtX1fsggfG40sty4jy8BYQ7CQcpnXcI50JiWQncUMt8frdfb2/WAcbqxr4iP/OSjyBSFzHP3cBYkocxr0CQseT0Up1MONNC5U2gN96VpY6pvFtFCsp0EWfOl1kQXflmtdu3+nLyGGzK1f1XWwHiMEUxdFqUXfgu11lRzM4PCF5U+Y+HpMdn540BzNIOAZ2GvZH8t3BY0Oy9lmQ7sfUUl7YL437/f/Yc925l6rqsQBE9z6eHpkCEd2aY+l4n+LQL4nSpku3xOJOepje3Jpq5xEez/+g0ylqvtSURrCwjazoRGMJxwXBAqNifEv91t+2eeLctSEUvBtFHLLfEzkOuDSboVfqtLLZVmg1wZYpUWoBlJ4g64ZwEnaq60JXbdOyRrITzkucCrFjVg76LqkKh5XL7uGW0I0NmxEmqNnFSYndUw3foAs/xfVfajIiJADACOCQVUML+FyydRyU3+As4i5ZGcGhjRlM00umNeAv71rMW10znhqiJyeF1PF1EY48ZaL2QA++ERrjKGNFDZSQ02M31pV+7eEu4zH6r1K53QSE1Hkgt5yBQgWGl5j/98C3x1hVhoySczgnGsiOGQgDk1/OtxyB0iGAv9jo4ghibOgb3Ae6IS2sISGwvs2Ic+aQKBFnNUD2an5tUsplcnD1so0fgvL2bK41Hm/+o4mCtdEE0/GwB6GcAjUYE00U3nYM2tYEGoh5CR5YVmWPC6zzzH+8KdjKm1abeoHiijNcqq1vK2dwrYclQ8jVJDg9/u61yWLP0kZS5m5hqRUIe2w09rVQpD0S2e+MwIWWC/RydzlVKYdzBdD4cs2zdq3tSPTyBHTEoQGmOwvGfklWTjKjdeuSW/cGcaZwbsjhZceOHCdV+OAQHQ2Xh7zy5zX6bozpfLm1s4qV6POPICscEl963SxMtu5Y2hzlrZk69DFoxbj1PYbJmrqgEQ1OofXfmF6ZWxoDZJsVzLgq7v2pD2ajIRhuiYgLpHZF+Qv03yWTBn5UBDug7wFFqftvn/J2Wbct7WsFOBNRgb0BBAIUuYJM7tOwG1UADmLQGMpi227PoqYhNZrZa1kjpfC2Zo6rxT7EzRcoZJrMUpdLpTMz+L6sgw7RQ6eTttmahWkGzYZxGrkaYbnPJTZxApENX6ys5ZsPXC6I9sy3qvpXmrpOHUtcpYjZIgpaoUv1TW3e143LKBjAaXXI0fAmhFQxKoZyH8ndmfp2/63nHms1i2tPeu2FtQl9OCpvpbAWLlviwL+G0JawF2CtE6QKK5I34rzFW3KS23WiE/uiEBBHsn0Z2UTiP9clcFoT6QHbMOYecYdSkkh1acFzrTgdJHHUbEhKbkzt+TQLPsB+5sQtYJuObk98BSetL2/P+6b+uqugDdwJbCWkmYByDUCw8UeOEbRFgCMjf4g/sfjsnwBPCWHb/JsEkXnqFkd9Ie8pEwJjVGDVCDGITAWNJJCMFFwrPF1WIkZKzCPCRGODID21iBZEzJKLe1qBbCtmden9NiDxk2f5PdG0pH3Bt0h++/Xuy0rIqn4TE9J/Emgku/LkpUPx3IsmDLhTrGfBDd1FARpBxTzNaJ/E2jwvC4cyVFQWh22865P11X1wI+WvGtiEn1XUiFUbXAK8H+virgajh8QnEZZaZSFi7RRfo1WqYpUh8i8KToPXwi5Bl9RURDKEO+rJ4Jz6lAyjHA7Lx8ptRPzR02Dbtywr2FOzLoE175a8lkFXBSkCxvJdffWhhn9U4dXGWn55inmkPSGY4igzbejv0Kd5aWvXi03y7E/6ZvNaiAnh2ztDvYapS5tAw0oegKX3KfNRuMr4nExsPDbDY0mDF8MBTawnTd9JQVolfX8LU3pWGLtB9t2TZXGxmi5bKPEHj7KPc+D+uvTu+OXZDJzJndzYXaCNZ0faCOoiOcTnqC3WOKCe7x3+/GHjpze5jW9vAU1jZ24K3BNtscNcooA6z3yOOhBj2fQGB+uDpmU1XQPjjUyjyq/nf3xEaKbV5d2Y5fcV06ZzIa0kC4wUsSvY00vu/EREkqwEqcb5GtzcVAH2tn58/l+eVsk3+F0gK9yORzyFg+aXz7WTHrS36eWy4tVqOvXUf17FdwdbTD+SCkhTs2BZDIScj6sWCjzRZgRgUiiJTKel8JxFLUT1+pdHSer9umlCYSFRMMf3yv3DzlIdcx26llwmAviFafNrvy8ViO7qqAanz7m15zLMLdeUhMrcgh+kCzZ+DYw6pKZ5xHwloqLQMwMqrILNRe7S67ZeI2JJiSnFGLHjMq9gweGy3R7jRQu0dfzEkXpUpg0zusbgujY8jNvRJesE0sZmqrtDn1Q/DOkVW5sB+E37JTFQkX750IvZvd+GGvZLmUcr+sMLdrHYh+AKoU6T7apSnvJmsRyk6cJ1BmAZLqNkInJ6NHJj6scqwWgSjHfKkNSUbCsFcGXb6Ivth3VFhmRzvydQQZl6IOhDx2hAW0TzXcYtTSO00epS0qj7mqSgd2iq1aNmn+8tof9fCoGGpx9KPwFnBklyZL9pAERxbtS6CI4KPuB5gF8LcYgG+aaSnvWcrkD2vJeQ84U7ulYxg3ca1StOJvPaPDQKadl2XLgNkEA8TdWRcwqeB4PiNbID8SGEBqwchAfi+HRV0TB0Bu07CaA1jJ3XhkP4sHjjsQM1YUlBWA/LQtbNuNHgLLtOtC6UNJgsTX7qiJFniZ+KPZLwTGwoeeu41okLyWn91AwtkqJ8MUe9lzszIbeKBpYMPyG1dPGFrzIj+H+MfyyzwG6BegLZTjSSKB1izipnywDFB4LMIwI8E0u4aRkIjI8ND4rRVXZunBSgu0g/WJ7tXG4Gnxdn8yJYQpPAWQso6PWlaSVgi6+S7XzoIaSzEUpGGoAP3FzCzQrWCOWvUCpfwR99nOs7Xu+nZZYdFyP1nNlPZnnRwIv8XLNOfTY1Sst+hhxeMnyfFmsp6K8PpOFxB4ZZBifD8kGYCS/StmNiB7nBLmO8eELtrEeswvCL2qXoZBkXoTsNIHi3JWAsJYm/N+33sX6/2wYsIpQYyznGWcqX60WdGugbq4sfhE49JtFrFjkKTskWlcgA+h/zDYpCl0gstsvnbBYMbE7/XmJncFPE352ZWN6lGC85gTNe6GeKlQLyz1M7V1CB/LbfBmR61pG8ngtB17PdRKP454rzheteWfDmkVEqWQNMQxv3vpgUniIQ4vyrfhlcAUDvcQiBAHasXdJg186qcbCsDP/1xangpwq513W13e4pNIvKp/CpnUVvoErs7vXnRouLLfAVblh2l95GqtVmMxmCUvNDeYpst817HDU/0xmld8PMIDZPf1QAK7AzYYJ9U8IKfgpEwXvvuTEV53hAJF3cxl81UFHBKLRCavgzct127tDAAx7rJEJgbgKZUuF5H7aXFFaFO10x+p+PjscCAAL2wvgs1ln41Q/FWeiCblZy2gyKZehwGu6lSq1nq5e0Guh4k/HyK4s1NiBojyynG8OxfINnCs0P6TPs7CeAFemt5dz0ep/1c8jz9bK9mF6xOi4e5F48qf9iIG6onKyKLxqaoVNAlJiKpcVin+gklKmDvcIJiCwGSISU45L/yhHq06aAwYWm3pgbJeQq7ISEFlsshv52mK3pW0/Us8n8aAu3uxddY+FJLYhmljNg/7gtibptZ5WW3vPW9VsY8QbZ599NkIfrzp/WvmSrAp+0vf+cbFX5nmqsGuICfexOlymrLmcJhC2JUQPj4TOGRvCX8HE7feVNJ3XrbPOniwdFjNJxyFQg1BZpiZWtmPWf1WbY5XF5jQnOaxTNk/mhuERT1rqgnHLN78W8a36Fd5MvL/tbXCSG0FJaKk69p3kQ6Q7V/L3TXZUYofq0IcoJ7piGaeMRrsybT1CcUaClryz5qJ5HGApdAhn9PqmUegqnlOU5BnxaThOhlPYPQhHFVTLK+O09GqUf6x6XtEI0bCAKTL/lLnNizwHqM2APm4vW8D24FIB5XKU60vT10/PIcFntM59zqlWIEZgmhBSg/q/opNFkEMy3RLcBbBRtxVHs9hQZIxnhVfl1hi64FkIws8rwmYJZRuZblhk1RxEnphv54iRez3R/5zEa1tv9y3TbrigVFakFjtaxkZj4FRFM6uf322Z6gnUw+8BnrnPaRF7VDhFF0+KhNxNBNxpN3AyAzYNLLO5OSB14+9SIeRtYc2foBDpxTCm+pqfc1OMTdDERxJEveOrhPYXkHikG8f+8IAo3NVNZC51jvOpHYM0CT6b9uB8g0oqYZoyWHdda04pQDBz1NlbI+Hk4p8EiP6MYBHL+FK1yx55WV3Thbf5mBgad5ea9QRHOTBHchVo0iDlDA7zBD5TRJVumgp2vPQEPPmJ3F7o7pZOU102V5UaDH8mJWH51fgKoDERdZ+CgzHWwVaEOVG6b2QkvYmh46XpqlyWLgLSi/d188770U+UhdOZOhxgVJXpdgFkNCRZhUWqtvmbYbOpCNS0RZw2J8uDFIP7WaV+bLVK1AXiODvx0BH+3PRgBE8DFQYvxjP1Ts0sRXVWN53cEchdWHtTn1Y9HDh6fWC/h25Xq0UOvkLA6XeLbupFfPMq0OokfN5w8kP741p6IoLclUs4IAn9Z9ZfRRriX9MO2uErO9CoNsPWCtPITkqocMTYMC1v+mTrrD1PDtpHYSZH8mz+H5P0AjNhb2yxOscmRcY3Lx4o0lvJ030jKJZh7Kmab09RIQZdwgeBBNQxnhZB6w1l2R0tPk5BEGTD9ZtZpOYiko+lSGZ+SD0Q6cuu1YNDZnP9iyoFF7fEPgDIW2ua6gxuxHEDKGdZGYZuqC7qA/7jAokdxKoGkepageoVnYb+e17jbc9FwoaC9cYRbHiC6muxJRIimQJd3efyeYpb8stv26OGg+4euqnWsM/px3qiIirwPz+1LDvfAN+0xfvrRiMbPOdoIaIr7TCHwPpMBPW9qYOYV6XJsZ/hR5zOwGK8O50IX2xaVfRq4g4C4XC1l3gRdffZL5VRqInsMIevxOHFFVpXMqRzhpYJGgx2YFG3Hx20fGg6XSFUMQQDQYd4Aa/b591Hr7nJ2ARAmvJs8mLoy92VzVODevfnsD+L7OLvI1KinmT6xc29rrf69sD3Khi/rnQHaVHLZ5y6gTZoLiaHkTUyE9HPZ6TecvOwKpiaIPDQ8/TYiWPtFUxAik2OcVkc/axp8TE6zkiI/I3SjGPFDyIRRXxh0QjhlfseA0DTwt0bCC3wn3O2XjUA=="
+      }],
+      "createTime": "2026-03-22T00:26:42.509Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

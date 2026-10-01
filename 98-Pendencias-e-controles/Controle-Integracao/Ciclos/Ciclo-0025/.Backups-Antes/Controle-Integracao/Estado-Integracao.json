@@ -1,0 +1,65 @@
+{
+    "versao_schema":  "2.0",
+    "projeto":  "Kevyn Neo",
+    "data_finalizacao":  "2026-06-18T14:28:54-03:00",
+    "ultimo_ciclo":  "CICLO-0024",
+    "auditor":  "OpenCode Agent - Loop Master",
+    "status_global":  "concluido",
+    "arquivos_fonte_total":  2923,
+    "selecao_100":  {
+                        "fichas_total":  100,
+                        "lidas_integralmente":  100,
+                        "com_placeholders":  0,
+                        "srcs_unicos":  100,
+                        "matriz_validada":  true
+                    },
+    "notas_integradas":  {
+                             "linha_do_tempo":  "atualizada_com_40_eventos",
+                             "trajetoria_profissional":  "atualizada_com_cronologia_e_metricas",
+                             "projetos":  "DS21_Salus_ACIRV_atualizados",
+                             "espiritualidade":  "Thelema_Daime_Espiritualidade_atualizados",
+                             "autorregulacao":  "Vontade_SMART_Diarios_atualizados",
+                             "relacionamentos":  "Cha_e_Prosa_atualizado",
+                             "fontes":  "804_novas_notas_fonte_criadas_em_total"
+                         },
+    "fases":  {
+                  "F1_diagnostico":  "concluido",
+                  "F2_controle":  "concluido",
+                  "F3_revisao_100":  "concluido",
+                  "F4_aprofundamento":  "concluido",
+                  "F5_arquitetura":  "concluido",
+                  "F6_auditorias":  "concluido",
+                  "F7_encerramento":  "concluido"
+              },
+    "auditoria_tecnica":  {
+                              "yaml_erros":  0,
+                              "json_erros":  0,
+                              "csv_erros":  0,
+                              "ids_duplicados_reais":  0,
+                              "links_quebrados_reais":  0,
+                              "links_case_sensitive_false_positive":  4,
+                              "placeholders_fichas":  0
+                          },
+    "scripts":  [
+                    "loop_master.py — orquestrador de fases",
+                    "loop_execucao.py — loop de revisão de fichas"
+                ],
+    "limitacoes":  [
+                       "4 links com divergência de case (negro/Negro) — resolvem em Obsidian por case-insensitivity",
+                       "Notas-fonte criadas em lote (19 novas); conteúdo a ser aprofundado individualmente",
+                       "Interpretações psicológicas nas fontes são majoritariamente geradas por IA"
+                   ],
+    "revisao_ciclos_0005_0010":  {
+                                     "data":  "2026-06-19",
+                                     "escopo":  "CICLO-0005 a CICLO-0010",
+                                     "artefatos_verificados":  72,
+                                     "fontes_verificadas":  44,
+                                     "hashes_fontes_validos":  true,
+                                     "fronteiras_validas":  true,
+                                     "cobertura_valida":  true,
+                                     "ids_duplicados":  0,
+                                     "segredos_reproduzidos":  0,
+                                     "status":  "aprovado_apos_revisao_corretiva"
+                                 },
+    "ultima_execucao":  "2026-06-19T00:00:00-03:00"
+}

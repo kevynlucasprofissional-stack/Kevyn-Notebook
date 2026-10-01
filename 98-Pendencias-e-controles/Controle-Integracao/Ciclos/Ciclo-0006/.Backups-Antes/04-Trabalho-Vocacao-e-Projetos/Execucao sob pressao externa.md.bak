@@ -1,0 +1,52 @@
+---
+id: execucao-sob-pressao-externa
+titulo: Execução sob pressão externa
+tipo: padrao
+status: auditado
+profundidade: avancada
+versao_schema: '1.0'
+versao_conteudo: '1.0'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+fontes_primarias:
+- '[[Fonte - 150626 RNIDIQAOUP]]'
+- '[[Fonte - 070626 RNIDIQAOUP]]'
+- '[[Fonte - 060626 RNIDIQAOUP]]'
+grau_confianca: alto
+sensibilidade: alta
+camada_evidencia: fato_corrobado
+tags:
+- tipo/padrao
+- privacidade/restrita
+aliases:
+- Execução sob pressão externa
+---
+# Execução sob pressão externa
+
+## Achado recente
+
+As revisões de 6, 7 e 15 de junho de 2026 repetem um padrão: prazos, destinatários e consequências externas organizam melhor a ação do que metas pessoais abstratas.
+
+## Interpretações possíveis
+
+- clareza maior de “pronto”;
+- feedback mais rápido;
+- custo social do atraso;
+- menos espaço para redesenhar o sistema;
+- prioridade definida por outra pessoa.
+
+## Aplicação
+
+Projetos pessoais podem incorporar estrutura sem imitar punição:
+
+- compromisso público limitado;
+- revisão com parceiro;
+- entrega semanal para alguém;
+- prazo curto;
+- critério binário de conclusão;
+- demonstração ou publicação.
+
+## Limite
+
+Pressão excessiva pode aumentar sobrecarga. O objetivo é usar estrutura externa como apoio, não como única fonte de ação.

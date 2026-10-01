@@ -1,0 +1,1 @@
+Organize os arquivos no photoshop e no illustrator antes de passar para o After.

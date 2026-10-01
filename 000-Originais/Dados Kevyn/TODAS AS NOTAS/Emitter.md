@@ -1,0 +1,12 @@
+É um emissor de partículas, dá para colocar qualquer modelo para ser a partícula que será emitida, basta colocar o modelo como filho do emitter e lembrar de marcar [Show Objects]
+Como sempre, existem vários parâmetros personalizáveis nas propriedades do emitter, como por exemplo:
+## [[Bithrate viewport]]
+## [[Bithrate Renderer]]
+## [[Start Emission]]
+## [[Stop Emission]]
+## [[Seed]]
+## [[Lifetime]]
+## [[Speed]]
+## [[Rotation]]
+## [[End Scale]]
+## [[Tangencial]]

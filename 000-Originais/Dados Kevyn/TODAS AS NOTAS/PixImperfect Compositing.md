@@ -1,0 +1,1 @@
+Não sei ao certo, mas parece que ajuda a criar composições.

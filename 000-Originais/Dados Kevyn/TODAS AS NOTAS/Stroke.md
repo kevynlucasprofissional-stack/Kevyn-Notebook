@@ -1,0 +1,1 @@
+É o efeito de traçado, usado para fazer um texto ser revelado como se estivesse sendo escrito em tempo real.

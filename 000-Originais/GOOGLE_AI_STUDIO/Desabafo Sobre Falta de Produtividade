@@ -1,0 +1,133 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1Y8PvqGn1T1rERxl_lVgcxzS63iz5DLF6"
+      },
+      "role": "user",
+      "tokenCount": 8420,
+      "createTime": "2026-08-04T13:16:05.402Z"
+    }, {
+      "text": "Transcreve esse audio com a maior fidelidade possível",
+      "role": "user",
+      "tokenCount": 12,
+      "createTime": "2026-08-04T13:16:05.402Z"
+    }, {
+      "text": "**Defining the Core Objective**\n\nI\u0027m zeroing in on the ultimate objective: accurate, high-fidelity transcription. I\u0027m prioritizing not just word-for-word accuracy, but also the nuances of tone and pacing in the audio. I\u0027m focusing on crafting the initial framework to ensure the output truly captures the essence of the audio, and meets the user\u0027s needs.\n\n\n**Analyzing Emotional Nuances**\n\nI\u0027m now zeroing in on capturing the emotional weight of the speaker. The initial section reveals frustration and self-disappointment, expressed through slow pacing and pauses. I\u0027m noting key themes of work, study, and social obligations. The transcription is underway, focusing on faithfully rendering colloquialisms like \"Tô puto\" while capturing subtle elements of tone and hesitations.\n\n\n",
+      "role": "model",
+      "tokenCount": 1362,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Core Objective**\n\nI\u0027m zeroing in on the ultimate objective: accurate, high-fidelity transcription. I\u0027m prioritizing not just word-for-word accuracy, but also the nuances of tone and pacing in the audio. I\u0027m focusing on crafting the initial framework to ensure the output truly captures the essence of the audio, and meets the user\u0027s needs.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing Emotional Nuances**\n\nI\u0027m now zeroing in on capturing the emotional weight of the speaker. The initial section reveals frustration and self-disappointment, expressed through slow pacing and pauses. I\u0027m noting key themes of work, study, and social obligations. The transcription is underway, focusing on faithfully rendering colloquialisms like \"Tô puto\" while capturing subtle elements of tone and hesitations.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-08-04T13:16:05.402Z"
+    }, {
+      "text": "Aqui está a transcrição do áudio com a maior fidelidade possível, incluindo as pausas, repetições e hesitações que transmitem o tom do momento:\n\n\"Tô puto. \nTô puto comigo mesmo. \nTô puto por causa que eu ainda não terminei... \nPor causa que eu quero entregar... muita... eu quero, eu quero entregar muitas entregas.\nTô puto por causa que eu não ando rendendo lá na *RayServe* [ou *Raise Serve*], e isso compromete a minha dignidade, isso compromete a minha honra, isso compromete meu amor-próprio. \nTô puto comigo mesmo. Por causa que eu pratiquei só um dia...\n\n*(Pausa)*\n\nE eu tô puto comigo mesmo. Por causa que eu pratiquei só um di... dois, dois dias. Foi no final de semana, né? Dois dias de... de calistenia, desde que eu comecei até hoje. Tai Chi, eu pratiquei Tai Chi também. Dois dias de calistenia e Tai Chi. Tô puto com isso.\n\nTô puto por causa que, essa semana, eu acho que eu tirei só dois dias pra entrar em contato com o pessoal... pra tentar trazer pessoas pro evento da... pro evento da Paola. \nTô puto com isso. Tenho que fazer isso logo, tomar vergonha na cara.\n\nEu tô puto também que eu ainda não entreguei a... \nTô puto porque eu também ainda não entreguei o vídeo da... da... como é que é o nome dela? Da Carol.\n\n*(Suspiro forte)*\n\nTô puto por causa disso.\nTô puto por causa da questão do vi... do... do material do Ítalo também, que eu ainda não entreguei, nem dei uma resposta pra ele. \nTô puto por causa disso.\n\nTô puto por causa que eu não ando caminhando de manhã. \nTô puto, puto, puto. Eu sei bem o que que eu tenho que fazer. \nAh, eu tô puto... nossa, eu tô... estressado.\n\n*(Pausa)*\n\nTô puto por causa que eu não ando levando a sério os meus estudos. A formação de *Data Science*, parei naquele primeiro módulo de *Python* e nada até hoje. \n\nTô puto por causa que eu ainda não organizei meu quadro no Trello. \nTô puto com isso, mano, porque isso trava a minha evolução, isso trava a minha capacidade de... de gerar entregas pro mundo. Isso trava a minha capacidade de... de gerar virtudes pra mim. Tô puto com isso.\n\n*(Pausa longa)*\n\nTô puto que eu ainda não organizei meu... meu quadro no Trello. \nTô achando isso uma merda. Isso não tem nada a ver comigo. Eu sou muito melhor do que isso. \nEu preciso rec... eu preciso reparar a minha dignidade. \nTô puto porque também eu não tô compartilhando essas paradas com o pessoal. Não tô postando em canto nenhum. \nPreciso consertar isso logo. \nTô puto pra caralho com isso.\"",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 702,
+      "parts": [{
+        "text": "Aqui está a transc"
+      }, {
+        "text": "rição do áudio com a maior fidelidade possível, incluindo as pausas, repetições e hesitações que"
+      }, {
+        "text": " transmitem o tom do momento:\n\n\"Tô puto. \nTô puto comigo mesmo. "
+      }, {
+        "text": "\nTô puto por causa que eu ainda não terminei... \nPor causa que eu quero entregar... muita"
+      }, {
+        "text": "... eu quero, eu quero entregar muitas entregas.\nTô puto por causa que eu não ando rend"
+      }, {
+        "text": "endo lá na *RayServe* [ou *Raise Serve*], e isso compromete a minha dignidade, isso compromete a minha"
+      }, {
+        "text": " honra, isso compromete meu amor-próprio. \nTô puto comigo mesmo. Por causa que eu pratiquei só"
+      }, {
+        "text": " um dia...\n\n*(Pausa)*\n\nE eu tô puto comigo mesmo. Por causa que eu pratiquei só um di... dois"
+      }, {
+        "text": ", dois dias. Foi no final de semana, né? Dois dias de... de calistenia, desde que eu"
+      }, {
+        "text": " comecei até hoje. Tai Chi, eu pratiquei Tai Chi também. Dois dias de calistenia e Tai Chi"
+      }, {
+        "text": ". Tô puto com isso.\n\nTô puto por causa que, essa semana, eu acho que eu tirei só dois dias"
+      }, {
+        "text": " pra entrar em contato com o pessoal... pra tentar trazer pessoas pro evento da... pro evento da Paola. \nTô puto com"
+      }, {
+        "text": " isso. Tenho que fazer isso logo, tomar vergonha na cara.\n\nEu tô puto também que eu"
+      }, {
+        "text": " ainda não entreguei a... \nTô puto porque eu também ainda não entreguei o vídeo da... da"
+      }, {
+        "text": "... como é que é o nome dela? Da Carol.\n\n*(Suspiro forte)*\n\nTô puto por causa disso.\nT"
+      }, {
+        "text": "ô puto por causa da questão do vi... do... do material do Ítalo também, que eu ainda não"
+      }, {
+        "text": " entreguei, nem dei uma resposta pra ele. \nTô puto por causa disso.\n\nTô puto por causa que eu"
+      }, {
+        "text": " não ando caminhando de manhã. \nTô puto, puto, puto. Eu sei bem"
+      }, {
+        "text": " o que que eu tenho que fazer. \nAh, eu tô puto... nossa, eu tô... estressado.\n\n*("
+      }, {
+        "text": "Pausa)*\n\nTô puto por causa que eu não ando levando a sério os meus estudos. A"
+      }, {
+        "text": " formação de *Data Science*, parei naquele primeiro módulo de *Python* e nada até hoje. \n\nTô put"
+      }, {
+        "text": "o por causa que eu ainda não organizei meu quadro no Trello. \nTô puto com isso,"
+      }, {
+        "text": " mano, porque isso trava a minha evolução, isso trava a minha capacidade de... de gerar entregas pro mundo. Isso"
+      }, {
+        "text": " trava a minha capacidade de... de gerar virtudes pra mim. Tô puto com isso.\n\n*(Pausa longa"
+      }, {
+        "text": ")*\n\nTô puto que eu ainda não organizei meu... meu quadro no Trello. \nTô"
+      }, {
+        "text": " achando isso uma merda. Isso não tem nada a ver comigo. Eu sou muito melhor do que isso. \n"
+      }, {
+        "text": "Eu preciso rec... eu preciso reparar a minha dignidade. \nTô puto porque também eu não tô compartilh"
+      }, {
+        "text": "ando essas paradas com o pessoal. Não tô postando em canto nenhum. \nPreciso consertar isso"
+      }, {
+        "text": " logo. \nTô puto pra caralho com isso.\""
+      }, {
+        "text": "",
+        "thoughtSignature": "EqcvCqQvARFNMg+ahxYUCQbmH0GkvivUMc52vGmRboeSBv0i/0azrokXlWtVlD4YuTl0xo2DwG4G11OXzZQ00pkfaif/AsIFFtd+kQBXl3WSUNurvfGPIK6cjzAAhK32zyoYsHaPVTCPDi1AMCUmdpzV8kzlQWyrL0P9uY+7B2J0HhT4ARvOl62cb7W0Ql5gHovt/Zaqy+QuvJ5DNb4xcXgTuPFLEPTy3epXBrXLzN0O+Em96MRj42xMGCf7oubBf4zC+aLGGDjmxjyI5maDLkXuKnsJPLDKCInjyytJxco2aj0gvntrbACN9v3el3gAOvRjoL67pL7bmHVPJ91u+9KcOVH4myPYV4UhRWmr20vA3XUvUaGwHw7FEILLXsmdYbknVBnqzsOkjEGfR8pgPwR6LH7SyoQeP8doK0xzTY7Ls2ej/R2+CVa+0e+NUP2kST1M0DJsU4PGkcj0+mBsliuXjJa03DexeUtmX8iX3PVZJzjFfiyuOMnrhq75m6XEtb5YpJjnDEBSD58pbPADdAq1MNDSV7mc0BZtMnXEzV3WzR4IQbH9/8hwiAyMtV+nLO9PuuBGnXzV2ZMpTaHQp5mQX63gie6pPvt216UKgNUBWpYNdTOJSNZRPzZ/nkgnJcT5TdFABSdDqm9hHuc5q2it/RX7Yv7e6ho0riASSu46uQyABMi2b2j6OaQ9+Z2B+t/unFwBLuxh3A2nlG3YTqDNoOca9k41/zngsZie6Xqvxc9fq0QI0XOgADnVGoOXJNjzyTrCxR6BqgrN2368scU3a6VVi44EiQf61RP8TdZty4T3jWwJjbM/uQhnlKaXbKIhWc2OFbcs/+2ALjCjBv0wxufgfJmyLL1PhsPIIKeoi8Dz+UZ4cyAeAH8jbWAUwjPHN1PMfV6IaPROhbhXGAdrrAC+vKMcY07HCMn0ZQblSt83W+ezyThjgSO23bQ0RwNJv+rJToFct9/wuEd90AujNzSRg6smDUPXNoK9O3X/eq9beTsjp4WeWEW7orxaYWnYFmsq7PxbZ35YhWF5VmvEqomsdnk6LLjSRQgN22K5TbAUmh9cFYeBR1qG0wwyfBceYgB7G5T14HTaKdIjfzFYerdTZE02xL8FE0wjgPCSEdh2pu3KNxyvYDHyZTWhLuRmDm9vr0sRKmrhdly17gCh3YQvg1XcaJ6qQdCpH86pBI+h0KfcFyUBkgUzqGADrsKdiMn6LCMNKPYxNzAy4cL32c6yrJGQUPXCj6I+gXuloIErveoelzHmK2MXLel2QODnJqCMJzoTaEikGjynP3iCH0ggZO+1S4O1J6q0Q3TL4w21yntVN1iQb/UyzNEcX5QuRFOcE2WvXi2FhTU0GaZnPlA4HhPBVGXi267JjQvygaDIQy38hECmWGUafM8Hmmg2bSDbPA+amYOr6/rIdDfwQfMe6Busbx43jydATAPhcfbOGThqODl5z+goFOJl/G62RF7Sk7qZrksNLxquWGMud+hLv7K4RQxmsy2Q/0jw2fnXNCVyfQPFrfWmX/4D4sXr9K4+r6x21yGyGu5R5WHIEnxeki8HdbPYtN7HMruABf+f7srxjyIaX/6hmRTJM9zM0itAXuGwmp38B/YmxO/UBs+Bs0MoXmdViwaUFYq/f/jZXjWkiyx8hk+zhhGFDgrYavAl6Y0QKwGMgZ7YiF3NhyxMtVPQIxooDaOf4Vi2FGcN/AETuRzw4b00HCskZDlRiJcTsSzwphXgxaTXfcvGvfc60+eIEPViHNQFzV9DNyE/nkScZxojemfNTSyR+XyuxQG4/5gd5EdSYF+A5ZMVbgnsV7eAC2tLnzj/OPagK0xhESyRIk2EM0LrXA+gKLGBwaT42ZJuSp4QkqaczZC8L9ajeBzuWBgQ4w8/0illEMYVfE/BV7JxI9dE7w1A/jJjWrP+f/MLJKYTRQz4x4/PYSKguqqGD/jbPTfaJfIXtcerdjTB/wu4auwZS9J8aQz6JeqbtxQSC5kZdopTNgMGjSAcNzL2b+9pWooqcNewCxaNTqBA9BG8POUOqNork4DQ+qEOBwtBz7ZDFox2wRNHHBKYOAVbBngCaZ4V6WnFL92i3HW9IsJJnXDwp9jn+9IXPix0tfBTTCFkBKlcCE78iA1BsWbnuZGumS3KhVC5DGD980Jc+5Uu3rFmLMzJ0gTpTXFFox4oqRHqEKJYCZ2+lLMcU/2nP2T6Io6OPJ8vD2ySR5t4NXxsWGx5X0nwJRUGJq735jPOpFPay80jaOND2e1dOnCWaseC2pN2Yad9D13E3pTAb8A5hxJfOMWUQgJiYtgy6fhYZXrRodI4Fi41YkSVDIQ+x+uzM1b7Etq9UARk9jANQ/TgNnwFXj5s3yt6PbybjJGqhrG0heBMGCbPUBSA94H5JkSG3GwgolPc0zmWcBc/Zm0xW8pg8i+9wTfuLUTVZmwEEzYrsASYNF2t4pTbbivZU+H7jZZXj2anjzPkW/tI3cc8zInExZIz2eR4rWBXl+Ircc9tnFxS37SOYtPCWWj1sRvbVvxf+b4i9y4T7yHefrK27NSz6JBsGX6xQv0Ip8tsALr08IefntyKp1nklahcuGdBl1talJ4gsJwXx7YhuzhCgYmFTUdwHOmcL3xD0rrawwWQx4gyz5Ad3SYqGacgTHPRWe4PVgV6sTlK2cCOD4QcoSK0AzWe1guaH1B2XXR7JTOhr9q3NSdwdBapD9RwU104sShM2lCc8J/dGcBuqxVSIBAspVZO+TKhmoHABH+i5E7MPThHBl5+bq2/VgCQh0bydKe8UuZg/Bhv604/dUuPv1SPbTk8UN2wZ4Wg6/2cGWHll0cKVr6gIf3bQz4rSC0vN8kAvCEsDwOlO3uuPgJT/EBZjG4hEEFeuOpq+Zh5vcgTVAn4mUeR3fmg5wnKj49ouXeW1Z+ay7PjHgo1dE2EFDnQfWdIL0VgQP69aWIrEjosZitbEst4n4vQoJ4ijadlwV4vuToAi0n+xMSJLWhkbCtc+VDK9nJBTJddpHbkQza37gUp6DvwlnVuWWlbpEpzukOMIHurbByhwOirHSqG//+UTEaILZn7ycD/r/PyYhHGdBVIugedEi+kB7RUZwjdB2/H99Xk/o0Zl8keJeLW7f8GiqoJ4d+MwpDSeVYWzQwiWBn9ayov9XP/onOfykF/NtshNu9hg8EJIeF/r2GmnPhv0T3Xw50tpSpqYH/xeTBVTaqMwY15N85eIf9lzR4ZRPVPPEEnh8bzpuTZCZ3k3pmwdPQI0hG9Agxwk6gan7bnDB96HVo7VPsoYjY36aI+wDIM+JU5J7SToTJka0SnY+X8HBLyeqWc8jUf5wrrp6B0N3YtOyndNdeNBWM7PV0kis6WFmQPvQbm7OQ9seVSiNgyRODp3gIXlnI3TsSxT3hP1IOsDzGJf3HDI9n8iawscv5jgaeGlV1otjkCJGu3HatDtUomX8nouO8KQreoxNl3MjDg+yey0AjbUn1WlKqPxDxQ4ZT26aWGNcAVKxtOMG1qbXX0ECi58N1w0sZIUduUM5hclDEM3jpO2svhXScyylOTdMFGL3X1b80FFkUHWC1ckteQVVruFzjr9qAuaXfZF3DMjvUzBhDulH10P4zImRzhHONb1U86sI4NVXMqJQRmxjBWRe7EVtO2oibJ04qDDmiFifRPs4z9pKdnu16ElipmsE1ywih/E/7ds0GFOMfqK7YcEeHe3j6pdM+6xZbrDT76iPsXJYt4awcYOgIDsfDL1SF+HdWJTY6LhQ7F8/k0QpdK1g2inaZy0+Rb7oaJu7U8qN2k/osJunTJUFXGqUxegmDezQ4+5sOeSRnwpt7zjZvfUZBngssej+oL+7+6YdXC/RFxH9xnsEKTN82ZnFeQL+313+u2jaxGcTfWvuu1XJ1Irn9gOvOu2W6ywh+f2aqM9EPLclg2IKo79+Xo4i0B0fdir7fyCU9QrW8zO1edjyhfUj6X2vJmXvuWH+Q9GXfd+Psvxd+2gMO4pnDJjF2rdBh9swHuLeBHMFZGElQprQ/Klom+VxAHDiHhejThFdki7KOlkbWMw8pehZCqruNHH1op7DLnjcZlwoNEzk+/T7nHLpxOTgFrjRleYRwEOPix0oSEL86aJMdmdlBoTJ5t3B8q/DtOQ5t+NhYB0/B8/xeeMoVDRG4wXUEX6rApRk++1wKc31Bu7gPrZbc+Wypbcw/sa/UOKmp7Df8cOjSmS6lMjf4P4t8OhGVVEjWJMYtQAFkCVEBgTSq04IBmj3c9PeV5rnRBJ8WWXPJqzskgTU6s4xI49zRMxajzPxKokTr323oi83RfU2vcK+RKG/AhBcDECIStNPZ5I5yfbncIEWhl7oCLn4ssNhRjG1J5E9VckZoo8IkwQfTOvx/F1/YVMgO0kMkPHWaSr+iu1lPEa+NvwTS9lpiOdlfb8DsOVe7q+A5sVljPv/SueUEjLa7K14cvxD0XG8cwJI90KR40oIqUG3heD1sbpYjBQ40phGgbga2kC3vdT97KNw+ZZ50E8bIkN/ExEATH+aoXFNjWb2ECZbXML70FwM/ymNoGsyL26V/cMAdONsMVeRHyXcjFV/t1jLQuMTC66darG3YOy7RFw32IyXlOjWXn5BIFkbk7FOUUZyi3RRY9HQBpS9ccIFiJ/SYsAcrhT6haTjU6bNYETiCmfaPHTRrm64eugefsOvfcf0mVQHuPT8GhYcPRQI10uoj6f3ylw4FKNyrqBYDab+hCXj56xpcdTUFzXZQSUrMQyq22h8UgZzYXuqhNJszJWE9/9A7yPJ+OhGkxZuDGk20R5vSuJBULgPu86gn26BYoUUhFJkBtsCB8zXa2TCqCrgwPoaMkoHi8D/S3nz7BCi1uC+ihr1PyrL0WeU+ZmfWqFKGAxutLofVMwXYi4RZufeb/xv9BvNVuOZnj/I7k5EpcYHWjtyQY/Rx6IC1X7MGuDO7oEn7/qBQq65/TCAC3LokUWchuumJF/3nytczxCPi/Iyl6mO5VAJzCTSAf9ZB92NYw3PgZNnfMAUbhreuntmCrlDusiDCZdwtDWwKkBenkk+BRuWintrruMPiJi/pWtMITXsyATYn2fWdoKwCmPBU/BB/wWJY15ViOAZL8OTjy8YhpdL5JD9AUKEoNrbOcs+Fg7B8UfFUifPkqW/hqB63dTLhbgaj0Uji/gX0t5ulw9fY6W+pj9qQcZ+/qieuhDWibSliaB7/o3Aor83VPi1x0iwZlX0M426xA8Rsxs76BVAt6YyLQhZzQ+dxaayi0K5+2X3VyT+j1TAcKCGfq1xTJHqTwpD4LnvEk98JTwKzjcvbGoQPTplHAuGMFDUa/J8+CcxRsUtJAhD2XfrAvXqZ+yIVY872Tf5xUtaxMqiIqCltiDp/JEzCDj+kuP1Q3P8ACBJznAd1dwK+wqte0s4vUakbI/sd/G/fSj8kosz24YJNhNuknD0hWYPPviHcBBlQtG2Xj2e2NpAySTTzdDQeBfW3GE9nojdmQXnUhNt4sJWazfiArwTG8jNuLD+x8lKPEb6nkh0vVqFwn7H47kw0gA9zlp76VPk9gIpeNwkd9uQoietbvPuXq0h7pU7fY0SbX0FfpI3DVREVDyq9gY1dUOECQ0l3X2FzikD5zyHdYh9J+d44l9z140quCB9N8zW3VgFTorS1o/8BXFgwZYctwIWEaw/AEr/I7L5loFzh0wPLrsPFGe2zSzriF2S5VCVKISZwFwkdfyhqif/9zq7nLdmcoUdOIqATrMD/Sy3cA00jvQ8QVFyC2pO1hachw8xM50s/zEo6te8GDIMRdWkdw6xgX/Lh8bh2B0G/QrESjgzo0rVB1k8U6foXXbW3WHEW5je6tapUBO+lYNa+aZNA6SSlkVmFAEf4u8Say0qymvN8OvuKLwPnoFTQcne/XDEg5T0kO4NARFKM6H+IbwfrOIdtB7KF2ALByB5U5km8mJD2T9BUidkID/MyRLJ4H67DBb/+VyHWf1jbwVvhQ34egaVpNqAwiwXbs7+gA8OfOsqlB5snRKtFOIyB29PhGFSv7AQ0VBIw059sgMvSPUN6mV9Zdpp09Ei7fv2Wk/4YYWO30gxyo4lotyUpQjabdFc0z9W/TNeexSZ1QghOAO4EUSJaywQGPGn5KEPk0fD8HsPr5t2/himAH020Q/yVf7N0iVFc03TAqTHoi7MKC05x5/kIQKgykYSDivSAXNsLpvcicvH0C7eunfBj8Hqc9qihVJo81NcVhySdrgzy3ZePgiFRvfM5Vhdj1+JW4kb9pFWjdgwbwhigH0SvhDn8tcqCrALsqZF3YF8GkOKmBx/SC0UtXW/pPROob1PuBu5DOw7BkGrmHRvXbgofOQo9Fi55y1PW6zOLfyHgRX7FR0OF7WSqJWqaXd5Mz3B3rld3VcMzU6WNFFQ8NwQ7m4fpj76HlsJk2nO+1R+y7L6AHPF/ZkQv62kagCaMeqV75bQBLwfrWQpXlMf+m+eJk9o0N+U4SqoNhey2YefEHWQsmziibTQhPbCdiheiDj5Z+s9oiyQDjRJIucU2d0lURsw1eCZu5DR7eUSetXBsj7SRiyS38nPlrkkR9edNjBKH0ETVfDqOl7OveuWhIXPYBsi/gk/eVAlQ4hFkDnCFDSQMmAqPe7776OIOpDX1UhTicxttECMwHR+1+O/kR7dRmsd6fd++YgS/0HKia2N2LbmIHvz88KNXz0GDrurJxAT36cvqqDGiArcFwCgFlRlC1yXr+t9tRXbfH/w9qFOiBP8hc3btS+ijvdh+9IWxuLkRPM6mygFxd2J/FQ7mvJEE05cZX63jTIvrA5Z+3BOWGK/2DN0EnuSYltAawHqkvck4yFKiutEe+SVskwjTGYSTA2B2UlFOgFhxODHHPINylSEcPcBajn0Vv0jsPxGANFI30iRaadApa97/OroBKCCv0DtX4WprtPTL6QY5DmhnTKmipj00wxH0QV0lYOL72Q9NyDubmp9wqFGq9ofrxIhqj8zwF8teS+JMcx7V3Nt1DWo8+xxcUWM5ddh/5ezxXeu0DuDVG2FFJG5fJAdgt0J9UmXwZaRjOoUNCYIxrztcrwtSJWurKpz/tUL9/uXig3juR3UxIRg0UtenlUYHGU05dZ6FslMIXuCFkQ+WWS+w4IS0M/wroZbOh0ZZ3qhdttCx9j71mMq87b2du4zmZQqwgL+JQmRb4jO6l8BowxeJupifdElAwKwCL5fYn76mgodEhVIMEpLTWLnQlv5gvm2FL1KmeH5JWBlU+qylB+ddmQuTUkL1guBEDrQ1BnFnv5mIQFUhC98uOGyKUZ3cMhWE3pbDiEIkbmiF1G0BWwYQWqs9oMlHIIotMe7o1C/iZPPcUYxddJxkvqbTLurpttGXrCqucrAOMB6toMhr6TDI4Lt/lkvV6GapjTi3c/mF7NdJ9giTJcMujLrM41ufXLMWkmKqFASaIFriTmGCI6Kreth3F9kBYCRWPmz9uBvKIz/ZYwAm1VvL2/HNhxKk3nyQV7dLIu+6U0n0my6oChZjRjgJ303E1KAg83ssJm3xIktSZ/tZEuwspCtOhYZsSXH1DYNQuk/2leym5ZmdGB29SdCY5TRpGUTqLmlvrbR5WgkfytJhpwN1381x44ajPaplC5Cnlqa1baiHDfz+tQrvptcL7nuu6bMWDMH3P5MLlu4D6acwc8kG05RsuE2Gqf7+MyL0jIXESTdOo59tO8D8i3wuNyt3VE2UOaZILqsC6HcaUU3Cf+pLxh3+6Jdm0oCdLW1Cxprww+ZsUXO3qkIuT1UygruevELfSIeVkmKzU48gBn9QDE6BMV77ZWQsOpGhcrBhmYP034HSbQxYxFVKIsWfE9T3a7NJD6aib3zfCqwh+f4+vH1jOWwfP7p6EeTMnQbBTuGQjHZNl+y3wAJAqMnI7NNDzxQFyUfGowzS5gqbVAq8coyoOrUNIVY9urRePCUrQ5GoF4y0TKXc5Sk7RaO55eJyvE4013DoF9pkAeXMH5ufxaWtBg2qitTeHDB5FwotGlECGF1PszuP7elcrLPUPKcRRQZVvzqeziV2hRtKXCr+DjoVReQxbfg=="
+      }],
+      "createTime": "2026-08-04T13:16:21.378Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

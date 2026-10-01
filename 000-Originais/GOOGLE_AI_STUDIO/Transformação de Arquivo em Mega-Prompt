@@ -1,0 +1,250 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": true,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "mediaResolution": "MEDIA_RESOLUTION_HIGH",
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+    "text": "Aja como um engenheiro de prompt sênior e use o playbook abaixo para ajudar o usuário com o que ele precisa.\n\n# 📘 O Playbook Definitivo de Engenharia de Prompt\n\n## FASE 1: Configurando o Motor (Parâmetros)\nAntes de escrever, entenda os \"botões\" que você pode girar no seu LLM (Large Language Model). \n*   **Temperature (0.0 a 2.0):** Controla a criatividade.\n    *   *Tarefas exatas (Código, Extração de Dados, Matemática):* Use **0.0** (respostas determinísticas).\n    *   *Tarefas criativas (Ideação, Escrita de e-mails, Brainstorming):* Use entre **0.7 e 0.9**.\n*   **Top-K e Top-P:** Controlam a aleatoriedade limitando o vocabulário de onde o modelo pode escolher a próxima palavra. Se for mexer na Temperature, geralmente deixe esses no padrão (ou vice-versa).\n*   **Max Tokens:** Limite o tamanho da resposta para evitar que o modelo entre em *loops* de repetição sem fim.\n\n---\n\n## FASE 2: A Anatomia do Prompt Ideal\nUm prompt de nível de produção não é apenas uma frase. Ele deve ser estruturado como um documento. Lembre-se do **Princípio da Chapeuzinho Vermelho**: *os modelos imitam os dados em que foram treinados*. Se o seu prompt parece um documento de alta qualidade e bem estruturado, a resposta também será.\n\nDivida seu prompt nestes 4 blocos (usando Markdown para separar):\n\n1.  **Introdução / Preamble (System Prompt):** Define o papel (Persona), o tom e o comportamento do modelo.\n2.  **Contexto (Context):** A injeção de dados (documentos, histórico de chat, regras de negócio).\n3.  **Refoco (Refocus):** Modelos sofrem do *\"Valley of Meh\"* (eles lembram do começo e do fim do prompt, mas ignoram o meio). Coloque sua pergunta principal ou instrução mais importante no **final** do prompt para \"refocar\" a atenção da IA.\n4.  **Transição / Inception:** Deixe a porta aberta para o modelo começar a falar exatamente no formato que você quer. (Ex: `Resposta em JSON: {`)\n\n---\n\n## FASE 3: Os 5 Princípios de Ouro do Prompting\n\n### 1. Dê Direção (Give Direction)\nDiga exatamente o que o modelo deve fazer.\n*   **Aja como um especialista:** Use *Role Prompting* (Ex: \"Aja como um consultor sênior de marketing...\").\n*   **Instruções \u003e Restrições:** LLMs funcionam melhor quando você diz o que eles *devem* fazer, em vez do que *não devem*.\n    *   ❌ *Não faça:* \"Não escreva uma introdução longa.\"\n    *   ✅ *Faça:* \"Vá direto ao ponto e comece no primeiro tópico.\"\n\n### 2. Especifique o Formato (Specify Format)\nNunca deixe a formatação por conta do modelo. Use formatos estruturados para evitar \"enrolação\" (fluff).\n*   Peça a saída em **JSON, YAML, XML ou Markdown**. \n*   Forneça o *schema* (esqueleto) exato que você espera receber. Isso facilita a extração de dados por sistemas automatizados.\n\n### 3. Forneça Exemplos (Provide Examples / Few-Shot)\nO modelo aprende melhor vendo do que ouvindo. \n*   **Zero-shot:** Sem exemplos (útil para tarefas muito simples).\n*   **Few-shot:** Dê de 3 a 5 exemplos de pares \"Entrada -\u003e Saída desejada\". \n*   *Atenção:* Misture as classes nos exemplos para não viciar o modelo (ex: não coloque 3 exemplos positivos seguidos se quiser que ele também identifique sentimentos negativos).\n\n### 4. Divida o Trabalho (Divide Labor)\nLLMs falham em tarefas gigantescas. Se a tarefa é complexa, divida-a em partes.\n*   **Cadeias de Prompts (Prompt Chaining):** Use a saída do Prompt 1 como entrada do Prompt 2. (Ex: Prompt 1 extrai dados de um site -\u003e Prompt 2 cria ideias de produtos -\u003e Prompt 3 escreve o e-mail de vendas).\n\n### 5. Avalie a Qualidade (Evaluate Quality)\nNão dependa da sorte. Avalie seus prompts metodicamente.\n*   Use o método **SOMA** para fazer o próprio LLM avaliar saídas: Faça perguntas **S**pecíficas, use notas **O**rdinais (1 a 5), com cobertura **M**ulti-**A**specto (avalie tom, precisão e formatação separadamente).\n\n---\n\n## FASE 4: Técnicas Avançadas de Raciocínio\n\nQuando o modelo erra lógica ou matemática, aplique estes \"hacks\" cognitivos:\n\n*   **Chain of Thought (CoT):** Adicione a frase mágica *\"Let\u0027s think step-by-step\"* (Vamos pensar passo a passo) no final do seu prompt. Isso força o modelo a criar uma \"voz interna\" e fazer os cálculos antes de dar a resposta final, aumentando drasticamente a precisão.\n*   **Self-Consistency:** Gere 5 ou mais respostas diferentes (usando Temperature alta) e programe seu sistema para escolher a resposta que mais se repetiu (votação por maioria).\n*   **Step-Back Prompting:** Antes de pedir a solução de um problema específico, peça ao modelo para listar os princípios gerais ou as leis fundamentais que regem aquele problema.\n*   **ReAct (Reason + Act):** A arquitetura para Agentes. O modelo opera em um loop: *Pensar -\u003e Escolher uma Ferramenta (ex: Busca no Google) -\u003e Observar o resultado -\u003e Pensar novamente -\u003e Dar a resposta final*.\n\n---\n\n## FASE 5: Tratando Contexto e Dados (RAG)\n\nQuando precisar que o modelo responda com base em documentos da sua empresa (Retrieval-Augmented Generation):\n\n1.  **Snippetizing (Fatiamento):** Não jogue um PDF de 500 páginas no prompt. Fatie o texto em \"pedaços\" (chunks) com sobreposição (overlap) para não cortar o sentido das frases no meio.\n2.  **Cuidado com a Falácia da Arma de Chekhov:** Se você colocar uma informação inútil no contexto, a IA tentará usá-la a todo custo. Filtre rigorosamente o contexto usando busca semântica (bancos de dados vetoriais como FAISS ou Pinecone) antes de enviar ao modelo.\n3.  **Prevenindo Alucinações:** Adicione a regra: *\"Responda APENAS usando os documentos fornecidos. Se a resposta não estiver nos documentos, diga \u0027Não sei\u0027.\"*\n\n---\n\n## FASE 6: Prompts para Imagens (Midjourney, DALL-E, Stable Diffusion)\n\nModelos de imagem de difusão não \"entendem\" a gramática da mesma forma que os de texto. A ordem e o vocabulário mandam:\n\n*   **Palavras-Chave de Qualidade (Boosters):** Adicione termos como *4k, highly detailed, photorealistic, trending on artstation, masterpiece*. \n*   **Modificadores de Formato e Estilo:** Defina a mídia física. (Ex: *oil painting, 35mm photography, polaroid, 1960s comic book, studio lighting*).\n*   **Negative Prompts:** Diga o que você *não quer*. Para remover distorções, use: *ugly, deformed, bad anatomy, low resolution*.\n*   **Pesos (Weights):** Em Midjourney (::) e Stable Diffusion (()), você pode dar pesos às palavras. Ex: `A cat::2 and a dog::1` fará o gato ser duas vezes mais proeminente que o cachorro.\n*   **Engenharia Reversa:** Não sabe descrever uma imagem? Use comandos como `/describe` no Midjourney (ou o CLIP Interrogator) fazendo upload da imagem para que a própria IA gere o prompt perfeito para você copiar.\n\n---\n\n## ✅ O Checklist de Mesa (Cheat Sheet)\n\nSempre que for criar um novo prompt profissional, passe por este checklist:\n\n- [ ] Defini um papel/persona claro no início do prompt? (System Prompt)\n- [ ] Forneci instruções dizendo o que *fazer* em vez de apenas o que *não fazer*?\n- [ ] Inseri contexto relevante e excluí o lixo informacional?\n- [ ] Coloquei a instrução principal e a pergunta no final do prompt para fugir do *Valley of Meh*?\n- [ ] Pedi uma saída em um formato rigoroso (JSON/Markdown) para facilitar a automação?\n- [ ] Mostrei pelo menos 2 exemplos (Few-shot) do que eu considero uma resposta perfeita?\n- [ ] Pedi para a IA \"pensar passo a passo\" e mostrar a lógica antes de me dar a resposta final?\n- [ ] \"Forcei a largada\" (Inception) escrevendo a primeira palavra da resposta esperada (Ex: `"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1Ug7h0zm3wAlZz0uLpoBnbS2hohRdy4S8"
+      },
+      "role": "user",
+      "tokenCount": 4898,
+      "createTime": "2026-04-04T00:13:33.095Z"
+    }, {
+      "text": "Transforme o arquivo .md anexado em um prompt para ser encaminhado para o Lovable\n\n\nPrompt ideal contém:\n\n```\ncontexto do produto\nArquitetura do sistema\nBanco de dados\nentidades\nFluxos de usuário\nTelas do sistema\nIntegrações\nregras\nSQL inicial\n```\n\nCriar tabelas básicas (SQL Inicial) antes de rodar o prompt.\n\nExemplo:\n\n```\nusers\nservices\ncategories\nbookings\n```\n\nPrompt final para o Lovable:\n\n- cria frontend\n- cria backend\n- conecta banco\n- cria telas",
+      "role": "user",
+      "tokenCount": 20,
+      "createTime": "2026-04-04T00:13:33.095Z"
+    }, {
+      "text": "**Defining the Transformation**\n\nI\u0027m focusing on dissecting the user\u0027s goal: transforming Markdown about \"ACIRV MEET\" into a Lovable-ready prompt. My initial efforts are on understanding the target structure for Lovable. I\u0027m exploring how to best represent the key features and characteristics from the Markdown in a way that Lovable will understand and utilize, while maintaining fidelity and clarity.\n\n\n**Mapping the Elements**\n\nI\u0027ve moved on to mapping the elements. Now, I am analyzing the target structure, the \"ideal prompt\" for Lovable, identifying crucial sections like product context, system architecture, entities, and user flows. Simultaneously, I\u0027m dissecting the source material which is the \"ACIRV MEET\" documentation, extracting its product value, entities (User, Meeting, Participant, Availability), and database SQL. This comparative analysis is guiding me towards the prompt\u0027s final structure.\n\n\n**Structuring the Information**\n\nI\u0027m now integrating detailed user flows, covering organizer and guest interactions, and outlining key screens within the \"ACIRV MEET\" system. I am capturing necessary integrations with Supabase and the ICS library, and outlining the rules, like RLS and status constraints. I\u0027m focusing on organizing these elements into a prompt structure.\n\n\n**Composing the Sections**\n\nI\u0027m now drafting individual sections of the Lovable prompt, structuring the content. I\u0027ve composed an introduction that summarizes \"ACIRV MEET\" as a zero-friction scheduling app. I\u0027ve outlined the system architecture, mentioning React/Vite for frontend and Supabase for backend, as well as database entities and initial SQL schema. I\u0027ve also detailed the two main user flows, organizer and guest, and I\u0027m capturing required system screens with their elements. Finally, I\u0027m documenting necessary integrations with Supabase and ics, and RLS rules.\n\n\n**Finalizing the Prompt**\n\nI\u0027m now putting the finishing touches on the Lovable prompt. I\u0027ve ensured a professional and clear tone, perfectly suited for an AI agent. I\u0027m explicitly guiding Lovable to utilize Supabase Auth and Database for the backend. I\u0027m also confirming that the output meets all constraints. Finally, I\u0027m constructing the final prompt as a complete, ready-to-use artifact, complete with introductory and concluding remarks, ready for direct use in Lovable.",
+      "role": "model",
+      "tokenCount": 1160,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Transformation**\n\nI\u0027m focusing on dissecting the user\u0027s goal: transforming Markdown about \"ACIRV MEET\" into a Lovable-ready prompt. My initial efforts are on understanding the target structure for Lovable. I\u0027m exploring how to best represent the key features and characteristics from the Markdown in a way that Lovable will understand and utilize, while maintaining fidelity and clarity.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Mapping the Elements**\n\nI\u0027ve moved on to mapping the elements. Now, I am analyzing the target structure, the \"ideal prompt\" for Lovable, identifying crucial sections like product context, system architecture, entities, and user flows. Simultaneously, I\u0027m dissecting the source material which is the \"ACIRV MEET\" documentation, extracting its product value, entities (User, Meeting, Participant, Availability), and database SQL. This comparative analysis is guiding me towards the prompt\u0027s final structure.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Structuring the Information**\n\nI\u0027m now integrating detailed user flows, covering organizer and guest interactions, and outlining key screens within the \"ACIRV MEET\" system. I am capturing necessary integrations with Supabase and the ICS library, and outlining the rules, like RLS and status constraints. I\u0027m focusing on organizing these elements into a prompt structure.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Composing the Sections**\n\nI\u0027m now drafting individual sections of the Lovable prompt, structuring the content. I\u0027ve composed an introduction that summarizes \"ACIRV MEET\" as a zero-friction scheduling app. I\u0027ve outlined the system architecture, mentioning React/Vite for frontend and Supabase for backend, as well as database entities and initial SQL schema. I\u0027ve also detailed the two main user flows, organizer and guest, and I\u0027m capturing required system screens with their elements. Finally, I\u0027m documenting necessary integrations with Supabase and ics, and RLS rules.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Finalizing the Prompt**\n\nI\u0027m now putting the finishing touches on the Lovable prompt. I\u0027ve ensured a professional and clear tone, perfectly suited for an AI agent. I\u0027m explicitly guiding Lovable to utilize Supabase Auth and Database for the backend. I\u0027m also confirming that the output meets all constraints. Finally, I\u0027m constructing the final prompt as a complete, ready-to-use artifact, complete with introductory and concluding remarks, ready for direct use in Lovable.",
+        "thought": true
+      }],
+      "createTime": "2026-04-04T00:15:29.064Z"
+    }, {
+      "text": "\n\n\nComo um Engenheiro de Prompt Sênior, estruturei o conteúdo do seu documento aplicando os princípios do nosso Playbook (clareza, contexto estruturado, divisão de informações e comandos de refoco no final). \n\nAbaixo está o **Prompt Mestre** perfeitamente otimizado para você copiar e colar no **Lovable**. Ele foi desenhado para que a IA entenda a arquitetura completa antes de começar a codar, evitando alucinações.\n\n***\n\n### Copie o bloco abaixo e cole no Lovable:\n\n```markdown\n# CONTEXTO DO PRODUTO\nVocê é um desenvolvedor Full-Stack Sênior e especialista em UX/UI. Vamos construir o \"ACIRV MEET\", uma aplicação web de agendamento colaborativo. \nO objetivo principal é encontrar automaticamente um horário compatível entre duas ou mais pessoas que precisam se reunir, eliminando a troca interminável de mensagens. \nO grande diferencial de UX do produto é a \"Fricção Zero\" para os convidados: o Organizador cria a conta e a reunião, mas o Convidado (Participante) acessa via link mágico, informa apenas o nome e já seleciona os horários no grid, sem precisar criar conta ou fazer login.\n\n---\n\n# ARQUITETURA DO SISTEMA\n- **Frontend:** React (Vite), Mobile-first, interface minimalista e focada em microinterações.\n- **Backend / BaaS:** Supabase (PostgreSQL para dados e Supabase Auth para autenticação do organizador).\n- **Segurança:** Row Level Security (RLS) rigoroso no Postgres para garantir que convidados não acessem dados privados, mas possam interagir com reuniões com status \"open\".\n\n---\n\n# ENTIDADES\n1. **users:** Usuários autenticados que organizam as reuniões.\n2. **meetings:** A reunião criada (o ID da reunião será o token da URL do convite).\n3. **participants:** Convidados que interagem com o link (fricção zero, apenas nome).\n4. **availabilities:** Os blocos de tempo (início e fim) que cada participante marca no calendário/grid.\n\n---\n\n# BANCO DE DADOS E SQL INICIAL\nCrie as seguintes tabelas no banco de dados (Supabase PostgreSQL):\n\n```sql\n-- 1. USERS: Apenas para quem organiza (Auth)\nCREATE TABLE users (\n    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    name VARCHAR(255) NOT NULL,\n    email VARCHAR(255) UNIQUE NOT NULL,\n    password_hash VARCHAR(255) NOT NULL,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 2. MEETINGS: A reunião criada \nCREATE TABLE meetings (\n    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    organizer_id UUID REFERENCES users(id) ON DELETE CASCADE,\n    title VARCHAR(255) NOT NULL,\n    description TEXT,\n    duration_minutes INT DEFAULT 60,\n    status VARCHAR(50) DEFAULT \u0027open\u0027, \n    final_start_time TIMESTAMP WITH TIME ZONE,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 3. PARTICIPANTS: Fricção zero (Não exige email)\nCREATE TABLE participants (\n    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    meeting_id UUID REFERENCES meetings(id) ON DELETE CASCADE,\n    name VARCHAR(255) NOT NULL,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 4. AVAILABILITIES: Blocos de tempo marcados no Grid\nCREATE TABLE availabilities (\n    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    participant_id UUID REFERENCES participants(id) ON DELETE CASCADE,\n    start_time TIMESTAMP WITH TIME ZONE NOT NULL,\n    end_time TIMESTAMP WITH TIME ZONE NOT NULL,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\nCREATE INDEX idx_availabilities_participant ON availabilities(participant_id);\nCREATE INDEX idx_participants_meeting ON participants(meeting_id);\n```\n\n---\n\n# FLUXOS DE USUÁRIO\n\n**Fluxo do Organizador:**\n1. Faz Login/Cadastro.\n2. Acessa o Dashboard de Reuniões.\n3. Cria uma Nova Reunião (define pauta e duração).\n4. O sistema gera a URL do convite.\n5. Acompanha o painel com o \"Mapa de Calor\" das respostas.\n6. Clica em \"Confirmar\" no horário ideal, fechando a reunião.\n\n**Fluxo do Participante (Convidado):**\n1. Acessa o Link de Convite (URL com o ID da reunião).\n2. Digita apenas o Nome.\n3. Clica nos blocos de horário que tem livre no Grid visual.\n4. Clica em Salvar.\n5. Vê a tela de sucesso.\n\n---\n\n# TELAS DO SISTEMA\n\n1. **Login / Cadastro:** Formulário simples (Email/Senha), logo do app, botões \"Entrar\" e \"Criar Conta\". Redireciona para o Dashboard.\n2. **Dashboard (Organizador):** Lista/Cards das reuniões criadas com Título, Data, Status e Indicador de Quórum (ex: \"4 pessoas responderam\"). CTA primário: \"Nova Reunião\".\n3. **Criar Nova Reunião:** Campo de Título, Descrição e Seletor de Duração (15m, 30m, 60m). Botão: \"Gerar Link Mágico\".\n4. **Painel da Reunião (Organizador):** Exibe o link para copiar, lista de quem já respondeu e uma interface visual ranqueando a compatibilidade de horários. Botão para \"Confirmar Horário\" e fechar a reunião.\n5. **Entrada do Participante (Mobile-first):** Card com Título da Reunião, campo de texto \"Seu Nome\" e botão \"Ver Horários\".\n6. **Seleção de Disponibilidade (Grid):** Grade interativa de dias e horas. O usuário clica nos blocos vazios e eles mudam de cor. Botão \"Salvar Disponibilidade\" fixo na base.\n7. **Sucesso (Participante):** Ícone de check, mensagem de confirmação e um botão secundário de Growth: \"Crie sua própria reunião grátis\".\n\n---\n\n# INTEGRAÇÕES\n- **Supabase:** Para Database (PostgreSQL) e Autenticação (Email/Senha ou Magic Link para organizadores).\n- **ICS Generation:** Utilize uma biblioteca JS simples no frontend para gerar um arquivo `.ics` na tela de sucesso/confirmação, permitindo que o usuário adicione a reunião ao Google Calendar ou Outlook sem precisar de OAuth complexo.\n\n---\n\n# REGRAS DO SISTEMA\n- Uma reunião só tem dois status: `open` (aceitando respostas) ou `closed` (horário definido).\n- Participantes não precisam de conta/login para interagir com uma reunião `open`.\n- Se a reunião estiver `closed`, desabilite a inserção de novos horários para os participantes.\n- Se o organizador apagar uma reunião, o `ON DELETE CASCADE` do banco de dados removerá os participantes e horários vinculados.\n- **RLS (Supabase):** Organizadores só podem dar SELECT/UPDATE/DELETE nas reuniões onde `organizer_id` é o seu ID. Visitantes anônimos só podem dar SELECT via ID da reunião e INSERT em `participants` e `availabilities` se a reunião consultada estiver `open`.\n\n---\n\n# INSTRUÇÕES FINAIS PARA EXECUÇÃO\n\nPor favor, siga estas etapas na ordem exata (Let\u0027s think step-by-step):\n\n1. **Conecta Banco:** Configure o banco de dados Supabase e execute o \"SQL INICIAL\" fornecido acima para criar as tabelas e relacionamentos.\n2. **Cria Backend:** Configure as políticas do Supabase (RLS) conforme as regras do sistema, além das funções de autenticação de usuários (Organizadores).\n3. **Cria Frontend:** Configure o projeto React, garantindo um design Mobile-First e minimalista.\n4. **Cria Telas e Fluxos:** Desenvolva todas as telas descritas na seção \"TELAS DO SISTEMA\", conectando as interações com o backend e garantindo a lógica de estado das reuniões (open/closed) e o visualizador de cruzamento de horários.\n```\n\n***\n\n### 🧠 Por que este prompt vai funcionar perfeitamente no Lovable?\n1. **Modelagem Front-loaded:** O esquema SQL é a primeira coisa técnica que ele vê, ancorando toda a arquitetura da IA nas entidades corretas.\n2. **Role Prompting e Refocus:** Definimos a *Persona* no início e usamos o bloco final de \"Instruções\" para cravar o que ele tem que começar fazendo, na ordem lógica (`Banco -\u003e Back -\u003e Front -\u003e Telas`).\n3. **Contexto Estrito:** Removemos a abstração da \"ideia do Raphael\" do seu texto original e traduzimos em requisitos técnicos absolutos (ex: RLS, `.ics` local e endpoints de auth vs. acesso público).",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 2029,
+      "parts": [{
+        "text": "\n\n\nComo um Engenheiro de Prompt S"
+      }, {
+        "text": "ênior, estruturei o conteúdo do seu documento aplicando os princípios do nosso Playbook (clareza, contexto estruturado, divisão de"
+      }, {
+        "text": " informações e comandos de refoco no final). \n\nAbaixo está o **Prompt Mestre** perfeitamente otimizado para"
+      }, {
+        "text": " você copiar e colar no **Lovable**. Ele foi desenhado para que a IA entenda a arquitetura completa antes"
+      }, {
+        "text": " de começar a codar, evitando alucinações.\n\n***\n\n### Copie o bloco abaixo e cole no Lovable"
+      }, {
+        "text": ":\n\n```markdown\n# CONTEXTO DO PRODUTO\nVocê é um desenvolvedor Full-Stack Sênior e"
+      }, {
+        "text": " especialista em UX/UI. Vamos construir o \"ACIRV MEET\", uma aplicação web de agendamento colaborativo."
+      }, {
+        "text": " \nO objetivo principal é encontrar automaticamente um horário compatível entre duas ou mais pessoas que precisam se reunir, eliminando a troca interminável de mensagens."
+      }, {
+        "text": " \nO grande diferencial de UX do produto é a \"Fricção Zero\" para os convidados: o Organizador cria"
+      }, {
+        "text": " a conta e a reunião, mas o Convidado (Participante) acessa via link mágico, informa apenas o nome e já"
+      }, {
+        "text": " seleciona os horários no grid, sem precisar criar conta ou fazer login.\n\n---\n\n# ARQUITETURA"
+      }, {
+        "text": " DO SISTEMA\n- **Frontend:** React (Vite), Mobile-first, interface minimalista e focada em micro"
+      }, {
+        "text": "interações.\n- **Backend / BaaS:** Supabase (PostgreSQL para dados e Supabase Auth para autent"
+      }, {
+        "text": "icação do organizador).\n- **Segurança:** Row Level Security (RLS) rigoroso no Postgres para garantir que"
+      }, {
+        "text": " convidados não acessem dados privados, mas possam interagir com reuniões com status \"open\".\n\n---\n\n# ENTIDADES"
+      }, {
+        "text": "\n1. **users:** Usuários autenticados que organizam as reuniões.\n2. **meetings:** A reunião criada ("
+      }, {
+        "text": "o ID da reunião será o token da URL do convite).\n3. **participants:** Convidados que interagem com o"
+      }, {
+        "text": " link (fricção zero, apenas nome).\n4. **availabilities:** Os blocos de tempo (in"
+      }, {
+        "text": "ício e fim) que cada participante marca no calendário/grid.\n\n---\n\n# BANCO DE DADOS E SQL INICIAL"
+      }, {
+        "text": "\nCrie as seguintes tabelas no banco de dados (Supabase PostgreSQL):\n\n```sql\n-- 1. USERS:"
+      }, {
+        "text": " Apenas para quem organiza (Auth)\nCREATE TABLE users (\n    id UUID PRIMARY KEY DEFAULT gen_random_"
+      }, {
+        "text": "uuid(),\n    name VARCHAR(255) NOT NULL,\n    email VARCHAR(255) UNIQUE"
+      }, {
+        "text": " NOT NULL,\n    password_hash VARCHAR(255) NOT NULL,\n    created_at TIMESTAMP WITH"
+      }, {
+        "text": " TIME ZONE DEFAULT NOW()\n);\n\n-- 2. MEETINGS: A reunião criada \nCREATE TABLE meetings ("
+      }, {
+        "text": "\n    id UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    organizer_id UUID REFERENCES users(id"
+      }, {
+        "text": ") ON DELETE CASCADE,\n    title VARCHAR(255) NOT NULL,\n    description TEXT,"
+      }, {
+        "text": "\n    duration_minutes INT DEFAULT 60,\n    status VARCHAR(50) DEFAULT \u0027open\u0027, \n    final_start_"
+      }, {
+        "text": "time TIMESTAMP WITH TIME ZONE,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 3"
+      }, {
+        "text": ". PARTICIPANTS: Fricção zero (Não exige email)\nCREATE TABLE participants (\n    id UUID PRIMARY KEY DEFAULT"
+      }, {
+        "text": " gen_random_uuid(),\n    meeting_id UUID REFERENCES meetings(id) ON DELETE CASCADE,\n    name"
+      }, {
+        "text": " VARCHAR(255) NOT NULL,\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);"
+      }, {
+        "text": "\n\n-- 4. AVAILABILITIES: Blocos de tempo marcados no Grid\nCREATE TABLE availabilities (\n    id UUID PRIMARY"
+      }, {
+        "text": " KEY DEFAULT gen_random_uuid(),\n    participant_id UUID REFERENCES participants(id) ON DELETE CASCADE,"
+      }, {
+        "text": "\n    start_time TIMESTAMP WITH TIME ZONE NOT NULL,\n    end_time TIMESTAMP WITH TIME ZONE NOT NULL,"
+      }, {
+        "text": "\n    created_at TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\nCREATE INDEX idx_availabilities_participant ON avail"
+      }, {
+        "text": "abilities(participant_id);\nCREATE INDEX idx_participants_meeting ON participants(meeting_id);\n```"
+      }, {
+        "text": "\n\n---\n\n# FLUXOS DE USUÁRIO\n\n**Fluxo do Organizador:**\n1. Faz Login/"
+      }, {
+        "text": "Cadastro.\n2. Acessa o Dashboard de Reuniões.\n3. Cria uma Nova Reunião (define pauta e"
+      }, {
+        "text": " duração).\n4. O sistema gera a URL do convite.\n5. Acompanha o painel com"
+      }, {
+        "text": " o \"Mapa de Calor\" das respostas.\n6. Clica em \"Confirmar\" no horário ideal, fechando a reunião."
+      }, {
+        "text": "\n\n**Fluxo do Participante (Convidado):**\n1. Acessa o Link de Convite (URL com"
+      }, {
+        "text": " o ID da reunião).\n2. Digita apenas o Nome.\n3. Clica nos blocos de horário"
+      }, {
+        "text": " que tem livre no Grid visual.\n4. Clica em Salvar.\n5. Vê a tela de sucesso."
+      }, {
+        "text": "\n\n---\n\n# TELAS DO SISTEMA\n\n1. **Login / Cadastro:** Formulário simples (Email/Senha),"
+      }, {
+        "text": " logo do app, botões \"Entrar\" e \"Criar Conta\". Redireciona para o Dashboard.\n2. **Dashboard"
+      }, {
+        "text": " (Organizador):** Lista/Cards das reuniões criadas com Título, Data, Status e Indicador de Quórum"
+      }, {
+        "text": " (ex: \"4 pessoas responderam\"). CTA primário: \"Nova Reunião\".\n3. **Cri"
+      }, {
+        "text": "ar Nova Reunião:** Campo de Título, Descrição e Seletor de Duração (15m"
+      }, {
+        "text": ", 30m, 60m). Botão: \"Gerar Link Mágico\".\n4. **Pain"
+      }, {
+        "text": "el da Reunião (Organizador):** Exibe o link para copiar, lista de quem já respondeu e"
+      }, {
+        "text": " uma interface visual ranqueando a compatibilidade de horários. Botão para \"Confirmar Horário\" e fechar a"
+      }, {
+        "text": " reunião.\n5. **Entrada do Participante (Mobile-first):** Card com Título da Reunião,"
+      }, {
+        "text": " campo de texto \"Seu Nome\" e botão \"Ver Horários\".\n6. **Seleção de Disponibilidade ("
+      }, {
+        "text": "Grid):** Grade interativa de dias e horas. O usuário clica nos blocos vazios e eles mudam de cor."
+      }, {
+        "text": " Botão \"Salvar Disponibilidade\" fixo na base.\n7. **Sucesso (Participante):** Í"
+      }, {
+        "text": "cone de check, mensagem de confirmação e um botão secundário de Growth: \"Crie sua própria reunião grát"
+      }, {
+        "text": "is\".\n\n---\n\n# INTEGRAÇÕES\n- **Supabase:** Para Database (PostgreSQL) e Autenticação (Email"
+      }, {
+        "text": "/Senha ou Magic Link para organizadores).\n- **ICS Generation:** Utilize uma biblioteca JS simples no frontend para gerar um arquivo `.ics"
+      }, {
+        "text": "` na tela de sucesso/confirmação, permitindo que o usuário adicione a reunião ao Google Calendar ou Outlook sem precisar"
+      }, {
+        "text": " de OAuth complexo.\n\n---\n\n# REGRAS DO SISTEMA\n- Uma reunião só tem dois status: `open"
+      }, {
+        "text": "` (aceitando respostas) ou `closed` (horário definido).\n- Participantes não precisam de conta/"
+      }, {
+        "text": "login para interagir com uma reunião `open`.\n- Se a reunião estiver `closed`, desabilite a inserção de novos horários"
+      }, {
+        "text": " para os participantes.\n- Se o organizador apagar uma reunião, o `ON DELETE CASCADE` do banco de dados remover"
+      }, {
+        "text": "á os participantes e horários vinculados.\n- **RLS (Supabase):** Organizadores só podem dar"
+      }, {
+        "text": " SELECT/UPDATE/DELETE nas reuniões onde `organizer_id` é o seu ID. Visitantes anônimos só"
+      }, {
+        "text": " podem dar SELECT via ID da reunião e INSERT em `participants` e `availabilities` se a reunião consultada estiver `open`."
+      }, {
+        "text": "\n\n---\n\n# INSTRUÇÕES FINAIS PARA EXECUÇÃO\n\nPor favor, siga estas etapas na ordem exata ("
+      }, {
+        "text": "Let\u0027s think step-by-step):\n\n1. **Conecta Banco:** Configure o banco de dados Supabase"
+      }, {
+        "text": " e execute o \"SQL INICIAL\" fornecido acima para criar as tabelas e relacionamentos.\n2. **"
+      }, {
+        "text": "Cria Backend:** Configure as políticas do Supabase (RLS) conforme as regras do sistema, além das funções de autent"
+      }, {
+        "text": "icação de usuários (Organizadores).\n3. **Cria Frontend:** Configure o projeto React, garantindo um design Mobile-First"
+      }, {
+        "text": " e minimalista.\n4. **Cria Telas e Fluxos:** Desenvolva todas as telas descritas na seção \"TEL"
+      }, {
+        "text": "AS DO SISTEMA\", conectando as interações com o backend e garantindo a lógica de estado das reuniões (open"
+      }, {
+        "text": "/closed) e o visualizador de cruzamento de horários.\n```\n\n***\n\n### 🧠 Por que este prompt vai"
+      }, {
+        "text": " funcionar perfeitamente no Lovable?\n1. **Modelagem Front-loaded:** O esquema SQL é a primeira coisa técnica"
+      }, {
+        "text": " que ele vê, ancorando toda a arquitetura da IA nas entidades corretas.\n2. **Role Prompting e"
+      }, {
+        "text": " Refocus:** Definimos a *Persona* no início e usamos o bloco final de \"Instruções\" para cra"
+      }, {
+        "text": "var o que ele tem que começar fazendo, na ordem lógica (`Banco -\u003e Back -\u003e Front -\u003e Telas`).\n3. **Contexto"
+      }, {
+        "text": " Estrito:** Removemos a abstração da \"ideia do Raphael\" do seu texto original e traduzimos em requisitos técnicos absol"
+      }, {
+        "text": "utos (ex: RLS, `.ics` local e endpoints de auth vs. acesso público)."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-04-04T00:15:42.794Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

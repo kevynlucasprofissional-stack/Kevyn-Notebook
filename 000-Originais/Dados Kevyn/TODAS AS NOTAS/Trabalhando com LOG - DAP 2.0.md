@@ -1,0 +1,1 @@
+Para converter log para Rec-709, o melhor é usar um LUT, se não Levels, em último caso use Curves.

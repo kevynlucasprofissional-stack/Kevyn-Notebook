@@ -1,0 +1,1 @@
+Pinplus cria nulos parenteados aos pinos.

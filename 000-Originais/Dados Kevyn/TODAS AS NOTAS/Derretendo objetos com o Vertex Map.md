@@ -1,0 +1,2 @@
+Aplique "Simulation Tag > Cloth" no modelo já com o Vertex Map, clique em Ctrl + D para abrir as configurações do modelo com Cloth e Vertex Map, em "Mix animation" ative o With Force no máximo e importe o Vertex Map para o espaço "Map" em With Force, vá em "Surface", importe o vertex map para o map do target lenght e aumente para 160%.
+Você pode também ativar um balloon também para dar um tcham.

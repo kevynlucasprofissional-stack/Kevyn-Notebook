@@ -1,0 +1,74 @@
+[
+  {
+    "caminho": "01-Perfil-e-Autoconhecimento/Kevyn Lucas.md",
+    "operacao": "ampliar",
+    "motivo": "Restaurar proveniencias curtas de SRC-000121 a SRC-000123 no perfil de Kevyn.",
+    "fontes": "SRC-000121; SRC-000122; SRC-000123",
+    "hash_anterior": "6CCF2638889B295D326302E56D77DDCE52849C1B92DA265CC174B5DA58D3F7E2",
+    "hash_posterior": "C5D6F83FC5418D44EEA453E02EC2A610DA19737BAA3BFA85F7B51AFE6A047375",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md",
+    "operacao": "ampliar",
+    "motivo": "Restaurar proveniencias curtas de SRC-000124 e SRC-000125 na nota de marketing.",
+    "fontes": "SRC-000124; SRC-000125",
+    "hash_anterior": "0B64C929427A10B3D15F74912454CC6F3535B566BAC1D0032559315A20554C5B",
+    "hash_posterior": "0BF4EE2B0D2292AE9510A32BCF3E32F8CF748E4542A3512927AAB09B7A7488B4",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "Controle-Integracao/Manifesto-Fontes.csv",
+    "operacao": "corrigir",
+    "motivo": "Reclassificar SRC-000121 a SRC-000125 como integrados e registrar a restauracao de proveniencia.",
+    "fontes": "SRC-000121; SRC-000122; SRC-000123; SRC-000124; SRC-000125",
+    "hash_anterior": "5A456AC1DFC5981F296A30B05D50FEEF3607D22DD2CFEF2B2100DFF0FD138E17",
+    "hash_posterior": "4F9DD01B2A150CB0A284C7732189CB47DF89E9998DF22981441A4C00B344DE75",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "Controle-Integracao/Matriz-Cobertura.csv",
+    "operacao": "corrigir",
+    "motivo": "Registrar a restauracao de proveniencia do bloco 121-125 na matriz de cobertura.",
+    "fontes": "SRC-000121; SRC-000122; SRC-000123; SRC-000124; SRC-000125",
+    "hash_anterior": "F95B7175D8180E806DCE6C799F90125EE9CD4E64F1F55F72F76594B875D024E8",
+    "hash_posterior": "521F99905C28C6EAC47DABA6A9F93106130923CF0B29FEABE1035ACBDCA73E8C",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "Controle-Integracao/Estado-Integracao.json",
+    "operacao": "corrigir",
+    "motivo": "Avancar o estado global para o proximo item apos a restauracao do bloco 121-125.",
+    "fontes": "SRC-000121; SRC-000122; SRC-000123; SRC-000124; SRC-000125",
+    "hash_anterior": "083D34DD17451E866B3BA2FE97A146E01DF64B5BD81660BDC46BBA17343A95BC",
+    "hash_posterior": "AEAF0CBA5E85963225FCD5F1D890FA7EFDFE770331B4775E68BF8F27A47BFC5A",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "95-Auditorias/Estado da integracao.md",
+    "operacao": "corrigir",
+    "motivo": "Registrar a restauracao de proveniencia do bloco 121-125 na nota de auditoria.",
+    "fontes": "SRC-000121; SRC-000122; SRC-000123; SRC-000124; SRC-000125",
+    "hash_anterior": "0D1B308CBA17F27063E0703FC774FB85C9171501C638A01A2C7FCCCB0634FB0F",
+    "hash_posterior": "0A2551016DC356A6CB307912ABF4D7290656ED695A5EDDD07E1EE8079190B01C",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "Controle-Integracao/Relatorio-Acumulado.md",
+    "operacao": "acrescentar",
+    "motivo": "Documentar o ciclo 0031 e seu efeito sobre a proveniencia restaurada.",
+    "fontes": "SRC-000121; SRC-000122; SRC-000123; SRC-000124; SRC-000125",
+    "hash_anterior": "1895BBA265EDC85F2BDCD17E6CE107BAA0B76AD9EC59B11C26B58D47ADAB30D0",
+    "hash_posterior": "571B13BFE07FACFFB36C12552E3CE26D5AEF94F918AEF16FAEBFEE0A93C1DC27",
+    "resultado_validacao": "ok"
+  },
+  {
+    "caminho": "Controle-Integracao/Registro-de-Decisoes.md",
+    "operacao": "acrescentar",
+    "motivo": "Registrar a decisao de restaurar proveniencias curtas no bloco 121-125.",
+    "fontes": "SRC-000121; SRC-000122; SRC-000123; SRC-000124; SRC-000125",
+    "hash_anterior": "4BB43CEDBBC3335175317E2A1DEF90E9993FD4CCBC40B73AB8B4BBE93ECCF69B",
+    "hash_posterior": "CBC0F8DE85CE571425FDC58680205611AF1C3FE4989C5DA2E0541F97F10BBE21",
+    "resultado_validacao": "ok"
+  }
+]

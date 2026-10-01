@@ -1,0 +1,1 @@
+Ele falou sobre a existência de diferentes tipos de espectros de cores, incluindo: RGB (Para digital), CMYK (Para impressão), HSV/HSL (Utilizado como seletor de cores na maioria dos softwares de edição) e LAB (Usado principalmente para medição, por ser muito preciso).

@@ -1,0 +1,299 @@
+b3f882829742b113b4d2dd89bc827b160a11dc01e58c379562767dae0f2aaf07  .obsidian/app.json
+44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a  .obsidian/appearance.json
+45dc1c3a41a69c0579c6b3afe8fb2dcd528083c8186f7f9558617762781605ba  .obsidian/community-plugins.json
+0439ea4d5fa5741c74d5c4b2401d266f46d38aee0e3951eefb0e7451c09c5991  .obsidian/core-plugins.json
+e76c73b6de183294ac51182162fd9abf73f5722ae1982d21048dd564af2fbf0a  .obsidian/graph.json
+5d1f7771008e8c3abb9a0b78df07810d00301d89c6267008b0740220d8aa43bd  .obsidian/plugins-declarados.json
+828a21b706648779797fade783935d72c0e55b2a979ab70820cf8b21e5b7aa78  .obsidian/templates.json
+de51bcb21c85f60afb40e4a956244ee25afd5c8d4f22519320aa6625aa3e692a  .obsidian/workspace.json
+61f02937d86fb4885d5f0c7dd8195b559781bfb176d3c71e8f221474f199ebe1  00-Inicio/Aviso de privacidade e sensibilidade.md
+3a9eb9ea020241a719d45605f2e9b6f4eb3f2c771e73b35ecbe9dd996a6887e1  00-Inicio/Como ler as camadas de evidência.md
+b9e9bc24a7c553ea418c236c1e9915ff602d43bdbab8be2236198e8b2dbbb345  00-Inicio/Escopo.md
+61836c9a040e83d5e775086fee91d9b4bd86f86f137536f74704b7db0cf4616b  00-Inicio/Glossario do cofre.md
+25a134d8cc2a96d88303868b4c21eb5a85626a10fb2c93818b55c1e587d1827e  00-Inicio/Guia de uso.md
+89e2dadcf1d263794826d5dbb369f86f67daf3b6cd04d634d3456e9b0c37c875  00-Inicio/LEIA-ME.md
+bc7d907824b3040c0016bf3c25c2f8ac7bbaf100c3c1f817ea6df99d3fad7946  00-Inicio/Metodologia.md
+74f313afb6fd7a3c0abde2c6ef3c67f531ce61fd83d6442a3f9d686c1d8944ba  00-Inicio/MOC Geral.md
+96b49a914c6250fdafdaa9cd928cbe2cf52c4bac51eb73ab038b7fad8be354f5  01-Perfil-e-Autoconhecimento/Autonomia e relacao com autoridade.md
+41db3fdf282ec978448801dbdf37222ff24d985ba77e2b9baaf921d819c852e3  01-Perfil-e-Autoconhecimento/Contradicoes centrais.md
+edad2c77bf703912e1b2aba79ddf9a4c9f17baf9808f9745c92de64e7e7040da  01-Perfil-e-Autoconhecimento/Criatividade e capacidade de sintese.md
+21130cafe516e4562ebd6fa3ae70af5b5ff2e0d767ae16195dbbe9f907ec7892  01-Perfil-e-Autoconhecimento/Cuidado de si.md
+5ec53b4ac3d0e10bb86888e05f25e277aff4e802b7467ea6f48fb74c0b45dfad  01-Perfil-e-Autoconhecimento/Estilo de aprendizagem.md
+e1be24df762178b4b923762ff9a8ddf065541bd66712ad5669ae68451b83be8f  01-Perfil-e-Autoconhecimento/Hipoteses abertas sobre si.md
+d51b76d84674474f518b3c20c83032921e92ca123df7c865ff61dfa8ea75b78f  01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+bb6e8a55a46aaf9d924ae13ba80d5b9a498ca67ce1b9c06876ae0e6e4c435ca3  01-Perfil-e-Autoconhecimento/Mapa de dificuldades.md
+8b352c6378767e4f0eaa04a4d1bf54e9c2eaafe0ae2f02a6414945b51016c620  01-Perfil-e-Autoconhecimento/Mapa de qualidades.md
+52c48b2034ae4b0475f8fae6ceb5fc0cc532c60ccea5a6bc73d0a80c83ca601b  01-Perfil-e-Autoconhecimento/Narrativa de grandeza e vida comum.md
+7a6e6b7cb710a0a22fab8f2517c0cda75513ec3b9308dd1343425c2f429aa66a  01-Perfil-e-Autoconhecimento/Organizacao do conhecimento.md
+6708452a8d5a726abf7b03fc01aac4c6f0d083f2086ffd00bd4a2ed498ca5f36  01-Perfil-e-Autoconhecimento/Relacao com complexidade.md
+90b4000c05c1b12f73c9a16fe880f6d2300f43820326980e7eb2765e2a51014b  02-Cronologia-e-Memorias/Crise e reorganizacao 2025.md
+436789c11fd053e40a3d0cd6ec52f504848753f7fe1495a237e27f4e8b112b83  02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md
+e0f5dab282445ef95402c7d878abf142544d264f40e5b0cc045eeedcf0e1cf4a  02-Cronologia-e-Memorias/Independencia e trabalho 2021 a 2024.md
+9eb7354e8477802ea4617e08c2882f56d9f6c61b6314c1c1dec1183a80d29682  02-Cronologia-e-Memorias/Inicio do acompanhamento psicologico em 2026.md
+d32d700fd4d854fa1ebe9a7cf9b738307fde6e0a42b8f3894de14681978edb37  02-Cronologia-e-Memorias/Integracao e cuidado de si 2026.md
+1868d3da2c4b0d154b9212cee870d231811979ab106076aa7bed3a7bcf38874a  02-Cronologia-e-Memorias/Linha do tempo mestre.md
+54c89dd8c5dd12ba86f1654999a5e1f39bf5e9f33ce3ce65c617017fb8aad367  02-Cronologia-e-Memorias/Origens e infancia 2003 a 2021.md
+90144d671955320c54b4e77c149bf59be4deddd2163e3af3b9166272d4bccf01  02-Cronologia-e-Memorias/Periodo de instabilidade financeira em 2025.md
+605b9a5528cb343eaaa70db354e2e4332f86cc8485837d5fb7bed35241533dc6  02-Cronologia-e-Memorias/Registro de conflitos e incertezas.md
+61add13a929fe58a148eeba5bdee31ac07797e0d9f0f28ba75ecce0eee293964  02-Cronologia-e-Memorias/Revisao de autorregulacao 15 de junho de 2026.md
+3ada30d846ca96f00855a3f3a7a1c0eeb8aca7d3895cfd1ec00edabeee3af202  02-Cronologia-e-Memorias/Salus e Desafio Svelte.md
+6d71aec8c1a335b6c3a45fa38cb2259177ee38dcd258c88d42d427040512b80a  03-Relacionamentos-e-Rede/Amor idealizacao e projecao.md
+73393c73192c578d2ea447a96c04933b5c757faa1da413d7db833c4b9fc7d2d1  03-Relacionamentos-e-Rede/Amor intimidade e vulnerabilidade.md
+f4866b4c88cd782f11a9e717f477eabf7e2653bb6c3d1f1cfe9f07bbcd7287d0  03-Relacionamentos-e-Rede/Avo Silvana.md
+46ea1a15a7cde15b07b604dde11432bcda4f0463481ef3e82f21438a57001272  03-Relacionamentos-e-Rede/Cha e Prosa.md
+9e345b536bf09e6e10a320ae62e857923a4f63667e18bd0885a5e89d7e267250  03-Relacionamentos-e-Rede/Historia parental relatada.md
+e54837f948225dd9d5589bd8bee50bf5ac99a834ffb3d743de4a4e6932037259  03-Relacionamentos-e-Rede/Lethicia.md
+698b627539b9001b560beb3d90b3fbef0d739cae32352291a84a93dbe554ca3e  03-Relacionamentos-e-Rede/Mari e a experiencia de idealizacao.md
+425f34fef8f7e02de9e8baa11cfc4d639807e5d25ff927e4b93a2885131f236f  03-Relacionamentos-e-Rede/Paulinho.md
+04ac4f984fb27c6bbabb479dc1eb26c94b7fb6c23b9ff7ca7e216082f04553b2  03-Relacionamentos-e-Rede/Rede de relacoes.md
+fb773497d5a14b447493a734bedefba15c9b4527a055bb1818bd9be8554858dc  03-Relacionamentos-e-Rede/Rede familiar.md
+d88b3921225fd1c8784b86cabb0a1032ee329f2c3099de3173a43af335a9b5e1  03-Relacionamentos-e-Rede/Relacoes profissionais.md
+df870f6671eac42fad67899f485cdeacc943b6e5f2fa12e28db5b20f3b1d9938  03-Relacionamentos-e-Rede/Suzana.md
+b7074c1970db364cf1ed63502843f1fd48d3c7d8faccd93400feb70b0c3defc2  03-Relacionamentos-e-Rede/Tribo pertencimento e lideranca.md
+6a89987cac602875f7a7d266616e8ebd1ad30c520e97b5d634bfebd586f9ada5  04-Trabalho-Vocacao-e-Projetos/ACIRV.md
+d776215552eb31c387c343b1f3d02dcd4464016d68c110ccc42cf2c27387aa35  04-Trabalho-Vocacao-e-Projetos/Atom.md
+6f45c50df718af99324730e0208457b587da2ac53bae7a6be8d6170e35943364  04-Trabalho-Vocacao-e-Projetos/Bela Ja.md
+c1b67e217d58b344ff06f51eee9a324353e4e54bdae3ff173cd52d3fe341db75  04-Trabalho-Vocacao-e-Projetos/Design video e direcao criativa.md
+53d51d7874b9ea1eee3ddf5cf01f41c1d4451bc2cd8e642f83a2ac9a6ea17f72  04-Trabalho-Vocacao-e-Projetos/Execucao sob pressao externa.md
+150f766544bd78981b25b861566573aa2d49e9f954232f3ed0a4bd2f67df72ba  04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md
+f0a956c657e732fb6ee70b4a88b81de0f20fad88eb11fd71eaf0a2fd5e4df70d  04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md
+2f452cc3f77d479c60a9edecd3edb264438a8f99c07aa922362e21411463c339  04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md
+cd3c57cf29b8932a5ffc5f3d6597064ca719a533e62591b715aba1bafb50c507  04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md
+628d7d0b0febfdb993bacf47c7f9fb976e347b2b7c1cbe57019df92f0a51c3fb  04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md
+4ad03e29d5c990889f2e95dec84309d75401478251480228c6f2e0d782c4431c  04-Trabalho-Vocacao-e-Projetos/Projeto Cosmo.md
+63fa3662bd9d7c1c6e6d2a83b010cb36d2ca7070ce726030b71e88e3f61bf481  04-Trabalho-Vocacao-e-Projetos/Projeto Neuron.md
+4f229c311425b0164b573a96835ddd2399c64aaa917d583cbf374860050edbac  04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md
+40714055f0185331337c9c1c80fa4258e561918f10c8a1f9c490195ef1d1652d  04-Trabalho-Vocacao-e-Projetos/Sirio.md
+0acf84c4288c43064e811a71091b716bb7ef1af15f381abb386df1fc3d6ebd6b  04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md
+93943077f802826ebc5f08a4ab535ef0f864cc2fff09c2a624d5460a0b21d9ee  04-Trabalho-Vocacao-e-Projetos/Trabalho como eixo de identidade.md
+7f0a2830f4cff39a92c1f8b7a9c1ae10e5a1e347809bb0e6d63a115aa2a3a3b7  04-Trabalho-Vocacao-e-Projetos/Trajetoria profissional.md
+12757d0907bf8547be9bded7e5493d8bcfd776172158c84ce122e110a67ba1c8  05-Sonhos-Simbolos-e-Espiritualidade/Alquimia como metafora de transformacao.md
+0edd013ac8ca81fa0c993e932bd94fca4ae322592e755126ab4f7659b66bb3cc  05-Sonhos-Simbolos-e-Espiritualidade/Arte musica e literatura como espelhos.md
+40c0f718b103f9ebf41c0572abe5b3134e9174fbf70efedabcb90341c0433605  05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+0ced83d80e6f59799b4a31ab9443859e75bd81ca4326cab5e75d74c272e58808  05-Sonhos-Simbolos-e-Espiritualidade/Etica da interpretacao simbolica.md
+b96a1de487005f6a1db6335fe5318ae910ba1af6980fdaa500b1807d50484392  05-Sonhos-Simbolos-e-Espiritualidade/Experiencias com substancias e estados alterados.md
+665930e42fe441d214588047938efadd3f0df111f058b8d5e4510f4bb5f81ab0  05-Sonhos-Simbolos-e-Espiritualidade/Santo Daime.md
+a8d3c1a46c3e1fe9786257b1240dec4eb2026baa50af6e7b87e2ca79cd3b643e  05-Sonhos-Simbolos-e-Espiritualidade/Sonhos imaginacao ativa e registros simbolicos.md
+9fc85cbf673e326905d0cdda104a50f2d78d000aeeb3a48ff61dbf7f86320b25  05-Sonhos-Simbolos-e-Espiritualidade/Taro de Thoth.md
+b7a8c4f78baff53873ea13c028a572dac07cbd5f091a4a43c17cc313a5b63725  05-Sonhos-Simbolos-e-Espiritualidade/Thelema e vontade.md
+be257db7aec12047a325be9f13ed70a86554689ec4bf7fc1a343edd12e84191f  06-Saude-Autocuidado-e-Autorregulacao/Acompanhamento psicologico.md
+6d01cc317396f6b3669dec3ff9bf90d2b9b5f99010ea034eeb0e1b51b3865d57  06-Saude-Autocuidado-e-Autorregulacao/Alimentacao e ambiente domestico.md
+917b42e693987907df41d22281a9dc99757a249248d234b1810efab6e736793b  06-Saude-Autocuidado-e-Autorregulacao/Autorregulacao digital e sexual.md
+d436c20b61fb5b99825afcc4548da75b2bf13ddfa3667d24258b4ad0704c264e  06-Saude-Autocuidado-e-Autorregulacao/Diarios de 2026.md
+d2a6bbd475e5e36147e0b9ec9363871825a8a6ef2ef8fe2ac948a77c5fa4e8d8  06-Saude-Autocuidado-e-Autorregulacao/Disciplina como organizacao da liberdade.md
+5ebc2cc07a8b81232ab455234cf45b67c8aea0d5e7aa5eb49bdd8664a10ebadd  06-Saude-Autocuidado-e-Autorregulacao/Estado atual - 17 de junho de 2026.md
+48045aefe0ce4f3cb2c24965e1eb33846ca539ea09fb8ace78fbc074cb7000b4  06-Saude-Autocuidado-e-Autorregulacao/Exercicio fisico e corpo.md
+02140b733f18927e253e870059daa438434360f3441af3ec2d892bcc06df15cb  06-Saude-Autocuidado-e-Autorregulacao/Historico de pensamentos de morte.md
+c67b69fe819012e3be1d415a23721e9c13014d62d3ad2ae8720aaf950e33a818  06-Saude-Autocuidado-e-Autorregulacao/Revisao semanal de autocuidado.md
+82925de67c05505ba55dc6715b5447be16a2233a1b3b719161e746c32c8d4a82  06-Saude-Autocuidado-e-Autorregulacao/Saude mental - registros e limites.md
+5826be53161505df2ad8a3bc8b89cb2787af626289fe7c470bf791c0678a9996  06-Saude-Autocuidado-e-Autorregulacao/Sono e ritmo diario.md
+d6e79c40c59f861ef36ec836e35f49d0b99d07f0e4d26900eb4a7c83986d14dd  06-Saude-Autocuidado-e-Autorregulacao/Vontade SMART.md
+c8872d6224bdee443d1624c410ba187e3c1ce6bd92ad7d5c9b2786d4d8995afa  07-Planos-e-Decisoes/Comunidade e conteudo.md
+010cc17ca127fc403a127bbfbf9ebf3f467bbec2b676f624380866fec8aa5d98  07-Planos-e-Decisoes/Criterios de decisao para projetos.md
+83c3de94fc15c23210772f34e8c3e9858f8cda38ca1da7ed5be65867cd1f7e43  07-Planos-e-Decisoes/Decisoes e compromissos.md
+e514946476eaa5ddc025553c4df4d9b7ab939c4f59c64cd6c9314d48ae8e22af  07-Planos-e-Decisoes/Estacionamento de ideias.md
+bff73f50563155c84e211caa074dafe6700ce3e9c91efbd73eeded98cdb9db4e  07-Planos-e-Decisoes/Kanban de projetos.md
+67bbb1134527d8294e1256ad1826961fe7890be55ab970b1c6dffb5a7d551bc1  07-Planos-e-Decisoes/Mapa de prioridades.md
+1205f9b29ec6db152cad61e6e8a2caf70fd3db9fdbab795d977b70f0d65bc23b  07-Planos-e-Decisoes/Planos de curto prazo.md
+aea63b32ac2373566c2a49cb08df57da48d055db99b70aa674082b6f1c7d6c6b  07-Planos-e-Decisoes/Planos de medio e longo prazo.md
+03a341a75dd5d168581462d6df7749d9ba212117f6126d588e978045497863a1  08-Estudos-e-Referencias/Estudos na Nova Acropole.md
+e57f7e615b31435174b09ad01f509556a0b0ab1beae72648aa043573afb93397  08-Estudos-e-Referencias/Filosofia e psicologia.md
+ff612de651f5d9434ad55975f4707b3cb8a11a278a0270d5d867e5fe9d9a9028  08-Estudos-e-Referencias/Formacao em Data Science.md
+587b659fc6237934077903ac8fe666c863e1fe722b293bbbf16ef381b6ed88e7  08-Estudos-e-Referencias/Influencias e mentores.md
+61f83051fa44821e20a87d4a2d8268215eb17bad8d0333b7032450c47cf175f2  08-Estudos-e-Referencias/Metodo de estudo e producao.md
+a1229c658ca2547225de4523eefaa320813ed8311ee7df85f5a527355c783f4e  08-Estudos-e-Referencias/Negocios e marketing.md
+02b73ec67f6eb856c7333b61aefc0dc7b72bd9f38f2c39aedb4ac6c143a9ec57  08-Estudos-e-Referencias/Repertorio criativo.md
+523fc0c2ddd6928cf610d90e29958952b256090c777bc8741ae0cd90fc3fd67b  08-Estudos-e-Referencias/Tecnologia IA e automacao.md
+c585caf788d659d80f6a7837e5eb3a7fd223b421bd59799866760c8f38078a11  08-Estudos-e-Referencias/Tecnologias de si e Foucault.md
+b724aaab57978a4111b5e01401af2a42029fe3d925a7c91f012806240bb5fca6  09-Fontes-e-Evidencias/Arquivo original preservado.md
+4f7c2d8a276fab240060eadd290e38f6945e148056a6c30a0942ef2adb24fc78  09-Fontes-e-Evidencias/Conversas ChatGPT - catalogo.md
+e2726cb43784071171164350ead7d0b241a32872b488ebc9f4d937b234b24b02  09-Fontes-e-Evidencias/Diarios - catalogo.md
+8c7852b10e95432919cc568d8f2cb9d4125cbad4fa288caf9b0a1d442c5cd4dc  09-Fontes-e-Evidencias/Duplicatas e versoes.md
+a1014965da66682b6673a15e303fa8c5e2562d5f641b44f30ac098e40b484d98  09-Fontes-e-Evidencias/Fonte - 00 Diario gravity falls - 170625.m4a.md
+af62f3e1c8e14edcbc1a49367d185edee3c8b8d1a72709ccf4965ec1c58ab7a7  09-Fontes-e-Evidencias/Fonte - 00 Diario Parte 01 parte 01.md
+b2c6c453d191653a786cfad21b7f4f4770c795920f7f5e362b691309a99a6f6c  09-Fontes-e-Evidencias/Fonte - 00 Diario Parte 01 parte 02.md
+4ab80ecdd60ab625c5eaebaf898c9d9cb3c275639f5533a73a8e31145915a49f  09-Fontes-e-Evidencias/Fonte - 00 Diario Parte 01 parte 03.md
+af075184302f0eb6abf21e1ff3f6ea19cd7d773616479943da75609bd590deb0  09-Fontes-e-Evidencias/Fonte - 00 diario parte final.m4a.md
+daa7ffa8cdedf43886afd6319d730b821eec37454f9863cecbb360c724d34c60  09-Fontes-e-Evidencias/Fonte - 00_Prompt Reescreva.md
+12dee3c5032b7e70d9f55cd6969f0a92c62803a36a506d911eb874b744b93f29  09-Fontes-e-Evidencias/Fonte - 010626 RNIDIQAOUP.md
+f41177a92f5f785f1d49612d2fe38b729bf7cbb267f22327f0a1fae8eb90d16f  09-Fontes-e-Evidencias/Fonte - 050626 04h30.md
+ab101724c219fba5d4f1f15dd9de8795f69220d7077cb4d62015878c446889ed  09-Fontes-e-Evidencias/Fonte - 050626 RNIDIQAOUP.md
+2ec038d2bee1640fd808f18874afad62183e645a4a03ddf36ad52c4c2869fd39  09-Fontes-e-Evidencias/Fonte - 060626 01h20.md
+8099bca8251b37ab9ab85daa63a3e29c03d60e17f53725c6e572f3ebc7c15e16  09-Fontes-e-Evidencias/Fonte - 060626 RNIDIQAOUP.md
+dbe66d3dbc66ea767c408a6585fa8589e10d26b3deb4cf7ec969775ab2a4c13d  09-Fontes-e-Evidencias/Fonte - 070626 RNIDIQAOUP.md
+14c1c6327c8dcf8ea7d55072f1eb013b7af32b1a3e4f3860587d3a235d098336  09-Fontes-e-Evidencias/Fonte - 080626 00h00.md
+1bd02d0d53dd8d6fe1c8a205b51efb9373c2519d69d0e63b80e2650eda0b2968  09-Fontes-e-Evidencias/Fonte - 150626 05h25.md
+8a8a0032757b09d41e07752f8b473c979a4320f2e75c9b00cc51780b671ab138  09-Fontes-e-Evidencias/Fonte - 150626 RNIDIQAOUP.md
+33663f18f0549667fe04e8fcfc707d540b9ce1b79f0b0bde0ee53f55b1998394  09-Fontes-e-Evidencias/Fonte - 310526 23h43.md
+dd454d86aa6ed29500bf58e1a544deca68ac8982bf81a8fb159a15b26642c4c6  09-Fontes-e-Evidencias/Fonte - 310526 23h52.md
+b55184a70fc235fde6a0c2a5b480233cd9cd4cad1b00b8c69262fe7750db627d  09-Fontes-e-Evidencias/Fonte - A etica do cuidado de si como pratica de liberdade.md
+6bec39aa800c091a1d7b580b97abe188e20ad91cce9615cb2170525796ec55d7  09-Fontes-e-Evidencias/Fonte - Analise IA da reuniao 2026-06-12.md
+3aa2ebb2f7383b15969c5264a3d37a3e96b0f9003998498842c064000c1b470d  09-Fontes-e-Evidencias/Fonte - Analises Diario Negro 01.md
+53ee38edb77ea1cb98ca95bbf4e1621ae8dea577ed8491e2e10f424cb828ab70  09-Fontes-e-Evidencias/Fonte - Anatomia psiquica.md
+b100047831808fe9fab14e9166a33ee162ba6a86596a095f9f54d8d54c962e89  09-Fontes-e-Evidencias/Fonte - Autopsia relacional.md
+389b79025be63dfb86512654ca706fc697fbe56d0aaecfcafbf17bbaac045a2a  09-Fontes-e-Evidencias/Fonte - Briefing do projeto.md
+df669148abe126392ee3d400f41f6b02bd13f5f2cb5c7396990dfc438c77fa9e  09-Fontes-e-Evidencias/Fonte - Comparacao reuniao e dossie 2026-06-12.md
+a7826209633d5b229b642a37e49d955689d2dc48194374852e9a2f7fec300cde  09-Fontes-e-Evidencias/Fonte - Contexto completo.md
+64932c294940cfab8b861d6e10d1778991973a4679fdfc46c5e97f833b1f9813  09-Fontes-e-Evidencias/Fonte - Contexto extra.md
+320bfccf03fec65fe7847202f9f84082bb0ccff4a27c482c5a3a938ca1ce1028  09-Fontes-e-Evidencias/Fonte - Conversa com minha alma revisada.md
+0adeb585e268901f1f1aa791e08dd497505748647a1b692edef36a747d33d5bc  09-Fontes-e-Evidencias/Fonte - Conversas com ChatGPT.md
+c4aba51e7bfc1ad35ef8273bdd5b8971f9c14589a6d6b7d6942ec07dcfb5aba9  09-Fontes-e-Evidencias/Fonte - Cronologia e fatos.md
+bb3777cf03a0434ff0acacd1aacfbdf24bfe564429246f802917e9cd4a8cac61  09-Fontes-e-Evidencias/Fonte - Diario em audio - Parte 01.md
+92c114318decb61dfd1c40a55506375af7dced68904d1f048c4fe8261eca1294  09-Fontes-e-Evidencias/Fonte - Diario em audio - Parte 02.md
+0cf5afbd51b42b351609a2b40cb474adfbbdd8059dc80713ab7eedfa1395d247  09-Fontes-e-Evidencias/Fonte - Diario em audio - Parte 03.md
+f834357e8d2851f161974ae981295bca99725d3f6491e3f5a222dd3b12868e6e  09-Fontes-e-Evidencias/Fonte - Diario FGV e aulas Nova Acropole 2026.md
+6675cabfbb5dcbdb78d29513c0e98d7c7b08063ce3614d31952fbaf3d1023d4b  09-Fontes-e-Evidencias/Fonte - Diario Negro 01 - 241225 ate 130226.md
+a7d91c2711168f4a55e02ffe190c30e37548bf59581bbff35b196891ee4bec44  09-Fontes-e-Evidencias/Fonte - Diario negro 02 - 130226 ate 250426.md
+834f029123c1b5e839a04a11418fcce1baa626e81b0751ce411978d95833e6b0  09-Fontes-e-Evidencias/Fonte - Disciplina como organizacao da liberdade.md
+916aef3458b462d4890a575c80a419b02c6c2250eaa92a5db35a67fa36313436  09-Fontes-e-Evidencias/Fonte - Framework Vontade SMART.md
+ad27adb89ff75e1a074dfadb341014b3c842b082ed9826348c87e072c5fd00fb  09-Fontes-e-Evidencias/Fonte - Gerador de dossie.md
+2492685422a78da67679dad0161f4b7ffc0e08a290df808c8c1d12368b5b24f1  09-Fontes-e-Evidencias/Fonte - Gerador de visao geral.md
+6f7b0488802f77bb91a0bc335abfea1be1003a9d717a4833e1d8016fff5aec0e  09-Fontes-e-Evidencias/Fonte - Glossario da psique.md
+3b0982ca0a214c5cfd3a015bd29402b723aef606ba65f12d77410d1a2bfd4c29  09-Fontes-e-Evidencias/Fonte - Luz e potencia.md
+5813d6d798b524ee15268662bf0b3b31e1e42400b8f9f1759b49296f93ffc28e  09-Fontes-e-Evidencias/Fonte - Modus operandi.md
+26c0d6081acce6db682aea6c1a1ae330372a96b7a401fa0184b37de0c246e462  09-Fontes-e-Evidencias/Fonte - Prompt 1 - Configuracao inicial do sistema.md
+33934ab477aaf8d8fed45d828adbc9cb0b4e653fc877e15234cc35f9133d713f  09-Fontes-e-Evidencias/Fonte - Prompt 2 - Acompanhamento diario.md
+319063f8f3674e1bc9c9d8234f2609ea70e2a93f29559ab7dadaec989b47d1ed  09-Fontes-e-Evidencias/Fonte - Reuniao com psicologa Suzana 2026-06-12.md
+90ed3ad1eb03757ed9be1ead2dc3ebe4fec4e07570c6c29b5edbca8e5421e4ac  09-Fontes-e-Evidencias/Fonte - Segundo cerebro consolidado.md
+f1411272338b9ecaba9cb839979eb8df6a4a45e2950394a6ebd26b6db61a89f9  09-Fontes-e-Evidencias/Fonte - Sintese.md
+1211a399f7420a1a8f2d3d734c99befddcefdf637d595b09157d69f2f7479ca6  09-Fontes-e-Evidencias/Fonte - Tecnologias de Si.md
+a94f814101c884bea61af365852ad094840c5048617daff5734faa091f0d5a70  09-Fontes-e-Evidencias/Fonte - Todas as notas consolidado.md
+feee2bc4bf4a0a5782e34bc342ed951e0b49b19d55640ef9edea3b01fdc41212  09-Fontes-e-Evidencias/Fonte - Tribo.md
+b5a9ffd848f9dc1cd6a44d48ca7e954bfc6bc8ecc01b072499a5b0cee36d9ab7  09-Fontes-e-Evidencias/Fonte - Varredura de lacunas.md
+9367c7fb5d6eaeb83ffcbd853871fc4d4480f9e5512492788f4db8ddfc62b403  09-Fontes-e-Evidencias/Fonte - Visao geral consolidada.md
+c84150022030ddf87753422db8129a1b422caffa3eebc1b391b02a62e0aafb14  09-Fontes-e-Evidencias/Hierarquia de fontes.md
+b7c72933fb6312437bdf6f35153fe6f0ebbd6fade8259bcc843c19237b7dc44d  09-Fontes-e-Evidencias/Indice de conversas ChatGPT.md
+736329ab1d70d661087e12835dff9a5c3e3ff3eb9916d41309d1b856a85ce9cb  09-Fontes-e-Evidencias/Indice geral de fontes selecionadas.md
+1a3223ce7e88aa27e6169aa793a1ee78c8268122208847beadb1afff7b08d314  09-Fontes-e-Evidencias/Inventario dos materiais.md
+415f111935c74a18ba29595f2c93e25048e769824fa2cce472ff85a80924fd24  09-Fontes-e-Evidencias/Manifesto de fontes.md
+c087880ddb8bc63e2613c36c5cd34a630028eb17c42650f430742f906f2b371b  09-Fontes-e-Evidencias/Segundo cerebro - catalogo.md
+4a457fb26965ab72d60ad821b860a724326c4e9fecd3b8809b28e21aa5fee58d  09-Fontes-e-Evidencias/Terapia - catalogo.md
+f5ed55da1ce801711a9c2da98bfffed154b1785e393b8befa1cb34a76d363cf5  70-Fontes-Brutas/Arquivo-Original/00-BRIEFING.md.original
+ffe8424369aad0631c85ab306e87b18bfd18ad49ba85fcec87c1900ce8f9ea10  70-Fontes-Brutas/Arquivo-Original/Dados Kevyn.zip
+70fecad2944579a41352b458b84aadf8518782adf87f4a79bad9ded3ce888036  70-Fontes-Brutas/Registros-Selecionados/Conversa - Amor e procrastinacao - 2025-07-17.md
+169f282ef50bea34087e4480819991bab712f3805410b894bef49de4dce0ef44  70-Fontes-Brutas/Registros-Selecionados/Conversa - Analise Liber AL Cap 1 - 2025-04-08.md
+b91d762b1c5719823803f760ba2b0a94d4054ff74e6167f3ed5a2999a22a1892  70-Fontes-Brutas/Registros-Selecionados/Conversa - Analise psicologica e ocultista - 2025-07-20.md
+dc9b4b4e4af342f74db1556f9f83ecbb972dd9c3918e50af5f261fb37c94775b  70-Fontes-Brutas/Registros-Selecionados/Conversa - Analise tarologica pessoal - 2025-09-19.md
+01c658cfc539529a7902f27b3aabd9cbf3b7197059ebef54c55db83df4440dd3  70-Fontes-Brutas/Registros-Selecionados/Conversa - Autocuidado com analogia - 2025-08-19.md
+7349d46c1ea0b2b4f77714e2653be1ad542ad6a2aa62b5151e845c63d92e8e7c  70-Fontes-Brutas/Registros-Selecionados/Conversa - Caminhada Hermetica e Thelema - 2025-05-26.md
+e1337dab2f14456b15114974643df9936d3cbd4d5af3a0d73a28f086a6ff0673  70-Fontes-Brutas/Registros-Selecionados/Conversa - Carta de despedida - 2025-10-24.md
+45b01aa4582ebe070006e6a2a5c4f4bf2329d4461dde8257124281cc0bf9f6b7  70-Fontes-Brutas/Registros-Selecionados/Conversa - Comparacao Taro Thoth Eras - 2025-08-13.md
+66752fa759834a4c5dfd7c1b9cc557dfe69b308b1638ae0109dc73e513cf8651  70-Fontes-Brutas/Registros-Selecionados/Conversa - Deus e Thelema - 2025-10-10.md
+7daa9d8fa742eb0c41b1f95a5397205ffce35d99ce8422480039dd4f205de865  70-Fontes-Brutas/Registros-Selecionados/Conversa - Devo namorar agora - 2025-06-06.md
+8f87fae01b37cc2824461b4b80374cc68113477c568a4d8c0f0f3e2260fddfb4  70-Fontes-Brutas/Registros-Selecionados/Conversa - Estudo sobre Seis de Copas - 2025-08-24.md
+c3de2529da8de6a479e6c421569b17309787e0f1326626d19f114d12d444dd84  70-Fontes-Brutas/Registros-Selecionados/Conversa - Leitura sobre voce - 2025-10-24.md
+68d30d3eabda7928efadac95852f9e9a7fb23020634e55fdd6ebd429eb890397  70-Fontes-Brutas/Registros-Selecionados/Conversa - Obsidian Idealizado - 2025-07-02.md
+ecece9d28a07620bbea97c40c97f809557ee03732727a06523e5c501ac421014  70-Fontes-Brutas/Registros-Selecionados/Conversa - Pontos altos Cha e Prosa - 2025-10-11.md
+c6f9b275b7ad1b405178ee71b8931255920a17d7b0372ee81c8ce168e7fc4ea5  70-Fontes-Brutas/Registros-Selecionados/Conversa - Psicologia e Leitura Subjetiva - 2025-06-16.md
+f6ece4b27548dacac27619267e1afd77edd371de873201bd191c63fafe0f895f  70-Fontes-Brutas/Registros-Selecionados/Conversa - Raiz da procrastinacao - 2025-06-21.md
+2559f32398f51b94f557584cf3a6f305fd9b39fcea8d58ab19c1d7d7cc83cb04  70-Fontes-Brutas/Registros-Selecionados/Conversa - Reflexao sobre experiencia com Taro - 2025-09-30.md
+686fa32c339c2c3e642aa7b633747ea70b34a4a8a65c8e00249edf334d1e81e5  70-Fontes-Brutas/Registros-Selecionados/Conversa - Reflexao sobre namorar - 2025-09-19.md
+bdec393f5c4c50dfb1dc87f13f5a2c614b4a41b71849cd5e6eef9b825d5e81b2  70-Fontes-Brutas/Registros-Selecionados/Conversa - Ritmo Hipnotico e Ocultismo - 2025-06-19.md
+bbc61cdcc76d3f8c11a51b324f8afe78970234f6e12441e9f57fd016c3ee024c  70-Fontes-Brutas/Registros-Selecionados/Conversa - Sonho e Transformacao - 2025-05-25.md
+c54fb1f57795a53f8fd173be6302c7a0501f853840b22b63a326cf72636ca1f4  70-Fontes-Brutas/Registros-Selecionados/Conversa - Taro e o eterno - 2025-10-04.md
+94746e0699267b8e966a9e01f217383ec7ca5122330c15238ea50e69c8b80e77  70-Fontes-Brutas/Registros-Selecionados/Conversa - Tarot e autoconhecimento - 2025-10-09.md
+81b281e9e727e8acbd9135c95969349d35f49f421283064f0dc76439e309edbc  70-Fontes-Brutas/Registros-Selecionados/Conversa - Transicao e alma mutavel - 2025-10-03.md
+265135094a725f4241465800dc40247f7b225fb46df9083595f8acba0acaef23  70-Fontes-Brutas/Registros-Selecionados/Conversa - Tuneis de Set resumo - 2025-08-13.md
+cf9f3211bd616b9a46f45147d0ff51c66a6f176a89ba6ed0349082ebc597e735  70-Fontes-Brutas/Registros-Selecionados/Conversa - Visao pessoal sobre ocultismo - 2025-07-05.md
+6d7e92e35ac36b5b6582a8c05944eefbbe9b3da48f0033ebe290cc4aaa7db850  70-Fontes-Brutas/Registros-Selecionados/Registro - 00 Diario gravity falls - 170625.m4a.md
+b68d4d0a42d834ea3f8c9595138038d100609e5e43344c713a69f6df8060714e  70-Fontes-Brutas/Registros-Selecionados/Registro - 00 Diario Parte 01 parte 01.md
+b41c8ba84eb00aca5a30e02417eac2aee0ae7d555354c417effcd7e7b174ed4a  70-Fontes-Brutas/Registros-Selecionados/Registro - 00 Diario Parte 01 parte 02.md
+8ef835c65366b74d841544fd804a382a5b6a519825fb6da815537c3d56e0b282  70-Fontes-Brutas/Registros-Selecionados/Registro - 00 Diario Parte 01 parte 03.md
+10af3e055fd7da608badb704cb58f39e476828ab899afc4302e547154d4a760a  70-Fontes-Brutas/Registros-Selecionados/Registro - 00 diario parte final.m4a.md
+664aeeb53b8ade971a397d1a7f082f53028bea5081944da9aacfa6550bf1e63a  70-Fontes-Brutas/Registros-Selecionados/Registro - 00_Prompt Reescreva.md
+3cf7ac988feff89334875d18171f46f3bae48d491b7dffcb4419b799ce16d76b  70-Fontes-Brutas/Registros-Selecionados/Registro - 010626 RNIDIQAOUP.md
+4cbfc3850b5d817af9e93b1174d4e7f5159064d259f928f486136c5d16f84cfa  70-Fontes-Brutas/Registros-Selecionados/Registro - 050626 04h30.md
+ddaea3bf8223046a2a871e65c09077e8d2a2ec897b77fc645e55db1ba96566ce  70-Fontes-Brutas/Registros-Selecionados/Registro - 050626 RNIDIQAOUP.md
+05213db14e853227235ed6a4cb48e8ae54a8fdb2fb1e1677885fde1fae124d02  70-Fontes-Brutas/Registros-Selecionados/Registro - 060626 01h20.md
+cca4cb12388f198a5f944c46af50386dab0d8badff39c6f6f7d08214a18f044a  70-Fontes-Brutas/Registros-Selecionados/Registro - 060626 RNIDIQAOUP.md
+6bf9facdf350268e955c0c1b14cf6dbedae97429bca843c8fe44a77d29b286f9  70-Fontes-Brutas/Registros-Selecionados/Registro - 070626 RNIDIQAOUP.md
+594de4e7f4b423a7a3449669b30c14a1b7fbe2fd5580b206e001ea38f9818b5c  70-Fontes-Brutas/Registros-Selecionados/Registro - 080626 00h00.md
+02e8e658a2a0a06260a95216dbead816e51c6cba851a0ba9249e3c0a91c2e6d7  70-Fontes-Brutas/Registros-Selecionados/Registro - 120626 as 9h - Reuniao com a Psicologa Suzana.md
+232b0a77a2705647e3753ce28f9b23e4548b881ac6aeede2f3284ec39b3c416a  70-Fontes-Brutas/Registros-Selecionados/Registro - 150626 05h25.md
+524e58231e0a0636ff4af12cf9fd481f38bc0b1a2368372b9be4f6116ad41aef  70-Fontes-Brutas/Registros-Selecionados/Registro - 150626 RNIDIQAOUP.md
+7a33c2a5982955dd91d825748db1d70c83005f5a4c4391a6c3e5303718e08981  70-Fontes-Brutas/Registros-Selecionados/Registro - 310526 23h43.md
+b1fa0dbd49ee950f99a5be78b1b2e75ebb7a8785ba813552d4512e2100e73c19  70-Fontes-Brutas/Registros-Selecionados/Registro - 310526 23h52.md
+7cac55c5da622e4d498faecc0f9cefd2b99b6e05f766e84fddc1e6a88be62ab5  70-Fontes-Brutas/Registros-Selecionados/Registro - Diario em audio - Parte 01.md
+4246bf41edf388b1651813c409a1db9157271d8d00a3ce0e3765c49a49602cff  70-Fontes-Brutas/Registros-Selecionados/Registro - Diario em audio - Parte 02.md
+a3fe20fa92c34c451b41a71e596e40ccd49f797de24dd8a4006f60cb4f37f967  70-Fontes-Brutas/Registros-Selecionados/Registro - Diario em audio - Parte 03.md
+f1aa7f203c1f4d40f78347b8435c85cdfe16f819e192653158d2aa36ddaccb76  70-Fontes-Brutas/Registros-Selecionados/Registro - Diario Negro 01 - 241225 ate 130226.md
+a64928b50e45b3e9607b157f0d65a9051371b667546c5b543fab0cf65d5da4a0  70-Fontes-Brutas/Registros-Selecionados/Registro - Diario negro 02 - 130226 ate 250426.md
+f777c2c5d79713773672a7855c786805d01b2a4b2cf5e33eebdc06669be515ad  70-Fontes-Brutas/Registros-Selecionados/Registro - Disciplina como organizacao da liberdade.md
+1d3291df01e4fbd1a4b4e29c531228a6eb53e71b6ee846b4be8e397eeba31253  70-Fontes-Brutas/Registros-Selecionados/Registro - Framework Vontade SMART.md
+a66d10caee4b1390be10876ddebf49381304beefa711608e560fbe7c7f782e3f  70-Fontes-Brutas/Registros-Selecionados/Registro - Prompt 1 - Configuracao inicial do sistema.md
+eb8ea32e665e6161873ed37d3cfeb5313e6ed6137d2beb29cc43b064e421d232  70-Fontes-Brutas/Registros-Selecionados/Registro - Prompt 2 - Acompanhamento diario.md
+debcd3cc06db770cb0e7392661709c6987af6a989ea79001747600c9da9deead  70-Fontes-Brutas/Registros-Selecionados/Registro - Tecnologias de Si.md
+b91843481490422fa9c08ca61214d0fafd22543acc00be4f99cd495d639354ba  75-Anexos/Imagens-Selecionadas/Generated Image December 31, 2025 - 7_24AM-b9184348.png
+32e4c3e09c06225dd4fa4fdc10390caf3b41d69e7dd9a30f059030df7258958b  75-Anexos/Imagens-Selecionadas/Pasted image 20250204090427-32e4c3e0.png
+1b1d3cc69c8480fe356c93ae5e1e9adae4bd22539b87fd0d3a2f212c3c026610  75-Anexos/Imagens-Selecionadas/Pasted image 20250602021155-1b1d3cc6.png
+004ecd7f13bfcf9af459b971ad724757b6c61c6ad472fcfb30354ab0acb98f78  75-Anexos/Imagens-Selecionadas/Pasted image 20251011153214-004ecd7f.png
+26d3285ab4947ceda7309a15ee3889fd527313829bb95ed3069eaaa375ec5910  75-Anexos/Imagens-Selecionadas/Pasted image 20251011154832-26d3285a.png
+3c4ea141b54bb5880466aa3ad21c5da13387631890278ad1b04565c8048d081b  75-Anexos/Imagens-Selecionadas/Pasted image 20251011154942-3c4ea141.png
+feee530fa81bf25d36a03a4835667977e9b0ca1fd9b8890322ff7a0735475545  75-Anexos/Imagens-Selecionadas/Pasted image 20251011161025-feee530f.png
+5fc7b67d22515ddd99ca43611ab857528539872621f020b088e0cd9856eaa689  75-Anexos/Imagens-Selecionadas/Pasted image 20251011161341-5fc7b67d.png
+ae574eb7275140418c6091c72bc227f53e1141eefa68a9012e0772955a7dbf34  75-Anexos/Imagens-Selecionadas/Pasted image 20251011163225-ae574eb7.png
+1d33ab602b87110c8a599ac7fc3cd52c7850c96c7e04c1be15d8b268d1a94041  75-Anexos/Imagens-Selecionadas/SAFE ZONE-1d33ab60.png
+322b811c27a1e8143bb8bc75999d6d6d50d535775d83c8fb8d46cfedac8f88a4  75-Anexos/LEIA-ME Anexos.md
+0e779f3b80520bf3625daeb8332e75893dc57a8bbc3a4e3c0bf877e33c45ba8a  75-Anexos/Manifesto-de-Imagens.csv
+7a44e2f317f730f3139a0fe753de6a50de2949a4ae1d04b7ceee4a8847d2df22  80-MOCs-e-Trilhas/Linha do Tempo.canvas
+f0c121d507808b2ad96f11828735a9837486c0bd1f1e00e43ad7513a78c58a90  80-MOCs-e-Trilhas/Mapa Autoconhecimento.canvas
+22cad2564c9503869358a7fd7244b97c20780ad54e1287b878bfd3752ea4487c  80-MOCs-e-Trilhas/Mapa Geral.canvas
+624d634fcc139ca921d700ece2eda6f9c6d611ba9c531ced7f65c55c06392f41  80-MOCs-e-Trilhas/MOC Cronologia e memorias.md
+5e3dfd146c79756642b315b40702aa46c3e6181ffbbcfcfdcd0e1af83d018148  80-MOCs-e-Trilhas/MOC Estudos e referencias.md
+b37a947162d24643d73f233d702fc745c576e3fd769dce07201f78892bcad8ed  80-MOCs-e-Trilhas/MOC Fontes e evidencias.md
+b575e1ca32659f44306e1fc76679253252a6cfb4428f522e130205aff356351c  80-MOCs-e-Trilhas/MOC Perfil e autoconhecimento.md
+bdbe63e55c099cb7add26d2455d530b9d02218a4b953388bc2761141138ea327  80-MOCs-e-Trilhas/MOC Planos e decisoes.md
+427813cc7e546561e8f7753ca03c0dd0fc539f515b941a697a1e0d85af351ae9  80-MOCs-e-Trilhas/MOC Relacionamentos e rede.md
+189510ce6585688960539b919dd6d7aace26ff69096d9853e696d32708c4ef88  80-MOCs-e-Trilhas/MOC Saude autocuidado e autorregulacao.md
+72bc9813a7b48a531f2fc1e8b91cf1dd7427a2cdfabbbc27db95bcb0271471b2  80-MOCs-e-Trilhas/MOC Sonhos simbolos e espiritualidade.md
+0510668639ccf0c82c03ea1abdade71a813d8aa1c4b0a1beeee59cc53ed42e7f  80-MOCs-e-Trilhas/MOC Trabalho vocacao e projetos.md
+2245a99423210777fbd3a475d9c3f137049a476b958771c2ceffac01f286908f  80-MOCs-e-Trilhas/Projetos e Execucao.canvas
+8780503e4f8a09821ce94bc90c8e021aa670bdaab17e03da13a3cbc6b01fcd07  80-MOCs-e-Trilhas/Trilha autobiografica.md
+bcef98d01b0fe552f4dc124d93c73241c29b2e87afb68c14954700d7f5090a1b  80-MOCs-e-Trilhas/Trilha de auditoria das interpretacoes.md
+628f9c5fc8b9fad114db5ae29d9a9d2c5f7a2e62489a987f83e8c11af9d8db16  80-MOCs-e-Trilhas/Trilha de preparacao para terapia.md
+be898c13796f2530add74e2552a2c6d3e7f93340f0e11e191a3866d18f34723b  80-MOCs-e-Trilhas/Trilha de revisao de projetos.md
+9e3939f5ee7295c258b84fc3a753b83c3e25ac66c139b06d91eb4fe26f2dbfff  80-MOCs-e-Trilhas/Trilha rapida - quem e Kevyn.md
+7fbfb48fe5a6eb692e0c787920ce23ba88a027dc1a396118e5d393c98be9b25d  85-Bases-e-Consultas/Bases e consultas - guia.md
+e2d583fd7f8e9a7a4ae57a76f006e6d238d54d9c7eb90df7df5730ba34fc2a07  85-Bases-e-Consultas/Consultas Dataview.md
+1bfe265a96f9d4428f899ad9d424c8b78841332331e1e73108c2cf2882ee6850  85-Bases-e-Consultas/Conteudo.base
+5044cc611bec8ed7ff54c2774e448196097bff2fc6de7c6c22ce8cb103de74a9  85-Bases-e-Consultas/Dashboard do cofre.md
+59b643a19cb41b4a510ad58e1fd68759b1c7009d476720aa4d808167c53f6a34  85-Bases-e-Consultas/Fontes.base
+ba956c7258bb6aee3f86b8af353a3656e234908076200789b0f72784be00cb6e  85-Bases-e-Consultas/Linha-do-Tempo.base
+7bd825fce37755c2018a5194365fd30a539c0f3e3daa5f28fa5afa0ba550f71d  85-Bases-e-Consultas/Pessoas.base
+07010da8d41eda392e442fd24995484a06696cf4e62cc0edd3b88e4c8a78400b  85-Bases-e-Consultas/Projetos.base
+19da020395ef669868e8426f1e706ee3723e9dd9056037916b7c64fe912d57da  90-Templates/LEIA-ME Templates.md
+ba59a46087f5093df45a077a586acefcfc412132d3afc9b687af82b583a06900  90-Templates/Template - evento.md
+05968e6d68a4b178233153765661b5831df60e3573a358226e77415e1511be7a  90-Templates/Template - fonte.md
+781dd7a78197e29685a4ce20e65924d91ef0058369f653a6189ed23301ebf482  90-Templates/Template - hipotese.md
+29eabe0ef21828be83672a9f3beab536a3a205c334a16cdf3d764a7c1c48d691  90-Templates/Template - nota tematica.md
+9846de5da3c414072eee3fd6b888bd98a879b7256110c56b11e66b96d3fe3d43  90-Templates/Template - pessoa.md
+1e7b1a1682aed70fe6be6859dd4a094ae1db086efbed7fffa451cf0920a3e55b  90-Templates/Template - projeto.md
+5e54505456345546f6e826c6697e46aa5da45a905a88eaf26fa8c4baf59e3e85  90-Templates/Template - revisao semanal.md
+745c2bd860e7b910c90169b52c03856d55de76015ecb89265ad65dcf12ad7ff8  90-Templates/Template - sessao de terapia.md
+685dc7b96b9f02211957805fdac73a6984cf29038c07e01e8184d01533d1e088  90-Templates/Template - sonho.md
+4876041b111874aa3100673220ef3d17d0528a1d6a4e3e68e554b1dab383b2cf  95-Auditorias/Auditoria de fontes.md
+0d93b148d3235218b454dcef721771463bc6420e8dd4e8a8947303ec7c3b1e52  95-Auditorias/Auditoria de privacidade.md
+cb41f23c4520211ee7b80f7147b433152d51dc318ad380eb21da4a4df2b362d6  95-Auditorias/Auditoria de versoes.md
+27bbe550517f1a3aaa9071748d967dc588251cf4ebbb34f10b12fc06bd1ebbc6  95-Auditorias/Auditoria editorial e de evidencias.md
+1fdc1aa798433a1d73ab38dc6d651df1da4c130e37edd289eac10293424e9db3  95-Auditorias/auditoria-customizada-final.json
+0a387ec28345b0d54e8f7e372290e46213bbd5825110a2d73b4aa74e68c64463  95-Auditorias/auditoria-estatica-final.json
+fc06a700a3677f638979b2327672b2ac32ec3609f9658324743146b9b1e33a8e  95-Auditorias/Checklist de release.md
+fd4dbd74e3dfd699dd7b6e56cc64319511841e68f0750d4c3126ab6cb78ec8ea  95-Auditorias/Matriz de cobertura.md
+ec183633e75d765c2f5361bc47a30acc3c262c12c83bae1eaee309359246cc67  95-Auditorias/Relatorio de auditoria do vault.md
+9c9c31b89ada6bb9e049e2b80254a4431bfd340203db452c7790aa2cee5072c8  98-Infraestrutura/auditar_vault.py
+ac5e25e90664af02c4de8436bf6749033850a08d1d8082dad717b35618b36422  98-Infraestrutura/Changelog do vault.md
+206ecbc83af53f70866284d40cd57b7e5ba0f34b5370073cbc3fde7713233695  98-Infraestrutura/Convencoes de nomes e links.md
+a6c79aabbec3293ae488f386954ef911d9acd9da35e2b9c77736d3f991fceb90  98-Infraestrutura/Indice-Conversas-ChatGPT.csv
+397227429ae208201aac8dcf0a477815e21eb705daf7b5b54ed0165e67ff9afa  98-Infraestrutura/Manifesto-de-Fontes.csv
+60c59cb9235aa08963cde9d42fc1898560bc86a17a9c7d8fa779b2df5bb49d54  98-Infraestrutura/Ontologia.md
+7dee7df52bf748e95cdbfd95f6d51db1840cf6bbd1092c0548324fade6f64b24  98-Infraestrutura/Schema YAML.md
+dc59a8d5a7de8368de599124dc660c44e3d665ae39c536125f5d9a47a9159bbe  98-Infraestrutura/Vocabularios controlados.md
+e150d46001dce300889120bbf88bfff0172b60aea2bc43cc093baf284080016d  99-Pendencias/Kanban de pendencias.md
+28bb57d7f654aaadf145ba9797228b756386ea18c4056fb0471d30fce306edfa  99-Pendencias/Pendencias abertas.md
+8b53884ed6e8e3ca49ed550b8d12ed86bbcb3087bfef87f6823838e0108e7d0f  Changelog.md
+c5d3212d7e0888e442774c7804d63c47e96eca760bf4774d3c6580f5730d5035  CHECKSUMS.txt
+930976064267cdff4cebb3088b19f9d6f3d5670863f91c9f245bba5332111aed  Inventario.csv
+2287c31d5dc7c2b70a01c8fc8e7385601290e255458d428ec00f9777253455e8  Metricas.json
+7294b323d36ca72eec144dabaab4131a4d18db9416e35207000cf18a4a266e56  Pendencias-Assumidas.md
+b29d3aaef27c95dc6c6157716a9c06d306ff14b68cd25671f0f84aed9be2adf9  Relatorio-de-Auditoria.md
+5fc9b54ba9f76dad5dc8f1c3ddc4623b05b403c80efc44ebacc37ceb50e2d18f  Relatorio-Executivo.md

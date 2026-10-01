@@ -1,0 +1,3 @@
+* **Efeito Typewriter:** Utilize o parâmetro animável "Source Text" para simular o efeito de máquina de escrever, ou use o efeito nativo do After Effects.
+* **Texto em Curvas:** Desenhe uma curva com a Pen Tool em uma camada de texto e, em "Path Options", defina o "Path" para a máscara criada para que o texto siga o trajeto. Os parâmetros do "Path Options" são animáveis e podem ser ajustados no Graph Editor.
+* **Animar Elementos em Curvas:** Desenhe uma curva com a Pen Tool, copie o "Mask Path" e cole no parâmetro de "Posição" de um elemento para animá-lo ao longo do caminho.

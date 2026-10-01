@@ -1,0 +1,83 @@
+﻿[
+    {
+        "caminho":  "04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md",
+        "operacao":  "ampliar",
+        "motivo":  "Adicionar estudo de caso sobre autoridade pos-lancamento e qualidade de clientes.",
+        "fontes":  "SRC-000116",
+        "hash_anterior":  "16c53799822a9ecff6a94e36d3a99e3d329d819cd3d2c81476a5893ea038bf19",
+        "hash_posterior":  "1d16fbe253757739ee7309759b3a0438e52a753ca10000ac215e48c9a7e70905",
+        "resultado_validacao":  "ok"
+    },
+    {
+        "caminho":  "02-Cronologia-e-Memorias/Salus e Desafio Svelte.md",
+        "operacao":  "ampliar",
+        "motivo":  "Registrar criativo emocional de topo de funil sobre frustacao pos-parto.",
+        "fontes":  "SRC-000117",
+        "hash_anterior":  "49b88674488de08b1f0310d964c2232957b03fe381d694c2df8c8e2aec9d8b57",
+        "hash_posterior":  "7ee27814da2bafb5349eff1a90cf537d01c99f01a9e5a6f0fcd3c67a07dc10d2",
+        "resultado_validacao":  "ok"
+    },
+    {
+        "caminho":  "04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md",
+        "operacao":  "ampliar",
+        "motivo":  "Adicionar funil, jornada do cliente e gatilhos mentais como estudo de linguagem de conversao.",
+        "fontes":  "SRC-000118; SRC-000119; SRC-000120",
+        "hash_anterior":  "da16db321a6c420e4201eb10478c8475d397a70d0637f6bf4616371e36c98774",
+        "hash_posterior":  "0b64c929427a10b3d15f74912454cc6f3535b566bac1d0032559315a20554c5b",
+        "resultado_validacao":  "ok"
+    },
+    {
+        "caminho":  "95-Auditorias/Estado da integracao.md",
+        "operacao":  "corrigir",
+        "motivo":  "Atualizar o estado para o bloco 116-120 e avancar o proximo item.",
+        "fontes":  "SRC-000116; SRC-000117; SRC-000118; SRC-000119; SRC-000120",
+        "hash_anterior":  "4fdc8944ca9229cb546cd561351cec7eef7168df6ef804860b6a767ed665cfcd",
+        "hash_posterior":  "0d1b308cba17f27063e0703fc774fb85c9171501c638a01a2c7fcccb0634fb0f",
+        "resultado_validacao":  "ok"
+    },
+    {
+        "caminho":  "Controle-Integracao/Estado-Integracao.json",
+        "operacao":  "corrigir",
+        "motivo":  "Persistir o ciclo 0030 e avancar o ponto de retomada.",
+        "fontes":  "SRC-000116; SRC-000117; SRC-000118; SRC-000119; SRC-000120",
+        "hash_anterior":  "661b0c708884060faea913fa3ecec0b20ed86987ed80cf984731d4be222f0ce1",
+        "hash_posterior":  "083d34dd17451e866b3ba2fe97a146e01df64b5bd81660bdc46bba17343a95bc",
+        "resultado_validacao":  "ok"
+    },
+    {
+        "caminho":  "Controle-Integracao/Manifesto-Fontes.csv",
+        "operacao":  "reavaliar",
+        "motivo":  "Marcar SRC-000116 a SRC-000120 como revisados no ciclo 0030.",
+        "fontes":  "SRC-000116; SRC-000117; SRC-000118; SRC-000119; SRC-000120",
+        "hash_anterior":  "3b6a9dc648feef3817998bbd126e9e66a0cec93df5abae74296fa2b007b2d177",
+        "hash_posterior":  "5a456ac1dfc5981f296a30b05d50feef3607d22dd2cfef2b2100dff0fd138e17",
+        "resultado_validacao":  "ok"
+    },
+    {
+        "caminho":  "Controle-Integracao/Matriz-Cobertura.csv",
+        "operacao":  "reavaliar",
+        "motivo":  "Registrar reavaliacao de 116 a 120 sem mudar o estado de integracao.",
+        "fontes":  "SRC-000116; SRC-000117; SRC-000118; SRC-000119; SRC-000120",
+        "hash_anterior":  "708f58039f631db0ecadb3670ea7e011cf773bc8b3ab2efc4584384e5459da05",
+        "hash_posterior":  "f95b7175d8180e806dce6c799f90125ee9cd4e64f1f55f72f76594b875d024e8",
+        "resultado_validacao":  "ok"
+    },
+    {
+        "caminho":  "Controle-Integracao/Registro-de-Decisoes.md",
+        "operacao":  "ampliar",
+        "motivo":  "Registrar a decisao de curadoria do bloco 116-120.",
+        "fontes":  "CICLO-0030",
+        "hash_anterior":  "4e76d7fbdcb51db6985a0dfec088a1afb837c6844b2932d48fa3972496b4984e",
+        "hash_posterior":  "4bb43cedbbc3335175317e2a1def90e9993fd4ccbc40b73ab8b4bbe93eccf69b",
+        "resultado_validacao":  "ok"
+    },
+    {
+        "caminho":  "Controle-Integracao/Relatorio-Acumulado.md",
+        "operacao":  "ampliar",
+        "motivo":  "Acrescentar o resumo acumulado do ciclo 0030.",
+        "fontes":  "CICLO-0030",
+        "hash_anterior":  "698f36e7b4dce23eb77513d8049c09c1ec656fd951e8e63f1cc643848725bf40",
+        "hash_posterior":  "1895bba265edc85f2bdcd17e6ce107baa0b76ad9ec59b11c26b58d47adab30d0",
+        "resultado_validacao":  "ok"
+    }
+]

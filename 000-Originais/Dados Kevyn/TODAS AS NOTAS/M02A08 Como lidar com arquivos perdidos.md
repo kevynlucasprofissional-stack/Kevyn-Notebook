@@ -1,0 +1,2 @@
+É só dar um Ctrl+H no arquivo perdido e mostrar para o After onde estão localizados os arquivos perdidos.
+Se pesquisar "Missing Footage" na barra de pesquisa do menu Projeto, aparece todos os arquivos perdidos.

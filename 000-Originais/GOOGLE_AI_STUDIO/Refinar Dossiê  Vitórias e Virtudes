@@ -1,0 +1,180 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1z-vZD1SyLxJvsGfV0oJMC2OtwI082Vhl"
+      },
+      "role": "user",
+      "tokenCount": 38081
+    }, {
+      "text": "Estou criando um resumo definitivo sobre mim, estou na etapa de que preciso revisar os prompts para que ele entregue resultados insanamente ótimos, preciso de ajuda para refinar o prompt do processo de gerar dossiê, o prompt a ser melhorado está em \u003cprompt_melhorar\u003e\u003c\\prompt_melhorar\u003e. Vou anexar alguns livros sobre engenharia de prompt dos quais você irá extrair frameworks para me ajudar no meu objetivo.\n\n\u003cprompt_melhorar\u003e\nEstou subindo o passo 6 e o 13. Quero que estes dois passos sejam unificados.\n\n\nPASSO 6: Prompt para o \"Inventário de Vitórias\"\n**Objetivo:** Contrapor a narrativa de fracasso com evidências de competência e sobrevivência.\n\n\u003e **Comando:**  \n\u003e \"Faça uma varredura no arquivo buscando evidências de **Sucesso, Resiliência e Superação**. Ignore as autocríticas de Kevyn e foque nos fatos.\n\u003e \n\u003e Liste as **Grandes Vitórias**, cobrindo:\n\u003e \n\u003e 1. **Sobrevivência:** Situações de crise aguda que ele superou.\n\u003e 2. **Conquistas Técnicas:** Habilidades complexas que ele aprendeu sozinho.\n\u003e 3. **Vitórias Morais:** Momentos em que ele manteve a integridade ou protegeu alguém.\n\u003e 4. **Avanços de Consciência:** Insights que mudaram a trajetória dele.\n\u003e 5. **Resultados Profissionais:** Projetos entregues, elogios recebidos, cargos conquistados.\"\n\nPASSO 13: Prompt para \"A Beleza e Virtude\"\n**Objetivo:** Extrair a parte luminosa que muitas vezes fica escondida pela análise de patologias.\n\n\u003e **Comando:**  \n\u003e \"Analise o arquivo buscando a beleza na personalidade de Kevyn Lucas. Deixe de lado os diagnósticos de falhas e foque nas virtudes essenciais.\n\n\u003e Responda:\n\u003e 1. **A Visão de Mundo:** Como ele vê a realidade quando está inspirado? Qual é a estética da alma dele?\n\u003e 2. **O Curador:** Em que momentos ele ajuda, ouve ou eleva as outras pessoas? Dê bastante peso a esta que é sua habilidade mais \"High Ticket\": a de ser um mentor, \"estrategista de almas\" ou um curador ferido.\n\u003e 3. **A Espiritualidade Genuína:** O que ele busca de verdade além do dinheiro? Qual é a sua conexão com o mistério?\n\u003e 4. **As Virtudes:** Quais traços de caráter nobres ele demonstra?\n\u003e 5. **O Artista:** Onde reside a sensibilidade poética dele? Extraia trechos que mostrem sua capacidade de ver beleza no mundo.\"\n\u003e 6. **O cão leal:** Explore a capacidade de lealdade canina do Kevyn como uma de suas forças primordiais. Kevyn esconde em si uma enorme preciosidade, uma imensa capacidade de lealdade, cuidado e amizade profunda.\n\n\u003c\\prompt_melhorar\u003e",
+      "role": "user",
+      "tokenCount": 718
+    }, {
+      "text": "**Refining the Initial Query**\n\nI\u0027m currently dissecting the user\u0027s initial request. My primary goal is to understand precisely what kind of \"Kevyn\" dossier is needed, and I\u0027m zeroing in on the specific prompt component. I\u0027m trying to pinpoint what kind of refinement it needs.\n\n\n**Consolidating Steps and Techniques**\n\nI\u0027ve combined the \"Inventory of Victories\" and \"Beauty and Virtue\" steps into a unified approach. I am now leveraging prompt engineering frameworks and techniques from the provided PDF. Specifically, I am focusing on Role Prompting, Contextual Prompting, System Prompting, and Few-Shot Prompting, to deliver the \"insanely great results\" requested. I\u0027m extracting and integrating these techniques to refine processing of the input XML block.\n\n\n**Integrating Prompting Strategies**\n\nI am now integrating several advanced prompting strategies to sharpen my processing. I\u0027m focusing on \"Step-Back Prompting\" for character analysis, prioritizing positive instructions over constraints, and configuring output for structured data. I\u0027m using strong verbs to be specific. Additionally, I am analyzing both the \"Hard\" and \"Soft\" aspects of the input prompts in isolation.\n\n\n**Structuring the Iterations**\n\nI\u0027m structuring the iterations on the prompt into a clearer framework. My mental outline was too simplistic. Now, I\u0027m improving by applying the PDF\u0027s role-prompting to become a biographer and profiler. I\u0027ve restructured to use contextual prompting, specifying definitive dossier and a structured output. I\u0027m focusing on \"Light Shadow\" synthesis, blending success and virtue.\n\n\n**Finalizing Dossier Approach**\n\nI\u0027m now implementing the final polish, focusing on output formatting and structure. I will define a \"persona\" for the AI - an \"Advocate\" or \"Profiler of Light\" - and break down the request into specific sections. This will merge the initial steps. I\u0027ve rephrased negative constraints as positive instructions, focusing on objective evidence of competence. I will be using strong verbs like \"Investigate,\" \"Distill,\" \"Illuminate,\" and \"Construct\" to enhance precision. My final output format will be a clear Markdown structure.\n\n\n",
+      "role": "model",
+      "tokenCount": 1395,
+      "isThought": true,
+      "parts": [{
+        "text": "**Refining the Initial Query**\n\nI\u0027m currently dissecting the user\u0027s initial request. My primary goal is to understand precisely what kind of \"Kevyn\" dossier is needed, and I\u0027m zeroing in on the specific prompt component. I\u0027m trying to pinpoint what kind of refinement it needs.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Consolidating Steps and Techniques**\n\nI\u0027ve combined the \"Inventory of Victories\" and \"Beauty and Virtue\" steps into a unified approach. I am now leveraging prompt engineering frameworks and techniques from the provided PDF. Specifically, I am focusing on Role Prompting, Contextual Prompting, System Prompting, and Few-Shot Prompting, to deliver the \"insanely great results\" requested. I\u0027m extracting and integrating these techniques to refine processing of the input XML block.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Integrating Prompting Strategies**\n\nI am now integrating several advanced prompting strategies to sharpen my processing. I\u0027m focusing on \"Step-Back Prompting\" for character analysis, prioritizing positive instructions over constraints, and configuring output for structured data. I\u0027m using strong verbs to be specific. Additionally, I am analyzing both the \"Hard\" and \"Soft\" aspects of the input prompts in isolation.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Iterations**\n\nI\u0027m structuring the iterations on the prompt into a clearer framework. My mental outline was too simplistic. Now, I\u0027m improving by applying the PDF\u0027s role-prompting to become a biographer and profiler. I\u0027ve restructured to use contextual prompting, specifying definitive dossier and a structured output. I\u0027m focusing on \"Light Shadow\" synthesis, blending success and virtue.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Finalizing Dossier Approach**\n\nI\u0027m now implementing the final polish, focusing on output formatting and structure. I will define a \"persona\" for the AI - an \"Advocate\" or \"Profiler of Light\" - and break down the request into specific sections. This will merge the initial steps. I\u0027ve rephrased negative constraints as positive instructions, focusing on objective evidence of competence. I will be using strong verbs like \"Investigate,\" \"Distill,\" \"Illuminate,\" and \"Construct\" to enhance precision. My final output format will be a clear Markdown structure.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Com base no PDF *Prompt Engineering* da Google (autoria de Lee Boonstra), utilizei os seguintes frameworks e melhores práticas para unificar e potencializar os seus passos 6 e 13:\n\n1.  **Role Prompting (Pág. 18, 21):** Definir um papel específico (\"Biógrafo e Perfilador de Alta Performance\") para dar o tom e a perspectiva exata da análise.\n2.  **Positive Instructions over Constraints (Pág. 57):** Em vez de dizer apenas \"ignore as falhas\", instruímos o modelo ativamente sobre *onde* focar a atenção (nas evidências de competência e nobreza), o que é processado de forma mais eficiente pela IA.\n3.  **Design with Simplicity \u0026 Strong Verbs (Pág. 55):** Uso de verbos de comando claros (Extraia, Sintetize, Ilumine) para guiar a ação do modelo.\n4.  **Contextual Prompting (Pág. 23):** Fornecer o contexto de que se trata de um \"Dossiê Definitivo\" focado na \"Luz\", unindo o tangível (vitórias) ao intangível (virtudes).\n5.  **Structured Output (Pág. 60):** Organização da resposta em seções claras para evitar alucinações e garantir que todos os pontos críticos (do cão leal ao estrategista) sejam cobertos.\n\nAqui está o prompt refinado e unificado:\n\n***\n\n### Prompt Unificado: O Dossiê da Luz (Vitórias, Virtudes e Essência)\n\n**Contexto:** Você está atuando como um **Biógrafo e Perfilador de Elite**, especializado em identificar o \"Ouro Oculto\" em trajetórias complexas. Estamos construindo a seção \"Luz e Potência\" do dossiê definitivo de Kevyn Lucas.\n\n**Instrução:** Analise o arquivo fornecido com um olhar investigativo. Sua missão é **sintetizar a força vital de Kevyn**, unindo suas conquistas tangíveis (fatos/vitórias) com sua essência intangível (virtudes/beleza). Filtre qualquer ruído de autocrítica e concentre-se exclusivamente nas evidências de competência, sobrevivência e nobreza de caráter.\n\n**Gere um relatório estruturado nos seguintes 4 Pilares de Potência:**\n\n#### 1. O Guerreiro Antifrágil (Resiliência e Sobrevivência)\n*   **Instrução:** Mapeie a capacidade de Kevyn de suportar e superar o caos.\n*   **Extraia:**\n    *   Situações de crise aguda onde ele não apenas sobreviveu, mas evoluiu.\n    *   As \"Vitórias Morais\": momentos em que a integridade falou mais alto que a conveniência.\n    *   Avanços de consciência: insights que alteraram sua trajetória de vida.\n\n#### 2. O Construtor (Competência Técnica e Resultados)\n*   **Instrução:** Identifique o capital intelectual e profissional acumulado.\n*   **Extraia:**\n    *   Habilidades complexas aprendidas de forma autodidata ou sob pressão.\n    *   Projetos entregues, resultados profissionais mensuráveis e elogios recebidos.\n    *   A prova concreta de que ele entrega resultados.\n\n#### 3. O Estrategista de Almas (O Curador e a Visão de Mundo)\n*   **Instrução:** Descreva a sensibilidade única de Kevyn como mentor e observador da realidade.\n*   **Extraia:**\n    *   **A Estética da Alma:** Como ele enxerga a beleza no mundo quando está inspirado?\n    *   **O \"High Ticket\" Humano:** Evidências de sua habilidade como mentor, ouvinte e \"curador ferido\" que eleva os outros.\n    *   **Espiritualidade:** Sua conexão com o mistério e o que ele busca além do material.\n\n#### 4. O Guardião Leal (O Arquétipo do Cão)\n*   **Instrução:** Explore a força relacional primária de Kevyn.\n*   **Extraia:**\n    *   Evidências de sua lealdade canina, cuidado extremo e capacidade de amizade profunda.\n    *   Momentos em que ele protegeu ou se sacrificou pelos seus.\n\n**Formato de Saída:** Utilize Markdown, com bullets diretos e citações do texto original que comprovem cada ponto. O tom deve ser inspirador, analítico e irrefutável.\n\n***\n\n### Por que este prompt funcionará melhor (Baseado no PDF):\n\n1.  **Unificação Lógica:** Ao invés de pedir duas listas separadas, criamos uma narrativa coesa onde a \"Vitória\" (Passo 6) suporta a \"Virtude\" (Passo 13). Isso cria um perfil 3D do Kevyn.\n2.  **Estrutura de \"Step-Back Prompting\" (Adaptado da Pág. 25):** Ao pedir para agir como um \"Perfilador de Elite\" antes de executar a tarefa, fazemos o modelo \"dar um passo atrás\" e acessar um vocabulário e uma capacidade de análise mais sofisticados do que uma simples extração de texto.\n3.  **Specificity (Pág. 56):** Fomos extremamente específicos sobre o *output*. Em vez de apenas \"fale sobre o cão leal\", definimos isso como o \"Arquétipo do Cão\" e pedimos evidências de \"cuidado extremo e amizade profunda\".",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1235,
+      "parts": [{
+        "text": "Com base no PDF *"
+      }, {
+        "text": "Prompt Engineering* da Google (autoria de Lee Boonstra), utilizei os seguintes frameworks e melhores práticas para unificar e potencial"
+      }, {
+        "text": "izar os seus passos 6 e 13:\n\n1.  **Role Prompting (Pág. 1"
+      }, {
+        "text": "8, 21):** Definir um papel específico (\"Biógrafo e Perfilador de Alta Performance\") para dar"
+      }, {
+        "text": " o tom e a perspectiva exata da análise.\n2.  **Positive Instructions over Constraints (Pág. "
+      }, {
+        "text": "57):** Em vez de dizer apenas \"ignore as falhas\", instruímos o modelo ativamente sobre *onde"
+      }, {
+        "text": "* focar a atenção (nas evidências de competência e nobreza), o que é processado de forma mais eficiente pela"
+      }, {
+        "text": " IA.\n3.  **Design with Simplicity \u0026 Strong Verbs (Pág. 55):** Uso"
+      }, {
+        "text": " de verbos de comando claros (Extraia, Sintetize, Ilumine) para guiar a ação do modelo.\n4"
+      }, {
+        "text": ".  **Contextual Prompting (Pág. 23):** Fornecer o contexto de que se"
+      }, {
+        "text": " trata de um \"Dossiê Definitivo\" focado na \"Luz\", unindo o tangível ("
+      }, {
+        "text": "vitórias) ao intangível (virtudes).\n5.  **Structured Output (Pág. 60"
+      }, {
+        "text": "):** Organização da resposta em seções claras para evitar alucinações e garantir que todos os pontos críticos ("
+      }, {
+        "text": "do cão leal ao estrategista) sejam cobertos.\n\nAqui está o prompt refinado e unificado:\n\n"
+      }, {
+        "text": "***\n\n### Prompt Unificado: O Dossiê da Luz (Vitórias, Virtudes e Essência)\n\n**"
+      }, {
+        "text": "Contexto:** Você está atuando como um **Biógrafo e Perfilador de Elite**, especializado em identificar o"
+      }, {
+        "text": " \"Ouro Oculto\" em trajetórias complexas. Estamos construindo a seção \"Luz e Potência\" do"
+      }, {
+        "text": " dossiê definitivo de Kevyn Lucas.\n\n**Instrução:** Analise o arquivo fornecido com um olhar investig"
+      }, {
+        "text": "ativo. Sua missão é **sintetizar a força vital de Kevyn**, unindo suas conquistas tangíveis (f"
+      }, {
+        "text": "atos/vitórias) com sua essência intangível (virtudes/beleza). Filtre qualquer ruído de aut"
+      }, {
+        "text": "ocrítica e concentre-se exclusivamente nas evidências de competência, sobrevivência e nobreza de caráter."
+      }, {
+        "text": "\n\n**Gere um relatório estruturado nos seguintes 4 Pilares de Potência:**\n\n#### 1. O"
+      }, {
+        "text": " Guerreiro Antifrágil (Resiliência e Sobrevivência)\n*   **Instrução:** M"
+      }, {
+        "text": "apeie a capacidade de Kevyn de suportar e superar o caos.\n*   **Extraia:**\n    "
+      }, {
+        "text": "*   Situações de crise aguda onde ele não apenas sobreviveu, mas evoluiu.\n    *   As"
+      }, {
+        "text": " \"Vitórias Morais\": momentos em que a integridade falou mais alto que a conveniência.\n    *   "
+      }, {
+        "text": "Avanços de consciência: insights que alteraram sua trajetória de vida.\n\n#### 2. O Construtor ("
+      }, {
+        "text": "Competência Técnica e Resultados)\n*   **Instrução:** Identifique o capital intelectual e profissional acumulado.\n*"
+      }, {
+        "text": "   **Extraia:**\n    *   Habilidades complexas aprendidas de forma autodidata ou sob pressão.\n    "
+      }, {
+        "text": "*   Projetos entregues, resultados profissionais mensuráveis e elogios recebidos.\n    *   A prova concreta de"
+      }, {
+        "text": " que ele entrega resultados.\n\n#### 3. O Estrategista de Almas (O Curador e a Visão de Mundo"
+      }, {
+        "text": ")\n*   **Instrução:** Descreva a sensibilidade única de Kevyn como mentor e observador da"
+      }, {
+        "text": " realidade.\n*   **Extraia:**\n    *   **A Estética da Alma:** Como ele enxerga a beleza"
+      }, {
+        "text": " no mundo quando está inspirado?\n    *   **O \"High Ticket\" Humano:** Evidências de sua"
+      }, {
+        "text": " habilidade como mentor, ouvinte e \"curador ferido\" que eleva os outros.\n    *   **Esp"
+      }, {
+        "text": "iritualidade:** Sua conexão com o mistério e o que ele busca além do material.\n\n#### 4. O Guard"
+      }, {
+        "text": "ião Leal (O Arquétipo do Cão)\n*   **Instrução:** Explore a força rel"
+      }, {
+        "text": "acional primária de Kevyn.\n*   **Extraia:**\n    *   Evidências de sua le"
+      }, {
+        "text": "aldade canina, cuidado extremo e capacidade de amizade profunda.\n    *   Momentos em que ele"
+      }, {
+        "text": " protegeu ou se sacrificou pelos seus.\n\n**Formato de Saída:** Utilize Markdown, com bullets diretos e"
+      }, {
+        "text": " citações do texto original que comprovem cada ponto. O tom deve ser inspirador, analítico e irrefutável."
+      }, {
+        "text": "\n\n***\n\n### Por que este prompt funcionará melhor (Baseado no PDF):\n\n1.  **Unificação"
+      }, {
+        "text": " Lógica:** Ao invés de pedir duas listas separadas, criamos uma narrativa coesa onde a \"Vitória\""
+      }, {
+        "text": " (Passo 6) suporta a \"Virtude\" (Passo 13). Isso cria um perfil "
+      }, {
+        "text": "3D do Kevyn.\n2.  **Estrutura de \"Step-Back Prompting\" (Adapt"
+      }, {
+        "text": "ado da Pág. 25):** Ao pedir para agir como um \"Perfilador de Elite\" antes de executar"
+      }, {
+        "text": " a tarefa, fazemos o modelo \"dar um passo atrás\" e acessar um vocabulário e uma capacidade de análise mais sofistic"
+      }, {
+        "text": "ados do que uma simples extração de texto.\n3.  **Specificity (Pág. 56):"
+      }, {
+        "text": "** Fomos extremamente específicos sobre o *output*. Em vez de apenas \"fale sobre o cão leal\","
+      }, {
+        "text": " definimos isso como o \"Arquétipo do Cão\" e pedimos evidências de \"cuidado extremo e"
+      }, {
+        "text": " amizade profunda\"."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

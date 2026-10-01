@@ -1,0 +1,1 @@
+Quando o AutoKeying estiver ativo a tela irá exibir uma linha vermelha ao redor da viewport.

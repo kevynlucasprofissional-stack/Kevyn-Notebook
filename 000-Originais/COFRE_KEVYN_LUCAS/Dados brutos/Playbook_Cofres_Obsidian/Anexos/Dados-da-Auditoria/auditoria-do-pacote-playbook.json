@@ -1,0 +1,270 @@
+{
+  "ferramenta": "auditar_vault.py",
+  "escopo": "/mnt/data/Playbook_Cofres_Obsidian",
+  "exclusoes": [
+    "Anexos/Dados-da-Auditoria/auditoria-do-pacote-playbook.json"
+  ],
+  "limitacoes": [
+    "Auditoria estática; não abre o Obsidian.",
+    "A resolução de links aproxima o comportamento por caminho e basename.",
+    "Não executa Dataview, Bases, Templater ou outros plugins.",
+    "Não valida semanticamente headings e block IDs."
+  ],
+  "metricas": {
+    "arquivos_totais": 26,
+    "por_extensao": {
+      ".json": 3,
+      ".md": 20,
+      ".py": 1,
+      ".txt": 2
+    },
+    "markdown": 20,
+    "canvas": 0,
+    "frontmatter_ausente": 0,
+    "erros_yaml_ou_utf8": 0,
+    "ids_duplicados": 0,
+    "basenames_duplicados": 0,
+    "aliases_compartilhados": 0,
+    "wikilinks_ocorrencias": 17,
+    "arestas_distintas": 17,
+    "wikilinks_quebrados": 0,
+    "wikilinks_ambiguos": 0,
+    "sem_links_entrada": 9,
+    "sem_links_saida": 18,
+    "isoladas": 8,
+    "canvas_erros_estruturais": 0,
+    "canvas_referencias_arquivo_quebradas": 0,
+    "nomes_com_hash_u": 0,
+    "arquivos_maiores_1mb": 0
+  },
+  "notas_por_tipo": {
+    "anexo_operacional": 3,
+    "auditoria": 1,
+    "bibliografia": 1,
+    "changelog": 1,
+    "conceito": 1,
+    "controversia": 1,
+    "documentacao_tecnica": 1,
+    "entidade": 1,
+    "estudo_de_caso": 1,
+    "fonte": 1,
+    "indice_do_pacote": 1,
+    "manual": 1,
+    "moc": 1,
+    "obra": 1,
+    "prompt_mestre": 1,
+    "relacao": 1,
+    "relatorio_release": 1,
+    "resumo_executivo": 1
+  },
+  "palavras_por_tipo": {
+    "anexo_operacional": {
+      "quantidade": 3,
+      "min": 1797,
+      "mediana": 2258,
+      "media": 2202,
+      "max": 2551
+    },
+    "auditoria": {
+      "quantidade": 1,
+      "min": 21,
+      "mediana": 21,
+      "media": 21,
+      "max": 21
+    },
+    "bibliografia": {
+      "quantidade": 1,
+      "min": 715,
+      "mediana": 715,
+      "media": 715,
+      "max": 715
+    },
+    "changelog": {
+      "quantidade": 1,
+      "min": 198,
+      "mediana": 198,
+      "media": 198,
+      "max": 198
+    },
+    "conceito": {
+      "quantidade": 1,
+      "min": 48,
+      "mediana": 48,
+      "media": 48,
+      "max": 48
+    },
+    "controversia": {
+      "quantidade": 1,
+      "min": 31,
+      "mediana": 31,
+      "media": 31,
+      "max": 31
+    },
+    "documentacao_tecnica": {
+      "quantidade": 1,
+      "min": 195,
+      "mediana": 195,
+      "media": 195,
+      "max": 195
+    },
+    "entidade": {
+      "quantidade": 1,
+      "min": 46,
+      "mediana": 46,
+      "media": 46,
+      "max": 46
+    },
+    "estudo_de_caso": {
+      "quantidade": 1,
+      "min": 2278,
+      "mediana": 2278,
+      "media": 2278,
+      "max": 2278
+    },
+    "fonte": {
+      "quantidade": 1,
+      "min": 21,
+      "mediana": 21,
+      "media": 21,
+      "max": 21
+    },
+    "indice_do_pacote": {
+      "quantidade": 1,
+      "min": 352,
+      "mediana": 352,
+      "media": 352,
+      "max": 352
+    },
+    "manual": {
+      "quantidade": 1,
+      "min": 5643,
+      "mediana": 5643,
+      "media": 5643,
+      "max": 5643
+    },
+    "moc": {
+      "quantidade": 1,
+      "min": 35,
+      "mediana": 35,
+      "media": 35,
+      "max": 35
+    },
+    "obra": {
+      "quantidade": 1,
+      "min": 31,
+      "mediana": 31,
+      "media": 31,
+      "max": 31
+    },
+    "prompt_mestre": {
+      "quantidade": 1,
+      "min": 2212,
+      "mediana": 2212,
+      "media": 2212,
+      "max": 2212
+    },
+    "relacao": {
+      "quantidade": 1,
+      "min": 63,
+      "mediana": 63,
+      "media": 63,
+      "max": 63
+    },
+    "relatorio_release": {
+      "quantidade": 1,
+      "min": 257,
+      "mediana": 257,
+      "media": 257,
+      "max": 257
+    },
+    "resumo_executivo": {
+      "quantidade": 1,
+      "min": 387,
+      "mediana": 387,
+      "media": 387,
+      "max": 387
+    }
+  },
+  "achados": {
+    "frontmatter_ausente": [],
+    "erros_yaml_ou_utf8": [],
+    "ids_duplicados": {},
+    "basenames_duplicados": {},
+    "aliases_compartilhados": {},
+    "wikilinks_quebrados": [],
+    "wikilinks_ambiguos": [],
+    "sem_links_entrada": [
+      "00-LEIA-ME.md",
+      "Modelos-de-Arquivo/Template-Auditoria.md",
+      "Modelos-de-Arquivo/Template-Conceito.md",
+      "Modelos-de-Arquivo/Template-Controversia.md",
+      "Modelos-de-Arquivo/Template-Entidade.md",
+      "Modelos-de-Arquivo/Template-Fonte.md",
+      "Modelos-de-Arquivo/Template-MOC.md",
+      "Modelos-de-Arquivo/Template-Obra.md",
+      "Modelos-de-Arquivo/Template-Relacao.md"
+    ],
+    "sem_links_saida": [
+      "Anexos/Biblioteca-Dataview-Bases-e-Consultas.md",
+      "Anexos/Checklists-de-Producao-Auditoria-e-Entrega.md",
+      "Anexos/Estudo-de-Caso-Vault-Pos-Nietzsche.md",
+      "Anexos/Modelos-YAML-e-Notas.md",
+      "Changelog.md",
+      "Ferramentas/LEIA-ME-Auditor.md",
+      "Modelos-de-Arquivo/Template-Auditoria.md",
+      "Modelos-de-Arquivo/Template-Conceito.md",
+      "Modelos-de-Arquivo/Template-Controversia.md",
+      "Modelos-de-Arquivo/Template-Entidade.md",
+      "Modelos-de-Arquivo/Template-Fonte.md",
+      "Modelos-de-Arquivo/Template-MOC.md",
+      "Modelos-de-Arquivo/Template-Obra.md",
+      "Modelos-de-Arquivo/Template-Relacao.md",
+      "Prompt-Mestre-IA-para-Criar-Cofres.md",
+      "Referencias-e-Fontes.md",
+      "Relatorio-de-Release.md",
+      "Resumo-Executivo.md"
+    ],
+    "isoladas": [
+      "Modelos-de-Arquivo/Template-Auditoria.md",
+      "Modelos-de-Arquivo/Template-Conceito.md",
+      "Modelos-de-Arquivo/Template-Controversia.md",
+      "Modelos-de-Arquivo/Template-Entidade.md",
+      "Modelos-de-Arquivo/Template-Fonte.md",
+      "Modelos-de-Arquivo/Template-MOC.md",
+      "Modelos-de-Arquivo/Template-Obra.md",
+      "Modelos-de-Arquivo/Template-Relacao.md"
+    ],
+    "canvas_erros_estruturais": [],
+    "canvas_referencias_arquivo_quebradas": [],
+    "nomes_com_hash_u": [],
+    "arquivos_maiores_1mb": []
+  },
+  "hashes_sha256": {
+    "00-LEIA-ME.md": "376c474a348cb906e4637a8d0327fab68ffe3e801a980a1abf1b814868d8451f",
+    "Anexos/Biblioteca-Dataview-Bases-e-Consultas.md": "b111778097371a9aed5788ce80a9b91f81537699461c7f6ea0985fb847969855",
+    "Anexos/Checklists-de-Producao-Auditoria-e-Entrega.md": "d91bc313ade35b8aa14a2661f3ade02617f47322019da95fdc6f55acc39ab425",
+    "Anexos/Dados-da-Auditoria/auditoria-estatica-vault-original.json": "e6d553bec697df2d088fdd63440b420bb1ce4c933dc00bf97362313b061f9a60",
+    "Anexos/Dados-da-Auditoria/auditoria-estatica-vault-tematico.json": "e4783407ce55ca089298cbd0812855b8d19857e59b58251fc37cf20441191e66",
+    "Anexos/Dados-da-Auditoria/auditoria-literal-codificacao.json": "4344a7700908d74a098a03f11a8ed8a1007ce16406ad9e29f553fd4556f54845",
+    "Anexos/Estudo-de-Caso-Vault-Pos-Nietzsche.md": "fc72158eb517ab61213993cf09c69de7ea0f5e16bba9ea5ba35c93aa3c7c2a94",
+    "Anexos/Modelos-YAML-e-Notas.md": "fbd39bac59b47e50ed7f4cd00a6d42dc3aae4c0e342489df7e21b066572ac4f3",
+    "Changelog.md": "ed65546b81c6ba110db287d5070f5fadcadf00c8dc6771dfd9973fcc70352e4f",
+    "Ferramentas/LEIA-ME-Auditor.md": "362341d124d6ab5a80f5033f4571bcc888c0209db070b4d364abe763cb9ce6c3",
+    "Ferramentas/auditar_vault.py": "9c9c31b89ada6bb9e049e2b80254a4431bfd340203db452c7790aa2cee5072c8",
+    "Ferramentas/requirements.txt": "71749243f84428fee225bfaa796dca5ef6c1e83a98f6d2a407df615b0390d6fb",
+    "Manifesto-de-Arquivos-SHA256.txt": "74901398fca505101199f5a7fba40c4bba448dcbd4fbc5708d52169f5e8f4e45",
+    "Modelos-de-Arquivo/Template-Auditoria.md": "8950885ac2c17b89198adc3c2e65b935f132f47e38ef2a6d29cb8e26b57c70cd",
+    "Modelos-de-Arquivo/Template-Conceito.md": "8a2ed4c8b868f09bb0f5f5490614176bf25ec9d0eb7d94d093dc702e212e6b59",
+    "Modelos-de-Arquivo/Template-Controversia.md": "cc917f149ee9e5fef51497ab2c1f225632ced23d03c1f7c7f68b8ad2a9b22f35",
+    "Modelos-de-Arquivo/Template-Entidade.md": "9024360fbbd6fc2b41f2e7dae34e10f3df20e65deea9f953349c1ee506c3465b",
+    "Modelos-de-Arquivo/Template-Fonte.md": "6c2b11df5a677eb2e1103551b0c3d3f1b80b2b7b01914820372b8bd7e9d2b7c6",
+    "Modelos-de-Arquivo/Template-MOC.md": "e6895516b696b3473dcf752edf95fa52362b5fc638806277036dcf46d7fa796d",
+    "Modelos-de-Arquivo/Template-Obra.md": "1b78207eebc3956c940f28bbeacb365789249d9fbc964e3d6c61a664425d413c",
+    "Modelos-de-Arquivo/Template-Relacao.md": "2c876d5e5c535a76b3ec6c0fa3094c169e732bda3b68d57ea2ca5642b5838cc7",
+    "Playbook-Construcao-de-Cofres-no-Obsidian.md": "5807a04dc21e0c5be952bfbb17d6537cefa6da142fe8db44688e811bc74fff79",
+    "Prompt-Mestre-IA-para-Criar-Cofres.md": "90514af884594e6e64f2b869ac2b71742066c9fc6a3abac26d748ce0973fe1e8",
+    "Referencias-e-Fontes.md": "935f6a6de47bb50e3d3e4bbf803a5baf940f9b5317b0536dff18211109c244e2",
+    "Relatorio-de-Release.md": "9e6fc1e801685f53b35fc722d3e67d4d9a63728c33d79d4b2c445ca26dacf134",
+    "Resumo-Executivo.md": "631353a3a14dab83d9630dfe2a2ef67964749a938318d0cee2d259514b5c625e"
+  }
+}

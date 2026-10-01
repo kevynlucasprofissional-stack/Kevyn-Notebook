@@ -1,0 +1,78 @@
+﻿{
+    "versao_schema":  "2.1",
+    "projeto":  "Kevyn Neo",
+    "data_finalizacao":  null,
+    "ultimo_ciclo":  "CICLO-0026",
+    "auditor":  "Codex GPT-5",
+    "status_global":  "em_andamento",
+    "arquivos_fonte_total":  2923,
+    "selecao_100":  {
+                        "fichas_total":  100,
+                        "lidas_integralmente":  100,
+                        "com_placeholders":  0,
+                        "srcs_unicos":  100,
+                        "matriz_validada":  true
+                    },
+    "notas_integradas":  {
+                             "linha_do_tempo":  "atualizada_com_40_eventos",
+                             "trajetoria_profissional":  "atualizada_com_cronologia_e_metricas",
+                             "projetos":  "DS21_Salus_ACIRV_atualizados",
+                             "espiritualidade":  "Thelema_Daime_Espiritualidade_atualizados",
+                             "autorregulacao":  "Vontade_SMART_Diarios_atualizados",
+                             "relacionamentos":  "Cha_e_Prosa_atualizado",
+                             "fontes":  "804_novas_notas_fonte_criadas_em_total"
+                         },
+    "fases":  {
+                  "F1_diagnostico":  "concluido",
+                  "F2_controle":  "concluido",
+                  "F3_revisao_100":  "concluido",
+                  "F4_aprofundamento":  "concluido",
+                  "F5_arquitetura":  "concluido",
+                  "F6_auditorias":  "concluido",
+                  "F7_encerramento":  "reaberto"
+              },
+    "auditoria_tecnica":  {
+                              "yaml_erros":  0,
+                              "json_erros":  0,
+                              "csv_erros":  0,
+                              "ids_duplicados_reais":  0,
+                              "links_quebrados_reais":  286,
+                              "links_case_sensitive_false_positive":  4,
+                              "placeholders_fichas":  0
+                          },
+    "scripts":  [
+                    "loop_master.py ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â orquestrador de fases",
+                    "loop_execucao.py ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Â loop de revisÃƒÆ’Ã‚Â£o de fichas"
+                ],
+    "limitacoes":  [
+                       "4 links com divergencia de case (negro/Negro) - resolvem em Obsidian por case-insensitivity",
+                       "785 notas em 09-Fontes-e-Evidencias/Processamento-Automatico seguem como evidencia em revisao manual",
+                       "286 wikilinks quebrados persistem majoritariamente nessas notas automaticas e nao devem ser tratados como integracao concluida",
+                       "Interpretacoes psicologicas nas fontes sao majoritariamente geradas por IA e exigem curadoria epistemica explicita"
+                   ],
+    "revisao_ciclos_0005_0010":  {
+                                     "data":  "2026-06-19",
+                                     "escopo":  "CICLO-0005 a CICLO-0010",
+                                     "artefatos_verificados":  72,
+                                     "fontes_verificadas":  44,
+                                     "hashes_fontes_validos":  true,
+                                     "fronteiras_validas":  true,
+                                     "cobertura_valida":  true,
+                                     "ids_duplicados":  0,
+                                     "segredos_reproduzidos":  0,
+                                     "status":  "aprovado_apos_revisao_corretiva"
+                                 },
+    "ultima_execucao":  "2026-06-19T00:00:00-03:00",
+    "proximo_item":  "SRC-000103",
+    "encerramento_invalidado_em":  "2026-06-19",
+    "revisao_ciclos_0011_0024":  {
+                                     "data":  "2026-06-19",
+                                     "ciclo_0011":  "triagem_ampla_sem_equivalencia_a_analise_integral",
+                                     "ciclos_0023_0024":  "sem_artefatos_contratuais_completos_e_com_auto_sintese_ampla_no_nucleo",
+                                     "notas_limpas":  23,
+                                     "fontes_rebaixadas_para_parcial":  1164,
+                                     "fontes_recuradas_manualmente":  8,
+                                     "proximo_item":  "SRC-000103",
+                                     "status":  "em_andamento"
+                                 }
+}

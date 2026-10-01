@@ -1,0 +1,1 @@
+Semente de aleatoriedade, serve provavelmente para sincronizar dois emitters.

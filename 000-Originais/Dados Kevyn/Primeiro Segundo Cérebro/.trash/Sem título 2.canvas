@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"8afe82ecf5f3ee65","x":-76,"y":151,"width":250,"height":60,"type":"text","text":"O maior mamífero Vivo\n"},
+		{"id":"e61017315c3753bd","x":-240,"y":-100,"width":250,"height":50,"type":"text","text":"A baleia é\n"},
+		{"id":"a6c8f652fbd818d4","x":-353,"y":148,"width":250,"height":60,"type":"text","text":"Um mamífero aquático\n"}
+	],
+	"edges":[
+		{"id":"f14b91f6ce0f6d88","fromNode":"e61017315c3753bd","fromSide":"bottom","toNode":"8afe82ecf5f3ee65","toSide":"top"},
+		{"id":"7db7333b2aaa6846","fromNode":"e61017315c3753bd","fromSide":"bottom","toNode":"a6c8f652fbd818d4","toSide":"top"}
+	]
+}

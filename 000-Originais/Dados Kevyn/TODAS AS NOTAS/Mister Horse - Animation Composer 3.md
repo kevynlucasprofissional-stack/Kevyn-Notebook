@@ -1,0 +1,1 @@
+É um plugin com vários efeitos gratuitos.

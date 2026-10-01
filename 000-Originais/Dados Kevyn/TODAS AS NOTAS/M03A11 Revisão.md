@@ -1,0 +1,2 @@
+Área de trabalho é o nome da barra inferior com laterais azuis na timeline. Ao clicar nela com o botão direito aparece várias opções, incluindo a "Trim Comp to Work Area" que corta a composição para o tamanho exato da área de trabalho.
+A barra superior com laterais azuis é como se fosse uma ferramenta de zoom.

@@ -1,0 +1,2 @@
+Ele fratura um modelo em diversos pedaços, geralmente usado para fazer efeitos de destruição.
+Para ajustar a quantidade de pedaços no qual o modelo é dividido, vá em "Voronoi Fracture > Sources > Point generator > Point amount", quanto mais pedaços tiver, mais pesado fica o projeto.

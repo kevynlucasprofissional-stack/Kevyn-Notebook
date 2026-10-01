@@ -1,0 +1,322 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.5-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+    "text": "# 📘 Playbook: Como Construir um Release de Imprensa\n\n## 1. O Conceito (O que é e para que serve?)\n**O que é:** Um texto jornalístico informativo (não publicitário) enviado para a imprensa.\n**Objetivo:** Conquistar \"mídia espontânea\" (espaço editorial gratuito) em jornais, portais e blogs, ou ser utilizado por influenciadores. É a ponte entre o que acontece na sua empresa e o que vira notícia.\n\n---\n\n## 2. A Anatomia Perfeita de um Release\nPara que o jornalista aproveite seu texto, ele deve seguir uma estrutura padrão de pirâmide invertida (informação mais importante primeiro).\n\n### 🏗️ Estrutura Obrigatória\n1.  **Cabeçalho:** Local e Data (ex: *São Paulo, 21 de Novembro de 2024*).\n2.  **Título (Manchete):** Curto, direto e com verbo de ação. Deve ter valor de notícia.\n    *   *Ruim:* Nova atualização do software.\n    *   *Bom:* Empresa X lança tecnologia que reduz custos operacionais em 30%.\n3.  **Lead (1º Parágrafo):** O resumo de tudo. Deve responder aos **5 Ws**:\n    *   **Quem?** (A empresa/pessoa)\n    *   **O quê?** (O fato/novidade)\n    *   **Quando?** (Data do ocorrido/lançamento)\n    *   **Onde?** (Local)\n    *   **Por quê/Como?** (O motivo ou explicação breve)\n4.  **Corpo do Texto (Body):** Desenvolvimento da notícia. Aqui entram dados estatísticos, contexto de mercado e explicações técnicas (sem \"jargão\" difícil).\n5.  **Citação (Quote):** Uma frase aspeada de um porta-voz (CEO, Diretor ou Especialista). Isso humaniza o texto e dá opinião, algo que o jornalista adora usar para dar credibilidade.\n6.  **Serviço (Opcional, mas ideal para eventos):** Um bloco rápido com datas, horários, preços e locais.\n7.  **Boilerplate (Sobre a empresa):** Um parágrafo padrão no final que resume quem é a empresa (ex: *\"Fundada em 2010, a Empresa X é líder em...\"*).\n8.  **Contato de Imprensa:** Nome, e-mail e telefone do assessor responsável.\n\n---\n\n## 3. Passo a Passo de Execução\n\n### Fase 1: Planejamento\n*   **Defina a Pauta:** O que estou anunciando é *realmente* relevante para o público geral ou para um setor específico? (Lembre-se: Jornalista quer novidade, não propaganda).\n*   **Escolha o Tipo de Release:**\n    *   *Padrão/Institucional:* Lançamentos, fusões, novos executivos.\n    *   *De Evento:* Para convidar ou cobrir uma realização (focar no *timing*).\n    *   *Editorial/Artigo:* Opinião de um especialista sobre um tema quente no mercado.\n\n### Fase 2: Escrita (Mão na Massa)\n*   **Título:** Limite a cerca de 50-60 caracteres para não cortar no assunto do e-mail.\n*   **Tom de Voz:** Use a 3ª pessoa (\"A empresa lançou\" e não \"Nós lançamos\"). Seja objetivo. Evite adjetivos exagerados como \"incrível\", \"maravilhoso\", \"o melhor\".\n*   **SEO:** Se o objetivo for publicação em portais online, inclua palavras-chave estratégicas no título e no primeiro parágrafo.\n\n### Fase 3: Revisão\n*   **Checklist de Ouro:**\n    *   As datas e grafias de nomes estão corretas?\n    *   O link para o site/produto está funcionando?\n    *   Há imagens em alta resolução para acompanhar? (Jornalistas amam pautas que já vêm com foto pronta para publicar).\n\n---\n\n## 4. Melhores Práticas (Do\u0027s and Don\u0027ts)\n\n| ✅ O QUE FAZER | ❌ O QUE EVITAR |\n| :--- | :--- |\n| **Focar em dados:** Números e pesquisas dão credibilidade. | **Excesso de \"marketing\":** Release não é panfleto de vendas. |\n| **Facilitar a vida do jornalista:** Texto pronto para copiar e colar. | **Anexos pesados:** Nunca mande o release como anexo PDF. Cole o texto no corpo do e-mail. |\n| **Personalizar:** \"Oi [Nome do Jornalista], essa pauta é a cara da sua coluna\". | **Disparo em massa cego:** Mandar pauta de tecnologia para jornalista de esportes. |\n| **Timing:** Enviar com antecedência (para eventos) ou logo que o fato ocorre. | **Mentir ou exagerar:** Se perder a confiança do jornalista uma vez, perde para sempre. |\n\n---\n\n## 5. Estratégia de Distribuição (O \"Pulo do Gato\")\n\nDe nada adianta um texto perfeito se ele não chegar a quem publica.\n\n1.  **Segmentação de Mailing:** Crie listas específicas. Se o release é sobre Finanças, mande apenas para editores de Economia e Negócios.\n2.  **Assunto do E-mail:** É a sua única chance de ser aberto. Use o título do release ou uma variação atrativa dele.\n    *   *Dica:* Use colchetes para ajudar na identificação. Ex: `[Lançamento] Startup X recebe aporte de R$ 10mi`.\n3.  **O Corpo do E-mail:**\n    *   Cumprimente o jornalista.\n    *   Faça um \"pitch\" (resumo de 2 linhas) vendendo a pauta.\n    *   Cole o release completo logo abaixo.\n    *   Link para fotos/vídeos em uma pasta na nuvem (Drive/Dropbox).\n4.  **Follow-up:** Se não houver resposta em 24h-48h, vale um contato telefônico ou novo e-mail educado perguntando se ele recebeu o material.\n"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1_-o3C8aAzP6NlrFPSSweCndTh-KSvGhn"
+      },
+      "role": "user",
+      "tokenCount": 8701,
+      "createTime": "2026-07-06T22:35:56.693Z"
+    }, {
+      "text": "Cria um release com esses dados anexados",
+      "role": "user",
+      "tokenCount": 10,
+      "createTime": "2026-07-06T22:35:56.693Z"
+    }, {
+      "text": "**Initiating the Analysis**\n\nI\u0027m currently dissecting the meeting transcript of Gustavo Mendanha in Rio Verde. The input includes key participants like Gustavo Mendanha himself, and I\u0027m focused on grasping the core interactions.\n\n\n**Clarifying the Participants**\n\nI\u0027m now identifying the key individuals involved. While the transcript mentions \"Netanyah,\" it\u0027s clearly Gustavo Mendanha, a former mayor and potential Senate candidate, who is the central figure. I\u0027m verifying the spelling and confirming his recent political trajectory. I am also identifying Carlos Moraes, the president of the Chamber, plus Carlos (ACIRV\u0027s president) and Augusto (possible leader of COODERG or CDL). The focus is still on the text, but the context check helps.\n\n\n**Pinpointing The Key Context**\n\nI\u0027ve got a good grasp of the crucial details now. The location is confirmed as Rio Verde, Goiás, and the date is set around July 6, 2026. I\u0027m focusing on Gustavo Mendanha, the PRD pre-candidate for Senate, and his choice of Carlos Cardoso Filho as his first suplente, who is a representative. This information provides a solid base for my analysis.\n\n\n**Analyzing the Scene**\n\nI\u0027ve got a tight focus on the key elements now. Gustavo Mendanha, former mayor, is running for Senate, and a meeting is scheduled in Rio Verde, Goiás on July 6, 2026. This gathering in the municipal Chamber provides a focused context, allowing for deeper analysis of the potential scenario.\n\n\n**Examining the Dynamics**\n\nI\u0027m now diving into the supporting players and critical points Mendanha will address. His upcoming speech will touch on federal pact reform and tax adjustments. Infrastructure plans are a key focus, including BR-452 upgrades and the IF Goiano\u0027s transformation. He\u0027ll also discuss agroindustry and biofuels. I\u0027m taking notes on how he plans to address labor relationships.\n\n\n**Focusing on Labor Policies**\n\nI\u0027m now zeroing in on Mendanha\u0027s stance regarding labor. My analysis points to his critical view of overregulation. I see him championing more flexible agreements between employers and employees, giving them autonomy over working conditions. He’ll stress the need for safer, equitable legal frameworks.\n\nI am also examining his prior experience with health and education during the pandemic, and how it informs his current views, emphasizing early childhood and special education. I am now proceeding with crafting the press release.\n\n\n**Assessing Mendanha\u0027s Momentum**\n\nI\u0027ve just received news: Mendanha secured significant support in Rio Verde, Goiás, a critical city in the Sudoeste region. He received backing from 18 of the 21 council members and met with local businesses. The visit, on July 6, 2026, aimed to strengthen his political base, and present proposals. His key points included infrastructure, energy transition, and tax reform, all centered on municipalist principles.\n\n\n**Prioritizing Federal Pact**\n\nNow I\u0027m diving deeper into Mendanha\u0027s key arguments, especially regarding the Federal Pact. I am focusing on his central concern that municipalities receive too little federal funding and the negative impacts of potential tax reform. The infrastructure aspect is critical, so I\u0027ll also be fleshing out his plans for the BR-452, energy upgrades, and IF Goiano\u0027s transformation into a Federal University. I’ll also draft a compelling quote from Mendanha using his core ideas.\n\n\n**Incorporating Support Statements**\n\nI\u0027m now incorporating supporting statements. I\u0027ve included a quote: \"Municipalities shouldn\u0027t depend so much on parliamentary amendments. We need a results-oriented policy that guarantees autonomy and dignity for local governments.\" Also, I\u0027ve added a quote from Chamber President Cabo Moraes, emphasizing their support and commitment to Rio Verde\u0027s health and infrastructure. I\u0027m also including information that he was a councilor, mayor of Aparecida de Goiânia for two terms, and a candidate for the government of Goiás. Finally, I\u0027ve added a contact placeholder.\n\n\n**Structuring the Press Release**\n\nI am now focusing on organizing the content and structuring the press release. I\u0027ve chosen a clear title and subtitle, and am crafting a concise lead paragraph to capture the essential details: Gustavo Mendanha\u0027s visit to Rio Verde, securing support, and discussing proposals. My priority is to keep the narrative direct and informative.\n\n\n**Highlighting Economic Development**\n\nI am now emphasizing the dialogue Mendanha had regarding Aparecida de Goiânia\u0027s primary needs, with a central focus on municipalist proposals, infrastructure, and economic development in the state\u0027s Southwest region. I\u0027m focusing on the discussions about the Federal Pact revision and the effects of tax reform on municipal revenue. I\u0027m also including how he pointed out the issue of federal collection that suffocates municipal administrations and their reliance on amendments.\n\n\n**Integrating Local Support**\n\nI\u0027m now integrating crucial local support. Cabo Moraes highlighted a cohesive local political group and their commitment to strong representation in Brasília, particularly for healthcare needs. I\u0027ve also incorporated the ACIRV\u0027s discussion points, emphasizing biofuels, labor negotiation autonomy, and energy capacity expansion. I\u0027m also addressing infrastructure.\n\n\n**Adding Infrastructure Emphasis**\n\nI am now adding emphasis to the importance of the BR-452\u0027s duplication between Rio Verde and Itumbiara, highlighting its significance for production flow and road safety. I\u0027m supporting the IF Goiano\u0027s transformation to a federal university.\n\nI\u0027ve also used Mendanha\u0027s words: \"My experience as mayor and councilor taught me that results-oriented politics only happens through dialogue.\" I\u0027ve added a boilerplate on Mendanha.\n\n\n**Finalizing the Details**\n\nI\u0027m now adding Mendanha\u0027s career highlights and contact information for the press. I\u0027ve noted his previous roles as councilor and two-term mayor of Aparecida de Goiânia, plus his past government bid. I\u0027m making sure to include his expertise on COVID-19 management. The press release now has all the essential information.\n\nAssessoria de Imprensa\nE-mail: imprensa@exemplo.com.br\nTelefone: (62) 99999-9999\n\n\n",
+      "role": "model",
+      "tokenCount": 3743,
+      "isThought": true,
+      "parts": [{
+        "text": "**Initiating the Analysis**\n\nI\u0027m currently dissecting the meeting transcript of Gustavo Mendanha in Rio Verde. The input includes key participants like Gustavo Mendanha himself, and I\u0027m focused on grasping the core interactions.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Clarifying the Participants**\n\nI\u0027m now identifying the key individuals involved. While the transcript mentions \"Netanyah,\" it\u0027s clearly Gustavo Mendanha, a former mayor and potential Senate candidate, who is the central figure. I\u0027m verifying the spelling and confirming his recent political trajectory. I am also identifying Carlos Moraes, the president of the Chamber, plus Carlos (ACIRV\u0027s president) and Augusto (possible leader of COODERG or CDL). The focus is still on the text, but the context check helps.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Pinpointing The Key Context**\n\nI\u0027ve got a good grasp of the crucial details now. The location is confirmed as Rio Verde, Goiás, and the date is set around July 6, 2026. I\u0027m focusing on Gustavo Mendanha, the PRD pre-candidate for Senate, and his choice of Carlos Cardoso Filho as his first suplente, who is a representative. This information provides a solid base for my analysis.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing the Scene**\n\nI\u0027ve got a tight focus on the key elements now. Gustavo Mendanha, former mayor, is running for Senate, and a meeting is scheduled in Rio Verde, Goiás on July 6, 2026. This gathering in the municipal Chamber provides a focused context, allowing for deeper analysis of the potential scenario.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Examining the Dynamics**\n\nI\u0027m now diving into the supporting players and critical points Mendanha will address. His upcoming speech will touch on federal pact reform and tax adjustments. Infrastructure plans are a key focus, including BR-452 upgrades and the IF Goiano\u0027s transformation. He\u0027ll also discuss agroindustry and biofuels. I\u0027m taking notes on how he plans to address labor relationships.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Focusing on Labor Policies**\n\nI\u0027m now zeroing in on Mendanha\u0027s stance regarding labor. My analysis points to his critical view of overregulation. I see him championing more flexible agreements between employers and employees, giving them autonomy over working conditions. He’ll stress the need for safer, equitable legal frameworks.\n\nI am also examining his prior experience with health and education during the pandemic, and how it informs his current views, emphasizing early childhood and special education. I am now proceeding with crafting the press release.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Assessing Mendanha\u0027s Momentum**\n\nI\u0027ve just received news: Mendanha secured significant support in Rio Verde, Goiás, a critical city in the Sudoeste region. He received backing from 18 of the 21 council members and met with local businesses. The visit, on July 6, 2026, aimed to strengthen his political base, and present proposals. His key points included infrastructure, energy transition, and tax reform, all centered on municipalist principles.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Prioritizing Federal Pact**\n\nNow I\u0027m diving deeper into Mendanha\u0027s key arguments, especially regarding the Federal Pact. I am focusing on his central concern that municipalities receive too little federal funding and the negative impacts of potential tax reform. The infrastructure aspect is critical, so I\u0027ll also be fleshing out his plans for the BR-452, energy upgrades, and IF Goiano\u0027s transformation into a Federal University. I’ll also draft a compelling quote from Mendanha using his core ideas.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Incorporating Support Statements**\n\nI\u0027m now incorporating supporting statements. I\u0027ve included a quote: \"Municipalities shouldn\u0027t depend so much on parliamentary amendments. We need a results-oriented policy that guarantees autonomy and dignity for local governments.\" Also, I\u0027ve added a quote from Chamber President Cabo Moraes, emphasizing their support and commitment to Rio Verde\u0027s health and infrastructure. I\u0027m also including information that he was a councilor, mayor of Aparecida de Goiânia for two terms, and a candidate for the government of Goiás. Finally, I\u0027ve added a contact placeholder.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Press Release**\n\nI am now focusing on organizing the content and structuring the press release. I\u0027ve chosen a clear title and subtitle, and am crafting a concise lead paragraph to capture the essential details: Gustavo Mendanha\u0027s visit to Rio Verde, securing support, and discussing proposals. My priority is to keep the narrative direct and informative.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Highlighting Economic Development**\n\nI am now emphasizing the dialogue Mendanha had regarding Aparecida de Goiânia\u0027s primary needs, with a central focus on municipalist proposals, infrastructure, and economic development in the state\u0027s Southwest region. I\u0027m focusing on the discussions about the Federal Pact revision and the effects of tax reform on municipal revenue. I\u0027m also including how he pointed out the issue of federal collection that suffocates municipal administrations and their reliance on amendments.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Integrating Local Support**\n\nI\u0027m now integrating crucial local support. Cabo Moraes highlighted a cohesive local political group and their commitment to strong representation in Brasília, particularly for healthcare needs. I\u0027ve also incorporated the ACIRV\u0027s discussion points, emphasizing biofuels, labor negotiation autonomy, and energy capacity expansion. I\u0027m also addressing infrastructure.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Adding Infrastructure Emphasis**\n\nI am now adding emphasis to the importance of the BR-452\u0027s duplication between Rio Verde and Itumbiara, highlighting its significance for production flow and road safety. I\u0027m supporting the IF Goiano\u0027s transformation to a federal university.\n\nI\u0027ve also used Mendanha\u0027s words: \"My experience as mayor and councilor taught me that results-oriented politics only happens through dialogue.\" I\u0027ve added a boilerplate on Mendanha.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Finalizing the Details**\n\nI\u0027m now adding Mendanha\u0027s career highlights and contact information for the press. I\u0027ve noted his previous roles as councilor and two-term mayor of Aparecida de Goiânia, plus his past government bid. I\u0027m making sure to include his expertise on COVID-19 management. The press release now has all the essential information.\n\nAssessoria de Imprensa\nE-mail: imprensa@exemplo.com.br\nTelefone: (62) 99999-9999\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-07-06T22:35:56.693Z"
+    }, {
+      "text": "Aqui está o release de imprensa estruturado com base nos dados e no contexto do evento em Rio Verde, seguindo estritamente as diretrizes de redação jornalística e a estrutura de pirâmide invertida proposta no playbook.\n\n---\n\n# 📘 Release de Imprensa\n\n**Para divulgação imediata**  \n**Local e Data:** Rio Verde (GO), 6 de Julho de 2026  \n**Contato de Imprensa:** assessoria@exemplo.com.br | (62) 99999-9999  \n\n---\n\n## Em Rio Verde, Gustavo Mendanha recebe apoio de 18 vereadores e discute propostas para fortalecer municípios goianos\n\n*Pré-candidato ao Senado debateu Pacto Federativo, infraestrutura da BR-452, incentivo aos biocombustíveis e reforma tributária com lideranças locais e representantes do setor produtivo*\n\n**RIO VERDE (GO)** – O pré-candidato ao Senado por Goiás, Gustavo Mendanha (PRD), cumpriu agenda estratégica nesta segunda-feira (6) em Rio Verde. O ex-prefeito de Aparecida de Goiânia consolidou o apoio de 18 dos 21 vereadores da Câmara Municipal e reuniu-se com lideranças do setor produtivo na Associação Comercial, Industrial e de Serviços de Rio Verde (ACIRV). A visita teve como foco debater as principais demandas socioeconômicas do Sudoeste goiano.\n\nEntre as prioridades defendidas por Mendanha está a rediscussão do Pacto Federativo e o ajuste de pontos da reforma tributária. Segundo o pré-candidato, a atual centralização dos impostos federais limita a atuação dos municípios. “De todo o imposto arrecadado, cerca de 70% vai para a União, enquanto uma fração pequena retorna de forma direta para onde o cidadão de fato vive e necessita de saúde, asfalto e educação. Precisamos de uma distribuição de recursos que fortaleça a ponta municipal”, destacou.\n\nA ampla adesão política obtida no legislativo municipal — que conta com o aval do prefeito Wellington Carrijo (MDB) — sinaliza a expansão da presença de Mendanha fora da Região Metropolitana de Goiânia. O presidente da Câmara de Rio Verde, Cabo Moraes (PP), ressaltou a importância de unificar as demandas do município para apresentação em nível federal: “Estamos unidos para garantir que as necessidades da nossa população, sobretudo o fortalecimento da nossa saúde, tenham canais eficientes e representação ativa em Brasília”.\n\n**Pautas econômicas e infraestrutura regional**\nNa reunião com a ACIRV, liderada pelo presidente José Carlos Cintra, Mendanha debateu medidas para impulsionar a agroindústria regional, com foco especial no estímulo aos biocombustíveis produzidos a partir da soja e do milho, matérias-primas abundantes na região. Também foram apresentadas demandas do setor por maior autonomia e flexibilidade jurídica nas relações e jornadas de trabalho entre empregadores e colaboradores.\n\nNo quesito de infraestrutura de transporte e logística, Mendanha endossou as demandas locais pela duplicação da BR-452, importante rodovia que liga Rio Verde a Itumbiara. O pré-candidato defendeu ainda o fortalecimento do ensino técnico e superior da região, apoiando a proposta de transformação do campus local do Instituto Federal Goiano (IF Goiano) em uma universidade federal.\n\n\u003e **Citação do Porta-Voz:**  \n\u003e *\"Minha experiência como vereador e prefeito me ensinou que as gestões locais conhecem de perto as dores de cada bairro e região. O Senado precisa exercer um papel municipalista, trabalhando de forma descentralizada e dialogando diretamente com quem produz, trabalha e gera riqueza no estado de Goiás.\"*  \n\u003e — **Gustavo Mendanha**, pré-candidato ao Senado.\n\n---\n\n### Sobre Gustavo Mendanha\nGustavo Mendanha, 43 anos, é graduado em Educação Física e possui trajetória na gestão pública, tendo atuado como vereador e prefeito de Aparecida de Goiânia por dois mandatos. Durante seu período à frente do executivo, priorizou modelos de modernização de serviços urbanos e saúde, deixando a gestão com elevado índice de aprovação popular. Em 2022, disputou as eleições para o Governo de Goiás e, atualmente, trabalha na estruturação de suas propostas para o Senado Federal.",
+      "role": "model",
+      "grounding": {
+        "corroborationSegments": [{
+          "index": 343,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHeDpO_TlGmOmiR7-ck5u8ToP-gPIfCQzNNFKxXzrGuNbftEjZkVI7y3nwa2ARtv_xwyq970RVjTnI1gHOIca0VqbayWNsA8BagxgeMjSZIVTytdjr6SlbJ4l6jMesPhVMVTdt7qmNUM7uAHQUQvUc5F6F_zaPYdKuEs9QmOkFmvRsHO8A1jsFoh9joxZ56LAVe",
+          "footnoteNumber": 1
+        }, {
+          "index": 734,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGeu3gsWBu3967iX0U7gNLNvQdeG9nqyl2sEbvi7El6qFvVOJnVrycYQfhGuPkxLQrCYj5lLhh8hM2DDcrLs7VvVCuCRD_HZ-tAMohZuJQrTvPVe6T1Z4Yp_eY4TKokdPl9d0rwaW3z7d1TFjuwp7ZIBhT8TkIFqBB8b2HLgVSRKoNPeo0Ze8e-4R0hvGSqFY7zp9whoG_BpVCwIpDbXA%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 734,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHYpA9E7DudXwcXwirpQ0s4RbRLQvslu4abzUghVxWA6bR5ytCYyCvLOfiA-hPxjk9vfIzVHiMLead8qYLAjn8Q3O2AFG5mBTdPu5Frx1ol7Q3k1HKTUJKQt1NdpljKbqj5um5NML0JT1s8vl_RKOqgjVREMoAflSpHiQAujD8vw6YCruu9LvNUnJciQf5YyWcRlMYPRFhLVmPtrG36Mm3689e0vJuce4DRX0XF5xLVq29a2GTxeWiNHVkyYYWn",
+          "footnoteNumber": 3
+        }, {
+          "index": 886,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHeDpO_TlGmOmiR7-ck5u8ToP-gPIfCQzNNFKxXzrGuNbftEjZkVI7y3nwa2ARtv_xwyq970RVjTnI1gHOIca0VqbayWNsA8BagxgeMjSZIVTytdjr6SlbJ4l6jMesPhVMVTdt7qmNUM7uAHQUQvUc5F6F_zaPYdKuEs9QmOkFmvRsHO8A1jsFoh9joxZ56LAVe",
+          "footnoteNumber": 1
+        }, {
+          "index": 886,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGeu3gsWBu3967iX0U7gNLNvQdeG9nqyl2sEbvi7El6qFvVOJnVrycYQfhGuPkxLQrCYj5lLhh8hM2DDcrLs7VvVCuCRD_HZ-tAMohZuJQrTvPVe6T1Z4Yp_eY4TKokdPl9d0rwaW3z7d1TFjuwp7ZIBhT8TkIFqBB8b2HLgVSRKoNPeo0Ze8e-4R0hvGSqFY7zp9whoG_BpVCwIpDbXA%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 1111,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGeu3gsWBu3967iX0U7gNLNvQdeG9nqyl2sEbvi7El6qFvVOJnVrycYQfhGuPkxLQrCYj5lLhh8hM2DDcrLs7VvVCuCRD_HZ-tAMohZuJQrTvPVe6T1Z4Yp_eY4TKokdPl9d0rwaW3z7d1TFjuwp7ZIBhT8TkIFqBB8b2HLgVSRKoNPeo0Ze8e-4R0hvGSqFY7zp9whoG_BpVCwIpDbXA%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 1111,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFGYu-LFYHn40vQkUPHMD2W2CgP-sjLGGPV0lI4GeLfI_DU1UV154hD2yTIoVp2rxEGJYJ5royl5ON0mm3BhwkbBNlUhIFWzAILijibOGKBvDtxyVnfgb7pnSRtvi695LemLUUQX7S6S9uoSLxyDAvhm8MPHlpzp4vhligAxeQhECrmyKgSjwjNy5Bd7JBAZvCcGifCIkH5H_z2I2KvR6ht4bCYS38hHlVV4nqKksOFW5_fBn6GKvqa",
+          "footnoteNumber": 4
+        }, {
+          "index": 1203,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGeu3gsWBu3967iX0U7gNLNvQdeG9nqyl2sEbvi7El6qFvVOJnVrycYQfhGuPkxLQrCYj5lLhh8hM2DDcrLs7VvVCuCRD_HZ-tAMohZuJQrTvPVe6T1Z4Yp_eY4TKokdPl9d0rwaW3z7d1TFjuwp7ZIBhT8TkIFqBB8b2HLgVSRKoNPeo0Ze8e-4R0hvGSqFY7zp9whoG_BpVCwIpDbXA%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 1203,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFGYu-LFYHn40vQkUPHMD2W2CgP-sjLGGPV0lI4GeLfI_DU1UV154hD2yTIoVp2rxEGJYJ5royl5ON0mm3BhwkbBNlUhIFWzAILijibOGKBvDtxyVnfgb7pnSRtvi695LemLUUQX7S6S9uoSLxyDAvhm8MPHlpzp4vhligAxeQhECrmyKgSjwjNy5Bd7JBAZvCcGifCIkH5H_z2I2KvR6ht4bCYS38hHlVV4nqKksOFW5_fBn6GKvqa",
+          "footnoteNumber": 4
+        }, {
+          "index": 1855,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHYpA9E7DudXwcXwirpQ0s4RbRLQvslu4abzUghVxWA6bR5ytCYyCvLOfiA-hPxjk9vfIzVHiMLead8qYLAjn8Q3O2AFG5mBTdPu5Frx1ol7Q3k1HKTUJKQt1NdpljKbqj5um5NML0JT1s8vl_RKOqgjVREMoAflSpHiQAujD8vw6YCruu9LvNUnJciQf5YyWcRlMYPRFhLVmPtrG36Mm3689e0vJuce4DRX0XF5xLVq29a2GTxeWiNHVkyYYWn",
+          "footnoteNumber": 3
+        }, {
+          "index": 1855,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFGYu-LFYHn40vQkUPHMD2W2CgP-sjLGGPV0lI4GeLfI_DU1UV154hD2yTIoVp2rxEGJYJ5royl5ON0mm3BhwkbBNlUhIFWzAILijibOGKBvDtxyVnfgb7pnSRtvi695LemLUUQX7S6S9uoSLxyDAvhm8MPHlpzp4vhligAxeQhECrmyKgSjwjNy5Bd7JBAZvCcGifCIkH5H_z2I2KvR6ht4bCYS38hHlVV4nqKksOFW5_fBn6GKvqa",
+          "footnoteNumber": 4
+        }, {
+          "index": 1947,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGeu3gsWBu3967iX0U7gNLNvQdeG9nqyl2sEbvi7El6qFvVOJnVrycYQfhGuPkxLQrCYj5lLhh8hM2DDcrLs7VvVCuCRD_HZ-tAMohZuJQrTvPVe6T1Z4Yp_eY4TKokdPl9d0rwaW3z7d1TFjuwp7ZIBhT8TkIFqBB8b2HLgVSRKoNPeo0Ze8e-4R0hvGSqFY7zp9whoG_BpVCwIpDbXA%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 2003,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFGYu-LFYHn40vQkUPHMD2W2CgP-sjLGGPV0lI4GeLfI_DU1UV154hD2yTIoVp2rxEGJYJ5royl5ON0mm3BhwkbBNlUhIFWzAILijibOGKBvDtxyVnfgb7pnSRtvi695LemLUUQX7S6S9uoSLxyDAvhm8MPHlpzp4vhligAxeQhECrmyKgSjwjNy5Bd7JBAZvCcGifCIkH5H_z2I2KvR6ht4bCYS38hHlVV4nqKksOFW5_fBn6GKvqa",
+          "footnoteNumber": 4
+        }, {
+          "index": 2003,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFzmwQUaFHXfOxwJY1LveimIdzk-_a0M5I_s4zrSIOH4wNAAU3wP5BaBSb326qPnEYO5VnC6IUDxIgdAEZsDwQV2cSap8UGGXO1rI3V-9SbSI9xhpUGZOUfEGQPt0dz4xRlZ_rGD6HDmIfUWwrttld0WpmPMvSxUm41I4kAk-FxEpN86oWoFBTclzz-IYvPTxhLjt--UK2UFg%3D%3D",
+          "footnoteNumber": 5
+        }, {
+          "index": 2289,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHYpA9E7DudXwcXwirpQ0s4RbRLQvslu4abzUghVxWA6bR5ytCYyCvLOfiA-hPxjk9vfIzVHiMLead8qYLAjn8Q3O2AFG5mBTdPu5Frx1ol7Q3k1HKTUJKQt1NdpljKbqj5um5NML0JT1s8vl_RKOqgjVREMoAflSpHiQAujD8vw6YCruu9LvNUnJciQf5YyWcRlMYPRFhLVmPtrG36Mm3689e0vJuce4DRX0XF5xLVq29a2GTxeWiNHVkyYYWn",
+          "footnoteNumber": 3
+        }, {
+          "index": 2289,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFGYu-LFYHn40vQkUPHMD2W2CgP-sjLGGPV0lI4GeLfI_DU1UV154hD2yTIoVp2rxEGJYJ5royl5ON0mm3BhwkbBNlUhIFWzAILijibOGKBvDtxyVnfgb7pnSRtvi695LemLUUQX7S6S9uoSLxyDAvhm8MPHlpzp4vhligAxeQhECrmyKgSjwjNy5Bd7JBAZvCcGifCIkH5H_z2I2KvR6ht4bCYS38hHlVV4nqKksOFW5_fBn6GKvqa",
+          "footnoteNumber": 4
+        }, {
+          "index": 2410,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEMnHBJ-sIeiSyjL_P9-E7fbbBQIkkSVI13bod1k71sNvskDFWHRV_VcoAoWT7OTYGCOUBKi7j0LFh9nLNHyDLq3_Hp6YcwMUvKRm5ZHwgqkkIWAv9o0k3wxjBFEK7t_KIdNCLvKPS1vVAz8lnUotv3iOJy-UUqOL93JcrZnMV4_Ry0fIRXJPX6Sj4l1_-CU0Op8Ay511S37cMVLiWvs5KfvAbmJu-YufFmoxed3bJfNRw8qTMCaWZR8bsT_3T3M5afBCoUjqCcQuBPXQdT33L7M9g%3D",
+          "footnoteNumber": 6
+        }, {
+          "index": 2900,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFnbE52cz7sYA7crsrmI4vkMQnbebBmul34Bh9_qtgKkAFwTbhxS1RBW2EZAyDF3qtLc79_6WrGou5b5oOe7cLwQC8gY6raxr-pjdNkyFErlKK1UuMzA3PLv1OqkF6ZVSmF-ARpIX6sZto4Vva_VSmRR1124XW1-z0Vupzb7bqlf-WYP58p8AtnopRln3sI6AgW8KCoTH6OmJy1v3LSm9oTnRcEkupi1KNbTTv0h0LsQm2r6VRXIcwgegW0",
+          "footnoteNumber": 7
+        }, {
+          "index": 2951,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFnbE52cz7sYA7crsrmI4vkMQnbebBmul34Bh9_qtgKkAFwTbhxS1RBW2EZAyDF3qtLc79_6WrGou5b5oOe7cLwQC8gY6raxr-pjdNkyFErlKK1UuMzA3PLv1OqkF6ZVSmF-ARpIX6sZto4Vva_VSmRR1124XW1-z0Vupzb7bqlf-WYP58p8AtnopRln3sI6AgW8KCoTH6OmJy1v3LSm9oTnRcEkupi1KNbTTv0h0LsQm2r6VRXIcwgegW0",
+          "footnoteNumber": 7
+        }, {
+          "index": 3565,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGeu3gsWBu3967iX0U7gNLNvQdeG9nqyl2sEbvi7El6qFvVOJnVrycYQfhGuPkxLQrCYj5lLhh8hM2DDcrLs7VvVCuCRD_HZ-tAMohZuJQrTvPVe6T1Z4Yp_eY4TKokdPl9d0rwaW3z7d1TFjuwp7ZIBhT8TkIFqBB8b2HLgVSRKoNPeo0Ze8e-4R0hvGSqFY7zp9whoG_BpVCwIpDbXA%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 3565,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFGYu-LFYHn40vQkUPHMD2W2CgP-sjLGGPV0lI4GeLfI_DU1UV154hD2yTIoVp2rxEGJYJ5royl5ON0mm3BhwkbBNlUhIFWzAILijibOGKBvDtxyVnfgb7pnSRtvi695LemLUUQX7S6S9uoSLxyDAvhm8MPHlpzp4vhligAxeQhECrmyKgSjwjNy5Bd7JBAZvCcGifCIkH5H_z2I2KvR6ht4bCYS38hHlVV4nqKksOFW5_fBn6GKvqa",
+          "footnoteNumber": 4
+        }, {
+          "index": 3783,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFGYu-LFYHn40vQkUPHMD2W2CgP-sjLGGPV0lI4GeLfI_DU1UV154hD2yTIoVp2rxEGJYJ5royl5ON0mm3BhwkbBNlUhIFWzAILijibOGKBvDtxyVnfgb7pnSRtvi695LemLUUQX7S6S9uoSLxyDAvhm8MPHlpzp4vhligAxeQhECrmyKgSjwjNy5Bd7JBAZvCcGifCIkH5H_z2I2KvR6ht4bCYS38hHlVV4nqKksOFW5_fBn6GKvqa",
+          "footnoteNumber": 4
+        }],
+        "webSearchQueries": ["Gustavo Mendanha BR 452 duplicação Rio Verde", "\"Cabo Moraes\" Wellington Carrijo Rio Verde Mendanha", "Gustavo Mendanha Rio Verde ACIRV senado", "\"Augusto\" Rio Verde ACIRV"],
+        "groundingSources": [{
+          "referenceNumber": 1,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHeDpO_TlGmOmiR7-ck5u8ToP-gPIfCQzNNFKxXzrGuNbftEjZkVI7y3nwa2ARtv_xwyq970RVjTnI1gHOIca0VqbayWNsA8BagxgeMjSZIVTytdjr6SlbJ4l6jMesPhVMVTdt7qmNUM7uAHQUQvUc5F6F_zaPYdKuEs9QmOkFmvRsHO8A1jsFoh9joxZ56LAVe",
+          "title": "diariodegoias.com.br"
+        }, {
+          "referenceNumber": 2,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGeu3gsWBu3967iX0U7gNLNvQdeG9nqyl2sEbvi7El6qFvVOJnVrycYQfhGuPkxLQrCYj5lLhh8hM2DDcrLs7VvVCuCRD_HZ-tAMohZuJQrTvPVe6T1Z4Yp_eY4TKokdPl9d0rwaW3z7d1TFjuwp7ZIBhT8TkIFqBB8b2HLgVSRKoNPeo0Ze8e-4R0hvGSqFY7zp9whoG_BpVCwIpDbXA%3D%3D",
+          "title": "transmissaopolitica.com.br"
+        }, {
+          "referenceNumber": 3,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHYpA9E7DudXwcXwirpQ0s4RbRLQvslu4abzUghVxWA6bR5ytCYyCvLOfiA-hPxjk9vfIzVHiMLead8qYLAjn8Q3O2AFG5mBTdPu5Frx1ol7Q3k1HKTUJKQt1NdpljKbqj5um5NML0JT1s8vl_RKOqgjVREMoAflSpHiQAujD8vw6YCruu9LvNUnJciQf5YyWcRlMYPRFhLVmPtrG36Mm3689e0vJuce4DRX0XF5xLVq29a2GTxeWiNHVkyYYWn",
+          "title": "maisgoias.com.br"
+        }, {
+          "referenceNumber": 4,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFGYu-LFYHn40vQkUPHMD2W2CgP-sjLGGPV0lI4GeLfI_DU1UV154hD2yTIoVp2rxEGJYJ5royl5ON0mm3BhwkbBNlUhIFWzAILijibOGKBvDtxyVnfgb7pnSRtvi695LemLUUQX7S6S9uoSLxyDAvhm8MPHlpzp4vhligAxeQhECrmyKgSjwjNy5Bd7JBAZvCcGifCIkH5H_z2I2KvR6ht4bCYS38hHlVV4nqKksOFW5_fBn6GKvqa",
+          "title": "g5news.com.br"
+        }, {
+          "referenceNumber": 5,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFzmwQUaFHXfOxwJY1LveimIdzk-_a0M5I_s4zrSIOH4wNAAU3wP5BaBSb326qPnEYO5VnC6IUDxIgdAEZsDwQV2cSap8UGGXO1rI3V-9SbSI9xhpUGZOUfEGQPt0dz4xRlZ_rGD6HDmIfUWwrttld0WpmPMvSxUm41I4kAk-FxEpN86oWoFBTclzz-IYvPTxhLjt--UK2UFg%3D%3D",
+          "title": "goias.gov.br"
+        }, {
+          "referenceNumber": 6,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEMnHBJ-sIeiSyjL_P9-E7fbbBQIkkSVI13bod1k71sNvskDFWHRV_VcoAoWT7OTYGCOUBKi7j0LFh9nLNHyDLq3_Hp6YcwMUvKRm5ZHwgqkkIWAv9o0k3wxjBFEK7t_KIdNCLvKPS1vVAz8lnUotv3iOJy-UUqOL93JcrZnMV4_Ry0fIRXJPX6Sj4l1_-CU0Op8Ay511S37cMVLiWvs5KfvAbmJu-YufFmoxed3bJfNRw8qTMCaWZR8bsT_3T3M5afBCoUjqCcQuBPXQdT33L7M9g%3D",
+          "title": "go.leg.br"
+        }, {
+          "referenceNumber": 7,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQFnbE52cz7sYA7crsrmI4vkMQnbebBmul34Bh9_qtgKkAFwTbhxS1RBW2EZAyDF3qtLc79_6WrGou5b5oOe7cLwQC8gY6raxr-pjdNkyFErlKK1UuMzA3PLv1OqkF6ZVSmF-ARpIX6sZto4Vva_VSmRR1124XW1-z0Vupzb7bqlf-WYP58p8AtnopRln3sI6AgW8KCoTH6OmJy1v3LSm9oTnRcEkupi1KNbTTv0h0LsQm2r6VRXIcwgegW0",
+          "title": "globo.com"
+        }]
+      },
+      "finishReason": "STOP",
+      "tokenCount": 1097,
+      "parts": [{
+        "text": "Aqui está o release de imprensa estruturado com base nos dados e"
+      }, {
+        "text": " no contexto do evento em Rio Verde, seguindo estritamente as diretrizes de redação jornalística e a estrutura de"
+      }, {
+        "text": " pirâmide invertida proposta no playbook.\n\n---\n\n# 📘 Release de Imprensa\n\n**Para divulgação imediata**"
+      }, {
+        "text": "  \n**Local e Data:** Rio Verde (GO), 6 de Julho de 2026"
+      }, {
+        "text": "  \n**Contato de Imprensa:** assessoria@exemplo.com.br | (62) 9"
+      }, {
+        "text": "9999-9999  \n\n---\n\n## Em Rio Verde, Gustavo Mendanha recebe apoio de 18"
+      }, {
+        "text": " vereadores e discute propostas para fortalecer municípios goianos\n\n*Pré-candidato ao Senado debateu Pact"
+      }, {
+        "text": "o Federativo, infraestrutura da BR-452, incentivo aos biocombustíveis e reforma tributária"
+      }, {
+        "text": " com lideranças locais e representantes do setor produtivo*\n\n**RIO VER"
+      }, {
+        "text": "DE (GO)** – O pré-candidato ao Senado por Goiás, Gustavo Mendanha (PRD), cumpriu agenda estratégica nesta"
+      }, {
+        "text": " segunda-feira (6) em Rio Verde. O"
+      }, {
+        "text": " ex-prefeito de Aparecida de Goiânia consolidou o apoio de 18 dos 21 vereadores da"
+      }, {
+        "text": " Câmara Municipal e reuniu-se com lideranças do setor produtivo na Associação Comercial, Industrial e de Serviços de Rio Verde (AC"
+      }, {
+        "text": "IRV). A visita teve como foco debater as"
+      }, {
+        "text": " principais demandas socioeconômicas do Sudoeste goiano.\n\nEntre as"
+      }, {
+        "text": " prioridades defendidas por Mendanha está a rediscussão do Pacto Federativo e o ajuste de pontos da reforma tributária. Segundo"
+      }, {
+        "text": " o pré-candidato, a atual centralização dos impostos federais limita a atuação dos municípios. “De"
+      }, {
+        "text": " todo o imposto arrecadado, cerca de 70% vai para a União, enquanto uma fração pequena retorna"
+      }, {
+        "text": " de forma direta para onde o cidadão de fato vive e necessita de saúde, asfalto e educação. Precis"
+      }, {
+        "text": "amos de uma distribuição de recursos que fortaleça a ponta municipal”, destacou.\n\nA ampla adesão política obtida"
+      }, {
+        "text": " no legislativo municipal — que conta com o aval do prefeito Wellington Carrijo (MDB)"
+      }, {
+        "text": " — sinaliza a expansão da presença de Mendanha fora da Região Metropolitana de Goiânia"
+      }, {
+        "text": ". O presidente da Câmara de Rio Verde, Cabo Moraes (PP)"
+      }, {
+        "text": ", ressaltou a importância de unificar as demandas do município para apresentação em nível"
+      }, {
+        "text": " federal: “Estamos unidos para garantir que as necessidades da nossa população, sobretudo o fortalecimento da nossa saúde, tenham can"
+      }, {
+        "text": "ais eficientes e representação ativa em Brasília”.\n\n"
+      }, {
+        "text": "**Pautas econômicas e infraestrutura regional**\nNa reunião com a ACIRV, liderada pelo presidente José Carlos Cintra"
+      }, {
+        "text": ", Mendanha debateu medidas para impulsionar a agroindústria regional, com foco especial no estímulo aos"
+      }, {
+        "text": " biocombustíveis produzidos a partir da soja e do milho, matérias-primas abundantes na região. Também foram"
+      }, {
+        "text": " apresentadas demandas do setor por maior autonomia e flexibilidade jurídica nas relações e jornadas de trabalho entre empregadores e colaboradores"
+      }, {
+        "text": ".\n\nNo quesito de infraestrutura de transporte e logística, Mendanha endossou as demandas locais pela duplicação da BR-"
+      }, {
+        "text": "452, importante rodovia que liga Rio Verde a Itumbiara"
+      }, {
+        "text": ". O pré-candidato defendeu ainda o fortalecimento do ensino técnico e superior da região, apoiando a proposta de"
+      }, {
+        "text": " transformação do campus local do Instituto Federal Goiano (IF Goiano) em uma universidade federal.\n\n\u003e **Citação"
+      }, {
+        "text": " do Porta-Voz:**  \n\u003e *\"Minha experiência como vereador e prefeito me ensinou que as gestões locais conhe"
+      }, {
+        "text": "cem de perto as dores de cada bairro e região. O Senado precisa exercer um papel municipalista, trabalhando de forma descentralizada e"
+      }, {
+        "text": " dialogando diretamente com quem produz, trabalha e gera riqueza no estado de Goiás.\"*  \n\u003e — **Gustavo Mendanha**,"
+      }, {
+        "text": " pré-candidato ao Senado.\n\n---\n\n"
+      }, {
+        "text": "### Sobre Gustavo Mendanha\nGustavo Mendanha, 43 anos, é graduado em Educação Física e possui"
+      }, {
+        "text": " trajetória na gestão pública, tendo atuado como vereador e prefeito de Aparecida de Goiânia por dois mandatos"
+      }, {
+        "text": ". Durante seu período à frente do executivo, priorizou modelos de modernização de serviços urbanos e saúde"
+      }, {
+        "text": ", deixando a gestão com elevado índice de aprovação popular. Em 2022, disputou as eleições para o Governo"
+      }, {
+        "text": " de Goiás e, atualmente, trabalha na estruturação de suas propostas para o Senado Federal."
+      }, {
+        "text": "",
+        "thoughtSignature": "ErZuCrNuARFNMg+sVZMZwciRkCzMbidsGuTne0VTP4RTUQnOTnu2nwGpA7h5U5IFJcgomjpReqJGWduHbZBnT103pbRD+dE7fUHLEfHYX3L/crg2Y+pglHIhEpV8KxpKhyeMM/876OHpmAagMyUPnbjwDeSGZZsyEM2JCw7lgIApyh+YJ46jOk9QVlkjDKdhZ1BQWRY4lETeRZvYu60M38JeFaQjU753KjzfpJp3n/muHjI9D+KY3e9Xx7oPcpaOU2X6pATwpGLG4rLhp/87oGISh2iSxW5noqNrr2/XA8PzS7S+9F/gLeWnwBoEg9c0WjGUvBelcH1QH4fu0iRS4Q3vXR1tYe5zvBDTTJmRP5/y5MG9TqoOgnwZdRxrph4zVAgqi799l5Jw+7Ri56FD0VAhRFdKzFK5LT6TVJldYWnRxhuwcf7fmcP2z4eI/mCLlgQ6vlXdG08BLAAezj6GA3XJu/cROyUbr+59WsMU/RUakxCV/ufmF13CWaIkfmajcA88KLpN8gnSlOBiUqmNorhdqYhOVQnYkSZmLI1xxHOSIOkJxLTWmXYFLhYTtX0XTsXRfD+3On+AeVMYpIjIusbkqOcH3cP1Lxb4RPHHAHBZB8Ozlu2aODqagnEqC1HYD4gf2BPYd9DckUArw29h5iQQwYRZBHg0TLE4o8vVUumYeBlif8VY5sYlxl8Cm3u1H6LVAvKMAgL1/UpM9O0v960AnR/ueqLiGk13LBc/pCbfIibhZXkX8MfvYYcSKbSOul1jkQcHkFav0V6W/OwltaMqpiudroX5H8JBmSGrXIKhzvTsRMHP7Z2VUgCSf9eO9osM7Wc7xsDUQfrZJXFySUVeyYjcLJF7cBw1/mY3J266MgfMId+GJAFMtI6LZV1r0ggOoOYx3UgokU9oxwjMYX0KLiodNtPaWcC6U2dSXTVDMsQyDB0jSVHmUhJh0vEcoopJtkN+pGAUm5+YdYDl9YD7u3rDd/Ym0cO8Ogv0jLpbpQvsXuv/JU0atGy85bjGMSTHwutMJNjkt6SolJuu4h9gN8Qh5YUOkIvKR5PrOevEVONeXulIucwhkAFxP261FSxLL4sqP5mzELaQNOOBa7WA+IaxzZX1eMLOnADa7eAx5x523Va2u2G1JHwL6hcyUyI+/iYt+fOSc/yn7tsWZAe96WwKPFlc61HDYtkbxfZRqwUtxyucUIhUbQEUn7bIpdnq5RRMAH+KVteD1K4AaGESZ5Gd/kirnDz+2+b3MYggZolbxV9FD6iwiMVy3zrg/CyoVZJBTe3MAX5ilBMwkgFuGZEeo58WEyNfHDEzGKbPjsizl/PibrWeIWVJGT6OtCRJKlN0C6FfLZ7QyVpUAhiejtOb2tClbua7ggdzkKDWOBKy9aPlg0EPwfzKMtpupv7b3WUTiMcPMIxhIlsmOO0JSxLb0o/IoWAAZADEaB9iiEJdOhFM/16Syma/rPyvhiRVK+M9yx5H24cW+2dVdfq6ZLUxgbcxJ6t2QXA3QWAs77u9bjbZwTYTHM5TJH7JsYA+JeWtojQFTAD9H3NRAv/8ajUFpblVa7kTDrS+MdZAD4wNXn/ejNuFMM8tXgPO8XQ8okFaU1eTyormnQlsP6ufgcJhIGSMA72HHJEtNP8D5MsrNn30TiemVM0cnCHoutBBbQwZVDVbP4A5kFM0YYS8I080aP68bc8vr6TLLu2pi0TR2YW+ZPFKyN1lKOHt1FhKAJ5/vgK5jEJGXGIKRF81Ch4nQWYVjppHZ3o8olSsItG+vi3dyqRVfKUm7ZxBXuNiVtNYvabBUGgSAEunGqQeZxGC8BK0PHegrVLajesDWvLCIBdjdm/PFC1CmNJkzX1iQe2uII5cjsS1OuhkwwmyCKHaUiHNudXLC8W0aATS0WAD9A+/+bJNdecnnxMS6Nbmx6nm5b+bmQQoSwRURp3W0r7e7dO2h1//r39xfdbATRGCTOU13ENax3EBSCH8ne09hOCQDGMJNsgbszoUdZeGV6J4qAe6X1zEsWwaUVsBk9dcMYzazpYKtDx1zulFMQQSstbj4T68pPXRoNk+E8eGYu/gHg2kFo/eC1yfkuoFakbLXK7hjky5T5pP2aQ10WvUcRJGW9F3AVsoFLf0KrbqGTPblHUo8C6eY/HR9pIuY0LBl/bwWWVW2cYRpvRdg64uC0aF9kh8j0Rgd0wAsezI+BUTiZrXYwU3v7o7RMgPN/dFRB5tCwKgFhVOypWpcECpJfP1SC0lky1HytfSanZwtEvhybyQUx04NeHPy5ir2eIJt8v9HcOSUNH+H3m8Cf6nyiI6Xo5UOlEGyZCT04kNY/W+GqXS+1IvTlz5d1g4mapuiWGq875Gsku9sQzulGhLX8Oa/glgZOD68NauF6oGnaagvOKnEJluwpGaLi4mgJOxtkM3pEqjxqi4IeC/m3olVK77bGbbA7bjDNEwZqqqNc85zo4SAYeE2SPoou1E5BXzfw+Q6e+Gmrvz7ppHyiDxmr6r84tyB20R2hMer0oI2CXiXrPj9Oq268Kmn0rjuzzefctlyd8hPypfRd1XA3wLkK2VAzxPd7QJPSdYXsvyXtsZEtHnu8/pEgHcDtXWPnPeQK0eGwGF7pUPYtMrbCESqBXVK8iui8VQfa9Cr1dVRXyQuKX8b6BnYkd68Yf1ILAozLwUKNTIudrCvQhCPoZ/JRyp19ldM9tJiDbFFhiiIVrYctYTD33hXAMVCKpWIznfkV68vFIt+jzYbvc/yrtO/gI+FTKQkItVL0bR5NZk07MfS7oJBjHbxN/XqxY7SiEwUraja2wBkpNsfl1UFTQ6zGTPmzMaKroYgLkBeRpVe4YHxdFRzJUk/LqdltI5+cr6ypnyyRcGrg5sw75SHvOxrvU2huJ5DtqJxiHKFtN7M/CJGLfVQ9hJE77qQz2I8QZ73Gxutt3Pi+IzgBg4VkXKFpSV0wI9x424xxwQshaueL2NXHqKaUvygKGKzU2MN5Qhsz78G6Q7R60kMdEXNdnDSBbx4fAiSUrFSQTZd8/pdS1MK/cyIcyiXqRIz/6vM1a689gcL7RXMzd5z6if3DKxHEEiZh5d5gX7/Wk+q+vutPAIRE5qko4ubfcSk7E4BVJVBAOs4mfXV+KF1PpSomvhYftz1W1nLMt9IOSRRfoVN78YtxNGGyziOYgHJscgo6KIvULSgngeyMOG8g3WKQt1Tf0rxYVVOTtUzP9unAS+8uTUJ2+pIGplgsnotgOmxKMHFGxkUF5z+nUQgM01CmuBZe32uhSwfgeJKGs2rZGJtwiGeB/+WjWLwvvbcigxLTaoHbkQjMnQl88uB9bFQjQtKx0D5PI/vJrFl4RS8bG+jaI/E5vOadd40w9Jhh6EGgXMtGZR2cS9hU33PrrurlnVU/ZtVB4TuBeGdRnpqvS5WW0Zf0+36XUEjVRGTR4rUGbm4GHnO31/ho4TbAB9No9NGbuBH9IBhelQArxt4PnwIo1PH7EoSFQvy4stpVEASt/R3PX6jm9ACPY0YpPL8NYpJZMs0dVrpEn2Uc1CZ6cgzYfP+3L37iBBGWTKZ9L0K6jkI2T/UCBUqIOG1KADUn8PPYCPIE0ofay6gRZBHdx0QhJib1NIjkp9wNAfBgJdOQLYl+0fGf1qtHAo8HO4A3Nz+2JPo/tZzjjq87z/mwtoLVQ4gBaTUocPSONm3mxgKlzxj72bzfCpLG52a+ix5pnkwow1B7mRGf+t+NRZRlIhYd419zl2C27FVy4MN+1uyrJWVEVZv+sEiFAuTkN8CT6+MH7BcY0TGmYFHbSpH6lT5jgzI5MlNeRxGgeooDB5viaqhau5R1+JIIWD+GdgRAwxt6yCXW1T+uTtovMu64wro8LoBI9N9HLJur42YVPZCrRYFrSATkX5jgVUvZufNge19PYcFTuDt/jZ7a9VdwHKVj2i85A6M27tizgXm9BlOZxSPP0objKpSTR34QtptKn61CtogzD3U4U4azIcYyxnsSibK2i7wwTtkCmTUVqWTaZRbsAJ8mUd3WwZ3oQbwL8VNw1z+HLt6jJt2PpLcXQRtCoZbvSQ2+3OceRbQtlQYKSdM4fVd65GRf1RJr+YKtdx6PAxcR2uBCEgoliJ9ty1Gv8i+sa0QdiG0P7r11sab06gz2om4hBBBJadxdPKkmeN3GFrzUGGC1PixQcWa43nyyq7leUTsxu7VSRPC5NfsP1XLKn3QQSH/eN56rTEC91sV9S1a+rRmkSizQmy1prw9dbUYBPb5W9h/MV0TAr7hXOVlGyvosEQ540k5g4NjHFQNXvTtudwycPjVSMvfMnxbG2WeqAUQNV7IQw6yTGtc7AZvYr/Lg1edPCuc2+M4vq/y5N7+eVTOc3GA+RSToag1CQBl79ZDqBQCAHAMZ+jhqHDQnKbjh8FgzUrWPo65uveSRa0HVNETxFHe7FQsdbLl3B4xnkBzmLFbpt+oA9ki9GaOi6oasjttuVEXzhKBVHtiqidAIj/59A0nJnuGCqdH9xLfG05kXhSkzALll/4ZJe40QMTtXlLQngp9/h2u4nzU1Kyoou1JjcQvqbVuyu8dAlLCcBCXQ1QVjpghx7t977rVVSoRImWbN8PXLz0Uxw/SoEOgPFuCLfEoq+edZ3zFNSMID3Ci/i6zpLTdtE5S5WhL0vhkswHIRS/VW2+NgjgmH9/nKQLj7iI2VxOOEYqFDrIChByJz5y76OIqRiR0ZKq+urOEJap0g12qMa3mvDqpH1OPKL4ItMBbtlaiJ34DxaagxUWXPL0DI031VkyI2daB4XzG0OcqIlN6c7h3q7R2Tim6f6DC8xb6gq0IhjG7wohLBsXA/YkIlQp7CWoYOUtOrKe4TKaqFYfLJbeGEtSs2iN+2+6WdXG3bqCP+3WwSWV94V+5bayljxX5U9cyaM834jVs1e3ojgh8ae449PEHFwzlicZKlSG+SP2XDt2UKS7kqaBuVdxKcWWvNuqogzWFwSeVu+0qZagemBrRiKp96WE+QE+gE2jH5QnoTCBIj08Eb3VC7cQvCiGNf1HJRH4zjVif2bJxJmBf5V4UOJJihivCY6w0NWqzsNF43XLD58Za2zUNQdiIYkhbsICDeOmzOUSuP266XyUQsrV+mcfJbjsa6aDUfvVO5FHrJ1tlKHmsCX+baAjb+r46FeUOPPogXdjTeRLEt/7XIUrkdSzlH5daC1IKbCasrxZqOcB11tOVovambIaysPZgDInhjpbJoVQNsOmmcmVVeSpdoRWIzc0pL631waCzMXX8g6/UnTTlx9fvaaKQmT0QF3mezc1q1k72Mini8JJosvIgiBgfgatXqNzaAXbSUzNz3S2ljjJEVn8eGiKzRSCBxOO8w7daIV9K+SAYHx3J4Cn08do380kh8SWd1WTKN6ScHPTNuQzkGbmmvoGX70uK4coauVOsmOSz/QCk8+Sj4ES7ZasnqraBL9CJ4QL+4qqny/v/ssna47+Hxx1m0c0Ggxn5yxYPU7Z4uIgUmlLVqPqZQaZV0cT0IWy17O/nsL52bRZs3Z0aZh98BfXnxnrq8zB3gHkVHY2IY48zDlSBGiULSE5rsfj+5yR7kwG6ikOXqUNoHgOStPRbMXufB7Ao6BZuTgzSy1I9JLSicDQKTtan4DrmT491t/VJdOEXigze9dUlexl0ZK8vc8cBxLHfeMNvoTeINN+HtNo4LsxdkZeEQuqWLaw/GbjMXubykRUUgpXuVpMRWPthrhZu+TpNWbUnk59tEft8v0W7aiEhrRDfsrqkt8NBcj5+OwDm7b0jZr+qjyOhAEE5mCTz4ALxOFDKYqqwBVE0x5yjS2vj5KL3tOd5jPZQUH7BduJANDQ9x3KGExpgc1j2spYmCrr9W5Zzl7jV5eZUMIQ7hHsm1erhXRKHT1qjbzCehWG0jfvBga1bEwMxW/1ZNZY9eslzqU+gCtFi2pORUBOxCX0KMaA0Mk4uo/8ib1WDj4O9h6ivk+pdP8VLJlA0NVNAZoaGDnYNAQ44vTEMeyAtJ3/J/GyBgcbZxMCOj/IsEWRIs8xiLkH1SG+cOGX/cjzrqX2wu/y/KtfVKWEF+l0KS0/qhic4DSUV6u0lOMAYKNbb0/7Z+GF2WsrzV9fiFUFxPhajRW+8MUIAsVZXd1GLqKjJM55XodM/OEVDwG4u+OQVSx5J33Orlf+tAJna3xxpCbXz/lNAX0Jh8fEhH9XeXl44fS4rO/2Zm/Ao8L5PmZHyhViAxT61GDN/UadD5L3d58+MuQ4jrPuMWjpEDfxAf0Wf5z0zxX5DUwjsl62r97AFPaJRdf1mqlfBFbc6KK81V8FLFRjnQ3JXLTAWcpX18CcKagZT+Ig2PCogEPBGJ5GX5nP6QapUGU9HYBR4tk+HTTt6DxuniOa1RHDDqRnn8+03vQtJi8aHM9s9P9R2+6HYpEcl8REMJ7FZKZ1McUA6cpG/Zr4DK9KMO0MS9xugNym0nbZSkkMr+PWKJU+PMyKxXDy80ei+JF0HST5awOqZrYQoNyKB5vqPoDbuvP7vCIqFHiYHVMBhgafSbtmc90A+AX+CayyKzdKe1CWodwEbtpSesKl2xylTdpw71cwCmS9KL1+0me9a1glpI5xvfu6LJjAc2ev3t9OU00aGCHFXedvjSN1We0Fe6Um18rZsZNVY+FEwi39HFbb/vlgTEJOOm1AaRYnWpOZ9RqXwK91T0Sx2kTv98pbMsVtxrCHGnqJ0zUJq1YqfFKTGqg6Z9xzn+gvT2xBe8HQ4COCBiwIuHP6WSUcil2/S+93hhrXEq4I7wo1OMdFyP6IlUJbrbpb5SrzbUTBHbPfMr5sUbcElplw+mdHFF0Zc3XnbSZZSLhkf2J/Y+lWbRvnIQb6I6ivhOlrWv73+S7ruNUzAfReb4NJObJgRv0FF4AtUSBuJOuWHvMnruIsl7f8f39B66TQwMQ/K8V6eY+MUIGMP40BxGBZFaPNkN6pvj/lHvpHk16yIp6/oVAjg+YFdNlrMErmpVBAapxAyazq1PcKmH/jeb8MW+AlqvS5TSrWEvBQJ7jDMIF0UVPKpKx0Yc8nytHI568p4L/eWXhtrm8vuLSpF62HHQADyJtq+H1RuhTDUyjq+v0WSdOe1F9rgaMm3nEi9T1wk787Kk3SvuD2OVOZ06M9gYjkXRuiagmcDzPM0FaZWeARgaT3FUFf8pcCUH5pvfZnRxEkbaeAvfv36uwMrDRmTiQn9u0hoWBOB1jIDlLkAz4OhaSAVC/P0gygEZdNjH3qe9oRYACI2SQEr3jbFDkAUEXCgRJAE7ZH0tCiKMS5fGY4zbWo9LROSdt2gaWThWZLuVtOvQBV5OZ2WwQNx7uMQeusrfEyrhtn2P9Sz37PZ515Hmy41I/+/vGtePmXxHVTZszpfrNfNKoquhm7M0e1DH7ggzmdr48G4MzjMql+XCWSQZEJuGi9NBGoKSYvCzW80hurK5/MvYtISg9Z5Py4wiPPz++amOrAzr8FdNePGIljaVHOUW/M3VVCI6yqsdB/oLDDR53MIXNH847JYQ8vJCDnLclxKCd0n1UWR8dhFEtwfX2f8V6Fh18cNYDwkkCefTldvxrAQSdxL1ym9ojPWCd+20BvwUkXU7HA/ILYXaV/03R+m9boHPunEB/jHr+P9zKEKsHGaZqJlE5kVqG2dT5uXjPRpMCrGDba7LMSSVxF45pOlFhxrIl7VfCwoFoA9cXufCPkkM+uC4476qmpG/4Bqe0aURndm/TONuYJs7h3FptExSLFPaJ5sYMdoYJ5lb9tg0SxegPmAnFczD34WsyFeJpxRlYiZ9f/IwfPoXWfa2gnz36fWgJHh5V8PHTisVk0ULnRz2vMLHqrqskbraw0G6KZVqd4gQdicf6rCgdRchs4OuZmCqSo9n+pH8bLtX8SCPjOgpwSSeF1RV2zy4pckOntQPu2nh4AY7oJCN6nl/iXQ5mZDh0bY/zY0SYLVLmAWHKMgw/LgXtdjE+B7SW6ugOBCaTRVr7UfK5DSPXia9053OKZFtJ48l02DsRbZddl6D9w0uNnC9UozwFWj7YKRiOKd/F5NuCJAbSGX8q26fj+lR7HUvJRuZhYWrg4xltJNf259+hKbMwNaYypAwdDGOsTsohoICvQLhdRHjRvN2u0I64306Ddfc1cDtNxXa38ZXtvCSHJx1kzOa88m8CPSOBMnRxAXwq99Ofq/aasejLkTZgxPO2fSvNv4ZO2qlYWlVvCu63A/2O/Hiwkg/UBN7mPguo0DXBHliyMTfPv4yYK5CqmC4jp/AnvaXVxZItjQFMMLv2yQMVW6UFTiPdHHit3/DX+iTT/6ounGxjgdpY64xEzQdG+1wyZfwuOq90tsGeiTiQtVJJINZBviqyNPQ70TVuGPbfFWL+4udDImLd1Jojt0UJtZxZV9zsmyjrQKz4bbZxsdRjB1uW4+UeQxhF4nb2UTblg68utIhHQbmSIVqzi6N7IDoymy+6CMmIgER0DuXgEZoITnR3ATn+5A2Sfe5+PKP3u8GzQxdIwenUKdCrhtE05ZrW4vWPpuZKHrytyP25Gebb6ycgQ/0ATCxZSXcE/OWFgGZy0F5kdG3QsRDAGQIooETlbWSPhsClTAQblrBjnE/c7E9M4MHEPh1HvJHvuKl/4co3zqfl/j0pcchbTxKucO3mcjdOa/E0zd6bxEbbOlXM0wgD/3WZcF/c03mU38YE/ueoDEqDPHMTpH6ZpIidE1ILDUJvLdLBz+9m3DvtQ0DmDtTAPg44ZNCsRNPAem+yktzqaqaFwHWoj+IDNcKMwoXDibsaaN5JKgnR74BC1gD6OCChxYis83AF7X/OaLF13aNdWnK+H+hhINZ6vUdFAh3FPlP76/KbHjdYA+5EHfeOSxaN4v0FTiYJ0s5PSfozYqkDuaKOiN2Tktvv/w6WxBS4Fe4sF5S9XG2fbPGZpXBQxmaWZgnErd1F8VyP7ZdgkxkUqDheNioOL+GycU/iTiKGXBKO/Bgskttk9rbwqHzPBeLbhds5bdPcSk+hM0p/+y+PH4DfMjZQfI9Zu7MTJMGjozBlTCK08PUhUmvrk0ue3SecbWLncc0QBFoOqBlt5VAbtoxcBLxm9jbpUyZ7nP9xPDTlml/M7x/+Eo4XfhmAJCTOGh7nqdYJYY4IJz9Spl/ED0l8TZz5Yyq+B2AuaokuXD3ks+s8pl6mwqzcnSzOntpJS1LFDNogxa7+xFCBz8NvyuPrg30eqjXCkZUXUFM8c9t2VCDK4eoTaFBr47B11McnVFRAcKF6UbN7T4HX38XOAXwD16CN7xiYGer88szQo11kFMqtH9maydT7nPIORVnTq++f379n+q3Cuw87reAsmMEAGiOUxORGdQUkuWRcH0PaIbmKC/03mQPobxWd0RRF61Z5iifyd6ER0uqAfnhd9MpA37K6AqFPnzrXYiflvOR0+rEdm3ND12GP7dRRE9RSZK8wIHgl3ayPM93EHxEPolKE3KxoOBru7u6j1vfxq4mJvdsO97HUw3DugRkCkVenOL/Dqss0svW4ctNaZcZ9mHtfTV+nC3EKGCIB3nOqpEk4ZQmD0E4zRzogIxCEzY0HApVN2KboMGruglP5S6fWb49sbzP5YbAQXBy72tbxgR+V9Cqam65c5F4Liq7anxVd/2iEfPH6djRX8m+0VyGA2v+L7/buZxZbBuXNvcyPK6DSZ3vCP5Y6AnGeEB5oh9cmDcFXesgxondotGlb/5zSqmobxJ0io5tNXjgPuIuYrNBrrVh/IVyFIKBjHhcTMF8sdjbbsmFD3kZJCxm3Wxsw547AODA4CWnENHjvfODztPBXKSX6KewRE8nYQZtmMMShycXJ6eMWyKpO1vxxJmaWk+MMqYiQ6oS9Es6e5VuDgI557Urpwv2S7naenNmUwiOctbRXnnGJQ9qdNQJEL1kZzq6QansO61XecBNDdocT1RLngi+tsb3oegQKqh0K14FQ2vDSP7mbONxyOAEfliNxqyAx6l7Ufv+TxxO8YJ0aiW6grQOM16sgnkRyuptH+EZSg0Hi1fRr8Bc/G8dzQfHMQmrPcXVw2t5O93i0kC+LH5wAMDBWGfrQE2kErvDozH2J/cs9+TMnsjWBYt/S+D5bF6aUunTC62bpcOXPoHxWJPOl7x9XnqPzZYeqMYeQKyDb3H17Ko9brsl7IfiGv17QO5FVZQTiorPkWgBrcEvr7L05/C+7A+pg4+N04MlVpMQr1NC4z7ubMKn4ir8aGVP1f0GjxryXA/GyVNX1KORJ04IhoKaXzoMKNbBAVnwcmD4t9A5mLRmyk7vYl4lYfAW/i4INUJcunYBMoshChYgVC8jvVbAy2tdekkJbsKqeMUjNjTgIEBLkdSlD7LEN64ZCMpXLilAQU9/yBG+61pvaUBcsEfcPGIGSdz2NCGv5b5aIopuB79i6KFGRWzW0dEXWwywOE1Uzqj4qrOZdVVv6ZAXczBeFBBfiH6ErUGS53FYIexgh6C5PeAQiMwJgognln2Y9nWWLG+y+1UesLCnxzIofsDdiitOy/+8oCDcNSF9lr/zXOTWyZOksDSrdhrLKysTjN0N6UQiogMgG/T+em3LhWj6ZF3p43cHkgdMqsG9gZStg1AaUOoiFr8ip2jBFrMIuhva2zUzEJrxGtVwizy7PJXjDBksDVOCzEzyiovLYrbXJzsoNxjYHwan7zNZEH2H1O3+G0cNgW9638/2ObWSQ+sF7x3tBNTu6ET2WZxu9VwBX9oAzckcK612TUAVHutpw35awKIegT3O5nW03LKcFVSbY/frqDIQQQHazfxdj8zBwOaref0Nku5YdcNKmkogNiyJwWDA7iCJlTbZa7jXrsI50A+nkMOuYK9um0sE3/YSF2zgHn/xn8Ml25vw0h2EIXZFAPn4tsjAYNOJwD51XJ2cxLm+GBW7S1/J4+symLrGjPugQY84Src+DhfCFICVdM76C6dOSX17XPUjbvHX/m91QjUOUeQdkJXF1fEeZgpuhJ0WIa2TcIjXEq1orA+agpEii1aXg4kScXE5b+eoS7EvHrpcDQx2RnKP6Ejl0LW4lzT3JYYT/hjvaiT/Bz4N8GrlrfMvXQA/SZrjgJoC3Ax1l9I2CWgK8XJm5Oa306M6gpb3gcEF96c0yZrj3Mk5ZODgqzZDOgGanV3Rc/E+foXv2UbIqvq2UaQCiv9RZyR2/LRBrHB2l8xMp+wKL/xm9McHF5O4Y0K0vuBNesT8ybBpRkztGIGs/taySZYwn9n2f3w8zy2b9hAcUXnJnxR6gyCls1dZ1E0rrMwUz4sj3c8rdfkoo6751jRoFJpCLuIdMubaEjYMwbfLDM7PDrs/CyClIVd+zdmXEoGxBAHtH/62piMluOP1sKiywnUumEbM04JaDwo+ju3RJH//YQB0KAeuR+HiJyzbaax1v0Iji6uo3RAYYJWtfhUM2uDTDgcQg6rgewYez5TSkOAZMkSjrhNZwZ92T2Ra5afD39iRdoHs+DRtgaJTQvMqHfdQPm6dkLUffLt1Mm2+TvWnZ1Qp1AC6OR1RvFUJxjc1a2RUxTbGNn0FJvxaqAz2n0+LazKhhT1P1eN1GmBiMcUDbz+D+S3cggKsngJsYcOgsLWnt723TML/gZCYfz2WJSWRvPtf4wSjUczudE5Jd0nUjxc7lJXnVJ2SK3mwIx11Olz+0HHvPxHh1BqlN6y1MABYPutL7BvpkPPPj757VGfhiRcQZLq88oXLIG5P+DEV6G4B0AGjyfNIbTk4sHup14Zj1Y/KVxCnwhMMqjjWUrB96HSFCR5kc4XOR3aLqTLAeUHuzmWz7gzvlUzPrb/abhG0fCzqxmDI07c/DfhQdhXCFR55BTbZITiGzCaENc8jAjri+bMwveIQrEtMGrz+Ap3/EM1sohZ871q5+UOFYa2vA6Xqjp1ak8D41Og1lEFyDdbF32ushYbaqkWP+PeiT3lOarzuXYeiIPFRk7PQpYkEr9JWd/s4aEF1ucRABUhi5ICweBGi/1feq6x70UR+lX17cbeP1SYHN9sXwaYI3ZJApQdl86/em1/9zB3xrrJsGdWexntqBuaJG5IzG7LAu4Ozbtdohi4MvCg50ymWYaZAcQWhMsO60Ab8ftk0F7yYUjEi5LlE+vahsBoi4GGjDN1SB3FxiX2Wv1ItPw1XGG4kdRs0fW0dm/ED7Lq7td2+3NoFQ1vLSW1d7tA/bz1a/4NkRDhSDvFo26aJVooc9NRoupaFQwbnuIkQ47Lw8QJm/Dgc934J29B87kZ3sokJeSJ7SQMwf6kt+naiGimh6FIlWSXEQwJI9kstHti90IEyXSgeGNVlBniUS03gWJvuhiejjB3IN0D9EyhZrJlESr2KevcyBdTPeZOB9NSjziwPmD+nA4l2BeqhLyiicv9tC9dhFBHXGVqn9eI/3fdEHo6dUgj80QrFm212OQZuHyc0xZtVsaXt6cZUnUA/v5zxSnUrEYYICt6vQazyXwapKXqW3/kfTOugOPeu7/M2apXcxp64L3B8KTQ4LvJboI6rfhMxERVYi19Popu60HcNPLfGUDLk+KtPnEMf58w+uQ4gKXEUSxv0OijSkeEE1yA/+S+mNeyo0mm6noQ3t+NjjXsE8CwnmqUnVnLpxvbB65OJW1be2i2P2tKqtubfz+Fqy9bq9EKOTZYsNvH8vj7x30conlA9pI3sZTcmJ+hTaOMSgvaEuAt4ZqGhp4q3FdKwytrfP36I17nVLO44NwXbBeXqSUt2GSZT8Q2nso7uBC6SJlbv2dHoxyqNKRDDotznSoGGwyp3XqhBkWO9P7oWdT8+DDSFCJ2RLlQC5+8UasWmlotrtmghngaR/fOaYT/qY762Zqvo+B6evR/o5narht0/Ur0ddopd2uh1DOZRNRABJNE4X4cF0k7RDpf7Qg2v52cqckLM/VRTo4Pulwa4G1UER6OKdZHIvMu14dxeLcYdoK2OBCUFR/NreMynkUegSErppY8Z7uwjBAedaqTnLpp2I3kKpZdC6blYdDpBRD33OZDh7A1oMSeo19711r8UQwmxK/ywdz5CURGuMX0sHrTFEj3Q47ruZu1AWmWy2FCfgD1AXwMVwhPT/sFNs0u/XuVg92S28bEcsV81QDvW+UKR8o/yzE8vnqTOzjvvhUG9c3Iq1HJzv+oGmQeQuUuE4AWBiCyirgdYmFBs4EsGkoJVsWM2AMmvUuZM5GcI4A8zS6zvNcW3mMWU38G6qONa+u3A8rpoBW51xt56+DhiJKyXTVdSI7++2RFRAZS/34yUnuqtaAW/n+du3pGzXTPOLqwXML7Kwfu1awaAPvup73qazZBuBa/USLUDj6b+k7+SITdDoTqG8ftuLvRwlyTh0ZErzw+9F5grqjd/A68DJohpsUsPuUahd+YNjM1vHtelWoknuzYbvBwhWW93JEmDQQRyRN+nwyj61PM+AqX7ew8Nh3932IL7deLXKFxgtLsk2Aq2e+a00zJ+IuXGL1lGwFrhYqGM1unXCoZINV9VPckafJ1WWDBBCKhW+7pCaepst0rwg8UBoidj0B1RcVmkBFmfFKF68zBUcJ2RvCe9pDjGN83dNTlm2fCySXoHD895n/KTqjP+gdajTC910+frEzlDEmGszRAgjV17P34nPeDUc/VsQkVwQLU3LBWJwQD68DUZsZi33Z7XFNd827WRA9vpxz8GZG3BZWYPc00rPe1n6pi6/exnp4sF/yvdkPt8XFP88iDOZEbUdxa3HTMN6VVZ5p6Ys/iFCKLytqiGcZ+Y66Y4dLijo/erah3eq1FEmt0eMlEs4Wkdh2iiLZiB20abljw1Sap/poAbNBU/ZJZMI8pZEGlukBbM4LCyRnSrOPtWNy8N+H7ZMwUWOA4HAQ9TBvM09ux7LzZCv4TEE4dzTEnm/6diox1f/iChmwxeY7HPxf9d1l7krm5xDylYWq1BW49GloFsd+fQJGGTCsXfopXc2um2+ZlTBXiwSPIedoaspHj9gskjb67d/qvCxyjcwr798uCMWZ/iAvgRYDHQv0UFkuEF9UTezYg8w50mu1Kx/67iHsZEqvkRpj1Q/2C3OCYOjkL34LbeNndZxVo4d6zX3oXMC4AF2m3hB3jtKNcnnoYVZ9CKv0Gz3ZsCuhlKMxQpbOAQ15P88XeSvspkhLC5lOn9vjv9GCgF4qrpJCTD/J0Q7Fo+2imoVKPnO/k110/tFiIpJMx42jLeLWfbT6d1NJP31dayGffkCm3nlt8qSti8AvNVcx+ZaBqW37rB8Q9KD5aonnyum7ed72XKL/sC6k1DYLQBpddWQtmcgAiX8Gq58DnqfNqQwhc86QpaJLORmVdDHT4ZfrIzhw0ABBcypdJ9TmpIFE5WS2bL+wuES8JRjX3YQ6oEwdxyUjWOc0jJ/sm2QM/PUNpKSyJkSGxPY16zYGpezhH9vzXOT9M4HT2SlPG/IYyExmpM4UKWmr0dYQo9SmiAy4y0pIVDBRjey3YecBPM3FhcrPUanvzsnkrvzztY+KbqzWZYZ1XfZ/B9AMhN6sjserreYCppUOmfYHJG8XbgSotA4kiEVb0VjQ3tPNgCdbfO73bQ3z9CqjNjnzWeZaf0P5pVPPHt9+0SAmfjlDtj1g6LQihrewk/H4j4zWW+RKVLtzcjXcbcWMbN6faWCBBMv972GX/OamPLMjfENdDLFkOdWDzrSX8J+yHmKVDWG2VooKcrxiNt2jvVyh47mGZREpDdUCg/rSx0sTsL012BpGiGlJpzahYBKa1JhMfF6GiTaRq+zqq0XXm70aHH9cxDimavxMCMVpmcqx7dbuMlNk48tfn7c6TlWz8r/L5lMAzdv4LT5qzmriPin1WiQdADvCqeWdvIcCOrNQ97AF+U7TR0STvoXjJOIFJ7MFixU5VB19zTZS9xuQQMeK4i7av6yHYYqAtqoybKjbxVneCeHBRvXfTDrTNYJxMDDDhw63iP0ygEkGZU4MlwNzQtnjh0XAycgvNq7JgPON3ofvy8nxlVUwLYwE0fzxaK22LjE58AA42qA9/CZLFyLQWs71sICgt13Nq+oz7fWePOYfZP8RNx7A8yJte7ITSp+R+d/VBtlpCiXnUX23Q7d1ZmGPD59NGee8x4R+5R2VriEZDk+juKw9RkvO0cAyhuTRpQStJvCIEg44mfZvHcCsvBbbMlgjJoGBhnszLHLyJcoaGv7frcH6FZCAQztWamNcnBfGAukj+sopr1OIbeG4gGt6bLc/Y8VgbW5XwuReSuZuTOBrMevLUQ+DQ1BxSP8RzcHeX/AHvJAEcwgR88fTqFONwTgYf7/w4trt/dJIco45ZtXgXtZuJX4ze7x0DWJATjYgyaE3IalZYnauM22jI6GzYtEGe7WnCnJZQs77ISw6lzRAyaAQNnCsc7Wi6xqOq66Rzd+dbZdWUjR0McsNtIQ2/6Ahk+dqLa5CpRvZ4R0DvfQl2D1eJc//5b+OTReXcwVX6lsH2mKMW0VjdKlD2fNs0Um9qNk2Z35qWVFblr7R7GU4Mu7N7JLdsxdEu7q+QN4GFyyZy8vOSRpOeKetuzuvGfxM4Vsl69oBKvG6or+01n/H4rZo1fuTIjK/xrvrNMmpYfwm+R1Qcd8KtXgy6P8WUDwiHHcgyATMMZaQbxK1uuOx2pVHt+CwUSIuYK5A0W4brdfcYZmvHaxD8gJDt/t/JxildxXid3xF/m8C9OZcFN8DJxcHKubaRWG8agChyt2Vu/62of6TquLe0Hw3FYLT/HoRH05nUcBexCDJe414nk3g4RBKMoSm1XlvgRimCbJBomo01i0QBCnSQRn+nmBLlKKozstmDk/nkueMLQKv4dQAbrGHk8tSF7rVcayiXnNv8ZresiFzEcq2LJ1WZXVVDOjBk7f8OPO7oYHyOfmuQwYzOqYTD8ELBxA/ZJqY5C5qV0CDm1lnt13a6lCsxtIIoXNokrbvQ1d9FCDi9BX9gj4eQMfjMoez5YuDdH2jFAXru7dztahmKUkSsYAVMQP/PJruyOk1/Dr9D7e+YCR+44aHOxNqoKUBRH9uTrXId3QzUOkz530ia301nCy4e5i+nKdFo8Wets8XnDoD3BOgwTSL9yHoLw/Ln4uvLjKeTHvrklrQflWv/oEZWIFZ8wHxyfe1Ft0/fx9mRIf2bT2U8duLtBCOXPb6v2SAzENwvBxnL/6t1C+HRQCQkfjN8ifmSzoSZWbKK6Dhx0w3vzu6E7VsoLqxUk2KcikRN+ZaEY36s0mmPm89cR1zC4cEawgrCV6mf4Hc0A7aBhzVauBRCsGFSWyjCauqDiBln1DBeAt3bOLJkU1mt8b0/1MbxoBG6FXujew3ajIqQ+PzpPYn/V0AP27kUmQI7zhr+USGaNhGrG5cI0F3ke1iERJh56DTxxSkOgHjgDmPfe5HiYGCQDV8F8wivbweggcWkTVmDUpoDs7UOPIiD2fygfovlonWTUPgPv1KaK/sgwGWRiUQJDn8ewrsZ7nLkytF6pa0QKCFKDab+G+aYl1ggUs0iBWco7poqCJCXjARDYZrHN92vVsfq/v/0ve5QtX6X8drBmkGgGoLRsm7+4NJmzYX9iYwTgd4/yp1cQl3rG37D4BhGuOQFK2H9TCimMbpmmkJ9/R8W9ORcrbkkPJt3Z+NyAPWhkBViJ6oz+QTuf1EIJr/CGLsPue/33XYs4aGDBffiVYBHRXXyWm9fUa/YjGfEtrTQUJj4WiBNo7I+Il8MjyQRvc23XnbkXzC4wvvrekDcIe5InACLG3q9Me5Aq2/HVaPvZyh8bUj117yqxZptD8rpxDX9/pLzwaUK0D66y7O50N4JIE3Vs9E2XmTCUutbDs7icKf2C2QMAlrzJYnpmKf6fqSVcZb6FbpY+prvqGsIpUmy89kgq+2ABbCTVbBYZ6bFaixpGnfadpBWRyuWUytzpRtN8AQhtqUbBYZaULv/BYwRw4iQb3I1oMQdRHnVgGL/k0vahmyuwaIAd8XghUngxGHmy1LcihFK6vWO3cHqwSOhQyptlRRTEm6+WvNgIkhdoUa4N897X6lmq9/PCVG4HF021maRGU33OAF+9Zqb0JRyMroP8Quls2dXw3AatiQ8oy16UuX2YrHl0cv24KuVj8eodtMbxwm2NwsIAvSW7yeR6QOx9LekvCUH6BUL5gju7Cx2HVeV0DqpTaURPBPramjCM4VXrqtF8fv+9+AxJNGlCbzGqtSU3ssct4w+A866twWLCNRDhKSd8KIy9NWGmIFertwasrBb5K/xtfjkcRUEnTTQTXOU7UuE3LQxxN5MVJ//hElcw0StTqLrJ/q+30PYVrRn3AHT6nEUabpmTTB6EmBdt8CBLh2rK+tTmheex1eAMp8vyPy25NmRDdyT3R37AS+0VkEYsaDyfsa2O8ixVg2ahwzjVCukrsPGEJx48dBSvIYxI0D3Y8j96Pbh3j3I+AmozE5/qaIzqUTeHVF92S1mUmpN/XghyiH/oF596CHgQ3xKaNFM6KXUAnlI4QAp7TWSMpVa+r6MXnKgWlX07fCuGNRuh+Enx0X5xS2TRHOPZXrZl4pZ6867rZtZ1T/Yg0f0elFpOd+9lke64MwmToVwl8pX29sy6IIte7gTGQCP4l+E5WR7xVk9SFYyfUqZRrrB3g05uU9HiktGFPVZ8p2QfRxJbq9u0NlmdtvvHA47Hz62V65ALWsuOvfjVQA+Smct2kFzOKftK/Ug4xz2i/kYuF00T7ZFXpELT+EZJbwXvdyqZBJYhsrEX53P4RiAAh0LsK2Vbt5FXbeI3BxEBBIJO55xaO3/TOvJLqhwgSYW6iz2BQheVLrQt0GhojJE+NmmQbeaYDAMiDaSYaZiGzDhku/mQP/uo0QBzbLwdgGqAua6YQ7RtucBAp28e0ceg983hazseUT1Daeccb8xexd1bIysa7aHMcPd6A0vROysdHkVgOM9/EQx53CjEz79IUZYB+VUBGN/rVVDk1UNqGgm7s3Hgv1gRx+HRG38v6kMW8AX1nWSH/0e6FPmESwArxwPekpxGB7n1G/Uu5AUbVZskD3Agh/+v9jfif24IFYd6zR0LV0Y4p6ZyOdFhsNSGpZmlRNzSNpRnsJkXgH4iMWtMvzyT6LjnOd4dkMddGD2N030hJZ1xjMtgEnZkVzXMd/5HGd5GUe9aScsMF3f/VScxPF/YJm8U5anBJvC6uTnQ81dPcLZ86DgfYXBKF7wA1ouFw962F1k9Ybw56SrBHn6w31nGgAn0afxUp2KSEFuhlrH4kS9ffWyFJHJvs9rv0wz6A6a83q28Q8DSlt+y+GapMJPGl0OLCLoDUftnUMjYUNl9XzjoI2Kk9/eoAUNcIe2oZeyrzKfWJCK+i9nnyH/coCAHPuda8WKdbs9+D7sBmv+hLlFv1XIvizwFHpC/qaovCwG41gOwmMuFcCRP/oG8EFCWKnbwIVN3TFSUxY5Op5wDEwXOcK9A7aPQS3G7/2s2ba2vrjkMr/uySV/yaDEjOyMSuIiiPXLk2uYSf75p5nYu8oPDMPyqQEZSspVfExoZZKhrkbfdjmwkoSlO1ASgoFYBZUCijZu0ntcuFjqZMsIQqDaVQhVf0OllBQmVSyYZ2ZDHMIVnAQHKy00dPNnrLGEP95AigKa9B/YJhohe6n4UBpPfCrglGYPvg4eiZ0S+wjIvIxsZyuD4McqvDrkXSO0QMDrBlO/lT1enSk5VX4bX1BIEM8tAoqBWab5IgoNn5FEtKa0xp8Z15hW5JiLQaDikukj8QwwCTMVg0vIPK46NwDp/Qpm8cQmwNR/LiKTwPjFJh6KL5Ltp9P9lQL/hXYrtsxlJg00k6owE7+kLe6RDG4n1ToCzvpTrhozjAIpg89d8JJ5g079aeC3H35Kg=="
+      }],
+      "createTime": "2026-07-06T22:36:25.888Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

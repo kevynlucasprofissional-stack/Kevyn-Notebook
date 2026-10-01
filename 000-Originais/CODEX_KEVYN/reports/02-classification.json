@@ -1,0 +1,941 @@
+{
+  "generated_at": "2026-04-04T16:31:35.553760-03:00",
+  "objective": "Classificar o vault inteiro em core, archive, mirror, noise e boundary sem mover nenhum item.",
+  "method": [
+    "Reuso do baseline e dos relat?rios 02-inventory, 02-quarantine-candidates, 03-exact-dedupe, 04-near-dedupe e 05-navigation-plan.",
+    "Aplica??o de regras por preced?ncia: boundary > noise > mirror > archive > core.",
+    "Classifica??o por escopos de pasta e overrides de arquivo de baixo risco j? detectados na quarentena l?gica.",
+    "Contagem final calculada sobre todos os arquivos do workspace, com subtotal separado para o vault+opera??es sem `.git` e `.venv`."
+  ],
+  "criteria": [
+    "core = conhecimento vivo, operacional ou estruturalmente central.",
+    "archive = ?til, mas pouco ativo.",
+    "mirror = espelho, import ou c?pia externa/interna redundante.",
+    "noise = lixo, rascunho vazio, nome gen?rico ou res?duo t?cnico.",
+    "boundary = sub-vault ou ?rea que exige tratamento separado.",
+    "Nenhum arquivo foi movido, apagado ou renomeado nesta rodada."
+  ],
+  "precedence": [
+    "boundary",
+    "noise",
+    "mirror",
+    "archive",
+    "core"
+  ],
+  "summary": {
+    "workspace_file_count": 7793,
+    "workspace_markdown_count": 4310,
+    "vault_plus_ops_file_count": 4453,
+    "vault_plus_ops_markdown_count": 4308,
+    "inventory_file_count_reference": 4132,
+    "inventory_markdown_count_reference": 3576,
+    "subvault_count": 7,
+    "exact_duplicate_groups": 944,
+    "exact_duplicate_files_total": 2169,
+    "near_duplicate_clusters": 368,
+    "top_level_or_mapped_scope_count": 43,
+    "noise_override_file_count": 68,
+    "file_counts_by_class": {
+      "core": 4774,
+      "archive": 866,
+      "mirror": 1096,
+      "noise": 643,
+      "boundary": 414
+    },
+    "markdown_counts_by_class": {
+      "core": 1872,
+      "archive": 834,
+      "mirror": 1082,
+      "noise": 158,
+      "boundary": 364
+    },
+    "vault_plus_ops_file_counts_by_class": {
+      "core": 1917,
+      "archive": 866,
+      "mirror": 1096,
+      "noise": 160,
+      "boundary": 414
+    },
+    "vault_plus_ops_markdown_counts_by_class": {
+      "core": 1872,
+      "archive": 834,
+      "mirror": 1082,
+      "noise": 156,
+      "boundary": 364
+    },
+    "scope_counts_by_class": {
+      "core": 15,
+      "archive": 14,
+      "mirror": 4,
+      "noise": 3,
+      "boundary": 7
+    }
+  },
+  "evidence_sources": [
+    "reports/00-baseline.md",
+    "reports/02-inventory.json",
+    "reports/02-quarantine-candidates.json",
+    "reports/03-exact-dedupe.json",
+    "reports/04-near-dedupe.json",
+    "reports/05-navigation-plan.json"
+  ],
+  "scope_entries": [
+    {
+      "path": ".agents",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "high",
+      "reason": "Infraestrutura de skill local e suporte operacional do vault.",
+      "file_count": 1
+    },
+    {
+      "path": ".git",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "high",
+      "reason": "Checkpoint obrigat?rio do fluxo seguro definido em AGENTS.md.",
+      "file_count": 2857
+    },
+    {
+      "path": ".obsidian",
+      "kind": "folder",
+      "class": "boundary",
+      "confidence": "high",
+      "reason": "Configura??o do vault raiz; exige tratamento separado de conte?do.",
+      "file_count": 5
+    },
+    {
+      "path": ".venv",
+      "kind": "folder",
+      "class": "noise",
+      "confidence": "high",
+      "reason": "Res?duo t?cnico local, n?o faz parte do conhecimento do vault.",
+      "file_count": 483
+    },
+    {
+      "path": "AGENTS.md",
+      "kind": "file",
+      "class": "core",
+      "confidence": "high",
+      "reason": "Contrato operacional central para qualquer interven??o no vault.",
+      "file_count": 1
+    },
+    {
+      "path": "ACIRV",
+      "kind": "folder",
+      "class": "mirror",
+      "confidence": "high",
+      "reason": "Duplicatas exatas e near-duplicates fortes apontam HOME\\ACIRV como c?pia operacional preferencial.",
+      "file_count": 203
+    },
+    {
+      "path": "Google Drive (Not synced)",
+      "kind": "folder",
+      "class": "mirror",
+      "confidence": "high",
+      "reason": "Baseline e quarentena j? marcaram a ?rea como espelho/import sens?vel.",
+      "file_count": 18
+    },
+    {
+      "path": "HOME\\ACIRV",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "high",
+      "reason": "?rea operacional viva destacada no plano de navega??o e preferida frente a ACIRV.",
+      "file_count": 175
+    },
+    {
+      "path": "HOME\\AULAS FGV - FUNDAÇÃO GETÚLIO VARGAS",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "medium",
+      "reason": "Cole??o ?til e delimitada por curso, com baixa centralidade operacional atual.",
+      "file_count": 20
+    },
+    {
+      "path": "HOME\\BioVision",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "medium",
+      "reason": "?rea tem?tica pequena e ?til, mas sem sinais de centralidade estrutural no baseline.",
+      "file_count": 29
+    },
+    {
+      "path": "HOME\\Clones",
+      "kind": "folder",
+      "class": "mirror",
+      "confidence": "high",
+      "reason": "Pasta explicitamente rotulada como clones e j? listada na quarentena l?gica.",
+      "file_count": 183
+    },
+    {
+      "path": "HOME\\Cérebro Criador",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "medium",
+      "reason": "Conhecimento reaproveit?vel, por?m menos central que C?rebro Profissional e O Professor.",
+      "file_count": 17
+    },
+    {
+      "path": "HOME\\Cérebro Profissional",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "high",
+      "reason": "Plano de navega??o a identifica como ?rea de alto valor, IA, opera??es e projetos.",
+      "file_count": 175
+    },
+    {
+      "path": "HOME\\Gestão de Tempo",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "medium",
+      "reason": "Conjunto pequeno e ?til, sem sinais de uso operacional intenso.",
+      "file_count": 2
+    },
+    {
+      "path": "HOME\\Kevyn Lucas",
+      "kind": "folder",
+      "class": "boundary",
+      "confidence": "high",
+      "reason": "Sub-vault pr?prio com .obsidian; requer tratamento separado por sensibilidade pessoal.",
+      "file_count": 111
+    },
+    {
+      "path": "HOME\\Kevyn Lucas\\Outros\\Arquivados",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "high",
+      "reason": "Sub?rea explicitamente arquivada dentro do sub-vault pessoal.",
+      "file_count": 5
+    },
+    {
+      "path": "HOME\\Muad’Dib",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "medium",
+      "reason": "?rea ativa de trabalho conceitual/operacional fora das zonas de mirror conhecidas.",
+      "file_count": 45
+    },
+    {
+      "path": "HOME\\Muad’Dib\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\PARTE I - Técnicas fundamentais para lidar com as pessoas\\temp",
+      "kind": "folder",
+      "class": "noise",
+      "confidence": "high",
+      "reason": "Subpasta tempor?ria/residual dentro de uma ?rea de conhecimento viva.",
+      "file_count": 35
+    },
+    {
+      "path": "HOME\\Neuron\\ARQUIVOS",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "medium",
+      "reason": "Dep?sito auxiliar de arquivos, ?til mas fora do n?cleo vivo de notas.",
+      "file_count": 4
+    },
+    {
+      "path": "HOME\\Neuron\\Neuron Obsidian",
+      "kind": "folder",
+      "class": "boundary",
+      "confidence": "high",
+      "reason": "Sub-vault detectado pelo invent?rio; deve ser tratado em trilha pr?pria.",
+      "file_count": 22
+    },
+    {
+      "path": "HOME\\Nova Acrópole",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "medium",
+      "reason": "Cole??o tem?tica ?til e relativamente est?vel, com baixa centralidade atual.",
+      "file_count": 13
+    },
+    {
+      "path": "HOME\\O Professor",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "high",
+      "reason": "Maior polo conceitual vivo do vault, com notas centrais destacadas no plano de navega??o.",
+      "file_count": 857
+    },
+    {
+      "path": "HOME\\O Professor\\00_Aleatórios\\Cérebro Atômico",
+      "kind": "folder",
+      "class": "boundary",
+      "confidence": "high",
+      "reason": "Sub-vault aninhado em ?rea sens?vel e de alta densidade conceitual.",
+      "file_count": 191
+    },
+    {
+      "path": "HOME\\Obsidian doc",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "medium",
+      "reason": "Refer?ncia ?til/documental, por?m perif?rica ao trabalho operacional atual.",
+      "file_count": 38
+    },
+    {
+      "path": "HOME\\ReValor",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "medium",
+      "reason": "Projeto pequeno e ?til, mas sem sinais de centralidade operacional no baseline.",
+      "file_count": 3
+    },
+    {
+      "path": "HOME\\SaaS com Kelvyn",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "medium",
+      "reason": "?rea de projeto ativa, embora parte do conte?do exija separa??o por sub-vault e arquivos auxiliares.",
+      "file_count": 35
+    },
+    {
+      "path": "HOME\\SaaS com Kelvyn\\ANTECIPA",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "medium",
+      "reason": "Sub?rea pequena, ?til, mas sem evid?ncia de atividade estrutural forte.",
+      "file_count": 4
+    },
+    {
+      "path": "HOME\\SaaS com Kelvyn\\TPM\\Arquivos",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "medium",
+      "reason": "Dep?sito auxiliar de arquivos, fora do fluxo principal de notas.",
+      "file_count": 5
+    },
+    {
+      "path": "HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian",
+      "kind": "folder",
+      "class": "boundary",
+      "confidence": "high",
+      "reason": "Sub-vault detectado; deve ser operado isoladamente.",
+      "file_count": 25
+    },
+    {
+      "path": "HOME\\Segundo Cérebro",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "high",
+      "reason": "Base de conhecimento extensa e ?til, mas hoje cercada por duplica??o interna e menor centralidade operacional.",
+      "file_count": 1431
+    },
+    {
+      "path": "HOME\\Segundo Cérebro\\SC",
+      "kind": "folder",
+      "class": "mirror",
+      "confidence": "high",
+      "reason": "Duplicatas exatas em massa mostram SC como espelho interno do pr?prio Segundo C?rebro.",
+      "file_count": 706
+    },
+    {
+      "path": "HOME\\Solara",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "medium",
+      "reason": "Projeto pequeno e ?til, sem sinais de atividade estrutural dominante.",
+      "file_count": 2
+    },
+    {
+      "path": "HOME\\Ágora\\Documentos",
+      "kind": "folder",
+      "class": "archive",
+      "confidence": "medium",
+      "reason": "Documentos auxiliares fora do n?cleo de notas do sub-vault.",
+      "file_count": 5
+    },
+    {
+      "path": "HOME\\Ágora\\Ágora Obsidian",
+      "kind": "folder",
+      "class": "boundary",
+      "confidence": "high",
+      "reason": "Sub-vault detectado; tratamento precisa ser separado.",
+      "file_count": 47
+    },
+    {
+      "path": "logs",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "high",
+      "reason": "Changelog obrigat?rio para qualquer tarefa em lote.",
+      "file_count": 24
+    },
+    {
+      "path": "reports",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "high",
+      "reason": "Sa?da humana prim?ria das auditorias do vault.",
+      "file_count": 42
+    },
+    {
+      "path": "scripts",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "high",
+      "reason": "Ferramental de auditoria e corre??es mec?nicas seguras.",
+      "file_count": 15
+    },
+    {
+      "path": "scripts\\__pycache__",
+      "kind": "folder",
+      "class": "noise",
+      "confidence": "high",
+      "reason": "Cache transit?rio do Python.",
+      "file_count": 3
+    },
+    {
+      "path": "templates",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "medium",
+      "reason": "Suporte estrutural para padroniza??o futura e navegabilidade.",
+      "file_count": 8
+    },
+    {
+      "path": "_archive_review",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "high",
+      "reason": "Zona operacional definida em AGENTS.md para revis?o segura de material deslocado.",
+      "file_count": 249
+    },
+    {
+      "path": "_merge_candidates",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "high",
+      "reason": "Zona operacional de staging para consolida??es revis?veis.",
+      "file_count": 664
+    },
+    {
+      "path": "_staging",
+      "kind": "folder",
+      "class": "core",
+      "confidence": "high",
+      "reason": "Zona operacional de manifestos e prepara??o revers?vel.",
+      "file_count": 6
+    },
+    {
+      "path": "Google Drive (Not synced)\\Meu Drive\\HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian",
+      "kind": "folder",
+      "class": "boundary",
+      "confidence": "high",
+      "reason": "Sub-vault aninhado dentro do espelho do Google Drive; requer trilha pr?pria.",
+      "file_count": 13
+    }
+  ],
+  "mixed_areas": [
+    {
+      "path": "HOME",
+      "why_mixed": "Agrupa ?reas core, archive, mirror e boundary; a classifica??o v?lida precisa acontecer por sub?rvore.",
+      "examples": [
+        "HOME\\Cérebro Profissional -> core",
+        "HOME\\Segundo Cérebro -> archive",
+        "HOME\\Clones -> mirror",
+        "HOME\\Kevyn Lucas -> boundary"
+      ]
+    },
+    {
+      "path": "HOME\\SaaS com Kelvyn",
+      "why_mixed": "A raiz ? operacional, mas cont?m sub-vault e dep?sitos auxiliares.",
+      "examples": [
+        "HOME\\SaaS com Kelvyn -> core",
+        "HOME\\SaaS com Kelvyn\\TPM\\TPM Obsidian -> boundary",
+        "HOME\\SaaS com Kelvyn\\TPM\\Arquivos -> archive"
+      ]
+    },
+    {
+      "path": "HOME\\Ágora",
+      "why_mixed": "Mistura sub-vault de notas e documentos auxiliares.",
+      "examples": [
+        "HOME\\Ágora\\Ágora Obsidian -> boundary",
+        "HOME\\Ágora\\Documentos -> archive"
+      ]
+    },
+    {
+      "path": "HOME\\Neuron",
+      "why_mixed": "Mistura sub-vault e pasta auxiliar de arquivos.",
+      "examples": [
+        "HOME\\Neuron\\Neuron Obsidian -> boundary",
+        "HOME\\Neuron\\ARQUIVOS -> archive"
+      ]
+    }
+  ],
+  "top_level_summary": [
+    {
+      "path": ".agents",
+      "dominant_class": "core",
+      "file_count": 1,
+      "class_mix": {
+        "core": 1
+      }
+    },
+    {
+      "path": ".git",
+      "dominant_class": "core",
+      "file_count": 2857,
+      "class_mix": {
+        "core": 2857
+      }
+    },
+    {
+      "path": ".obsidian",
+      "dominant_class": "boundary",
+      "file_count": 5,
+      "class_mix": {
+        "boundary": 5
+      }
+    },
+    {
+      "path": ".venv",
+      "dominant_class": "noise",
+      "file_count": 483,
+      "class_mix": {
+        "noise": 483
+      }
+    },
+    {
+      "path": "ACIRV",
+      "dominant_class": "mirror",
+      "file_count": 203,
+      "class_mix": {
+        "mirror": 203
+      }
+    },
+    {
+      "path": "AGENTS.md",
+      "dominant_class": "core",
+      "file_count": 1,
+      "class_mix": {
+        "core": 1
+      }
+    },
+    {
+      "path": "Google Drive (Not synced)",
+      "dominant_class": "boundary",
+      "file_count": 18,
+      "class_mix": {
+        "mirror": 5,
+        "boundary": 13
+      }
+    },
+    {
+      "path": "HOME",
+      "dominant_class": "core",
+      "file_count": 3216,
+      "class_mix": {
+        "core": 1029,
+        "archive": 866,
+        "mirror": 888,
+        "noise": 37,
+        "boundary": 396
+      }
+    },
+    {
+      "path": "_archive_review",
+      "dominant_class": "core",
+      "file_count": 249,
+      "class_mix": {
+        "core": 129,
+        "noise": 120
+      }
+    },
+    {
+      "path": "_merge_candidates",
+      "dominant_class": "core",
+      "file_count": 664,
+      "class_mix": {
+        "core": 664
+      }
+    },
+    {
+      "path": "_staging",
+      "dominant_class": "core",
+      "file_count": 6,
+      "class_mix": {
+        "core": 6
+      }
+    },
+    {
+      "path": "logs",
+      "dominant_class": "core",
+      "file_count": 24,
+      "class_mix": {
+        "core": 24
+      }
+    },
+    {
+      "path": "reports",
+      "dominant_class": "core",
+      "file_count": 42,
+      "class_mix": {
+        "core": 42
+      }
+    },
+    {
+      "path": "scripts",
+      "dominant_class": "core",
+      "file_count": 15,
+      "class_mix": {
+        "core": 12,
+        "noise": 3
+      }
+    },
+    {
+      "path": "templates",
+      "dominant_class": "core",
+      "file_count": 8,
+      "class_mix": {
+        "core": 8
+      }
+    },
+    {
+      "path": "Índice do Vault.md",
+      "dominant_class": "core",
+      "file_count": 1,
+      "class_mix": {
+        "core": 1
+      }
+    }
+  ],
+  "noise_override_files": [
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 12.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 15.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 16.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 17.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 2.canvas",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 25.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 31.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 34.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 37.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 39.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 40.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 41.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 42.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 43.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 46.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 47.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 48.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo 50.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Sem tÃ­tulo.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Untitled 1.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\Untitled.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\.trash\\novo.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\CÃ©rebro Profissional\\Notas\\Sem tÃ­tulo.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Kevyn Lucas\\Dados brutos\\TODAS AS NOTAS\\Sem tÃ­tulo.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 12.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 15.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 16.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 17.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 25.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 31.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 34.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo 37.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\Sem tÃ­tulo.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\novo.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 12.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 15.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 16.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 17.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 25.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 31.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 34.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 37.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 39.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo 40.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\Sem tÃ­tulo.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Nova AcrÃ³pole\\.trash\\novo.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 1.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 10.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 2.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 3.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 4.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 5.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 6.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 7.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 8.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo 9.md",
+    "Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo CÃ©rebro\\.trash\\Sem tÃ­tulo.md",
+    "HOME\\CÃ©rebro Profissional\\Notas\\Sem tÃ­tulo.md",
+    "HOME\\Segundo Cérebro\\@@@AAA.md",
+    "HOME\\Segundo Cérebro\\SC\\@@@AAA.md",
+    "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Cérebro Profissional\\.trash\\Untitled 1.md",
+    "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Cérebro Profissional\\.trash\\Untitled.md",
+    "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Cérebro Profissional\\.trash\\novo.md",
+    "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Kevyn Lucas\\Dados brutos\\TODAS AS NOTAS\\@@@AAA.md",
+    "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\MESTRE\\Mestre\\.trash\\novo.md",
+    "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Nova Acrópole\\.trash\\novo.md",
+    "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo Cérebro\\@@@AAA.md",
+    "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo Cérebro\\SC\\@@@AAA.md"
+  ],
+  "classification_examples": {
+    "core": [
+      {
+        "path": "AGENTS.md",
+        "rule": "core:default"
+      },
+      {
+        "path": "Índice do Vault.md",
+        "rule": "core:default"
+      },
+      {
+        "path": ".git\\COMMIT_EDITMSG",
+        "rule": "core:default"
+      },
+      {
+        "path": ".git\\config",
+        "rule": "core:default"
+      },
+      {
+        "path": ".git\\description",
+        "rule": "core:default"
+      },
+      {
+        "path": ".git\\HEAD",
+        "rule": "core:default"
+      },
+      {
+        "path": ".git\\index",
+        "rule": "core:default"
+      },
+      {
+        "path": "HOME\\Dataview.md",
+        "rule": "core:default"
+      },
+      {
+        "path": "HOME\\Todas as notas do cofre - Só títulos.md",
+        "rule": "core:default"
+      },
+      {
+        "path": "logs\\00-baseline.md",
+        "rule": "core:default"
+      },
+      {
+        "path": "logs\\00-bootstrap.md",
+        "rule": "core:default"
+      },
+      {
+        "path": "logs\\01-baseline.md",
+        "rule": "core:default"
+      }
+    ],
+    "archive": [
+      {
+        "path": "HOME\\Gestão de Tempo\\Gestão de tempo.md",
+        "rule": "archive:HOME\\Gestão de Tempo"
+      },
+      {
+        "path": "HOME\\Gestão de Tempo\\Untitled.sheet",
+        "rule": "archive:HOME\\Gestão de Tempo"
+      },
+      {
+        "path": "HOME\\Obsidian doc\\160326 - Reunião de alinhamento VCOM.md",
+        "rule": "archive:HOME\\Obsidian doc"
+      },
+      {
+        "path": "HOME\\Obsidian doc\\Contas e Senhas.md",
+        "rule": "archive:HOME\\Obsidian doc"
+      },
+      {
+        "path": "HOME\\Obsidian doc\\Pitch.md",
+        "rule": "archive:HOME\\Obsidian doc"
+      },
+      {
+        "path": "HOME\\Obsidian doc\\Playbook de Pitch.md",
+        "rule": "archive:HOME\\Obsidian doc"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\(PSICOMETRIA) Essa é a palavra da próxima era da IA.md",
+        "rule": "archive:HOME\\Segundo Cérebro"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\202506020353.md",
+        "rule": "archive:HOME\\Segundo Cérebro"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\202506020410.md",
+        "rule": "archive:HOME\\Segundo Cérebro"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\36daysoftype.md",
+        "rule": "archive:HOME\\Segundo Cérebro"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\@thisset.md",
+        "rule": "archive:HOME\\Segundo Cérebro"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\A força da obsessão.md",
+        "rule": "archive:HOME\\Segundo Cérebro"
+      }
+    ],
+    "mirror": [
+      {
+        "path": "ACIRV\\MOC - ACIRV.md",
+        "rule": "mirror:ACIRV"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\SC\\(PSICOMETRIA) Essa é a palavra da próxima era da IA.md",
+        "rule": "mirror:HOME\\Segundo Cérebro\\SC"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\SC\\202506020353.md",
+        "rule": "mirror:HOME\\Segundo Cérebro\\SC"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\SC\\202506020410.md",
+        "rule": "mirror:HOME\\Segundo Cérebro\\SC"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\SC\\36daysoftype.md",
+        "rule": "mirror:HOME\\Segundo Cérebro\\SC"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\SC\\@thisset.md",
+        "rule": "mirror:HOME\\Segundo Cérebro\\SC"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\SC\\A força da obsessão.md",
+        "rule": "mirror:HOME\\Segundo Cérebro\\SC"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\SC\\A república de Sócrates.md",
+        "rule": "mirror:HOME\\Segundo Cérebro\\SC"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\SC\\Acompanhamento de Clientes.md",
+        "rule": "mirror:HOME\\Segundo Cérebro\\SC"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\SC\\Action FX Pro - PixFlow.md",
+        "rule": "mirror:HOME\\Segundo Cérebro\\SC"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\SC\\Adobe Typekit.md",
+        "rule": "mirror:HOME\\Segundo Cérebro\\SC"
+      },
+      {
+        "path": "HOME\\Segundo Cérebro\\SC\\Advanced Spill Supressor.md",
+        "rule": "mirror:HOME\\Segundo Cérebro\\SC"
+      }
+    ],
+    "noise": [
+      {
+        "path": ".venv\\.gitignore",
+        "rule": "noise:.venv"
+      },
+      {
+        "path": ".venv\\pyvenv.cfg",
+        "rule": "noise:.venv"
+      },
+      {
+        "path": "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo Cérebro\\@@@AAA.md",
+        "rule": "noise:override-file"
+      },
+      {
+        "path": "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo Cérebro\\.trash\\2025-03-26.md",
+        "rule": "noise:.trash"
+      },
+      {
+        "path": "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo Cérebro\\.trash\\A piada do Macgyver.md",
+        "rule": "noise:.trash"
+      },
+      {
+        "path": "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo Cérebro\\.trash\\Animação de Personagens.md",
+        "rule": "noise:.trash"
+      },
+      {
+        "path": "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo Cérebro\\.trash\\CEVC AE RASCUNHO.md",
+        "rule": "noise:.trash"
+      },
+      {
+        "path": "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo Cérebro\\.trash\\CEVC AE REVISADO.md",
+        "rule": "noise:.trash"
+      },
+      {
+        "path": "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo Cérebro\\.trash\\Comissão por afiliação.md",
+        "rule": "noise:.trash"
+      },
+      {
+        "path": "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo Cérebro\\.trash\\Cursos que quero fazer na área do Design.md",
+        "rule": "noise:.trash"
+      },
+      {
+        "path": "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo Cérebro\\.trash\\Design Gráfico.md",
+        "rule": "noise:.trash"
+      },
+      {
+        "path": "_archive_review\\exact-dupes\\Google Drive (Not synced)\\Meu Drive\\HOME\\Segundo Cérebro\\.trash\\Estrutura Básica.md",
+        "rule": "noise:.trash"
+      }
+    ],
+    "boundary": [
+      {
+        "path": ".obsidian\\app.json",
+        "rule": "boundary:.obsidian"
+      },
+      {
+        "path": ".obsidian\\appearance.json",
+        "rule": "boundary:.obsidian"
+      },
+      {
+        "path": ".obsidian\\core-plugins.json",
+        "rule": "boundary:.obsidian"
+      },
+      {
+        "path": ".obsidian\\graph.json",
+        "rule": "boundary:.obsidian"
+      },
+      {
+        "path": ".obsidian\\workspace.json",
+        "rule": "boundary:.obsidian"
+      },
+      {
+        "path": "HOME\\Kevyn Lucas\\Conversa com minha alma - Revisada.md",
+        "rule": "boundary:HOME\\Kevyn Lucas"
+      },
+      {
+        "path": "HOME\\Kevyn Lucas\\Gerador de dossiê.md",
+        "rule": "boundary:HOME\\Kevyn Lucas"
+      },
+      {
+        "path": "HOME\\Kevyn Lucas\\Gerador de visão geral.md",
+        "rule": "boundary:HOME\\Kevyn Lucas"
+      },
+      {
+        "path": "HOME\\Kevyn Lucas\\Kevyn Lucas - Contexto completo.md",
+        "rule": "boundary:HOME\\Kevyn Lucas"
+      },
+      {
+        "path": "HOME\\Kevyn Lucas\\Kevyn Lucas - Contexto extra.md",
+        "rule": "boundary:HOME\\Kevyn Lucas"
+      },
+      {
+        "path": "HOME\\Kevyn Lucas\\Kevyn Lucas - Visão geral.md",
+        "rule": "boundary:HOME\\Kevyn Lucas"
+      },
+      {
+        "path": "HOME\\Kevyn Lucas\\MOC - Kevyn Lucas.md",
+        "rule": "boundary:HOME\\Kevyn Lucas"
+      }
+    ]
+  },
+  "risks": [
+    "A classifica??o ? estrutural e heur?stica; n?o substitui revis?o humana de conte?do sens?vel.",
+    "Sub-vaults foram isolados por boundary, ent?o a classe n?o implica a??o dentro deles.",
+    "Algumas ?reas pequenas sem hist?rico forte foram classificadas como archive por baixa centralidade observ?vel, n?o por obsolesc?ncia confirmada.",
+    "Os totais do workspace incluem infraestrutura operacional local; por isso o relat?rio tamb?m separa o subtotal sem `.git` e `.venv`."
+  ],
+  "next_steps": [
+    "Usar o manifesto para revisar primeiro as zonas mirror e noise de menor risco.",
+    "Separar futuras a??es por fronteira boundary, sem batch refactor cruzando sub-vaults.",
+    "Se aprovado, derivar manifestos de navega??o e quarentena a partir desta taxonomia."
+  ],
+  "affected_files": [
+    "reports/02-classification.md",
+    "reports/02-classification.json",
+    "_staging/manifests/classification-manifest.json",
+    "logs/02-classification.md"
+  ]
+}

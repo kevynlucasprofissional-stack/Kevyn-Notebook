@@ -1,0 +1,272 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1gqPWGoYW9DKcfF1DHWxJuAyJ0CQaEapG"
+      },
+      "role": "user",
+      "tokenCount": 236881,
+      "createTime": "2026-03-15T06:10:12.041Z"
+    }, {
+      "driveDocument": {
+        "id": "1bL9IUghB3P-ARDJ4hSaoXk8FQ7GWPWtl"
+      },
+      "role": "user",
+      "tokenCount": 38081,
+      "createTime": "2026-03-15T06:10:12.041Z"
+    }, {
+      "driveDocument": {
+        "id": "1zgiWUYCFLU_7Jh0Bzk5Mrb51FySSVk10"
+      },
+      "role": "user",
+      "tokenCount": 157921,
+      "createTime": "2026-03-15T06:10:12.041Z"
+    }, {
+      "text": "Crie um playbook de engenharia de prompt que sintetize esses manuais que enviei, quero que seja acionável, um manual mesmo sobre como, com base nesses 3 anexos, escrever o melhor prompt possível em todas as situações.",
+      "role": "user",
+      "tokenCount": 51,
+      "createTime": "2026-03-15T06:10:12.041Z"
+    }, {
+      "text": "**Defining the Scope**\n\nI\u0027m now zeroing in on defining the scope for the \"Prompt Engineering Playbook.\" The goal is a practical guide, so I\u0027m focusing on distilling the core, actionable strategies from these PDFs, filtering out the less immediately useful material. My aim is to create something truly helpful, not just a theoretical overview.\n\n\n**Synthesizing Portuguese Prompt**\n\nI\u0027m now focusing on crafting the ideal Portuguese prompt, pulling the most relevant insights from the source documents. The goal is a highly effective, versatile prompt for any given situation. Currently I\u0027m prioritizing the core principles of prompting (direction, format, examples, evaluation, task division) and how they translate to this specific language request.\n\n\n**Refining Key Concepts**\n\nI\u0027m now going deeper into the concepts. I\u0027ve been reviewing consistency, Tree of Thoughts (ToT), ReAct, APE, and code prompting. I\u0027m prioritizing best practices like simplicity, specificity, and clear instructions. JSON Schemas are also on the radar. I\u0027m focusing on \"Prompt Engineering for LLMs\" by Berryman and Ziegler, especially their take on model anatomy, ChatML, and the loop.\n\n\n**Analyzing Advanced Techniques**\n\nI\u0027m now diving into advanced reasoning techniques. I\u0027m focusing on Chain of Thought (CoT), Self-Consistency through voting, and step-back prompting, all of which are showing a lot of promise. I\u0027m also considering how the \"Little Red Riding Hood\" principle (mimicking training data) influences my approach. I\u0027m evaluating the influence of temperature, Top-K, Top-P, and Max Tokens on the output quality, and how to control them.\n\n\n**Integrating New Sections**\n\nI\u0027m now integrating new sections. I\u0027m focusing on \"Retrieval-Augmented Generation\" (RAG) through Lexical and Neural methods, ReAct, and Tool Usage for the context and execution part. A bonus section on image generation techniques for Midjourney/Stable Diffusion, with actionable tips, is included. Also, I\u0027m working on a \"Cheat Sheet\" for quick prompts and ensuring a professional and instructional tone in Portuguese.\n\n\n**Blending Key Concepts**\n\nI\u0027m now blending the core principles from Taylor \u0026 Phoenix, Google, and Berryman \u0026 Ziegler. I\u0027m focusing on their respective strengths, and I\u0027m organizing their ideas into a cohesive framework. The goal is to blend prompt anatomy with parameter control and reasoning techniques. This includes Berryman\u0027s Prompt Anatomy into the \"Como Estruturar seu Prompt\" section, and Google\u0027s parameters.\n\n\n**Structuring the Framework**\n\nI\u0027m now integrating the \"Golden Five Principles\" (Direction, Format, Examples, Task Division, Evaluation) into a structured framework, drawing on Google\u0027s principles and the Little Red Riding Hood concept. I\u0027m focusing on practical application, incorporating techniques such as JSON and Markdown for format. I\u0027m also weaving in advanced reasoning like Chain of Thought, Self-Consistency, Step-back prompting, and ReAct for enhanced problem-solving.\n\n\n**Finalizing Core Elements**\n\nI\u0027m now zeroing in on integrating the crucial elements for the Portuguese version. I\u0027m focusing on the \"Trust but Verify\" approach to context handling, and the \"Valley of Meh\" concept to avoid mid-prompt information loss. Also, the checklist has been made. I\u0027m actively ensuring clarity in terminology. Finally, the \"Final Polish\" phase is underway to ensure language accuracy and fluency.",
+      "role": "model",
+      "tokenCount": 2065,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Scope**\n\nI\u0027m now zeroing in on defining the scope for the \"Prompt Engineering Playbook.\" The goal is a practical guide, so I\u0027m focusing on distilling the core, actionable strategies from these PDFs, filtering out the less immediately useful material. My aim is to create something truly helpful, not just a theoretical overview.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Synthesizing Portuguese Prompt**\n\nI\u0027m now focusing on crafting the ideal Portuguese prompt, pulling the most relevant insights from the source documents. The goal is a highly effective, versatile prompt for any given situation. Currently I\u0027m prioritizing the core principles of prompting (direction, format, examples, evaluation, task division) and how they translate to this specific language request.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Refining Key Concepts**\n\nI\u0027m now going deeper into the concepts. I\u0027ve been reviewing consistency, Tree of Thoughts (ToT), ReAct, APE, and code prompting. I\u0027m prioritizing best practices like simplicity, specificity, and clear instructions. JSON Schemas are also on the radar. I\u0027m focusing on \"Prompt Engineering for LLMs\" by Berryman and Ziegler, especially their take on model anatomy, ChatML, and the loop.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Analyzing Advanced Techniques**\n\nI\u0027m now diving into advanced reasoning techniques. I\u0027m focusing on Chain of Thought (CoT), Self-Consistency through voting, and step-back prompting, all of which are showing a lot of promise. I\u0027m also considering how the \"Little Red Riding Hood\" principle (mimicking training data) influences my approach. I\u0027m evaluating the influence of temperature, Top-K, Top-P, and Max Tokens on the output quality, and how to control them.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Integrating New Sections**\n\nI\u0027m now integrating new sections. I\u0027m focusing on \"Retrieval-Augmented Generation\" (RAG) through Lexical and Neural methods, ReAct, and Tool Usage for the context and execution part. A bonus section on image generation techniques for Midjourney/Stable Diffusion, with actionable tips, is included. Also, I\u0027m working on a \"Cheat Sheet\" for quick prompts and ensuring a professional and instructional tone in Portuguese.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Blending Key Concepts**\n\nI\u0027m now blending the core principles from Taylor \u0026 Phoenix, Google, and Berryman \u0026 Ziegler. I\u0027m focusing on their respective strengths, and I\u0027m organizing their ideas into a cohesive framework. The goal is to blend prompt anatomy with parameter control and reasoning techniques. This includes Berryman\u0027s Prompt Anatomy into the \"Como Estruturar seu Prompt\" section, and Google\u0027s parameters.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Structuring the Framework**\n\nI\u0027m now integrating the \"Golden Five Principles\" (Direction, Format, Examples, Task Division, Evaluation) into a structured framework, drawing on Google\u0027s principles and the Little Red Riding Hood concept. I\u0027m focusing on practical application, incorporating techniques such as JSON and Markdown for format. I\u0027m also weaving in advanced reasoning like Chain of Thought, Self-Consistency, Step-back prompting, and ReAct for enhanced problem-solving.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Finalizing Core Elements**\n\nI\u0027m now zeroing in on integrating the crucial elements for the Portuguese version. I\u0027m focusing on the \"Trust but Verify\" approach to context handling, and the \"Valley of Meh\" concept to avoid mid-prompt information loss. Also, the checklist has been made. I\u0027m actively ensuring clarity in terminology. Finally, the \"Final Polish\" phase is underway to ensure language accuracy and fluency.",
+        "thought": true
+      }],
+      "createTime": "2026-03-15T06:10:12.041Z"
+    }, {
+      "text": "\n\n\nEste é o **Playbook Definitivo de Engenharia de Prompt**, criado a partir da síntese dos três materiais de referência (*Prompt Engineering for Generative AI*, *Google\u0027s Prompt Engineering Guide* e *Prompt Engineering for LLMs*). \n\nEle foi desenhado para ser um manual prático, acionável e direto ao ponto. Seja você um desenvolvedor criando o próximo grande aplicativo de IA ou um profissional buscando otimizar seu uso do ChatGPT/Gemini/Claude, siga estas regras para extrair o máximo das IAs generativas.\n\n---\n\n# 📘 O Playbook Definitivo de Engenharia de Prompt\n\n## FASE 1: Configurando o Motor (Parâmetros)\nAntes de escrever, entenda os \"botões\" que você pode girar no seu LLM (Large Language Model). \n*   **Temperature (0.0 a 2.0):** Controla a criatividade.\n    *   *Tarefas exatas (Código, Extração de Dados, Matemática):* Use **0.0** (respostas determinísticas).\n    *   *Tarefas criativas (Ideação, Escrita de e-mails, Brainstorming):* Use entre **0.7 e 0.9**.\n*   **Top-K e Top-P:** Controlam a aleatoriedade limitando o vocabulário de onde o modelo pode escolher a próxima palavra. Se for mexer na Temperature, geralmente deixe esses no padrão (ou vice-versa).\n*   **Max Tokens:** Limite o tamanho da resposta para evitar que o modelo entre em *loops* de repetição sem fim.\n\n---\n\n## FASE 2: A Anatomia do Prompt Ideal\nUm prompt de nível de produção não é apenas uma frase. Ele deve ser estruturado como um documento. Lembre-se do **Princípio da Chapeuzinho Vermelho**: *os modelos imitam os dados em que foram treinados*. Se o seu prompt parece um documento de alta qualidade e bem estruturado, a resposta também será.\n\nDivida seu prompt nestes 4 blocos (usando Markdown para separar):\n\n1.  **Introdução / Preamble (System Prompt):** Define o papel (Persona), o tom e o comportamento do modelo.\n2.  **Contexto (Context):** A injeção de dados (documentos, histórico de chat, regras de negócio).\n3.  **Refoco (Refocus):** Modelos sofrem do *\"Valley of Meh\"* (eles lembram do começo e do fim do prompt, mas ignoram o meio). Coloque sua pergunta principal ou instrução mais importante no **final** do prompt para \"refocar\" a atenção da IA.\n4.  **Transição / Inception:** Deixe a porta aberta para o modelo começar a falar exatamente no formato que você quer. (Ex: `Resposta em JSON: {`)\n\n---\n\n## FASE 3: Os 5 Princípios de Ouro do Prompting\n\n### 1. Dê Direção (Give Direction)\nDiga exatamente o que o modelo deve fazer.\n*   **Aja como um especialista:** Use *Role Prompting* (Ex: \"Aja como um consultor sênior de marketing...\").\n*   **Instruções \u003e Restrições:** LLMs funcionam melhor quando você diz o que eles *devem* fazer, em vez do que *não devem*.\n    *   ❌ *Não faça:* \"Não escreva uma introdução longa.\"\n    *   ✅ *Faça:* \"Vá direto ao ponto e comece no primeiro tópico.\"\n\n### 2. Especifique o Formato (Specify Format)\nNunca deixe a formatação por conta do modelo. Use formatos estruturados para evitar \"enrolação\" (fluff).\n*   Peça a saída em **JSON, YAML, XML ou Markdown**. \n*   Forneça o *schema* (esqueleto) exato que você espera receber. Isso facilita a extração de dados por sistemas automatizados.\n\n### 3. Forneça Exemplos (Provide Examples / Few-Shot)\nO modelo aprende melhor vendo do que ouvindo. \n*   **Zero-shot:** Sem exemplos (útil para tarefas muito simples).\n*   **Few-shot:** Dê de 3 a 5 exemplos de pares \"Entrada -\u003e Saída desejada\". \n*   *Atenção:* Misture as classes nos exemplos para não viciar o modelo (ex: não coloque 3 exemplos positivos seguidos se quiser que ele também identifique sentimentos negativos).\n\n### 4. Divida o Trabalho (Divide Labor)\nLLMs falham em tarefas gigantescas. Se a tarefa é complexa, divida-a em partes.\n*   **Cadeias de Prompts (Prompt Chaining):** Use a saída do Prompt 1 como entrada do Prompt 2. (Ex: Prompt 1 extrai dados de um site -\u003e Prompt 2 cria ideias de produtos -\u003e Prompt 3 escreve o e-mail de vendas).\n\n### 5. Avalie a Qualidade (Evaluate Quality)\nNão dependa da sorte. Avalie seus prompts metodicamente.\n*   Use o método **SOMA** para fazer o próprio LLM avaliar saídas: Faça perguntas **S**pecíficas, use notas **O**rdinais (1 a 5), com cobertura **M**ulti-**A**specto (avalie tom, precisão e formatação separadamente).\n\n---\n\n## FASE 4: Técnicas Avançadas de Raciocínio\n\nQuando o modelo erra lógica ou matemática, aplique estes \"hacks\" cognitivos:\n\n*   **Chain of Thought (CoT):** Adicione a frase mágica *\"Let\u0027s think step-by-step\"* (Vamos pensar passo a passo) no final do seu prompt. Isso força o modelo a criar uma \"voz interna\" e fazer os cálculos antes de dar a resposta final, aumentando drasticamente a precisão.\n*   **Self-Consistency:** Gere 5 ou mais respostas diferentes (usando Temperature alta) e programe seu sistema para escolher a resposta que mais se repetiu (votação por maioria).\n*   **Step-Back Prompting:** Antes de pedir a solução de um problema específico, peça ao modelo para listar os princípios gerais ou as leis fundamentais que regem aquele problema.\n*   **ReAct (Reason + Act):** A arquitetura para Agentes. O modelo opera em um loop: *Pensar -\u003e Escolher uma Ferramenta (ex: Busca no Google) -\u003e Observar o resultado -\u003e Pensar novamente -\u003e Dar a resposta final*.\n\n---\n\n## FASE 5: Tratando Contexto e Dados (RAG)\n\nQuando precisar que o modelo responda com base em documentos da sua empresa (Retrieval-Augmented Generation):\n\n1.  **Snippetizing (Fatiamento):** Não jogue um PDF de 500 páginas no prompt. Fatie o texto em \"pedaços\" (chunks) com sobreposição (overlap) para não cortar o sentido das frases no meio.\n2.  **Cuidado com a Falácia da Arma de Chekhov:** Se você colocar uma informação inútil no contexto, a IA tentará usá-la a todo custo. Filtre rigorosamente o contexto usando busca semântica (bancos de dados vetoriais como FAISS ou Pinecone) antes de enviar ao modelo.\n3.  **Prevenindo Alucinações:** Adicione a regra: *\"Responda APENAS usando os documentos fornecidos. Se a resposta não estiver nos documentos, diga \u0027Não sei\u0027.\"*\n\n---\n\n## FASE 6: Prompts para Imagens (Midjourney, DALL-E, Stable Diffusion)\n\nModelos de imagem de difusão não \"entendem\" a gramática da mesma forma que os de texto. A ordem e o vocabulário mandam:\n\n*   **Palavras-Chave de Qualidade (Boosters):** Adicione termos como *4k, highly detailed, photorealistic, trending on artstation, masterpiece*. \n*   **Modificadores de Formato e Estilo:** Defina a mídia física. (Ex: *oil painting, 35mm photography, polaroid, 1960s comic book, studio lighting*).\n*   **Negative Prompts:** Diga o que você *não quer*. Para remover distorções, use: *ugly, deformed, bad anatomy, low resolution*.\n*   **Pesos (Weights):** Em Midjourney (::) e Stable Diffusion (()), você pode dar pesos às palavras. Ex: `A cat::2 and a dog::1` fará o gato ser duas vezes mais proeminente que o cachorro.\n*   **Engenharia Reversa:** Não sabe descrever uma imagem? Use comandos como `/describe` no Midjourney (ou o CLIP Interrogator) fazendo upload da imagem para que a própria IA gere o prompt perfeito para você copiar.\n\n---\n\n## ✅ O Checklist de Mesa (Cheat Sheet)\n\nSempre que for criar um novo prompt profissional, passe por este checklist:\n\n- [ ] Defini um papel/persona claro no início do prompt? (System Prompt)\n- [ ] Forneci instruções dizendo o que *fazer* em vez de apenas o que *não fazer*?\n- [ ] Inseri contexto relevante e excluí o lixo informacional?\n- [ ] Coloquei a instrução principal e a pergunta no final do prompt para fugir do *Valley of Meh*?\n- [ ] Pedi uma saída em um formato rigoroso (JSON/Markdown) para facilitar a automação?\n- [ ] Mostrei pelo menos 2 exemplos (Few-shot) do que eu considero uma resposta perfeita?\n- [ ] Pedi para a IA \"pensar passo a passo\" e mostrar a lógica antes de me dar a resposta final?\n- [ ] \"Forcei a largada\" (Inception) escrevendo a primeira palavra da resposta esperada (Ex: `",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 2163,
+      "parts": [{
+        "text": "\n\n\nEste é o **Playbook Definitivo de Engenharia de Prompt**, criado a partir da"
+      }, {
+        "text": " síntese dos três materiais de referência (*Prompt Engineering for Generative AI*, *Google\u0027s Prompt Engineering Guide* e *"
+      }, {
+        "text": "Prompt Engineering for LLMs*). \n\nEle foi desenhado para ser um manual prático, acionável e direto ao"
+      }, {
+        "text": " ponto. Seja você um desenvolvedor criando o próximo grande aplicativo de IA ou um profissional buscando otimizar seu uso do"
+      }, {
+        "text": " ChatGPT/Gemini/Claude, siga estas regras para extrair o máximo das IAs generativas.\n\n---\n\n# 📘"
+      }, {
+        "text": " O Playbook Definitivo de Engenharia de Prompt\n\n## FASE 1: Configurando o Motor (Parâmetros)"
+      }, {
+        "text": "\nAntes de escrever, entenda os \"botões\" que você pode girar no seu LLM (Large Language Model)."
+      }, {
+        "text": " \n*   **Temperature (0.0 a 2.0):** Controla a criatividade.\n    *   *Tare"
+      }, {
+        "text": "fas exatas (Código, Extração de Dados, Matemática):* Use **0.0** (respostas determinísticas).\n    *"
+      }, {
+        "text": "   *Tarefas criativas (Ideação, Escrita de e-mails, Brainstorming):* Use entre **0.7 e"
+      }, {
+        "text": " 0.9**.\n*   **Top-K e Top-P:** Controlam a aleatoriedade limit"
+      }, {
+        "text": "ando o vocabulário de onde o modelo pode escolher a próxima palavra. Se for mexer na Temperature, geralmente deixe esses"
+      }, {
+        "text": " no padrão (ou vice-versa).\n*   **Max Tokens:** Limite o tamanho da resposta para evitar que o modelo entre"
+      }, {
+        "text": " em *loops* de repetição sem fim.\n\n---\n\n## FASE 2: A Anatomia do Prompt Ideal"
+      }, {
+        "text": "\nUm prompt de nível de produção não é apenas uma frase. Ele deve ser estruturado como um documento. Lembre-se do **Princípio da"
+      }, {
+        "text": " Chapeuzinho Vermelho**: *os modelos imitam os dados em que foram treinados*. Se o seu prompt parece um documento de alta"
+      }, {
+        "text": " qualidade e bem estruturado, a resposta também será.\n\nDivida seu prompt nestes 4 blocos (usando Markdown"
+      }, {
+        "text": " para separar):\n\n1.  **Introdução / Preamble (System Prompt):** Define o papel (Persona), o tom"
+      }, {
+        "text": " e o comportamento do modelo.\n2.  **Contexto (Context):** A injeção de dados (document"
+      }, {
+        "text": "os, histórico de chat, regras de negócio).\n3.  **Refoco (Refocus):** Modelos sof"
+      }, {
+        "text": "rem do *\"Valley of Meh\"* (eles lembram do começo e do fim do prompt, mas ignoram o meio). Coloque sua pergunta"
+      }, {
+        "text": " principal ou instrução mais importante no **final** do prompt para \"refocar\" a atenção da IA.\n4.  **Trans"
+      }, {
+        "text": "ição / Inception:** Deixe a porta aberta para o modelo começar a falar exatamente no formato que você quer. (Ex: `Resposta"
+      }, {
+        "text": " em JSON: {`)\n\n---\n\n## FASE 3: Os 5 Princípios de Ouro do Prompt"
+      }, {
+        "text": "ing\n\n### 1. Dê Direção (Give Direction)\nDiga exatamente o que o modelo deve fazer.\n*   **"
+      }, {
+        "text": "Aja como um especialista:** Use *Role Prompting* (Ex: \"Aja como um consultor sênior"
+      }, {
+        "text": " de marketing...\").\n*   **Instruções \u003e Restrições:** LLMs funcionam melhor quando você diz o que eles"
+      }, {
+        "text": " *devem* fazer, em vez do que *não devem*.\n    *   ❌ *Não faça:* \"Não escre"
+      }, {
+        "text": "va uma introdução longa.\"\n    *   ✅ *Faça:* \"Vá direto ao ponto e comece no"
+      }, {
+        "text": " primeiro tópico.\"\n\n### 2. Especifique o Formato (Specify Format)\nNunca deixe a formatação por conta do modelo. Use formatos"
+      }, {
+        "text": " estruturados para evitar \"enrolação\" (fluff).\n*   Peça a saída em **JSON, YAML,"
+      }, {
+        "text": " XML ou Markdown**. \n*   Forneça o *schema* (esqueleto) exato que você espera"
+      }, {
+        "text": " receber. Isso facilita a extração de dados por sistemas automatizados.\n\n### 3. Forneça Exemplos (Provide Examples /"
+      }, {
+        "text": " Few-Shot)\nO modelo aprende melhor vendo do que ouvindo. \n*   **Zero-shot:** Sem exemplos (út"
+      }, {
+        "text": "il para tarefas muito simples).\n*   **Few-shot:** Dê de 3 a 5 exemplos de pares"
+      }, {
+        "text": " \"Entrada -\u003e Saída desejada\". \n*   *Atenção:* Misture as classes nos exemplos para não"
+      }, {
+        "text": " viciar o modelo (ex: não coloque 3 exemplos positivos seguidos se quiser que ele também identifique sentimentos negativos).\n\n### 4."
+      }, {
+        "text": " Divida o Trabalho (Divide Labor)\nLLMs falham em tarefas gigantescas. Se a tarefa é complexa,"
+      }, {
+        "text": " divida-a em partes.\n*   **Cadeias de Prompts (Prompt Chaining):** Use"
+      }, {
+        "text": " a saída do Prompt 1 como entrada do Prompt 2. (Ex: Prompt 1 extrai dados de um site"
+      }, {
+        "text": " -\u003e Prompt 2 cria ideias de produtos -\u003e Prompt 3 escreve o e-mail de vendas).\n\n### 5. Avalie a Qualidade"
+      }, {
+        "text": " (Evaluate Quality)\nNão dependa da sorte. Avalie seus prompts metodicamente.\n*   Use o método"
+      }, {
+        "text": " **SOMA** para fazer o próprio LLM avaliar saídas: Faça perguntas **S**pecíficas, use notas"
+      }, {
+        "text": " **O**rdinais (1 a 5), com cobertura **M**ulti-**A**specto (aval"
+      }, {
+        "text": "ie tom, precisão e formatação separadamente).\n\n---\n\n## FASE 4: Técnicas Avançadas de Raciocínio"
+      }, {
+        "text": "\n\nQuando o modelo erra lógica ou matemática, aplique estes \"hacks\" cognitivos:\n\n*   **Chain"
+      }, {
+        "text": " of Thought (CoT):** Adicione a frase mágica *\"Let\u0027s think step-by-step\"* (Vamos"
+      }, {
+        "text": " pensar passo a passo) no final do seu prompt. Isso força o modelo a criar uma \"voz interna\" e fazer"
+      }, {
+        "text": " os cálculos antes de dar a resposta final, aumentando drasticamente a precisão.\n*   **Self-Consistency:** Gere 5 ou mais"
+      }, {
+        "text": " respostas diferentes (usando Temperature alta) e programe seu sistema para escolher a resposta que mais se repetiu (v"
+      }, {
+        "text": "otação por maioria).\n*   **Step-Back Prompting:** Antes de pedir a solução de um problema específico, peça ao modelo para"
+      }, {
+        "text": " listar os princípios gerais ou as leis fundamentais que regem aquele problema.\n*   **ReAct (Reason +"
+      }, {
+        "text": " Act):** A arquitetura para Agentes. O modelo opera em um loop: *Pensar -\u003e Escolher uma"
+      }, {
+        "text": " Ferramenta (ex: Busca no Google) -\u003e Observar o resultado -\u003e Pensar novamente -\u003e Dar a resposta final*.\n\n---"
+      }, {
+        "text": "\n\n## FASE 5: Tratando Contexto e Dados (RAG)\n\nQuando precisar que o modelo responda com base em documentos"
+      }, {
+        "text": " da sua empresa (Retrieval-Augmented Generation):\n\n1.  **Snippetizing (Fatiamento):** Não j"
+      }, {
+        "text": "ogue um PDF de 500 páginas no prompt. Fatie o texto em \"pedaços\" (chunks) com"
+      }, {
+        "text": " sobreposição (overlap) para não cortar o sentido das frases no meio.\n2.  **Cuidado com a Falácia da Arma de"
+      }, {
+        "text": " Chekhov:** Se você colocar uma informação inútil no contexto, a IA tentará usá-la a todo custo."
+      }, {
+        "text": " Filtre rigorosamente o contexto usando busca semântica (bancos de dados vetoriais como FAISS ou Pinecone) antes de"
+      }, {
+        "text": " enviar ao modelo.\n3.  **Prevenindo Alucinações:** Adicione a regra: *\"Res"
+      }, {
+        "text": "ponda APENAS usando os documentos fornecidos. Se a resposta não estiver nos documentos, diga \u0027Não sei\u0027.\""
+      }, {
+        "text": "*\n\n---\n\n## FASE 6: Prompts para Imagens (Midjourney, DALL-E, Stable Diffusion)"
+      }, {
+        "text": "\n\nModelos de imagem de difusão não \"entendem\" a gramática da mesma forma que os de texto. A"
+      }, {
+        "text": " ordem e o vocabulário mandam:\n\n*   **Palavras-Chave de Qualidade (Boosters):** Adicione termos"
+      }, {
+        "text": " como *4k, highly detailed, photorealistic, trending on artstation, masterpiece*. \n*   **Modificadores de"
+      }, {
+        "text": " Formato e Estilo:** Defina a mídia física. (Ex: *oil painting, 35mm photography"
+      }, {
+        "text": ", polaroid, 1960s comic book, studio lighting*).\n*   **Negative Prompts:** D"
+      }, {
+        "text": "iga o que você *não quer*. Para remover distorções, use: *ugly, deformed, bad anatomy, low"
+      }, {
+        "text": " resolution*.\n*   **Pesos (Weights):** Em Midjourney (::) e Stable Diffusion (()), você pode dar"
+      }, {
+        "text": " pesos às palavras. Ex: `A cat::2 and a dog::1` fará o gato ser duas vezes mais proeminente"
+      }, {
+        "text": " que o cachorro.\n*   **Engenharia Reversa:** Não sabe descrever uma imagem? Use comandos como `/describe` no Midjourney ("
+      }, {
+        "text": "ou o CLIP Interrogator) fazendo upload da imagem para que a própria IA gere o prompt perfeito para você copiar.\n\n---\n\n## ✅"
+      }, {
+        "text": " O Checklist de Mesa (Cheat Sheet)\n\nSempre que for criar um novo prompt profissional, passe por este checklist:\n\n-"
+      }, {
+        "text": " [ ] Defini um papel/persona claro no início do prompt? (System Prompt)\n- [ ] Forne"
+      }, {
+        "text": "ci instruções dizendo o que *fazer* em vez de apenas o que *não fazer*?\n- [ ] In"
+      }, {
+        "text": "seri contexto relevante e excluí o lixo informacional?\n- [ ] Coloquei a instrução principal e a pergunta no"
+      }, {
+        "text": " final do prompt para fugir do *Valley of Meh*?\n- [ ] Pedi uma saída em um formato rigor"
+      }, {
+        "text": "oso (JSON/Markdown) para facilitar a automação?\n- [ ] Mostrei pelo menos 2 exemplos (Few-shot) do"
+      }, {
+        "text": " que eu considero uma resposta perfeita?\n- [ ] Pedi para a IA \"pensar passo a passo\""
+      }, {
+        "text": " e mostrar a lógica antes de me dar a resposta final?\n- [ ] \"Forcei a largada\" ("
+      }, {
+        "text": "Inception) escrevendo a primeira palavra da resposta esperada (Ex: `"
+      }, {
+        "text": "",
+        "thoughtSignature": "Es9GCsxGAb4+9vu1sVNJigMpQdz4zwjSewP1ufFnQIuSkefIaQHD4eBUahBo/X/ArICmnRdFD7PaHJQ84n2CIPp+aknbIh92Zf1iRHcnamIpePGkpOiFhofGbc+zWJGV50Wwv1jG+NmJIf1cFehfcMvvKfJZSASYvzEfcaJPPd9h1McjRKKw1smHp4taGBaQnuCzp3sOldMbaVcU1Y89uYOV8sism0B8OmbWhE+5U8P6YLILTGumIoNJUhG0xYtppMBZcQXzDIHUXh3NAsF6fen0D94szyZ/DrcXe2wiCbGIps9ZIQRAceTRPLVtZe9x0r8VVoQ3kxT/7eNLZb+6Vvc+ZREK4Ru5BLEZbzf/y9FwXtK+euwiQpvhWWPF+de+NTpvcsPCsx/b5uHvQ8So7ruHSE8BJkyB1wx2CfHmuxWmOI9atckgxlMMMQmV/H7tTnD0LpdfhNtNA1SWyceurWPLgXd+w1ssb55Dm4rpFkxboA0bolrMQllhZTXZgS34LxxvIkfodTJet5ZPCW/OmBPcPNYN6h4ArtuKJkUz/btLKdIq7XOIN+QXWPaheuBdXEIBlPSm7Fxv7MrZmKvvrlevyBCmeoR4gGFzt+jct9vZhfgx+BCIJp1TFbCbifFWTwa1/8VMlK3QfSQOZknEk+rd3IV5+OJuG1Dxk0qMU17OIHjyjlrigRYl2lLYgy/sFdm/LLc7cuvdsAYO+mjXgj879CV3lSY4XoZ+oVuGAxF4uhCPp/A9G/lD296ekMFZsXktULnVib4BcPURxpnjFGWfQnkYzgl+0f4ioM47ryIG36eMBkL/qoWWfTLgJorCZUkK1F8PucI6Xf1vyXmv6ZXo6xnfGfXEQOXhrQQFhbQu6L45Jg44SheJP3ITYX4TKEhU+23HB7tm5Gwpn58mCED0WYcFpLDUUV11uPDQUinMB7rjlzMZ4J3GS6SwtOM5367hQj/u/EV6lz5wyPw8v3GRs64vnM0LRW3rsO2BEbEencuPOskrWedvxPZYUBUpgjwDUWV+kRwByBQirAkmpXIoA0uDiIGAypy/wN1XZMAeG9VbJWet9iJpFn2kB7E6/14gY6RpTWU+irDBYoOE/FogGIvhac6Bq52W362aiRMMs1SOCMocHUq3lMf5Kzau/LqnR33Qf9DFcFgIxzx9bSeaE6Dl26iEYrQKGQi9HaLUthliR0gke+IWX8+vMkNQh6ovdOEzq+eUaowtOuV22D2bAOaMsiYdQ5n3zeFqWfQTXSMZPbp/GUttxcWIRFmbjP4Ko64u8euPniZcbAnIuU3U76Se47RZWM40XnxfK5l5IxZTO7XAGOM6XQ5xR/aksOKPySEmZwXvzFrgtbZEYp4t+JKreWLiR7LrUDaLat4lHviD+QQ66FlJGMjpzFZW6caUaYQarC2ICu9DH9J1faz43zMGc36snUdqiDTK5r7fXXb7mf2kxkwgwzmNs7AAS1jFPfzp+sX+OdVkUnHIfXgBhX/FKsGMjO7u0jGe8aGGLU1uuSQOcqCTMV+6cX2s9BqunEF17s95LmcBVmc/qk1zZ4uDbouf0UWZe9B7+NdMnpxMt5erZk89Zn/+8NXze2xH3myAQgQkTiZ77Gc8hx5g6vrrCqi+feOO2QpDAF4lKq+pCK8Q5wMVJaRfSO0cQMI9Yuyl1HFI/gGrFeAdIxek8vk9f/UO4zwjM/KhXF9Pj4aCFQRvfmpUVP28sCsNyvEYZcVqcMjz+96BXS7XLNgcnyeJIUH+VX1zqUf9FixLvjLFzEOidCyIwXGt5aEWhE9H8foRi2m4Vup7C6QOx9mF1uw7H899/lN0NYReR9zIW8xIfjEHDOdI4oVI8vIrHF4J505Am39Q9dEvTDvQwg9y8d4YbmpSz6cYO1mRcleWDkWgIfXlzQKMfiW25cP07laRLYiiXLLcVqIkKmlcsFBeFryPGnRxbjVbXlmJZQNnHtDbFjfFPQjPuZMcH91f/OTismwtFYEuCIrDzuOJ06yvs0DqQa15RiaRGyfuWhvKS1A9wudM1QiVztr8fopOqeNHpKE43XSVYE5tvZP+pS9qtF6YJvpUYcv8/hkOrqMkPYGIErcu1cnAxTlgm5XMpkNSiTXjJYxvC6sWM2f/msKIYlXmqGifcwt8QEQVEEiYuJvghvFgbiOk5IktHEjmaDSxcNxCn1vBPeNC1Wntv85TCqFboUsbhgfwbZXXyL+2hK6/v3gMz2Xuen5KWLHWP7Wh0zJYkggauxzmibrc/sfFMo2KiifY9Jrw+3Feq0JD7tSF5UTNLC5mdDRfWgFm6pC0rPeiz2evDJZ9tbzB+qqBbPWZ+5CB/+PjWHEopQS4+VaUfXwhS/4N3HUKfIMMrZs+DqVKbICiHcEMJ4TSq6zVKyBgxhB6WSxsBD9PyafbAx2UiESUoyKdkthrDgB8ByX7SbYT9oS+Qd7AYp6htqC2DSGwK3dPqMoF1Capj6cphSIQCahfftfHMXNOZqxgAZ8pOJnyrz5RE+O9lkHOBwqsi70usCqfFpVj7xJF+2O5XUXtVMgHN6A8HwIMw9P8jpEedJzUt8kz1QcNU27WSl117akSNKijDNb7Sh6uNF4Z9AFoL3C3Nf6a2bFya9dqPT+Q8IkFAOe7NrSxdcIRHYaW09UUdljTebrPc5yUY+YCdMBizr/NeVAL//8GStXpvk7FME4AiO9P/OZfxV6JDpUxzUdYfVGeEuP5e6CxYpTtXDw1WYpif6EvroalYNf19vd8erD3PnFsZnP6vu3jl3z2SocZAeKFoZyEXsnZkBc6tveptlqv6bPzshKSoInMtVSEhOakIUB+slGJ+s65Pcr0zO+nEk6O93v2zqWMyFQDMF9Hc1lC77OwGP+k0htKieGAV8y+3Yn9OwYIBF841zs2JhOxYKLphrWbdc9pgg/kAVytpZzmO1k/BDFMwG7sKK1mjho497XzTGabsHIdmvjZIiiJT3kpAY7xPjeMVGnacEL4QYBib8cLkTuBbjigs3Sc7jbZj9xUAn7Y3Klek1fn+Rr2l3gxL1yl0fbS8ZmmI0gmZJt5umV3A5D/grC3xV09qM6tavKDXnwYRXLADEMQskT4s/KBofZdZ/gAPCZ/L9uwIwgR6EfeLBxzyO3mtKpNHyNQ2G0lJPEIUfXElICMrRF0CHmfYTVlP290SqUmP1Kz5uGHnjeNSjEBNA3Q91HSusBcrt3ldK1Q7lrPbrZRyDvPImM0M9gHngFBjyaRR/EZ5T7wzYA2o7PDaIeP5VfWja+W+9ENWcabd26GaZ1Qb6CYC+Ks9NOllWhVzo2UWa2o6eLy2GamALEh2zzg0lhioaVNb2kCOSolE4NZ0nTLD1lbfMqdtmkgYfGB0WO9q1fy1pXTJR8+Z2hHfM/VjNEExipGmDbibEjvY6tAd4IbK95JNZfN8w52WzuzV2lKvXbAhln9GmH8qCc3t3jIP8xQaZvRTQyXS5bx4vWzWE4vG8GrpkXgC2cZFvwIslJH5GCxro3sdBFCUJdFTVQwg/ST+yC7HLlZe3y71tPV4cXlcbrn7lJn5b2l408eFLkUNX8woRNPjYlfl36Vd2s/fTaUiMrC/y7faX+Ovk/uzCYN2fS7DrjJD4mrqIYnV68Yd44Xmk2pvYSjvB4NXBsw6GGF6igpbP7HtuEWopgCIG2ZWcGhzw/qsVcHTqxuNRkuEsio/j6PMw4lvjSWCNr6/gcBcLDjKyWGFsm/vbWYnpyVssgcq+wMZJP0wj4PovuAKG9r2RlEb+1Dd4gcOIrGFcDPwsmEhTc8JwLttnlmoCwrzmPmg7iTVrTzICfekQv5G0NLVDCFw4M4GyLWLp/dabX/vpIuC6m7+1PD6Veyi5nSKwDElKGj8htUosukKESEq3+B1qBBzIvZ8TkjTN+nG5OQm8WVcoLc0celZiw6tJf9RTS7iuE8lJuJTPiJcqr66+LdV2bQf9PGo4eYfNcLv+5fGdQPqNsuXxR7k3TTZozfVNBPXB8HlZMVuyenE401p2flyXeWj8KkfyHJFu6ht+TWUzK7QbV5aT9s/b5FbSmuOfaioJCUmhEhMNfxyb8fyQ3zC2cxHwnEUxtJrU3S0b2vGg+9nPxYkuSFyQZCvA14shQssWSwIpTJygKNBTX4gzQ5JNJk6DQyyXg7VXaQTWrKr4X+Dv2BvPz6ah7WzGSJn1NM1PWqXjJNY9ozpSPQb3KXgSTUC6ReFfFtIq5R/tgb/XW+sXNFpk6o5M5ZdxQNXhQdmhihwjFboVNXA3z+yMgZ3iDC+si1OltWionWQakT8udwehoIQs4tu8i2Cz8om1aIUoYzdk5NVgEmNvBIuLVMsloy6BhAIGw39LQlVEOvGMN4JvXmZSZLKfIa0lC71xuXbuL5cbOhUg54HZIgBnlX2kplhNHOmqKrz7Dq9Tfa94ErrNEwC7/GftkKY8d4tS8eCIXXlOu/dbLU/hdFgFYZR2si7SRMw9czPlg3QbWfKKZ/huQbNZzrxP0V1SKKmt611IMEXrwFkoy1AqwTPHXJ9MpT1BQDk2Aap+1+mQZYp6+Z9QdeyZDebKdV5Cj7UUsFMO5jwsBQV++QFA91OsQI5F7zaZrsKCFXRQLtNHBy4ithZjENEgazrBVY74M5TpuqVSjWWaTtAMYsml2rrFxKKYfsAf1o2B1CHfxveKoSi/wUzxQXg+l9c4cfEQonrrdJpm6tWN30LuwpwG/HrcaccX6MWDkkg3mX35/6Xifz7GIz/eG3JzSc3Sa/gtGRthkGGTFbseVYPkYowaEcp6QTRZy9D84OqTtrTBlk0B/X3c9RXexP6YkSxsGh0igcUqBmgCfkqJkvYttgyFk+clUcRMU6nz7KZnvjjiZ4Uhi9yWOD65qNieHp2qJI7ZfhiUcBt7cFJNJHvraXiZRxhbuOBK9/W5nWahqHIeBiFtD+g3V8XwkIocvqGEtU4jgzeR7FdHThrw5x1Up2zfcedPEMWb9+rOmzwNXfVLo1oYx3DaclgeK7E73w7XGam+AX/0zyM47XbydcmZ+bTi/DUOwk90Al7vzo7/bfSELmLkZCm3ReziG5dPxXBE6Xax+fA7A4RbXwIsZsADr5DnFebQFPSOdpE/V8Cw50ld02ZtwfUgMHN6FrdXumf4IZLC6Uli38YxdysH3VBo+D/z2e0Twc340/VMRRF5sVGu7Zyzc6T/jL0MA5IUOiuMwfYixs/BK4j+UTBWzukWfnpgdI7kWcdC0uZUm1qRfwPusXGeaaP6xiUb3MypkjKfitZ6FPP/0DQR/KdE+9WsqgQylqCU2k9zQ7bBhcYJFVn+2eGEHYJs7I9opt/JhfctRqwZv/CzEKJxtAxR28FCW23VUwncIx6IFWTcseH8rp6RNohdhIrPAG5vUNF4uE7TsZuxKKmMRbpWdbBtzRogWJFJmVwo3JGoVN+NCvFvdklBslGI7e63d/JtVqQpwZDoHkkXzC8k2c8NknRRbbN6DGTZ/Lz9oMIyaFa2Sx3RZNnOJYUgVXUFqc1S09G11C98X/l5BaVZG2Ag8j9RVCXTnNyflxqE2cdgwT2K4xAwBCLr1mu8vthjua5dOeEVD1CSePiix1u36Bylc9WBI7TDM7GOLYFAfo7MEUQhKFEhc/yT67RpFauzKgOToXgriVi1aSRIRQOlxmV56axcTWENNvHaut9e4xIN2jJ/VwACf9fTzp280JfBmkLaSo7i7G029oa7T0VmNqOlQDNBL/ggDWmFa8pzEHV4xErRckAirkp0s1h+S7tX4G1nqHXLzrp70MYXzhKZqsbqHblB6b2ZuicxaEnnpAkm/n8jUREKm/VDv6ZX13dAHD6cyJ5yIsqlr+Zdn/kkRdpaPMfNtZNelVcOszswoCZypif0Qq5h/L2gsCnXD1TZhzVAh6BmYWeHFAi8tF+Jn1rXI1qraGvYUNxhhchpq4xkregYG2rESryXTffC4E1NqNUCvLp4qhfRi+eoTbNWbsLqLcGzJQm8NK05abmNCTIiQMfiqqku5R+2cmEFkSEKT89gLNgbsjQE7k/as/YtyxltrNJtpoP3mL2u2Ai5DLi8z2H4lX0T5iHS6hOSR4ZVCeXx5thQAk0bXp87EQ7of2XzDd4yQ1R/ndUmj6AzeEzSolYk7ExrSPnmMNsqAAEjbf24zCjHKJ7EQloYdx1CQFM8l9c7/77WQ/3z/RsMLx1BKGLQF2d6LQ5p4TmnonXjpQKC/hzSIh4NT/Peg+9Lv0Nv5qaCMURNapn4erETD931vuYiJz5OjJrfUb1jZv6HYWBBTH1UtuzMy2NmynYuqdbDG84FRzeU3pdRPkaRpO6ULJffFcM30nI4tDggbReEEiHQJiYL6ya9XGEtR3MrFQioFH2HXQDp20lNU3EMUgiH3zrX6Uipjgc8pdJygdsTYg1W0TgR6TAuM5SUOhvGS4C+f8NDG+COxZwyybZWfX6rlwDCNP5p7rUMkdNhT4UPUZYUooIZnZfhePgUE+bljJKMCmytgxtzFtEv77tRNNmrQfx+kUMGd6NxoNm5bgowmqwcdhcUbWvmpklZJ0/4Akc3pBFLOC4JqoEx6PCCLYYn19zmadLC2g0/5E4CsJloAXeIC8h3t7tnYS/t8WNzurMw0N+mjp8sRW7LsNS3GczOm0WUZW31iqRh6XnpgfocFdRWh1GrusfrmXfJBC6JN2yY3Yz+Gb80FHdnQFMuImr/r09Kad3UxAp8sGi0WoE8CVChIKDBUJHN46c0cVUZCqtrfiORhgiSik1EH0F2lSSfY+3HhdH0Q4YQgQmRLTkok1SMjawgRwraGXWaVSF+t2XGpqyOS7baFZWAa0wmrcBn201tCvyxNTE1DC0Oeh39tAqIXU8mH1pIDdXLEEeoNQ+KyPVAuKL/qy8F34QXAbFrhyvjTlfzR/5MYIeysUKcVOMf4UqXLZdvgeN6vGGS4O4KhsOi4vdklXelxo7Ryk5Ia4FC72xtnQ+CJMrpAWS7Izy0p0keYFoTVsPZU0j7xsSZ13fnFWsKT/V0vF04S5fNxRhNvjtmKOJDsM5NhrUD0PO8U1Av5+1hjMW9iaqk+T2N4sRjgWy2CzNmFO4mIXyM5mvxG8v4GXD88zk3uWRPJEVzWIIx55BtYD4XRmBQyLSX1fWWSYZBgKRCFRGDFoMXVVY+Y7/PWQYv5gQzS/DMJ6Z9QVF8BM+jpiP/hPZIRq8haBh+tk/cOZclprnrKPhXhCME9DaIsNhO4Xlq2cWuTTEiQOd99RYP50U8hAq1YlpjvarXvCNSqHf7zRWVGUFr3SiSzJL/xaspTVqm8wzbNEIuR+FuC/8WMJHbrAKudiffsShvrnYHXEaSecjKsmtzJWZNIbz45RFJLCA6/5hHa6RGP7XE+m0tKNeNm2PLAVi+cn1pfEd3dnQyAsDGK9aoxZEAk6GK+UVrhaop+hupXNn7/B2WT6Fe0AzWZ7YjRzZeZ4jBiFAqxut98l+YtkgylBWlHmrzAzcfz4R0iZ+0KhE5F4vEW3BcXmuL61f8ufna7OlTPaOlD3hwMf93s0ZqigTmQp8eB/gu0w2zyzsqErrnJracpKAQW6VJTN0xDmoa3IttL6rEK+x6UyGp0h1wz/FFSr9PteXHInjtvieWoLrDM9D5YFoc8zYz8Vj0PJSuw06Y6uzH+JcpgI3gESuvs1s0a0jWJxnA1onRYJnNjgpRgBeH6emORL8+mTX6fKqHp63OL/FW/b8T9/hBIKR3/wfAV9Rlgf3u2Hxhvfk/6zMq4DbB1lEVpKLr0z7/VtcCd1g6h4YIOqQV6ToSZLikfJinJ991AVPwxNW4Cx3IxSHe0Qnq2oqapsMG/HZ5pgRqNcy219nI4OC75bad8qOyvLh+FIO/R8511DnOZckbGJ9mkPirfczXyVlgtabp1S8x9LU4vhiAjOD2qZ4fLI1ktkqkO4bejeirPj16S3oXYQRcTgKGJihglCtFx9iQk5x/khJb7rOoFVfT7vgfyWZCn779xZ9/JNtj4vcFEM+2VCDqx017oUvJyVKhnk0GiFe5saeEcPaC7q0eLtbxFkn7vRYdPDdspx6hOgt2sdOZUnsKSz38PFEzguRB5FvY/9ImIKSJC7bmM73uAMrZ141QOQ7trNKZ9N7ht1Fop3El+GLiX6HJoudlMaxRQ6lsGKXXaAVfSkhH2PMQl+RIHyofRl7hSJxfMvDZ4fYbjT88AAhXMPozIy9c+HIkTesm/cnianlVOqXRO3x+DzCHPL1hRt6ndewz8WUIpnNoa6boyiC9H2drtSSDs+UaPmS3GSu/+PzY/jOra/0B6n00HlkKFC1M7YzX3Ji5VniPuiTCbA6VPdn8TQRqzpWr15ADDQS+N8ZlfVj+n/PBeWAUa8MhAGohUgKC0ti/n9YTG+msa9t5NZuQhqJsTu3+mOiQi16UZfUfCVJUfaRFSKuoAgvuiJfQXVG66n6wbNw2vVz1TZO9qES6IMfoKRJxug8c6pJCeMnmAfAlwKemoo8yoQPTlhvBXSjic3kp0hFEdtC0R2mAWUceVyx2I8cQxpMZvLnrEbvisdheepseUq33xosJAwwTF4FssQc79AY81QWjpF4KQbTcaaHG3CThj/cWCIAFhsd+ReH3jOZRY9+8kCv6ESNS2u3T9AgGggjW877gcMzfrBrez1OXrQR7vFW9y6f+k21lngjnBPwBAKv8oZjaLF3YC9YMnvvcp9+ZMpmFP63hcM1y9/mZVPcYygfnRd+mACH+SiKO7AcLErXXm4aqe7obyhJ6wMmLhLnEqHtfx4iXkku+v4VuVsw0ieEJLSMgCtckl+RUo2QPwRxO+hgCyP8XqZjJ/mzMVHAo0cRViHnvUjTE1fZrd0J2dkQRw1Ub6FMiiAQRRrJUAIZ+KoMqqGouiA7/b9X5Nvy/Nui53RfVh9JrFML9a+N16mslyyTCCJvF8R8Zwaxxl3YrlqyLTqMYyzzCkEX7TTnP4qrjMYtG5IZJ4BTxm74fOesEDDYgUUl9U+4GX5qoFxnHkMjVt7mxLxp9QzktF/g/DGR2f/FR/AMhnvcZiVe46evu1BKtHJHpPTulcfHd5DrcTpdCCBZRFOi1e2sSQhMtWTnFW7c6JYUtNcAy3tnHbDZNLkJE3/lXuoYufBar8n42KyThFQexZ0ZWOHuWSeNW/W9fiy1ZjDekBPZExLgifFHr033G+NJpWSy9E+xlO269ZbFSE7u74pWlDtBg1Zmc6ZR7atpI+w9+vroVeCedRMJaWYJSZB8uSvNDs85SX0hfjoVy7B2UNQ9DsObwpVl9Fuy1Lmp1vBNqdoU8JH3qXJ6x0I8FxyPtz5jq0RNJ9byzrXXJ/IjbHmw9e0KFjkIHL3Iq/0uejAgNxsg4Wb2jm0oZT6LvfmNVlwzt0SgFQCU6MQEQ8Lo6E2swfgpFgh5CV9QMKVx5pTue8UioId+4oFZ+w7kOeRXmcOtc6ir2rMh6grr64LGoyB1uhxZcM9V0k+uOcslLF5OV1t/HStS2wyOSXgGJFhQiStk+BY6cLExkgOzHbgAg14fY/v61FXbNtc1dUUdNHnDwdjupYJ8EWypzX8WkOxzGiRXFa6+QQm7O5hSkTre8w6KngQ2Pak5F0XHODLCPKqwUjAxE/5YzjODl2ADVUAVbTpJuoidm7EPbN9UP8PblAN9jnnB2nWC02kCfC9NvgiSA7DBB3IlC+b/NhUHvOvfuzMW+2i3W3aloE9ZgCkeXeHVYk4N30xEBxVN0KhDPVdbxRjp/m+xxmtP3UdxVoT7qDxTegCQv76lrn9EePDiXCV5efAg2C5Fj7Vu1laajhNvNN/0zuF1PIr/d/cgGTlpWpkIVcWcLkSjeVEkEA1iK0aRDktgQvJbMtAiYaS1/qd41xfeUFk5fdapptG4TULK7lVkb85VmUBfp1MibsOZkU7OVaTtS4E2TNXM8BXMaD/LB7RQ1C73V0opn80FtTX/w7rwcpGxmL5rAqQIMSF/JkjRi5TzFgaAkkneAGf4JpYpefBIp+GwsY5g4VAdQguFbU90bI2aNjNGyvO6CUClPknLL7zajfgKIYsl+KdHpubpvcsROHOInAB/qHvxoWvSc7h+YqIpg2NGjos8NWgaXedY0bOBGHpBkrWbbkPipzKfqeVxNkoMwat5d4O3HP1dV2Gt8KbpGivvEbUuOiNJJHCKCCa5ILG0/Y3DqZhobPpBVLoY7/RoDCkagw43K/gTx8TxXj1VX27PS5S2ZkDcdTjocUnIikP1EsiU1Dc7n4bxJhky1uAeurmEqPrZVU4jCiAdxe/v1VWaiSVioOda3xsZT91HQAO2T4DKPvrz9YCnJEiaWyiJG8tCLIfJO2uLrmepLz2g3guYTSNfEWqa+TkJgsJmDcdm1nc7PW6uAYROWvMRh/3A3isq+LaOLBH5OUFOnAXsN7vUiEPknmgYh0XTYtrp0jg4WxJtLNkyjuEjsocnvF4O8PFcxYtqYgwrDggMxySgcjHLjryCVYCD9cVRT71gMtOjOgPQ+xK9iHzVcz4uimcngtlHIUzS3u+z506EJp7vd+CXdr85829Qbk16JsDtMLTb8xXorXwBndOLF/T79rOwKyOEYenp+wJadeSNwioYe6/Gfn5fSEFBGX15okEi1CMAAQtK35h/aJdJXJwLi2LQ0Txkusu7YdHa7wGJjj7JLVLKfAz2XMFLgr9fYSVRAM4KBqnMLXl93FOvJmUbnreKcD7DXUsWQRtZfiRaVp7oaNpgQFD27Kc2z3jKu4HSLt7uQP4anN2F2/hsEd0tLXTyawVa1cK6UfzPpZvEQX3o2T6cVYGCICRRG6P1EkC4a9MTk7vf/WCpjZ3KgBy0Mu07o5Z6RQCOU38/wDzv+nsC92d2zcNSz9iKi/xK28G62RkCRxwkbghZEyEBPgzvD1O5eM4NdDwjx/ugQXof/YsN6Sq2xL8SG7kcI6MPrDStbh7kgnzAoerSemPTZNpukCJuw19mq3jei5MY67mw6W7vH5RiEbSV3QqFQ8sh5gU2WKnDeBwtzGPGD99ftv/eRqhRhklrlZsjS+CQWB7UG9kr6nfsqplGVdjvFTaqgR6UUCtmeJ+lndnoXg7JQTbwymwkRxrfuDyd8EAgHR0ziLVrGwiqWesbTP6Y5r/lDpYasb2TxW2TYWKr1nHRr0EFq1sG79iSl9F0kRkdDxmIaQkmyWO5gP6792rUdhkC+tLrWk8M4RDvnvl3getNIw7x7lcaOlIUohKEnTA0FV6Z34iusTxUQXtzx3322/LLu58aqshctWQn8dOkoLm4M7quv9Vi8WeNeDMXFosU6eyo6900tgmdM4PSLQTHpoyXnLEil3DI2umGq3jfUHJmZzNr7cXQEQYO+uHhakILDx/EXnCrhG5BGcECI4OJwwIvdTGregk4mdNde8rT4yvt5HaUkiCOHcUOpdAUPrTBJ3gFLjNt1qutlFHOKPG2x5EKFsfZhqQoLMXddiFfXXXP9rNlzrviuckXwzFGzlbPYqkjSVo11KUbo201FT0jJyQR/iK/boNJXHoGdmKKtjTgp6cOCHGB5CJbtDqIugSUMESoCdnA7xZ1QWBiTnbMVtFcwrKLOFPKQfI5s2d2zyx458OZMwSWa7BCgKNnxzxS4xUtuHGCyf8+jZfrUDQKUAwkGP7tSZRsOhTnVHZE7MvcBYfzeqrfhokbfNZvVMXRT2deh4lVrffBnSp7IBatx2A2mSstVix1OP6vud+TT61A/6af0vCAfFwzGUdlwx1J7GJcvAOSAIm4Kj4OGuWvB2bubjRM9BQXr2FR7ocgUifZGAF7hOt4nt87MuxTMZQGhSgLV/a+AltnflYAenXVGzvF5iZ0IoRj3J4yV/FBDwtMYBIxXeHIXd8yUaCeHk2Gv9a9PGCOXHK+4lWIxtiz9aGq2999K9VGshwK1Wmdr9PlURneAqZHPFkbPmPmuSzcZZAJKIC7rERUEahnPm2y3+GpDa5xo+fTOBrLvxcEsJyDSGZXwsfuzRoYY8u3VZZW8AaI3aqD15KSnp0BCMlX2rcNaz/O5B6i9ncQAbvf4bf/+fdOfn3hEej"
+      }],
+      "createTime": "2026-03-15T06:11:14.408Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

@@ -1,0 +1,114 @@
+﻿[
+    {
+        "mudanca_id":  "MUD-000021",
+        "caminho":  "09-Fontes-e-Evidencias/Fonte - Materiais IMRIA e marketing 2025.md",
+        "operacao":  "criar",
+        "motivo":  "catalogar fonte agregada com segredos redigidos",
+        "fontes":  [
+                       "SRC-000021..SRC-000034"
+                   ],
+        "unidades":  [
+                         "UNI-000014; UNI-000015; UNI-000016"
+                     ],
+        "hash_anterior":  null,
+        "hash_posterior":  "e2c1cc372afe509f5c43679f332c65a330950878ae17d33b6e9f332ca68b574c",
+        "ciclo":  "CICLO-0004",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000022",
+        "caminho":  "04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md",
+        "operacao":  "modificar",
+        "motivo":  "registrar IMRIA, Gemini e RAG como evidencia operacional de IA",
+        "fontes":  [
+                       "SRC-000021; SRC-000022; SRC-000023; SRC-000025..SRC-000034"
+                   ],
+        "unidades":  [
+                         "UNI-000014; UNI-000015"
+                     ],
+        "hash_anterior":  "2f452cc3f77d479c60a9edecd3edb264438a8f99c07aa922362e21411463c339",
+        "hash_posterior":  "da88075c87f6604166ad5640b9f40f1afe8640bb70c24653e080051fc4c36ee6",
+        "ciclo":  "CICLO-0004",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000023",
+        "caminho":  "04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md",
+        "operacao":  "modificar",
+        "motivo":  "registrar materiais de campanha/copy sem copiar pecas",
+        "fontes":  [
+                       "SRC-000023..SRC-000034"
+                   ],
+        "unidades":  [
+                         "UNI-000015; UNI-000016"
+                     ],
+        "hash_anterior":  "cd3c57cf29b8932a5ffc5f3d6597064ca719a533e62591b715aba1bafb50c507",
+        "hash_posterior":  "0ebdd7c79d2567f94be850ef3a3c47f68bba1b2d51c5f9ce2ceba8c4045031f6",
+        "ciclo":  "CICLO-0004",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000024",
+        "caminho":  "04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md",
+        "operacao":  "modificar",
+        "motivo":  "atualizar projeto IMRIA como campanha/oficina sem continuidade confirmada",
+        "fontes":  [
+                       "SRC-000023; SRC-000025..SRC-000034"
+                   ],
+        "unidades":  [
+                         "UNI-000015"
+                     ],
+        "hash_anterior":  "628d7d0b0febfdb993bacf47c7f9fb976e347b2b7c1cbe57019df92f0a51c3fb",
+        "hash_posterior":  "6de2a8de3aa6bcad99e24aee142b0bd061941e27e3b2ee1374785842fead456e",
+        "ciclo":  "CICLO-0004",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000025",
+        "caminho":  "08-Estudos-e-Referencias/Negocios e marketing.md",
+        "operacao":  "modificar",
+        "motivo":  "registrar repertorio de copy/funil/oferta",
+        "fontes":  [
+                       "SRC-000024; SRC-000025..SRC-000034"
+                   ],
+        "unidades":  [
+                         "UNI-000015; UNI-000016"
+                     ],
+        "hash_anterior":  "a1229c658ca2547225de4523eefaa320813ed8311ee7df85f5a527355c783f4e",
+        "hash_posterior":  "45ba12f1746289a63723743a03d89f8c8783e7c5888a03170c85912809aab0a2",
+        "ciclo":  "CICLO-0004",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000026",
+        "caminho":  "08-Estudos-e-Referencias/Metodo de estudo e producao.md",
+        "operacao":  "modificar",
+        "motivo":  "registrar plano de notas atomicas e agente RAG",
+        "fontes":  [
+                       "SRC-000021"
+                   ],
+        "unidades":  [
+                         "UNI-000014"
+                     ],
+        "hash_anterior":  "61f83051fa44821e20a87d4a2d8268215eb17bad8d0333b7032450c47cf175f2",
+        "hash_posterior":  "482d292553af8b1a6e69fcb7ee4c1e31ae91323847676cd5d8347ef76c1b6ff9",
+        "ciclo":  "CICLO-0004",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000027",
+        "caminho":  "09-Fontes-e-Evidencias/Indice geral de fontes selecionadas.md",
+        "operacao":  "modificar",
+        "motivo":  "incluir fonte agregada no indice",
+        "fontes":  [
+                       "SRC-000021..SRC-000034"
+                   ],
+        "unidades":  [
+                         "UNI-000014; UNI-000015; UNI-000016"
+                     ],
+        "hash_anterior":  "736329ab1d70d661087e12835dff9a5c3e3ff3eb9916d41309d1b856a85ce9cb",
+        "hash_posterior":  "45cbb58565b0c6704858f83c99b7a350558925a878befc85ad8ad41c7e5e8b06",
+        "ciclo":  "CICLO-0004",
+        "validacao":  "auditoria_complementar_ok"
+    }
+]

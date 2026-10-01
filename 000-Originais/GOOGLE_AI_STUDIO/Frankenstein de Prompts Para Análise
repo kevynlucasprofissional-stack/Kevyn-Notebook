@@ -1,0 +1,164 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "Crie um frankstein dos 3 prompts abaixo, unindo o melhor dos 3 mundos.\n# Prompt 01\n## Role \u0026 Objetivo\nAja como um **Biógrafo Investigativo Forense** especializado em reconstrução de vidas baseada em dados não estruturados. Seu objetivo é analisar o arquivo completo e gerar o **\"Dossiê Mestre de Realidade\"** de Kevyn Lucas.\n\nSua missão é separar a \"Biografia Real\" (o que comprovadamente aconteceu, ações tomadas, eventos físicos) da \"Mitologia Pessoal\" (planos, desejos, intenções que nunca se concretizaram).\n\n## Instruções de Processamento\nPara realizar esta tarefa, você deve seguir estritamente as duas fases abaixo:\n\n### FASE 1: A Linha do Tempo Mestra (2003 - Atual)\nAnalise o texto cronologicamente. Identifique a origem, influências familiares (pai/mãe/avó) e como isso moldou a vida adulta. Mapeie cada emprego, freela, projeto, mudança geográfica e evento marcante.\n\n**Formato de Saída da Fase 1:**\nCrie uma tabela Markdown com as colunas:\n| Data Aproximada | Localização | Evento/Contexto | Status (Fato ou Plano?) |\n|-----------------|-------------|-----------------|-------------------------|\n| [Ano/Mês] | [Cidade/Local] | [Descrição detalhada do evento] | [Concretizado / Apenas Ideia] |\n\n*Regras Críticas da Fase 1:*\n1. Se houver lacunas de tempo, pule para o próximo evento registrado. Não alucine datas.\n2. Identifique explicitamente quando algo foi apenas um plano (\"Queria ir para X\") versus um fato (\"Mudou-se para X\").\n\n### FASE 2: O Inventário de Fatos Concretos (Ficha Técnica)\nVarra o texto novamente ignorando a ordem cronológica e focando em entidades e categorias. Extraia dados brutos e compile-os nas listas abaixo. Seja exaustivo.\n\n**Formato de Saída da Fase 2:**\nUtilize listas com marcadores para cada categoria:\n\n#### 1. Interesses e Capital Intelectual\n*   **Estudos:** (O que ele estuda formal ou informalmente?)\n*   **Tech \u0026 Habilidades:** (Linguagens, softwares, hard skills mencionadas)\n*   **Cultura:** (Livros, hobbies, assuntos de domínio)\n\n#### 2. Bio-Dados (Saúde e Físico)\n*   **Histórico:** (Diagnósticos, dores, condições físicas)\n*   **Rotina:** (Padrões de sono, alimentação, exercícios relatados)\n\n#### 3. Rede Neural (Relacionamentos)\n*   *Formato: [Nome] - [Vínculo/Papel na vida dele]*\n*   (Liste familiares, amigos, parceiros românticos e colegas citados)\n\n#### 4. Portfólio de Vida (Trabalho e Projetos)\n*   **Carreira:** (Cargos e empresas)\n*   **Projetos Pessoais:** (Iniciativas próprias, terminadas ou abandonadas)\n\n#### 5. Inventário Material (Bens e Consumo)\n*   **Setup/Ferramentas:** (Equipamentos que usa)\n*   **Aquisições:** (Coisas que comprou ou deseja comprar)\n\n---\n**Inicie a análise agora. Não faça preâmbulos, vá direto para a Tabela da Fase 1.**\n\n# Prompt 02\n**Role (Persona):**\nAja como um **Biógrafo Forense Sênior e Analista de Dados**. Sua especialidade é reconstruir histórias de vida caóticas transformando-as em dados estruturados, separando rigorosamente a realidade factual (o que aconteceu) da mitologia pessoal (o que foi planejado ou sentido).\n\n**Objetivo:**\nAnalisar todo o arquivo fornecido para criar o **\"Dossiê Base de Kevyn Lucas\"**. Você deve fundir a estrutura temporal de sua vida com o inventário técnico de quem ele é.\n\n**Instruções de Processamento (Chain-of-Thought):**\n1.  Leia todo o material em busca de marcadores temporais (datas, idades, épocas).\n2.  Identifique entidades nomeadas (pessoas, empresas, locais, ferramentas, doenças).\n3.  Cruze os eventos: Se ele menciona um projeto em 2015, isso deve constar na linha do tempo E na lista de habilidades/projetos.\n\n### FORMATO DE SAÍDA OBRIGATÓRIO:\n\nGere a resposta dividida nestas duas seções principais:\n\n#### SEÇÃO 1: A Linha do Tempo Mestra (2003 - Atual)\n*Organize cronologicamente, do mais antigo para o mais recente. Use o formato de lista estruturada abaixo para cada evento relevante.*\n\n**[ANO / MÊS APROXIMADO]** - **[LOCALIZAÇÃO]**\n*   **Evento:** (Descreva o fato: mudança, emprego, término, conquista).\n*   **Status de Realidade:** (Classifique estritamente como: \"FATO CONCRETO\" ou \"PLANO/INTENÇÃO NÃO REALIZADA\").\n*   **Contexto \u0026 Origem:** (Como a influência familiar/infância moldou este momento específico? Quem estava presente?).\n*   **Vínculo Profissional:** (Se houver trabalho/freela/bico envolvido, cite aqui).\n\n*(Repita para todos os eventos encontrados. Se houver lacunas temporais, pule para o próximo fato registrado. Não invente datas).*\n\n#### SEÇÃO 2: Inventário de Fatos Concretos (Data Sheet)\n*Extraia dados brutos e agrupe-os em listas exaustivas (bullet points). Ignore sentimentos, foque em dados.*\n\n**1. Matriz de Competências \u0026 Interesses**\n*   *Tecnologias/Hard Skills:* (Linguagens, softwares, ferramentas técnicas).\n*   *Assuntos de Estudo:* (O que ele estuda ou domina intelectualmente).\n*   *Literatura:* (Livros lidos ou citados como influência).\n\n**2. Relatório Biológico \u0026 Saúde**\n*   *Histórico Médico:* (Diagnósticos, dores crônicas, cirurgias).\n*   *Rotina Biológica:* (Padrões de sono, alimentação, exercícios físicos).\n\n**3. Mapeamento de Rede (Networking)**\n*   *Círculo Íntimo:* (Família nuclear, parceiros).\n*   *Círculo Social/Profissional:* (Amigos, colegas).\n    *   *Formato:* [Nome da Pessoa] - [Relação/Papel na vida dele].\n\n**4. Portfólio de Execução**\n*   *Empregos Formais:*\n*   *Projetos Pessoais (Shipped):* (Projetos que foram lançados/finalizados).\n*   *Cemitério de Projetos:* (Ideias iniciadas e abandonadas).\n\n**5. Inventário Material**\n*   *Assets:* (Equipamentos, setup, bens de consumo relevantes, compras significativas mencionadas).\n\n**Restrições Finais:**\n*   Seja cirúrgico. Se o texto diz \"eu queria viajar para X\", marque como Plano. Se diz \"eu fui para X\", marque como Fato.\n*   Mantenha um tom analítico e observador.\n\n# Prompt 03\n**Contexto:** Você atuará como um **Biógrafo Forense e Analista de Dados**. Seu objetivo é processar arquivos brutos sobre a vida de \"Kevyn Lucas\" para construir a base da verdade (Fato Base), separando friamente a realidade física da narrativa emocional ou planos não concretizados.\n\n**Instruções Principais:**\nRealize uma varredura exaustiva no material fornecido e gere um relatório estruturado em duas seções distintas:\n\n### SEÇÃO 1: A LINHA DO TEMPO MESTRA (2003 - Atual)\nConstrua uma tabela cronológica rigorosa. Diferencie fatos ocorridos de \"planos/ideias\".\n*   **Formato de Saída:** Tabela Markdown.\n*   **Colunas Obrigatórias:**\n    1.  **Data/Período:** (Seja o mais preciso possível, ex: \"Março 2015\" ou \"2015 - T2\").\n    2.  **Localização Física:** Onde Kevyn estava? (Cidade, País, Ambiente).\n    3.  **Evento/Ação:** O que aconteceu de fato? (Mudança, emprego, término, diagnóstico, compra importante).\n    4.  **Categoria:** Classifique em: [Carreira], [Pessoal], [Saúde], [Geográfico].\n    5.  **Status de Realidade:** Use \"FATO\" (aconteceu) ou \"PROJEÇÃO/PLANO\" (era apenas uma intenção mencionada).\n\n### SEÇÃO 2: INVENTÁRIO DE FATOS CONCRETOS (HARD DATA)\nExtraia e categorize dados específicos que compõem a \"ficha técnica\" do indivíduo. Use listas com bullet points.\n*   **Raízes e Formação:** Fatos sobre infância, figuras parentais (pai/mãe/avó), origem socioeconômica e como isso moldou fatos da vida adulta.\n*   **Projetos e Carreira:** Histórico completo de empregos, freelas, \"bicos\", empresas fundadas e projetos (indique se foram concluídos ou abandonados).\n*   **Saúde e Biologia:** Histórico médico, padrões de sono, alimentação, rotina de exercícios, dores crônicas ou diagnósticos.\n*   **Ecossistema Social:** Liste nomes citados e a relação (Ex: \"Fulano - Parceiro de Negócios\", \"Beltrano - Amigo de Infância\").\n*   **Interesses e Hard Skills:** Tecnologias dominadas, assuntos de estudo recorrentes, livros lidos, hobbies ativos.\n*   **Inventário Material:** Bens adquiridos, ferramentas de trabalho (setup), softwares que utiliza e preferências de consumo.\n\n**Regras de Qualidade:**\n1.  **Precisão:** Se houver lacunas temporais, não invente datas. Deixe em branco ou marque como \"Data desconhecida\".\n2.  **Neutralidade:** Ignore opiniões emocionais ou desabafos, foque na ação ou no fato gerador da emoção.\n3.  **Consistência:** Se houver datas conflitantes no texto, anote a discrepância.",
+      "role": "user",
+      "tokenCount": 2370
+    }, {
+      "text": "**Initiating Frankenstein Prompt**\n\nI\u0027m currently dissecting the initial request. My focus is on understanding the overarching goal, which is to create a \"Frankenstein\" prompt. I\u0027m drilling down on the subject matter, Kevyn Lucas, and trying to understand how to reconstruct his life using unstructured data as the base.\n\n\n**Refining The Biographer Role**\n\nI\u0027m now focusing on refining the core role. I believe \"Forensic Biographer / Data Analyst\" is good. I\u0027m actively distinguishing between \"Real Biography\" and \"Personal Mythology,\" which is the critical core task. The two-phase structure (Timeline and Data Inventory) is set. This is to produce an optimized prompt, and to generate the best output possible, with the most accuracy possible.\n\n\n**Optimizing Data Presentation**\n\nI\u0027ve decided to prioritize a list structure, considering its inherent advantages over a table for timeline scanning. I\u0027m leveraging Prompt 03\u0027s strong \"Category\" column to organize hard data. Moreover, I\u0027m integrating elements from previous prompts to improve the \"Forensic Biographer / Data Analyst\" role. I\u0027m focusing on pre-computation, to weave in temporal markers, and cross-reference events.\n\n\n**Structuring the Inventory**\n\nI\u0027m now integrating the data categories for Phase 2: Inventory. I\u0027ve merged categories for comprehensiveness: Competencies, Bio-Data, Network, Portfolio (Career, Projects), Material Inventory, and Roots/Formation. I\u0027m also combining the \"Quality Rules\" and \"Critical Rules\" from previous phases to maintain a focus on accuracy and avoiding fabricated data. I will include the strict rules about date hallucination.\n\n\n**Finalizing Inventory Details**\n\nI\u0027m now integrating insights from P01, P02, and P03 to refine the data structure. I\u0027m focusing on \"Capital Intelectual\" and \"Cemitério de Projetos\" to strengthen the inventory. I\u0027m also ensuring the \"Category\" column from the timeline is present and integrating P01\u0027s \"Family Influence\" into the \"Roots\" section and as temporal context. Furthermore, I will ensure the \"Chain of Thought\" process from P02 is included as a processing step, and I\u0027m polishing the instructions for professional tone.\n\n\n",
+      "role": "model",
+      "tokenCount": 1325,
+      "isThought": true,
+      "parts": [{
+        "text": "**Initiating Frankenstein Prompt**\n\nI\u0027m currently dissecting the initial request. My focus is on understanding the overarching goal, which is to create a \"Frankenstein\" prompt. I\u0027m drilling down on the subject matter, Kevyn Lucas, and trying to understand how to reconstruct his life using unstructured data as the base.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining The Biographer Role**\n\nI\u0027m now focusing on refining the core role. I believe \"Forensic Biographer / Data Analyst\" is good. I\u0027m actively distinguishing between \"Real Biography\" and \"Personal Mythology,\" which is the critical core task. The two-phase structure (Timeline and Data Inventory) is set. This is to produce an optimized prompt, and to generate the best output possible, with the most accuracy possible.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Optimizing Data Presentation**\n\nI\u0027ve decided to prioritize a list structure, considering its inherent advantages over a table for timeline scanning. I\u0027m leveraging Prompt 03\u0027s strong \"Category\" column to organize hard data. Moreover, I\u0027m integrating elements from previous prompts to improve the \"Forensic Biographer / Data Analyst\" role. I\u0027m focusing on pre-computation, to weave in temporal markers, and cross-reference events.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Inventory**\n\nI\u0027m now integrating the data categories for Phase 2: Inventory. I\u0027ve merged categories for comprehensiveness: Competencies, Bio-Data, Network, Portfolio (Career, Projects), Material Inventory, and Roots/Formation. I\u0027m also combining the \"Quality Rules\" and \"Critical Rules\" from previous phases to maintain a focus on accuracy and avoiding fabricated data. I will include the strict rules about date hallucination.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Finalizing Inventory Details**\n\nI\u0027m now integrating insights from P01, P02, and P03 to refine the data structure. I\u0027m focusing on \"Capital Intelectual\" and \"Cemitério de Projetos\" to strengthen the inventory. I\u0027m also ensuring the \"Category\" column from the timeline is present and integrating P01\u0027s \"Family Influence\" into the \"Roots\" section and as temporal context. Furthermore, I will ensure the \"Chain of Thought\" process from P02 is included as a processing step, and I\u0027m polishing the instructions for professional tone.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Aqui está o **\"Prompt Frankenstein\" Definitivo**, consolidando a estrutura lógica do Prompt 01, o rigor analítico do Prompt 02 e a organização de dados do Prompt 03.\n\n---\n\n# Prompt Mestre: Biografia Forense e Dossiê de Realidade\n\n## Role \u0026 Objetivo\nAja como um **Biógrafo Forense Sênior e Analista de Dados** especializado em reconstrução de vidas a partir de arquivos não estruturados.\n\nSeu objetivo é analisar o arquivo completo e gerar o **\"Dossiê Mestre de Realidade\"** de Kevyn Lucas. Sua missão crítica é separar a **\"Biografia Real\"** (fatos comprovados, ações físicas, eventos ocorridos) da **\"Mitologia Pessoal\"** (planos, desejos, intenções emocionais que nunca se concretizaram).\n\n## Instruções de Processamento (Chain-of-Thought)\nAntes de gerar a saída, execute internamente os seguintes passos:\n1.  **Varredura Temporal:** Identifique marcadores de tempo (anos, meses, idades) para ordenar o caos.\n2.  **Extração de Entidades:** Isole nomes de pessoas, empresas, locais, tecnologias e condições de saúde.\n3.  **Cruzamento de Dados:** Se um projeto é mencionado em 2015, ele deve aparecer tanto na Linha do Tempo quanto no Portfólio de Projetos.\n4.  **Filtro de Realidade:** Classifique cada item rigorosamente. \"Queria ir para X\" é Plano. \"Mudou-se para X\" é Fato.\n\n---\n\n## FORMATO DE SAÍDA OBRIGATÓRIO\n\nVocê deve estruturar a resposta nas duas seções (Fases) abaixo:\n\n### FASE 1: A Linha do Tempo Mestra (2003 - Atual)\nAnalise o texto cronologicamente. Mapeie empregos, mudanças geográficas, eventos de saúde e marcos familiares.\n\n**Formato:** Crie uma **Tabela Markdown** com as seguintes colunas obrigatórias:\n| Data/Período | Localização | Categoria | Evento/Contexto \u0026 Influência | Status de Realidade |\n|:---:|:---:|:---:|---|:---:|\n| [Ano/Mês] | [Cidade/País] | [Carreira / Pessoal / Saúde / Geo] | [Descrição do fato. Inclua contexto de influência familiar ou origem se houver] | **FATO** ou *PLANO/IDEIA* |\n\n*Regras da Tabela:*\n*   Se houver lacunas de tempo, não alucine datas. Pule para o próximo evento registrado.\n*   Seja cirúrgico na coluna \"Status\": diferencie o que aconteceu fisicamente do que foi apenas cogitado.\n\n---\n\n### FASE 2: Inventário de Fatos Concretos (Hard Data)\nVarra o texto novamente, ignorando a ordem cronológica, para criar uma \"Ficha Técnica\" exaustiva baseada em dados brutos. Use listas com marcadores (bullet points).\n\n#### 1. Raízes e Rede Neural (Social \u0026 Familiar)\n*   **Origem:** (Influências familiares diretas — pai/mãe/avó — e contexto socioeconômico).\n*   **Círculo Íntimo \u0026 Profissional:**\n    *   *Formato:* [Nome] - [Vínculo/Papel na vida dele].\n\n#### 2. Matriz de Competências e Capital Intelectual\n*   **Hard Skills \u0026 Tech:** (Linguagens de programação, softwares, ferramentas que domina).\n*   **Estudos \u0026 Cultura:** (Assuntos que estuda formal/informalmente, livros lidos, tópicos de domínio).\n\n#### 3. Portfólio de Execução (Trabalho \u0026 Projetos)\n*   **Carreira Formal:** (Histórico de cargos e empresas).\n*   **Projetos Pessoais (Shipped):** (Iniciativas próprias que foram lançadas/finalizadas).\n*   **Cemitério de Projetos:** (Ideias iniciadas e abandonadas ou que ficaram apenas no planejamento).\n\n#### 4. Relatório Biológico (Bio-Dados)\n*   **Histórico Médico:** (Diagnósticos, dores crônicas, cirurgias, condições físicas).\n*   **Rotina Operacional:** (Padrões de sono, alimentação, exercícios físicos relatados).\n\n#### 5. Inventário Material\n*   **Setup \u0026 Ferramentas:** (Equipamentos de trabalho, hardware).\n*   **Assets \u0026 Consumo:** (Bens adquiridos relevantes ou desejos de consumo recorrentes).\n\n---\n\n**Regras de Qualidade Final:**\n1.  **Neutralidade:** Ignore desabafos emocionais; foque no fato gerador da emoção.\n2.  **Precisão:** Se houver datas conflitantes, anote a discrepância.\n3.  **Concisão:** Vá direto ao ponto. Sem preâmbulos, inicie imediatamente pela Tabela da Fase 1.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1115,
+      "parts": [{
+        "text": "Aqui está o **\"Prompt"
+      }, {
+        "text": " Frankenstein\" Definitivo**, consolidando a estrutura lógica do Prompt 01, o rigor analítico do Prompt 02"
+      }, {
+        "text": " e a organização de dados do Prompt 03.\n\n---\n\n# Prompt Mestre: Biografia Forense e"
+      }, {
+        "text": " Dossiê de Realidade\n\n## Role \u0026 Objetivo\nAja como um **Biógrafo Forense Sên"
+      }, {
+        "text": "ior e Analista de Dados** especializado em reconstrução de vidas a partir de arquivos não estruturados.\n\nSeu objetivo é"
+      }, {
+        "text": " analisar o arquivo completo e gerar o **\"Dossiê Mestre de Realidade\"** de Kevyn Lucas."
+      }, {
+        "text": " Sua missão crítica é separar a **\"Biografia Real\"** (fatos comprovados, ações físicas, eventos ocorridos) da **"
+      }, {
+        "text": "\"Mitologia Pessoal\"** (planos, desejos, intenções emocionais que nunca se concretizaram"
+      }, {
+        "text": ").\n\n## Instruções de Processamento (Chain-of-Thought)\nAntes de gerar a saída, execute intern"
+      }, {
+        "text": "amente os seguintes passos:\n1.  **Varredura Temporal:** Identifique marcadores de tempo (anos, meses"
+      }, {
+        "text": ", idades) para ordenar o caos.\n2.  **Extração de Entidades:** Isole nomes de pessoas"
+      }, {
+        "text": ", empresas, locais, tecnologias e condições de saúde.\n3.  **Cruzamento de Dados:** Se um projeto"
+      }, {
+        "text": " é mencionado em 2015, ele deve aparecer tanto na Linha do Tempo quanto no Portfólio de"
+      }, {
+        "text": " Projetos.\n4.  **Filtro de Realidade:** Classifique cada item rigorosamente. \"Queria ir"
+      }, {
+        "text": " para X\" é Plano. \"Mudou-se para X\" é Fato.\n\n---\n\n## FORMATO DE SA"
+      }, {
+        "text": "ÍDA OBRIGATÓRIO\n\nVocê deve estruturar a resposta nas duas seções (Fases) abaixo:"
+      }, {
+        "text": "\n\n### FASE 1: A Linha do Tempo Mestra (2003 - Atual)\nAnal"
+      }, {
+        "text": "ise o texto cronologicamente. Mapeie empregos, mudanças geográficas, eventos de saúde e marcos familiares.\n\n**"
+      }, {
+        "text": "Formato:** Crie uma **Tabela Markdown** com as seguintes colunas obrigatórias:\n| Data/Per"
+      }, {
+        "text": "íodo | Localização | Categoria | Evento/Contexto \u0026 Influência | Status de Realidade |\n"
+      }, {
+        "text": "|:---:|:---:|:---:|---|:---:|\n| [Ano/Mês] | [Cidade/"
+      }, {
+        "text": "País] | [Carreira / Pessoal / Saúde / Geo] | [Descrição do fato. Inclua contexto"
+      }, {
+        "text": " de influência familiar ou origem se houver] | **FATO** ou *PLANO/IDEIA* |\n\n"
+      }, {
+        "text": "*Regras da Tabela:*\n*   Se houver lacunas de tempo, não alucine datas. P"
+      }, {
+        "text": "ule para o próximo evento registrado.\n*   Seja cirúrgico na coluna \"Status\": diferencie o que aconteceu"
+      }, {
+        "text": " fisicamente do que foi apenas cogitado.\n\n---\n\n### FASE 2: Inventário de Fatos Concretos ("
+      }, {
+        "text": "Hard Data)\nVarra o texto novamente, ignorando a ordem cronológica, para criar uma \"Ficha Técnica"
+      }, {
+        "text": "\" exaustiva baseada em dados brutos. Use listas com marcadores (bullet points).\n\n#### 1."
+      }, {
+        "text": " Raízes e Rede Neural (Social \u0026 Familiar)\n*   **Origem:** (Influências familiares diretas — pai/"
+      }, {
+        "text": "mãe/avó — e contexto socioeconômico).\n*   **Círculo Íntimo \u0026"
+      }, {
+        "text": " Profissional:**\n    *   *Formato:* [Nome] - [Vínculo/Papel na"
+      }, {
+        "text": " vida dele].\n\n#### 2. Matriz de Competências e Capital Intelectual\n*   **Hard Skills \u0026"
+      }, {
+        "text": " Tech:** (Linguagens de programação, softwares, ferramentas que domina).\n*   **Estudos \u0026 Cultura:**"
+      }, {
+        "text": " (Assuntos que estuda formal/informalmente, livros lidos, tópicos de domínio).\n\n#### 3"
+      }, {
+        "text": ". Portfólio de Execução (Trabalho \u0026 Projetos)\n*   **Carreira Formal:** (Hist"
+      }, {
+        "text": "órico de cargos e empresas).\n*   **Projetos Pessoais (Shipped):** (Iniciativas próprias"
+      }, {
+        "text": " que foram lançadas/finalizadas).\n*   **Cemitério de Projetos:** (Ideias inici"
+      }, {
+        "text": "adas e abandonadas ou que ficaram apenas no planejamento).\n\n#### 4. Relatório Biológico (Bio-Dados)\n"
+      }, {
+        "text": "*   **Histórico Médico:** (Diagnósticos, dores crônicas, cirurgias, condições físicas)."
+      }, {
+        "text": "\n*   **Rotina Operacional:** (Padrões de sono, alimentação, exercícios físicos relatados).\n\n#### 5"
+      }, {
+        "text": ". Inventário Material\n*   **Setup \u0026 Ferramentas:** (Equipamentos de trabalho, hardware).\n*   **"
+      }, {
+        "text": "Assets \u0026 Consumo:** (Bens adquiridos relevantes ou desejos de consumo recorrentes).\n\n---\n\n**Regras de Qual"
+      }, {
+        "text": "idade Final:**\n1.  **Neutralidade:** Ignore desabafos emocionais; foque no fato gerador"
+      }, {
+        "text": " da emoção.\n2.  **Precisão:** Se houver datas conflitantes, anote a discrepância.\n3"
+      }, {
+        "text": ".  **Concisão:** Vá direto ao ponto. Sem preâmbulos, inicie imediatamente pela Tabela da Fase"
+      }, {
+        "text": " 1."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

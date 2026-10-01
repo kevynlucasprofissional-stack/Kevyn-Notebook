@@ -1,0 +1,29 @@
+{
+    "ciclo": "CICLO-0011",
+    "executado_em": "2026-06-18T14:20:00-03:00",
+    "versao": "triagem_ampla",
+    "escopo": "SRC-000079 a SRC-000500",
+    "resultado": "aprovado",
+    "notas_modificadas": 0,
+    "fontes_cobertas": 422,
+    "fontes_analisadas": 16,
+    "fontes_integradas": 10,
+    "fontes_irrelevantes": 5,
+    "fontes_duplicatas": 53,
+    "fontes_nao_avaliadas": 354,
+    "auditar_vault_py": {
+        "disponivel": true,
+        "executado": false,
+        "motivo_bloqueio": "Sem edicao de vault neste ciclo; triagem foi controlada por metadados do manifesto."
+    },
+    "auditoria_complementar": {
+        "manifesto_atualizado": true,
+        "controle_reconciliado": true,
+        "checksums_vault_estaveis": true,
+        "segredos_reproduzidos": 0
+    },
+    "observacoes": [
+        "Este ciclo registra cobertura do bloco inteiro, nao leitura integral de cada fonte.",
+        "A revisao ampla foi de controle e proveniencia; o vault tematico nao recebeu edicoes."
+    ]
+}

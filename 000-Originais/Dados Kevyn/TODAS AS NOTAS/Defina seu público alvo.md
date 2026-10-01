@@ -1,0 +1,1 @@
+Tenha uma conversa com o chatgpt sobre o possível público-alvo do produto que está pretendendo vender. Não vá vender cursos de maquiagem para homens entre 20 a 25 anos.

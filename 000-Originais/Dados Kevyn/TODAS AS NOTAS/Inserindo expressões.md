@@ -1,0 +1,1 @@
+Tem um botão de Play ao lado direito do chicote do menu de expressões, que é como um animate. Nele você encontrará diversas expressões com diferentes mecânicas, propostas e lógica. É um mundo novo que se abre. Assim, você pode inserir facilmente uma expressão sem precisar digitar.

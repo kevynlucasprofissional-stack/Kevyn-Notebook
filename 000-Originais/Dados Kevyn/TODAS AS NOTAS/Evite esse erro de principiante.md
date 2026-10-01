@@ -1,0 +1,1 @@
+Mais de 60% das pessoas clicam para conhecer o perfil da pessoa antes de clicar para comprar a oferta. Se você não preparar o seu perfil se passando por um avatar transformado ou um vendedor profissional, raramente você irá ter resultados vendendo o infoproduto de outra pessoa.

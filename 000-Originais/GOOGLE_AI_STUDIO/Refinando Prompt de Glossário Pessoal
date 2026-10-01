@@ -1,0 +1,209 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1SMBBiKmntdAG-3cPQ6L2ebekgNLbqYMy"
+      },
+      "role": "user",
+      "tokenCount": 157921
+    }, {
+      "text": "Estou criando um resumo definitivo sobre mim, estou na etapa de que preciso revisar os prompts para que ele entregue resultados insanamente ótimos, preciso de ajuda para refinar o prompt do processo de gerar dossiê, o prompt a ser melhorado está em \u003cprompt_melhorar\u003e\u003c\\prompt_melhorar\u003e. Vou anexar alguns livros sobre engenharia de prompt dos quais você irá extrair frameworks para me ajudar no meu objetivo.\n\n\u003cprompt_melhorar\u003e\n\nPASSO 12: O \"Glossário da Psique\" (Vocabulário Pessoal)\n**Objetivo:** Decodificar a linguagem interna única que Kevyn usa para entender a si mesmo.\n\n\u003e **Comando:**  \n\u003e \"Kevyn criou um dialeto próprio. Extraia e defina o **Dicionário de Termos da Psique de Kevyn Lucas**.\n\u003e \n\u003e Para cada termo abaixo (e outros que encontrar), forneça a **Definição Pessoal** (o que significa para ele) e a **Função Psicológica** (para que ele usa esse termo):\n\u003e - \u0027Hoor\u0027\n\u003e - \u0027ELAMOR\u0027\n\u003e - \u0027O Professor Arrogante\u0027\n\u003e - \u0027O Lobo\u0027\n\u003e - \u0027Aistronaut\u0027\n\u003e - \u0027Magus\u0027\n\u003e - \u0027Vida Banal\u0027\n\u003e - \u0027Over-engineering\u0027\n\u003e - \u0027Puer Aeternus\u0027\n\u003e - \u0027Criança Arquiteta\u0027\n\u003e - \u0027Nuit\u0027\n\u003e - \u0027Hadit\u0027\n\u003e - \u0027Senex\u0027\n\u003e - \u0027Fórmula Alquímica\u0027\n\u003e - \u0027Self\u0027\n\u003e - \u0027Curador Ferido\u0027\n\u003e - \u0027Quíron\u0027\n\u003e - \u0027Armadura\u0027\n\u003e - \u0027Fórmula DECORA\u0027\n\u003e - (outros que você encontrar)\n\n\u003c\\prompt_melhorar\u003e",
+      "role": "user",
+      "tokenCount": 419
+    }, {
+      "text": "**Defining the Core Task**\n\nI\u0027m now zeroing in on the fundamental request: to craft the definitive summary of Kevyn\u0027s need for a refined \"Psyche Glossary\" prompt. I\u0027m carefully dissecting the original prompt, aiming to pinpoint its strengths and, more crucially, its weaknesses. My focus is on achieving a more precise and impactful outcome in Step 12 of the larger dossier.\n\n\n**Refining the Input Prompt**\n\nI\u0027m now diving deep into the raw prompt, along with some specific terms. I\u0027m leveraging key concepts from \"Prompt Engineering for LLMs.\" This includes viewing LLMs as completion engines, the \"Little Red Riding Hood\" principle (prompt similarity), incorporating a distinct persona, and prioritizing context management for a more robust prompt. I\u0027m focusing on the integration of these ideas to refine Step 12.\n\n\n**Incorporating Key Prompting Strategies**\n\nI\u0027m now integrating strategies to bolster the \"Psyche Glossary\" prompt. I\u0027m focusing on \"few-shot\" examples to guide output formatting and depth, along with \"chain of thought\" techniques to improve reasoning. I am considering output structure using Markdown, and the \"Sandwich Technique\" for clarity. I will refine the original prompt based on these ideas.\n\n\n**Addressing Prompt Deficiencies**\n\nI\u0027m now zeroing in on the prompt\u0027s weaknesses. It needs deeper definitions, clearer criteria for selecting \"psyche terms,\" and a specified output format. I\u0027m exploring the current text\u0027s absence of examples (Zero-Shot), and the loose instructions, which require refinement for a more focused outcome. I need to be more precise. I\u0027m also planning the application of relevant frameworks from the book.\n\n**Incorporating Context and Persona**\n\nI\u0027m now working to add a context placeholder, assuming the user feeds in relevant text. I\u0027ll define the model as an \"Expert Psychoanalyst and Biographer,\" establishing its role. I am using the \"Anatomy of the Ideal Prompt\" framework from the book. This involves refining the \"Instructions/Constraints\" aspect.\n\n\n**Implementing Prompt Structures**\n\nI\u0027m now incorporating specific frameworks to enhance the prompt\u0027s reliability and output. I\u0027m focusing on \"few-shot\" examples to establish quality, Markdown for output format, and \"chain of thought\" to guide analysis and contextual understanding. I\u0027m explicitly addressing the risk of LLM hallucinations. I\u0027ll instruct the model to base definitions solely on provided context.\n\n\n**Structuring the Prompt\u0027s Core**\n\nI\u0027m structuring the prompt. I\u0027m leveraging the Sandwich Technique, starting with an introduction to \"decodify internal language.\" I\u0027ve created a persona as a Jungian Analyst/Linguistic Anthropologist. I\u0027m applying the \"Little Red Riding Hood Principle\" to emulate professional psychological profiles. I\u0027m drafting a high-quality \"few-shot\" example definition. The context constraints are critical: focus on Kevyn\u0027s specific term usage, not general definitions.\n\n\n",
+      "role": "model",
+      "tokenCount": 1701,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Core Task**\n\nI\u0027m now zeroing in on the fundamental request: to craft the definitive summary of Kevyn\u0027s need for a refined \"Psyche Glossary\" prompt. I\u0027m carefully dissecting the original prompt, aiming to pinpoint its strengths and, more crucially, its weaknesses. My focus is on achieving a more precise and impactful outcome in Step 12 of the larger dossier.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Input Prompt**\n\nI\u0027m now diving deep into the raw prompt, along with some specific terms. I\u0027m leveraging key concepts from \"Prompt Engineering for LLMs.\" This includes viewing LLMs as completion engines, the \"Little Red Riding Hood\" principle (prompt similarity), incorporating a distinct persona, and prioritizing context management for a more robust prompt. I\u0027m focusing on the integration of these ideas to refine Step 12.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Incorporating Key Prompting Strategies**\n\nI\u0027m now integrating strategies to bolster the \"Psyche Glossary\" prompt. I\u0027m focusing on \"few-shot\" examples to guide output formatting and depth, along with \"chain of thought\" techniques to improve reasoning. I am considering output structure using Markdown, and the \"Sandwich Technique\" for clarity. I will refine the original prompt based on these ideas.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Addressing Prompt Deficiencies**\n\nI\u0027m now zeroing in on the prompt\u0027s weaknesses. It needs deeper definitions, clearer criteria for selecting \"psyche terms,\" and a specified output format. I\u0027m exploring the current text\u0027s absence of examples (Zero-Shot), and the loose instructions, which require refinement for a more focused outcome. I need to be more precise. I\u0027m also planning the application of relevant frameworks from the book.\n\n**Incorporating Context and Persona**\n\nI\u0027m now working to add a context placeholder, assuming the user feeds in relevant text. I\u0027ll define the model as an \"Expert Psychoanalyst and Biographer,\" establishing its role. I am using the \"Anatomy of the Ideal Prompt\" framework from the book. This involves refining the \"Instructions/Constraints\" aspect.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Implementing Prompt Structures**\n\nI\u0027m now incorporating specific frameworks to enhance the prompt\u0027s reliability and output. I\u0027m focusing on \"few-shot\" examples to establish quality, Markdown for output format, and \"chain of thought\" to guide analysis and contextual understanding. I\u0027m explicitly addressing the risk of LLM hallucinations. I\u0027ll instruct the model to base definitions solely on provided context.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Prompt\u0027s Core**\n\nI\u0027m structuring the prompt. I\u0027m leveraging the Sandwich Technique, starting with an introduction to \"decodify internal language.\" I\u0027ve created a persona as a Jungian Analyst/Linguistic Anthropologist. I\u0027m applying the \"Little Red Riding Hood Principle\" to emulate professional psychological profiles. I\u0027m drafting a high-quality \"few-shot\" example definition. The context constraints are critical: focus on Kevyn\u0027s specific term usage, not general definitions.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Com base no livro *Prompt Engineering for LLMs* (Berryman \u0026 Ziegler) que você compartilhou, analisei seu prompt original e identifiquei oportunidades críticas de melhoria.\n\nO original sofre de falta de **contexto explícito** (o modelo não sabe *onde* procurar os significados se você não fornecer os textos anteriores), falta de **Few-Shot Prompting** (exemplos de qualidade) e precisa de uma estrutura mais robusta para evitar alucinações genéricas (o viés de conhecimento geral do modelo, discutido no Capítulo 2).\n\nAqui está a proposta de refinamento utilizando a estrutura de **\"The Anatomy of the Ideal Prompt\" (Capítulo 6)** e técnicas de **Reasoning/Chain of Thought (Capítulo 8)**.\n\n---\n\n### O Prompt Refinado (Copie e Cole)\n\n```markdown\n# CONTEXTO E PERSONA\nVocê é um **Psicanalista Junguiano Sênior e Antropólogo Linguístico** especializado em decodificar idioletos (linguagens pessoais). Você está analisando o sujeito \"Kevyn Lucas\". Sua tarefa é compilar o \"Glossário da Psique\", traduzindo o vocabulário simbólico único dele para uma linguagem psicológica estruturada.\n\n# INSTRUÇÕES DA TAREFA\nKevyn utiliza termos específicos para navegar em sua própria consciência. Não defina estes termos com base no dicionário comum ou conhecimento geral da internet. **Defina-os EXCLUSIVAMENTE com base nas inferências feitas a partir dos textos, diários e conversas fornecidos no contexto da conversa até agora.**\n\nPara cada termo, você deve executar uma análise profunda seguindo estes passos mentais (Chain of Thought):\n1.  **Localização:** Onde e como o termo aparece? (Contexto emocional).\n2.  **Semântica Pessoal:** O que Kevyn *sente* quando diz isso?\n3.  **Mecanismo:** Qual necessidade psicológica esse termo atende? (Defesa, aspiração, organização, catarse?).\n\n# FORMATO DE SAÍDA (Output)\nApresente o resultado em formato de tabela Markdown com as colunas:\n1.  **Termo**: A palavra ou frase.\n2.  **Definição Fenomenológica**: O significado prático e subjetivo para o Kevyn.\n3.  **Função Psíquica/Arquétipo**: O papel que esse conceito desempenha na economia psíquica dele (ex: mecanismo de defesa, âncora moral, ideal de ego).\n4.  **Citação de Referência**: Um trecho curto (se houver no histórico) que exemplifica o uso.\n\n# EXEMPLO DE ALTA QUALIDADE (Few-Shot Learning)\n*(Use este nível de profundidade como referência)*\n\n| Termo | Definição Fenomenológica | Função Psíquica/Arquétipo |\n| :--- | :--- | :--- |\n| **\"O Labirinto\"** *(Exemplo Hipotético)* | Não é um lugar físico, mas o estado mental de paralisia por análise excessiva onde Kevyn sente que todas as opções levam ao erro. | **Símbolo de Estagnação / Sombra Intelectual.** Serve para nomear a ansiedade de performance e permitir que ele identifique quando precisa parar de pensar e começar a agir. |\n\n# LISTA DE TERMOS ALVO\nAnalise obrigatoriamente os seguintes termos, além de quaisquer outros neologismos ou metáforas recorrentes que você identificar nos dados:\n\n1. \u0027Hoor\u0027\n2. \u0027ELAMOR\u0027\n3. \u0027O Professor Arrogante\u0027\n4. \u0027O Lobo\u0027\n5. \u0027Aistronaut\u0027\n6. \u0027Magus\u0027\n7. \u0027Vida Banal\u0027\n8. \u0027Over-engineering\u0027\n9. \u0027Puer Aeternus\u0027\n10. \u0027Criança Arquiteta\u0027\n11. \u0027Nuit\u0027\n12. \u0027Hadit\u0027\n13. \u0027Senex\u0027\n14. \u0027Fórmula Alquímica\u0027\n15. \u0027Self\u0027\n16. \u0027Curador Ferido\u0027\n17. \u0027Quíron\u0027\n18. \u0027Armadura\u0027\n19. \u0027Fórmula DECORA\u0027\n\n# INÍCIO DA ANÁLISE\nCom base em todo o histórico de texto fornecido anteriormente sobre Kevyn, gere o \"Glossário da Psique\" agora.\n```\n\n---\n\n### Explicação dos Frameworks Utilizados (Baseado no Livro)\n\nUtilizei quatro conceitos chave do livro para transformar seu prompt:\n\n#### 1. O Princípio da \"Chapeuzinho Vermelho\" (Capítulos 4 e 6)\nO livro enfatiza que o prompt deve *se parecer* com documentos que o modelo viu no treinamento.\n*   **O que mudou:** Em vez de apenas pedir definições, estruturei o prompt como uma **tarefa de análise técnica psicológica**. Isso condiciona o modelo a usar um vocabulário mais rico e profundo (psicanalítico) em vez de explicações rasas.\n\n#### 2. Few-Shot Prompting (Capítulo 5)\nO livro explica que dar exemplos é a melhor forma de calibrar a expectativa (\"Drawback 2: Few-shotting biases the model... but creates consistency\").\n*   **O que mudou:** Adicionei a seção **# EXEMPLO DE ALTA QUALIDADE**. Eu criei um termo hipotético (\"O Labirinto\") para mostrar ao modelo que não queremos uma definição de dicionário (\"Labirinto é um lugar com caminhos...\"), mas sim uma definição psicológica (\"Estado mental de paralisia...\"). Isso força o modelo a seguir esse padrão de profundidade para os seus termos reais (Hoor, ELAMOR, etc.).\n\n#### 3. Combate à Alucinação e Contexto Dinâmico (Capítulo 5)\nLLMs tendem a usar conhecimento geral (treinamento prévio) quando não têm dados específicos. Termos como \"Magus\" ou \"Quíron\" têm significados mitológicos universais.\n*   **O que mudou:** Adicionei a restrição explícita: *\"Não defina com base no dicionário comum... Defina-os EXCLUSIVAMENTE com base nas inferências feitas a partir dos textos\"*. Isso força o modelo a ignorar o significado da Wikipédia e focar no significado *para você*, prevenindo o que o livro chama de \"conhecimento estático\" interferindo no \"contexto dinâmico\".\n\n#### 4. Estrutura e \"Anatomy of the Ideal Prompt\" (Capítulo 6)\nO livro sugere uma estrutura clara: Introdução -\u003e Instruções -\u003e Exemplos -\u003e Dados -\u003e Comando Final.\n*   **O que mudou:** Organize o prompt com cabeçalhos Markdown (`# ROLE`, `# TASK`, `# OUTPUT`). Isso ajuda o modelo a segmentar a \"atenção\" (mecanismo de *Attention* do Transformer, explicado no Capítulo 2) para cada parte da instrução, garantindo que ele não esqueça de analisar nenhum dos termos da lista.\n\n### Dica Importante:\nPara que esse prompt funcione \"insanamente bem\", **você precisa garantir que o histórico da conversa (Context Window) contenha os textos onde você usou essas palavras.** Se você estiver iniciando um chat novo, você deve colar os textos/diários antes de enviar esse comando, ou o modelo irá inventar significados.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1613,
+      "parts": [{
+        "text": "Com base no livro *Prompt Engineering for LLMs* (Berryman \u0026 Ziegler)"
+      }, {
+        "text": " que você compartilhou, analisei seu prompt original e identifiquei oportunidades críticas de melhoria.\n\nO original sofre"
+      }, {
+        "text": " de falta de **contexto explícito** (o modelo não sabe *onde* procurar os significados se você não fornecer"
+      }, {
+        "text": " os textos anteriores), falta de **Few-Shot Prompting** (exemplos de qualidade) e precisa de uma estrutura"
+      }, {
+        "text": " mais robusta para evitar alucinações genéricas (o viés de conhecimento geral do modelo, discutido no Capítulo 2).\n\nAqui"
+      }, {
+        "text": " está a proposta de refinamento utilizando a estrutura de **\"The Anatomy of the Ideal Prompt\" (Capítulo 6)** e técnicas"
+      }, {
+        "text": " de **Reasoning/Chain of Thought (Capítulo 8)**.\n\n---\n\n### O Prompt Refinado (Cop"
+      }, {
+        "text": "ie e Cole)\n\n```markdown\n# CONTEXTO E PERSONA\nVocê é um **Psicanalista Jung"
+      }, {
+        "text": "uiano Sênior e Antropólogo Linguístico** especializado em decodificar idioletos (linguagens pessoais)."
+      }, {
+        "text": " Você está analisando o sujeito \"Kevyn Lucas\". Sua tarefa é compilar o \"Glossário da Psique\", trad"
+      }, {
+        "text": "uzindo o vocabulário simbólico único dele para uma linguagem psicológica estruturada.\n\n# INSTRUÇÕES DA TAREFA\nK"
+      }, {
+        "text": "evyn utiliza termos específicos para navegar em sua própria consciência. Não defina estes termos com base no dicionário comum ou conhecimento"
+      }, {
+        "text": " geral da internet. **Defina-os EXCLUSIVAMENTE com base nas inferências feitas a partir dos textos, di"
+      }, {
+        "text": "ários e conversas fornecidos no contexto da conversa até agora.**\n\nPara cada termo, você deve executar uma análise profunda"
+      }, {
+        "text": " seguindo estes passos mentais (Chain of Thought):\n1.  **Localização:** Onde e como o"
+      }, {
+        "text": " termo aparece? (Contexto emocional).\n2.  **Semântica Pessoal:** O que Kevyn *"
+      }, {
+        "text": "sente* quando diz isso?\n3.  **Mecanismo:** Qual necessidade psicológica esse termo atende? ("
+      }, {
+        "text": "Defesa, aspiração, organização, catarse?).\n\n# FORMATO DE SAÍDA (Output)\nA"
+      }, {
+        "text": "presente o resultado em formato de tabela Markdown com as colunas:\n1.  **Termo**: A palavra ou"
+      }, {
+        "text": " frase.\n2.  **Definição Fenomenológica**: O significado prático e subjetivo para o Kevyn.\n"
+      }, {
+        "text": "3.  **Função Psíquica/Arquétipo**: O papel que esse conceito desempenha na economia ps"
+      }, {
+        "text": "íquica dele (ex: mecanismo de defesa, âncora moral, ideal de ego).\n4.  **Citação de Refer"
+      }, {
+        "text": "ência**: Um trecho curto (se houver no histórico) que exemplifica o uso.\n\n# EXEMPLO DE"
+      }, {
+        "text": " ALTA QUALIDADE (Few-Shot Learning)\n*(Use este nível de profundidade como referência)*\n\n| Termo | Definição Fenomen"
+      }, {
+        "text": "ológica | Função Psíquica/Arquétipo |\n| :--- | :--- | :--- |\n|"
+      }, {
+        "text": " **\"O Labirinto\"** *(Exemplo Hipotético)* | Não é um lugar físico, mas o estado mental"
+      }, {
+        "text": " de paralisia por análise excessiva onde Kevyn sente que todas as opções levam ao erro. | **Símbolo de"
+      }, {
+        "text": " Estagnação / Sombra Intelectual.** Serve para nomear a ansiedade de performance e permitir que ele identifique quando precisa"
+      }, {
+        "text": " parar de pensar e começar a agir. |\n\n# LISTA DE TERMOS ALVO\nAnalise obrigatoriamente os seguintes termos, além"
+      }, {
+        "text": " de quaisquer outros neologismos ou metáforas recorrentes que você identificar nos dados:\n\n1. \u0027Hoor\u0027\n2"
+      }, {
+        "text": ". \u0027ELAMOR\u0027\n3. \u0027O Professor Arrogante\u0027\n4. \u0027O Lobo\u0027\n"
+      }, {
+        "text": "5. \u0027Aistronaut\u0027\n6. \u0027Magus\u0027\n7. \u0027Vida Banal\u0027\n8"
+      }, {
+        "text": ". \u0027Over-engineering\u0027\n9. \u0027Puer Aeternus\u0027\n10. \u0027Criança"
+      }, {
+        "text": " Arquiteta\u0027\n11. \u0027Nuit\u0027\n12. \u0027Hadit\u0027\n13."
+      }, {
+        "text": " \u0027Senex\u0027\n14. \u0027Fórmula Alquímica\u0027\n15. \u0027Self\u0027\n1"
+      }, {
+        "text": "6. \u0027Curador Ferido\u0027\n17. \u0027Quíron\u0027\n18. \u0027Armadura"
+      }, {
+        "text": "\u0027\n19. \u0027Fórmula DECORA\u0027\n\n# INÍCIO DA ANÁLISE\nCom base em todo o histórico"
+      }, {
+        "text": " de texto fornecido anteriormente sobre Kevyn, gere o \"Glossário da Psique\" agora.\n```\n\n---\n\n###"
+      }, {
+        "text": " Explicação dos Frameworks Utilizados (Baseado no Livro)\n\nUtilizei quatro conceitos chave do livro para transformar"
+      }, {
+        "text": " seu prompt:\n\n#### 1. O Princípio da \"Chapeuzinho Vermelho\" (Capítulos 4 e 6)\nO"
+      }, {
+        "text": " livro enfatiza que o prompt deve *se parecer* com documentos que o modelo viu no treinamento.\n*   **O que"
+      }, {
+        "text": " mudou:** Em vez de apenas pedir definições, estruturei o prompt como uma **tarefa de análise técnica"
+      }, {
+        "text": " psicológica**. Isso condiciona o modelo a usar um vocabulário mais rico e profundo (psicanalítico) em"
+      }, {
+        "text": " vez de explicações rasas.\n\n#### 2. Few-Shot Prompting (Capítulo 5)\nO livro"
+      }, {
+        "text": " explica que dar exemplos é a melhor forma de calibrar a expectativa (\"Drawback 2: Few-shotting biases the model..."
+      }, {
+        "text": " but creates consistency\").\n*   **O que mudou:** Adicionei a seção **# EXEMPLO DE ALTA QUALIDADE**."
+      }, {
+        "text": " Eu criei um termo hipotético (\"O Labirinto\") para mostrar ao modelo que não queremos uma definição de dicionário (\""
+      }, {
+        "text": "Labirinto é um lugar com caminhos...\"), mas sim uma definição psicológica (\"Estado mental de paralisia...\"). Isso força o"
+      }, {
+        "text": " modelo a seguir esse padrão de profundidade para os seus termos reais (Hoor, ELAMOR, etc.).\n\n#### 3. Comb"
+      }, {
+        "text": "ate à Alucinação e Contexto Dinâmico (Capítulo 5)\nLLMs tendem a usar"
+      }, {
+        "text": " conhecimento geral (treinamento prévio) quando não têm dados específicos. Termos como \"Magus\" ou \"Qu"
+      }, {
+        "text": "íron\" têm significados mitológicos universais.\n*   **O que mudou:** Adicionei a rest"
+      }, {
+        "text": "rição explícita: *\"Não defina com base no dicionário comum... Defina-os EXCLUSIVAMENTE com"
+      }, {
+        "text": " base nas inferências feitas a partir dos textos\"*. Isso força o modelo a ignorar o significado da Wikipédia e focar no significado"
+      }, {
+        "text": " *para você*, prevenindo o que o livro chama de \"conhecimento estático\" interferindo no \"contexto dinâmico\"."
+      }, {
+        "text": "\n\n#### 4. Estrutura e \"Anatomy of the Ideal Prompt\" (Capítulo 6)\nO livro"
+      }, {
+        "text": " sugere uma estrutura clara: Introdução -\u003e Instruções -\u003e Exemplos -\u003e Dados -\u003e Comando Final.\n*   **O que mud"
+      }, {
+        "text": "ou:** Organize o prompt com cabeçalhos Markdown (`# ROLE`, `# TASK`, `# OUTPUT`). Isso ajuda o modelo a segment"
+      }, {
+        "text": "ar a \"atenção\" (mecanismo de *Attention* do Transformer, explicado no Capítulo 2) para cada"
+      }, {
+        "text": " parte da instrução, garantindo que ele não esqueça de analisar nenhum dos termos da lista.\n\n### Dica Importante:\nPara que"
+      }, {
+        "text": " esse prompt funcione \"insanamente bem\", **você precisa garantir que o histórico da conversa (Context Window) contenha os"
+      }, {
+        "text": " textos onde você usou essas palavras.** Se você estiver iniciando um chat novo, você deve colar os textos/diários antes"
+      }, {
+        "text": " de enviar esse comando, ou o modelo irá inventar significados."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

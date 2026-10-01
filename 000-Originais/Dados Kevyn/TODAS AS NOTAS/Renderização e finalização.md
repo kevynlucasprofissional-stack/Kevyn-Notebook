@@ -1,0 +1,5 @@
+## [[Configurações e Boas Práticas de Render]]
+## [[Em caso de Câmera Tracking]]
+## [[Hora de Exportar]]
+## [[Exportação em EXR]]
+## [[Collect Save]]

@@ -1,0 +1,5 @@
+- [ ] FL Studio
+- [ ] Inkscape
+- [ ] Gimp
+- [ ] Z-Lib
+- [ ] TOR

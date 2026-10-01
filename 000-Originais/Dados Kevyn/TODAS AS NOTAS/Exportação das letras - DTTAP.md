@@ -1,0 +1,1 @@
+O refinamento final antes de exportar consiste em tornar os tipos em caminhos lineares e coerentes. Para isso use o pathfinder e outras técnicas. O importante é que o tipo esteja refinado e em curvas. Exporte em SVG ou copie o modelo de tipo e cole em uma nova camada de sólido no AE.

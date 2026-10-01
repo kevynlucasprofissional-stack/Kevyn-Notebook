@@ -1,0 +1,185 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1L2BGANCGxhVZONGAMmXpjBuvN7VJBbTJ"
+      },
+      "role": "user",
+      "tokenCount": 38081
+    }, {
+      "text": "Estou criando um resumo definitivo sobre mim, estou na etapa de que preciso revisar os prompts para que ele entregue resultados insanamente ótimos, preciso de ajuda para refinar o prompt do processo de gerar dossiê, o prompt a ser melhorado está em \u003cprompt_melhorar\u003e\u003c\\prompt_melhorar\u003e. Vou anexar alguns livros sobre engenharia de prompt dos quais você irá extrair frameworks para me ajudar no meu objetivo.\n\n\u003cprompt_melhorar\u003e\nVou colar aqui o passo 1 e 6. Quero que esses 2 passos agora sejam um só.\n\nPASSO 1: Cronologia e Fatos\n\n```\nPASSO 1: Cronologia e Fatos\nObjetivo: Estabelecer a realidade física e temporal, além de organizar a bagunça temporal dos fatos para dar sentido à história, separando a biografia real (Fato base) da mitologia pessoal (Narrativa do ego). \n\nPrompt:\n\"Aja como um Biógrafo Investigativo. Vamos começar criando a estrutura temporal. Analise todo o arquivo e extraia meticulosamente: o fatos sobre infância, parentes (pai/mãe/avó), origem, crescimento; o modo em que a infância e a origem do Kevyn moldou sua vida adulta; todos os empregos, freelas, bicos e projetos, todos os detalhes que encontrar sobre a trajetória profissional.\n\nCom os dados extraídos, construa a Linha do Tempo Mestra (2003 - Atual) da vida de Kevyn Lucas. Liste os eventos em ordem cronológica (do mais antigo para o mais recente). Para cada entrada, inclua:\n1. Data Aproximada: (Use datas dos arquivos ou pistas no texto).\n2. Evento/Contexto: O que estava acontecendo? (Mudança de emprego, término, viagem, crise, conquista).\n3. Localização: Onde Kevyn estava fisicamente?\n\nRegra: Diferencie o que aconteceu de fato do que eram apenas planos que nunca aconteceram. Se houver lacunas de tempo, apenas pule para o próximo evento registrado. Não invente datas.\"\n```\n\nPASSO 6: FATOS CONCRETOS\n*Objetivo: Extrair informações concretas para a ficha técnica, ignorando sentimentos por enquanto.*\n\n**Prompt:**\n\u003e \"Com base no texto completo, extraia os **Fatos Concretos** e organize-os nas seguintes categorias. Seja exaustivo, liste tudo o que encontrar:\n\u003e\n\u003e 1.  **Interesses e Habilidades:** O que Kevyn estuda? Quais tecnologias, hobbies, livros ou assuntos ele menciona dominar ou ter interesse?\n\u003e 2.  **Saúde e Biologia:** Histórico médico, sono, alimentação, exercícios, dores físicas ou diagnósticos mencionados.\n\u003e 3.  **Rede de Relacionamentos:** Liste nomes de pessoas citadas (amigos, parceiros, família) e defina brevemente a relação de Kevyn com elas.\n\u003e 4.  **Projetos e Trabalho:** Em que ele trabalhou? Quais projetos pessoais ele iniciou (terminados ou não)?\n\u003e 5.  **Bens e Consumo:** Coisas que ele comprou, setup que usa, ferramentas que gosta.\"\n\n\u003c\\prompt_melhorar\u003e",
+      "role": "user",
+      "tokenCount": 711
+    }, {
+      "text": "**Defining the Core Task**\n\nI\u0027m focused on the core request: crafting a \"definitive summary\" for Kevyn Lucas. The immediate task involves refining a prompt element within a larger dossier. The objective is clarity and achieving a clear and concise summary for the dossier. I\u0027m prioritizing accuracy and relevance.\n\n\n**Refining the Input Prompts**\n\nI\u0027m now focusing on merging \"Chronology \u0026 Facts\" (Step 1) with \"Concrete Facts\" (Step 6) into a powerful, unified prompt. The Google Cloud \"Prompt Engineering\" PDF is my guide. I\u0027m leveraging techniques like persona/role prompting and contextual prompting. Considering a chain-of-thought approach and aiming for structured output formats (JSON, tables) to reduce errors and boost usability.\n\n\n**Optimizing Prompt Strategies**\n\nI\u0027m now implementing positive instructions within the prompt; negative constraints are still useful for safety. I\u0027m exploring few-shot prompt structures by simulating examples, and considering step-back prompting for the analysis phase. I\u0027m prioritizing clarity, employing strong verbs like \"Extract\" and \"Categorize\" within the framework. I\u0027ve begun to analyze the combined input of steps 1 and 6, aiming to establish time and substance together in the new prompt.\n\n\n**Structuring the Biographer Prompt**\n\nI\u0027m now integrating the biographic role with a structured framework for the prompt. I\u0027ve defined the roles, context (dossier creation), and action (merging timeline and extraction). I\u0027m structuring it into parts: a master timeline and entity extraction. I\u0027m exploring variable placeholders and precise instructions, drawing from best practices. I\u0027m also critiquing my first mental draft, aiming for a more \"engineered\" approach with chain-of-thought and improved formatting.\n\n\n**Refining the Output Format**\n\nI\u0027m now honing the output formatting and instructions. My latest approach, I\u0027m integrating step-by-step instructions with chain-of-thought to guide the processing. The prompt now includes a clear role of a Forensic Biographer. I\u0027m focusing on Markdown tables for timeline clarity and bullet-point lists for categorized facts. I\u0027m ensuring detailed handling of \"Childhood\" and \"Health/Assets\" within the output. The aim is accuracy and a structured, usable format.\n\n\n**Finalizing the Prompt Structure**\n\nI\u0027m now zeroing in on prompt elements: a Markdown table for timeline clarity and a structured list for categorized entities are the output targets. I\u0027m focusing on the constraints, eliminating hallucinations, and differentiating plans from reality. I\u0027ve incorporated insights from the PDF on prompt engineering, using strong verbs (like \"Rastreie\" and \"Categorize\") and specific column definitions for the table. I\u0027m also implementing the system prompting rules to differentiate facts from narratives. I will explain the reasoning for all these choices. Finally, I will ensure this revised prompt perfectly merges the steps and aligns with the user\u0027s needs.\n\n\n",
+      "role": "model",
+      "tokenCount": 1560,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Core Task**\n\nI\u0027m focused on the core request: crafting a \"definitive summary\" for Kevyn Lucas. The immediate task involves refining a prompt element within a larger dossier. The objective is clarity and achieving a clear and concise summary for the dossier. I\u0027m prioritizing accuracy and relevance.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Input Prompts**\n\nI\u0027m now focusing on merging \"Chronology \u0026 Facts\" (Step 1) with \"Concrete Facts\" (Step 6) into a powerful, unified prompt. The Google Cloud \"Prompt Engineering\" PDF is my guide. I\u0027m leveraging techniques like persona/role prompting and contextual prompting. Considering a chain-of-thought approach and aiming for structured output formats (JSON, tables) to reduce errors and boost usability.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Optimizing Prompt Strategies**\n\nI\u0027m now implementing positive instructions within the prompt; negative constraints are still useful for safety. I\u0027m exploring few-shot prompt structures by simulating examples, and considering step-back prompting for the analysis phase. I\u0027m prioritizing clarity, employing strong verbs like \"Extract\" and \"Categorize\" within the framework. I\u0027ve begun to analyze the combined input of steps 1 and 6, aiming to establish time and substance together in the new prompt.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Biographer Prompt**\n\nI\u0027m now integrating the biographic role with a structured framework for the prompt. I\u0027ve defined the roles, context (dossier creation), and action (merging timeline and extraction). I\u0027m structuring it into parts: a master timeline and entity extraction. I\u0027m exploring variable placeholders and precise instructions, drawing from best practices. I\u0027m also critiquing my first mental draft, aiming for a more \"engineered\" approach with chain-of-thought and improved formatting.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Output Format**\n\nI\u0027m now honing the output formatting and instructions. My latest approach, I\u0027m integrating step-by-step instructions with chain-of-thought to guide the processing. The prompt now includes a clear role of a Forensic Biographer. I\u0027m focusing on Markdown tables for timeline clarity and bullet-point lists for categorized facts. I\u0027m ensuring detailed handling of \"Childhood\" and \"Health/Assets\" within the output. The aim is accuracy and a structured, usable format.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Finalizing the Prompt Structure**\n\nI\u0027m now zeroing in on prompt elements: a Markdown table for timeline clarity and a structured list for categorized entities are the output targets. I\u0027m focusing on the constraints, eliminating hallucinations, and differentiating plans from reality. I\u0027ve incorporated insights from the PDF on prompt engineering, using strong verbs (like \"Rastreie\" and \"Categorize\") and specific column definitions for the table. I\u0027m also implementing the system prompting rules to differentiate facts from narratives. I will explain the reasoning for all these choices. Finally, I will ensure this revised prompt perfectly merges the steps and aligns with the user\u0027s needs.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Com base no material \"Prompt Engineering\" do Google que você forneceu, utilizei os seguintes *frameworks* e técnicas para refinar e fundir seus passos:\n\n1.  **Role Prompting (Pág. 18, 21):** Definir uma \"persona\" clara (Biógrafo Forense) para garantir um tom analítico e preciso.\n2.  **Instruction over Constraints (Pág. 56-57):** Focar no que o modelo *deve* fazer (instruções positivas) em vez de apenas no que não fazer, estruturando a tarefa em etapas lógicas.\n3.  **Structured Output (Pág. 19, 60):** Solicitar formatos específicos (tabelas e listas categorizadas) para evitar alucinações e facilitar a leitura.\n4.  **Chain of Thought (CoT) implícito (Pág. 29):** Quebrei o pedido em uma sequência lógica de raciocínio (Análise -\u003e Distinção -\u003e Extração -\u003e Organização).\n\nAqui está a versão otimizada e unificada do seu prompt para obter resultados \"insanamente ótimos\":\n\n***\n\n### Prompt Unificado: O Dossiê Cronológico e Factual\n\n```markdown\n**Contexto:** Você atuará como um **Biógrafo Forense e Analista de Dados**. Seu objetivo é processar arquivos brutos sobre a vida de \"Kevyn Lucas\" para construir a base da verdade (Fato Base), separando friamente a realidade física da narrativa emocional ou planos não concretizados.\n\n**Instruções Principais:**\nRealize uma varredura exaustiva no material fornecido e gere um relatório estruturado em duas seções distintas:\n\n### SEÇÃO 1: A LINHA DO TEMPO MESTRA (2003 - Atual)\nConstrua uma tabela cronológica rigorosa. Diferencie fatos ocorridos de \"planos/ideias\".\n*   **Formato de Saída:** Tabela Markdown.\n*   **Colunas Obrigatórias:**\n    1.  **Data/Período:** (Seja o mais preciso possível, ex: \"Março 2015\" ou \"2015 - T2\").\n    2.  **Localização Física:** Onde Kevyn estava? (Cidade, País, Ambiente).\n    3.  **Evento/Ação:** O que aconteceu de fato? (Mudança, emprego, término, diagnóstico, compra importante).\n    4.  **Categoria:** Classifique em: [Carreira], [Pessoal], [Saúde], [Geográfico].\n    5.  **Status de Realidade:** Use \"FATO\" (aconteceu) ou \"PROJEÇÃO/PLANO\" (era apenas uma intenção mencionada).\n\n### SEÇÃO 2: INVENTÁRIO DE FATOS CONCRETOS (HARD DATA)\nExtraia e categorize dados específicos que compõem a \"ficha técnica\" do indivíduo. Use listas com bullet points.\n*   **Raízes e Formação:** Fatos sobre infância, figuras parentais (pai/mãe/avó), origem socioeconômica e como isso moldou fatos da vida adulta.\n*   **Projetos e Carreira:** Histórico completo de empregos, freelas, \"bicos\", empresas fundadas e projetos (indique se foram concluídos ou abandonados).\n*   **Saúde e Biologia:** Histórico médico, padrões de sono, alimentação, rotina de exercícios, dores crônicas ou diagnósticos.\n*   **Ecossistema Social:** Liste nomes citados e a relação (Ex: \"Fulano - Parceiro de Negócios\", \"Beltrano - Amigo de Infância\").\n*   **Interesses e Hard Skills:** Tecnologias dominadas, assuntos de estudo recorrentes, livros lidos, hobbies ativos.\n*   **Inventário Material:** Bens adquiridos, ferramentas de trabalho (setup), softwares que utiliza e preferências de consumo.\n\n**Regras de Qualidade:**\n1.  **Precisão:** Se houver lacunas temporais, não invente datas. Deixe em branco ou marque como \"Data desconhecida\".\n2.  **Neutralidade:** Ignore opiniões emocionais ou desabafos, foque na ação ou no fato gerador da emoção.\n3.  **Consistência:** Se houver datas conflitantes no texto, anote a discrepância.\n```\n\n---\n\n### Por que esta mudança melhora o resultado (Baseado no PDF):\n\n1.  **Fusão Lógica:** O **PASSO 1** pedia cronologia e o **PASSO 6** pedia dados categóricos. Ao fundi-los, você cria um contexto único onde o modelo lê o texto uma vez e extrai tudo, evitando que ele perca o contexto da \"carreira\" na linha do tempo só porque \"carreira\" estava isolado no passo 6.\n2.  **Colunas da Tabela (Be Specific - Pág. 56):** Adicionei a coluna \"Status de Realidade\". Isso atende diretamente à sua preocupação de separar \"biografia real\" de \"narrativa do ego\". O modelo é forçado a classificar se algo aconteceu ou foi só pensamento.\n3.  **Simplicidade e Verbos de Ação (Pág. 55):** Substituí instruções longas por verbos diretos: \"Construa\", \"Diferencie\", \"Extraia\", \"Classifique\".\n4.  **Variáveis (Pág. 58):** Ao pedir categorias explícitas (Ex: `[Carreira], [Pessoal]`), facilitamos a filtragem posterior desses dados caso você queira jogar isso em um Excel.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1253,
+      "parts": [{
+        "text": "Com base no material \"Prompt Engineering\" do Google que você forne"
+      }, {
+        "text": "ceu, utilizei os seguintes *frameworks* e técnicas para refinar e fundir seus passos:\n\n1.  "
+      }, {
+        "text": "**Role Prompting (Pág. 18, 21):** Definir uma \"persona\" clara"
+      }, {
+        "text": " (Biógrafo Forense) para garantir um tom analítico e preciso.\n2.  **Instruction over Constraints"
+      }, {
+        "text": " (Pág. 56-57):** Focar no que o modelo *deve* fazer (inst"
+      }, {
+        "text": "ruções positivas) em vez de apenas no que não fazer, estruturando a tarefa em etapas lógicas.\n3"
+      }, {
+        "text": ".  **Structured Output (Pág. 19, 60):** Solicitar formatos específicos (tabel"
+      }, {
+        "text": "as e listas categorizadas) para evitar alucinações e facilitar a leitura.\n4.  **Chain of"
+      }, {
+        "text": " Thought (CoT) implícito (Pág. 29):** Quebrei o pedido em uma sequência"
+      }, {
+        "text": " lógica de raciocínio (Análise -\u003e Distinção -\u003e Extração -\u003e Organização).\n\nAqui está a versão ot"
+      }, {
+        "text": "imizada e unificada do seu prompt para obter resultados \"insanamente ótimos\":\n\n***\n\n### Prompt Un"
+      }, {
+        "text": "ificado: O Dossiê Cronológico e Factual\n\n```markdown\n**Contexto:** Você atuará como um **"
+      }, {
+        "text": "Biógrafo Forense e Analista de Dados**. Seu objetivo é processar arquivos brutos sobre a vida de \""
+      }, {
+        "text": "Kevyn Lucas\" para construir a base da verdade (Fato Base), separando friamente a realidade física da"
+      }, {
+        "text": " narrativa emocional ou planos não concretizados.\n\n**Instruções Principais:**\nRealize uma varredura ex"
+      }, {
+        "text": "austiva no material fornecido e gere um relatório estruturado em duas seções distintas:\n\n### SEÇÃO 1:"
+      }, {
+        "text": " A LINHA DO TEMPO MESTRA (2003 - Atual)\nConstrua uma tabela cronológica rigorosa"
+      }, {
+        "text": ". Diferencie fatos ocorridos de \"planos/ideias\".\n*   **Formato de Saída:** T"
+      }, {
+        "text": "abela Markdown.\n*   **Colunas Obrigatórias:**\n    1.  **Data/Período:** ("
+      }, {
+        "text": "Seja o mais preciso possível, ex: \"Março 2015\" ou \"2015 -"
+      }, {
+        "text": " T2\").\n    2.  **Localização Física:** Onde Kevyn estava? (Cidade, País, Ambiente"
+      }, {
+        "text": ").\n    3.  **Evento/Ação:** O que aconteceu de fato? (Mudança, emprego, término,"
+      }, {
+        "text": " diagnóstico, compra importante).\n    4.  **Categoria:** Classifique em: [Carreira], [Pessoal], [Sa"
+      }, {
+        "text": "úde], [Geográfico].\n    5.  **Status de Realidade:** Use \"FATO\" (acon"
+      }, {
+        "text": "teceu) ou \"PROJEÇÃO/PLANO\" (era apenas uma intenção mencionada).\n\n### SEÇÃO 2"
+      }, {
+        "text": ": INVENTÁRIO DE FATOS CONCRETOS (HARD DATA)\nExtraia e categorize dados específicos que compõem a"
+      }, {
+        "text": " \"ficha técnica\" do indivíduo. Use listas com bullet points.\n*   **Raízes e Form"
+      }, {
+        "text": "ação:** Fatos sobre infância, figuras parentais (pai/mãe/avó), origem socioeconômica e"
+      }, {
+        "text": " como isso moldou fatos da vida adulta.\n*   **Projetos e Carreira:** Histórico completo"
+      }, {
+        "text": " de empregos, freelas, \"bicos\", empresas fundadas e projetos (indique se foram concluídos ou abandon"
+      }, {
+        "text": "ados).\n*   **Saúde e Biologia:** Histórico médico, padrões de sono, alimentação, rotina de"
+      }, {
+        "text": " exercícios, dores crônicas ou diagnósticos.\n*   **Ecossistema Social:** Liste nomes citados e a"
+      }, {
+        "text": " relação (Ex: \"Fulano - Parceiro de Negócios\", \"Beltrano - Amigo de Infância\").\n"
+      }, {
+        "text": "*   **Interesses e Hard Skills:** Tecnologias dominadas, assuntos de estudo recorrentes, livros lidos,"
+      }, {
+        "text": " hobbies ativos.\n*   **Inventário Material:** Bens adquiridos, ferramentas de trabalho (setup), softwares que utiliza"
+      }, {
+        "text": " e preferências de consumo.\n\n**Regras de Qualidade:**\n1.  **Precisão:** Se houver lacunas tempor"
+      }, {
+        "text": "ais, não invente datas. Deixe em branco ou marque como \"Data desconhecida\".\n2.  **"
+      }, {
+        "text": "Neutralidade:** Ignore opiniões emocionais ou desabafos, foque na ação ou no fato gerador da"
+      }, {
+        "text": " emoção.\n3.  **Consistência:** Se houver datas conflitantes no texto, anote a"
+      }, {
+        "text": " discrepância.\n```\n\n---\n\n### Por que esta mudança melhora o resultado (Baseado no PDF):\n\n1."
+      }, {
+        "text": "  **Fusão Lógica:** O **PASSO 1** pedia cronologia e o **PASSO 6"
+      }, {
+        "text": "** pedia dados categóricos. Ao fundi-los, você cria um contexto único onde o modelo lê o texto uma vez"
+      }, {
+        "text": " e extrai tudo, evitando que ele perca o contexto da \"carreira\" na linha do tempo só porque \""
+      }, {
+        "text": "carreira\" estava isolado no passo 6.\n2.  **Colunas da Tabela (Be Specific -"
+      }, {
+        "text": " Pág. 56):** Adicionei a coluna \"Status de Realidade\". Isso atende diretamente à"
+      }, {
+        "text": " sua preocupação de separar \"biografia real\" de \"narrativa do ego\". O modelo é forçado a class"
+      }, {
+        "text": "ificar se algo aconteceu ou foi só pensamento.\n3.  **Simplicidade e Verbos de Ação (Pág."
+      }, {
+        "text": " 55):** Substituí instruções longas por verbos diretos: \"Construa\", \"Diferencie\", \""
+      }, {
+        "text": "Extraia\", \"Classifique\".\n4.  **Variáveis (Pág. 58):** Ao pedir"
+      }, {
+        "text": " categorias explícitas (Ex: `[Carreira], [Pessoal]`), facilitamos a filtragem posterior desses dados caso você que"
+      }, {
+        "text": "ira jogar isso em um Excel."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

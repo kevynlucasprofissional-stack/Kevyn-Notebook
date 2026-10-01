@@ -1,0 +1,1 @@
+Ele trabalha principalmente com o Houdini. Cria transformers com várias cores e formatos, sempre lembrando seres humanos.

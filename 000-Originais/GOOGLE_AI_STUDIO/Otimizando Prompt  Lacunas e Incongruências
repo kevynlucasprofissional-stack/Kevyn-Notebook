@@ -1,0 +1,211 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1e4cDV7-9rGcZFyKH3p8tEVn7QknBhdpH"
+      },
+      "role": "user",
+      "tokenCount": 38081
+    }, {
+      "text": "Estou criando um resumo definitivo sobre mim, estou na etapa de que preciso revisar os prompts para que ele entregue resultados insanamente ótimos, preciso de ajuda para refinar o prompt do processo de gerar dossiê, o prompt a ser melhorado está em \u003cprompt_melhorar\u003e\u003c\\prompt_melhorar\u003e. Vou anexar alguns livros sobre engenharia de prompt dos quais você irá extrair frameworks para me ajudar no meu objetivo.\n\n\u003cprompt_melhorar\u003e\n\nPASSO 8: A VARREDURA DE LACUNAS (O Que Não Foi Dito)\n*Objetivo: Identificar o que Kevyn esconde ou omite. Muitas vezes, o silêncio grita mais alto que o texto.*\n\n**Prompt:**\n\u003e \"Você analisou o que está explícito. Agora, analise o que está **ausente** ou **incongruente**. Faça uma varredura por \u0027Dimensões Inexploradas\u0027.\n\u003e\n\u003e 1.  **Arqueologia Familiar:** Existe um silêncio ensurdecedor sobre a família? O que a ausência de menção revela sobre o trauma?\n\u003e 2.  **Micro-Hábitos e Vícios:** Além da pornografia, existem outros padrões de fuga sutis que denunciam o estado dele?\n\u003e 3.  **Contradições de Discurso:** Onde a narrativa dele quebra?\n\u003e 4.  **Entrelinhas:** O que está sendo dito nas entrelinhas?\n\u003e 5.  **Silêncio que grita:** Em quais assuntos o Kevyn não toca, e o fato de não tocar nesse assuntos revela algo sobre ele?\n\u003e 6.  **Insights:** Quais insights podemos ter sobre o Kevyn a partir do cruzamento dos dados?\n\n### 7️⃣ **Economia Psíquica (Energia, não dinheiro)**\n\n* Onde a energia do Kevyn **some**?\n* O que o deixa cansado sem motivo claro?\n* Em quais temas ele demonstra brilho intelectual, mas **nenhuma vitalidade emocional**?\n\n👉 Lacuna típica: muita elaboração mental, pouco retorno energético.\n\n---\n\n### 8️⃣ **Relação com o Corpo (ou a ausência dela)**\n\n* O corpo aparece como sujeito ou só como veículo?\n* Dor, prazer, descanso, fome, sono: **onde isso entra na narrativa?**\n* O corpo só aparece quando quebra?\n\n👉 Silêncio corporal costuma indicar **cisão mente–corpo** ou vergonha somática.\n\n---\n\n### 9️⃣ **Raiva Não Nomeada**\n\n* Onde a raiva aparece travestida de ironia, cansaço, lucidez ou “aceitação”?\n* Quem nunca é responsabilizado?\n* Quem sempre é compreendido demais?\n\n👉 Ausência de raiva explícita geralmente aponta para **raiva internalizada**.\n\n---\n\n### 🔟 **Desejo de Poder (Tabu Central)**\n\n* Onde o desejo de influenciar, conduzir, moldar o outro é negado?\n* Em que pontos ele se descreve como “apenas observador”, quando claramente **não é**?\n* Onde a ambição aparece disfarçada de ética?\n\n👉 Essa lacuna é ouro. Poder negado costuma virar **controle sutil**.\n\n---\n\n### 1️⃣1️⃣ **Temporalidade Quebrada**\n\n* O Kevyn fala mais do passado, do futuro ou do “fora do tempo”?\n* Existe um presente vivido ou só analisado?\n* Onde ele evita dizer: *“agora eu quero isso”*?\n\n👉 Falta de presente \u003d fuga sofisticada.\n\n---\n\n### 1️⃣2️⃣ **Espiritualidade como Escudo**\n\n* Em quais momentos símbolos, arquétipos ou linguagem espiritual surgem para **evitar uma decisão concreta**?\n* Onde o “sentido” aparece antes da ação?\n* Onde a transcendência substitui o risco?\n\n👉 Não é crítica à espiritualidade — é diagnóstico do uso defensivo.\n\n---\n\n### 1️⃣3️⃣ **Intimidade Real vs. Intimidade Intelectual**\n\n* Com quem ele compartilha ideias, mas não vulnerabilidade?\n* Onde ele se mostra brilhante para não ser visto?\n* Onde ele fala *sobre* sentir, mas não *a partir* do sentir?\n\n👉 Essa lacuna explica muitos campos relacionais frustrados.\n\n---\n\n### 1️⃣4️⃣ **Dependência Invertida**\n\n* Quem depende emocionalmente do Kevyn?\n* Onde ele se torna necessário para manter o equilíbrio do outro?\n* Onde isso é narrado como “cuidado” ou “presença”?\n\n👉 Aqui mora o **ganho secundário** da posição de suporte.\n\n---\n\n### 1️⃣5️⃣ **Escolhas que Nunca Foram Escolhidas**\n\n* Que caminhos simplesmente “aconteceram”?\n* Onde não houve um “sim” explícito, só ausência de “não”?\n* Que vida foi herdada por inércia?\n\n👉 Lacuna de autoria.\n\n16 - O que o Kevyn ganha permanecendo exatamente onde está, apesar do custo?\n\n\n17 - Isso acontece com o Kevyn?\n\nQuando cruzamos:\n\n* silêncio sobre o corpo\n* recusa em nomear raiva\n* poder negado\n* espiritualização precoce\n* hiperconsciência sem decisão\n\n👉 surge um padrão claro:\n**consciência elevada + adiamento existencial.**\n\nNão por medo simples, mas por **lealdade a uma identidade antiga**:\n\n\u003e “Aquele que entende demais para agir impulsivamente.”\n\n\u003c\\prompt_melhorar\u003e",
+      "role": "user",
+      "tokenCount": 1238
+    }, {
+      "text": "**Refining the Goal**\n\nI\u0027m now zeroing in on defining the scope and purpose of this Kevyn dossier. The initial goal is to create a definitive summary, but I need to clarify what that *means* in practice. What kind of information is considered essential? What is the intended audience? This refinement is all about establishing the parameters.\n\n\n**Applying New Frameworks**\n\nI\u0027m now integrating insights from the Boonstra PDF. My focus has shifted to leveraging Personas, Contextual, and System Prompting techniques. I\u0027m aiming to apply Chain of Thought principles for better results. This will help with analyzing psychological undercurrents within the draft prompt. I\u0027m working to produce prompts with more nuance.\n\n\n**Integrating New Methods**\n\nI\u0027m now focusing on few-shot prompting and output configuration, specifically structured Markdown report formats versus JSON. I\u0027m also prioritizing \"instructions over constraints\" and using strong verbs for clarity. Analyzing the input prompt reveals both deep psychological insight and the need for a clearer format, a defined persona/system prompt, and cohesion. The current prompt blends instructions and questions.\n\n\n**Implementing CoT and Step-Back**\n\nI\u0027m now integrating Chain of Thought and Step-Back techniques to enhance the depth of the analysis. Instead of expecting immediate answers, I\u0027m focusing on the model first *identifying* the evidence and then *interpreting* its psychological significance. I am aiming to establish this explicitly in the new prompt. I need to make sure the process doesn\u0027t simply give a list. I\u0027m focusing on \"shadow work,\" assessing subconscious patterns, omissions, and incongruities.\n\n\n**Refining the Prompt**\n\nI\u0027m now iterating on the new prompt, moving towards greater specificity. The initial mental draft as a psychologist was too broad. I\u0027m focusing on incorporating the \"Gap Scan\" categories. I\u0027m also drafting prompts that first review text for absences, then hypothesize on the psychological function. I\u0027m working on integrating the output formatting, specific headers and groups for more structured reports.\n\n\n**Structuring the Draft**\n\nI\u0027m now focusing on the prompt structure, specifically leveraging the \"Gap Scan\" categories of Family, Body, and Power within a structured JSON or Markdown report. The Step-Back method feels a bit abstract, so I\u0027m sticking to Chain of Thought for now. I\u0027m extracting key questions from the source and reframing them as analytical directives. I\u0027m aiming for a concise and focused final draft.\n\n\n",
+      "role": "model",
+      "tokenCount": 1664,
+      "isThought": true,
+      "parts": [{
+        "text": "**Refining the Goal**\n\nI\u0027m now zeroing in on defining the scope and purpose of this Kevyn dossier. The initial goal is to create a definitive summary, but I need to clarify what that *means* in practice. What kind of information is considered essential? What is the intended audience? This refinement is all about establishing the parameters.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Applying New Frameworks**\n\nI\u0027m now integrating insights from the Boonstra PDF. My focus has shifted to leveraging Personas, Contextual, and System Prompting techniques. I\u0027m aiming to apply Chain of Thought principles for better results. This will help with analyzing psychological undercurrents within the draft prompt. I\u0027m working to produce prompts with more nuance.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Integrating New Methods**\n\nI\u0027m now focusing on few-shot prompting and output configuration, specifically structured Markdown report formats versus JSON. I\u0027m also prioritizing \"instructions over constraints\" and using strong verbs for clarity. Analyzing the input prompt reveals both deep psychological insight and the need for a clearer format, a defined persona/system prompt, and cohesion. The current prompt blends instructions and questions.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Implementing CoT and Step-Back**\n\nI\u0027m now integrating Chain of Thought and Step-Back techniques to enhance the depth of the analysis. Instead of expecting immediate answers, I\u0027m focusing on the model first *identifying* the evidence and then *interpreting* its psychological significance. I am aiming to establish this explicitly in the new prompt. I need to make sure the process doesn\u0027t simply give a list. I\u0027m focusing on \"shadow work,\" assessing subconscious patterns, omissions, and incongruities.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Prompt**\n\nI\u0027m now iterating on the new prompt, moving towards greater specificity. The initial mental draft as a psychologist was too broad. I\u0027m focusing on incorporating the \"Gap Scan\" categories. I\u0027m also drafting prompts that first review text for absences, then hypothesize on the psychological function. I\u0027m working on integrating the output formatting, specific headers and groups for more structured reports.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Draft**\n\nI\u0027m now focusing on the prompt structure, specifically leveraging the \"Gap Scan\" categories of Family, Body, and Power within a structured JSON or Markdown report. The Step-Back method feels a bit abstract, so I\u0027m sticking to Chain of Thought for now. I\u0027m extracting key questions from the source and reframing them as analytical directives. I\u0027m aiming for a concise and focused final draft.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Com base no livro \"Prompt Engineering\" anexado (especificamente as seções sobre **Role Prompting**, **Chain of Thought**, **Structured Output** e **Best Practices**), reestruturei o seu prompt.\n\nO seu rascunho original tem excelentes insights psicológicos (\"conteúdo\"), mas a estrutura (\"forma\") está dispersa. Para obter resultados \"insanamente ótimos\", precisamos transformar essa lista de perguntas em um **algoritmo de análise psicológica**.\n\nAqui está a proposta refinada, utilizando os frameworks do livro:\n\n### Estrutura das Melhorias Aplicadas (Baseado no PDF)\n\n1.  **Role Prompting (Pág. 18 e 21):** Em vez de apenas fazer perguntas, definimos uma *persona* de \"Profiler Psicológico Sênior\" para o modelo adotar um tom analítico, cirúrgico e não apenas descritivo.\n2.  **Chain of Thought (CoT) (Pág. 29-31):** Adicionamos instruções para o modelo pensar \"passo a passo\" (conectar evidência -\u003e ausência -\u003e significado) antes de entregar a resposta final.\n3.  **Contextual Prompting (Pág. 23):** Contextualizamos que esta é a \"Etapa 2\" de uma análise, focada no *implícito*.\n4.  **Design with Simplicity \u0026 Action Verbs (Pág. 55):** Substituímos perguntas passivas (\"O que é...\") por verbos de comando e ação (\"Investigue\", \"Cruze\", \"Diagnostique\").\n5.  **Structured Output (Pág. 56 e 60):** Organizamos o output esperado para evitar \"alucinações\" e garantir que todos os pontos cruciais sejam cobertos.\n\n---\n\n### O Prompt Refinado\n\nCopie e cole o bloco abaixo na sua ferramenta de IA:\n\n```markdown\n# Role \u0026 Context\nAtue como um Profiler Psicológico Sênior e Especialista em Análise de Discurso. Estamos na fase de construção de um \"Dossiê Profundo\" sobre o sujeito Kevyn.\nVocê já processou o que está explícito na narrativa dele. Agora, sua missão é executar uma **Varredura de Lacunas (Gap Scan)**.\n\n# Objective\nIdentificar o que foi omitido, silenciado ou distorcido. Assuma a premissa de que \"o silêncio grita mais alto que o texto\". Você deve buscar incongruências, cisões e padrões de defesa psíquica.\n\n# Instructions\nAnalise os dados fornecidos anteriormente através das seguintes lentes (dimensões). Para cada dimensão, não apenas aponte a falta, mas diagnostique a *função* desse silêncio na manutenção da identidade do sujeito.\n\nUse a técnica \"Step-Back\" para cada ponto: Primeiro identifique a ausência nos dados, depois abstraia o significado psicológico dessa ausência.\n\n## Dimensões de Análise (O Que Não Foi Dito)\n\n### 1. Arqueologia do Silêncio e Fuga\n*   **Família:** Existe um \"silêncio ensurdecedor\" sobre a origem? O que a ausência de menção a figuras parentais revela sobre traumas fundantes?\n*   **Micro-Vícios:** Além do óbvio (ex: pornografia), identifique padrões de fuga sutis (ex: intellectualização excessiva, procrastinação produtiva).\n*   **Temporalidade:** Onde ele se recusa a viver o \"agora\"? O discurso é focado apenas em nostalgia (passado) ou idealização (futuro)? Diagnostique a \"temporalidade quebrada\".\n\n### 2. A Cisão Mente-Corpo (Somática)\n*   **Status do Corpo:** O corpo é tratado como sujeito (fonte de prazer/dor vivida) ou apenas como veículo/máquina que quebra?\n*   **Sintomas não ditos:** Procure por menções de cansaço sem motivo, picos de brilho intelectual seguidos de apatia emocional ou vergonha somática implícita.\n\n### 3. A Economia da Agressividade e Poder\n*   **Raiva Não Nomeada:** Onde a raiva foi sublimada e transformada em ironia, cansaço crônico ou \"aceitação estoica\"? Quem é \"compreendido demais\" para não ser confrontado?\n*   **Tabu do Poder:** Identifique onde o desejo de influenciar é negado. Onde ele se diz \"observador\" mas age como controlador sutil? Onde a ambição usa uma máscara ética?\n*   **Dependência Invertida:** Quem depende dele? Identifique onde o ato de \"cuidar\" ou \"estar disponível\" gera um ganho secundário de controle ou indispensabilidade.\n\n### 4. O Escudo da Transcendência\n*   **Espiritualidade Defensiva:** Em que momentos ele usa conceitos espirituais, astrológicos ou filosóficos para *evitar* tomar uma decisão prática e arriscada?\n*   **Intimidade:** Diferencie a \"intimidade intelectual\" (troca de ideias) da \"vulnerabilidade real\" (troca de afetos). Onde ele brilha para não ser tocado?\n\n# Synthesis Task (Crucial)\nApós a análise das dimensões, sintetize o perfil oculto respondendo a estas três perguntas finais:\n1.  **O Custo da Estagnação:** O que Kevyn ganha (ganho secundário/segurança) permanecendo exatamente onde está, apesar do sofrimento narrado?\n2.  **O Padrão Mestre:** Valide a hipótese: \"Kevyn sofre de Hiperconsciência + Adiamento Existencial por lealdade a uma identidade antiga?\"\n3.  **A Identidade Fantasma:** Defina em uma frase quem é o Kevyn que existe *apenas* nas entrelinhas.\n\n# Output Format\nForneça a resposta em formato de Relatório Psicológico Estruturado, usando Markdown, com tom analítico, direto e profundo. Evite jargões desnecessários, seja cirúrgico.\n```\n\n---\n\n### Por que este prompt funciona melhor?\n\n1.  **Agrupamento Lógico (Categories):** No seu original, os pontos 7, 8, 9, etc., estavam soltos. Agrupei temas correlatos (ex: Raiva e Poder; Corpo e Energia). Isso ajuda a IA a conectar pontos que antes estavam distantes (ver *best practices* \"Working with Schemas\", pág. 62).\n2.  **Instruções Positivas (Pág. 57):** O prompt diz claramente *o que procurar* e *como interpretar*, em vez de apenas perguntar \"Isso acontece?\".\n3.  **Hipótese Clara (Few-Shot/Contextual - Pág. 15):** Ao final, inseri a sua conclusão sobre \"consciência elevada + adiamento\" como uma hipótese para a IA validar. Isso funciona como um *few-shot prompt* conceitual, mostrando à IA o nível de profundidade que você espera na resposta.\n4.  **Action Verbs (Pág. 55):** Usei verbos como \"Diagnostique\", \"Sublime\", \"Diferencie\", que forçam o modelo a realizar raciocínio complexo.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1608,
+      "parts": [{
+        "text": "Com base no livro \"Prompt Engineering\" anexado (especificamente as seções"
+      }, {
+        "text": " sobre **Role Prompting**, **Chain of Thought**, **Structured Output** e **Best Practices**), reestruturei o"
+      }, {
+        "text": " seu prompt.\n\nO seu rascunho original tem excelentes insights psicológicos (\"conteúdo\"), mas a estrutura (\""
+      }, {
+        "text": "forma\") está dispersa. Para obter resultados \"insanamente ótimos\", precisamos transformar essa lista de perguntas em"
+      }, {
+        "text": " um **algoritmo de análise psicológica**.\n\nAqui está a proposta refinada, utilizando os frameworks do livro:\n\n### Estr"
+      }, {
+        "text": "utura das Melhorias Aplicadas (Baseado no PDF)\n\n1.  **Role Prompting (Pág. 1"
+      }, {
+        "text": "8 e 21):** Em vez de apenas fazer perguntas, definimos uma *persona* de \"Profiler Psicológico S"
+      }, {
+        "text": "ênior\" para o modelo adotar um tom analítico, cirúrgico e não apenas descritivo.\n2.  "
+      }, {
+        "text": "**Chain of Thought (CoT) (Pág. 29-31):** Adicionamos instruções para o"
+      }, {
+        "text": " modelo pensar \"passo a passo\" (conectar evidência -\u003e ausência -\u003e significado) antes de entregar a resposta final.\n"
+      }, {
+        "text": "3.  **Contextual Prompting (Pág. 23):** Contextualizamos que esta é a \""
+      }, {
+        "text": "Etapa 2\" de uma análise, focada no *implícito*.\n4.  **Design with Simplicity"
+      }, {
+        "text": " \u0026 Action Verbs (Pág. 55):** Substituímos perguntas passivas (\"O que é...\") por verbos"
+      }, {
+        "text": " de comando e ação (\"Investigue\", \"Cruze\", \"Diagnostique\").\n5.  **Structured Output (P"
+      }, {
+        "text": "ág. 56 e 60):** Organizamos o output esperado para evitar \"alucinações\""
+      }, {
+        "text": " e garantir que todos os pontos cruciais sejam cobertos.\n\n---\n\n### O Prompt Refinado\n\nCopie"
+      }, {
+        "text": " e cole o bloco abaixo na sua ferramenta de IA:\n\n```markdown\n# Role \u0026 Context\nAtue como um Profil"
+      }, {
+        "text": "er Psicológico Sênior e Especialista em Análise de Discurso. Estamos na fase de construção de um"
+      }, {
+        "text": " \"Dossiê Profundo\" sobre o sujeito Kevyn.\nVocê já processou o que está explícito na"
+      }, {
+        "text": " narrativa dele. Agora, sua missão é executar uma **Varredura de Lacunas (Gap Scan)**.\n\n# Objective\nIdent"
+      }, {
+        "text": "ificar o que foi omitido, silenciado ou distorcido. Assuma a premissa de que \"o silêncio"
+      }, {
+        "text": " grita mais alto que o texto\". Você deve buscar incongruências, cisões e padrões de defesa psíquica.\n\n"
+      }, {
+        "text": "# Instructions\nAnalise os dados fornecidos anteriormente através das seguintes lentes (dimensões). Para cada dimensão, não"
+      }, {
+        "text": " apenas aponte a falta, mas diagnostique a *função* desse silêncio na manutenção da identidade do"
+      }, {
+        "text": " sujeito.\n\nUse a técnica \"Step-Back\" para cada ponto: Primeiro identifique a ausência nos dados, depois abstra"
+      }, {
+        "text": "ia o significado psicológico dessa ausência.\n\n## Dimensões de Análise (O Que Não Foi Dito"
+      }, {
+        "text": ")\n\n### 1. Arqueologia do Silêncio e Fuga\n*   **Família:** Existe um"
+      }, {
+        "text": " \"silêncio ensurdecedor\" sobre a origem? O que a ausência de menção a figuras parentais revela sobre traumas"
+      }, {
+        "text": " fundantes?\n*   **Micro-Vícios:** Além do óbvio (ex: pornografia), ident"
+      }, {
+        "text": "ifique padrões de fuga sutis (ex: intellectualização excessiva, procrastinação produtiva).\n*   **Temporal"
+      }, {
+        "text": "idade:** Onde ele se recusa a viver o \"agora\"? O discurso é focado apenas em nostalgia ("
+      }, {
+        "text": "passado) ou idealização (futuro)? Diagnostique a \"temporalidade quebrada\".\n\n### 2. A Cis"
+      }, {
+        "text": "ão Mente-Corpo (Somática)\n*   **Status do Corpo:** O corpo é tratado como sujeito ("
+      }, {
+        "text": "fonte de prazer/dor vivida) ou apenas como veículo/máquina que quebra?\n*   **S"
+      }, {
+        "text": "intomas não ditos:** Procure por menções de cansaço sem motivo, picos de brilho intelectual seg"
+      }, {
+        "text": "uidos de apatia emocional ou vergonha somática implícita.\n\n### 3. A Economia da"
+      }, {
+        "text": " Agressividade e Poder\n*   **Raiva Não Nomeada:** Onde a raiva foi sublimada e transformada em"
+      }, {
+        "text": " ironia, cansaço crônico ou \"aceitação estoica\"? Quem é \"compreendido demais\" para não"
+      }, {
+        "text": " ser confrontado?\n*   **Tabu do Poder:** Identifique onde o desejo de influenciar é negado."
+      }, {
+        "text": " Onde ele se diz \"observador\" mas age como controlador sutil? Onde a ambição usa uma máscara"
+      }, {
+        "text": " ética?\n*   **Dependência Invertida:** Quem depende dele? Identifique onde o ato de \"cuid"
+      }, {
+        "text": "ar\" ou \"estar disponível\" gera um ganho secundário de controle ou indispensabilidade.\n\n### 4. O"
+      }, {
+        "text": " Escudo da Transcendência\n*   **Espiritualidade Defensiva:** Em que momentos ele usa conceitos espirituais, ast"
+      }, {
+        "text": "rológicos ou filosóficos para *evitar* tomar uma decisão prática e arriscada?\n*   **Intimidade"
+      }, {
+        "text": ":** Diferencie a \"intimidade intelectual\" (troca de ideias) da \"vulnerabilidade real\" (tro"
+      }, {
+        "text": "ca de afetos). Onde ele brilha para não ser tocado?\n\n# Synthesis Task (Crucial)\nApós"
+      }, {
+        "text": " a análise das dimensões, sintetize o perfil oculto respondendo a estas três perguntas finais:\n1.  **O C"
+      }, {
+        "text": "usto da Estagnação:** O que Kevyn ganha (ganho secundário/segurança) permanecendo exatamente onde está,"
+      }, {
+        "text": " apesar do sofrimento narrado?\n2.  **O Padrão Mestre:** Valide a hipótese"
+      }, {
+        "text": ": \"Kevyn sofre de Hiperconsciência + Adiamento Existencial por lealdade a uma identidade antiga?\""
+      }, {
+        "text": "\n3.  **A Identidade Fantasma:** Defina em uma frase quem é o Kevyn que existe *"
+      }, {
+        "text": "apenas* nas entrelinhas.\n\n# Output Format\nForneça a resposta em formato de Relatório Psicológico"
+      }, {
+        "text": " Estruturado, usando Markdown, com tom analítico, direto e profundo. Evite jargões desnecessários,"
+      }, {
+        "text": " seja cirúrgico.\n```\n\n---\n\n### Por que este prompt funciona melhor?\n\n1.  **Ag"
+      }, {
+        "text": "rupamento Lógico (Categories):** No seu original, os pontos 7, 8, 9, etc"
+      }, {
+        "text": "., estavam soltos. Agrupei temas correlatos (ex: Raiva e Poder; Corpo e Energia). Isso ajuda"
+      }, {
+        "text": " a IA a conectar pontos que antes estavam distantes (ver *best practices* \"Working with Schemas\", pág. "
+      }, {
+        "text": "62).\n2.  **Instruções Positivas (Pág. 57):** O"
+      }, {
+        "text": " prompt diz claramente *o que procurar* e *como interpretar*, em vez de apenas perguntar \"Isso acontece?\".\n"
+      }, {
+        "text": "3.  **Hipótese Clara (Few-Shot/Contextual - Pág. 15):**"
+      }, {
+        "text": " Ao final, inseri a sua conclusão sobre \"consciência elevada + adiamento\" como uma hipótese para a IA validar."
+      }, {
+        "text": " Isso funciona como um *few-shot prompt* conceitual, mostrando à IA o nível de profundidade que você espera na"
+      }, {
+        "text": " resposta.\n4.  **Action Verbs (Pág. 55):** Usei verbos como \"Diagn"
+      }, {
+        "text": "ostique\", \"Sublime\", \"Diferencie\", que forçam o modelo a realizar raciocínio complexo."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

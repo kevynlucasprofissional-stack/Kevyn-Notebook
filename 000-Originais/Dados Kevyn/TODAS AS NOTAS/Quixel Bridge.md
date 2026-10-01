@@ -1,0 +1,1 @@
+Uma biblioteca de assets com tudo que precisamos para ambientar uma cena. Mas é pago.

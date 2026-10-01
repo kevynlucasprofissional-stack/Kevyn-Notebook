@@ -1,0 +1,1 @@
+É um modo da Dope Sheet que te permite ajustar keyframes ao estilo bezier. Está disponível no canto superior esquerdo da janela (Segundo botão).

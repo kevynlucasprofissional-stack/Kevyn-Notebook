@@ -1,0 +1,150 @@
+[
+  {
+    "mudanca_id": "MUD-000049",
+    "caminho": "08-Estudos-e-Referencias/Negocios e marketing.md",
+    "operacao": "modificar",
+    "motivo": "registrar mentorias e aceleracao como repertorio de negocios",
+    "fontes": [
+      "SRC-000056",
+      "SRC-000059"
+    ],
+    "unidades": [
+      "UNI-000030",
+      "UNI-000031"
+    ],
+    "hash_anterior": "235cae17b190411fefa7fec3ca68221bd1054a0541c6bb37b12940d70bf83671",
+    "hash_posterior": "ff9403444712cad9a111211bc06fbc710d33eceb329627f0df009d0a061c597e",
+    "ciclo": "CICLO-0008",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000050",
+    "caminho": "08-Estudos-e-Referencias/Tecnologia IA e automacao.md",
+    "operacao": "modificar",
+    "motivo": "registrar avaliacao de ferramentas, produto planejado e acesso redigido",
+    "fontes": [
+      "SRC-000055",
+      "SRC-000057",
+      "SRC-000061",
+      "SRC-000062"
+    ],
+    "unidades": [
+      "UNI-000028",
+      "UNI-000029",
+      "UNI-000052"
+    ],
+    "hash_anterior": "19F99C74189DF30B84C60388F5764CCC7BB54740A787BB71C31B7C5098822A4D",
+    "hash_posterior": "b0a9bddca6309aaacd62e9cbd8483747ed7d3040a5e61c1567378b0d83b403a2",
+    "ciclo": "CICLO-0008",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000051",
+    "caminho": "04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md",
+    "operacao": "modificar",
+    "motivo": "registrar produto planejado e credenciais somente como contexto de uso",
+    "fontes": [
+      "SRC-000057",
+      "SRC-000061",
+      "SRC-000062"
+    ],
+    "unidades": [
+      "UNI-000029",
+      "UNI-000052"
+    ],
+    "hash_anterior": "7C8DCEB5C20F9B2FB346AA2E73E2BE682BB05AF4644AB6D0F68D80160142C6D4",
+    "hash_posterior": "df167f067bf32da1b6fe4b3c8b99e549c7d3734f0517ea77aff8fd3d893d6a2d",
+    "ciclo": "CICLO-0008",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000052",
+    "caminho": "04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md",
+    "operacao": "modificar",
+    "motivo": "registrar busca por aceleracao e sustentabilidade",
+    "fontes": [
+      "SRC-000059"
+    ],
+    "unidades": [
+      "UNI-000030"
+    ],
+    "hash_anterior": "2B3F5AA543734BE8AD77096342505AD5BC1EF34DA4D426683FBE1E5292640E9E",
+    "hash_posterior": "3c12690fcc47bedcf3a5e5fb940a6c3da9abf9beabb181d3865b1d9b410fd64f",
+    "ciclo": "CICLO-0008",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000053",
+    "caminho": "04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md",
+    "operacao": "modificar",
+    "motivo": "registrar produtos planejados e mentoria no portfolio",
+    "fontes": [
+      "SRC-000057",
+      "SRC-000059"
+    ],
+    "unidades": [
+      "UNI-000029",
+      "UNI-000030"
+    ],
+    "hash_anterior": "0ad0b6cd34dfa33d2b1b0c59138a31b0c1b6489440fcd7f002520281c8a42b03",
+    "hash_posterior": "fe7f7737e830e96536c0075052d869511af57cc515405044fcd0d723e147e294",
+    "ciclo": "CICLO-0008",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000054",
+    "caminho": "09-Fontes-e-Evidencias/Fonte - Mentorias produtos e ferramentas IA 2025.md",
+    "operacao": "criar",
+    "motivo": "centralizar proveniencia, redacao e exclusoes do lote",
+    "fontes": [
+      "SRC-000055",
+      "SRC-000056",
+      "SRC-000057",
+      "SRC-000058",
+      "SRC-000059",
+      "SRC-000060",
+      "SRC-000061",
+      "SRC-000062"
+    ],
+    "unidades": [
+      "UNI-000028",
+      "UNI-000029",
+      "UNI-000030",
+      "UNI-000031",
+      "UNI-000052",
+      "UNI-000053"
+    ],
+    "hash_anterior": null,
+    "hash_posterior": "f2d0c93e881a0f09280009962a7753e4a1981caca39deb1e1257247035f5c073",
+    "ciclo": "CICLO-0008",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000055",
+    "caminho": "09-Fontes-e-Evidencias/Indice geral de fontes selecionadas.md",
+    "operacao": "modificar",
+    "motivo": "indexar a nota-fonte",
+    "fontes": [
+      "SRC-000055",
+      "SRC-000056",
+      "SRC-000057",
+      "SRC-000058",
+      "SRC-000059",
+      "SRC-000060",
+      "SRC-000061",
+      "SRC-000062"
+    ],
+    "unidades": [
+      "UNI-000028",
+      "UNI-000029",
+      "UNI-000030",
+      "UNI-000031",
+      "UNI-000052",
+      "UNI-000053"
+    ],
+    "hash_anterior": "26018d36513d9fda3546bfa27b6b3513c7c77fdda82d1980cb12d2a5c0fa846d",
+    "hash_posterior": "306858fdc1767bd208d6515345dd55a231fa25940abc7e2cca1514b65617ac94",
+    "ciclo": "CICLO-0008",
+    "validacao": "auditoria_corretiva_20260619"
+  }
+]

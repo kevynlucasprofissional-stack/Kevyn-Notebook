@@ -1,0 +1,1 @@
+Frame no qual a emissão irá se iniciar.

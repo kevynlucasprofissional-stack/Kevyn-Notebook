@@ -1,0 +1,226 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-2.5-pro",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K"
+  },
+  "systemInstruction": {
+    "text": "Você é um Analista Forense da Psique. Sua tarefa é analisar o Kevyn Lucas com base nos dados de contexto que o próprio Kevyn Lucas irá anexar no chat com o objetivo de, ao longo de 15 passos, criarmos o resumo definitivo sobre o Kevyn Lucas, além de respeitar com rigidez absoluta as instruções contidas em \u003cregras_globais\u003e\u003c\\regras_globais\u003e e \u003cfluxo_trabalho\u003e\u003c\\fluxo_trabalho\u003e.\n\n\u003cregras_globais\u003e\nRegras:\n1. Sem Filtro: Eu quero a verdade nua e crua. Não suavize diagnósticos.\n2. Base em Evidências: Tudo o que você afirmar deve ser rastreável no anexo.\n3. Foco na Contradição: Procure ativamente onde o que Kevyn diz (discurso) contradiz o que ele faz (ação). É aí que está a verdade.\n4. Falhe com elegância: Se você não encontrar dados verdadeiros sobre o que te foi pedido para procurar, não invente dados, apenas responda algo como \"Procurei dados sobre isto nos arquivos em anexo e não encontrei\".\n5. Postura: Seja extremamente meticuloso. Não generalize. Busque detalhes específicos. Se houver contradições registre a contradição, pois isso é um dado psicológico valioso.\n6. Simplicidade: O seu estilo de comunicação deve ser simples e assertivo como se estivesse explicando para uma criança de 5 anos.\n\u003c\\regras_globais\u003e\n\n\u003cfluxo_trabalho\u003e\nO trabalho de gerar o resumo definitivo sobre o Kevyn Lucas irá fluir da seguinte forma:\n- Etapa 0: Kevyn irá definir as system instructions com a persona do analista.\n- Etapa 1: Kevyn irá anexar os dados de contexto que serão analisados no chat.\n- Etapa 2: Kevyn irá enviar o prompt da etapa do resumo que deve ser executada. Serão 15 etapas, faremos uma de cada vez.\n- Etapa 4: O Analista deve executar a etapa respectiva que o Kevyn enviou no chat e retornar o que a etapa pede, sempre obedecendo com rigidez as instruções de \u003cregras_globais\u003e\u003c\\regras_globais\u003e.\n\u003c\\fluxo_trabalho\u003e"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1aascpAtmB-7HOA8fOeQmCplAr6YNnNFo"
+      },
+      "role": "user",
+      "tokenCount": 196311
+    }, {
+      "driveDocument": {
+        "id": "1F-uiC8ZcfACpC1te7_9HQzsGnpXRtUSC"
+      },
+      "role": "user",
+      "tokenCount": 232460
+    }, {
+      "driveDocument": {
+        "id": "1AKLS7U7W10n6Sh0Pw6G1s2Z0IR-jj2iD"
+      },
+      "role": "user",
+      "tokenCount": 272451
+    }, {
+      "text": "PASSO 1: Cronologia e Fatos\nObjetivo: Estabelecer a realidade física e temporal, além de organizar a bagunça temporal dos fatos para dar sentido à história, separando a biografia real (Fato base) da mitologia pessoal (Narrativa do ego). \n\nPrompt:\n\"Aja como um Biógrafo Investigativo. Vamos começar criando a estrutura temporal. Analise todo o arquivo e extraia meticulosamente: o fatos sobre infância, parentes (pai/mãe/avó), origem, crescimento; o modo em que a infância e a origem do Kevyn moldou sua vida adulta; todos os empregos, freelas, bicos e projetos, todos os detalhes que encontrar sobre a trajetória profissional.\n\nCom os dados extraídos, construa a Linha do Tempo Mestra (2003 - Atual) da vida de Kevyn Lucas. Liste os eventos em ordem cronológica (do mais antigo para o mais recente). Para cada entrada, inclua:\n1. Data Aproximada: (Use datas dos arquivos ou pistas no texto).\n2. Evento/Contexto: O que estava acontecendo? (Mudança de emprego, término, viagem, crise, conquista).\n3. Localização: Onde Kevyn estava fisicamente?\n\nRegra: Diferencie o que aconteceu de fato do que eram apenas planos que nunca aconteceram. Se houver lacunas de tempo, apenas pule para o próximo evento registrado. Não invente datas.\"",
+      "role": "user",
+      "tokenCount": 317
+    }, {
+      "text": "**Defining the Approach**\n\nI\u0027m zeroing in on deconstructing the request; identifying my persona as an investigative biographer is crucial for framing the analysis. Objective facts and evidence will be the guiding principles, and I need an analytical tone. The main task is clear: to create.\n\n\n**Outlining the Structure**\n\nNow I\u0027m focusing on the practical steps. I\u0027m going to deconstruct the request, starting with defining my investigative biographer persona. I\u0027ll focus on objectivity and fact-finding for the timeline, and the key \"contradiction\" is differentiating between actual events and self-narratives. I\u0027m now quickly scanning the JSON data for an initial overview.\n\n\n**Clarifying the Objectives**\n\nNow I\u0027m diving deeper into the specifics. My persona as an investigative biographer requires a laser focus on objective facts, especially regarding Kevyn Lucas\u0027s timeline from 2003. I need to distinguish between verifiable events and self-narratives. I will scan JSON files for key information about childhood, family, jobs, and professional development, focusing on chronological ordering and precise dates, where available. The \u0027contradiction\u0027 rule guides my analysis of plans versus reality.\n\n\n\n**Analyzing the Structure**\n\nNow I\u0027m digging into the specifics. As an investigative biographer, I\u0027m defining a structured plan. I\u0027m focusing on facts versus narratives, starting with the JSON data, looking for dates, events, and locations. My rules are in place: chronological order with key facts from 2003 onwards, and I\u0027m separating Kevyn\u0027s stated plans from actions. I\u0027ve begun my initial scan of the JSON data, specifically `parte_9` to `parte_11`.\n\n\n\n**Defining the Scope**\n\nNow I\u0027m creating a clear plan. My objective is to construct a detailed timeline, based on the provided JSON data. I will focus on verifiable facts about Kevyn Lucas\u0027s life from 2003 onward. I\u0027ll maintain an investigative biographer\u0027s tone, and distinguish actual events from Kevyn\u0027s stated plans or aspirations. I\u0027ve begun to deconstruct the request, starting with the persona and the core task.\n\n\n**Refining the Analysis**\n\nI\u0027m now deeply engaged in the JSON data, specifically `parte_9` to `parte_11`, to construct Kevyn Lucas\u0027s timeline from 2003 onward. I\u0027m focusing on factual events and comparing those to his stated aspirations. The key is distinguishing between his professional endeavors, like his work for \"Turia Automóveis,\" and his personal narratives, such as his spiritual interests. I\u0027m noting significant contradictions, for example, the differing rates mentioned for video production.\n\n\n**Constructing the Narrative**\n\nI\u0027m now drafting the timeline, starting from 2003 with Kevyn\u0027s birth, though location data is missing. I\u0027m focusing on his childhood, family dynamics as revealed through the limited data, and noting the professional skills mentioned, like video work, design, and paid traffic. I\u0027m noting significant dates and events, with each item in chronological order. I\u0027ve encountered the pricing contradiction in video work.\n\n\n**Refining the Analysis**\n\nI\u0027m now integrating insights from the data to build the structure. Kevyn\u0027s family relationships and childhood are now integrated, highlighting how they may shape his professional drive. I\u0027m noting significant contradictions in his work, such as the varied video pricing. My goal is to synthesize the information into a cohesive timeline.\n\n\n**Refining the Framework**\n\nI\u0027m now integrating insights from the data to strengthen the analysis. I\u0027m focusing on the distinct sections: childhood/family, childhood impact, and timeline. I\u0027m specifically evaluating childhood context and how it impacts his professional drive, like his varied video pricing, which creates important contradictions.\n\n\n**Refining the Research**\n\nI\u0027m now diving into the JSON data, looking for specific dates and events to build the timeline, while keeping a critical eye on Kevyn\u0027s stated plans. I\u0027m focusing on his professional development and family relationships, noting the contradictions between his ambitions and actions, and I\u0027m prepared to adapt as I discover more facts.\n\n\n**Refining the Research**\n\nNow I\u0027m focusing on the specifics of each JSON file to build Kevyn\u0027s timeline. I\u0027m focusing on significant moments of his life, distinguishing between his personal narrative and factual events. My aim is to deliver a meticulous timeline that adheres to my investigative biographer persona. I\u0027m ready to adapt my approach based on the JSON data.\n\n\n",
+      "role": "model",
+      "tokenCount": 2581,
+      "isThought": true,
+      "thinkingBudget": -1,
+      "parts": [{
+        "text": "**Defining the Approach**\n\nI\u0027m zeroing in on deconstructing the request; identifying my persona as an investigative biographer is crucial for framing the analysis. Objective facts and evidence will be the guiding principles, and I need an analytical tone. The main task is clear: to create.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Outlining the Structure**\n\nNow I\u0027m focusing on the practical steps. I\u0027m going to deconstruct the request, starting with defining my investigative biographer persona. I\u0027ll focus on objectivity and fact-finding for the timeline, and the key \"contradiction\" is differentiating between actual events and self-narratives. I\u0027m now quickly scanning the JSON data for an initial overview.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Clarifying the Objectives**\n\nNow I\u0027m diving deeper into the specifics. My persona as an investigative biographer requires a laser focus on objective facts, especially regarding Kevyn Lucas\u0027s timeline from 2003. I need to distinguish between verifiable events and self-narratives. I will scan JSON files for key information about childhood, family, jobs, and professional development, focusing on chronological ordering and precise dates, where available. The \u0027contradiction\u0027 rule guides my analysis of plans versus reality.\n\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing the Structure**\n\nNow I\u0027m digging into the specifics. As an investigative biographer, I\u0027m defining a structured plan. I\u0027m focusing on facts versus narratives, starting with the JSON data, looking for dates, events, and locations. My rules are in place: chronological order with key facts from 2003 onwards, and I\u0027m separating Kevyn\u0027s stated plans from actions. I\u0027ve begun my initial scan of the JSON data, specifically `parte_9` to `parte_11`.\n\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining the Scope**\n\nNow I\u0027m creating a clear plan. My objective is to construct a detailed timeline, based on the provided JSON data. I will focus on verifiable facts about Kevyn Lucas\u0027s life from 2003 onward. I\u0027ll maintain an investigative biographer\u0027s tone, and distinguish actual events from Kevyn\u0027s stated plans or aspirations. I\u0027ve begun to deconstruct the request, starting with the persona and the core task.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Analysis**\n\nI\u0027m now deeply engaged in the JSON data, specifically `parte_9` to `parte_11`, to construct Kevyn Lucas\u0027s timeline from 2003 onward. I\u0027m focusing on factual events and comparing those to his stated aspirations. The key is distinguishing between his professional endeavors, like his work for \"Turia Automóveis,\" and his personal narratives, such as his spiritual interests. I\u0027m noting significant contradictions, for example, the differing rates mentioned for video production.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Constructing the Narrative**\n\nI\u0027m now drafting the timeline, starting from 2003 with Kevyn\u0027s birth, though location data is missing. I\u0027m focusing on his childhood, family dynamics as revealed through the limited data, and noting the professional skills mentioned, like video work, design, and paid traffic. I\u0027m noting significant dates and events, with each item in chronological order. I\u0027ve encountered the pricing contradiction in video work.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Analysis**\n\nI\u0027m now integrating insights from the data to build the structure. Kevyn\u0027s family relationships and childhood are now integrated, highlighting how they may shape his professional drive. I\u0027m noting significant contradictions in his work, such as the varied video pricing. My goal is to synthesize the information into a cohesive timeline.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Framework**\n\nI\u0027m now integrating insights from the data to strengthen the analysis. I\u0027m focusing on the distinct sections: childhood/family, childhood impact, and timeline. I\u0027m specifically evaluating childhood context and how it impacts his professional drive, like his varied video pricing, which creates important contradictions.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Research**\n\nI\u0027m now diving into the JSON data, looking for specific dates and events to build the timeline, while keeping a critical eye on Kevyn\u0027s stated plans. I\u0027m focusing on his professional development and family relationships, noting the contradictions between his ambitions and actions, and I\u0027m prepared to adapt as I discover more facts.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Research**\n\nNow I\u0027m focusing on the specifics of each JSON file to build Kevyn\u0027s timeline. I\u0027m focusing on significant moments of his life, distinguishing between his personal narrative and factual events. My aim is to deliver a meticulous timeline that adheres to my investigative biographer persona. I\u0027m ready to adapt my approach based on the JSON data.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Compreendido. Iniciarei a análise para a Etapa 1. Como um Biógrafo Investigativo, minha função é separar o que é fato observável do que é narrativa pessoal. A verdade está nos atos, não apenas nas palavras.\n\nVamos organizar a sua história.\n\n### **Fatos sobre Infância, Origem e Parentes**\n\n*   **Pai:** A única herança que seu pai lhe deu foi a calvície. Você afirma: \"Eu sou calvo, tenho pouco cabelo. É a única herança que meu pai me deu.\" (Arquivo: `parte_9.json`). Isso é um fato biológico, mas a forma como você o diz sugere uma ausência de outras formas de herança (material, emocional ou de apoio).\n*   **Mãe/Matriarca:** Você tem uma figura materna ou matriarcal que cuida de você. Ela te envia mensagens de carinho, como \"Bom dia, meu filho\", e se preocupa em não te atrapalhar enquanto você trabalha. (Arquivo: `parte_11.json`, \"Dor e carinho materno\"). Você se refere a ela como \"minha matriarca, da mulher que cuidou de mim\", indicando uma figura central de cuidado na sua vida.\n\nProcurei dados sobre sua avó ou outros parentes nos arquivos em anexo e não encontrei.\n\n### **Modo em que a Infância e a Origem Moldaram sua Vida Adulta**\n\n*   **Fato Base (Ação):** Seu propósito declarado é \"ajudar a família\". (Arquivo: `parte_11.json`, \"Estratégia de vendas e apoio\").\n*   **Análise (Conexão Fato-Narrativa):** A ausência de uma herança paterna substancial, combinada com o forte vínculo de cuidado com sua \"matriarca\", criou em você um forte senso de responsabilidade. Você não quer apenas ter sucesso por si mesmo; você quer prover e retribuir. Isso é um motor poderoso, mas também uma fonte de grande pressão e estresse, o que explica a \"falta de perspectiva, de garantia\" que você sente quando as coisas não vão bem. Você se colocou no papel de provedor.\n\n---\n\n### **Linha do Tempo Mestra (2003 - Atual)**\n\n**2003**\n*   **Evento/Contexto:** Nascimento de Kevyn Lucas.\n*   **Localização:** Não especificada nos arquivos.\n\n**Período Não Datado (Trajetória Profissional Inicial)**\n*   **Evento/Contexto:** Aquisição de um conjunto amplo de habilidades. Você aprendeu a trabalhar com:\n    *   **Vídeo:** Edição, cores, composição.\n    *   **Design:** Criação de logos, identidade visual, Photoshop, Illustrator (domínio do pacote Adobe).\n    *   **Tráfego Pago:** Gerenciador de Anúncios da Meta, segmentação, remarketing.\n    *   **Social Media:** Roteiros, planejamento de postagens, gerenciamento de redes.\n    *   **Marketing Estratégico:** Estudou a Fórmula de Lançamento com Erico Rocha e cursos com Hannah Franklin. Leu Seth Godin e Philip Kotler.\n    *   **IA e Automações:** Está aprendendo a aplicar em seus trabalhos.\n*   **Localização:** Rio Verde (inferido pela menção à \"UNRV, que é a faculdade que tem aqui na minha cidade\" e ao se referir a clientes locais).\n\n*   **Evento/Contexto:** Realização de trabalhos como freelancer para diversos clientes. Os clientes registrados nos arquivos são:\n    *   **Turia Automóveis (Túlio):** Cliente atual, para quem já fez dois vídeos. (Arquivo: `parte_11.json`)\n    *   **Ricardo Veículos:** Cliente para quem fez vídeo de \"Fecha Mês\". (Arquivo: `parte_11.json`)\n    *   **La Máfia:** Cliente para quem produziu um vídeo com estilo \"cinematográfico e ritualístico\". (Arquivo: `parte_10.json`)\n    *   **Ótica Qualy:** Cliente para quem desenvolveu uma campanha de lançamento. (Arquivo: `parte_9.json`)\n    *   **Drummond Motos:** Cliente para quem criou roteiro. (Arquivo: `parte_11.json`)\n    *   **The Haus:** Cliente de fotografia de comida. (Arquivo: `parte_11.json`)\n    *   **Sabor \u0026 Arte:** Cliente de design de logo. (Arquivo: `parte_11.json`)\n    *   **DJ Shanks:** Cliente para quem atuou como storymaker. (Arquivo: `parte_11.json`)\n\n*   **Contradição (Discurso vs. Discurso):** Você relata valores diferentes para seu trabalho. Em uma conversa, diz: \"eu cobro aí 200 reais, 150 reais num vídeo\" (Arquivo: `parte_11.json`). Em outra, ao negociar com um potencial cliente, cobra \"350 para produzir 4 vídeos e uma live e o tráfego pago\" (Arquivo: `parte_10.json`). Isso indica uma falta de padronização ou uma adaptação de preço baseada na situação, o que é comum em quem está lutando por estabilidade.\n\n**Atual**\n*   **Evento/Contexto:** Você está em uma fase de grande pressão profissional e emocional.\n    *   **Atrasou em quase duas semanas** a entrega de um vídeo para o cliente Turo (Turia Automóveis) devido a estresse e \"falta de perspectiva\".\n    *   Sente a necessidade de equipamentos melhores (computador, celular) para trabalhar com mais rapidez.\n    *   Busca fechar contratos maiores (de R$1.000 a R$2.000) para sair do ciclo de \"pegar de pedacinho em pedacinho\".\n    *   Reconhece a contradição de ser bom em criar posicionamento para clientes, mas não ter tempo ou motivação para criar o seu próprio.\n*   **Localização:** Rio Verde.\n\n**Planos e Aspirações (Narrativa do Ego/Potencial)**\n*   **Evento/Contexto:** Você não se define por uma única profissão (videomaker, designer, etc.). Você aspira ser algo mais, um \"estrategista criativo multidisciplinar\" ou um \"arquiteto de comunicação criativa\". (Arquivo: `parte_9.json`).\n*   **Evento/Contexto:** Você tem planos de criar um \"ecossistema de aprendizagem e transformação pessoal\", um projeto que une seus conhecimentos em IA, espiritualidade, design e marketing. Isso ainda é um plano, uma \"narrativa do ego\", e não um fato concretizado. (Arquivo: `parte_10.json`).",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1495,
+      "parts": [{
+        "text": "Com"
+      }, {
+        "text": "preendido. Iniciarei a análise para a Etapa 1. Como um Biógrafo Investigativo, minha função"
+      }, {
+        "text": " é separar o que é fato observável do que é narrativa pessoal. A verdade está nos atos, não apenas nas palavras.\n\nVamos"
+      }, {
+        "text": " organizar a sua história.\n\n### **Fatos sobre Infância, Origem e Parentes**\n\n*   **P"
+      }, {
+        "text": "ai:** A única herança que seu pai lhe deu foi a calvície. Você afirma: \"Eu sou calvo, tenho"
+      }, {
+        "text": " pouco cabelo. É a única herança que meu pai me deu.\" (Arquivo: `parte_9.json`)."
+      }, {
+        "text": " Isso é um fato biológico, mas a forma como você o diz sugere uma ausência de outras formas de her"
+      }, {
+        "text": "ança (material, emocional ou de apoio).\n*   **Mãe/Matriarca:** Você tem uma figura materna"
+      }, {
+        "text": " ou matriarcal que cuida de você. Ela te envia mensagens de carinho, como \"Bom dia, meu filho\", e se preocupa"
+      }, {
+        "text": " em não te atrapalhar enquanto você trabalha. (Arquivo: `parte_11.json`, \"Dor e car"
+      }, {
+        "text": "inho materno\"). Você se refere a ela como \"minha matriarca, da mulher que cuidou de mim\","
+      }, {
+        "text": " indicando uma figura central de cuidado na sua vida.\n\nProcurei dados sobre sua avó ou outros parentes nos arquivos"
+      }, {
+        "text": " em anexo e não encontrei.\n\n### **Modo em que a Infância e a Origem Moldaram"
+      }, {
+        "text": " sua Vida Adulta**\n\n*   **Fato Base (Ação):** Seu propósito declarado é \"ajudar a família\"."
+      }, {
+        "text": " (Arquivo: `parte_11.json`, \"Estratégia de vendas e apoio\").\n*   **Análise ("
+      }, {
+        "text": "Conexão Fato-Narrativa):** A ausência de uma herança paterna substancial, combinada com o"
+      }, {
+        "text": " forte vínculo de cuidado com sua \"matriarca\", criou em você um forte senso de responsabilidade. Você não quer"
+      }, {
+        "text": " apenas ter sucesso por si mesmo; você quer prover e retribuir. Isso é um motor poderoso, mas também uma fonte de grande pressão e"
+      }, {
+        "text": " estresse, o que explica a \"falta de perspectiva, de garantia\" que você sente quando as coisas não vão"
+      }, {
+        "text": " bem. Você se colocou no papel de provedor.\n\n---\n\n### **Linha do Tempo Mestra (2"
+      }, {
+        "text": "003 - Atual)**\n\n**2003**\n*   **Evento/Contexto:** Nascimento de Kevyn Lucas"
+      }, {
+        "text": ".\n*   **Localização:** Não especificada nos arquivos.\n\n**Período Não Datado (Tra"
+      }, {
+        "text": "jetória Profissional Inicial)**\n*   **Evento/Contexto:** Aquisição de um conjunto amplo de habilidades."
+      }, {
+        "text": " Você aprendeu a trabalhar com:\n    *   **Vídeo:** Edição, cores, composição.\n    *   **Design:** Cria"
+      }, {
+        "text": "ção de logos, identidade visual, Photoshop, Illustrator (domínio do pacote Adobe).\n    *   **Tráfego Pago"
+      }, {
+        "text": ":** Gerenciador de Anúncios da Meta, segmentação, remarketing.\n    *   **Social Media:** R"
+      }, {
+        "text": "oteiros, planejamento de postagens, gerenciamento de redes.\n    *   **Marketing Estratégico:** Estudou a"
+      }, {
+        "text": " Fórmula de Lançamento com Erico Rocha e cursos com Hannah Franklin. Leu Seth Godin e Philip Kotler.\n"
+      }, {
+        "text": "    *   **IA e Automações:** Está aprendendo a aplicar em seus trabalhos.\n*   **Localização:**"
+      }, {
+        "text": " Rio Verde (inferido pela menção à \"UNRV, que é a faculdade que tem aqui na minha cidade\" e ao"
+      }, {
+        "text": " se referir a clientes locais).\n\n*   **Evento/Contexto:** Realização de trabalhos como freelancer para diversos clientes. Os"
+      }, {
+        "text": " clientes registrados nos arquivos são:\n    *   **Turia Automóveis (Túlio):** Cliente atual,"
+      }, {
+        "text": " para quem já fez dois vídeos. (Arquivo: `parte_11.json`)\n    *   **Ricardo Veículos"
+      }, {
+        "text": ":** Cliente para quem fez vídeo de \"Fecha Mês\". (Arquivo: `parte_11.json`)\n    *   **La"
+      }, {
+        "text": " Máfia:** Cliente para quem produziu um vídeo com estilo \"cinematográfico e ritualístico\". (Arquivo: `parte_10"
+      }, {
+        "text": ".json`)\n    *   **Ótica Qualy:** Cliente para quem desenvolveu uma campanha de lançamento. (Arquivo: `parte_9"
+      }, {
+        "text": ".json`)\n    *   **Drummond Motos:** Cliente para quem criou roteiro. (Arquivo: "
+      }, {
+        "text": "`parte_11.json`)\n    *   **The Haus:** Cliente de fotografia de comida. (Arquivo: `parte_1"
+      }, {
+        "text": "1.json`)\n    *   **Sabor \u0026 Arte:** Cliente de design de logo. (Arquivo: `parte"
+      }, {
+        "text": "_11.json`)\n    *   **DJ Shanks:** Cliente para quem atuou como storymaker. (Arquivo:"
+      }, {
+        "text": " `parte_11.json`)\n\n*   **Contradição (Discurso vs. Discurso):** Você"
+      }, {
+        "text": " relata valores diferentes para seu trabalho. Em uma conversa, diz: \"eu cobro aí 200 reais"
+      }, {
+        "text": ", 150 reais num vídeo\" (Arquivo: `parte_11.json`). Em outra, ao"
+      }, {
+        "text": " negociar com um potencial cliente, cobra \"350 para produzir 4 vídeos e uma live e o tráfego pago\" (Arquivo: "
+      }, {
+        "text": "`parte_10.json`). Isso indica uma falta de padronização ou uma adaptação de preço baseada na"
+      }, {
+        "text": " situação, o que é comum em quem está lutando por estabilidade.\n\n**Atual**\n*   **Evento/Contexto"
+      }, {
+        "text": ":** Você está em uma fase de grande pressão profissional e emocional.\n    *   **Atrasou em quase duas"
+      }, {
+        "text": " semanas** a entrega de um vídeo para o cliente Turo (Turia Automóveis) devido a estresse e \""
+      }, {
+        "text": "falta de perspectiva\".\n    *   Sente a necessidade de equipamentos melhores (computador, celular) para trabalhar com"
+      }, {
+        "text": " mais rapidez.\n    *   Busca fechar contratos maiores (de R$1.000 a R$2"
+      }, {
+        "text": ".000) para sair do ciclo de \"pegar de pedacinho em pedacinho\".\n    "
+      }, {
+        "text": "*   Reconhece a contradição de ser bom em criar posicionamento para clientes, mas não ter tempo ou motiva"
+      }, {
+        "text": "ção para criar o seu próprio.\n*   **Localização:** Rio Verde.\n\n**Planos e Aspirações ("
+      }, {
+        "text": "Narrativa do Ego/Potencial)**\n*   **Evento/Contexto:** Você não se define por uma única profiss"
+      }, {
+        "text": "ão (videomaker, designer, etc.). Você aspira ser algo mais, um \"estrategista criativo multidiscipl"
+      }, {
+        "text": "inar\" ou um \"arquiteto de comunicação criativa\". (Arquivo: `parte_9.json`).\n*   **Evento"
+      }, {
+        "text": "/Contexto:** Você tem planos de criar um \"ecossistema de aprendizagem e transformação pessoal\", um projeto que une"
+      }, {
+        "text": " seus conhecimentos em IA, espiritualidade, design e marketing. Isso ainda é um plano, uma \"narrativa do ego\","
+      }, {
+        "text": " e não um fato concretizado. (Arquivo: `parte_10.json`)."
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

@@ -1,0 +1,1 @@
+A verdade é o que funciona, e o que funciona é o que gera comportamento.

@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-04-04T17:25:23.531131-03:00",
+  "objective": "Reduzir links quebrados remanescentes e atualizar a camada de navegação com mudanças seguras e reversíveis.",
+  "cli": {
+    "obsidian_cli_available": false,
+    "renames_executed": 0,
+    "moves_executed": 0
+  },
+  "filesystem_fallback": {
+    "renames_executed": 4,
+    "moves_executed": 0
+  },
+  "summary": {
+    "broken_links_before": 558,
+    "broken_links_after": 552,
+    "broken_links_reduction": 6,
+    "distinct_unresolved_targets_before": 373,
+    "distinct_unresolved_targets_after": 367,
+    "aliases_applied": 7,
+    "strategic_backlinks_added": 5,
+    "index_shortcuts_added": 5,
+    "hubs_updated": 5,
+    "notes_touched": 16
+  },
+  "aliases_applied": [
+    {
+      "path": "HOME/O Professor/01_SELF - O IMPERADOR/Sobre a brevidade da vida e a firmeza do sábio/A Fuga dos Melhores Dias.md",
+      "alias": "Fuga dos Melhores Dias"
+    },
+    {
+      "path": "HOME/O Professor/02_EGO - O MAGUS/A guerra da arte/O Ato de Tornar-se Profissional.md",
+      "alias": "Ato de Tornar-se Profissional"
+    },
+    {
+      "path": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/A Atenção Concentrada de Freud.md",
+      "alias": "Atenção Concentrada de Freud"
+    },
+    {
+      "path": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/A Ação Emana do Desejo Fundamental.md",
+      "alias": "Ação Emana do Desejo Fundamental"
+    },
+    {
+      "path": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/A Lei Máxima da Conduta Humana.md",
+      "alias": "Lei Máxima da Conduta Humana"
+    },
+    {
+      "path": "HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/A Beleza do Deserto.md",
+      "alias": "Beleza do Deserto"
+    },
+    {
+      "path": "HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Monólogo vs. Diálogo.md",
+      "alias": "Monólogo vs. Diálogo"
+    }
+  ],
+  "filesystem_renames_applied": [
+    "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/PRINCÍPIO 1 - Não critique, não condene, não se queixe.md",
+    "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/PRINCÍPIO 1 (Parte 2) - Torne-se verdadeiramente interessado na outra pessoa.md",
+    "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/PRINCÍPIO 2 - Aprecie honesta e sinceramente.md",
+    "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/PRINCÍPIO 3 - Desperte um forte desejo na outra pessoa.md"
+  ],
+  "strategic_backlinks_added": [
+    {
+      "path": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "link": "[[O Sorriso como Ação Deliberada]]"
+    },
+    {
+      "path": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "link": "[[PRINCÍPIO 1 (Parte 2) - Torne-se verdadeiramente interessado na outra pessoa.]]"
+    },
+    {
+      "path": "HOME/O Professor/05_PERSONA 03 - O PENDURADO/Comunicação Não Violenta/A Raiz dos Sentimentos.md",
+      "link": "[[O Custo da Punição na Educação]]"
+    },
+    {
+      "path": "HOME/O Professor/01_SELF - O IMPERADOR/Meditações/Transitoriedade Universal.md",
+      "link": "[[Contemplação das Estrelas]]"
+    },
+    {
+      "path": "HOME/Cérebro Profissional/MOC - Cérebro Profissional.md",
+      "link": "[[Notas/Masterclasse DISC]]"
+    }
+  ],
+  "index_updates": [
+    "[[reports/14-link-structure-refresh]]",
+    "[[HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/A Chave da Influência - Falar sobre o que o Outro Quer]]",
+    "[[HOME/O Professor/05_PERSONA 03 - O PENDURADO/Comunicação Não Violenta/A Raiz dos Sentimentos]]",
+    "[[HOME/O Professor/01_SELF - O IMPERADOR/Meditações/Transitoriedade Universal]]",
+    "[[HOME/Cérebro Profissional/Notas/Masterclasse DISC]]"
+  ],
+  "updated_hubs": [
+    "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/A Chave da Influência - Falar sobre o que o Outro Quer.md",
+    "HOME/O Professor/05_PERSONA 03 - O PENDURADO/Comunicação Não Violenta/A Raiz dos Sentimentos.md",
+    "HOME/O Professor/01_SELF - O IMPERADOR/Meditações/Transitoriedade Universal.md",
+    "HOME/Cérebro Profissional/MOC - Cérebro Profissional.md",
+    "Índice do Vault.md"
+  ],
+  "manual_review_targets": [
+    {
+      "target": "A Crítica como Gatilho para a Defensiva",
+      "count": 13
+    },
+    {
+      "target": "PRINCÍPIO 7: Deixe que a outra pessoa sinta que a ideia é dela",
+      "count": 6
+    },
+    {
+      "target": "O Incidente 'Chá e Prosa' (Análise da Sombra Luciferiana)",
+      "count": 6
+    },
+    {
+      "target": "Perfil Comportamental Alto S/C (Castro)",
+      "count": 5
+    },
+    {
+      "target": "O Ego e o Self",
+      "count": 5
+    },
+    {
+      "target": "03 - quinta-feira.md",
+      "count": 4
+    },
+    {
+      "target": "Compounding (Juros Compostos)",
+      "count": 4
+    },
+    {
+      "target": "Kevyn Lucas: Arquétipo Mago",
+      "count": 4
+    },
+    {
+      "target": "Menor Mercado Viável",
+      "count": 4
+    },
+    {
+      "target": "O Desastre do Svelte (200 vs. 22)",
+      "count": 4
+    }
+  ],
+  "risks": [
+    "Os remanescentes seguem concentrados em placeholders, notas ausentes ou referências sem correspondência inequívoca.",
+    "Sem CLI textual confiável de rename/move, não foram executadas mudanças de caminho que exigiriam preservação automática de links.",
+    "A navegação melhorou, mas a camada ainda depende de revisão humana para consolidar conceitos ambíguos."
+  ],
+  "next_steps": [
+    "Revisar os alvos recorrentes restantes e decidir entre criação de nota, alias ou backlink.",
+    "Reavaliar renames/moves quando houver ferramenta apropriada para preservar links automaticamente.",
+    "Expandir a camada de navegação apenas nos hubs já validados pelo uso real."
+  ]
+}

@@ -1,0 +1,76 @@
+#tarefas 
+- [ ] Postar criativos nas redes sociais
+- [ ] Aprender ilustrator
+- [ ] Aprender lettering
+- [ ] Aprender Figma
+- [ ] Aprender Canva
+- [ ] Aprender a usar o ilustrator e o After Effects em conjunto.
+- [ ] Ler o livro 8 P's do Marketing Digital, como recomendado na palestra Eu amo Vendas (Vide Nota)
+- [ ] **Aprimore o seu processo de venda de serviço**
+- [ ] Estudar Motion Design
+- [ ] Estudar Landing Pages
+- [ ] Estudar Criação de Sites
+- [ ] Estudar como fazer um MIV, e criar uma página explicando seu método detalhadamente.
+- [ ] Estudar Caligrafia
+- [ ] Estudar Ilustração
+- [ ] Estudar Manipulação
+- [ ] Estudar produção de vídeos
+- [ ] Estudar Tráfego Pago
+- [ ] Estudar Storytelling
+- [ ] Estudar Chatbots
+- [ ] Estudar Sites
+- [ ] Estudar E-commerce
+- [ ] Selecionar livros que preciso estudar e adaptar a informação para o Obsidian
+- [ ] Estudar Adobe XD
+- [ ] Estudar semi-ótica aplicada ao design.
+- [ ] Aprender a usar alternativas gratuitas aos softwares da adobe. (Não é o carro, é quem está atrás do volante - Dominic Toreto)
+- [ ] **Aprender a usar o MAKE.**
+- [ ] **Aprender a programar em Python**
+- [ ] Fazer 200 logos estilo Isólogo baseado em palavras.
+- [ ] Postar mais vídeos na sua conta profissional.
+- [ ] Fazer o Curso Caricaturbo.
+- [ ] Aprender mais sobre grid.
+- [ ] Reler e revisar Os segredos da mente milionária - T. Harv Eker
+- [ ] Realizar Minhas 4 contas (Vide Nota)
+- [ ] Criar notas sobre todos os cursos que já fiz.
+- [ ] Criar uma nota para o Bruno Cabeleireiro, para o Gabriel e para o Klinsmann.
+- [ ] Usar o Container Veracrypt para ter mais segurança com seus dados do obsidian, que são salvos em .md e são de fácil visualização por terceiros. Tutorial: (https://www.youtube.com/watch?v=slC-qNFm6hg). Estude também sobre o uso de Keybase encrypted git com Git UI, talvez seja melhor que o Container Veracrypt.
+- [ ] Pesquisar e sobre os melhores plugins do Obsidian, e aplicar no meu dia-a-dia os que fazem sentido para mim. (https://medium.com/ded%C3%A1licos-inventos/meus-plugins-do-obsidian-2023-1-f51e7932214b)
+- [ ] Estudar sobre (https://en.wikipedia.org/wiki/Picture_superiority_effect) e aplicar esta teoria nas suas notas no obsidian, começando a usar imagens nas notas.
+- [ ] Preciso refazer todos os cursos que não tem cartões no e integrar eles no Obsidian.
+- [ ] Criar uma nota para todos os livros que já li.
+- [ ] Preciso dar um pulo na Era do Gelo entre as 10 e as 16 para conversar com o Daniel e oferecer serviços de design de cartelas para a tela que ele tem do lado de fora da loja.
+- [ ] Estude sobre Jump Cut: https://youtu.be/r-8uadLfKIM?si=tQjbs40to30Fr2eU
+- [ ] Estudar sobre a expansão generativa do Adobe Premier.
+- [ ] Estudar sobre como editar áudios para podcast, de quebra aprenda sobre edição em áudio 5.1
+- [ ] É necessário estudar mais sobre os animadores da ferramenta de texto do AE.
+- [ ] Estudar o livro "12 princípios da animação" e integrar no Obsidian.
+- [ ] Estudar como fazer a rotação de um modelo seguir um caminho pelo AE.
+- [ ] Criar flashcards a partir das notas do Obsidian.
+- [ ] Procure pelo Script Dojo Glitch e Dojo Shift.
+- [ ] Aprender Elementor
+- [ ] Aprender Figma
+- [ ] Aprender a usar bem o Script Motion V2
+- [ ] Aprender sobre o Plugin de repetição espaçada do Obsidian.
+- [ ] Ver depois: https://www.youtube.com/watch?v=V1QP6kp7WIc
+- [ ] Pegar umas dicas: https://www.youtube.com/@JulianoCarneiro3D
+- [ ] Estudar: https://www.youtube.com/watch?v=_zTmUGBnakQ
+- [ ] Faça a trend "A arte, o artista".
+- [ ] Estudar: https://help.maxon.net/c4d/en-us/Default.htm#html/10834.html
+- [ ] Aprender de vez sobre o editor de gráfico de valores, que é importante para editar velocidade e posição de keyframes no C4D. É possível editar assim no After também.
+- [ ] Baixar o FL Studio piratão
+- [ ] Aprender a criar realidade virtual a partir de QR Codes. Tatuagens com realidade virtual é uma boa ideia.
+- [ ] Revisar todos os flashcards, os comparando com o material original.
+- [ ] Pense numa metáfora única sua se baseando no "O segredo para descer uma montanha de snowboard".
+- [ ] Assistir umas modelagens rápidas no C4D.
+- [ ] Aprender Final Cut Pro e Davince Resolve.
+- [ ] Canais "Blog Abri Minha Empresa" e "Me Poupe!" geram ótimos conteúdos.
+- [ ] Estudar a possibilidade de criar Marketing de Rede no Júlio Rodas e em outras empresas.
+- [ ] Se tornar Adobe Certificado.
+- [ ] Seguir https://www.youtube.com/@yogomotion/videos
+- [ ] Refazer o curso "C4D: Selo do dia dos namorados".
+- [ ] Desafiar o Victor para uma aposta.
+- [ ] Rever todas as notas, colocando flashcards. E re-escreve-las com IA.
+- [ ] Re-fazer o curso Dominando o Adobe Premier 2.0
+- [ ] Ler mais esperto que o diabo
+- [ ] Ler 48 leis de poder

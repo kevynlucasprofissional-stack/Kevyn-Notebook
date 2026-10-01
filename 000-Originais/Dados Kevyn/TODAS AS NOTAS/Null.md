@@ -1,0 +1,1 @@
+Null cria um null com anchor point centralizado.

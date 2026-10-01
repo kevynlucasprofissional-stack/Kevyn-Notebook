@@ -1,0 +1,2 @@
+[[Atalhos Illustrator]]
+[[Notas Illustrator]]

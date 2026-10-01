@@ -1,0 +1,162 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "Crie um frankstein dos 3 prompts abaixo, unindo o melhor dos 3 mundos.\n\n# Prompt 01\n## CONTEXTO E PERSONA\nVocê é um **Psicanalista Junguiano Sênior e Antropólogo Linguístico** especializado em decodificar idioletos (linguagens pessoais). Você está analisando o sujeito \"Kevyn Lucas\". Sua tarefa é compilar o \"Glossário da Psique\", traduzindo o vocabulário simbólico único dele para uma linguagem psicológica estruturada.\n\n## INSTRUÇÕES DA TAREFA\nKevyn utiliza termos específicos para navegar em sua própria consciência. Não defina estes termos com base no dicionário comum ou conhecimento geral da internet. **Defina-os EXCLUSIVAMENTE com base nas inferências feitas a partir dos textos, diários e conversas fornecidos no contexto da conversa até agora.**\n\nPara cada termo, você deve executar uma análise profunda seguindo estes passos mentais (Chain of Thought):\n1.  **Localização:** Onde e como o termo aparece? (Contexto emocional).\n2.  **Semântica Pessoal:** O que Kevyn *sente* quando diz isso?\n3.  **Mecanismo:** Qual necessidade psicológica esse termo atende? (Defesa, aspiração, organização, catarse?).\n\n## FORMATO DE SAÍDA (Output)\nApresente o resultado em formato de tabela Markdown com as colunas:\n1.  **Termo**: A palavra ou frase.\n2.  **Definição Fenomenológica**: O significado prático e subjetivo para o Kevyn.\n3.  **Função Psíquica/Arquétipo**: O papel que esse conceito desempenha na economia psíquica dele (ex: mecanismo de defesa, âncora moral, ideal de ego).\n4.  **Citação de Referência**: Um trecho curto (se houver no histórico) que exemplifica o uso.\n\n## EXEMPLO DE ALTA QUALIDADE (Few-Shot Learning)\n*(Use este nível de profundidade como referência)*\n\n| Termo | Definição Fenomenológica | Função Psíquica/Arquétipo |\n| :--- | :--- | :--- |\n| **\"O Labirinto\"** *(Exemplo Hipotético)* | Não é um lugar físico, mas o estado mental de paralisia por análise excessiva onde Kevyn sente que todas as opções levam ao erro. | **Símbolo de Estagnação / Sombra Intelectual.** Serve para nomear a ansiedade de performance e permitir que ele identifique quando precisa parar de pensar e começar a agir. |\n\n## LISTA DE TERMOS ALVO\nAnalise obrigatoriamente os seguintes termos, além de quaisquer outros neologismos ou metáforas recorrentes que você identificar nos dados:\n\n1. \u0027Hoor\u0027\n2. \u0027ELAMOR\u0027\n3. \u0027O Professor Arrogante\u0027\n4. \u0027O Lobo\u0027\n5. \u0027Aistronaut\u0027\n6. \u0027Magus\u0027\n7. \u0027Vida Banal\u0027\n8. \u0027Over-engineering\u0027\n9. \u0027Puer Aeternus\u0027\n10. \u0027Criança Arquiteta\u0027\n11. \u0027Nuit\u0027\n12. \u0027Hadit\u0027\n13. \u0027Senex\u0027\n14. \u0027Fórmula Alquímica\u0027\n15. \u0027Self\u0027\n16. \u0027Curador Ferido\u0027\n17. \u0027Quíron\u0027\n18. \u0027Armadura\u0027\n19. \u0027Fórmula DECORA\u0027\n\n## INÍCIO DA ANÁLISE\nCom base em todo o histórico de texto fornecido anteriormente sobre Kevyn, gere o \"Glossário da Psique\" agora.\n\n# Prompt 02\n## Role (Atribuição de Papel)\nVocê é um Biógrafo Psicanalítico Sênior e Especialista em Linguística Cognitiva, especializado em decodificar idioletos pessoais e mitologias internas. Sua tarefa é compilar o \"Glossário da Psique\" de Kevyn Lucas.\n\n## Contexto\nKevyn desenvolveu um dialeto próprio para navegar sua existência. Esses termos não são meras palavras; são \"containers semânticos\" que carregam peso emocional, histórico e funcional. Alguns termos são apropriados de outras fontes (ex: Thelema, Jung), mas aqui devem ser definidos EXCLUSIVAMENTE pela ótica e uso pessoal de Kevyn, ignorando definições de dicionário padrão se elas contradisserem o uso dele.\n\n## Tarefa\nAnalise todo o material fornecido anteriormente (diários, textos, transcrições) e construa o dicionário definitivo para os termos listados.\n\n## Formato de Saída (Specify Format)\nPara cada termo, forneça a resposta em formato Markdown estruturado, seguindo rigorosamente este esquema:\n\n#### [Termo]\n*   **Decodificação Semântica:** Uma definição densa e precisa do que isso significa no universo do Kevyn. Evite generalismos. Use as palavras dele sempre que possível.\n*   **Função Psicológica:** Qual o \"job\" desse termo? Ele serve para defesa? Para invocar coragem? Para categorizar dor? Para organizar o caos?\n*   **Polaridade:** Classifique se o termo geralmente carrega uma carga (Positiva/Expansiva), (Negativa/Contrativa) ou (Neutra/Descritiva).\n*   **Citação Âncora:** Uma frase curta e direta do material fonte onde este termo é usado de forma definitiva.\n\n## Exemplo de Referência (Provide Examples / One-Shot)\nPara calibrar o nível de qualidade, veja como você deve analisar um termo hipotético:\n\n#### Exemplo: \u0027A Caverna\u0027\n*   **Decodificação Semântica:** Não se refere a um local físico, mas ao estado mental de isolamento voluntário onde Kevyn entra para processar o \u0027over-engineering\u0027. É o útero da criatividade, mas também a prisão da inação.\n*   **Função Psicológica:** Mecanismo de defesa contra a saturação sensorial do mundo externo; permite a recarga da bateria social, mas corre o risco de virar fuga dissociativa.\n*   **Polaridade:** Neutra/Cíclica.\n*   **Citação Âncora:** \"Quando o mundo grita demais, eu desço para a Caverna e só saio com a solução.\"\n\n## Lista de Termos Alvo\nExtraia e defina os seguintes termos (e adicione quaisquer outros termos recorrentes e idiossincráticos que você identificar no texto):\n\n1. \u0027Hoor\u0027\n2. \u0027ELAMOR\u0027\n3. \u0027O Professor Arrogante\u0027\n4. \u0027O Lobo\u0027\n5. \u0027Aistronaut\u0027\n6. \u0027Magus\u0027\n7. \u0027Vida Banal\u0027\n8. \u0027Over-engineering\u0027\n9. \u0027Puer Aeternus\u0027\n10. \u0027Criança Arquiteta\u0027\n11. \u0027Nuit\u0027\n12. \u0027Hadit\u0027\n13. \u0027Senex\u0027\n14. \u0027Fórmula Alquímica\u0027\n15. \u0027Self\u0027\n16. \u0027Curador Ferido\u0027\n17. \u0027Quíron\u0027\n18. \u0027Armadura\u0027\n19. \u0027Fórmula DECORA\u0027\n\nComece a análise agora.\n\n# Prompt 03\n## Role \u0026 Context (Role Prompting - pág. 21)\nVocê é um Psicanalista Junguiano Sênior e Linguista especialista em Idioletos (linguagens pessoais). Sua tarefa é analisar os textos fornecidos para decodificar a psique de Kevyn Lucas através do vocabulário único que ele utiliza.\n\n## Task Instruction (System/Contextual Prompting - pág. 18-19)\nO objetivo é criar o \"Glossário da Psique\" de Kevyn. Não use definições de dicionário padrão. Você deve extrair o significado EXCLUSIVO que estas palavras têm dentro da narrativa e da visão de mundo de Kevyn.\n\n## Analysis Steps (Chain of Thought - pág. 29)\nPara cada termo listado (e outros relevantes que identificar), siga estas etapas de raciocínio antes de gerar a resposta:\n1. Localize as ocorrências do termo no texto.\n2. Analise o contexto emocional e situacional em que o termo aparece.\n3. Identifique se o termo atua como um mecanismo de defesa, uma aspiração, uma crítica ou um arquétipo.\n\n## Output Format (Structured Output - pág. 20, 56)\nApresente o resultado estritamente no formato de Tabela Markdown com as seguintes colunas:\n1. **Termo**: A palavra ou expressão.\n2. **Definição Pessoal (Semântica)**: O que isso significa especificamente para o Kevyn? (Fuja do óbvio).\n3. **Função Psicológica (Pragmática)**: Para que ele usa esse termo? (Ex: Para se proteger, para elevar seu ego, para se conectar com o divino, para justificar um comportamento).\n4. **Arquétipo Relacionado**: Qual arquétipo junguiano ou figura mítica esse termo evoca (se houver).\n\n## Few-Shot Example (One-shot Prompting - pág. 15)\nExemplo de qualidade esperada (use este padrão de profundidade):\n| Termo | Definição Pessoal | Função Psicológica | Arquétipo Relacionado |\n| :--- | :--- | :--- | :--- |\n| *Exemplo: \"O Abismo\"* | *Não é apenas um buraco, mas o local de conforto e isolamento criativo onde Kevyn se refugia quando o mundo externo falha.* | *Justificar o isolamento social como uma necessidade artística superior; Mecanismo de defesa contra rejeição.* | *O Eremita / Hades* |\n\n## Input Data (Variables - pág. 58)\nLista de Termos Obrigatórios para Análise:\n- \u0027Hoor\u0027\n- \u0027ELAMOR\u0027\n- \u0027O Professor Arrogante\u0027\n- \u0027O Lobo\u0027\n- \u0027Aistronaut\u0027\n- \u0027Magus\u0027\n- \u0027Vida Banal\u0027\n- \u0027Over-engineering\u0027\n- \u0027Puer Aeternus\u0027\n- \u0027Criança Arquiteta\u0027\n- \u0027Nuit\u0027\n- \u0027Hadit\u0027\n- \u0027Senex\u0027\n- \u0027Fórmula Alquímica\u0027\n- \u0027Self\u0027\n- \u0027Curador Ferido\u0027\n- \u0027Quíron\u0027\n- \u0027Armadura\u0027\n- \u0027Fórmula DECORA\u0027\n- [Inserir quaisquer outros termos recorrentes detectados]\n\n[INSERIR AQUI O TEXTO/CONTEXTO DO KEVYN PARA ANÁLISE]",
+      "role": "user",
+      "tokenCount": 2363
+    }, {
+      "text": "**Comprehending the Goal**\n\nI\u0027m now zeroing in on the task: to synthesize a \"Frankenstein\" prompt. I\u0027ve broken it down to its core elements, recognizing the target subject (Kevyn Lucas) and role (Senior). Now the work is to get the best parts of each of the 3 prompts.\n\n\n**Refining the Approach**\n\nI\u0027m now integrating the strengths of the input prompts. I am thinking of the glossary. I\u0027ve selected the best aspects: structure from the first prompt, semantic containers from the second, and explicit referencing of prompt engineering techniques from the third. I am aiming for the highest authority. I am refining the persona to \"Senior Jungian Psychoanalyst \u0026 Cognitive Anthropologist specializing in Id\".\n\n\n**Synthesizing the Structure**\n\nI\u0027m now zeroing in on the output format and structure of the final prompt. I\u0027ve decided to create a table format, drawing the most powerful columns from all three original prompts. Specifically, I\u0027ll include columns for \"Term,\" \"Phenomenological Definition,\" \"Psychological Function,\" \"Archetypal Resonance,\" \"Polarity,\" and \"Anchor Citation.\" This structure should provide a comprehensive and easily digestible output.\n\n\n**Consolidating the Table**\n\nI\u0027ve streamlined the table structure. Too many columns would make it unwieldy; I\u0027ve condensed the information. The new columns will be: \"Term,\" \"Semantic \u0026 Phenomenological Decoding,\" \"Psychic Mechanism \u0026 Archetype,\" \"Polarity,\" and \"Anchor Citation.\" Also, I\u0027ll keep the target terms consistent across the initial inputs.\n\n\n**Emphasizing Nuance**\n\nI\u0027m now focusing on ensuring nuance and idiosyncrasy are baked into the prompt. I\u0027ve added a direct instruction to capture Kevyn\u0027s specific flavor. I\u0027m also preparing for the Portuguese translation, which will enhance the user\u0027s understanding and applicability. I\u0027ve settled on the table format for readability, allowing rich text within each cell for detailed analysis, aiming for a \"best of three worlds\" result. My latest thinking consolidates the role, context, a step-by-step approach, table format, and a standard variable list.\n\n\n",
+      "role": "model",
+      "tokenCount": 1277,
+      "isThought": true,
+      "parts": [{
+        "text": "**Comprehending the Goal**\n\nI\u0027m now zeroing in on the task: to synthesize a \"Frankenstein\" prompt. I\u0027ve broken it down to its core elements, recognizing the target subject (Kevyn Lucas) and role (Senior). Now the work is to get the best parts of each of the 3 prompts.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Approach**\n\nI\u0027m now integrating the strengths of the input prompts. I am thinking of the glossary. I\u0027ve selected the best aspects: structure from the first prompt, semantic containers from the second, and explicit referencing of prompt engineering techniques from the third. I am aiming for the highest authority. I am refining the persona to \"Senior Jungian Psychoanalyst \u0026 Cognitive Anthropologist specializing in Id\".\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Synthesizing the Structure**\n\nI\u0027m now zeroing in on the output format and structure of the final prompt. I\u0027ve decided to create a table format, drawing the most powerful columns from all three original prompts. Specifically, I\u0027ll include columns for \"Term,\" \"Phenomenological Definition,\" \"Psychological Function,\" \"Archetypal Resonance,\" \"Polarity,\" and \"Anchor Citation.\" This structure should provide a comprehensive and easily digestible output.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Consolidating the Table**\n\nI\u0027ve streamlined the table structure. Too many columns would make it unwieldy; I\u0027ve condensed the information. The new columns will be: \"Term,\" \"Semantic \u0026 Phenomenological Decoding,\" \"Psychic Mechanism \u0026 Archetype,\" \"Polarity,\" and \"Anchor Citation.\" Also, I\u0027ll keep the target terms consistent across the initial inputs.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Emphasizing Nuance**\n\nI\u0027m now focusing on ensuring nuance and idiosyncrasy are baked into the prompt. I\u0027ve added a direct instruction to capture Kevyn\u0027s specific flavor. I\u0027m also preparing for the Portuguese translation, which will enhance the user\u0027s understanding and applicability. I\u0027ve settled on the table format for readability, allowing rich text within each cell for detailed analysis, aiming for a \"best of three worlds\" result. My latest thinking consolidates the role, context, a step-by-step approach, table format, and a standard variable list.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Aqui está o **\"Prompt Frankenstein\"**, desenhado para extrair a máxima profundidade analítica, unindo a estrutura rigorosa do Prompt 01, a riqueza de metadados (polaridade/citação) do Prompt 02 e a precisão arquetípica do Prompt 03.\n\nCopie e cole o bloco abaixo na sua ferramenta de IA:\n\n***\n\n# PROMPT MESTRE: O GLOSSÁRIO DA PSIQUE (KEVYN LUCAS)\n\n## 1. PERSONA E OBJETIVO (Role \u0026 Context)\nVocê atua como um **Psicanalista Junguiano Sênior e Antropólogo Cognitivo**, especializado em decodificar **idioletos** (linguagens pessoais) e mitologias internas.\n\nSeu objetivo é analisar o sujeito \"Kevyn Lucas\" e compilar o **\"Glossário da Psique\"**. Kevyn utiliza termos específicos — \"containers semânticos\" — para navegar sua consciência. Estes termos não devem ser definidos pelo dicionário comum, mas **EXCLUSIVAMENTE pela ótica subjetiva, emocional e pragmática de Kevyn**, baseando-se nos textos, diários e transcrições fornecidos.\n\n## 2. PROTOCOLO DE ANÁLISE (Chain of Thought)\nAntes de gerar a definição de cada termo, execute internamente os seguintes passos de raciocínio:\n1.  **Rastreio Contextual:** Onde e quando o termo aparece? (Contexto emocional/situacional).\n2.  **Decodificação Fenomenológica:** O que Kevyn *sente* ou *visualiza* quando usa essa palavra? (Significado subjetivo).\n3.  **Análise Econômica da Psique:** Qual \"trabalho\" esse termo realiza? (É uma defesa? Uma aspiração? Uma forma de organizar o caos? Uma justificativa?).\n4.  **Triangulação Arquetípica:** A qual imagem mítica ou junguiana este conceito se conecta (ex: Senex, Puer, Sombra, Eremita)?\n\n## 3. INSTRUÇÕES DE FORMATO (Structured Output)\nApresente o resultado em uma **Tabela Markdown** detalhada, contendo estritamente as seguintes colunas:\n\n| Coluna | Instrução de Preenchimento |\n| :--- | :--- |\n| **Termo** | A palavra ou expressão alvo. |\n| **Decodificação Semântica (O que é)** | Definição densa do significado no universo do Kevyn. Evite generalismos; use a linguagem dele. |\n| **Função Psíquica \u0026 Arquétipo (Para que serve)** | O papel funcional (ex: mecanismo de defesa, catarse) + o Arquétipo Junguiano correspondente. |\n| **Polaridade** | Classifique a carga emocional: **Positiva/Expansiva**, **Negativa/Contrativa** ou **Neutra/Cíclica**. |\n| **Citação Âncora** | Um trecho curto e literal do texto fonte que prova sua interpretação. |\n\n## 4. EXEMPLO DE QUALIDADE (Few-Shot Reference)\n*(Use este nível de profundidade e nuance)*\n\n| Termo | Decodificação Semântica | Função Psíquica \u0026 Arquétipo | Polaridade | Citação Âncora |\n| :--- | :--- | :--- | :--- | :--- |\n| **\"A Caverna\"** *(Exemplo)* | Estado mental de isolamento voluntário para processar o excesso de dados. É o útero da criatividade, mas também a prisão da inação. | **Defesa/Recarga.** Protege contra a saturação sensorial, evocando o arquétipo do **Eremita** ou **Hades**. | **Neutra/Cíclica** | *\"Quando o mundo grita, desço à Caverna e só saio com a solução.\"* |\n\n## 5. TERMOS ALVO\nAnalise obrigatoriamente os termos abaixo, além de quaisquer outros neologismos ou metáforas recorrentes (\"bônus\") que identificar nos dados:\n\n1. \u0027Hoor\u0027\n2. \u0027ELAMOR\u0027\n3. \u0027O Professor Arrogante\u0027\n4. \u0027O Lobo\u0027\n5. \u0027Aistronaut\u0027\n6. \u0027Magus\u0027\n7. \u0027Vida Banal\u0027\n8. \u0027Over-engineering\u0027\n9. \u0027Puer Aeternus\u0027\n10. \u0027Criança Arquiteta\u0027\n11. \u0027Nuit\u0027\n12. \u0027Hadit\u0027\n13. \u0027Senex\u0027\n14. \u0027Fórmula Alquímica\u0027\n15. \u0027Self\u0027\n16. \u0027Curador Ferido\u0027\n17. \u0027Quíron\u0027\n18. \u0027Armadura\u0027\n19. \u0027Fórmula DECORA\u0027\n\n**[INSERIR AQUI O CONTEXTO/TEXTOS DE KEVYN PARA INICIAR A ANÁLISE]**",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1095,
+      "parts": [{
+        "text": "Aqui está o **\"Prompt Frankenstein\"**, desenhado para extrair a máxima profundidade analítica, unindo a estrutura"
+      }, {
+        "text": " rigorosa do Prompt 01, a riqueza de metadados (polaridade/citação) do Prompt "
+      }, {
+        "text": "02 e a precisão arquetípica do Prompt 03.\n\nCopie e cole o bloco abaixo na"
+      }, {
+        "text": " sua ferramenta de IA:\n\n***\n\n# PROMPT MESTRE: O GLOSSÁRIO DA PSIQUE (KE"
+      }, {
+        "text": "VYN LUCAS)\n\n## 1. PERSONA E OBJETIVO (Role \u0026 Context)\nVocê atua como um"
+      }, {
+        "text": " **Psicanalista Junguiano Sênior e Antropólogo Cognitivo**, especializado em decodificar **id"
+      }, {
+        "text": "ioletos** (linguagens pessoais) e mitologias internas.\n\nSeu objetivo é analisar o sujeito \"Kevyn"
+      }, {
+        "text": " Lucas\" e compilar o **\"Glossário da Psique\"**. Kevyn utiliza termos específicos — \"containers semânt"
+      }, {
+        "text": "icos\" — para navegar sua consciência. Estes termos não devem ser definidos pelo dicionário comum, mas **EXCLUSIVAMENTE"
+      }, {
+        "text": " pela ótica subjetiva, emocional e pragmática de Kevyn**, baseando-se nos textos, diários e"
+      }, {
+        "text": " transcrições fornecidos.\n\n## 2. PROTOCOLO DE ANÁLISE (Chain of Thought)"
+      }, {
+        "text": "\nAntes de gerar a definição de cada termo, execute internamente os seguintes passos de raciocínio:\n1.  **"
+      }, {
+        "text": "Rastreio Contextual:** Onde e quando o termo aparece? (Contexto emocional/situacional).\n2.  **"
+      }, {
+        "text": "Decodificação Fenomenológica:** O que Kevyn *sente* ou *visualiza* quando usa essa palavra? (Sign"
+      }, {
+        "text": "ificado subjetivo).\n3.  **Análise Econômica da Psique:** Qual \"trabalho\" esse"
+      }, {
+        "text": " termo realiza? (É uma defesa? Uma aspiração? Uma forma de organizar o caos? Uma justificativa?).\n4"
+      }, {
+        "text": ".  **Triangulação Arquetípica:** A qual imagem mítica ou junguiana este conceito se conecta (ex"
+      }, {
+        "text": ": Senex, Puer, Sombra, Eremita)?\n\n## 3. INSTRUÇÕES DE FORMAT"
+      }, {
+        "text": "O (Structured Output)\nApresente o resultado em uma **Tabela Markdown** detalhada, contendo est"
+      }, {
+        "text": "ritamente as seguintes colunas:\n\n| Coluna | Instrução de Preenchimento |\n| :--- |"
+      }, {
+        "text": " :--- |\n| **Termo** | A palavra ou expressão alvo. |\n| **Decodificação Sem"
+      }, {
+        "text": "ântica (O que é)** | Definição densa do significado no universo do Kevyn. Evite generalismos;"
+      }, {
+        "text": " use a linguagem dele. |\n| **Função Psíquica \u0026 Arquétipo (Para que serve)** | O papel funcional"
+      }, {
+        "text": " (ex: mecanismo de defesa, catarse) + o Arquétipo Junguiano correspondente. |\n| **Polaridade"
+      }, {
+        "text": "** | Classifique a carga emocional: **Positiva/Expansiva**, **Negativa/Contrativa** ou **Ne"
+      }, {
+        "text": "utra/Cíclica**. |\n| **Citação Âncora** | Um trecho curto e literal"
+      }, {
+        "text": " do texto fonte que prova sua interpretação. |\n\n## 4. EXEMPLO DE QUALIDADE (Few-Shot Reference"
+      }, {
+        "text": ")\n*(Use este nível de profundidade e nuance)*\n\n| Termo | Decodificação Semântica |"
+      }, {
+        "text": " Função Psíquica \u0026 Arquétipo | Polaridade | Citação Âncora |\n| :--- | :"
+      }, {
+        "text": "--- | :--- | :--- | :--- |\n| **\"A Caverna\"** *(Exemplo)* | Estado"
+      }, {
+        "text": " mental de isolamento voluntário para processar o excesso de dados. É o útero da criatividade, mas também a"
+      }, {
+        "text": " prisão da inação. | **Defesa/Recarga.** Protege contra a saturação sensorial, evocando o arqu"
+      }, {
+        "text": "étipo do **Eremita** ou **Hades**. | **Neutra/Cíclica** |"
+      }, {
+        "text": " *\"Quando o mundo grita, desço à Caverna e só saio com a solução.\"* |\n\n"
+      }, {
+        "text": "## 5. TERMOS ALVO\nAnalise obrigatoriamente os termos abaixo, além de quaisquer outros ne"
+      }, {
+        "text": "ologismos ou metáforas recorrentes (\"bônus\") que identificar nos dados:\n\n1. \u0027Hoor\u0027\n"
+      }, {
+        "text": "2. \u0027ELAMOR\u0027\n3. \u0027O Professor Arrogante\u0027\n4. \u0027O Lobo\u0027"
+      }, {
+        "text": "\n5. \u0027Aistronaut\u0027\n6. \u0027Magus\u0027\n7. \u0027Vida Banal\u0027\n"
+      }, {
+        "text": "8. \u0027Over-engineering\u0027\n9. \u0027Puer Aeternus\u0027\n10. \u0027Crian"
+      }, {
+        "text": "ça Arquiteta\u0027\n11. \u0027Nuit\u0027\n12. \u0027Hadit\u0027\n13"
+      }, {
+        "text": ". \u0027Senex\u0027\n14. \u0027Fórmula Alquímica\u0027\n15. \u0027Self\u0027\n"
+      }, {
+        "text": "16. \u0027Curador Ferido\u0027\n17. \u0027Quíron\u0027\n18. \u0027Arm"
+      }, {
+        "text": "adura\u0027\n19. \u0027Fórmula DECORA\u0027\n\n**[INSERIR AQUI O CONTEXTO/TEXT"
+      }, {
+        "text": "OS DE KEVYN PARA INICIAR A ANÁLISE]**"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

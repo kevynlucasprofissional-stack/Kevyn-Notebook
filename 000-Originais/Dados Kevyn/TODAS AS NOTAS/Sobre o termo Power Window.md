@@ -1,0 +1,1 @@
+Power Window nada mais é que um termo para um efeito mascarado.

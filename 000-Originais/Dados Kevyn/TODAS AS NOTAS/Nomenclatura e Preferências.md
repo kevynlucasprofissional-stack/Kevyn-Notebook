@@ -1,0 +1,2 @@
+* **Current Time Indicator (CTI):** A agulha da timeline também é conhecida como CTI.
+* **Interpolação Espacial Padrão:** Nas preferências gerais, habilitar a opção "Interpolação espacial padrão para linear" garante que a velocidade entre os keyframes seja controlada exclusivamente pelo usuário.

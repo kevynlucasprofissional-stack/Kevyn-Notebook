@@ -1,0 +1,1 @@
+A Hoor vendas será um Instagram inteiramente dedicado a vender por comissão. Contudo ao mesmo tempo servirá como um campo de estudos, um laboratório de design, onde experimentarei e buscarei desenvolver minha técnica em social media, motions, manipulação, carrosel, audiovisual, landing pages, chatbots, e-commerce e fotografia.

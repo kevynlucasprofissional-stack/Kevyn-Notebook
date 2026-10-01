@@ -1,0 +1,1 @@
+Para criar uma camada de ajuste no Premiere, vá na janela Projeto, click com o botão direito e "Novo item > Camada de Ajuste".

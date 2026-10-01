@@ -1,0 +1,1 @@
+É bem simples, você adiciona as composições a fila de renderização, ajusta as configurações de  renderização na primeira coluna, define o local onde a renderização será salva, o nome do render, e clica no botão verde para iniciar a renderização das composições na fila.

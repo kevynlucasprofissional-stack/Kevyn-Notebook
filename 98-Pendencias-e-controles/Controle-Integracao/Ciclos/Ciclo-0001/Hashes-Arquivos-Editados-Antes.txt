@@ -1,0 +1,7 @@
+﻿2705968ce66a39b54438fde532dbb35d31d18a55f983ca1ce651e959c179ce8b  80-MOCs-e-Trilhas/MOC Estudos e referencias.md
+a5efa41b93856f451ee120fe82172275322cd0662364b75fed5741f5e73f80c7  08-Estudos-e-Referencias/Filosofia e psicologia.md
+9eb6fa06bd3b75ae3f4d964f41c98d0ae350fecd600e5a39603e6dc5b8d636f6  01-Perfil-e-Autoconhecimento/Estilo de aprendizagem.md
+22c8127f4c5fd99d04b0d3e81b1be35df840b67d97f4757928e32b8d893d5967  06-Saude-Autocuidado-e-Autorregulacao/Diarios de 2026.md
+8b59231453659bc5668896fb46e1f17dd4d99536dc05d4367ffab2ddd636bdd6  02-Cronologia-e-Memorias/Linha do tempo mestre.md
+c1826ec3cc2811d53f1b98f3dc50d0f2fd597aaed0ffa541ffb5859a770cbf68  09-Fontes-e-Evidencias/Indice geral de fontes selecionadas.md
+6da9fa4be0dec96b4ea46880d2535956350e3eb80449ddc4de00e80d43c7fbff  09-Fontes-e-Evidencias/Diarios - catalogo.md

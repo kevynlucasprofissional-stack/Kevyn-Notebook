@@ -1,0 +1,1 @@
+Ao arrastar o chicote do menu de expressões até um efeito do Effect Control, a expressão irá interagir com o efeito.

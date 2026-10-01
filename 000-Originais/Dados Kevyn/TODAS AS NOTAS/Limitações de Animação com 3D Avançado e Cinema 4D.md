@@ -1,0 +1,1 @@
+As configurações de 3D Avançado e Cinema 4D não permite a animação de parâmetros da câmera.

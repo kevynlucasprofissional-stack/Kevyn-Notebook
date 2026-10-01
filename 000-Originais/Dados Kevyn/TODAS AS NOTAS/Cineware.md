@@ -1,0 +1,1 @@
+Utilizado para editar projetos do Cinema 4D importados no After Effects.

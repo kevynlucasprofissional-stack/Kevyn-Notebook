@@ -1,0 +1,149 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-2.5-pro",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "Consegue criar uma síntese final e definitiva de todos os mapas de navegação abaixo?\n\n\u003cmapa_01\u003e\nLanding Page (Tela 0)\n ├ Login / Cadastro (Tela 1)\n └ Chat com Ágora - Início (Tela 2)\n     └ Processamento de Análise (Checklist dinâmico)\n         └ Resultado da Análise (Score e Resumo)\n             └ Apresentação da Campanha Otimizada (Tela 3)\n                 ├ Visão Geral\n                 ├ Canais\n                 ├ Audiência\n                 ├ Criativos\n                 └ Exportação\n                     ├ PDF (Download direto)\n                     ├ JPEG (Download direto)\n                     ├ Canva (Tela 4 - Editor)\n                     └ Gamma (Tela 4 - Editor)\n\u003c/mapa_01\u003e\n\n\u003cmapa_02\u003e\nAnimação de Abertura (Splash Screen)\n └ Tela de Boas-vindas (Tela 0 - Welcome)\n     ├ Termos de Uso / Política de Privacidade\n     ├ Entrar (Login - Tela 1)\n     │   └ Esqueci minha senha (Modal)\n     └ Criar Conta (Cadastro - Tela 1)\n\nDashboard Principal (Tela 2)\n ├ Barra Superior\n │   ├ Botão Nova Análise (→ Tela 3)\n │   ├ Botão Histórico (→ Tela 4)\n │   └ Botão Perfil (Configurações / Logout)\n └ Cards de Análises Recentes\n     └ Abrir Análise → (→ Tela 8/9 - Chat/Resultado)\n\nFluxo de Nova Análise\n └ Tela 3 (Seleção de Campanha)\n     └ Input de Chat / Upload de Arquivos (→ Tela 7)\n         └ Processamento pelos Agentes (CoT - Chain of Thought)\n             └ Tela 8 (Captura/Envio de Imagem de Criativo/Métrica)\n                 └ Tela 9 (Resultado do Estrategista-Chefe)\n                     ├ Dashboard (Score, Frente Analítica)\n                     ├ Campanha Otimizada\n                     ├ Chat com Agente Estrategista\n                     └ Download de Materiais (PDF/PPT/DOCX/PNG)\n\nHistórico de Análises (Tela 4)\n ├ Lista Cronológica\n ├ Filtros (Data, Tipo)\n └ Ação (Abrir ou Avaliar Resultado)\n\u003c/mapa_02\u003e\n\n\u003cmapa_03\u003e\n[Landing Page / Auth]\n ├ Landing Page (CTA: Começar Agora)\n ├ Login / Cadastro (Autenticação)\n └ Recuperação de Senha\n\n[Dashboard de Operações - Hub Central]\n ├ Navegação Global (Sidebar)\n │  ├ Nova Análise (Start Flow)\n │  ├ Histórico de Campanhas (Arquivo de Insights)\n │  ├ Biblioteca de Assets (Arquivos, Prompts salvos)\n │  └ Gestão de Conta (Planos/Assinaturas)\n └ Indicadores de Performance (Métricas do Usuário)\n\n[Fluxo de Análise Ativa - Core Engine]\n ├ Tela 1: Intake de Campanha (Input de Dados e Arquivos)\n │  └ Validação de Intake (Triagem do Orquestrador - Regra T1)\n ├ Tela 2: Processamento Multimodal (Barra de Progresso dos 4 Especialistas)\n │  ├ [Visualização de Progresso]:\n │  │  ├ 1. Analista Sociocomportamental (Em andamento...)\n │  │  ├ 2. Engenheiro de Oferta (Em andamento...)\n │  │  ├ 3. Cientista de Performance (Em andamento...)\n │  │  └ 4. Estrategista-Chefe (Sintetizando...)\n │  └ (Opcional): Interrupção de processo ou pedido de mais dados (Ask for Input)\n ├ Tela 3: Relatório Executivo (Output do Sintetizador)\n │  ├ Dashboard de Score (0-100)\n │  ├ Deep Dive por Fronteira (Sociocomportamental, Oferta, Performance)\n │  ├ Nova Promessa (Copywriting)\n │  ├ Plano de Experimentos (Testes A/B)\n │  └ Chat de Refinamento (Tira-dúvidas com o Estrategista)\n └ Tela 4: Exportação \u0026 Integração\n    ├ Gerador de Documentos (Download PDF/PPT)\n    └ Integração Visual (Canva/Gamma/Claude - Workflow externo)\n\u003c/mapa_03\u003e",
+      "role": "user",
+      "tokenCount": 1014,
+      "createTime": "2026-03-15T08:52:09.403Z"
+    }, {
+      "text": "**Analyzing Navigation Maps**\n\nI\u0027m currently dissecting three navigation maps. I\u0027m focused on pinpointing the shared stages and distinct elements within each user flow. My aim is to consolidate recurring sections like Authentication, Dashboard, the core Analysis Flow, and Export/History, creating a unified model.\n\n\n**Synthesizing Navigation Flows**\n\nI\u0027m now diving into the specifics. I\u0027m taking the identified recurring sections – authentication, dashboard, analysis, export, and history – and translating their variations into a cohesive flow. This involves synthesizing differing terminology and detailed steps from each map to define a clear, logical sequence. The objective is a definitive navigation map that incorporates key aspects from the originals.\n\n\n",
+      "role": "model",
+      "tokenCount": 110,
+      "isThought": true,
+      "thinkingBudget": -1,
+      "parts": [{
+        "text": "**Analyzing Navigation Maps**\n\nI\u0027m currently dissecting three navigation maps. I\u0027m focused on pinpointing the shared stages and distinct elements within each user flow. My aim is to consolidate recurring sections like Authentication, Dashboard, the core Analysis Flow, and Export/History, creating a unified model.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Synthesizing Navigation Flows**\n\nI\u0027m now diving into the specifics. I\u0027m taking the identified recurring sections – authentication, dashboard, analysis, export, and history – and translating their variations into a cohesive flow. This involves synthesizing differing terminology and detailed steps from each map to define a clear, logical sequence. The objective is a definitive navigation map that incorporates key aspects from the originals.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-03-15T08:52:09.403Z"
+    }, {
+      "text": "Abaixo está uma síntese final e definitiva que consolida e harmoniza os três mapas de navegação fornecidos, criando um fluxo de usuário coeso e completo.\n\n### **Síntese Definitiva do Mapa de Navegação**\n\nEste mapa representa a jornada do usuário desde o primeiro contato com a plataforma até a exportação e o gerenciamento de suas análises estratégicas.\n\n---\n\n#### **Fase 1: Acesso e Autenticação**\n\n1.  **Tela de Abertura (Splash Screen \u0026 Boas-vindas)**\n    *   Animação inicial de boas-vindas.\n    *   Acesso aos Termos de Uso e Política de Privacidade.\n    *   Opções de **Entrar (Login)** ou **Criar Conta (Cadastro)**.\n\n2.  **Tela de Autenticação**\n    *   Formulários de Login e Cadastro.\n    *   Funcionalidade de **Recuperação de Senha** (modal ou tela dedicada).\n\n---\n\n#### **Fase 2: Hub Central e Gerenciamento (Dashboard)**\n\n3.  **Dashboard Principal**\n    *   **Navegação Global (Barra Superior/Sidebar):**\n        *   **Botão Destaque: \"Nova Análise\"** (Inicia o fluxo principal).\n        *   **Histórico de Análises:** Acesso a todas as análises passadas.\n        *   **(Opcional) Biblioteca de Assets:** Repositório de arquivos e prompts salvos.\n        *   **Perfil e Gestão da Conta:** Acesso a configurações, planos, assinaturas e logout.\n    *   **Área de Trabalho:**\n        *   Cards de **Análises Recentes** para acesso rápido.\n        *   Indicadores chave de performance do usuário.\n\n---\n\n#### **Fase 3: Fluxo de Análise de Campanha (Core Engine)**\n\n4.  **Tela de Início da Análise (Intake de Dados)**\n    *   Interface de chat com a Ágora (assistente de IA) para guiar o usuário.\n    *   Opções para input de dados da campanha:\n        *   Upload de arquivos (PDF, DOCX, imagens de métricas, etc.).\n        *   Inserção de texto e informações via chat.\n\n5.  **Tela de Processamento Multimodal (Análise em Andamento)**\n    *   Visualização clara do progresso da análise com um checklist dinâmico ou barra de progresso.\n    *   Indicação das etapas ou \"especialistas\" em ação (ex: Analista Sociocomportamental, Engenheiro de Oferta, Cientista de Performance).\n    *   Possibilidade de a plataforma solicitar mais informações ao usuário, se necessário.\n\n6.  **Tela de Resultado da Análise (Relatório Executivo)**\n    *   **Dashboard de Resultados:**\n        *   **Score Geral da Campanha (0-100):** Uma métrica de fácil compreensão.\n        *   **Resumo Executivo:** Principais insights e a \"Nova Promessa\" (copywriting aprimorado).\n    *   **Apresentação da Campanha Otimizada (Deep Dive):**\n        *   Análise detalhada por frentes (Ex: Visão Geral, Canais, Audiência, Criativos, Oferta).\n        *   Plano de Experimentos (sugestões de testes A/B).\n    *   **Chat de Refinamento:**\n        *   Interface de chat para interagir com o \"Agente Estrategista-Chefe\", permitindo ao usuário tirar dúvidas e refinar a análise.\n\n---\n\n#### **Fase 4: Exportação e Ações Pós-Análise**\n\n7.  **Tela de Exportação e Integração**\n    *   Opções de download direto em múltiplos formatos:\n        *   **Documentos:** PDF, PPT, DOCX.\n        *   **Imagens:** JPEG, PNG.\n    *   Integração com ferramentas de edição externas:\n        *   Abrir e editar o material no **Canva**.\n        *   Abrir e editar a apresentação no **Gamma**.\n\n---\n\n#### **Fase 5: Arquivo e Histórico**\n\n8.  **Tela de Histórico de Análises**\n    *   Listagem cronológica de todas as análises realizadas.\n    *   Ferramentas de filtro (por data, tipo de campanha, etc.).\n    *   Ações disponíveis para cada análise: **Abrir Resultado** ou **Avaliar a Análise**.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 975,
+      "parts": [{
+        "text": "Abaixo está uma"
+      }, {
+        "text": " síntese final e definitiva que consolida e harmoniza os três mapas de navegação fornecidos, criando um fluxo de usuário"
+      }, {
+        "text": " coeso e completo.\n\n### **Síntese Definitiva do Mapa de Navegação**\n\nEste mapa representa a jornada"
+      }, {
+        "text": " do usuário desde o primeiro contato com a plataforma até a exportação e o gerenciamento de suas análises estratégicas."
+      }, {
+        "text": "\n\n---\n\n#### **Fase 1: Acesso e Autenticação**\n\n1.  **Tela de Abertura"
+      }, {
+        "text": " (Splash Screen \u0026 Boas-vindas)**\n    *   Animação inicial de boas-vindas."
+      }, {
+        "text": "\n    *   Acesso aos Termos de Uso e Política de Privacidade.\n    *   Opções de **"
+      }, {
+        "text": "Entrar (Login)** ou **Criar Conta (Cadastro)**.\n\n2.  **Tela de Autenticação**"
+      }, {
+        "text": "\n    *   Formulários de Login e Cadastro.\n    *   Funcionalidade de **Recuperação de Sen"
+      }, {
+        "text": "ha** (modal ou tela dedicada).\n\n---\n\n#### **Fase 2: Hub Central e Gerenciamento ("
+      }, {
+        "text": "Dashboard)**\n\n3.  **Dashboard Principal**\n    *   **Navegação Global (Barra Superior/"
+      }, {
+        "text": "Sidebar):**\n        *   **Botão Destaque: \"Nova Análise\"** (Inicia o"
+      }, {
+        "text": " fluxo principal).\n        *   **Histórico de Análises:** Acesso a todas as análises passadas.\n        "
+      }, {
+        "text": "*   **(Opcional) Biblioteca de Assets:** Repositório de arquivos e prompts salvos.\n        *   **"
+      }, {
+        "text": "Perfil e Gestão da Conta:** Acesso a configurações, planos, assinaturas e logout.\n    *   **Á"
+      }, {
+        "text": "rea de Trabalho:**\n        *   Cards de **Análises Recentes** para acesso rápido.\n        *   "
+      }, {
+        "text": "Indicadores chave de performance do usuário.\n\n---\n\n#### **Fase 3: Fluxo de Análise de"
+      }, {
+        "text": " Campanha (Core Engine)**\n\n4.  **Tela de Início da Análise (Intake de Dados)**"
+      }, {
+        "text": "\n    *   Interface de chat com a Ágora (assistente de IA) para guiar o usuário."
+      }, {
+        "text": "\n    *   Opções para input de dados da campanha:\n        *   Upload de arquivos (PDF, DOC"
+      }, {
+        "text": "X, imagens de métricas, etc.).\n        *   Inserção de texto e informações via chat.\n\n5"
+      }, {
+        "text": ".  **Tela de Processamento Multimodal (Análise em Andamento)**\n    *   Visualização clara do progresso da"
+      }, {
+        "text": " análise com um checklist dinâmico ou barra de progresso.\n    *   Indicação das etapas ou \"espec"
+      }, {
+        "text": "ialistas\" em ação (ex: Analista Sociocomportamental, Engenheiro de Oferta, Cientista de Performance)."
+      }, {
+        "text": "\n    *   Possibilidade de a plataforma solicitar mais informações ao usuário, se necessário.\n\n6.  **Tela de Resultado"
+      }, {
+        "text": " da Análise (Relatório Executivo)**\n    *   **Dashboard de Resultados:**\n        *   **Score Geral"
+      }, {
+        "text": " da Campanha (0-100):** Uma métrica de fácil compreensão.\n        *   **Resumo Exec"
+      }, {
+        "text": "utivo:** Principais insights e a \"Nova Promessa\" (copywriting aprimorado).\n    *   **"
+      }, {
+        "text": "Apresentação da Campanha Otimizada (Deep Dive):**\n        *   Análise detalhada por f"
+      }, {
+        "text": "rentes (Ex: Visão Geral, Canais, Audiência, Criativos, Oferta).\n        *   Plano de"
+      }, {
+        "text": " Experimentos (sugestões de testes A/B).\n    *   **Chat de Refinamento:**"
+      }, {
+        "text": "\n        *   Interface de chat para interagir com o \"Agente Estrategista-Chefe\", permitindo ao"
+      }, {
+        "text": " usuário tirar dúvidas e refinar a análise.\n\n---\n\n#### **Fase 4: Exportação e Ações P"
+      }, {
+        "text": "ós-Análise**\n\n7.  **Tela de Exportação e Integração**\n    *   Opções de download direto"
+      }, {
+        "text": " em múltiplos formatos:\n        *   **Documentos:** PDF, PPT, DOCX.\n        *   **"
+      }, {
+        "text": "Imagens:** JPEG, PNG.\n    *   Integração com ferramentas de edição externas:\n        *   Abr"
+      }, {
+        "text": "ir e editar o material no **Canva**.\n        *   Abrir e editar a apresentação no **Gamma**.\n\n---\n\n"
+      }, {
+        "text": "#### **Fase 5: Arquivo e Histórico**\n\n8.  **Tela de Histórico de Análises**"
+      }, {
+        "text": "\n    *   Listagem cronológica de todas as análises realizadas.\n    *   Ferramentas de filtro"
+      }, {
+        "text": " (por data, tipo de campanha, etc.).\n    *   Ações disponíveis para cada análise: **Abrir Resultado"
+      }, {
+        "text": "** ou **Avaliar a Análise**."
+      }],
+      "createTime": "2026-03-15T08:52:12.828Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

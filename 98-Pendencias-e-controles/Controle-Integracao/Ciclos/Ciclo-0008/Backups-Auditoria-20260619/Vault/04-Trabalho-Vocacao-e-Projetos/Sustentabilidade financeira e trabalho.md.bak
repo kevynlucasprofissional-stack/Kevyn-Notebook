@@ -1,0 +1,126 @@
+---
+id: sustentabilidade-financeira-e-trabalho
+titulo: Sustentabilidade financeira e trabalho
+tipo: tema_pessoal
+status: auditado
+profundidade: avancada
+versao_schema: '1.0'
+versao_conteudo: '1.1'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-18
+fontes_primarias:
+- '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
+fontes_derivadas:
+- '[[Fonte - Modus operandi]]'
+grau_confianca: medio
+sensibilidade: muito_alta
+camada_evidencia: sintese_derivada
+tags:
+- tipo/tema_pessoal
+- privacidade/restrita
+---
+# Sustentabilidade financeira e trabalho
+
+## Tema
+
+A trajetória combina ambição profissional, trabalhos criativos, renda variável e períodos de vulnerabilidade material.
+
+## Evidências históricas
+
+- trabalhos de baixo valor e recebimentos irregulares;
+- pequenos empréstimos;
+- pressão de aluguel e ferramentas;
+- busca de emprego estável;
+- projetos de alto escopo sem receita proporcional.
+
+## Estado atual
+
+Os registros de junho de 2026 mostram forte produção profissional, mas não oferecem uma demonstração financeira atual completa. Não é correto repetir o diagnóstico antigo de “insolvência” como estado presente.
+
+## Estrutura recomendada
+
+- registrar fontes de renda;
+- separar receita recebida de proposta;
+- calcular custos fixos;
+- marcar assinaturas;
+- manter reserva e dívidas em documento privado específico;
+- avaliar projeto por retorno financeiro, aprendizado e portfólio.
+
+## Iniciativas e oportunidades
+
+Notas de novembro de 2025 registram contato com programa de aceleracao de startups (Midas), com contrato analisado detalhando investimento de R$11.000 via mutuo conversivel (7% de equity) e apoio na abertura de CNPJ. O material tambem menciona Sebrae Startups, programa Centelha, Google AI agents e estrategia de LinkedIn como canais de oportunidade. A submissao ao Edital Centelha ocorreu em dezembro de 2025 (Fase 1), com esperanca de captacao de R$89.000. Essas notas indicam exploracao ativa de caminhos de sustentabilidade financeira via empreendedorismo e aceleracao.
+
+## Proveniencia
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+- `CICLO-0008`: [[Fonte - Mentorias produtos e ferramentas IA 2025]] mostra consultoria, mentoria e aceleracao de startup como caminhos monetizaveis; `SRC-000059` reforca o contrato Midas e a busca por financiamento.
+- `CICLO-0009`: `SRC-000077` reforca a distribuicao de responsabilidades e as entregas profissionais do time Salus.
+- `CICLO-0010`: `SRC-000075` registra automacao operativa com dados sensiveis, lembrando que sustentabilidade tambem exige controle de risco e acesso.
+
+- `CICLO-0023`: [[Fonte - SRC-000126 - Iscas]] registra leitura integral de `SRC-000126` e consolida evidencias sobre categoria=study; score=37.0.
+
+- `CICLO-0023`: [[Fonte - SRC-000141 - Masterclasse DISC]] registra leitura integral de `SRC-000141` e consolida evidencias sobre categoria=study; score=909.5.
+
+- `CICLO-0023`: [[Fonte - SRC-000157 - Aula de Finanças Corporativas com Prof. Rafael Chaves - Dia 01]] registra leitura integral de `SRC-000157` e consolida evidencias sobre categoria=study; score=103.5.
+
+- `CICLO-0023`: [[Fonte - SRC-000163 - Módulo 11]] registra leitura integral de `SRC-000163` e consolida evidencias sobre categoria=study; score=223.0.
+
+- `CICLO-0023`: [[Fonte - SRC-000181 - Gerenciamento de Projetos com professor Norberto - Aula 03]] registra leitura integral de `SRC-000181` e consolida evidencias sobre categoria_forte=work; score=41.0.
+
+- `CICLO-0023`: [[Fonte - SRC-000204 - Poup App - App com IA que facilita seu controle financeiro]] registra leitura integral de `SRC-000204` e consolida evidencias sobre categoria=study; score=68.0.
+
+- `CICLO-0023`: [[Fonte - SRC-000212 - Proposta de Valor - WSI Engenharia]] registra leitura integral de `SRC-000212` e consolida evidencias sobre categoria=study; score=165.0.
+
+- `CICLO-0023`: [[Fonte - SRC-000245 - Generated Image December 31, 2025 - 7_24AM]] registra leitura integral de `SRC-000245` e consolida evidencias sobre categoria=study; score=5748.5.
+
+- `CICLO-0023`: [[Fonte - SRC-000398 - Pasted image 20250204090427]] registra leitura integral de `SRC-000398` e consolida evidencias sobre categoria=study; score=5807.0.
+
+- `CICLO-0024`: [[Fonte - SRC-000505 - Bicicletaria Dois Irmãos]] registra leitura integral de `SRC-000505` e consolida evidencias sobre categoria=study; score=5.0.
+
+- `CICLO-0024`: [[Fonte - SRC-000568 - Como levantar dinheiro]] registra leitura integral de `SRC-000568` e consolida evidencias sobre categoria=study; score=17.5.
+
+- `CICLO-0024`: [[Fonte - SRC-000593 - Criando uma campanha simples para afiliados]] registra leitura integral de `SRC-000593` e consolida evidencias sobre categoria_forte=work; score=37.0.
+
+- `CICLO-0024`: [[Fonte - SRC-000739 - Pasted image 20251011153214]] registra leitura integral de `SRC-000739` e consolida evidencias sobre categoria=study; score=795.0.
+
+- `CICLO-0024`: [[Fonte - SRC-000952 - Pai Rico Pai Pobre]] registra leitura integral de `SRC-000952` e consolida evidencias sobre categoria=study; score=32.0.
+
+- `CICLO-0024`: [[Fonte - SRC-001022 - ReValor - Sistema de Coleta Inteligente de Lixo]] registra leitura integral de `SRC-001022` e consolida evidencias sobre categoria=study; score=66.0.
+
+- `CICLO-0024`: [[Fonte - SRC-001665 - Sobre vendas]] registra leitura integral de `SRC-001665` e consolida evidencias sobre categoria_forte=work; score=40.0.
+
+- `CICLO-0024`: [[Fonte - SRC-001720 - Tudo Para Mulheres (TPM)]] registra leitura integral de `SRC-001720` e consolida evidencias sobre categoria=study; score=108.0.
+
+- `CICLO-0024`: [[Fonte - SRC-001951 - 21 - sábado]] registra leitura integral de `SRC-001951` e consolida evidencias sobre categoria=study; score=14123.0.
+
+- `CICLO-0024`: [[Fonte - SRC-001959 - 29 - quarta-feira]] registra leitura integral de `SRC-001959` e consolida evidencias sobre categoria=study; score=7.0.
+
+- `CICLO-0024`: [[Fonte - SRC-002136 - Como utilizar os dados fictícios]] registra leitura integral de `SRC-002136` e consolida evidencias sobre categoria=study; score=58.5.
+
+- `CICLO-0024`: [[Fonte - SRC-002755 - Seth Godin]] registra leitura integral de `SRC-002755` e consolida evidencias sobre categoria=study; score=314.0.
+## Relações
+
+- [[Periodo de instabilidade financeira em 2025]] é contexto histórico.
+- [[Criterios de decisao para projetos]] ajuda a priorizar.
+- [[Trajetoria profissional]] fornece os vínculos.

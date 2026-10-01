@@ -1,0 +1,243 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.5-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": true,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_MEDIUM",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+    "text": "# 📘 Playbook: Como Construir um Release de Imprensa\n\n## 1. O Conceito (O que é e para que serve?)\n**O que é:** Um texto jornalístico informativo (não publicitário) enviado para a imprensa.\n**Objetivo:** Conquistar \"mídia espontânea\" (espaço editorial gratuito) em jornais, portais e blogs, ou ser utilizado por influenciadores. É a ponte entre o que acontece na sua empresa e o que vira notícia.\n\n---\n\n## 2. A Anatomia Perfeita de um Release\nPara que o jornalista aproveite seu texto, ele deve seguir uma estrutura padrão de pirâmide invertida (informação mais importante primeiro).\n\n### 🏗️ Estrutura Obrigatória\n1.  **Cabeçalho:** Local e Data (ex: *São Paulo, 21 de Novembro de 2024*).\n2.  **Título (Manchete):** Curto, direto e com verbo de ação. Deve ter valor de notícia.\n    *   *Ruim:* Nova atualização do software.\n    *   *Bom:* Empresa X lança tecnologia que reduz custos operacionais em 30%.\n3.  **Lead (1º Parágrafo):** O resumo de tudo. Deve responder aos **5 Ws**:\n    *   **Quem?** (A empresa/pessoa)\n    *   **O quê?** (O fato/novidade)\n    *   **Quando?** (Data do ocorrido/lançamento)\n    *   **Onde?** (Local)\n    *   **Por quê/Como?** (O motivo ou explicação breve)\n4.  **Corpo do Texto (Body):** Desenvolvimento da notícia. Aqui entram dados estatísticos, contexto de mercado e explicações técnicas (sem \"jargão\" difícil).\n5.  **Citação (Quote):** Uma frase aspeada de um porta-voz (CEO, Diretor ou Especialista). Isso humaniza o texto e dá opinião, algo que o jornalista adora usar para dar credibilidade.\n6.  **Serviço (Opcional, mas ideal para eventos):** Um bloco rápido com datas, horários, preços e locais.\n7.  **Boilerplate (Sobre a empresa):** Um parágrafo padrão no final que resume quem é a empresa (ex: *\"Fundada em 2010, a Empresa X é líder em...\"*).\n8.  **Contato de Imprensa:** Nome, e-mail e telefone do assessor responsável.\n\n---\n\n## 3. Passo a Passo de Execução\n\n### Fase 1: Planejamento\n*   **Defina a Pauta:** O que estou anunciando é *realmente* relevante para o público geral ou para um setor específico? (Lembre-se: Jornalista quer novidade, não propaganda).\n*   **Escolha o Tipo de Release:**\n    *   *Padrão/Institucional:* Lançamentos, fusões, novos executivos.\n    *   *De Evento:* Para convidar ou cobrir uma realização (focar no *timing*).\n    *   *Editorial/Artigo:* Opinião de um especialista sobre um tema quente no mercado.\n\n### Fase 2: Escrita (Mão na Massa)\n*   **Título:** Limite a cerca de 50-60 caracteres para não cortar no assunto do e-mail.\n*   **Tom de Voz:** Use a 3ª pessoa (\"A empresa lançou\" e não \"Nós lançamos\"). Seja objetivo. Evite adjetivos exagerados como \"incrível\", \"maravilhoso\", \"o melhor\".\n*   **SEO:** Se o objetivo for publicação em portais online, inclua palavras-chave estratégicas no título e no primeiro parágrafo.\n\n### Fase 3: Revisão\n*   **Checklist de Ouro:**\n    *   As datas e grafias de nomes estão corretas?\n    *   O link para o site/produto está funcionando?\n    *   Há imagens em alta resolução para acompanhar? (Jornalistas amam pautas que já vêm com foto pronta para publicar).\n\n---\n\n## 4. Melhores Práticas (Do\u0027s and Don\u0027ts)\n\n| ✅ O QUE FAZER | ❌ O QUE EVITAR |\n| :--- | :--- |\n| **Focar em dados:** Números e pesquisas dão credibilidade. | **Excesso de \"marketing\":** Release não é panfleto de vendas. |\n| **Facilitar a vida do jornalista:** Texto pronto para copiar e colar. | **Anexos pesados:** Nunca mande o release como anexo PDF. Cole o texto no corpo do e-mail. |\n| **Personalizar:** \"Oi [Nome do Jornalista], essa pauta é a cara da sua coluna\". | **Disparo em massa cego:** Mandar pauta de tecnologia para jornalista de esportes. |\n| **Timing:** Enviar com antecedência (para eventos) ou logo que o fato ocorre. | **Mentir ou exagerar:** Se perder a confiança do jornalista uma vez, perde para sempre. |\n\n---\n\n## 5. Estratégia de Distribuição (O \"Pulo do Gato\")\n\nDe nada adianta um texto perfeito se ele não chegar a quem publica.\n\n1.  **Segmentação de Mailing:** Crie listas específicas. Se o release é sobre Finanças, mande apenas para editores de Economia e Negócios.\n2.  **Assunto do E-mail:** É a sua única chance de ser aberto. Use o título do release ou uma variação atrativa dele.\n    *   *Dica:* Use colchetes para ajudar na identificação. Ex: `[Lançamento] Startup X recebe aporte de R$ 10mi`.\n3.  **O Corpo do E-mail:**\n    *   Cumprimente o jornalista.\n    *   Faça um \"pitch\" (resumo de 2 linhas) vendendo a pauta.\n    *   Cole o release completo logo abaixo.\n    *   Link para fotos/vídeos em uma pasta na nuvem (Drive/Dropbox).\n4.  **Follow-up:** Se não houver resposta em 24h-48h, vale um contato telefônico ou novo e-mail educado perguntando se ele recebeu o material.\n"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "Crie um release utilizando os dados abaixo, contudo, puxe o assunto um pouco mais para a participação da ACIRV no evento, a Vivianne da VComunica esteve presente no evento representando a ACIRV:\n\nPROCURADORIA ESPECIAL DA MULHER MARCA 20 ANOS DA LEI MARIA DA PENHA EM AUDIÊNCIA PÚBLICA SOBRE VIOLÊNCIA DOMÉSTICA E FEMINICÍDIO\n\nA Câmara Municipal de Rio Verde, por meio da Procuradoria Especial da Mulher, realizou na noite de quinta-feira, 25 de junho, audiência pública sobre o enfrentamento à violência doméstica e ao feminicídio, com o tema Desafios da Rede de Proteção e Políticas Públicas Municipais. O evento integrou as comemorações dos 20 anos da Lei Maria da Penha e reuniu representantes do poder público, sistema de justiça, forças de segurança, instituições e sociedade civil para ampliar o debate e fortalecer ações de proteção às mulheres no Plenário da Câmara Municipal de Rio Verde.\n\nConduzida pela procuradora especial da Mulher, vereadora Nayara Barcelos, a audiência reforçou o compromisso do Legislativo com o fortalecimento da rede de proteção e das políticas públicas de enfrentamento à violência de gênero do Legislativo municipal de Rio Verde. A parlamentar destacou a Procuradoria como espaço de acolhimento, orientação e defesa de direitos.\n\nTambém foram destacados avanços da legislação brasileira, com ênfase na Lei Maria da Penha, Lei do Feminicídio, Lei Mariana Ferrer e Lei nº 14.994/2024, ressaltando que os índices de violência ainda exigem atuação permanente das instituições e da sociedade.\n\nA diretora da Procuradoria Especial da Mulher, Lucia Batista, destacou a importância da integração da rede para ampliar o atendimento às vítimas e o acesso aos serviços especializados. Entre os presentes estiveram representantes do Ministério Público, DEAM, 3º Batalhão Maria da Penha, Secretaria de Assistência Social, Conselho da Mulher, ACIRV Mulher, SESI/SENAI e GGIM.\n\nTambém participaram os vereadores Chico KGL, Elvis (Hospital dos Brinquedos) e Gerlos. Ao encerrar, Nayara Barcelos reforçou que a efetividade da Lei Maria da Penha depende do compromisso institucional e da participação social, e que a Câmara seguirá apoiando ações de proteção e conscientização.\n\nVeja matéria na íntegra em www.rioverde.go.leg.br",
+      "role": "user",
+      "tokenCount": 545,
+      "createTime": "2026-07-07T20:49:44.073Z"
+    }, {
+      "text": "**Defining the Purpose**\n\nI\u0027m currently focused on defining the precise purpose and scope of this press release. I\u0027ve noted the user\u0027s need for a \"release de imprensa\" based on the Rio Verde event. The key is understanding the user\u0027s specific objectives for this release; I need to pinpoint the essential information the user wants to communicate to the public.\n\n\n**Pinpointing the Focus**\n\nI\u0027m now identifying the key actors and the core message. I\u0027m seeing the need to highlight ACIRV\u0027s involvement, specifically Vivianne from VComunica, within the broader context of the Maria da Penha Law\u0027s 20th anniversary, the public facing domestic violence and feminicide and the \"Desafios da Rede de Proteção e Políticas Públicas Municipais\" event in Rio Verde. This includes the public audience that will be present. I am working to define the best approach to present these details.\n\n\n**Outlining Key Elements**\n\nI\u0027m now outlining key elements of the release, emphasizing ACIRV\u0027s participation, with Vivianne from VComunica as their representative. I\u0027m focusing on a structure: a header with the date, and a title that links ACIRV\u0027s involvement to the public event, aiming to connect with the target audience effectively.\n\n\n**Refining the Approach**\n\nI\u0027m now adapting the press release structure from the playbook. My focus is on subtly shifting the subject towards a more Actionable Communications (AC) direction, aiming for increased engagement. I am aiming to align the framing of the press release with this objective. I will now examine which parts of the content should be prioritized.\n\n\n**Structuring the Announcement**\n\nI am now structuring the announcement. I will follow the playbook\u0027s format precisely to highlight ACIRV and Vivianne\u0027s representation at the event. I\u0027ve set the date and location. I will focus on a compelling title and lead that clearly identify ACIRV and Vivianne. I am now incorporating key event details and weaving in ACIRV\u0027s perspective. Finally, I will seek to include a compelling quote from Vivianne to humanize the message.\n\n\n**Drafting the Release**\n\nI\u0027m now drafting the release in Portuguese, adding the boilerplate, and press contact placeholder. The quote from Vivianne is being refined to emphasize ACIRV\u0027s role in supporting women facing violence. I am now working on the header, and two title options. I am choosing the title, \"ACIRV reforça comprom...\" I will now begin to complete the text, step by step.\n\n\n**Developing the Narrative**\n\nI\u0027m now integrating the focus on combating domestic violence within the public hearing context. I\u0027ve crafted the lead paragraph, highlighting ACIRV\u0027s active role, Vivianne\u0027s representation, and the event\u0027s core focus: the challenges in the protection network. I\u0027ve also incorporated the date and context. I\u0027m building on the lead to clearly describe the event, the stakeholders, and the core purpose of the discussion.\n\n\n**Incorporating Perspectives**\n\nI\u0027m now integrating insights from vereadora Nayara Barcelos, emphasizing the Procuradoria\u0027s role in rights defense. I\u0027m highlighting ACIRV\u0027s participation in the debate, focusing on the synergy between the business sector and municipal support networks. For the press release, I\u0027m accentuating the importance of economic autonomy in breaking the cycle of violence, stressing the strategic role of businesses and industry in local public policies.\n\n\n**Adding Contextual Detail**\n\nI\u0027m now incorporating recent Brazilian legal advancements like the Feminicide Law and the recent Law No. 14,994/2024 to highlight ongoing violence issues requiring constant, coordinated attention. Lucia Batista emphasized integrated service networks for quick victim access, and I\u0027m listing all the institutions present. I\u0027m noting the support of the councilors. I have added the boilerplate about ACIRV.\n\n\n**Finalizing the Boilerplate**\n\nI\u0027ve added ACIRV\u0027s boilerplate, describing its role as the leading voice of the productive sector, emphasizing local business support and community impact. The press contact information is also in place, including the email and phone number. I am now checking it to ensure everything is correct.\n\n\n",
+      "role": "model",
+      "tokenCount": 2595,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Purpose**\n\nI\u0027m currently focused on defining the precise purpose and scope of this press release. I\u0027ve noted the user\u0027s need for a \"release de imprensa\" based on the Rio Verde event. The key is understanding the user\u0027s specific objectives for this release; I need to pinpoint the essential information the user wants to communicate to the public.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Pinpointing the Focus**\n\nI\u0027m now identifying the key actors and the core message. I\u0027m seeing the need to highlight ACIRV\u0027s involvement, specifically Vivianne from VComunica, within the broader context of the Maria da Penha Law\u0027s 20th anniversary, the public facing domestic violence and feminicide and the \"Desafios da Rede de Proteção e Políticas Públicas Municipais\" event in Rio Verde. This includes the public audience that will be present. I am working to define the best approach to present these details.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Outlining Key Elements**\n\nI\u0027m now outlining key elements of the release, emphasizing ACIRV\u0027s participation, with Vivianne from VComunica as their representative. I\u0027m focusing on a structure: a header with the date, and a title that links ACIRV\u0027s involvement to the public event, aiming to connect with the target audience effectively.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Approach**\n\nI\u0027m now adapting the press release structure from the playbook. My focus is on subtly shifting the subject towards a more Actionable Communications (AC) direction, aiming for increased engagement. I am aiming to align the framing of the press release with this objective. I will now examine which parts of the content should be prioritized.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Announcement**\n\nI am now structuring the announcement. I will follow the playbook\u0027s format precisely to highlight ACIRV and Vivianne\u0027s representation at the event. I\u0027ve set the date and location. I will focus on a compelling title and lead that clearly identify ACIRV and Vivianne. I am now incorporating key event details and weaving in ACIRV\u0027s perspective. Finally, I will seek to include a compelling quote from Vivianne to humanize the message.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Drafting the Release**\n\nI\u0027m now drafting the release in Portuguese, adding the boilerplate, and press contact placeholder. The quote from Vivianne is being refined to emphasize ACIRV\u0027s role in supporting women facing violence. I am now working on the header, and two title options. I am choosing the title, \"ACIRV reforça comprom...\" I will now begin to complete the text, step by step.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Developing the Narrative**\n\nI\u0027m now integrating the focus on combating domestic violence within the public hearing context. I\u0027ve crafted the lead paragraph, highlighting ACIRV\u0027s active role, Vivianne\u0027s representation, and the event\u0027s core focus: the challenges in the protection network. I\u0027ve also incorporated the date and context. I\u0027m building on the lead to clearly describe the event, the stakeholders, and the core purpose of the discussion.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Incorporating Perspectives**\n\nI\u0027m now integrating insights from vereadora Nayara Barcelos, emphasizing the Procuradoria\u0027s role in rights defense. I\u0027m highlighting ACIRV\u0027s participation in the debate, focusing on the synergy between the business sector and municipal support networks. For the press release, I\u0027m accentuating the importance of economic autonomy in breaking the cycle of violence, stressing the strategic role of businesses and industry in local public policies.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Adding Contextual Detail**\n\nI\u0027m now incorporating recent Brazilian legal advancements like the Feminicide Law and the recent Law No. 14,994/2024 to highlight ongoing violence issues requiring constant, coordinated attention. Lucia Batista emphasized integrated service networks for quick victim access, and I\u0027m listing all the institutions present. I\u0027m noting the support of the councilors. I have added the boilerplate about ACIRV.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Finalizing the Boilerplate**\n\nI\u0027ve added ACIRV\u0027s boilerplate, describing its role as the leading voice of the productive sector, emphasizing local business support and community impact. The press contact information is also in place, including the email and phone number. I am now checking it to ensure everything is correct.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-07-07T20:49:44.073Z"
+    }, {
+      "text": "**Rio Verde (GO), 26 de junho de 2026**\n\n### ACIRV reforça compromisso com o combate à violência doméstica em audiência pública da Procuradoria da Mulher\n\nA Associação Comercial, Industrial e Serviços de Rio Verde (ACIRV) reafirmou seu papel ativo nas discussões sociais do município ao participar, na noite de quinta-feira (25 de junho), da audiência pública *\"Desafios da Rede de Proteção e Políticas Públicas Municipais\"*. Representada por Vivianne, da VComunica, a entidade integrou o debate promovido pela Procuradoria Especial da Mulher na Câmara Municipal de Rio Verde, que marcou os 20 anos da Lei Maria da Penha e buscou fortalecer as estratégias de combate à violência de gênero e ao feminicídio na região.\n\nO evento reuniu forças de segurança, representantes do sistema de justiça, poder público e sociedade civil organizada para debater os avanços legais e as frentes de ação necessárias para garantir a proteção e o acolhimento das mulheres. A audiência foi conduzida pela procuradora especial da Mulher, a vereadora Nayara Barcelos, que ressaltou a Procuradoria como um espaço permanente de acolhimento e defesa de direitos. \n\nA participação da ACIRV no debate destaca a importância da união entre o setor empresarial e a rede de apoio municipal. Para a associação, a autonomia econômica é um dos pilares fundamentais para romper o ciclo de violência doméstica, tornando o engajamento de empresas e da indústria uma peça estratégica nas políticas públicas locais.\n\n\u003e \"O enfrentamento à violência contra a mulher não deve ser restrito apenas aos órgãos públicos; ele exige uma mobilização de toda a sociedade. A ACIRV se faz presente para colaborar diretamente com essa rede. O setor produtivo tem a responsabilidade de promover ambientes corporativos seguros, além de gerar oportunidades que garantam a independência financeira dessas mulheres, ajudando-as a reconstruir suas vidas\", destaca Vivianne, da VComunica, que representou a associação no plenário.\n\nDurante o encontro, também foram pautadas as evoluções jurídicas brasileiras através de marcos como a Lei do Feminicídio, a Lei Mariana Ferrer e a Lei nº 14.994/2024, ressaltando que os índices de violência locais ainda demandam uma atuação coordenada e constante das instituições. \n\nA diretora da Procuradoria Especial da Mulher, Lucia Batista, enfatizou que a integração de toda a rede de atendimento é vital para que as vítimas acessem serviços especializados com agilidade. Entre as demais instituições e grupos presentes estavam representantes do Ministério Público, da Delegacia Especializada no Atendimento à Mulher (DEAM), do 3º Batalhão Maria da Penha, da Secretaria de Assistência Social, do Conselho da Mulher, do conselho ACIRV Mulher, SESI/SENAI e do Gabinete de Gestão Integrada Municipal (GGIM). A mesa de debates também contou com a presença e apoio dos vereadores Chico KGL, Elvis (Hospital dos Brinquedos) e Gerlos.\n\nAo encerrar os trabalhos, Nayara Barcelos reforçou que a efetividade da legislação depende do compromisso institucional coletivo e que o Legislativo continuará apoiando ações de conscientização.\n\n---\n\n**Sobre a ACIRV:**  \nFundada em 1984, a Associação Comercial, Industrial e Serviços de Rio Verde (ACIRV) é a principal representante do setor produtivo do município. Com foco no fortalecimento do comércio, da indústria e da prestação de serviços locais, a entidade atua no desenvolvimento socioeconômico da região e apoia iniciativas voltadas para a sustentabilidade e a responsabilidade social.\n\n**Contato para a Imprensa:**  \nAssessoria de Comunicação e Imprensa – ACIRV  \n**E-mail:** imprensa@acirv.com.br  \n**Telefone:** (64) 3620-0199  \n**Mais informações:** www.rioverde.go.leg.br",
+      "role": "model",
+      "grounding": {
+        "corroborationSegments": [{
+          "index": 593,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQE7rrgvvS0JEhJNiazOXfk-Akzdr1duKjJs8DC5-o8O05ezz7MpTyqV6FeiZTZZc4zG-oUISjgb7ov-nkJjc3uwK_fzCbiN7i7QnxsXwWOZpm8_G4ah7QtZ0T1ClAHdmWn2nNWucMD3o_vtl6hs9gKpDKpFHDAL2pxISDZvttZUnDtkKJOfMt9XhOWLeZXxhgzQLVXRnu3TggiK1_AOLGuJTPGT4OPXXPyCDYme9KGMOgf5GPpEkhFTXzqwnrXwiL-8VAXalFHytNX41XsVI7WU2A%3D%3D",
+          "footnoteNumber": 1
+        }, {
+          "index": 593,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQF8xsc1oiqNH0m9lg-Nr70XIRTMqzshgUa_hNutLSkmvZVd7rckPi2gkwEpnJRGqE2nqSvC0NXifzfpCluSi2lpS5U1hZQVPjyNY3ONtC_u7PWkAfPmJorMid_8dDfin0OYrs3IoBu0UeKFlPguy6tQDg7pTrTN2SCCWBzACdlxsGQUSOgxpG-ALGNDKy2IRzavkGu5HszNFiWWfA%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 1299,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGSFTk3xfpEsTH0Sj6X4KhuhhDIMCfFzlzAo9K3_8CfbmEpN-pydpkGIO_myosUptU8si-0VhhenHE63yHqccsrvUUf4NgLxLnXQ2K9Ci7eX_HboE_tD2Gz0f8z6V-yMWYOy9pY-jGY2ZnE",
+          "footnoteNumber": 3
+        }, {
+          "index": 1299,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH2Pu7d9QNgOyp0vR44GA5wIUikfAnceII7TpJJ42FUDrkN47IPhy0GwGq3MavHcdvOxuPChh9raxt6QKvnM-1kSko5cmNgc-p-TZN0pVfvPMN_9yCukcsafg%3D%3D",
+          "footnoteNumber": 4
+        }, {
+          "index": 1527,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGSFTk3xfpEsTH0Sj6X4KhuhhDIMCfFzlzAo9K3_8CfbmEpN-pydpkGIO_myosUptU8si-0VhhenHE63yHqccsrvUUf4NgLxLnXQ2K9Ci7eX_HboE_tD2Gz0f8z6V-yMWYOy9pY-jGY2ZnE",
+          "footnoteNumber": 3
+        }, {
+          "index": 1527,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH2Pu7d9QNgOyp0vR44GA5wIUikfAnceII7TpJJ42FUDrkN47IPhy0GwGq3MavHcdvOxuPChh9raxt6QKvnM-1kSko5cmNgc-p-TZN0pVfvPMN_9yCukcsafg%3D%3D",
+          "footnoteNumber": 4
+        }, {
+          "index": 2873,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEC2Y2y6SlVHMwe7P7Slv2ZKvHCEVRQPIlsT8uCJ8YvBpyiZ1RKdjkYvzz8Bo_w3-WzQgra1aVCjMknGLhKhfZwE227uDKDeKMaiJBHG2RV3Q%3D%3D",
+          "footnoteNumber": 5
+        }, {
+          "index": 3379,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGSFTk3xfpEsTH0Sj6X4KhuhhDIMCfFzlzAo9K3_8CfbmEpN-pydpkGIO_myosUptU8si-0VhhenHE63yHqccsrvUUf4NgLxLnXQ2K9Ci7eX_HboE_tD2Gz0f8z6V-yMWYOy9pY-jGY2ZnE",
+          "footnoteNumber": 3
+        }, {
+          "index": 3616,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGSFTk3xfpEsTH0Sj6X4KhuhhDIMCfFzlzAo9K3_8CfbmEpN-pydpkGIO_myosUptU8si-0VhhenHE63yHqccsrvUUf4NgLxLnXQ2K9Ci7eX_HboE_tD2Gz0f8z6V-yMWYOy9pY-jGY2ZnE",
+          "footnoteNumber": 3
+        }, {
+          "index": 3616,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH2Pu7d9QNgOyp0vR44GA5wIUikfAnceII7TpJJ42FUDrkN47IPhy0GwGq3MavHcdvOxuPChh9raxt6QKvnM-1kSko5cmNgc-p-TZN0pVfvPMN_9yCukcsafg%3D%3D",
+          "footnoteNumber": 4
+        }, {
+          "index": 3698,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH2Pu7d9QNgOyp0vR44GA5wIUikfAnceII7TpJJ42FUDrkN47IPhy0GwGq3MavHcdvOxuPChh9raxt6QKvnM-1kSko5cmNgc-p-TZN0pVfvPMN_9yCukcsafg%3D%3D",
+          "footnoteNumber": 4
+        }, {
+          "index": 3765,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH2Pu7d9QNgOyp0vR44GA5wIUikfAnceII7TpJJ42FUDrkN47IPhy0GwGq3MavHcdvOxuPChh9raxt6QKvnM-1kSko5cmNgc-p-TZN0pVfvPMN_9yCukcsafg%3D%3D",
+          "footnoteNumber": 4
+        }],
+        "webSearchQueries": ["ACIRV Rio Verde o que e"],
+        "groundingSources": [{
+          "referenceNumber": 1,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQE7rrgvvS0JEhJNiazOXfk-Akzdr1duKjJs8DC5-o8O05ezz7MpTyqV6FeiZTZZc4zG-oUISjgb7ov-nkJjc3uwK_fzCbiN7i7QnxsXwWOZpm8_G4ah7QtZ0T1ClAHdmWn2nNWucMD3o_vtl6hs9gKpDKpFHDAL2pxISDZvttZUnDtkKJOfMt9XhOWLeZXxhgzQLVXRnu3TggiK1_AOLGuJTPGT4OPXXPyCDYme9KGMOgf5GPpEkhFTXzqwnrXwiL-8VAXalFHytNX41XsVI7WU2A%3D%3D",
+          "title": "go.leg.br"
+        }, {
+          "referenceNumber": 2,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQF8xsc1oiqNH0m9lg-Nr70XIRTMqzshgUa_hNutLSkmvZVd7rckPi2gkwEpnJRGqE2nqSvC0NXifzfpCluSi2lpS5U1hZQVPjyNY3ONtC_u7PWkAfPmJorMid_8dDfin0OYrs3IoBu0UeKFlPguy6tQDg7pTrTN2SCCWBzACdlxsGQUSOgxpG-ALGNDKy2IRzavkGu5HszNFiWWfA%3D%3D",
+          "title": "rioverde.go.gov.br"
+        }, {
+          "referenceNumber": 3,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGSFTk3xfpEsTH0Sj6X4KhuhhDIMCfFzlzAo9K3_8CfbmEpN-pydpkGIO_myosUptU8si-0VhhenHE63yHqccsrvUUf4NgLxLnXQ2K9Ci7eX_HboE_tD2Gz0f8z6V-yMWYOy9pY-jGY2ZnE",
+          "title": "acirv.com.br"
+        }, {
+          "referenceNumber": 4,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQH2Pu7d9QNgOyp0vR44GA5wIUikfAnceII7TpJJ42FUDrkN47IPhy0GwGq3MavHcdvOxuPChh9raxt6QKvnM-1kSko5cmNgc-p-TZN0pVfvPMN_9yCukcsafg%3D%3D",
+          "title": "acirv.com.br"
+        }, {
+          "referenceNumber": 5,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQEC2Y2y6SlVHMwe7P7Slv2ZKvHCEVRQPIlsT8uCJ8YvBpyiZ1RKdjkYvzz8Bo_w3-WzQgra1aVCjMknGLhKhfZwE227uDKDeKMaiJBHG2RV3Q%3D%3D",
+          "title": "acirvmulher.com.br"
+        }]
+      },
+      "finishReason": "STOP",
+      "tokenCount": 941,
+      "parts": [{
+        "text": "**Rio Verde (GO), 26 de junho de 2026**\n\n### ACIRV reforça compromisso"
+      }, {
+        "text": " com o combate à violência doméstica em audiência pública da Procuradoria da Mulher\n\nA Associação Comercial, Industrial e Serviços"
+      }, {
+        "text": " de Rio Verde (ACIRV) reafirmou seu papel ativo nas discussões sociais do município ao participar, na noite de quinta"
+      }, {
+        "text": "-feira (25 de junho), da audiência pública *\"Desafios da Rede de Proteção e Políticas Públicas"
+      }, {
+        "text": " Municipais\"*. Representada por Vivianne, da VComunica, a entidade integrou o debate promovido pela Procuradoria Especial da"
+      }, {
+        "text": " Mulher na Câmara Municipal de Rio Verde, que marcou os "
+      }, {
+        "text": "20 anos da Lei Maria da Penha e buscou fortalecer as estratégias de combate à violência de gênero e ao feminicídio"
+      }, {
+        "text": " na região.\n\nO evento reuniu forças de segurança, representantes do sistema de justiça, poder público e sociedade civil organizada para debater os"
+      }, {
+        "text": " avanços legais e as frentes de ação necessárias para garantir a proteção e o acolhimento das mulheres. A audi"
+      }, {
+        "text": "ência foi conduzida pela procuradora especial da Mulher, a vereadora Nayara Barcelos, que ressaltou"
+      }, {
+        "text": " a Procuradoria como um espaço permanente de acolhimento e defesa de direitos. \n\nA participação da ACIRV no debate destaca"
+      }, {
+        "text": " a importância da união entre o setor empresarial e a rede de apoio municipal"
+      }, {
+        "text": ". Para a associação, a autonomia econômica é um dos pilares fundamentais para romper o ciclo de violência doméstica, tornando o eng"
+      }, {
+        "text": "ajamento de empresas e da indústria uma peça estratégica nas políticas públicas locais"
+      }, {
+        "text": ".\n\n\u003e \"O enfrentamento à violência contra a mulher não deve ser restrito apenas aos órgãos públicos; ele exige"
+      }, {
+        "text": " uma mobilização de toda a sociedade. A ACIRV se faz presente para colaborar diretamente com essa rede. O setor produtivo tem"
+      }, {
+        "text": " a responsabilidade de promover ambientes corporativos seguros, além de gerar oportunidades que garantam a independência financeira dessas mulheres, ajudando"
+      }, {
+        "text": "-as a reconstruir suas vidas\", destaca Vivianne, da VComunica, que representou a associação no plen"
+      }, {
+        "text": "ário.\n\nDurante o encontro, também foram pautadas as evoluções jurídicas brasileiras através de marcos como"
+      }, {
+        "text": " a Lei do Feminicídio, a Lei Mariana Ferrer e a Lei nº 14.994/202"
+      }, {
+        "text": "4, ressaltando que os índices de violência locais ainda demandam uma atuação coordenada e constante das instituições. \n\nA diret"
+      }, {
+        "text": "ora da Procuradoria Especial da Mulher, Lucia Batista, enfatizou que a integração de toda a rede de atendimento é"
+      }, {
+        "text": " vital para que as vítimas acessem serviços especializados com agilidade. Entre as demais instituições e grupos presentes estavam representantes do Ministério Público, da"
+      }, {
+        "text": " Delegacia Especializada no Atendimento à Mulher (DEAM), do 3º Batalhão Maria da Pen"
+      }, {
+        "text": "ha, da Secretaria de Assistência Social, do Conselho da Mulher, do conselho ACIRV Mulher, SESI/SENAI"
+      }, {
+        "text": " e do Gabinete de Gestão Integrada Municipal (GGIM). A mesa de debates também contou com"
+      }, {
+        "text": " a presença e apoio dos vereadores Chico KGL, Elvis (Hospital dos Brinquedos) e Gerlos.\n\n"
+      }, {
+        "text": "Ao encerrar os trabalhos, Nayara Barcelos reforçou que a efetividade da legislação depende do compromisso institucional colet"
+      }, {
+        "text": "ivo e que o Legislativo continuará apoiando ações de conscientização.\n\n---\n\n**Sobre a ACIRV:**  "
+      }, {
+        "text": "\nFundada em 1984, a Associação Comercial, Industrial e Serviços de Rio Verde (ACIRV"
+      }, {
+        "text": ") é a principal representante do setor produtivo do município. Com foco no fortalecimento do comércio, da indústria e"
+      }, {
+        "text": " da prestação de serviços locais, a entidade atua no desenvolvimento socioeconômico da região e apoia iniciativas volt"
+      }, {
+        "text": "adas para a sustentabilidade e a responsabilidade social."
+      }, {
+        "text": "\n\n**Contato para a Imprensa:**  \nAssessoria de Comunicação e Imprensa – ACIRV"
+      }, {
+        "text": "  \n**E-mail:** imprensa@acirv.com.br  \n**Telefone:** (64"
+      }, {
+        "text": ") 3620-0199  \n**Mais informações:** www.riover"
+      }, {
+        "text": "de.go.leg.br"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-07-07T20:49:58.032Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

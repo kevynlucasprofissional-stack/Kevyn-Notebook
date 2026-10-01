@@ -1,0 +1,2 @@
+Arquibancadas se erguiam ao redor de um picadeiro e luzes de vários holofotes estavam acesas no teto do ambiente, tornando-o bem iluminado. Haviam quatro portas, uma em cada direção do grande salão de onde entravam gatinhos que logo achavam um lugar nos bancos.
+Gatos tricolores vestindo ternos vermelhos com ornamentos de rosas douradas dançavam em duas patas ao tempo em que tocavam os trompetes. Logo atrás deles, um trupe de gatos paçoca marchando e batendo as baquetas nos tamborins, eles estavam no ritmo.

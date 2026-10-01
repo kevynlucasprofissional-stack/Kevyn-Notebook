@@ -1,0 +1,263 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-flash-lite-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_MINIMAL",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1MkEKmrDHb0GxAZsXqD0RuXC5Qhu-LOsb"
+      },
+      "role": "user",
+      "tokenCount": 9623,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1JDCp0M_r5FRVm_qNb1H5bAizXPtTRD81"
+      },
+      "role": "user",
+      "tokenCount": 654,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1hq3lQNtCkj2npcvd67TOhNePqesIWWgv"
+      },
+      "role": "user",
+      "tokenCount": 402,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1GOQ3tVy76_s6bYWJoKLp4tb7bHv-rubS"
+      },
+      "role": "user",
+      "tokenCount": 1439,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1_uCRcashS4tTo9FryyQ7_JCKCzZrqhjt"
+      },
+      "role": "user",
+      "tokenCount": 408,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1tk14obYYgA-W61QjFP5ta9B4SkZ7Dyjt"
+      },
+      "role": "user",
+      "tokenCount": 684,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1NFvOZzD1R-ifAw2oqMqHmkDoqV7rq-xN"
+      },
+      "role": "user",
+      "tokenCount": 2842,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1u0PHxer9BSdqq8vxRyu7SRmwkB1Ulc7N"
+      },
+      "role": "user",
+      "tokenCount": 46,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "16GYysaeDQ_JBmoSc6nb8sYHZoSzc1HXC"
+      },
+      "role": "user",
+      "tokenCount": 1328,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1XWlDQ_wVgfc67yz5d5ebzBl4ruvn3csP"
+      },
+      "role": "user",
+      "tokenCount": 4427,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1qALL4K0PlkFWU-zkG9g_uQNiYaZ8EKAU"
+      },
+      "role": "user",
+      "tokenCount": 287,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1G-tGLCSGzRHXVxw5rOM-cpVprMT7IAIi"
+      },
+      "role": "user",
+      "tokenCount": 4534,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1BLMb2eAcDxr1qlxt1P2byoKKnBJJDrbJ"
+      },
+      "role": "user",
+      "tokenCount": 1477,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1nUoeDuI3ZxF_cz8rpZOAgXAnif7EQM0T"
+      },
+      "role": "user",
+      "tokenCount": 1178,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "driveDocument": {
+        "id": "1LCZfY4wQNXm84tzTnrKaABFkK6sHCzOi"
+      },
+      "role": "user",
+      "tokenCount": 1121,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "text": "Com base nos dados em anexo, gere para mim:\n\n# 11 — Fluxos Críticos\n\nListar os fluxos principais:\n\n- onboarding\n    \n- contratação\n    \n- pagamento\n    \n- avaliação\n    ",
+      "role": "user",
+      "tokenCount": 52,
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }, {
+      "text": "Com base na arquitetura Ágora, nas funcionalidades mapeadas e nas necessidades de negócio extraídas dos anexos, apresento os **Fluxos Críticos** que garantem a conversão, a retenção e a qualidade da entrega do sistema.\n\n---\n\n### 1. Fluxo de Onboarding (Aquisição e Conversão)\nO objetivo aqui é reduzir o atrito entre o interesse inicial e a primeira experiência de valor (a \"entrega\" do agente Ágora).\n\n1.  **Landing Page:** O usuário chega pela LP (com prova social e descrição do valor).\n2.  **Entrada:** Usuário clica em \"Começar Agora\" (Direto para Chat) ou em um plano (Direto para Cadastro).\n3.  **Coleta de Dados:** Caso o usuário não tenha conta, ele é direcionado ao fluxo de cadastro (simples: nome, email, senha).\n4.  **Atribuição:** O sistema atribui automaticamente o **Plano Freemium** no banco de dados (`user.plan_id` -\u003e `plan.id` [Freemium]).\n5.  **Setup do Usuário:** O sistema cria um `user_request` vazio para iniciar o contexto da conversa.\n6.  **Primeiro Prompt:** O Agente Orquestrador Master saúda o usuário, explica brevemente o Ágora e solicita a descrição da campanha (Intake).\n7.  **Estado Concluído:** Usuário interage com o agente, sentindo o valor antes de ser forçado a um \"paywall\" (estratégia *product-led*).\n\n---\n\n### 2. Fluxo de Contratação (Upgrade de Plano)\nEste fluxo ocorre quando o usuário atinge os limites do seu plano atual (ex: 2 uploads no Freemium) ou deseja recursos exclusivos (Audiência Sintética/Enterprise).\n\n1.  **Trigger de Limite:** Ao tentar realizar o 3º upload (no Freemium), o backend bloqueia a ação e dispara um modal de \"Upgrade Necessário\".\n2.  **Exibição de Planos:** O sistema apresenta a tabela comparativa (Freemium vs. Standard vs. Pro vs. Enterprise), destacando os benefícios do próximo nível.\n3.  **Seleção:** Usuário escolhe o plano (ex: Standard).\n4.  **Checkout:** Integração com gateway de pagamento (simulado/Stripe).\n5.  **Provisionamento:** Após confirmação do pagamento pelo gateway:\n    *   O `plan_id` do usuário na tabela `user` é atualizado.\n    *   O `uploads_limit` é incrementado instantaneamente.\n    *   O sistema libera as funcionalidades bloqueadas (ex: acesso aos insights de audiência sintética).\n6.  **Confirmação:** Agente Ágora parabeniza o usuário pela nova categoria de recursos.\n\n---\n\n### 3. Fluxo de Pagamento (Ciclos Recorrentes)\n*Nota: Como o Ágora utiliza um modelo SaaS, este fluxo gerencia a sustentabilidade financeira.*\n\n1.  **Monitoramento:** O sistema (via Webhook do Gateway) verifica a data de renovação.\n2.  **Processamento:** Renovação automática ou envio de lembrete de cobrança (se anual ou mensal).\n3.  **Sucesso:** O status do plano é mantido ou renovado na tabela `plan` e `user`.\n4.  **Falha (Inadimplência):**\n    *   O sistema envia notificação via e-mail.\n    *   Após *grace period* (ex: 7 dias), o sistema rebaixa o usuário para o **Plano Freemium** automaticamente.\n    *   O acesso a recursos *Pro/Enterprise* (como APIs da Meta) é suspenso.\n\n---\n\n### 4. Fluxo de Avaliação (Feedback Loop e Qualidade)\nEste é o fluxo que retroalimenta a IA para garantir que os resultados (Score/Campanha Otimizada) estejam realmente alinhados às expectativas dos especialistas.\n\n1.  **Trigger de Entrega:** O Agente Sintetizador entrega o Report Executivo e a Campanha Otimizada.\n2.  **Interface de Feedback:** Abaixo do relatório, aparecem os botões de **Like (👍)** e **Deslike (👎)**.\n3.  **Ação de Feedback:**\n    *   Se **Like**: O sistema registra a satisfação e o agente solicita um breve depoimento (para prova social na LP).\n    *   Se **Deslike**: O sistema abre um formulário de *feedback* rápido (\"O que faltou?\", \"Score não condiz?\", \"Sugestão errada?\").\n4.  **Armazenamento:** O feedback é vinculado à `agent_response` específica.\n5.  **Aprendizado:**\n    *   Se o feedback negativo for alto para um determinado agente, o sistema sinaliza a necessidade de \"reajuste de prompt\" para aquele Sub-Agente específico no `Master Agent`.\n    *   Os dados são estruturados para permitir que, em versões futuras, a IA entenda melhor as nuances que o usuário marcou como \"erradas\".\n\n---\n\n### Resumo para Implementação:\n| Fluxo | Trigger (Disparador) | Ação Principal | Impacto no DB |\n| :--- | :--- | :--- | :--- |\n| **Onboarding** | Acesso à Landing | Criação de conta/chat | `User` + `Plan` |\n| **Contratação** | Limite de uso atingido | Upgrade de plano | `User.plan_id` |\n| **Pagamento** | Ciclo Mensal/Anual | Cobrança | `Plan` status |\n| **Avaliação** | Entrega do Relatório | Coleta de Like/Deslike | `AgentResponse` meta |",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1274,
+      "parts": [{
+        "text": "Com base"
+      }, {
+        "text": " na arquitetura Ágora, nas funcionalidades mapeadas e nas necessidades de negócio extra"
+      }, {
+        "text": "ídas dos anexos, apresento os **Fluxos Críticos** que garantem a conversão, a retenção e a"
+      }, {
+        "text": " qualidade da entrega do sistema.\n\n---\n\n### 1. Fluxo de Onboarding (Aquisição e Conversão)\nO objetivo"
+      }, {
+        "text": " aqui é reduzir o atrito entre o interesse inicial e a primeira experiência de valor (a \"entrega\" do agente"
+      }, {
+        "text": " Ágora).\n\n1.  **Landing Page:** O usuário chega pela LP (com prova social e descrição do valor"
+      }, {
+        "text": ").\n2.  **Entrada:** Usuário clica em \"Começar Agora\" (Direto para Chat"
+      }, {
+        "text": ") ou em um plano (Direto para Cadastro).\n3.  **Coleta de Dados:** Caso o usuário não tenha conta,"
+      }, {
+        "text": " ele é direcionado ao fluxo de cadastro (simples: nome, email, senha).\n4.  **At"
+      }, {
+        "text": "ribuição:** O sistema atribui automaticamente o **Plano Freemium** no banco de dados (`user.plan_id` -\u003e "
+      }, {
+        "text": "`plan.id` [Freemium]).\n5.  **Setup do Usuário:** O sistema cria um `user_request"
+      }, {
+        "text": "` vazio para iniciar o contexto da conversa.\n6.  **Primeiro Prompt:** O Agente Orquestrador Master"
+      }, {
+        "text": " saúda o usuário, explica brevemente o Ágora e solicita a descrição da campanha (Intake).\n7.  **"
+      }, {
+        "text": "Estado Concluído:** Usuário interage com o agente, sentindo o valor antes de ser forçado a um"
+      }, {
+        "text": " \"paywall\" (estratégia *product-led*).\n\n---\n\n### 2. Fluxo de Cont"
+      }, {
+        "text": "ratação (Upgrade de Plano)\nEste fluxo ocorre quando o usuário atinge os limites do seu plano atual (ex: 2 uploads"
+      }, {
+        "text": " no Freemium) ou deseja recursos exclusivos (Audiência Sintética/Enterprise).\n\n1.  **Trigger de Lim"
+      }, {
+        "text": "ite:** Ao tentar realizar o 3º upload (no Freemium), o backend bloqueia a ação e dispara um"
+      }, {
+        "text": " modal de \"Upgrade Necessário\".\n2.  **Exibição de Planos:** O sistema apresenta a tabela compar"
+      }, {
+        "text": "ativa (Freemium vs. Standard vs. Pro vs. Enterprise), destacando os benefícios do próximo nível.\n3.  **"
+      }, {
+        "text": "Seleção:** Usuário escolhe o plano (ex: Standard).\n4.  **Checkout:** Integração com gateway de pagamento ("
+      }, {
+        "text": "simulado/Stripe).\n5.  **Provisionamento:** Após confirmação do pagamento pelo gateway:\n    *   "
+      }, {
+        "text": "O `plan_id` do usuário na tabela `user` é atualizado.\n    *   O `uploads"
+      }, {
+        "text": "_limit` é incrementado instantaneamente.\n    *   O sistema libera as funcionalidades bloqueadas (ex: acesso"
+      }, {
+        "text": " aos insights de audiência sintética).\n6.  **Confirmação:** Agente Ágora parabeniza o usuário"
+      }, {
+        "text": " pela nova categoria de recursos.\n\n---\n\n### 3. Fluxo de Pagamento (Ciclos Recorrentes)\n*"
+      }, {
+        "text": "Nota: Como o Ágora utiliza um modelo SaaS, este fluxo gerencia a sustentabilidade financeira.*\n\n1."
+      }, {
+        "text": "  **Monitoramento:** O sistema (via Webhook do Gateway) verifica a data de renovação.\n2.  "
+      }, {
+        "text": "**Processamento:** Renovação automática ou envio de lembrete de cobrança (se anual ou mensal).\n3.  **"
+      }, {
+        "text": "Sucesso:** O status do plano é mantido ou renovado na tabela `plan` e `user`.\n4.  **Fal"
+      }, {
+        "text": "ha (Inadimplência):**\n    *   O sistema envia notificação via e-mail.\n    *   Após"
+      }, {
+        "text": " *grace period* (ex: 7 dias), o sistema rebaixa o usuário para o **Plano Freemium**"
+      }, {
+        "text": " automaticamente.\n    *   O acesso a recursos *Pro/Enterprise* (como APIs da Meta) é suspenso."
+      }, {
+        "text": "\n\n---\n\n### 4. Fluxo de Avaliação (Feedback Loop e Qualidade)\nEste é o fluxo que retro"
+      }, {
+        "text": "alimenta a IA para garantir que os resultados (Score/Campanha Otimizada) estejam realmente alinhados às"
+      }, {
+        "text": " expectativas dos especialistas.\n\n1.  **Trigger de Entrega:** O Agente Sintetizador entrega o Report Executivo e a"
+      }, {
+        "text": " Campanha Otimizada.\n2.  **Interface de Feedback:** Abaixo do relatório, aparecem os botões de **Like"
+      }, {
+        "text": " (👍)** e **Deslike (👎)**.\n3.  **Ação de Feedback:**\n    *   Se"
+      }, {
+        "text": " **Like**: O sistema registra a satisfação e o agente solicita um breve depoimento (para prova social na LP).\n    *   "
+      }, {
+        "text": "Se **Deslike**: O sistema abre um formulário de *feedback* rápido (\"O que faltou?\", \"Score"
+      }, {
+        "text": " não condiz?\", \"Sugestão errada?\").\n4.  **Armazenamento:** O feedback é"
+      }, {
+        "text": " vinculado à `agent_response` específica.\n5.  **Aprendizado:**\n    *   Se o feedback negativo"
+      }, {
+        "text": " for alto para um determinado agente, o sistema sinaliza a necessidade de \"reajuste de prompt\" para aquele Sub"
+      }, {
+        "text": "-Agente específico no `Master Agent`.\n    *   Os dados são estruturados para permitir que, em versões"
+      }, {
+        "text": " futuras, a IA entenda melhor as nuances que o usuário marcou como \"erradas\".\n\n---\n\n### Res"
+      }, {
+        "text": "umo para Implementação:\n| Fluxo | Trigger (Disparador) | Ação Principal | Impacto no"
+      }, {
+        "text": " DB |\n| :--- | :--- | :--- | :--- |\n| **Onboarding** | Acesso à"
+      }, {
+        "text": " Landing | Criação de conta/chat | `User` + `Plan` |\n| **Contratação** |"
+      }, {
+        "text": " Limite de uso atingido | Upgrade de plano | `User.plan_id` |\n| **Pagamento** | Cic"
+      }, {
+        "text": "lo Mensal/Anual | Cobrança | `Plan` status |\n| **Avaliação** | Entrega do Relatório |"
+      }, {
+        "text": " Coleta de Like/Deslike | `AgentResponse` meta |"
+      }, {
+        "text": "",
+        "thoughtSignature": "EjQKMgG+Pvb7G5bLCgQ2HzuGOWTX/+i2rda4fiy/Y3W4kMj7h2ahtHMRXdoCmWBnCwQxp5BL"
+      }],
+      "createTime": "2026-03-15T09:07:08.959Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

@@ -1,0 +1,1 @@
+No menu de objetos, a bolinha de baixo oculta o objeto no render e a de cima oculta o objeto no viewport.

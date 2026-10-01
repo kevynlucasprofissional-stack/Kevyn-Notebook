@@ -1,0 +1,1 @@
+A Blend suaviza animações.

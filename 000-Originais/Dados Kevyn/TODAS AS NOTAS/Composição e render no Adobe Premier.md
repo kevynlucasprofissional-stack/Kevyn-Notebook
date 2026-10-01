@@ -1,0 +1,1 @@
+Sonorização e ajustes finais (Talvez um LUT), renderização em HEVC (H.265), e em Bithrate Settings ajuste para VBR acima de 30.

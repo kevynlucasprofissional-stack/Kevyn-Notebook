@@ -1,0 +1,1 @@
+Foi uma introdução básica a ferramenta de texto e suas possíveis transformações.

@@ -1,0 +1,1 @@
+O trabalho com câmeras pode ficar diferente a depender do renderizador que está utilizando. Cada renderizador tem suas particularidades, prós e contras.

@@ -1,0 +1,1 @@
+Martin Naumann começou criando peças gráficas e logos para DJs, e a arte dele é descrita como futurista e psicodélica, apostando em esquemas de cores vibrantes e formas.

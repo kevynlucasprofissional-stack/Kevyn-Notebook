@@ -1,0 +1,1 @@
+Tem como criar texturas luminosas nas propriedades de emissão do material. E a partir daí é só ajustar a potência e o estilo de emissão. Cada estilo de emissão tem propriedades diferentes. Color é uma emissão constante de uma cor e Noise é emissão com turbulências.

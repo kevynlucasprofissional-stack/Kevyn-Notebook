@@ -1,0 +1,1 @@
+Quanto você precisou investir para receber x valor? Tire esse valor do investimento do valor x recebido, o restante divida por 3. 1/3 para pagar custo fixo e variável, 1/3 para aumentar o estoque, 1/3 é seu salário.

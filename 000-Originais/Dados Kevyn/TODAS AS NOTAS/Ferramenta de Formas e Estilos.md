@@ -1,0 +1,2 @@
+* **Alternância Máscara/Forma:** Com a ferramenta de formas selecionada e uma camada de forma ativa, é possível alternar entre desenhar uma máscara ou uma forma diretamente na barra de ferramentas.
+* **Menu "Add" (Camadas de Forma):** Nas propriedades de uma camada de forma, o menu "Add" oferece a possibilidade de adicionar diversos estilos como preenchimento, contorno, gradientes, entre outros.

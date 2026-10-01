@@ -1,0 +1,3 @@
+* **Dimensões Separadas:** Clique com o botão direito no parâmetro "Posição" e selecione "Dimensões separadas" para editar os eixos X e Y independentemente, facilitando o trabalho com o gráfico de valores.
+* **Edição de Cores:** Ao editar cores de formas, pressione Alt para alternar o estilo de preenchimento ou clique no nome "Preenchimento" para abrir o menu de edição de cores.
+* **Animação do Background:** Anime sempre a camada de fundo para adicionar profundidade e dinamismo.

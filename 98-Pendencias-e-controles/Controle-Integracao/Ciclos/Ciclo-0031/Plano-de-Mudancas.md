@@ -1,0 +1,9 @@
+# Plano de Mudancas
+
+| Unidade | Nota de destino | Operacao | Justificativa | Impacto | Frontmatter afetado | Links e MOCs afetados | Risco de duplicacao | Risco interpretativo | Validacao prevista |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SRC-000121 | Kevyn Lucas.md | ampliar | Restaurar a proveniencia do guia de extracao de conhecimento sem importar o conteudo bruto. | 1 nota e 1 bloco de proveniencia. | fontes_primarias, versao_conteudo, ultima_revisao | Kevyn Lucas | baixo | baixo | confirmar que a linha ficou curta e biografica. |
+| SRC-000122 | Kevyn Lucas.md | ampliar | Registrar a exploracao de cursos na Hotmart como evidencia de aprendizagem online. | 1 nota e 1 bloco de proveniencia. | fontes_primarias, versao_conteudo, ultima_revisao | Kevyn Lucas | baixo | baixo | verificar que credenciais e detalhes sensiveis nao reapareceram. |
+| SRC-000123 | Kevyn Lucas.md | ampliar | Registrar o criativo autobiografico sobre treino e superacao da desmotivacao. | 1 nota e 1 bloco de proveniencia. | fontes_primarias, versao_conteudo, ultima_revisao | Kevyn Lucas | baixo | baixo | checar se a descricao nao virou narrativa psicologica ampla. |
+| SRC-000124 | Marketing comunicacao e processos.md | ampliar | Restaurar o esboco operacional de planejamento do Hoor Digital. | 1 nota e 1 bloco de proveniencia. | fontes_primarias, versao_conteudo, ultima_revisao | Marketing comunicacao e processos; Hoor Digital | baixo | baixo | confirmar que o texto permaneceu como evidencia de organizacao. |
+| SRC-000125 | Marketing comunicacao e processos.md | ampliar | Registrar a ideia de clone de Alex Hormozi para avaliacao de oferta e aquisicao. | 1 nota e 1 bloco de proveniencia. | fontes_primarias, versao_conteudo, ultima_revisao | Marketing comunicacao e processos | baixo | baixo | confirmar que a hipotese nao foi tratada como implementacao. |

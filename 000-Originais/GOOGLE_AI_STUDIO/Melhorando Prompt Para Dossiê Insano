@@ -1,0 +1,180 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1QqJyUiJxiZjP14R5lwWEuH-8fR0uunl0"
+      },
+      "role": "user",
+      "tokenCount": 157921
+    }, {
+      "driveDocument": {
+        "id": "1R7cZxVKNa3ab8RHh3HpujKFzMWULjurX"
+      },
+      "role": "user",
+      "tokenCount": 48308
+    }, {
+      "text": "Estou criando um resumo definitivo sobre mim, estou na etapa de que preciso revisar os prompts para que ele entregue resultados insanamente ótimos, preciso de ajuda para refinar o prompt do processo de gerar dossiê, o prompt a ser melhorado está em \u003cprompt_melhorar\u003e\u003c\\prompt_melhorar\u003e. Vou anexar alguns livros sobre engenharia de prompt dos quais você irá extrair frameworks para me ajudar no meu objetivo.\n\n\u003cprompt_melhorar\u003e\n\nPASSO 8: Extração da \"Estratégia de Tribo\"\n**Objetivo:** Mapear o plano de negócios/movimento social que Kevyn desenhou.\n\n\u003e **Comando:**  \n\u003e \"Analise o Contexto Completo focando exclusivamente na visão de **Comunidade, Liderança e Marketing** de Kevyn Lucas. Reconstrua o \u0027Manifesto da Tribo\u0027 que ele planejou.\n\u003e \n\u003e Por favor, extraia e organize:\n\u003e \n\u003e 1. **A Identidade da Tribo:** Quais nomes ele usa para seus seguidores ideais? Quem são eles?\n\u003e 2. **A Metodologia de Ensino:** Como ele planeja ensinar?\n\u003e 3. **A Filosofia do Movimento:** Qual é o dogma central?\n\u003e 4. **A Estratégia de Conteúdo:** O que ele planeja produzir?\n\u003e 5. **O Diferencial de Mercado:** O que ele acredita que só ele pode oferecer? Qual a característica realmente marcante do plano dele?\n\u003e 6. **A força oculta:** Qual a força oculta da tribo que ele planeja? Onde ela é realmente um diamante bruto?\n\n\u003c\\prompt_melhorar\u003e",
+      "role": "user",
+      "tokenCount": 390
+    }, {
+      "text": "**Defining the Strategy**\n\nI\u0027m now zeroing in on defining Kevyn Lucas\u0027s \"Tribe Strategy.\" Currently, I\u0027m focusing on dissecting its core components: Community, Leadership, and Marketing. My goal is to extract a precise summary of this strategic approach.\n\n\n**Refining the Input**\n\nI\u0027m now diving into the source material, specifically \"Tribes.\" I\u0027m extracting key concepts such as the leader-tribe dynamic, challenging the status quo, and the importance of narrative and connection. The goal is to identify core principles for prompt refinement. The objective is to make the prompt more specific, less generic, and aimed towards the desired, \"insanely great\" outcomes. I\u0027m focusing on how Godin\u0027s ideas apply to the prompt engineering context.\n\n\n**Analyzing Communication Dynamics**\n\nI\u0027m now examining how tribes communicate, especially the crucial horizontal flow of information. I\u0027m focusing on the \"Why\" – the underlying belief or cause – as being more important than the \"who\". This is also important to consider as part of the broader communication focus. This all relates to how my current prompt defines roles and functions. I\u0027m also examining the implications of Berryman \u0026 Ziegler\u0027s concepts on my current prompt.\n\n\n**Evaluating the Approach**\n\nI\u0027m now zeroing in on prompt weaknesses. I\u0027m noting that the existing one leans too heavily on basic information like names, missing the deeper psychographics or the \"enemy\" concept central to Godin\u0027s \"Tribes.\" I\u0027m also looking at \"methodology of teaching\" as being overly clinical when the focus should be on rituals and communication. The prompt also lacks the \"something to do\" aspect required for a movement. Finally, it currently fails to synthesize a cohesive narrative.\n\n\n**Formulating the Revisions**\n\nI\u0027m now revising the approach, changing \"Content\" to \"Artifacts \u0026 Rituals\" and requesting a focus on \"The Heretic \u0026 The Status Quo.\" I\u0027m also ensuring a framework with clear delimiters, step-by-step reasoning, and structured Markdown output. I\u0027m focusing on \"insanely great\" standards, and defining the movement via narrative, connection and action. I\u0027m also zeroing in on defining the status quo, and identifying exclusion. I\u0027ll need to use few-shot logic.\n\n\n",
+      "role": "model",
+      "tokenCount": 1492,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Strategy**\n\nI\u0027m now zeroing in on defining Kevyn Lucas\u0027s \"Tribe Strategy.\" Currently, I\u0027m focusing on dissecting its core components: Community, Leadership, and Marketing. My goal is to extract a precise summary of this strategic approach.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Input**\n\nI\u0027m now diving into the source material, specifically \"Tribes.\" I\u0027m extracting key concepts such as the leader-tribe dynamic, challenging the status quo, and the importance of narrative and connection. The goal is to identify core principles for prompt refinement. The objective is to make the prompt more specific, less generic, and aimed towards the desired, \"insanely great\" outcomes. I\u0027m focusing on how Godin\u0027s ideas apply to the prompt engineering context.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing Communication Dynamics**\n\nI\u0027m now examining how tribes communicate, especially the crucial horizontal flow of information. I\u0027m focusing on the \"Why\" – the underlying belief or cause – as being more important than the \"who\". This is also important to consider as part of the broader communication focus. This all relates to how my current prompt defines roles and functions. I\u0027m also examining the implications of Berryman \u0026 Ziegler\u0027s concepts on my current prompt.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Evaluating the Approach**\n\nI\u0027m now zeroing in on prompt weaknesses. I\u0027m noting that the existing one leans too heavily on basic information like names, missing the deeper psychographics or the \"enemy\" concept central to Godin\u0027s \"Tribes.\" I\u0027m also looking at \"methodology of teaching\" as being overly clinical when the focus should be on rituals and communication. The prompt also lacks the \"something to do\" aspect required for a movement. Finally, it currently fails to synthesize a cohesive narrative.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Formulating the Revisions**\n\nI\u0027m now revising the approach, changing \"Content\" to \"Artifacts \u0026 Rituals\" and requesting a focus on \"The Heretic \u0026 The Status Quo.\" I\u0027m also ensuring a framework with clear delimiters, step-by-step reasoning, and structured Markdown output. I\u0027m focusing on \"insanely great\" standards, and defining the movement via narrative, connection and action. I\u0027m also zeroing in on defining the status quo, and identifying exclusion. I\u0027ll need to use few-shot logic.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Com base nos princípios de **Engenharia de Prompt** (especificamente as técnicas de *Persona*, *Chain of Thought* e *Output Structuring* do livro de Berryman \u0026 Ziegler) e aplicando profundamente os conceitos de **Liderança e Movimentos** do livro *\"Tribos\"* de Seth Godin (que você forneceu), refinei seu prompt.\n\nO prompt original era funcional, mas \"morno\". Ele pedia informações, mas não exigia *insight*.\n\nAbaixo está a versão **\"Insanely Great\"**. Ela força a IA a pensar como um estrategista de comunidades e a usar a lente de Seth Godin para decodificar você.\n\n### O Que Mudou (Baseado nos Livros):\n\n1.  **Framework de Godin (Tribos):** Em vez de pedir apenas \"identidade\", o novo prompt pede o \"Status Quo\" que você desafia (o conceito de *Herege* do livro). Em vez de \"metodologia\", pede \"Rituais de Conexão\".\n2.  **Engenharia de Prompt (Berryman \u0026 Ziegler):**\n    *   **Persona:** Atribuí à IA o papel de um \"Arquiteto de Comunidades de Elite\".\n    *   **Contextualização:** Forcei a IA a usar o livro *Tribos* como filtro analítico.\n    *   **Estrutura:** Defini exatamente como o output deve ser entregue para evitar respostas vagas.\n\n---\n\n### O Prompt Refinado (Copie e Cole)\n\n```markdown\n# ROLE \u0026 OBJECTIVE\nVocê é um Arquiteto de Comunidades de Elite e Estrategista de Movimentos, especialista na metodologia de Seth Godin (livro \"Tribos\"). Sua missão é analisar o [CONTEXTO COMPLETO] sobre Kevyn Lucas para extrair não apenas um plano, mas a \"Alma da Tribo\" que ele está construindo.\n\n# CONTEXTO TEÓRICO (LENTE DE ANÁLISE)\nUtilize os conceitos de \"Herege\", \"Status Quo\", \"Fãs Verdadeiros\" e \"Movimento\" de Seth Godin para interpretar os dados. Não descreva o que Kevyn faz superficialmente; descreva a mudança que ele busca causar.\n\n# TAREFA: O Dossiê da Tribo\nAnalise todo o material fornecido e construa o \"Manifesto Estratégico da Tribo\" de Kevyn Lucas, preenchendo as seguintes seções com profundidade analítica:\n\n## 1. O Herege e o Status Quo (A Visão)\n*Conceito:* Todo líder de tribo desafia algo que está estabelecido.\n- **O Inimigo:** O que Kevyn está combatendo? Qual é o \"Status Quo\" medíocre que ele quer destruir?\n- **A Promessa:** Qual é a terra prometida para quem o seguir? (A transformação final).\n\n## 2. A Identidade e os Excluídos (Quem Somos)\n*Conceito:* Uma tribo é definida tanto por quem está dentro quanto por quem está fora.\n- **O Perfil do Fã Verdadeiro:** Descreva a psicografia profunda do seguidor ideal (seus medos, desejos ocultos e crenças).\n- **A Barreira de Entrada:** Quem *não* serve para essa tribo? (Quem deve se sentir desconfortável com o conteúdo do Kevyn?).\n\n## 3. Rituais, Linguagem e Ensino (A Conexão)\n*Conceito:* Tribos precisam de rituais e uma forma única de comunicação para se tornarem movimentos.\n- **A Metodologia como Ritual:** Como o ensino do Kevyn se diferencia de uma simples \"aula\"? Existe uma linguagem própria, símbolos ou processos repetitivos que criam pertencimento?\n- **Estratégia de Conteúdo:** O que ele produz que serve como \"fogueira\" (ponto de encontro) para a tribo?\n\n## 4. O Diferencial de Mercado (A Vaca Roxa)\n*Conceito:* Ser notável é a única estratégia de crescimento viável.\n- O que, na proposta do Kevyn, é a característica \"Vaca Roxa\"? Aquilo que é tão único que obriga as pessoas a comentarem sobre ele?\n\n## 5. A Força Oculta (O Diamante Bruto)\n*Análise Preditiva:* Com base na análise, identifique o superpoder subutilizado ou a vantagem injusta que Kevyn possui, mas que talvez ainda não tenha verbalizado explicitamente. Onde está o maior potencial de alavancagem dessa tribo?\n\n# FORMATO DE SAÍDA\n- Use Markdown estruturado.\n- Tom de voz: Analítico, inspirador e direto.\n- Cite evidências do texto original para justificar suas conclusões.\n```\n\n---\n\n### Por que isso vai funcionar melhor?\n\n1.  **O Inimigo (Status Quo):** Em *Tribos*, Godin diz que tribos se unem mais contra um inimigo comum ou um status quo chato do que apenas \"a favor\" de algo. O novo prompt força a IA a encontrar isso no seu material.\n2.  **Exclusão:** O prompt anterior perguntava \"quem são eles\". O novo pergunta \"quem *não* serve\". Isso ajuda a definir um nicho muito mais forte.\n3.  **Força Oculta:** Adicionei a seção de \"Diamante Bruto\" para forçar a IA a fazer inferências criativas (alucinação controlada benéfica), conectando pontos que você talvez não tenha visto explicitamente.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1221,
+      "parts": [{
+        "text": "Com base nos princípios"
+      }, {
+        "text": " de **Engenharia de Prompt** (especificamente as técnicas de *Persona*, *Chain of Thought* e *Output Structuring* do livro"
+      }, {
+        "text": " de Berryman \u0026 Ziegler) e aplicando profundamente os conceitos de **Liderança e Movimentos** do livro *\"Tribos"
+      }, {
+        "text": "\"* de Seth Godin (que você forneceu), refinei seu prompt.\n\nO prompt original era funcional, mas \""
+      }, {
+        "text": "morno\". Ele pedia informações, mas não exigia *insight*.\n\nAbaixo está a versão **\"Insanely"
+      }, {
+        "text": " Great\"**. Ela força a IA a pensar como um estrategista de comunidades e a usar a lente de Seth Godin para"
+      }, {
+        "text": " decodificar você.\n\n### O Que Mudou (Baseado nos Livros):\n\n1.  **Framework"
+      }, {
+        "text": " de Godin (Tribos):** Em vez de pedir apenas \"identidade\", o novo prompt pede o \"Status Quo\""
+      }, {
+        "text": " que você desafia (o conceito de *Herege* do livro). Em vez de \"metodologia\", pede \""
+      }, {
+        "text": "Rituais de Conexão\".\n2.  **Engenharia de Prompt (Berryman \u0026 Ziegler):**\n    *"
+      }, {
+        "text": "   **Persona:** Atribuí à IA o papel de um \"Arquiteto de Comunidades de Elite\".\n    *   **Context"
+      }, {
+        "text": "ualização:** Forcei a IA a usar o livro *Tribos* como filtro analítico.\n    *   **"
+      }, {
+        "text": "Estrutura:** Defini exatamente como o output deve ser entregue para evitar respostas vagas.\n\n---\n\n### O Prompt Refinado (Cop"
+      }, {
+        "text": "ie e Cole)\n\n```markdown\n# ROLE \u0026 OBJECTIVE\nVocê é um Arquiteto de Comunidades de Elite e Estr"
+      }, {
+        "text": "ategista de Movimentos, especialista na metodologia de Seth Godin (livro \"Tribos\"). Sua missão é analisar o ["
+      }, {
+        "text": "CONTEXTO COMPLETO] sobre Kevyn Lucas para extrair não apenas um plano, mas a \"Alma da Tribo\" que ele está construindo"
+      }, {
+        "text": ".\n\n# CONTEXTO TEÓRICO (LENTE DE ANÁLISE)\nUtilize os conceitos de \"Here"
+      }, {
+        "text": "ge\", \"Status Quo\", \"Fãs Verdadeiros\" e \"Movimento\" de Seth Godin para interpretar"
+      }, {
+        "text": " os dados. Não descreva o que Kevyn faz superficialmente; descreva a mudança que ele busca causar.\n\n# T"
+      }, {
+        "text": "AREFA: O Dossiê da Tribo\nAnalise todo o material fornecido e construa o \"Manifesto"
+      }, {
+        "text": " Estratégico da Tribo\" de Kevyn Lucas, preenchendo as seguintes seções com profundidade anal"
+      }, {
+        "text": "ítica:\n\n## 1. O Herege e o Status Quo (A Visão)\n*Conceito:*"
+      }, {
+        "text": " Todo líder de tribo desafia algo que está estabelecido.\n- **O Inimigo:** O que Kevyn está"
+      }, {
+        "text": " combatendo? Qual é o \"Status Quo\" medíocre que ele quer destruir?\n- **A Prom"
+      }, {
+        "text": "essa:** Qual é a terra prometida para quem o seguir? (A transformação final).\n\n## 2. A Ident"
+      }, {
+        "text": "idade e os Excluídos (Quem Somos)\n*Conceito:* Uma tribo é definida tanto por quem está"
+      }, {
+        "text": " dentro quanto por quem está fora.\n- **O Perfil do Fã Verdadeiro:** Descreva a psicografia profunda"
+      }, {
+        "text": " do seguidor ideal (seus medos, desejos ocultos e crenças).\n- **A Barreira de Entrada"
+      }, {
+        "text": ":** Quem *não* serve para essa tribo? (Quem deve se sentir desconfortável com o conteúdo do Kevyn?)."
+      }, {
+        "text": "\n\n## 3. Rituais, Linguagem e Ensino (A Conexão)\n*Conceito"
+      }, {
+        "text": ":* Tribos precisam de rituais e uma forma única de comunicação para se tornarem movimentos.\n- **A Met"
+      }, {
+        "text": "odologia como Ritual:** Como o ensino do Kevyn se diferencia de uma simples \"aula\"? Existe uma linguagem própria, símbolos"
+      }, {
+        "text": " ou processos repetitivos que criam pertencimento?\n- **Estratégia de Conteúdo:** O que ele produz"
+      }, {
+        "text": " que serve como \"fogueira\" (ponto de encontro) para a tribo?\n\n## 4. O Difer"
+      }, {
+        "text": "encial de Mercado (A Vaca Roxa)\n*Conceito:* Ser notável é a única estratégia de crescimento"
+      }, {
+        "text": " viável.\n- O que, na proposta do Kevyn, é a característica \"Vaca Roxa\"? Aquilo que é tão único que obr"
+      }, {
+        "text": "iga as pessoas a comentarem sobre ele?\n\n## 5. A Força Oculta (O Diamante"
+      }, {
+        "text": " Bruto)\n*Análise Preditiva:* Com base na análise, identifique o superpoder subutilizado ou"
+      }, {
+        "text": " a vantagem injusta que Kevyn possui, mas que talvez ainda não tenha verbalizado explicitamente. Onde está o maior"
+      }, {
+        "text": " potencial de alavancagem dessa tribo?\n\n# FORMATO DE SAÍDA\n- Use Markdown estruturado.\n- Tom"
+      }, {
+        "text": " de voz: Analítico, inspirador e direto.\n- Cite evidências do texto original para justificar suas conclusões.\n```\n\n"
+      }, {
+        "text": "---\n\n### Por que isso vai funcionar melhor?\n\n1.  **O Inimigo (Status Quo):** Em *"
+      }, {
+        "text": "Tribos*, Godin diz que tribos se unem mais contra um inimigo comum ou um status quo chato do que apenas"
+      }, {
+        "text": " \"a favor\" de algo. O novo prompt força a IA a encontrar isso no seu material.\n2.  **"
+      }, {
+        "text": "Exclusão:** O prompt anterior perguntava \"quem são eles\". O novo pergunta \"quem *não* serve\". Isso ajuda"
+      }, {
+        "text": " a definir um nicho muito mais forte.\n3.  **Força Oculta:** Adicionei a seção"
+      }, {
+        "text": " de \"Diamante Bruto\" para forçar a IA a fazer inferências criativas (alucinação controlada ben"
+      }, {
+        "text": "éfica), conectando pontos que você talvez não tenha visto explicitamente."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

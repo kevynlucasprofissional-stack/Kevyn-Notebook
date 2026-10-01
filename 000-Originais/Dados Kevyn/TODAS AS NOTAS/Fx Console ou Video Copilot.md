@@ -1,0 +1,1 @@
+Ele tem um atalho ótimo que é o Ctrl + Espaço, que vai funcionar como o Shift + C do C4D.

@@ -1,0 +1,12 @@
+#tarefas
+- [ ] Organizar o MIV da Trismegistus com foco no novo tema.
+- [ ] Começar a postar conteúdo no Instagram da Trismegistus.
+- [ ] Reler o livro de Toth e integrar no Obsidian.
+- [ ] Ler **O Xamanismo e as Técnicas Arcaícas do Extâse**.
+- [ ] Escrever seu livro.
+- [ ] **Adaptar seu caderninho de anotações para o obsidian**.
+- [ ] Apoiar: https://apoia.se/canaldafantasiaoficial
+- [ ] Realizar o que é sagrado para mim.
+- [ ] Criar notas sobre todos os livros que já leu.
+- [ ] Pesquisar numa IA como usar o Tarot para autoconhecimento.
+- [ ] Fazer algo parecido: https://www.youtube.com/watch?v=AijU_Z3YjSk&list=PLLfiMoPZQ3Q-g2xS_7gI6hnSvGAWuGV3L

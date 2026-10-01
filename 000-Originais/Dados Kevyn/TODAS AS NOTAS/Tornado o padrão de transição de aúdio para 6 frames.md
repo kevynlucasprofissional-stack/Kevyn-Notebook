@@ -1,0 +1,1 @@
+Vá em "Edit > Preference > Timeline > Audio transition default duration"

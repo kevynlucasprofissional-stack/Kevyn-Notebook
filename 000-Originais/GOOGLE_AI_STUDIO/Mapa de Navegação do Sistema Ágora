@@ -1,0 +1,278 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-flash-lite-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_MINIMAL",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1nLXR__LULvPSUNLibRhGQ8tEVccUkFWk"
+      },
+      "role": "user",
+      "tokenCount": 9623,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "driveDocument": {
+        "id": "1fWo8XoxS2vz8Y2ImN62nJW7FF5JBNHWc"
+      },
+      "role": "user",
+      "tokenCount": 654,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "driveDocument": {
+        "id": "1GXNXAT2sYfpmJ2y5XDxXNVU2C5Q8n95I"
+      },
+      "role": "user",
+      "tokenCount": 402,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "driveDocument": {
+        "id": "1HVLUrf8JSBOevb0ZAr_QPCLy2IaNCND8"
+      },
+      "role": "user",
+      "tokenCount": 1439,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "driveDocument": {
+        "id": "1IWSDatmzdxtItt5Fsz4_PwRKC5VZ2Uzq"
+      },
+      "role": "user",
+      "tokenCount": 2842,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "driveDocument": {
+        "id": "152Mls1JZst1WIcD7Oh6obcPBSi8E3zkf"
+      },
+      "role": "user",
+      "tokenCount": 46,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "driveDocument": {
+        "id": "1mWa7VJqRsGVSb5WOsZrKbEBREsG32dTp"
+      },
+      "role": "user",
+      "tokenCount": 1328,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "driveDocument": {
+        "id": "15Zv_b9EvEr75zn6UjOaU367sB7XU0eKx"
+      },
+      "role": "user",
+      "tokenCount": 4427,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "driveDocument": {
+        "id": "1rGsjaoYJMX8_DdZmw52JYA5qjQjo6gDq"
+      },
+      "role": "user",
+      "tokenCount": 287,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "driveDocument": {
+        "id": "149gbT8DYKNS_gYum6TsPztsUZYETVmbh"
+      },
+      "role": "user",
+      "tokenCount": 4534,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "driveDocument": {
+        "id": "15IDZ4bjk-JZVLjUd68XlWp_TBswVB_Ku"
+      },
+      "role": "user",
+      "tokenCount": 1477,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "driveDocument": {
+        "id": "1JrdEFdtZecxNkGqpL_SbrR-hIbMTqyHl"
+      },
+      "role": "user",
+      "tokenCount": 1178,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "driveDocument": {
+        "id": "1kGB9gfzLV-3NG1KiUSNqBVIuwvddJPlK"
+      },
+      "role": "user",
+      "tokenCount": 1121,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "text": "Com base nos dados em anexo, gere para mim:\n\nMapa de Navegação\n\nRepresenta **todas as telas do sistema**.\n\nExemplo:\n\n```\nHome\n ├ Login\n ├ Cadastro\n ├ Buscar serviços\n │   └ Detalhe do serviço\n │       └ Contratar\n └ Perfil\n     ├ Meus serviços\n     └ Minhas reservas\n```",
+      "role": "user",
+      "tokenCount": 85,
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "text": "Com base na documentação dos fluxos fornecida (especialmente o sprint protótipo e as funcionalidades listadas), aqui está o **Mapa de Navegação** completo do sistema Ágora:\n\n```text\nLanding Page (Tela 0)\n ├ Login / Cadastro (Tela 1)\n └ Chat com Ágora - Início (Tela 2)\n     └ Processamento de Análise (Checklist dinâmico)\n         └ Resultado da Análise (Score e Resumo)\n             └ Apresentação da Campanha Otimizada (Tela 3)\n                 ├ Visão Geral\n                 ├ Canais\n                 ├ Audiência\n                 ├ Criativos\n                 └ Exportação\n                     ├ PDF (Download direto)\n                     ├ JPEG (Download direto)\n                     ├ Canva (Tela 4 - Editor)\n                     └ Gamma (Tela 4 - Editor)\n```\n\n### Notas sobre a estrutura:\n\n*   **Ponto de Entrada:** A `Landing Page` é o nó raiz principal, permitindo acesso tanto para autenticação quanto para o início direto do fluxo de análise.\n*   **Fluxo Linear:** Após a confirmação de que o usuário deseja ver a `Apresentação da Campanha`, a navegação flui para a `Tela 3` (Apresentação).\n*   **Integrações (Editor):** As telas de edição (`Tela 4` - Editor) funcionam como uma ramificação da etapa de exportação, mantendo a opção de retornar para a tela de visualização da apresentação caso o usuário deseje ajustar outros parâmetros antes de finalizar.\n*   **Navegação de Retorno:** Em praticamente todas as telas secundárias, existe a funcionalidade de \"Voltar\" que mantém o usuário dentro do ecossistema do fluxo (ex: da Apresentação de volta para o Chat).",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 390,
+      "parts": [{
+        "text": "Com base"
+      }, {
+        "text": " na documentação dos fluxos fornecida (especialmente o sprint protótipo e as funcionalidades"
+      }, {
+        "text": " listadas), aqui está o **Mapa de Navegação** completo do sistema Ágora:\n\n```text\nLanding"
+      }, {
+        "text": " Page (Tela 0)\n ├ Login / Cadastro (Tela 1)\n └ Chat com Ágora -"
+      }, {
+        "text": " Início (Tela 2)\n     └ Processamento de Análise (Checklist dinâmico)\n         └"
+      }, {
+        "text": " Resultado da Análise (Score e Resumo)\n             └ Apresentação da Campanha Otimizada (Tela 3)\n                 "
+      }, {
+        "text": "├ Visão Geral\n                 ├ Canais\n                 ├ Audiência\n                 ├ Criativos\n                 └ Exportação\n"
+      }, {
+        "text": "                     ├ PDF (Download direto)\n                     ├ JPEG (Download direto)\n                     ├ Canva (Tela 4 -"
+      }, {
+        "text": " Editor)\n                     └ Gamma (Tela 4 - Editor)\n```\n\n### Notas sobre a estrutura:\n\n*"
+      }, {
+        "text": "   **Ponto de Entrada:** A `Landing Page` é o nó raiz principal, permitindo acesso tanto para autent"
+      }, {
+        "text": "icação quanto para o início direto do fluxo de análise.\n*   **Fluxo Linear:** Após a confirmação de que o"
+      }, {
+        "text": " usuário deseja ver a `Apresentação da Campanha`, a navegação flui para a `Tela 3` (A"
+      }, {
+        "text": "presentação).\n*   **Integrações (Editor):** As telas de edição (`Tela 4` - Editor"
+      }, {
+        "text": ") funcionam como uma ramificação da etapa de exportação, mantendo a opção de retornar para a tela de visualização da"
+      }, {
+        "text": " apresentação caso o usuário deseje ajustar outros parâmetros antes de finalizar.\n*   **Navegação de Retorno:** Em"
+      }, {
+        "text": " praticamente todas as telas secundárias, existe a funcionalidade de \"Voltar\" que mantém o usuário dentro do ecossistema do fluxo (ex"
+      }, {
+        "text": ": da Apresentação de volta para o Chat)."
+      }, {
+        "text": "",
+        "thoughtSignature": "EjQKMgG+Pvb7u2/jIwEPLOWcxcrMLYKaX/Ew2Lxcpc3dSuPc4sA1Z6EUaeVoPQa8rwfBznx2"
+      }],
+      "createTime": "2026-03-15T08:43:54.942Z"
+    }, {
+      "text": "Podemos incrementar algo deste mapa de navegação abaixo para tornar a solução mais robusta?\n\nPeço desculpas pela confusão. Analisando novamente os arquivos enviados, **não existe** menção a \"análise de água\" ou \"análise clínica\" no conteúdo relacionado ao projeto **Ágora**.\n\nOs documentos fornecidos (especialmente os arquivos `00_Motor Multi-Agentes Ágora.md`, `01_Funcionalidades.md` e `Ágora — Marketing Baseado em Dados.md`) descrevem exclusivamente um **sistema de marketing científico baseado em IA, neuromarketing e simulação de campanhas**.\n\nO fluxo de \"Análise de Água\" e \"Análise Clínica\" que incluí no mapa de navegação anterior foi uma **alucinação derivada de uma mistura indevida** com o arquivo `Fluxos de telas desenvolvido pelo Henrique.md`, que continha esse fluxo clínico/laboratorial.\n\nPara corrigir e manter o foco no seu projeto, aqui está o **Mapa de Navegação Corrigido do Ágora**, baseado estritamente na documentação do sistema de marketing:\n\n### Mapa de Navegação Corrigido — Ágora (Marketing Analytics)\n\n```text\nAnimação de Abertura (Splash Screen)\n └ Tela de Boas-vindas (Tela 0 - Welcome)\n     ├ Termos de Uso / Política de Privacidade\n     ├ Entrar (Login - Tela 1)\n     │   └ Esqueci minha senha (Modal)\n     └ Criar Conta (Cadastro - Tela 1)\n\nDashboard Principal (Tela 2)\n ├ Barra Superior\n │   ├ Botão Nova Análise (→ Tela 3)\n │   ├ Botão Histórico (→ Tela 4)\n │   └ Botão Perfil (Configurações / Logout)\n └ Cards de Análises Recentes\n     └ Abrir Análise → (→ Tela 8/9 - Chat/Resultado)\n\nFluxo de Nova Análise\n └ Tela 3 (Seleção de Campanha)\n     └ Input de Chat / Upload de Arquivos (→ Tela 7)\n         └ Processamento pelos Agentes (CoT - Chain of Thought)\n             └ Tela 8 (Captura/Envio de Imagem de Criativo/Métrica)\n                 └ Tela 9 (Resultado do Estrategista-Chefe)\n                     ├ Dashboard (Score, Frente Analítica)\n                     ├ Campanha Otimizada\n                     ├ Chat com Agente Estrategista\n                     └ Download de Materiais (PDF/PPT/DOCX/PNG)\n\nHistórico de Análises (Tela 4)\n ├ Lista Cronológica\n ├ Filtros (Data, Tipo)\n └ Ação (Abrir ou Avaliar Resultado)\n```\n\nO projeto Ágora é focado em **Marketing de Alta Performance**, e a navegação deve refletir o ciclo de entrada de dados de campanha, processamento pelos agentes (Sociocomportamental, Oferta, Performance) e entrega do relatório estratégico final.",
+      "role": "user",
+      "tokenCount": 659,
+      "createTime": "2026-03-15T08:45:53.376Z"
+    }, {
+      "text": "Para tornar a solução mais robusta e alinhada com o **Core Engine de Multi-Agentes** que desenhamos (Orquestrador -\u003e Especialistas -\u003e Sintetizador), precisamos adicionar \"pontos de controle\" no mapa de navegação que permitam ao usuário interagir com o processo de análise de forma transparente, além de oferecer caminhos para refinamento estratégico.\n\nAqui está uma versão **\"Pro\" do Mapa de Navegação**, otimizada para um SaaS B2B de alta performance:\n\n### Mapa de Navegação Robustecido — Ágora (Core Engine v2)\n\n```text\n[Landing Page / Auth]\n ├ Landing Page (CTA: Começar Agora)\n ├ Login / Cadastro (Autenticação)\n └ Recuperação de Senha\n\n[Dashboard de Operações - Hub Central]\n ├ Navegação Global (Sidebar)\n │  ├ Nova Análise (Start Flow)\n │  ├ Histórico de Campanhas (Arquivo de Insights)\n │  ├ Biblioteca de Assets (Arquivos, Prompts salvos)\n │  └ Gestão de Conta (Planos/Assinaturas)\n └ Indicadores de Performance (Métricas do Usuário)\n\n[Fluxo de Análise Ativa - Core Engine]\n ├ Tela 1: Intake de Campanha (Input de Dados e Arquivos)\n │  └ Validação de Intake (Triagem do Orquestrador - Regra T1)\n ├ Tela 2: Processamento Multimodal (Barra de Progresso dos 4 Especialistas)\n │  ├ [Visualização de Progresso]:\n │  │  ├ 1. Analista Sociocomportamental (Em andamento...)\n │  │  ├ 2. Engenheiro de Oferta (Em andamento...)\n │  │  ├ 3. Cientista de Performance (Em andamento...)\n │  │  └ 4. Estrategista-Chefe (Sintetizando...)\n │  └ (Opcional): Interrupção de processo ou pedido de mais dados (Ask for Input)\n ├ Tela 3: Relatório Executivo (Output do Sintetizador)\n │  ├ Dashboard de Score (0-100)\n │  ├ Deep Dive por Fronteira (Sociocomportamental, Oferta, Performance)\n │  ├ Nova Promessa (Copywriting)\n │  ├ Plano de Experimentos (Testes A/B)\n │  └ Chat de Refinamento (Tira-dúvidas com o Estrategista)\n └ Tela 4: Exportação \u0026 Integração\n    ├ Gerador de Documentos (Download PDF/PPT)\n    └ Integração Visual (Canva/Gamma/Claude - Workflow externo)\n```\n\n---\n\n### Por que esta estrutura é mais robusta?\n\n1.  **Validação de Intake (Regra T1):** Adicionamos uma verificação entre o input e o processamento. Se o usuário fornecer uma campanha pobre, o Orquestrador solicita dados faltantes antes de gastar recursos de processamento (coisa de SaaS de alto nível).\n2.  **Transparência de Processamento:** Ao exibir a \"Barra de Progresso dos 4 Especialistas\", o usuário entende que o Ágora não é apenas um \"prompt simples\", mas um sistema complexo. Isso aumenta o **valor percebido**.\n3.  **Chat de Refinamento no Relatório:** Em vez de apenas ler o relatório e ir embora, o usuário tem um canal de chat aberto diretamente no resultado final (`Tela 3`) para perguntar: *\"Agente, por que você sugeriu mudar meu público de Gen Z para Millennials?\"*. Isso aumenta a retenção (stickiness).\n4.  **Biblioteca de Assets:** Fundamental para o plano `Enterprise`. O usuário pode salvar \"Prompts de Marca\" ou \"Dados de Benchmarking\" para reutilizar em várias campanhas, criando um efeito de rede dentro da conta dele.\n5.  **Workflow Externo (Integrações):** Clarificamos que a exportação para o `Canva/Gamma` não é apenas um download, é uma integração de fluxo (`Workflow`) que finaliza a jornada do profissional de marketing.\n\n**Dica de Engenharia:** No seu backend, essa estrutura permite que você utilize **Websockets** (ou polling eficiente) na `Tela 2` para atualizar o progresso de cada sub-agente em tempo real conforme os JSONs são gerados. Isso dá um ar de \"Super-Sistema\" para o produto.\n\nO que acha dessa estrutura mais focada na experiência do usuário durante o processamento da IA?",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 991,
+      "parts": [{
+        "text": "Para"
+      }, {
+        "text": " tornar a solução mais robusta e alinhada com o **Core Engine de"
+      }, {
+        "text": " Multi-Agentes** que desenhamos (Orquestrador -\u003e Especialistas -\u003e Sintetizador), precisamos adicionar \""
+      }, {
+        "text": "pontos de controle\" no mapa de navegação que permitam ao usuário interagir com o processo de análise de forma transparente"
+      }, {
+        "text": ", além de oferecer caminhos para refinamento estratégico.\n\nAqui está uma versão **\"Pro\" do Mapa de Navegação**,"
+      }, {
+        "text": " otimizada para um SaaS B2B de alta performance:\n\n### Mapa de Navegação Robustecido — Ágora (Core"
+      }, {
+        "text": " Engine v2)\n\n```text\n[Landing Page / Auth]\n ├ Landing Page (CTA: Começar Agora)\n ├"
+      }, {
+        "text": " Login / Cadastro (Autenticação)\n └ Recuperação de Senha\n\n[Dashboard de Operações - Hub"
+      }, {
+        "text": " Central]\n ├ Navegação Global (Sidebar)\n │  ├ Nova Análise (Start Flow)\n │  ├ Hist"
+      }, {
+        "text": "órico de Campanhas (Arquivo de Insights)\n │  ├ Biblioteca de Assets (Arquivos, Prompts salvos)\n │  └"
+      }, {
+        "text": " Gestão de Conta (Planos/Assinaturas)\n └ Indicadores de Performance (Métricas do Usu"
+      }, {
+        "text": "ário)\n\n[Fluxo de Análise Ativa - Core Engine]\n ├ Tela 1: Intake de"
+      }, {
+        "text": " Campanha (Input de Dados e Arquivos)\n │  └ Validação de Intake (Triagem do Orquestrador - Reg"
+      }, {
+        "text": "ra T1)\n ├ Tela 2: Processamento Multimodal (Barra de Progresso dos 4 Especial"
+      }, {
+        "text": "istas)\n │  ├ [Visualização de Progresso]:\n │  │  ├ 1. Analista Sociocom"
+      }, {
+        "text": "portamental (Em andamento...)\n │  │  ├ 2. Engenheiro de Oferta (Em andamento...)\n │  "
+      }, {
+        "text": "│  ├ 3. Cientista de Performance (Em andamento...)\n │  │  └ 4. Estr"
+      }, {
+        "text": "ategista-Chefe (Sintetizando...)\n │  └ (Opcional): Interrupção de processo"
+      }, {
+        "text": " ou pedido de mais dados (Ask for Input)\n ├ Tela 3: Relatório Executivo (Output do Sintetizador)\n"
+      }, {
+        "text": " │  ├ Dashboard de Score (0-100)\n │  ├ Deep Dive por Fronteira (Soci"
+      }, {
+        "text": "ocomportamental, Oferta, Performance)\n │  ├ Nova Promessa (Copywriting)\n │  ├ Plano"
+      }, {
+        "text": " de Experimentos (Testes A/B)\n │  └ Chat de Refinamento (Tira-dú"
+      }, {
+        "text": "vidas com o Estrategista)\n └ Tela 4: Exportação \u0026 Integração\n    ├ Gerador de"
+      }, {
+        "text": " Documentos (Download PDF/PPT)\n    └ Integração Visual (Canva/Gamma/Claude - Workflow externo"
+      }, {
+        "text": ")\n```\n\n---\n\n### Por que esta estrutura é mais robusta?\n\n1.  **Validação de Intake (Reg"
+      }, {
+        "text": "ra T1):** Adicionamos uma verificação entre o input e o processamento. Se o usuário fornecer uma"
+      }, {
+        "text": " campanha pobre, o Orquestrador solicita dados faltantes antes de gastar recursos de processamento (coisa de SaaS"
+      }, {
+        "text": " de alto nível).\n2.  **Transparência de Processamento:** Ao exibir a \"Barra de Progresso dos"
+      }, {
+        "text": " 4 Especialistas\", o usuário entende que o Ágora não é apenas um \"prompt simples\", mas um"
+      }, {
+        "text": " sistema complexo. Isso aumenta o **valor percebido**.\n3.  **Chat de Refinamento no Rel"
+      }, {
+        "text": "atório:** Em vez de apenas ler o relatório e ir embora, o usuário tem um canal de chat aberto diretamente no resultado final ("
+      }, {
+        "text": "`Tela 3`) para perguntar: *\"Agente, por que você sugeriu mudar meu público de Gen Z para Millennials"
+      }, {
+        "text": "?\"*. Isso aumenta a retenção (stickiness).\n4.  **Biblioteca de Assets:** Fundamental para o plano"
+      }, {
+        "text": " `Enterprise`. O usuário pode salvar \"Prompts de Marca\" ou \"Dados de Benchmarking\" para reutilizar em"
+      }, {
+        "text": " várias campanhas, criando um efeito de rede dentro da conta dele.\n5.  **Workflow Externo (Inte"
+      }, {
+        "text": "grações):** Clarificamos que a exportação para o `Canva/Gamma` não é apenas um download, é"
+      }, {
+        "text": " uma integração de fluxo (`Workflow`) que finaliza a jornada do profissional de marketing.\n\n**Dica de Engenharia"
+      }, {
+        "text": ":** No seu backend, essa estrutura permite que você utilize **Websockets** (ou polling eficiente) na `Tela 2` para"
+      }, {
+        "text": " atualizar o progresso de cada sub-agente em tempo real conforme os JSONs são gerados. Isso dá um"
+      }, {
+        "text": " ar de \"Super-Sistema\" para o produto.\n\nO que acha dessa estrutura mais focada na experiência do usuário durante"
+      }, {
+        "text": " o processamento da IA?"
+      }, {
+        "text": "",
+        "thoughtSignature": "EjQKMgG+Pvb7nfSZ3C/eIuQlY2facSGK3Rp451q7fBxKuyeeeOYtHX2qbKrsbUQsAdTr732n"
+      }],
+      "createTime": "2026-03-15T08:45:53.376Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

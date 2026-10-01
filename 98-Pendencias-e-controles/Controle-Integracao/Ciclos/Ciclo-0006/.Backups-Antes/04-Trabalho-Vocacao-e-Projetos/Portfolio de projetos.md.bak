@@ -1,0 +1,57 @@
+---
+id: portfolio-de-projetos
+titulo: Portfólio de projetos
+tipo: moc
+status: auditado
+profundidade: indice
+versao_schema: '1.0'
+versao_conteudo: '1.0'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+fontes_primarias:
+- '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
+- '[[Fonte - 150626 RNIDIQAOUP]]'
+- '[[Fonte - Materiais IMRIA e marketing 2025]]'
+- '[[Fonte - Palestra IA e pitches Espaco Prema 2025]]'
+fontes_derivadas:
+- '[[Fonte - Cronologia e fatos]]'
+- '[[Fonte - Modus operandi]]'
+grau_confianca: medio_alto
+sensibilidade: alta
+camada_evidencia: sintese_derivada
+tags:
+- tipo/moc
+- privacidade/restrita
+aliases:
+- Portfólio de projetos
+---
+# Portfólio de projetos
+
+## Ativos ou com evidência recente
+
+- [[Bela Ja]] — mencionado em 12/06/2026; estágio incerto.
+- [[Formacao em Data Science]] — progresso registrado em junho.
+- entregas profissionais da [[ACIRV]] — execução recente.
+- acompanhamento de rotina por [[Vontade SMART]].
+
+## Incertos ou pausados
+
+- [[Hoor Digital]]
+- [[Projeto Neuron]]
+- [[Atom]]
+
+## Históricos encerrados ou usados como estudo de caso
+
+- [[Salus e Desafio Svelte]]
+- workshop IMRIA/Imersao IA, com evidencia de campanha, roteiros e proposta de oficina pratica em outubro de 2025; continuidade e realizacao permanecem nao confirmadas por este lote.
+- propostas para Espaco Prema, com pitches de oferta, funil e automacao em outubro de 2025; status comercial nao confirmado.
+
+## Ideias
+
+- [[Projeto Cosmo]]
+- outras ideias listadas no [[Estacionamento de ideias]].
+
+## Regra
+
+O status deriva da última evidência, não da quantidade de documentação. Atualizar `estado_projeto` e `ultima_evidencia` quando houver mudança.

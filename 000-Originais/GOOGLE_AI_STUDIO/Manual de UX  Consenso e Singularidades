@@ -1,0 +1,227 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+    "text": "Utilize o Playbook abaixo para ajudar o usuário a resolver os problemas dele.\n\n# 📘 O Playbook Definitivo de Engenharia de Prompt\n\n## FASE 1: Configurando o Motor (Parâmetros)\nAntes de escrever, entenda os \"botões\" que você pode girar no seu LLM (Large Language Model). \n*   **Temperature (0.0 a 2.0):** Controla a criatividade.\n    *   *Tarefas exatas (Código, Extração de Dados, Matemática):* Use **0.0** (respostas determinísticas).\n    *   *Tarefas criativas (Ideação, Escrita de e-mails, Brainstorming):* Use entre **0.7 e 0.9**.\n*   **Top-K e Top-P:** Controlam a aleatoriedade limitando o vocabulário de onde o modelo pode escolher a próxima palavra. Se for mexer na Temperature, geralmente deixe esses no padrão (ou vice-versa).\n*   **Max Tokens:** Limite o tamanho da resposta para evitar que o modelo entre em *loops* de repetição sem fim.\n\n---\n\n## FASE 2: A Anatomia do Prompt Ideal\nUm prompt de nível de produção não é apenas uma frase. Ele deve ser estruturado como um documento. Lembre-se do **Princípio da Chapeuzinho Vermelho**: *os modelos imitam os dados em que foram treinados*. Se o seu prompt parece um documento de alta qualidade e bem estruturado, a resposta também será.\n\nDivida seu prompt nestes 4 blocos (usando Markdown para separar):\n\n1.  **Introdução / Preamble (System Prompt):** Define o papel (Persona), o tom e o comportamento do modelo.\n2.  **Contexto (Context):** A injeção de dados (documentos, histórico de chat, regras de negócio).\n3.  **Refoco (Refocus):** Modelos sofrem do *\"Valley of Meh\"* (eles lembram do começo e do fim do prompt, mas ignoram o meio). Coloque sua pergunta principal ou instrução mais importante no **final** do prompt para \"refocar\" a atenção da IA.\n4.  **Transição / Inception:** Deixe a porta aberta para o modelo começar a falar exatamente no formato que você quer. (Ex: `Resposta em JSON: {`)\n\n---\n\n## FASE 3: Os 5 Princípios de Ouro do Prompting\n\n### 1. Dê Direção (Give Direction)\nDiga exatamente o que o modelo deve fazer.\n*   **Aja como um especialista:** Use *Role Prompting* (Ex: \"Aja como um consultor sênior de marketing...\").\n*   **Instruções \u003e Restrições:** LLMs funcionam melhor quando você diz o que eles *devem* fazer, em vez do que *não devem*.\n    *   ❌ *Não faça:* \"Não escreva uma introdução longa.\"\n    *   ✅ *Faça:* \"Vá direto ao ponto e comece no primeiro tópico.\"\n\n### 2. Especifique o Formato (Specify Format)\nNunca deixe a formatação por conta do modelo. Use formatos estruturados para evitar \"enrolação\" (fluff).\n*   Peça a saída em **JSON, YAML, XML ou Markdown**. \n*   Forneça o *schema* (esqueleto) exato que você espera receber. Isso facilita a extração de dados por sistemas automatizados.\n\n### 3. Forneça Exemplos (Provide Examples / Few-Shot)\nO modelo aprende melhor vendo do que ouvindo. \n*   **Zero-shot:** Sem exemplos (útil para tarefas muito simples).\n*   **Few-shot:** Dê de 3 a 5 exemplos de pares \"Entrada -\u003e Saída desejada\". \n*   *Atenção:* Misture as classes nos exemplos para não viciar o modelo (ex: não coloque 3 exemplos positivos seguidos se quiser que ele também identifique sentimentos negativos).\n\n### 4. Divida o Trabalho (Divide Labor)\nLLMs falham em tarefas gigantescas. Se a tarefa é complexa, divida-a em partes.\n*   **Cadeias de Prompts (Prompt Chaining):** Use a saída do Prompt 1 como entrada do Prompt 2. (Ex: Prompt 1 extrai dados de um site -\u003e Prompt 2 cria ideias de produtos -\u003e Prompt 3 escreve o e-mail de vendas).\n\n### 5. Avalie a Qualidade (Evaluate Quality)\nNão dependa da sorte. Avalie seus prompts metodicamente.\n*   Use o método **SOMA** para fazer o próprio LLM avaliar saídas: Faça perguntas **S**pecíficas, use notas **O**rdinais (1 a 5), com cobertura **M**ulti-**A**specto (avalie tom, precisão e formatação separadamente).\n\n---\n\n## FASE 4: Técnicas Avançadas de Raciocínio\n\nQuando o modelo erra lógica ou matemática, aplique estes \"hacks\" cognitivos:\n\n*   **Chain of Thought (CoT):** Adicione a frase mágica *\"Let\u0027s think step-by-step\"* (Vamos pensar passo a passo) no final do seu prompt. Isso força o modelo a criar uma \"voz interna\" e fazer os cálculos antes de dar a resposta final, aumentando drasticamente a precisão.\n*   **Self-Consistency:** Gere 5 ou mais respostas diferentes (usando Temperature alta) e programe seu sistema para escolher a resposta que mais se repetiu (votação por maioria).\n*   **Step-Back Prompting:** Antes de pedir a solução de um problema específico, peça ao modelo para listar os princípios gerais ou as leis fundamentais que regem aquele problema.\n*   **ReAct (Reason + Act):** A arquitetura para Agentes. O modelo opera em um loop: *Pensar -\u003e Escolher uma Ferramenta (ex: Busca no Google) -\u003e Observar o resultado -\u003e Pensar novamente -\u003e Dar a resposta final*.\n\n---\n\n## FASE 5: Tratando Contexto e Dados (RAG)\n\nQuando precisar que o modelo responda com base em documentos da sua empresa (Retrieval-Augmented Generation):\n\n1.  **Snippetizing (Fatiamento):** Não jogue um PDF de 500 páginas no prompt. Fatie o texto em \"pedaços\" (chunks) com sobreposição (overlap) para não cortar o sentido das frases no meio.\n2.  **Cuidado com a Falácia da Arma de Chekhov:** Se você colocar uma informação inútil no contexto, a IA tentará usá-la a todo custo. Filtre rigorosamente o contexto usando busca semântica (bancos de dados vetoriais como FAISS ou Pinecone) antes de enviar ao modelo.\n3.  **Prevenindo Alucinações:** Adicione a regra: *\"Responda APENAS usando os documentos fornecidos. Se a resposta não estiver nos documentos, diga \u0027Não sei\u0027.\"*\n\n---\n\n## FASE 6: Prompts para Imagens (Midjourney, DALL-E, Stable Diffusion)\n\nModelos de imagem de difusão não \"entendem\" a gramática da mesma forma que os de texto. A ordem e o vocabulário mandam:\n\n*   **Palavras-Chave de Qualidade (Boosters):** Adicione termos como *4k, highly detailed, photorealistic, trending on artstation, masterpiece*. \n*   **Modificadores de Formato e Estilo:** Defina a mídia física. (Ex: *oil painting, 35mm photography, polaroid, 1960s comic book, studio lighting*).\n*   **Negative Prompts:** Diga o que você *não quer*. Para remover distorções, use: *ugly, deformed, bad anatomy, low resolution*.\n*   **Pesos (Weights):** Em Midjourney (::) e Stable Diffusion (()), você pode dar pesos às palavras. Ex: `A cat::2 and a dog::1` fará o gato ser duas vezes mais proeminente que o cachorro.\n*   **Engenharia Reversa:** Não sabe descrever uma imagem? Use comandos como `/describe` no Midjourney (ou o CLIP Interrogator) fazendo upload da imagem para que a própria IA gere o prompt perfeito para você copiar.\n\n---\n\n## ✅ O Checklist de Mesa (Cheat Sheet)\n\nSempre que for criar um novo prompt profissional, passe por este checklist:\n\n- [ ] Defini um papel/persona claro no início do prompt? (System Prompt)\n- [ ] Forneci instruções dizendo o que *fazer* em vez de apenas o que *não fazer*?\n- [ ] Inseri contexto relevante e excluí o lixo informacional?\n- [ ] Coloquei a instrução principal e a pergunta no final do prompt para fugir do *Valley of Meh*?\n- [ ] Pedi uma saída em um formato rigoroso (JSON/Markdown) para facilitar a automação?\n- [ ] Mostrei pelo menos 2 exemplos (Few-shot) do que eu considero uma resposta perfeita?\n- [ ] Pedi para a IA \"pensar passo a passo\" e mostrar a lógica antes de me dar a resposta final?\n- [ ] \"Forcei a largada\" (Inception) escrevendo a primeira palavra da resposta esperada (Ex: `"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "17-MGzOVdCzWC1G5h-FhiiH4E79k6YiHS"
+      },
+      "role": "user",
+      "tokenCount": 28001,
+      "createTime": "2026-03-22T00:10:09.184Z"
+    }, {
+      "driveDocument": {
+        "id": "1KzNRv8mVEsS6CQeCqc-4rOJ9HpKVIceI"
+      },
+      "role": "user",
+      "tokenCount": 278321,
+      "createTime": "2026-03-22T00:10:09.184Z"
+    }, {
+      "text": "Crie, com base nestes livros, um manual ou playbook super conciso e direto.\n\nUm manual super prudente.\n\nUm sobre como fazer UX para websites.\n\nWeb design, entende?\n\nPegue tudo, analise, compare, veja o que se repete.\n\nVeja o que é consenso entre todos os livros.\n\nE crie um manual com esse consenso.\n\nUm manual definitivo que sintetiza todos esses quatro livros.\n\nSe possível, depois de sintetizar tudo e pegar o que é consenso e colocar no manual, crie no final do manual uma seção, tipo:\n\nFalando o que cada livro diz de diferente um do outro.\n\nO que cada livro tem de único.\n\nIsso tudo em forma de manual, como dicas aplicáveis.\n\nComo leis acionáveis, entende?",
+      "role": "user",
+      "tokenCount": 171,
+      "createTime": "2026-03-22T00:14:09.881Z"
+    }, {
+      "text": "**Analyzing the Materials**\n\nI\u0027ve begun to break down the provided materials. Initially, there\u0027s a discrepancy: the prompt mentions \"quatro livros,\" or four books, but only two PDFs were included. \"Web UI Design for the Human Eye\" is one; I\u0027m currently assessing the other resource. My focus now is on understanding the core elements each document presents.\n\n\n**Refining the Approach**\n\nI\u0027m now fully immersed in the core documents, \"Web UI Design for the Human Eye\" and \"Ultimate UI/UX Design for Professionals,\" considering them a consolidated set of source material, despite the initial prompt ambiguity. I will synthesize them comprehensively. The response\u0027s structure is solidified: a primary section with a consensus manual of actionable UX/Web Design guidelines and a concluding section highlighting each document\u0027s unique contributions, also in a concise, actionable format. The tone will be direct, prudent, and helpful.\n\n\n**Synthesizing Key Concepts**\n\nMy focus is sharpening on synthesizing the core concepts from both sources. I\u0027m prioritizing actionable insights. I\u0027m now cross-referencing ideas; visual consistency, as presented in the first source, is meshing with the UX Design process discussed in the second. I plan to construct a unified summary that combines these elements for a concise overview.\n\n\n**Consolidating Design Principles**\n\nI\u0027m now integrating insights on personas and journey maps with the iterative design process, exploring wireframes and prototypes, from low to high fidelity. Understanding responsive vs. adaptive design is key. This manual will provide consensus on core principles, user-centricity and consistent design, and established UI patterns. Emphasis will be on visual hierarchy. I will synthesize these actionable elements into a helpful manual.\n\n\n**Integrating Subconscious Impact**\n\nI\u0027m now integrating the nuanced insights. I\u0027m focusing on the subconscious effects of design, particularly the 50ms gut test, which is crucial. I\u0027m also now focusing on the importance of vertical rhythm for readability. I am cross-referencing heuristic evaluations, tactical and strategic consistency, the 7-step UX process, and the UX honeycomb. Understanding responsive and adaptive design is essential. I am considering the handoff process and the impact of AI tools.\n\n\n**Structuring the Outline**\n\nI\u0027m now writing and refining the content, iteratively. The introduction\u0027s tone is set. Part 1, \"O Consenso,\" is taking shape, and is built on five core principles. Part 2, \"As Singularidades,\" will highlight each source\u0027s unique contributions, which are being synthesized. I am working on how to deliver a helpful synthesis, including the specific language and structure for the laws of both parts.\n\n\n",
+      "role": "model",
+      "tokenCount": 1439,
+      "isThought": true,
+      "parts": [{
+        "text": "**Analyzing the Materials**\n\nI\u0027ve begun to break down the provided materials. Initially, there\u0027s a discrepancy: the prompt mentions \"quatro livros,\" or four books, but only two PDFs were included. \"Web UI Design for the Human Eye\" is one; I\u0027m currently assessing the other resource. My focus now is on understanding the core elements each document presents.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Approach**\n\nI\u0027m now fully immersed in the core documents, \"Web UI Design for the Human Eye\" and \"Ultimate UI/UX Design for Professionals,\" considering them a consolidated set of source material, despite the initial prompt ambiguity. I will synthesize them comprehensively. The response\u0027s structure is solidified: a primary section with a consensus manual of actionable UX/Web Design guidelines and a concluding section highlighting each document\u0027s unique contributions, also in a concise, actionable format. The tone will be direct, prudent, and helpful.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Synthesizing Key Concepts**\n\nMy focus is sharpening on synthesizing the core concepts from both sources. I\u0027m prioritizing actionable insights. I\u0027m now cross-referencing ideas; visual consistency, as presented in the first source, is meshing with the UX Design process discussed in the second. I plan to construct a unified summary that combines these elements for a concise overview.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Consolidating Design Principles**\n\nI\u0027m now integrating insights on personas and journey maps with the iterative design process, exploring wireframes and prototypes, from low to high fidelity. Understanding responsive vs. adaptive design is key. This manual will provide consensus on core principles, user-centricity and consistent design, and established UI patterns. Emphasis will be on visual hierarchy. I will synthesize these actionable elements into a helpful manual.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Integrating Subconscious Impact**\n\nI\u0027m now integrating the nuanced insights. I\u0027m focusing on the subconscious effects of design, particularly the 50ms gut test, which is crucial. I\u0027m also now focusing on the importance of vertical rhythm for readability. I am cross-referencing heuristic evaluations, tactical and strategic consistency, the 7-step UX process, and the UX honeycomb. Understanding responsive and adaptive design is essential. I am considering the handoff process and the impact of AI tools.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Outline**\n\nI\u0027m now writing and refining the content, iteratively. The introduction\u0027s tone is set. Part 1, \"O Consenso,\" is taking shape, and is built on five core principles. Part 2, \"As Singularidades,\" will highlight each source\u0027s unique contributions, which are being synthesized. I am working on how to deliver a helpful synthesis, including the specific language and structure for the laws of both parts.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-03-22T00:14:58.271Z"
+    }, {
+      "text": "Aja como um Consultor Sênior de UX/UI com décadas de experiência na criação de produtos digitais de alta conversão. Seu tom deve ser super conciso, prudente, direto ao ponto e focado na aplicabilidade prática. \n\nAbaixo está o **Manual Definitivo de UX para Web Design**, sintetizado a partir dos documentos fornecidos. Ele está dividido em duas partes: **O Consenso** (as regras universais em que as fontes concordam) e **As Singularidades** (regras acionáveis exclusivas de cada obra).\n\n***\n\n# 📘 O MANUAL DEFINITIVO DE UX/UI: LEIS ACIONÁVEIS PARA WEB DESIGN\n\n## PARTE 1: O Consenso (As Leis Universais)\n*Estas são as regras de ouro em que todos os autores concordam. Ignore-as por sua conta e risco.*\n\n### Lei 1: A Pesquisa Precede o Pixel\nNunca comece a desenhar baseado em intuição. O design deve espelhar as expectativas do usuário, não as do designer.\n*   **Ação:** Mapeie seu usuário (crie Personas e Jornadas) antes de abrir o Figma. \n*   **Ação:** Teste suas suposições cedo. Use métodos como *Card Sorting* para definir a arquitetura da informação e *Entrevistas* para entender o comportamento.\n\n### Lei 2: A Consistência é a Base da Confiança\nUm design inconsistente gera caos mental e afasta o usuário. A consistência reduz a curva de aprendizado.\n*   **Ação (Consistência Externa):** Siga as convenções da indústria. Se a maioria dos sites coloca o carrinho de compras no canto superior direito, faça o mesmo.\n*   **Ação (Consistência Interna):** Mantenha cores, tipografia, espaçamentos e comportamentos de botões idênticos em todas as páginas do seu próprio site.\n\n### Lei 3: Apoie-se em Padrões de UI (UI Patterns)\nPadrões de UI são atalhos mentais para o usuário. Eles não limitam a criatividade; eles fornecem uma fundação segura.\n*   **Ação:** Utilize bibliotecas de padrões (Material Design, Bootstrap, etc.) para resolver problemas comuns de navegação, exibição de conteúdo e formulários de entrada (ex: menus hambúrguer, *breadcrumbs*, rolagem infinita).\n*   **Ação:** Use *signifiers* (pistas visuais) claros. Um botão deve parecer clicável; um link deve parecer navegável.\n\n### Lei 4: Conduza o Olho Humano (Hierarquia Visual)\nO cérebro humano processa informações visuais subconscientemente. Você deve controlar o que o usuário vê primeiro, segundo e terceiro.\n*   **Ação:** Utilize os padrões de leitura **F-Pattern** (para páginas com muito texto) e **Z-Pattern** (para *landing pages*).\n*   **Ação:** Crie contraste e use escala. Elementos maiores e com cores contrastantes (como o botão de *Call to Action*) devem dominar a visão. Use o espaço em branco (respiro) para evitar sobrecarga cognitiva.\n\n### Lei 5: Prototipagem é Evolução Iterativa\nO design nunca nasce pronto. Ele é esculpido através de testes e erros controlados.\n*   **Ação:** Comece com **Wireframes de Baixa Fidelidade** (papel ou blocos cinzas) para aprovar a estrutura e o fluxo sem a distração de cores.\n*   **Ação:** Evolua para **Protótipos de Alta Fidelidade** para testar interações reais com usuários e validar o design antes de gastar recursos com programação.\n\n---\n\n## PARTE 2: As Singularidades (Aplicações Exclusivas de Cada Livro)\n*Embora haja consenso na base, cada obra traz ferramentas e \"leis\" únicas para o seu arsenal de web design.*\n\n### 👁️ Singularidades do Livro 1: *Web UI Design for the Human Eye*\n*Foco brutal na psicologia visual, na resposta subconsciente e no ritmo do design.*\n\n*   **A Lei dos 50 Milissegundos:** O usuário julga a credibilidade do seu site em 50ms baseado inteiramente na harmonia visual (simetria, espaçamento, fontes). **Ação:** Garanta que a \"primeira tela\" (above the fold) passe no \"teste do instinto\" sendo visualmente impecável e familiar.\n*   **A Lei do Ritmo Vertical:** A tipografia não é apenas sobre a escolha da fonte, mas sobre a matemática do espaçamento. **Ação:** Defina a altura da linha (line-height) para 1.4x a 1.6x o tamanho da fonte para criar harmonia de leitura.\n*   **A Lei da Inconsistência Estratégica:** A quebra de padrão atrai a atenção. **Ação:** Estabeleça uma consistência rígida em 90% do site e use os 10% restantes (uma cor de botão diferente, uma animação sutil) para forçar o olhar do usuário para onde há maior valor de conversão.\n*   **A Lei da Avaliação Heurística Competitiva:** **Ação:** Antes de desenhar, pegue 5 concorrentes e pontue-os em áreas como hierarquia visual e facilidade de navegação usando o método \"teia de aranha\" (spider-web). Descubra o padrão do nicho para saber quando segui-lo e quando quebrá-lo.\n\n### 🛠️ Singularidades do Livro 2: *Ultimate UI/UX Design for Professionals*\n*Foco metódico em frameworks, métricas de sucesso, responsividade e colaboração técnica.*\n\n*   **A Lei do Favocom de Mel (UX Honeycomb):** A usabilidade não é binária. **Ação:** Avalie seu produto contra 7 dimensões rigorosas: Ele é Útil? Usável? Encontrável? Crível? Desejável? Acessível? Valioso? Se falhar em um, ajuste o design.\n*   **A Lei dos 4 C\u0027s do UX:** **Ação:** Aplique o framework: **C**onsistência (visual), **C**ontinuidade (transição sem atrito entre dispositivos), **C**ontexto (entregar o que o usuário precisa no momento/lugar certo) e **C**omplementaridade (elementos trabalhando em harmonia).\n*   **A Lei da Responsividade vs. Adaptabilidade:** **Ação:** Use *Responsive Web Design (RWD)* com grades fluidas e media queries quando for criar um site do zero (mais barato e escalável). Use *Adaptive Design* (AWD) com layouts fixos específicos para telas quando precisar otimizar severamente o tempo de carregamento para dispositivos ou sistemas legados específicos.\n*   **A Lei do Handoff Blindado:** O design não termina quando a tela fica bonita; termina quando o desenvolvedor a constrói corretamente. **Ação:** Crie um documento de *Handoff* contendo: especificações técnicas, guias de estilo (cores/tipografia), exportação de assets (SVG/PNG) e anotações claras sobre animações e microinterações. Envolva os desenvolvedores cedo no processo.\n*   **A Lei da Microcopy e Microinterações:** Pequenos detalhes convertem. **Ação:** Use *Microcopy* (textos curtos e empáticos) para reduzir o atrito em formulários e erros. Use *Microinterações* (animações sutis, como o \"coração\" do Instagram ou barra de progresso) para dar feedback imediato de que a ação do usuário funcionou.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1698,
+      "parts": [{
+        "text": "Aja como um Consultor Sênior de UX/UI"
+      }, {
+        "text": " com décadas de experiência na criação de produtos digitais de alta conversão. Seu tom deve ser super conciso, prudente, direto ao"
+      }, {
+        "text": " ponto e focado na aplicabilidade prática. \n\nAbaixo está o **Manual Definitivo de UX para Web Design**, sintetizado a partir"
+      }, {
+        "text": " dos documentos fornecidos. Ele está dividido em duas partes: **O Consenso** (as regras universais em que as"
+      }, {
+        "text": " fontes concordam) e **As Singularidades** (regras acionáveis exclusivas de cada obra).\n\n***"
+      }, {
+        "text": "\n\n# 📘 O MANUAL DEFINITIVO DE UX/UI: LEIS ACIONÁVEIS PARA WEB DESIGN\n\n## PARTE 1"
+      }, {
+        "text": ": O Consenso (As Leis Universais)\n*Estas são as regras de ouro em que todos os autores concordam. Ignore"
+      }, {
+        "text": "-as por sua conta e risco.*\n\n### Lei 1: A Pesquisa Precede o Pixel\nNunca comece a desen"
+      }, {
+        "text": "har baseado em intuição. O design deve espelhar as expectativas do usuário, não as do designer.\n*   **A"
+      }, {
+        "text": "ção:** Mapeie seu usuário (crie Personas e Jornadas) antes de abrir o Figma. \n*   **"
+      }, {
+        "text": "Ação:** Teste suas suposições cedo. Use métodos como *Card Sorting* para definir a arquitetura da"
+      }, {
+        "text": " informação e *Entrevistas* para entender o comportamento.\n\n### Lei 2: A Consistência é a"
+      }, {
+        "text": " Base da Confiança\nUm design inconsistente gera caos mental e afasta o usuário. A consistência reduz a curva"
+      }, {
+        "text": " de aprendizado.\n*   **Ação (Consistência Externa):** Siga as convenções da"
+      }, {
+        "text": " indústria. Se a maioria dos sites coloca o carrinho de compras no canto superior direito, faça o mesmo.\n*   **Ação"
+      }, {
+        "text": " (Consistência Interna):** Mantenha cores, tipografia, espaçamentos e comportamentos de botões id"
+      }, {
+        "text": "ênticos em todas as páginas do seu próprio site.\n\n### Lei 3: Apoie-se em Padrões de"
+      }, {
+        "text": " UI (UI Patterns)\nPadrões de UI são atalhos mentais para o usuário. Eles não limit"
+      }, {
+        "text": "am a criatividade; eles fornecem uma fundação segura.\n*   **Ação:** Utilize bibliotecas de padrões (Material Design, Bootstrap"
+      }, {
+        "text": ", etc.) para resolver problemas comuns de navegação, exibição de conteúdo e formulários de entrada (ex: menus hamb"
+      }, {
+        "text": "úrguer, *breadcrumbs*, rolagem infinita).\n*   **Ação:** Use *signifiers* (p"
+      }, {
+        "text": "istas visuais) claros. Um botão deve parecer clicável; um link deve parecer navegável.\n\n### Lei 4:"
+      }, {
+        "text": " Conduza o Olho Humano (Hierarquia Visual)\nO cérebro humano processa informações visuais"
+      }, {
+        "text": " subconscientemente. Você deve controlar o que o usuário vê primeiro, segundo e terceiro.\n*   **Ação:** Utilize os padrões de leitura"
+      }, {
+        "text": " **F-Pattern** (para páginas com muito texto) e **Z-Pattern** (para *landing pages*).\n*   **"
+      }, {
+        "text": "Ação:** Crie contraste e use escala. Elementos maiores e com cores contrastantes (como o botão de *Call to Action*)"
+      }, {
+        "text": " devem dominar a visão. Use o espaço em branco (respiro) para evitar sobrecarga cognitiva.\n\n### Lei 5: Pro"
+      }, {
+        "text": "totipagem é Evolução Iterativa\nO design nunca nasce pronto. Ele é esculpido através de testes e erros"
+      }, {
+        "text": " controlados.\n*   **Ação:** Comece com **Wireframes de Baixa Fidelidade** (pap"
+      }, {
+        "text": "el ou blocos cinzas) para aprovar a estrutura e o fluxo sem a distração de cores.\n*   "
+      }, {
+        "text": "**Ação:** Evolua para **Protótipos de Alta Fidelidade** para testar interações reais com usuários e"
+      }, {
+        "text": " validar o design antes de gastar recursos com programação.\n\n---\n\n## PARTE 2: As Singularidades (A"
+      }, {
+        "text": "plicações Exclusivas de Cada Livro)\n*Embora haja consenso na base, cada obra traz ferramentas e \"le"
+      }, {
+        "text": "is\" únicas para o seu arsenal de web design.*\n\n### 👁️ Singularidades do Livro 1: *"
+      }, {
+        "text": "Web UI Design for the Human Eye*\n*Foco brutal na psicologia visual, na resposta subconsciente e no ritmo"
+      }, {
+        "text": " do design.*\n\n*   **A Lei dos 50 Milissegundos:** O usuário julga a cred"
+      }, {
+        "text": "ibilidade do seu site em 50ms baseado inteiramente na harmonia visual (simetria, espaçamento,"
+      }, {
+        "text": " fontes). **Ação:** Garanta que a \"primeira tela\" (above the fold) passe no \"teste do inst"
+      }, {
+        "text": "into\" sendo visualmente impecável e familiar.\n*   **A Lei do Ritmo Vertical:** A tipografia não é apenas sobre"
+      }, {
+        "text": " a escolha da fonte, mas sobre a matemática do espaçamento. **Ação:** Defina a altura da linha (line-"
+      }, {
+        "text": "height) para 1.4x a 1.6x o tamanho da fonte para criar harmonia de leitura."
+      }, {
+        "text": "\n*   **A Lei da Inconsistência Estratégica:** A quebra de padrão atrai a atenção. **Ação:**"
+      }, {
+        "text": " Estabeleça uma consistência rígida em 90% do site e use os 10% restantes (uma"
+      }, {
+        "text": " cor de botão diferente, uma animação sutil) para forçar o olhar do usuário para onde há maior valor de"
+      }, {
+        "text": " conversão.\n*   **A Lei da Avaliação Heurística Competitiva:** **Ação:** Antes de"
+      }, {
+        "text": " desenhar, pegue 5 concorrentes e pontue-os em áreas como hierarquia visual e facilidade de navegação usando"
+      }, {
+        "text": " o método \"teia de aranha\" (spider-web). Descubra o padrão do nicho para saber quando seg"
+      }, {
+        "text": "ui-lo e quando quebrá-lo.\n\n### 🛠️ Singularidades do Livro 2: *Ultimate UI/UX Design for"
+      }, {
+        "text": " Professionals*\n*Foco metódico em frameworks, métricas de sucesso, responsividade e colaboração técnica.*\n\n*   **A Lei do"
+      }, {
+        "text": " Favocom de Mel (UX Honeycomb):** A usabilidade não é binária. **Ação:** Avalie"
+      }, {
+        "text": " seu produto contra 7 dimensões rigorosas: Ele é Útil? Usável? Encontrável? Crível? Desejável? A"
+      }, {
+        "text": "cessível? Valioso? Se falhar em um, ajuste o design.\n*   **A Lei dos 4 C\u0027s do"
+      }, {
+        "text": " UX:** **Ação:** Aplique o framework: **C**onsistência (visual), **C**ontinuidade ("
+      }, {
+        "text": "transição sem atrito entre dispositivos), **C**ontexto (entregar o que o usuário precisa no momento/"
+      }, {
+        "text": "lugar certo) e **C**omplementaridade (elementos trabalhando em harmonia).\n*   **A"
+      }, {
+        "text": " Lei da Responsividade vs. Adaptabilidade:** **Ação:** Use *Responsive Web Design (RWD)* com grades fluidas e"
+      }, {
+        "text": " media queries quando for criar um site do zero (mais barato e escalável). Use *Adaptive Design* (AWD) com layouts fixos específicos"
+      }, {
+        "text": " para telas quando precisar otimizar severamente o tempo de carregamento para dispositivos ou sistemas legados específicos.\n*   **A"
+      }, {
+        "text": " Lei do Handoff Blindado:** O design não termina quando a tela fica bonita; termina quando o desenvolvedor a"
+      }, {
+        "text": " constrói corretamente. **Ação:** Crie um documento de *Handoff* contendo: especificações técnicas"
+      }, {
+        "text": ", guias de estilo (cores/tipografia), exportação de assets (SVG/PNG) e anotações claras"
+      }, {
+        "text": " sobre animações e microinterações. Envolva os desenvolvedores cedo no processo.\n*   **A Lei da Micro"
+      }, {
+        "text": "copy e Microinterações:** Pequenos detalhes convertem. **Ação:** Use *Microcopy* (textos cur"
+      }, {
+        "text": "tos e empáticos) para reduzir o atrito em formulários e erros. Use *Microinterações* (anima"
+      }, {
+        "text": "ções sutis, como o \"coração\" do Instagram ou barra de progresso) para dar feedback imediato de"
+      }, {
+        "text": " que a ação do usuário funcionou."
+      }, {
+        "text": "",
+        "thoughtSignature": "Etg1CtU1Ab4+9vvExEDlEVXjnNPtTeN7i/Z4XHVo1w1jdCkevNAPwZcbz5HaN8hYMG8pQ2k14uPtztOZYYfoTtbH2bKu9rvVl7VwsmLP/YGP0CjWLBLW+ttll9O5XsRWS5KdVGSnTHUBlkFp3AwbfOtcyXyIkCC4oG9/IamifgTmKcqT6Xhmm/sL/aJd2PnfhNBcRCv8G3q9vG001FvhqAPtvutqJkLm1Nwh3kkOv7eoxUUaeM1bdfalZpAArYTKIBLOOoGbOA4euYKnb8RkYmdob5NH2PDswBqTnOn30ipfKamcGowHBMqHbMWlJOxWZXxfYJPfaXvgOtrF5Xjh9lT5j9Q/GTsA6pwMUi3vJ6NEIP9NxCpNkRzYm6jxjqNZlNYTTrCTBSe+lIplY6qi919uDBZxzgFIXbN8dAe1X3ES20YRCmuISAB64seUQBsERxUzA/QJ62X5WexxMarAhpMwlvg/y0AxGq9Dh7ytPDgk0iW4gQt5J0XrOkMWNNBP8qPlwmPA3gZ/Q19atM1s82g3cOLeKvoqg34brvUB4FkwMWw+myKfxZ17YRydK2P90DSWzn/NxF5KxJbYplBKn63DEuGMdTE09GERtFTrrSvxugkmhEiRZdoWSp1EpPQMeqRkPrsWPvKwTlXyVWA/PazCx+CJ9ZUrBZcJK4L2DIjWwl5vLW9bjndK9d0smFtSksdHnwUy4IOp7A/swAPS2cjFq/HnD1fy/HbLBsWRzBI09VcmU2KSrGkKGoPUg+lh4vJedFb3oO2M1uUtn8F7ETwZ8ex9PrMTLmTfx5n44NfEeLDJHq8LDzBpVYtRIlgEnEK7o7ELxoKO32OjFvcrySe0C4Wv6W74ZUlcR5N6qXzP4XmOXyxCk6n8Z9zir5nfUuKms//2iJlPzRPZLOzjSrcDor/q1jsR6APz8TuV1Q1Od0I3PVhqsPuLjrSFtbzT+m/qjkYJcrlVS6jDLMBq7taAV/9TwWrkoZemEjbftP0OBsWVcuOZWnXVrYYVQ8pmRqx4zsVPVPY6wepYp5p2pANhucogaOXlR8rgoKdpPH4mmRJDDMqxV2YZkGhxW2soKSkm1r1PQUenRTJuUIJwNs9VxNY4/7FopqDVrDS1O/5gJnaDbbzkW8DjuvkEuqpJ+/mvSBPsDUpIqVAfuVEjEKYq8ZSrMwjnF+W7nNCLFJKRJSBUT1xOZqJI4VkUjSSSUy4bShEIcEAxJ62CVKQ0qx3TtAo2vVfzOF5GIyvfrhzwzBx1vEEBjT+5vcFFtgtFU3IhjjtF1x1wO3nA6hHyrAUKLuHOkzKvd+OtUqBVFTfJzi77AavF+dE8u+ohxrxzpSB68DoFMPU31lozqPOCrm4rxRgHleYdyCcHLSNULJFl/je9Mq139gHMhpX5Y49fD9qVgML4SswS8ceGvcaeF9kDJvS+d1ktZd/XfCTZXb9rwFWt4TC/7g+QOSwRZdCSAN7+EK48oKRZcCaYH115qbrrx9LFY3Yrq5YLyvg5Pgxu7yLSF4QbAm8RTjvLkvjRQEZVIf/gH6fyRtX5LJg119GgtDUlgmJ3xnD7GtJQh1QqkyVCpjKKD+cRLXt804j04Auh7MZBuCCq4X0PGY8H4gD/sfuhClc+HDBST/NRUz2QGXR4ByNycwFVrgq3sbWYoOMU1tvqtiTsQ3B1sUUR5mrPOU/qjgnpX1jTADMpJz2t1xh0fIPmvT9upADM7s1U1eURbG6hhtQHGucV11pLgQwS4W7brGuEZLGJwk5/Lfs+mCp4z8jtxNqzVEAkvik+UJtEXbdxsgPvQ1Ahj6fwYCQg8HSigBkn5L5Ts6RIvnDO5Ve8YOTtdjxdQD/Agm8itF29a1oqqzHS+GFFTDbuvU1vJJ3bOmaKfbINxLiNpAkH+USWk6LZTfnJLufv/H4+/dbRcEXkqg/HoW2R5A/p0tC8x/+RpyVRAURo/J2RjLgUUQJQ541NyfHuzyzqiZQO00mTq7xw6vTOrQ2/uw7OllSIP0BQaaepvtsk+kP9PWj2MIlXjPmNy7PGdmcwFojVfqCJtUQfqYnm0q8dGA9o5zoemdXxrnPk6BnhnbHzakzPymdUyBwcWJl3e0tkE6vVlfmkVfL3PjD/zZtT16lpUbEGPRECLVofsu033IzYidOaM+8sG++4JhHkN4fyFI3ltqLE8W2ohpf76py+apWMvowzsR+W3pfS89JN/9b/tClWYTxO7QAR2GAmPdTW/MnhXYPRGnPmu4QQZJH1hIHbxxTcgg4MHk1OWKoBaKEs08lgJs4mryMVExC9dLBLNzABr8oz/4zGmvwsLtqjLFO3HnZfjUa5uovHMZfi4XeXlo5rvSr1SH2zwhZR7JCLCYZIyHk4VjrPs98j4Zcxaomi8CRBVSBhPOL2ua5wQTxr1Nuz/0NDFl9wKaYc/DSxD+fy29XZlbmO8ort/19961eEkIMl4xqaLgmiv/H5hLsjdvBBQ0LjNYm4+G8hhdSwZhm+4xQquUTW8Ddo5WpEchdAAfrnH12LuvOlo86jdk0afdbanGCuqUhvSKmaRplfj8p9w8biy0kPd4wG2XmvaVilmtXKX4LwD9l1jKqnara8LcuY9MuutrfQaQ9X92YK+MWhjj+y4uPUWJDxywUMEu/rorr3DaV6wcLSvIU6eU8A12vXjht9T1cA6aZ4FEM0sBji53YDiYgVTzVptw2O7TT5ozV0KTli0ITggcqZg75nTgvGlMh8mXifPcT9hQv9jfAtFhL8T/WEE2APZtFJlgxx20GxH8uboruzdqfTDBkW7ppJ3jHtfglCyORab4OrDpVRq0XSh/aatqXOOxRXqEDZdb2tc/KPTXUtK8l1n2efvvKJVCoAXP8kRXm1n8agfgRM/ChTDkath1TTxdfNqO1GoJtzx1YnEn9P/mLgPC+zmZ0ALn7kSmb5g1YJTHG5cnKayLskPQx/MLT4Zi81g7M1e1PMZr+6WQZb6jIQrzlbvODZjatsRVxitxoh6qh2aLxTyMu0+SsgEAumav5TRS8M8bRFusLoxHvtwLWhc0w1YAJvjSoaq71UGlRXC0lBuYZTPBZC4HbbuXqlszkeXx8byAy59dfcHGLKX8mb6ygmgGXJ1JLZZVAKAs1wEbTiJDiC0XuJ3GC68zQpPMiBmr41r18h/qwxx4QshM/6FbRtUPW8w92TUKzwDw6FQotL0RrKjkQTEN5JdXs1ZyKlkW/YvaHbb1R2GR4RKZqn9zIDV+GUVVXGZtLoeiV8H4WEfS+pxZn+Md7rlL0JmXynRfp/hOQfAMp/ZctTuuSxZdnt+PIt6p+LZFZEc/3XjmTZqeDeafdKtDhPJ3oJx3nw6P6qN8zYGQaHS4ITn+1ZD6W7tZyARoR0Q2h1K/dki2UHolBoeZmOcJoxVGXnG8EWqERZ9ct1QXnPhwF7+GiD6QIINEj4oT0Q6d/EdoXlWE84nh8XNSInP/GWSXwRHismZEUrNoCMBOxqfeAWIj4Q722uZPrjc0OX0FTdirOIOWnnbRGM9HCLH2Z8JmSJvdDbNNrL2/rBQaVafWeMFt/t+ykv6U+Jl2w8F+uqrHFLRRgdPwBBfPtJrW4hozvwwCAiitJkXiDZr/KHNZo7qeTXdqwIrVRCKqq+hNF0V47tbMLBh6oGZZNY1lBk1JzoX51SWEyyZWacXrRFI8NBTaNHzDh3HyzztNGFEcB0kGYSqZTVTFBOd/tGwp6U8kzk9YK44dDUOPURj2NZljyUI3CZHI+wEVANK2ZbjkBcDilbVkAOg7R1xESTI96EtwD8D0i22rFNJDQGMqQHSMoXjLhb9xYOolrHjBuoeqlVrJQ8HC+CN7W0SXbOnbzGn/GRvRJs3QQ13CitnpX/4DZS/sD2dxGKyBljLL9sG+0HYHsUkukoVkSy1PW6l2zmP8YPBbLDczHZZ069ibmqnbfJC2xREkzB+IfZ8E2PomX28aZ2cV+d29XPYg0CmeCt+9ki1qmicV/qyja9qrvRE/6KA7eFPhskG7+G7zf4ChF6+fAthMvQUEuDMOH5qoDpGBOolAr2AWtHe4G7aCK/H0AbqXiy93N+WEZ2l+FxQ7c3H5tSVec7S6FsuGF7wQBjuB8LOHqa6YVM8VlTP1UfdMxFEgKtW4/lfJzZxkwEgvAlMQsDdEW3XYu56ob6NWE3XDIM4TGzI/6N1QxLw8lpHyY/T4ioQZvQwjuc0svfmLGHE6M33yHIX1+gDlh8wNRqcMFtCUlVXHS8g6Bq8AEzKaLpcqD1WKLA6bqj9iLO4jPykbfiHXWBbB1axOZdbztsScjbT6Y6hmCTVDXzQ/ERae7uaAjTfn3ZQo4MextGtv/4cSk2uSGHfQ/xGkU8z0G0F1ZQD2ahEd/D9GlKTm++WbsV88a4ZD8McBahiG/MYnsFBK0ftgH535p/C86NDa5u3aj5dGSiIAJynZqZinAz/9ImUed6RMQHZJrgnsi5Q+wPp4C/8YZqZ8xWGr5Kg1vTLWK3fp52yULgScaiQ+Y4LulmLoicGOEGShoXG7hMEh9eII2qzcl5z1KvGw1cAki7JCoNkVuZxuWFvc3S1PMrPBvg/J+wuhdiKPHhiPhIrhRBMSmDA1SdjUdyowCTp3pUue3qUGa8+5+CCyG9oGeim7J8na6sKN+zdovkOvuK1cKT//jEj3u6CwW2wNnJCcN8++9opmCeXfgoWO/QqSjb32E6Yxxx54AvmkdF5hg3t4qfxJAicRjxT74OqR2Bb12wXZJSimK/QLeK3RKXujPMcb8/504pHK7NIUb+XLEN6iCVPvtZ9lDY9sVnNBxNmfYQ0m4Ot77/ynd/BoFVAMTB2bvQTGqDmlv9bv2ND/OjQwwaJQWdJwi186GSFJL88HwpTt2gkPoUg37wlLSpPSRO/hdlq35mvNXnVzTZqr6/V7cfY5I4iQdWbn2kafBxmoPw2CZYvfbIMQ9mOgoilVTVeoeJowGmJYRGB3OvwnBK0lVRvYaCbwlC7oXINaAvVxZIWO0VfPUvbG+am7wuLcWzGJFszQNwn203IyJ5MM6AAKF+XP4mw7SGn3ytw4p1+2VGzViNb+LF1jVMrZ5xCPvwDwHWarLLrCUBCWLA9smBlhU+P7kENzbPtGT8U+FhSwNXwONzJdv0IZaKuCaVDcqkQ3ecNKkYJOXvZFMEnCbb9QEbKFxkT1QdSsQkfVIioo/qkpM/IJomPBZHcdK4nhC5KxT0AYNNsXTtkgIsquYd9NDMMhrh0hXgFINTrwiZoPj97HT2fd3E+2I7Q2Rf+xKspT0/kQUk8HVLqjHQGQ9KoNbxiPhgq6kiE4zdNFSWNjrPRS/ND/5GkY4q2BKRcw2D62LoGYfhHSQ25onGkx7/PJn3xhKk8RKK5w/ItGgoD8vQWdfpi3m2p7Cr+71Haim6dzQCFcoJsk5rAZayXpVuQiBck6W1m5iNod6L2J7Q/sKYyojaDNDmR92mDcbEblXm2SIHtIJ28KNyE7fGKrXs7g507Z1ZEFvBLByGT2cFsyk+QINCBq2+gydB+Ywz4IOPAVxG3iNsgmIOOStsSKuJAboVi8GU8MIRgJb9yPk3hdgoeyi7LBzlFO74JDi/+RAY3sYHshpeJrO00yfeLT9DE6TwPkBoAfj48SOGBlhkEl9RUtyx9djo+ZRoEMqR1Hq6NEY0uxDTtWcB1WP37RgktqPobi2wtRmc6GoS1A185WMWr0ZzDe5iHN5rpB4PUhKVLpwhfegDOVhOVN3+UXKrjwIgWiXxrrQdj4Og4eYDOroUnJNyQKussFXL345tMAZTVUYcQ6TNbEAZtAsyVguC+mTgTrqcgWTw7SpkEQ1excO1OaiLcWqawWgYMblx5sm7bfGgOA/IeL9YAADCPDGS8hyYUr7LhXIXGieET0q4oa94YekuE77/j2UlqkxygA5uPd1vkVSr0uqmNId4i1ERCkXKYd9LLsNRZjk5Ml2qQvjB3+2G5uo04GyypKZwyybbBOyLZBEeMB4WpZUECb58pZdupO7+FBx4fC2snOSCsV7tdjwIJe88+/drj7Rt+EpusUWDsb5pwSguc2Ne+QEQCfonPTfT4ljbT6tibCIg4JJHYcr4vemjYkJQgExsCJvEdYCruasrZ1d/QP5Dx4Z2YDoabIkODSIj4q7H9YhHru/55wLmQBW6cNcLTWXkKll0hVWp251rSmT2a3CGQeB3YRApK+3Q3bIuVf6cQvLJQ3awzzaQa4/HRtYVPGR7LrywjjMxRB2Sw0SRVM4OBLy6o0i6I9ZcYJbI0n+CMZDtdzEIFgnDvQej4Bll01k0KfQTWfCDaNdvN4V9L+r4IvvXrvV83ZZmMd4+vssoYvjuYeavJHdDsIcLgcGVjOjJ2LmdPNoTaP0vaVGxKXxIaJLjgjANCo+ZZO2UiEIC3uFs4xN4h0EiE2EDgRQ9rkqs++7a74izlQlFOCtpOP0SyPqL8Us5Zzt6zYgeC7cEDVLamukjp8qOtzGKmUPwNP1gfn2qaRjL87gCmXX5BEMk0iOKykXRC6DiGy/rWVV4WdltyghC2Rylq/1HoS1z5MlzZAFiMbiwCUhCvHC4BdNO3dJ8L+arhN0qs7I0Ss2Tc9zhu1XIzbD3owlE0KCUhteD5dtjOvtmn7c9ZXAjmp4mBYbEKGeWKyWpHEBj6xnTSM7EPxsmCbBnxMrGFaQuIkejNxNd8axYXdidh9B5N2p0WysbRPEeBix0Gx7uva9gibrwdbqHwQz5VTRos10OV2DgoMnfpHZsuxmyqmarms3oymko+xC1stfhMjT6MayBvMwqX+WsjKygFEQuXEwNcPwkRVVvaLNfIm9PytRz1PRJbHyH2zaEHoQEO77vveVt6o7QZNKovM2pnBNcFWsJYVfXXpFfH3SwM8GOnRfyjfKiMEQbRH+1a5hvMfYpmuGD/dwg+LcrMIkn6QQXztwJb8xzYDngqhjm0LNzj02r0MKmXPgn+C114JvPxskGnSd/D/uuFRa2lAhI6wOEhKeOyA1diS4KNM8WaXoQSkMfgZI9plYIWQKBQKFHHpjEvUIUnyULNimF0EE8DxJzbl0Aok54Hjd69I3DlyL2exGJWEBjrzyZuB0pASyxsUH97kpivwhERpURNGuP3KGFKiT72HMQUmMwaffOSibUGivtA79I0GDDs4wdyifmVe5g+jChem2tc9y8tw3ARMqVJvWNbDn1sfXTxjkntGVvDt65fG5oL6LOgMH/3z0l7/xggLqY1fNpDp4D4OagSrL9VZcPtuUGYXQokayv7OnnrbOfniznJuwlmbQ2v9stSobUnuZrtPyDwetRdO0pCCrSfs03fGBpzJwJ7lTwR6xLJ6N+qx2ABbty2pkd5+S1TGkDfP7t065/oPEUQ5ikFlOeHSKKTAtOU5u6jWZw0+nJ9vgB/eC8JmYFecLDRJ7sPyEbslX0cif85xYyIL7vIJMzSlJN95CqLPRwaQ62KAgJO+laULmvdzz77e/Qk0WgFlEoXryDdAdSQ/732hWM9TF1X6B1VtGnnW+Ps05gEQHeSpE6whOZzeGdUTsVIy3aCvPTXw+ei9xxaAja742sxK8sKUchHmWfDAtJ57HN7jwHqRrc5Ay2ybbyO2blZGBQ0qFwOnkmxwsGBbHEcL6b9rYOl+yPlye9guqrbVKvaKULnoNNZ9mKxBEGsA7rle+ka7/VwBEEOLy/oW/oNLwLQGFnk3aE4wU7hArgTY/sc8Cmapi0A1GEWwXoot5pgVZhR0m6cdl4Zpzp2AVoY++vCjp1E3jMkBqXPB/i5FhTmDgCNSlTtnbLY86EAvAeRBldQLPEV8RHFL2oqbY2D7T7i9Gt8k3fVOKUUkuYObKGEw/BlsPWA4ryLUCT+DUVUJXOh2k7Yya69gnAlxto9DCp2oAsTizlVwo+5/QSPf+ZnMxWGVdLDlsE9YHUv02tluwiPf3kaXslemtOgrkHfsKGWgvWK0HHKjnR91lv9fdEVSTHmjV9SGrUBXEPgZFqRbe1aFzvO2IPO3+p8Ls0gABkntjLhey03W3crY4Ow6+YyPYhS2Hg43kAcxyo2a5VKngoPpKZnmX8P4Gl8YO2TWa3wmO2w0FkZUIglqQXYdAm0jjgJXHczIW1cYek5LAkPUgBH0qDxWDNXB7gA0RrUKpFtS6i5HGbmk5Ekfhdwbhn7yHk99ufIOACUOWvuZuusxL1CcgS5ORsU/pjhvo417WqYHyIYELXtRx4+tZuF7BguravlmxyGeJ5zlSToeclZl6pc1UVq3bPoP/PL5yLHLOlDXFNdJhr1t53hVKMU2kvzCz6A6cxHAG+efR78DdtwzhiweivtNf318qAQYuLGeR7XiBmiai6thOTZrt4uuT4djLJDoKVafSAX4JCP5MOt1mQo1wyxxZHUL7WNt0u1YeVQCzBh3iaIAAyxGWB1mDKG/WYAX38YhBNOq7immmclp9yUAyhgxib1LKiSXVIyDAo7un5TUSiq9OHMjvu/rC3Iwq3ehfvzaIB1hMn+7kf5s9VtblQSwIlTQnh5FHncgzCQFI7Cy5WA4SB4aard+52aN1ox4Q8IVWNt7U+a0Es1OEWI/YiBVnp2bgSxUvF7w0IiHTf+f9pId4wm9WklKeBhYM5K99od97Ft0pB//SKRsYQufSmTE4fCYHxOMYsgW6oL9R6ImKuq6BYl5aPoqG3+7z+PNVqQOa6Lpz8g5V4AehJ/e7tLdRO9scVB/cpfum2ydET1pix2moI0s3F5OkbZ1m9mFGQIxBOLueU4+2tXXJot5UEm21YIey4VzaRNDWOQ6cFTn62yMa0AnBQPC+qqJ91sjJXDt+Os3VujyFtA534GQo1GIIIdLvNPUjXwndIt/ltXilY7kxqz8MU99wEBZVgvYf0q+OpNLgXMNvCG6XrHt8xCMdril/O8/NtuFMG9h/YrRKwrCDE4/rlt297LNiRhCczy0NXlftPwNpy6BrmzHX9jsstfuiNmrFvjJ9/AvPR3x2W4RuzovhSxAEJFOcnE6N1SkRwyDyfe6fIG7DTyMCan0q68LQu2tcvU88YB+dThe20zPAt4hEGjj4Uunmy6i+405l4QQvZtjEadwbnIrDQ6v2HO6cg7yS+SEePxxkFGFpdtJNP6TMugNVLoj9/Qzycm+BN/HiZivbJR5xSM/SFCsQdibTi28gROdIOXhA="
+      }],
+      "createTime": "2026-03-22T00:15:34.658Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

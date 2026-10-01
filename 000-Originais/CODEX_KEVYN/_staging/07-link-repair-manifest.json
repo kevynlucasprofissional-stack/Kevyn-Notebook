@@ -1,0 +1,454 @@
+{
+  "generated_at": "2026-04-04T16:24:04.892457-03:00",
+  "obsidian_cli_available": false,
+  "app_detected_open": true,
+  "summary": {
+    "broken_links_before": 558,
+    "distinct_unresolved_targets_before": 373,
+    "safe_alias_candidates": 7,
+    "auto_apply_alias_candidates": 0,
+    "strategic_backlink_candidates": 20
+  },
+  "safe_alias_candidates": [
+    {
+      "alias": "Fuga dos Melhores Dias",
+      "target_path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Sobre a brevidade da vida e a firmeza do sábio\\A Fuga dos Melhores Dias.md",
+      "match_type": "article-prefix",
+      "broken_occurrences": 1,
+      "source_count": 1,
+      "shared_prefix_depth": 3
+    },
+    {
+      "alias": "Ato de Tornar-se Profissional",
+      "target_path": "HOME\\O Professor\\02_EGO - O MAGUS\\A guerra da arte\\O Ato de Tornar-se Profissional.md",
+      "match_type": "article-prefix",
+      "broken_occurrences": 1,
+      "source_count": 1,
+      "shared_prefix_depth": 2
+    },
+    {
+      "alias": "Atenção Concentrada de Freud",
+      "target_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Atenção Concentrada de Freud.md",
+      "match_type": "article-prefix",
+      "broken_occurrences": 1,
+      "source_count": 1,
+      "shared_prefix_depth": 2
+    },
+    {
+      "alias": "Ação Emana do Desejo Fundamental",
+      "target_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Ação Emana do Desejo Fundamental.md",
+      "match_type": "article-prefix",
+      "broken_occurrences": 1,
+      "source_count": 1,
+      "shared_prefix_depth": 2
+    },
+    {
+      "alias": "Lei Máxima da Conduta Humana",
+      "target_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Lei Máxima da Conduta Humana.md",
+      "match_type": "article-prefix",
+      "broken_occurrences": 1,
+      "source_count": 1,
+      "shared_prefix_depth": 2
+    },
+    {
+      "alias": "Beleza do Deserto",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\O Pequeno Príncipe\\A Beleza do Deserto.md",
+      "match_type": "article-prefix",
+      "broken_occurrences": 1,
+      "source_count": 1,
+      "shared_prefix_depth": 2
+    },
+    {
+      "alias": "Monólogo vs. Diálogo",
+      "target_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\O Pequeno Príncipe\\O Monólogo vs. Diálogo.md",
+      "match_type": "article-prefix",
+      "broken_occurrences": 1,
+      "source_count": 1,
+      "shared_prefix_depth": 2
+    }
+  ],
+  "manual_review_targets": [
+    {
+      "target": "A Crítica como Gatilho para a Defensiva",
+      "count": 13
+    },
+    {
+      "target": "PRINCÍPIO 7: Deixe que a outra pessoa sinta que a ideia é dela",
+      "count": 6
+    },
+    {
+      "target": "O Incidente 'Chá e Prosa' (Análise da Sombra Luciferiana)",
+      "count": 6
+    },
+    {
+      "target": "Perfil Comportamental Alto S/C (Castro)",
+      "count": 5
+    },
+    {
+      "target": "O Ego e o Self",
+      "count": 5
+    },
+    {
+      "target": "03 - quinta-feira.md",
+      "count": 4
+    },
+    {
+      "target": "Compounding (Juros Compostos)",
+      "count": 4
+    },
+    {
+      "target": "Kevyn Lucas: Arquétipo Mago",
+      "count": 4
+    },
+    {
+      "target": "Menor Mercado Viável",
+      "count": 4
+    },
+    {
+      "target": "O Desastre do Svelte (200 vs. 22)",
+      "count": 4
+    },
+    {
+      "target": "Aragorn",
+      "count": 3
+    },
+    {
+      "target": "Numenor",
+      "count": 3
+    },
+    {
+      "target": "Adunaico",
+      "count": 3
+    },
+    {
+      "target": "Anéis de Poder",
+      "count": 3
+    },
+    {
+      "target": "Titulo da Nota/conceito X",
+      "count": 3
+    },
+    {
+      "target": "Titulo da Nota/conceito Y",
+      "count": 3
+    },
+    {
+      "target": "Título da Nota/conceito Z",
+      "count": 3
+    },
+    {
+      "target": "Titulo Exato da Nota",
+      "count": 3
+    },
+    {
+      "target": "Alpha Channel e HDRI",
+      "count": 3
+    },
+    {
+      "target": "Mentalidade Tudo-ou-Nada",
+      "count": 3
+    },
+    {
+      "target": "Oferta Irresistível (Érico Rocha)",
+      "count": 3
+    },
+    {
+      "target": "Freud: Recalcamento",
+      "count": 3
+    },
+    {
+      "target": "Tarot: Dois de Copas",
+      "count": 3
+    },
+    {
+      "target": "La Loba (A Mulher dos Ossos)",
+      "count": 3
+    },
+    {
+      "target": "Ciclo Vida-Morte-Vida",
+      "count": 3
+    },
+    {
+      "target": "Titulo",
+      "count": 3
+    },
+    {
+      "target": "Amor Fati (Nietzsche)",
+      "count": 3
+    },
+    {
+      "target": "A Cidadela Interior",
+      "count": 3
+    },
+    {
+      "target": "Faça a outra pessoa sentir-se importante",
+      "count": 3
+    },
+    {
+      "target": "A Crítica como Agressão ao Orgulho",
+      "count": 3
+    },
+    {
+      "target": "Seja um bom ouvinte, incentive as pessoas a falarem sobre elas mesmas",
+      "count": 3
+    },
+    {
+      "target": "PRINCÍPIO 3 (Parte 2) - O som mais doce e importante",
+      "count": 3
+    },
+    {
+      "target": "A Variável 'Mari' (O Novo Ciclo de Idealização)",
+      "count": 3
+    },
+    {
+      "target": "$100M Branding Playbook_PT-BR",
+      "count": 2
+    },
+    {
+      "target": "$100M Goated Ads Playbook_PT-BR",
+      "count": 2
+    },
+    {
+      "target": "$100M Marketing Machine_PT-BR",
+      "count": 2
+    },
+    {
+      "target": "Projeto de Transformação da Psique",
+      "count": 2
+    },
+    {
+      "target": "Titulo da Nota",
+      "count": 2
+    },
+    {
+      "target": "Estoicismo",
+      "count": 2
+    },
+    {
+      "target": "Congelamento",
+      "count": 2
+    },
+    {
+      "target": "` ou `",
+      "count": 2
+    },
+    {
+      "target": "Titulo Outra Nota Nova",
+      "count": 2
+    },
+    {
+      "target": "Titulo Outra Nota Nova 2",
+      "count": 2
+    },
+    {
+      "target": "\"):\n                        link_final = f\"[[{link_raw}",
+      "count": 2
+    },
+    {
+      "target": "\"):\n                    link_final = f\"[[{item}",
+      "count": 2
+    },
+    {
+      "target": "Flashcards de Omissão (Cloze)",
+      "count": 2
+    },
+    {
+      "target": "After Effects: Expressão LoopIn()",
+      "count": 2
+    },
+    {
+      "target": "After Effects: SeedRandom()",
+      "count": 2
+    },
+    {
+      "target": "Motion Design: Fosco",
+      "count": 2
+    },
+    {
+      "target": "Pensamento por Primeiros Princípios",
+      "count": 2
+    }
+  ],
+  "strategic_backlink_candidates": [
+    {
+      "orphan_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\O Sorriso como Ação Deliberada.md",
+      "orphan_title": "O Sorriso como Ação Deliberada",
+      "orphan_outgoing": 11,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 21,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\PRINCÍPIO 1 (Parte 2) - Torne-se verdadeiramente interessado na outra pessoa..md",
+      "orphan_title": "PRINCÍPIO 1 (Parte 2) - Torne-se verdadeiramente interessado na outra pessoa.",
+      "orphan_outgoing": 7,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 21,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\PRINCÍPIO 2 - Aprecie honesta e sinceramente..md",
+      "orphan_title": "PRINCÍPIO 2 - Aprecie honesta e sinceramente.",
+      "orphan_outgoing": 7,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 21,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Oportunidade Perdida em Gettysburg.md",
+      "orphan_title": "A Oportunidade Perdida em Gettysburg",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 21,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\O Provérbio Chinês da Loja.md",
+      "orphan_title": "O Provérbio Chinês da Loja",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 21,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\O Volume da Prática de Dale Carnegie.md",
+      "orphan_title": "O Volume da Prática de Dale Carnegie",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 21,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\PRINCÍPIO 1 - Não critique, não condene, não se queixe..md",
+      "orphan_title": "PRINCÍPIO 1 - Não critique, não condene, não se queixe.",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 21,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\PRINCÍPIO 3 - Desperte um forte desejo na outra pessoa..md",
+      "orphan_title": "PRINCÍPIO 3 - Desperte um forte desejo na outra pessoa.",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 21,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\O Custo da Punição na Educação.md",
+      "orphan_title": "O Custo da Punição na Educação",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\A Raiz dos Sentimentos.md",
+      "hub_title": "A Raiz dos Sentimentos",
+      "hub_incoming": 16,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\O Foco no Positivo.md",
+      "orphan_title": "O Foco no Positivo",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\A Raiz dos Sentimentos.md",
+      "hub_title": "A Raiz dos Sentimentos",
+      "hub_incoming": 16,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Contemplação das Estrelas.md",
+      "orphan_title": "Contemplação das Estrelas",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Transitoriedade Universal.md",
+      "hub_title": "Transitoriedade Universal",
+      "hub_incoming": 12,
+      "shared_prefix_depth": 4
+    },
+    {
+      "orphan_path": "HOME\\Cérebro Profissional\\Notas\\Masterclasse DISC.md",
+      "orphan_title": "Masterclasse DISC",
+      "orphan_outgoing": 220,
+      "suggested_hub": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 18,
+      "shared_prefix_depth": 3
+    },
+    {
+      "orphan_path": "HOME\\Cérebro Profissional\\Notas\\Teorias da Personalidade em mapas mentais Freud 1.md",
+      "orphan_title": "Teorias da Personalidade em mapas mentais Freud 1",
+      "orphan_outgoing": 121,
+      "suggested_hub": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 18,
+      "shared_prefix_depth": 3
+    },
+    {
+      "orphan_path": "HOME\\Cérebro Profissional\\Notas\\Estamos ficando mais burros.md",
+      "orphan_title": "Estamos ficando mais burros",
+      "orphan_outgoing": 34,
+      "suggested_hub": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 18,
+      "shared_prefix_depth": 3
+    },
+    {
+      "orphan_path": "HOME\\Cérebro Profissional\\Notas\\(Pitch Kevyn) - Espaço Prema.md",
+      "orphan_title": "Pitch Definitivo – Espaço Prema (Espiritualidade / New Age)",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 18,
+      "shared_prefix_depth": 3
+    },
+    {
+      "orphan_path": "HOME\\Cérebro Profissional\\Notas\\Notas de uma conversa com o Copilot, não lembro o dia..md",
+      "orphan_title": "Notas de uma conversa com o Copilot, não lembro o dia.",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 18,
+      "shared_prefix_depth": 3
+    },
+    {
+      "orphan_path": "HOME\\Cérebro Profissional\\Notas\\Reunião sobre a Linha editorial.md",
+      "orphan_title": "Clones",
+      "orphan_outgoing": 6,
+      "suggested_hub": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "hub_title": "Excalidraw Data",
+      "hub_incoming": 18,
+      "shared_prefix_depth": 3
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\00_Cérebro Operacional\\V1\\00_prompt_do_sistema_semi_automático.md",
+      "orphan_title": "Prompt do Sistema",
+      "orphan_outgoing": 13,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 21,
+      "shared_prefix_depth": 2
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\00_Cérebro Operacional\\V2\\00_PROMPT_SISTEMA.md",
+      "orphan_title": "00_PROMPT_SISTEMA",
+      "orphan_outgoing": 13,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 21,
+      "shared_prefix_depth": 2
+    },
+    {
+      "orphan_path": "HOME\\O Professor\\00_Cérebro Operacional\\V1\\00_prompt_do_sistema_automático.md",
+      "orphan_title": "Versão Kevyn",
+      "orphan_outgoing": 7,
+      "suggested_hub": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "hub_title": "A Chave da Influência - Falar sobre o que o Outro Quer",
+      "hub_incoming": 21,
+      "shared_prefix_depth": 2
+    }
+  ]
+}

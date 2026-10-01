@@ -1,0 +1,1 @@
+Sempre lembre-se de manter seus arquivos PSD que serão trabalhados no AE em RGB, de não mescla-los e nem rasteriza-los.

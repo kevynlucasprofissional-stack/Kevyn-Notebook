@@ -1,0 +1,1 @@
+Pode ser útil, cria gmail temporário. 

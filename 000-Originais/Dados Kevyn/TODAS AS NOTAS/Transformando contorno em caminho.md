@@ -1,0 +1,1 @@
+Para tornar um contorno em caminho, selecione o modelo com o cotorno e vá em "Objeto > Caminho > Outline".

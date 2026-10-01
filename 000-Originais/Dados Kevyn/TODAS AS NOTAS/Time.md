@@ -1,0 +1,1 @@
+É uma expressão que permite com que você trabalhe com o tempo, com o valor numérico que está na agulha. Uma boa ideia é fazer como que um parâmetro qualquer interaja com o tempo para conseguir resultados.

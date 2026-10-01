@@ -1,0 +1,1 @@
+Existem várias maneiras de trabalhar com esta ferramenta, o forte dela é para manipulação.

@@ -1,0 +1,8 @@
+---
+tags:
+  - "cerebro_profissional"
+
+aliases:
+  - "Notas atômicas"
+---
+Quebre o texto em notas atômicas (1 ideia por nota). Para cada nota: título curto, essência em 2–4 linhas, por que importa

@@ -1,0 +1,52 @@
+- [x] Bom Churrasco
+	- [x] Procurar vídeos prontos que foram finalizados e que não estão postados.
+- [x] Drogashop
+	- [x] VT Quebra Preço: Atualizar preço, data e locução.
+- [ ] Planejamento Mensal:
+	- [x] New Farma
+	- [x] Efe5
+		- [x] Adaptar todos para Stories
+	- [x] Nutra
+	- [ ] Só Cardan
+- [ ] Hidrovolt
+	- [x] Janeiro
+		- [x] Cozinha nova
+		- [x] Desperdício de água
+		- [x] Fios expostos
+		- [x] Vazamento no vaso sanitário
+	- [ ] Fevereiro
+		- [x] Água fraca
+		- [x] Descarga desperdiçando água
+		- [ ] Evite fuga de energia
+		- [ ] Luz apagando sozinha
+	- [ ] Março
+		- [ ] Adeus, mau cheiro no banheiro!
+		- [ ] Economia na conta de energia
+		- [ ] Reforma elétrica e hidráulica
+		- [ ] Sem água em casa, descubra o motivo
+- [ ] Evoluz
+	- [x] Janeiro
+		- [x] O futuro já chegou
+		- [x] Soluções de financiamento!
+	- [x] Fevereiro
+		- [x] Energia solar para todos
+		- [x] O sol nasce para todos
+	- [ ] Março
+		- [ ] O Futuro chegou, e você.
+		- [ ] O futuro está de olho em você.
+- [ ] Idelson Mendes:
+	- [x] Convite animado sessões ordinárias e itinerantes.
+		- [x] Mudar para azul
+- [ ] Câmara
+	- [x] Criar fotos de perfis
+		- [x] Divulgação (Megafone)
+		- [x] Ascom (Microfone)
+		- [x] Aprovação (Lupa)
+		- [x] Produção (Câmara)
+			Usar cores diferentes de fundo para cada capa
+	- [ ] Animação de Vereadores reunidos.
+		Usar de referência a vinheta final do vídeo do natal de 2024. Colocar imagens de todos os vereadores. ==Versão Wide e Stories==
+			Z:\PROJETOS 4\CÂMARA\2024\NATAL\VTS VEREADORES
+	- [x] Criar Lower Third
+
+- [ ] Quando a Heryka chegar, pedir para ela sempre me avisar quanto ao momento que chega vídeos do Idelson.

@@ -1,0 +1,325 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "environmentMode": "new"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveVideo": {
+        "id": "1XADlyXmWhbsIMDtDzleM8xhkmVFsjPlG"
+      },
+      "role": "user",
+      "tokenCount": 10198,
+      "createTime": "2026-05-29T17:49:53.230Z"
+    }, {
+      "text": "Consegue transformar esse vídeo em um roteiro completo que descreva todos os\ndetalhes do vídeo? Mas preciso que descreva absolutamente todos os detalhes\n",
+      "role": "user",
+      "tokenCount": 33,
+      "createTime": "2026-05-29T17:50:25.276Z"
+    }, {
+      "text": "**Defining the Core Objective**\n\nI\u0027m now zeroing in on the ultimate objective: crafting a script that\u0027s both comprehensive and ultra-detailed, a perfect representation of the video. The emphasis is on capturing every element, every nuance, to achieve an utterly complete and thorough transcription.\n\n\n**Detailing the Video\u0027s Content**\n\nI\u0027ve begun dissecting the video frame by frame. I\u0027m noting every detail, starting with the opening visuals: the deep blue background, the glowing text, and those sparkling stars. I\u0027m meticulously logging the meme insertions, including the text, the \"stop\" gesture and the exploding man, and their corresponding audio. This involves precise timing and description of the associated sound effects.\n\n\n**Analyzing Visual-Audio Synch**\n\nI\u0027m currently focused on synchronizing the visual descriptions with their corresponding audio. For instance, I\u0027m documenting how the cheerful music begins precisely as the text \"Esses 5 fatos mostram que fazemos muito mais!\" appears. I\u0027ve also noted the pixelated text and \"thug life\" sunglasses synced to the audio\u0027s mention of \"defender seu negócio\". The next segment, starting at 0:16, begins with a blue background and text.\n\n\n**Mapping Out Key Moments**\n\nI\u0027m now zeroing in on the specifics from 0:20 onward. I\u0027m noting the confetti, flashing text (\"protege e garante\"), and the Flork meme with the heart. I\u0027m also logging the \"LUXO TOTAL\" rectangle and the emojis, all with perfect time stamps. The audio sync with the visuals is being meticulously recorded. I\u0027m then documenting \"Fato 02\" with its sparkles, the cat meme shaking hands, and the Pop Cat meme, capturing the transitions precisely.\n\n\n**Pinpointing Detailed Annotations**\n\nI\u0027m now detailing the \"BLAH\" comic bubble\u0027s appearance with accompanying text and the narrator\u0027s audio at \"Fato dois.\" I\u0027ve meticulously timed the confetti visuals, the Simples Nacional logo and associated text (including those flashing segments about \"pagar imposto,\" \"menos burocracia,\" etc.) along with the corresponding audio. Also, I\u0027m noting the \"Fato 03\" sequence, complete with sparkles, and the map of Brazil.\n\n\n**Tracking Visual Progress**\n\nI\u0027m now documenting the details from 0:53. I\u0027m noting the emergence of dark blue location pins on the Brazil map, each containing a phone icon, along with the corresponding narrator\u0027s audio and the visual text, \"Do MEI à empresa de pequeno porte, protegendo todo mundo que empreende.\" I am then observing how the video transitions to \"Fato 04\" with accompanying visual details and synced audio, specifically the subsequent \u0027X\u0027 symbol. Finally, I\u0027m logging the appearance of the Roll Safe meme with the changing text.\n\n\n**Observing Further Visuals**\n\nI\u0027m now focusing on the sequence from 1:08 to 1:15. I\u0027ve noted the \"Duvida?\" text appearing, along with the suspicious Chihuahua meme and its accompanying thought bubble. Following that, I\u0027ve logged the text about \"44 milhões de negócios,\" with its cloud-like outlines, transitioning to \"já foram criados ou formalizados após essa lei\", and its corresponding audio.\n\n\\n\\n\n\n**Dissecting Final Sequence**\n\nI\u0027ve moved on to meticulously recording the final segment, starting at 1:15, and I\u0027m detailing the text \"Fato 05\" with sparkles, which then changes to \"A gente ajuda a tirar a lei do papel e virar realidade\". The lollipop meme with \"JU-RO\" (I swear) and sparkles is also noted. Finally, I logged the \"Foi assim com o Marco Legal das Startups\" text. I\u0027ve also noted that the segment concludes with text stating \"mais espaço pra inovar, testar e crescer sem medo.\".\n\n\n**Finalizing the Transcription**\n\nI\u0027m now integrating the final meme: the sleeping orange cat with hearts, perfectly synchronized with the audio. I\u0027m noting \"Mais espaço pra inovar, testar e crescer sem medo. É o Sebrae lutando por quem empreende, sempre.\" I\u0027m also capturing the visuals from 1:31 to 1:39, including the Brazilian flag emoji and the spinning \"gira\", leading to the Sebrae logo reveal.\n\n\n",
+      "role": "model",
+      "tokenCount": 2383,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Core Objective**\n\nI\u0027m now zeroing in on the ultimate objective: crafting a script that\u0027s both comprehensive and ultra-detailed, a perfect representation of the video. The emphasis is on capturing every element, every nuance, to achieve an utterly complete and thorough transcription.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Detailing the Video\u0027s Content**\n\nI\u0027ve begun dissecting the video frame by frame. I\u0027m noting every detail, starting with the opening visuals: the deep blue background, the glowing text, and those sparkling stars. I\u0027m meticulously logging the meme insertions, including the text, the \"stop\" gesture and the exploding man, and their corresponding audio. This involves precise timing and description of the associated sound effects.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing Visual-Audio Synch**\n\nI\u0027m currently focused on synchronizing the visual descriptions with their corresponding audio. For instance, I\u0027m documenting how the cheerful music begins precisely as the text \"Esses 5 fatos mostram que fazemos muito mais!\" appears. I\u0027ve also noted the pixelated text and \"thug life\" sunglasses synced to the audio\u0027s mention of \"defender seu negócio\". The next segment, starting at 0:16, begins with a blue background and text.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Mapping Out Key Moments**\n\nI\u0027m now zeroing in on the specifics from 0:20 onward. I\u0027m noting the confetti, flashing text (\"protege e garante\"), and the Flork meme with the heart. I\u0027m also logging the \"LUXO TOTAL\" rectangle and the emojis, all with perfect time stamps. The audio sync with the visuals is being meticulously recorded. I\u0027m then documenting \"Fato 02\" with its sparkles, the cat meme shaking hands, and the Pop Cat meme, capturing the transitions precisely.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Pinpointing Detailed Annotations**\n\nI\u0027m now detailing the \"BLAH\" comic bubble\u0027s appearance with accompanying text and the narrator\u0027s audio at \"Fato dois.\" I\u0027ve meticulously timed the confetti visuals, the Simples Nacional logo and associated text (including those flashing segments about \"pagar imposto,\" \"menos burocracia,\" etc.) along with the corresponding audio. Also, I\u0027m noting the \"Fato 03\" sequence, complete with sparkles, and the map of Brazil.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Tracking Visual Progress**\n\nI\u0027m now documenting the details from 0:53. I\u0027m noting the emergence of dark blue location pins on the Brazil map, each containing a phone icon, along with the corresponding narrator\u0027s audio and the visual text, \"Do MEI à empresa de pequeno porte, protegendo todo mundo que empreende.\" I am then observing how the video transitions to \"Fato 04\" with accompanying visual details and synced audio, specifically the subsequent \u0027X\u0027 symbol. Finally, I\u0027m logging the appearance of the Roll Safe meme with the changing text.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Observing Further Visuals**\n\nI\u0027m now focusing on the sequence from 1:08 to 1:15. I\u0027ve noted the \"Duvida?\" text appearing, along with the suspicious Chihuahua meme and its accompanying thought bubble. Following that, I\u0027ve logged the text about \"44 milhões de negócios,\" with its cloud-like outlines, transitioning to \"já foram criados ou formalizados após essa lei\", and its corresponding audio.\n\n\\n\\n\n\n**Dissecting Final Sequence**\n\nI\u0027ve moved on to meticulously recording the final segment, starting at 1:15, and I\u0027m detailing the text \"Fato 05\" with sparkles, which then changes to \"A gente ajuda a tirar a lei do papel e virar realidade\". The lollipop meme with \"JU-RO\" (I swear) and sparkles is also noted. Finally, I logged the \"Foi assim com o Marco Legal das Startups\" text. I\u0027ve also noted that the segment concludes with text stating \"mais espaço pra inovar, testar e crescer sem medo.\".\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Finalizing the Transcription**\n\nI\u0027m now integrating the final meme: the sleeping orange cat with hearts, perfectly synchronized with the audio. I\u0027m noting \"Mais espaço pra inovar, testar e crescer sem medo. É o Sebrae lutando por quem empreende, sempre.\" I\u0027m also capturing the visuals from 1:31 to 1:39, including the Brazilian flag emoji and the spinning \"gira\", leading to the Sebrae logo reveal.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-05-29T17:50:25.276Z"
+    }, {
+      "text": "Aqui está o roteiro minuciosamente detalhado do vídeo, dividido por minutagem e separando elementos visuais (texto, imagem, animação) e sonoros (locução, trilha, efeitos).\n\n---\n\n# Roteiro Descritivo Completo\n\n**Estilo Visual Geral:** Fundo predominantemente azul escuro com ondas sutis em movimento (estilo tela de fundo em *motion*). As fontes utilizadas têm bordas arredondadas, muitas vezes com contornos brilhantes em tons de azul claro ou ciano (\"neon\"), acompanhadas de pequenas estrelas amarelas cintilantes quando os tópicos são apresentados.\n\n**Trilha Sonora (BGM):** Inicia-se aos 0:05 uma música instrumental pop, alegre, otimista e com batida ritmada, que segue até o final do vídeo.\n\n---\n\n**0:00 - 0:02**\n*   **Visual:** Fundo azul ondulado. Aparece no centro da tela o lettering na cor branca com contorno azul brilhante: \"Se você acha que o Sebrae só dá curso...\". Estrelinhas amarelas cintilam ao redor das palavras.\n*   **Áudio (Locução):** Voz feminina, tom enérgico e coloquial: \"Se você acha que o Sebrae só dá curso...\"\n\n**0:02 - 0:04**\n*   **Visual:** Corte seco para um meme clássico da internet. A imagem mostra o apresentador João Kléber com a mão estendida para a frente (gesto de \"pare\"). Fundo do meme com linhas radiais azuis estilo quadrinhos de ação. Texto branco na base da imagem: \"PARA PARA PARA PARA\".\n*   **Áudio (Locução/Efeito):** Áudio original do meme do apresentador João Kléber gritando rapidamente: \"Para, para, para, para!\".\n\n**0:04 - 0:05**\n*   **Visual:** Corte muito rápido (fração de segundo) para um meme em vídeo de uma figura humana desfocada explodindo/desintegrando em um clarão de luz branca brilhante.\n*   **Áudio (Efeito - SFX):** Som alto de explosão.\n\n**0:05 - 0:09**\n*   **Visual:** Volta para o fundo azul. Lettering ciano brilhante centralizado: \"Esses 5 fatos mostram que fazemos\". A tela limpa rapidamente e surge a palavra \"muito mais!\" em letras brancas, grandes, com contorno azul claro e um emoji de um pequeno foguete decolando em cima da letra \"m\". A música de fundo alegre começa aqui.\n*   **Áudio (Locução):** Voz feminina: \"Esses cinco fatos mostram que fazemos muito mais!\"\n\n**0:09 - 0:12**\n*   **Visual:** Lettering \"Fato 01\" com estrelas amarelas pisca na tela. Em seguida, o texto muda para: \"A gente não dá só curso.\"\n*   **Áudio (Locução):** Voz feminina: \"Fato um. A gente não dá só curso.\"\n\n**0:12 - 0:16**\n*   **Visual:** Corte para um meme: a imagem da cabeça de um gato laranja usando um terno e gravata. Óculos de sol pixelados (estilo \"Thug Life\") caem do topo da tela e se encaixam no rosto do gato. No fundo azul, pipocam palavras com estilo de texto pixelado/glitch: \"defender\" no topo e \"negócio\" embaixo. Na parte inferior do quadro do meme, uma pequena legenda branca: \"A gente entra em campo pra defender seu negócio.\"\n*   **Áudio (Locução):** Voz feminina: \"A gente entra em campo pra defender seu negócio.\"\n\n**0:16 - 0:24**\n*   **Visual:** Fundo azul. No topo, um emoji de um senhor idoso careca (👴). Abaixo, o texto centralizado: \"Há 20 anos, ajudamos a criar a Lei Geral da micro e pequena empresa\".\n*   Aos 0:20, confetes coloridos caem na tela. O texto muda para a palavra \"protege\" no topo e \"e garante\" na base. No centro, entra um meme do personagem \"Flork\" (desenho de palito curvo) abraçando um coração vermelho com bochechas rosadas. Legenda abaixo da imagem: \"que protege e garante direitos a quem empreende, como CNPJ,\"\n*   **Áudio (Locução):** Voz feminina: \"Há 20 anos, ajudamos a criar a Lei Geral da micro e pequena empresa que protege e garante direitos a quem empreende, como CNPJ,\"\n\n**0:24 - 0:28**\n*   **Visual:** O meme do Flork some. Entra um emoji de rosto de óculos escuros sorrindo (😎). Abaixo dele, desliza rapidamente uma faixa retangular rosa choque com a inscrição preta \"LUXO TOTAL.\". Legenda inferior branca: \"licença-maternidade, aposentadoria.\"\n*   **Áudio (Locução):** Voz feminina: \"...licença-maternidade, aposentadoria.\"\n\n**0:28 - 0:38**\n*   **Visual:** Lettering \"Fato 02\" na tela com estrelas amarelas. Muda para o texto: \"A gente te representa junto ao governo,\".\n*   Aos 0:31, entra um meme de baixa resolução mostrando dois gatos pretos e brancos apertando as mãos (usando uma mãozinha de brinquedo amarela). Legenda abaixo: \"mostra o que os pequenos negócios precisam\".\n*   Aos 0:34, o meme muda para o clássico \"Pop Cat\" (um gato branco com a boca escancarada em formato de \"O\"). Um balão de fala estilo quadrinho sai do gato escrito \"BLAH\". Legenda abaixo: \"e garante que a sua voz seja ouvida.\"\n*   **Áudio (Locução):** Voz feminina: \"Fato dois. A gente te representa junto ao governo, mostra o que os pequenos negócios precisam e garante que a sua voz seja ouvida.\"\n\n**0:38 - 0:49**\n*   **Visual:** Chuva de confetes dourados no fundo azul. No centro, aparece o logotipo retangular do \"SIMPLES NACIONAL\" (letra S verde em um círculo branco, com o texto ao lado). Abaixo, a legenda: \"Assim, nasceu o Simples Nacional, um jeito mais\".\n*   Aos 0:42, as palavras \"pagar imposto\" piscam em tamanho gigante e letreiro neon ciano sobrepondo a tela por um instante. A legenda inferior muda para: \"fácil de pagar imposto\".\n*   O texto central muda sequencialmente para frases flutuantes: \"sem precisar ser especialista.\", depois \"menos burocracia\", e por fim \"mais tempo pro seu negócio.\"\n*   **Áudio (Locução):** Voz feminina: \"Assim, nasceu o Simples Nacional. Um jeito mais fácil de pagar imposto, sem precisar ser especialista. Menos burocracia, mais tempo pro seu negócio.\"\n\n**0:49 - 0:58**\n*   **Visual:** Lettering \"Fato 03\" com estrelinhas. O texto muda para \"Estamos em todo o Brasil.\"\n*   Entra a silhueta do mapa do Brasil dividida por estados em tom de azul claro.\n*   Vários marcadores de localização animados (pins azuis escuros contendo o ícone de um telefone dentro) \"pipocam\" rapidamente, espalhando-se por todas as regiões do mapa. Legenda na base: \"Do MEI à empresa de pequeno porte, protegendo todo mundo que empreende.\"\n*   **Áudio (Locução):** Voz feminina: \"Fato três. Estamos em todo o Brasil. Do MEI à empresa de pequeno porte, protegendo todo mundo que empreende.\"\n\n**0:58 - 1:08**\n*   **Visual:** Lettering \"Fato 04\" com estrelinhas. Muda para \"Em vez de achismo,\". Um grande \u0027X\u0027 vermelho pulsante aparece abaixo do texto.\n*   Aos 1:00, o \u0027X\u0027 some. O texto no topo vira \"usamos dados e pesquisas\". No centro, entra o meme do \"Roll Safe\" (homem negro sorrindo de forma sagaz, batendo o dedo na têmpora da cabeça, indicando inteligência). O meme ganha linhas brancas desenhadas ao redor da cabeça para destacar o movimento. Legenda abaixo: \"que provam o pequeno negócio é\".\n*   Aos 1:04, o meme é substituído por um trecho de vídeo curto de torcedores brasileiros (vestindo camisas amarelas) na arquibancada vibrando e gritando euforicamente. Por cima do vídeo, o lettering animado: \"quem move o Brasil!\".\n*   **Áudio (Locução/Efeitos):** Voz feminina: \"Fato quatro. Em vez de achismo, usamos dados e pesquisas que provam que o pequeno negócio é quem move o Brasil!\" (Quando entra a imagem da torcida, ouve-se um efeito sonoro de multidão gritando \"Ehhh!\", misturado com a música).\n\n**1:08 - 1:15**\n*   **Visual:** Fundo azul. Aparece um emoji animado (figurinha) da cabeça de um cachorro Chihuahua com os olhos semicerrados, expressão desconfiada. Um balão de pensamento ao lado dele diz: \"hmm...\". Embaixo, texto vibrante: \"Duvida?\".\n*   Aos 1:10, o texto \"44 milhões de negócios\" surge no centro, circundado por gráficos de pequenas nuvenzinhas fofas. O texto então muda para: \"já foram criados ou formalizados após essa lei.\"\n*   **Áudio (Locução):** Voz feminina: \"Duvida? 44 milhões de negócios já foram criados ou formalizados após essa lei.\"\n\n**1:15 - 1:24**\n*   **Visual:** Lettering \"Fato 05\" com estrelinhas. Muda para o texto descendo em linhas: \"A gente ajuda a tirar a lei do papel e virar realidade\".\n*   Aos 1:20, entra uma imagem de baixa resolução (meme desfocado) que parece ser um pirulito vermelho num fundo claro, com a palavra \"JU-RO\" (Juro) escrita em letras grandes, rodeada por emojis de estrelas brilhantes.\n*   Aos 1:22, a imagem some e o texto central muda para \"Marco Legal das Startups\", com contorno neon ciano.\n*   **Áudio (Locução):** Voz feminina: \"Fato cinco. A gente ajuda a tirar a lei do papel e virar realidade. Foi assim com o Marco Legal das Startups.\"\n\n**1:24 - 1:31**\n*   **Visual:** O texto centralizado muda para \"mais espaço pra inovar, testar e crescer sem medo.\"\n*   Aos 1:29, entra uma imagem de fundo inteiro de um gatinho laranja dormindo profundamente em cobertores felpudos cor-de-rosa. Vários corações grandes cor-de-rosa translúcidos flutuam/pulsam ao redor da tela. A legenda inferior é uma tarja branca discreta: \"É o Sebrae lutando por quem empreende, sempre.\"\n*   **Áudio (Locução):** Voz feminina: \"Mais espaço pra inovar, testar e crescer sem medo. É o Sebrae lutando por quem empreende, sempre.\"\n\n**1:31 - 1:39**\n*   **Visual:** Fundo azul. O texto flutua na tela: \"Porque quando o pequeno negócio cresce,\".\n*   Aos 1:33, surge a imagem retangular de uma bandeira do Brasil ondulando no topo. Abaixo dela o texto \"o Brasil gira junto.\" A palavra \"gira\" recebe uma animação e dá um giro de 360 graus em seu próprio eixo.\n*   Aos 1:36, transição final. O fundo fica azul sólido e liso. O logotipo branco do SEBRAE (três linhas horizontais paralelas estilizadas formando um contorno que sugere a letra \u0027S\u0027, acima da palavra \"SEBRAE\") entra com uma animação de \"wipe\" (revelando de um lado para o outro) e centraliza na tela.\n*   **Áudio (Locução/Trilha):** Voz feminina: \"Porque quando o pequeno negócio cresce, o Brasil gira junto.\" A música de fundo atinge o seu acorde final e encerra. O vídeo termina no logo do Sebrae em silêncio absoluto no último segundo.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 2861,
+      "parts": [{
+        "text": "Aqui está o roteiro"
+      }, {
+        "text": " minuciosamente detalhado do vídeo, dividido por minutagem e separando elementos visuais (texto, imagem, animação)"
+      }, {
+        "text": " e sonoros (locução, trilha, efeitos).\n\n---\n\n# Roteiro Descritivo Completo\n\n**Estilo Visual"
+      }, {
+        "text": " Geral:** Fundo predominantemente azul escuro com ondas sutis em movimento (estilo tela de fundo em *motion*"
+      }, {
+        "text": "). As fontes utilizadas têm bordas arredondadas, muitas vezes com contornos brilhantes em tons de azul claro ou"
+      }, {
+        "text": " ciano (\"neon\"), acompanhadas de pequenas estrelas amarelas cintilantes quando os tópicos são apresentados.\n\n**"
+      }, {
+        "text": "Trilha Sonora (BGM):** Inicia-se aos 0:05 uma música instrumental pop, alegre, ot"
+      }, {
+        "text": "imista e com batida ritmada, que segue até o final do vídeo.\n\n---\n\n**0:00 - 0:"
+      }, {
+        "text": "02**\n*   **Visual:** Fundo azul ondulado. Aparece no centro da tela o lettering na"
+      }, {
+        "text": " cor branca com contorno azul brilhante: \"Se você acha que o Sebrae só dá curso...\". Estrel"
+      }, {
+        "text": "inhas amarelas cintilam ao redor das palavras.\n*   **Áudio (Locução):** Voz feminina"
+      }, {
+        "text": ", tom enérgico e coloquial: \"Se você acha que o Sebrae só dá curso...\"\n\n**0"
+      }, {
+        "text": ":02 - 0:04**\n*   **Visual:** Corte seco para um meme clássico da"
+      }, {
+        "text": " internet. A imagem mostra o apresentador João Kléber com a mão estendida para a frente (gesto de \""
+      }, {
+        "text": "pare\"). Fundo do meme com linhas radiais azuis estilo quadrinhos de ação. Texto branco na base da imagem: \"PARA PARA PARA"
+      }, {
+        "text": " PARA\".\n*   **Áudio (Locução/Efeito):** Áudio original do meme do apresentador João Kléber"
+      }, {
+        "text": " gritando rapidamente: \"Para, para, para, para!\".\n\n**0:04 - 0:05"
+      }, {
+        "text": "**\n*   **Visual:** Corte muito rápido (fração de segundo) para um meme em vídeo de uma figura"
+      }, {
+        "text": " humana desfocada explodindo/desintegrando em um clarão de luz branca brilhante.\n*   **Áudio"
+      }, {
+        "text": " (Efeito - SFX):** Som alto de explosão.\n\n**0:05 - 0:09**\n"
+      }, {
+        "text": "*   **Visual:** Volta para o fundo azul. Lettering ciano brilhante centralizado: \"Esses 5 fat"
+      }, {
+        "text": "os mostram que fazemos\". A tela limpa rapidamente e surge a palavra \"muito mais!\" em letras brancas, grandes"
+      }, {
+        "text": ", com contorno azul claro e um emoji de um pequeno foguete decolando em cima da letra \"m\"."
+      }, {
+        "text": " A música de fundo alegre começa aqui.\n*   **Áudio (Locução):** Voz feminina: \"Esses cinco"
+      }, {
+        "text": " fatos mostram que fazemos muito mais!\"\n\n**0:09 - 0:12**\n*   **Visual"
+      }, {
+        "text": ":** Lettering \"Fato 01\" com estrelas amarelas pisca na tela. Em seguida, o"
+      }, {
+        "text": " texto muda para: \"A gente não dá só curso.\"\n*   **Áudio (Locução):** Voz"
+      }, {
+        "text": " feminina: \"Fato um. A gente não dá só curso.\"\n\n**0:12 - 0:"
+      }, {
+        "text": "16**\n*   **Visual:** Corte para um meme: a imagem da cabeça de um gato laranja usando um t"
+      }, {
+        "text": "erno e gravata. Óculos de sol pixelados (estilo \"Thug Life\") caem do topo da tela e se enca"
+      }, {
+        "text": "ixam no rosto do gato. No fundo azul, pipocam palavras com estilo de texto pixelado/glitch: \"defender\" no"
+      }, {
+        "text": " topo e \"negócio\" embaixo. Na parte inferior do quadro do meme, uma pequena legenda branca: \"A gente"
+      }, {
+        "text": " entra em campo pra defender seu negócio.\"\n*   **Áudio (Locução):** Voz feminina: \"A"
+      }, {
+        "text": " gente entra em campo pra defender seu negócio.\"\n\n**0:16 - 0:24**\n*"
+      }, {
+        "text": "   **Visual:** Fundo azul. No topo, um emoji de um senhor idoso careca (👴). Abaixo, o texto"
+      }, {
+        "text": " centralizado: \"Há 20 anos, ajudamos a criar a Lei Geral da micro e pequena empresa\".\n*"
+      }, {
+        "text": "   Aos 0:20, confetes coloridos caem na tela. O texto muda para a palavra \"protege"
+      }, {
+        "text": "\" no topo e \"e garante\" na base. No centro, entra um meme do personagem \"Flork\" (desenho"
+      }, {
+        "text": " de palito curvo) abraçando um coração vermelho com bochechas rosadas. Legenda abaixo da imagem: \"que protege e"
+      }, {
+        "text": " garante direitos a quem empreende, como CNPJ,\"\n*   **Áudio (Locução):** Voz feminina"
+      }, {
+        "text": ": \"Há 20 anos, ajudamos a criar a Lei Geral da micro e pequena empresa que protege e garante"
+      }, {
+        "text": " direitos a quem empreende, como CNPJ,\"\n\n**0:24 - 0:28**\n"
+      }, {
+        "text": "*   **Visual:** O meme do Flork some. Entra um emoji de rosto de óculos escuros sorrindo (😎"
+      }, {
+        "text": "). Abaixo dele, desliza rapidamente uma faixa retangular rosa choque com a inscrição preta \"LUXO TOTAL.\". Legenda inferior branca"
+      }, {
+        "text": ": \"licença-maternidade, aposentadoria.\"\n*   **Áudio (Locução):**"
+      }, {
+        "text": " Voz feminina: \"...licença-maternidade, aposentadoria.\"\n\n**0:28 - 0:38"
+      }, {
+        "text": "**\n*   **Visual:** Lettering \"Fato 02\" na tela com estrelas amarelas. Muda para o"
+      }, {
+        "text": " texto: \"A gente te representa junto ao governo,\".\n*   Aos 0:31, entra"
+      }, {
+        "text": " um meme de baixa resolução mostrando dois gatos pretos e brancos apertando as mãos (usando uma mãozinha de"
+      }, {
+        "text": " brinquedo amarela). Legenda abaixo: \"mostra o que os pequenos negócios precisam\".\n*   Aos 0:34"
+      }, {
+        "text": ", o meme muda para o clássico \"Pop Cat\" (um gato branco com a boca escancarada em formato de \""
+      }, {
+        "text": "O\"). Um balão de fala estilo quadrinho sai do gato escrito \"BLAH\". Legenda abaixo: \"e garante que"
+      }, {
+        "text": " a sua voz seja ouvida.\"\n*   **Áudio (Locução):** Voz feminina: \"Fato"
+      }, {
+        "text": " dois. A gente te representa junto ao governo, mostra o que os pequenos negócios precisam e garante que a sua voz seja"
+      }, {
+        "text": " ouvida.\"\n\n**0:38 - 0:49**\n*   **Visual:** Chuva de confetes dour"
+      }, {
+        "text": "ados no fundo azul. No centro, aparece o logotipo retangular do \"SIMPLES NACIONAL\" (letra S"
+      }, {
+        "text": " verde em um círculo branco, com o texto ao lado). Abaixo, a legenda: \"Assim, nasceu o Sim"
+      }, {
+        "text": "ples Nacional, um jeito mais\".\n*   Aos 0:42, as palavras \"pagar imp"
+      }, {
+        "text": "osto\" piscam em tamanho gigante e letreiro neon ciano sobrepondo a tela por um instante. A legenda"
+      }, {
+        "text": " inferior muda para: \"fácil de pagar imposto\".\n*   O texto central muda sequencialmente para frases"
+      }, {
+        "text": " flutuantes: \"sem precisar ser especialista.\", depois \"menos burocracia\", e por fim \"mais tempo pro seu negócio.\"\n"
+      }, {
+        "text": "*   **Áudio (Locução):** Voz feminina: \"Assim, nasceu o Simples Nacional. Um jeito"
+      }, {
+        "text": " mais fácil de pagar imposto, sem precisar ser especialista. Menos burocracia, mais tempo pro seu negócio"
+      }, {
+        "text": ".\"\n\n**0:49 - 0:58**\n*   **Visual:** Lettering \"F"
+      }, {
+        "text": "ato 03\" com estrelinhas. O texto muda para \"Estamos em todo o Brasil.\"\n*   Entra a"
+      }, {
+        "text": " silhueta do mapa do Brasil dividida por estados em tom de azul claro.\n*   Vários marcadores de"
+      }, {
+        "text": " localização animados (pins azuis escuros contendo o ícone de um telefone dentro) \"pipocam\" rapidamente, esp"
+      }, {
+        "text": "alhando-se por todas as regiões do mapa. Legenda na base: \"Do MEI à empresa de pequeno"
+      }, {
+        "text": " porte, protegendo todo mundo que empreende.\"\n*   **Áudio (Locução):** Voz feminina:"
+      }, {
+        "text": " \"Fato três. Estamos em todo o Brasil. Do MEI à empresa de pequeno porte, protegendo todo mundo"
+      }, {
+        "text": " que empreende.\"\n\n**0:58 - 1:08**\n*   **Visual:** Letter"
+      }, {
+        "text": "ing \"Fato 04\" com estrelinhas. Muda para \"Em vez de achismo,\". Um grande \u0027X\u0027 vermelho puls"
+      }, {
+        "text": "ante aparece abaixo do texto.\n*   Aos 1:00, o \u0027X\u0027 some. O"
+      }, {
+        "text": " texto no topo vira \"usamos dados e pesquisas\". No centro, entra o meme do \"Roll Safe\" (hom"
+      }, {
+        "text": "em negro sorrindo de forma sagaz, batendo o dedo na têmpora da cabeça, indicando inteligência). O"
+      }, {
+        "text": " meme ganha linhas brancas desenhadas ao redor da cabeça para destacar o movimento. Legenda abaixo: \"que provam o pequeno negócio"
+      }, {
+        "text": " é\".\n*   Aos 1:04, o meme é substituído por um trecho de vídeo curto"
+      }, {
+        "text": " de torcedores brasileiros (vestindo camisas amarelas) na arquibancada vibrando e gritando euforicamente. Por"
+      }, {
+        "text": " cima do vídeo, o lettering animado: \"quem move o Brasil!\".\n*   **Áudio (Locução/"
+      }, {
+        "text": "Efeitos):** Voz feminina: \"Fato quatro. Em vez de achismo, usamos dados e pesquisas que provam que"
+      }, {
+        "text": " o pequeno negócio é quem move o Brasil!\" (Quando entra a imagem da torcida, ouve-se um efeito son"
+      }, {
+        "text": "oro de multidão gritando \"Ehhh!\", misturado com a música).\n\n**1:08 - 1:15"
+      }, {
+        "text": "**\n*   **Visual:** Fundo azul. Aparece um emoji animado (figurinha) da cabeça de um"
+      }, {
+        "text": " cachorro Chihuahua com os olhos semicerrados, expressão desconfiada. Um balão de pensamento ao lado dele diz: \"hmm"
+      }, {
+        "text": "...\". Embaixo, texto vibrante: \"Duvida?\".\n*   Aos 1:10,"
+      }, {
+        "text": " o texto \"44 milhões de negócios\" surge no centro, circundado por gráficos de pequenas nuvenzinhas f"
+      }, {
+        "text": "ofas. O texto então muda para: \"já foram criados ou formalizados após essa lei.\"\n*   "
+      }, {
+        "text": "**Áudio (Locução):** Voz feminina: \"Duvida? 44 milhões de negócios já foram"
+      }, {
+        "text": " criados ou formalizados após essa lei.\"\n\n**1:15 - 1:24**\n*"
+      }, {
+        "text": "   **Visual:** Lettering \"Fato 05\" com estrelinhas. Muda para o texto descendo em"
+      }, {
+        "text": " linhas: \"A gente ajuda a tirar a lei do papel e virar realidade\".\n*   Aos 1"
+      }, {
+        "text": ":20, entra uma imagem de baixa resolução (meme desfocado) que parece ser um pirulito vermelho num"
+      }, {
+        "text": " fundo claro, com a palavra \"JU-RO\" (Juro) escrita em letras grandes, rodeada por emojis"
+      }, {
+        "text": " de estrelas brilhantes.\n*   Aos 1:22, a imagem some e o texto central muda para \"Marco"
+      }, {
+        "text": " Legal das Startups\", com contorno neon ciano.\n*   **Áudio (Locução):** Voz feminina: \"F"
+      }, {
+        "text": "ato cinco. A gente ajuda a tirar a lei do papel e virar realidade. Foi assim com o Marco Legal das"
+      }, {
+        "text": " Startups.\"\n\n**1:24 - 1:31**\n*   **Visual:** O texto centralizado"
+      }, {
+        "text": " muda para \"mais espaço pra inovar, testar e crescer sem medo.\"\n*   Aos 1"
+      }, {
+        "text": ":29, entra uma imagem de fundo inteiro de um gatinho laranja dormindo profundamente em cobertores fel"
+      }, {
+        "text": "pudos cor-de-rosa. Vários corações grandes cor-de-rosa translúcidos flutuam/"
+      }, {
+        "text": "pulsam ao redor da tela. A legenda inferior é uma tarja branca discreta: \"É o Sebrae lutando por quem"
+      }, {
+        "text": " empreende, sempre.\"\n*   **Áudio (Locução):** Voz feminina: \"Mais espaço pra in"
+      }, {
+        "text": "ovar, testar e crescer sem medo. É o Sebrae lutando por quem empreende, sempre.\""
+      }, {
+        "text": "\n\n**1:31 - 1:39**\n*   **Visual:** Fundo azul. O"
+      }, {
+        "text": " texto flutua na tela: \"Porque quando o pequeno negócio cresce,\".\n*   Aos 1"
+      }, {
+        "text": ":33, surge a imagem retangular de uma bandeira do Brasil ondulando no topo. Abaixo dela o"
+      }, {
+        "text": " texto \"o Brasil gira junto.\" A palavra \"gira\" recebe uma animação e dá um giro de 36"
+      }, {
+        "text": "0 graus em seu próprio eixo.\n*   Aos 1:36, transição final. O fundo fica"
+      }, {
+        "text": " azul sólido e liso. O logotipo branco do SEBRAE (três linhas horizontais paralelas estilizadas formando um cont"
+      }, {
+        "text": "orno que sugere a letra \u0027S\u0027, acima da palavra \"SEBRAE\") entra com uma animação de \"wipe"
+      }, {
+        "text": "\" (revelando de um lado para o outro) e centraliza na tela.\n*   **Áudio (Locução/"
+      }, {
+        "text": "Trilha):** Voz feminina: \"Porque quando o pequeno negócio cresce, o Brasil gira junto.\" A música de fundo"
+      }, {
+        "text": " atinge o seu acorde final e encerra. O vídeo termina no logo do Sebrae em silêncio absoluto"
+      }, {
+        "text": " no último segundo."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-05-29T17:50:49.846Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-flash-lite-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_MINIMAL",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1tMawmQAlDtnR1AuiNz87Yh7njWsppdv5"
+      },
+      "role": "user",
+      "tokenCount": 9623,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1a1y0Rzb1nL1t7IcDp2LwOHDERFGPIznN"
+      },
+      "role": "user",
+      "tokenCount": 654,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1a0uCjVO0njqvc1rlf47wfZS-K2HbZxgb"
+      },
+      "role": "user",
+      "tokenCount": 402,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1IHSEStOiqasCzssA52VBeh6Nud41OflT"
+      },
+      "role": "user",
+      "tokenCount": 1439,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1BPSh0uvnLjeNyYn4JFiv96dxGN6WgSIK"
+      },
+      "role": "user",
+      "tokenCount": 408,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1pT-P0d2tbblVrcdePI2IbmTHrrq0_6XO"
+      },
+      "role": "user",
+      "tokenCount": 2842,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1yBdq0VvgJzkt3kOvepkvJVd8vTMREcZ1"
+      },
+      "role": "user",
+      "tokenCount": 46,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1gFANUxV32RJJvgVxsYV4v4Ap_JmeLb0U"
+      },
+      "role": "user",
+      "tokenCount": 1328,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1y8pkYrHYqMZi0thvFY3XZRYgn-mHN4K2"
+      },
+      "role": "user",
+      "tokenCount": 4427,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1JCeUZVudX49aFmmxvMSoTC59nJgN2yAS"
+      },
+      "role": "user",
+      "tokenCount": 287,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1o3z-KN4jWluIenPmRzc6U-OUGMmdZ0UI"
+      },
+      "role": "user",
+      "tokenCount": 4534,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1faCpnaLcB6ddoXR68157CFBYheHsWLgf"
+      },
+      "role": "user",
+      "tokenCount": 1477,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1T9ooRc-wKOXpX2RgkaiR2ToqRRGBU36J"
+      },
+      "role": "user",
+      "tokenCount": 1178,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "driveDocument": {
+        "id": "1TjmH1gAMSIfQFlw4gdV9fKcKMuZE1A2z"
+      },
+      "role": "user",
+      "tokenCount": 1121,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "text": "Com base nos dados anexados, crie para mim:\n\n# 10 — User Flow\n\nDefine **passo a passo do usuário**.\n\nExemplo:\n\n**Cliente**\n\n```\nEntrar no app\n↓\nBuscar serviço\n↓\nEscolher profissional\n↓\nVer detalhes\n↓\nSolicitar serviço\n```",
+      "role": "user",
+      "tokenCount": 70,
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }, {
+      "text": "Com base na arquitetura de agentes, na estrutura do banco de dados e nos requisitos de fluxo descritos nos documentos fornecidos (especialmente os arquivos `04B - Mapa de conteúdo USER FIRST.md` e `Fluxos de telas desenvolvido pelo Henrique.md`), aqui está o **User Flow (Passo a Passo)** do usuário no Ágora.\n\nEste fluxo reflete a jornada desde a descoberta até a obtenção da estratégia de marketing otimizada.\n\n---\n\n### # 10 — User Flow (Jornada Ágora)\n\n**Usuário (Marketing Manager / Pequeno Empresário)**\n\n```text\nAcessar Landing Page (Ágora)\n↓\n[Decisão: Explorar rápido ou Entrar]\n↓\n(A) Se \"Começar Agora\": Ir direto para o Chat\n(B) Se \"Assinar/Login\": Ir para Login/Cadastro\n↓\nAutenticação (Login ou Criar Conta)\n↓\nAcessar Dashboard (Hub Central)\n↓\nClicar em \"Nova Análise\" (Abre Chat com Agent Prin)\n↓\nDescrever a campanha (Chat) + Fazer Upload de arquivos (Briefing/Dados)\n↓\n[IA Executa Triagem e Validação T1]\n↓\n(Se faltar info) → Responder perguntas de clarificação da IA\n↓\n(Se info ok) → Iniciar \"Análise Completa\" (Visualizar checklist de processamento)\n↓\nReceber Relatório Executivo (Score + Diagnóstico)\n↓\nInteragir com Agente para refinar ou tirar dúvidas\n↓\nConfirmar interesse na \"Campanha Otimizada\"\n↓\nVisualizar Relatório de Campanha Otimizada (Aba Estratégia, Canais, Criativos)\n↓\nSelecionar opção de Exportação (Canva, Gamma, PDF, JPEG)\n↓\n[Abre Editor/Visualizador de Apresentação]\n↓\nAjustar/Salvar/Exportar material final\n↓\nConcluir fluxo (Avaliar análise com Like/Deslike)\n```\n\n---\n\n### Notas de Suporte ao Fluxo:\n\n1.  **Flexibilidade:** O usuário pode entrar direto pela Landing Page para uma experiência imediata, mas o registro de conta ocorre naturalmente para salvar o histórico no `user_request` e `agent_response`.\n2.  **O \"Coração\" do Fluxo:** O passo `Descrever a campanha` é o gatilho que ativa o sistema multi-agente (`Orquestrador` → `Agentes Especialistas` → `Sintetizador`).\n3.  **Gestão de Planos:** No momento de `Fazer Upload`, o sistema valida automaticamente o `uploads_limit` do plano (Freemium, Standard ou Pro) consultando a entidade `Plan` no banco de dados.\n4.  **Integração Enterprise:** Para usuários Enterprise, o fluxo ganha um passo adicional de \"Conexão de Fonte de Dados\" (Meta API/GA4) logo após o `Login`, para que a análise tenha dados de performance reais desde o primeiro prompt.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 669,
+      "parts": [{
+        "text": "Com"
+      }, {
+        "text": " base na arquitetura de agentes, na estrutura do banco de dados e nos requisitos"
+      }, {
+        "text": " de fluxo descritos nos documentos fornecidos (especialmente os arquivos `04B - Mapa de conteúdo USER FIRST.md` e "
+      }, {
+        "text": "`Fluxos de telas desenvolvido pelo Henrique.md`), aqui está o **User Flow (Passo a Passo)** do usuário"
+      }, {
+        "text": " no Ágora.\n\nEste fluxo reflete a jornada desde a descoberta até a obtenção da estratégia de marketing otimizada."
+      }, {
+        "text": "\n\n---\n\n### # 10 — User Flow (Jornada Ágora)\n\n**Usuário (Marketing"
+      }, {
+        "text": " Manager / Pequeno Empresário)**\n\n```text\nAcessar Landing Page (Ágora)\n↓\n"
+      }, {
+        "text": "[Decisão: Explorar rápido ou Entrar]\n↓\n(A) Se \"Começar Agora\": Ir"
+      }, {
+        "text": " direto para o Chat\n(B) Se \"Assinar/Login\": Ir para Login/Cadastro\n↓\nAut"
+      }, {
+        "text": "enticação (Login ou Criar Conta)\n↓\nAcessar Dashboard (Hub Central)\n↓\nClicar em \"Nova An"
+      }, {
+        "text": "álise\" (Abre Chat com Agent Prin)\n↓\nDescrever a campanha (Chat) + Fazer Upload de arquivos (Brief"
+      }, {
+        "text": "ing/Dados)\n↓\n[IA Executa Triagem e Validação T1]\n↓\n(Se falt"
+      }, {
+        "text": "ar info) → Responder perguntas de clarificação da IA\n↓\n(Se info ok) → Iniciar \"An"
+      }, {
+        "text": "álise Completa\" (Visualizar checklist de processamento)\n↓\nReceber Relatório Executivo (Score +"
+      }, {
+        "text": " Diagnóstico)\n↓\nInteragir com Agente para refinar ou tirar dúvidas\n↓\nConfirmar interesse na"
+      }, {
+        "text": " \"Campanha Otimizada\"\n↓\nVisualizar Relatório de Campanha Otimizada (Aba Estr"
+      }, {
+        "text": "atégia, Canais, Criativos)\n↓\nSelecionar opção de Exportação (Canva, Gamma"
+      }, {
+        "text": ", PDF, JPEG)\n↓\n[Abre Editor/Visualizador de Apresentação]\n↓\nAjustar/"
+      }, {
+        "text": "Salvar/Exportar material final\n↓\nConcluir fluxo (Avaliar análise com Like/Deslike)\n"
+      }, {
+        "text": "```\n\n---\n\n### Notas de Suporte ao Fluxo:\n\n1.  **Flexibilidade:** O usuário pode entrar direto"
+      }, {
+        "text": " pela Landing Page para uma experiência imediata, mas o registro de conta ocorre naturalmente para salvar o histórico no `user_request"
+      }, {
+        "text": "` e `agent_response`.\n2.  **O \"Coração\" do Fluxo:** O passo `Des"
+      }, {
+        "text": "crever a campanha` é o gatilho que ativa o sistema multi-agente (`Orquestrador` → "
+      }, {
+        "text": "`Agentes Especialistas` → `Sintetizador`).\n3.  **Gestão de Planos:** No"
+      }, {
+        "text": " momento de `Fazer Upload`, o sistema valida automaticamente o `uploads_limit` do plano (Freemium, Standard"
+      }, {
+        "text": " ou Pro) consultando a entidade `Plan` no banco de dados.\n4.  **Integração Enterprise"
+      }, {
+        "text": ":** Para usuários Enterprise, o fluxo ganha um passo adicional de \"Conexão de Fonte de Dados\" (Meta"
+      }, {
+        "text": " API/GA4) logo após o `Login`, para que a análise tenha dados de performance reais desde o primeiro prompt"
+      }, {
+        "text": "."
+      }, {
+        "text": "",
+        "thoughtSignature": "EjQKMgG+Pvb7qt8JKeiH0cFUkuUcTe10D661R7mI1jomhyQNTbYYGj4mN0TFPkoOBW0+Rzcd"
+      }],
+      "createTime": "2026-03-15T09:04:32.331Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

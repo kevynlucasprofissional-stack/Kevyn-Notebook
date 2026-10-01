@@ -1,0 +1,1 @@
+Um top artista que usa o Adobe Firefly de modo primoroso.

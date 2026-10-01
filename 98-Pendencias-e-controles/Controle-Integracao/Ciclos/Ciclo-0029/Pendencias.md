@@ -1,0 +1,3 @@
+- Próximo item: `SRC-000116`.
+- `SRC-000113` a `SRC-000115` foram rechecados sem alteração material adicional.
+- Auditoria completa ainda precisa ser executada e registrada neste ciclo.

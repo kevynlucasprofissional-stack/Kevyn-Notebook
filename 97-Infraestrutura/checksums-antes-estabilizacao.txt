@@ -1,0 +1,1131 @@
+01d8b6174fa7b21d47abb09cd0be0112e65563e60feb26559949090e27180e9a  1543  00-Inicio/Aviso de privacidade e sensibilidade.md
+eb9ec90ebeec8550317184812808e47e2cc3eacd950fe15c19564985cf0b54d2  13422  00-Inicio/Claims principais.md
+cfd5817a32f794abcbbc27c65c93a58afc81c07396b8a29921f6f2cdcb5e1415  1950  00-Inicio/Como ler as camadas de evidência.md
+837b64335517ec99cdee6df555580b5bbdb4fb6a456769bfe5cf9b2cafda491d  1911  00-Inicio/Escopo.md
+e29b0eafa8f6aff3587da96ecc8b052fd7580dbc555ef6dffcf993215abcdb18  1448  00-Inicio/Glossario do cofre.md
+50539fe5e00896f03f166001dbfcf9039a9c24d7a4ef9579d191d1c564930346  1982  00-Inicio/Guia de uso.md
+27dc0a0f75cbe734bcee9cc6928f298904071cf115e3da0d72293b2494be8850  1518  00-Inicio/LEIA-ME.md
+024b89a76150343746a08762d22aaf9a75fc2769e860f5a38e203476cacfc931  1634  00-Inicio/Metodologia.md
+1e6b759af57610a2ee75a924d55f23413c14a4f90040164d7c35c9e985cf2924  9090  00-Inicio/MOC Geral.md
+7a9b20d624a67ef092fef3876860910ad03ad8dbf701ff50a6e328ed7dfa8894  4113  01-Perfil-e-Autoconhecimento/Autonomia e relacao com autoridade.md
+c02178032c1a7448b460c806d40c373705c33ba2dfb0d5e06e43bcdc15876fc5  7708  01-Perfil-e-Autoconhecimento/Contradicoes centrais.md
+bad7554d1404a1206e8630bce0502331ef63aa41b5509f938ddb467e781ea054  3498  01-Perfil-e-Autoconhecimento/Criatividade e capacidade de sintese.md
+8eebd88f3c73611cdf30e3134a6022748169f08bb85c353c2fed9bbea2558e6a  4829  01-Perfil-e-Autoconhecimento/Cuidado de si.md
+4998753e48fc16a7b37429e27a9455435fb1d236dab8abfc1343fe21cb3df08a  5302  01-Perfil-e-Autoconhecimento/Estilo de aprendizagem.md
+1600964ee1760867ae2e5ea324ea0bceab73dd4fac1577048fb2f470156d9529  2241  01-Perfil-e-Autoconhecimento/Hipoteses abertas sobre si.md
+1761fea8b45f574e88c9c0b2edcd391a4bc500876559e4b14cf1f6f75d59cd97  12496  01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+8503c0e79cd6f0f27781c71676dde77b33dae9d959d79926acbb2e8b603a76da  4735  01-Perfil-e-Autoconhecimento/Mapa de dificuldades.md
+cf9b0c8f6e5673121c7e3a154024264a5ed0cf4913939f4eeb473bc8a66c7056  5689  01-Perfil-e-Autoconhecimento/Mapa de qualidades.md
+e0416dcc7602f238feb3726711d216449f948dc3491a5e10d40a7968f03b6354  6490  01-Perfil-e-Autoconhecimento/Narrativa de grandeza e vida comum.md
+28aeffeb0323c4204babd80ba7ef79ef15030d374efd1ddb018bea528847de65  5651  01-Perfil-e-Autoconhecimento/Organizacao do conhecimento.md
+f7bc2d45050b0d82719d2fd17f34011afb2190053bc0e5540c93a73a4f7eeef9  4240  01-Perfil-e-Autoconhecimento/Relacao com complexidade.md
+96b88c1316eaba20b8db7d37f900645d82a161d4bfed037d7cc05822a3942dab  4594  02-Cronologia-e-Memorias/Crise e reorganizacao 2025.md
+510ba0f3ce798239906cdcb904d0dcc700b1e6146ae36c1cfb5d13454772ee83  3024  02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md
+52d9b6dfcb3f7a2634a0f0f5733acb695e273f4ce022031bdf9772c53f66207c  4337  02-Cronologia-e-Memorias/Independencia e trabalho 2021 a 2024.md
+eb1eaa8a82b28b5dae6236e16548f8c86fbbff034bd51b5fceb9141ca06723cd  4058  02-Cronologia-e-Memorias/Inicio do acompanhamento psicologico em 2026.md
+e0f48176eadb7e0572c36461f3d5e5f9558743940c47def18f493aaf558917c6  4946  02-Cronologia-e-Memorias/Integracao e cuidado de si 2026.md
+cc9304e46720c5e673857474b6a8c61450b1d4d4ef713ef9eb5f34fd5d2110dd  9225  02-Cronologia-e-Memorias/Linha do tempo mestre.md
+91a52b839df54d29f101f3ebbc1382edc159a46e517c59e4af8a903c3bb7cc8c  3988  02-Cronologia-e-Memorias/Origens e infancia 2003 a 2021.md
+a26f2518d8b7e458df8a5626e3cd2513bca7e39f5ac3456fc30760757e0611b3  2944  02-Cronologia-e-Memorias/Periodo de instabilidade financeira em 2025.md
+f1dde654cce5d656ea2e9756848943c159153fcc6d7ba35885bb701c2422f1fb  3361  02-Cronologia-e-Memorias/Registro de conflitos e incertezas.md
+9e182c0ebae470d0677ba4a4712ac1f9ca8c9987de4ea576719cad304d905251  2794  02-Cronologia-e-Memorias/Revisao de autorregulacao 15 de junho de 2026.md
+3b940cf48d037619102e5c995b33662128a0704cc72fac9562edd89ac0502439  7244  02-Cronologia-e-Memorias/Salus e Desafio Svelte.md
+48b8d0d6d50031bd7705b6b835d409b78537cda4fe386dfb7f5a49151955f60e  3739  03-Relacionamentos-e-Rede/Amor idealizacao e projecao.md
+3e2e14e5427a22f13d79e3c4ca0f767ba9bcf4626afcc384fb4f700d122f12cf  2192  03-Relacionamentos-e-Rede/Amor intimidade e vulnerabilidade.md
+56ab9d0eed0461b02f485cf81e3829731909c8f6f00318cd13ceed76af4ca60d  1155  03-Relacionamentos-e-Rede/Arthur.md
+629a6fb5bc80cd126bec8d3ff175837823917e3b3475dd01979405a167fc8525  3241  03-Relacionamentos-e-Rede/Avo materna.md
+d6c02d49546b75beb49a6bd5f22e08a7b6fa34069fac16ce5db40aad83a29455  5370  03-Relacionamentos-e-Rede/Cha e Prosa.md
+5512282d5356a553ecedba4fd586706450aff85cd9b4f7befb7a215025ade5b3  1247  03-Relacionamentos-e-Rede/Geovanna.md
+70169290214f27e3b2b73748c1647ce9957c3c88542bbe791b1953de263634de  1198  03-Relacionamentos-e-Rede/Hariel.md
+a13e76a1959a8fd34209493e80a18df1a91b627e303494309b95b474abb62d8b  4584  03-Relacionamentos-e-Rede/Historia parental relatada.md
+c1d80508001698a7c623b313dbfebe7296a8ff4d870bf550388ed1a0d1caaf6e  1211  03-Relacionamentos-e-Rede/Igor.md
+31e7f3348c3e103726905e51320d270f49fab58e222152ad454a9a9635833c8e  1298  03-Relacionamentos-e-Rede/Julio Cesar.md
+c8208fdc83406516d098a5fb0785e3144917840ce9871d5d8fcd18c0c86becbf  3149  03-Relacionamentos-e-Rede/Lethicia.md
+fe3243b44a974309b0536a2645cff2fef6b8cf36fcc27cf97cca58b29dbd87cd  1161  03-Relacionamentos-e-Rede/Luna.md
+01ea565c8d09ec1c25327c693f34c9f3ba9796bacaaa66a69cb1e55ea22be317  3843  03-Relacionamentos-e-Rede/Mari e a experiencia de idealizacao.md
+69117a695d1d2dec42d6a29d504d5d559444b6b30cfd926bd50ef05a9dcd387c  1159  03-Relacionamentos-e-Rede/Maria Elza.md
+4845a7757a7459a787afc5efc8ac71e6d5ee740f3dabf8a01eea19b4daf082bc  2808  03-Relacionamentos-e-Rede/Paulinho.md
+264aac8cffdc7d4afda8748886cabc63fef123c1a260b2551236c2508ad51ab7  7066  03-Relacionamentos-e-Rede/Rede de relacoes.md
+8efe3608c7f60d5551bc182135117e42b38c22c06d3776db5e2ccf2c0e2dc367  5423  03-Relacionamentos-e-Rede/Rede familiar.md
+c72a009c2497e58898cbee621e0a3277642daa2e0d3532956c0c02206dfc8b82  4736  03-Relacionamentos-e-Rede/Relacoes profissionais.md
+76c2ad348dff743cda429e48e9ec33198a47eb3a77acfd92ade7c888a4c222cc  1143  03-Relacionamentos-e-Rede/Shirley.md
+3c747e6f7f7c9040276078e4f80992cab351a38940986eeb5265bb43270b4728  1357  03-Relacionamentos-e-Rede/Silvana.md
+94efd9fb5044be4947fde2da8df154fd00b30aab504046a970ff04e525d0ee45  2549  03-Relacionamentos-e-Rede/Suzana.md
+240f443e20a9525088ac159af323706cac249de2d83edc95dcbdc4bdfacfdd1b  2543  03-Relacionamentos-e-Rede/Tribo pertencimento e lideranca.md
+18ea1435496f93eb9114544a49465c73e136c8cb31ccbbd9e20f55b66d579b6f  1235  03-Relacionamentos-e-Rede/Yasmin.md
+676077cbd9b594251ac6c8afd361530ae64fd0ab32e6b38c298462a533e50470  1207  04-Trabalho-Vocacao-e-Projetos/ACIRV - nota de transcricao.md
+60bacd8305f1d631bccc36a91aee1abbfc6c85343ba99ffb27a93796e5848af0  7449  04-Trabalho-Vocacao-e-Projetos/ACIRV.md
+897a13b23384130a123b39ba5ddc4317c5d5a883bd8f4f7ea0eb3d5b6d7b0480  3086  04-Trabalho-Vocacao-e-Projetos/Atom.md
+e5b65b16f9170bb692ed06aabd03a8e1b405bfebde9d968b59b1a68f9c38b5c5  3972  04-Trabalho-Vocacao-e-Projetos/Bela Ja.md
+33a7a0f76e79e3c587fc603cf8651d020e12a3bd3d89f76ab70e8fc8a9ffa79d  1827  04-Trabalho-Vocacao-e-Projetos/Design video e direcao criativa.md
+cca6fac5af597065b6f3378e20e604eb74d2da02cf05fe4780277c21cb466b9b  3881  04-Trabalho-Vocacao-e-Projetos/Execucao sob pressao externa.md
+ff43d88611417e431b17d079e8716ed6e41b98bdb86cf3c355beb9e6b0496f00  6310  04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md
+ef94c9923ed77d415d3aae916e07222d1b78abd72dbefd3c3b19dfd64798085d  6820  04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md
+6f62ca62face79e7178a0d5190b45bcd42872f53cba3bc42ee2ab8ce48bbddaf  7518  04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md
+9f5ef335daa5767a7b3819a41eeb3691263901ed46654f993340f19f6c53dd00  6245  04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md
+c27908eb6353d0c5ffbb121cc08c0f29d58f534ff3bd3eb80e36cf02d4f5c032  9263  04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md
+a0dcd46ac76e8f90b7ca5b96eb3b890c8e7fcf5d1c36cba3430deb00a507b873  3548  04-Trabalho-Vocacao-e-Projetos/Projeto Cosmo.md
+9f592278e6f69d806336c5b361a61154fe311e74e4c82dac15690bc158d5692c  4190  04-Trabalho-Vocacao-e-Projetos/Projeto Neuron.md
+d83e7055e20ab4bfed3b564e44e6e9e17105bed554200bfcc9be5ed28d17220a  5993  04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md
+ced6d844dc712e657d09a13ee9f15851a726e1dd5ed85c71cd69894e985e8543  6042  04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md
+420622fa2b5104a740fc1772ecb6c3cdadbaeff250cca043b1e7ab951a4ce0a2  3510  04-Trabalho-Vocacao-e-Projetos/Trabalho como eixo de identidade.md
+0bc72ae8cc22276bed01b479cc59b733c33eb8adf1d695a84f5a7dc7e31456bf  11036  04-Trabalho-Vocacao-e-Projetos/Trajetoria profissional.md
+d93ae9b156f9edea321290a1409ea96536370492531b546e1f6f0e499dee079c  2391  05-Sonhos-Simbolos-e-Espiritualidade/Alquimia como metafora de transformacao.md
+716477e0804aa34cc74bda94803172f65d98ded90faa20e2a837b0b0f58fe4e5  2000  05-Sonhos-Simbolos-e-Espiritualidade/Arte musica e literatura como espelhos.md
+2d791dd6e858e9698e2d3b1128b86c31e99ef9b2ec89a24c061dbd2d18bece1e  7275  05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+3e7e451b48cfd03058bbdec857a7b522dce559e6cbdf6b313a59b708fd34ee7a  2693  05-Sonhos-Simbolos-e-Espiritualidade/Etica da interpretacao simbolica.md
+75a9fb83068a23fd44c14e22c311605c4a5a673a340fc9eebf6ec161b9f0d17e  2141  05-Sonhos-Simbolos-e-Espiritualidade/Experiencias com substancias e estados alterados.md
+422e1a9a751674fca612a7555d2fd024034f90500b3e3ef9b299704156614e27  2737  05-Sonhos-Simbolos-e-Espiritualidade/Santo Daime.md
+a91ca8566237ddb54bbb37131578ad03981ec545971503cd97d9c56233a17941  4676  05-Sonhos-Simbolos-e-Espiritualidade/Sonhos imaginacao ativa e registros simbolicos.md
+06d2404e8ea4fc9daac75e09ed6ec9bccbc31714e4fd6ba88f11a88b49c1ffa1  4757  05-Sonhos-Simbolos-e-Espiritualidade/Taro de Thoth.md
+91babd2825e9270bba68e98734790c8e3dc856bd72d06f7b216a2865d06a1487  6108  05-Sonhos-Simbolos-e-Espiritualidade/Thelema e vontade.md
+4cd5ebd97ad593de2c8387d9333981a3a4398ed50d22201386916d3df630c1c4  5136  06-Saude-Autocuidado-e-Autorregulacao/Acompanhamento psicologico.md
+2c26e0538ea704f753ff5b87c3e91a1ab2a804b6aebba768e583635a0f18a80c  2380  06-Saude-Autocuidado-e-Autorregulacao/Alimentacao e ambiente domestico.md
+7a524141783096f0655a8a420183b65b4867fef18039a076db345bbc9c3fe507  2783  06-Saude-Autocuidado-e-Autorregulacao/Autorregulacao digital e sexual.md
+64420c2ef626fd693052956a05ed6542ea753ab02fa392b13f89eb87bdccb201  3659  06-Saude-Autocuidado-e-Autorregulacao/Diarios de 2026.md
+dbef8d25086f4e7a52e0135decc5096be7f1e0739a8cce2a6cd3b443d0982a98  2032  06-Saude-Autocuidado-e-Autorregulacao/Disciplina como organizacao da liberdade.md
+7242e8f5715e5d47876de33c55c6154b566c02eb9c725fe308ab59cd0ec6f38d  5198  06-Saude-Autocuidado-e-Autorregulacao/Estado atual - 17 de junho de 2026.md
+dfdd3bfa38978cfa8cd3a0abb99811b09777e8f386633d1efb8ebeb7b11c7bfa  2147  06-Saude-Autocuidado-e-Autorregulacao/Exercicio fisico e corpo.md
+44403e83d0693d22e06fb50e50a4e2028ab0a79e7a55ace383e91991adb0e3c3  3091  06-Saude-Autocuidado-e-Autorregulacao/Historico de pensamentos de morte.md
+789fb6ddef57dede92910b36955e6d723ce386671cbafaf8d456cc8308a0c5e3  2452  06-Saude-Autocuidado-e-Autorregulacao/Revisao semanal de autocuidado.md
+f91c5fcc7c6ea17ae1bb064a27236ce4815bb9ccbbf9bb8791317654249efedc  3423  06-Saude-Autocuidado-e-Autorregulacao/Saude mental - registros e limites.md
+63fe053920d95ad63ad99f65c6e78f7820016e69ed1d46616347a1b0b4076faf  2236  06-Saude-Autocuidado-e-Autorregulacao/Sono e ritmo diario.md
+6d7ae613d99a5f5b38324c283b76b1397e27131f3332555ba887d658a1d4225d  5847  06-Saude-Autocuidado-e-Autorregulacao/Vontade SMART.md
+9c81dd53ec0eb7eba492b3d42808c82d55a380f45b7ad034ac62224e0d420c4b  2234  07-Planos-e-Decisoes/Comunidade e conteudo.md
+418a2e482d68d107d8ea7d3338ca4bb85540d03301c5dbe7d497b5d553bd05ec  3970  07-Planos-e-Decisoes/Criterios de decisao para projetos.md
+023975d23ecf43e8ea7b83e33118aeb2543a2d362897529acad0dde75b390b23  3849  07-Planos-e-Decisoes/Decisoes e compromissos.md
+131b2fb9fdf5e1f40e35e18f2efdf3890c96f376c5d51975ef60bde58791467d  1911  07-Planos-e-Decisoes/Estacionamento de ideias.md
+47829096b3ee6150406f146e4ef6a18ff1e2b12c95cfadb61ba92d49d2cdada6  1656  07-Planos-e-Decisoes/Kanban de projetos.md
+acbc09e6a0de16e61830f1911193893f240843f42f17aaedc14c2020708a524b  3031  07-Planos-e-Decisoes/Mapa de prioridades.md
+d5efb1403fba1ce961f4118f97fd27363279e0ebba4f4c94957e51db2d3a1a57  4011  07-Planos-e-Decisoes/Planos de curto prazo.md
+bf29b86bf60958db11304c43d29214846e1ed214ae7b5d482a595f3124d10ec9  5204  07-Planos-e-Decisoes/Planos de medio e longo prazo.md
+e13e289ed79c134207a50cb1e31d6406ff9f0f4b04b426c3dbc6c97eff92f177  4262  08-Estudos-e-Referencias/Estudos na Nova Acropole.md
+8db6270395c1aaff09afac8b4a934adad509a8a738f6d3aa43fec0ecee52fb57  2679  08-Estudos-e-Referencias/Filosofia e psicologia.md
+d4a1560dd526f565c3bd9ee3d31c05b59d45e60c8db2c106d81c28803061c06f  3328  08-Estudos-e-Referencias/Formacao em Data Science.md
+f8e65f7d1a7849181aebab605c667cc0f10a8881af2349e342566062684083dc  1460  08-Estudos-e-Referencias/Influencias e mentores.md
+2590a92cd724f9013253a37cd802af32bff683f7f40f5887608112e56a1a00a5  4801  08-Estudos-e-Referencias/Metodo de estudo e producao.md
+0c736a14a5aae1e32d9ba77ab567eb4c698230178dc76852d025cbdb3cbaf925  5144  08-Estudos-e-Referencias/Negocios e marketing.md
+613a5b8f9ade6f5260b1baf0af1385bab02177566649a3558a59067872c37f6e  1430  08-Estudos-e-Referencias/Repertorio criativo.md
+f1ec2558b45f616fcc85851a3d3fcd7092d45a21e80318606d494a98d20f4127  5695  08-Estudos-e-Referencias/Tecnologia IA e automacao.md
+86ff563bea925c47e5bec68ec9ad58549859bde3b05d5420598c2a4b98260bab  1341  08-Estudos-e-Referencias/Tecnologias de si e Foucault.md
+b724aaab57978a4111b5e01401af2a42029fe3d925a7c91f012806240bb5fca6  974  09-Fontes-e-Evidencias/Arquivo original preservado.md
+4f7c2d8a276fab240060eadd290e38f6945e148056a6c30a0942ef2adb24fc78  1338  09-Fontes-e-Evidencias/Conversas ChatGPT - catalogo.md
+d6cce02cfc32b18243f8ba2df14c122ce76ae8678245ac1e10d73ad6b8a293b3  1424  09-Fontes-e-Evidencias/Diarios - catalogo.md
+8c7852b10e95432919cc568d8f2cb9d4125cbad4fa288caf9b0a1d442c5cd4dc  1434  09-Fontes-e-Evidencias/Duplicatas e versoes.md
+a1014965da66682b6673a15e303fa8c5e2562d5f641b44f30ac098e40b484d98  1534  09-Fontes-e-Evidencias/Fonte - 00 Diario gravity falls - 170625.m4a.md
+af62f3e1c8e14edcbc1a49367d185edee3c8b8d1a72709ccf4965ec1c58ab7a7  1484  09-Fontes-e-Evidencias/Fonte - 00 Diario Parte 01 parte 01.md
+b2c6c453d191653a786cfad21b7f4f4770c795920f7f5e362b691309a99a6f6c  1484  09-Fontes-e-Evidencias/Fonte - 00 Diario Parte 01 parte 02.md
+4ab80ecdd60ab625c5eaebaf898c9d9cb3c275639f5533a73a8e31145915a49f  1484  09-Fontes-e-Evidencias/Fonte - 00 Diario Parte 01 parte 03.md
+af075184302f0eb6abf21e1ff3f6ea19cd7d773616479943da75609bd590deb0  1469  09-Fontes-e-Evidencias/Fonte - 00 diario parte final.m4a.md
+daa7ffa8cdedf43886afd6319d730b821eec37454f9863cecbb360c724d34c60  1507  09-Fontes-e-Evidencias/Fonte - 00_Prompt Reescreva.md
+12dee3c5032b7e70d9f55cd6969f0a92c62803a36a506d911eb874b744b93f29  1471  09-Fontes-e-Evidencias/Fonte - 010626 RNIDIQAOUP.md
+f41177a92f5f785f1d49612d2fe38b729bf7cbb267f22327f0a1fae8eb90d16f  1468  09-Fontes-e-Evidencias/Fonte - 050626 04h30.md
+ab101724c219fba5d4f1f15dd9de8795f69220d7077cb4d62015878c446889ed  1471  09-Fontes-e-Evidencias/Fonte - 050626 RNIDIQAOUP.md
+2ec038d2bee1640fd808f18874afad62183e645a4a03ddf36ad52c4c2869fd39  1468  09-Fontes-e-Evidencias/Fonte - 060626 01h20.md
+8099bca8251b37ab9ab85daa63a3e29c03d60e17f53725c6e572f3ebc7c15e16  1471  09-Fontes-e-Evidencias/Fonte - 060626 RNIDIQAOUP.md
+dbe66d3dbc66ea767c408a6585fa8589e10d26b3deb4cf7ec969775ab2a4c13d  1471  09-Fontes-e-Evidencias/Fonte - 070626 RNIDIQAOUP.md
+14c1c6327c8dcf8ea7d55072f1eb013b7af32b1a3e4f3860587d3a235d098336  1470  09-Fontes-e-Evidencias/Fonte - 080626 00h00.md
+1bd02d0d53dd8d6fe1c8a205b51efb9373c2519d69d0e63b80e2650eda0b2968  1470  09-Fontes-e-Evidencias/Fonte - 150626 05h25.md
+c96d7843bfc84c2575d41bd281047475f19b4842665ce645f73866230e9ffc62  3089  09-Fontes-e-Evidencias/Fonte - 150626 RNIDIQAOUP.md
+33663f18f0549667fe04e8fcfc707d540b9ce1b79f0b0bde0ee53f55b1998394  1468  09-Fontes-e-Evidencias/Fonte - 310526 23h43.md
+dd454d86aa6ed29500bf58e1a544deca68ac8982bf81a8fb159a15b26642c4c6  1468  09-Fontes-e-Evidencias/Fonte - 310526 23h52.md
+b55184a70fc235fde6a0c2a5b480233cd9cd4cad1b00b8c69262fe7750db627d  1681  09-Fontes-e-Evidencias/Fonte - A etica do cuidado de si como pratica de liberdade.md
+8ea90de98413de809fc0a4c0e0e0e5b9b013ce7612c6b135f968617552bf282e  699  09-Fontes-e-Evidencias/Fonte - A fazeres sendo sincero.md
+7722c190730d792320b00f911307a93873606db653e722c7d313dbd7281c574b  726  09-Fontes-e-Evidencias/Fonte - A funcao do Kevyn no Cha e Prosa.md
+a8446db879515e0f0a89087afa18c5b2faa056ac5f5cd5232de16845776bbbca  669  09-Fontes-e-Evidencias/Fonte - AI First.md
+eee08a1525e0da1577bc02d7d682c3c787fb5cf8d417ce3b49d400aa89f83083  684  09-Fontes-e-Evidencias/Fonte - Ainda sobre a Mari.md
+cdb1fdb1d4d41a56c17aeb709ae3a1e0bd63c31b162a1de2c5da5e2878e7013a  2286  09-Fontes-e-Evidencias/Fonte - Analise IA da reuniao 2026-06-12.md
+b4bcf26f9e48dcc637735ab42c9d3041c46915e4f2dff09055b3e2fcc88581ff  699  09-Fontes-e-Evidencias/Fonte - Analise Lancamento DS21.md
+e689fce7d4de9e700c7895443b202b9c9502d8d1989b4d5ac7780294efbc719f  2538  09-Fontes-e-Evidencias/Fonte - Analises de copy e lancamento DS21 2025.md
+09c03fc133cf2eaf691763e278b5c939fe4225ae3eaad86be62befd5a05b78ee  2460  09-Fontes-e-Evidencias/Fonte - Analises Diario Negro 01.md
+53ee38edb77ea1cb98ca95bbf4e1621ae8dea577ed8491e2e10f424cb828ab70  1639  09-Fontes-e-Evidencias/Fonte - Anatomia psiquica.md
+85aeebd370de222b3e06107ac2583963ee825434c9b61430ddd82a000464b805  681  09-Fontes-e-Evidencias/Fonte - Autopsia do Kevyn.md
+b100047831808fe9fab14e9166a33ee162ba6a86596a095f9f54d8d54c962e89  1649  09-Fontes-e-Evidencias/Fonte - Autopsia relacional.md
+389b79025be63dfb86512654ca706fc697fbe56d0aaecfcafbf17bbaac045a2a  1369  09-Fontes-e-Evidencias/Fonte - Briefing do projeto.md
+df669148abe126392ee3d400f41f6b02bd13f5f2cb5c7396990dfc438c77fa9e  1860  09-Fontes-e-Evidencias/Fonte - Comparacao reuniao e dossie 2026-06-12.md
+b435b27034ac6d4ab872f7e7bbf3da999c108b421a67e8e4a157137bcbef058d  1922  09-Fontes-e-Evidencias/Fonte - Contexto completo.md
+64932c294940cfab8b861d6e10d1778991973a4679fdfc46c5e97f833b1f9813  1612  09-Fontes-e-Evidencias/Fonte - Contexto extra.md
+29c9c415df3b8f26fbb9091e6fca4719ca37ab6d5156a820bc1605ed4bef2ab2  2275  09-Fontes-e-Evidencias/Fonte - Contextos WSI Salus e Cha e Prosa 2025.md
+3a5a3aa5ac4ac3f9f2d732d192a2d95c6b74577d0feb8531f9b30ff779a72b3e  738  09-Fontes-e-Evidencias/Fonte - Conversa com Freud sobre Cha e Prosa.md
+a658880fe548514487c12ebcdaf728453fd15ace6729e463da3f93e54261c0db  2649  09-Fontes-e-Evidencias/Fonte - Conversa com minha alma 2024-06.md
+524028043e0f76e93ff086cb373e856cd52d7ffae6e887a7e0ecfebbcc8ee4a3  2378  09-Fontes-e-Evidencias/Fonte - Conversa com minha alma revisada.md
+0adeb585e268901f1f1aa791e08dd497505748647a1b692edef36a747d33d5bc  1480  09-Fontes-e-Evidencias/Fonte - Conversas com ChatGPT.md
+c4aba51e7bfc1ad35ef8273bdd5b8971f9c14589a6d6b7d6942ec07dcfb5aba9  1640  09-Fontes-e-Evidencias/Fonte - Cronologia e fatos.md
+bb3777cf03a0434ff0acacd1aacfbdf24bfe564429246f802917e9cd4a8cac61  1476  09-Fontes-e-Evidencias/Fonte - Diario em audio - Parte 01.md
+92c114318decb61dfd1c40a55506375af7dced68904d1f048c4fe8261eca1294  1473  09-Fontes-e-Evidencias/Fonte - Diario em audio - Parte 02.md
+0cf5afbd51b42b351609a2b40cb474adfbbdd8059dc80713ab7eedfa1395d247  1471  09-Fontes-e-Evidencias/Fonte - Diario em audio - Parte 03.md
+dc101e22f0be6ba852e7b4760f2584024ea13839cacd7713c2a32c197630e557  5858  09-Fontes-e-Evidencias/Fonte - Diario FGV e aulas Nova Acropole 2026.md
+e7ec846170a0d9ab51a19f77e81577fce33214b51cad8c28dbb3bba89452af13  2773  09-Fontes-e-Evidencias/Fonte - Diario gravity falls 2024-06-17.md
+93e0b1507ee36b8f61f8873292014196586b63f0054316cae726a5ac73c61ffa  3040  09-Fontes-e-Evidencias/Fonte - Diario Negro 01 - 241225 ate 130226.md
+e5bda03beaedc94eb6cd94ee255fe9c168c7390f78e7e6f472824629247983f7  2995  09-Fontes-e-Evidencias/Fonte - Diario Negro 02 - 130226 ate 250426.md
+e8a7b954b8ac406af0a61ce4f644f93a9b6ad97f3360befbe475a47be39eabd2  1918  09-Fontes-e-Evidencias/Fonte - Diario Parte 01 (set 2023 a abr 2024).md
+e146395bc3066fab814a6d89b6729597b7c9fbde478d2e6568ec9b708779e225  4516  09-Fontes-e-Evidencias/Fonte - Diarios em audio abril 2026.md
+834f029123c1b5e839a04a11418fcce1baa626e81b0751ce411978d95833e6b0  1598  09-Fontes-e-Evidencias/Fonte - Disciplina como organizacao da liberdade.md
+c2f276b1a2d3448f67f62a463995ffe97a6255637b62eef96fe61d474f0ba840  2766  09-Fontes-e-Evidencias/Fonte - Estrategia de criacao e agentes IA 2025.md
+916aef3458b462d4890a575c80a419b02c6c2250eaa92a5db35a67fa36313436  1498  09-Fontes-e-Evidencias/Fonte - Framework Vontade SMART.md
+580bfc28c099b2fa04dc652b62e7f2dd02499beeb6292b3ffaf257ed0601d43a  1628  09-Fontes-e-Evidencias/Fonte - Gerador de dossie.md
+418e43a33d5a2993a3057c804e7e24ff3b2f9901b9181f24b9d599ceed4770a5  1758  09-Fontes-e-Evidencias/Fonte - Gerador de visao geral.md
+6f7b0488802f77bb91a0bc335abfea1be1003a9d717a4833e1d8016fff5aec0e  1549  09-Fontes-e-Evidencias/Fonte - Glossario da psique.md
+9f73983a5f28a1f75f548afe95b5c353635476664d96d8286b709b274f7f7dbd  5828  09-Fontes-e-Evidencias/Fonte - Kevyn Lucas - dossie sintetico.md
+3b0982ca0a214c5cfd3a015bd29402b723aef606ba65f12d77410d1a2bfd4c29  1619  09-Fontes-e-Evidencias/Fonte - Luz e potencia.md
+1c4c7af2711f771649967eaf02507d1efa14d00437a8dbd1b0fb5bc9b3c797cc  690  09-Fontes-e-Evidencias/Fonte - Manual de Instrucoes.md
+e2c1cc372afe509f5c43679f332c65a330950878ae17d33b6e9f332ca68b574c  2403  09-Fontes-e-Evidencias/Fonte - Materiais IMRIA e marketing 2025.md
+42171c3a27e9e9e2bdceda3b83d97316486b3aa07925ddd7d192a650e5b293cf  3008  09-Fontes-e-Evidencias/Fonte - Mentorias produtos e ferramentas IA 2025.md
+5813d6d798b524ee15268662bf0b3b31e1e42400b8f9f1759b49296f93ffc28e  1632  09-Fontes-e-Evidencias/Fonte - Modus operandi.md
+f36c553c1fb045651c9f48283fd825d90f90aa42dd0cc18e13870bb9e837ae42  3787  09-Fontes-e-Evidencias/Fonte - Notas profissionais e tecnicas 2025.md
+079458f95560427327f5657b98d4daa98bc39478a34a0c6cc32be6a5be6949dd  2649  09-Fontes-e-Evidencias/Fonte - Operacao WSI Salus e acessos 2025.md
+871ae42b36af0d1bb0ebb113771c39c1d8197610d530ffa2a67086ae9e87b77f  2704  09-Fontes-e-Evidencias/Fonte - Palestra IA e pitches Espaco Prema 2025.md
+84eafad20e2670287f8af02a8733cdd90d3bb265a6aad573ce5617d784e4fb43  4510  09-Fontes-e-Evidencias/Fonte - Prazer eu me chamo Kevyn.md
+26c0d6081acce6db682aea6c1a1ae330372a96b7a401fa0184b37de0c246e462  1609  09-Fontes-e-Evidencias/Fonte - Prompt 1 - Configuracao inicial do sistema.md
+33934ab477aaf8d8fed45d828adbc9cb0b4e653fc877e15234cc35f9133d713f  1546  09-Fontes-e-Evidencias/Fonte - Prompt 2 - Acompanhamento diario.md
+3824af59fb03fb02c0bb97897b60985c7c4a8679a580180743b55673ceaec0af  4579  09-Fontes-e-Evidencias/Fonte - Resumo 18.01.26.md
+c5b5fc3c2bce4cfb8920a57cb98ef23029ae7a5667242b80ef791cbe087d7fbc  4680  09-Fontes-e-Evidencias/Fonte - Resumo 19.01.26.md
+f29f79ef84f5fa84f4e3791e754ec3af12152908ebd82988bc3573286c2903a8  6257  09-Fontes-e-Evidencias/Fonte - Reuniao com psicologa Suzana 2026-06-12.md
+a06550a695d5292ad577b3c114fb20efad09fc5e730149a2d80046d8de47c368  2609  09-Fontes-e-Evidencias/Fonte - Roadmap engenharia psiquica.md
+5570323163953b1a234836b553985169a0c474c0a0b0c7d45f48ffe2b8eb6e42  2842  09-Fontes-e-Evidencias/Fonte - Roteiros e lancamento semente DS21 2025.md
+90ed3ad1eb03757ed9be1ead2dc3ebe4fec4e07570c6c29b5edbca8e5421e4ac  1577  09-Fontes-e-Evidencias/Fonte - Segundo cerebro consolidado.md
+f1411272338b9ecaba9cb839979eb8df6a4a45e2950394a6ebd26b6db61a89f9  1579  09-Fontes-e-Evidencias/Fonte - Sintese.md
+63a1923b9c405bf48ea25bd5b9dce008201820c07666b85310721fa9a72b1e4e  690  09-Fontes-e-Evidencias/Fonte - SQL pgvector hormozi.md
+76ed827c1daaced3c6d8c2ea1d312849e8ca3e5120fabb9df94188927ccee7e9  2445  09-Fontes-e-Evidencias/Fonte - Tecnologias de Si.md
+a94f814101c884bea61af365852ad094840c5048617daff5734faa091f0d5a70  1613  09-Fontes-e-Evidencias/Fonte - Todas as notas consolidado.md
+feee2bc4bf4a0a5782e34bc342ed951e0b49b19d55640ef9edea3b01fdc41212  1542  09-Fontes-e-Evidencias/Fonte - Tribo.md
+b5a9ffd848f9dc1cd6a44d48ca7e954bfc6bc8ecc01b072499a5b0cee36d9ab7  1646  09-Fontes-e-Evidencias/Fonte - Varredura de lacunas.md
+68cd1ed230c6f5eb4c1ae83d4bbd84dd26b91b2718117b1ea67f218acf2bc107  3405  09-Fontes-e-Evidencias/Fonte - Visao geral consolidada.md
+752c2c2c81aa66883582955461472e6942326f678ea4359bf56ae9409b34531c  690  09-Fontes-e-Evidencias/Fonte - Visao geral jan 2026.md
+54c3cf87f22ea32b329022d755be37cdce36b04cdecb291f7dee79941bae8247  2604  09-Fontes-e-Evidencias/Fonte - Zaratustra e mapa Thothiano.md
+c84150022030ddf87753422db8129a1b422caffa3eebc1b391b02a62e0aafb14  1499  09-Fontes-e-Evidencias/Hierarquia de fontes.md
+b7c72933fb6312437bdf6f35153fe6f0ebbd6fade8259bcc843c19237b7dc44d  842  09-Fontes-e-Evidencias/Indice de conversas ChatGPT.md
+9bfe5b42437c5bb77cd421d40d0fe08e8310af9cf585d1491a8592a07136c40e  5955  09-Fontes-e-Evidencias/Indice geral de fontes selecionadas.md
+1a3223ce7e88aa27e6169aa793a1ee78c8268122208847beadb1afff7b08d314  1375  09-Fontes-e-Evidencias/Inventario dos materiais.md
+415f111935c74a18ba29595f2c93e25048e769824fa2cce472ff85a80924fd24  848  09-Fontes-e-Evidencias/Manifesto de fontes.md
+44601e0c29006b120c3f78b9968e5a15185cf9924364e42b12a0491f3d265c77  1906  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000079 - Criando uma Grand Slam Offer.md
+0ac27d2fe7aaa09d33ef1f45ba1d219be377fdaf4e9e81d839465e4b63e201d9  1379  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000080 - Desafio Svelte.md
+f5d43a62373d1f76ac796c1ebc90b79a85466c9ab3b7a289a1ad4c34254ff17c  2189  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000081 - Desisti de tentar ser extraordinário (E isso salvou minha vida).md
+6894d7303f3117ebab6e016331afcec57588b5be219dd264d0d19631d64127d0  1546  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000082 - Detalhes sobre as contra-indicações do Svelte.md
+826d358c5d83f93cde55e3682a63c7de518b2600246aba57a46227df9db452a7  1881  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000099 - Dias de luta e dias de glória.md
+6a10c358a4916217cac3b6a697c940a4d0dba694bd209a7401c1ebfafba62539  1221  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000100 - Dicas de exercícios Nº01.md
+dc7ad9eba9465c35fbb5658566598abf0b091408feac6c79602f74ea9a9548f6  1450  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000101 - Dicas de exercícios Nº02.md
+14be5127b1c0b20c181b8f4d493c3f41de619bde27bed10f782b24c82f500b61  1384  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000102 - Dicas para resultados em 21 dias.md
+8e3026ce0fa973d44eca0e1ec5496ea62a4e677bb61a215a7af8f0f3170aac54  1555  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000103 - DS21 - Lançamento semente.md
+4e65c952f2f3429f30efdca529ca2b3fc83ecb9323a976c0b892031f8a043b9a  2009  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000104 - DS21 - PRIMEIRA CTA.md
+7c9f7f6b57896c1dbf5e744b0f1e7126a52c3eec78f7a9142e14219533b6966b  2105  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000105 - DS21 - SEGUNDA CTA.md
+3e5c3e132c09c319303db4bd8976f9a17c9356744083b8256ee4e48dd40944c2  1853  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000106 - DS21 - VSL.md
+9c3faa541d93d1e6287389391875e0f0051cbd20cda4c2da5ef3974ce7373afb  1851  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000107 - DS21 Transforma.md
+7ca4e4da272e175b31460aa91b08cdb11bdfa0fb90e0e6dd3c848ec5c2ae70ba  1664  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000109 - Em busca da sabedoria.md
+e71779143ab285c576ab2d3023ad31bb9c6fb36de370fb2d23f7b36e8e84faa3  1459  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000110 - EsbeltAI.md
+d01ff3713a375cd55d41e0a77b7e984443151c7e7f343ff68f6bd2c38316d9b5  2077  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000111 - Espelho negro.md
+f142a67b000ca9c8f4def7fec95f163f78f31085a87e7cbc995b6a65e7eddfff  1407  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000112 - Espião Salus.md
+d8f9510b16e347aec4b0627297ea0195276015faf762a39e4bda489980e8de80  1491  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000113 - Estamos ficando mais burros.md
+7658a8d3514e635c749721ef53b146252b050df0c562c857c72b47ff96d2190b  1695  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000115 - Estrutura Palestra IA + Diferença de Copiloto, Automação e Agente.md
+c2a730a41e3873df212ccf445edab806a117b760983ad92b9dd7a1a75cfa51b6  1447  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000116 - Fernando Vieiras.md
+0442811498432ca53b96ce899d79cbc4fc97f6f37277456595b80fa69164eb2d  2179  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000117 - Frustação Pós-Parto.md
+8f30f32b79248cb628f4d1d934ea75d4c86af0f37c821a29c71e3b53575b52b0  1554  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000118 - Funil de Vendas por Moabe.md
+4b8b30ef7b56f510c58406cc818aec9e0d0e726c806167fa0039d7dbab06df65  1751  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000119 - Funil de vendas.md
+c12b2e526bd04e5a4e40450c102937d871ea97a9e3327304ed2bcfc520bbd9f7  1757  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000120 - Gatilhos mentais.md
+705a015e9abaf7d8796694b279cb0cdaf09b84e7be4ca45632b009d19e49ac7c  2039  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000121 - Guia da sessão de extração de Sabedoria.md
+5df1c22a4ffa6365ed6a843676aad39931bd89d0b08e98ae2736ac88b1fe32fe  1387  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000122 - Hackeando a hotmart.md
+92bc4701b083489b79e57f3f024ed0102010205e6f3da0c9624dc2528a7abad2  1691  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000123 - Hoje eu motivo, mas já fui desmotivado.md
+f16fe6b00c58bbe1d76903a32a6b4e5a8a891425ca0504eb641c57e4e3f52630  1243  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000124 - hoordigital.md
+fe7046e587cf4927efd2ff4056db0dba5120512dd016211a1ce91bfb3935e6ef  1356  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000125 - Ideia de automação - CONSELHO DE TITÃS.md
+ebb788b65c5c79fc286c38f5d02020dffc727514e1e879fd607bcaf0349a4ced  1520  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000126 - Iscas.md
+191574f7e148d1e3499b5342beaee20c83a75ca5335abf760fb09354a06cbd45  1863  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000127 - Lançamentos Desafio Svelte.md
+5d903d4ce5761c56459b2a591f426d16350681719209921353c10b5a59b11d85  2000  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000128 - LE - DEFINITIVA (Original).md
+ff413d0a6a7aed0d8c2fe221f911991e570cd32fc49cce47764723a7b41af0b4  1474  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000129 - LE - GPT normal.md
+1575c2978073212b9d5a7fa522bc81c96f95ce577c09cad99b942f9c55cab9dd  2214  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000131 - Linha Editorial - DEFINITIVA (Revisada por Kevyn).md
+628a4e825089ce28b28c6fba4a616afdade72b26a71e6130fd2fc5b0d74fbd72  1407  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000133 - LIVE + SORTEIO.md
+d3d8ffcd38ef26fe7a175076c04fa305273d36eb96205297a2f2312cfb31ebee  2487  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000134 - Live semanal - Semana 01 - Por Érico - baixado direto do GPT.md
+249443fb2bdf20a84765c75b628fd623663fed590f338b079d72a79e252c602a  2085  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000135 - Live semanal - Semana 01 - Por Érico.md
+37e42e2ba8dfa612367fe7cb1ae30e4e284983bb8445967d8b2550dbcc16e855  1827  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000136 - Live semanal - Semana 01 - Por Hanah.md
+bc8054870e7409d094194ccc99873e03c905618926e78260835206afa3464260  1871  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000137 - Live semanal - Semana 01 - Por Hormozi.md
+fbe1bef0d33c2fe4989a1a7f088bf9c5977fae10f2ce26b2f034be6bd716c094  2248  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000138 - Live semanal - Semana 01 - Por Kevyn.md
+04238df3898573604169fdf74433736a74e97750302690e4826779f7b03f530a  1438  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000140 - Localização da Salus.md
+883d0bc0fe108465fe117b927dfbcf1b46234f1358d631d9bc14276159643c01  1785  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000141 - Masterclasse DISC.md
+be7796f515012d317f43b0e6e1d9cb4e47ffeae1758ed152879964412f8261fe  1460  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000142 - Matriz de Mudança do Lançamento DS21 + notas.md
+d777a9d84d1d6c0d14cb522d5cd0278e2bc00c9959e673dbeebc41a09c7c9ea9  1566  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000143 - Medo de ficar sozinho.md
+1a5ce9944a77f28cc72dfff416f7254b7b71ff264d3e9d318a3b885e97db03dd  1604  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000145 - MIV Salus.md
+4ee3648884a21e2c20c467a62f128c785324b300a107137521b067c134ad0599  1393  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000146 - Moabe Prado.md
+c575c9a31e65bc11a2f34c86d56c42417526c63d8d35c0934f80f3edce9520ca  1426  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000147 - Modelos Mentais.md
+94dd0e983b4b5d57c4b4aa0e21c8a6634b9440154e8052dc0a2c41f2db7fba1c  1640  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000148 - MoFu por Moabe.md
+d707aaefbe3eda07dd7847a415d7f2338d53acb13d200d7bd8f68da083b0ae2e  1340  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000149 - Motivacional.md
+94bbcc7ec0a0a469b5653ca7dd857732f031e617905f9c1dae418e0816c7b90a  2149  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000150 - Não perca desafio + promoção.md
+aee09f55cb9cc9addb975b122c03bb92f6a458a1af4728f35dadf54b3404e0ed  1969  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000151 - Nosso corpo é uma casa.md
+854c852bc9f8f97ad27f356f0f226af251a9d462d31cc7f47b67002581eefe4f  2130  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000152 - Notas de uma conversa com o Copilot, não lembro o dia.md
+7cc95f5fca5e90b1306035928f21c64ac5bcaf414cf0f32f6f4e89eb881c79d3  1525  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000153 - Notas Moabe.md
+aa22fe01b1a4368c2ee5b55d096a399748b981ef3304b5997c9f907cca724fb0  1951  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000154 - 00_Checklist de trabalho.md
+4844137d3c3dd1634ddb81120ac121b3eaaa769f1df5df3aa963411fcce5e1ec  1385  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000155 - 00_Cronograma de Aulas FGV.md
+3231e8c4ac6ddbd351efedaf14dc143bf2b62726307eeea8d980fa182125b53e  2229  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000156 - 00_rascunho.md
+ee61883ac6b8ef6166213115fba77bb3494fff96bf53283e33ae306047df5c22  2096  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000157 - Aula de Finanças Corporativas com Prof. Rafael Chaves - Dia 01.md
+b83ccc44ad8e8f6296fb0eb8100ee862e2401a93270cd92ec13e89f2f9b45fe8  1842  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000158 - Aula de Finanças Corporativas com Prof. Rafael Chaves - Dia 02.md
+d658602508ebd817a3ab060c6b79a2c82c0ef59de4da2e3619b2d79e94d0478d  1746  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000159 - Aula de Finanças Corporativas com Prof. Rafael Chaves - Dia 03.md
+076f0dccf986faa62900db35a4c5bf21fcdfaf9937a2c8e0323bf7308b338424  2031  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000160 - Contexto completo dessa etapa 01.md
+974beb6e75da8b87a337744043bb17c2a46aedcde8a2bbc7c8d2fc6c9aa6c7e5  1848  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000161 - Módulo 1.md
+61754a7bb28bb27d9e4003f16e466c282900603f86dd8a3dc48326f82fd30510  2273  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000162 - Módulo 10.md
+3d8a12685d503bdd5c48daa14a57cbd523e1e541310bdc748716738cac6ac846  2076  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000163 - Módulo 11.md
+73969eb91f17aba08172b97f27c738147cb7df9e3dac98e8e8162dbbe7631aca  2050  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000164 - Módulo 12.md
+62c42995905607ff57eaf3ffd44bf7dd43f06b5a606808a1a4b348ce5131fc4c  2114  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000165 - Módulo 13.md
+cc24bf89129178b5a9147b66a270fbad701cf00b0fde6daa5f04adb630385b19  2026  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000166 - Módulo 2.md
+cdf5dc790bfc2f71cf111cb0718810278bcb1cfea0976d5bd59e46effc930d16  2231  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000167 - Módulo 3.md
+53e3d9f49afce6fc5c5196b5929a2d6430a6744dcac4695fd7bafbac8c132bc4  2101  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000168 - Módulo 4.md
+a5fcfaf47a7c9afd4d0babc2949f8177daddea4eb2f13263eddc7d413c2eefb7  2059  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000169 - Módulo 5.md
+a60094f8d29f8761a6cf036ff17691bb47fffd84a80b0f8991e11787b5618895  2216  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000170 - Módulo 6.md
+18d899671997e683762e0f6fd40fb87a729efea4aac0a0b572716b3ae8cda014  2220  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000171 - Módulo 7.md
+976a8620f8fc510ab3cb2add3f2b9830e529f13589caaf854cd15ffe9894835f  2259  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000172 - Módulo 8.md
+e888f8d17ac99cef643b82845ae9074c361ca8a255b06ed264f2da849f61ef68  2254  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000173 - Módulo 9.md
+e35fabab612281d699deef3e9d74bc3a105327febd9b39199e11f1a0e7f55b30  2029  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000174 - Empreendedorismo e Inovação com Prof. Paola - Aula 01.md
+83c6b6db1121677d3ff9c7fdffe1ee4914897dbc49076b80a3d3cb036cb07222  2015  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000175 - Empreendedorismo e Inovação com Prof. Paola - Aula 02.md
+91ecf28341e64112e2aef3f22f222b236da859c3ab516b250ee3eb535e523ff0  2264  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000176 - Empreendedorismo e Inovação com Prof. Paola - Aula 03.md
+3b9ebbb1c5b3d38d180cb5eae635285cd2589674d616dc8ffc8dcbc540dda8ac  2073  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000177 - Empreendedorismo e Inovação com Prof. Paola - Aula 04.md
+659180bf14b7e05f516b669cbae4165ebac6bd8fa106b5b727b6eb778d7afd73  1451  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000178 - Exemplo de Construção de portfólio.md
+5155b2d251ea4834796d19d689273e25729fd0c066772df78414f705fcba3c34  2060  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000179 - Gerenciamento de Projetos com professor Norberto - Aula 01.md
+374846bc7eede4560939081d20c6cd2deff59b3052e5d4c0e73c1f7f4d6e014c  2190  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000180 - Gerenciamento de Projetos com professor Norberto - Aula 02.md
+ce2abc612363feaa1aff2d831f2d2797579255ad86275d397b9f83815756bd0d  2099  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000181 - Gerenciamento de Projetos com professor Norberto - Aula 03.md
+a0059d1f4623cab5e4c6c9748c7226155200577261275b5d09efc2372a65fd0d  2083  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000182 - Melhoras dúvidas sobre finanças corporativas.md
+d1ac0916e8246c56926f19eec6dd7a362d3de03dbb08eaded04f085a60178427  2018  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000184 - Plano de 15 minutos de Aula.md
+1a3ddc6d6f08d65cc84629b107bab13b7976c8c0810da7eb0d0e70cc81a64fb0  1877  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000185 - Playbook para criar arquivos `.bpmn` funcionais e legíveis no demo.bpmn.io.md
+c64d553a2e56d334be4858796e04e5310c4638ce5a5497c1b8fc325ccd1f1428  2008  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000186 - Playbook_BPMN_V2_demo_bpmn_io_gabarito_professor.md
+9c96fe72fb41f944a91c94f6d019e7645e02708e613201aa3855212ebcb383b9  2379  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000187 - Roadmap de apresentações com o ChatGPT.md
+fce7ce36163657a5fe4d88f0700e769fdd809a8c664120fb1905eeada5c21ada  1513  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000188 - Transformação Digital - Prof. Luiz Lourenço de Mello Filho.md
+e2bcbbb7f0524d280d1574924cc20c076fdbfb31271c830066f928465bbcad0b  1588  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000189 - Transformacao digital com Prof. Fernando.md
+fcc1e0cfb9350b01ffb16ea46ec585e710933173a05f77c77c89acc700865273  1887  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000190 - O ebook é uma isca.md
+b325a9a34be76f909fa33c870f871ed0d1111c7e09efd5e0f98ffcdaad6e108c  1364  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000191 - O Manifesto da Associação Comercial.md
+43041147b0f41a07bc4860798035e1da9a5226b3ea40561e4fe9f27d57dcdb76  1440  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000192 - Operação 20 80 da Salus.md
+90e9d964c35602461f3bbcdb8b382eaab977f8b7dc4aa6c28f877f648225424f  1427  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000193 - Palestra sobre IA - 25 de Outubro.md
+f652554c5d6180e5253bc78fa6bbeb95750c94c284df4320b4626311ae35ac1a  1456  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000195 - Para cuidar, se cuide.md
+d5009fdf17b7f8c5c37ba68384c75dd76fe07c4c4fab2dbcd57b10428ea5065d  1425  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000196 - Paz em meio ao desconforto.md
+e80f6002f93f7b2122aa078be30865b4607c827ae03f67230c9e20a365578211  2090  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000197 - Perguntas e respostas DS21.md
+fa453c9d44b39908d6076ae542d62f08560156969353700634a624ea5c8c0db2  1715  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000198 - Perguntas que tenho que fazer para a IA do lançamento semente.md
+9f5ebce75bc64bf6d20b45ac08a19bb5231458c9a9bb0016dd2bd28bc07c655c  2207  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000199 - Pesquisa para a WSI Engenharia.md
+357abce25196ec4dceafed05b6b2d172220de17d46ef23adc72054865f15e7a8  1978  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000200 - Pitch e reunião com Pedro Pongelupi.md
+b8369e845dcf3b053d0d6db1a0f9992097bb99b8fa09d4e115004793ede44db0  1648  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000201 - Playbook aplicável - Clone Erico Rocha.md
+cf0566a2c16f6167e05a38d0dc0b8d5e7950940c8430072492148b2f49d6c36b  1390  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000202 - Por amor a mim.md
+b78923651565a7a9a0f373fcfc545fb961a0637e418af39e8c713a9cea634125  1797  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000203 - Possíveis topos.md
+fa3b710ca0350bb0d6030fbae3aa2daa0e9c08f67cb7f38056a2159a4a321bd9  1408  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000204 - Poup App - App com IA que facilita seu controle financeiro.md
+f03a2b88175cbd3435ad077078dc8b4db10927111303779c043f5e8f794d2f91  2410  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000206 - PROMPT - Criador de System Prompt para Agentes de IA.md
+9d5ad659efaab6311b76e622f8f2f13f2423ed7e0aaa807a46b27ef30aa16701  1342  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000207 - PROMPT - Notas atômicas.md
+1be0a1380874312edb3e73bdd7d873768fa49ea34cfe728aa797625d971b08ef  1585  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000208 - PROMPT - Resumo e tags.md
+9c9a818335cbbd346dcd215b1950cf7ee91f390794698ba71eacfd12ba6e401e  2385  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000209 - PROMPT - System message da ESBELTA (nutrição & comportamento).md
+14cef072039a5421a6d26a96ac1d94369630a0ccd64b38bbea6864736df497c7  1919  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000210 - Prompt extração de Dados - Érico Rocha.md
+f4284fd0c219d09a200d4dba6ffff539e98cdf341efef574d23384734cd95d66  1887  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000211 - Prompt extração de Dados - Hormozi.md
+ba1fea68df6a3685cf015800e3c715a8f59b9b3f36105161b169f628997ae721  2337  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000212 - Proposta de Valor - WSI Engenharia.md
+eeca8f92699b7a8362b688d34680c5f318fe945c042e56c6a8297c4c59cfd8b8  2081  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000213 - Provei o Svelte Premium.md
+94f94c301368d11744a24e2423e01070f1b5b289640d994172aea81d93c2303a  1408  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000214 - Quem somos nós.md
+8f5002dbd6b64d5f7b7db4267c26758950588d5e96a0c268997ec5b711edf214  1902  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000215 - RAG atômico - Section 01 - Money Models.md
+72a084dbe5a62126438fec196990c452f5bffafc846ae24a7b62716dce018aa1  1716  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000216 - Raio-X rápido do material público da Barbara.md
+2244f4a0a6d031c6e56179d23a41f332a47b5940caa21bafa0b7e7c34bab6cff  1711  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000217 - Remarketing.md
+5f40c74d5b7b078a6c46fadef3f09880b53b656165e303107a9b5ba6db6ab04a  1949  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000218 - Resposta extração de dados - Érico Rocha.md
+17692d6ba86df52e5f3a90f48aa5e09f4c23ab6598116e6965f5f8fe18015332  1891  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000219 - Resposta extração de dados - Hormozi.md
+d62367db7d6dcee5448407fa15a3960ea977401d4687b0a71ca31ffcd9cafa23  1925  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000222 - Reunião sobre a Linha editorial.md
+29da28ac8afbbdf16b7f3dcb7b69a2e10581c009760a3a03092bad05094cdfbb  1632  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000223 - Salus.md
+b654f8f80f86cec935b9f22d272c6c9f64b10890f23596ad747037d8fbdea039  1875  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000224 - Sem querer querendo.md
+1e46c31d6d2b3361919a291b24fb83bbabe80c101e51cc3b5886511ed598b9a3  1395  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000226 - Sobre o DS21.md
+b15333cd7d735002429748029d49c54cf56fca13ae443516ce86ac22cf7aec8e  1638  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000227 - SQL supabase - OFICIAL.md
+6ecdb3e6eaa40e3f0772a329992ec5fd428868a9c859c728ac0861a6cc72bc4d  1630  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000228 - Sugestão da IA para o Lançamento interno do DS21.md
+cf7279861f9e46d8831352e0a3c89139ed8ba6fea8e68395756362c2731340ff  1374  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000231 - Svelte.md
+4822666c5e78dd03e1125aa66aff61b4c818cf8384601a7198bd2127d05d39da  2446  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000232 - SYSTEM PROMPT — ESBELTA (nutrição & comportamento).md
+e95a1145bfe33c079b5bb470498f79dc0b2fe31870da7a55aa740b770b28ec0d  2251  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000233 - System Prompt da Esbelta - COMO MELHORAR.md
+b086942f106e557fb1f0fb8170b7ed37bd7140b34505a10181d419fac051eb68  2196  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000234 - Tarefas.md
+eb8492b3060f52c8c86350ea186c50362f73bcaacb8bdc1d221937ffc5766e4e  1582  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000235 - Teorias da Personalidade em mapas mentais Freud 1.md
+34fae119d67e830bb2f437bbc9c547f79c8b142b69659b865f536267f4ee4225  1678  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000236 - ToFu por Moabe.md
+7df1ecc14da1831b58ac19754acd03b23ef3bba29a9fc42fc1f3602534863987  1479  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000238 - Transcrição da reunião de Análise do Lançamento Semente - Ocorrida no dia 22.09.25.md
+42e2e209f41e7cfd406fde80043a1c9ba3a8c611b5a804c8a2561144a309dd19  1661  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000239 - Transcrição insta barbara.md
+c2b800ffc3a205f5caa6b8ac3484c6b22bd9a7266b006c4b67799a3e0e8b6063  1430  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000240 - Transforme 01 conteúdo em 10.md
+95449d4e2178f98f9135a2dd2ffc6dc1c5f6a2aa550e8d9d181a93397d49190d  1305  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000241 - tresvezeskevyn.md
+8102a03ea59133c3913fe9e34313fbb8eff6ccd4067fb5959995578f7c4a5cdb  1466  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000242 - Vou viajar e preciso emagrecer.md
+e058a710bbe978da6609b4a5b481289f7f2db046e7aeca20238230368a6dc41d  1936  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000243 - Workshop com Alan Nicolas.md
+3d5efea721c28576ce798b073e88ecaccba2401c7a1eb8a9436ddedb6438562b  1482  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000244 - Workshop com Alan Nicolas.md
+e7194607fd17cbf28ee1451ff5f20834c578f2de7f5947cc8f6eb3616a1f20f2  2855  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000245 - Generated Image December 31, 2025 - 7_24AM.md
+9433f5e978774d25e85bdb01bc41c180d85ca4163fbd0fbbef34da288929cd22  2137  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000246 - Kevyn Lucas - Resumo 07 de Dezembro.md
+b1d1100eb9d128159b119ef3bfc0ef47533b3b3ecffb46bf82f62c5881b374d9  1904  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000247 - Kevyn Lucas - Resumo 18.01.26.md
+f7f1f0202ce2c4d690a5a8c94c6fdd00e26e5b766c5dc255293661bd006c8a18  2132  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000248 - Kevyn Lucas - Resumo 19.01.26.md
+835e6f5a079f2ead07cab556eb3f9aff4b43e8b0c40c14a5b000310a261358f7  2283  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000249 - Kevyn Lucas - Resumo incompleto - 18.01.26.md
+42e436c56d705a6c0ce9c814119325e0f25197aef3c64b10d6fb0d118c7599b0  2151  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000250 - 03.01.26 - O mapa da psique atual do Kevyn Lucas.md
+a11e911601af26712a24300553d6968eeb724d0f91b666d4b7ca78e59d3ecc8e  1322  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000251 - A função do Kevyn no Chá e Prosa.md
+cbcac457cd6b2306885e7d6d0d040e34b84724ca4703ddd242ae9039b728b5e4  1915  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000252 - Ainda sobre a Mari.md
+f610b3286fcd424ccc61b92c79ec3eff089c4744600c53d81a8097ee6b28fde0  1463  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000253 - Alguns insights preciosos.md
+e7626ff04f9f7df0a8b245363b660f9dbf2f890b80d739541d43cd3307ea2086  1845  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000254 - Análise de Kevyn - 14.01.md
+eebadcc4bb2dcb15e51989e1eb55467276a6355fd35db1540f2d3926685e6937  1621  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000255 - Análise profunda dos desejos e sobre o ser e parecer.md
+ceef15395f8ff852f8b90e6e5c184f726629032b3b63275d6f2c3aa97b2f3849  1558  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000256 - Ato e Potência.md
+e2f0d38943ad146f3034a276694882d70d918bc201f45a8332b1330034435954  1319  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000257 - Autópsia do Kevyn.md
+0aefbcfd06ec69ebc47139b663f6e33669afe72a8ee12299f5c7802255cb44aa  1423  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000258 - Carta a Mari.md
+f3e3c3f9ec227b51049bc527fd050fa656c8c93c3a4ca85602a9163a2abacb12  2064  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000259 - Chá e prosa, O Zaratustra e o mapa Thothiano da psiquê do Kevyn.md
+ee1e593c93fe3e25720fa9b4325136551690ef1bfab4ca06e00f0b9b4e7db2bd  1586  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000260 - Como agir no Chá e Prosa.md
+671140eb0511b4b2dae280186c2a2abc5f215369723ed2d9c3c21def46c8e1bf  2059  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000261 - Como encontrar um love.md
+cc92855a236645e1fbde914e6f92dc56ab0f9358c061191242ff0fb9cfd59b4e  1978  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000262 - Como extrair.md
+7695c93ba44efe21713835829e3467d4fda1fd2bb6471fb6c08f469dc83d1cb9  2204  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000263 - Como fraqueza dá dinheiro.md
+e07327512b4ccd0e27278e34b31b784dc1da91709f6d7e0ba2e181d3e21e4863  1763  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000264 - Como será o final feliz do atual arco do Kevyn.md
+4c9f436c4799dfefa0eefb2b725a28845bc3637744c68dd60eca1eb3291e7430  2023  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000265 - Contexto extra sobre Kevyn.md
+7235caf5b5c462b3fd19750935a523e92ca127ae0e332619a76b238c7ae16cef  2149  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000266 - Conversa com Freud (2.0) sobre a decisão do Chá e Prosa.md
+34844c9f9b178e79aafaa9fec916d3bb7254c968440cd3ebb5e471d9cf2bf56f  1419  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000267 - Conversa sobre arquétipos.md
+2bb6f74fdec1a6cca11bd69cba2b985f8e05e4e2ca6582aeff49c0e38f6c178e  1454  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000268 - Cultura que soa como Kevyn.md
+645e0249bd8769f3b285eae39c1f7224421af1b0dda2205d7bc8b1f3a9b1faae  2232  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000269 - Diário de Vitórias.md
+93e8fe0aecf089c0ac477367ff7f82b0f0c65a67a06df67809f39f012a2c92cf  1477  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000270 - Dica do chat sobre alguns pensadores.md
+0519d8334ac0adbe675b6b9fc723948070aec09480649e785714cead5a6639db  1851  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000271 - Frases prontas.md
+20f7081ca7b7c20ad8ccae2e1a35b6c060ff2f203ca058828bd24381c586d7ec  2412  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000272 - Gerador de Dossiê de Consolidação V2 (Protocolo Ouro).md
+204ec2114c691dffab92a3ee0e12db8c85d408f3db2ee8a2ad12a9591aaec639  1866  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000273 - Gerador de Dossiê V3.md
+58a07e573cce12df5ac63eb4ddce0e4fa7e8d1069d1986e0a4d2d1a3457712bd  2230  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000274 - Kelvyn.md
+a3c976971a2dae3e517d6dd03cadd8bdda025abad0e81400467ad900bd540b3d  2022  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000275 - Kevyn Integrado - Conversa com Gemini.md
+35ee280025f90d52693727afff5d51dfe845cb70f1deada045b05e0ac5f63c9e  2040  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000276 - Kevyn Lucas - Campanha de marketing.md
+007d588d1b1df612937e4ba43e22f39b0d90e61c67b8cca7d32ff4802f5958db  1825  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000277 - Kevyn Lucas - Manual de Instruções.md
+a983d1346a6a833c5be3c7123899b8eae43fc3b75ee1b91d7310fa59a20d32f7  2282  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000278 - Kevyn Lucas - Roadmap de engenharia psíquica.md
+3f62e2c1c5a8ef017c2f2566999299e156adf49e676f17c03c6f034b2afcd921  1905  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000279 - Livros da nova Psique.md
+a1ede3217b9d3e254b7c4ee1bf90e1914d4816efc1726a60e5ffb5cc859aef1d  1750  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000280 - Livros da Psique - Completo.md
+793dc137b59e1622862c21b92cb5a868a4de33b06357b5cec63dec12de1445ad  2124  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000281 - Mapa Pessoal da Psique Individuada.md
+9342b37f47339fcb25b8637859cd37206316f22b44151ddf5d378979641dee50  1937  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000282 - Mestres ideais para mim.md
+503a80f596f55a0ca70c897ba999ca1b35cd9f924cf5c968f0f57708b7e66a35  2000  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000283 - Músicas.md
+aca07bb06336b5c76bbbf80a7f791055f4b8e05afd79c24f400a5f14104309ce  2275  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000284 - O desejo de liderar uma tribo imortal.md
+81517295fd05116a5224e77e23b0ed59e4e93833d92fe123e05eab035b4cd5e2  1372  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000285 - O mapa da psique e o tarô na prática.md
+4fbd0cd6f29246c86ba0f370e972bcf8b436e653f79e63002d5809e3f450b88b  1364  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000286 - O que estudar (De acordo com o ChatGPT).md
+8e0ae701b151b0d6f44de8e2478d079032eb2fa8224306c03c3f6056796a6a06  2125  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000287 - Onde meu eixo é valorizado.md
+94a3e3b1c383b28cd38cacd54561716dac5c011a07466b860e6cf1780efa7d5a  1643  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000288 - Prompts para Dossiê.md
+f8fb316fd2edc8aa80eecd5a90d48dc718fcc542d3f22c4c5f0be8718977999a  2165  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000289 - Quais livros eu escreveria bem.md
+bdba620de54215c4c4ae91209c6f496a0dff985b827c168e49fa979badda19d0  1631  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000290 - Rituais mágicos.md
+f8bfda25843c23fb71dc275047188311c396193be8c5d4d4146fe42124c00048  1879  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000291 - Sobre a Mari e ser vulnerável.md
+440ce31a6b5e29aed75ee562458a2d6029e66c2a684ee08802fd9555a240aefe  2103  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000292 - Sobre a simbiose romântica, minhas tribos e a Odisséia psicológica.md
+8bb3d437cbc6863eab7a20685e78615c8e48c676d72d85160efb55218903b0c3  2241  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000293 - Sobre a tribo.md
+e99cd00610c516c6588ada018a66a14f783e409bc59c5eab19a1c33bebd89d1b  1279  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000294 - Sobre as placas de PROIBIDO KEVYN.md
+db1bdcc4ca88234732bd01ef31060bf69f1093af532d9bbee5d53162b698c1ff  1967  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000295 - Sobre como o LXV se relaciona comigo.md
+5f26d494599c2b44bd6dfab542561a2e3c9fa61111ed076d090043c09ee18103  1443  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000296 - Sobre resistência e direcionamento.md
+b9444d707b24da1371122a3c494d56d9877beefd333320e2347bea28c35858bb  2292  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000297 - Tentativa 01 - Tarô na prática para Kevyn.md
+c99aea86d18a48ade3c6bfb47c089f551026b197c71ba7fd42744f2996b3d136  1655  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000298 - Texto escrito dia 050126 após uma viagem com cogumelos mágicos.md
+1b62bc0ec5948f67f1e902c5f5e1dbdb80636396258c5842f861c9e7dd96a3f1  1759  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000299 - (Livro) Ensaio sobre a psique.md
+a239072c1ae52ec05e18d1e4774c96e58531393e65ec1f5f3a677f0675e1db60  1560  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000300 - 00_rascunho.md
+61de36ed1e758d74b3b492e4702a84980b95a34c2073d6f15c013c81c1eed1b7  1750  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000302 - 2026-05-23_09-53-25_Perplexity_Pesquise_tudo_sobre_o_perfil_de_pessoa_que_o_Kevyn_é,_pesqui.md
+3ff37d6b5e0c3df590fe118038c30da5e48e3767041e2a9657aa21cc699d278b  1352  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000303 - 22.01.26 às 16h.md
+962cfe6a78ec6451cb89b4c8d6e65f300a468e0da6872b8b0776686e5fce4a90  1456  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000305 - A vibe Rock Lee.md
+dd495cce991fd9484f1f40cc23820f36b389ee2eb6cd7f3a344055c5e570dffa  1866  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000306 - Algumas filosofias integram o Kevyn, enquanto outras o dispersam.md
+25e7012dbb63d907982af765d14ad136e9286a25c46b7fe7a1b509f4a9cd3397  2037  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000307 - Análise com base em sonho e outros.md
+af6dfcdd253a0445eabab7a4ac8bd7c3fb31d73ee97728769372ce4e93b076cb  1920  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000308 - Análise de melhor resumo.md
+675e10d13ec4daf1d49fccf5e6b6c2c0a431c954e6a1be53c5e18792a5faaf68  2025  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000309 - ANÁLISE DE SUPERDOTAÇÃO.md
+553c71b952f290b9a20aeb690c39fbbc9aeae6b030eadc16a01dfb4a7eaf68a6  1581  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000310 - Análise do discurso do Kevyn.md
+307ea6aa04fd78be78083e09e134b1db9b6e104997a3836469ab36215d81a4e2  1896  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000311 - Análise do livro sob diferentes perspectivas.md
+95fb8f6ba5278cdd0ae1797b27f617118019b041e6fd75d0b67d9fc4a208f1b3  2236  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000312 - ANÁLISE FORENSE DA PSIQUE – SUJEITO KEVYN LUCAS.md
+6a28bc40a3b931d37978d8bc350e42ba4ac8adc6419d84cf29d8177e6363b661  1881  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000313 - ChatGPT_2026-04-03-18-40-21.md
+7e63f0ab2b2c8fd1a082c25207e7edcab017dd2457839448f5ecf2bdafa67721  2157  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000314 - ChatGPT-Músicas sobre superação.md
+2946d01858ba81aab68c3050d3597cde01ea81164a7496f8ec6c55d97974c5de  1658  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000315 - ChatGPT-Playlist Fogo e Movimento.md
+3ed7c01db32ba8f8cf1af0ec1a94b93add65e5c2cd3cd66cc7210d618a71b8d4  1956  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000316 - Como Kevyn deveria ler Focault.md
+c3ec4e6ff723b2d8d1993b3b7f1aa189b73a0a6b037b216f339643051fc7c8a4  1182  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000317 - Conversa com minha alma.md
+41a40c084091844f8373ca255d2ff6251d25142062f81fcb0610718218562dd5  2300  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000318 - Crowley E Kevyn - Paralelos Inconscientes.md
+0c3d64a10e02336d092953b828c7852b7fa6cc752b83e28950d21c8edaec0834  1690  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000319 - Diagnóstico da superdotação do Kevyn.md
+451f0863a1e22846241eb3287bacb94d252d7abb3a85c8185c60fec88e559ac7  1626  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000320 - Dossiê Alquímico - Análise e Vocação de Kevyn Lucas.md
+77505438a548eac77c356deeab3d60ff27ec6c3d863e5097c1b65facd161716d  1621  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000322 - Ensaio a Paulinho sobre sexo, vontade e amor.md
+6554e51e64602a40de91ebfef80a72947fad122588762e9df286ef8fcb469fd1  1566  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000323 - Estudando meu mapa pessoal da psique individuada.md
+d29ebcd462db1159064890c5f762adb8c02e00d70742ca0d93ae56de8a1e2010  1529  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000324 - Fases da transformação alquímica.md
+c1994fcee6eb26a23e8ab68821b21163fda927d4c08a9083b93aac2a3467f1c2  1297  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000325 - Genialidade do Irineu.md
+5efed7b86af87294bb70143e9ed06e76aef91e74ed350d7e7f62e1d82ec72165  1349  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000326 - Individuação, um processo contínuo.md
+022c075f3450584e61a702d75293eed12d1d303b33ef9cdedfd12334cea9547e  1305  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000327 - Kevyn e a árvore da morte.md
+17b296122937781b2833111eb45e3bc5e0f7bb5f566f3fabf858c4b0013098e6  1799  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000328 - Kevyn e o Eixo Psicológico.md
+945372c0cdd366ae4feb656adf63417d1b7b4bd25f9bd6c33b5cd717045a3ef4  2086  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000329 - Kevyn não é sociopata.md
+7e39a6c6c1bdf2dc7e01d1274aa2eddbb8100b4e05848c70fbb21c1084bc0ba1  1546  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000330 - Kevyn vs. Renata - Uma Mudança.md
+96c5b7aa84bcd46c7e6bbc37d8bedadf6522f308d5b3506428e267ab5e60be9c  2174  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000331 - Mais alguns insights valiosos.md
+45617ceec980617740248f868aee241ecfbc7c786cf7fd9f6cbc454fe68e87f1  1830  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000332 - Mais uma síntese 360.md
+8b05564e9dd52236b7e38b6dbbfd80ae0663f17e02a6b170d8621e1b9e39d357  1636  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000333 - mapa relativamente completo do perfil psicológico, cognitivo e comportamental do Kevyn.md
+ebf6fda672c2a23f2eca24703e2151aa90e2473c4cd38a56be1bb893c162061b  1796  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000334 - Nietzsche, Kevyn e a Fuga.md
+268adad35fe8a7ba0e4755e65f978c3e53146e1da5ad86c98bd71b5b0d8020b2  1879  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000335 - O aviso de Zaratustra.md
+229f13f2c3558c1222f12a5bc3208cfa747066d59d78dfe4434033daae5099a5  1749  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000336 - O discurso não substitui a história; ele é parte dela.md
+c9b944f7ad13647e67e8cdc4eb2093f52df627261849aab877a7bc0bdd14f204  1954  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000337 - O Kevyn individuado.md
+71eca7ef616a107bcaaff1be6aa15c4c536f67d65eb27423c2dbb71f58884265  2468  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000338 - O que está latente em Kevyn não é um semideus; é um homem inteiro.md
+721edeefbd322eadab235faee05ba56d59854815488c352a93122deece327307  1610  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000340 - Pare de se Explicar. Comece a Executar.md
+08be9e5a76536d8d0cbd0105bb8e97b13d0251d14071a769d6b5e1a0d5c63979  1796  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000342 - Recuperando a projeção da Mari.md
+a66ae29738575e9c7d7d869ca780194fdce5a3dc60b47449f14a519a2ca9425e  1541  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000343 - Reflexões sobre as 72 faces.md
+712a1bf4bf5b361356fd807481d74c88335f3a74a000f434111170a0183e5ec0  1830  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000345 - Sonho do dia 30.01.26.md
+2424599a42f74ffb1e43caff05b4c2085343c09ef8b3e329a7c7a45503b09ffe  1885  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000346 - Transcrição de insights sob efeito de santo daime.md
+e1763a1073c22aa1cb97c2cb241ecd8ad25dc094436a2e3d7396d59a62cb5d22  1632  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000347 - Vontade. Que palavra grandiosa.md
+68750cebea1239e7c3ee5e90e7a085ce2d195ef83026b3dc1a70eb530ee07023  1813  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000348 - Zaratustra analisa o Kevyn.md
+a078abf69ea026126c14d8553c5ac859b6ec1e326bf11de3d3c52181a1142753  1909  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000349 - Atom.md
+7af09b8e17a4d97047786d4f9fb173107bab94abdc2e58fb724e0437bac57eb8  1319  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000350 - SCRUM KEVYN.md
+d68e2979ab661e2ef288777acfdc40c222931dfb7d3d1f35cdd9aa61dc9f82cc  2040  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000351 - Passo 01 - Cronologia e fatos.md
+994d3a3bd5501b0691f7a82cd4972dee7f71cbbe7ddee9a3641be3c9e229762e  2083  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000352 - Passo 01B - Cronologia e fatos.md
+dde2e7e9e65688d882c526b8b9e536f9baa55a02d8ddb89cb1c46cd3b04cdd60  2250  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000353 - Passo 02 - Modus operandi.md
+1c7bb9538f43690e9256544b0b5cbf0ee0531b17a17f9a88cb2fc76c2030d6be  2097  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000354 - Passo 03 - Anatomia psíquica.md
+af71c6911822671f17f476169c96871dc23ac11ed24bdcdf0593e70bba1084d3  2248  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000355 - Passo 04 - Autópsia relacional.md
+73eb0b3d398118a35cec6768ce268dddf42c36acb96d48e72ab5743b203b7170  2213  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000356 - Passo 05 - Tribo.md
+63c12652c504db912e155fe45ca2c7b4717b21a7bc69778552db12646f93dfec  2023  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000357 - Passo 06 - Luz e potência.md
+7a29b87b062c46c2827bdaab809e34c062b9f25aef12277251ae416c1e4b5f29  1960  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000358 - Passo 07 - Glossário da psique.md
+e2fc02ffd270281512db6c3da817bb3925575cd3679f0a7b7eccd10dd0ecd715  1841  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000359 - Passo 08 - Varredura de lacunas.md
+32e2b9ef4ddcdb60a47c9ef5debd9cbf6264a0dfa894b330f02612f51cddbdc6  2176  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000360 - Passo 09 - Síntese.md
+5630612eea79a616bb6d81d12afba4f99251d66312b0a89104ecd0238f952e75  1391  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000361 - (PSICOMETRIA) Essa é a palavra da próxima era da IA.md
+079c9f7a748c0421ec9788c713a47119b9374326524939110413ceab41bff6b5  1393  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000365 - Afazeres 2.md
+a37bc93fe8616967327e0562c3a3bff1cff0d8a9dfcf5776306b26ed4297b6fa  1900  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000367 - Animação de Personagens com AE.md
+bf88fd58610cbf50c317c736384970eac1e0fef22f6c24bebc927526caa45ba1  2008  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000374 - Conversa com chat.md
+4b91c3389f0c5dfe856f433005620fcee8dea18be8190227d7ef2a36a1b9816d  1230  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000377 - Estou fazendo.md
+21d7cd87063cdcf75a0ab9e7ae8f58f01fe1d5c39ea45ee568412c9e3b82a0d7  1368  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000378 - Finalizados.md
+1650996d049bbd57daf7911b815f964221de95669d4c6fc9040097b82ab6d96e  1828  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000379 - Danilo Gomes.md
+5a155335a374cf46e51ea08eb037b322116a8e2b954eaf3ea6d9c24740ca8d0b  1787  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000395 - Notas, Plugins e Scripts AE.md
+a35a2d4f26b18298ad23eb5a18948884b6d92311bd93b848f73b47da2aed73fb  2819  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000398 - Pasted image 20250204090427.md
+bef9bfd00012fb5fc4a05ace5848fa56a57152e7f3a03977a7d8ae7f245b18c7  1239  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000400 - Planejamento Hoor.md
+6af8017dc72500144e8f217889c5d2abd32d41b6d2bef2456e690c0d15bdeb05  1247  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000402 - Planejamento Trismegistus.md
+b8f5d47d998148977e48106f5d46406d6b69e3747a77bfd62fa5a323f457ffd9  1373  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000413 - Sem título 3.md
+447d2c3de9faa5067f49cc01d2b412e12a14237749302699fe9d6b2f7faf8a22  1529  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000432 - ROTEIRO BÁSICO DOS HINOS.md
+dd730721f28549f059422d14bba433770bfa871f616f0fbbc07b36ad110966b4  1137  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000440 - 36daysoftype.md
+daebf5ccf59e826e6966dcba95f3ac1aacf59e510b3de1feef918a93c6c65d90  1256  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000441 - A força da obsessão.md
+979c7afd35e1a3df71f1c96b2dcbac9a976da26af14d779dc1ec747dadeed7c7  1556  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000442 - A república de Sócrates.md
+d427b8ffcd907b5ff918b13abd2a95861ba8cbb5d3d0d7e62ad0e9554dda624a  1460  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000443 - Acompanhamento de Clientes.md
+5ffe007245ae9d3c9f87f0e8c42db9ed907150ba4deb82e638c0281746c4a4e8  1639  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000448 - Afazer 05.05.25.md
+f3ddd1d3cf70b2a6e6f7a53045833cdb65d01be52d37c5e3c06dbdf34a4ec1eb  1462  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000449 - Afazeres espirituais.md
+893d58d8eb2101e6d491852daa55938db947731c369f05c6ad544d5d4b4912cc  1459  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000450 - Afazeres profissionais.md
+ffdfd156d60ef1e990ac6f0eeca3bcd9695ee46bd7c0ff44f52ac139bcd531cf  1763  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000453 - Ágora.md
+6eaf78afed5550d605bff92c8264ab36d587613114e78dc8a1fc72151572075f  1654  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000460 - Análise de métricas.md
+cacdba85d1f50ef1c1ee7668ef92609a5b7ca9f211f38afcc1f016c6bd1b8bc0  1350  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000462 - Andy Ramos.md
+83c51c652704d39000b4d09dd4256b8526346417fc1cd7aeb1c4c257f3efbba1  1491  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000463 - Animação de Logo.md
+6b592a4213518cb51b31edef386e600511e82dc257247218413ec47a494954c3  1301  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000469 - Anotações Premier.md
+640ce0fbb52c32d4406baaeadca34245747c8c00ed6e0493ec68e2bdee3c150e  1465  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000472 - Aplicando uma textura que baixou da internet.md
+f66d9beda8bbfd878534a48d1d8e2f9f0a321eea503e9fa5640c451c4100aa17  1355  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000473 - Aprendi com.md
+64a147b123fb38429b7742921bf48664545a4bcace98735e5c67b9536f348a2c  1779  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000474 - Apresentação VTI C01 BDI.md
+6dccb1a6b25f99faa8179c57067b392e360fde852bf9a285cc2e5f04b684348a  1363  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000475 - Áreas de atuação para Motion Design.md
+9a138b71043b2e905f9aeeea372e75605f0dc3512ff49c5a15a19140cadbab7d  1641  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000477 - Arrume a sua cama.md
+868868ba4ba6e8d442d4dd8e1008e30e9408e41c75c6f92badb8bcdec26e0953  1513  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000479 - As invocações ao Deus e a Deusa.md
+f7c96e160d3a024c54781c24039972fe0b86fe608ae15289233ac34a266cc7a1  1483  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000480 - As perguntas do Programa Centelha 3.md
+4e625833dcc2fdfc1483845f2e4a5d2b669e6f3256d44980a5e77f792e4a6321  1385  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000481 - Atalhos AE.md
+67367c805aa64d7fbbd4927c0ec1619417fce288564940d7e0feac072ccecf61  1349  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000484 - Atalhos de Seleção.md
+94d540534836579e6ee3eaa500f409fc844c75655e59dd8f37e0847183665358  1483  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000486 - Atalhos e Criação Rápida de Composição.md
+582709a8da13b427be32b4d009bfb81c4ba8068a225caf128ddbcb9677b47992  1395  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000487 - Atalhos gerais.md
+8caad03825d3c5d4d88ff9f24686c44fb2eb969067346d71fd932897a69364bc  1376  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000489 - Atalhos Photoshop.md
+e09064fd08c84969f296ff56cc06fcc57b9f2a46e80d802dc054538e3420d90a  1945  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000490 - Atalhos Premier.md
+34d30d2c5f4f3b4145a48cfe759b3369d8cc22cc9de89626e3d647df23bacc69  1206  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000492 - Áudio e Mixagem - DAP 2.0.md
+5bda404cc8581886b345987616cdea04e65f7dfe99ecc7c6bb0675487b2d3aab  1560  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000495 - Aula 02 - Mentoria Brites.md
+3c0c13f79c2e46b5b6da088e109e424c8fcfe84f54f5555a780da7c340f56410  1537  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000498 - Aula 04 Principais ferramentas.md
+37d8c2f076f3d5873befb1749b3f274ebe0c63307d0b3ee09e7aaa7807ca57c0  1656  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000499 - Aula com José Amorim - Aula Secreta.md
+148bb3dff54799f5c3ac6d088dc9279a5bca8c27c36e1a4ebc347514e8af0030  1287  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000501 - Bancos de Materiais no C4D.md
+c2d6914093159a4f08bf430a76153d620d433ce8f347a781f746d692591ad9b7  1307  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000504 - Bibliotecas de áudio gratuitas.md
+d7bc9288e13c5277bb04b39101427d0c9eb183c26285cc107c0e02a813c1b25c  1487  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000505 - Bicicletaria Dois Irmãos.md
+fe2b031612f7d52ff49d623797de273a67967e962e97770057b427f4c750bc0e  2256  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000506 - BioVision IA.md
+9907e264971188653c1703dc98a5b8fb0b9c0506e108230b0a4608eb3e2e4e7b  1184  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000511 - Blogs.md
+7e1403074efeaf8dbb95a2f703adcdbae9e3e63284e3927651b9fb131c416aa4  1442  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000515 - Bounce.md
+475b8c751cc1bcef898142f868f2253f556885d4bc84f52139f08e7de5bdcaac  2061  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000516 - Branding Hoor.md
+00d9cd485f91afb850a12697a5de222b82bab32913ab620a2fe672701feb3089  1546  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000521 - Bruno Sousa.md
+43754ab9b9855b9982037c640bfb64e8d992ed7fb7f283bc96bf7095eb61df3c  1369  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000522 - Bruxaria Hoje.md
+4cf8315480998759bec3277379ffb87a464ddc1e680f9c6e4496bea411574f4b  1635  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000523 - Bullet Tags.md
+d6f78a0dfe3c76f00e6191e80cedf23571c2c6f88f6f5bdb92f72afe56fc4ca2  1212  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000526 - Cacau Show - Shopping Rio Verde.md
+6910c48db915126585d3f5e8f4dbef576b846b28a6f6ad46f7c404ae6e21c982  1403  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000529 - Câmeras com o Octane.md
+36f3df00f2e4186f80e950b76b5828f08f85a1a5801a9060d582f7b6bf0ffab4  1302  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000530 - Câmeras e Renderizadores.md
+414ed371c81e72bdb43e9fd1ee3270193684fb531f7816f7b9918c6834cb5ba8  1346  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000532 - Camilla.md
+c206fff99e615dc98790df759ffd63ecbb2b5f49dcaf6c0b1d175a6b3c2d2a34  1361  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000533 - Campanha de Lançamento - Óculos de Leitura.md
+71b77e225efd187299ac73fa182bab68cacb3c05206a61e5f775a6e2255fdc58  1677  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000534 - Campanha Panqueca Power.md
+50cb9358770d67121d5a6735ecdfbc49467694a8475567991b9e6a3c87c4f3be  1580  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000535 - Capítulo 01 - No qual Marcos teve o sono roubado.md
+9e4ed468ca3623e426514fb45475ba41032ff1a8292185401f994f28392f5a5e  1433  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000536 - Capítulo 02 - O circo de gatos.md
+f787ab7d1bd8255ca4a3bc495c2820cbf48693497be7ff523e07e3e8f9ee7f71  1495  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000541 - Certa vez.md
+ffc76d8395e91e3f2e0eedf24bb716e83645176d6bce7fe0d9d04b01ead3b178  1342  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000542 - CEVC - Adobe After Effects.md
+3f60cf6040cc4af72411afd2cfa4575a6eb24c85e2f897d9eea0aceb271f6941  2039  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000543 - CEVC - Adobe Premier.md
+e3d9de55d29dac99cf9cfca370131d4d59042bc34baf5268e5979b25386ea85a  2101  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000544 - CEVC - Cinema 4D.md
+df03b5a44f657ebf6da67c39fe2689a662f6e8be1999a076bd97047721186348  1698  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000545 - CEVC - Rubberhose.md
+d000709969f45dd83f3fe3efce49388c39405a12bdfda12a41c30e494aa24991  1305  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000551 - Cinema 4D.md
+1cc03d46a987ab32e3b103a95795d1c610ac192990c0e7c8ab6093cb31a8219b  1150  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000552 - Cineware.md
+c5241637244bcc1892bd824d3383ec4a34f5bd45c188639936bc3110558cfa30  1390  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000556 - Collect Save.md
+e5b6ee3228f2548fc37c98a9e999b118586e205050eff05b2bbc04fbb1ae0d8e  1423  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000559 - Comissão por afiliação.md
+953204fc670f3cdda240ba03242668bcbb358d302fbe70874d3b418d098f5778  1447  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000562 - Como configurar um PC para trabalhar.md
+5389449fad83766bff07f4d73e9d990b44dd273bb25d1ee268a3588aeedae9b9  1391  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000563 - COMO FAÇO.md
+ed29f06339ec623c02967e0a9d0c4fd6f773393c9f84ceeaa4f65d29c1ae72e3  2082  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000564 - Como fazer amigos e influenciar pessoas.md
+da8762f4338a222fc10680782b67b87dedcbeeca387db377d62e7db8dca85a3d  1334  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000565 - Como fazer uma Spline ser o guia para o caminho de um modelo.md
+6dda4a2ecbdee9eb3b3c7339cbdeb2436cdb5f1339be3c97bc7759106792f7c2  2079  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000567 - Como ganhar dinheiro pela internet.md
+6ae6a806ab1f1d555a83afe22dfb2988066119e5fc234f0ccee84e5bab5e1df0  1748  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000568 - Como levantar dinheiro.md
+329a4bb931bf4c8a81d9c7bf3007119b435963adfd02a5176028e8675858ff46  1695  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000569 - Como melhorar.md
+e20e2c461c03d6cdd0881bb65f764e1fb22dd979b2b9150cde700293da892fb5  1453  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000570 - Como transformar qualquer logo em 3D.md
+ae5de35cda3c8c8527bac40c6dce93e9950dc8de31a9dc085c6cbb156dd413e7  1214  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000574 - Composição e elementos no PS.md
+bca186ebe83623eed4339057f59f9a00589ad10cd88ccc5f61a56d2c379443af  1257  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000577 - Comtatto.md
+5bc3c67272cdb668c6e290323238f19344ae69fbb2e923da1c9ec2a8b80cc0bb  1694  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000578 - Configurações e Boas Práticas de Render.md
+cba687957b9545a6fe73dbeb253c367ce237e2480331d0d8e403ce1f65c5fbc9  1568  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000579 - Conforto gera fraqueza, desconforto gera força.md
+6dc5a9caac158c23c351ccc87b16f8c274620a05cf85e049b341956498ba907f  1197  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000580 - Conta e senha do Proton VPN.md
+1091a699cca15e85b7cb486b1147d02611f1d54b5e8c81b42b9604c68b537a8c  1178  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000582 - Contas de Contigência.md
+a19c9dd4611287772d0767c112c3be5d32871dc69d653ecb9d8a446d86b84ae7  1372  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000584 - Contexto cru.md
+fd82d2cd1eaba65c933786443e4e2727b899367647f736c8430f6d7f212fdd1e  2173  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000585 - Contexto.md
+3622029500df85e8739070afde875a68ea3085bd42149e510a4f40f5daedffd3  2243  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000586 - Conversa com Thoth sobre a Escada do Aeon.md
+554e0e28aac8377b97e93e6c8779cf50790481595fe774cb2bf712bc48702d94  2279  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000587 - Conversa sobre meu Segundo Cérebro.md
+49ad37710a872094def25707c2c52f634a00cd47109371104f5c2c4680573b49  2155  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000590 - Cosmo - Software VR de aprendizado imersivo.md
+82ee10681909eb6a78c7dafa2ce3c3b97397cdf643c736e950b44f3f5c286836  1305  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000591 - Criando Camadas de Ajuste.md
+3c30dce54f4da25af648594a6a6fa71cbedbc42682cd28b4ac737eabec5c09f0  1874  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000592 - Criando um criativo do zero.md
+e72aa7b7e21c9acfc38d30c359872124caca29655bddf50cd5eef26c74903b24  1934  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000593 - Criando uma campanha simples para afiliados.md
+7021eac16576d4f1c615f4351d0dc666aa5a75b2e88f2051abfe0f4772a0987c  1509  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000594 - Criatividade e Processos no PS.md
+6e319e09bc3a65d1d03247b2e25a67204b69c9efdab741ad2b625488888dae11  1329  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000595 - Criativos Pro - Stories Animados 2.0.md
+bb1caff3e6beaf17d3728f6c827fff10cb10327e194fd0c5a0a0c96810465d58  1158  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000596 - CSA segurança.md
+06f1aa56c84fe541b4ed43d61f387d77b0df753fddf4f0d5284cd16c3d5846b3  1702  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000597 - Cultura.md
+3e298cce662121b2f305f828cc571e8275d6babb0f1566369a4ad5f2720c9eec  1176  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000599 - Cursos em andamento.md
+7ccf48b12db03e2921367b457542b08683f0868c7196bd327b7922cdf3df373a  1459  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000600 - Cursos profissionais.md
+8d6e7dd19a7baccda951c731d3d1fc77a6c60e8c2e3a3d58bfa64ba93fd0a095  1342  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000603 - Decupagem.md
+7043b0ac1c89ef20e98df3178f086013dbd4c03059564cd08f4b81ceb0a6ccdf  1346  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000605 - Defina seu público alvo.md
+629d52057a4be8b12ea7d6ec0c5f1ddf77525919a7cd14087f8c29a98b80ca7d  1123  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000607 - Delay.md
+de7d2771b6da8b04a4a0632f542528febfd9ad09ed3484fe69b300066c7002d0  1478  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000609 - Desenho de letras - DTTAP.md
+6f51f1e644588f371fcd356e28432455e5352fe27f6f2c98767a34701c3764f4  1346  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000612 - Deslocamento Turbulento.md
+6caaf5de035cf9c89dafaece696a075aba1833e748400e24936fa785e40f840a  1335  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000613 - Deslocamento.md
+281bd2af31550661f6e9054d9c93c1ceeedfe368a85537d95776aac2edd5d407  1432  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000614 - Dicas Adicionais do AE.md
+3cf161540b265cfe4ea0f6042d8a2547f3b4cb9018b71ec971db270daa7eba98  1818  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000618 - Do meio fio ao volante.md
+3fbd58db9e073a6d3d5746babe2fc1dc35c15e4ae2464b1b99e39f67d4f4226d  1640  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000619 - Do meu livro.md
+0ebe453567fb13dc4f210015844a73d2132568e541a374706a333e93ef1f6d4c  1741  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000620 - Do sagrado.md
+fa8bfbb918ab25dd0cbbbb39cd96fe37ab0a651ea751a524db4b94ffe9a63c22  1369  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000621 - Dominando o Adobe Premiere 2.0.md
+ee621ebb820667193899722258f8e7b84405c109f1ae31bdc79208acca28b67e  1209  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000627 - Ducking na prática.md
+dbb2a650b17fc776140d6c2fa94ec9ad955f6cc02361ea84364586522fa96b25  2383  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000633 - ECO - Plataforma de Agentes IA insanamente ótimos.md
+ed64a6a1c61e6881e928d57d59f1da46c216d9e6d7d036b4521ecf113344bb22  1383  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000637 - Efeito Parallax Rig.md
+3bb7d1b97bbf38bcceecb83592af71cc471f4651836ee0790a0de1f565a1ca21  1262  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000642 - Efeitos visuais no PS.md
+c3f7e61837eded0132ca45d02b87cda2cde7a4ef307e34d2ab995856f65e94ad  1383  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000643 - Efeitos Visuais.md
+618131e8c633365f3644f60309fa21e98c58dd24ff2541b38ef00cdf0b44ec26  1346  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000646 - ELAMOR.md
+53dd10b2923856c31fcd05ccdb3080b7da4ef3178f09fd35bc0928b029fd2407  1562  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000650 - Ensaio sobre a nova doutrina.md
+d15b5e10e2c0a2deb0565c3b6c6e4435ef332175837bf3208406b693b1260260  1489  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000651 - Ensaio sobre Modus Operandi.md
+901191448e8831d399e4d7c30ee985d273743baa6ba51e606b7274665eedcdfb  1220  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000654 - Estoque.md
+6c37e420714999e329e78f4b5175241854b82c14f2e67599e523bd3800d89b25  1169  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000655 - Estou lendo.md
+cbb8d179c2613abd4b2a40bf7dd5e2f89460092e5798afbc67bd2628ceb6e31f  1449  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000656 - Estratégia de Isca.md
+58e514d39015e9e37447816bdf11c4581504f3b47bb5467b87d3cb969b9131ba  1997  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000657 - Estrátegias de vendas por AFILIAÇÃO.md
+6fc08aebf8f3ab9908b804d0d6d60514d2422dd86b159fd81a7e7df6c3c90d7a  2342  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000658 - Estrutura de uma Agência de Marketing.md
+dda98064cc77733806ec863d5093ffbb5aaf0001d595a8eb63718137497f593b  1317  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000659 - Estrutura Libris.md
+b75d4500988173a6a58b038780a00af4811dcf4691bf8b4de0da243ddb9bf678  1528  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000660 - Estudar e fazer isto 13.04.25.md
+3d488f4c51c2d1655008d565c7225d6b80dae39c54d306e6ca179e4d1107c1dc  1945  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000662 - Estudo copas.md
+f2524a75ff8103ab5e97056cbbadb2af2ca88d79bbefa11fb31ccabad807d2d8  1522  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000664 - Estudo sobre a ritualística Wicca.md
+c682457e16806b634d5d0047b8c6be350c2d0925ad8fcd6317df0f703bea5309  1958  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000665 - Etiquetas.md
+4c43a061ce21812bd31ed829a7b3f8d68c02c3b473cc5ed4039a5daa90e4bfca  1433  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000666 - Eu amo Vendas.md
+9e5afb99063eb13203bf627e3a5e99d0e2c2be35ca1cac14e9215b66a1b6f915  1503  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000668 - Evite esse erro de principiante.md
+0fe06b084fb4a583ce0faa1f6481c4bb308c281ec4931772d6ffe0729939e0bc  1987  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000669 - Drawing 2025-06-02 04.42.45.excalidraw.md
+3fdabb8cc37658fbe25d5131f5bbfdf24f161616d8e9ba78244b5f25481c1ab6  1399  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000671 - Explorando a Timeline.md
+b15bdff48e232071eb1bb75ea66c53094327fce9d3f007e95b78a1ba82942f3e  1424  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000673 - Exportação em EXR.md
+407bf459d0b49190687db3f8591e85cb84e0d1afa85f83047026caa2164f65ac  1384  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000675 - Expression Control.md
+4217c19f863ef9de9ca64d0b24c5d2b8e4349372d851f5352105ac798d1b1507  1464  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000676 - Expressões AE.md
+7d97c87e9ebdb14cb2d47fd903a433b9431c596ffb709d20dcf6dce16b38c8a0  1693  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000684 - Fale viral.md
+0d2234c3690fd57b25606807e1c377640edc68a25487672d85cd18d2c24056b5  1180  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000687 - Fernanda do mercadinho.md
+bdeae9ae8664dea87c7f8ff4eeafcef2915cf645cbfd887e0be6db1ba915470f  1240  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000689 - Fernando Magalhães.md
+467afd3bc45e22b74ee341cca1b6685020553bec67ba7143cf2c0e0ee6bba56b  1274  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000691 - Ferramentas que utilizo.md
+4f87368b649e3671eca2fc6c2ecc291759e9dc461be6e345f2a7f341975a1d8b  1492  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000693 - Flávio e Fabiane - Rio Café.md
+ae45453a70dd463dde9322600e974bb11211522e53c2471ec880f05610b48f56  1178  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000695 - Fluxo.md
+9db52274bf7aa1bfc2631673d7595066e5cefa49c8c6fb1fbba8c2ebb55ec2a9  1346  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000697 - Forças.md
+2688862a3cc03afa66aa8fe3675322821efb62331aa0746e6d86ba9c8205fd16  1213  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000701 - Fx AE.md
+276b7ef8000ff902147c7e764aecd0a2b9df86c53fbc214e02f5c25999caa4d7  1319  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000705 - Gabriele (Solara).md
+3806142945a490219af9fd9dce5139889c8af8764eb98fa844bf91117292d2e7  1226  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000710 - Grade Curricular.md
+8f0493a62c98354f84cc8a2fe091466e300b0c5bc1c360e02e1c98a98e34ea08  1460  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000712 - Gradientes orgânicos - DTTAP.md
+3b76b9e55c3fe08932ae06b279934bf8ea5e399b5b3f188a82d886480a8bb27a  1457  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000713 - Gradientes RGB - DTTAP.md
+d3275b420388b75f8615d344e98aeeb78fd9afb411fb75351a854d35f0b20aae  1483  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000714 - Gráfico de Velocidade e Valores.md
+7b950c37c1d83ff63a0ccf2d616ab27bb6541d906c82f06136a638f4b2b09c6c  1702  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000717 - Guia de tarefas.md
+3f804ddda5c2e0e2e9f95e249dccbbd0daeb09659f8433c7f43aed2e0db8d5b5  1880  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000719 - Gustavo Carletto, vulgo Gustavim, vulgo Guga.md
+cc007ed6d0721f1aaac1bf2ee13b7437ea670b2cfce458f25deebbed717eae15  1391  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000721 - Hans Muller.md
+a0d3f84d348807cb47260c29e0021ca05b957d3f6484986a35441ed6f91a77a2  1896  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000724 - Hefesto.md
+837a458462a19485656c59fc92d00a0fc080c3282ace83e5f459650a4083b4a9  1222  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000725 - Hidra.md
+ab28fedcda345d8e0588ba3c44efd75153fc37639ba33fecabaedde8443fb0b0  1192  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000726 - Hoor Digital.md
+d24d034ef5860182e0909f6b088a5a7976de8fbcedca15c27d44e22a496a0330  1430  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000727 - Hoor Vendas, uma introdução.md
+e98b91a72405693e9e9b47cc7c6e79ec12fad58ffcd656cfd561b278845fca17  1649  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000728 - Hoor, um sonho.md
+e60b62c7460f10420060c45c2f344d9107b33e55694ff652ff71203d58bc2c54  1406  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000733 - Ideia para uma ferragista.md
+f089dc6aa56b4561a0a691d389b15db8179be3a1db7d51cef0c100afa37fe85a  1248  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000735 - Ighor Barbeiro.md
+819b45cb01b6129344644f7a85edb891ed7b49e8094947d9bf1e110600744809  1273  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000737 - Iluminação com o Octane.md
+f320dad545d1d844975189dcf90bfe56b535fdcbde357bd58a69c256db0d778c  1597  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000738 - Pasted image 20250602021155.md
+8cda769e029883e94d82c5badeeba9abc213f9a59b054c54d65d3c5962b30617  2801  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000739 - Pasted image 20251011153214.md
+6efd4fa2ea4320ef3118e2e285cec350b0cea5c197d6e988a63efbc517549e5a  1849  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000740 - Pasted image 20251011154832.md
+a5ad8810929f48ad58bfbd98d3de69e0a059272ca9e438f977829c728bd90f9d  2775  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000741 - Pasted image 20251011154942.md
+188dab0131881be333e168fc27dc7cb87afdf2dcee69168d527324308a138a89  2392  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000742 - Pasted image 20251011161025.md
+02bdd965165a0c50321ec1a9921ee30c6467d0c09189cd637dfccfe5f06c974d  1613  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000743 - Pasted image 20251011161341.md
+13595fa1161c424ac815f1f02728a8f67a4b43cd0aebeb059344ce783b22a8c0  1589  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000744 - Pasted image 20251011163225.md
+c38c08b74e7ec07628b15d5d004c813845820fe6e55c7a38b7eca83520cc31a5  1737  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000745 - Imersão de edição de vídeos com IA - Tales Ramiro.md
+07e94f38592e4bb555b0840e19795c67317e53f8509193daa71e985a63977a58  1355  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000748 - Infográficos.md
+7ad7d5b3a089fc52a420c9187e36abe5b6d385ee7ad36112c6c6151002cb27bb  1883  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000750 - Insights sobre Google Ads e Afiliação.md
+162ae10cb3b003f751fe75a6dc1e9eb3258f329dfaea7ca4c0698228925e0642  1296  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000751 - Insights.md
+84f7050c89eba715a5a38542762aa3059296c08bc72fd74d0ef4cd7e38e8053e  1513  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000754 - Inspirações artísticas.md
+55cf96d115a2291b663a8ec7ec95d0de2da88f59043b3966e34aab774f29c687  1258  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000756 - Inspirações do Yogo Costa.md
+18b481528a9e372614083f968c70d75ea7c37b7fe69b819097491c0d3281159b  1327  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000757 - Integração com a Adobe.md
+215f72a83ac7b0be77ede45503a028b4c97db61e7c617a8c25671693ca91c7c3  1407  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000758 - Integração Pr x AE.md
+48d33c3cfe6366641fe947ee5dde739c441123ee622ebed8f88cb50b2109071f  1440  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000762 - Introdução a arte generativa - DTTAP.md
+c9054d8cd6be082fb996a13563a80cb7b28a0a3128ce35af8fdfd85ec088ef8a  1993  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000763 - Introdução a Mentoria do Brites.md
+89a6a364c6888c96c52e18c67d069730716c4e983d7055cc516525f801e5b215  1388  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000765 - Introdução ao Illustrator - Aulão YT.md
+43edef97390ed176d37bf3eae30e74e02f52e8bf51844344ee385d699f854c6b  1552  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000766 - Introdução ao Liber Hoor.md
+94dbd258a2757c81fb2d1b9c6c9862d189427787e396aeafc3881d6a48a3e6c4  1248  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000767 - Invocação de Cernuno.md
+50ed9cc78b6764e059fed35cafc38eefd62e91126153436474afc4cca793b7a4  1339  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000769 - Isabel Pavanello.md
+57199f750d8df07a8832fb52f1dd64425c5879d61af7f8df56f1b04b892e5f81  1285  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000770 - Jornada do cliente.md
+d6c74b31d981b10136915817eec167e7a4da89def278bb05785dcd68fd7c4616  1702  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000771 - José Ricardo, vulgo ZRD.md
+e34b35c61f09dd78154d343ae3d1f2ef63777332a2ea21e34176b2eca12b7c33  1540  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000775 - Kayky - Italian Sorvetes.md
+d2c30e3b04b549f33af7861bec590f91113cd0d4ab478e7145f38764e25ae381  1264  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000776 - Keyframes com Câmera Ativada.md
+2d2acfacb6da3ed66468e1de5025a3734c5f56c5a2486fb6b0d533a0a88f6184  1404  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000778 - Kinectype.md
+97efbbbd1b67d440b6188946e6041d3b333941317523fabf12ad8fd930892030  1127  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000781 - Latte Art.md
+499c32021075823b6e785f08f237ff2e5e16fdee7b43df42611aac27a38fece2  1219  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000783 - Lei de Mason.md
+a0b10c11f65ad36031832944edcf9e35f1aa8cb932bfdb6a2e5a079fc08f7caa  1510  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000784 - Leitura autoral - Escada do Aeon.md
+7b7c5db04702c714f7f7ad5ea38270fdd5091172c6b6ebc844a34fde57042dd9  1295  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000785 - Liber Hoor.md
+ce523d6b663b976035d7de34a89b28116327df507301da1a9a983ce6afa9c57a  1287  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000786 - Liber Marketing.md
+6ac0437dc6f959304413816c4904c0f2120461a7374be7f0d55ce4348ed103e3  1129  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000787 - Liber Nox.md
+caade53efb5038427b5d712e801e2b0bd24d3c5190305b9ecb51bb4ea1543e7d  1423  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000788 - Liber Vendas, uma introdução.md
+093a19dfa11cf5ee8dffa21daf51bbf8fa6e8ad336b4587c6c78701da196f8bf  1371  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000789 - Liber Vendas.md
+d66378c40211aa755a6453f53485935cb3675a1f2d4155828766fcabea1e474b  1347  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000790 - Lifetime.md
+0858117e18379bb9cf879e345403d86e438955b12f72e8554d37ef668acb2bcc  1321  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000793 - Link de afiliado.md
+026c66c713bcee733a1c663ff0763d3312cb29a83bfb7572448bd43334f9fc0e  1341  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000797 - Livro de Toth.md
+6b42d64db592c9eb539b76cef9549f86e3e71a6710ad09f9e574e251ddd2f9c5  1694  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000798 - Livros lidos.md
+c8428cde890c7967f169910fb5dad9eb81985d78754b6fac0400998ed2bd5734  1378  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000799 - Livros, cursos e outros.md
+b1afe00cc0a2b61e433f40b2e5e3112cc1bd365d71916750762f6a9b4fac9ffb  1345  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000800 - Logo Thays.md
+95b787f0efbeefb35489b07e386e9e4c76a0d9d7ef2c8f7c08a260d88a6f1d40  1514  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000805 - Looping e outras propriedades de animação via KeyFrames.md
+92e0bf55011603ad3b8e40f84f8f19ccac27259776320a00fdd56330255fe537  1787  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000807 - Lucas - Só Vidros RV.md
+a12799663a17cc99a1fdd16be7743dd0a895ccfafbdf9f903627c74fc91fcb26  1856  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000809 - Luis Barbosa - Lojão do Povo.md
+881f3edcd2a3a8b86df9aaed6241f0bda4f4a121eff4b7b99cf08e31bfbc9c87  1435  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000812 - M02 Apresentação da plataforma.md
+7e4c37409918cd63b6ff6ae61317855397c039afe24180e6b18d56979d62f729  1304  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000813 - M0202 Como criar uma composição.md
+e7a50318cb79c5dd2c875138fe31367b67fb73a4f908484a1f417dacdc7423bb  1481  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000814 - M02A01 Apresentação da plataforma.md
+073c8b06eb9203cec07ff58a1e1f9f3bd991e06f22aadda10b81f754f14a270c  1532  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000815 - M02A03 Opções de Preview.md
+b400bac66ea5113a6ecd130650bb11b4a87791d09030436b6e791aef4dd22939  1455  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000816 - M02A04 Propriedades da Timeline.md
+be00fcbee5930935ec73e079ddb0a6bc2ee893c5fbda298a7981ce314900a787  1395  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000818 - M02A06 Tipos de Layers.md
+0dd403fcca48811854b3e2fd5a1bfc0cdc81d7c8165f2378eae3e7f34596293c  1527  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000819 - M02A07 Importação e Gerenciamento de Arquivos.md
+104428289461afab2a065bfdd51e847422537ada3310b13af0d3a0e978aecf11  1446  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000820 - M02A08 Como lidar com arquivos perdidos.md
+a556040c95389245052d96249bc5b95063d2d40ddf1e2e953bd398e3b2e714ec  1487  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000821 - M03 Ferramentas básicas de animação.md
+bf73c1c9fe49de26664c4e18e47ba157d2112ca924ade326666b4ed330133da2  1376  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000822 - M03A01 Animação Básica e KeyFrames.md
+d9f8d73002532586bdbb78224aa739b8022312db3c883d1cb4df04039543eca7  1492  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000828 - M03A07 Como transformar sólidos em máscaras.md
+02ea0121801bdfe620ecab618b5a30a8740d822e6fa5a573b7797936f810b731  1456  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000829 - M03A09 Trabalhando com offset e fill.md
+a1fb8cdd1d6a1c2d5884f2499cb145534b5a2ff81628747f53ab3ebb71cd9cc8  1409  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000830 - M03A10 Tipos de Mesclagem.md
+840128e01324db85fccf7f191358c99027c2662a7ecdfcc332462e972dc92487  1378  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000831 - M03A11 Revisão.md
+34aa1a80563ebac5706169c688aad52120b3aee2789fd0958313efbd3f34052a  1458  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000833 - M03A14 Como animar máscaras.md
+5df9ff61b6531a1b75ac69fb227266c6cd82f0dd16130b1834e3e8af56d77cf3  1303  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000836 - M04 Efeitos básicos.md
+096447e13fa8f75968f895f2895a62758ed3444519f0b22adbbf193cadbd36e1  1426  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000844 - M04A11 Aplicação - Ramp e Glow - Audio Wave Form.md
+fc32ec6a9fef5cbfcf519f53096b837db5038887617967853284df2b1a6c2b62  1349  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000848 - M05A03 Rotoscopia.md
+2ee7b8232006a1d866dc0c2d3c8a80d8f63f1dc4500f4d838abd94644c214c1c  1327  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000849 - M05A04 Time Remapping.md
+de651aa24f11bd5de8233cffd15eb7756bcf556c52759717bf7e7b8d66b370b4  1373  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000851 - M05A06 Tracking.md
+19d8e971fd20ca1ab0579c47795ecd0d80bb2e8d9cd030b964152c04f81e4521  1417  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000852 - M05A07 3D Câmera Track.md
+dbf56aca57a09d38f5e0439c291f491b9dab4ea0653bb6d9acefff98850f4eee  1857  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000853 - M06 Character Animation.md
+e4206fe4e2bae81052f4d150edb60f4e81dd8290e8dd1bd7f26546e36df57d91  1576  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000854 - M06A01 Organização do personagem dentro do illustrator.md
+cf53dd878f141e8448b3748d85494e5d194b215604ade1aa20d56c555b82eb36  1516  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000855 - M06A02 Organização do personagem no After.md
+2b08bee199b720f92a33bf9c08f0b877b43b5daf7cf161f92a52b3b3d564d5e1  1383  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000857 - M06A04 Puppet Tool.md
+4cedcf03b62df6c9788d148f1fc27205ee6c7f9a314e2a6691a463558dbb0844  1511  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000858 - M06A05 Variações da puppet tool.md
+fda7c1b0d40cadd3a6c0c6d62412b221c76665575cf388fbc097758bc1214da1  1447  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000861 - Manipulação de Camadas e Cores.md
+47e5af607b358809314889b9d13c89a8627b1d23515386f5d4bd8c9fd41921d7  1222  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000862 - Manoel Motos.md
+311417a76d025b2fee121ca90da7e9eb5674434f068f806b40b9da6936c4c95d  2063  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000863 - Marcos e Viviane - La Máfia.md
+b135429e22ba6132c790ce9eff30a0ca2ba85df4fcf0a34235a06486c2591feb  1127  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000864 - Mariane Ortiz.md
+7f0c2fbb7d4d5e4e682acf4fdb09fb2f50968d0b288c5d40c2b1d80248be207e  1532  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000865 - Marketing 4.0 - Philip Kotler.md
+29b8d53d2f5c376f91f5e4d5ef55d8645dc110778f3bcea3a93d54d927b6520a  1346  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000866 - Martinelli Academy.md
+ccd8a351e3d11d129a242cc646afa09d6c7f0762a9157b2e7ff43010c4b8c4ed  1158  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000868 - Master Place.md
+290da530b62996d0a1f970328f8b3abd409a688757244c4919cf932908aad4fd  1397  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000869 - Match Cut ou Raccord.md
+ce80b97a11f663aa3e70c189379aa9ad77f88dbbaa2788f6b1123e66100b889d  1287  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000870 - Materiais pelo Renderizador.md
+0158fb1667f749762c0ce8db6070243060303c2e84961c5b1d065266bf73014d  1268  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000876 - Media Encoder.md
+5a07041cff0e3c64e049e8af65728e1d5f55d1bf8c8c364b7a4ddfced7ea5723  1600  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000878 - Melhores LLMs para mim.md
+4d54df323ddc943df6604963e3b050e865bab8f5437b837e47cacdf8ca8cbead  1323  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000879 - Melhores produtos para ser afiliado.md
+ab25a24ff7b8fd8f505fad24e077b237db37cba3fdfabe5051e173dd03f84b88  1442  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000881 - Metas Financeiras.md
+aca044f179f562a5f4f874b62dce073de71fda636cf55b0e403d58ab9d4bbacd  1429  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000882 - Método de autoridade.md
+67f66ed5daeaedc478da3d1b54b9195c56270ca3a36d26899f84098088099867  1414  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000884 - Método Ultra Foco.md
+82c73375fb91234ebf805d2f393ff516528218bc459f5466a8c376060ed98e49  1854  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000885 - Meu objetivo com o ocultismo.md
+a50cb28fb3543550bda6c2124bbd21246dc0dfff28116f3bf6f37b8cb9af66c8  1369  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000886 - Meus serviços.md
+7a6f7a36a5f53a9a2cd52e0257cd9066359f82d87bd451053e9dd0ed7a74f31d  1377  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000888 - Minhas 4 contas.md
+20c4e8f8475caf7c1270055c335aae578e2ac588f6e5f779d8cb4fd24b53b690  1444  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000889 - Minhas 72 faces.md
+26776f6e1b3f9829d9a0bbcdcd679e88b7eae3db77071998e7fcae21df57c6c2  1341  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000890 - Minhas histórias.md
+2cbfead603b60f6cd4d33fe34cbe3dc911574fa5da8d549431f3eb44be84b3a1  1528  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000891 - Missão Prospecção.md
+ccfe545a5b056d2355ba73e1aeb8cb4c46c65e8f40accf05b4d9776b6a4e05a5  1357  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000892 - Missão, visão e valores.md
+69397844323228a1b35c252359fa8d9bf09ca41141d5e7256f330e6dd72ee054  1429  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000895 - Mixando materiais com o Octane.md
+1fed9aa09f3c2971a206ee7d10acab9cc008a7f4f7384aa3deeaddac4353540b  1132  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000896 - Mockup Baker.md
+839331c3866d20bb125747e19eb949d5a16c220734fb1266094e95b5b9cc5f7c  1548  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000899 - Moodboard para desenho tipográfico - DTTAP.md
+ef6bdfe1bd0d000286d80ca2d8bfca562b5af0dd74380e1969d957f4b07acbc6  1991  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000900 - Mostre seu trabalho - Austin Kleon.md
+708542ad965a974af1055f0de9e16a6b14a7bbe32d913c14232bf1a14d4f4379  1262  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000902 - Motion C4D.md
+dc016bcf19a8da27e5050e150621c5ab056c93ca81556dcbf72809efdbc0bd01  1380  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000903 - Motion V4.md
+d6afd923ce59f8bf4281bc34e39a0624f6a5be41c78201abfcf25ffc67976861  1435  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000904 - Motivo e Estrutura básica.md
+a5dd3d49abd3b12b39cb30015097f438053e11e0ef5e9c1ee812f4586bbfedf0  1196  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000905 - Motivo.md
+584b65dda3a61de59c5f90fd17108510bc827b57203a7f2009cc5e4a8ce4e820  1380  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000906 - Multi-camera fake.md
+f09ce907ae9b4f1f2187d2a425362c2bd54d80f0a3b6177e0431db1bf2473096  1621  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000907 - Multiplique a velocidade que você produz uma animação com o Plugin Motion.md
+adb3f677633ce74b20fba10e3c5859ee711270e1ce9783983d81f0736a592cec  1132  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000910 - Natural Life.md
+1237800faebb14450d815cb6339434c00e9491ec5254c352ce3ee8cfadfe8d59  1307  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000912 - Navegador de mídia do ME.md
+38976563719c27ebc9db555f0346759268872c951f07575355b0fd1040cae705  2443  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000913 - Neuron - Plataforma de Aprendizado em Inteligência Artificial.md
+9cc6302c49381cb87bca4fe9fbf9b0f3b0340d31a736d80f6adba111b85f7309  1428  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000916 - Nomenclatura e Preferências.md
+45060cf64be3a232e69e50db79045311d992a657db81e594fbd5656673a05d89  1444  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000919 - Notas e ideias sobre After Movie.md
+6ada7930aeaa9f3e8fb5241d7e6b5a279c24adbd56443c37199bd6d7554ec1cd  1707  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000920 - Notas gerais PS - Original.md
+f6a47862b64b2abfed8642392dfba7c34125cb2c7cb36cc786adc75d14a9a90f  1262  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000922 - Notas que tenho que resolver.md
+762f277a3a235f0a10d6537416da8db0e8a412733a967bea3f71bced003a5e75  1267  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000923 - Nova Pesca.md
+02b1bfaa3c5c488928c0f2475ef282b1898aea821a99cfe023dc57765500bbcf  1478  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000928 - O caminho do Magus.md
+529ae4fa0acfac8467bb2c38ce02f8e11642cc7e73740f1e8656afc32b160463  2040  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000930 - O mapa do Faz Mil e Dorme.md
+11466b46ec3baec6157f513adea1eebc41677da6688eee118c7352e39a3cbd7e  1421  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000933 - O QUE FAÇO.md
+8575538bd8d983d96cada4be91b9f02e6d4c99f5ddbe71b1caad704491999688  2193  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000934 - O que quero retratar com cada carta.md
+9fc573f5df77e9f557505adcb2ed1d02c9de1228d14341f05a74e3d5f6fef4c7  1453  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000935 - O Segundo Cérebro Definitivo.md
+3184eacc9730e6ccd5d03e88b7f3027425012d8372cbf218bc63c21ff017cbd9  1417  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000936 - Obsidian.md
+b6073855c3537165567de7dd22924f172d66180b474872b59f92b8d88b678d2a  1265  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000937 - Octane.md
+2c8d1aaef72ccf7c2914faa733b269ea5d141690b580f1eeda51cf5ff16e1bfc  1223  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000939 - Ollavo Lavanderia Popular.md
+298c5b619b1ea969cf4a173c87d722724150387524d0976c1471b40c34a00e28  1312  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000940 - Oportunidades no Design.md
+5f8f8c6b998211cbf2c8659a0aed40a2d369fff3f452fba1bb7137b64503f637  1470  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000943 - Organização com pastas e labels.md
+f02bd5abeb847b2faa45b7d4f59b8090df69a1bdf5eeff8a6264c0d2f1c86762  1466  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000944 - Organização de Sequências.md
+c20e6feebfe35fa469124c4c55a753359ec55e3e399c683175ea6293a5d57346  1516  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000946 - Os melhores produtos transformam o cliente.md
+0e93daf32b6e79379e7837200e3321f2d9955368a6c71e4f0bbdaf2bcf5db848  2042  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000947 - Os segredos da mente milionária - T. Harv Eker.md
+d50e26788b427ffb161fd314ac1d032857e1627800117d69906397f2b9fdb46e  1610  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000948 - Otimização do fluxo de trabalho no AE.md
+eb5a63843bc9c44e5c840d9804d8edb60bd52d82843c72e344baf99506758004  1429  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000949 - OZI - Detonando no After Effects.md
+3d3389dc689f57eec771ff3a2b4500a6f756232b14b24a0de0751e08cb91a7cf  1472  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000950 - Padrões de linha orgânica - DTTAP.md
+e98cd8956e3a881f2eace942656462c73bbec4868924475f28acb01e8cb5267e  1779  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000952 - Pai Rico Pai Pobre.md
+ee77d2ce8a398182964fea0cea26b09dbe561d7d95bb6005be6a9b95b490111a  1380  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000962 - Paulo Vespúcio.md
+2a24f7fd3d2dbae036f338d9fc4fd2a91bc2b7b9918cfc297807379fb6df0189  1372  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000964 - Pendulum.md
+2400061e39dedd2d64f66066755ddb0ce10cc4061a045366515da28b2598044b  1157  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000965 - Personagem Básico.md
+1df66fc2b0f253bfc8188205eb6cc329295766afd4530a5f27fb2cd77eb40732  1330  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000967 - Pilares para definir objetivos a longo prazo.md
+095ce4433237ff040a0b472484858934cf19a4f25cdcc7b3a6ab6a5dd6948024  1449  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000969 - Pixel Glitch - DTTAP.md
+0266714bfaba56a76bac5313afb5751bd6ebe0bac8dbce855c2002a7c0830ba4  1339  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000977 - Poética de Aristóteles.md
+2fad95a96a11dcfe15148f807c771fb06838a7e6e1574ad7d37ae402726281c5  1353  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000981 - PORQUE FAÇO.md
+3605f30d1f5daa2349a1a51660933a358ff1fe65fdd93b78fd7943a114571f6e  1988  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000984 - Prazer, eu me chamo Kevyn.md
+2061ec4d2f7bc9444f67815bc8da85a4d0a9693aa4dc6ddbcf0ca2aa1c230a30  1446  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000985 - Preciso desenhar como vou agir nas seguintes situações.md
+b4de7fb396ea661797951bee825bff72cc2d789af24ba3928697e19453770591  1443  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000989 - Primeira campanha.md
+7fb4a0fa96a6bc9654696f998745a1bb785188bb2d55f56e16b82d56e8ead40a  1339  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000990 - Principais plataformas de afiliação.md
+85946a795f84de63bca6ac5b88707a548fb2cfc124146f0cc9fce19205ffb7be  1558  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000994 - Produto, tráfego e conversão.md
+d326d59f7c22e2c94e479ed4584e96107b7436fab09a00693c31db5229796f26  1190  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000995 - Profissional.md
+14ccbdc2805d355c20cdb0ef01e363a8766aeff01fab3dc4bac0ea195a85bdc8  1400  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000996 - Projeto Centelha.md
+a104d910e7e21e3e02ffaf65382f9f22206a0321c46ed5a18beed4395ae6024f  1829  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-000997 - Prompt inicial EdA.md
+f1b6a4ff67dc3616a6922c5fcad26d331f6a519d454b0ef0373d5e666b90fbb1  1698  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001001 - Quero estudar.md
+9d435794b54352743d4d83d8e6443f4a568417fec73cc918e5d06a24440478ab  1718  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001002 - Quero ler.md
+6bcd4dd622195b2afb5855620c0e05f089ffafd8420d026b5159e872aae619e6  1420  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001003 - Quero reler.md
+9f9a321e71d9e203948f4e573262e046f650bb79becc9841c0b78f915277da2e  1371  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001005 - Random Effector.md
+73be322eb9e5873e48472f4404ffebc7e1793d8d328dd74cdd2d12d85d5989d1  1221  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001007 - Redação.md
+6dbb51a455a467af2d3c67e839db4933b0e78d8560ebef02fc0e56eaaa26a480  1443  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001008 - Re-escalonando o tamanho dos clipes.md
+f02fccc120bab3e528c2321b3a8ede3b6b7c681952dff984b39718cede0ba895  1347  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001009 - Referência é ouro.md
+4b72f915c756e249146dc49d514758080ab2546bb68194754c7affdad3ced6f6  1203  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001010 - Regrinhas de treino.md
+6e80f6fdacc547dd315bfc4702469f89ec3d08a51103ef8b8bceabaf9e7e699f  1215  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001016 - Renderizador Octane.md
+d985e09dce19a23e56d15ef0a1d0a58435f13c52602477c34c57bc2c16c1c6bd  1741  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001018 - Repetição Espaçada.md
+65c78e06a0ebaaeb7e524367cf3af3f410f84d5444bfb349b5acf86a8c99d1f6  1447  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001019 - Resposta a Freud.md
+05fbfa9c8d1c528f4bb27d6796438759aa3eb8a6a6fa1ced8350b6e0fec73320  1398  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001021 - Resultado_Completo.md
+d1efd8bcd740678ccef747c8adc7d7ef6d6d063e4bb6e89f78e458987619b241  2266  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001022 - ReValor - Sistema de Coleta Inteligente de Lixo.md
+6f82f42c1b54fdd0c9611528f335d4098f881e0b8f60284c88c3ef10bcf98549  1179  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001026 - Rosa de Saron.md
+a909c864af368f165ba337fd1d12f18b397ef31851fdcbda13629329fbd2f411  1410  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001027 - Rosaina - DF Supermercado.md
+f35af8aed090f0da004557fc4695cfa9e8471d3566853b6853cc74236b5844ae  1241  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001028 - Rotation.md
+53b95704a8832f90d68555852c027bee37524130f62754170ec2d0e08fb907bc  1623  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001029 - Roteiro básico dos Hinos.md
+300233fd5a89ad92f9cdaf6f9be56a267ce05a0cc7e3a84f527e344a68986ad3  1240  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001033 - RubberHouse 2.md
+d4964d8354b2a5cf81905df035942c8c65c59d0508f35a7fe635bf0cf5a1f305  1446  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001034 - Ruído Fractal.md
+a46dabce7e7a5726e838a963631bf7c043f0ceb14309997dd88ae02742d7cc0a  1485  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001035 - SAFE ZONE.md
+91c1e6b8510d886baff531260ed2de2fa45a837c5202d2f7083111a3535c2268  1789  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001632 - Script de Vendas.md
+fa0915b90425a1549efee3609eab6c526e7856bb07cb38d94c2b986ec749ad31  1492  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001633 - Se razão pergunta porquê, a resposta é.md
+ea0d8274eb9e0b04d82a79baadba3324879db54a631a4b1dda8343ee944be0ef  1578  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001634 - Se você quer crescer rápido, crie conteúdos compartilháveis.md
+48d4a931e25535204fb0febc734ebb0f8d3d64292f3dc8da8e7fbda025b17e30  1224  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001637 - Segmentação RTQ.md
+69c662a1d73c117b951620e8acbec802efafa04111ce992c4ce4a5fe9d56de4c  1465  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001638 - Seguir a musa é seguir o caminho.md
+462b25e611046ca7d716e8147cdfdb7ce8debf56122f5576c6a3b830461b69d2  1151  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001644 - Shadowify 2.md
+c6f9affc3e68651971d0d677147052fd4ca31e39fa1c08830b56f097337e07fe  1173  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001649 - Skybox Blockade Labs.md
+f65ca4bdc130b397269168db8e86799cdfc9ba4ffc9b36d3d0eb3176c9300a49  1984  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001650 - Só Notebook.md
+0a00976adc598425cc847b221ad7ccbb21ac982944c0386470e3ff5430b4c4e1  1458  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001652 - Sobre composição de vídeos para Instagram.md
+ed6793800ade99706c75d960fce8c5f53b4e51ccf309b787ca8a3cf109c0dc32  1364  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001653 - Sobre Designs Minimalistas.md
+635285c2f6c18d83d17307b0fcb7ed04536159332a611dc058f72c7e17cab026  1362  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001654 - Sobre Fields.md
+38e99bc53deae9abb20f793e6b98e4ab1e874c1852b8a950c1528cf9d9e2a887  1424  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001655 - Sobre iluminação.md
+cfe62da8fb77c3a1be7f5229e5cf45b72e466fcda1bc3b934ef71aa94e4538d8  1318  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001657 - Sobre o portfólio.md
+0da20c88d205fc599eeea32b02b85a492d03fce7157546fa5437298518b84d0a  1241  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001659 - Sobre o Slow.md
+35e360f45a47749403f7bf6db0d96adc4083c72c9237accabfa740d9bb0c78a9  1490  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001662 - Sobre parâmetros do Pyro Output.md
+9447d3824bdeccb4c336343790a38d9aa936026a0702cf9918fb5c63fea7b250  1452  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001664 - Sobre texturizar o Pyro.md
+1b4d106ccbe4fedf504187182172e098062b2cf0eac08e6fb8432812681961c1  1977  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001665 - Sobre vendas.md
+f40cbdb32f1fe438aef1672b7cb8eb9e20d1ed6218d0839b0f129cd8f48812d5  1144  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001667 - Sort.md
+8bed1b58cb377e259f879cd999088a51a3e04f627b332bfbefd42d98b1bd8429  1237  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001668 - Speed.md
+e0571323d0ebc703a06ce28932d717ec76b59235bc8a695013aaf99f3ebb597f  1922  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001674 - Storytelling.md
+f9c1e608c9cdb1b5d505dcd5f1043a44f0a35259f297a765d94a18795cb5374f  1447  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001676 - Substituição e Efeitos.md
+7fc3596e9e8a5fa0cd261afee5a317c85fb7e21ce5a9b29cb38aea8b8eb97f3b  1446  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001678 - Tabela de Valores.md
+588672ee40bdcc4a589ff525df12ad2a8ce61bbce0cee9da36640548c7faa619  1466  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001679 - Talvez seja melhor.md
+07e56544974e3f25bb8afdde6788f5731590448a8336ef486f39d535d7483f45  1442  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001681 - Tarefas padrão do Dia 01.md
+26a40e2761328214f34b70a1d791182bb71cf1fcb0f99f397d66b7cbdfee09a4  1426  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001682 - Tarefas padrão do Dia 02.md
+350d749da8e65340dff1fc2a8c913601bc1b5cb17440b870c4a5ebf3e1f00f6d  2201  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001684 - Tarefas.md
+e01c56ae79a570bfdc9abe0a3b731735ace33096e7ce1cb33f303f9a7232937a  1278  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001685 - Taxa de conversão.md
+0bf8da3728bb63bbd6130274c76ea8674bb582e3b7df220265759a83729a3425  1360  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001686 - Técnicas e truques no PS.md
+1d447f94029083bdf804b8ce31f8cedbb2729bf82cd79646adcffb874daa2b69  1319  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001687 - Temperatura na Hotmart.md
+383228dfe20679d6974719088bbd75f63d841c9f711c9742b447131231800aba  1410  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001689 - Teoria das cores - DTTAP.md
+21df7d789c5b04df14cf1e914d4daa79f5dc9f76196e23cb85cb99c3e859abfc  1281  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001690 - Teoria do Bullet Journal.md
+d9fbb6193f87eed20ac60239344b0db82f27c5b80887f50697e887420ff56183  1193  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001693 - Textos, títulos e MOGRTs.md
+1cab2818c6d9ae210130df49a714c057b207da3df2aafc5be111cbe88ed8703e  1436  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001694 - Texturas Luminosas (Emissão).md
+a3f605ce7e40431260d1d9502a1750f8d6b9f4a1e4a65ce4df99e8440eb25d3c  1246  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001695 - Texturas Nativas do Octane.md
+35bdf1f76440de228f8b6d88d9cc8c02df686a870a5dc1a1cc7d781eb6c55ce1  1360  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001698 - Thiago MD.md
+f264427feac3251df0e3aa368a80bb0e50554ca86bbaee88611da7e5aad8bf12  1243  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001702 - Tipografia no PS.md
+7b6e406f6008aba9fec397ba0249dc0bc356e5553b2e6ab3f2b4ccf1258e9324  1505  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001709 - Tracking, Exportação e Shadow Catcher.md
+5f5591fd2d808cbcb4de96d0fd6b579b33b714da3310cd40e1c17c695fe9cd6b  1334  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001711 - Tráfego pago.md
+2cfdd60401aa2220f4218e5d7396f7fd4c0daf4c55843cd75f7540575f027dc6  1321  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001715 - Treinar isto.md
+9f0d1d3407ae5f7230783d0dc8b0b4dc346f44d8925df09e05328165ffc8a18d  1328  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001716 - Triangulo da auto-obsessão.md
+a32c82c0757126141413b1633e469b513d62a2820ff9dae9822f4e7b6b3d8a63  1230  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001718 - Trismegistus Coffee.md
+4fd8fa411ad249c483b85a04e88c7202b056fc89340d37670adae74a5e607f87  2285  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001720 - Tudo Para Mulheres (TPM).md
+5178fa0dc5bfb373027c84071f440be609ea833e29242254a7bf68a9e04d6852  1525  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001722 - UGC ou User Generated Content ou Conteúdo Gerado pelo Usuário.md
+aa17580c4252b382df00264b71f4198d937b486e1c94f8875be968a554cf67c5  1386  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001728 - Variáveis de Loop.md
+92c00a2fed1f22bbcaec6b03df013c04a64137ee83d25383d6b6be6979cb6a56  1253  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001729 - Variáveis.md
+c77f72e207ea820c608ca5b9dd7123a7ca0702bf0279bfdf0e7b449cc7f0b0b5  1203  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001730 - Vector.md
+ee6060dc7f235686f2cc79f56e77d05015a03ec773cfe8315f29d8b333d08911  1893  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001733 - Victor Barbosa, vulgo Vitão.md
+e58fa475213790b3a93cbdcba852a918bb09378660926c13d57fb023cc066c53  1810  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001734 - Victor Barros, vulgo Gaúcho.md
+89d19ab81e9a04b1a68e3689912de6fcc2d2d4d07d37ca15fbba4f61404435fe  1734  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001735 - Vídeo sobre rotina.md
+4e99c11f3a047cfe9adb0830906df8dce807307d97d308119a1601006d200393  2010  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001737 - VIDIA.md
+0e8c441012be4aa0746833fe42cb9420eb6e7f80e119b86610027a4832dcd669  1281  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001739 - Vilmar e Fausto - Fit Station.md
+7f3826a24a5b84085545406a4234b65c28737cd3318df333abaf9c44305197f1  1414  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001741 - Voronoi Fracture.md
+08aa2c92e6249e5317bb667e1e672e8aa8f784a7c8e34b80af3e2371d51fe22d  1231  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001742 - Voxel Size.md
+d3f48e5082e3142f28554be0d52d55072d43f832e8b2b33030f4bc699be18c23  1674  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001745 - VSL.md
+92da32b84092301c19aaba34e9d116be4ca69d2a130c03be1ebe8f4d2be80a6d  2031  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001746 - Wemerson Veículos.md
+49c50a7f341b7e5c5918c4d5cf75ad744209a1e87871b132212e6f8b60ed72fd  1627  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001747 - Whiteboard.md
+6d04a03f878dc9770a62792b017926b8ca4861d0fe2afda3962e91cdb29e17c1  1400  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001748 - Wiggle(Frequência,Amplitude).md
+843e38a355e5591ccd913b5525d2c9775209f696ed7aff1356d392f88d896cb7  1384  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001753 - Zettelkasten.md
+0b0c269cba76ee44030ef63508495144bda829492617819ae764a19dc616ce90  1398  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001876 - segundo_cerebro_completo.md
+066a09063b14f274de64da0c025aba2644d157bd095fc87c27c227a688d2f355  1786  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001877 - (Análise de IA) 120626 às 9h - Reunião com a Psicóloga Suzana.md
+50292ba964256be843e08fd4aa2b82251f066b06454d2f50a0249efb101f70fb  1774  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001878 - 120626 - Kevyn da reunião com a Suzana VS Kevyn do Dossiê.md
+bfaaebde30acad8a7e09839ec10ff82e2b38d0bc700c3e1ae56ce7fdc7a2c125  1879  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001879 - 120626 às 9h - Reunião com a Psicóloga Suzana.md
+5f19d73f14bd2995851300abd5f205145a03a14e57f3b4455d13fe1266c099c9  1741  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001882 - (como melhorar) Clarissa.md
+234684732d365f0667df14e13f03407e2f6f249f1d687b34c4b51edbbc1e0733  1527  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001906 - 01 - quarta-feira.md
+ff9f1f2f03081f5445534515b95a62a6dd40ec9cdde170e98ba944e1d192df9d  1424  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001907 - 03 - quinta-feira.md
+bb667ed5624c8c4db04c1b63784e4bed9da8fcf51885de4687f4661ab42daecb  1364  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001908 - 03 - quinta-feira.md
+158a6a3b205462814505a3b3b5f823f6410cef9def2e679fecf9e64b6c24cd29  1664  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001909 - 03 - sexta-feira.md
+251e8b2586731884cbf3c9ec1b04f59cdecccda9bf898e09d93dfe585414cf52  1387  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001910 - 03 - terça-feira.md
+3477a292477c099a119ffd6f1b5af51a613ccf724234c769502e6ba5bcecfb58  1554  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001912 - 04 - sábado.md
+2dfc871d4d3474fd518ae57c1c661045732e3f1eb0842f7a02046ba828c997b0  1372  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001916 - 07 - julho.md
+dd7bc134bbc391c8c4aa475be386b5b3ad0657b1daf328d389037a1ccdfb9989  1497  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001917 - 07 - terça-feira.md
+479a5b465d2a6ea90e9f6725ca69fe530bc45b5be1c66119806f7073091b7a78  1351  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001918 - 08 - agosto.md
+a0378652fc403783d372c8809272ed779088cfb18e3f8a1ff8171368930b1fe8  1755  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001919 - 08 - quarta-feira.md
+5bb0036b3071ac3640bbea62c0ccabd456ef3eed47a09f4e7aacc1e8ae1db954  1214  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001920 - 09 - quinta-feira.md
+ccf0314d2e139110cc425a51eeb77fb34487c57a4acc34ac200cebc978458a6d  1360  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001921 - 09 - setembro.md
+c99d478f4f78eda55e8c2d02fba425f07b325de7d6f493bed73f139a38246f5c  1587  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001922 - 1) Definição de escopo, segurança e alinhamento (essencial).md
+3d55b6bc66e419325be47ad284c6c12b8888c89674d00bf88c9635ae0168a315  1614  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001924 - 1. Objetivo da Esbelta.md
+2793418eff88aed286a8002ab9c22c09ae291b3aac94b5588c55d73f0af9277e  1661  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001925 - 1. Preparação para a Esbelta.md
+8d9d94d835498834066471876ae1dad3de6044a779110317519cfcc2817c10d1  1353  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001926 - 10 - outubro.md
+41875e600bc79b0f573df3f30d76c6ffd465a040957d6ea905784240f6d5b15e  1671  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001927 - 10. Suplementos; Energéticos (macro) × Ergogênicos.md
+451f061f1dd6e6db5b158be0bbdf74657b3c3d3ca44e8ec49591f93f4ef7197d  1427  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001929 - 11 - sábado.md
+d6f4dc991168f3ab62d899ab40de8cad7f9ab4af187ff1c50255dde7b6f3d36b  1170  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001930 - 11 - terça-feira.md
+b48b3fd2f058a761d855d0721cc8bded1facc8a17e27da2661a92987ce8f8da2  1479  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001931 - 11. Emoção × Comida (Fome Emocional).md
+2d0209b43f47d1af8d72a8f1dea5c7a723ccc39f19e1d8b1415707f5681ecae0  1565  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001932 - 12. Regras & Limites de Atuação (além da confidencialidade).md
+4ac6e9d1b4d813010fe099d5dcffe6cb2afe9a85f2294b169b59a6e5b604c5e7  1612  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001933 - 13 - quinta-feira.md
+f400321f24d9dc5351305cdfd96afd53c91528c9a457570c30fd267f090b8f51  1471  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001934 - 13 - segunda-feira.md
+94f6e099157f97dbf0ba8845b0d7abc2611f73daf7f3ba126e093c4a416dc0f8  1443  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001935 - 13. Mitos Alimentares — Panorama.md
+7a0c22dea8f250909c99585f94f9198d01e9327fffa7673511cb32f27180d56e  1452  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001936 - 14 - sexta-feira.md
+98370925aaafcd68d340cb6f7416e45765af80b77a247c5991b4d625845ec9c7  1643  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001937 - 14. FAQ de Consultório (Expectativas Irreais).md
+14802d154e25d0623419a096ff1beaa23c0da6903121eebe0d1aba4ae3807f2b  1528  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001939 - 17 - segunda-feira.md
+2cf84c8805d6a80e910251117fecab58b892973534c9cac7c985691ee130e3ce  1332  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001940 - 18 - segunda-feira.md
+c17ebb2d945490948c5269471805886ff84baeca033e9b5325a0c7bdaff3b5a9  1816  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001941 - 18 - terça-feira.md
+2fdfd607cb5b94e132cfa5f5f8c53d3b41b08d3f48a49587e9d26a886e355e77  1672  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001942 - 181125 - Roteiro Minuto ACIRV.md
+28619a4ed5511b48bfd57846dc09f59a22cb578bf9cd34d395839d6b113d8dca  1538  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001943 - 19 - quarta-feira.md
+c483d2aaaa8dfa680afa8d5c645d71a61fe555e49ef26062476279973c30f1de  1869  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001944 - 1º Fórum de IA da ACIRV - Planejamento Social Media.md
+8bbfb93a1c0b5b2174a40ac320dea5f7c8ba32b000ebabaafa9d9614c768ca49  1455  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001946 - 2. Confidencialidade e Casos Reais.md
+ea36f4a26843dc0f2cc76c8081f25adcf8cdbcf8fb22c44d6950691d0211a277  1426  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001947 - 2. Público-Alvo e Barreiras.md
+2db1a92613d259fec332bff53a438d07bc8def60dde361e0e827e7a3404a1a7a  1408  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001950 - 21 - sábado.md
+f8072dc052f15300200a79efe071ef6c38bed7a7ac702a1d73a703b09afbb499  1217  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001951 - 21 - sábado.md
+a17342371b9b5a5f1ea75cda71f8d98f8463c5ba88966cfa78f6594b0cc921e2  1439  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001952 - 21 - sexta-feira.md
+1486f1c9f1a25f32d93da92eb4024c0f21290fe7a6d66555f2580a23c7a4e9c5  1995  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001954 - 23 - quarta-feira.md
+bec0f5638c4eae5023c56715c84ecb887597c4a7ad4e6b38b0e7b4bb5951a9df  1434  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001955 - 23 - quarta-feira.md
+95b591a5f777235ed8442b6dca800c6e8bd838045888db9c03213bcf1609d45e  1894  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001956 - 23 - sábado.md
+8a81d04a83d47be757e0ae61add3794b0c6a05f71592426a7cef43d77953825b  1198  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001957 - 25 - segunda-feira.md
+9f48aa6eb71c78acd7bc1846b447468c2ad0aa0c1e018fc8cf2977ca67274578  1577  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001958 - 26 - terça-feira.md
+16d013b291d4c8ce7a3ba2e0641576b96b6466eef0723967b7b74743a6d2992e  1510  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001959 - 29 - quarta-feira.md
+d3b33c1da15211890fc32730907adde83649c255127b74346838c166e54cc8d7  1445  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001960 - 3. Foco na Qualidade Nutricional.md
+db4037f9f43cc2283dc4d4ed40dd94bfc496cd5fb69d0b3eac41d87332527396  1746  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001961 - 3. Limites Clínicos e Proibições.md
+34e0912040c9479f39fb716e034fb017e297014035c218f8e7f2d49dd7b5f4ae  1334  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001962 - 30 - terça-feira.md
+ddd0474ed93e6b1c979b9680cdabe00d0547d0376a3718a5552e670a91f80e9d  1443  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001964 - 4. Mito da Batata Doce vs. Arroz.md
+959026201de1a6cb3604450c3ddff35d8ca8943084abb2db8acd148060714bc0  1494  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001965 - 4. Perguntas de Triagem (Sinais de Gravidade).md
+f433aa627c63ad064d788502f46646f4beb16bcd76cece729401ef40e904e502  1465  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001966 - 5. Métrica de Qualidade (Acolhimento).md
+4e0882d078f88461295ac23f15ab5c45bafb41c53e1c8abe36a66aeb9018fcf7  1481  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001967 - 5. Planejamento e Composição Corporal.md
+cc1f9c19958d06892dbfb27cab682a7f0a55640fe761b35279a8a515f262fcd9  1474  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001968 - 6. Higiene do Sono e Ciclo Circadiano.md
+0c2b4904910fe7172a350254a1422162883b6b0c79c4c2daf07a270f029f7a3c  1451  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001969 - 6. Protocolo de Incerteza Clínica.md
+d1072e2af7b84ab0a79471b09ed00ea8b0871d50c4f7ea7cd5a5d41ae44c566e  1484  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001970 - 7. Estilo de Comunicação Característico.md
+0df97f39c5f7287f3bbdf1e6b6ab5048ba7771421bc8482c038d77e2be2ddc46  1700  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001971 - 7. Nome Oficial e Consentimento de Dados.md
+5a0d4e8681f5bf845fff70559da320f40b75136ea550ac060e207b1cdd0dea3e  1714  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001972 - 8. Foco em Público Específico e Dores Comuns.md
+ed6c2a4da52d7a16a3b904c27a995e46a0ccde45ab73b330e5a8f33f14263833  1482  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001973 - 9. Hidratação & Eletrólitos no Treino.md
+dcbed4da94f6e700c0f3252a5d22ce6f0c7db50c1a04c73ce7cf2e53af754a6d  2224  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001991 - Alex Hormozi V2.md
+bb9e2376c925cff1409636dfac36e6d5c92d1e8d06ce4a04b43806e4b9a2ae77  2227  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-001992 - Alex Hormozi.md
+7920570c7cef4f2d40301bf9df5b625814fc7bc59b8026099de425fefda640c0  1866  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002004 - Análises sobre o ECO V3.md
+11ebedb2f78984bb3a768acc087c3053ddc8136826fd3f820c81ec26fbec0058  2120  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002043 - Ateliê Ciranda - A experiência que se sente.md
+1385c10115d9c0161077c603d6162b7b0d42723bf8dd59f1439c9f18805725cf  1965  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002084 - Café entre amigos 01.md
+17c2e5420224479a9c7f7c127cef90d6e1b07d7309e5c07cfd3395c36745d922  2344  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002097 - Celso Castro - Textos básicos da sociologia.md
+ad226618b61c43a369698311afa3700afb20f2a59ce7bf7b6c06d3bcf6a7d315  1969  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002111 - Clarissa - A ciranda das mulheres sábias.md
+5d1269d10f75a7d3c8702cdb46d6172b36496c0aadf7922105c2f3e662d4a2b4  2353  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002112 - Clarissa - Mulheres que correm com os lobos.md
+35309b5723a07ab0cf0b0635349b9d8f78a34e866546831b695aa14e1484b33d  2333  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002113 - Clarissa - O Jardineiro que tinha fé.md
+eb4e5d956bff17c92e326a82c74e571e5554408e884985dae66072a264e4440f  2040  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002114 - Clarissa.md
+f6db592ce642882c0761a3ef773f953fdab7f70cf887b19b82d6e38a8be10a28  1317  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002125 - Como criar o ECO V3.md
+8e6c200b212e635571d3e81fc2e3f932caf6c0038bafc8d55a47bff7192c3b62  1766  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002136 - Como utilizar os dados fictícios.md
+e471ff8b283a8d375605ac1ec6f7a0b778a10cc56d406ae2a1a7908c7794b582  1982  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002146 - Construindo ECO V3.md
+28e370b98ea256806bde633ebc57bbe42db32886331685f1b7a1c3403b743600  1360  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002152 - contatesteragn8n@gmail.com - Rafael ACIRV.md
+8141d813b2dd2a131c96ed64f179f3159e124c095e3001b866b0acf910cee8be  2081  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002176 - CV1.md
+7c6b44743d2d5b76d31de83468691281d6ce9b70d0635da5f64a4eead692e5f8  2201  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002177 - CV2.md
+8b7badc566246f84d57d6f13e43c7287d6771bee0381f0f012caa89b33462070  1296  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002178 - Dados sobre o Conecta Saúde.md
+71108aa5c2e64e4317525ba9e71d9b2f414bd2552e9b363aa26a7fd68e462ec8  1456  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002179 - Dados sobre o Fórum.md
+8ba478e376a0ce2c62c231e52e6aabbf16aa5140249ae7d7e8088c67b0fb5a0e  1925  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002180 - Dados Sorriso Verdadeiro.md
+ea69d1d295e8f9b9b824738b5fe0c11857f6f1c4624e9f4b7fe5e61c9800ccb3  2100  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002225 - ECO por Hoor Digital - Com regras de usuário.md
+5246cdba84652f0d9bcfe7a118e6ff1121d9fe1024d13dd0aba7e69b6d10a884  1359  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002226 - ECO V1.md
+98db65e0ab015d475d67e0243c7755100942f60968e138d304840da118862e1f  2016  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002227 - ECO V2 por Hoor Digital.md
+eb00f272ab02b832f6506f5494f3f2c78248fc4c2d0c9cd192280e139db390af  2019  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002228 - ECO V2.1.md
+2dbaa92e930cf98c0d9c25969de0bd9ee661d0c94206063424c163806e276b48  2201  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002229 - ECO V2.2.md
+48ce4f3f8c05e081e0704608d7fcd54bb285f475d17c55cd4004fcadca534994  2209  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002230 - ECO V2.3.md
+3ea7a5cf307f91e5865a68328703cd2accca28d54ad46b1e68e9e3b6046fb057  2201  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002231 - ECO V3.md
+bf4da3bead950a1d74b3d493fa0e83e4f8912bbed02f81848e7a50d524d555e2  2074  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002290 - Todas_as_notas.md
+59de778579852208dde4dff42e914c186335dfbaba38e3ca11597efd0ef671bf  2098  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002291 - Todas_as_notas_part1.md
+992a07323876bf74e56c490a78f8f6159a95a9cfc5b6ab5a3aef32af62d9dca4  2268  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002292 - Todas_as_notas_part2.md
+4d12a1c82cf0b321dd608e47432d07d4e58b8faa7d5ef39b0628c53a45a8df15  2252  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002293 - Todas_as_notas_part3.md
+495103fab29f9c1443caf27fe0409db5782be845585fcb595d7d403f529ec1d2  2010  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002309 - Freud.md
+2de64bdf0c443a64a0498629b47c03f2c3031f11e77710fae27919f32d27effd  1346  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002320 - GALPÃO DE TAREFAS.md
+08dfd774a885abf4db7a15e27eeade50fccbbf5bd5287b5e039ec2b608fdb677  1749  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002335 - Guia Estratégico para Gestão da Comunidade ACIRV.md
+551f4d64b459ca3ac4f68561afae91dc1aec8907b609efbc330a289a3e2815e1  1372  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002382 - Introdução.md
+4e908bddbabea96a6166cf1844cf940e5f935be8c8548dc6bfe591b618bd38a7  1995  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002387 - JOBS - Picanha dos depoimentos do Fórum de IA.md
+278b4385f285910d44ce6dfd0602afbcbdb9802c4146cfb276d04a6950ae110d  1418  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002389 - José Carlos Cintra.md
+f58192ee690cdfe2278ad2cdf336fe7b96d7221f9fa0c00891625dbca81690fa  2143  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002394 - Jung.md
+5d8440af3625243785afc465945f7a8953e5d3e5449263b36b8a64b2cb7d938d  2216  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002395 - Karl Marx - Manifesto do partido comunista.md
+c4dda3cf09e70a06b957ede8a3de8f4897d60786fdc159f06e696286ad72f540  2244  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002396 - Karl Marx - O capital.md
+42e14d5db57dfe61d2a4dc1faef36770cc26f7fd0d07da9cf350bd2f096d9ce6  2168  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002397 - Karl Marx - Obras.md
+0f9721d882f58b36e6953b4151dc0d7e1eda797b2d235714e3b250615708bd44  2286  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002398 - Karl Marx - Uma biografia.md
+a073c6deb0238d09eb9d6b2f25af25e94cba2155f4257b4af1b8b11ea8130154  2032  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002399 - Karl Marx.md
+cb61807abe7a8645111813c174e4a2034bb78ac1c5f701d51a275b11d7febe11  2170  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002401 - Kevyn Lucas.md
+c26ca03e33463559ad0b456344994b8a9d0daa21612151e8e02a661ad2138ce2  2252  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002503 - Marco Aurélio - Meditações.md
+357183e235302c634333abb3880e10b4895e0b219406455b25730b0c7fee5133  2433  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002565 - Neuron - Plataforma de Aprendizado em Inteligência Artificial.md
+33c599a7bffe3732dbdf71cffa10827ea58966fa473a4af4f36c3516237c8dee  2109  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002566 - Nicholas 90s V2.md
+a8a6ddf7c30d5e87c73a9336a01f9be179f5866f46a1584cc9dda7a065418bb4  2288  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002567 - Nicholas Boothman - Como convencer alguém em 90s.md
+21d3df98a622cd16b330c10f7f88e6c6be823ac50b8e2f48db723ca75a4ed3cf  1461  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002579 - notas para o engenheiro.md
+57729033708d48cbf3e1a7f504cca85995c27f15afa7741be899df8983bee8ae  1643  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002598 - Oficina VITRINE QUE VENDE.md
+b2c533239f41dbf744d97332add714e44a543c9fd14ea4b3c94b25368a28ab87  1307  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002617 - Papelada transcrita.md
+badb67c1cc2bc868795588855afab5d830e273a310bf01c891434ecf399f0aa9  2133  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002635 - Philip Kotler.md
+7aa766e7a779ab53b4fe366c5222c00e049ae2dc76a1b27da2e59233f617ede7  1979  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002637 - Picanha dos depoimentos do Fórum de IA.md
+fdfff09a11ecc355441445f031e987eaae9bbb9398efdcabf5038ed8330872cb  1286  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002643 - Planejamento Interno - Kevyn.md
+8c8d8a87c0f4628666a03531b6f7f1bfb8d9060cb40a3e94518bd66ad6f6d2f0  2254  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002645 - Platão - O Sofista.md
+b1597aa51b0a9afd94d2dd75287ef3cbd2ed0c7e7c1c8711156d3b249a58206a  2027  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002647 - Playbook de Releases.md
+670a9fbf3edd485d90f35924867ee8f2f3c112728b2093cedddafe177ae958ca  1432  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002683 - PROMPT RELEASE.md
+2af43dac2ba4e77fd412d8c0d20a25e4b8083b2e71ea58453fb414b14f93f380  1959  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002697 - Rascunho.md
+f61a891661026fc94e3bce7ced0e44b5b8ea4e4de539d6697beac6fb89a77e9a  1657  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002702 - RELEASE - Conecta Saúde.md
+8796497231be45326ff6a547c44929b92b2fd0c3675039b345c8a0f5b3a618fe  1489  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002703 - Release Fórum de IA.md
+27befbd3fd19220e01ced0f968e39fdd4508fe488196dfadefa6e0b6399de342  1664  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002711 - Reorganizar V2.md
+bf58d55c3e688016f5840f7ff440ce577ae10d66e3685382b88c1db2b493de7b  1548  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002712 - Reorganizar vários ECO's.md
+00f6d6dce76cd530649a99471755d57d52327e6199fdc7f207aee95244dbed0a  1426  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002715 - Responsabilidades do Social Media ACIRV - Com comentários.md
+3b1ec002860ebf5d44423666433174ba358593ee8d8f8eb9e54c7dd72886cf09  1505  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002716 - Responsabilidades do Social Media da ACIRV.md
+facc29463a8db94baa274b10acd9c41d00b8d46d96e1c3d4d9429149c352d50f  1856  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002755 - Seth Godin.md
+bb9d88eb50a18b2c08c1bb0884faf88a519ddd8a7e6320a63e7b08232a086959  1320  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002764 - Sobre assessoria de imprensa.md
+63b99110f0e7dc2da6d142e2871e3d5a40af7f02ee7e361ef4d6eccd40f9d982  2274  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002780 - Sócrates - A república.md
+eab94696b55d595aaf20c373c15b446b1c4a4d87ee779cf31edddef0d8a48393  2275  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002781 - Sócrates - Cármides.md
+df0a24d08c6688db90e72d468adee801e877744b139c8001972c29262a943bd4  2362  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002782 - Sócrates - Êutifron, Apologia e Críton.md
+8b0ead0cec58629dd50229c0dafe70a7c29e9feb1739b80184516199050eec76  2236  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002783 - Sócrates - Fédon.md
+36418256627c110368a9db06292e481ca4becefd65dd837b098bc4d005a28e2c  2276  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002784 - Sócrates - Górgias.md
+86f2f2862835904b26759cffb98ed276c19b1cd80fcc17faef7edf98cafe3bfd  2262  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002785 - Sócrates - Lísis.md
+ef34303a6c1c7089bf02602298f0e0c8daee360cbbad88206c806e6713ef7882  2341  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002786 - Sócrates - Mênon, Banquete e Fedro.md
+babc7e3c2b7d7cf124601225bb71dc7e4d2461cfec7f01e8b7ab6e1443653f16  2240  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002787 - Sócrates - Mênon.md
+75218d7aed0c94e3dda1b67c4a9d0f68852fc7787c32aea1ef08aefca94d9f5c  2284  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002788 - Sócrates - O Banquete.md
+18160fdceabda2bf92a49bebd9b17d0ab4ed55442821ef9a62d0b804e021eb74  2248  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002789 - Sócrates - O mito da caverna.md
+ee0d655c12062348b2d1c01bc5fb683f2e1f55b4443f4c0c4cc64c7eabd6044d  2173  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002790 - Sócrates.md
+ba37de8e5d8190fdde5466cf9d579348164cf3e14f0c251f3598b251bedf13e7  2136  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002792 - Sorriso Verdadeiro.md
+3eae8400c32c5a333fe2269c7b0f31af2fc6877a4d3b3ff4decf1fb28ff08227  2216  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002800 - Steve Jobs V2.md
+a4aebbaa8dd29443f220fce967da89ae3b17ed192519990545a4a96159ba0740  1828  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002801 - Steve Jobs.md
+0796a93373ae4cda92a4dba3527398afc246c595ca7dce141f35cbbb0cecd493  1330  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002870 - v1.md
+e465a0cbe2a7bd6def97d7dd67936c4363beffef174043c2a4fa4b1b416c9d75  2166  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002871 - v2.md
+719a05d7a7835f577d09c9a588ff07023bde5bef9ea58bb8b4673ed208996e54  2192  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002872 - V3.md
+9f4e40934c545829456e7895f44c88115e0e2328fce76b7f9e66ff820a6fff6e  2213  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002873 - v4.md
+550f9818fc17f842b4db124fd5fbde72f49146d4f831f5b50bef9d954ba1f4d0  2180  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002874 - v5.md
+f6d6740fc381087d46ce78a73ed3d1e28c6be71bb8a58f486d031ab9484b988b  2159  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002875 - V6.md
+0cdc616bdd88b10a74791de386525428b628f4d9066efc625bdc637f481807a7  2298  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002887 - Vinicius de Sá - Full Sales System.md
+781414bea278122b0536b6bf0cdfcbd48243dddf186bf1d85c3ec855648f2adc  2227  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002904 - Zaratustra.md
+282cc24bf462b2c3b717213ac5a80a61710d01896fbfbb1af14a47aeb838b012  1569  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002906 - 010626 RNIDIQAOUP.md
+bd0519b7c99bfd68482ab21d6d3f0c8f3ea851537d916fa32a4437983a30475d  2169  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002907 - 050626 RNIDIQAOUP.md
+7afb7eef977618f2ee633f3ce39b497d983c444fccb5542f499adabd63b8e9d1  2083  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002908 - 060626 RNIDIQAOUP.md
+bbce87f331f61a495b1a2c683b42311edcec4cbdb55d779d28d4a039d3f0a396  1974  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002909 - 070626 RNIDIQAOUP.md
+590d639478cdd5f3760c3a7550097ae123a7bb7f2c1383937295c1a6cb3c01c3  2070  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002910 - 150626 RNIDIQAOUP.md
+e1df967b1739d3e8907d4038ca951e6c90eca440c9e97ce31448fd7bd8958ff7  1357  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002912 - Disciplina como organização da liberdade.md
+4cad27edd56f67776936a35ff63f25133b061cc7e0c6e20d558e31bbe4f4ef7a  1618  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002913 - Framework Vontade SMART.md
+01504916061e722d6f5c98604128b80818ad9db5234e2e8422266553fb010511  1811  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002914 - Prompt 1 — Configuração inicial do sistema.md
+a15dc208d1a5283c1b5be71200616ea1d46dd769f64f8529cdf1dea5fa73a1f6  1823  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002915 - Prompt 2 — Acompanhamento diário.md
+d8cc105bb2a134e6f80fce3d045df3e82d095b09f87dae3c11c4177c78746cf7  1397  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002916 - Tecnologias de Si.md
+cefb1c30e812f2bbe9dccd81853616c7f983fe02f99abb016071552f0a20f2e6  1529  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002918 - 050626 04h30.md
+757175c757ffe258f492bc7db8c0c426ea775fab2c4cc6ce7215458926e593ea  1783  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002919 - 060626 01h20.md
+f2b768032222b0bf403eb55ae7d8fd02371d674fa38df4c6b7d22f0452d33bf9  1873  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002920 - 080626 00h00.md
+b7bf421423225a5cee70ca29a81a70eb608b48519a79fa84decf075aa511c487  1876  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002921 - 150626 05h25.md
+b25ce7573632586cd6592a497312cede3f8de29a16bbc1bb05b8ee47c8db3325  1498  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002922 - 310526 23h43.md
+973a7ec64db18eb2a69d18ae055162c2bf7302060de2a232bce7b9b2ca1c19cf  1542  09-Fontes-e-Evidencias/Processamento-Automatico/Fonte - SRC-002923 - 310526 23h52.md
+c087880ddb8bc63e2613c36c5cd34a630028eb17c42650f430742f906f2b371b  1406  09-Fontes-e-Evidencias/Segundo cerebro - catalogo.md
+4a457fb26965ab72d60ad821b860a724326c4e9fecd3b8809b28e21aa5fee58d  1280  09-Fontes-e-Evidencias/Terapia - catalogo.md
+f5ed55da1ce801711a9c2da98bfffed154b1785e393b8befa1cb34a76d363cf5  2264  70-Fontes-Brutas/Arquivo-Original/00-BRIEFING.md.original
+ffe8424369aad0631c85ab306e87b18bfd18ad49ba85fcec87c1900ce8f9ea10  27638488  70-Fontes-Brutas/Arquivo-Original/Dados Kevyn.zip
+70fecad2944579a41352b458b84aadf8518782adf87f4a79bad9ded3ce888036  12869  70-Fontes-Brutas/Registros-Selecionados/Conversa - Amor e procrastinacao - 2025-07-17.md
+169f282ef50bea34087e4480819991bab712f3805410b894bef49de4dce0ef44  199160  70-Fontes-Brutas/Registros-Selecionados/Conversa - Analise Liber AL Cap 1 - 2025-04-08.md
+b91d762b1c5719823803f760ba2b0a94d4054ff74e6167f3ed5a2999a22a1892  46032  70-Fontes-Brutas/Registros-Selecionados/Conversa - Analise psicologica e ocultista - 2025-07-20.md
+dc9b4b4e4af342f74db1556f9f83ecbb972dd9c3918e50af5f261fb37c94775b  11146  70-Fontes-Brutas/Registros-Selecionados/Conversa - Analise tarologica pessoal - 2025-09-19.md
+01c658cfc539529a7902f27b3aabd9cbf3b7197059ebef54c55db83df4440dd3  12714  70-Fontes-Brutas/Registros-Selecionados/Conversa - Autocuidado com analogia - 2025-08-19.md
+7349d46c1ea0b2b4f77714e2653be1ad542ad6a2aa62b5151e845c63d92e8e7c  52190  70-Fontes-Brutas/Registros-Selecionados/Conversa - Caminhada Hermetica e Thelema - 2025-05-26.md
+e1337dab2f14456b15114974643df9936d3cbd4d5af3a0d73a28f086a6ff0673  10080  70-Fontes-Brutas/Registros-Selecionados/Conversa - Carta de despedida - 2025-10-24.md
+45b01aa4582ebe070006e6a2a5c4f4bf2329d4461dde8257124281cc0bf9f6b7  24110  70-Fontes-Brutas/Registros-Selecionados/Conversa - Comparacao Taro Thoth Eras - 2025-08-13.md
+66752fa759834a4c5dfd7c1b9cc557dfe69b308b1638ae0109dc73e513cf8651  43473  70-Fontes-Brutas/Registros-Selecionados/Conversa - Deus e Thelema - 2025-10-10.md
+7daa9d8fa742eb0c41b1f95a5397205ffce35d99ce8422480039dd4f205de865  2271  70-Fontes-Brutas/Registros-Selecionados/Conversa - Devo namorar agora - 2025-06-06.md
+8f87fae01b37cc2824461b4b80374cc68113477c568a4d8c0f0f3e2260fddfb4  12108  70-Fontes-Brutas/Registros-Selecionados/Conversa - Estudo sobre Seis de Copas - 2025-08-24.md
+c3de2529da8de6a479e6c421569b17309787e0f1326626d19f114d12d444dd84  38699  70-Fontes-Brutas/Registros-Selecionados/Conversa - Leitura sobre voce - 2025-10-24.md
+68d30d3eabda7928efadac95852f9e9a7fb23020634e55fdd6ebd429eb890397  9040  70-Fontes-Brutas/Registros-Selecionados/Conversa - Obsidian Idealizado - 2025-07-02.md
+ecece9d28a07620bbea97c40c97f809557ee03732727a06523e5c501ac421014  53642  70-Fontes-Brutas/Registros-Selecionados/Conversa - Pontos altos Cha e Prosa - 2025-10-11.md
+c6f9b275b7ad1b405178ee71b8931255920a17d7b0372ee81c8ce168e7fc4ea5  22000  70-Fontes-Brutas/Registros-Selecionados/Conversa - Psicologia e Leitura Subjetiva - 2025-06-16.md
+f6ece4b27548dacac27619267e1afd77edd371de873201bd191c63fafe0f895f  97190  70-Fontes-Brutas/Registros-Selecionados/Conversa - Raiz da procrastinacao - 2025-06-21.md
+2559f32398f51b94f557584cf3a6f305fd9b39fcea8d58ab19c1d7d7cc83cb04  12747  70-Fontes-Brutas/Registros-Selecionados/Conversa - Reflexao sobre experiencia com Taro - 2025-09-30.md
+686fa32c339c2c3e642aa7b633747ea70b34a4a8a65c8e00249edf334d1e81e5  4346  70-Fontes-Brutas/Registros-Selecionados/Conversa - Reflexao sobre namorar - 2025-09-19.md
+bdec393f5c4c50dfb1dc87f13f5a2c614b4a41b71849cd5e6eef9b825d5e81b2  52797  70-Fontes-Brutas/Registros-Selecionados/Conversa - Ritmo Hipnotico e Ocultismo - 2025-06-19.md
+bbc61cdcc76d3f8c11a51b324f8afe78970234f6e12441e9f57fd016c3ee024c  8626  70-Fontes-Brutas/Registros-Selecionados/Conversa - Sonho e Transformacao - 2025-05-25.md
+c54fb1f57795a53f8fd173be6302c7a0501f853840b22b63a326cf72636ca1f4  74577  70-Fontes-Brutas/Registros-Selecionados/Conversa - Taro e o eterno - 2025-10-04.md
+94746e0699267b8e966a9e01f217383ec7ca5122330c15238ea50e69c8b80e77  3917  70-Fontes-Brutas/Registros-Selecionados/Conversa - Tarot e autoconhecimento - 2025-10-09.md
+81b281e9e727e8acbd9135c95969349d35f49f421283064f0dc76439e309edbc  7347  70-Fontes-Brutas/Registros-Selecionados/Conversa - Transicao e alma mutavel - 2025-10-03.md
+265135094a725f4241465800dc40247f7b225fb46df9083595f8acba0acaef23  47103  70-Fontes-Brutas/Registros-Selecionados/Conversa - Tuneis de Set resumo - 2025-08-13.md
+cf9f3211bd616b9a46f45147d0ff51c66a6f176a89ba6ed0349082ebc597e735  23187  70-Fontes-Brutas/Registros-Selecionados/Conversa - Visao pessoal sobre ocultismo - 2025-07-05.md
+6d7e92e35ac36b5b6582a8c05944eefbbe9b3da48f0033ebe290cc4aaa7db850  4767  70-Fontes-Brutas/Registros-Selecionados/Registro - 00 Diario gravity falls - 170625.m4a.md
+b68d4d0a42d834ea3f8c9595138038d100609e5e43344c713a69f6df8060714e  23997  70-Fontes-Brutas/Registros-Selecionados/Registro - 00 Diario Parte 01 parte 01.md
+b41c8ba84eb00aca5a30e02417eac2aee0ae7d555354c417effcd7e7b174ed4a  24244  70-Fontes-Brutas/Registros-Selecionados/Registro - 00 Diario Parte 01 parte 02.md
+8ef835c65366b74d841544fd804a382a5b6a519825fb6da815537c3d56e0b282  22525  70-Fontes-Brutas/Registros-Selecionados/Registro - 00 Diario Parte 01 parte 03.md
+10af3e055fd7da608badb704cb58f39e476828ab899afc4302e547154d4a760a  21270  70-Fontes-Brutas/Registros-Selecionados/Registro - 00 diario parte final.m4a.md
+664aeeb53b8ade971a397d1a7f082f53028bea5081944da9aacfa6550bf1e63a  1257  70-Fontes-Brutas/Registros-Selecionados/Registro - 00_Prompt Reescreva.md
+3cf7ac988feff89334875d18171f46f3bae48d491b7dffcb4419b799ce16d76b  39137  70-Fontes-Brutas/Registros-Selecionados/Registro - 010626 RNIDIQAOUP.md
+4cbfc3850b5d817af9e93b1174d4e7f5159064d259f928f486136c5d16f84cfa  8257  70-Fontes-Brutas/Registros-Selecionados/Registro - 050626 04h30.md
+ddaea3bf8223046a2a871e65c09077e8d2a2ec897b77fc645e55db1ba96566ce  18651  70-Fontes-Brutas/Registros-Selecionados/Registro - 050626 RNIDIQAOUP.md
+05213db14e853227235ed6a4cb48e8ae54a8fdb2fb1e1677885fde1fae124d02  6431  70-Fontes-Brutas/Registros-Selecionados/Registro - 060626 01h20.md
+cca4cb12388f198a5f944c46af50386dab0d8badff39c6f6f7d08214a18f044a  24319  70-Fontes-Brutas/Registros-Selecionados/Registro - 060626 RNIDIQAOUP.md
+6bf9facdf350268e955c0c1b14cf6dbedae97429bca843c8fe44a77d29b286f9  23899  70-Fontes-Brutas/Registros-Selecionados/Registro - 070626 RNIDIQAOUP.md
+594de4e7f4b423a7a3449669b30c14a1b7fbe2fd5580b206e001ea38f9818b5c  14520  70-Fontes-Brutas/Registros-Selecionados/Registro - 080626 00h00.md
+02e8e658a2a0a06260a95216dbead816e51c6cba851a0ba9249e3c0a91c2e6d7  54786  70-Fontes-Brutas/Registros-Selecionados/Registro - 120626 as 9h - Reuniao com a Psicologa Suzana.md
+232b0a77a2705647e3753ce28f9b23e4548b881ac6aeede2f3284ec39b3c416a  13734  70-Fontes-Brutas/Registros-Selecionados/Registro - 150626 05h25.md
+524e58231e0a0636ff4af12cf9fd481f38bc0b1a2368372b9be4f6116ad41aef  34808  70-Fontes-Brutas/Registros-Selecionados/Registro - 150626 RNIDIQAOUP.md
+7a33c2a5982955dd91d825748db1d70c83005f5a4c4391a6c3e5303718e08981  4119  70-Fontes-Brutas/Registros-Selecionados/Registro - 310526 23h43.md
+b1fa0dbd49ee950f99a5be78b1b2e75ebb7a8785ba813552d4512e2100e73c19  7316  70-Fontes-Brutas/Registros-Selecionados/Registro - 310526 23h52.md
+7cac55c5da622e4d498faecc0f9cefd2b99b6e05f766e84fddc1e6a88be62ab5  16433  70-Fontes-Brutas/Registros-Selecionados/Registro - Diario em audio - Parte 01.md
+4246bf41edf388b1651813c409a1db9157271d8d00a3ce0e3765c49a49602cff  20692  70-Fontes-Brutas/Registros-Selecionados/Registro - Diario em audio - Parte 02.md
+a3fe20fa92c34c451b41a71e596e40ccd49f797de24dd8a4006f60cb4f37f967  6889  70-Fontes-Brutas/Registros-Selecionados/Registro - Diario em audio - Parte 03.md
+f1aa7f203c1f4d40f78347b8435c85cdfe16f819e192653158d2aa36ddaccb76  28682  70-Fontes-Brutas/Registros-Selecionados/Registro - Diario Negro 01 - 241225 ate 130226.md
+c5606fcec5e3779406269e3e105456ab61209aa90be2bced486080d9deb67622  25059  70-Fontes-Brutas/Registros-Selecionados/Registro - Diario negro 02 - 130226 ate 250426.md
+f777c2c5d79713773672a7855c786805d01b2a4b2cf5e33eebdc06669be515ad  1408  70-Fontes-Brutas/Registros-Selecionados/Registro - Disciplina como organizacao da liberdade.md
+1d3291df01e4fbd1a4b4e29c531228a6eb53e71b6ee846b4be8e397eeba31253  12167  70-Fontes-Brutas/Registros-Selecionados/Registro - Framework Vontade SMART.md
+a66d10caee4b1390be10876ddebf49381304beefa711608e560fbe7c7f782e3f  4736  70-Fontes-Brutas/Registros-Selecionados/Registro - Prompt 1 - Configuracao inicial do sistema.md
+eb8ea32e665e6161873ed37d3cfeb5313e6ed6137d2beb29cc43b064e421d232  5278  70-Fontes-Brutas/Registros-Selecionados/Registro - Prompt 2 - Acompanhamento diario.md
+debcd3cc06db770cb0e7392661709c6987af6a989ea79001747600c9da9deead  4381  70-Fontes-Brutas/Registros-Selecionados/Registro - Tecnologias de Si.md
+b91843481490422fa9c08ca61214d0fafd22543acc00be4f99cd495d639354ba  2471842  75-Anexos/Imagens-Selecionadas/Generated Image December 31, 2025 - 7_24AM-b9184348.png
+32e4c3e09c06225dd4fa4fdc10390caf3b41d69e7dd9a30f059030df7258958b  2499436  75-Anexos/Imagens-Selecionadas/Pasted image 20250204090427-32e4c3e0.png
+1b1d3cc69c8480fe356c93ae5e1e9adae4bd22539b87fd0d3a2f212c3c026610  38845  75-Anexos/Imagens-Selecionadas/Pasted image 20250602021155-1b1d3cc6.png
+004ecd7f13bfcf9af459b971ad724757b6c61c6ad472fcfb30354ab0acb98f78  282494  75-Anexos/Imagens-Selecionadas/Pasted image 20251011153214-004ecd7f.png
+26d3285ab4947ceda7309a15ee3889fd527313829bb95ed3069eaaa375ec5910  18631  75-Anexos/Imagens-Selecionadas/Pasted image 20251011154832-26d3285a.png
+3c4ea141b54bb5880466aa3ad21c5da13387631890278ad1b04565c8048d081b  141693  75-Anexos/Imagens-Selecionadas/Pasted image 20251011154942-3c4ea141.png
+feee530fa81bf25d36a03a4835667977e9b0ca1fd9b8890322ff7a0735475545  152234  75-Anexos/Imagens-Selecionadas/Pasted image 20251011161025-feee530f.png
+5fc7b67d22515ddd99ca43611ab857528539872621f020b088e0cd9856eaa689  48377  75-Anexos/Imagens-Selecionadas/Pasted image 20251011161341-5fc7b67d.png
+ae574eb7275140418c6091c72bc227f53e1141eefa68a9012e0772955a7dbf34  114018  75-Anexos/Imagens-Selecionadas/Pasted image 20251011163225-ae574eb7.png
+1d33ab602b87110c8a599ac7fc3cd52c7850c96c7e04c1be15d8b268d1a94041  101686  75-Anexos/Imagens-Selecionadas/SAFE ZONE-1d33ab60.png
+d92ee06638be1e47f6ae96d2d8980aea48a2be1a61950b0ab82412f2a0c79e36  3556  75-Anexos/LEIA-ME Anexos.md
+0e779f3b80520bf3625daeb8332e75893dc57a8bbc3a4e3c0bf877e33c45ba8a  2133  75-Anexos/Manifesto-de-Imagens.csv
+7a44e2f317f730f3139a0fe753de6a50de2949a4ae1d04b7ceee4a8847d2df22  1705  80-MOCs-e-Trilhas/Linha do Tempo.canvas
+f0c121d507808b2ad96f11828735a9837486c0bd1f1e00e43ad7513a78c58a90  2393  80-MOCs-e-Trilhas/Mapa Autoconhecimento.canvas
+22cad2564c9503869358a7fd7244b97c20780ad54e1287b878bfd3752ea4487c  2286  80-MOCs-e-Trilhas/Mapa Geral.canvas
+952e27723fd201a33f7713349a6551a08ac3273db28887468f32659090caeafd  8420  80-MOCs-e-Trilhas/MOC Cronologia e memorias.md
+42247a8d253cc006b397c5e3e5ca6c3d269d8b94dde9eede2eecc91e338c4c32  7955  80-MOCs-e-Trilhas/MOC Estudos e referencias.md
+ce376937dfb30f55436c4869ecc6f9c315eb2488ebbbbcb2bf19d891db1005be  9283  80-MOCs-e-Trilhas/MOC Fontes e evidencias.md
+56800afebef95935e34f70571d91a8fb0fbcf104edd7036f40e3b94171fb3fff  7752  80-MOCs-e-Trilhas/MOC Perfil e autoconhecimento.md
+f30faa97f730b9bc06185cece183b7b4e0cf991b2bf17a39b16806c26589cd20  4946  80-MOCs-e-Trilhas/MOC Planos e decisoes.md
+da2c57f8611b52ed49c89930d54bf86fc00600c80a40f65c326c2bcb07611c6b  5514  80-MOCs-e-Trilhas/MOC Relacionamentos e rede.md
+9d02d47d9cf7a28cd73162d7315c4810fa2f13c70a4b400a3efed2f9c4176713  5566  80-MOCs-e-Trilhas/MOC Saude autocuidado e autorregulacao.md
+1b2cefb51406163fa02e822c29c25b809118b3f36e66fc9f584c5eff932e32e1  5326  80-MOCs-e-Trilhas/MOC Sonhos simbolos e espiritualidade.md
+fa21012bc3f04a03c5dd52f851e0993144148d9eaf0be5dc32cda4f60aea576a  8085  80-MOCs-e-Trilhas/MOC Trabalho vocacao e projetos.md
+f87accba642ea3b1142dbebd1d9e31711702852ec3ff0f29509dc62a41a91ce3  2094  80-MOCs-e-Trilhas/Projetos e Execucao.canvas
+b6ac26075427702aec23feb33a5b3cf94e9bf7363276c1273c626ad85aa72a47  5034  80-MOCs-e-Trilhas/Trilha autobiografica.md
+de3bf13815a36789bfaac14ac8b2d2a16aeef6a470a88b13f8ba6a500cc42b5c  2211  80-MOCs-e-Trilhas/Trilha de auditoria das interpretacoes.md
+dbd1e5ccf192fc9700ea37525028f76a4b547b39b4e37e1af4fc6e2b40e05893  2578  80-MOCs-e-Trilhas/Trilha de preparacao para terapia.md
+5a24219079b803825747906309ab58ce91a6bf93b9ba993a4498cedcdace5ce7  2517  80-MOCs-e-Trilhas/Trilha de revisao de projetos.md
+f5a993d8e6b5502c918ce1e2b2e315fcb543f498ac70d827e68caa87b96f779c  3023  80-MOCs-e-Trilhas/Trilha rapida - quem e Kevyn.md
+790505c5adfbf4ee2119de1a3d3641c7f61b82039a2e65a72e3d3d882e09e80d  1602  85-Bases-e-Consultas/Bases e consultas - guia.md
+4f46e1dd56f37b39e091cc9e9104d8505a3fa91b7d2b290b8411918350e4440d  3198  85-Bases-e-Consultas/Consultas Dataview.md
+1bfe265a96f9d4428f899ad9d424c8b78841332331e1e73108c2cf2882ee6850  616  85-Bases-e-Consultas/Conteudo.base
+97519c4cfa6e3540f149baf3756bf7f3a298b8df24fd3060352dcaa26b4cde24  3609  85-Bases-e-Consultas/Dashboard do cofre.md
+59b643a19cb41b4a510ad58e1fd68759b1c7009d476720aa4d808167c53f6a34  425  85-Bases-e-Consultas/Fontes.base
+ba956c7258bb6aee3f86b8af353a3656e234908076200789b0f72784be00cb6e  322  85-Bases-e-Consultas/Linha-do-Tempo.base
+7bd825fce37755c2018a5194365fd30a539c0f3e3daa5f28fa5afa0ba550f71d  329  85-Bases-e-Consultas/Pessoas.base
+07010da8d41eda392e442fd24995484a06696cf4e62cc0edd3b88e4c8a78400b  366  85-Bases-e-Consultas/Projetos.base
+19da020395ef669868e8426f1e706ee3723e9dd9056037916b7c64fe912d57da  1060  90-Templates/LEIA-ME Templates.md
+ba59a46087f5093df45a077a586acefcfc412132d3afc9b687af82b583a06900  903  90-Templates/Template - evento.md
+05968e6d68a4b178233153765661b5831df60e3573a358226e77415e1511be7a  874  90-Templates/Template - fonte.md
+781dd7a78197e29685a4ce20e65924d91ef0058369f653a6189ed23301ebf482  949  90-Templates/Template - hipotese.md
+29eabe0ef21828be83672a9f3beab536a3a205c334a16cdf3d764a7c1c48d691  945  90-Templates/Template - nota tematica.md
+9846de5da3c414072eee3fd6b888bd98a879b7256110c56b11e66b96d3fe3d43  879  90-Templates/Template - pessoa.md
+1e7b1a1682aed70fe6be6859dd4a094ae1db086efbed7fffa451cf0920a3e55b  916  90-Templates/Template - projeto.md
+5e54505456345546f6e826c6697e46aa5da45a905a88eaf26fa8c4baf59e3e85  943  90-Templates/Template - revisao semanal.md
+745c2bd860e7b910c90169b52c03856d55de76015ecb89265ad65dcf12ad7ff8  1005  90-Templates/Template - sessao de terapia.md
+685dc7b96b9f02211957805fdac73a6984cf29038c07e01e8184d01533d1e088  962  90-Templates/Template - sonho.md
+960e74d65a4b7c93487a32d31f2037d7b4df286a4c468a6ca85349a4ba8dd002  10280  95-Auditorias/100-arquivos-mais-importantes.md
+4876041b111874aa3100673220ef3d17d0528a1d6a4e3e68e554b1dab383b2cf  1764  95-Auditorias/Auditoria de fontes.md
+520bf075ee0daeb496c21fa9019ca731c2b211d6caf54afc42700aba80c49af9  1317  95-Auditorias/Auditoria de privacidade.md
+d7d8290de113258871e79fad2a577f1ff6bd9275bd3c83f5aa86f07cca5de835  1164  95-Auditorias/Auditoria de versoes.md
+27bbe550517f1a3aaa9071748d967dc588251cf4ebbb34f10b12fc06bd1ebbc6  1677  95-Auditorias/Auditoria editorial e de evidencias.md
+1fdc1aa798433a1d73ab38dc6d651df1da4c130e37edd289eac10293424e9db3  1194  95-Auditorias/auditoria-customizada-final.json
+f3c248ea5df34fbb8e5fdb2956635dbc9b9724fa3a90bcf2dd39fa5236ceb40b  3460  95-Auditorias/auditoria-estabilizacao-v2.md
+0a387ec28345b0d54e8f7e372290e46213bbd5825110a2d73b4aa74e68c64463  50062  95-Auditorias/auditoria-estatica-final.json
+fc06a700a3677f638979b2327672b2ac32ec3609f9658324743146b9b1e33a8e  1475  95-Auditorias/Checklist de release.md
+3c3ad95940de7b04523f508efc278102e0628ddb63122b0c7177e078485ec2c2  3663  95-Auditorias/diagnostico-inicial-2026-06-18.md
+e8a0321e22e2a9e372848d626e962dc80b7497fcf6cc240d1487a09b7cca86b8  2548  95-Auditorias/Estado da integracao.md
+a93820ab7bdb01578fb91f4aa97de02a637ede9c81736ae5d65ce2a3112f8d9f  1807  95-Auditorias/Matriz de cobertura.md
+f5cfcaeef7d9ad190420ac5d886f9707549807dcbc888586431a286e6dfec522  1613  95-Auditorias/pendencias-pos-estabilizacao-v2.md
+ec183633e75d765c2f5361bc47a30acc3c262c12c83bae1eaee309359246cc67  2220  95-Auditorias/Relatorio de auditoria do vault.md
+c4afdfdfc73a8206916084cbac575fbc6525ea50adb32e17431e4d156868bf63  48779  95-Auditorias/relatorio-auditoria-tecnica-v2.md
+c4f3ba87b605d077b5a61bf17993e595041e31400a9c58a72e6bf5d21de36cf8  8034  95-Auditorias/relatorio-final-2026-06-18.md
+3217ff4fb58a07057a7a510ea87fcef12de3b04dace448587f469ce415451629  3901  95-Auditorias/resumo-final-estabilizacao-v2.md
+a33a51c6c878d47cd925222890d23c7c44f8a9914e8061410e4cd80c82f58b84  20210  98-Infraestrutura/auditar_cofre.py
+9c9c31b89ada6bb9e049e2b80254a4431bfd340203db452c7790aa2cee5072c8  15449  98-Infraestrutura/auditar_vault.py
+ac5e25e90664af02c4de8436bf6749033850a08d1d8082dad717b35618b36422  878  98-Infraestrutura/Changelog do vault.md
+206ecbc83af53f70866284d40cd57b7e5ba0f34b5370073cbc3fde7713233695  1035  98-Infraestrutura/Convencoes de nomes e links.md
+a6c79aabbec3293ae488f386954ef911d9acd9da35e2b9c77736d3f991fceb90  55971  98-Infraestrutura/Indice-Conversas-ChatGPT.csv
+ed446d85ea268b1883e92e0a0abcd4673da4548f92dcef55f5c4bf6159bc8203  12143  98-Infraestrutura/loop_integracao_continua.py
+397227429ae208201aac8dcf0a477815e21eb705daf7b5b54ed0165e67ff9afa  514150  98-Infraestrutura/Manifesto-de-Fontes.csv
+b21e6c7ac2a83300c7b672d10e114de051d504345b6a7dd40e44e687a17c3a04  11586  98-Infraestrutura/materializar_sintese_no_nucleo.py
+60c59cb9235aa08963cde9d42fc1898560bc86a17a9c7d8fa779b2df5bb49d54  1908  98-Infraestrutura/Ontologia.md
+b5905cad95c06930863124348ac47f15cf5402931258bbe91d2e914e47f2f632  52859  98-Infraestrutura/processar_src_0001_0500.py
+7dee7df52bf748e95cdbfd95f6d51db1840cf6bbd1092c0548324fade6f64b24  1312  98-Infraestrutura/Schema YAML.md
+dc59a8d5a7de8368de599124dc660c44e3d665ae39c536125f5d9a47a9159bbe  951  98-Infraestrutura/Vocabularios controlados.md
+4a82090be6bae8c11ecffd51c2ebe752ebf1a051fcdd26a7c9714ad9ddbf9605  1225  99-Pendencias/Kanban de pendencias.md
+c621e89974f3ccd881ea7099c41b498d818412874dd6aba9f221f1f02f4230c2  3004  99-Pendencias/Pendencias abertas.md
+241f8ee1a14e55b28740a3ea6c099b2cec1432df9f2c1c458156a94c78c6fdee  3701  Changelog.md
+60651d741135c38d89561394a349d96ef0f1abc234b5b12293283519d11ed09e  1693  CHECKSUMS-FINAL.md
+0ceac03339c59a46c23bcdfd508aa56eb228b82b4258386335486d0ea21423c7  12641  CHECKSUMS-FINAL.txt
+c5d3212d7e0888e442774c7804d63c47e96eca760bf4774d3c6580f5730d5035  614  CHECKSUMS.txt
+9288a523561917fa39e0ad71036f336d2800c67269ea13c59f73524e45393077  649  Controle-Revisao-100.md
+cb7e94d39e418bdaf824b741b95aea859745514a9a180fca1820b74996a78c18  99827  Inventario.csv
+2287c31d5dc7c2b70a01c8fc8e7385601290e255458d428ec00f9777253455e8  4821  Metricas.json
+f192846215967654c0106eb9fa02b21decdec0922f70507b2dfb1bf6feaa50aa  3913  Pendencias-Assumidas.md
+1fc45da8455f4a77c12d59d015bfed950e0727791a3295da9237e6317730580d  4287  Relatorio-de-Auditoria.md
+b78aa35a814dc175b7ac0773405054905e60830dca6adff2fa17cd01407f78c1  7077  Relatorio-Executivo.md

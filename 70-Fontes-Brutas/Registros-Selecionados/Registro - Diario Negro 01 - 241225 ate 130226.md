@@ -1,0 +1,203 @@
+---
+id: registro-diario-negro-01-241225-ate-130226
+titulo: Registro - Diario Negro 01 - 241225 ate 130226
+tipo: registro_fonte
+subtipo: diario
+status: arquivado
+profundidade: fonte_integral
+versao_schema: '1.0'
+versao_conteudo: '1.0'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+camada_evidencia: registro_direto
+grau_confianca: alto
+sensibilidade: muito_alta
+fonte_catalogo: '[[Fonte - Diario Negro 01 - 241225 ate 130226]]'
+caminho_origem: Diários/Diário Negro 01 - 241225 até 130226.md
+sha256_origem: bef341662828918793f64afad1520f9d09a2fc9d44c31534ba6aa141ff46a1c1
+normalizacao: wikilinks_desativados; frontmatter_adicionado
+tags:
+- tipo/registro-fonte
+- privacidade/restrita
+---
+# Registro - Diario Negro 01 - 241225 ate 130226
+
+> [!warning] Cópia de leitura normalizada
+> O conteúdo abaixo foi copiado da origem; sequências de wikilink foram desativadas para não contaminar o grafo. O original byte a byte permanece no ZIP arquivado.
+
+(Transcrito por TurboScribe. Atualize para Ilimitado para remover esta mensagem.)
+
+24 de 12 de 2025 Escrevo da sala da casa da minha avó. Penso que 2026 está logo ali e em tudo que quero conquistar neste ano. Me lembro de 2024, onde eu arrasei.
+
+Em mais de 100 livros, fiz vários cursos e estudei bastante. Quero valer bastante em 2026, mas... Quero ir além só da mente. Ler e estudar.
+
+Treinam a mente. Mais musculação, dieta, isso cuida do corpo e você precisa cuidar também do corpo. 21 de 1 de 2026 Escrevo do escritório da Sirve.
+
+Tenho algumas considerações a respeito do homem-trabalho. Esse lema, descrito como está, representa a versão empíria, a versão luminosa da filosofia perene. É conhecido que tudo que pode ser nomeado pela luz da razão emite uma sombra.
+
+E a sombra que aqui será tratada é a da luxúria e da preguiça na vida do Kevin. Perceba que essas palavras aqui não carregarão o peso original, a qual a elas são atribuídas. A luxúria será meramente o desejo por intimidade, prazer, por sexo e orgasmo.
+
+Enquanto que preguiça, eu assim chamarei, pois é assim que parece aos olhos de quem vê. Enquanto que, na verdade, a ação travada na vida do Kevin acontece por uma série de fatos. A ausência de figura patrona na infância, possível autismo, mais TDAH, mais superdotação.
+
+A começar pela luxúria, percebe que este prazer poderia tomar de você eras inteiras? Se você fosse imortal, quantos anos dedicaria à realização dos teus prazeres? No dia 19, você se encontrou com uma mulher, conversaram um pouco, ela estava ruminando, tentando se entender, beberam e então houve sexo. No geral foi broxante, perda de tempo. Ela não parava de falar do Waze e era uma pessoa muito pouco interessante, sem falar que não saia do celular.
+
+No dia 20, você foi visitar uma puta com falta de clareza na oferta. O anúncio dizia 100 reais a hora, mas isso queria dizer goza logo e vá embora. Por conta dessa falta de clareza, você chegou lá, conversou, levou um vinho e por fim transaram.
+
+Ela gozou, você usou o tantra e conseguiu não gozar. Ela ficou com raiva por causa que eu estava demorando lá. Por eu conversar com ela, na cabeça dela, isso tudo, que seria a conversa e o tempo usado, estava no plano namoradinha, que dava direito à hora livre e tinha preço de 200 reais.
+
+Eu só percebi quando ela já estava de carão, de cara feia, mesmo eu estando dentro do tempo que paguei. Foi péssimo, mas serviu para eu entender que consigo fazer uma mulher gozar com a boca e que as técnicas do Fausto, mas da dala de 20 miligramas, ajudam a durar mais. Resumindo, a experiência foi péssima e mostra os marcos gerais de como é a experiência do Kevin com as mulheres.
+
+Complicado. A lição que essa história traz é que o desejo por sexo, a luxúria, é algo para o qual a energia é desperdiçada, se investida, não gerando frutos, e vista a energia, somente um dos resultados será bons frutos. Dia 23 de 1 de 2026.
+
+Estava essa madrugada investigando a possibilidade de eu ter personalidade masoquista, no sentido de auto sabotagem, de eu inconscientemente acreditar que apenas consigo agir, evoluir e conquistar se houver dor no processo, de eu não conseguir acreditar que as coisas possam vir para mim com graça. Sendo realista, sei que o mundo não é justo e não me deve nada, e talvez essa crença já seja a personalidade masoquista falando. É complicado fazer auto análise, se observar, é sempre mais difícil pois estamos imersos na narrativa que criamos.
+
+Apesar da dificuldade, tenho percebido avanços a passos lentos. Hoje vi uma moça bonita e retirei a projeção, lembrei que tudo que vejo no outro na verdade a mim pertence. A natureza da projeção e da inflação são tirânicas, mas tenho esperança de que meu corpo as entenda como processos naturais, e comece a assumir a responsabilidade por este processo exatamente como ele fez com os outros processos naturais, por exemplo a fome, o sono, o toalete, etc.
+
+A SIRV mais a VECOM dão uma oportunidade muito boa para o Kevin, que é a de que se tudo estiver adiantado ele pode se ocupar de outros afazeres. Dia 24 de 1 de 2026. Estou na sala de aula da FGV, penso na ótima sacada do professor Norberto, teve um momento que ele foi analisar um gráfico, ele falou então é interessante pornográfico, e a última frase soou como pornográfico.
+
+Foi engraçado. Ainda sobre as oportunidades que tenho nas mãos, se eu conseguir adiantar tudo, eu posso tentar pegar novos projetos para fazer mais dinheiro. Preciso focar forte agora aos meus 20 anos para que aos 40 eu possa me dedicar integralmente à mão direita.
+
+Talvez integralmente não será possível, mas pelo menos poder me dedicar a essas coisas com mais tranquilidade. Tanto a mão esquerda quanto a mão direita precisam do Kevin. O erro seria pensar que uma é menor ou menos importante do que a outra, quando na verdade é apenas uma questão de fases que devem ser respeitadas.
+
+Os primeiros 40 anos da vida devem ser dedicados ao ego, à solvência material, à estabilidade financeira, às coisas da terra, enquanto que após os 40 anos, teoricamente, o chamado do espírito se intensifica e o homem sente em seu coração a necessidade de atender a esse chamado. Portanto, devo focar agora em construir a aliança e a base na matéria, e a base na matéria para que no futuro o vinho forte do meu espírito tenha uma taça fortalecida onde será servido. Devo ser como o mago, provavelmente Filemon, que Yang encontrou no final do livro vermelho.
+
+O mago tinha em sua gaveta o sexto e o sétimo livro de Moisés, mas quando Yang o encontrou, ele está no jardim cuidando das plantas. Ame trabalho. Lembre-se do lema que sua estrela deixou para ti.
+
+Foca na estrela. Ela é quem tem para te dar. Dia 25 de Novembro de 2026.
+
+É domingo. Escrevo da sala de aula da FGV no Hotel Gelps. Aprendi muito sobre o gerenciamento de projetos e desejo direcionar força para aplicar este conhecimento na minha vida.
+
+Tenho certeza que vai fazer a diferença. A começar pelos processos descritos no PMBOK 8ª edição, e nas anotações que tomei na aula do professor Norberto. Vou aplicar este nascer e depois começar a aplicar na minha vida.
+
+Meu lado intelectual que é ligado à divina comédia é o fato de que preciso começar a cumprir as promessas que faço a mim mesmo com leveza. Na divina comédia, a esfera da lua simboliza a inconstância. Lá se encontra as almas que não cumprem seus votos, mas que tem sua fé alocada, ou seja, direcionada à vontade verdadeira.
+
+Preciso cuidar da minha conexão com a fé como forma de reprogramar a mente para ter lealdade sem esforço, a vontade verdadeira, para conseguir ser fiel com a graça, de graça, sem sofrimento. Inferno, purgatório ou paraíso, você escolhe. Agora são meia-dia e seis. 
+
+Doze e seis. O professor Norberto está dando a mensagem de encerramento. Foi muito legal participar e aprender.
+
+Me sinto sortudo por estar aqui e agradecido ao Rafael Vallão por ter me recomendado este trabalho. Dia 26 de 1 de 2026. Dinheiro.
+
+Preciso controlar isso melhor, talvez usando a estratégia de gerenciamento de projetos que aprendi. O fato é que em dezembro eu devo ter feito algo próximo dos 5k, mas não é nem final de janeiro e percebo que tenho 200 reais no bolso e não investi em nada, realmente importante. Infelizmente, identifico um problema na sociedade.
+
+A falta da ambição e da visão holística nos incapacita de distinguir com clareza quem quer ajudar a crescer de quem só quer diminuir. Isso é comum principalmente na primeira metade da vida. Agora são 19 horas. 
+
+Escrevo do Salão da Nova Acrópole e estou pensando que devo focar mais na Acerve. Ser mais ágil, deixar tudo adiantado. Preciso deixar tudo adiantado para que eu consiga pensar nas inovações para a Acerve.
+
+Lembre-se de Santiago que trabalhou com lealdade na loja de cristais. Tenho essa mesma lealdade para com a Acerve. Use sua inteligência para servir a Acerve. 
+
+Você é inteligente, capaz de muitas coisas e tem um enorme potencial. Apenas preciso focar mais no que realmente importa. Transformar arata em potência, quero dizer, transformar potencial em potência.
+
+Observação, transformar arata em potência é uma frase incoerente. Preste atenção, o salário que você ganha na Acerve é de um executor confiável e você precisa conquistar isso. Confiança de que você ganha sempre que é ágil e que faz o básico bem feito.
+
+Seja parte da equipe, mas seja de verdade. Pelo por enquanto, o seu primeiro e último pensamento do dia será e deve ser Acerve. Pelo menos por enquanto.
+
+Hoje no dia 26 de 1, você terminou o arquivo da visão geral que é um resumo maduro e conciso sobre quem é Kevin Lucas. Este arquivo unido da tecnologia Atom pode te ajudar a memorizar por repetição espaçada qualquer assunto que queira. Lembre-se que certa vez definiu que a nova santa trindade do aprendizado é IA mais repetição espaçada mais obsidian.
+
+Isto significa que a IA é o motor, a repetição espaçada é a estratégia, enquanto o obsidian é a gerência. A ideia que te dou é de usar este mecanismo para criar um baralho sobre a Acerve. Isto te ajudará a memorizar tudo o que é de passado e todas as suas responsabilidades.
+
+Kevin, você imagina as vezes que ao anotar faz você lembrar, quando a verdade é que anotar é só uma maneira sofisticada de procrastinar. Ora as coisas do ponto de vista do ego do outro, quando te pedem algo e você não faz de imediato, você perde um pouco de confiança. E se demora para fazer sobre a desculpa e está anotado, não vou esquecer ou o outro pensa que você esqueceu ou pior que você está procrastinado.
+
+Por favor Kevin, estou te pedindo isso e não quero apelar para a poesia ou para a fantasia para tentar te convencer de algo simples. A sua cura está em fazer o básico e fazer o bem feito. Não tente intelectualizar, mitificar, racionalizar ou enfeitar.
+
+Isso de qualquer forma, o que deve fazer é aceitar e praticar. Entenda, aprenda com o seu erro e entenda que o seu erro apenas reflete o seu trauma e aja para que o trauma seja curado através da ação realizada. O seu trauma é que você foi abandonado. 
+
+Você era uma criança e não conseguiu entender desde o início que a culpa não era sua. Você se sentiu péssima e achou que havia algo de errado com você, que foi abandonado, pois não era bom o suficiente, pois era comum e ninguém quer o que é comum. Entenda que esse pensamento diz tudo sobre você e não sobre a verdade dos fatos.
+
+Talvez você tenha desenvolvido uma crença central que quem te vê como você é, uma criança vulnerável, te abandona. E para compensar isso, em uma tentativa de nunca mais ser abandonado, você busca ser extraordinário. E para ser extraordinário, sendo na verdade tão comum, a sua saída foi intelectualizar.
+
+O ponto é que às vezes você mostra o seu pior lado primeiro para testar as pessoas e ver quem fica. Mas quem fica quando a primeira coisa que eu vejo é uma red flag. É um sinal vermelho.
+
+Olhe pelo ponto de vista do ego do outro e da heurística wisiate como descrita no livro Rápido e Devagar da Daniel Kahneman. A pessoa vê o seu pior lado e pensa que isso é você todo, portanto não teste as pessoas. Parta do princípio que elas gostam de você e que quem te abandonar é por conta que não te merecia.
+
+Dito isto, e talvez eu não esteja sabendo conectar corretamente esses dados ao assunto da Sirve, não mostre seu pior lado para a Sirve. Nem para ninguém na esperança de que não te abonorem, pois como bem mostrou o caso do ateliê Siranda, eles vão te abandonar. Isso é, é certeza, pois estão totalmente interessados em si mesmos.
+
+Em seu conforto, em sua paz, em sua realização, em seus orgasmos, em suas expectativas. Veja bem, não leia estas palavras com peso, quando mais cedo aceitarem este fato, mais cedo poderá usar ele como uma ferramenta. Agora, tive uma ideia repentina para um roteiro, baseado na frequente analogia que a IA usa para me descrever um Fusca com um motor de Ferrari.
+
+A ideia seria tipo, se meu Fusca falasse. O resumo é algo como um cara com um Fusca que tem um motor de Ferrari aprende umas coisas sobre o amor e a vida, enquanto toda a história é narrada a partir da perspectiva do Fusca. A ideia é que o Fusca seja símbolo para o protagonismo, enquanto o Fusca é o Self, silencioso, e o protagonista é o Ego.
+
+Enfim Kevin, agora são quase 3 da manhã do dia 27, nós conversamos muito aqui, mas você só vai provar para mim que aprendeu, que internalizou, se você praticar. Vou te dar outra dica agora, você pode pensar na possibilidade de colocar o Eurofunt em seu Self, ao invés do Super Ego, mas novamente, isso só vai fazer alguma diferença se você praticar. Prática é a sua cura, terra deve ser seu foco, apenas a moeda redima.
+
+Dia 27 de 1 de 2026. Como eu amo trabalhar na Sirve, como eu amo ter a Vivi como gestora. Amo fazer bem o meu trabalho, amo fazer o meu trabalho bem feito.
+
+Agora são 13h24, terminou a pouco o café da manhã com o presidente, tirei fotos, gravei, e ao final, quando a palavra me foi passada, fiz a ação de graças que vinha planejando. Esse tipo de situação, que é de monologar na frente de muitas pessoas, me deixa muito elétrico e ansioso, mas é algo que precisa ser feito. O teor do meu monólogo foi de gratidão, agradeci a José Carlos, a Rafael, a Janaína, a Raq, a Vivi, e reforcei que gosto de aprender sobre a história da Sirve, sobre a perspectiva dos empresários que por ela foram diretamente impactados.
+
+Acredito que foi uma boa jogada, continue assim Kev, se mantenha no centro, e centralize tudo aquilo que te retorna energia na mesma proporção em que você investe. Por exemplo, a Sirve, Nova Acrópole, seu corpo, a filosofia, a arte, qualquer coisa que faça sua felicidade não depender de outra pessoa. Agora são 19h30, estou no início do curso sobre Stone Trading com a professora Viviane.
+
+Dia 28 de 1 de 2026. Pensei que ontem o curso não iria acabar, a prof tinha total capacidade de ensinar e ela parecia realmente instruída, contudo o pecado foi ter enrolado na aula e não ter focado nas práticas certas. Aprendi um pouco sobre storytelling, mas mais o conceito teórico e como reconhecer o storytelling do que realmente praticar.
+
+Isso é ruim, claro, definir as coisas como boas ou más ou ruins é fruto cultural de uma comunicação violenta, é necessário mais estudo, mais sabedoria. Dia 31 de 1 de 2026. Que doideira, 1º de janeiro já foi.
+
+Janeiro aconteceu muita coisa, o que eu levo de janeiro é a lição que eu tenho muito a melhorar. No final de janeiro fiz sob a supervisão da Coraline Dantas, uma psicóloga, a Roda da Vida 3.0, no qual avaliei a minha vida em 12 diferentes aspectos. Dia 1 de 2 de 2026. 
+
+A natureza humana é ridícula, não seria humana se não fosse ridícula. Acabei de ler o Lobo da Estepe, me incomodou muito, e isso mostra que estou no caminho certo, ou não, será que não consigo aceitar que possa evoluir sem dor? O que está vivo em mim? O que em mim quer viver agora, mesmo sem promessa nenhuma? Dado quem sou, o que é inevitável que eu faça? A resposta para isso é o ato presente focado no agora, ciente da sua complexidade mas agindo apesar dela. Mas ainda está muito vago, abstrato demais, precisamos de algo mais pé no chão, seja um sapateiro, queira cuidar dos sapatos, a realidade do rei, self.
+
+E não se ocupe dos assuntos reais, eu gosto muito de ajudar as pessoas, de ser útil, mas acredito que isso não justifique virar uma amada Tereza de Calcutá. Eu entendo a importância da renúncia, mas acredito que o dinheiro faz parte do meu propósito. Eu procurei na médica as respostas, que no final apenas eu poderia desenvolver.
+
+Eu até posso, com a ajuda das IAS, conseguir ler o que eu preciso, mas isso é terceirizar a responsabilidade pelo meu destino. Sem contar que quando vem da máquina, eu não sinto tanta confiança. O que eu sei sobre mim é que gosto de ajudar, gosto de aprender e gosto de ensinar, gosto de amar, gosto de criar, apesar de não fazer muito isso.
+
+Eu gosto de rir, de me sentir bem e alegre e eu gosto de vinhos doces e tenho desejo de ter uma vida organizada e confortável. Quero ter oito ou mais em todos os itens da roda da vida e quero fazer isso sem neurose, só ação humilde, sem iluminação, sem apego aos frutos e sabendo que meu único direito é o trabalho. Amo e trabalho, faz anos que descobri isso e ainda volto ao esoterismo e à espiritualidade procurando sentido e propósito.
+
+Faz anos que descobri, amo e trabalho, faz anos que descobri isso e ainda volto ao esoterismo e à espiritualidade procurando sentido e propósito. Você mantém contato forte com o espiritual, mas é um contato que na verdade é uma fuga, é ilusão, é loucura. Você não deve mais se voltar à complexidade, complexidade mais te paralisa e te confunde.
+
+Se volte sempre ao que é simples e que te organiza. Dia 02 de 02 de 2026 Só há um bom motivo para manter este diário, me ajudar a ter coragem e sustentar aquele que é meu caminho. Tudo já está revelado, se colocar em posição de busca ou de metamorfose te impede de aceitar a graça de já ser, de já ter encontrado, já estar transformado.
+
+Então vamos Kevin, lembre-se sempre, amo e trabalho, seja um rei jardineiro, você tem autoridade, confiança e conhecimento de um aristocrata. Você é um mago, um rei, um anjo, um demônio, um guerreiro, um amante e outros mil tipos de criaturas maravilhosas e terríveis. E mesmo assim pode ter a humildade de trabalhar em uma associação comercial.
+
+Torna-te quem tu és e quem você é. Eu sou Kevin Lucas, homem de 22 anos que mora em Rio Verde e trabalha na CIRG, um homem com ambições e meio calvo que tem que entregar amanhã um relatório exemplar. Vou tentar não falar aqui das coisas temporais, mas sim discorrer sobre os motivos atemporais para ser fiel às coisas temporais. Prega o que se destaca, leva martelada.
+
+Prega o firme e escondido, o que trabalha em silêncio é sempre o que as pessoas confiam. Hoje pela manhã, reunião de apresentação de médicas foi bom até, mas preciso ficar esperto e dobrar a intensidade, fazer fluir. Foi acertado que eu preciso entregar o relatório para Janain.
+
+Era uma vez um sonho chamado a CIRG. Dia 6 do 2 de 2026. Eu sou um espírito livre. 
+
+Espíritos livres correm o risco de se perderem ou de se dissolverem no ar, se não aceitarem ou criarem de bom grado seus grilhões na terra. A terra é sua prisão. Você sendo prisioneiro tem dois tipos de liberdade ao seu alcance.
+
+Primeiro, a falsa liberdade, na qual você usa sua inteligência de forma a negar que é um prisioneiro, a pintar as paredes da cela com ilusões reconfortantes. Com fantasias de poder que te fazem acreditar que não é um prisioneiro, mas sim um rei, e continuar assim na negação, na insatisfação secreta ao no fundo comparar a realidade com a fantasia ideal que criou de si mesmo. Segundo, a verdadeira liberdade, que é conquistada ao aceitar preliminamente que é um prisioneiro, aceitar a sua realidade e aceitar os grilhões que te prendem.
+
+V. Ser um prisioneiro não nega a verdade do teu espírito. Não precisa tentar convencer a si mesmo e nem a ninguém de que é isso ou aquilo. Se tu fores de fato e te digo o que de fato é, então repousar sobre a confiança inquebrável de que o é te dá o luxo de não precisar parecer que é. V. Não precisa sempre querer dizer as coisas sábias para mostrar que é sábio.
+
+Apenas o tolo faz algo para provar ou fazer as pessoas pensarem que ele é alguma coisa. E isso, em sua última verdade, é crer que quem nada é pense o si mesmo é algo. A grande pegadinha aqui é que no esquema geral das coisas isso não importa, ninguém é coisa alguma.
+
+V. A verdadeira liberdade exige que use sua inteligência não para criar fantasias de fuga, mas para enquanto prisioneiro ser frio e sagaz. Frieza para aceitar estar onde está e sagacidade para focar em usar a inteligência para, com o que estiver a sua mão, traçar um plano de fuga. V. Você é como o personagem de um sonho de redenção, um inocente ou talvez apenas uma pobre consequência do seu contexto.
+
+Você passaria vinte anos, um tempo enorme, usando sua inteligência como um zig-zag e a sua vontade como um maço para cavar, martelada por martelada, a sua fuga da prisão. V. O Deus criança está no berço, tende a agir pelo Deus criança, que é o seu sagrado anjo guardião. A criança obviamente é metafórica, ela simboliza a versão de si mesmo que ainda está por nascer, que ainda está por crescer e que já existe como semente, como ideia.
+
+V. Penso sobre a possível equivalência do sagrado anjo guardião com o conceito de propósito, o que o divergiria do conceito do Deus criança. Este Deus criança é o mesmo simbolizado pela manhã, ele é a filosofia da manhã. Lembre-se que é prisioneiro, tu deves agir como prisioneiro, trabalhar na fuga como prisioneiro.
+
+Antes da iluminação você cortava lenha e carregava água, agora depois da iluminação você deve cortar lenha e carregar água. Kevin, você está prisioneiro, mas é um rei, um sábio, um jovem talento, um louco, um mago, um alquimista, um artista, um homem belo, um poeta e todas as suas setenta e duas faces. Você tem a opção de não precisar provar nada disso para ninguém, mas assim não seria útil.
+
+Precisa ser útil para a humanidade, talvez assim eu sinta que fiz minha parte, por isso continue a cavar sua fuga da cela. Cave com execução, cave com inteligência, cave com vontade. Um soberano prisioneiro que com consistência diária e disciplina consegue sua liberdade, escrever até que é bom.
+
+Você deveria escrever contos, um conto sobre a subida do homem, dos humanos ao paraíso, passando pelas cartas do tarô que colocou no mapa da individuação. Um conto sobre um diário de um fusca consciente que tem um motor de ferrari, que em sua profundidade é um tratado sobre eros, que seja sobre romance. Um conto sobre um melino que cria um robô para vestir como uma armadura, e talvez tentar unir todos estes em uma única grande história, talvez fosse um oz moderno.
+
+Contudo, este é um assunto do espírito livre, assunto do rei, você é um sapateiro, um prisioneiro, e sendo este de se ocupar de assuntos de sapateiro, executar, e de prisioneiro, conquistar liberdade através da consistência. Por agora não há mais nada a dizer, nos falamos em breve, Mago Alquimista. Dia 9 do 2 de 2026 Não existe hack para coragem, para o vai lá e faz, e enquanto não se colocar em movimento em direção ao que deve fazer a tarefa irá parecer impossível, somente o ato de caminhar, de ir lá e fazer irá revelar que realizar o impossível na verdade não é tão difícil assim.
+
+Coragem, Kevin, trabalho focado, respira profundo, vai lá e faz, veja cair sobre ti a luz ilimitada do nada sem forma, e tendo tornado-se esse nada, por ter obrigado esse nada em ti, faça mover o seu corpo, sem ocupar a mente com assuntos quaisquer, pois aquele possuído por nada, cujo nome é ninguém, não tem em seu interior qualquer tipo de movimento, o movimento é exterior, seja ninguém, e faça, abandone o verbo, encarne o ato, no princípio era o ato. No princípio não era o verbo, risque o verbo do princípio, no princípio era o ato. Dia 12 do 2 de 2026 Quanto mais estudo o Telemann, mais entendo que Crowley realmente era um mestre, é claro, isso é sempre bom de ser dito, é necessário analisar tudo e absorver só o que é bom.
+
+Ao redor da vontade verdadeira existe o corvo, o lobo e o cordeiro, o corvo é a luxúria da mente, o lobo é a luxúria do corpo e o cordeiro é a luxúria da alma. Vamos entender aqui a luxúria como desejo, quem olha para a circunferência sonha, deseja e desperdiça energia, quem olha para o centro desperta, se alinha com vontade e dá bom uso da energia. Libido é a energia pura sem forma, que gira a roda, que dá vida e morte ao mundo, é o movimento do mundo. 
+
+Libido une os opostos, libido da existência à vontade e ao desejo. Em História Sem Fim, a Imperatriz Criança diz ao protagonista que os nomes antigos já não servem mais, e que é dado o poder de criar a humanidade para quem possa reconstruir fantasia, e isso é a justificativa perfeita para que você Kevin escreva seu livro. Não use os nomes antigos, use novos nomes inventados, reinvente a fantasia, descubra novamente o movimento e lembre-se que ao fazer isso você guia a humanidade um passo a mais em direção à verdade.
+
+Ajudar a humanidade a dar o próximo passo, que seja essa sua vontade verdadeira, e o propósito que guia sua mente, seu corpo e sua alma. Preciso dar praxis, preciso do praxis, pois em mim é abundante o logos. Preciso de Zen Budismo, preciso de Tao, preciso de Telema, da verdadeira Telema, e por qual motivo não falamos também do Tantra? Isso é um dogma também sobre presença, corpo e ato.
+
+Pare de complicar e comece a caminhar. Analogia e metáfora são os poderes divinos do mago. Dia 13 de fevereiro de 2026. 
+
+321 Ação é uma técnica interessante para te tirar rapidamente da inércia, se usada a sério e com respeito por si mesmo. O segredo é que se tiver respeito por si mesmo não irá precisar de nenhuma técnica, só sua vontade e sua palavra bastará. Perceba a energia passando por você e sendo direcionada por sua vontade sem nenhum esforço. 
+
+Você se move de acordo com o equilíbrio e flui para onde é justo e belo o seu investido de energia. Em silêncio interior perceba a quietude do seu íntimo de onde nasce a ação em presença silenciosa, assim como o silencioso lótus se desabrocha na lama. Se torne um homem mago, o divino na realidade, o real divino. 
+
+Seja simples, Kevin. Não precisa falar difícil para provar que é inteligente. Se humilde, Kevin.
+
+Não precisa inflar para provar que é um rei ou um mago, você já é, e sendo pode se dar o luxo de não parecer que é. Às vezes parece que escrevo da perspectiva do self, como se escrevesse do ponto de vista de um homem sábio para o ponto de vista de um homem inteligente, sendo nessa analogia o homem sábio algo maior do que eu, algo oceânico, enquanto que o homem inteligente é um barquinho nesse oceano. O homem sábio é transcendente e o homem inteligente é imanente. O homem sábio, em Kevin, conta com a experiência ancestral do DNA do corpo dos milhões de anos de evolução.
+
+Ele é o êxtase da existência e o cisne branco no qual crola e cavalga junto do meninote louco. Minha outra metade é o ego, cheio de conhecimento, cheio de logos, cheio de razão. O meu ego, em particular, é doente e praxis disso ele tem falta. 
+
+O homem inteligente viveu em seu logos talvez 300 anos. O homem inteligente viveu em seu logos talvez 3 mil anos ou um pouco mais. Viu através da imaginação criada pelo falar e pensar o início e o fim do universo, mas não os viveu.
+
+O homem inteligente é cheio de conhecimento, muito mais ainda de informação, mas é pobre em sabedoria. Em mim há o homem sábio e o homem inteligente, a relação do ego e self, ou talvez puer e senex, contendo tudo isto ao corpo. Eu sou todo o corpo, o ego, self, puer, senex, todos estes são apenas nomes para algo no corpo.
+
+Em mim há também, às vezes, um vampiro. Este vampiro nasce da falta de integração da ânima. Em mim há também uma criança tola. 
+
+Ela não se sente amada, só às vezes.
+
+(Transcrito por TurboScribe. Atualize para Ilimitado para remover esta mensagem.)

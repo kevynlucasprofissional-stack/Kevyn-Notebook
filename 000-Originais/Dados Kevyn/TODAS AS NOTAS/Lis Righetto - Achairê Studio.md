@@ -1,0 +1,1 @@
+Ela só quer um tráfego pago.

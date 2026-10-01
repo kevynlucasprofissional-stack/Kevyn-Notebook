@@ -1,0 +1,1 @@
+É um plugin de desfoque de movimento, foi me apresentado pelo Lucas Sena no C4D Academy. É um plugin pago.

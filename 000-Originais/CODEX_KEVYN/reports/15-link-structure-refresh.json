@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-04-04T17:50:00-03:00",
+  "report_id": "15",
+  "basis_report_id": "14",
+  "summary": {
+    "broken_links_before": 552,
+    "broken_links_after": 552,
+    "distinct_unresolved_targets_before": 367,
+    "distinct_unresolved_targets_after": 367,
+    "cli_renames_executed": 0,
+    "filesystem_renames_executed": 17,
+    "filesystem_moves_executed": 0,
+    "aliases_applied": 0,
+    "backlinks_added": 0,
+    "hubs_updated": 0,
+    "notes_touched": 17
+  },
+  "cli": {
+    "renames_executed": 0,
+    "moves_executed": 0
+  },
+  "filesystem_fallback": {
+    "renames_executed": 17,
+    "moves_executed": 0
+  },
+  "renames_applied": [
+    "HOME/Cérebro Profissional/Notas/A fazeres, sendo sincero.md",
+    "HOME/Cérebro Profissional/Notas/Notas de uma conversa com o Copilot, não lembro do dia.md",
+    "HOME/Cérebro Profissional/Notas/Poup App - App com IA que facilita seu controle financeiro.md",
+    "HOME/Segundo Cérebro/Campanha de Lançamento - Óculos de Leitura.md",
+    "HOME/Segundo Cérebro/Capítulo 01 - No qual Marcos teve o sono roubado.md",
+    "HOME/Segundo Cérebro/Conforto gera fraqueza, desconforto gera força.md",
+    "HOME/Segundo Cérebro/Prazer, eu me chamo Kevyn.md",
+    "HOME/Segundo Cérebro/Seguir a musa é seguir o caminho.md",
+    "HOME/Segundo Cérebro/UGC ou User Generated Content ou Conteúdo Gerado pelo Usuário.md",
+    "HOME/Segundo Cérebro/Use o tempo, e não deixe o tempo usar você.md",
+    "HOME/Segundo Cérebro/SC/Campanha de Lançamento - Óculos de Leitura.md",
+    "HOME/Segundo Cérebro/SC/Capítulo 01 - No qual Marcos teve o sono roubado.md",
+    "HOME/Segundo Cérebro/SC/Conforto gera fraqueza, desconforto gera força.md",
+    "HOME/Segundo Cérebro/SC/Prazer, eu me chamo Kevyn.md",
+    "HOME/Segundo Cérebro/SC/Seguir a musa é seguir o caminho.md",
+    "HOME/Segundo Cérebro/SC/UGC ou User Generated Content ou Conteúdo Gerado pelo Usuário.md",
+    "HOME/Segundo Cérebro/SC/Use o tempo, e não deixe o tempo usar você.md"
+  ],
+  "skipped_titles": [
+    "Talvez seja melhor....md",
+    "Treinar isto....md"
+  ]
+}

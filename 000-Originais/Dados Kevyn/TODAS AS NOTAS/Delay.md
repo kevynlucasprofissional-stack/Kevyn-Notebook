@@ -1,0 +1,1 @@
+O Delay cria um atraso entre várias animações selecionadas.

@@ -1,0 +1,111 @@
+﻿[
+    {
+        "mudanca_id":  "MUD-000010",
+        "caminho":  "09-Fontes-e-Evidencias/Fonte - Conversa com minha alma revisada.md",
+        "operacao":  "criar",
+        "motivo":  "catalogar fonte revisada de imaginacao ativa",
+        "fontes":  [
+                       "SRC-000003"
+                   ],
+        "hash_anterior":  null,
+        "hash_posterior":  "320bfccf03fec65fe7847202f9f84082bb0ccff4a27c482c5a3a938ca1ce1028",
+        "ciclo":  "CICLO-0002",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000011",
+        "caminho":  "09-Fontes-e-Evidencias/Fonte - Gerador de dossie.md",
+        "operacao":  "criar",
+        "motivo":  "catalogar prompt operacional de dossie",
+        "fontes":  [
+                       "SRC-000004"
+                   ],
+        "hash_anterior":  null,
+        "hash_posterior":  "ad27adb89ff75e1a074dfadb341014b3c842b082ed9826348c87e072c5fd00fb",
+        "ciclo":  "CICLO-0002",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000012",
+        "caminho":  "09-Fontes-e-Evidencias/Fonte - Gerador de visao geral.md",
+        "operacao":  "criar",
+        "motivo":  "catalogar protocolo operacional de visao geral",
+        "fontes":  [
+                       "SRC-000005"
+                   ],
+        "hash_anterior":  null,
+        "hash_posterior":  "2492685422a78da67679dad0161f4b7ffc0e08a290df808c8c1d12368b5b24f1",
+        "ciclo":  "CICLO-0002",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000013",
+        "caminho":  "05-Sonhos-Simbolos-e-Espiritualidade/Sonhos imaginacao ativa e registros simbolicos.md",
+        "operacao":  "modificar",
+        "motivo":  "referenciar registro revisado de junho de 2024",
+        "fontes":  [
+                       "SRC-000003"
+                   ],
+        "hash_anterior":  "bff7e703b4b7162436c5be0219bf686a4ed1728a182c5fc682eb674327659900",
+        "hash_posterior":  "a8d3c1a46c3e1fe9786257b1240dec4eb2026baa50af6e7b87e2ca79cd3b643e",
+        "ciclo":  "CICLO-0002",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000014",
+        "caminho":  "01-Perfil-e-Autoconhecimento/Organizacao do conhecimento.md",
+        "operacao":  "modificar",
+        "motivo":  "registrar uso de geradores de dossie e visao geral",
+        "fontes":  [
+                       "SRC-000004",
+                       "SRC-000005"
+                   ],
+        "hash_anterior":  "0a57110a587e3767f14636eafe3b64f110cc3dbd73ef82c3504331da508ebc90",
+        "hash_posterior":  "7a6e6b7cb710a0a22fab8f2517c0cda75513ec3b9308dd1343425c2f429aa66a",
+        "ciclo":  "CICLO-0002",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000015",
+        "caminho":  "08-Estudos-e-Referencias/Metodo de estudo e producao.md",
+        "operacao":  "modificar",
+        "motivo":  "registrar protocolo por etapas em autoanalise com IA",
+        "fontes":  [
+                       "SRC-000004",
+                       "SRC-000005"
+                   ],
+        "hash_anterior":  "383570bef6678310c31987b54eaf1e7d104ca5134a5de7e56349612cc661ccc4",
+        "hash_posterior":  "61f83051fa44821e20a87d4a2d8268215eb17bad8d0333b7032450c47cf175f2",
+        "ciclo":  "CICLO-0002",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000016",
+        "caminho":  "04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md",
+        "operacao":  "modificar",
+        "motivo":  "evidenciar arquitetura de prompts aplicada ao proprio sistema",
+        "fontes":  [
+                       "SRC-000004",
+                       "SRC-000005"
+                   ],
+        "hash_anterior":  "1d6111ccf64e20c19e64d1ef7e1efb05b1695207293f034df9551cd41e72e046",
+        "hash_posterior":  "2f452cc3f77d479c60a9edecd3edb264438a8f99c07aa922362e21411463c339",
+        "ciclo":  "CICLO-0002",
+        "validacao":  "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id":  "MUD-000017",
+        "caminho":  "09-Fontes-e-Evidencias/Indice geral de fontes selecionadas.md",
+        "operacao":  "modificar",
+        "motivo":  "incluir novas notas de proveniencia",
+        "fontes":  [
+                       "SRC-000003",
+                       "SRC-000004",
+                       "SRC-000005"
+                   ],
+        "hash_anterior":  "e5cb9a721fdf3e582ad7717bae94d5bcd9cd179932ef83be12f2c121ee2791d4",
+        "hash_posterior":  "736329ab1d70d661087e12835dff9a5c3e3ff3eb9916d41309d1b856a85ce9cb",
+        "ciclo":  "CICLO-0002",
+        "validacao":  "auditoria_complementar_ok"
+    }
+]

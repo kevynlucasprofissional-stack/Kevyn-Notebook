@@ -1,0 +1,2 @@
+Nas configurações das Dynamics existe o a propriedade "Cache", que funciona como uma pré-renderização dos movimentos com física. Ele salva as informações de movimento em 4 dimensões da sua cena, e dessa maneira a visualização em tempo real da simulação de física dos modelos fica mais coesa e precisa.
+##### **Sempre ative "Incluse Collision Data"**

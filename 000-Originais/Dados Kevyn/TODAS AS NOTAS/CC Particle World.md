@@ -1,0 +1,1 @@
+É um efeito para criar partículas.

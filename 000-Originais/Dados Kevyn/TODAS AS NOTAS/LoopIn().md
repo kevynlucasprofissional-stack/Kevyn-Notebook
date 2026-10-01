@@ -1,0 +1,1 @@
+A animação inicia antes de chegar ao primeiro KeyFrame e se repete até a chegada do último KeyFrame. Não é possível aplicar esta função em caminhos, neste caso transforme a shape layer numa composição, aplique remapeamento de tempo e por fim aplique esta expressão no remapeamento de tempo.

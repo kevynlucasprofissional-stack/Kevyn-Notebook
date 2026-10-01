@@ -1,0 +1,1 @@
+Permite visualizar arquivos photoshop no explorador de arquivos.

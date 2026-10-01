@@ -1,0 +1,1 @@
+Existe uma maneira de fazer com que uma máscara seja aplicada apenas num efeito de uma camada. Desenhe a máscara onde você deseja que o efeito se concentre, depois abra o menu de opções da camada, abra o grupo do efeito e no parte mais baixa do grupo irá ter a opção "Compositing Options", clique no mais e escolha a máscara que irá recortar o efeito.

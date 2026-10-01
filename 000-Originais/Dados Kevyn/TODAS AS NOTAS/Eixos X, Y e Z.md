@@ -1,0 +1,1 @@
+X é a largura, Y é a Altura e Z é a profundidade.

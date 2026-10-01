@@ -1,0 +1,284 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-pro-latest",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "enableWordTimestamps": false,
+    "enableSpeakerDiarization": false,
+    "enablePolishedTranscript": false
+  },
+  "systemInstruction": {
+    "text": "Com base na análise detalhada dos dois roteiros fornecidos (Edição de Setembro e Edição de Nova Gestão), desenvolvi este **Playbook de Cerimonial para o \"Café Entre Amigos\" da ACIRV**.\n\nEste documento serve como um guia padronizado para garantir a consistência, fluidez e profissionalismo em todas as edições futuras do evento.\n\n---\n\n# 📘 Playbook de Cerimonial: Café Entre Amigos (ACIRV)\n\n## 1. Visão Geral do Evento\n*   **Nome:** Café Entre Amigos.\n*   **Orga          \n*   **Público-alvo:** Empresários, associados, parceiros e convidados.\n*   **Tom de Voz:** Profissional, acolhedor, entusiasta e colaborativo.\n\n---\n\n## 2. Checklist Pré-Evento (Cerimonial)\nAntes de subir ao palco, o Mestre de Cerimônias (MC) deve confirmar os seguintes itens com a equipe de apoio (ex: Raki/Marketing):\n\n*   [ ] **Lista de Presença:** Confirmar se está na entrada (essencial para o sorteio).\n*   [ ] **Instagram:** Confirmar qual perfil deve ser seguido (@acirvoficial).\n*   [ ] **Lista de Novos Associados (Pitch):** Pegar a lista impressa com os nomes das empresas e representantes.\n*   [ ] **Nomes dos Patrocinadores:**\n    *   Patrocinador do Café (alimentação).\n    *   Patrocinador/Doador do Brinde.\n    *   Parceiro/Patrocinador da Palestra (se houver).\n*   [ ] **Brinde Físico:** Confirmar se o brinde está no local para exibição.\n*   [ ] **Pesquisas:** Verificar se há alguma pesquisa ativa (QR Code ou papel) para ser avisada.\n\n---\n\n## 3. Estrutura Padrão do Roteiro (Run-of-Show)\n\nO evento segue uma estrutura lógica dividida em 8 blocos principais.\n\n### Bloco 1: Abertura e Acolhida\n*   **Ação:** Boas-vindas calorosas.\n*   **Script Base:**\n    \u003e \"Bom dia, senhoras e senhores! Sejam muito bem-vindos a mais uma edição do Café Entre Amigos, promovido pela ACIRV. Este encontro, já tradicional em nossa agenda, foi pensado para aproximar pessoas, fortalecer o networking e valorizar o espírito colaborativo entre empresários.\"\n*   **Avisos Paroquiais (Obrigatórios):**\n    *   Assinar a lista de presença na entrada.\n    *   Seguir o Instagram `@acirvoficial`.\n    *   Avisar sobre o sorteio ao final (regra: estar presente + lista assinada + seguir IG).\n*   **Módulo Opcional (Pesquisa):** Se houver pesquisa, solicitar participação neste momento (limite de 3 minutos).\n\n### Bloco 2: Palavra da Presidência\n*   **Objetivo:** Institucional e alinhamento estratégico.\n*   **Introdução do Presidente:**\n    \u003e \"Para dar as boas-vindas oficiais e compartilhar a visão da gestão, convido o Presidente da ACIRV, Sr. José Carlos Cintra.\"\n*   **Conteúdo (Presidente):** Geralmente foca em: representatividade, defesa de interesses, atualizações sobre a economia local ou apresentação de novas ferramentas/pesquisas.\n\n### Bloco 3: Patrocinador do Café / Apoio\n*   **Objetivo:** Valorizar quem financia o evento.\n*   **Script Base:**\n    \u003e \"O nosso Café só é possível graças ao apoio de empresas que acreditam na força do associativismo. Agradecemos imensamente à [NOME DA EMPRESA], patrocinadora desta edição.\"\n*   **Ação:** Convidar o representante para uma fala breve (aprox. 3 a 5 minutos).\n\n### Bloco 4: Momento PITCH (Novos Associados)\n*   **Objetivo:** Integração e apresentação rápida.\n*   **Regras:** 30 segundos por empresa.\n*   **Dinâmica:**\n    1.  MC pega a lista atualizada.\n    2.  Solicita que os novos associados fiquem de pé ou venham à frente.\n    3.  Chama um por um (Nome + Empresa).\n*   **Script de Transição:**\n    \u003e \"Este é o momento de vocês se conectarem com nossa rede. Por gentileza, sejam breves: cada um tem 30 segundos para apresentar o potencial do seu negócio.\"\n*   **Encerramento do Bloco:** Salva de palmas coletiva para os novos membros.\n\n### Bloco 5: Conteúdo / Palestra Principal\n*   **Objetivo:** Educação e capacitação empresarial.\n*   **Estrutura de Apresentação:**\n    1.  Agradecimento ao parceiro educacional (ex: Sebrae, Vox Two You).\n    2.  Mini-bio do palestrante.\n    3.  Tema da palestra e sua relevância (ex: \"Vendas\", \"Oratória\", \"Inovação\").\n*   **Script Base:**\n    \u003e \"Para agregar conhecimento à nossa manhã, recebemos [NOME DO PALESTRANTE], especialista em [ÁREA]. Ele abordará o tema [TEMA DA PALESTRA]. Com a palavra, [NOME]!\"\n\n### Bloco 6: Agradecimentos Finais (Pós-Palestra)\n*   **Ação:** O MC ou o Presidente agradecem o palestrante.\n*   **Conteúdo:** Ressaltar um ponto chave da palestra e agradecer a presença de todos.\n\n### Bloco 7: Sorteio do Brinde\n*   **Pré-requisitos para ganhar:**\n    1.  Estar presente no momento do sorteio.\n    2.  Ter assinado a lista na entrada.\n    3.  Seguir o Instagram oficial.\n*   **Apresentação do Doador:**\n    \u003e \"Chegou o momento do sorteio! O brinde de hoje foi gentilmente doado pela empresa [EMPRESA], representada pelo Sr(a). [NOME REPRESENTANTE].\"\n*   **Fala do Doador:** Espaço curto para o doador falar sobre a empresa/produto (formato testemunho/agradecimento).\n*   **O Sorteio:** Realização do sorteio e entrega do prêmio.\n\n### Bloco 8: Encerramento Oficial\n*   **Script Base:**\n    \u003e \"Agradecemos a presença de cada um de vocês. A ACIRV é a casa do empreendedor e nossas portas estão sempre abertas. Desejamos a todos um excelente dia de negócios e até o próximo Café Entre Amigos!\"\n\n---\n\n## 4. Regras de Ouro \u0026 Protocolos\n\n1.  **Tempo é Dinheiro:** O evento ocorre pela manhã, em horário comercial. O cerimonial deve ser ágil. Evite pausas longas entre blocos.\n2.  **Controle do Pitch:** Se o novo associado ultrapassar muito os 30 segundos, o MC deve, educadamente, conduzir ao encerramento e puxar as palmas.\n3.  **Flexibilidade dos Patrocinadores:**\n    *   Às vezes o patrocinador do *café* fala.\n    *   Às vezes o patrocinador da *palestra* fala.\n    *   Às vezes o doador do *brinde* fala.\n    *   *Regra:* Verificar no checklist quem terá direito a fala no microfone no dia específico.\n4.  **Critério de Sorteio:** Se o nome sorteado não estiver na sala, sorteia-se outro imediatamente. Isso mantém a integridade da regra \"estar presente\".\n\n---\n\n## 5. Frases-Chave Institucionais (Para improvisos)\nUse estas frases caso precise preencher lacunas:\n*   \"A ACIRV representa, defende e fortalece o setor produtivo.\"\n*   \"Juntos construímos uma Rio Verde mais forte e próspera.\"\n*   \"Participação ativa é a chave do associativismo.\"\n*   \"Networking é sobre trocar experiências e criar soluções reais.\""
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveAudio": {
+        "id": "1NIjNxFOLcp05lg_vr5oANJ9D71foRQCn"
+      },
+      "role": "user",
+      "tokenCount": 12852,
+      "createTime": "2026-08-25T20:57:27.484Z"
+    }, {
+      "driveImage": {
+        "id": "1VJ2llQOUDxPVZ9PZbgttBXLGoX517MyA"
+      },
+      "role": "user",
+      "tokenCount": 1074,
+      "createTime": "2026-08-25T20:57:27.484Z"
+    }, {
+      "text": "Use todos esses dados (incluindo os textos, as imagens e o audio) para criar o cerimonial do Café Entre Amigos, lembrando que neste café entre amigos vamos lançar para beta a plataforma SudoExpo Match de forma exclusiva, o objetivo é de criar conexões entre os empreendedores presentes.\n\nEm resumo, o SudoExpo Match é: Matchmaker SudoExpo (ACIRV Connect) — plataforma de matchmaking profissional para a feira SudoExpo, feita pela ACIRV.\n\nO que faz\n- O visitante cria um perfil em `/participar` (wizard): quem ele é (porte, tipo, segmento), o que oferece, o que procura e quem procura (perfil desejado).\n- O motor de matching roda no próprio banco (Postgres, v2.4) e cruza os perfis na hora, gerando um score por perspectiva e explicando o motivo de cada match.\n- Em `/participante` a pessoa vê seus matches explicados e marca interesse. Com interesse mútuo, a equipe da ACIRV apresenta as duas partes presencialmente e só então o contato é liberado.\n- `/equipe` é a central operacional (fila de conexões em tempo real, estados do atendimento, notas, resultados comerciais), `/admin` cobre evento, participantes, auditoria de matches e taxonomia, e `/publico` é o painel de telão com métricas do evento sem dados pessoais.\n\nDiferenciais técnicos\n- Fonte única de verdade é o banco: nada de mock ou store local; toda mutação passa por RPC `SECURITY DEFINER` com auditoria e RLS.\n- Dados de contato (WhatsApp, e-mail) ficam isolados num schema privado, fora da API pública; revelação de contato é sempre auditada.\n- IA opcional (Lovable AI Gateway + enriquecimento por Instagram) apenas sugere ofertas e necessidades normalizadas contra a taxonomia real — nada entra no perfil sem confirmação.\n- Acesso do visitante é passwordless por WhatsApp; equipe/admin por e-mail e senha.\n- Por decisão de produto, o app não envia notificações: a descoberta acontece no painel e no contato presencial da equipe.\n\nQuinta no Café Entre Amigos vai entrar o pessoal do projeto Criança Feliz 6° Edição\n\nDiogo Paiva Ceo do Grupo Delta vai representar\n\nCriar cerimonial\nAgradecer Patrocinador (Master Mind)\n\n64999107577 Paula falar\nFalar da SudoExpo (Alguém, talvez José Carlos)\n\nSortear entre os recém associados\n\nColocar um QR Code no final do cerimonial que leva para uma pesquisa de satisfação.\n\nContexto do Café Entre Amigos no texto abaixo e em anexo:\n\nO Café entre Amigos traz o workshop \"A Lei do Triunfo de Napoleon Hill Aplicada aos Negócios\". Com a metodologia MasterMind®, o encontro apresenta os princípios de #NapoleonHill para o empresário construir um plano de desenvolvimento claro e conduzir decisões com segurança.\n\n📅 Data: 27 de agosto\n🕒 Horário: 07h30\n📍 Local: Auditório da ACIRV\n\nEntrada gratuita e vagas limitadas.\nInscreva-se pelo link: https://doity.com.br/cafe-entre-amigos-a-lei-do-triunfo-aplicada\n\nVenha ampliar repertório, fortalecer o #Empreendedorismo em #RioVerde e #ConectarParaCrescer com a #ACIRV.\n\nAqui, ninguém cresce isolado. A gente cresce conectado.",
+      "role": "user",
+      "tokenCount": 775,
+      "createTime": "2026-08-25T20:57:27.484Z"
+    }, {
+      "text": "Com base no Playbook Oficial da ACIRV, no áudio transcrito, nas informações da imagem e nos seus direcionamentos técnicos, desenvolvi o **Roteiro de Cerimonial Exclusivo** para esta edição especial do Café Entre Amigos (27 de agosto).\n\nEste roteiro integra o lançamento da plataforma SudoExpo Match, a apresentação do Projeto Criança Feliz, a fala da Paula e o workshop do MasterMind.\n\n---\n\n# 🎙️ Roteiro de Cerimonial: Café Entre Amigos (27 de Agosto)\n\n## 📋 Checklist Pré-Evento (Equipe e Mestre de Cerimônias - MC)\n*   [ ] **Lista de Presença:** Confirmar na entrada.\n*   [ ] **Apresentação/Vídeo Diogo Paiva:** Confirmar se o material do *Projeto Criança Feliz (6ª Edição)* está no ponto.\n*   [ ] **SudoExpo Match:** Confirmar se o link/QR Code de acesso à plataforma (para `/participar`) está nos telões ou mesas.\n*   [ ] **Pesquisa de Satisfação:** Confirmar se o QR Code final está pronto para o telão.\n*   [ ] **Sorteio:** Preparar a urna/sistema **apenas** com os nomes dos novos associados que farão o Pitch.\n*   [ ] **Alinhamento com Paula (Cel: 64 99910-7577):** Confirmar a presença dela para o seu momento de fala.\n\n---\n\n## 🕒 RUN-OF-SHOW (Cronograma do Palco)\n\n### BLOCO 1: Abertura e Acolhida (08h00)\n**[MC sobe ao palco - Telão com a logo do Café Entre Amigos e ACIRV]**\n\n\u003e **MC:** \"Bom dia, senhoras e senhores! Sejam muito bem-vindos a mais uma edição do Café Entre Amigos, promovido pela ACIRV. Este encontro foi pensado para aproximar pessoas, fortalecer o networking e valorizar o espírito colaborativo. Como sempre dizemos: aqui, ninguém cresce isolado. A gente cresce conectado!\n\u003e \n\u003e Aproveito para dar alguns avisos rápidos: não se esqueçam de assinar a lista de presença e de seguir o nosso Instagram `@acirvoficial`. Hoje teremos uma manhã de muito conteúdo e grandes novidades.\"\n\n### BLOCO 2: Lançamento SudoExpo Match e Palavra do Presidente (08h03)\n**[Telão: Logo SudoExpo / SudoExpo Match]**\n\n\u003e **MC:** \"Para dar as boas-vindas oficiais e trazer um super lançamento, convido o Presidente da ACIRV, Sr. José Carlos Cintra!\"\n\u003e \n\u003e **[Fala de José Carlos - Tópicos sugeridos]**\n\u003e *   Boas-vindas institucionais.\n\u003e *   Atualizações sobre a **SudoExpo**.\n\u003e *   **Lançamento SudoExpo Match (Beta):** *\"Hoje estamos lançando com exclusividade para vocês o SudoExpo Match. É o nosso \u0027Tinder\u0027 dos negócios! Funciona assim: você acessa o link/QR Code, cria seu perfil rapidinho dizendo o que oferece e o que procura. Nossa inteligência cruza os dados e te mostra os matches. Se você e a outra pessoa tiverem interesse, a nossa equipe da ACIRV vai apresentar vocês dois presencialmente aqui no evento. Tudo seguro, sem vazar telefone, focado em gerar negócios reais hoje!\"*\n\n### BLOCO 3: Projeto Criança Feliz - 6ª Edição (08h10)\n**[Telão: Logo Projeto Criança Feliz / Grupo Delta]**\n\n\u003e **MC:** \"A ACIRV também apoia e incentiva a responsabilidade social. Por isso, abrimos espaço para uma iniciativa muito especial. Convido agora o CEO do Grupo Delta, Sr. Diogo Paiva, para apresentar a 6ª Edição do Projeto Criança Feliz. Ele terá 5 minutos para compartilhar essa ação conosco.\"\n\u003e \n\u003e **[Diogo Paiva fala (Apoio de vídeo/slides, se houver)]**\n\u003e **MC:** \"Muito obrigado, Diogo. É um orgulho para nós conhecermos e apoiarmos projetos tão nobres.\"\n\n### BLOCO 4: Convidada Especial / Apoiadores (08h16)\n**[Neste momento, abre-se o espaço alinhado no briefing para a fala da Paula]**\n\n\u003e **MC:** \"Dando continuidade às nossas conexões de hoje, gostaria de convidar à frente a senhora Paula **[inserir sobrenome/empresa se houver]**, que trará uma palavra aos nossos convidados.\"\n\u003e \n\u003e **[Fala da Paula - Contato prévio feito via 64 99910-7577]**\n\n### BLOCO 5: Momento PITCH e Sorteio Exclusivo (08h20)\n**[Telão: Novos Associados ACIRV]**\n\n\u003e **MC:** \"Chegou a hora de conhecermos os novos membros da nossa casa! Este é o momento PITCH. Vou chamar nossos recém-associados. Por favor, venham à frente. Vocês têm 30 segundos cada para apresentar o potencial do negócio de vocês. Sejam breves e objetivos!\"\n\u003e \n\u003e **[Dinâmica do Pitch: MC chama um a um pela lista]**\n\u003e \n\u003e **MC:** \"Uma salva de palmas para os nossos novos associados! E atenção: de forma especial hoje, faremos um sorteio de um brinde **exclusivo entre os recém-associados** que acabaram de se apresentar!\"\n\u003e \n\u003e **[Realiza o sorteio apenas entre os novos associados. Entrega do brinde.]**\n\n### BLOCO 6: Agradecimento ao Patrocinador e Palestra Principal (08h30)\n**[Telão: Arte do Workshop - Napoleon Hill / MasterMind]**\n\n\u003e **MC:** \"O nosso Café Entre Amigos de hoje tem o grande apoio da **MasterMind**, a quem agradecemos imensamente pela parceria. É graças a apoiadores como vocês que trazemos conhecimento de alto nível aos nossos empresários.\n\u003e \n\u003e E para agregar valor à nossa manhã, daremos início ao Workshop \u0027A Lei do Triunfo de Napoleon Hill Aplicada aos Negócios\u0027. O objetivo é claro: ajudar você a construir um plano definido para alcançar o triunfo. Com a palavra, o representante da MasterMind!\"\n\u003e \n\u003e **[Palestra / Workshop]**\n\n### BLOCO 7: Encerramento e Pesquisa de Satisfação (Fim da Palestra)\n**[Telão: QR Code gigante para a Pesquisa de Satisfação + Logo SudoExpo Match]**\n\n\u003e **MC:** \"Que conteúdo fantástico! Muito obrigado à equipe MasterMind.\n\u003e \n\u003e Antes de nos despedirmos, dois lembretes essenciais:\n\u003e 1. Usem o **SudoExpo Match** agora mesmo! Vejam quem deu \u0027match\u0027 com a sua empresa e procurem a equipe da ACIRV para fazermos as apresentações. Aproveitem esse espaço!\n\u003e 2. Na tela, vocês estão vendo um **QR Code**. Por favor, apontem a câmera do celular e respondam à nossa rápida **Pesquisa de Satisfação**. A opinião de vocês molda os próximos eventos.\n\u003e \n\u003e Agradecemos a presença de todos. A ACIRV é a casa do empreendedor, e nossas portas estão sempre abertas. Um excelente dia de negócios, ótimos \u0027matches\u0027 a todos e até o próximo Café Entre Amigos!\"\n\n---\n\n### 💡 Dicas de Bastidores para a Equipe (Raki/Operação):\n1.  **Staff do SudoExpo Match:** Tenham tablets ou celulares com a rota `/equipe` aberta. Quando der \"match\" mútuo, a equipe deve identificar os dois empresários no salão, levar um até o outro e dizer: *\"Olá Fulano, olá Ciclano. O sistema identificou que vocês têm interesses em comum. Apresento vocês!\"*\n2.  **Controle de Tempo do Pitch:** Seja rigoroso com os 30 segundos para não atrasar a palestra do MasterMind.\n3.  **Auditoria:** Como a arquitetura do app isola contatos no schema privado e não envia notificações, toda a \"mágica\" precisa acontecer **presencialmente** durante o network do café. Instigue o público a procurar a equipe da ACIRV.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1884,
+      "parts": [{
+        "text": "Com base no Playbook Oficial da ACIRV, no áudio transcrito, nas"
+      }, {
+        "text": " informações da imagem e nos seus direcionamentos técnicos, desenvolvi o **Roteiro de Cerimonial Exclusivo** para esta edição"
+      }, {
+        "text": " especial do Café Entre Amigos (27 de agosto).\n\nEste roteiro integra o lançamento da plataforma SudoExpo Match, a apresentação"
+      }, {
+        "text": " do Projeto Criança Feliz, a fala da Paula e o workshop do MasterMind.\n\n---\n\n# 🎙"
+      }, {
+        "text": "️ Roteiro de Cerimonial: Café Entre Amigos (27 de Agosto)\n\n## 📋 Checklist Pré-Evento"
+      }, {
+        "text": " (Equipe e Mestre de Cerimônias - MC)\n*   [ ] **Lista de Presença:** Confirmar na"
+      }, {
+        "text": " entrada.\n*   [ ] **Apresentação/Vídeo Diogo Paiva:** Confirmar se o material"
+      }, {
+        "text": " do *Projeto Criança Feliz (6ª Edição)* está no ponto.\n*   [ ] **SudoExpo Match:** Confirm"
+      }, {
+        "text": "ar se o link/QR Code de acesso à plataforma (para `/participar`) está nos telões ou mesas.\n*   [ ]"
+      }, {
+        "text": " **Pesquisa de Satisfação:** Confirmar se o QR Code final está pronto para o telão.\n*   "
+      }, {
+        "text": "[ ] **Sorteio:** Preparar a urna/sistema **apenas** com os nomes dos novos associados que farão o Pitch"
+      }, {
+        "text": ".\n*   [ ] **Alinhamento com Paula (Cel: 64 99910-7"
+      }, {
+        "text": "577):** Confirmar a presença dela para o seu momento de fala.\n\n---\n\n## 🕒 RUN"
+      }, {
+        "text": "-OF-SHOW (Cronograma do Palco)\n\n### BLOCO 1: Abertura e Acolhida"
+      }, {
+        "text": " (08h00)\n**"
+      }, {
+        "text": "[MC sobe ao palco - Telão com a logo do Café Entre Amigos e ACIRV]**\n\n\u003e **MC:** \"Bom dia, senhoras e senhores! Sejam muito bem-vindos a"
+      }, {
+        "text": " mais uma edição do Café Entre Amigos, promovido pela ACIRV. Este encontro foi pensado para aproximar pessoas,"
+      }, {
+        "text": " fortalecer o networking e valorizar o espírito colaborativo. Como sempre dizemos: aqui, ninguém cresce isolado. A gente cresce conectado"
+      }, {
+        "text": "!\n\u003e \n\u003e Aproveito para dar alguns avisos rápidos: não se esqueçam de assinar a lista"
+      }, {
+        "text": " de presença e de seguir o nosso Instagram `@acirvoficial`. Hoje teremos uma manhã de muito conteúdo e grandes"
+      }, {
+        "text": " novidades.\"\n\n### BLOCO 2: Lançamento SudoExpo Match e Palavra do Presidente (08h"
+      }, {
+        "text": "03)\n**[Telão: Logo SudoExpo / SudoExpo Match]**\n\n\u003e **MC:** \""
+      }, {
+        "text": "Para dar as boas-vindas oficiais e trazer um super lançamento, convido o Presidente da ACIRV, Sr"
+      }, {
+        "text": ". José Carlos Cintra!\"\n\u003e \n\u003e **[Fala de José Carlos - Tópicos sugeridos]**\n\u003e *"
+      }, {
+        "text": "   Boas-vindas institucionais.\n\u003e *   Atualizações sobre a **SudoExpo**.\n\u003e *   **L"
+      }, {
+        "text": "ançamento SudoExpo Match (Beta):** *\"Hoje estamos lançando com exclusividade para vocês o SudoExpo Match. É"
+      }, {
+        "text": " o nosso \u0027Tinder\u0027 dos negócios! Funciona assim: você acessa o link/QR Code, cria seu perfil rapid"
+      }, {
+        "text": "inho dizendo o que oferece e o que procura. Nossa inteligência cruza os dados e te mostra os matches. Se você"
+      }, {
+        "text": " e a outra pessoa tiverem interesse, a nossa equipe da ACIRV vai apresentar vocês dois presencialmente aqui no"
+      }, {
+        "text": " evento. Tudo seguro, sem vazar telefone, focado em gerar negócios reais hoje!\"*\n\n### BLOCO 3: Projeto Crian"
+      }, {
+        "text": "ça Feliz - 6ª Edição (08h10)\n**"
+      }, {
+        "text": "[Telão: Logo Projeto Criança Feliz / Grupo Delta]**\n\n\u003e **MC:** \"A ACIRV também apoia e incentiva a responsabilidade social. Por"
+      }, {
+        "text": " isso, abrimos espaço para uma iniciativa muito especial. Convido agora o CEO do Grupo Delta, Sr. Diogo Paiva,"
+      }, {
+        "text": " para apresentar a 6ª Edição do Projeto Criança Feliz. Ele terá 5 minutos para compartilhar essa ação conosco.\"\n\u003e "
+      }, {
+        "text": "\n\u003e **[Diogo Paiva fala (Apoio de vídeo/slides, se houver)]**\n"
+      }, {
+        "text": "\u003e **MC:** \"Muito obrigado, Diogo. É um orgulho para nós conhecermos e apoiarmos projetos tão nobres.\""
+      }, {
+        "text": "\n\n### BLOCO 4: Convidada Especial / Apoiadores (08h16)\n**"
+      }, {
+        "text": "[Neste momento, abre-se o espaço alinhado no briefing para a fala da Paula]**\n\n\u003e **MC:** \""
+      }, {
+        "text": "Dando continuidade às nossas conexões de hoje, gostaria de convidar à frente a senhora Paula **"
+      }, {
+        "text": "[inserir sobrenome/empresa se houver]**, que trará uma palavra aos nossos convidados.\"\n\u003e \n\u003e **"
+      }, {
+        "text": "[Fala da Paula - Contato prévio feito via 64 99910-7577]**\n\n###"
+      }, {
+        "text": " BLOCO 5: Momento PITCH e Sorteio Exclusivo (08h20)\n**"
+      }, {
+        "text": "[Telão: Novos Associados ACIRV]**\n\n\u003e **MC:** \"Chegou a hora de conhecermos os novos membros"
+      }, {
+        "text": " da nossa casa! Este é o momento PITCH. Vou chamar nossos recém-associados. Por favor, ven"
+      }, {
+        "text": "ham à frente. Vocês têm 30 segundos cada para apresentar o potencial do negócio de vocês. Sejam breves e objetivos!\"\n\u003e "
+      }, {
+        "text": "\n\u003e **[Dinâmica do Pitch: MC chama um a um pela lista]**\n\u003e \n\u003e **MC:** \""
+      }, {
+        "text": "Uma salva de palmas para os nossos novos associados! E atenção: de forma especial hoje, faremos um sorteio de"
+      }, {
+        "text": " um brinde **exclusivo entre os recém-associados** que acabaram de se apresentar!\"\n\u003e \n"
+      }, {
+        "text": "\u003e **[Realiza o sorteio apenas entre os novos associados. Entrega do brinde.]**\n\n###"
+      }, {
+        "text": " BLOCO 6: Agradecimento ao Patrocinador e Palestra Principal (08h30)\n**"
+      }, {
+        "text": "[Telão: Arte do Workshop - Napoleon Hill / MasterMind]**\n\n\u003e **MC:** \"O nosso Café Entre Amigos de hoje tem"
+      }, {
+        "text": " o grande apoio da **MasterMind**, a quem agradecemos imensamente pela parceria. É graças a apoiadores como vocês"
+      }, {
+        "text": " que trazemos conhecimento de alto nível aos nossos empresários.\n\u003e \n\u003e E para agregar valor à nossa manhã, d"
+      }, {
+        "text": "aremos início ao Workshop \u0027A Lei do Triunfo de Napoleon Hill Aplicada aos Negócios\u0027. O objetivo é claro"
+      }, {
+        "text": ": ajudar você a construir um plano definido para alcançar o triunfo. Com a palavra, o representante da MasterMind!\"\n"
+      }, {
+        "text": "\u003e \n\u003e **[Palestra / Workshop]**\n\n### BLOCO 7: Encerramento e Pes"
+      }, {
+        "text": "quisa de Satisfação (Fim da Palestra)\n**"
+      }, {
+        "text": "[Telão: QR Code gigante para a Pesquisa de Satisfação + Logo SudoExpo Match]**\n\n\u003e **MC:** \"Que conteúdo fantástico! Muito obrigado à equipe MasterMind.\n\u003e"
+      }, {
+        "text": " \n\u003e Antes de nos despedirmos, dois lembretes essenciais:\n\u003e 1. Usem o **SudoExpo"
+      }, {
+        "text": " Match** agora mesmo! Vejam quem deu \u0027match\u0027 com a sua empresa e procurem a equipe da ACIRV para"
+      }, {
+        "text": " fazermos as apresentações. Aproveitem esse espaço!\n\u003e 2. Na tela, vocês estão vendo um **QR"
+      }, {
+        "text": " Code**. Por favor, apontem a câmera do celular e respondam à nossa rápida **Pesquisa de Satisfação**. A"
+      }, {
+        "text": " opinião de vocês molda os próximos eventos.\n\u003e \n\u003e Agradecemos a presença de todos. A ACIRV é"
+      }, {
+        "text": " a casa do empreendedor, e nossas portas estão sempre abertas. Um excelente dia de negócios, ótimos \u0027"
+      }, {
+        "text": "matches\u0027 a todos e até o próximo Café Entre Amigos!\"\n\n---\n\n### 💡 Dicas de Bastidores para a"
+      }, {
+        "text": " Equipe (Raki/Operação):\n1.  **Staff do SudoExpo Match:** Tenham tablets"
+      }, {
+        "text": " ou celulares com a rota `/equipe` aberta. Quando der \"match\" mútuo, a equipe deve identificar os dois empresários"
+      }, {
+        "text": " no salão, levar um até o outro e dizer: *\"Olá Fulano, olá Ciclano. O"
+      }, {
+        "text": " sistema identificou que vocês têm interesses em comum. Apresento vocês!\"*\n2.  **Controle de Tempo do"
+      }, {
+        "text": " Pitch:** Seja rigoroso com os 30 segundos para não atrasar a palestra do MasterMind.\n3."
+      }, {
+        "text": "  **Auditoria:** Como a arquitetura do app isola contatos no schema privado e não envia notificações, toda"
+      }, {
+        "text": " a \"mágica\" precisa acontecer **presencialmente** durante o network do café. Instigue o público a procurar"
+      }, {
+        "text": " a equipe da ACIRV."
+      }, {
+        "text": "",
+        "thoughtSignature": "Euw3Cuk3ARFNMg9N2haMNZYby/h0YLJNt2IoK9d8UlPU0QhTSR7A8BeP8vKE1Pilav9xyGMliCkJj5+B/eN4m88lLFUBqFOU5k1ytR4Uc/iOELDQEWxfKpW1TKvet2DqFFWsLclIcltBhBf7hfTJjEYQczFXwUA5XyqR3LzPf8wwK1vmU7pkEdo3vhX7ihJ3lBoDdwQBxZWT2H9sKylHOIpepD/OJYUyGbc2QCcIvnIFuDIWKfQNZXKU2LzBFVOLrNUP28yfDjQSzBPlQw1ZxNtC7mX82gSuC+iH4eIJSY35sMg2LQwQTYRtOVRPa+VIOXo1/HlmPsfWLJveYXFl7+Ji+a0qgDsJhK6CYCfItViPwl6CJbB7IoYjye3aPhiLqV6qxvWJ7T1o2ehe0G3MShubg/mMVOtHCZMK5+qg2IOKO3ccgxTRKoEhVHgpO5tms7H1ag6NUNz49SSLLd+KQmpXpjfFL/0PSq7U9bgcBjR9nKqOR5KRwf5DHtOSjDfqoUDlMuDe6efeeROuXCPZg2V4283BCv/HCUuqk7XysDl8ZC+A4q45E78+XOPGkL26QFbME3DEgkT+JsmEVO2khF/oV8PhBaeg1LrSe8OsVQBqxxnxWqyVeXkmcmRj+Na7c7sn8+KLUoYNzHQbtHBYyFRYLlgMDpKA3mz3/+D4O/hWkllxHQjswLkt6+Rab6ZAWeR6UyFZ5QDwM98slCkoUfc11/dVCRONA7Ot8PIDHfBWlH1HW7Jnq59MlC4BEL7QpOUWCaPpN3mBzW3b5sA8bThw24d0VesIMLCxGz3KIyHxt+WdvlPkHoikSX2yUdCnb2UETgBsA9OXPvVLzUYph4kcVfrF5uWBqs/B8nVBUTjolDGptML1E+CDEt1sVePTXdufLQqc7UH2hUH0gE2WpsB6XlzdgST1NyOyUDQmvHmXxgwEq+9fFV4KvSYBfd3ac13kL5wSGO4+28WQpsrWvLowYkPfDvFAE49LwbtJmwgyn8nblrEyhesCWpKdCX4ymfdgH9yvBIJn1ZQB/EF+qmU84p9D/TnpwPSOQK6fbymLlmWVs9SngtnjscW9/scBUfSu86K35ZdEIK9wLCBll2dqDj7g6xBUdFSniqujxrxSEsaFV4WcWfboLHzHBtwkvpCpWfSEYDN3WwvDWzvaiMvMD4/b4ETqO1ofb3Xm4JtDfVf2992HDnoN2sIaJJF3BVAaAeOy7Qpks56WRaHqg8vXpOTpXGzbBxCsY6qnOxVO/6a194RTyEi+IjkoHpUL6dc6UzM4LHW3pXj+9xD8AklinyfCApSWPPGA5VxGzRlElB9ZJrDs9nZZYyrzIQpiS69Czq+v6/y4mlqCgDI7WiatpBQWY41+BSuLrW4JrttqPz8bjOyMoqUJbui07hqO7KHFrvCjZAcBFEm1IkFuvgtxgMDid3mitTt+W4aLrXMIALme6KyRg99nFspQ4v2i2Fvjj4sURBjIWqotPdMnxwxewJI5yt0BmS+hRWFbPBQLMZI7CHBu0Zjsv4VnwTSi1mWA2GoAmyrpgYuISyf0E4HtWb1G6gxNmXLtCsB0JQtwja7+6SwLRpoA7gFNwoc30nrQa4YmTZssgqtBunaDdZbWGmylbNB6M/OCTipIS+Cqmcs5RGEjhJptvgH7rWzQtu541EulFoy2GvFBCCbzpbwicjRrJSY8/WpHK14mjs1wNxi8R0RisIK/SBWBLx6K02U3JLq99fCeg+u9eTF1vH+cVNqdBqk2u/SZdVD2mWRqG8xOOa/LOAFimqj0p+49dhdW67umH/ahAybW8UH3EuSemtAWNA2U68sgQIBPD8SGM4jci3QDsYZKIy4mlDeUZyVng/V2xmJfboqDbyx0ijGCXseWVi5cj/ovoVc1clJMIjetWGFQhbRzGSLRiQJElGw9x1bogY22eX1HRsWwhaVo2d25BLjrGRLzIxkBmuKVX79lr+rzo1eeksuoit07ogbSK3RF3O/ZhG46ReSNdVg0rsWZXRa8I5qZlxVlhN+pRFf7ifZyTQ8Pn0qzTWIez1C5cjxh/67FebfjKKpRzzEbFGenvV7f/g/641aLupiCiwWDWUQoyY6vvC/WURJBr07mur8j8tL7QxatYPPmjMIb65gUe+i/h/Ko+kNv+KK6RX+ojjAbo2hLmBj09+eaoSvxvzUewX5UzKKdCjuUaVZNEHwTQtlxrq1G8ONXhm74ph9I8YfhKSDzNoo+alqnVrIiOKEjbQ3GXG/H+SsYoih4AaEXW/HdbO8/Cpoap/afoAysVZjmuOW/XWxrlOBRwN+k2wZNjJQ+hogbkn8mCLLhHJlYfW2mc44jEuGC7Fc8Y051isfCZdUvg7+AUGxJPlT5NQbIr7377dI2eLaFMmhkb3B7UQEMBtH7t/w+WkSi7wHHXH1xuHmDaJPjahcVJWNbAveMTjdHVx6EZVhCYR6VufPYl6Zo6bQIaFjwj1GdYD5g5P8Q25aE2nLaoPnLzwypmOfJjRgXcUuuiF8zYeCWnwN4fwPug24UULFU9pznSF0RfLOdfqzW3W5G9J0ODHodRv6V818MtlRTOzXbflchcZcpcM5GA5GqmXfLja9rSMmxV3ijY2s9rHJAnST+RvsH/Cp+V8guP+ntxcEy0nh3z/BLX95FLcP7stkqJTa8Ve1TTOablzs5epRBfU8bCjMoyxbKP8uaLyzqnIIWrLsYQ0S+paeXj6tKeQCeN3JkCb+wF3AUUeux+hmHIgad3FMZh74Cm8mXYl+YxnqcQMBfEXKCkkGBHbfcxL5VNsSiOM1/YCFydw5K9jYVwnhH47r+uTtUc3SdouCtmBmXJoCjqD3RS1N9K2OCOm9B9fUf8Mm4G3dg72QRxPaIXHX/TE1lIaJ6Uqkviwg2Ts02BaYfCOwWKnvWgWlQnMz2AxZIsWfw38ccc/ZlllldotAOWhGE7TeyySJ4cPLvm+msUX1rE4wVw1M2/xs3lXKb/NVBIQE028Ad6R3czuii0I6UjJD5YMhsIOvkC13+BBufAdDuo0lA5bvoIsDRzt8ATjwg2LAKDWD00/S7OOq/J6BwMMUmesjAswRD6H7o8Mwc2IID1mmw8ge8ObDwQ3TYUVOoNx9lYJsNkfK4Tq9Qhnjr2/qvqQQicI5j4Sj36IK5Q3vWPHxyt/wjqR4RZPZq0XHQCLRS7u0t70XBtVL53ajYJL5ynv6hc+5OUA+4H3NBCQkGCW/G550KuwcObpAZNTl4rHnA6SBFeWO06cvxyHIypquDgLX7jqHg5aMEP6FLHQBynjCZeaz/xYw/XtTZFNcA2bm/Sp8AJzs+LVv3ztUU5C8lK5FGGRnN7lFeRcWA1uQMVaD3pjvKQ7ym9rX2FDs3tfa0Nd0STS/F5GCob3h7CN5yuqpa9eTceJAYPw/XKVscifpYshjtEajJv/O3raxRdizYMd45sBT320eNKMaCyBTOl5nNrqX+2jb3U3wLq4oRdigADQp70ShuavOnWErVvRgjmh0mfHhY0UoH0ESQEhchLoopiabs+2+tSkgIOO/ER7OWlOgLzac42UhK3SxsojbbDD0KcIdMcntk1CATdfnLXss18d7gc4JsaNFOsMwbX+PPeU8y/98IRht62TOpDj4DkaZT0jlCfpLzog9KpBExy3nlAJqglE944GVP4KzlhEmnJKHmukxnd2rwDVBLAc11VkJEoSXypMBJ0oMpItjMzhCWq/aLC1Ls305NBnNInpOeAYRhOqTomgxTnP8AQt3A2T1ESy6TgT0erxdUlF12WRjAyaN2u99sdvJ6tg5KxgzM40WPt2GDXauiYjN5s2uia0kbBu9QiS/Gs2ZTRvstZrV7fFe2X3/+KYzYoxH4HGXn1tfbFwMe7BjxdF5hrCDBdIhR+ndwsr/7j2UTBBGT0HahGKfI6NqisZ0odGoaT8t8/aWqjCiu5hyl0eK8yQzMkOaV10qrOh241KxbU8AbZQU9fFJc5Rb+5YKHwbtOtJRuvI8/Wt+Zszy0YlFpVmUQgI//awJmYC1FeLEaXLLAhL+rggeJwmA6YB24wtGqex4mX/AiUIGwZGb09Drs6YOLT8qlZ+nShdwIooGO5JSlZvBH6gItHKJd7tTO/h5LxzN9FNcFWWP9/IjEJKfBQgK7iH2StbQx8Qxc+oxli0No/B8xDWyajIKRXmxcOuxwc+bdvc4/PxKgbsaIHwcb2GxKWhOQjRAKj2xChb0URWini8wcY5bXB6xZbiMghwGorFAtsHceb8dDefZbOJ07hWiyvP6T4fWFNxWmz/4vbjX1OojbdG5IaZiwoHydIXfIAXlhAzPOAY2NtsMmya5aVwtghQ67SIv3AKnlkOQ1LlgaUGfCqpU29Gk5AOUiMV+YhtnB3i/GapsJOaP1t611cQx1ni0shQSHC3PaLdHvVqHLiQ2ytbE4setSw52s/cdleSgN5PG+q2GiH4ya5i/Ygpi52THQRL8f/wUEFzZGrVkzOFsP9bSieOys2MRJVHoKNEpP+R+hlZRpfnpSgsaKFNqcaJO+MhmF9Cz9qmdRbuO+VW8noyOm+BqRbv0rFKxVg+EfGpxbQQwUdrt+OEy7LxXbdPyHNmmPWFqV09ibUgFd7C4yRfDY9Q1NVbhAPQR6qb5CkSCZSkbD2R2gH+Sy39/7Al2eScc/ZUDlg5Cwyj27TQj86upsL3gu58TsrwMzxLOSnYeRNgXAbOfMAiYX4OTaYqKrXngY4ucM7MNLbYYVX+G1d3WXeyX2SdpDOvhX5QukZjp5Ib4rEP0MPayduO+mkWZzjjKd+OdP3t7S5fBcLJbExNYcz5V264S2XAU6ZwMw/Y4hMRo8BQfP39A1V2Ra2GLf4PupaKyggaLUj4K0HKVihFj9Q0fPsqSnGG/OTaodVEnPfQ3326fB0dDRv1jgenBgChhgwOQL5CCTMST0FEnU2jgxKEeXeX9GZ05r1M95S2KpZ4vq5A/32LijGKBHdhCxfcUj6lN7q6OTqYLVqQJhwgvoDzWPHmpbxu8fMXSZ6WMKT0qN5xX5FM1vBI2nAcXXwGIxC9HIDX5zXRsE8I0/HqDWMs9xsxWdaxhCECF4p6d180joPnhbM47engrm9N+iImFNmsYkQsaIPC51AVTkkZePfQurlOxTy5h9Ab8wXDiOG72nynWN5BAlVQBm5DRV+y862MH3sEF5kluBQL4Wr6vjg1HdWB8O15S3K6VMY+I2fKkF1FpgAYOVbeQTrMVeAMLdZmh+FkIPpROsQ5mTCYheA3thQZtngpk320IAHZnrssNtM9DwfAYGNKNNBVroqzabY15Sk13laP21rIj6LFh36EmB+CNUoRSulFoRiQvGPZ8KzddUPjqOW45MUzC//Sxr9nfp1B+s9Vorqam9XDvIxlGZDxBWKL344Uj1+ErhtzFx1CbfwriktHaQnGFReWz1c++45Yc3cDA/+P8GdNdRjhbeCdJ/bosS4m3FI88b+6vaocbeuo8irdDLr0z8z+485GRovHQjZBDJpW25Izqu9gc8C52enEvSZHt0lw1OMrQoyp5BGhe88GEPQVfqGReKp4QYTslbQZo7pX0gpwzoqaCE+bj2d1xGW2nrLKLaS2sQdxn9cSgwPxu44e5MZ26M1MCqVNx+Sp0bvMwMe77d5K8cLAPmZ/FEnqh8cfiN4mEWmiOa0BPNJW0rOTSv6BCfozNpv42lC5v8zGw2Ifr8Kx/W9cWGwihwWcmkbTxpwAXtC8c+UYj2YXk6gm8HZCk8t2eYm4XGgIUQzLdqywgF+djYOT8S8kHYTojLBuQcpyuN5ZIuo+/pH+dorAE++ZcHxMeDr0JIljSOe6kdbJ6fWhBHRmjik6bW2ykcYo56IfoWwoS4q2pZgUq9/JSz1ku6Eh8Fbrx1O+hc+5a6C2Ws6QBk9HVZAYCfQrFP/MGnJ37h5KmCortKn32pbaqQ8YN/+WzYdvQPiG3MtXX6W/gYIW5ZUoF0lJMtjV8EcmVApHjSECV8lLQQ1M54qje6sg52K5Ql+mO3xECSEeRG08G4uqV9OZqBUDp/NfWEd53/6EwvptFDWM5GHvnwClC6mvrppgclNVuVwFx2WFc8Sov1PrBLNLDujdYRHiLDb85yGR//u2VBMQl7y1rTyEQ7Nr3Cxke0MAVycLX1I/RlZJTJ/OT2+hqjhz0eLyE5UBx3GtapxUusSFA0MNPpv6Nr8eUCaOHms+rYpuXy/kwaTBjZcmnrmyatJN5R+LcRMU9ZiBM4D0TTvPWBTMS6JNa6IA1Vy+O/DxRR6NuS99coygpeKFFrBpCDJe+L44azT67Tw0v/jOkHddtmpFl6+joo37K3T0a1bctTjTJSS/KeHxHuK/Yb5wXl+bVuDO3VXDO731QPZ0m8v2S17jjW4QPMT6XGreOhhqYr4yzI8FOA7zbPOEenVp+rJgFEIWsXAAtHYplz6PqCs60T2bNL2qkh61+eIPPCgNSGsVKvOnf0AixiPnBpOiTznPGcjWULY47p0wSXrz0ALw/73ORCsycimzdiLFpt1cfvpRODWB/KMgATTzhsBOCzIIeKIvF6a54A5I5gBf4jLw0Wn+XG7QTM51kbpr0H5Sj+Thrn7GBNN2saAaoMCFtMJflkaHgvax+W02G660cfVVUodzHRCOZ3B4fFJHPxl1oJFacl2kv5r4+H1QwfG+DMdbJz+vrRVrAiHR60KJrV45/6djywNuTvIuIci+CRkA8sJYp5DPg3ODOPrEnwOssMevQNG0v2HitSXzbaefsoxUTlupzJhI1QLh21ZcfQZtduOvYMPlQqDEYRHgC9s9E+zDAbDLTuPwzodOOjBriuTQlB3OUTASRCSTd1ThT7ALfoSWtbWFLmN7f/yeoHrcI/UITSV+WPvohvhRFmx71S4lk9NgIWWzzx2LRMjSO0LZ3RJYshkTTA1OShE7IOWJp7B8mdM6s63S+iDCgugI9rnImPb4LHudrYWaJ1FzAhYBU7VUKqLren4b+ioFX1oECwAkbQF+zaOdJCp6BgCP/BPvgpea/KWu9dBxlMCBNQRKVVLtP3ceiIUuUobfN48wZJkWUvZN4ZZDuQVZkCvoCOPKvH9cntkOzNdJSXFwMIXHYUvluS9hJtFGJ5ejYETBUQJq9uNg4Hxepm2Tbcqa7uidT9rpe2C2Yi0Y0NgiWY0jPJDfo8+7+WVJxRV2UvzhQQn4rv2nLbpOGYskd+bpPd2qfy+tQBBxNWQ/i2bZJbJ6aFKqJmaCOBPd8YMXANLRr2PqytrB8nnobAkOjE5fzCc2e2mdr/rjmIfllSHddJPAsDP8fRbPLWfoLqhvMTPFHxH2XbIajB7sbYV54X9OCbXVlwgR8FE9ktKDxG7nSkx90h7dJOeUbSMZ+dcEcdgu4pI8d4HMJgbnEqeVZ1JXIrPObJhH+Ym8z0l+v0AAXaH8qoAVIOW/w6gIqfE23a9rHwNPzhxEML4H4UuDt2XI8pTvNYAASistCLEh7Hc2ZJX4x7HgAX0DQ1JoSu9dcIePlFU8dpH0B/HzsRrkH7gmxaM19Z3b2ze8ITWxpEDDK284iJLjYQ8TfgXO1so6HF4IcNsWPqdvsMkU3xtb6+mwfeS59jcS0YpENqIJ5caxsFJeq5xeFg6Lt8PF/vObjYLb8o5mUafEufvBm7lRnw7g+G4lG8reUp4vHgMbWQne6hvBDJv3r8rWVkHhIm8skOQhPPpZkFjtnGgRWcUDX2qYtXXKn2/udEEV2XcGh3/oPyeepnaQ1a5JUOr8M8N5H2+XmP1Ln/gKNNTbrQwKGRzkrW4VEbng0bTjybG5gYuRrI/wI8l7xJaXwkltBOT4Xx0Ugvh1gbH6Rj+PWmT7n3CET7A/rFxw2XRc2mUHUuOZUm6ULBFVSGlmsOExDXNLZtm1Q1wdV5f5xxtwotclfpaBcPIG4b+vzGQwghTBZomMt73OxFe75O+y1vHOqjk2NZsumo8hZvnxeIJgOleTUrFbSBm+Ie8j6c2WJmkfbzkWiuKSP2Bxhk5oh//Goj79AI38owZaCowylyHr3Paxfv9G5Kk/lLrLz95ehSreDiqb+8OtseKzP4UQTURfwZabF2EFatJRKFtgTyJEXNRBFt1hsmfGmPSKRS8VluW2vDOw6IBlcILbE12ShnvinwvkqnVZ+45JkB5VyoO4ot0YPUxNmEjo0rf9oNAHYzxO7k+GOlHgKDmdXiIsc/Z4dlKNgZNG6Rfu9J6uX2Qoe5o2BNEKGOiQXEHQeHcW6UqAEmPZo92eAAHi7D+RSG3MSiFoIEKCZYFfuh/kh0vZY+9jbd8yxf9ARlGntxNVFy4B0O8zZljeW7o6nesahE6z5hGhxEFrGclMFpm9Fia3lUwX4FWZvyGICbSmkyZT3ftohL3itMik7mgMHf2c64vKiKFugVbHS8+gnqVQiJIFNiu8DyTrrJfXJX/6UbR04MvC+EWaRGlJoPhUVMlpAeVwB1uKbG0JMOVQrBM3nc2WTD2IGszga1NnZr7qNAxPn/glJ7aWHgHWlvaLrvkRelTh2s9wEsdyqXUpEaKJ64OIgf95CUIZB53NAyXsQKN+0T9sdRdYs0FJLxCwy5EClTxt9zs6fk6HseCmxxyoFUAlObiKYUaovYJGKdhrh2hRMQ429/Hrgq6D5h8NBYL7CHHjnA2SZG5orfCjcCj7bo95Co9Ts9aoprAU5VEllgNXi4aTFdvcfsROZ5lUAoBLi/9Cc6OVC9iDnqxGsTOJQQmvdjfykJ+7QMF/p9dvKr0iVYeD08aTdt8Q34mjJmhtlBSGN3+75m1PUis0FtLAFwe5R2w3BqhHsFr5X06F36gdJMOWZ3vfDr1icNM6ICJu1Ko8D3oN2x5OTB8wbw33hRaehubpXC/OguF1GS4Zyqqd3puMR4Vg8BJ2tQEOC7RI+m66Q0RfXOYvImp0R/FyqgoaCqUqax/fDGoM+mfYF4PuFwAJglKm8xfJVZpddvtdQ30PF/mFkRxdrPeTNK7fLmI2t3KxuQWWF63AYdWDcczOuz/PB8+wZ5kwLwGDJDjpIZo06FclKyBKOJnYtO4vR8dbzf29+KT2KHLJllhtFN478oFm3yAwSpzH1/BqTK64WiIpHuC0GQb9uvdMNQuQvZqL1DuSGzvYh2Vig75YP16g/afck58R6RXE4uG7y2LwgAzqmDM+mtmNUFDgb6mXmkfDbjv8A43bpT9+u74jShz5LG3X2cx7z1Voh+dg023PsmOQmqzaEFdsx9UtdYYpTlhODHI+RVfsxYUPq2+fsu4w07t/GRjPBZvQBq81RbovBfUpJpdiJgceLStSynYJMGNua3F1QvKvmxGqtsLYReZSQbqK9VRRRrftNzVoSYmqLPpRomid4cVvzlJp8dbSGNfrtj6fAszFsXOpdv1FPqeVb/xWtiMi5iRANJbGshVi56uFMK0HeGgoKvMfoUUFIVPYmY7KrLFHeWN9FxZLsJRvVZV7siLRqkZT+U+9AMUk3cv0kiTDZA5BjGuoPLs17YkVwpcwPbw6GfDCdrnI0zfYJCEOAbJhn0z3s="
+      }],
+      "createTime": "2026-08-25T21:02:23.388Z"
+    }, {
+      "driveDocument": {
+        "id": "1ZyswR0IJthtg42qxjvDZMWzIOm06skUC"
+      },
+      "role": "user",
+      "tokenCount": 561,
+      "createTime": "2026-08-26T14:50:16.140Z"
+    }, {
+      "text": "Reescreve esse pedaço abaixo, mas agora com uma apresentação do palestrante. Em anexo o currículo do palestrante.\n\n\u003e E para agregar valor à nossa manhã, daremos início ao Workshop \u0027A Lei do Triunfo de Napoleon Hill Aplicada aos Negócios\u0027. O objetivo é claro: ajudar você a construir um plano definido para alcançar o triunfo. Com a palavra, o representante da MasterMind!\"",
+      "role": "user",
+      "tokenCount": 90,
+      "createTime": "2026-08-26T14:50:16.140Z"
+    }, {
+      "text": "**Defining the Scope**\n\nI\u0027m currently focused on defining the precise parameters of this new introduction. My priority is to fully grasp the user\u0027s requirements for the speaker\u0027s formal introduction, focusing on the context within \"Bloco 6\" of the MC script and referencing the provided PDF. I need to pinpoint the essential elements.\n\n\n**Refining the Introduction**\n\nI\u0027m now analyzing the provided text and speaker information, specifically Julio de Oliveira\u0027s background. I\u0027m focusing on crafting an introduction that seamlessly blends the original text\u0027s purpose – launching the workshop – with Julio\u0027s impressive credentials. My goal is to create a compelling, concise bridge that sets the stage and excites the audience for the workshop.\n\n\n**Crafting the Live Script**\n\nI\u0027m now zeroing in on the live event adaptation. The goal is to avoid a bland resume recitation. I\u0027m focusing on weaving in Julio\u0027s expertise as a MasterMind instructor and author of \"Líder com Mente de Mestre\" into a script that excites entrepreneurs and seamlessly introduces the workshop. My process involves starting with the workshop topic, then establishing Julio\u0027s authority, and culminating in an enthusiastic call to the stage.\n\n\n",
+      "role": "model",
+      "tokenCount": 779,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Scope**\n\nI\u0027m currently focused on defining the precise parameters of this new introduction. My priority is to fully grasp the user\u0027s requirements for the speaker\u0027s formal introduction, focusing on the context within \"Bloco 6\" of the MC script and referencing the provided PDF. I need to pinpoint the essential elements.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Introduction**\n\nI\u0027m now analyzing the provided text and speaker information, specifically Julio de Oliveira\u0027s background. I\u0027m focusing on crafting an introduction that seamlessly blends the original text\u0027s purpose – launching the workshop – with Julio\u0027s impressive credentials. My goal is to create a compelling, concise bridge that sets the stage and excites the audience for the workshop.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Crafting the Live Script**\n\nI\u0027m now zeroing in on the live event adaptation. The goal is to avoid a bland resume recitation. I\u0027m focusing on weaving in Julio\u0027s expertise as a MasterMind instructor and author of \"Líder com Mente de Mestre\" into a script that excites entrepreneurs and seamlessly introduces the workshop. My process involves starting with the workshop topic, then establishing Julio\u0027s authority, and culminating in an enthusiastic call to the stage.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-08-26T14:50:16.141Z"
+    }, {
+      "text": "Aqui está a reescrita do trecho para o **Bloco 6**, agora incluindo uma apresentação fluida, engajadora e de grande autoridade para o palestrante, baseada no currículo fornecido:\n\n\u003e **MC:** \"E para agregar valor à nossa manhã, daremos início ao Workshop \u0027A Lei do Triunfo de Napoleon Hill Aplicada aos Negócios\u0027. O objetivo é claro: ajudar você a construir um plano definido para alcançar o triunfo. \n\u003e\n\u003e E para conduzir este momento, temos a honra de receber um verdadeiro especialista no assunto. Ele é empresário no ramo de Desenvolvimento de Pessoas, palestrante, consultor empresarial e terapeuta comportamental. Possui uma sólida trajetória de mais de 20 anos como executivo na área comercial de empresas multinacionais, além de ampla formação em Administração, Gestão, Filosofia e Teologia.\n\u003e\n\u003e Atualmente, é Diretor Associado da MasterMind – Fundação Napoleon Hill para Goiás, Tocantins e Distrito Federal, instrutor de todos os programas da instituição e coautor do livro *\u0027Líder com Mente de Mestre\u0027*.\n\u003e\n\u003e Por favor, recebam com uma calorosa salva de palmas, **Julio de Oliveira**!\"",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 267,
+      "parts": [{
+        "text": "Aqui está a re"
+      }, {
+        "text": "escrita do trecho para o **Bloco 6**, agora incluindo uma apresentação fluida, engajadora e de grande"
+      }, {
+        "text": " autoridade para o palestrante, baseada no currículo fornecido:\n\n\u003e **MC:** \"E para agregar valor à"
+      }, {
+        "text": " nossa manhã, daremos início ao Workshop \u0027A Lei do Triunfo de Napoleon Hill Aplicada aos Negócios"
+      }, {
+        "text": "\u0027. O objetivo é claro: ajudar você a construir um plano definido para alcançar o triunfo. \n\u003e\n\u003e E"
+      }, {
+        "text": " para conduzir este momento, temos a honra de receber um verdadeiro especialista no assunto. Ele é empresário no ramo de Desenvolvimento de P"
+      }, {
+        "text": "essoas, palestrante, consultor empresarial e terapeuta comportamental. Possui uma sólida trajetória de mais de 20 anos como"
+      }, {
+        "text": " executivo na área comercial de empresas multinacionais, além de ampla formação em Administração, Gestão, Filosofia e Te"
+      }, {
+        "text": "ologia.\n\u003e\n\u003e Atualmente, é Diretor Associado da MasterMind – Fundação Napoleon Hill para Goiás, Tocantins e"
+      }, {
+        "text": " Distrito Federal, instrutor de todos os programas da instituição e coautor do livro *\u0027Líder com Mente"
+      }, {
+        "text": " de Mestre\u0027*.\n\u003e\n\u003e Por favor, recebam com uma calorosa salva de palmas, **"
+      }, {
+        "text": "Julio de Oliveira**!\""
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-08-26T14:50:30.689Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

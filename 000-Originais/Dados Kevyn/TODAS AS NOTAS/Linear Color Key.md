@@ -1,0 +1,1 @@
+É uma ferramenta de retirar fundos de vídeo, usado para retirar fundos que são cores sólidas.

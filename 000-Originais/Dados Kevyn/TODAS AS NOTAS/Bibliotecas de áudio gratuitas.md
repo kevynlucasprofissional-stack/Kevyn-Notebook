@@ -1,0 +1,1 @@
+A biblioteca de áudio do Youtube tem uma grande variedade de músicas sem copyright. Uma outra ótima opção é o freemusicarquive.org

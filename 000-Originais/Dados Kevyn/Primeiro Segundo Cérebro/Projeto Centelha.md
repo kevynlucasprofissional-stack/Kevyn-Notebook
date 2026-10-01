@@ -1,0 +1,1 @@
+Quero subir uma ideia no projeto centelha, vou subir um arquivo em anexo que tem as perguntas que o projeto pede resposta e abaixo a ideia básica que tivemos. Me retorne já o arquivo pronto para submeter a ideia, retornar uma linguagem rica em pesquisa em pesquisa e dados, mostrando o impacto real da solução e o problema, tudo baseado em dados. Cite fontes.

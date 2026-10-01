@@ -1,0 +1,1 @@
+Existe uma maneira de exportar apenas os modelos selecionados. É necessário pesquisa, mas acredito ser ativando uma opção do tipo "Exportar apenas selecionados" ao clicar em "Exportar como..." no menu Arquivos.

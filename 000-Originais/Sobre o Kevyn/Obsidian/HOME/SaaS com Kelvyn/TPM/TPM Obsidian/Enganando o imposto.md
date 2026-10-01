@@ -1,0 +1,1 @@
+Um CNPJ por loja, um que controla a empresa, mas 

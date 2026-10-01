@@ -1,0 +1,1 @@
+Para criar KeyFrames com a câmera, é necessário que a câmera a ser animada esteja ativada, obviamente.

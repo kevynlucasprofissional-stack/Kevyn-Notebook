@@ -1,0 +1,6 @@
+- [ ] Role o feed.
+- [ ] Comentar, curtir e compartilhar algumas publicações do feed.
+- [ ] Responder mensagens.
+- [ ] Fazer 02 postagens.
+- [ ] Acesse o "Store-ToBabys.myshopify" ou qualquer outra página baseado em "myshopify".
+- [ ] Rode o JavaScript do Brites.

@@ -1,0 +1,1 @@
+Sua função é criar o Rig, a estrutura do personagem com Shapes Layers ou criar com camadas do Illustrator. Mas ouvi falar que o Duik é melhor.

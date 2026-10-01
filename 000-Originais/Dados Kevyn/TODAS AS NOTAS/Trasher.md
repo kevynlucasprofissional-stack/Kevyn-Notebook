@@ -1,0 +1,1 @@
+Trasher apaga animações e expressões aplicadas com o Motion V4

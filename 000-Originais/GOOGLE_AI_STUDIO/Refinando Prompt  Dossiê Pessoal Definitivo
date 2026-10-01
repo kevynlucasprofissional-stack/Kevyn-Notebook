@@ -1,0 +1,206 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "138p18RjRjZ_2YyJQ0FXQEXMqBoeDzsl4"
+      },
+      "role": "user",
+      "tokenCount": 236881
+    }, {
+      "text": "Estou criando um resumo definitivo sobre mim, estou na etapa de que preciso revisar os prompts para que ele entregue resultados insanamente ótimos, preciso de ajuda para refinar o prompt do processo de gerar dossiê, o prompt a ser melhorado está em \u003cprompt_melhorar\u003e\u003c\\prompt_melhorar\u003e. Vou anexar alguns livros sobre engenharia de prompt dos quais você irá extrair frameworks para me ajudar no meu objetivo.\n\n\u003cprompt_melhorar\u003e\nEu coloquei aqui vários dados (Incluindo uma análise de como deve ser uma síntese) que quero que no final se tornem um prompt único. O objetivo aqui é gerar o prompt que vai extrair de todos os dados que tenho sobre mim uma síntese.\n## PASSO 9: A Síntese\n*Objetivo: Compilar tudo o que foi anexado em um documento único, denso e definitivo.*\n\n**Prompt:**\n\u003e \"Agora, consolide todos os dados anexados em um **DOSSIÊ MESTRE DEFINITIVO**.\n\u003e\n\u003e Eu quero um documento estruturado que eu possa ler para entender quem é Kevyn Lucas em sua totalidade, sem filtros.\n\u003e\n\u003e **Estrutura Obrigatória:**\n\u003e 1.  **Resumo Executivo:** Quem é ele em 3 frases (O Arquétipo, O Conflito, O Potencial).\n\u003e 2.  **Linha do Tempo Biográfica:** Os marcos reais da vida dele.\n\u003e 3.  **Auditoria de Realidade:** A verdade sobre as finanças, a carreira e a competência técnica (sem as ilusões de grandeza).\n\u003e 4.  **Perfil Psicológico Profundo:** Os arquétipos, os traumas de origem e os mecanismos de defesa.\n\u003e 5.  **Análise Relacional:** Como ele ama, como ele briga e por que ele se isola.\n\u003e 6.  **A Fórmula da Cura:** Como ele formulou ou descobriu o \"segredo\" para a própria cura?\n\u003e 7.  **Pontos Cegos e Riscos:** Onde ele ainda está se enganando? Quais são as armadilhas futuras?\n\n## Análise do ChatGPT\n\n## ❶ Incluir instruções para extração do **EIXO SOBERANO**\n\nLembre-se da regra:\n\n\u003e “Um bom resumo responde a **uma pergunta-mãe**.”\n\nO seu prompt deve instruir a responder **todas** essas perguntas:\n\n- Quem eu sou?\n    \n- Por que sofro?\n    \n- Por que fracasso?\n    \n- Por que sou brilhante?\n    \n- Por que afasto pessoas?\n    \n- Qual minha missão?\n    \n- Qual minha tribo?\n    \n- Qual meu mito?\n    \n- Qual meu futuro?\n    \n\n## ❷ Não confunda **resumo** com **prova de inteligência**\n\nIsso é o ponto mais delicado — e mais honesto.\n\nO texto do Kevyn tenta a todo momento **performar inteligência**:\n\n- excesso de arquétipos simultâneos\n    \n- múltiplos “vereditos finais”\n    \n- repetições do mesmo diagnóstico com roupagens diferentes\n    \n\n📌 Isso viola diretamente a regra de Mary Karr:\n\n\u003e “O leitor não confia em quem parece querer impressionar o tempo todo.”\n\nNão porque ele _queira_ impressionar —  \nmas porque **o mecanismo ainda está ativo**.\n\n---\n\n## ❸ Mistura de camadas incompatíveis\n\nO Kevyn coloca **tudo no mesmo plano**:\n\n|Camada|Problema|\n|---|---|\n|Biografia factual|Misturada com mito|\n|Diagnóstico psicológico|Misturado com manifesto|\n|Autópsia|Misturada com exaltação|\n|Dossiê interno|Misturado com texto público|\n\n📌 Um **resumo definitivo** precisa escolher **um ponto de vista dominante**.  \nEvitar alternar de narrador o tempo todo.\n\nIsso gera potência — mas **mata síntese**.\n\n---\n\n## ❹ Cuide para o texto não se tornar longo demais para cumprir sua função\n\nUm resumo definitivo:\n\n- deve caber em **2–4 páginas**\n    \n- deve poder ser lido em **15 minutos**\n    \n- deve deixar uma **imagem mental clara** do sujeito\n    \n\n---\n\n# 🧠 O DIAGNÓSTICO CENTRAL (o mais importante)\n\nA síntese deve responder a seguinte pergunta:\n\n\u003e 👉 _“Quem sou eu, em essência, quando tudo é retirado?”_\n\n---\n\n# 🧭 COMO ISSO DEVERIA VIRAR UM “RESUMO DEFINITIVO”\n\n### O resumo definitivo deveria:\n\n1. Escolher **UM eixo central**\n    \n    - ex: _“Intelecto como defesa contra abandono”_\n        \n2. Ter **uma única voz narrativa**\n    \n3. Cortar **70% do conteúdo**\n    \n4. Manter:\n    \n    - 3 traços dominantes\n        \n    - 3 falhas centrais\n        \n    - 1 tensão estrutural\n        \n    - 1 direção de integração\n        \n\n📌 O resto deve ser descartado.\n\n\u003c\\prompt_melhorar\u003e",
+      "role": "user",
+      "tokenCount": 1147
+    }, {
+      "text": "**Defining the Core Task**\n\nI\u0027m now zeroing in on the fundamental request: to assemble a \"definitive summary\" of Kevyn Lucas, which I\u0027m interpreting as a comprehensive dossier (Dossiê Mestre), drawing upon diverse data sources including biography, psychological insights, financial information, and relationship dynamics. The analysis phase is in full swing, clarifying the precise objective.\n\n\n**Refining the Prompt**\n\nI\u0027m now integrating insights from *Prompt Engineering for Generative AI*. The goal is to reshape the prompt, using the Five Principles to achieve \"insanely great results\". I\u0027m focusing on incorporating role-playing and detailed style guidance. I\u0027m also now structuring the output and providing few-shot examples from the book for the AI to emulate.\n\n\n**Addressing the Key Critique**\n\nI\u0027m now carefully dissecting the critique of my previous attempts, pinpointing flaws and key requirements. The goal is to avoid \"performing intelligence\" and ensure a focused, concise output. I\u0027m focusing on incorporating negative constraints to enhance the prompt.\n\n\n**Iterating the Prompt Strategy**\n\nI\u0027m now iterating the prompt based on key principles. I\u0027ve defined a clear persona, aiming for a \"Ruthless Auditor of the Self,\" focusing on distilling the essence rather than compilation. I\u0027m restructuring the approach to analyze first, then write, and providing a concise format: 2-4 pages maximum, Markdown.\n\n\n**Enforcing Output Style**\n\nI\u0027m now prioritizing directness and concision, adhering strictly to constraints against \"flowery language\" and \"performing intelligence.\" I\u0027m also implementing a specific structure to adhere to the requested \"Sovereign Axis,\" a critical element to be identified first. My strategy integrates the CO-STAR framework and internal \"Chain-of-Thought\" prompting to maintain dossier cohesion. I\u0027m focusing on \"meta-prompting\" to define the task as creating the \"Dossiê Mestre Definitivo,\" establishing the context as chaotic data and the role as Objective Auditor/Biographer.\n\n\n",
+      "role": "model",
+      "tokenCount": 1486,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Core Task**\n\nI\u0027m now zeroing in on the fundamental request: to assemble a \"definitive summary\" of Kevyn Lucas, which I\u0027m interpreting as a comprehensive dossier (Dossiê Mestre), drawing upon diverse data sources including biography, psychological insights, financial information, and relationship dynamics. The analysis phase is in full swing, clarifying the precise objective.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Prompt**\n\nI\u0027m now integrating insights from *Prompt Engineering for Generative AI*. The goal is to reshape the prompt, using the Five Principles to achieve \"insanely great results\". I\u0027m focusing on incorporating role-playing and detailed style guidance. I\u0027m also now structuring the output and providing few-shot examples from the book for the AI to emulate.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Addressing the Key Critique**\n\nI\u0027m now carefully dissecting the critique of my previous attempts, pinpointing flaws and key requirements. The goal is to avoid \"performing intelligence\" and ensure a focused, concise output. I\u0027m focusing on incorporating negative constraints to enhance the prompt.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Iterating the Prompt Strategy**\n\nI\u0027m now iterating the prompt based on key principles. I\u0027ve defined a clear persona, aiming for a \"Ruthless Auditor of the Self,\" focusing on distilling the essence rather than compilation. I\u0027m restructuring the approach to analyze first, then write, and providing a concise format: 2-4 pages maximum, Markdown.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Enforcing Output Style**\n\nI\u0027m now prioritizing directness and concision, adhering strictly to constraints against \"flowery language\" and \"performing intelligence.\" I\u0027m also implementing a specific structure to adhere to the requested \"Sovereign Axis,\" a critical element to be identified first. My strategy integrates the CO-STAR framework and internal \"Chain-of-Thought\" prompting to maintain dossier cohesion. I\u0027m focusing on \"meta-prompting\" to define the task as creating the \"Dossiê Mestre Definitivo,\" establishing the context as chaotic data and the role as Objective Auditor/Biographer.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Com base na análise do livro *Prompt Engineering for Generative AI* (Phoenix \u0026 Taylor) e na crítica profunda que você forneceu, reestruturei o seu prompt.\n\nUtilizei os seguintes princípios do livro para elevar o nível:\n1.  **Give Direction (Dar Direção):** Definimos uma \"Persona\" específica (O Auditor Existencial) e um \"Tom\" claro (Cirúrgico, não performático).\n2.  **Divide Labor (Dividir o Trabalho/Chain-of-Thought):** Instruímos o modelo a primeiro *encontrar o eixo* antes de escrever, para evitar a mistura de camadas incompatíveis.\n3.  **Specify Format (Especificar Formato):** Restrições claras de tamanho e estilo para evitar a prolixidade (o problema de \"performar inteligência\").\n4.  **Negative Constraints (Restrições Negativas):** Instruções explícitas sobre o que *não* fazer (baseado na crítica sobre a regra de Mary Karr).\n\nAqui está o prompt refinado e pronto para uso:\n\n***\n\n# Prompt Refinado: O Dossiê Mestre\n\n**Copie e cole o texto abaixo na sua ferramenta de IA:**\n\n```markdown\n# ATUE COMO: O AUDITOR EXISTENCIAL\nVocê é um biógrafo analítico e psicólogo forense de elite. Sua especialidade é destilar vidas complexas e caóticas em sínteses brutais, honestas e úteis. Você não se impressiona com vocabulário difícil, nem com autoengano. Você busca a \"verdade nua\" por trás da narrativa.\n\n# CONTEXTO\nVocê recebeu uma grande quantidade de dados sobre \"Kevyn Lucas\". Esses dados incluem biografias, análises financeiras, perfis psicológicos e diários. Atualmente, o material está misturado: fatos reais se confundem com mitos pessoais, e diagnósticos profundos se misturam com tentativas de \"performar inteligência\".\n\n# OBJETIVO\nSua missão é ignorar o ruído e produzir o **DOSSIÊ MESTRE DEFINITIVO**. Este documento deve caber em 3-4 páginas e ser legível em 15 minutos. Ele não serve para afagar o ego, mas para servir como um mapa de navegação para a vida do sujeito.\n\n# ETAPA 1: O RACIOCÍNIO (Internal Monologue - Chain of Thought)\nAntes de escrever o dossiê, analise os dados internamente para encontrar o **EIXO SOBERANO**. Responda para si mesmo: \"Qual é a única verdade central que conecta o trauma, o talento, o fracasso financeiro e o isolamento de Kevyn?\".\n*Nota: Não escreva esta etapa, use-a apenas para estruturar a síntese.*\n\n# ETAPA 2: A SÍNTESE (O Output)\nGere o dossiê seguindo estritamente a estrutura e as regras abaixo.\n\n## REGRAS DE ESTILO (CRÍTICO)\n1.  **Corte 70% do conteúdo:** Se não for essencial para o Eixo Soberano, descarte.\n2.  **Voz Narrativa Única:** Use uma terceira pessoa clínica e objetiva. Não alterne entre narrador heróico e vítima.\n3.  **Anti-Performance:** Proibido usar jargão acadêmico excessivo ou arquétipos complexos apenas para soar inteligente. Use linguagem simples e direta (Regra de Mary Karr: \"Não tente impressionar\").\n4.  **Separação de Camadas:** Distinga claramente o que é *Fato* (o que aconteceu) do que é *Mito* (o que ele conta que aconteceu).\n\n## ESTRUTURA OBRIGATÓRIA DO DOSSIÊ\n\n### 1. O Eixo Soberano (O Diagnóstico Central)\nResponda em um único parágrafo curto à pergunta: *\"Quem é Kevyn Lucas quando tudo é retirado?\"*. Identifique o mecanismo central que rege sua vida (ex: Intelecto como defesa, Performance como busca de amor, etc.).\n\n### 2. Resumo Executivo (3 Frases)\n*   **O Arquétipo Real:** (Não o que ele quer ser, mas o que ele atua hoje).\n*   **O Conflito Raiz:** (A tensão estrutural que impede o progresso).\n*   **O Potencial Latente:** (Onde reside a verdadeira força quando o conflito é resolvido).\n\n### 3. Auditoria de Realidade (Fatos vs. Ficção)\n*Tabela ou lista comparativa:*\n*   **Finanças/Carreira:** A situação real sem ilusões de grandeza.\n*   **Competência Técnica:** Onde ele é realmente brilhante vs. onde ele apenas acha que é.\n*   **Biocronologia:** Os 3 marcos reais da vida (sem a narrativa mítica).\n\n### 4. Anatomia do Sofrimento (As Respostas Cruciais)\nResponda diretamente, sem rodeios:\n*   **Por que ele sofre?**\n*   **Por que ele fracassa recorrentemente?**\n*   **Por que ele afasta as pessoas?** (Mecanismo de isolamento).\n\n### 5. O Mapa da Tribo e Missão\n*   **Qual é a tribo dele?** (Quem são as pessoas que toleram e elevam esse perfil).\n*   **Qual é a missão real?** (Despida de megalomania).\n\n### 6. A Fórmula da Cura e Integração\nBaseado nos dados, qual é o método prático que ele descobriu ou precisa aplicar para sair do loop de sofrimento? Seja prescritivo.\n*   1 Direção de Integração.\n*   3 Ações Práticas.\n\n### 7. Pontos Cegos e O \"Não-Dito\"\nOnde ele ainda está mentindo para si mesmo nos textos fornecidos? Identifique a armadilha futura mais provável se ele não mudar o Eixo Soberano.\n\n---\n**INSTRUÇÃO FINAL:** Comece a análise agora. Seja duro, seja preciso, seja breve.\n```\n\n***\n\n### Por que este prompt é melhor (baseado no livro):\n\n1.  **Uso de *Persona* (Capítulo 3 - Role Prompting):** Ao definir o \"Auditor Existencial\" e \"Psicólogo Forense\", mudamos o viés da IA de \"ajudante complacente\" para \"analista crítico\". Isso resolve o problema de o texto tentar agradar o ego.\n2.  **Cadeia de Pensamento Implícita (Capítulo 5 - Divide Labor):** A \"Etapa 1\" força o modelo a processar os dados buscando um padrão (o Eixo Soberano) antes de gerar o texto, garantindo coerência temática em vez de uma lista de fatos soltos.\n3.  **Restrições de Estilo (Capítulo 1 - Give Direction):** As regras \"Anti-Performance\" e \"Corte 70%\" atacam diretamente o problema identificado na sua análise (o texto anterior tentava parecer inteligente demais).\n4.  **Formato Definido (Capítulo 1 - Specify Format):** A estrutura obriga a resposta das perguntas-mãe que estavam faltando (\"Por que sofro?\", \"Qual minha tribo?\"), transformando dados abstratos em *insights* acionáveis.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1619,
+      "parts": [{
+        "text": "Com base na análise do livro *Prompt Engineering for Generative"
+      }, {
+        "text": " AI* (Phoenix \u0026 Taylor) e na crítica profunda que você forneceu, reestruturei o seu prompt."
+      }, {
+        "text": "\n\nUtilizei os seguintes princípios do livro para elevar o nível:\n1.  **Give Direction (Dar Direção):** Defin"
+      }, {
+        "text": "imos uma \"Persona\" específica (O Auditor Existencial) e um \"Tom\" claro (Cirúrgico, não performático"
+      }, {
+        "text": ").\n2.  **Divide Labor (Dividir o Trabalho/Chain-of-Thought):** Instruímos o modelo a"
+      }, {
+        "text": " primeiro *encontrar o eixo* antes de escrever, para evitar a mistura de camadas incompatíveis.\n3.  **Specify"
+      }, {
+        "text": " Format (Especificar Formato):** Restrições claras de tamanho e estilo para evitar a prolixidade (o problema"
+      }, {
+        "text": " de \"performar inteligência\").\n4.  **Negative Constraints (Restrições Negativas):** Instruções"
+      }, {
+        "text": " explícitas sobre o que *não* fazer (baseado na crítica sobre a regra de Mary Karr).\n\nAqui está"
+      }, {
+        "text": " o prompt refinado e pronto para uso:\n\n***\n\n# Prompt Refinado: O Dossiê Mestre\n\n"
+      }, {
+        "text": "**Copie e cole o texto abaixo na sua ferramenta de IA:**\n\n```markdown\n# ATUE COMO: O AUDITOR EXISTENCIAL\n"
+      }, {
+        "text": "Você é um biógrafo analítico e psicólogo forense de elite. Sua especialidade é destilar vidas complexas e ca"
+      }, {
+        "text": "óticas em sínteses brutais, honestas e úteis. Você não se impressiona com vocabulário difícil"
+      }, {
+        "text": ", nem com autoengano. Você busca a \"verdade nua\" por trás da narrativa.\n\n# CON"
+      }, {
+        "text": "TEXTO\nVocê recebeu uma grande quantidade de dados sobre \"Kevyn Lucas\". Esses dados incluem biografias, anál"
+      }, {
+        "text": "ises financeiras, perfis psicológicos e diários. Atualmente, o material está misturado: fatos reais se confund"
+      }, {
+        "text": "em com mitos pessoais, e diagnósticos profundos se misturam com tentativas de \"performar inteligência\".\n\n# OB"
+      }, {
+        "text": "JETIVO\nSua missão é ignorar o ruído e produzir o **DOSSIÊ MESTRE DEFINITIVO**. Este"
+      }, {
+        "text": " documento deve caber em 3-4 páginas e ser legível em 15 minutos. Ele não serve para af"
+      }, {
+        "text": "agar o ego, mas para servir como um mapa de navegação para a vida do sujeito.\n\n# ETAPA 1"
+      }, {
+        "text": ": O RACIOCÍNIO (Internal Monologue - Chain of Thought)\nAntes de escrever o dossiê, anal"
+      }, {
+        "text": "ise os dados internamente para encontrar o **EIXO SOBERANO**. Responda para si mesmo: \""
+      }, {
+        "text": "Qual é a única verdade central que conecta o trauma, o talento, o fracasso financeiro e o isolamento de"
+      }, {
+        "text": " Kevyn?\".\n*Nota: Não escreva esta etapa, use-a apenas para estruturar a síntese.*"
+      }, {
+        "text": "\n\n# ETAPA 2: A SÍNTESE (O Output)\nGere o dossiê segu"
+      }, {
+        "text": "indo estritamente a estrutura e as regras abaixo.\n\n## REGRAS DE ESTILO (CRÍTICO)\n1.  **C"
+      }, {
+        "text": "orte 70% do conteúdo:** Se não for essencial para o Eixo Soberano, descarte.\n2.  **V"
+      }, {
+        "text": "oz Narrativa Única:** Use uma terceira pessoa clínica e objetiva. Não alterne entre narrador heróico e vítima"
+      }, {
+        "text": ".\n3.  **Anti-Performance:** Proibido usar jargão acadêmico excessivo ou arquétipos complex"
+      }, {
+        "text": "os apenas para soar inteligente. Use linguagem simples e direta (Regra de Mary Karr: \"Não tente impressionar\")."
+      }, {
+        "text": "\n4.  **Separação de Camadas:** Distinga claramente o que é *Fato* (o que aconteceu"
+      }, {
+        "text": ") do que é *Mito* (o que ele conta que aconteceu).\n\n## ESTRUTURA OBRIGATÓRIA DO DOSSI"
+      }, {
+        "text": "Ê\n\n### 1. O Eixo Soberano (O Diagnóstico Central)\nResponda em um"
+      }, {
+        "text": " único parágrafo curto à pergunta: *\"Quem é Kevyn Lucas quando tudo é retirado?\"*. Identifique o mecanismo central"
+      }, {
+        "text": " que rege sua vida (ex: Intelecto como defesa, Performance como busca de amor, etc.).\n\n### "
+      }, {
+        "text": "2. Resumo Executivo (3 Frases)\n*   **O Arquétipo Real:** (Não o que ele quer"
+      }, {
+        "text": " ser, mas o que ele atua hoje).\n*   **O Conflito Raiz:** (A tensão"
+      }, {
+        "text": " estrutural que impede o progresso).\n*   **O Potencial Latente:** (Onde reside a verdadeira força quando"
+      }, {
+        "text": " o conflito é resolvido).\n\n### 3. Auditoria de Realidade (Fatos vs. Ficção)\n*T"
+      }, {
+        "text": "abela ou lista comparativa:*\n*   **Finanças/Carreira:** A situação real sem ilusões de grandeza."
+      }, {
+        "text": "\n*   **Competência Técnica:** Onde ele é realmente brilhante vs. onde ele apenas acha que é.\n*   **"
+      }, {
+        "text": "Biocronologia:** Os 3 marcos reais da vida (sem a narrativa mítica).\n\n### 4. Anatom"
+      }, {
+        "text": "ia do Sofrimento (As Respostas Cruciais)\nResponda diretamente, sem rodeios:\n*   **"
+      }, {
+        "text": "Por que ele sofre?**\n*   **Por que ele fracassa recorrentemente?**\n*   **"
+      }, {
+        "text": "Por que ele afasta as pessoas?** (Mecanismo de isolamento).\n\n### 5. O Mapa da Trib"
+      }, {
+        "text": "o e Missão\n*   **Qual é a tribo dele?** (Quem são as pessoas que toleram e"
+      }, {
+        "text": " elevam esse perfil).\n*   **Qual é a missão real?** (Despida de megalomania).\n\n### 6. A"
+      }, {
+        "text": " Fórmula da Cura e Integração\nBaseado nos dados, qual é o método prático que ele descobriu ou precisa"
+      }, {
+        "text": " aplicar para sair do loop de sofrimento? Seja prescritivo.\n*   1 Direção de Integração.\n*   3 A"
+      }, {
+        "text": "ções Práticas.\n\n### 7. Pontos Cegos e O \"Não-Dito\"\nOnde ele"
+      }, {
+        "text": " ainda está mentindo para si mesmo nos textos fornecidos? Identifique a armadilha futura mais provável se ele não mudar o E"
+      }, {
+        "text": "ixo Soberano.\n\n---\n**INSTRUÇÃO FINAL:** Comece a análise agora. Seja duro, seja"
+      }, {
+        "text": " preciso, seja breve.\n```\n\n***\n\n### Por que este prompt é melhor (baseado no livro):\n\n1.  **U"
+      }, {
+        "text": "so de *Persona* (Capítulo 3 - Role Prompting):** Ao definir o \"Auditor Existencial\""
+      }, {
+        "text": " e \"Psicólogo Forense\", mudamos o viés da IA de \"ajudante complacente\" para \"anal"
+      }, {
+        "text": "ista crítico\". Isso resolve o problema de o texto tentar agradar o ego.\n2.  **Cadeia de Pensamento Im"
+      }, {
+        "text": "plícita (Capítulo 5 - Divide Labor):** A \"Etapa 1\" força o modelo a process"
+      }, {
+        "text": "ar os dados buscando um padrão (o Eixo Soberano) antes de gerar o texto, garantindo coerência temática"
+      }, {
+        "text": " em vez de uma lista de fatos soltos.\n3.  **Restrições de Estilo (Capítulo 1"
+      }, {
+        "text": " - Give Direction):** As regras \"Anti-Performance\" e \"Corte 70%\" atacam diretamente o problema identificado na sua análise ("
+      }, {
+        "text": "o texto anterior tentava parecer inteligente demais).\n4.  **Formato Definido (Capítulo 1 - Specify Format):** A"
+      }, {
+        "text": " estrutura obriga a resposta das perguntas-mãe que estavam faltando (\"Por que sofro?\", \"Qual minha tribo?\"), transform"
+      }, {
+        "text": "ando dados abstratos em *insights* acionáveis."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

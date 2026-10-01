@@ -1,0 +1,70 @@
+---
+id: marketing-comunicacao-e-processos
+titulo: Marketing comunicação e processos
+tipo: tema_pessoal
+status: auditado
+profundidade: avancada
+versao_schema: '1.0'
+versao_conteudo: '1.3'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+fontes_primarias:
+- '[[Fonte - 150626 RNIDIQAOUP]]'
+- '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
+- '[[Fonte - Materiais IMRIA e marketing 2025]]'
+- '[[Fonte - Palestra IA e pitches Espaco Prema 2025]]'
+- '[[Fonte - Notas profissionais e tecnicas 2025]]'
+grau_confianca: alto
+sensibilidade: media
+camada_evidencia: sintese_derivada
+tags:
+- tipo/tema_pessoal
+- privacidade/restrita
+aliases:
+- Marketing comunicação e processos
+---
+# Marketing comunicação e processos
+
+## Atuação
+
+Kevyn aparece em atividades de social media, campanhas, eventos, roteiros, relatórios, briefings, fluxogramas e desenho de processos.
+
+## Evidência recente
+
+A revisão de 15 de junho de 2026 registra entrega de relatório de diretoria, briefings, fluxos e uma estrutura BPMN elogiada.
+
+## Força
+
+A combinação de comunicação visual e organização de processos diferencia o perfil: não apenas produzir uma peça, mas estruturar como a informação flui.
+
+## Materiais de campanha
+
+[[Fonte - Materiais IMRIA e marketing 2025]] mostra producao de roteiros curtos, quadro kanban de criativos, promessa de oficina pratica, garantia, escassez, preco e segmentacao para publico empreendedor. O e-book de mentalidade magra entra aqui apenas como evidencia de copy/funil e narrativa de transformacao, nao como conteudo de saude.
+
+[[Fonte - Palestra IA e pitches Espaco Prema 2025]] mostra um nivel mais consultivo: pitches comparativos, FOFA, oferta, funil, provas, KPIs, roadmap de 90 dias e scripts de ligacao. O material evidencia construcao de proposta e processo comercial, mas nao confirma cliente fechado.
+
+As notas preservam roteiro de video associado a campanha de emagrecimento com 3 dicas em formato de cena. O material registra presenca de copy no nicho de saude, sem confirmar contratacao, entrega, gravacao ou publicacao.
+
+O Kanban "21 dias com Kevyn" documenta pipeline de producao de conteudo em 8 etapas (Base, Brainstorming, Roteiro, Revisao, Gravacao, Edicao, Cronograma e Postado), evidenciando organizacao de fluxo editorial.
+
+## Risco
+
+Em marketing, sistemas complexos podem afastar o foco de oferta, público, canal e conversão. O caso [[Salus e Desafio Svelte]] é usado como aprendizado.
+
+Analises de lancamento do DS21 (setembro de 2025) documentam metricas reais — 211 leads, 29 alunos, ROAS < 0,5 — com diagnostico de oferta confusa, baixo volume de criativos e rastreamento fraco. Uma das analises, assinada "Por Kevyn", registra participacao em edicao de video e copy profissional. As demais analises sao clones gerados por IA (estilo Erico Rocha e Hormozi).
+
+Tres versoes de linha editorial para Salus (LE DEFINITIVA) foram preservadas nas notas: versao extensa original, consolidacao via GPT e versao revisada por Kevyn. O material define avatar, promessa, 4 pilares de conteudo (Receitas, Conscientizacao, Organico, Vendas), tom de voz, cadencia e calendarios editoriais, evidenciando trabalho de estrategia de conteudo.
+
+Notas de agosto de 2025 registram um framework de priorizacao em 4 niveis (Fundacao → Alvo → Maquina → Combustivel), inspirado em playbooks do Hormozi, aplicado ao planejamento da Hoor Digital.
+
+## Proveniencia
+
+- `CICLO-0007`: [[Fonte - Analises de copy e lancamento DS21 2025]] registra o diagnostico do lancamento DS21, as metricas do funil e a analise de oferta/copy.
+- `CICLO-0009`: `SRC-000063`, `SRC-000066`, `SRC-000067`, `SRC-000068`, `SRC-000069`, `SRC-000074`, `SRC-000076` e `SRC-000077` reforcam campanha, contexto de marca, avatar e responsabilidades operacionais.
+- `CICLO-0010`: `SRC-000072` e `SRC-000075` adicionam analise de SEO/LEO da WSI e automacao operacional com dados sensiveis.
+## Relações
+
+- [[ACIRV]] e [[Sirio]] contextualizam ambientes de trabalho.
+- [[Execucao versus complexidade]] descreve o principal risco.
+- [[Criatividade e capacidade de sintese]] explica a competência.

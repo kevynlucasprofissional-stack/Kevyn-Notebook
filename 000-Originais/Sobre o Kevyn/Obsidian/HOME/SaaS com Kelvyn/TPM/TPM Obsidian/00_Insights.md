@@ -1,0 +1,2 @@
+### O que a TPM vende é:
+Ao dizer que "beleza é superficial, entregamos amor-próprio", você deixa de vender apenas um agendamento de manicure e passa a vender bem-estar e saúde mental para mulheres exaustas. Isso gera um rapport poderoso.

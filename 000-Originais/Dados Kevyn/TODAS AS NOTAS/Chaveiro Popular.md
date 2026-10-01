@@ -1,0 +1,1 @@
+Adelino é o dono de lá.

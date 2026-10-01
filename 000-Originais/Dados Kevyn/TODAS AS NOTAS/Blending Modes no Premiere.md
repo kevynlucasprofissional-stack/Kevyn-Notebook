@@ -1,0 +1,1 @@
+É possível trabalhar blending modes pelo premier, eles estão nos parâmetros de opacidade no effects control.

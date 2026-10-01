@@ -1,0 +1,1 @@
+Vá em "Sequence > Close Gap"

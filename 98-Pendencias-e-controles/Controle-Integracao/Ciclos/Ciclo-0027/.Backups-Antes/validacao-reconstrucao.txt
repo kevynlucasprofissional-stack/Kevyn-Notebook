@@ -1,0 +1,9 @@
+﻿checkpoint_reconstruido=true
+origem_hash_marketing=CICLO-0026/Notas-Criadas-ou-Modificadas.csv
+origem_hash_salus=CICLO-0026/Notas-Criadas-ou-Modificadas.csv
+origem_hash_estado=CICLO-0026/Notas-Criadas-ou-Modificadas.csv
+origem_hash_estado_json=Controle-Integracao/CHECKSUMS-INTEGRACAO.txt pre-CICLO-0027
+origem_hash_manifesto=Controle-Integracao/CHECKSUMS-INTEGRACAO.txt pre-CICLO-0027
+origem_hash_matriz=Controle-Integracao/CHECKSUMS-INTEGRACAO.txt pre-CICLO-0027
+origem_hash_decisoes=Controle-Integracao/CHECKSUMS-INTEGRACAO.txt pre-CICLO-0027
+origem_hash_relatorio=Controle-Integracao/CHECKSUMS-INTEGRACAO.txt pre-CICLO-0027

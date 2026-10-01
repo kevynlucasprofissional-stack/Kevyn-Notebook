@@ -1,0 +1,31 @@
+﻿{
+    "versao_schema":  "1.0",
+    "projeto":  "Kevyn Neo",
+    "root_dir":  "..",
+    "project_dir":  ".",
+    "source_dir":  "../Dados Kevyn",
+    "vault_dir":  ".",
+    "vault_dir_observacao":  "VAULT_DIR ./Vault ausente; cofre localizado em PROJECT_DIR pela presenca de .obsidian, 00-Inicio e MOCs.",
+    "ciclo_atual":  6,
+    "ultimo_ciclo_concluido":  5,
+    "status_global":  "em_revisao",
+    "arquivos_totais":  2923,
+    "arquivos_analisados":  66,
+    "arquivos_relevantes":  59,
+    "arquivos_integrados":  59,
+    "arquivos_pendentes":  2857,
+    "unidades_identificadas":  25,
+    "unidades_integradas":  22,
+    "falhas_bloqueantes":  [
+
+                           ],
+    "ultima_execucao":  "2026-06-18T00:15:00-03:00",
+    "criterio_final_satisfeito":  false,
+    "divergencias_detectadas":  [
+                                    "Estrutura real usa Kevyn Neo como cofre; nao existe subpasta Vault.",
+                                    "Manifesto historico tem 2697 linhas; arvore atual de Dados Kevyn tem 2923 arquivos.",
+                                    "Nao ha repositorio Git no workspace; checkpoint sera feito por checksums e copias por ciclo."
+                                ],
+    "proximo_item":  "SRC-000043",
+    "observacao_revisao":  "FINALIZACAO: Ciclo 0006 em revisao final. Ciclo 0007 suspenso. Correcoes residuais pendentes: duplicatas, plano original, manifesto/matriz, proveniencia ampliada, ajustes editoriais, indice de fontes, versionamento, NUL em Registro-de-Decisoes, arquivos dinamicos do Obsidian, Mudancas JSON arrays."
+}

@@ -1,0 +1,1 @@
+É um efeito de seleção por cores.

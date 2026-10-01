@@ -1,0 +1,1 @@
+Caso a interface de animação não esteja aparecendo, clique em "New Layouts", bem provável que ela aparecerá.

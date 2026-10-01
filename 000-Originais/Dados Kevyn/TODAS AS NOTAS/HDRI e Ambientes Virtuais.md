@@ -1,0 +1,1 @@
+HDRI é um ambiente simulado para dar realismo a cena. Isso pode ser feito com uma foto panorâmica de um ambiente escolhido. É possível criar esse "ambiente virtual" com configurações HDRI de um renderizador, mas também com configurações nativas do C4d (Como os efeitos de SKY, nativos do C4D)

@@ -1,0 +1,1 @@
+Spin faz o objeto rotacionar eternamente.

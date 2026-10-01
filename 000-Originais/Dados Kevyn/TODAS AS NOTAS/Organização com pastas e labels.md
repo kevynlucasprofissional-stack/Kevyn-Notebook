@@ -1,0 +1,2 @@
+* **Footage:** Adote uma estrutura de pastas bem definida para organizar o material bruto (footage) antes e dentro do After Effects.
+* **Labels:** Utilize a função de alterar a cor dos labels das pastas na janela de projeto para facilitar a identificação e organização dos elementos. Cores configuráveis nas preferências.

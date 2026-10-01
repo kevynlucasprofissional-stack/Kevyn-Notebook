@@ -1,0 +1,173 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "Crie um frankstein dos 3 prompts abaixo, unindo o melhor dos 3 mundos.\n# Prompt 01\n## ROLE \u0026 OBJECTIVE\nVocê é um Arquiteto de Comunidades de Elite e Estrategista de Movimentos, especialista na metodologia de Seth Godin (livro \"Tribos\"). Sua missão é analisar o [CONTEXTO COMPLETO] sobre Kevyn Lucas para extrair não apenas um plano, mas a \"Alma da Tribo\" que ele está construindo.\n\n## CONTEXTO TEÓRICO (LENTE DE ANÁLISE)\nUtilize os conceitos de \"Herege\", \"Status Quo\", \"Fãs Verdadeiros\" e \"Movimento\" de Seth Godin para interpretar os dados. Não descreva o que Kevyn faz superficialmente; descreva a mudança que ele busca causar.\n\n## TAREFA: O Dossiê da Tribo\nAnalise todo o material fornecido e construa o \"Manifesto Estratégico da Tribo\" de Kevyn Lucas, preenchendo as seguintes seções com profundidade analítica:\n\n### 1. O Herege e o Status Quo (A Visão)\n*Conceito:* Todo líder de tribo desafia algo que está estabelecido.\n- **O Inimigo:** O que Kevyn está combatendo? Qual é o \"Status Quo\" medíocre que ele quer destruir?\n- **A Promessa:** Qual é a terra prometida para quem o seguir? (A transformação final).\n\n### 2. A Identidade e os Excluídos (Quem Somos)\n*Conceito:* Uma tribo é definida tanto por quem está dentro quanto por quem está fora.\n- **O Perfil do Fã Verdadeiro:** Descreva a psicografia profunda do seguidor ideal (seus medos, desejos ocultos e crenças).\n- **A Barreira de Entrada:** Quem *não* serve para essa tribo? (Quem deve se sentir desconfortável com o conteúdo do Kevyn?).\n\n### 3. Rituais, Linguagem e Ensino (A Conexão)\n*Conceito:* Tribos precisam de rituais e uma forma única de comunicação para se tornarem movimentos.\n- **A Metodologia como Ritual:** Como o ensino do Kevyn se diferencia de uma simples \"aula\"? Existe uma linguagem própria, símbolos ou processos repetitivos que criam pertencimento?\n- **Estratégia de Conteúdo:** O que ele produz que serve como \"fogueira\" (ponto de encontro) para a tribo?\n\n### 4. O Diferencial de Mercado (A Vaca Roxa)\n*Conceito:* Ser notável é a única estratégia de crescimento viável.\n- O que, na proposta do Kevyn, é a característica \"Vaca Roxa\"? Aquilo que é tão único que obriga as pessoas a comentarem sobre ele?\n\n### 5. A Força Oculta (O Diamante Bruto)\n*Análise Preditiva:* Com base na análise, identifique o superpoder subutilizado ou a vantagem injusta que Kevyn possui, mas que talvez ainda não tenha verbalizado explicitamente. Onde está o maior potencial de alavancagem dessa tribo?\n\n## FORMATO DE SAÍDA\n- Use Markdown estruturado.\n- Tom de voz: Analítico, inspirador e direto.\n- Cite evidências do texto original para justificar suas conclusões.\n\n# Prompt 02\nPASSO 8: Engenharia Reversa do \"Manifesto da Tribo\" (Framework Seth Godin)\n\n**ROLE (Papel):**\nAtue como um Arquiteto de Comunidades e Estrategista de Movimentos de elite, profundamente fundamentado na filosofia de \"Tribes\" de Seth Godin. Sua capacidade analítica deve distinguir entre mero gerenciamento de audiência e verdadeira liderança de tribo.\n\n**CONTEXTO:**\nEstamos analisando Kevyn Lucas. Ele não está apenas vendendo um produto; ele está desenhando um movimento. Precisamos extrair o DNA dessa tribo a partir dos textos e dados fornecidos.\n\n**TAREFA (Chain-of-Thought):**\nAnalise todo o Contexto Completo focando exclusivamente na visão de Comunidade, Liderança e Marketing de Kevyn. Não procure por táticas de vendas genéricas; procure pelos elementos que criam fé, conexão e mudança.\n\nUse os seguintes conceitos do livro \"Tribes\" como lentes para filtrar as informações:\n*   **O Status Quo:** O que ele está desafiando?\n*   **O Herege:** Como ele se posiciona contra o sistema atual?\n*   **O Termostato:** Como ele pretende mudar o ambiente, não apenas medi-lo?\n*   **Conexão Lateral:** Como ele planeja que os membros se conectem entre si, não apenas com ele?\n\n**FORMATO DE SAÍDA (O Dossiê da Tribo):**\n\nResponda estruturado exatamente nos tópicos abaixo, sendo específico e citando evidências quando possível:\n\n## 1. O Inimigo e o Status Quo\n*   **O que a Tribo rejeita?** (Qual é a \"religião\" atual ou a mediocridade que Kevyn está combatendo? Ex: A fábrica de balões, o sistema de ensino tradicional, a inércia).\n*   **A \"Heresia\" de Kevyn:** Qual é a regra fundamental que ele está pedindo para seus seguidores quebrarem?\n\n## 2. A Identidade do \"Fã Verdadeiro\" (Quem são os Hereges?)\n*   **Nomenclatura:** Que nomes ele usa (ou deveria usar) para seus seguidores ideais?\n*   **Psicografia:** O que eles desejam, mas têm medo de admitir? (Ex: Eles querem liderar, querem criar arte, querem sair da fábrica).\n*   **O Filtro de Exclusão:** Quem **não** é bem-vindo nesta tribo? (Tribos fortes excluem forasteiros).\n\n## 3. A Liturgia e o Movimento\n*   **O Manifesto:** Reescreva, em uma frase poderosa, a promessa de futuro que Kevyn faz para a tribo.\n*   **Metodologia de Ensino (O Ritual):** Como ele transforma a fé em ação? (Cursos, mentorias, desafios, \"fazer junto\").\n*   **Estratégia de Conteúdo (A Voz):** O conteúdo é um monólogo ou um convite? O que ele produz que serve de \"senha\" para os membros se reconhecerem?\n\n## 4. O Diferencial de Liderança (O Fator X)\n*   **Por que ele?** O que Kevyn oferece que gera *autoridade* (não poder)? É sua história, sua vulnerabilidade, sua competência técnica ou sua visão?\n*   **A Força Oculta (O Diamante Bruto):** Identifique o ativo mais subestimado na estratégia dele. Onde está a alavancagem real que transformará esse grupo em um movimento autossustentável?\n\n**RESTRIÇÕES:**\n*   Seja analítico e profundo, não descritivo.\n*   Use tom profissional e estratégico.\n*   Se faltar informação explícita, infira com base no comportamento e tom de voz dele (marque como *Inferência Estratégica*).\n\n# Prompt 03\nPASSO 8: A Engenharia da Tribo e o Manifesto do Movimento\n\n**ROLE:** Aja como um estrategista de comunidades e movimentos sociais de elite, profundamente fundamentado na filosofia de **Seth Godin (autor de \"Tribos\")**.\n\n**CONTEXTO:** Você está analisando o \"Contexto Completo\" de Kevyn Lucas para extrair a essência de sua liderança. Não estamos procurando apenas um plano de negócios, mas a arquitetura de um **Movimento**.\n\n**TAREFA:** Analise os dados focando na tríade **Comunidade, Liderança e Marketing**. Sua missão é decodificar como Kevyn pretende transformar um grupo de interessados em uma Tribo coesa e apaixonada.\n\n Utilize os seguintes frameworks do livro \"Tribos\" para estruturar sua resposta:\n\n### 1. O Herege e o Status Quo (A Tensão)\n*   **O Inimigo Comum:** Qual é o \"Status Quo\" ou a \"Fábrica\" (o modo industrial/padrão de pensar) que Kevyn está desafiando? O que ele quer destruir ou mudar no mercado/mundo?\n*   **A Heresia:** Qual é a verdade controversa ou a \"ideia corajosa\" que Kevyn defende e que exige liderança para ser implementada?\n*   **A \"Vaca Roxa\" (Diferencial):** O que torna a liderança dele notável a ponto de as pessoas quererem comentar sobre ela?\n\n### 2. Anatomia da Tribo (Identidade e Conexão)\n*   **Perfil dos \"1.000 Fãs Verdadeiros\":** Quem são os primeiros seguidores? Não descreva demografia, mas sim **psicografia**: no que eles acreditam, o que temem e o que desejam ardentemente?\n*   **O Código da Tribo (Nomenclatura):** Como eles se chamam? Quais palavras, gírias ou termos específicos Kevyn usa para criar um senso de pertencimento (\"nós\" vs \"eles\")?\n*   **A Dinâmica de Conexão:** Godin diz que tribos precisam de comunicação em 4 vias (Líder-\u003eTribo, Tribo-\u003eLíder, Tribo-\u003eTribo, Tribo-\u003eFora). Como Kevyn planeja facilitar essas conexões?\n\n### 3. A Religião do Movimento (Sem Dogmas, com Fé)\n*   **Rituais e Símbolos:** Quais práticas, hábitos ou formatos de conteúdo recorrentes criarão a cultura da tribo?\n*   **A Metodologia (O Caminho da Fé):** Como ele planeja ensinar/liderar? É através do exemplo, de desafios, de curadoria ou de criação de caos controlado?\n*   **A Força Oculta (O Diamante Bruto):** Qual elemento subestimado ou \"invisível\" neste plano tem o maior potencial de alavancagem (leverage) para transformar seguidores passivos em evangelistas?\n\n### 4. O Manifesto da Tribo (Síntese Criativa)\nCom base em tudo acima, escreva o **Manifesto da Tribo de Kevyn Lucas**.\n*   *Tom de voz:* Inspirador, desafiador e urgente (estilo \"Líder Herege\").\n*   *Estrutura:* Deve declarar quem \"Nós\" somos, o que \"Nós\" rejeitamos e qual futuro \"Nós\" estamos construindo juntos.\n\n**Nota de Saída:** Seja profundo. Não liste apenas tópicos; conecte os pontos para revelar a estratégia emocional e psicológica por trás da comunidade.",
+      "role": "user",
+      "tokenCount": 2405
+    }, {
+      "text": "**Comprehending the Task**\n\nI\u0027m now zeroing in on the core goal: crafting a \"Frankenstein\" prompt. I\u0027ve broken it down to analyzing the request itself, with the focus on combining the best elements of three prompts. I\u0027m starting by dissecting Kevyn Lucas\u0027s \"Full Context.\"\n\n\n**Analyzing the Concepts**\n\nI\u0027m now integrating Seth Godin\u0027s \"Tribes\" concepts, especially \"Purple Cow\" and \"Heretic,\" as core philosophical underpinnings. The role of Elite Community Architect is being defined, and the output is evolving into a detailed \"Tribe Dossier/Manifesto.\" I\u0027m also ensuring the prompt instructs it to dissect the context.\n\n\n**Integrating New Dimensions**\n\nI\u0027m now incorporating the \"Membership Filter\" to clearly define the desired community profile, ensuring an exclusive focus on who is *not* welcome. I\u0027m also adding \"Communication Dynamics\" to address the 4-way communication style. The goal is to craft a \"Manifesto\" in the voice of the Heretic Leader, and I\u0027m developing sections for the prompt that will instruct it.\n\n\n**Refining the Structure**\n\nI\u0027m now iterating on the Frankenstein prompt\u0027s structural pieces. I\u0027ve focused on integrating psychographics and exclusion filters. My focus is now on connecting the rituals, dynamics, and purple cow to ensure a strong differentiator. I\u0027m prioritizing markdown formatting, an analytical tone, and specific constraints. The goal is to culminate in the \"Manifesto,\" as a final creative output.\n\n\n",
+      "role": "model",
+      "tokenCount": 1300,
+      "isThought": true,
+      "parts": [{
+        "text": "**Comprehending the Task**\n\nI\u0027m now zeroing in on the core goal: crafting a \"Frankenstein\" prompt. I\u0027ve broken it down to analyzing the request itself, with the focus on combining the best elements of three prompts. I\u0027m starting by dissecting Kevyn Lucas\u0027s \"Full Context.\"\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing the Concepts**\n\nI\u0027m now integrating Seth Godin\u0027s \"Tribes\" concepts, especially \"Purple Cow\" and \"Heretic,\" as core philosophical underpinnings. The role of Elite Community Architect is being defined, and the output is evolving into a detailed \"Tribe Dossier/Manifesto.\" I\u0027m also ensuring the prompt instructs it to dissect the context.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Integrating New Dimensions**\n\nI\u0027m now incorporating the \"Membership Filter\" to clearly define the desired community profile, ensuring an exclusive focus on who is *not* welcome. I\u0027m also adding \"Communication Dynamics\" to address the 4-way communication style. The goal is to craft a \"Manifesto\" in the voice of the Heretic Leader, and I\u0027m developing sections for the prompt that will instruct it.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Structure**\n\nI\u0027m now iterating on the Frankenstein prompt\u0027s structural pieces. I\u0027ve focused on integrating psychographics and exclusion filters. My focus is now on connecting the rituals, dynamics, and purple cow to ensure a strong differentiator. I\u0027m prioritizing markdown formatting, an analytical tone, and specific constraints. The goal is to culminate in the \"Manifesto,\" as a final creative output.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Aqui está o **\"Frankenstein\" Definitivo**: um prompt que funde a estrutura analítica do Prompt 01, a profundidade tática do Prompt 02 (focado em termostatos e conexões) e a síntese criativa do Prompt 03 (o manifesto escrito).\n\n---\n\n# PASSO MESTRE: A Engenharia da Tribo e o Dossiê do Movimento\n\n**ROLE (Papel):**\nAtue como um Arquiteto de Comunidades de Elite e Estrategista de Movimentos, profundamente fundamentado na filosofia de Seth Godin (obras \"Tribos\" e \"Vaca Roxa\"). Sua capacidade analítica deve distinguir entre mero gerenciamento de audiência e a verdadeira liderança de uma tribo.\n\n**CONTEXTO \u0026 OBJETIVO:**\nVocê deve analisar o [CONTEXTO COMPLETO] de Kevyn Lucas. Ele não está apenas vendendo um produto ou serviço; ele está desenhando uma \"religião\" (sem dogmas, com fé). Sua missão é decodificar o DNA dessa tribo e construir o **\"Manifesto Estratégico do Movimento\"**.\n\n**LENTE TEÓRICA (Chain-of-Thought):**\nAntes de escrever, filtre os dados através destes conceitos de Godin:\n*   **O Herege:** Como Kevyn desafia o *Status Quo*?\n*   **O Termostato:** Como ele pretende *mudar* o ambiente, e não apenas medi-lo (ser um termômetro)?\n*   **Conexão Lateral:** Como ele planeja que os membros se conectem entre si (Tribo-\u003eTribo), e não apenas com ele (Líder-\u003eTribo)?\n*   **A Vaca Roxa:** O que é notável a ponto de ser impossível ignorar?\n\n---\n\n**TAREFA: O DOSSIÊ DA TRIBO**\nAnalise o material fornecido e preencha as seguintes seções com profundidade estratégica e psicográfica:\n\n## 1. O Herege, o Inimigo e o Termostato (A Visão)\n*Conceito:* Todo movimento precisa de algo para se opor e uma nova temperatura para o ambiente.\n*   **O \"Status Quo\" (O Inimigo):** O que Kevyn está combatendo? Qual é a mediocridade, o sistema industrial ou a \"fábrica\" que ele quer destruir?\n*   **A Heresia (A Promessa):** Qual é a regra fundamental do mercado que ele pede para seus seguidores quebrarem? Qual é a terra prometida para quem tiver coragem de segui-lo?\n*   **Ação Termostática:** Como a liderança dele altera o ambiente emocional ou profissional de quem entra na tribo?\n\n## 2. Anatomia da Tribo (Identidade e Exclusão)\n*Conceito:* Uma tribo forte é definida tanto por quem está dentro quanto por quem é barrado na porta.\n*   **Psicografia do \"Fã Verdadeiro\":** Não descreva dados demográficos. Descreva os medos secretos, os desejos ocultos e aquilo que eles querem acreditar sobre si mesmos (Ex: \"Eles querem liderar, mas temem ser julgados\").\n*   **O Código e a Nomenclatura:** Que termos, gírias ou \"senhas\" Kevyn usa (ou deveria usar) para criar pertencimento?\n*   **A Barreira de Entrada (O Filtro):** Quem **não** serve para essa tribo? Quem deve se sentir desconfortável ou ofendido pelo conteúdo dele?\n\n## 3. Rituais, Liturgia e Conexão (A Dinâmica)\n*Conceito:* A fé precisa de rituais para se tornar ação e de conexão lateral para se tornar movimento.\n*   **A Metodologia como Ritual:** Como o ensino se diferencia de uma simples \"aula\"? Existem processos repetitivos, desafios ou símbolos que solidificam a cultura?\n*   **A Fogueira (Conexão Lateral):** Onde e como a tribo conversa entre si? O conteúdo é um monólogo ou um convite para que os membros se reconheçam e interajam?\n\n## 4. O Diferencial e a Vaca Roxa (O Fator X)\n*Conceito:* Ser notável é a única estratégia de crescimento viável.\n*   **Por que ele?** O que, na proposta do Kevyn, é a característica \"Vaca Roxa\"? Aquilo que é tão único (vulnerabilidade, história, visão ou método) que obriga as pessoas a comentarem sobre ele?\n\n## 5. A Força Oculta (O Diamante Bruto)\n*Análise Preditiva:* Identifique o ativo mais subestimado na estratégia dele. Qual é a vantagem injusta ou o \"superpoder\" que ele possui, mas que talvez ainda não tenha verbalizado ou explorado totalmente? Onde está a maior alavancagem de crescimento?\n\n## 6. SÍNTESE CRIATIVA: O Manifesto da Tribo\nCom base na análise acima, encarne a voz do líder herege e escreva o **Manifesto da Tribo de Kevyn Lucas**.\n*   **Formato:** Texto corrido, inspirador, urgente e polarizante.\n*   **Estrutura:** Deve declarar quem \"Nós\" somos, o que \"Nós\" rejeitamos e qual futuro \"Nós\" estamos construindo.\n*   **Tom:** \"Nós contra o mundo medíocre\".\n\n---\n\n**FORMATO DE SAÍDA:**\n*   Use Markdown estruturado.\n*   **Tom de voz:** Analítico nas seções 1 a 5; Inspirador e visceral na seção 6.\n*   **Evidências:** Cite trechos do contexto original para justificar suas conclusões analíticas sempre que possível.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1275,
+      "parts": [{
+        "text": "Aqui está o **\"Frankenstein"
+      }, {
+        "text": "\" Definitivo**: um prompt que funde a estrutura analítica do Prompt 01, a profundidade t"
+      }, {
+        "text": "ática do Prompt 02 (focado em termostatos e conexões) e a síntese criativa do"
+      }, {
+        "text": " Prompt 03 (o manifesto escrito).\n\n---\n\n# PASSO MESTRE: A Engenharia da Trib"
+      }, {
+        "text": "o e o Dossiê do Movimento\n\n**ROLE (Papel):**\nAtue como um Arquiteto"
+      }, {
+        "text": " de Comunidades de Elite e Estrategista de Movimentos, profundamente fundamentado na filosofia de Seth Godin (ob"
+      }, {
+        "text": "ras \"Tribos\" e \"Vaca Roxa\"). Sua capacidade analítica deve distinguir entre mero gerenciamento de audiência e"
+      }, {
+        "text": " a verdadeira liderança de uma tribo.\n\n**CONTEXTO \u0026 OBJETIVO:**\nVocê deve analisar o [CONTEXT"
+      }, {
+        "text": "O COMPLETO] de Kevyn Lucas. Ele não está apenas vendendo um produto ou serviço; ele está desenhando uma \""
+      }, {
+        "text": "religião\" (sem dogmas, com fé). Sua missão é decodificar o DNA dessa tribo e construir"
+      }, {
+        "text": " o **\"Manifesto Estratégico do Movimento\"**.\n\n**LENTE TEÓRICA (Chain-of"
+      }, {
+        "text": "-Thought):**\nAntes de escrever, filtre os dados através destes conceitos de Godin:\n*   **O Here"
+      }, {
+        "text": "ge:** Como Kevyn desafia o *Status Quo*?\n*   **O Termostato:** Como ele pretende"
+      }, {
+        "text": " *mudar* o ambiente, e não apenas medi-lo (ser um termômetro)?\n*   **Con"
+      }, {
+        "text": "exão Lateral:** Como ele planeja que os membros se conectem entre si (Tribo-\u003eTribo), e não apenas"
+      }, {
+        "text": " com ele (Líder-\u003eTribo)?\n*   **A Vaca Roxa:** O que é not"
+      }, {
+        "text": "ável a ponto de ser impossível ignorar?\n\n---\n\n**TAREFA: O DOSSIÊ DA TRI"
+      }, {
+        "text": "BO**\nAnalise o material fornecido e preencha as seguintes seções com profundidade estratégica e psicográfica"
+      }, {
+        "text": ":\n\n## 1. O Herege, o Inimigo e o Termostato (A Visão)"
+      }, {
+        "text": "\n*Conceito:* Todo movimento precisa de algo para se opor e uma nova temperatura para o ambiente.\n*"
+      }, {
+        "text": "   **O \"Status Quo\" (O Inimigo):** O que Kevyn está combatendo? Qual"
+      }, {
+        "text": " é a mediocridade, o sistema industrial ou a \"fábrica\" que ele quer destruir?\n*   **A"
+      }, {
+        "text": " Heresia (A Promessa):** Qual é a regra fundamental do mercado que ele pede para seus seguidores quebrarem"
+      }, {
+        "text": "? Qual é a terra prometida para quem tiver coragem de segui-lo?\n*   **Ação Termost"
+      }, {
+        "text": "ática:** Como a liderança dele altera o ambiente emocional ou profissional de quem entra na tribo?\n\n## 2."
+      }, {
+        "text": " Anatomia da Tribo (Identidade e Exclusão)\n*Conceito:* Uma tribo forte é definida tanto por"
+      }, {
+        "text": " quem está dentro quanto por quem é barrado na porta.\n*   **Psicografia do \"Fã Verd"
+      }, {
+        "text": "adeiro\":** Não descreva dados demográficos. Descreva os medos secretos, os desejos ocultos e aquilo"
+      }, {
+        "text": " que eles querem acreditar sobre si mesmos (Ex: \"Eles querem liderar, mas temem ser julgados\").\n"
+      }, {
+        "text": "*   **O Código e a Nomenclatura:** Que termos, gírias ou \"senhas\" Kevyn"
+      }, {
+        "text": " usa (ou deveria usar) para criar pertencimento?\n*   **A Barreira de Entrada (O Filtro):"
+      }, {
+        "text": "** Quem **não** serve para essa tribo? Quem deve se sentir desconfortável ou ofendido pelo conteúdo dele"
+      }, {
+        "text": "?\n\n## 3. Rituais, Liturgia e Conexão (A Dinâmica)\n*Conceito"
+      }, {
+        "text": ":* A fé precisa de rituais para se tornar ação e de conexão lateral para se tornar movimento.\n*   **A"
+      }, {
+        "text": " Metodologia como Ritual:** Como o ensino se diferencia de uma simples \"aula\"? Existem processos repetitivos, desafios ou símbolos que solid"
+      }, {
+        "text": "ificam a cultura?\n*   **A Fogueira (Conexão Lateral):** Onde e como a tribo"
+      }, {
+        "text": " conversa entre si? O conteúdo é um monólogo ou um convite para que os membros se reconheçam e interajam?\n\n"
+      }, {
+        "text": "## 4. O Diferencial e a Vaca Roxa (O Fator X)\n*Conceito:* Ser"
+      }, {
+        "text": " notável é a única estratégia de crescimento viável.\n*   **Por que ele?** O que, na"
+      }, {
+        "text": " proposta do Kevyn, é a característica \"Vaca Roxa\"? Aquilo que é tão único (vulnerabilidade,"
+      }, {
+        "text": " história, visão ou método) que obriga as pessoas a comentarem sobre ele?\n\n## 5. A Força"
+      }, {
+        "text": " Oculta (O Diamante Bruto)\n*Análise Preditiva:* Identifique o ativo mais subestimado na"
+      }, {
+        "text": " estratégia dele. Qual é a vantagem injusta ou o \"superpoder\" que ele possui, mas que talvez ainda não tenha verbal"
+      }, {
+        "text": "izado ou explorado totalmente? Onde está a maior alavancagem de crescimento?\n\n## 6. S"
+      }, {
+        "text": "ÍNTESE CRIATIVA: O Manifesto da Tribo\nCom base na análise acima, encarne a voz do líder herege e"
+      }, {
+        "text": " escreva o **Manifesto da Tribo de Kevyn Lucas**.\n*   **Formato:** Texto corrido, inspirador"
+      }, {
+        "text": ", urgente e polarizante.\n*   **Estrutura:** Deve declarar quem \"Nós\" somos, o que \"N"
+      }, {
+        "text": "ós\" rejeitamos e qual futuro \"Nós\" estamos construindo.\n*   **Tom:** \"Nós contra"
+      }, {
+        "text": " o mundo medíocre\".\n\n---\n\n**FORMATO DE SAÍDA:**\n*   Use Markdown estruturado.\n*"
+      }, {
+        "text": "   **Tom de voz:** Analítico nas seções 1 a 5; Inspirador e visceral na seção 6"
+      }, {
+        "text": ".\n*   **Evidências:** Cite trechos do contexto original para justificar suas conclusões analíticas sempre"
+      }, {
+        "text": " que possível."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

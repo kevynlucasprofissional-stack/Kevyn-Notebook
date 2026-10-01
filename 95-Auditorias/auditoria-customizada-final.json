@@ -1,0 +1,39 @@
+{
+  "ferramenta": "auditoria-customizada-v1.0",
+  "data": "2026-06-17",
+  "escopo": "/mnt/data/kevyn_work/build/Kevyn-Lucas-Autoconhecimento",
+  "metricas": {
+    "arquivos_totais": 285,
+    "markdown": 252,
+    "bases": 5,
+    "canvas": 4,
+    "json": 8,
+    "bloqueantes": 0
+  },
+  "preservacao": {
+    "zip_sha256": "ffe8424369aad0631c85ab306e87b18bfd18ad49ba85fcec87c1900ce8f9ea10",
+    "zip_corresponde_entrada": true,
+    "briefing_sha256": "f5ed55da1ce801711a9c2da98bfffed154b1785e393b8befa1cb34a76d363cf5",
+    "briefing_corresponde_entrada": true
+  },
+  "achados": {
+    "frontmatter_ausente": [],
+    "yaml_ou_utf8_invalido": [],
+    "campos_obrigatorios_ausentes": [],
+    "valores_fora_vocabulario": [],
+    "ids_duplicados": [],
+    "json_invalidos": [],
+    "bases_invalidas": [],
+    "arquivos_vazios": [],
+    "nomes_corrompidos": [],
+    "links_cabecalho_invalidos": [],
+    "links_bloco_invalidos": [],
+    "consultas_com_pasta_inexistente": []
+  },
+  "aprovado": true,
+  "limitacoes": [
+    "Auditoria estática; não abre o aplicativo Obsidian.",
+    "Não executa Dataview ou Kanban.",
+    "Valida sintaxe de Bases e referências, não a renderização da interface."
+  ]
+}

@@ -1,0 +1,3 @@
+**Cloth:** Faz com que o modelo (Geralmente um Plane) se comporte como um tecido. Para que isso fique bom é necessário muitos segmentos e um ótimo hardware. É recomendável que o plane esteja editável também (Atalho C).
+	Tem como fixar pontos do modelo que não serão afetados pela Simulate Tag Cloth, atráves do menu "Dresser" nas propriedades da tag. Selecione os pontos a serem fixados e clique em set na coluna "Fix Points".
+**Collider:** Este collider serve para fazer com que os modelos com simulate tags interajam entre si.

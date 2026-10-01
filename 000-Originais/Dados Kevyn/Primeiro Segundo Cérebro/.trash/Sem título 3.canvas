@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"7a4f23b887f1a2be","x":-179,"y":-439,"width":250,"height":60,"type":"text","text":""},
+		{"id":"b7be437130982cbf","x":-143,"y":-182,"width":483,"height":402,"type":"text","text":"# VERMELHO ZONA PRINCIPAL\nONDE O OLHAR DO TELESPECTADOR DESCANSA NATURALMENTE\n# ROSA, ZONA DA LEGENDA\n# ROXO É A ZONA GRÁFICA\nPARA ADICIONAR ELEMENTOS GRÁFICOS, PARA DAR DESTAQUE AO ELEMENTO GRÁFICO LEVE PARA A ZONA PRINCIPAL"}
+	],
+	"edges":[]
+}

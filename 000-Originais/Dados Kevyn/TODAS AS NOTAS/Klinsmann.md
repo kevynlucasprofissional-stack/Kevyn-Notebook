@@ -1,0 +1,1 @@
+Que é possível renderizar, no after, usando o software, e não apenas o Hardware. Ao usar o Software, é possível definir uma quantidade mínima e máxima para o Bitrate.

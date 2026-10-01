@@ -1,0 +1,1 @@
+Faz com que um valor matemático fique arredondado, sem casas decimais.

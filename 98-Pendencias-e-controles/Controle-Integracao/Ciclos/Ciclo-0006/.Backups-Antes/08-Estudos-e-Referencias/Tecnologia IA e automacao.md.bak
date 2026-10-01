@@ -1,0 +1,46 @@
+---
+id: tecnologia-ia-e-automacao
+titulo: Tecnologia, IA e automação
+tipo: area_estudo
+status: auditado
+profundidade: avancada
+versao_schema: '1.0'
+versao_conteudo: '1.0'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+fontes_primarias:
+- '[[Fonte - Visao geral consolidada]]'
+- '[[Fonte - Contexto completo]]'
+grau_confianca: medio
+sensibilidade: alta
+camada_evidencia: sintese_derivada
+tags:
+- tipo/area_estudo
+- tema/estudos
+- privacidade/restrita
+aliases:
+- Tecnologia, IA e automação
+---
+# Tecnologia, IA e automação
+
+## Interesse e aplicação
+
+Tecnologia e IA aparecem tanto como campo de estudo quanto como meio de criar produtos, agentes, automações e sistemas de conhecimento. O material contém projetos e diagramas, mas nem todos têm implementação ou usuários confirmados.
+
+## Eixos
+
+- fundamentos de programação e dados;
+- automação de processos;
+- agentes e modelos generativos;
+- produto e experiência do usuário;
+- segurança, privacidade e avaliação;
+- documentação e manutenção.
+
+## Regra de evidência
+
+Distinguir ideia, protótipo, código executável, produto testado e operação real. Um diagrama não prova funcionamento.
+
+## Relações
+
+[[Inteligencia artificial e automacao]], [[Projeto Neuron]], [[Projeto Cosmo]], [[Formacao em Data Science]] e [[Organizacao do conhecimento]].

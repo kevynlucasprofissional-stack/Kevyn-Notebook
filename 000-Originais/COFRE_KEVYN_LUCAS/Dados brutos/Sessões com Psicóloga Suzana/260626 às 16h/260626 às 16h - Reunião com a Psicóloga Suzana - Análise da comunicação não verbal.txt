@@ -1,0 +1,703 @@
+Source: https://aistudio.google.com/prompts/1jzTAF_HOwWlOcQoJmSunKHyEJK5Ngo-c
+
+[User]
+play_circle
+260626 às 16h - Reunião com a Psicóloga Suzana.mp4
+350.201 tokens
+
+Consegue analisar as expressões faciais da Suzanna? Relacione o discurso, o que a estava sendo dito no momento com as expressões faciais dela e busque relações, possíveis interpretações, possíveis análises.
+
+--------------------
+
+[Model]
+A análise das expressões faciais e da linguagem corporal de Suzanna (a terapeuta, à direita) revela uma postura clínica que combina acolhimento, escuta ativa, confrontação empática e validação. Como o paciente, Kevyn, apresenta um discurso altamente intelectualizado, estruturado e com forte necessidade de controle, as reações não-verbais de Suzanna funcionam como um contraponto regulador, buscando humanizar a sessão e criar um espaço seguro para a vulnerabilidade.
+
+Abaixo, apresentamos uma análise detalhada de suas expressões faciais em relação ao que estava sendo dito nos momentos-chave do vídeo:
+
+1. Acolhimento Inicial e Redução de Tensão (00:00 - 00:30)
+
+O que estava sendo dito: Kevyn inicia dizendo que se sente ansioso ou estressado com aquele momento com ela.
+
+Expressão de Suzanna: Ela mantém um olhar atento, alternando entre olhar para a câmera e abaixar levemente a cabeça em sinal de concordância e validação (00:10). Quando pergunta "O que te deixa ansioso nesse momento?", sua expressão é suave e sem julgamentos.
+
+Interpretação: Ao sorrir calorosamente quando Kevyn diz que pensou muito sobre isso, Suzanna demonstra uma atitude acolhedora. Esse sorriso inicial e o ato de beber água de forma descontraída (00:22) ajudam a quebrar a rigidez e a formalidade que o paciente costuma impor a si mesmo, sinalizando que o ambiente é seguro para expressar fraquezas.
+
+2. Postura Analítica e Escuta Ativa (01:18 - 02:30)
+
+O que estava sendo dito: Kevyn lista rapidamente uma série de demandas complexas (se o autocuidado é controle, por que vê a necessidade de vínculo como inconveniente, histórico de caos/abandono, pensamentos de morte).
+
+Expressão de Suzanna: Suzanna passa a maior parte deste tempo concentrada, de cabeça abaixada, fazendo anotações detalhadas. Ela ocasionalmente levanta os olhos para manter contato visual, demonstrando que, embora esteja registrando as informações, permanece conectada ao paciente.
+
+Interpretação: A postura de cabeça baixa e escrita constante reflete o respeito pela organização do paciente. Kevyn precisa sentir que suas ideias estruturadas estão sendo levadas a sério. Ao interrompê-lo delicadamente em 01:38 com uma expressão facial de concentração (sobrancelhas levemente arqueadas e olhar focado), ela estabelece um limite saudável para conseguir processar o fluxo rápido de informações dele.
+
+3. Inquirição e Desconstrução do Controle (03:04 - 03:30 / 05:21)
+
+O que estava sendo dito: Kevyn corrige um termo e depois explica como funciona sua necessidade de planejar cada detalhe das interações sociais.
+
+Expressão de Suzanna: Suzanna apoia a mão no queixo, com o dedo indicador próximo à boca (03:04 e 05:21). Ela mantém o olhar fixo e focado na câmera, com uma expressão reflexiva e levemente semicerrada.
+
+Interpretação: Este gesto clássico de "mão no queixo" indica avaliação profunda e processamento cognitivo. Ela não está apenas ouvindo as palavras, mas analisando a engrenagem psicológica por trás delas. Sua expressão facial é de curiosidade genuína, o que prepara o terreno para perguntas que desafiam a rigidez do paciente sem parecer uma acusação.
+
+4. Humanização e Confrontação Empática (06:52 - 07:22 / 09:19 - 10:10)
+
+O que estava sendo dito: Suzanna o questiona sobre como ele se sente ao perder o controle, pontuando que na vida não dá para planejar tudo. Mais tarde, ela interpreta que o comportamento dele de culpar o outro pela falta de contexto é uma forma de "mascarar" a própria insegurança de dizer "eu não entendi".
+
+Expressão de Suzanna: Ao confrontar Kevyn, Suzanna usa bastante as mãos para gesticular e mantém um olhar direto, mas com um semblante suave e um tom de voz calmo. Ela sorri levemente ao fazer a interpretação sobre a dificuldade dele em admitir vulnerabilidade (09:50).
+
+Interpretação: A confrontação em terapia pode gerar defesas se for feita de forma rígida. As expressões faciais de Suzanna — especialmente os sorrisos sutis e o olhar caloroso ao falar de "insegurança" ou "fraqueza" — servem para suavizar o impacto da interpretação. Ela demonstra ao paciente que enxerga sua vulnerabilidade, mas que não há perigo ou vergonha nisso.
+
+5. Desmistificação do "Certo e Errado" (11:17 - 12:09)
+
+O que estava sendo dito: Suzanna reforça que na terapia não existe "certo ou errado" e que o espaço é espontâneo.
+
+Expressão de Suzanna: Sua expressão se abre completamente. Ela sorri de forma mais evidente, relaxa os ombros e gesticula de maneira aberta e receptiva.
+
+Interpretação: Essa mudança expressiva é crucial. Kevyn tem uma tendência à performance (querer ser o "melhor paciente", trazer o "melhor método"). Suzanna usa sua expressão facial relaxada para modelar a espontaneidade que está cobrando dele, tentando desarmar o mecanismo de defesa intelectual do paciente.
+
+6. Validação e Espanto Saudável (31:13 - 32:20)
+
+O que estava sendo dito: Kevyn compartilha a tela e mostra seu mapeamento pessoal em HTML altamente detalhado (sua "Wikipedia pessoal").
+
+Expressão de Suzanna: Ela arregala levemente os olhos, abre um sorriso de surpresa e admiração, e apoia o rosto na mão enquanto examina o gráfico na tela.
+
+Interpretação: Suzanna reage com uma admiração genuína e saudável. Ela valida o esforço intelectual extraordinário do paciente, reconhecendo o valor do que ele produziu ("Muito bom..."). No entanto, ao manter o sorriso reflexivo, ela também se prepara para ajudá-lo a canalizar essa ferramenta de forma prática (discutindo carreiras ou criação de conteúdo), evitando que o mapa se torne apenas mais um labirinto de auto-análise infinita.
+
+7. Encerramento e Conexão (35:01 - fim)
+
+O que estava sendo dito: O encerramento da sessão e a definição da próxima data.
+
+Expressão de Suzanna: Ela exibe um sorriso largo, acena de forma amigável e demonstra um semblante visivelmente satisfeito com o andamento da sessão.
+
+Interpretação: Suzanna encerra a sessão transmitindo uma sensação de dever cumprido e parceria. Sua expressão amigável reforça o vínculo terapêutico, deixando uma impressão positiva e acolhedora para o paciente levar consigo durante a semana.
+
+--------------------
+
+[User]
+Consegue analisar as expressões faciais do Kevyn? Relacione o discurso, o que a estava sendo dito no momento com as expressões faciais dele e busque relações, possíveis interpretações, possíveis análises. Embase isso com pesquisas no google sobre as melhores práticas de análise de expressões faciais.
+
+--------------------
+
+[Model]
+Para realizar uma análise técnica das expressões faciais e do comportamento não-verbal de Kevyn, é fundamental fundamentar a observação nas melhores práticas metodológicas da psicologia clínica e das ciências comportamentais[1][2].
+
+De acordo com as pesquisas contemporâneas e os modelos consolidados por cientistas como Paul Ekman, Wallace Friesen (FACS - Facial Action Coding System) e David Matsumoto, a análise de expressões faciais na clínica não deve ser feita de forma isolada ou mecânica (evitando abordagens pseudocientíficas de "adivinhação")[1][3]. Em vez disso, a literatura científica recomenda focar em três pilares metodológicos[4]:
+
+Calibração/Linha de base (Baseline): Identificar o padrão habitual de expressão e gestos do indivíduo em momentos neutros[4][5].
+
+Congruência vs. Incongruência: Avaliar se o canal verbal (o que é dito) está alinhado com os canais não-verbais (expressões rápidas, microexpressões e linguagem corporal)[4][6].
+
+Gestos Pacificadores/Adaptadores: Observar toques no próprio corpo ou rosto como formas inconscientes de autorregulação e alívio de estresse ou sobrecarga cognitiva[1][7].
+
+Análise do Comportamento Não-Verbal de Kevyn
+Padrão 1: O "Sorriso de Máscara" e a Racionalização (Linha de base)
+
+O que é dito: Kevyn inicia a sessão (00:00 - 00:20) afirmando estar ansioso ou estressado.
+
+Expressão e Gestos: Ele apresenta um sorriso social tênue (contração do músculo zigomático maior - AU 12, mas sem o envolvimento da musculatura orbicular dos olhos - AU 6, característica do sorriso genuíno de Duchenne)[6]. Simultaneamente, ele ajusta repetidamente os óculos e o fone de ouvido.
+
+Análise e Interpretação: Clinicamente, esse sorriso atua como um mecanismo de defesa de intelectualização e isolamento do afeto[8]. Ao sorrir enquanto relata ansiedade, há uma incongruência controlada[4]. Kevyn usa o sorriso e o ajuste de adereços (óculos/fones) como barreira inconsciente para manter a postura de "controle" perante a terapeuta[7].
+
+Padrão 2: Gestos Pacificadores sob Sobrecarga Cognitiva (01:18 - 02:30 / 05:58 / 07:23)
+
+O que é dito: Kevyn lista de forma rápida, metódica e densa suas seis perguntas existenciais, e depois explica como funciona sua obsessão em planejar interações sociais.
+
+Expressão e Gestos: Enquanto fala, seu olhar desvia para o lado e para baixo (processamento cognitivo interno). Ele apoia a mão no queixo (01:18), esfrega levemente o nariz, coça a têmpora de forma insistente (05:58) e passa a mão no rosto ao falar que teme parecer tolo (07:23).
+
+Análise e Interpretação: De acordo com estudos de etologia humana e psicologia clínica, toques na face, nariz e cabeça (gestos adaptadores) são fortes indicadores de alta carga cognitiva e ativação do sistema nervoso autônomo devido ao estresse[7][9]. O ato de racionalizar intensamente sua vida gera uma tensão que o corpo tenta "vazar" e pacificar através desses micro-toques de autorregulação[9].
+
+Padrão 3: Bloqueio Visual e Escudo Emocional (15:01 / 19:42 / 22:22)
+
+O que é dito: Em 15:01, após Suzanna apontar que o controle absoluto não existe; em 19:42, ao listar de forma embaraçada os nomes das ex-namoradas; e em 22:22, ao admitir que sua vida é profundamente solitária.
+
+Expressão e Gestos: Kevyn realiza movimentos nítidos de bloqueio visual. Ele cobre a testa e os olhos com a mão inteira (15:01), esfrega a fronte de forma pesada (19:42) e encobre o rosto inteiramente com a mão ao falar sobre a solidão (22:22), acompanhado de um suspiro profundo.
+
+Análise e Interpretação: Na análise de comportamento não-verbal, cobrir os olhos ou a testa (gesto de barreira visual) indica uma tentativa inconsciente de se proteger da exposição emocional ou do julgamento percebido[1][7]. Nesse momento, as defesas intelectualizadas de Kevyn falham temporariamente; a dor da solidão ou a vergonha do descontrole "vazam"[9]. O gesto de esconder o rosto é uma resposta reflexa de vulnerabilidade e desamparo (tristeza/vergonha)[10].
+
+Padrão 4: Congruência e Expansividade no "Território Seguro" (26:15 - 27:00 / 29:37)
+
+O que é dito: Kevyn explica o debate lógico sobre se a criança que faz uma ponte de palitos é uma arquiteta e, posteriormente, compartilha com visível orgulho seu mapa de autoconhecimento em HTML.
+
+Expressão e Gestos: Sua postura muda radicalmente. Ele sorri de forma mais aberta e genuína (sorriso de Duchenne, com elevação das bochechas e rugas nos cantos dos olhos)[10]. Suas mãos começam a fazer gestos ilustradores fluidos no ar (simulando a ponte) em vez de gestos pacificadores (de auto-toque)[7].
+
+Análise e Interpretação: Aqui observamos uma congruência perfeita[4]. O campo da lógica, do debate intelectual e da estruturação técnica (HTML) é o "território seguro" de Kevyn. Ao entrar nesse modo, a ansiedade diminui drasticamente, permitindo que sua expressão de entusiasmo e competência se manifeste de forma natural e expansiva, sem a necessidade de autopacificação[7].
+
+Considerações e Interpretação Clínica
+
+A análise integrada do comportamento de Kevyn sugere um funcionamento psicológico altamente estruturado em torno da defesa obsessiva de controle[1][2]. Quando o diálogo permanece no campo das ideias e das técnicas, seu corpo flui de forma livre e entusiasmada[7]. Porém, quando a terapeuta toca em suas dores emocionais (como a solidão ou a falta de controle), ele ativa imediatamente micro-sinalizadores de estresse e bloqueios corporais para evitar o colapso de sua autoimagem controlada[1][7].
+
+Essas observações servem como excelentes hipóteses de trabalho para a terapeuta, permitindo que ela identifique quando o paciente está racionalizando para fugir do sentimento (congruência controlada) e quando ele está tocando em dores genuínas (leakage/vazamento não-verbal)[4][9].
+
+--------------------
+
+[User]
+Faça uma descrição da comunicação não verbal e das expressões faciais do Kevyn e da Suzana, quero que seja factual, sem análise, sem interpretação, sem subjetividade, puramente factual e objetiva
+
+--------------------
+
+[Model]
+Abaixo está a descrição puramente factual e objetiva dos comportamentos não-verbais e das expressões faciais observadas em Kevyn e Suzanna ao longo do vídeo:
+
+Kevyn (à esquerda)
+
+Direcionamento do olhar e postura:
+
+Mantém a cabeça voltada para a câmera, direcionando o olhar para a tela.
+
+Realiza desvios frequentes do olhar (para as laterais, para cima e para baixo) durante suas falas.
+
+Expressões faciais:
+
+Apresenta movimentos de elevação das sobrancelhas.
+
+Altera entre expressões faciais neutras (lábios relaxados) e sorrisos com os lábios fechados.
+
+Movimentos das mãos e toques no rosto/cabeça:
+
+Óculos e fones: Ajusta os óculos na ponte do nariz utilizando a mão direita (como em 00:00, 00:59, 13:36, 13:39). Toca ou ajusta o fone de ouvido direito com a mão direita (como em 00:15, 00:20, 11:53, 13:57).
+
+Região da boca e queixo: Apoia os dedos, a palma da mão ou esfrega a região do queixo e dos lábios (como em 01:00, 01:21, 02:45, 03:08, 04:50, 08:24, 10:33, 12:47).
+
+Testa e olhos: Toca ou esfrega a testa com a ponta dos dedos ou com a mão inteira (como em 03:10, 15:01, 19:42, 22:22, 28:55). Em 15:01 e 22:22, cobre os olhos com a mão direita por alguns segundos.
+
+Lateral da cabeça: Coça ou esfrega os dedos na lateral da cabeça ou na têmpora (como em 05:58, 10:27, 22:23).
+
+Gesticulação:
+
+Realiza movimentos com ambas as mãos em frente à câmera para ilustrar suas falas, como mover as mãos para simular níveis ou fazer movimentos circulares/articulados (como em 05:48 e 26:30).
+
+Interação com a tela:
+
+Compartilha a tela do seu computador a partir de 21:05, exibindo um arquivo que contém textos, colunas e gráficos circulares com nós interconectados.
+
+Suzanna (à direita)
+
+Direcionamento do olhar e postura:
+
+Alterna o olhar entre a tela/câmera e a superfície da mesa à sua frente.
+
+Realiza movimentos verticais repetitivos com a cabeça (acenando positivamente) enquanto Kevyn fala.
+
+Expressões faciais:
+
+Apresenta sorrisos com os lábios fechados e sorrisos mostrando os dentes.
+
+Realiza elevação de sobrancelhas e abertura das pálpebras (olhar arregalado).
+
+Anotações:
+
+Segura uma caneta com a mão direita e inclina a cabeça para baixo, realizando movimentos de escrita sobre a mesa durante vários intervalos (como em 00:00-00:10, 00:30-00:44, 01:19-01:38, 01:43-02:04, 02:12-02:47, 03:08-03:29).
+
+Movimentos das mãos e toques no rosto/cabeça:
+
+Apoio no rosto: Apoia a mão direita no queixo, bochecha ou lábios, frequentemente mantendo o dedo indicador estendido próximo ao lábio superior ou à bochecha (como em 00:17, 00:30, 01:13, 03:06, 04:56, 05:24, 06:06, 06:43, 08:12, 10:01, 11:19, 12:35, 13:49, 14:45, 18:03, 19:18, 21:20).
+
+Região dos olhos: Esfrega os olhos, a sobrancelha ou a pálpebra com a ponta dos dedos (como em 17:59-18:02, 18:19-18:21, 22:28).
+
+Cabelo e nuca: Toca, ajusta ou passa a mão no cabelo e na região da nuca (como em 07:20-07:22, 22:31).
+
+Lábios: Leva os dedos à boca ou morde as unhas em alguns momentos (como em 06:47).
+
+Uso de objetos:
+
+Bebe de uma garrafa térmica cilíndrica de cor branca com tampa preta em dois momentos (00:22 e 17:41).
+
+--------------------
+
+[User]
+Agora relacione essa descrição factual da comunicação não verbal com o assunto que estava sendo discutido em cada momento identificado
+
+--------------------
+
+[Model]
+Abaixo, os gestos e comportamentos não-verbais descritos anteriormente são associados diretamente aos temas e diálogos que ocorriam em cada momento do vídeo:
+
+00:00 - 00:30 | Início da sessão e relato de ansiedade
+
+Comunicação não-verbal: Kevyn sorri com os lábios fechados, ajusta os óculos com a mão direita e toca no fone de ouvido direito. Suzanna inicia escrevendo com a caneta (olhando para baixo), depois olha para Kevyn, apoia a mão no queixo (00:17) e bebe água de sua garrafa (00:22).
+
+Assunto discutido: Kevyn relata que se sente ansioso ou estressado com o início da sessão. Suzanna pergunta o que o deixa ansioso naquele momento, e ele responde que não sabe ao certo, mas que pensou muito sobre o assunto antes de entrar na chamada.
+
+00:59 - 01:38 | Organização das perguntas e o "autocuidado"
+
+Comunicação não-verbal: Kevyn ajusta os óculos e toca no queixo (00:59). Em seguida, ele apoia a mão direita no queixo, desvia o olhar para as laterais e para baixo (01:18). Suzanna mantém a cabeça inclinada para baixo, anotando continuamente com a caneta.
+
+Assunto discutido: Kevyn propõe ler as perguntas que preparou para a sessão. Ele começa a ler sua lista de dúvidas: primeiro, expressa o receio de que a terapia se transforme em uma "análise infinita" (01:18) e, em seguida, questiona se sua busca por autocuidado decorre de um desejo real de cuidar de si ou de uma necessidade de controle (01:21 - 01:31).
+
+01:43 - 02:04 | A necessidade de vínculo
+
+Comunicação não-verbal: Suzanna continua olhando para baixo e fazendo anotações com a caneta. Kevyn fala direcionando o olhar para a câmera, sem tocar no rosto neste trecho.
+
+Assunto discutido: Kevyn apresenta sua próxima questão, relatando que, às vezes, enxerga sua própria necessidade de estabelecer vínculos afetivos quase como um "inconveniente" ou uma fraqueza.
+
+02:45 | Reflexões sobre a morte
+
+Comunicação não-verbal: Kevyn toca a região da boca e do queixo com a mão direita. Suzanna continua anotando na mesa.
+
+Assunto discutido: Kevyn menciona que gostaria de retomar o assunto sobre seus pensamentos de morte, pois sentiu que o tema foi abordado de forma muito superficial ou "vaga" na sessão anterior.
+
+03:06 - 03:10 | Esclarecimento sobre o tema sensível
+
+Comunicação não-verbal: Suzanna para de escrever, olha diretamente para Kevyn e apoia a mão no queixo (03:06). Kevyn esfrega a testa com os dedos da mão direita (03:10).
+
+Assunto discutido: Suzanna pede para ele esclarecer se, na última sessão, o assunto sobre a morte havia ficado "muito aprofundado" ou "muito vago". Kevyn confirma que o sentimento foi de que o tema ficou vago e que gostaria de detalhá-lo melhor.
+
+04:50 - 05:24 | O conceito de controle pessoal
+
+Comunicação não-verbal: Kevyn toca o pescoço e a boca (04:50). Suzanna apoia a mão na bochecha/queixo (04:56 e 05:24) enquanto o observa.
+
+Assunto discutido: Kevyn explica que concorda que existem regras sociais que ele internalizou, mas reforça que identifica em si mesmo uma necessidade muito forte de controlar as situações ao seu redor. Suzanna pergunta o que seria esse "controle das coisas", pedindo um exemplo prático.
+
+05:58 - 06:47 | Planejamento de interações e revisão
+
+Comunicação não-verbal: Kevyn coça a têmpora/lateral da cabeça (05:58). Suzanna mantém a mão apoiada no queixo/bochecha (06:06 e 06:43) e morde levemente as unhas (06:47).
+
+Assunto discutido: Kevyn exemplifica sua necessidade de controle relatando que, em interações sociais importantes, ele planeja cada momento com antecedência para evitar incertezas, ensaia mentalmente o que vai falar (05:58) e, depois do encontro, fica revisando se utilizou as palavras corretas (06:06). Ele conclui dizendo que gerencia excessivamente suas relações (06:47).
+
+07:23 - 08:31 | Perda de controle e as "tolices"
+
+Comunicação não-verbal: Kevyn esfrega o nariz, o rosto e desvia o olhar para baixo (07:23). Suzanna ajusta o cabelo com as mãos (07:20 - 07:22) e depois apoia novamente o dedo no queixo/lábio (08:12). Kevyn volta a tocar no queixo (08:24).
+
+Assunto discutido: Kevyn responde à pergunta de Suzanna sobre como se sente ao perder o controle. Ele explica que, na ausência de controle, costuma falar "tolices" (assuntos fora de hora ou com palavras inadequadas ao seu real sentimento, como acusar os outros em vez de admitir que não entendeu), o que lhe causa angústia por não querer parecer tolo (08:24).
+
+10:01 - 10:33 | O dilema entre confusão e autoproteção
+
+Comunicação não-verbal: Suzanna apoia a mão no queixo (10:01). Kevyn coça a lateral da cabeça (10:27) e toca a boca/queixo (10:33).
+
+Assunto discutido: Suzanna questiona se essa atitude de culpar o outro em vez de dizer "não entendi" é uma dificuldade de admitir a emoção ou um hábito de defesa. Kevyn expõe suas duas hipóteses: que pode ser apenas confusão mental no momento do diálogo (10:27) ou uma tentativa de se proteger para não enxergar sua parcela de culpa/responsabilidade na situação (10:33).
+
+11:19 - 13:00 | Espaço livre de julgamentos na terapia
+
+Comunicação não-verbal: Suzanna gesticula de forma aberta e apoia a mão no queixo (11:19 e 12:35). Kevyn toca e ajusta o fone de ouvido direito (11:53) e, depois, toca na boca e no queixo enquanto acena com a cabeça (12:47).
+
+Assunto discutido: Suzanna esclarece que na terapia não existe "certo ou errado" e que o espaço é livre para que ele seja espontâneo. Kevyn ouve a explicação (11:53) e responde que se reconhece nessa descrição, concordando que o espaço deve servir para olhar para suas inseguranças (12:47).
+
+13:32 - 13:57 | O incômodo com a comunicação ineficaz
+
+Comunicação não-verbal: Kevyn toca o queixo (13:32), ajusta os óculos duas vezes (13:36 e 13:39) e toca no fone (13:57). Suzanna mantém a mão apoiada na bochecha (13:49).
+
+Assunto discutido: Kevyn expressa que deseja mudar esses padrões de comportamento porque se sente incomodado ao perceber que não consegue se comunicar de forma clara e calma com as outras pessoas.
+
+14:20 | A revelação sobre a ilusão do controle
+
+Comunicação não-verbal: Kevyn arregala levemente os olhos e esboça uma expressão de surpresa. Suzanna sorri e move as mãos de forma articulada.
+
+Assunto discutido: Suzanna afirma que "o controle absoluto, na verdade, não existe". Kevyn reage surpreso perguntando: "O controle não existe?". Suzanna sorri e explica que o controle não existe a 100% ou de forma total na vida cotidiana.
+
+15:01 | Momento de pausa e silêncio
+
+Comunicação não-verbal: Kevyn apoia o braço na mesa e cobre a testa e os olhos inteiramente com a palma da mão direita, permanecendo em silêncio por alguns segundos.
+
+Assunto discutido: Suzanna pergunta se ele gostaria de falar mais alguma coisa sobre a questão do autocuidado versus desejo de controle, ou se podem seguir adiante. Após a pausa silenciosa com a mão no rosto, Kevyn responde: "Não, acho que a gente pode seguir".
+
+15:24 - 17:41 | O "projeto de vida" e a inconveniência das conexões
+
+Comunicação não-verbal: Kevyn fala mantendo o olhar na tela. Suzanna o observa diretamente, acenando positivamente com a cabeça. Em 17:41, ela pega e bebe água de sua garrafa branca.
+
+Assunto discutido: Kevyn detalha o que quis dizer com a "necessidade de vínculo como inconveniente". Ele explica que vê a si mesmo como o seu "projeto mais difícil", que exige todo o seu tempo e dedicação. Por isso, quando está focado no trabalho ou estudos e sente falta de afeto ou solidão, vê esse sentimento de carência como um "inconveniente" que atrapalha seu foco.
+
+17:59 - 18:22 | A busca por entender a "inconveniência"
+
+Comunicação não-verbal: Suzanna esfrega a região dos olhos/sobrancelhas (17:59) e apoia o dedo no queixo (18:03). Em seguida, repete o movimento de esfregar o olho (18:19) e volta a apoiar a mão no queixo (18:22).
+
+Assunto discutido: Suzanna resume o que compreendeu do discurso dele: que ele passa muito tempo focado em si, em sua carreira, estudos e finanças. Ela pergunta em que ponto exatamente o afeto ou o vínculo se torna incômodo (18:03). Kevyn responde (18:19) que o sentimento de saudade ou carência tira a atenção dele das tarefas que precisa realizar no momento.
+
+19:18 - 20:34 | Histórico de relacionamentos e apego ansioso
+
+Comunicação não-verbal: Suzanna apoia a mão no queixo (19:18). Kevyn esfrega a sobrancelha e a testa com a mão direita (19:42). Suzanna mantém a mão no queixo enquanto ouve (20:00).
+
+Assunto discutido: Suzanna questiona se essa saudade está relacionada às pessoas por quem ele já se apaixonou. Kevyn confirma e começa a listar os nomes de suas ex-parceiras (Natalie, Rafaela, Letícia, Mariana, Yasmin), admitindo que esses pensamentos românticos ocupam mais espaço em sua mente do que ele considera saudável (apego ansioso).
+
+21:20 - 22:31 | Isolamento social cotidiano
+
+Comunicação não-verbal: Suzanna apoia o dedo no queixo (21:20). Kevyn cobre os olhos e o rosto com a mão direita (22:22), coça a têmpora (22:23) e suspira. Suzanna esfrega o olho (22:28) e arruma o cabelo (22:31).
+
+Assunto discutido: Kevyn detalha onde conheceu cada uma das mulheres citadas. Na sequência (22:20), ele descreve sua rotina atual como extremamente isolada, limitando-se ao trajeto casa-trabalho, sem receber visitas ou sair para interagir socialmente.
+
+26:30 | O debate lógico (Ponte de palitos)
+
+Comunicação não-verbal: Kevyn move ativamente ambas as mãos em frente à câmera, simulando a construção de uma estrutura ou ponte. Seu semblante é sorridente e dinâmico.
+
+Assunto discutido: Kevyn conta sobre uma discussão filosófica de que participou no grupo da "Nova Acrópole", debatendo se uma criança que monta uma ponte de palitos de dente poderia ser classificada como uma arquiteta profissional.
+
+28:55 | Aceitação de respostas incompletas
+
+Comunicação não-verbal: Kevyn toca a testa e o cabelo com a mão direita.
+
+Assunto discutido: Suzanna explica que ele deve aprender a aceitar o fato de que nem sempre terá todas as respostas sob controle nas interações sociais. Kevyn concorda e reflete que, naquele debate da ponte de palitos, ele deveria apenas ter ficado em silêncio e focado em "estar presente" no ambiente.
+
+29:37 - fim | Apresentação do HTML e encerramento
+
+Comunicação não-verbal: Kevyn compartilha a tela do computador, sorri de forma aberta e ajusta os óculos. Suzanna apoia o rosto na mão e sorri de forma ampla enquanto olha para a tela compartilhada. No encerramento (35:01), ambos sorriem e acenam com as mãos para a câmera antes de desligar.
+
+Assunto discutido: Kevyn exibe e explica a estrutura de seu documento pessoal em HTML, onde esquematizou sistematicamente suas anotações de vida, sessões de terapia e histórico de comportamento. Suzanna elogia a organização e complexidade do mapa. Eles conversam sobre a possibilidade de transformar esse método em um produto ou aplicativo no futuro e agendam a próxima consulta antes de se despedirem.
+
+--------------------
+
+Você vai analisar um vídeo de uma sessão/reunião terapêutica entre Kevyn e a
+psicóloga Suzana, ocorrida no dia 12.
+
+Seu objetivo é produzir uma análise profunda, metódica e responsável da
+comunicação não verbal, relacionando expressões faciais, olhar, postura, gestos,
+pausas, tom de voz e dinâmica relacional com o conteúdo verbal discutido no
+momento.
+
+Antes de começar, siga estas regras obrigatórias:
+
+1.  Não faça leitura de mente.
+
+2.  Não trate expressões faciais como prova direta de emoção, intenção ou
+    verdade.
+
+3.  Não diagnostique Kevyn nem Suzana.
+
+4.  Não use termos como “certeza”, “prova”, “evidentemente sente” ou “isso
+    significa que” quando estiver interpretando comunicação não verbal.
+
+5.  Sempre diferencie:
+
+      - fato observável;
+      - contexto verbal;
+      - hipótese interpretativa;
+      - hipótese alternativa;
+      - grau de confiança.
+
+6.  Não use FACS de forma falsa ou superficial. Só mencione FACS ou Action Units
+    se conseguir descrever claramente o movimento facial observado. Caso
+    contrário, use linguagem comum e factual.
+
+7.  Não transforme gestos isolados em grandes conclusões. Só dê peso analítico a
+    sinais que sejam:
+
+      - repetidos;
+      - ligados a uma mudança de tema;
+      - contrastantes com o comportamento habitual da pessoa;
+      - temporalmente conectados ao discurso;
+      - ou relevantes para a dinâmica terapêutica.
+
+8.  Se houver incerteza por baixa qualidade do vídeo, ângulo, iluminação, delay,
+    corte, áudio ruim ou tela compartilhada, diga explicitamente.
+
+9.  A análise deve servir como material de reflexão para terapia, não como
+    substituto da terapia.
+
+Se você tiver acesso à web, pesquise rapidamente boas práticas de análise de
+comunicação não verbal, expressões faciais e comunicação não verbal em
+psicoterapia. Use fontes confiáveis e cite-as de forma breve. Considere
+especialmente estes princípios:
+
+  - comunicação não verbal deve ser analisada em contexto;
+  - expressões faciais não devem ser interpretadas isoladamente;
+  - é necessário estabelecer uma linha de base de cada pessoa;
+  - é importante observar congruência e incongruência entre fala, corpo e tom;
+  - hipóteses devem ser apresentadas com cautela;
+  - em terapia, a dinâmica entre paciente e terapeuta é tão importante quanto os
+    sinais individuais.
+
+Analise o vídeo em camadas.
+
+CAMADA 1 — Metodologia e limites
+
+Comece explicando como você fará a análise. Diga quais canais serão observados:
+
+  - expressão facial;
+  - direção do olhar;
+  - movimentos de cabeça;
+  - postura;
+  - gestos das mãos;
+  - auto-toques/adaptadores;
+  - pausas e silêncios;
+  - respiração, suspiros ou risadas, se audíveis;
+  - tom, ritmo e volume da fala;
+  - sincronia, espelhamento ou desencontro entre Kevyn e Suzana;
+  - mudanças na dinâmica da conversa.
+
+Também explique os limites da análise:
+
+  - não é diagnóstico;
+  - não é leitura definitiva de emoções;
+  - não prova intenção;
+  - depende da qualidade do vídeo;
+  - deve ser usada como hipótese de reflexão.
+
+CAMADA 2 — Linha de base de Kevyn e Suzana
+
+Antes de interpretar momentos específicos, identifique o comportamento habitual
+de cada pessoa nos trechos mais neutros do vídeo.
+
+Para Kevyn, descreva:
+
+  - postura habitual;
+  - padrão de olhar;
+  - frequência de tocar no rosto, óculos, cabelo, fone ou corpo;
+  - padrão de sorriso;
+  - ritmo de fala;
+  - gestos comuns quando explica ideias;
+  - padrão quando está escutando;
+  - padrão quando parece organizar pensamentos.
+
+Para Suzana, descreva:
+
+  - postura habitual;
+  - padrão de olhar para Kevyn, para a câmera, para baixo ou para anotações;
+  - padrão de escuta;
+  - expressões faciais recorrentes;
+  - uso de sorriso;
+  - movimentos de cabeça;
+  - gestos de condução da sessão;
+  - momentos em que anota, pausa, intervém ou acompanha em silêncio.
+
+Não interprete ainda. Apenas descreva a linha de base.
+
+CAMADA 3 — Descrição factual por timestamps
+
+Crie uma linha do tempo com os momentos mais relevantes do vídeo.
+
+Para cada momento, use esta estrutura:
+
+Timestamp: Exemplo: 00:00–00:45
+
+Tema verbal discutido: Descreva objetivamente o assunto falado no momento.
+
+Fala ou resumo do que foi dito: Inclua uma frase curta ou paráfrase fiel.
+
+Comunicação não verbal de Kevyn: Descreva apenas o que é visível ou audível:
+
+  - expressão facial;
+  - olhar;
+  - postura;
+  - mãos;
+  - auto-toques;
+  - pausas;
+  - alterações de voz;
+  - risos;
+  - silêncio;
+  - movimentos de aproximação ou afastamento.
+
+Comunicação não verbal de Suzana: Descreva apenas o que é visível ou audível:
+
+  - expressão facial;
+  - olhar;
+  - postura;
+  - anotações;
+  - movimentos de cabeça;
+  - gestos;
+  - sorriso;
+  - pausas;
+  - alterações de voz;
+  - condução da interação.
+
+Dinâmica entre os dois: Observe se há:
+
+  - sincronia;
+  - interrupção;
+  - pausa compartilhada;
+  - acolhimento;
+  - tensão;
+  - mudança de ritmo;
+  - espelhamento;
+  - assimetria;
+  - reparo;
+  - aprofundamento;
+  - mudança de tema.
+
+CAMADA 4 — Relação entre não verbal e conteúdo verbal
+
+Depois da descrição factual, relacione cada momento ao conteúdo discutido.
+
+Para cada momento, responda:
+
+1.  O comportamento não verbal parece congruente ou incongruente com o que
+    estava sendo dito?
+2.  Houve mudança corporal quando o tema mudou?
+3.  Algum gesto apareceu em momentos de maior exposição emocional?
+4.  Algum gesto apareceu quando Kevyn estava tentando explicar, controlar,
+    justificar ou organizar algo?
+5.  Algum gesto de Suzana pareceu marcar acolhimento, espera, limite,
+    curiosidade, dúvida, surpresa ou condução clínica?
+6.  O que mudou na interação depois desse momento?
+
+Sempre formule em linguagem cautelosa:
+
+  - “pode sugerir”;
+  - “uma hipótese possível é”;
+  - “também pode ser apenas”;
+  - “não é possível concluir, mas chama atenção que”;
+  - “vale levar como pergunta para a terapia”.
+
+CAMADA 5 — Padrões repetidos de Kevyn
+
+Identifique padrões recorrentes na comunicação não verbal de Kevyn.
+
+Organize por temas, por exemplo:
+
+1.  Quando fala de controle.
+2.  Quando fala de vulnerabilidade.
+3.  Quando fala de vínculo, afeto ou solidão.
+4.  Quando fala de morte, medo, vazio ou angústia.
+5.  Quando fala de projetos, método, inteligência, mapas, sistemas ou
+    autoconhecimento.
+6.  Quando recebe uma intervenção de Suzana.
+7.  Quando concorda, discorda ou fica em silêncio.
+8.  Quando tenta explicar algo com precisão.
+9.  Quando parece se proteger, ganhar tempo ou reorganizar pensamento.
+10. Quando parece mais espontâneo ou vivo.
+
+Para cada padrão, traga:
+
+  - evidências com timestamps;
+  - descrição factual;
+  - hipótese principal;
+  - hipótese alternativa;
+  - grau de confiança: baixo, médio ou alto;
+  - pergunta terapêutica que esse padrão pode gerar.
+
+CAMADA 6 — Padrões repetidos de Suzana
+
+Identifique padrões recorrentes na comunicação não verbal de Suzana.
+
+Observe especialmente:
+
+1.  Como ela escuta Kevyn.
+2.  Quando ela anota.
+3.  Quando ela sorri.
+4.  Quando ela fica séria.
+5.  Quando ela apoia o rosto, toca o cabelo, olha para baixo ou faz pausas.
+6.  Quando ela intervém com perguntas.
+7.  Quando ela confronta de forma suave.
+8.  Quando ela valida.
+9.  Quando ela parece esperar Kevyn elaborar.
+10. Quando ela muda o ritmo da sessão.
+
+Para cada padrão, traga:
+
+  - evidências com timestamps;
+  - descrição factual;
+  - possível função clínica;
+  - hipótese alternativa;
+  - grau de confiança;
+  - efeito provável na dinâmica da sessão.
+
+CAMADA 7 — Análise da díade Kevyn–Suzana
+
+Agora analise a relação entre os dois, não apenas cada pessoa isoladamente.
+
+Observe:
+
+1.  Momentos em que Suzana regula o ritmo de Kevyn.
+2.  Momentos em que Kevyn acelera, intelectualiza ou tenta organizar demais.
+3.  Momentos em que Suzana desacelera, pontua ou devolve algo.
+4.  Momentos de maior conexão.
+5.  Momentos de possível desconforto.
+6.  Momentos de silêncio importante.
+7.  Momentos em que Kevyn parece sair da explicação e entrar mais em contato com
+    afeto.
+8.  Momentos em que Suzana parece funcionar como holding, limite, espelho ou
+    contraponto.
+9.  Momentos em que a terapia parece ficar mais viva, menos performática ou mais
+    espontânea.
+10. Momentos em que Kevyn parece buscar aprovação, validação ou segurança.
+
+Atenção: não trate isso como certeza. Trabalhe com hipóteses.
+
+CAMADA 8 — Momentos de maior valor terapêutico
+
+Selecione os 10 momentos mais importantes do vídeo do ponto de vista
+terapêutico.
+
+Para cada um, informe:
+
+  - timestamp;
+  - o que estava sendo dito;
+  - o que Kevyn fez não verbalmente;
+  - o que Suzana fez não verbalmente;
+  - por que esse momento é relevante;
+  - que hipótese ele levanta;
+  - que pergunta Kevyn poderia levar para Suzana;
+  - se é um momento de vulnerabilidade, defesa, insight, vínculo, resistência,
+    elaboração ou mudança de estado.
+
+CAMADA 9 — Hipóteses centrais
+
+Ao final, formule de 5 a 8 hipóteses centrais sobre a comunicação não verbal da
+sessão.
+
+Cada hipótese deve seguir este formato:
+
+Hipótese: Escreva em uma frase.
+
+Evidências: Liste os timestamps que sustentam.
+
+O que essa hipótese NÃO prova: Diga claramente o limite.
+
+Hipótese alternativa: Ofereça outra explicação possível.
+
+Utilidade terapêutica: Explique como Kevyn pode usar isso na próxima sessão sem
+transformar a análise em controle excessivo.
+
+CAMADA 10 — Perguntas para Kevyn levar à Suzana
+
+Crie uma lista de perguntas úteis, profundas e não acusatórias que Kevyn poderia
+levar para a psicóloga.
+
+As perguntas devem ajudar Kevyn a investigar:
+
+  - o que acontece no corpo quando ele fala de vínculo;
+  - o que acontece quando perde controle;
+  - o que acontece quando tenta ser um “bom paciente”;
+  - como diferenciar reflexão útil de performance terapêutica;
+  - como perceber defesas sem se julgar;
+  - como usar a análise não verbal sem substituir a experiência viva da terapia;
+  - como falar sobre desconforto diretamente com Suzana;
+  - como reconhecer momentos de vulnerabilidade real.
+
+As perguntas devem ser formuladas em primeira pessoa, como se Kevyn fosse dizer
+para Suzana.
+
+CAMADA 11 — Síntese final
+
+Finalize com uma síntese em 4 partes:
+
+1.  O que a comunicação não verbal revela de forma mais consistente.
+2.  O que deve ser tratado apenas como hipótese.
+3.  O que parece ser mais importante para o processo terapêutico.
+4.  Como Kevyn pode usar essa análise sem transformar a terapia em mais um
+    projeto de controle.
+
+Formato obrigatório da resposta:
+
+1. Método e limites da análise
+
+2. Linha de base de Kevyn e Suzana
+
+3. Linha do tempo factual com timestamps
+
+4. Relação entre comunicação não verbal e temas discutidos
+
+5. Padrões recorrentes de Kevyn
+
+6. Padrões recorrentes de Suzana
+
+7. Dinâmica relacional Kevyn–Suzana
+
+8. 10 momentos de maior valor terapêutico
+
+9. Hipóteses centrais
+
+10. Perguntas para levar à Suzana
+
+11. Síntese final
+
+Critérios de qualidade:
+
+  - Seja profundo, mas não invasivo.
+  - Seja clínico, mas não diagnostique.
+  - Seja interpretativo, mas sempre separado dos fatos.
+  - Não force conclusões.
+  - Não procure apenas confirmar uma teoria prévia sobre Kevyn.
+  - Dê atenção tanto aos momentos de defesa quanto aos momentos de abertura.
+  - Valorize silêncios, pausas e mudanças de ritmo.
+  - Use timestamps sempre que possível.
+  - Se o vídeo for longo, priorize os momentos de maior densidade emocional,
+    mudança corporal ou relevância terapêutica.
+  - Se houver transcrição junto com o vídeo, use a transcrição para alinhar fala
+    e comportamento não verbal.

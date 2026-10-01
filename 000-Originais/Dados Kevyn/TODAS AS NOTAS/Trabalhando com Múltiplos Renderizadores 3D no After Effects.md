@@ -1,0 +1,1 @@
+É possível trabalhar com vários renderizadores 3D ao mesmo tempo, visto que os parâmetros personalizados não são apagados quando o renderizador é alterado.

@@ -1,0 +1,1 @@
+É uma opção que torna o modelo semitransparente. É possível ativar esta função nas propriedades básicas de um modelo.

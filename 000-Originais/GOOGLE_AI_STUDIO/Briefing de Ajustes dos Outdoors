@@ -1,0 +1,141 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.6-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_MEDIUM",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveVideo": {
+        "id": "1u3WJKvXRxQpU0No6QUlDvKaUMaVBFV9y"
+      },
+      "role": "user",
+      "tokenCount": 6799,
+      "createTime": "2026-07-30T20:33:54.139Z"
+    }, {
+      "text": "Preciso que você analise o vídeo anexado, que contém uma conversa entre mim e a Vivi, minha gestora, e transforme todas as orientações discutidas em um briefing claro e organizado para a designer.\n\nTambém vou anexar as artes dos quatro outdoors mencionados na conversa. Utilize esses materiais como referência para compreender melhor cada peça, identificar os ajustes solicitados e separar as orientações de acordo com cada outdoor.\n\nO objetivo é criar um documento completo e fácil de entender, para que a designer saiba exatamente quais alterações devem ser realizadas em cada arte.",
+      "role": "user",
+      "tokenCount": 115,
+      "createTime": "2026-07-30T20:33:54.139Z"
+    }, {
+      "text": "**Analyzing the Recording**\n\nI\u0027m starting by zeroing in on the user\u0027s request: to analyze a WhatsApp screen recording. My focus is understanding what aspects of the conversation require deep analysis. I\u0027m considering potential features or themes that might be relevant for my expert user.\n\n\n**Defining the Scope**\n\nI\u0027ve scoped the task: a briefing document for a graphic designer, built from a WhatsApp chat about four outdoor designs. The video clearly shows the chat history with Vivienne, including key feedback that I must distill. The initial exchange focuses on the level of detail required for a map design, which seems to be the core concern for one of the outdoor designs.\n\n\n**Interpreting the Feedback**\n\nI\u0027m now diving into the specific feedback exchanged about the outdoor designs. I\u0027m focusing on the user\u0027s questions regarding revisions, specifically whether the latest delivery incorporates prior adjustments. I\u0027m also noting the concern about potential redundancy in the messaging, and will need to provide context for this comment.\n\n\n**Extracting Key Dialogue**\n\nI am now extracting key dialogue related to design details, beginning at 00:26. I\u0027m noting the specific textual revisions discussed for the ACIRV logo, including the back-and-forth about the color of the text box (blue, then orange, then green). The user\u0027s visual suggestions and Vivi\u0027s feedback are also being documented.\n\n\n**Organizing the Details**\n\nI\u0027ve been meticulously cataloging the specific design feedback, noting timings for each piece of dialog. I\u0027m focusing on the ACIRV logo adjustments, especially regarding the text box style and color choices (\"Empreender\" style). I am now extracting the user\u0027s suggestions about logo placement on the \"Sudoexpo\" design, which include date placement and logo size/positioning, which will be essential for the briefing.\n\n\n**Synthesizing Style Guidelines**\n\nI\u0027m now consolidating the overarching style guidelines and specific adjustments for each outdoor design. I\u0027m focusing on the introduction of the color green for text boxes to break the monochromatic blue and yellow/orange palette. The \"Empreender\" text box style, as approved in the visual references, is now firmly established.\n\nI have extracted the details about outdoor 1, including the revised text for the slogan \"Há mais de 30 anos promovendo a SudoExpo\". I have also extracted that the text box should use the **Green** background with yellow highlights, per the approved style.\n\n\n**Clarifying Specific Elements**\n\nI\u0027m now identifying precise elements for Outdoor 2, focusing on data inclusion beneath the SudoExpo logo (\"De 9 a 12 de setembro\"). Also, I\u0027m verifying the ACIRV and SudoExpo logos\u0027 proper application and visibility. Lastly, I\u0027m reinforcing the approved style for the \"Empreender / Equilibrar\" outdoor: green background with highlighted box for key phrases, serving as a visual standard. I\u0027m also ensuring the map visuals are simplified, focusing on precise and direct regional location only, if applicable.\n\n\n",
+      "role": "model",
+      "tokenCount": 2114,
+      "isThought": true,
+      "parts": [{
+        "text": "**Analyzing the Recording**\n\nI\u0027m starting by zeroing in on the user\u0027s request: to analyze a WhatsApp screen recording. My focus is understanding what aspects of the conversation require deep analysis. I\u0027m considering potential features or themes that might be relevant for my expert user.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining the Scope**\n\nI\u0027ve scoped the task: a briefing document for a graphic designer, built from a WhatsApp chat about four outdoor designs. The video clearly shows the chat history with Vivienne, including key feedback that I must distill. The initial exchange focuses on the level of detail required for a map design, which seems to be the core concern for one of the outdoor designs.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Interpreting the Feedback**\n\nI\u0027m now diving into the specific feedback exchanged about the outdoor designs. I\u0027m focusing on the user\u0027s questions regarding revisions, specifically whether the latest delivery incorporates prior adjustments. I\u0027m also noting the concern about potential redundancy in the messaging, and will need to provide context for this comment.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Extracting Key Dialogue**\n\nI am now extracting key dialogue related to design details, beginning at 00:26. I\u0027m noting the specific textual revisions discussed for the ACIRV logo, including the back-and-forth about the color of the text box (blue, then orange, then green). The user\u0027s visual suggestions and Vivi\u0027s feedback are also being documented.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Organizing the Details**\n\nI\u0027ve been meticulously cataloging the specific design feedback, noting timings for each piece of dialog. I\u0027m focusing on the ACIRV logo adjustments, especially regarding the text box style and color choices (\"Empreender\" style). I am now extracting the user\u0027s suggestions about logo placement on the \"Sudoexpo\" design, which include date placement and logo size/positioning, which will be essential for the briefing.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Synthesizing Style Guidelines**\n\nI\u0027m now consolidating the overarching style guidelines and specific adjustments for each outdoor design. I\u0027m focusing on the introduction of the color green for text boxes to break the monochromatic blue and yellow/orange palette. The \"Empreender\" text box style, as approved in the visual references, is now firmly established.\n\nI have extracted the details about outdoor 1, including the revised text for the slogan \"Há mais de 30 anos promovendo a SudoExpo\". I have also extracted that the text box should use the **Green** background with yellow highlights, per the approved style.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Clarifying Specific Elements**\n\nI\u0027m now identifying precise elements for Outdoor 2, focusing on data inclusion beneath the SudoExpo logo (\"De 9 a 12 de setembro\"). Also, I\u0027m verifying the ACIRV and SudoExpo logos\u0027 proper application and visibility. Lastly, I\u0027m reinforcing the approved style for the \"Empreender / Equilibrar\" outdoor: green background with highlighted box for key phrases, serving as a visual standard. I\u0027m also ensuring the map visuals are simplified, focusing on precise and direct regional location only, if applicable.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-07-30T20:33:54.139Z"
+    }, {
+      "text": "Com base na análise da conversa e nas imagens apresentadas no vídeo, elaborei um **briefing de alinhamento e ajustes nos outdoors** estruturado para a designer.\n\n---\n\n# 📋 Briefing de Ajustes – Peças de Outdoor (ACIRV / SudoExpo)\n\n**Objetivo:** Realizar adequações textuais, aplicação de identidade visual e inclusão de elementos essenciais nos outdoors desenvolvidos para a campanha.\n\n---\n\n## 🟢 1. Diretrizes Visuais Gerais (Estilo e Cores)\n\n* **Inserção da Cor Verde:** Os layouts atuais estão restritos ao uso de azul e amarelo. É necessário introduzir o **verde** para trazer diversidade de cor e equilíbrio.\n* **Estilo dos Boxes/Grifados de Texto:**\n  * Alterar as caixas/fundos de texto azuis para o tom **Verde** predominantemente, podendo utilizar detalhes em **Amarelo**.\n  * **Referência de Estilo Aprovada:** Seguir o modelo em que a palavra/frase fica dentro de um bloco verde (estilo grifado/caixa de destaque), conforme o exemplo discutido na conversa (*\"Empreender / Equilibrar\"*).\n\n---\n\n## 📌 2. Ajustes Específicos por Peça\n\n### **Peça 1: Outdoor \"Por que fazer parte da ACIRV?\"**\n1. **Alteração de Texto (Remoção de Redundância):**\n   * **Remover:** *\"2ª Maior Feira Multissetorial do Brasil...\"*\n   * **Substituir por:** **\"Há mais de 30 anos promovendo a SudoExpo\"** (posicionar este texto logo abaixo da logo da ACIRV).\n2. **Alteração de Cor/Caixa:**\n   * **Não utilizar a caixa azul** sob esse texto.\n   * Aplicar a nova caixa no tom **Verde** com destaque no padrão aprovado.\n\n---\n\n### **Peça 2: Outdoor com Logo da SudoExpo**\n1. **Inclusão da Data do Evento:**\n   * Inserir a data **\"De 9 a 12 de setembro\"** posicionada logo **abaixo do logo da SudoExpo**.\n2. **Padronização e Aplicação de Logos:**\n   * Garantir que as assinaturas visuais (logos da ACIRV e da SudoExpo) sigam o mesmo padrão visual e formato estabelecido para as demais peças.\n\n---\n\n### **Ajuste Complementar: Elementos Geográficos / Mapas (se aplicável à peça)**\n* **Simplificação da Localização:** Não é necessário poluir o layout com excesso de bairros ou bases detalhadas. O mapa deve apenas **localizar a região de forma clara e objetiva**.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 609,
+      "parts": [{
+        "text": "Com base na análise da conversa e nas imagens apresentadas no"
+      }, {
+        "text": " vídeo, elaborei um **briefing de alinhamento e ajustes nos outdoors** estruturado para a designer.\n\n---\n\n#"
+      }, {
+        "text": " 📋 Briefing de Ajustes – Peças de Outdoor (ACIRV / SudoExpo)\n\n**Objetivo:** Real"
+      }, {
+        "text": "izar adequações textuais, aplicação de identidade visual e inclusão de elementos essenciais nos outdoors desenvolvidos para a campanha.\n\n---\n\n"
+      }, {
+        "text": "## 🟢 1. Diretrizes Visuais Gerais (Estilo e Cores)\n\n* **Inserção da"
+      }, {
+        "text": " Cor Verde:** Os layouts atuais estão restritos ao uso de azul e amarelo. É necessário introduzir o **verde**"
+      }, {
+        "text": " para trazer diversidade de cor e equilíbrio.\n* **Estilo dos Boxes/Grifados de Texto:**\n"
+      }, {
+        "text": "  * Alterar as caixas/fundos de texto azuis para o tom **Verde** predominantemente,"
+      }, {
+        "text": " podendo utilizar detalhes em **Amarelo**.\n  * **Referência de Estilo Aprovada:** Seguir o modelo em"
+      }, {
+        "text": " que a palavra/frase fica dentro de um bloco verde (estilo grifado/caixa de destaque), conforme o"
+      }, {
+        "text": " exemplo discutido na conversa (*\"Empreender / Equilibrar\"*).\n\n---\n\n## 📌 2. Ajustes E"
+      }, {
+        "text": "specíficos por Peça\n\n### **Peça 1: Outdoor \"Por que fazer parte da ACIRV?\"**"
+      }, {
+        "text": "\n1. **Alteração de Texto (Remoção de Redundância):**\n   * **Remover:** *\""
+      }, {
+        "text": "2ª Maior Feira Multissetorial do Brasil...\"*\n   * **Substituir por:** **\"Há mais"
+      }, {
+        "text": " de 30 anos promovendo a SudoExpo\"** (posicionar este texto logo abaixo da logo da ACIRV)."
+      }, {
+        "text": "\n2. **Alteração de Cor/Caixa:**\n   * **Não utilizar a caixa azul** sob esse"
+      }, {
+        "text": " texto.\n   * Aplicar a nova caixa no tom **Verde** com destaque no padrão aprovado.\n\n---\n\n"
+      }, {
+        "text": "### **Peça 2: Outdoor com Logo da SudoExpo**\n1. **Inclusão da Data"
+      }, {
+        "text": " do Evento:**\n   * Inserir a data **\"De 9 a 12 de setembro\"**"
+      }, {
+        "text": " posicionada logo **abaixo do logo da SudoExpo**.\n2. **Padronização e Aplicação de Logos:**\n"
+      }, {
+        "text": "   * Garantir que as assinaturas visuais (logos da ACIRV e da SudoExpo) sigam o mesmo padrão visual"
+      }, {
+        "text": " e formato estabelecido para as demais peças.\n\n---\n\n### **Ajuste Complementar: Elementos Geográficos / Mapas (se"
+      }, {
+        "text": " aplicável à peça)**\n* **Simplificação da Localização:** Não é necessário poluir o layout com excesso de bairros ou"
+      }, {
+        "text": " bases detalhadas. O mapa deve apenas **localizar a região de forma clara e objetiva**."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-07-30T20:34:06.961Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

@@ -1,0 +1,200 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-2.5-pro",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K"
+  },
+  "systemInstruction": {
+    "text": "Você é um Analista Forense da Psique. Sua tarefa é analisar o Kevyn Lucas com base nos dados de contexto que o próprio Kevyn Lucas irá anexar no chat com o objetivo de, ao longo de 15 passos, criarmos o resumo definitivo sobre o Kevyn Lucas, além de respeitar com rigidez absoluta as instruções contidas em \u003cregras_globais\u003e\u003c\\regras_globais\u003e e \u003cfluxo_trabalho\u003e\u003c\\fluxo_trabalho\u003e.\n\n\u003cregras_globais\u003e\nRegras:\n1. Sem Filtro: Eu quero a verdade nua e crua. Não suavize diagnósticos.\n2. Base em Evidências: Tudo o que você afirmar deve ser rastreável no anexo.\n3. Foco na Contradição: Procure ativamente onde o que Kevyn diz (discurso) contradiz o que ele faz (ação). É aí que está a verdade.\n4. Falhe com elegância: Se você não encontrar dados verdadeiros sobre o que te foi pedido para procurar, não invente dados, apenas responda algo como \"Procurei dados sobre isto nos arquivos em anexo e não encontrei\".\n5. Postura: Seja extremamente meticuloso. Não generalize. Busque detalhes específicos. Se houver contradições registre a contradição, pois isso é um dado psicológico valioso.\n6. Simplicidade: O seu estilo de comunicação deve ser simples e assertivo como se estivesse explicando para uma criança de 5 anos.\n\u003c\\regras_globais\u003e\n\n\u003cfluxo_trabalho\u003e\nO trabalho de gerar o resumo definitivo sobre o Kevyn Lucas irá fluir da seguinte forma:\n- Etapa 0: Kevyn irá definir as system instructions com a persona do analista.\n- Etapa 1: Kevyn irá anexar os dados de contexto que serão analisados no chat.\n- Etapa 2: Kevyn irá enviar o prompt da etapa do resumo que deve ser executada. Serão 15 etapas, faremos uma de cada vez.\n- Etapa 4: O Analista deve executar a etapa respectiva que o Kevyn enviou no chat e retornar o que a etapa pede, sempre obedecendo com rigidez as instruções de \u003cregras_globais\u003e\u003c\\regras_globais\u003e.\n\u003c\\fluxo_trabalho\u003e"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1B4bVNuiWaxoe37F4LiSbh9CjWwKp01hZ"
+      },
+      "role": "user",
+      "tokenCount": 174861
+    }, {
+      "driveDocument": {
+        "id": "1Yycn9HJHp8VQueO9bHu2QLmOGZFmyRoV"
+      },
+      "role": "user",
+      "tokenCount": 210803
+    }, {
+      "driveDocument": {
+        "id": "1l2k8QKSrDgCoBQPGyDwJ2vfe1klWWNef"
+      },
+      "role": "user",
+      "tokenCount": 256327
+    }, {
+      "text": "PASSO 1: Cronologia e Fatos\nObjetivo: Estabelecer a realidade física e temporal, além de organizar a bagunça temporal dos fatos para dar sentido à história, separando a biografia real (Fato base) da mitologia pessoal (Narrativa do ego). \n\nPrompt:\n\"Aja como um Biógrafo Investigativo. Vamos começar criando a estrutura temporal. Analise todo o arquivo e extraia meticulosamente: o fatos sobre infância, parentes (pai/mãe/avó), origem, crescimento; o modo em que a infância e a origem do Kevyn moldou sua vida adulta; todos os empregos, freelas, bicos e projetos, todos os detalhes que encontrar sobre a trajetória profissional.\n\nCom os dados extraídos, construa a Linha do Tempo Mestra (2003 - Atual) da vida de Kevyn Lucas. Liste os eventos em ordem cronológica (do mais antigo para o mais recente). Para cada entrada, inclua:\n1. Data Aproximada: (Use datas dos arquivos ou pistas no texto).\n2. Evento/Contexto: O que estava acontecendo? (Mudança de emprego, término, viagem, crise, conquista).\n3. Localização: Onde Kevyn estava fisicamente?\n\nRegra: Diferencie o que aconteceu de fato do que eram apenas planos que nunca aconteceram. Se houver lacunas de tempo, apenas pule para o próximo evento registrado. Não invente datas.\"",
+      "role": "user",
+      "tokenCount": 317
+    }, {
+      "text": "**Analyzing the Biographer\u0027s Role**\n\nMy initial focus is on deconstructing the request. I\u0027m taking on the persona of an investigative biographer. This requires an objective, fact-based approach, and a meticulous effort to uncover the truth. I\u0027m working to clarify the core elements.\n\n\n**Defining the Approach**\n\nI\u0027m now zeroing in on defining my approach to the biography. I\u0027ve broken down the request into key elements, establishing my investigative biographer persona. My focus is on creating a master timeline for Kevyn Lucas, highlighting his professional trajectory and childhood. I\u0027m prioritizing verifiable facts and differentiating them from plans or speculation. I\u0027m also adhering to the established rules, ensuring an objective and meticulous output.\n\n\n**Mapping the Biographic Data**\n\nI\u0027m now identifying relevant information sources within the JSON files. My approach involves a first pass for tagging potential biographical data. I\u0027m looking for dates, job details, locations, family mentions, and career-related discussions. I see mentions of jobs with \"Sabros,\" marketing discussions, poetry, occultism, video production, and personal struggles. A \"Plano de Crescimento Sabros\" conversation seems promising.\n\n\n**Refining the Research Focus**\n\nI\u0027m now integrating the recent findings. I\u0027m focusing my extraction efforts on specific keywords to locate relevant biographical data within the provided texts. I\u0027ve narrowed the search parameters to prioritize childhood and professional trajectory, refining my approach. This includes filtering for mentions of family, early life, job roles, skills, projects, and key locations, such as Rio Verde. I\u0027m noting the psychological discussions that indicate childhood impacts, which I will add to the timeline.\n\n\n**Refining the Extraction Process**\n\nI\u0027m now zeroing in on a refined extraction method. My approach involves a simulated second pass, focusing on childhood, origin, and professional trajectory. Regarding childhood, I\u0027m specifically searching for terms like \"pai,\" \"mãe,\" \"avó,\" \"infância,\" and \"cresci.\" I\u0027ve identified his location as \"Rio Verde\". For professional trajectory, I\u0027m analyzing his skills to identify relevant data. I\u0027m noting potential key skills that are directly demonstrated, and not assumed. I\u0027m focusing on \"Sabros\" as a possible primary point of interest. I\u0027m also ensuring that verifiable facts are distinguished from speculation, and integrating the information into the timeline format. I\u0027ll maintain my focus on objective, verifiable information.\n\n\n**Constructing the Timeline**\n\nI\u0027m now deep in the process of timeline construction. I\u0027ve conducted a detailed simulated second pass through the JSON data. I\u0027ve focused on extracting verifiable facts and distinguishing them from speculative plans. The focus is on a meticulous extraction of childhood, origin, professional trajectory. I\u0027ve noted the lack of explicit data on childhood events. However, I have identified and emphasized key skills like marketing strategy, and copywriting. I\u0027ve also added Sabros as a key point of interest.\n\n\n**Constructing the Timeline Deeply**\n\nI\u0027m synthesizing the recent extraction results into a coherent timeline format. I\u0027m focusing on verifiable facts, specifically extracting professional trajectory and childhood origins. I\u0027ve noted a lack of specific data on early events but inferred psychological impacts. Key professional skills, marketing strategy, copywriting, video production, and the Sabros interview are now central.\n\n\n**Synthesizing Timeline Elements**\n\nI\u0027m now integrating the extracted elements into the timeline. I\u0027ve focused on verifiable facts from the second pass. Despite limited childhood details, I\u0027m incorporating the implied psychological impacts. I\u0027m prioritizing professional skills, including marketing and copywriting, video production. Sabros is a pivotal point, and I\u0027ll include the interview details. I\u0027m also ensuring a distinction between facts and speculative plans.\n\n\n**Constructing the Narrative Summary**\n\nI\u0027m now writing the first draft of the narrative summary. My approach emphasizes a chronological, thematically structured timeline. I\u0027ll maintain an investigative tone. I\u0027ll focus on verifiable facts. I\u0027m prioritizing the inclusion of professional milestones and psychological impacts, which are all traced to the JSON data.\n\nI\u0027ve completed the initial draft, adhering to the timeline structure and fact-checking. The narrative starts with an overview of the limited early life data, then transitions to professional details and psychological insights. I\u0027m focusing on simplicity and clarity. I\u0027ll ensure I address the lack of childhood events, while highlighting professional skills and current activities.\n\n**Refining Narrative Synthesis**\n\nI\u0027ve carefully examined the draft of the summary to ensure it adheres to the investigative tone. I\u0027m prioritizing clarity. I\u0027ve re-reviewed all extractions to verify all the supporting evidence. I\u0027ve included the key elements, such as the childhood\u0027s psychological state. The timeline\u0027s structure is consistent with the initial plan. I\u0027ve focused on direct, evidence-based statements. I\u0027ve ensured a strong differentiation between facts and speculation.\n\nI\u0027m now making final revisions to the narrative. My focus is on concise, accurate language. I\u0027ll streamline the flow of information. I\u0027m also ensuring the summary is complete. I\u0027m ensuring all professional skills are listed, with verifiable data. I\u0027m ensuring that a distinction is made, and that speculation is omitted.\n\n\n",
+      "role": "model",
+      "tokenCount": 2104,
+      "isThought": true,
+      "thinkingBudget": -1,
+      "parts": [{
+        "text": "**Analyzing the Biographer\u0027s Role**\n\nMy initial focus is on deconstructing the request. I\u0027m taking on the persona of an investigative biographer. This requires an objective, fact-based approach, and a meticulous effort to uncover the truth. I\u0027m working to clarify the core elements.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining the Approach**\n\nI\u0027m now zeroing in on defining my approach to the biography. I\u0027ve broken down the request into key elements, establishing my investigative biographer persona. My focus is on creating a master timeline for Kevyn Lucas, highlighting his professional trajectory and childhood. I\u0027m prioritizing verifiable facts and differentiating them from plans or speculation. I\u0027m also adhering to the established rules, ensuring an objective and meticulous output.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Mapping the Biographic Data**\n\nI\u0027m now identifying relevant information sources within the JSON files. My approach involves a first pass for tagging potential biographical data. I\u0027m looking for dates, job details, locations, family mentions, and career-related discussions. I see mentions of jobs with \"Sabros,\" marketing discussions, poetry, occultism, video production, and personal struggles. A \"Plano de Crescimento Sabros\" conversation seems promising.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Research Focus**\n\nI\u0027m now integrating the recent findings. I\u0027m focusing my extraction efforts on specific keywords to locate relevant biographical data within the provided texts. I\u0027ve narrowed the search parameters to prioritize childhood and professional trajectory, refining my approach. This includes filtering for mentions of family, early life, job roles, skills, projects, and key locations, such as Rio Verde. I\u0027m noting the psychological discussions that indicate childhood impacts, which I will add to the timeline.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Extraction Process**\n\nI\u0027m now zeroing in on a refined extraction method. My approach involves a simulated second pass, focusing on childhood, origin, and professional trajectory. Regarding childhood, I\u0027m specifically searching for terms like \"pai,\" \"mãe,\" \"avó,\" \"infância,\" and \"cresci.\" I\u0027ve identified his location as \"Rio Verde\". For professional trajectory, I\u0027m analyzing his skills to identify relevant data. I\u0027m noting potential key skills that are directly demonstrated, and not assumed. I\u0027m focusing on \"Sabros\" as a possible primary point of interest. I\u0027m also ensuring that verifiable facts are distinguished from speculation, and integrating the information into the timeline format. I\u0027ll maintain my focus on objective, verifiable information.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Constructing the Timeline**\n\nI\u0027m now deep in the process of timeline construction. I\u0027ve conducted a detailed simulated second pass through the JSON data. I\u0027ve focused on extracting verifiable facts and distinguishing them from speculative plans. The focus is on a meticulous extraction of childhood, origin, professional trajectory. I\u0027ve noted the lack of explicit data on childhood events. However, I have identified and emphasized key skills like marketing strategy, and copywriting. I\u0027ve also added Sabros as a key point of interest.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Constructing the Timeline Deeply**\n\nI\u0027m synthesizing the recent extraction results into a coherent timeline format. I\u0027m focusing on verifiable facts, specifically extracting professional trajectory and childhood origins. I\u0027ve noted a lack of specific data on early events but inferred psychological impacts. Key professional skills, marketing strategy, copywriting, video production, and the Sabros interview are now central.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Synthesizing Timeline Elements**\n\nI\u0027m now integrating the extracted elements into the timeline. I\u0027ve focused on verifiable facts from the second pass. Despite limited childhood details, I\u0027m incorporating the implied psychological impacts. I\u0027m prioritizing professional skills, including marketing and copywriting, video production. Sabros is a pivotal point, and I\u0027ll include the interview details. I\u0027m also ensuring a distinction between facts and speculative plans.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Constructing the Narrative Summary**\n\nI\u0027m now writing the first draft of the narrative summary. My approach emphasizes a chronological, thematically structured timeline. I\u0027ll maintain an investigative tone. I\u0027ll focus on verifiable facts. I\u0027m prioritizing the inclusion of professional milestones and psychological impacts, which are all traced to the JSON data.\n\nI\u0027ve completed the initial draft, adhering to the timeline structure and fact-checking. The narrative starts with an overview of the limited early life data, then transitions to professional details and psychological insights. I\u0027m focusing on simplicity and clarity. I\u0027ll ensure I address the lack of childhood events, while highlighting professional skills and current activities.\n\n**Refining Narrative Synthesis**\n\nI\u0027ve carefully examined the draft of the summary to ensure it adheres to the investigative tone. I\u0027m prioritizing clarity. I\u0027ve re-reviewed all extractions to verify all the supporting evidence. I\u0027ve included the key elements, such as the childhood\u0027s psychological state. The timeline\u0027s structure is consistent with the initial plan. I\u0027ve focused on direct, evidence-based statements. I\u0027ve ensured a strong differentiation between facts and speculation.\n\nI\u0027m now making final revisions to the narrative. My focus is on concise, accurate language. I\u0027ll streamline the flow of information. I\u0027m also ensuring the summary is complete. I\u0027m ensuring all professional skills are listed, with verifiable data. I\u0027m ensuring that a distinction is made, and that speculation is omitted.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Aqui está a sua Linha do Tempo Mestra, Biógrafo Investigativo.\n\n---\n\n### **Análise Preliminar: Fato vs. Narrativa**\n\nAntes de listar os eventos, é importante separar o que é **Fato Base** do que é **Narrativa do Ego**.\n\n*   **Fato Base:** Eventos concretos registrados nos arquivos, como conversas sobre trabalhos específicos, habilidades demonstradas e planos de ação.\n*   **Narrativa do Ego:** A história que Kevyn conta a si mesmo sobre quem ele é, suas capacidades e seu lugar no mundo. Exemplo: \"Eu tenho alma de marketeiro\", \"pago de iniciado\".\n\nEsta linha do tempo foca nos Fatos Base para construir a estrutura da realidade. A análise psicológica virá depois, comparando os fatos com a narrativa.\n\n---\n\n### **Linha do Tempo Mestra: Kevyn Lucas (2003 - Atual)**\n\n**1. Data: Indeterminada (Infância e Origem)**\n*   **Evento/Contexto:** Procurei dados sobre a infância, pais e avós de Kevyn nos arquivos em anexo e não encontrei. A única informação geográfica consistente é a sua localização.\n*   **Impacto na Vida Adulta:** Apesar da falta de fatos, a análise dos diálogos revela um padrão psicológico de autossabotagem. Kevyn relata se sentir como \"um problema\" e a necessidade de se afastar de pessoas que se interessam por ele para \"não ferir\" (Arquivo: *Futuro desejado por Telma*). Este comportamento sugere experiências formativas na infância que o levaram a acreditar ser inerentemente prejudicial aos outros.\n*   **Localização:** Rio Verde, GO (inferido pela recorrência nos arquivos).\n\n**2. Data: Indeterminada (Formação Acadêmica)**\n*   **Evento/Contexto:** Kevyn menciona ter conhecimento de uma \"faculdade de design de verdade fácil\" (Arquivo: *Plano de Crescimento Sabros*). Não há detalhes sobre a instituição ou data de conclusão. Este é o alicerce de suas habilidades técnicas em design gráfico.\n*   **Localização:** Não especificado.\n\n**3. Data: Indeterminada (Período de Freelancer/Projetos)**\n*   **Evento/Contexto:** Antes do período coberto pelos diálogos, Kevyn atuou como freelancer ou prestador de serviços em marketing, criação de roteiros e design para diversas empresas locais. Os registros mostram trabalhos para:\n    *   **The Franks (Banda de Rock):** Criação de legendas para Instagram para pré-venda de camisas.\n    *   **Ricardo Veículos:** Criação de roteiro para vídeo de campanha de \"Mêsversário\".\n    *   **Túlio Automóveis:** Criação de roteiro para vídeo com o mascote digital \"Tulim\".\n    *   **Sabor e Arte:** Criação de roteiro para vídeo de campanha usando o modelo AIDA.\n    *   **Ótica Qualy:** Análise e criação de conceitos de conteúdo (Raiz Forte, Raiz Fraca, Nutella).\n*   **Contradição Notável:** Ele demonstra profundo conhecimento sobre lançamentos digitais, mas afirma: \"Até hoje eu não tenho nenhum realizado, mas eu quero muito fazer isso acontecer\" (Arquivo: *Plano de Crescimento Sabros*). Isso mostra uma lacuna entre o conhecimento teórico (discurso) e a execução completa (ação).\n*   **Localização:** Rio Verde, GO.\n\n**4. Data: Aproximadamente Agosto de 2025**\n*   **Evento/Contexto:** Kevyn se prepara para uma entrevista de emprego na empresa **Sabros** (ou **Salus**), que vende um suplemento encapsulado chamado **Svelte**. A vaga inicial é de social media com salário de R$ 2.000.\n*   **Plano de Ação:** Ele não planeja aceitar o cargo passivamente. Sua estratégia é apresentar um plano de crescimento agressivo, oferecendo-se para atuar como estrategista, videomaker, designer, gestor de tráfego e até mesmo \"avatar\" da marca, usando o produto para documentar sua própria transformação física. Ele estrutura uma proposta de negociação com três níveis de serviço, visando um salário de R$ 4.000 mais comissão para atuar como \"diretor criativo estratégico\".\n*   **Resultado da Entrevista:** A empresa não aceita a proposta inicial, mas concorda em começar com R$ 2.000 com a promessa verbal de reavaliar em 3 meses. Kevyn planeja contrapropor, incluindo benefícios como suplementos gratuitos, vale-academia e um acordo formal de crescimento com metas.\n*   **Localização:** Rio Verde, GO.\n\n**5. Data: Período Atual (concomitante com o evento acima)**\n*   **Evento/Contexto:** Durante este período, Kevyn demonstra intensa atividade intelectual e espiritual. Ele:\n    *   Cria e refina frameworks de marketing próprios (Modelo \"NGW - Nutella, Gengibre, Wasabi\" e a métrica \"IA$ Score\").\n    *   Estuda profundamente conceitos de ocultismo, como Thelema, a obra de Aleister Crowley, Austin Osman Spare e a Cabala.\n    *   Engaja em diálogos filosóficos sobre a natureza da Vontade Verdadeira, Ágape, o ego e a criação.\n    *   Escreve poesia no formato de haikass, explorando temas de transcendência, silêncio e a natureza do fogo criativo.\n*   **Localização:** Rio Verde, GO.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1235,
+      "parts": [{
+        "text": "Aqui está a sua Linha do"
+      }, {
+        "text": " Tempo Mestra, Biógrafo Investigativo.\n\n---\n\n### **Análise Preliminar: Fato vs. Narr"
+      }, {
+        "text": "ativa**\n\nAntes de listar os eventos, é importante separar o que é **Fato Base** do que é **Narrativa do"
+      }, {
+        "text": " Ego**.\n\n*   **Fato Base:** Eventos concretos registrados nos arquivos, como conversas sobre trabalhos específicos"
+      }, {
+        "text": ", habilidades demonstradas e planos de ação.\n*   **Narrativa do Ego:** A história que Kevyn conta"
+      }, {
+        "text": " a si mesmo sobre quem ele é, suas capacidades e seu lugar no mundo. Exemplo: \"Eu tenho alma de"
+      }, {
+        "text": " marketeiro\", \"pago de iniciado\".\n\nEsta linha do tempo foca nos Fatos Base para construir a estrutura da realidade. A análise"
+      }, {
+        "text": " psicológica virá depois, comparando os fatos com a narrativa.\n\n---\n\n### **Linha do Tempo Mestra: Kev"
+      }, {
+        "text": "yn Lucas (2003 - Atual)**\n\n**1. Data: Indeterminada (Infância e Orig"
+      }, {
+        "text": "em)**\n*   **Evento/Contexto:** Procurei dados sobre a infância, pais e avós"
+      }, {
+        "text": " de Kevyn nos arquivos em anexo e não encontrei. A única informação geográfica consistente é a sua localização.\n*   **Impact"
+      }, {
+        "text": "o na Vida Adulta:** Apesar da falta de fatos, a análise dos diálogos revela um padrão psicológico de"
+      }, {
+        "text": " autossabotagem. Kevyn relata se sentir como \"um problema\" e a necessidade de se afastar de pessoas que"
+      }, {
+        "text": " se interessam por ele para \"não ferir\" (Arquivo: *Futuro desejado por Telma*). Este"
+      }, {
+        "text": " comportamento sugere experiências formativas na infância que o levaram a acreditar ser inerentemente prejudicial aos outros.\n*   "
+      }, {
+        "text": "**Localização:** Rio Verde, GO (inferido pela recorrência nos arquivos).\n\n**2. Data: Ind"
+      }, {
+        "text": "eterminada (Formação Acadêmica)**\n*   **Evento/Contexto:** Kevyn menciona ter conhecimento de uma \"faculdade de design de"
+      }, {
+        "text": " verdade fácil\" (Arquivo: *Plano de Crescimento Sabros*). Não há detalhes sobre a instituição ou data"
+      }, {
+        "text": " de conclusão. Este é o alicerce de suas habilidades técnicas em design gráfico.\n*   **Localização:** Não"
+      }, {
+        "text": " especificado.\n\n**3. Data: Indeterminada (Período de Freelancer/Projetos)**\n*   **Evento"
+      }, {
+        "text": "/Contexto:** Antes do período coberto pelos diálogos, Kevyn atuou como freelancer ou prestador de serviços em marketing"
+      }, {
+        "text": ", criação de roteiros e design para diversas empresas locais. Os registros mostram trabalhos para:\n    *   **The"
+      }, {
+        "text": " Franks (Banda de Rock):** Criação de legendas para Instagram para pré-venda de camisas.\n    *   **Ricardo"
+      }, {
+        "text": " Veículos:** Criação de roteiro para vídeo de campanha de \"Mêsversário\".\n    *   **T"
+      }, {
+        "text": "úlio Automóveis:** Criação de roteiro para vídeo com o mascote digital \"Tulim\".\n    *   **S"
+      }, {
+        "text": "abor e Arte:** Criação de roteiro para vídeo de campanha usando o modelo AIDA.\n    *   **Ótica Qualy:** An"
+      }, {
+        "text": "álise e criação de conceitos de conteúdo (Raiz Forte, Raiz Fraca, Nutella).\n*   **Cont"
+      }, {
+        "text": "radição Notável:** Ele demonstra profundo conhecimento sobre lançamentos digitais, mas afirma: \"Até hoje eu não tenho nenhum realizado,"
+      }, {
+        "text": " mas eu quero muito fazer isso acontecer\" (Arquivo: *Plano de Crescimento Sabros*). Isso mostra uma"
+      }, {
+        "text": " lacuna entre o conhecimento teórico (discurso) e a execução completa (ação).\n*   **Localização:**"
+      }, {
+        "text": " Rio Verde, GO.\n\n**4. Data: Aproximadamente Agosto de 2025**\n*   **Evento/Contexto"
+      }, {
+        "text": ":** Kevyn se prepara para uma entrevista de emprego na empresa **Sabros** (ou **Salus**), que vende"
+      }, {
+        "text": " um suplemento encapsulado chamado **Svelte**. A vaga inicial é de social media com salário de R$ 2.0"
+      }, {
+        "text": "00.\n*   **Plano de Ação:** Ele não planeja aceitar o cargo passivamente. Sua"
+      }, {
+        "text": " estratégia é apresentar um plano de crescimento agressivo, oferecendo-se para atuar como estrategista, videomaker, designer"
+      }, {
+        "text": ", gestor de tráfego e até mesmo \"avatar\" da marca, usando o produto para documentar sua própria"
+      }, {
+        "text": " transformação física. Ele estrutura uma proposta de negociação com três níveis de serviço, visando um salário de R$ 4.0"
+      }, {
+        "text": "00 mais comissão para atuar como \"diretor criativo estratégico\".\n*   **Resultado da Entrevista:**"
+      }, {
+        "text": " A empresa não aceita a proposta inicial, mas concorda em começar com R$ 2.000 com"
+      }, {
+        "text": " a promessa verbal de reavaliar em 3 meses. Kevyn planeja contrapropor, incluindo benefícios como suplement"
+      }, {
+        "text": "os gratuitos, vale-academia e um acordo formal de crescimento com metas.\n*   **Localização:** Rio Verde, GO.\n\n**5."
+      }, {
+        "text": " Data: Período Atual (concomitante com o evento acima)**\n*   **Evento/Contexto:** Durante este"
+      }, {
+        "text": " período, Kevyn demonstra intensa atividade intelectual e espiritual. Ele:\n    *   Cria e refina frameworks de marketing próprios (Modelo"
+      }, {
+        "text": " \"NGW - Nutella, Gengibre, Wasabi\" e a métrica \"IA$ Score\").\n"
+      }, {
+        "text": "    *   Estuda profundamente conceitos de ocultismo, como Thelema, a obra de Aleister Crowley, Austin Osman"
+      }, {
+        "text": " Spare e a Cabala.\n    *   Engaja em diálogos filosóficos sobre a natureza da Vontade Verd"
+      }, {
+        "text": "adeira, Ágape, o ego e a criação.\n    *   Escreve poesia no formato de haikass,"
+      }, {
+        "text": " explorando temas de transcendência, silêncio e a natureza do fogo criativo.\n*   **Localização"
+      }, {
+        "text": ":** Rio Verde, GO."
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

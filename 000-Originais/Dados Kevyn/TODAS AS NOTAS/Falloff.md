@@ -1,0 +1,1 @@
+Falloff é tipo um field, quando ele se aproxima de um objeto ele ativa uma transformação pré-estabelecida. Basta selecionar o que vai transformar, aplicar o falloff e movimentar para cima de um objeto e tcharam, a mágica acontece.

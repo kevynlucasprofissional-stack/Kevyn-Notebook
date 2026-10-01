@@ -1,0 +1,1 @@
+Usar LUTs é interessante. Facilita quando não se tem tempo ou orçamento para fazer um color grading personalizado.

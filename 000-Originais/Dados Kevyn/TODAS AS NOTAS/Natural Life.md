@@ -1,0 +1,1 @@
+Waynne é o promotor de vendas de lá.

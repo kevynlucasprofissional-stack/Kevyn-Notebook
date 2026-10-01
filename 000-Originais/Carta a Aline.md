@@ -1,0 +1,50 @@
+Tudo isso que eu vi através de você também estava em mim.
+Escrevo para homenagear aquilo que nossos encontros despertaram em mim.
+
+Aline, quando nos conhecemos, tivemos uma conversa agradável e senti uma admiração por você. O sentimento que permaneceu em mim depois daquele encontro era de amizade.
+
+Depois, nós nos encontramos novamente. Acompanhei você até o final do rolê, ganhei de você uma carona e te convidei para entrar em minha casa, onde conversamos um pouco. A conversa foi fluindo: bebemos, fomos nos conhecendo e, de repente, estávamos nos beijando.
+
+Esse beijo criou um espaço em que pude oferecer e receber o afeto que percebi naquele momento. Foi tão gostoso estar ali com você. Os nossos beijos permaneceram em mim por muito tempo depois daquele dia.
+
+Nós saímos mais uma vez. Jogamos e desenhamos. Foi divertido. Chegou o momento de ir embora, e eu sentia que havia desejo entre nós. Houve um beijo, muita sedução e um até breve.
+
+Na terceira vez em que nos encontramos, você estava tão linda. Usava um vestido com uma flor vermelha. Meu corpo desejava tanto o seu e, quando nos deitamos para amar, foi tão bom. Naquele instante foi como se o tempo parasse.
+
+Éramos amantes encontrando a paz quando nos despedimos e permanecia entre nós a sensação de termos seduzido e sido seduzidos, de termos vencido e nos rendido à exaustão deixada pelo clímax.
+
+Lembro-me das palavras de carinho que trocamos por mensagem depois disso. Penso no desejo tão forte que percebi entre nós e que ainda reconheço em mim quando penso em você.
+
+Enquanto tudo acontecia, eu me sentia feliz por estar vivendo aquilo e dava um sorriso bobo quando me lembrava da lua cheia que vi refletida em seus olhos azuis acinzentados, dos seus cabelos cacheados, do vinho que tomamos juntos, do combinado de sushi, do filme romântico com final feliz.
+
+A lembrança dos seus beijos sempre estarão decorando meu coração como os quadros, as plantas e as flores decoram seu apartamento. Lembrar da sua voz e da doçura do seu canto rega a vida em mim. Quando me lembro dos nossos encontros e dos beijos de fogo que incendiaram um canto escuro da minha alma, sinto uma estranha lucidez e confiança.
+
+Me lembrei de você segurando minha mão, sem medo de me ensinar sobre você e sem medo de permanecer ao meu lado, mesmo no escuro, dizendo que está tudo bem.
+
+Você agradece pela minha curiosidade.
+
+Eu agradeço a você por me ensinar sobre o amor, e sobre mim.
+
+Agradeço profundamente.
+
+Mais uma vez eu revivo essa história em pensamento e sinto em mim um repentino desamparo e vazio interior.
+
+Vejo a memória do amor que senti entre nós, e ela de repente é tão bonita e terrível. Entendo o pavor do amor justamente pelo tamanho de sua beleza. O que é a beleza do amor, senão uma forma dele que ainda conseguimos suportar? Nós admiramos o amor porque ele permanece diante de nós sem usar seu poder para nos destruir. Imagino que seja por isso que todo amor também causa medo.
+
+Existem certas partes de mim que, como o amor, me fazem sentir curiosidade e medo, e você me ajudou a ver isso: Essas partes confusas são justamente as que me revelam que ainda preciso amadurecer dentro da forma como eu me relaciono, e por isso sou grato a você.
+
+Essas partes que me dão medo sussurram nos meus ouvidos coisas muito maldosas, mas que nascem da forma como me sinto, e por isso ouço.
+
+Quando ficamos sem contato por mais tempo, aparece em mim o medo de que o melhor seria desaparecer.
+Quando percebo a mudança na forma como nos tratamos, sinto tristeza e algumas memórias antigas de solidão aparecem.
+Quando não sei como você está, às vezes surge em mim uma sensação de que sou insignificante.
+
+Eu sento e começo a meditar, deixo as vozes em mim se acalmarem e busco o meu lado mais iluminado e estabilizador, meu peito se expande em amor e as lembranças dos nossos beijos se tornam como flores a decorar meu jardim interior.
+
+Fica óbvio que todos esses sussurros são apenas medo e dor. Então decido me centralizar novamente, me equilibrar, respirar mais um pouco, treinar, estudar, trabalhar e aguardar, ter paciência mesmo sem certeza. Assim consigo cultivar o amor e ter esperança no melhor, esperança que o amor me trará o melhor.
+
+Quero dizer que me mantenho em silêncio, sentado no meu jardim interno em meditação. Continuo fazendo minhas coisinhas, e no fundo sinto saudade de novidades suas.
+O que acontecer de agora em diante não vai mudar a beleza do que foi, as flores já estão no meu coração e vou cuidar bem delas.
+
+Com amor,
+Kevyn.

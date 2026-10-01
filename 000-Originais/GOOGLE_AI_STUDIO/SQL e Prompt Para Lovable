@@ -1,0 +1,191 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-flash-lite-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_MINIMAL",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1hnH5veQrYyChLY_UY04ZtVRRiGc1nmtm"
+      },
+      "role": "user",
+      "tokenCount": 22108,
+      "createTime": "2026-03-15T10:24:09.875Z"
+    }, {
+      "text": "Anexei um pdf contendo o plano completo para construir o meu SaaS no Lovable. Preciso que otimize isso para um prompt que o Lovable vá entender perfeitamente, e que já me entregue o script SQL que será necessário rodar antes de o Lovable começar a construir o código, pois assim iremos facilitar o trabalho da IA do Lovable. Resumindo, gere o Script SQL e gere o prompt para Lovable que irá construir por completo e com precisão o SaaS descrito no documento em anexo.",
+      "role": "user",
+      "tokenCount": 109,
+      "createTime": "2026-03-15T10:24:09.875Z"
+    }, {
+      "text": "Este é um passo estratégico fundamental. Ao configurar o banco de dados antes da interface (o *schema-first approach*), você garante que a IA do Lovable tenha uma \"fonte da verdade\" rígida para seguir, evitando alucinações estruturais.\n\nAqui está o material pronto para execução.\n\n---\n\n### 1. Script SQL de Infraestrutura (Execute no Supabase SQL Editor)\n\nEste script cria as tabelas, estabelece os relacionamentos e define os índices. **Importante:** Após rodar este script, **não esqueça de habilitar o RLS** nas tabelas conforme indicado nas notas do arquivo `10_Segurança e Governança de Dados.md`.\n\n```sql\n-- 1. PLANOS E ASSINATURAS\nCREATE TABLE \"plan\" (\n    \"id\" BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,\n    \"name\" VARCHAR(50) NOT NULL, -- Freemium, Standard, Pro, Enterprise\n    \"price\" DECIMAL(10, 2) NOT NULL,\n    \"uploads_limit\" INTEGER NOT NULL,\n    \"recurrence\" VARCHAR(20) NOT NULL\n);\n\n-- 2. USUÁRIOS\nCREATE TABLE \"user\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"name\" VARCHAR(255) NOT NULL,\n    \"email\" VARCHAR(255) UNIQUE NOT NULL,\n    \"plan_id\" BIGINT REFERENCES \"plan\"(\"id\") DEFAULT 1,\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 3. REQUISIÇÕES E UPLOADS\nCREATE TABLE \"user_request\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"user_id\" UUID NOT NULL REFERENCES \"user\"(\"id\") ON DELETE CASCADE,\n    \"content\" TEXT NOT NULL,\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\nCREATE TABLE \"user_uploads\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"user_id\" UUID NOT NULL REFERENCES \"user\"(\"id\") ON DELETE CASCADE,\n    \"request_id\" UUID REFERENCES \"user_request\"(\"id\"),\n    \"file_url\" TEXT NOT NULL,\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 4. AGENTES E RESPOSTAS\nCREATE TABLE \"agent\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"agent_name\" VARCHAR(100) NOT NULL,\n    \"agent_type\" VARCHAR(50) NOT NULL\n);\n\nCREATE TABLE \"agent_response\" (\n    \"id\" BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,\n    \"agent_id\" UUID NOT NULL REFERENCES \"agent\"(\"id\"),\n    \"request_id\" UUID NOT NULL REFERENCES \"user_request\"(\"id\") ON DELETE CASCADE,\n    \"content\" JSONB NOT NULL,\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\n-- 5. ÍNDICES DE PERFORMANCE\nCREATE INDEX idx_user_request_user ON \"user_request\"(\"user_id\");\nCREATE INDEX idx_agent_response_request ON \"agent_response\"(\"request_id\");\n\n-- Inserção de planos base\nINSERT INTO \"plan\" (name, price, uploads_limit, recurrence) VALUES \n(\u0027Freemium\u0027, 0.00, 2, \u0027mensal\u0027),\n(\u0027Standard\u0027, 97.00, 5, \u0027mensal\u0027),\n(\u0027Pro\u0027, 297.00, 999999, \u0027mensal\u0027),\n(\u0027Enterprise\u0027, 997.00, 999999, \u0027mensal\u0027);\n```\n\n---\n\n### 2. O Prompt Mestre para o Lovable\n\nCopie e cole este prompt no Lovable. Ele foi estruturado para que a IA priorize a lógica de negócio e o uso do banco de dados que acabamos de criar.\n\n```markdown\n# CONTEXTO E OBJETIVO\nVocê é o engenheiro principal do \"Ágora\", um SaaS de marketing científico baseado em multi-agentes de IA. \nO banco de dados já foi provisionado no Supabase com as tabelas: plan, user, user_request, user_uploads, agent e agent_response.\n\n# DIRETRIZES DE IMPLEMENTAÇÃO\n1. ARQUITETURA: Utilize Next.js (App Router), Tailwind CSS e Shadcn/UI.\n2. CONEXÃO: Use o @supabase/supabase-js para conectar com as tabelas criadas.\n3. FLUXO CORE (Prioridade Máxima):\n   - A tela de \"Chat\" é o coração. Ela deve permitir input de texto e upload de arquivos (limitados conforme a tabela \u0027plan\u0027).\n   - O fluxo de envio deve disparar uma Edge Function que simula a chamada dos agentes (Orquestrador -\u003e Especialistas -\u003e Sintetizador).\n   - A resposta final (JSONB na tabela \u0027agent_response\u0027) deve ser renderizada como um relatório executivo (Markdown elegante).\n4. COMPONENTES NECESSÁRIOS:\n   - Dashboard com cards de resumo.\n   - Área de Chat persistente (vinculada a \u0027user_request\u0027).\n   - Interface de visualização de Relatório com Score de Campanha (0-100) e blocos de análise (Sociocomportamental, Oferta, Performance).\n   - Seletor de exportação (Simule os botões para PDF, Canva, Gamma).\n5. ESTILO: Interface \"C-Level\", limpa, analítica, cores sóbrias (Dark mode preferencial), focada em dados.\n\n# FLUXO DE TRABALHO PARA VOCÊ\n1. Primeiro, mapeie os tipos do Supabase (use as tabelas criadas).\n2. Construa a estrutura de autenticação (Auth do Supabase).\n3. Construa a interface do Chat vinculada à lógica de análise.\n4. Finalize com o Dashboard de histórico e visualização dos resultados.\n\nPor favor, comece configurando a conexão com o Supabase e a estruturação da página de Chat.\n```\n\n---\n\n### Dicas para o seu sucesso com o Lovable:\n\n1.  **Iteração:** O Lovable pode tentar criar o banco de dados novamente. Se ele pedir, diga: *\"O banco de dados já está pronto no Supabase, apenas consuma as tabelas existentes (user, plan, etc) nas suas funções e hooks.\"*\n2.  **Segurança:** A partir de agora, sempre que o Lovable criar uma função de busca de dados, peça: *\"Certifique-se de que a query respeita o user_id logado do Supabase\"*.\n3.  **Foco:** Se o Lovable começar a se distrair com design excessivo, lembre-o: *\"Foque na lógica do Motor de Agentes e na persistência das respostas no banco, o design deve ser apenas funcional e limpo.\"*\n\nPodemos prosseguir com o desenvolvimento? Se você já tiver a conta no Lovable conectada ao Supabase, esses dois passos acima colocarão seu SaaS em movimento instantaneamente.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1577,
+      "parts": [{
+        "text": "Este"
+      }, {
+        "text": " é um passo estratégico fundamental. Ao configurar o banco de dados antes da interface (o"
+      }, {
+        "text": " *schema-first approach*), você garante que a IA do Lovable tenha uma \"fonte da verdade\" rígida para seguir"
+      }, {
+        "text": ", evitando alucinações estruturais.\n\nAqui está o material pronto para execução.\n\n---\n\n### 1. Script"
+      }, {
+        "text": " SQL de Infraestrutura (Execute no Supabase SQL Editor)\n\nEste script cria as tabelas, estabelece os relacionamentos e define"
+      }, {
+        "text": " os índices. **Importante:** Após rodar este script, **não esqueça de habilitar o RLS** nas tabelas"
+      }, {
+        "text": " conforme indicado nas notas do arquivo `10_Segurança e Governança de Dados.md`.\n\n```sql\n--"
+      }, {
+        "text": " 1. PLANOS E ASSINATURAS\nCREATE TABLE \"plan\" (\n    \"id\" BIGINT"
+      }, {
+        "text": " GENERATED ALWAYS AS IDENTITY PRIMARY KEY,\n    \"name\" VARCHAR(50) NOT NULL, -- Freemium, Standard"
+      }, {
+        "text": ", Pro, Enterprise\n    \"price\" DECIMAL(10, 2) NOT NULL,\n    \"uploads_limit\" INTEGER"
+      }, {
+        "text": " NOT NULL,\n    \"recurrence\" VARCHAR(20) NOT NULL\n);\n\n-- 2. USUÁRI"
+      }, {
+        "text": "OS\nCREATE TABLE \"user\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"name"
+      }, {
+        "text": "\" VARCHAR(255) NOT NULL,\n    \"email\" VARCHAR(255) UNIQUE NOT NULL,\n    \""
+      }, {
+        "text": "plan_id\" BIGINT REFERENCES \"plan\"(\"id\") DEFAULT 1,\n    \"created_at\" TIMESTAMP WITH"
+      }, {
+        "text": " TIME ZONE DEFAULT NOW()\n);\n\n-- 3. REQUISIÇÕES E UPLOADS\nCREATE TABLE \""
+      }, {
+        "text": "user_request\" (\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"user"
+      }, {
+        "text": "_id\" UUID NOT NULL REFERENCES \"user\"(\"id\") ON DELETE CASCADE,\n    \"content\" TEXT NOT NULL,\n"
+      }, {
+        "text": "    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT NOW()\n);\n\nCREATE TABLE \"user_uploads\" ("
+      }, {
+        "text": "\n    \"id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"user_id\" UUID NOT"
+      }, {
+        "text": " NULL REFERENCES \"user\"(\"id\") ON DELETE CASCADE,\n    \"request_id\" UUID REFERENCES \"user_request"
+      }, {
+        "text": "\"(\"id\"),\n    \"file_url\" TEXT NOT NULL,\n    \"created_at\" TIMESTAMP WITH TIME"
+      }, {
+        "text": " ZONE DEFAULT NOW()\n);\n\n-- 4. AGENTES E RESPOSTAS\nCREATE TABLE \"agent\" (\n    \""
+      }, {
+        "text": "id\" UUID PRIMARY KEY DEFAULT gen_random_uuid(),\n    \"agent_name\" VARCHAR(100) NOT NULL,"
+      }, {
+        "text": "\n    \"agent_type\" VARCHAR(50) NOT NULL\n);\n\nCREATE TABLE \"agent_response\" (\n    \""
+      }, {
+        "text": "id\" BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,\n    \"agent_id\" UUID NOT NULL REFERENCES \""
+      }, {
+        "text": "agent\"(\"id\"),\n    \"request_id\" UUID NOT NULL REFERENCES \"user_request\"(\"id\") ON DELETE"
+      }, {
+        "text": " CASCADE,\n    \"content\" JSONB NOT NULL,\n    \"created_at\" TIMESTAMP WITH TIME ZONE DEFAULT"
+      }, {
+        "text": " NOW()\n);\n\n-- 5. ÍNDICES DE PERFORMANCE\nCREATE INDEX idx_user_request_user ON"
+      }, {
+        "text": " \"user_request\"(\"user_id\");\nCREATE INDEX idx_agent_response_request ON \"agent_response\"(\"request_id\");"
+      }, {
+        "text": "\n\n-- Inserção de planos base\nINSERT INTO \"plan\" (name, price, uploads_limit, recurrence) VALUES "
+      }, {
+        "text": "\n(\u0027Freemium\u0027, 0.00, 2, \u0027mensal\u0027),\n(\u0027Standard\u0027, "
+      }, {
+        "text": "97.00, 5, \u0027mensal\u0027),\n(\u0027Pro\u0027, 297.00,"
+      }, {
+        "text": " 999999, \u0027mensal\u0027),\n(\u0027Enterprise\u0027, 997.00,"
+      }, {
+        "text": " 999999, \u0027mensal\u0027);\n```\n\n---\n\n### 2. O Prompt M"
+      }, {
+        "text": "estre para o Lovable\n\nCopie e cole este prompt no Lovable. Ele foi estruturado para que a IA"
+      }, {
+        "text": " priorize a lógica de negócio e o uso do banco de dados que acabamos de criar.\n\n```markdown\n# CON"
+      }, {
+        "text": "TEXTO E OBJETIVO\nVocê é o engenheiro principal do \"Ágora\", um SaaS de marketing científico baseado em multi"
+      }, {
+        "text": "-agentes de IA. \nO banco de dados já foi provisionado no Supabase com as tabelas:"
+      }, {
+        "text": " plan, user, user_request, user_uploads, agent e agent_response.\n\n# DIRETRIZES DE IMPLEMENT"
+      }, {
+        "text": "AÇÃO\n1. ARQUITETURA: Utilize Next.js (App Router), Tailwind CSS e Shadcn/UI"
+      }, {
+        "text": ".\n2. CONEXÃO: Use o @supabase/supabase-js para conectar com as tabelas criadas.\n3. FL"
+      }, {
+        "text": "UXO CORE (Prioridade Máxima):\n   - A tela de \"Chat\" é o coração. Ela deve permitir"
+      }, {
+        "text": " input de texto e upload de arquivos (limitados conforme a tabela \u0027plan\u0027).\n   - O fluxo de envio deve dispar"
+      }, {
+        "text": "ar uma Edge Function que simula a chamada dos agentes (Orquestrador -\u003e Especialistas -\u003e Sintetizador).\n   -"
+      }, {
+        "text": " A resposta final (JSONB na tabela \u0027agent_response\u0027) deve ser renderizada como um relatório executivo (Markdown elegante"
+      }, {
+        "text": ").\n4. COMPONENTES NECESSÁRIOS:\n   - Dashboard com cards de resumo.\n   - Área"
+      }, {
+        "text": " de Chat persistente (vinculada a \u0027user_request\u0027).\n   - Interface de visualização de Relatório com Score de"
+      }, {
+        "text": " Campanha (0-100) e blocos de análise (Sociocomportamental, Oferta, Performance"
+      }, {
+        "text": ").\n   - Seletor de exportação (Simule os botões para PDF, Canva, Gamma).\n5. ESTILO"
+      }, {
+        "text": ": Interface \"C-Level\", limpa, analítica, cores sóbrias (Dark mode preferencial), foc"
+      }, {
+        "text": "ada em dados.\n\n# FLUXO DE TRABALHO PARA VOCÊ\n1. Primeiro, mapeie os"
+      }, {
+        "text": " tipos do Supabase (use as tabelas criadas).\n2. Construa a estrutura de autenticação (Auth do"
+      }, {
+        "text": " Supabase).\n3. Construa a interface do Chat vinculada à lógica de análise.\n4. Finalize com"
+      }, {
+        "text": " o Dashboard de histórico e visualização dos resultados.\n\nPor favor, comece configurando a conexão com o Supabase e a"
+      }, {
+        "text": " estruturação da página de Chat.\n```\n\n---\n\n### Dicas para o seu sucesso com o Lovable:\n\n1"
+      }, {
+        "text": ".  **Iteração:** O Lovable pode tentar criar o banco de dados novamente. Se ele pedir, diga:"
+      }, {
+        "text": " *\"O banco de dados já está pronto no Supabase, apenas consuma as tabelas existentes (user, plan, etc"
+      }, {
+        "text": ") nas suas funções e hooks.\"*\n2.  **Segurança:** A partir de agora, sempre que o"
+      }, {
+        "text": " Lovable criar uma função de busca de dados, peça: *\"Certifique-se de que a query respeita o"
+      }, {
+        "text": " user_id logado do Supabase\"*.\n3.  **Foco:** Se o Lovable começar a se"
+      }, {
+        "text": " distrair com design excessivo, lembre-o: *\"Foque na lógica do Motor de Agentes e na persist"
+      }, {
+        "text": "ência das respostas no banco, o design deve ser apenas funcional e limpo.\"*\n\nPodemos prosseguir com o desenvolvimento? Se"
+      }, {
+        "text": " você já tiver a conta no Lovable conectada ao Supabase, esses dois passos acima colocarão seu SaaS em movimento"
+      }, {
+        "text": " instantaneamente."
+      }, {
+        "text": "",
+        "thoughtSignature": "EjQKMgG+Pvb7Y+y286aTmr4s/i9REanxDt8Y+QTTpiZM8EwQcjFneyg4BamAcUgxAwfqnI8+"
+      }],
+      "createTime": "2026-03-15T10:24:09.875Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

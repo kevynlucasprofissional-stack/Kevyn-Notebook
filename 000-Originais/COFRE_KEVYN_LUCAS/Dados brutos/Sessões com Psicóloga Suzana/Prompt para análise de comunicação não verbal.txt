@@ -1,0 +1,368 @@
+Você vai analisar um vídeo de uma sessão/reunião terapêutica entre Kevyn e a
+psicóloga Suzana, ocorrida no dia 12.
+
+Seu objetivo é produzir uma análise profunda, metódica e responsável da
+comunicação não verbal, relacionando expressões faciais, olhar, postura, gestos,
+pausas, tom de voz e dinâmica relacional com o conteúdo verbal discutido no
+momento.
+
+Antes de começar, siga estas regras obrigatórias:
+
+1.  Não faça leitura de mente.
+
+2.  Não trate expressões faciais como prova direta de emoção, intenção ou
+    verdade.
+
+3.  Não diagnostique Kevyn nem Suzana.
+
+4.  Não use termos como “certeza”, “prova”, “evidentemente sente” ou “isso
+    significa que” quando estiver interpretando comunicação não verbal.
+
+5.  Sempre diferencie:
+
+      - fato observável;
+      - contexto verbal;
+      - hipótese interpretativa;
+      - hipótese alternativa;
+      - grau de confiança.
+
+6.  Não use FACS de forma falsa ou superficial. Só mencione FACS ou Action Units
+    se conseguir descrever claramente o movimento facial observado. Caso
+    contrário, use linguagem comum e factual.
+
+7.  Não transforme gestos isolados em grandes conclusões. Só dê peso analítico a
+    sinais que sejam:
+
+      - repetidos;
+      - ligados a uma mudança de tema;
+      - contrastantes com o comportamento habitual da pessoa;
+      - temporalmente conectados ao discurso;
+      - ou relevantes para a dinâmica terapêutica.
+
+8.  Se houver incerteza por baixa qualidade do vídeo, ângulo, iluminação, delay,
+    corte, áudio ruim ou tela compartilhada, diga explicitamente.
+
+9.  A análise deve servir como material de reflexão para terapia, não como
+    substituto da terapia.
+
+Se você tiver acesso à web, pesquise rapidamente boas práticas de análise de
+comunicação não verbal, expressões faciais e comunicação não verbal em
+psicoterapia. Use fontes confiáveis e cite-as de forma breve. Considere
+especialmente estes princípios:
+
+  - comunicação não verbal deve ser analisada em contexto;
+  - expressões faciais não devem ser interpretadas isoladamente;
+  - é necessário estabelecer uma linha de base de cada pessoa;
+  - é importante observar congruência e incongruência entre fala, corpo e tom;
+  - hipóteses devem ser apresentadas com cautela;
+  - em terapia, a dinâmica entre paciente e terapeuta é tão importante quanto os
+    sinais individuais.
+
+Analise o vídeo em camadas.
+
+CAMADA 1 — Metodologia e limites
+
+Comece explicando como você fará a análise. Diga quais canais serão observados:
+
+  - expressão facial;
+  - direção do olhar;
+  - movimentos de cabeça;
+  - postura;
+  - gestos das mãos;
+  - auto-toques/adaptadores;
+  - pausas e silêncios;
+  - respiração, suspiros ou risadas, se audíveis;
+  - tom, ritmo e volume da fala;
+  - sincronia, espelhamento ou desencontro entre Kevyn e Suzana;
+  - mudanças na dinâmica da conversa.
+
+Também explique os limites da análise:
+
+  - não é diagnóstico;
+  - não é leitura definitiva de emoções;
+  - não prova intenção;
+  - depende da qualidade do vídeo;
+  - deve ser usada como hipótese de reflexão.
+
+CAMADA 2 — Linha de base de Kevyn e Suzana
+
+Antes de interpretar momentos específicos, identifique o comportamento habitual
+de cada pessoa nos trechos mais neutros do vídeo.
+
+Para Kevyn, descreva:
+
+  - postura habitual;
+  - padrão de olhar;
+  - frequência de tocar no rosto, óculos, cabelo, fone ou corpo;
+  - padrão de sorriso;
+  - ritmo de fala;
+  - gestos comuns quando explica ideias;
+  - padrão quando está escutando;
+  - padrão quando parece organizar pensamentos.
+
+Para Suzana, descreva:
+
+  - postura habitual;
+  - padrão de olhar para Kevyn, para a câmera, para baixo ou para anotações;
+  - padrão de escuta;
+  - expressões faciais recorrentes;
+  - uso de sorriso;
+  - movimentos de cabeça;
+  - gestos de condução da sessão;
+  - momentos em que anota, pausa, intervém ou acompanha em silêncio.
+
+Não interprete ainda. Apenas descreva a linha de base.
+
+CAMADA 3 — Descrição factual por timestamps
+
+Crie uma linha do tempo com os momentos mais relevantes do vídeo.
+
+Para cada momento, use esta estrutura:
+
+Timestamp: Exemplo: 00:00–00:45
+
+Tema verbal discutido: Descreva objetivamente o assunto falado no momento.
+
+Fala ou resumo do que foi dito: Inclua uma frase curta ou paráfrase fiel.
+
+Comunicação não verbal de Kevyn: Descreva apenas o que é visível ou audível:
+
+  - expressão facial;
+  - olhar;
+  - postura;
+  - mãos;
+  - auto-toques;
+  - pausas;
+  - alterações de voz;
+  - risos;
+  - silêncio;
+  - movimentos de aproximação ou afastamento.
+
+Comunicação não verbal de Suzana: Descreva apenas o que é visível ou audível:
+
+  - expressão facial;
+  - olhar;
+  - postura;
+  - anotações;
+  - movimentos de cabeça;
+  - gestos;
+  - sorriso;
+  - pausas;
+  - alterações de voz;
+  - condução da interação.
+
+Dinâmica entre os dois: Observe se há:
+
+  - sincronia;
+  - interrupção;
+  - pausa compartilhada;
+  - acolhimento;
+  - tensão;
+  - mudança de ritmo;
+  - espelhamento;
+  - assimetria;
+  - reparo;
+  - aprofundamento;
+  - mudança de tema.
+
+CAMADA 4 — Relação entre não verbal e conteúdo verbal
+
+Depois da descrição factual, relacione cada momento ao conteúdo discutido.
+
+Para cada momento, responda:
+
+1.  O comportamento não verbal parece congruente ou incongruente com o que
+    estava sendo dito?
+2.  Houve mudança corporal quando o tema mudou?
+3.  Algum gesto apareceu em momentos de maior exposição emocional?
+4.  Algum gesto apareceu quando Kevyn estava tentando explicar, controlar,
+    justificar ou organizar algo?
+5.  Algum gesto de Suzana pareceu marcar acolhimento, espera, limite,
+    curiosidade, dúvida, surpresa ou condução clínica?
+6.  O que mudou na interação depois desse momento?
+
+Sempre formule em linguagem cautelosa:
+
+  - “pode sugerir”;
+  - “uma hipótese possível é”;
+  - “também pode ser apenas”;
+  - “não é possível concluir, mas chama atenção que”;
+  - “vale levar como pergunta para a terapia”.
+
+CAMADA 5 — Padrões repetidos de Kevyn
+
+Identifique padrões recorrentes na comunicação não verbal de Kevyn.
+
+Organize por temas, por exemplo:
+
+1.  Quando fala de controle.
+2.  Quando fala de vulnerabilidade.
+3.  Quando fala de vínculo, afeto ou solidão.
+4.  Quando fala de morte, medo, vazio ou angústia.
+5.  Quando fala de projetos, método, inteligência, mapas, sistemas ou
+    autoconhecimento.
+6.  Quando recebe uma intervenção de Suzana.
+7.  Quando concorda, discorda ou fica em silêncio.
+8.  Quando tenta explicar algo com precisão.
+9.  Quando parece se proteger, ganhar tempo ou reorganizar pensamento.
+10. Quando parece mais espontâneo ou vivo.
+
+Para cada padrão, traga:
+
+  - evidências com timestamps;
+  - descrição factual;
+  - hipótese principal;
+  - hipótese alternativa;
+  - grau de confiança: baixo, médio ou alto;
+  - pergunta terapêutica que esse padrão pode gerar.
+
+CAMADA 6 — Padrões repetidos de Suzana
+
+Identifique padrões recorrentes na comunicação não verbal de Suzana.
+
+Observe especialmente:
+
+1.  Como ela escuta Kevyn.
+2.  Quando ela anota.
+3.  Quando ela sorri.
+4.  Quando ela fica séria.
+5.  Quando ela apoia o rosto, toca o cabelo, olha para baixo ou faz pausas.
+6.  Quando ela intervém com perguntas.
+7.  Quando ela confronta de forma suave.
+8.  Quando ela valida.
+9.  Quando ela parece esperar Kevyn elaborar.
+10. Quando ela muda o ritmo da sessão.
+
+Para cada padrão, traga:
+
+  - evidências com timestamps;
+  - descrição factual;
+  - possível função clínica;
+  - hipótese alternativa;
+  - grau de confiança;
+  - efeito provável na dinâmica da sessão.
+
+CAMADA 7 — Análise da díade Kevyn–Suzana
+
+Agora analise a relação entre os dois, não apenas cada pessoa isoladamente.
+
+Observe:
+
+1.  Momentos em que Suzana regula o ritmo de Kevyn.
+2.  Momentos em que Kevyn acelera, intelectualiza ou tenta organizar demais.
+3.  Momentos em que Suzana desacelera, pontua ou devolve algo.
+4.  Momentos de maior conexão.
+5.  Momentos de possível desconforto.
+6.  Momentos de silêncio importante.
+7.  Momentos em que Kevyn parece sair da explicação e entrar mais em contato com
+    afeto.
+8.  Momentos em que Suzana parece funcionar como holding, limite, espelho ou
+    contraponto.
+9.  Momentos em que a terapia parece ficar mais viva, menos performática ou mais
+    espontânea.
+10. Momentos em que Kevyn parece buscar aprovação, validação ou segurança.
+
+Atenção: não trate isso como certeza. Trabalhe com hipóteses.
+
+CAMADA 8 — Momentos de maior valor terapêutico
+
+Selecione os 10 momentos mais importantes do vídeo do ponto de vista
+terapêutico.
+
+Para cada um, informe:
+
+  - timestamp;
+  - o que estava sendo dito;
+  - o que Kevyn fez não verbalmente;
+  - o que Suzana fez não verbalmente;
+  - por que esse momento é relevante;
+  - que hipótese ele levanta;
+  - que pergunta Kevyn poderia levar para Suzana;
+  - se é um momento de vulnerabilidade, defesa, insight, vínculo, resistência,
+    elaboração ou mudança de estado.
+
+CAMADA 9 — Hipóteses centrais
+
+Ao final, formule de 5 a 8 hipóteses centrais sobre a comunicação não verbal da
+sessão.
+
+Cada hipótese deve seguir este formato:
+
+Hipótese: Escreva em uma frase.
+
+Evidências: Liste os timestamps que sustentam.
+
+O que essa hipótese NÃO prova: Diga claramente o limite.
+
+Hipótese alternativa: Ofereça outra explicação possível.
+
+Utilidade terapêutica: Explique como Kevyn pode usar isso na próxima sessão sem
+transformar a análise em controle excessivo.
+
+CAMADA 10 — Perguntas para Kevyn levar à Suzana
+
+Crie uma lista de perguntas úteis, profundas e não acusatórias que Kevyn poderia
+levar para a psicóloga.
+
+As perguntas devem ajudar Kevyn a investigar:
+
+  - o que acontece no corpo quando ele fala de vínculo;
+  - o que acontece quando perde controle;
+  - o que acontece quando tenta ser um “bom paciente”;
+  - como diferenciar reflexão útil de performance terapêutica;
+  - como perceber defesas sem se julgar;
+  - como usar a análise não verbal sem substituir a experiência viva da terapia;
+  - como falar sobre desconforto diretamente com Suzana;
+  - como reconhecer momentos de vulnerabilidade real.
+
+As perguntas devem ser formuladas em primeira pessoa, como se Kevyn fosse dizer
+para Suzana.
+
+CAMADA 11 — Síntese final
+
+Finalize com uma síntese em 4 partes:
+
+1.  O que a comunicação não verbal revela de forma mais consistente.
+2.  O que deve ser tratado apenas como hipótese.
+3.  O que parece ser mais importante para o processo terapêutico.
+4.  Como Kevyn pode usar essa análise sem transformar a terapia em mais um
+    projeto de controle.
+
+Formato obrigatório da resposta:
+
+1. Método e limites da análise
+
+2. Linha de base de Kevyn e Suzana
+
+3. Linha do tempo factual com timestamps
+
+4. Relação entre comunicação não verbal e temas discutidos
+
+5. Padrões recorrentes de Kevyn
+
+6. Padrões recorrentes de Suzana
+
+7. Dinâmica relacional Kevyn–Suzana
+
+8. 10 momentos de maior valor terapêutico
+
+9. Hipóteses centrais
+
+10. Perguntas para levar à Suzana
+
+11. Síntese final
+
+Critérios de qualidade:
+
+  - Seja profundo, mas não invasivo.
+  - Seja clínico, mas não diagnostique.
+  - Seja interpretativo, mas sempre separado dos fatos.
+  - Não force conclusões.
+  - Não procure apenas confirmar uma teoria prévia sobre Kevyn.
+  - Dê atenção tanto aos momentos de defesa quanto aos momentos de abertura.
+  - Valorize silêncios, pausas e mudanças de ritmo.
+  - Use timestamps sempre que possível.
+  - Se o vídeo for longo, priorize os momentos de maior densidade emocional,
+    mudança corporal ou relevância terapêutica.
+  - Se houver transcrição junto com o vídeo, use a transcrição para alinhar fala
+    e comportamento não verbal.

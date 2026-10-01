@@ -1,0 +1,12 @@
+{
+  "zip": "/mnt/data/Playbook_Cofres_Obsidian_v1.0.zip",
+  "zip_bytes": 121755,
+  "zip_sha256": "7822365121e6e2b949db6aa435643d87d60052ed38a1ca45efa35f02f441f6ee",
+  "arquivos_origem": 27,
+  "arquivos_extraidos": 27,
+  "arvores_identicas": true,
+  "ausentes_na_extracao": [],
+  "extras_na_extracao": [],
+  "hashes_divergentes": [],
+  "auditoria_extraida": "/mnt/data/validacao_playbook_extraido_auditoria.json"
+}

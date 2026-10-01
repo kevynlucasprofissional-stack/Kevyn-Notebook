@@ -1,0 +1,82 @@
+---
+id: inteligencia-artificial-e-automacao
+titulo: Inteligência artificial e automação
+tipo: tema_pessoal
+status: auditado
+profundidade: avancada
+versao_schema: '1.0'
+versao_conteudo: '1.2'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-17
+fontes_primarias:
+- '[[Fonte - Conversas com ChatGPT]]'
+- '[[Fonte - Segundo cerebro consolidado]]'
+- '[[Fonte - Gerador de dossie]]'
+- '[[Fonte - Gerador de visao geral]]'
+- '[[Fonte - Materiais IMRIA e marketing 2025]]'
+- '[[Fonte - Palestra IA e pitches Espaco Prema 2025]]'
+- '[[Fonte - Notas profissionais e tecnicas 2025]]'
+fontes_derivadas:
+- '[[Fonte - Modus operandi]]'
+grau_confianca: alto
+sensibilidade: alta
+camada_evidencia: misto
+tags:
+- tipo/tema_pessoal
+- privacidade/restrita
+aliases:
+- Inteligência artificial e automação
+---
+# Inteligência artificial e automação
+
+## Uso documentado
+
+Kevyn utiliza ChatGPT e outras ferramentas generativas para texto, imagem, roteiro, pesquisa, síntese, criação de personas e apoio a processos. Também aparecem n8n, Supabase, ComfyUI, Stable Diffusion e estudos de Python/Data Science.
+
+## Competência comprovada
+
+O material mostra uso avançado como operador e arquiteto de prompts. Não há evidência suficiente para equiparar isso automaticamente a engenharia de software ou ciência de dados profissional.
+
+Os geradores de dossie e visao geral demonstram arquitetura de prompts aplicada ao proprio sistema de autoconhecimento: definicao de papel, escopo, filtros de evidencia, estrutura de saida e criterios de aceitacao. Isso sustenta competencia em desenho de interacoes com IA, com o limite de que prompt bem estruturado nao equivale a validacao factual nem a entrega fora do ambiente textual.
+
+## IMRIA e ferramentas externas
+
+[[Fonte - Materiais IMRIA e marketing 2025]] acrescenta evidencia de uso operacional de IA em 2025: manutencao de credencial Gemini, intencao de criar agente RAG a partir de curso e roteiros para uma oficina pratica de co-pilotos de IA. O material sustenta familiaridade com linguagem de automacao e oferta de IA aplicada, mas nao prova por si so a execucao tecnica completa dos co-pilotos nem a realizacao do evento.
+
+[[Fonte - Palestra IA e pitches Espaco Prema 2025]] aprofunda a mesma frente com planejamento de palestra sobre IA, demos, calculo de ROI, governanca, agentes/clones, roadmap de 90 dias e roteiro de ligacao para leads. O lote demonstra capacidade de traduzir IA em proposta comercial e educacional para empresarios, mantendo como pendente a confirmacao de execucao do evento.
+
+## Implementação técnica documentada
+
+As notas preservam estruturas SQL para PostgreSQL com extensao `pgvector` em tres contextos distintos (tabelas `esbelta`, `documents` e `hormozi`), com embeddings de 768 dimensoes, indices IVFFlat para busca por similaridade e funcoes `match_documents`/`match_hormozi` para busca semantica. A presenca dessas estruturas indica contato operacional com RAG e banco vetorial, sem confirmar autoria, execucao ou implantacao.
+
+## Framework AI First
+
+O documento "AI First" (agosto/setembro de 2025) registra um framework de 5 pilares — fundacao de dados, fluxos IA-nativos, playbooks e prompts, ciclo MLOps leve e governanca — aplicado ao contexto de projetos mencionados no documento. Autoria original do framework nao determinada (pode ter origem em material externo, IA ou adaptacao). Projetos especificos citados incluem CRM inteligente com lead scoring, automacao de criativos via ChatGPT + Canva, IA de clonagem facial, scanner corporal e assistente de dieta personalizado; implementacao nao confirmada.
+
+## Produtos e planejamento
+
+Notas de setembro de 2025 registram planejamento de produtos digitais no contexto do ecossistema Svelte: Svelteflix (streaming), Esbelta (agente de IA baseado no publico-alvo, com tom persuasivo e conhecimento de coach), funil gamificado com extracao de dados do cliente.
+
+O planejamento da Esbelta (setembro-outubro de 2025) detalha funcionalidades: suporte a membros do DS21, cardapio personalizado, lista de compras, mensagens motivacionais, avaliacao de fotos de pratos, coaching nutricional, matriz de mudanca e extracao de sabedoria de especialista. O documento inclui checklist de tarefas para extracao de conhecimento (transcricoes, catalogacao de casos, metodologias). O nome Esbelta tambem aparece em tabelas SQL pgvector, sugerindo conexao entre planejamento de produto e infraestrutura de dados. Nenhuma execucao confirmada pelas fontes.
+
+## Benefícios
+
+- prototipação rápida;
+- síntese de grandes volumes;
+- criação de conteúdo;
+- documentação;
+- automação de tarefas;
+- exploração de produtos.
+
+## Riscos
+
+- aceitar interpretação do modelo como verdade;
+- terceirizar julgamento;
+- produzir excesso de texto;
+- criar “clones” ou sistemas antes de haver necessidade;
+- expor dados sensíveis a serviços externos.
+
+## Regra do vault
+
+IA gera proposta; fonte direta, teste ou decisão humana determina o status.

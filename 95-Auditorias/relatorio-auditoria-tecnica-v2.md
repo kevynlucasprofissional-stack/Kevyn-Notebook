@@ -1,0 +1,375 @@
+# Relatório de auditoria técnica V2
+
+- Data: 2026-06-26T10:11:58-03:00
+- Raiz auditada: `C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo`
+- Escopo: `full`
+
+## Resumo
+
+- Total de arquivos: 1850
+- Total de notas Markdown: 1407
+- Total de links internos: 6207
+- Links quebrados restantes: 2451
+- Links resolvidos: 3756 (exatos=11, basename=3608, alias=137)
+- Referências de imagens/anexos: 0
+- Imagens/anexos ausentes: 0
+- YAML/frontmatter inválidos: 0
+- Frontmatter ausente: 225
+- Nomes duplicados de notas Markdown: 35
+- Arquivos `.pyc`: 0
+- Pastas `__pycache__`: 0
+
+## Infraestrutura
+
+- Controle-Integracao: presente
+- Controle-Integracao/Manifesto-Fontes.csv: presente
+- Controle-Integracao/Matriz-Cobertura.csv: presente
+- Controle-Integracao/CHECKSUMS-INTEGRACAO.txt: presente
+- Controle-Integracao/Ciclos: presente
+
+## Links quebrados por motivo
+
+### link_ambigua (2443)
+- `00-Inicio/Claims principais.md` :: `[[Rede familiar]]` -> 03-Relacionamentos-e-Rede/Rede familiar.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md
+- `00-Inicio/Claims principais.md` :: `[[Origens e infancia 2003 a 2021]]` -> 02-Cronologia-e-Memorias/Origens e infancia 2003 a 2021.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/02-Cronologia-e-Memorias/Origens e infancia 2003 a 2021.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Origens e infancia 2003 a 2021.md
+- `00-Inicio/Claims principais.md` :: `[[Kevyn Lucas]]` -> 01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+- `00-Inicio/Claims principais.md` :: `[[Sustentabilidade financeira e trabalho]]` -> 04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md, Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md
+- `00-Inicio/Claims principais.md` :: `[[Kevyn Lucas]]` -> 01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+- `00-Inicio/Claims principais.md` :: `[[Crise e reorganizacao 2025]]` -> 02-Cronologia-e-Memorias/Crise e reorganizacao 2025.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Crise e reorganizacao 2025.md
+- `00-Inicio/Claims principais.md` :: `[[Incendio e mudanca de 2025]]` -> 02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md
+- `00-Inicio/Claims principais.md` :: `[[Crise e reorganizacao 2025]]` -> 02-Cronologia-e-Memorias/Crise e reorganizacao 2025.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Crise e reorganizacao 2025.md
+- `00-Inicio/Claims principais.md` :: `[[Incendio e mudanca de 2025]]` -> 02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md
+- `00-Inicio/Claims principais.md` :: `[[ACIRV]]` -> 04-Trabalho-Vocacao-e-Projetos/ACIRV.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md
+- `00-Inicio/Claims principais.md` :: `[[Execucao sob pressao externa]]` -> 04-Trabalho-Vocacao-e-Projetos/Execucao sob pressao externa.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao sob pressao externa.md
+- `00-Inicio/Claims principais.md` :: `[[Espiritualidade como linguagem de sentido]]` -> 05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0029/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+- `00-Inicio/Claims principais.md` :: `[[Espiritualidade como linguagem de sentido]]` -> 05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0029/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+- `00-Inicio/Claims principais.md` :: `[[Linha do tempo mestre]]` -> 02-Cronologia-e-Memorias/Linha do tempo mestre.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md
+- `00-Inicio/Claims principais.md` :: `[[Sustentabilidade financeira e trabalho]]` -> 04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md, Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md
+- `00-Inicio/Claims principais.md` :: `[[Marketing comunicacao e processos]]` -> 04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md, Controle-Integracao/Ciclos/Ciclo-0026/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md, Controle-Integracao/Ciclos/Ciclo-0027/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md, Controle-Integracao/Ciclos/Ciclo-0027+/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md, Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/Kevyn Neo/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md, Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md
+- `00-Inicio/Claims principais.md` :: `[[ACIRV]]` -> 04-Trabalho-Vocacao-e-Projetos/ACIRV.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md
+- `00-Inicio/Claims principais.md` :: `[[Inteligencia artificial e automacao]]` -> 04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md
+- `00-Inicio/Claims principais.md` :: `[[Hoor Digital]]` -> 04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md, Controle-Integracao/Ciclos/Ciclo-0028/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md
+- `00-Inicio/Claims principais.md` :: `[[Hoor Digital]]` -> 04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md, Controle-Integracao/Ciclos/Ciclo-0028/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md
+- `00-Inicio/Claims principais.md` :: `[[Portfolio de projetos]]` -> 04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md
+- `00-Inicio/Claims principais.md` :: `[[Portfolio de projetos]]` -> 04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md
+- `00-Inicio/Claims principais.md` :: `[[Portfolio de projetos]]` -> 04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md
+- `00-Inicio/Claims principais.md` :: `[[Execucao versus complexidade]]` -> 04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md, Controle-Integracao/Ciclos/Ciclo-0028/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md
+- `00-Inicio/Claims principais.md` :: `[[Execucao sob pressao externa]]` -> 04-Trabalho-Vocacao-e-Projetos/Execucao sob pressao externa.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao sob pressao externa.md
+- `00-Inicio/Claims principais.md` :: `[[ACIRV]]` -> 04-Trabalho-Vocacao-e-Projetos/ACIRV.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md
+- `00-Inicio/Claims principais.md` :: `[[Execucao versus complexidade]]` -> 04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md, Controle-Integracao/Ciclos/Ciclo-0028/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md
+- `00-Inicio/Claims principais.md` :: `[[Espiritualidade como linguagem de sentido]]` -> 05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0029/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+- `00-Inicio/Claims principais.md` :: `[[Kevyn Lucas]]` -> 01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+- `00-Inicio/Claims principais.md` :: `[[Hoor Digital]]` -> 04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md, Controle-Integracao/Ciclos/Ciclo-0028/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md
+- `00-Inicio/MOC Geral.md` :: `[[Kevyn Lucas]]` -> 01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+- `00-Inicio/MOC Geral.md` :: `[[Rede familiar]]` -> 03-Relacionamentos-e-Rede/Rede familiar.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md
+- `00-Inicio/MOC Geral.md` :: `[[Espiritualidade como linguagem de sentido]]` -> 05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0029/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+- `00-Inicio/MOC Geral.md` :: `[[Linha do tempo mestre]]` -> 02-Cronologia-e-Memorias/Linha do tempo mestre.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md
+- `00-Inicio/MOC Geral.md` :: `[[Portfolio de projetos]]` -> 04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md
+- `00-Inicio/MOC Geral.md` :: `[[Kevyn Lucas]]` -> 01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+- `00-Inicio/MOC Geral.md` :: `[[Linha do tempo mestre]]` -> 02-Cronologia-e-Memorias/Linha do tempo mestre.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md
+- `00-Inicio/MOC Geral.md` :: `[[Portfolio de projetos]]` -> 04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md
+- `00-Inicio/MOC Geral.md` :: `[[Kevyn Lucas]]` -> 01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+- `00-Inicio/MOC Geral.md` :: `[[Rede familiar]]` -> 03-Relacionamentos-e-Rede/Rede familiar.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md
+- `00-Inicio/MOC Geral.md` :: `[[Linha do tempo mestre]]` -> 02-Cronologia-e-Memorias/Linha do tempo mestre.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md
+- `00-Inicio/MOC Geral.md` :: `[[Portfolio de projetos]]` -> 04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md
+- `00-Inicio/MOC Geral.md` :: `[[ACIRV]]` -> 04-Trabalho-Vocacao-e-Projetos/ACIRV.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md
+- `00-Inicio/MOC Geral.md` :: `[[Salus e Capital Green]]` -> 04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md, Controle-Integracao/Ciclos/Ciclo-0029/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md, Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md, Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/Kevyn Neo/04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md, Controle-Integracao/Ciclos/Ciclo-0033/Backups-Antes/Kevyn Neo/04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md
+- `00-Inicio/MOC Geral.md` :: `[[Crise e reorganizacao 2025]]` -> 02-Cronologia-e-Memorias/Crise e reorganizacao 2025.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Crise e reorganizacao 2025.md
+- `00-Inicio/MOC Geral.md` :: `[[Incendio e mudanca de 2025]]` -> 02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md
+- `00-Inicio/MOC Geral.md` :: `[[Espiritualidade como linguagem de sentido]]` -> 05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0029/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md, Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+- `00-Inicio/MOC Geral.md` :: `[[Narrativa de grandeza e vida comum]]` -> 01-Perfil-e-Autoconhecimento/Narrativa de grandeza e vida comum.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/01-Perfil-e-Autoconhecimento/Narrativa de grandeza e vida comum.md
+- `00-Inicio/MOC Geral.md` :: `[[Execucao versus complexidade]]` -> 04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md, Controle-Integracao/Ciclos/Ciclo-0028/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md
+- `00-Inicio/MOC Geral.md` :: `[[Kevyn Lucas]]` -> 01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md, Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+- ... 2393 adicionais omitidos
+
+### nota_inexistente_mas_conceitualmente_importante (8)
+- `Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/03-Relacionamentos-e-Rede/Rede de relacoes.md` :: `[[Avo Silvana]]`
+- `Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md` :: `[[Avo Silvana]]`
+- `Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/03-Relacionamentos-e-Rede/Rede de relacoes.md` :: `[[Avo Silvana]]`
+- `Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md` :: `[[Avo Silvana]]`
+- `Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/03-Relacionamentos-e-Rede/Rede de relacoes.md` :: `[[Avo Silvana]]`
+- `Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md` :: `[[Avo Silvana]]`
+- `Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md` :: `\[[COMO FAÇ...`
+- `\[[Fonte - SRC-000788 - Liber Vendas, uma introdução]]`
+- `Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md` :: `\[[Al...`
+- `\[[Fonte - SRC-000450 - Afazeres profissionais]]`
+
+## Imagens e anexos
+
+- Nenhum anexo ou imagem ausente detectado.
+
+## Duplicatas de nomes
+
+- `acirv`
+  - 04-Trabalho-Vocacao-e-Projetos/ACIRV.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/ACIRV.md
+- `crise e reorganizacao 2025`
+  - 02-Cronologia-e-Memorias/Crise e reorganizacao 2025.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Crise e reorganizacao 2025.md
+- `duplicacoes e contradicoes`
+  - Controle-Integracao/Backups-Revisao/Ciclo-0006-finalizacao-20260618-004546/Ciclo-0006/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0001/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0002/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0003/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0004/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0005/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0006/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0007/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0008/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0009/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0010/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0011/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0026/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0027/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0028/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0029/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0031/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0032/Duplicacoes-e-Contradicoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0033/Duplicacoes-e-Contradicoes.md
+- `espiritualidade como linguagem de sentido`
+  - 05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+  - Controle-Integracao/Ciclos/Ciclo-0029/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/05-Sonhos-Simbolos-e-Espiritualidade/Espiritualidade como linguagem de sentido.md
+- `estado da integracao`
+  - 95-Auditorias/Estado da integracao.md
+  - Controle-Integracao/Ciclos/Ciclo-0026/Backups-Antes/95-Auditorias/Estado da integracao.md
+  - Controle-Integracao/Ciclos/Ciclo-0027/Backups-Antes/95-Auditorias/Estado da integracao.md
+  - Controle-Integracao/Ciclos/Ciclo-0027+/Backups-Antes/95-Auditorias/Estado da integracao.md
+  - Controle-Integracao/Ciclos/Ciclo-0028/Backups-Antes/95-Auditorias/Estado da integracao.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/Kevyn Neo/95-Auditorias/Estado da integracao.md
+  - Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/95-Auditorias/Estado da integracao.md
+  - Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/95-Auditorias/Estado da integracao.md
+  - Controle-Integracao/Ciclos/Ciclo-0033/Backups-Antes/Kevyn Neo/95-Auditorias/Estado da integracao.md
+- `execucao sob pressao externa`
+  - 04-Trabalho-Vocacao-e-Projetos/Execucao sob pressao externa.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao sob pressao externa.md
+- `execucao versus complexidade`
+  - 04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md
+  - Controle-Integracao/Ciclos/Ciclo-0028/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Execucao versus complexidade.md
+- `filosofia e psicologia`
+  - 08-Estudos-e-Referencias/Filosofia e psicologia.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/08-Estudos-e-Referencias/Filosofia e psicologia.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/08-Estudos-e-Referencias/Filosofia e psicologia.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/08-Estudos-e-Referencias/Filosofia e psicologia.md
+- `hoor digital`
+  - 04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md
+  - Controle-Integracao/Ciclos/Ciclo-0028/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Hoor Digital.md
+- `incendio e mudanca de 2025`
+  - 02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/02-Cronologia-e-Memorias/Incendio e mudanca de 2025.md
+- `inteligencia artificial e automacao`
+  - 04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md
+- `kevyn lucas`
+  - 01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+  - Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+  - Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/01-Perfil-e-Autoconhecimento/Kevyn Lucas.md
+- `lethicia`
+  - 03-Relacionamentos-e-Rede/Lethicia.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/03-Relacionamentos-e-Rede/Lethicia.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/03-Relacionamentos-e-Rede/Lethicia.md
+- `linha do tempo mestre`
+  - 02-Cronologia-e-Memorias/Linha do tempo mestre.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/02-Cronologia-e-Memorias/Linha do tempo mestre.md
+- `mari e a experiencia de idealizacao`
+  - 03-Relacionamentos-e-Rede/Mari e a experiencia de idealizacao.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/03-Relacionamentos-e-Rede/Mari e a experiencia de idealizacao.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/03-Relacionamentos-e-Rede/Mari e a experiencia de idealizacao.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/03-Relacionamentos-e-Rede/Mari e a experiencia de idealizacao.md
+- `marketing comunicacao e processos`
+  - 04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md
+  - Controle-Integracao/Ciclos/Ciclo-0026/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md
+  - Controle-Integracao/Ciclos/Ciclo-0027/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md
+  - Controle-Integracao/Ciclos/Ciclo-0027+/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/Kevyn Neo/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md
+  - Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md
+- `narrativa de grandeza e vida comum`
+  - 01-Perfil-e-Autoconhecimento/Narrativa de grandeza e vida comum.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/01-Perfil-e-Autoconhecimento/Narrativa de grandeza e vida comum.md
+- `origens e infancia 2003 a 2021`
+  - 02-Cronologia-e-Memorias/Origens e infancia 2003 a 2021.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/02-Cronologia-e-Memorias/Origens e infancia 2003 a 2021.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/02-Cronologia-e-Memorias/Origens e infancia 2003 a 2021.md
+- `pendencias`
+  - Controle-Integracao/Backups-Revisao/Ciclo-0006-finalizacao-20260618-004546/Ciclo-0006/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0001/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0002/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0003/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0004/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0005/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0006/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0007/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0008/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0009/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0010/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0011/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0026/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0027/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0028/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0029/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0031/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0032/Pendencias.md
+  - Controle-Integracao/Ciclos/Ciclo-0033/Pendencias.md
+- `plano de mudancas`
+  - Controle-Integracao/Backups-Revisao/Ciclo-0006-finalizacao-20260618-004546/Ciclo-0006/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0001/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0002/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0003/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0004/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0005/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0006/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0007/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0008/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0009/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0010/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0011/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0026/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0027/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0028/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0029/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0031/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0032/Plano-de-Mudancas.md
+  - Controle-Integracao/Ciclos/Ciclo-0033/Plano-de-Mudancas.md
+- `portfolio de projetos`
+  - 04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md
+- `rede de relacoes`
+  - 03-Relacionamentos-e-Rede/Rede de relacoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/03-Relacionamentos-e-Rede/Rede de relacoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/03-Relacionamentos-e-Rede/Rede de relacoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/03-Relacionamentos-e-Rede/Rede de relacoes.md
+- `rede familiar`
+  - 03-Relacionamentos-e-Rede/Rede familiar.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/03-Relacionamentos-e-Rede/Rede familiar.md
+- `registro de decisoes`
+  - Controle-Integracao/Backups-Revisao/Ciclo-0006-finalizacao-20260618-004546/Registro-de-Decisoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/Controle-Integracao/Registro-de-Decisoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0026/Backups-Antes/Controle-Integracao/Registro-de-Decisoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0027/Backups-Antes/Controle-Integracao/Registro-de-Decisoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0028/Backups-Antes/Controle-Integracao/Registro-de-Decisoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0029/Backups-Antes/Controle-Integracao/Registro-de-Decisoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/Controle-Integracao/Registro-de-Decisoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/Kevyn Neo/Controle-Integracao/Registro-de-Decisoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/Controle-Integracao/Registro-de-Decisoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/Controle-Integracao/Registro-de-Decisoes.md
+  - Controle-Integracao/Ciclos/Ciclo-0033/Backups-Antes/Kevyn Neo/Controle-Integracao/Registro-de-Decisoes.md
+  - Controle-Integracao/Registro-de-Decisoes.md
+- `relatorio acumulado`
+  - Controle-Integracao/Backups-Revisao/Ciclo-0006-finalizacao-20260618-004546/Relatorio-Acumulado.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/Controle-Integracao/Relatorio-Acumulado.md
+  - Controle-Integracao/Ciclos/Ciclo-0026/Backups-Antes/Controle-Integracao/Relatorio-Acumulado.md
+  - Controle-Integracao/Ciclos/Ciclo-0027/Backups-Antes/Controle-Integracao/Relatorio-Acumulado.md
+  - Controle-Integracao/Ciclos/Ciclo-0028/Backups-Antes/Controle-Integracao/Relatorio-Acumulado.md
+  - Controle-Integracao/Ciclos/Ciclo-0029/Backups-Antes/Controle-Integracao/Relatorio-Acumulado.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/Controle-Integracao/Relatorio-Acumulado.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/Kevyn Neo/Controle-Integracao/Relatorio-Acumulado.md
+  - Controle-Integracao/Ciclos/Ciclo-0031/Backups-Antes/Controle-Integracao/Relatorio-Acumulado.md
+  - Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/Controle-Integracao/Relatorio-Acumulado.md
+  - Controle-Integracao/Ciclos/Ciclo-0033/Backups-Antes/Kevyn Neo/Controle-Integracao/Relatorio-Acumulado.md
+  - Controle-Integracao/Relatorio-Acumulado.md
+- `resumo`
+  - Controle-Revisao-100/Ciclos/R01/Resumo.md
+  - Controle-Revisao-100/Ciclos/R03/Resumo.md
+- `resumo do ciclo`
+  - Controle-Integracao/Backups-Revisao/Ciclo-0006-finalizacao-20260618-004546/Ciclo-0006/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0001/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0002/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0003/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0004/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0005/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0006/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0007/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0008/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0009/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0010/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0011/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0026/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0027/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0028/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0029/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0031/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0032/Resumo-do-Ciclo.md
+  - Controle-Integracao/Ciclos/Ciclo-0033/Resumo-do-Ciclo.md
+- `revisao corretiva`
+  - Controle-Integracao/Backups-Revisao/Ciclo-0006-finalizacao-20260618-004546/Ciclo-0006/Revisao-Corretiva.md
+  - Controle-Integracao/Ciclos/Ciclo-0006/Revisao-Corretiva.md
+- `salus e capital green`
+  - 04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md
+  - Controle-Integracao/Ciclos/Ciclo-0029/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/Kevyn Neo/04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md
+  - Controle-Integracao/Ciclos/Ciclo-0033/Backups-Antes/Kevyn Neo/04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md
+- `salus e desafio svelte`
+  - 02-Cronologia-e-Memorias/Salus e Desafio Svelte.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/02-Cronologia-e-Memorias/Salus e Desafio Svelte.md
+  - Controle-Integracao/Ciclos/Ciclo-0026/Backups-Antes/02-Cronologia-e-Memorias/Salus e Desafio Svelte.md
+  - Controle-Integracao/Ciclos/Ciclo-0027/Backups-Antes/02-Cronologia-e-Memorias/Salus e Desafio Svelte.md
+  - Controle-Integracao/Ciclos/Ciclo-0027+/Backups-Antes/02-Cronologia-e-Memorias/Salus e Desafio Svelte.md
+  - Controle-Integracao/Ciclos/Ciclo-0030/Backups-Antes/Kevyn Neo/02-Cronologia-e-Memorias/Salus e Desafio Svelte.md
+- `saude mental registros e limites`
+  - 06-Saude-Autocuidado-e-Autorregulacao/Saude mental - registros e limites.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/06-Saude-Autocuidado-e-Autorregulacao/Saude mental - registros e limites.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/06-Saude-Autocuidado-e-Autorregulacao/Saude mental - registros e limites.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/06-Saude-Autocuidado-e-Autorregulacao/Saude mental - registros e limites.md
+- `sirio`
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sirio.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sirio.md
+- `sono e ritmo diario`
+  - 06-Saude-Autocuidado-e-Autorregulacao/Sono e ritmo diario.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/06-Saude-Autocuidado-e-Autorregulacao/Sono e ritmo diario.md
+- `sustentabilidade financeira e trabalho`
+  - 04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md
+  - Controle-Integracao/Ciclos/Ciclo-0023/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md
+  - Controle-Integracao/Ciclos/Ciclo-0024/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md
+  - Controle-Integracao/Ciclos/Ciclo-0025/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md
+  - Controle-Integracao/Ciclos/Ciclo-0032/Backups-Antes/04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md
+- `tecnologia ia e automacao`
+  - 08-Estudos-e-Referencias/Tecnologia IA e automacao.md
+  - Controle-Integracao/Ciclos/Ciclo-0028/Backups-Antes/08-Estudos-e-Referencias/Tecnologia IA e automacao.md
+
+## Observações
+
+- 225 nota(s) com frontmatter inválido ou ausente.
+- 35 basename(s) duplicado(s) entre notas Markdown.
+- Há links conceitualmente importantes sem nota correspondente; considerar curadoria ou texto simples.
+- A infraestrutura de integração já existe; o foco pode ficar em robustez e limpeza, não em recriação total.
+
+## Próximo passo recomendado
+
+Remover resíduos técnicos restantes, publicar o relatório e então atacar apenas os links mais prováveis de correção segura.

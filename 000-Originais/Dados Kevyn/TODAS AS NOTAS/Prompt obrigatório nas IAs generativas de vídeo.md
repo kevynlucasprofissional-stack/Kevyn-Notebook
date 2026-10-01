@@ -1,0 +1,1 @@
+Quero dar vida a esta imagem, mas não quero que você descreva a imagem, quero que você descreva o movimento que ela fará. A IA generativa de vídeo apenas entende o movimento.

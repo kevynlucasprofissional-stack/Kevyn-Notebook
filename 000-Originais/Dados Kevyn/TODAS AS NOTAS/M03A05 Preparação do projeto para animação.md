@@ -1,0 +1,1 @@
+Ao clicar em um Parâmetro, dá para aumentar ou diminuir o seu valor pelas setinhas de cima e baixo.

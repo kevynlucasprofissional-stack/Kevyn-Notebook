@@ -1,0 +1,2 @@
+Ele ensinou a fazer um efeito legal que pode ser usado em conjunto com transições e diversos outros. Se resume a usar pré-composições de uma cena já editada com preenchimento de cores variadas, que se complementam de preferência. Assim se criará algo como uma "Sombra" das pré-composição, que adiciona um pouco de estilo a edição. 
+Lembrando que para dar certo é necessário colocar uma diferença de posição entre a pre-composição original e as com preenchimento.

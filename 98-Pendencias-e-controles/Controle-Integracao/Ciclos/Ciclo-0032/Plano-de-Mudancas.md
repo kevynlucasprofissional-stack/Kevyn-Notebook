@@ -1,0 +1,8 @@
+# Plano de Mudancas
+
+| Unidade | Nota de destino | Operacao | Justificativa | Impacto | Frontmatter afetado | Links e MOCs afetados | Risco de duplicacao | Risco interpretativo | Validacao prevista |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| SRC-000126 | Sustentabilidade financeira e trabalho.md | ampliar | Restaurar proveniencia de iscas e monetizacao sem inflar o tema financeiro. | 1 nota e 1 bloco de proveniencia. | fontes_primarias, versao_conteudo, ultima_revisao | Sustentabilidade financeira e trabalho | baixo | baixo | confirmar que a nota continuou a falar de trabalho e sustentabilidade, nao de receita comprovada. |
+| SRC-000127 | Kevyn Lucas.md | ampliar | Restaurar proveniencia do lancamento do Desafio Svelte como evidencia de campanha. | 1 nota e 1 bloco de proveniencia. | fontes_primarias, versao_conteudo, ultima_revisao | Kevyn Lucas | baixo | baixo | confirmar que a linha ficou curta e biografica. |
+| SRC-000128 | Kevyn Lucas.md | ampliar | Restaurar a linha editorial original como estudo aplicado de posicionamento. | 1 nota e 1 bloco de proveniencia. | fontes_primarias, versao_conteudo, ultima_revisao | Kevyn Lucas | baixo | baixo | verificar se a linha nao virou texto tematico bruto. |
+| SRC-000129 | Kevyn Lucas.md | ampliar | Restaurar a versao GPT da linha editorial como evidencia de refinamento de copy. | 1 nota e 1 bloco de proveniencia. | fontes_primarias, versao_conteudo, ultima_revisao | Kevyn Lucas | baixo | baixo | confirmar que a comparacao entre versoes permaneceu como evidencia. |

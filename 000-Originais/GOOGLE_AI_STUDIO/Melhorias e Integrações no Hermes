@@ -1,0 +1,141 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.8-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_MEDIUM",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "enableWordTimestamps": false,
+    "enableSpeakerDiarization": false,
+    "enablePolishedTranscript": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveAudio": {
+        "id": "1cYG--F83dig6nG5VAj-LIWpb2FE5mTpH"
+      },
+      "role": "user",
+      "tokenCount": 10820,
+      "createTime": "2026-09-15T01:28:11.876Z"
+    }, {
+      "text": "Transcreva",
+      "role": "user",
+      "tokenCount": 3,
+      "createTime": "2026-09-15T01:28:11.876Z"
+    }, {
+      "text": "**Analyzing Portuguese Audio**\n\nI\u0027ve started transcribing the Portuguese audio. So far, I\u0027ve got the initial snippet: \"O que eu já percebi é o seguinte: que a aba do Vault ficou... É... pelo me-... é um MVP, né? Um um negócio assim meio que pra...\" I\u0027m continuing to listen and transcribe, focusing on accuracy in the Portuguese.\n\n\n**Refining Transcription \u0026 Concepts**\n\nI\u0027ve made headway transcribing further portions, including thoughts on future open-source project integration, specifically NotebookLM alternatives within Obsidian. I\u0027m also now pondering naming conventions, potentially shifting from \"Vault\" to something more descriptive, like \"PKM\" or \"Notes,\" even \"Learn.\" The goal\u0027s a blend of Anki, Obsidian, and Gemini Notebook.\n\n\n",
+      "role": "model",
+      "tokenCount": 1984,
+      "isThought": true,
+      "parts": [{
+        "text": "**Analyzing Portuguese Audio**\n\nI\u0027ve started transcribing the Portuguese audio. So far, I\u0027ve got the initial snippet: \"O que eu já percebi é o seguinte: que a aba do Vault ficou... É... pelo me-... é um MVP, né? Um um negócio assim meio que pra...\" I\u0027m continuing to listen and transcribe, focusing on accuracy in the Portuguese.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining Transcription \u0026 Concepts**\n\nI\u0027ve made headway transcribing further portions, including thoughts on future open-source project integration, specifically NotebookLM alternatives within Obsidian. I\u0027m also now pondering naming conventions, potentially shifting from \"Vault\" to something more descriptive, like \"PKM\" or \"Notes,\" even \"Learn.\" The goal\u0027s a blend of Anki, Obsidian, and Gemini Notebook.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-09-15T01:28:11.877Z"
+    }, {
+      "text": "Segue a transcrição do áudio:\n\n\"O que eu já percebi é o seguinte: que a aba do Vault ficou... é... pelo me-... é um MVP, né? É um negócio assim meio que pra começar. Ficou interessante. Me deu uma perspectiva assim do que que pode ser, só que ainda precisa melhorar demais da conta. \n\nÉ... Eu, futuramente, eu quero colocar também os projetos open sources que... é o NotebookLM, né? É o Gemini Notebook... os projetos open sources alternativos do Gemini Notebook no Obsidian. Eu vou eu vou mudar aquela... aquela... o nome talvez de em vez de Vault, em vez de cofre, às vezes pra PKM... ou... não sei, pra alguma coisa tipo Notas, Notes, talvez, entendeu? Alguma coisa assim. O objetivo é que... ou Aprenda, Learn, né? Aprendizado, alguma coisa assim. O objetivo é que aquilo ali seja uma mistura de Anki com repetição espaçada, com Obsidian e com o Gemini Notebook, tudo junto. Tudo meio que junto.\n\nE eu tô começando a pensar que talvez a gente possa integrar também o... o KTools no... dentro dentro do... dentro do próprio... dentro do próprio Hermes Work... Hermes Work, talvez como... como funções, sabe? Ajustes que eu já percebi atualmente seria que o... a aba do Vault precisa melhorar demais da conta. Ela ela tá no início ali, é uma ideia, mas precisa melhorar muito. A parte de visualização de grafo também não tá funcionando. O ícone na barra de tarefas do Hermes Work não é o ícone... não tá aparecendo o ícone, tipo de documento em branco, documento sem extensão. Tem que aparecer o ícone que eu criei, que é aquele da menininha. \n\nÉ, outra coisa: eu acho que poderia ser interessante se eu conseguisse, que nem no ChatGPT, sabe? Só que pegar plugins... Eu eu colocar plugins, por exemplo, que... é... que... É, apesar de que... o ChatGPT ele tem integração com com, por exemplo, com o Lovable, com o GitHub. Eu não sei o que que ele faz, não, mas ele consegue ler com muita facilidade. Apesar de que com a função de browser o Hermes ele vai conseguir ler o Lovable, vai conseguir ler o o GitHub, tudo com muita facilidade. Vai conseguir trabalhar com os dois, trabalhar com o próprio ChatGPT ao mesmo tempo, trabalhar tudo junto.\n\nÉ... mas talvez fosse interessante a gente ter uma algo parecido com isso, sabe? Ah, eu acho que nos nas seções também deveria a gente deveria ter um comando que que a gente pudesse marcar os cartões do Kanban, por exemplo. É, coloca algum caractere especial, o nome do cartão ou tipo Kanban, #ID, KBID, aí o número do do cartão, alguma coisa assim. E aí aí, por exemplo, eu falasse que tem que fazer alguma coisa com aquele cartão, sei lá, alguma coisa assim. \n\nÉ, nas quando a gente vai criar um um um quadro novo quadro Kanban, deveria ter uma configuração ali de tipo se vai ser híbrido ou se vai ser agente online, se vai ser um quadro só pra agente ou se vai ser híbrido. O quadro só pra agentes ele eu não mexo nele, entendeu? É, ele é só o agente. Aí se for híbrido, aí o humano e o agente pode mexer. Aí nesse quadro híbrido tem que ter tanto os... as colu-... dá tem que ter, tipo assim, tem que ser possível tanto eu... eu criar novas colunas, excluir colunas, criar cartões, entendeu? Tipo um Trello mesmo. \n\nE eu já vi que a IA ela vai desenvolvendo, só que ela não faz tudo o que eu pedi de primeira. Então, tem que ficar repetindo pra ela fazer certos pontos.\"",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 804,
+      "parts": [{
+        "text": "Segue a transcrição do áudio:\n\n"
+      }, {
+        "text": "\"O que eu já percebi é o seguinte: que a aba do Vault ficou... é... pelo me-... é um MVP, né? É um"
+      }, {
+        "text": " negócio assim meio que pra começar. Ficou interessante. Me deu uma perspectiva assim do que que pode ser, só que ainda precisa melhorar demais da conta"
+      }, {
+        "text": ". \n\nÉ... Eu, futuramente, eu quero colocar também os projetos open sources que... é o NotebookLM, né? É"
+      }, {
+        "text": " o Gemini Notebook... os projetos open sources alternativos do Gemini Notebook no Obsidian. Eu vou eu vou mudar aquela... aquela... o nome talvez"
+      }, {
+        "text": " de em vez de Vault, em vez de cofre, às vezes pra PKM... ou... não sei, pra alguma coisa tipo Notas, Notes,"
+      }, {
+        "text": " talvez, entendeu? Alguma coisa assim. O objetivo é que... ou Aprenda, Learn, né? Aprendizado, alguma"
+      }, {
+        "text": " coisa assim. O objetivo é que aquilo ali seja uma mistura de Anki com repetição espaçada, com Obsidian e com o Gemini Notebook"
+      }, {
+        "text": ", tudo junto. Tudo meio que junto.\n\nE eu tô começando a pensar que talvez a gente possa integrar também o... o"
+      }, {
+        "text": " KTools no... dentro dentro do... dentro do próprio... dentro do próprio Hermes Work... Hermes Work, talvez como... como funções, sabe?"
+      }, {
+        "text": " Ajustes que eu já percebi atualmente seria que o... a aba do Vault precisa melhorar demais da conta. Ela ela tá no início"
+      }, {
+        "text": " ali, é uma ideia, mas precisa melhorar muito. A parte de visualização de grafo também não tá funcionando. O ícone na barra de tarefas do"
+      }, {
+        "text": " Hermes Work não é o ícone... não tá aparecendo o ícone, tipo de documento em branco, documento sem extensão. Tem"
+      }, {
+        "text": " que aparecer o ícone que eu criei, que é aquele da menininha. \n\nÉ, outra coisa:"
+      }, {
+        "text": " eu acho que poderia ser interessante se eu conseguisse, que nem no ChatGPT, sabe? Só que pegar plugins... Eu"
+      }, {
+        "text": " eu colocar plugins, por exemplo, que... é... que... É, apesar de que... o ChatGPT ele tem integração com com, por exemplo,"
+      }, {
+        "text": " com o Lovable, com o GitHub. Eu não sei o que que ele faz, não, mas ele consegue ler"
+      }, {
+        "text": " com muita facilidade. Apesar de que com a função de browser o Hermes ele vai conseguir ler o Lovable, vai"
+      }, {
+        "text": " conseguir ler o o GitHub, tudo com muita facilidade. Vai conseguir trabalhar com os dois, trabalhar com o próprio ChatGPT ao mesmo tempo, trabalhar tudo"
+      }, {
+        "text": " junto.\n\nÉ... mas talvez fosse interessante a gente ter uma algo parecido com isso, sabe? Ah, eu acho que nos"
+      }, {
+        "text": " nas seções também deveria a gente deveria ter um comando que que a gente pudesse marcar os cartões do Kanban, por exemplo"
+      }, {
+        "text": ". É, coloca algum caractere especial, o nome do cartão ou tipo Kanban, #ID, KBID, aí o número do do cartão, alguma"
+      }, {
+        "text": " coisa assim. E aí aí, por exemplo, eu falasse que tem que fazer alguma coisa com aquele cartão, sei lá, alguma coisa assim."
+      }, {
+        "text": " \n\nÉ, nas quando a gente vai criar um um um quadro novo quadro Kanban, deveria ter uma configuração ali de"
+      }, {
+        "text": " tipo se vai ser híbrido ou se vai ser agente online, se vai ser um quadro só pra agente ou se vai ser híbrido."
+      }, {
+        "text": " O quadro só pra agentes ele eu não mexo nele, entendeu? É, ele é só o agente. Aí se for híbrido, aí o"
+      }, {
+        "text": " humano e o agente pode mexer. Aí nesse quadro híbrido tem que ter tanto os... as colu-... dá tem que"
+      }, {
+        "text": " ter, tipo assim, tem que ser possível tanto eu... eu criar novas colunas, excluir colunas, criar cartões,"
+      }, {
+        "text": " entendeu? Tipo um Trello mesmo. \n\nE eu já vi que a IA ela vai desenvolvendo, só que ela"
+      }, {
+        "text": " não faz tudo o que eu pedi de primeira. Então, tem que ficar repetindo pra ela fazer certos pontos.\""
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-09-15T01:28:19.769Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

@@ -1,0 +1,1 @@
+Trabalha com sistema de Poses, criando controladores de movimentação simulando uma perspectiva nos objetos.

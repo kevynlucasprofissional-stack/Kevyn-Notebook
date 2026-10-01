@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"portfolio","type":"file","file":"04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md","x":0,"y":0,"width":360,"height":220},
+		{"id":"criteria","type":"file","file":"07-Planos-e-Decisoes/Criterios de decisao para projetos.md","x":-450,"y":-320,"width":360,"height":220},
+		{"id":"kanban","type":"file","file":"07-Planos-e-Decisoes/Kanban de projetos.md","x":0,"y":-320,"width":360,"height":220},
+		{"id":"parking","type":"file","file":"07-Planos-e-Decisoes/Estacionamento de ideias.md","x":450,"y":-320,"width":360,"height":220},
+		{"id":"neuron","type":"file","file":"04-Trabalho-Vocacao-e-Projetos/Projeto Neuron.md","x":-850,"y":350,"width":360,"height":220},
+		{"id":"cosmo","type":"file","file":"04-Trabalho-Vocacao-e-Projetos/Projeto Cosmo.md","x":-420,"y":350,"width":360,"height":220},
+		{"id":"bela","type":"file","file":"04-Trabalho-Vocacao-e-Projetos/Bela Ja.md","x":10,"y":350,"width":360,"height":220},
+		{"id":"atom","type":"file","file":"04-Trabalho-Vocacao-e-Projetos/Atom.md","x":440,"y":350,"width":360,"height":220},
+		{"id":"salus","type":"file","file":"04-Trabalho-Vocacao-e-Projetos/Salus e Capital Green.md","x":870,"y":350,"width":360,"height":220}
+	],
+	"edges":[
+		{"id":"e01","fromNode":"criteria","toNode":"portfolio","label":"avalia","fromSide":"bottom","toSide":"top"},
+		{"id":"e02","fromNode":"kanban","toNode":"portfolio","label":"operacionaliza","fromSide":"bottom","toSide":"top"},
+		{"id":"e03","fromNode":"parking","toNode":"portfolio","label":"limita","fromSide":"bottom","toSide":"top"},
+		{"id":"e04","fromNode":"portfolio","toNode":"neuron","label":"inclui","fromSide":"left","toSide":"right"},
+		{"id":"e05","fromNode":"portfolio","toNode":"cosmo","label":"inclui","fromSide":"bottom","toSide":"top"},
+		{"id":"e06","fromNode":"portfolio","toNode":"bela","label":"inclui","fromSide":"bottom","toSide":"top"},
+		{"id":"e07","fromNode":"portfolio","toNode":"atom","label":"inclui","fromSide":"bottom","toSide":"top"},
+		{"id":"e08","fromNode":"portfolio","toNode":"salus","label":"inclui","fromSide":"right","toSide":"left"}
+	]
+}

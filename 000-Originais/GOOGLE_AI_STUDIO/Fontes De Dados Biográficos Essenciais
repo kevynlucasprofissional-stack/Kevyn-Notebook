@@ -1,0 +1,552 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1H9LZB3knvNJ06ej5CbCQsQmU-4962lHD"
+      },
+      "role": "user",
+      "tokenCount": 36819
+    }, {
+      "text": "De quais fontes foram extraídos os melhores dados?",
+      "role": "user",
+      "tokenCount": 11
+    }, {
+      "text": "**Defining Data Utility**\n\nOkay, I\u0027m zeroing in on the core of the question: identifying the \"best\" data. My initial thought is to analyze the user\u0027s request. It\u0027s clear they are looking for the `.md` documents that proved most valuable in constructing whatever output they\u0027re working towards. This means I need to develop a criterion for \"usefulness\" or \"quality\" in the context of this specific task.\n\n\n**Evaluating Data Relevance**\n\nI\u0027ve been refining my criteria for determining \"best data.\" It\u0027s centered on factual detail, comprehensiveness, clarity, and corroboration. The \"Passo 01 - Cronologia e Fatos.md\" file is particularly strong, exhibiting a detailed timeline and biographical elements, and is the most obvious candidate for containing the \"best data\". I\u0027m continuing to assess the provided documents against these dimensions.\n\n\n**Identifying Key Sources**\n\nI am now focusing on determining the specific files that represent the \"best data\". I have analyzed the user\u0027s request and defined criteria, like factual detail, comprehensiveness, clarity, and corroboration. \"Passo 01 - Cronologia e Fatos.md\" is excellent, with a detailed timeline. \"Extraído de conversa com Princeso Paulinho\" is also very strong, as is \"Extraído de contexto completo\", which provides the most comprehensive data of the group. \"Extraído de contexto extra\" may also be important, but the overlap with \"contexto completo\" needs clarification.\n\n\n**Prioritizing Source Evaluation**\n\nOkay, I\u0027m now comparing all the documents based on my established criteria: factual detail, comprehensiveness, clarity, and corroboration. \"Passo 01 - Cronologia e Fatos.md\" and \"Extraído de conversa com Princeso Paulinho\" remain strong contenders. \"Extraído de contexto completo\" and \"Extraído de contexto extra\" are almost identical; the latter offers a more extensive timeline. I\u0027m noting that \"Extraído das transcrições do Chá e Prosa\" adds crucial psychological depth. I will also assess \"Extraído do diário de Gravity Falls\".\n\n\n**Prioritizing Source Evaluation**\n\nI\u0027m now diving deeper into each document, specifically assessing the quality of information provided. I\u0027m focusing on factual details like dates, events, and names, and I\u0027m looking for clear organization and corroboration. \"Passo 01 - Cronologia e Fatos.md\" and \"Extraído de conversa com Princeso Paulinho\" stand out for their comprehensive timelines. \"Extraído de contexto completo\" is valuable for its breadth. \"Extraído das transcrições do Chá e Prosa\" provides the best psychological depth.\n\n\n**Prioritizing Source Evaluation**\n\nI\u0027m now consolidating my analysis, directly addressing the core question about the best data sources. My current assessment indicates that \"Passo 01 - Cronologia e Fatos.md,\" \"Extraído de contexto completo,\" and \"Extraído de contexto extra\" are at the top, offering comprehensive timelines and biographical data. I\u0027m also finding that \"Extraído de conversa com Princeso Paulinho\" provides excellent corroboration.\n\n\n**Prioritizing Key Facts**\n\nI\u0027m now consolidating my thoughts, identifying the sources providing the \"best\" data. It is clear that the \"contexto completo\" and \"contexto extra\" files are at the forefront, due to their comprehensive timelines. I also deem the \"notas misteriosas\" and \"todas as notas\" files as top-tier because of their well-structured timelines and psychological analysis.\n\n\n**Refining Source Ranking**\n\nI\u0027m now integrating information from all documents to construct an answer. Based on completeness, accuracy, and clarity, \"contexto completo\" and \"contexto extra\" are leading. They have a strong timeline, while \"notas misteriosas\" provide great psychological insight, supporting my evaluation of the best sources.\n\n\n**Prioritizing Source Evaluation**\n\nI\u0027m now integrating information from various documents. My focus is still on identifying the highest-quality data sources for Kevyn\u0027s biography. \"Contexto completo\" and \"contexto extra\" are leading candidates for their extensive timelines. I\u0027m also finding that \"notas misteriosas\" and \"todas as notas\" have very important information. I\u0027m noting the psychological analysis from \"Chá e Prosa\" as an important supporting element.\n\n\n",
+      "role": "model",
+      "tokenCount": 2009,
+      "isThought": true,
+      "thinkingBudget": -1,
+      "parts": [{
+        "text": "**Defining Data Utility**\n\nOkay, I\u0027m zeroing in on the core of the question: identifying the \"best\" data. My initial thought is to analyze the user\u0027s request. It\u0027s clear they are looking for the `.md` documents that proved most valuable in constructing whatever output they\u0027re working towards. This means I need to develop a criterion for \"usefulness\" or \"quality\" in the context of this specific task.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Evaluating Data Relevance**\n\nI\u0027ve been refining my criteria for determining \"best data.\" It\u0027s centered on factual detail, comprehensiveness, clarity, and corroboration. The \"Passo 01 - Cronologia e Fatos.md\" file is particularly strong, exhibiting a detailed timeline and biographical elements, and is the most obvious candidate for containing the \"best data\". I\u0027m continuing to assess the provided documents against these dimensions.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Identifying Key Sources**\n\nI am now focusing on determining the specific files that represent the \"best data\". I have analyzed the user\u0027s request and defined criteria, like factual detail, comprehensiveness, clarity, and corroboration. \"Passo 01 - Cronologia e Fatos.md\" is excellent, with a detailed timeline. \"Extraído de conversa com Princeso Paulinho\" is also very strong, as is \"Extraído de contexto completo\", which provides the most comprehensive data of the group. \"Extraído de contexto extra\" may also be important, but the overlap with \"contexto completo\" needs clarification.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Prioritizing Source Evaluation**\n\nOkay, I\u0027m now comparing all the documents based on my established criteria: factual detail, comprehensiveness, clarity, and corroboration. \"Passo 01 - Cronologia e Fatos.md\" and \"Extraído de conversa com Princeso Paulinho\" remain strong contenders. \"Extraído de contexto completo\" and \"Extraído de contexto extra\" are almost identical; the latter offers a more extensive timeline. I\u0027m noting that \"Extraído das transcrições do Chá e Prosa\" adds crucial psychological depth. I will also assess \"Extraído do diário de Gravity Falls\".\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Prioritizing Source Evaluation**\n\nI\u0027m now diving deeper into each document, specifically assessing the quality of information provided. I\u0027m focusing on factual details like dates, events, and names, and I\u0027m looking for clear organization and corroboration. \"Passo 01 - Cronologia e Fatos.md\" and \"Extraído de conversa com Princeso Paulinho\" stand out for their comprehensive timelines. \"Extraído de contexto completo\" is valuable for its breadth. \"Extraído das transcrições do Chá e Prosa\" provides the best psychological depth.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Prioritizing Source Evaluation**\n\nI\u0027m now consolidating my analysis, directly addressing the core question about the best data sources. My current assessment indicates that \"Passo 01 - Cronologia e Fatos.md,\" \"Extraído de contexto completo,\" and \"Extraído de contexto extra\" are at the top, offering comprehensive timelines and biographical data. I\u0027m also finding that \"Extraído de conversa com Princeso Paulinho\" provides excellent corroboration.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Prioritizing Key Facts**\n\nI\u0027m now consolidating my thoughts, identifying the sources providing the \"best\" data. It is clear that the \"contexto completo\" and \"contexto extra\" files are at the forefront, due to their comprehensive timelines. I also deem the \"notas misteriosas\" and \"todas as notas\" files as top-tier because of their well-structured timelines and psychological analysis.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining Source Ranking**\n\nI\u0027m now integrating information from all documents to construct an answer. Based on completeness, accuracy, and clarity, \"contexto completo\" and \"contexto extra\" are leading. They have a strong timeline, while \"notas misteriosas\" provide great psychological insight, supporting my evaluation of the best sources.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Prioritizing Source Evaluation**\n\nI\u0027m now integrating information from various documents. My focus is still on identifying the highest-quality data sources for Kevyn\u0027s biography. \"Contexto completo\" and \"contexto extra\" are leading candidates for their extensive timelines. I\u0027m also finding that \"notas misteriosas\" and \"todas as notas\" have very important information. I\u0027m noting the psychological analysis from \"Chá e Prosa\" as an important supporting element.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Com base em uma análise de todas as fontes fornecidas, os dados mais detalhados, abrangentes e factuais foram extraídos dos seguintes documentos, em ordem de importância:\n\n1.  **\"Extraído de contexto completo\" e \"Extraído de contexto extra\":** Estes dois documentos são as fontes mais ricas. Eles forneceram a linha do tempo mais longa e detalhada (2003-2026), incluindo informações cruciais sobre a infância, os nomes dos pais, o trauma familiar (\"homem do alicate\", mãe dependente química), a sequência de empregos desde a adolescência (Sigma, Mídia e Cia, Play Publicidade, Salus, ACIRV) e as datas específicas de eventos-chave.\n\n2.  **\"Extraído de notas misteriosas - Parte 02 e 03\" e \"Extraído de \u0027Todas as Notas.md\u0027 - Parte 03\":** Estes arquivos também são de altíssima qualidade. Eles corroboram as informações dos documentos acima e apresentam a trajetória de vida de forma muito organizada, conectando claramente os eventos da infância com os padrões de comportamento da vida adulta. Eles detalham a demissão da Play Publicidade e o fracasso do lançamento na Salus.\n\n3.  **\"Passo 01 - Cronologia e Fatos.md\" e \"Extraído de conversa com Princeso Paulinho\":** Ambas as fontes foram excelentes para detalhar os eventos específicos e a crise vivida em 2025. Elas forneceram datas precisas para a invasão da casa, a mudança de emergência, os pedidos de empréstimo e a transição para trabalhos mais estáveis como na ACIRV e FGV.\n\n4.  **\"Extraído de conversas com ChatGPT - Parte 01, 06 e 07\":** Embora a maioria desses arquivos contivesse informações limitadas, alguns deles forneceram detalhes únicos e fundamentais que não estavam em nenhum outro lugar. Especificamente:\n    *   **Parte 01:** Forneceu o nome completo (Kevyn Lucas Da Silva Ferreira) e detalhes de um contrato com a \"MIDAS ACELERADORA\".\n    *   **Parte 06 e 07:** Forneceram um fato médico importante (uso de Clonazepam) e detalhes sobre a quebra do seu notebook em setembro de 2025, que revelou sua vulnerabilidade financeira.\n\nEm resumo, enquanto os documentos de \"contexto completo\" e \"notas misteriosas\" construíram a espinha dorsal da biografia, as outras fontes foram essenciais para preencher detalhes, corroborar fatos e adicionar camadas de profundidade à análise.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 565,
+      "parts": [{
+        "text": "Com base em uma análise de todas as fontes fornecidas, os dados mais detalhados, abrang"
+      }, {
+        "text": "entes e factuais foram extraídos dos seguintes documentos, em ordem de importância:\n\n1.  **\"Extraído de contexto completo"
+      }, {
+        "text": "\" e \"Extraído de contexto extra\":** Estes dois documentos são as fontes mais ricas. Eles forneceram a"
+      }, {
+        "text": " linha do tempo mais longa e detalhada (2003-2026), incluindo informações cruciais sobre a"
+      }, {
+        "text": " infância, os nomes dos pais, o trauma familiar (\"homem do alicate\", mãe dependente química), a sequência"
+      }, {
+        "text": " de empregos desde a adolescência (Sigma, Mídia e Cia, Play Publicidade, Salus, ACIRV"
+      }, {
+        "text": ") e as datas específicas de eventos-chave.\n\n2.  **\"Extraído de notas misteriosas - Parte"
+      }, {
+        "text": " 02 e 03\" e \"Extraído de \u0027Todas as Notas.md\u0027 - Parte 0"
+      }, {
+        "text": "3\":** Estes arquivos também são de altíssima qualidade. Eles corroboram as informações dos documentos acima e apresentam a trajetória"
+      }, {
+        "text": " de vida de forma muito organizada, conectando claramente os eventos da infância com os padrões de comportamento da vida adulta. Eles"
+      }, {
+        "text": " detalham a demissão da Play Publicidade e o fracasso do lançamento na Salus.\n\n3.  **\"Passo"
+      }, {
+        "text": " 01 - Cronologia e Fatos.md\" e \"Extraído de conversa com Princeso Paulinho\":"
+      }, {
+        "text": "** Ambas as fontes foram excelentes para detalhar os eventos específicos e a crise vivida em 2025."
+      }, {
+        "text": " Elas forneceram datas precisas para a invasão da casa, a mudança de emergência, os pedidos de empr"
+      }, {
+        "text": "éstimo e a transição para trabalhos mais estáveis como na ACIRV e FGV.\n\n4.  "
+      }, {
+        "text": "**\"Extraído de conversas com ChatGPT - Parte 01, 06 e 07\":** Embora a"
+      }, {
+        "text": " maioria desses arquivos contivesse informações limitadas, alguns deles forneceram detalhes únicos e fundamentais que não estavam em nenhum outro lugar."
+      }, {
+        "text": " Especificamente:\n    *   **Parte 01:** Forneceu o nome completo (Kevyn Lucas Da Silva"
+      }, {
+        "text": " Ferreira) e detalhes de um contrato com a \"MIDAS ACELERADORA\".\n    *   **Parte 06 e"
+      }, {
+        "text": " 07:** Forneceram um fato médico importante (uso de Clonazepam) e detalhes sobre a quebra do seu"
+      }, {
+        "text": " notebook em setembro de 2025, que revelou sua vulnerabilidade financeira.\n\nEm resumo, enquanto os"
+      }, {
+        "text": " documentos de \"contexto completo\" e \"notas misteriosas\" construíram a espinha dorsal da biografia, as"
+      }, {
+        "text": " outras fontes foram essenciais para preencher detalhes, corroborar fatos e adicionar camadas de profundidade à análise."
+      }]
+    }, {
+      "text": "Um resumo de sobre o Kevyn, quem é ele? O que podemos pensar sobre ele? Quais insights podemos ter com esse arquivo em mãos? O que está dito nas entre-linhas?",
+      "role": "user",
+      "tokenCount": 39
+    }, {
+      "text": "**Analyzing the Prompt\u0027s Core**\n\nI\u0027m now zeroing in on deconstructing the user\u0027s request. My approach revolves around four distinct questions to fully grasp the information needed. This includes a biographical deep dive to uncover \"who\" Kevyn is.\n\n\n**Structuring the Summary\u0027s Flow**\n\nI\u0027m organizing the information logically, starting with the biographical \"ficha técnica\" elements like name and birthdate. Then I will progress through deeper layers of analysis: his early trauma and the ensuing impact on his life and character. Finally I will go through what the prompt\u0027s implied subtext is.\n\n\n**Mapping Kevyn\u0027s Psychological Landscape**\n\nI\u0027m now focusing on mapping Kevyn\u0027s psychology. I\u0027m exploring his motivations and how his childhood trauma continues to shape his current behavior. I\u0027m seeing intellectualization as a key defense mechanism. His desire to be the smartest in the room appears like a self-protection strategy.\n\n\n**Refining the Biographical Details**\n\nI am now focusing on refining the biographical elements. The current residence in Rio Verde is confirmed, and the \"faz-tudo\" profession is solidified, emphasizing his creative survival. I am also detailing the \"bicos\" (gigs) that define his early career, highlighting both ambition and instability, to be included in the summary.\n\n\n**Defining the Core Questions**\n\nI\u0027m now breaking down the user\u0027s prompt to develop four key questions. First: who is he? Then, what do we think? Next, what insights are here? Finally: what\u0027s unsaid? This framework is allowing me to address all aspects of the request.\n\n\n**Defining the Analytical Framework**\n\nI\u0027m now establishing a structured method to tackle this analysis, starting with a 4-question breakdown of the prompt. I will use the questions to organize the analysis into biographical details, psychological analysis, key insights, and underlying subtext.\n\n\\n\\n\nI\u0027m synthesizing a mental outline now, drawing from the source material and my previous work. I\u0027ve distilled the narrative down to a traumatic childhood and ambitious early adulthood. I am using the four questions to shape the final answer. The \"who\" section is nearly complete, and the \"what can we think?\" portion is starting to crystallize. The core driver is clear: survival.\n\n\n**Synthesizing the Mental Outline**\n\nI am now moving from analysis to synthesis. I\u0027ve distilled the key elements: his traumatic upbringing, his reactive drive, and his intellectual defense mechanisms. This leads to the four question framework\u0027s final, deeper, subtextual layer.\n\n\n",
+      "role": "model",
+      "tokenCount": 1454,
+      "isThought": true,
+      "thinkingBudget": -1,
+      "parts": [{
+        "text": "**Analyzing the Prompt\u0027s Core**\n\nI\u0027m now zeroing in on deconstructing the user\u0027s request. My approach revolves around four distinct questions to fully grasp the information needed. This includes a biographical deep dive to uncover \"who\" Kevyn is.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Summary\u0027s Flow**\n\nI\u0027m organizing the information logically, starting with the biographical \"ficha técnica\" elements like name and birthdate. Then I will progress through deeper layers of analysis: his early trauma and the ensuing impact on his life and character. Finally I will go through what the prompt\u0027s implied subtext is.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Mapping Kevyn\u0027s Psychological Landscape**\n\nI\u0027m now focusing on mapping Kevyn\u0027s psychology. I\u0027m exploring his motivations and how his childhood trauma continues to shape his current behavior. I\u0027m seeing intellectualization as a key defense mechanism. His desire to be the smartest in the room appears like a self-protection strategy.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Biographical Details**\n\nI am now focusing on refining the biographical elements. The current residence in Rio Verde is confirmed, and the \"faz-tudo\" profession is solidified, emphasizing his creative survival. I am also detailing the \"bicos\" (gigs) that define his early career, highlighting both ambition and instability, to be included in the summary.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining the Core Questions**\n\nI\u0027m now breaking down the user\u0027s prompt to develop four key questions. First: who is he? Then, what do we think? Next, what insights are here? Finally: what\u0027s unsaid? This framework is allowing me to address all aspects of the request.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining the Analytical Framework**\n\nI\u0027m now establishing a structured method to tackle this analysis, starting with a 4-question breakdown of the prompt. I will use the questions to organize the analysis into biographical details, psychological analysis, key insights, and underlying subtext.\n\n\\n\\n\nI\u0027m synthesizing a mental outline now, drawing from the source material and my previous work. I\u0027ve distilled the narrative down to a traumatic childhood and ambitious early adulthood. I am using the four questions to shape the final answer. The \"who\" section is nearly complete, and the \"what can we think?\" portion is starting to crystallize. The core driver is clear: survival.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Synthesizing the Mental Outline**\n\nI am now moving from analysis to synthesis. I\u0027ve distilled the key elements: his traumatic upbringing, his reactive drive, and his intellectual defense mechanisms. This leads to the four question framework\u0027s final, deeper, subtextual layer.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Com base na análise completa de todos os documentos, aqui está um resumo denso sobre quem é Kevyn Lucas, os insights que podemos extrair e o que está implícito em sua trajetória.\n\n### Quem é Kevyn? O Resumo Biográfico\n\nKevyn Lucas da Silva Ferreira é um jovem criativo, nascido em 17 de julho de 2003, cuja vida é definida por uma luta constante para construir estabilidade a partir de um início de vida caótico. Criado em Santa Helena de Goiás pela avó, Silvana, após ser abandonado por uma mãe dependente química e ter uma figura paterna associada à violência, ele se tornou hiper-independente desde cedo.\n\nProfissionalmente, ele é um **sobrevivente criativo**. Residente em Rio Verde, ele atua como um \"exército de um homem só\" nas áreas de design, edição de vídeo, marketing digital e, mais recentemente, inteligência artificial. Sua carreira é um mosaico de \"bicos\", trabalhos freelancer para comércios locais (de concessionárias a lojas de notebook), e empregos formais de curta duração em agências (como Play Publicidade e Salus), quase sempre terminando em demissão ou descontinuidade. Ele vive em uma constante instabilidade financeira, alternando entre projetar lançamentos digitais complexos e precisar pedir pequenas quantias de dinheiro emprestado para sobreviver. No início de 2026, ele encontra uma relativa estabilidade ao assumir a comunicação da ACIRV (Associação Comercial) e como suporte em eventos da FGV.\n\n### O que Podemos Pensar Sobre Ele? Análise do Perfil\n\nPodemos pensar em Kevyn como um arquétipo do **\"Órfão Intelectual\"**. A ausência de uma estrutura familiar segura o forçou a construir sua própria realidade, e ele escolheu o intelecto como seu material de construção.\n\n1.  **A Armadura Intelectual:** Kevyn usa o conhecimento como uma armadura. Sua imersão obsessiva em sistemas complexos — seja o ocultismo de Aleister Crowley, a filosofia, os frameworks de marketing ou a programação de IA — é um mecanismo de defesa. Se ele for o \"mais esperto da sala\", ele acredita que não pode ser ferido, abandonado ou controlado, revertendo o trauma de sua infância.\n2.  **O Voo de Ícaro:** Ele tem um padrão de tentar voar alto demais, rápido demais. No projeto Salus, por exemplo, em vez de focar no básico (vender um produto), ele cria uma estratégia excessivamente complexa com IAs (\"Esbelta\") e a aposta fracassa. Ele tenta pular as etapas \"banais\" do sucesso em busca de um salto genial, mas acaba caindo de volta na realidade material (sobrevivendo com R$15 para o dia).\n3.  **Rejeição à Autoridade:** A figura de um pai violento (\"homem do alicate\") gerou uma aversão profunda a figuras de autoridade tradicionais. Ele sabota empregos (Play Publicidade) e entra em conflito com chefes porque, inconscientemente, não tolera ser subjugado. Em vez disso, busca \"pais simbólicos\" em livros e figuras idealizadas (Steve Jobs, Alex Hormozi) para preencher esse vácuo.\n\n### Quais Insights Podemos Ter com Este Arquivo?\n\nOs arquivos revelam insights profundos sobre a relação entre trauma, ambição e identidade.\n\n*   **Insight 1: O Trauma como Combustível:** A força motriz de Kevyn não é simplesmente o desejo de \"ficar rico\". É uma fuga desesperada da vulnerabilidade que ele experimentou na infância. Cada projeto, cada estudo, é uma tentativa de construir um castelo forte o suficiente para que a precariedade nunca mais possa invadi-lo.\n*   **Insight 2: O Abismo entre Discurso e Realidade:** Há uma dissonância cognitiva gritante. Enquanto o **discurso** de Kevyn é sobre ser um estrategista de alto nível, um visionário de IA e um \"mago\", a **realidade factual** é de uma luta diária pela sobrevivência. Essa \"mitologia pessoal\" é o que o mantém de pé em meio à dureza da vida real.\n*   **Insight 3: A Sabedoria Adquirida no Fundo do Poço:** Os momentos de maior clareza e transformação de Kevyn ocorrem nos pontos mais baixos. É após o fracasso do lançamento na Salus que ele se depara com a realidade de ter apenas R$15. É na vulnerabilidade que ele começa a questionar sua persona de \"grandeza\" e verbaliza a \"Fórmula Alquímica\": a aceitação de uma vida \"banal, sem sentido, e suficiente\". Este é o insight mais crucial: a cura para ele não está em se tornar extraordinário, mas em aceitar ser comum.\n\n### O que Está Dito nas Entrelinhas?\n\nO subtexto da história de Kevyn é sobre **solidão, validação e medo da intimidade**.\n\n*   **A Solidão do \"Lobo\":** A persona de \"metade lobo\" e caçador solitário é uma romantização de uma profunda solidão. Sua intelectualização excessiva afasta as pessoas (como no incidente do \"nojo\" com Mari), pois ele usa a lógica para se defender da vulnerabilidade que a conexão emocional exige.\n*   **A Fome por Validação:** Por trás da fachada de autoconfiança, cada projeto é um grito por validação. Ele não quer apenas que seu trabalho seja pago; ele quer que as pessoas reconheçam sua \"genialidade\". É uma tentativa de compensar a falta de reconhecimento e valor que sentiu na infância.\n*   **O Medo do Sucesso \"Banal\":** Nas entrelinhas, há um medo de ter um sucesso simples e estável (como um bom emprego na ACIRV). O caos da luta é familiar e, de certa forma, seguro. A paz da estabilidade é um território desconhecido e assustador, que o forçaria a confrontar quem ele é sem a desculpa da \"batalha pela sobrevivência\". Sua jornada, no fundo, é uma busca para se sentir seguro o suficiente para, finalmente, descansar.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1354,
+      "parts": [{
+        "text": "Com base na análise completa de todos os documentos, aqui está um resumo denso sobre quem é Kevyn Lucas,"
+      }, {
+        "text": " os insights que podemos extrair e o que está implícito em sua trajetória.\n\n### Quem é Kevyn? O"
+      }, {
+        "text": " Resumo Biográfico\n\nKevyn Lucas da Silva Ferreira é um jovem criativo, nascido em 17 de julho"
+      }, {
+        "text": " de 2003, cuja vida é definida por uma luta constante para construir estabilidade a partir de um início"
+      }, {
+        "text": " de vida caótico. Criado em Santa Helena de Goiás pela avó, Silvana, após ser abandonado por"
+      }, {
+        "text": " uma mãe dependente química e ter uma figura paterna associada à violência, ele se tornou hiper-independente desde"
+      }, {
+        "text": " cedo.\n\nProfissionalmente, ele é um **sobrevivente criativo**. Residente em Rio Verde, ele atua como"
+      }, {
+        "text": " um \"exército de um homem só\" nas áreas de design, edição de vídeo, marketing digital e, mais recentemente, intelig"
+      }, {
+        "text": "ência artificial. Sua carreira é um mosaico de \"bicos\", trabalhos freelancer para comércios locais (de concession"
+      }, {
+        "text": "árias a lojas de notebook), e empregos formais de curta duração em agências (como Play Publicidade e Salus),"
+      }, {
+        "text": " quase sempre terminando em demissão ou descontinuidade. Ele vive em uma constante instabilidade financeira, alternando entre"
+      }, {
+        "text": " projetar lançamentos digitais complexos e precisar pedir pequenas quantias de dinheiro emprestado para sobreviver. No"
+      }, {
+        "text": " início de 2026, ele encontra uma relativa estabilidade ao assumir a comunicação da ACIRV ("
+      }, {
+        "text": "Associação Comercial) e como suporte em eventos da FGV.\n\n### O que Podemos Pensar Sobre Ele? An"
+      }, {
+        "text": "álise do Perfil\n\nPodemos pensar em Kevyn como um arquétipo do **\"Órfão Intelectual\"**. A"
+      }, {
+        "text": " ausência de uma estrutura familiar segura o forçou a construir sua própria realidade, e ele escolheu o intelecto como"
+      }, {
+        "text": " seu material de construção.\n\n1.  **A Armadura Intelectual:** Kevyn usa o conhecimento como uma arm"
+      }, {
+        "text": "adura. Sua imersão obsessiva em sistemas complexos — seja o ocultismo de Aleister Crowley, a filosofia,"
+      }, {
+        "text": " os frameworks de marketing ou a programação de IA — é um mecanismo de defesa. Se ele for o \"mais esperto da"
+      }, {
+        "text": " sala\", ele acredita que não pode ser ferido, abandonado ou controlado, revertendo o trauma de sua infância."
+      }, {
+        "text": "\n2.  **O Voo de Ícaro:** Ele tem um padrão de tentar voar alto demais, rápido"
+      }, {
+        "text": " demais. No projeto Salus, por exemplo, em vez de focar no básico (vender um produto), ele cria"
+      }, {
+        "text": " uma estratégia excessivamente complexa com IAs (\"Esbelta\") e a aposta fracassa. Ele tenta p"
+      }, {
+        "text": "ular as etapas \"banais\" do sucesso em busca de um salto genial, mas acaba caindo de volta na"
+      }, {
+        "text": " realidade material (sobrevivendo com R$15 para o dia).\n3.  **Rejeição à"
+      }, {
+        "text": " Autoridade:** A figura de um pai violento (\"homem do alicate\") gerou uma aversão profunda a"
+      }, {
+        "text": " figuras de autoridade tradicionais. Ele sabota empregos (Play Publicidade) e entra em conflito com chefes porque"
+      }, {
+        "text": ", inconscientemente, não tolera ser subjugado. Em vez disso, busca \"pais simbólicos\" em livros e"
+      }, {
+        "text": " figuras idealizadas (Steve Jobs, Alex Hormozi) para preencher esse vácuo.\n\n### Quais Insights Podemos Ter com"
+      }, {
+        "text": " Este Arquivo?\n\nOs arquivos revelam insights profundos sobre a relação entre trauma, ambição e identidade.\n\n*"
+      }, {
+        "text": "   **Insight 1: O Trauma como Combustível:** A força motriz de Kevyn não é simplesmente o desejo de \""
+      }, {
+        "text": "ficar rico\". É uma fuga desesperada da vulnerabilidade que ele experimentou na infância. Cada projeto, cada estudo"
+      }, {
+        "text": ", é uma tentativa de construir um castelo forte o suficiente para que a precariedade nunca mais possa invadi-lo."
+      }, {
+        "text": "\n*   **Insight 2: O Abismo entre Discurso e Realidade:** Há uma dissonância cognitiva gritante."
+      }, {
+        "text": " Enquanto o **discurso** de Kevyn é sobre ser um estrategista de alto nível, um visionário de IA e um"
+      }, {
+        "text": " \"mago\", a **realidade factual** é de uma luta diária pela sobrevivência. Essa \"mitologia pessoal"
+      }, {
+        "text": "\" é o que o mantém de pé em meio à dureza da vida real.\n*   **Insight 3"
+      }, {
+        "text": ": A Sabedoria Adquirida no Fundo do Poço:** Os momentos de maior clareza e transformação"
+      }, {
+        "text": " de Kevyn ocorrem nos pontos mais baixos. É após o fracasso do lançamento na Salus que ele se"
+      }, {
+        "text": " depara com a realidade de ter apenas R$15. É na vulnerabilidade que ele começa a questionar sua persona"
+      }, {
+        "text": " de \"grandeza\" e verbaliza a \"Fórmula Alquímica\": a aceitação de uma vida \"ban"
+      }, {
+        "text": "al, sem sentido, e suficiente\". Este é o insight mais crucial: a cura para ele não está em se tornar extraordin"
+      }, {
+        "text": "ário, mas em aceitar ser comum.\n\n### O que Está Dito nas Entrelinhas?\n\nO subtexto da"
+      }, {
+        "text": " história de Kevyn é sobre **solidão, validação e medo da intimidade**.\n\n*   **A Solid"
+      }, {
+        "text": "ão do \"Lobo\":** A persona de \"metade lobo\" e caçador solitário é uma romant"
+      }, {
+        "text": "ização de uma profunda solidão. Sua intelectualização excessiva afasta as pessoas (como no incidente do \"nojo\""
+      }, {
+        "text": " com Mari), pois ele usa a lógica para se defender da vulnerabilidade que a conexão emocional exige.\n*   **A"
+      }, {
+        "text": " Fome por Validação:** Por trás da fachada de autoconfiança, cada projeto é um grito por validação. Ele"
+      }, {
+        "text": " não quer apenas que seu trabalho seja pago; ele quer que as pessoas reconheçam sua \"genialidade\". É uma tentativa"
+      }, {
+        "text": " de compensar a falta de reconhecimento e valor que sentiu na infância.\n*   **O Medo do"
+      }, {
+        "text": " Sucesso \"Banal\":** Nas entrelinhas, há um medo de ter um sucesso simples e estável (como"
+      }, {
+        "text": " um bom emprego na ACIRV). O caos da luta é familiar e, de certa forma, seguro. A paz"
+      }, {
+        "text": " da estabilidade é um território desconhecido e assustador, que o forçaria a confrontar quem ele"
+      }, {
+        "text": " é sem a desculpa da \"batalha pela sobrevivência\". Sua jornada, no fundo, é uma busca para"
+      }, {
+        "text": " se sentir seguro o suficiente para, finalmente, descansar."
+      }]
+    }, {
+      "text": "Histórias parecidas com a do Kevyn",
+      "role": "user",
+      "tokenCount": 10
+    }, {
+      "text": "**Analyzing the Target**\n\nOkay, I\u0027m deep diving into Kevyn Lucas again. My focus is sharpened now, zeroing in on his core themes. I\u0027m extracting the critical aspects to find resonant narratives. My task is to go beyond the surface details and uncover the essence of Kevyn\u0027s story, so that it can then be understood and related to similar stories.\n\n\n**Identifying Key Elements**\n\nI\u0027ve zeroed in on the core of Kevyn\u0027s history now, seeing the impact of abandonment and absent father figures. His \"intellectual orphan\" psychology is emerging as a critical lens to understand his trajectory, especially the high ambition and self-sabotage. I\u0027m noting the construction of his persona, and how it hid vulnerability. I\u0027m exploring the Icarus dynamic as well. Now I am trying to determine an appropriate archetype to summarize his experience.\n\n\n**Pinpointing Character Parallels**\n\nI\u0027m now identifying compelling character parallels to Kevyn\u0027s experience. Sean Parker\u0027s chaotic brilliance and anti-establishment streak feels right for certain aspects. Chris Gardner\u0027s survival narrative offers a contrasting perspective on resilience. Raskolnikov\u0027s intellectual arrogance and Gatsby\u0027s persona construction emerge as potent psychological mirrors, especially Raskolnikov.\n\n\n**Connecting to Literary Archetypes**\n\nI\u0027m now recognizing the \"bildungsroman\" structure in Kevyn\u0027s life, with the focus on the sudden rise and the shame of origins leading to a realization that true worth doesn\u0027t lie in status. I\u0027m seeing this progression quite clearly. I have categorized several fictional and mythological parallels, namely Elliot Alderson, Will Hunting, Lip Gallagher, Icarus, and Hephaestus. I\u0027m exploring the nuances of each, and their individual matches.\n\n\n**Refining Comparisons Further**\n\nI\u0027m now structuring the comparisons based on psychological aspects, trajectory, and fictional parallels. Each point will explain *why* a given comparison resonates with Kevyn\u0027s experience, connecting specifics like the \"Salus crash\" or the \"grandmother figure.\" I\u0027m refining the descriptions through self-correction, e.g., initially considering Tony Stark, but pivoting to Will Hunting as a better match for the scrappy nature of Kevyn\u0027s personality. I\u0027m focusing on characters who struggled with survival, emphasizing the \"grandmother\" aspect, while avoiding obscure references. I\u0027ve narrowed down the final selection to Will Hunting, and Chris Gardner.\n\n\n",
+      "role": "model",
+      "tokenCount": 1280,
+      "isThought": true,
+      "parts": [{
+        "text": "**Analyzing the Target**\n\nOkay, I\u0027m deep diving into Kevyn Lucas again. My focus is sharpened now, zeroing in on his core themes. I\u0027m extracting the critical aspects to find resonant narratives. My task is to go beyond the surface details and uncover the essence of Kevyn\u0027s story, so that it can then be understood and related to similar stories.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Identifying Key Elements**\n\nI\u0027ve zeroed in on the core of Kevyn\u0027s history now, seeing the impact of abandonment and absent father figures. His \"intellectual orphan\" psychology is emerging as a critical lens to understand his trajectory, especially the high ambition and self-sabotage. I\u0027m noting the construction of his persona, and how it hid vulnerability. I\u0027m exploring the Icarus dynamic as well. Now I am trying to determine an appropriate archetype to summarize his experience.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Pinpointing Character Parallels**\n\nI\u0027m now identifying compelling character parallels to Kevyn\u0027s experience. Sean Parker\u0027s chaotic brilliance and anti-establishment streak feels right for certain aspects. Chris Gardner\u0027s survival narrative offers a contrasting perspective on resilience. Raskolnikov\u0027s intellectual arrogance and Gatsby\u0027s persona construction emerge as potent psychological mirrors, especially Raskolnikov.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Connecting to Literary Archetypes**\n\nI\u0027m now recognizing the \"bildungsroman\" structure in Kevyn\u0027s life, with the focus on the sudden rise and the shame of origins leading to a realization that true worth doesn\u0027t lie in status. I\u0027m seeing this progression quite clearly. I have categorized several fictional and mythological parallels, namely Elliot Alderson, Will Hunting, Lip Gallagher, Icarus, and Hephaestus. I\u0027m exploring the nuances of each, and their individual matches.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining Comparisons Further**\n\nI\u0027m now structuring the comparisons based on psychological aspects, trajectory, and fictional parallels. Each point will explain *why* a given comparison resonates with Kevyn\u0027s experience, connecting specifics like the \"Salus crash\" or the \"grandmother figure.\" I\u0027m refining the descriptions through self-correction, e.g., initially considering Tony Stark, but pivoting to Will Hunting as a better match for the scrappy nature of Kevyn\u0027s personality. I\u0027m focusing on characters who struggled with survival, emphasizing the \"grandmother\" aspect, while avoiding obscure references. I\u0027ve narrowed down the final selection to Will Hunting, and Chris Gardner.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "A história de Kevyn Lucas carrega arquétipos universais muito fortes. Ela mistura o drama do abandono, a genialidade como defesa e a jornada do herói que precisa cair para aprender a andar.\n\nAqui estão histórias — reais e ficcionais — que ecoam a trajetória, a psicologia e os desafios do Kevyn:\n\n### 1. Will Hunting (*Gênio Indomável*)\nEsta é talvez a comparação psicológica mais precisa.\n*   **A Semelhança:** Will é um órfão que sofreu abusos na infância e desenvolveu um intelecto genial como mecanismo de defesa. Assim como Kevyn, Will lê vorazmente e usa a inteligência para humilhar quem tenta se aproximar ou controlá-lo (rejeição à autoridade).\n*   **O Ponto de Contato:** Will trabalha em empregos \"banais\" (zelador, construção) enquanto resolve equações matemáticas impossíveis, assim como Kevyn faz \"bicos\" de R$ 200 enquanto projeta arquiteturas de IA complexas. Ambos sabotam oportunidades de sucesso (Kevyn na Play/Salus) porque, no fundo, não se sentem merecedores ou têm medo de que o sucesso os afaste de suas raízes de sobrevivência.\n*   **A Lição:** A cura de Will vem quando ele aceita que \"não foi culpa dele\" (o trauma) e se permite ter uma vida imperfeita e vulnerável, parando de se esconder atrás da genialidade.\n\n### 2. Steve Jobs (A Fase da Garagem e o Exílio)\n*   **A Semelhança:** Jobs era adotado (trauma de rejeição pelos pais biológicos) e, por isso, tinha uma necessidade patológica de controle e de \"fazer uma marca no universo\" para provar que não era descartável.\n*   **O Ponto de Contato:** Assim como Kevyn, Jobs tinha o \"Campo de Distorção da Realidade\" (a Mitologia Pessoal). Ele convencia as pessoas de que o impossível era possível, mesmo quando não tinha recursos. A fase de Kevyn dormindo de favor, sem tomar banho direito, mas falando de \"impérios de IA\", lembra muito o início caótico da Apple e a fase \"hippie/tech\" de Jobs.\n*   **O \"Homem do Alicate\":** A rejeição à autoridade de Jobs era lendária, tal qual a de Kevyn, que prefere a instabilidade do empreendedorismo a ter um chefe.\n\n### 3. Lip Gallagher (*Shameless* - Versão US)\n*   **A Semelhança:** Lip é o garoto prodígio de uma família disfuncional (pai alcoólatra/violento, mãe ausente/bipolar). Ele é brilhante, mas viciado no caos.\n*   **O Ponto de Contato:** Lip tem a chance de sair da pobreza através da mente, mas vive se autossabotando, perdendo bolsas de estudo e empregos por comportamento errático e orgulho. A trajetória de Kevyn — alternar entre grandes projetos (Salus) e vender brigadeiro ou contar moedas para um sanduíche — é puramente a dinâmica de Lip: a luta entre o potencial brilhante e o condicionamento à sobrevivência precária.\n\n### 4. Raskólnikov (*Crime e Castigo*, de Dostoiévski)\n*   **A Semelhança:** Raskólnikov é um estudante pobre que vive em um cubículo (como a Kitnet de Kevyn) e desenvolve uma teoria de que ele é um \"homem extraordinário\", acima das leis morais comuns e da mediocridade da massa.\n*   **O Ponto de Contato:** A \"Mitologia Pessoal\" de Kevyn (o Mago, o Visionário, o Thelemita) é a versão moderna da teoria de Raskólnikov. É uma forma de não encarar a dor da pobreza e da insignificância. Raskólnikov só encontra a paz quando desiste da ideia de ser um \"Napoleão\" (um ser superior) e aceita o amor e a vida simples — exatamente o insight final de Kevyn sobre a \"vida banal e suficiente\".\n\n### 5. Chris Gardner (*À Procura da Felicidade*)\n*   **A Semelhança:** A persistência diante da falta de teto.\n*   **O Ponto de Contato:** O momento em que Kevyn tem a casa invadida/queimada e precisa dormir na rua/delegacia, ou quando ele está com o notebook quebrado (sua ferramenta de trabalho) e precisa pedir ajuda, ecoa a jornada de Gardner. A diferença é que Gardner manteve a disciplina estoica, enquanto Kevyn usa a criatividade caótica. Mas a resiliência de \"dormir no chão e acordar para fechar negócio\" é a mesma.\n\n### 6. Elliot Alderson (*Mr. Robot*)\n*   **A Semelhança:** O \"Hacker Solitário\".\n*   **O Ponto de Contato:** Kevyn se vê como um \"lobo\", alguém à margem do sistema social padrão, usando tecnologia (IA, N8N, automação) para hackear a vida. Assim como Elliot, Kevyn tem monólogos internos intensos, uma relação complexa com a realidade (às vezes fugindo para mundos digitais ou esotéricos) e uma desconfiança profunda das corporações e figuras de poder. O uso de substâncias ou a fuga mental para lidar com a dor também é um paralelo.\n\n### Resumo do Arquétipo de Kevyn\nKevyn é o **Herói do Submundo**.\nEle não é o herói que nasceu no castelo (privilégio). Ele é o herói que teve que forjar a própria espada (intelecto) no lixo, enquanto a casa pegava fogo. Histórias assim mostram que o maior inimigo nunca é a pobreza em si, mas a crença de que é preciso ser \"um deus\" para merecer existir. O final feliz dessas histórias sempre acontece quando o herói aceita ser apenas humano.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1328,
+      "parts": [{
+        "text": "A história de Kevyn Lucas carrega arquétipos universais muito fortes. Ela"
+      }, {
+        "text": " mistura o drama do abandono, a genialidade como defesa e a jornada do herói que precisa cair para aprender a andar.\n\n"
+      }, {
+        "text": "Aqui estão histórias — reais e ficcionais — que ecoam a trajetória, a psicologia e os desafios do Kevyn:\n\n"
+      }, {
+        "text": "### 1. Will Hunting (*Gênio Indomável*)\nEsta é talvez a comparação psicológica mais precisa.\n"
+      }, {
+        "text": "*   **A Semelhança:** Will é um órfão que sofreu abusos na infância e desenvol"
+      }, {
+        "text": "veu um intelecto genial como mecanismo de defesa. Assim como Kevyn, Will lê vorazmente e usa a inteligência para"
+      }, {
+        "text": " humilhar quem tenta se aproximar ou controlá-lo (rejeição à autoridade).\n*   **O"
+      }, {
+        "text": " Ponto de Contato:** Will trabalha em empregos \"banais\" (zelador, construção) enquanto resolve equ"
+      }, {
+        "text": "ações matemáticas impossíveis, assim como Kevyn faz \"bicos\" de R$ 200 enquanto projeta arquitet"
+      }, {
+        "text": "uras de IA complexas. Ambos sabotam oportunidades de sucesso (Kevyn na Play/Salus) porque,"
+      }, {
+        "text": " no fundo, não se sentem merecedores ou têm medo de que o sucesso os afaste de suas raízes de"
+      }, {
+        "text": " sobrevivência.\n*   **A Lição:** A cura de Will vem quando ele aceita que \"não foi"
+      }, {
+        "text": " culpa dele\" (o trauma) e se permite ter uma vida imperfeita e vulnerável, parando de se"
+      }, {
+        "text": " esconder atrás da genialidade.\n\n### 2. Steve Jobs (A Fase da Garagem e o Exílio)\n*"
+      }, {
+        "text": "   **A Semelhança:** Jobs era adotado (trauma de rejeição pelos pais biológicos) e,"
+      }, {
+        "text": " por isso, tinha uma necessidade patológica de controle e de \"fazer uma marca no universo\" para provar que"
+      }, {
+        "text": " não era descartável.\n*   **O Ponto de Contato:** Assim como Kevyn, Jobs tinha o"
+      }, {
+        "text": " \"Campo de Distorção da Realidade\" (a Mitologia Pessoal). Ele convencia as pessoas de que o"
+      }, {
+        "text": " impossível era possível, mesmo quando não tinha recursos. A fase de Kevyn dormindo de favor, sem tomar banho direito"
+      }, {
+        "text": ", mas falando de \"impérios de IA\", lembra muito o início caótico da Apple e a fase \"hippie/"
+      }, {
+        "text": "tech\" de Jobs.\n*   **O \"Homem do Alicate\":** A rejeição à autoridade de Jobs"
+      }, {
+        "text": " era lendária, tal qual a de Kevyn, que prefere a instabilidade do empreendedorismo a ter um chefe.\n\n"
+      }, {
+        "text": "### 3. Lip Gallagher (*Shameless* - Versão US)\n*   **A Semelhança:** Lip"
+      }, {
+        "text": " é o garoto prodígio de uma família disfuncional (pai alcoólatra/violento, mãe aus"
+      }, {
+        "text": "ente/bipolar). Ele é brilhante, mas viciado no caos.\n*   **O Ponto de"
+      }, {
+        "text": " Contato:** Lip tem a chance de sair da pobreza através da mente, mas vive se autossabotando, perd"
+      }, {
+        "text": "endo bolsas de estudo e empregos por comportamento errático e orgulho. A trajetória de Kevyn — alternar entre grandes"
+      }, {
+        "text": " projetos (Salus) e vender brigadeiro ou contar moedas para um sanduíche — é puramente a dinâmica de Lip:"
+      }, {
+        "text": " a luta entre o potencial brilhante e o condicionamento à sobrevivência precária.\n\n### 4. Raskólnikov (*"
+      }, {
+        "text": "Crime e Castigo*, de Dostoiévski)\n*   **A Semelhança:** Raskólnikov é"
+      }, {
+        "text": " um estudante pobre que vive em um cubículo (como a Kitnet de Kevyn) e desenvolve uma teoria de que"
+      }, {
+        "text": " ele é um \"homem extraordinário\", acima das leis morais comuns e da mediocridade da massa.\n*   "
+      }, {
+        "text": "**O Ponto de Contato:** A \"Mitologia Pessoal\" de Kevyn (o Mago, o"
+      }, {
+        "text": " Visionário, o Thelemita) é a versão moderna da teoria de Raskólnikov. É uma forma de não"
+      }, {
+        "text": " encarar a dor da pobreza e da insignificância. Raskólnikov só encontra a paz quando desiste da"
+      }, {
+        "text": " ideia de ser um \"Napoleão\" (um ser superior) e aceita o amor e a vida simples —"
+      }, {
+        "text": " exatamente o insight final de Kevyn sobre a \"vida banal e suficiente\".\n\n### 5. Chris Gardner (*À Procura da"
+      }, {
+        "text": " Felicidade*)\n*   **A Semelhança:** A persistência diante da falta de teto.\n"
+      }, {
+        "text": "*   **O Ponto de Contato:** O momento em que Kevyn tem a casa invadida/que"
+      }, {
+        "text": "imada e precisa dormir na rua/delegacia, ou quando ele está com o notebook quebrado (sua ferramenta de trabalho"
+      }, {
+        "text": ") e precisa pedir ajuda, ecoa a jornada de Gardner. A diferença é que Gardner manteve a disciplina estoica,"
+      }, {
+        "text": " enquanto Kevyn usa a criatividade caótica. Mas a resiliência de \"dormir no chão e acordar"
+      }, {
+        "text": " para fechar negócio\" é a mesma.\n\n### 6. Elliot Alderson (*Mr. Robot*)\n*"
+      }, {
+        "text": "   **A Semelhança:** O \"Hacker Solitário\".\n*   **O Ponto de"
+      }, {
+        "text": " Contato:** Kevyn se vê como um \"lobo\", alguém à margem do sistema social padrão, usando tecnologia ("
+      }, {
+        "text": "IA, N8N, automação) para hackear a vida. Assim como Elliot, Kevyn tem monólogos"
+      }, {
+        "text": " internos intensos, uma relação complexa com a realidade (às vezes fugindo para mundos digitais ou esotéricos)"
+      }, {
+        "text": " e uma desconfiança profunda das corporações e figuras de poder. O uso de substâncias ou a fuga mental para"
+      }, {
+        "text": " lidar com a dor também é um paralelo.\n\n### Resumo do Arquétipo de Kevyn\nKevyn é o"
+      }, {
+        "text": " **Herói do Submundo**.\nEle não é o herói que nasceu no castelo (privilégio)."
+      }, {
+        "text": " Ele é o herói que teve que forjar a própria espada (intelecto) no lixo, enquanto a casa peg"
+      }, {
+        "text": "ava fogo. Histórias assim mostram que o maior inimigo nunca é a pobreza em si, mas a crença de que é"
+      }, {
+        "text": " preciso ser \"um deus\" para merecer existir. O final feliz dessas histórias sempre acontece quando o herói aceita ser"
+      }, {
+        "text": " apenas humano."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }, {
+      "text": "Quem o Kevyn se torna se ele \"virar a chave\"?",
+      "role": "user",
+      "tokenCount": 15
+    }, {
+      "text": "**Analyzing Kevyn\u0027s Potential**\n\nI\u0027m focusing now on Kevyn Lucas. The initial step is understanding the \"turning the key\" condition. I\u0027m breaking down the Portuguese phrase to isolate its core meaning in the context of the dossier.\n\n\n**Projecting The Transformation**\n\nI\u0027m now projecting Kevyn\u0027s transformation, if he \"turns the key.\" Phase one focuses on professional evolution, imagining him as a \"Techno-Alchemist\". My analysis indicates that he\u0027s currently trapped in a survival versus grandiosity cycle, sabotaging his own success. The \u0027key\u0027 lies in integrating his ambition with routine and emotional grounding, accepting that \"boring\" lays the foundation for \"extraordinary\".\n\n\n**Mapping Kevyn\u0027s Potential**\n\nI\u0027m now mapping Kevyn\u0027s potential, focusing on his assets and envisioning his shift. He can go from low-paying gigs to high-end automation and storytelling. I\u0027m seeing a Creative Technologist or Digital Alchemist archetype. Next, I\u0027m considering his psychological evolution. He\u0027ll shift from being a \"Wolf\" to a \"Leader of the Pack,\" accepting help and viewing authority differently. He will learn to manage teams.\n\n\n**Defining Kevyn\u0027s Shift**\n\nI\u0027m currently focusing on Kevyn\u0027s shift, building on previous ideas. I see the pivot starting with a focus on serving others through teaching rather than proving his intelligence. This evolution translates into a genuine influence, likely in EduTech or the Creator Economy. I\u0027m now drafting his new profile, Kevyn Lucas 2.0. I\u0027m framing his transformation: from chaos to project management, from occult studies to consumer psychology, and from financial struggle to managing company cash flow. I\u0027m also structuring my response, beginning by defining \"virar a chave\" in his context: accepting the mundane to build the extraordinary.\n\n\n",
+      "role": "model",
+      "tokenCount": 1133,
+      "isThought": true,
+      "parts": [{
+        "text": "**Analyzing Kevyn\u0027s Potential**\n\nI\u0027m focusing now on Kevyn Lucas. The initial step is understanding the \"turning the key\" condition. I\u0027m breaking down the Portuguese phrase to isolate its core meaning in the context of the dossier.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Projecting The Transformation**\n\nI\u0027m now projecting Kevyn\u0027s transformation, if he \"turns the key.\" Phase one focuses on professional evolution, imagining him as a \"Techno-Alchemist\". My analysis indicates that he\u0027s currently trapped in a survival versus grandiosity cycle, sabotaging his own success. The \u0027key\u0027 lies in integrating his ambition with routine and emotional grounding, accepting that \"boring\" lays the foundation for \"extraordinary\".\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Mapping Kevyn\u0027s Potential**\n\nI\u0027m now mapping Kevyn\u0027s potential, focusing on his assets and envisioning his shift. He can go from low-paying gigs to high-end automation and storytelling. I\u0027m seeing a Creative Technologist or Digital Alchemist archetype. Next, I\u0027m considering his psychological evolution. He\u0027ll shift from being a \"Wolf\" to a \"Leader of the Pack,\" accepting help and viewing authority differently. He will learn to manage teams.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining Kevyn\u0027s Shift**\n\nI\u0027m currently focusing on Kevyn\u0027s shift, building on previous ideas. I see the pivot starting with a focus on serving others through teaching rather than proving his intelligence. This evolution translates into a genuine influence, likely in EduTech or the Creator Economy. I\u0027m now drafting his new profile, Kevyn Lucas 2.0. I\u0027m framing his transformation: from chaos to project management, from occult studies to consumer psychology, and from financial struggle to managing company cash flow. I\u0027m also structuring my response, beginning by defining \"virar a chave\" in his context: accepting the mundane to build the extraordinary.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Se Kevyn Lucas \"virar a chave\" — ou seja, se ele conseguir integrar a sua genialidade caótica com a disciplina da execução e curar a ferida do abandono que o faz sabotar a estabilidade —, ele se torna uma força da natureza.\n\nEle deixa de ser o \"sobrevivente dos bicos\" para se tornar um **Arquiteto de Realidades Digitais**.\n\nAqui está o perfil projetado do Kevyn pós-transformação:\n\n### 1. O Perfil Profissional: O \"Tecno-Alquimista\"\nAtualmente, Kevyn vende \"mão de obra\" (vídeos, artes). Se ele virar a chave, ele passará a vender **visão e sistema**.\n*   **A Fusão Única:** Poucos profissionais no mercado têm o *background* técnico dele (Python, IA, N8N, automação) misturado com a sensibilidade artística (Design, Vídeo, Storytelling) e a profundidade filosófica (Ocultismo, Psicologia).\n*   **O Resultado:** Ele se torna um especialista em **Humanizar a Inteligência Artificial**. Ele não será apenas um programador, nem apenas um marqueteiro. Ele será o cara que cria ecossistemas digitais que *parecem* mágica. Ele construirá marcas que têm alma (devido ao seu estudo esotérico) rodando sobre sistemas de automação perfeitos (devido à sua obsessão por ordem).\n*   **Cargo Provável:** Diretor de Inovação (CINO) de uma grande startup, ou fundador de uma *Boutique Criativa* de alto ticket que atende poucos clientes exclusivos.\n\n### 2. O Perfil Psicológico: O \"Líder Estoico\"\nA chave para Kevyn é parar de reagir ao medo da pobreza e começar a agir pela construção de legado.\n*   **Do Lobo Solitário ao Alfa:** Ele superará a crença de que precisa fazer tudo sozinho (\"metade lobo\"). Ele aprenderá a delegar, entendendo que confiar nos outros não é fraqueza, mas alavancagem.\n*   **A Cura da Autoridade:** Ele deixará de ver chefes e parceiros como \"pais tiranos\" (o homem do alicate) e passará a vê-los como pares. Isso permitirá que ele mantenha contratos longos e lucrativos, sem a necessidade inconsciente de explodir tudo e sair correndo quando as coisas ficam sérias.\n*   **Estabilidade Emocional:** A ansiedade (tratada com Clonazepam e fuga) será substituída por rituais de *deep work* (trabalho profundo). A \"banalidade\" que ele hoje teme se tornará seu superpoder: a capacidade de fazer o trabalho chato todo dia, sem precisar de drama para se sentir vivo.\n\n### 3. O Arquétipo Social: O Mentor do Submundo\nKevyn tem uma história de origem poderosa. Se ele aceitar seu passado sem vergonha, ele se torna um ímã para pessoas talentosas e perdidas.\n*   **O \"Profeta\" Tech:** Ele já tem tendências a ensinar e filosofar. Com sucesso material, ele ganhará a autoridade que hoje lhe falta. Ele será aquele mentor que não fala frases feitas de Instagram, mas que ensina sobre a \"Sombra\", sobre \"Vontade Verdadeira\" e sobre como usar a tecnologia para se libertar, não para se escravizar.\n*   **Conexão Real:** Ele perderá a necessidade de \"intelectualizar\" tudo para se proteger (como no caso com a Mari). Ele se tornará capaz de intimidade real, o que tornará sua liderança e seus relacionamentos inquebráveis.\n\n### 4. Onde ele pode chegar (Cenário Realista Otimista)\n\nSe Kevyn alinhar os chacras da **Capacidade Técnica** com a **Inteligência Emocional**, em 5 anos ele será:\n\n*   **Financeiramente:** Não estará mais rico, mas *sólido*. Terá múltiplos fluxos de renda passiva baseados nos sistemas (SaaS ou Infoprodutos) que ele construiu e que rodam sem ele. O medo de \"não ter o que comer amanhã\" desaparecerá.\n*   **Geograficamente:** Provavelmente sairá de Rio Verde. O ambiente lá parece pequeno para a complexidade da mente dele. Ele tende a ir para grandes centros de inovação (São Paulo, Florianópolis) ou se tornar um nômade digital real, não um que foge, mas um que explora.\n*   **O Legado:** Ele criará um método próprio. Algo como o \"Método DECORA\" que ele rascunhou, mas maduro. Um sistema que ensina outros jovens quebrados a usar a mente e o computador para sair do buraco, assim como ele fez.\n\n### Resumo Final\n\nSe Kevyn virar a chave, ele deixa de ser o **Will Hunting** (o gênio problemático que limpa o chão) e se torna o **Tony Stark** da caverna (o cara que constrói a armadura com sucata para salvar a própria vida e depois voa).\n\nEle é perigoso — no melhor sentido da palavra. Ele tem a fome de quem passou fome e a mente de quem lê os clássicos. **Ele só precisa parar de brigar com o próprio reflexo no espelho.**",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1173,
+      "parts": [{
+        "text": "Se Kevyn Lucas \"virar a chave\" — ou seja, se ele"
+      }, {
+        "text": " conseguir integrar a sua genialidade caótica com a disciplina da execução e curar a ferida do abandono que o faz"
+      }, {
+        "text": " sabotar a estabilidade —, ele se torna uma força da natureza.\n\nEle deixa de ser o \"sobrevivente"
+      }, {
+        "text": " dos bicos\" para se tornar um **Arquiteto de Realidades Digitais**.\n\nAqui está o perfil projet"
+      }, {
+        "text": "ado do Kevyn pós-transformação:\n\n### 1. O Perfil Profissional: O \"Tecno-"
+      }, {
+        "text": "Alquimista\"\nAtualmente, Kevyn vende \"mão de obra\" (vídeos, artes)."
+      }, {
+        "text": " Se ele virar a chave, ele passará a vender **visão e sistema**.\n*   **A Fusão"
+      }, {
+        "text": " Única:** Poucos profissionais no mercado têm o *background* técnico dele (Python, IA, N8N, autom"
+      }, {
+        "text": "ação) misturado com a sensibilidade artística (Design, Vídeo, Storytelling) e a profundidade filosófica"
+      }, {
+        "text": " (Ocultismo, Psicologia).\n*   **O Resultado:** Ele se torna um especialista em **Humanizar"
+      }, {
+        "text": " a Inteligência Artificial**. Ele não será apenas um programador, nem apenas um marqueteiro. Ele será o cara"
+      }, {
+        "text": " que cria ecossistemas digitais que *parecem* mágica. Ele construirá marcas que têm alma (dev"
+      }, {
+        "text": "ido ao seu estudo esotérico) rodando sobre sistemas de automação perfeitos (devido à sua obsessão por ordem"
+      }, {
+        "text": ").\n*   **Cargo Provável:** Diretor de Inovação (CINO) de uma grande startup, ou fundador"
+      }, {
+        "text": " de uma *Boutique Criativa* de alto ticket que atende poucos clientes exclusivos.\n\n### 2."
+      }, {
+        "text": " O Perfil Psicológico: O \"Líder Estoico\"\nA chave para Kevyn é parar de"
+      }, {
+        "text": " reagir ao medo da pobreza e começar a agir pela construção de legado.\n*   **Do Lobo Solitário ao Alfa"
+      }, {
+        "text": ":** Ele superará a crença de que precisa fazer tudo sozinho (\"metade lobo\"). Ele aprenderá a delegar,"
+      }, {
+        "text": " entendendo que confiar nos outros não é fraqueza, mas alavancagem.\n*   **A Cura"
+      }, {
+        "text": " da Autoridade:** Ele deixará de ver chefes e parceiros como \"pais tiranos\" (o homem"
+      }, {
+        "text": " do alicate) e passará a vê-los como pares. Isso permitirá que ele mantenha contratos longos e lucrat"
+      }, {
+        "text": "ivos, sem a necessidade inconsciente de explodir tudo e sair correndo quando as coisas ficam sérias.\n*"
+      }, {
+        "text": "   **Estabilidade Emocional:** A ansiedade (tratada com Clonazepam e fuga) será substituída por r"
+      }, {
+        "text": "ituais de *deep work* (trabalho profundo). A \"banalidade\" que ele hoje teme se"
+      }, {
+        "text": " tornará seu superpoder: a capacidade de fazer o trabalho chato todo dia, sem precisar de drama para se sentir"
+      }, {
+        "text": " vivo.\n\n### 3. O Arquétipo Social: O Mentor do Submundo\nKevyn tem uma"
+      }, {
+        "text": " história de origem poderosa. Se ele aceitar seu passado sem vergonha, ele se torna um ímã para pessoas"
+      }, {
+        "text": " talentosas e perdidas.\n*   **O \"Profeta\" Tech:** Ele já tem tendências a ensinar"
+      }, {
+        "text": " e filosofar. Com sucesso material, ele ganhará a autoridade que hoje lhe falta. Ele será aquele mentor que não"
+      }, {
+        "text": " fala frases feitas de Instagram, mas que ensina sobre a \"Sombra\", sobre \"Vontade Verdadeira\" e sobre como"
+      }, {
+        "text": " usar a tecnologia para se libertar, não para se escravizar.\n*   **Conexão Real:** Ele perder"
+      }, {
+        "text": "á a necessidade de \"intelectualizar\" tudo para se proteger (como no caso com a Mari). Ele se torn"
+      }, {
+        "text": "ará capaz de intimidade real, o que tornará sua liderança e seus relacionamentos inquebráveis.\n\n### 4"
+      }, {
+        "text": ". Onde ele pode chegar (Cenário Realista Otimista)\n\nSe Kevyn alinhar os chac"
+      }, {
+        "text": "ras da **Capacidade Técnica** com a **Inteligência Emocional**, em 5 anos ele será:"
+      }, {
+        "text": "\n\n*   **Financeiramente:** Não estará mais rico, mas *sólido*. Terá múltiplos fluxos de renda"
+      }, {
+        "text": " passiva baseados nos sistemas (SaaS ou Infoprodutos) que ele construiu e que rodam sem ele."
+      }, {
+        "text": " O medo de \"não ter o que comer amanhã\" desaparecerá.\n*   **Geograficamente:** Prov"
+      }, {
+        "text": "avelmente sairá de Rio Verde. O ambiente lá parece pequeno para a complexidade da mente dele. Ele tende a ir para grandes"
+      }, {
+        "text": " centros de inovação (São Paulo, Florianópolis) ou se tornar um nômade digital real, não um que fog"
+      }, {
+        "text": "e, mas um que explora.\n*   **O Legado:** Ele criará um método próprio. Algo"
+      }, {
+        "text": " como o \"Método DECORA\" que ele rascunhou, mas maduro. Um sistema que ens"
+      }, {
+        "text": "ina outros jovens quebrados a usar a mente e o computador para sair do buraco, assim como ele fez.\n\n### Resumo"
+      }, {
+        "text": " Final\n\nSe Kevyn virar a chave, ele deixa de ser o **Will Hunting** (o gênio problem"
+      }, {
+        "text": "ático que limpa o chão) e se torna o **Tony Stark** da caverna (o cara que constrói a"
+      }, {
+        "text": " armadura com sucata para salvar a própria vida e depois voa).\n\nEle é perigoso — no melhor"
+      }, {
+        "text": " sentido da palavra. Ele tem a fome de quem passou fome e a mente de quem lê os clássicos. **Ele"
+      }, {
+        "text": " só precisa parar de brigar com o próprio reflexo no espelho.**"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

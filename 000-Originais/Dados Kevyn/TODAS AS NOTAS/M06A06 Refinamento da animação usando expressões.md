@@ -1,0 +1,3 @@
+Coloque um Wiggle na cabeça para fazer movimentos suaves, (1,5) já basta, assim uma certa vida já será adicionado ao personagem.
+
+Sempre faça o personagem piscar, para isso escalone de 100 para 0 e depois para 100 denovo, e aí aplique loopout ("cycle"), não se esqueça de colocar um frame de margem no final para que o personagem espere um pouco antes de piscar novamente. O ideal é aplicar no olho inteiro essa técnica, mas só de aplicar na pupila já dá a impressão de que o personagem pisca.

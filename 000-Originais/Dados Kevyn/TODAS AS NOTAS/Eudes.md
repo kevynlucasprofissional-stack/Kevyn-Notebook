@@ -1,0 +1,1 @@
+Que vídeos em LOG requerem tratamento de cor, e que uma edição com mais cortes e mais cenas geralmente pode agradar mais. As vezes, cortes secos não são tão repugnantes, e que o combo de corte com flash de luz pode resultar em uma transição suave e agradável.

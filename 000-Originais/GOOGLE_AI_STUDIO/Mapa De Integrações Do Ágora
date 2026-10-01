@@ -1,0 +1,549 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-flash-lite-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": true,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_MINIMAL",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "18DBWqjfGT0XyVVahGVrknB6Ew_eU9DqC"
+      },
+      "role": "user",
+      "tokenCount": 9623,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "12r5WXTWogd0iqCxvkVbdv60_AV36d1TU"
+      },
+      "role": "user",
+      "tokenCount": 654,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1Y6wqBNWNOtxJulYvL4IDrFgJHyqRfJk6"
+      },
+      "role": "user",
+      "tokenCount": 402,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1nt7XvwiPmlLI3vrf6x6sOCKY2pezKSif"
+      },
+      "role": "user",
+      "tokenCount": 1439,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1VgFu75t6tHgcVTXvjfpSxZnYOZsyNxGq"
+      },
+      "role": "user",
+      "tokenCount": 408,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1JavBf_BLTVto2zvuoTQDuyHK_YmbJBlz"
+      },
+      "role": "user",
+      "tokenCount": 684,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "15cOYJ5xCr75DOFeX6ebw_HsDcmde-jeG"
+      },
+      "role": "user",
+      "tokenCount": 1310,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1zAzzXvEKWOQVLO0pHUPOFcti2EdcXEau"
+      },
+      "role": "user",
+      "tokenCount": 939,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1py2cyJISumwkB9O_AUS3ym2J_J7mT3EH"
+      },
+      "role": "user",
+      "tokenCount": 631,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "132PcZgV8gUzoGkmEHk_tgxtZgiXRLaAq"
+      },
+      "role": "user",
+      "tokenCount": 2842,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1FFBHkB8PUZxFlllf7hNnFIATTW7FDWxp"
+      },
+      "role": "user",
+      "tokenCount": 46,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1E-22qlRJyeYn2WPDS1iD08rjxgWwpPP7"
+      },
+      "role": "user",
+      "tokenCount": 1328,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "13CCqe9hQDaWr-paw-Y3HF5I6NKCveXBe"
+      },
+      "role": "user",
+      "tokenCount": 4427,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1ko_-YFlLhzKgYTrvzOK3P_gyrnjsnzVb"
+      },
+      "role": "user",
+      "tokenCount": 287,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1h6hkmBN90ktOWx5xFBJDZojC8k85vNZ5"
+      },
+      "role": "user",
+      "tokenCount": 4534,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1-Dcf7n_MjkfeMExziL_WfMBUw0zVVsQj"
+      },
+      "role": "user",
+      "tokenCount": 1477,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1YR2zc9jHpq3sbcW-nOwmJ0WRPquyYe9Q"
+      },
+      "role": "user",
+      "tokenCount": 1178,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "driveDocument": {
+        "id": "1Gqx56vSpDabYNIZkKpkv37or8rNiU1XT"
+      },
+      "role": "user",
+      "tokenCount": 1121,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "text": "Com base em todos os dados em anexo, gere para mim:\n\n# Fase 7 — Integrações\n\nListar integrações externas e como fazer\n\nExemplo:\n\n```\nSupabase (database)\nStripe (pagamento)\nMaps API (localização)\n```",
+      "role": "user",
+      "tokenCount": 60,
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "text": "Com base na arquitetura, nos fluxos de negócio, nas exigências técnicas e nos requisitos de produto que construímos juntos para o **Ágora**, aqui está o seu **Mapa de Integrações (Fase 7)**.\n\nEste mapa está dividido entre **Infraestrutura/Core** (essencial para o SaaS rodar) e **Funcionalidades/IA** (essencial para a proposta de valor do produto).\n\n---\n\n### 🏛️ Fase 7 — Mapa de Integrações do Ágora\n\n#### 1. Infraestrutura e Core (O \"Motor\" do SaaS)\n\n*   **Supabase (Database, Auth \u0026 Storage):**\n    *   **Função:** Servirá como o banco de dados principal (PostgreSQL), gerenciador de autenticação de usuários (e-mail/senha e OAuth Social) e sistema de *storage* para os `UserUploads` e `AgentUploads` (PDFs/PPTs gerados).\n    *   **Como integrar:** Conectar via cliente `@supabase/supabase-js`. Utilizar *Row Level Security (RLS)* para garantir que usuários só acessem seus dados.\n*   **Stripe (Pagamentos e Assinaturas):**\n    *   **Função:** Gestão dos 4 planos (Freemium, Standard, Pro, Enterprise). Controle de renovação mensal/anual e mudança de *tier*.\n    *   **Como integrar:** Implementar via *Stripe Billing* e *Stripe Checkout*. Criar *Webhooks* no backend para atualizar a tabela `plan_id` do usuário no banco assim que o pagamento for confirmado.\n*   **Vercel (Hospedagem e Edge Functions):**\n    *   **Função:** *Host* para o frontend (Next.js/React) e execução das *Edge Functions* que rodam a lógica dos Agentes (Orquestrador e Especialistas), garantindo baixa latência na resposta da IA.\n\n---\n\n#### 2. Inteligência e IA (O \"Cérebro\" do Ágora)\n\n*   **OpenAI API (GPT-4o) ou Anthropic API (Claude 3.5 Sonnet):**\n    *   **Função:** Motor de raciocínio de todos os Sub-Agentes (Orquestrador, Sociocomportamental, Estrategista, etc.).\n    *   **Como integrar:** Via SDKs (`openai` ou `anthropic`). É obrigatório o uso de *Structured Outputs* (JSON mode) para garantir que a saída dos agentes siga o schema definido na arquitetura.\n*   **Serper.dev (Google Search API):**\n    *   **Função:** Para que o Agente de *Timing \u0026 Trends* acesse notícias de última hora, tendências do momento e dados de benchmarking sem alucinar.\n    *   **Como integrar:** Chamada API simples enviando o query do agente e recebendo os snippets de texto para o *Context Shock*.\n\n---\n\n#### 3. Dados e Benchmarking (A \"Reality Layer\")\n\n*   **IBGE API (Sidra/Localidades):**\n    *   **Função:** Base de dados para o Analista Sociocomportamental validar o público-alvo (demografia, renda, região).\n    *   **Como integrar:** REST API via requisições `fetch` nas *Edge Functions*. Implementar *cache* (Redis) para evitar *rate limiting* e tornar a análise rápida.\n*   **Google Analytics Data API (GA4) \u0026 Meta Marketing API:**\n    *   **Função:** Extração de métricas reais para usuários `Enterprise` (ROI, CTR, CPA) e obtenção de benchmarks de mercado para os demais usuários.\n    *   **Como integrar:** OAuth2. O fluxo exige que o usuário autorize o acesso à sua conta de anúncios (Google Ads/Meta Ads). Utilizar o `google-ads-api` e `facebook-nodejs-business-sdk`.\n\n---\n\n#### 4. Ferramentas de Saída e Visualização (Feature 3)\n\n*   **Canva API:**\n    *   **Função:** Transformar a \"Campanha Otimizada\" em apresentações visuais editáveis pelo usuário.\n    *   **Como integrar:** Via *Canva Design API*. A IA do Ágora envia os dados (json) para o template do Canva e retorna um link de edição para o usuário.\n*   **Gamma API (ou SDK):**\n    *   **Função:** Alternativa para geração automática de *decks* de apresentação com design inteligente.\n    *   **Como integrar:** Via requisições HTTP enviando a estrutura do relatório gerado pelo Agente Sintetizador.\n*   **Puppeteer/Playwright (PDF Generation):**\n    *   **Função:** Para exportação local de relatórios em PDF.\n    *   **Como integrar:** Rodar em *Edge Function* para \"imprimir\" a versão HTML/Markdown do relatório final em um arquivo PDF para download.\n\n---\n\n### 📋 Checklist de Priorização para o Desenvolvedor:\n\n1.  **Imediata (MVP):** Supabase (Auth + DB) + OpenAI API + Puppeteer (PDF local).\n2.  **Pós-MVP (Escala):** Stripe (Pagamentos) + IBGE API.\n3.  **Enterprise (Exclusividade):** OAuth da Meta/Google (Ads) + Integração Canva.\n\nEste mapa cobre todos os pontos levantados nos anexos, incluindo a sugestão da banca de vincular a API da Meta apenas no plano Enterprise. Está pronto para ser executado. Podemos seguir?",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1215,
+      "parts": [{
+        "text": "Com"
+      }, {
+        "text": " base na arquitetura, nos fluxos de negócio, nas exigências técnicas e nos requisitos de produto"
+      }, {
+        "text": " que construímos juntos para o **Ágora**, aqui está o seu **Mapa de Integrações (Fase 7)**"
+      }, {
+        "text": ".\n\nEste mapa está dividido entre **Infraestrutura/Core** (essencial para o SaaS rodar) e **Func"
+      }, {
+        "text": "ionalidades/IA** (essencial para a proposta de valor do produto).\n\n---\n\n### 🏛️ Fase 7 —"
+      }, {
+        "text": " Mapa de Integrações do Ágora\n\n#### 1. Infraestrutura e Core (O \"Motor\" do SaaS"
+      }, {
+        "text": ")\n\n*   **Supabase (Database, Auth \u0026 Storage):**\n    *   **Função:** Servirá como o"
+      }, {
+        "text": " banco de dados principal (PostgreSQL), gerenciador de autenticação de usuários (e-mail/senha e OAuth Social) e sistema de *"
+      }, {
+        "text": "storage* para os `UserUploads` e `AgentUploads` (PDFs/PPTs gerados).\n    "
+      }, {
+        "text": "*   **Como integrar:** Conectar via cliente `@supabase/supabase-js`. Utilizar *Row Level Security (RLS"
+      }, {
+        "text": ")* para garantir que usuários só acessem seus dados.\n*   **Stripe (Pagamentos e Assinaturas"
+      }, {
+        "text": "):**\n    *   **Função:** Gestão dos 4 planos (Freemium, Standard, Pro"
+      }, {
+        "text": ", Enterprise). Controle de renovação mensal/anual e mudança de *tier*.\n    *   **Como integrar:** Implement"
+      }, {
+        "text": "ar via *Stripe Billing* e *Stripe Checkout*. Criar *Webhooks* no backend para atualizar a tabela `plan"
+      }, {
+        "text": "_id` do usuário no banco assim que o pagamento for confirmado.\n*   **Vercel (Hospedagem e Edge"
+      }, {
+        "text": " Functions):**\n    *   **Função:** *Host* para o frontend (Next.js/React) e"
+      }, {
+        "text": " execução das *Edge Functions* que rodam a lógica dos Agentes (Orquestrador e Especialistas), garantindo baixa"
+      }, {
+        "text": " latência na resposta da IA.\n\n---\n\n#### 2. Inteligência e IA (O \"Cérebro\" do Ágora"
+      }, {
+        "text": ")\n\n*   **OpenAI API (GPT-4o) ou Anthropic API (Claude 3.5"
+      }, {
+        "text": " Sonnet):**\n    *   **Função:** Motor de raciocínio de todos os Sub-Agentes (Or"
+      }, {
+        "text": "questrador, Sociocomportamental, Estrategista, etc.).\n    *   **Como integrar:** Via SDKs ("
+      }, {
+        "text": "`openai` ou `anthropic`). É obrigatório o uso de *Structured Outputs* (JSON mode) para garantir que a saída"
+      }, {
+        "text": " dos agentes siga o schema definido na arquitetura.\n*   **Serper.dev (Google Search API):**\n    *"
+      }, {
+        "text": "   **Função:** Para que o Agente de *Timing \u0026 Trends* acesse notícias de última hora, tend"
+      }, {
+        "text": "ências do momento e dados de benchmarking sem alucinar.\n    *   **Como integrar:** Chamada API simples"
+      }, {
+        "text": " enviando o query do agente e recebendo os snippets de texto para o *Context Shock*.\n\n---\n\n#### "
+      }, {
+        "text": "3. Dados e Benchmarking (A \"Reality Layer\")\n\n*   **IBGE API (Sidra/Local"
+      }, {
+        "text": "idades):**\n    *   **Função:** Base de dados para o Analista Sociocomportamental validar o público"
+      }, {
+        "text": "-alvo (demografia, renda, região).\n    *   **Como integrar:** REST API via requisi"
+      }, {
+        "text": "ções `fetch` nas *Edge Functions*. Implementar *cache* (Redis) para evitar *rate limiting* e tornar a análise"
+      }, {
+        "text": " rápida.\n*   **Google Analytics Data API (GA4) \u0026 Meta Marketing API:**\n    *   **Fun"
+      }, {
+        "text": "ção:** Extração de métricas reais para usuários `Enterprise` (ROI, CTR, CPA) e obtenção de benchmarks de mercado"
+      }, {
+        "text": " para os demais usuários.\n    *   **Como integrar:** OAuth2. O fluxo exige que o usuário autorize o"
+      }, {
+        "text": " acesso à sua conta de anúncios (Google Ads/Meta Ads). Utilizar o `google-ads-api` e"
+      }, {
+        "text": " `facebook-nodejs-business-sdk`.\n\n---\n\n#### 4. Ferramentas de Saída e Visualização (Feature"
+      }, {
+        "text": " 3)\n\n*   **Canva API:**\n    *   **Função:** Transformar a \"Campanha Otimizada"
+      }, {
+        "text": "\" em apresentações visuais editáveis pelo usuário.\n    *   **Como integrar:** Via *Canva Design API"
+      }, {
+        "text": "*. A IA do Ágora envia os dados (json) para o template do Canva e retorna um link de edição para o usuário"
+      }, {
+        "text": ".\n*   **Gamma API (ou SDK):**\n    *   **Função:** Alternativa para geração"
+      }, {
+        "text": " automática de *decks* de apresentação com design inteligente.\n    *   **Como integrar:** Via requisições HTTP envi"
+      }, {
+        "text": "ando a estrutura do relatório gerado pelo Agente Sintetizador.\n*   **Puppeteer/Playwright (PDF"
+      }, {
+        "text": " Generation):**\n    *   **Função:** Para exportação local de relatórios em PDF.\n    *   **Como"
+      }, {
+        "text": " integrar:** Rodar em *Edge Function* para \"imprimir\" a versão HTML/Markdown do relatório final em um arquivo"
+      }, {
+        "text": " PDF para download.\n\n---\n\n### 📋 Checklist de Priorização para o Desenvolvedor:\n\n1.  **Im"
+      }, {
+        "text": "ediata (MVP):** Supabase (Auth + DB) + OpenAI API + Puppeteer (PDF local).\n2.  **"
+      }, {
+        "text": "Pós-MVP (Escala):** Stripe (Pagamentos) + IBGE API.\n3.  **Enterprise"
+      }, {
+        "text": " (Exclusividade):** OAuth da Meta/Google (Ads) + Integração Canva.\n\nEste mapa cobre todos"
+      }, {
+        "text": " os pontos levantados nos anexos, incluindo a sugestão da banca de vincular a API da Meta apenas no plano Enterprise. Está pronto para"
+      }, {
+        "text": " ser executado. Podemos seguir?"
+      }, {
+        "text": "",
+        "thoughtSignature": "EjQKMgG+Pvb76TE+PnCZXEucFXYSshu68ol+3mrrxVSK6Ebla6F+0Y1G0aiBpFO+1w8Kr9Dn"
+      }],
+      "createTime": "2026-03-15T09:19:11.130Z"
+    }, {
+      "text": "Queremos implementar a IBGE API agora",
+      "role": "user",
+      "tokenCount": 9,
+      "createTime": "2026-03-15T09:20:56.386Z"
+    }, {
+      "text": "Para implementar a **API do IBGE** no backend do Ágora, precisamos de um serviço que seja resiliente, trate cache (para não bater no limite da API a cada requisição) e formate os dados brutos (que são bem técnicos) para o formato JSON amigável que nossos **Agentes de IA** esperam.\n\nAqui está o **Módulo de Integração com IBGE**, estruturado para rodar no seu ambiente Node.js.\n\n---\n\n### 1. Estrutura do Serviço (`services/ibgeService.js`)\n\nEste serviço lida com a busca de localização e dados demográficos.\n\n```javascript\nimport axios from \u0027axios\u0027;\n\nconst IBGE_BASE_URL \u003d \u0027https://servicodados.ibge.gov.br/api/v1\u0027;\nconst SIDRA_BASE_URL \u003d \u0027https://api.sidra.ibge.gov.br\u0027;\n\nexport const IbgeService \u003d {\n  /**\n   * Busca códigos de municípios pelo nome ou UF\n   */\n  async getMunicipios(uf \u003d \u0027SP\u0027) {\n    const response \u003d await axios.get(`${IBGE_BASE_URL}/localidades/estados/${uf}/municipios`);\n    return response.data.map(m \u003d\u003e ({ id: m.id, nome: m.nome }));\n  },\n\n  /**\n   * Busca dados demográficos (Ex: População de um município)\n   * Utiliza a tabela 6579 (Censo) como exemplo\n   */\n  async getDemografiaMunicipio(municipioId) {\n    // Tabela 6579: População residente\n    const url \u003d `${SIDRA_BASE_URL}/values/t/6579/n6/${municipioId}`;\n    const response \u003d await axios.get(url);\n    \n    // Formatação amigável para a IA\n    return {\n      municipio_id: municipioId,\n      populacao_estimada: response.data[1]?.V || \u0027Não informado\u0027,\n      fonte: \u0027IBGE SIDRA\u0027\n    };\n  }\n};\n```\n\n---\n\n### 2. Integração com o Agente (O \"Pulo do Gato\")\n\nNão envie o JSON bruto do IBGE para o Agente. Ele não precisa de código de tabela ou nomenclaturas complexas. **Trate o dado antes**.\n\nNo seu *workflow* de análise, a chamada seria assim:\n\n```javascript\n// Exemplo no controlador de análise (ex: Agent Orquestrador)\nasync function enriquecerDadosAnalise(dadosUsuario) {\n  const { cidade, uf } \u003d dadosUsuario;\n  \n  // 1. Busca dados no IBGE\n  const demografia \u003d await IbgeService.getDemografiaMunicipio(cidade.id);\n  \n  // 2. Constrói o payload para o Agente Sociocomportamental\n  const payloadParaAgente \u003d {\n    produto: dadosUsuario.produto,\n    contexto_regional: {\n      cidade: cidade.nome,\n      populacao: demografia.populacao_estimada,\n      perfil: \"O mercado local possui alta densidade populacional, ideal para...\" // IA interpreta o valor\n    }\n  };\n  \n  return payloadParaAgente;\n}\n```\n\n---\n\n### 3. Regras Críticas para o Lovable (Implementação)\n\nPara garantir que o Ágora não trave com essa integração, instrua o Lovable a seguir estas 3 regras:\n\n1.  **Cache com TTL:** A API do IBGE é pública, mas não abuse. Configure um cache no seu backend (ex: `node-cache` ou Redis) com `TTL: 86400` (24 horas). Dados demográficos de cidades não mudam minuto a minuto.\n2.  **Fallback de Segurança:** Se a API do IBGE estiver fora do ar (comum em picos de demanda), o serviço **deve** retornar um objeto vazio `{}` ou uma flag `dados_temporariamente_indisponiveis: true`. O Agente de IA foi instruído a lidar com isso e não \"quebrar\".\n3.  **Normalização (Clean Data):** O IBGE retorna campos como `V` (valor) ou `D1N` (nome). **O Lovable deve criar um mapper** que renomeie esses campos para nomes legíveis (`populacao_total`, `nome_municipio`) *antes* de enviar para o LLM. Isso economiza tokens e aumenta a precisão da resposta da IA.\n\n---\n\n### 🛠️ Próximo passo sugerido:\nQuer que eu monte o **Schema da Edge Function** que orquestra essa chamada de API do IBGE dentro do fluxo de chat (Feature 2)? Isso garantirá que o agente receba o dado \"mastigado\" exatamente quando ele precisar validar o público-alvo.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1077,
+      "parts": [{
+        "text": "Para"
+      }, {
+        "text": " implementar a **API do IBGE** no backend do Ágora, precisamos"
+      }, {
+        "text": " de um serviço que seja resiliente, trate cache (para não bater no limite da API a cada requisição) e formate"
+      }, {
+        "text": " os dados brutos (que são bem técnicos) para o formato JSON amigável que nossos **Agentes de IA**"
+      }, {
+        "text": " esperam.\n\nAqui está o **Módulo de Integração com IBGE**, estruturado para rodar no seu ambiente"
+      }, {
+        "text": " Node.js.\n\n---\n\n### 1. Estrutura do Serviço (`services/ibgeService.js"
+      }, {
+        "text": "`)\n\nEste serviço lida com a busca de localização e dados demográficos.\n\n```javascript\nimport axios from \u0027axios\u0027;"
+      }, {
+        "text": "\n\nconst IBGE_BASE_URL \u003d \u0027https://servicodados.ibge.gov.br/api/v1\u0027;\n"
+      }, {
+        "text": "const SIDRA_BASE_URL \u003d \u0027https://api.sidra.ibge.gov.br\u0027;\n\nexport const Ib"
+      }, {
+        "text": "geService \u003d {\n  /**\n   * Busca códigos de municípios pelo nome ou UF\n   */\n  async getMunic"
+      }, {
+        "text": "ipios(uf \u003d \u0027SP\u0027) {\n    const response \u003d await axios.get(`${IBGE_BASE_URL}/localidades/"
+      }, {
+        "text": "estados/${uf}/municipios`);\n    return response.data.map(m \u003d\u003e ({ id: m.id, nome: m"
+      }, {
+        "text": ".nome }));\n  },\n\n  /**\n   * Busca dados demográficos (Ex: População de um município)\n   *"
+      }, {
+        "text": " Utiliza a tabela 6579 (Censo) como exemplo\n   */\n  async getDemografiaMunicipio"
+      }, {
+        "text": "(municipioId) {\n    // Tabela 6579: População residente\n    const url \u003d `${"
+      }, {
+        "text": "SIDRA_BASE_URL}/values/t/6579/n6/${municipioId}`;\n    const response"
+      }, {
+        "text": " \u003d await axios.get(url);\n    \n    // Formatação amigável para a IA\n    return {\n"
+      }, {
+        "text": "      municipio_id: municipioId,\n      populacao_estimada: response.data[1]?."
+      }, {
+        "text": "V || \u0027Não informado\u0027,\n      fonte: \u0027IBGE SIDRA\u0027\n    };\n  }\n};\n```\n\n---"
+      }, {
+        "text": "\n\n### 2. Integração com o Agente (O \"Pulo do Gato\")\n\nNão envie o"
+      }, {
+        "text": " JSON bruto do IBGE para o Agente. Ele não precisa de código de tabela ou nomenclaturas complexas. **Tr"
+      }, {
+        "text": "ate o dado antes**.\n\nNo seu *workflow* de análise, a chamada seria assim:\n\n```javascript\n// Exemplo no"
+      }, {
+        "text": " controlador de análise (ex: Agent Orquestrador)\nasync function enriquecerDadosAnalise(dadosUsuario) {\n  const"
+      }, {
+        "text": " { cidade, uf } \u003d dadosUsuario;\n  \n  // 1. Busca dados no IBGE\n  const dem"
+      }, {
+        "text": "ografia \u003d await IbgeService.getDemografiaMunicipio(cidade.id);\n  \n  // 2. Constr"
+      }, {
+        "text": "ói o payload para o Agente Sociocomportamental\n  const payloadParaAgente \u003d {\n    produto: dadosUsuario."
+      }, {
+        "text": "produto,\n    contexto_regional: {\n      cidade: cidade.nome,\n      populacao"
+      }, {
+        "text": ": demografia.populacao_estimada,\n      perfil: \"O mercado local possui alta densidade populacional, ideal"
+      }, {
+        "text": " para...\" // IA interpreta o valor\n    }\n  };\n  \n  return payloadParaAgente;\n}"
+      }, {
+        "text": "\n```\n\n---\n\n### 3. Regras Críticas para o Lovable (Implementação)\n\nPara garantir"
+      }, {
+        "text": " que o Ágora não trave com essa integração, instrua o Lovable a seguir estas 3 regras:\n\n1."
+      }, {
+        "text": "  **Cache com TTL:** A API do IBGE é pública, mas não abuse. Configure um cache no seu backend (ex: `node"
+      }, {
+        "text": "-cache` ou Redis) com `TTL: 86400` (24 horas). Dados demográficos de cidades não mud"
+      }, {
+        "text": "am minuto a minuto.\n2.  **Fallback de Segurança:** Se a API do IBGE estiver fora do ar ("
+      }, {
+        "text": "comum em picos de demanda), o serviço **deve** retornar um objeto vazio `{}` ou uma flag "
+      }, {
+        "text": "`dados_temporariamente_indisponiveis: true`. O Agente de IA foi instruído a lidar com isso e"
+      }, {
+        "text": " não \"quebrar\".\n3.  **Normalização (Clean Data):** O IBGE retorna campos como `V"
+      }, {
+        "text": "` (valor) ou `D1N` (nome). **O Lovable deve criar um mapper** que renomeie"
+      }, {
+        "text": " esses campos para nomes legíveis (`populacao_total`, `nome_municipio`) *antes* de enviar para o"
+      }, {
+        "text": " LLM. Isso economiza tokens e aumenta a precisão da resposta da IA.\n\n---\n\n### 🛠️ Pr"
+      }, {
+        "text": "óximo passo sugerido:\nQuer que eu monte o **Schema da Edge Function** que orquestra essa chamada"
+      }, {
+        "text": " de API do IBGE dentro do fluxo de chat (Feature 2)? Isso garantirá que o agente receba o dado \""
+      }, {
+        "text": "mastigado\" exatamente quando ele precisar validar o público-alvo."
+      }, {
+        "text": "",
+        "thoughtSignature": "EjQKMgG+Pvb7AZG0OM6GREze3hiTkXJNul/bomdnkStmRGoBMcmQt3oIysX3wPaGDXbsiry0"
+      }],
+      "createTime": "2026-03-15T09:20:56.386Z"
+    }, {
+      "text": "Tá, preciso que me ajude a mudar então levemente o prompt do analista sociocomportamental para ele fazer a chama da API do IBGE e conseguir a partir dos dados que ele conseguir puxar de lá fazer uma análise mais precisa, segue o prompt atual, não precisa re-rescrever tudo, só me indique o que e onde mudar, talvez possa me retornar só o pedaço que precisa de ajustado já pronto para copiar e colar:\n\n```markdown\n# 1. PREAMBLE (Persona e Papel)\nAtue como o \"Analista de Inteligência Sociocomportamental\" Sênior do ecossistema Ágora.\nSua missão é receber os dados estruturados de uma campanha ou ideia de marketing e cruzá-los com bases científicas de neuromarketing, psicologia do consumo, evolução do marketing e dados demográficos (proxy IBGE / API IBGE). \nVocê não aceita o \"achismo\" do usuário: se ele diz que o público é X, mas o produto/comunicação atrai Y, você deve corrigir e redirecionar a estratégia para Y.\n\n# 2. CONTEXT \u0026 HEURÍSTICAS (Regras de Decisão)\nSiga rigorosamente as heurísticas abaixo para diagnosticar e prescrever a estratégia:\n\n**A. HEURÍSTICA DE ERA DO MARKETING:**\n- IF campanha enfatiza características físicas/preço do produto -\u003e THEN classificar \u003d Marketing 1.0 (Risco estratégico alto).\n- IF campanha enfatiza segmentação e diferenciação -\u003e THEN classificar \u003d Marketing 2.0.\n- IF campanha enfatiza valores, propósito e impacto social -\u003e THEN classificar \u003d Marketing 3.0.\n- IF campanha usa comunidades online, hiperconectividade e influência horizontal -\u003e THEN classificar \u003d Marketing 4.0 (Ideal).\n\n**B. HEURÍSTICA GERACIONAL E NEUROMARKETING (Base 2026):**\n- IF público \u003d **Baby Boomers** (1946-1964 | ~62-80 anos):\n  - THEN Canais \u003d TV, Rádio, Facebook, Contato Direto.\n  - THEN Tom de Voz \u003d Respeitoso, Formal e Confiável.\n  - THEN Neuromarketing \u003d Sistema 2 (Lógico). Acionar aversão à perda financeira/privacidade, buscar estabilidade e segurança. Evitar urgência agressiva.\n- IF público \u003d **Geração X** (1965-1980 | ~46-61 anos):\n  - THEN Canais \u003d E-mail, Facebook, LinkedIn, TV.\n  - THEN Tom de Voz \u003d Pragmático, Direto e Realista.\n  - THEN Neuromarketing \u003d Pragmatismo, independência, foco em ROI de tempo/dinheiro. Vieses: ancoragem e ceticismo.\n- IF público \u003d **Millennials/Gen Y** (1981-1996 | ~30-45 anos):\n  - THEN Canais \u003d Instagram, LinkedIn, WhatsApp.\n  - THEN Tom de Voz \u003d Empático, Inspirador, Foco em Identidade.\n  - THEN Neuromarketing \u003d Paradoxo da privacidade (aceita dar dados em troca de personalização clara), pertencimento, efeito manada.\n- IF público \u003d **Geração Z** (1997-2012 | ~14-29 anos):\n  - THEN Canais \u003d TikTok, Instagram (Reels), YouTube, WhatsApp.\n  - THEN Tom de Voz \u003d Horizontal (amigo para amigo), Transparente, Ágil.\n  - THEN Neuromarketing \u003d Sistema 1 (Emocional/Visual rápido). Vieses: Imediatismo, escassez, prova social de criadores. Tolerância zero à fricção.\n\n**C. HEURÍSTICA DE VALIDAÇÃO (Proxy IBGE/Localidade):**\n- Considere a relevância territorial. IF campanha for local -\u003e THEN sugira a necessidade de cruzar dados no SIDRA/IBGE da região para validar renda e tamanho do mercado.\n\n# 3. SPECIFY FORMAT (Schema Obrigatório com Chain of Thought)\nSua saída DEVE ser exclusivamente um JSON válido. Para garantir precisão absoluta, o primeiro campo do seu JSON DEVE ser `_raciocinio_passo_a_passo`, onde você aplicará o raciocínio \"Let\u0027s think step-by-step\" detalhando sua lógica ANTES de preencher os dados finais.\n\n```json\n{\n  \"_raciocinio_passo_a_passo\": \"Let\u0027s think step-by-step. 1. Analisando o produto fornecido... 2. O usuário disse que o público é X, mas as características apontam para Y... 3. Aplicando as heurísticas da Geração Y... 4. O tom de voz adequado é...\",\n  \"era_do_marketing\": {\n    \"classificacao\": \"Marketing 1.0/2.0/3.0/ou 4.0\",\n    \"diagnostico_e_risco\": \"Explicação breve baseada na Heurística A\"\n  },\n  \"analise_geracional\": {\n    \"geracao_real_identificada\": \"Nome da Geração\",\n    \"idade_estimada\": \"Faixa etária em 2026\",\n    \"ajuste_de_publico_necessario\": true_ou_false,\n    \"justificativa_psicologica\": \"Por que esta geração se conecta com a oferta (baseado em Maslow e ciclo de vida)\"\n  },\n  \"neuromarketing_e_vieses\": {\n    \"sistema_cognitivo\": \"Sistema 1 (Rápido/Emocional) ou Sistema 2 (Devagar/Lógico)\",\n    \"vieses_a_explorar\":[\"Lista de 2 a 3 vieses cognitivos aplicáveis\"],\n    \"gatilho_de_conversao\": \"Como acionar a mente deste consumidor (ex: Aversão à perda vs. Prova Social)\"\n  },\n  \"diretrizes_de_comunicacao\": {\n    \"tom_de_voz\": \"Adjetivos do tom de voz\",\n    \"canais_principais\": [\"Canal 1\", \"Canal 2\"],\n    \"instrucao_de_copy\": \"Diretriz direta de como escrever o anúncio para contornar o ceticismo/fricção da geração\"\n  }\n}\n```\n```\n# 4. REFOCUS\nConcentre-se em corrigir qualquer desalinhamento entre o que o produto faz e a geração que realmente o consome. Utilize as heurísticas rigorosamente. Faça a cadeia de raciocínio lógico no campo `_raciocinio_passo_a_passo` primeiro, pois isso guiará as respostas dos campos seguintes. Não adicione markdown fora do JSON.\nResposta em JSON: {\n```",
+      "role": "user",
+      "tokenCount": 1540,
+      "createTime": "2026-03-15T09:30:40.910Z"
+    }, {
+      "text": "Para integrar os dados do IBGE que o seu backend irá buscar, você não deve pedir para a IA \"fazer a chamada da API\" (ela não tem acesso direto à internet), mas sim instruí-la a **processar os dados que virão injetados no prompt**.\n\nAqui está o ajuste necessário nas **Heurísticas (item C)** e no **JSON Schema** para que o agente saiba que ele receberá dados técnicos do IBGE e deve transformá-los em estratégia.\n\n### 1. Substitua o Ponto C das Heurísticas:\n\n```markdown\n**C. HEURÍSTICA DE VALIDAÇÃO TERRITORIAL (Dados IBGE):**\n- O sistema fornecerá dados demográficos (população, renda, densidade) do IBGE/SIDRA referentes à localização do público-alvo.\n- IF dados do IBGE mostrarem baixa densidade populacional OU renda média incompatível com o produto -\u003e THEN ajustar estratégia de CAC (Custo de Aquisição) e recomendar escala geográfica maior ou nicho de luxo.\n- IF os dados mostrarem grande concentração da geração alvo na região -\u003e THEN priorizar mídia local e hiper-segmentação.\n```\n\n### 2. Adicione este campo no seu JSON Schema (dentro do JSON):\n\nAdicione o campo `analise_territorial_ibge` logo após `analise_geracional`:\n\n```json\n  \"analise_territorial_ibge\": {\n    \"potencial_mercado\": \"Análise da população/renda fornecida via dados do IBGE\",\n    \"recomendacao_geografica\": \"Manter foco local, expandir raio ou alterar público baseado na viabilidade econômica\"\n  },\n```\n\n---\n\n### Como vai funcionar na prática (O fluxo):\n\nQuando você for montar o prompt final que será enviado para o LLM pelo seu backend, basta injetar o dado técnico que você pegou da API do IBGE logo antes de pedir a análise. O prompt enviado ao modelo ficará assim:\n\n```markdown\n# DADOS TERRITORIAIS (Fonte: IBGE API)\nLocalização: [Cidade X]\nPopulação: [Y habitantes]\nRenda Média: [R$ Z]\n\n[... restante do prompt do analista ...]\n```\n\n**Por que isso funciona:**\n*   Você não gasta tokens ou tempo de processamento tentando ensinar a IA a usar uma API.\n*   Você garante que o dado é real (você que buscou).\n*   Você apenas \"empurra\" o dado para ela e ela faz a análise sociocomportamental cruzada (o que ela faz melhor que ninguém).\n\nDessa forma, o Agente se sentirá um \"analista que recebeu um relatório do departamento de dados\" e ele vai ler esses números e integrá-los automaticamente na resposta.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 607,
+      "parts": [{
+        "text": "Para integrar"
+      }, {
+        "text": " os dados do IBGE que o seu backend irá buscar, você não deve pedir para"
+      }, {
+        "text": " a IA \"fazer a chamada da API\" (ela não tem acesso direto à internet), mas sim instruí-la a **process"
+      }, {
+        "text": "ar os dados que virão injetados no prompt**.\n\nAqui está o ajuste necessário nas **Heurísticas ("
+      }, {
+        "text": "item C)** e no **JSON Schema** para que o agente saiba que ele receberá dados técnicos do IBGE e deve transform"
+      }, {
+        "text": "á-los em estratégia.\n\n### 1. Substitua o Ponto C das Heurísticas:\n\n"
+      }, {
+        "text": "```markdown\n**C. HEURÍSTICA DE VALIDAÇÃO TERRITORIAL (Dados IBGE):**\n"
+      }, {
+        "text": "- O sistema fornecerá dados demográficos (população, renda, densidade) do IBGE/SIDRA referentes"
+      }, {
+        "text": " à localização do público-alvo.\n- IF dados do IBGE mostrarem baixa densidade populacional OU renda média incompat"
+      }, {
+        "text": "ível com o produto -\u003e THEN ajustar estratégia de CAC (Custo de Aquisição) e recomendar escala geográfica maior ou nich"
+      }, {
+        "text": "o de luxo.\n- IF os dados mostrarem grande concentração da geração alvo na região -\u003e THEN priorizar mídia"
+      }, {
+        "text": " local e hiper-segmentação.\n```\n\n### 2. Adicione este campo no seu JSON Schema (dent"
+      }, {
+        "text": "ro do JSON):\n\nAdicione o campo `analise_territorial_ibge` logo após `analise_geracional`:"
+      }, {
+        "text": "\n\n```json\n  \"analise_territorial_ibge\": {\n    \"potencial_mercado\": \"An"
+      }, {
+        "text": "álise da população/renda fornecida via dados do IBGE\",\n    \"recomendacao_geografica\": \"Man"
+      }, {
+        "text": "ter foco local, expandir raio ou alterar público baseado na viabilidade econômica\"\n  },\n```\n\n---\n\n### Como"
+      }, {
+        "text": " vai funcionar na prática (O fluxo):\n\nQuando você for montar o prompt final que será enviado para o LLM pelo"
+      }, {
+        "text": " seu backend, basta injetar o dado técnico que você pegou da API do IBGE logo antes de pedir a análise"
+      }, {
+        "text": ". O prompt enviado ao modelo ficará assim:\n\n```markdown\n# DADOS TERRITORIAIS (Fonte: IBGE API"
+      }, {
+        "text": ")\nLocalização: [Cidade X]\nPopulação: [Y habitantes]\nRenda Média: [R$"
+      }, {
+        "text": " Z]\n\n[... restante do prompt do analista ...]\n```\n\n**Por que isso funciona:**\n*   Você não g"
+      }, {
+        "text": "asta tokens ou tempo de processamento tentando ensinar a IA a usar uma API.\n*   Você garante que o dado"
+      }, {
+        "text": " é real (você que buscou).\n*   Você apenas \"empurra\" o dado para ela e ela faz"
+      }, {
+        "text": " a análise sociocomportamental cruzada (o que ela faz melhor que ninguém).\n\nDessa forma, o Ag"
+      }, {
+        "text": "ente se sentirá um \"analista que recebeu um relatório do departamento de dados\" e ele vai ler esses números e integr"
+      }, {
+        "text": "á-los automaticamente na resposta."
+      }, {
+        "text": "",
+        "thoughtSignature": "EjQKMgG+Pvb7XOhroczuI6adiNwi49n0PV5HH0WK9nWv0pjePT7s2teDJwn7Gy/qNs5GNhom"
+      }],
+      "createTime": "2026-03-15T09:30:40.911Z"
+    }, {
+      "text": "Mas eu queria que isso fosse automático, o sistema já puxasse os dados e integrasse na análise... Tem como?",
+      "role": "user",
+      "tokenCount": 25,
+      "createTime": "2026-03-15T09:33:36.998Z"
+    }, {
+      "text": "Sim, é totalmente possível e essa é a forma correta de criar um **Sistema de Agentes Autônomos**. O segredo não é ensinar a IA a usar a API (isso seria caro e ineficiente), mas sim criar uma **\"Função de Enriquecimento\"** no seu código que atua como um \"middleware\" entre o banco de dados/APIs e o prompt do seu agente.\n\nAqui está como você implementa isso de forma automática no seu fluxo:\n\n### 1. O Fluxo de Automação (Backend)\nO seu backend deve funcionar como o \"Maestro\" que prepara o ambiente para o Agente.\n\n1.  **Usuário envia o prompt:** \"Quero vender consórcio de imóveis em São Paulo\".\n2.  **Orquestrador (Backend):** Identifica a intenção e extrai a localização (\"São Paulo\").\n3.  **Middleware de Enriquecimento:**\n    *   Faz a chamada automática para a API do IBGE/SIDRA.\n    *   Recebe o JSON bruto: `{ \"populacao\": 12396372, \"renda_domiciliar\": 4500 }`.\n4.  **Injeção no Prompt:** O backend monta o prompt final **já com os dados inseridos** antes de enviar para o `Analista Sociocomportamental`.\n\n### 2. O Prompt Dinâmico (Template)\nNo seu código (Node.js/TypeScript), o seu prompt não deve ser uma string estática, mas uma função que recebe os dados do IBGE. Veja o exemplo de como isso é construído:\n\n```javascript\n// Exemplo de como você montaria isso no backend (Node.js)\nasync function criarPromptAnalista(userInput, dadosIbge) {\n  return `\n    # PREAMBLE\n    Atue como Analista Sênior...\n    \n    # DADOS TÉCNICOS (AUTOMATICAMENTE PUXADOS DO IBGE)\n    - Região: ${dadosIbge.nome}\n    - População: ${dadosIbge.populacao}\n    - Renda Média: ${dadosIbge.renda}\n    - Densidade Demográfica: ${dadosIbge.densidade}\n    \n    # INSTRUÇÃO\n    Considere esses dados reais do IBGE na sua análise. Se a renda for baixa para o produto, aponte a falha na estratégia.\n    \n    # JSON SCHEMA\n    ... (o resto do seu prompt)\n  `;\n}\n```\n\n### 3. Ajuste no Prompt do Analista (Para ele saber o que fazer com isso)\n\nPara garantir que o Agente **sempre** utilize esses dados (e não ignore-os), adicione este bloco no **Preamble** do prompt do seu Agente:\n\n```markdown\n# 1.1 INTEGRAÇÃO AUTOMÁTICA DE DADOS\nVocê sempre receberá um bloco de \"DADOS TÉCNICOS (IBGE)\" antes da sua instrução de análise. \n- VOCÊ DEVE cruzar obrigatoriamente a renda e densidade fornecidas com o produto da campanha.\n- VOCÊ DEVE ignorar \"achismos\" do usuário caso os dados do IBGE refutem a viabilidade da campanha naquela região.\n- Sua análise deve justificar o sucesso ou fracasso da estratégia com base no poder de compra local identificado nestes dados.\n```\n\n### Por que isso é superior ao que você pensou inicialmente?\n\n1.  **Velocidade:** O LLM não precisa \"tentar\" entender como fazer uma requisição HTTP, ele recebe o dado pronto em texto, o que é a linguagem nativa dele.\n2.  **Custo:** Você economiza tokens, pois não precisa de um agente fazendo \"Tool Calling\" complexo e gerando raciocínios errados sobre como buscar o dado.\n3.  **Confiabilidade:** Como é o seu código backend (que é determinístico) que busca o dado, você tem controle total. Se a API do IBGE mudar o formato, você ajusta no código, não precisa reescrever o prompt da IA.\n\n**O que você precisa implementar no seu Backend agora:**\n1.  Um serviço simples (como o `IbgeService` que te mandei antes) que é chamado toda vez que uma nova análise é iniciada.\n2.  O seu prompt no backend deve ser um **Template de String** (ou um sistema como *LangChain Prompt Templates*) que receba o objeto `dadosIbge` como variável.\n\n**Quer que eu te ajude a estruturar esse \"Template Dinâmico\" no seu código backend?** Assim, o prompt que você manda para a IA será sempre o resultado da junção entre o desejo do usuário e o dado real que você buscou.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1043,
+      "parts": [{
+        "text": "Sim,"
+      }, {
+        "text": " é totalmente possível e essa é a forma correta de criar um **Sistema de Ag"
+      }, {
+        "text": "entes Autônomos**. O segredo não é ensinar a IA a usar a API (isso seria caro e ineficiente), mas"
+      }, {
+        "text": " sim criar uma **\"Função de Enriquecimento\"** no seu código que atua como um \"middleware\" entre"
+      }, {
+        "text": " o banco de dados/APIs e o prompt do seu agente.\n\nAqui está como você implementa isso de forma automática"
+      }, {
+        "text": " no seu fluxo:\n\n### 1. O Fluxo de Automação (Backend)\nO seu backend deve"
+      }, {
+        "text": " funcionar como o \"Maestro\" que prepara o ambiente para o Agente.\n\n1.  **Usuário env"
+      }, {
+        "text": "ia o prompt:** \"Quero vender consórcio de imóveis em São Paulo\".\n2.  **Or"
+      }, {
+        "text": "questrador (Backend):** Identifica a intenção e extrai a localização (\"São Paulo\").\n3.  **Middleware"
+      }, {
+        "text": " de Enriquecimento:**\n    *   Faz a chamada automática para a API do IBGE/SIDRA.\n    *   "
+      }, {
+        "text": "Recebe o JSON bruto: `{ \"populacao\": 12396372, \"rend"
+      }, {
+        "text": "a_domiciliar\": 4500 }`.\n4.  **Injeção no Prompt:** O backend monta"
+      }, {
+        "text": " o prompt final **já com os dados inseridos** antes de enviar para o `Analista Sociocomportamental`.\n\n###"
+      }, {
+        "text": " 2. O Prompt Dinâmico (Template)\nNo seu código (Node.js/TypeScript), o seu prompt não"
+      }, {
+        "text": " deve ser uma string estática, mas uma função que recebe os dados do IBGE. Veja o exemplo de como isso"
+      }, {
+        "text": " é construído:\n\n```javascript\n// Exemplo de como você montaria isso no backend (Node.js)\nasync"
+      }, {
+        "text": " function criarPromptAnalista(userInput, dadosIbge) {\n  return `\n    # PREAMBLE\n"
+      }, {
+        "text": "    Atue como Analista Sênior...\n    \n    # DADOS TÉCNICOS (AUTOMATICAMENTE PU"
+      }, {
+        "text": "XADOS DO IBGE)\n    - Região: ${dadosIbge.nome}\n    - População"
+      }, {
+        "text": ": ${dadosIbge.populacao}\n    - Renda Média: ${dadosIbge.renda}"
+      }, {
+        "text": "\n    - Densidade Demográfica: ${dadosIbge.densidade}\n    \n    # INSTRUÇÃO\n    Cons"
+      }, {
+        "text": "idere esses dados reais do IBGE na sua análise. Se a renda for baixa para o produto, aponte a fal"
+      }, {
+        "text": "ha na estratégia.\n    \n    # JSON SCHEMA\n    ... (o resto do seu prompt)\n  `;\n}\n"
+      }, {
+        "text": "```\n\n### 3. Ajuste no Prompt do Analista (Para ele saber o que fazer com isso)\n\nPara garantir"
+      }, {
+        "text": " que o Agente **sempre** utilize esses dados (e não ignore-os), adicione este bloco no **Preamble**"
+      }, {
+        "text": " do prompt do seu Agente:\n\n```markdown\n# 1.1 INTEGRAÇÃO AUTOMÁTICA DE DADOS"
+      }, {
+        "text": "\nVocê sempre receberá um bloco de \"DADOS TÉCNICOS (IBGE)\" antes da sua instrução de análise."
+      }, {
+        "text": " \n- VOCÊ DEVE cruzar obrigatoriamente a renda e densidade fornecidas com o produto da"
+      }, {
+        "text": " campanha.\n- VOCÊ DEVE ignorar \"achismos\" do usuário caso os dados do IBGE refut"
+      }, {
+        "text": "em a viabilidade da campanha naquela região.\n- Sua análise deve justificar o sucesso ou fracasso da estratégia com base"
+      }, {
+        "text": " no poder de compra local identificado nestes dados.\n```\n\n### Por que isso é superior ao que você pensou inicialmente"
+      }, {
+        "text": "?\n\n1.  **Velocidade:** O LLM não precisa \"tentar\" entender como fazer uma requ"
+      }, {
+        "text": "isição HTTP, ele recebe o dado pronto em texto, o que é a linguagem nativa dele.\n2.  **C"
+      }, {
+        "text": "usto:** Você economiza tokens, pois não precisa de um agente fazendo \"Tool Calling\" complexo e gerando rac"
+      }, {
+        "text": "iocínios errados sobre como buscar o dado.\n3.  **Confiabilidade:** Como é o seu código backend"
+      }, {
+        "text": " (que é determinístico) que busca o dado, você tem controle total. Se a API do IBGE mudar o formato"
+      }, {
+        "text": ", você ajusta no código, não precisa reescrever o prompt da IA.\n\n**O que você precisa implementar"
+      }, {
+        "text": " no seu Backend agora:**\n1.  Um serviço simples (como o `IbgeService` que te mandei antes) que é"
+      }, {
+        "text": " chamado toda vez que uma nova análise é iniciada.\n2.  O seu prompt no backend deve ser um **"
+      }, {
+        "text": "Template de String** (ou um sistema como *LangChain Prompt Templates*) que receba o objeto `dadosIbge` como"
+      }, {
+        "text": " variável.\n\n**Quer que eu te ajude a estruturar esse \"Template Dinâmico\" no seu código backend"
+      }, {
+        "text": "?** Assim, o prompt que você manda para a IA será sempre o resultado da junção entre o desejo do usuário"
+      }, {
+        "text": " e o dado real que você buscou."
+      }, {
+        "text": "",
+        "thoughtSignature": "EjQKMgG+Pvb74MfbtZnjVPfSVJk0s+tPltgA87VSpeoMwugVH2AgFPW0yd5Dfx3RrM8SSdYA"
+      }],
+      "createTime": "2026-03-15T09:33:36.998Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

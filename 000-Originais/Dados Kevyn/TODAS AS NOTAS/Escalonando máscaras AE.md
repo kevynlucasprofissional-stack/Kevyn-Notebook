@@ -1,0 +1,1 @@
+Para escalonar uma máscara em um sólido, torne as máscaras da camada visíveis clicando em "M", selecione as máscaras e escalone.

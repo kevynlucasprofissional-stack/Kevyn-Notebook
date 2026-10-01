@@ -1,0 +1,2 @@
+Para editar um KeyFrame pelo Graph Editor, é necessário que ele esteja no modo Easy Ease (Atalho F9).
+Para editar velocidade de movimento pelo Graph Editor, é necessário clicar com o botão direito no Gráfico e marcar "Edit Speed Graph"

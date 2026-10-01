@@ -1,0 +1,3 @@
+É um método para fazer a troca de câmeras de maneira automática ao longo da timeline, usando de KeyFrames.
+Nas propriedades do Stage, crie o KeyFrame inicial e final, e após isto arraste a câmera que corresponde ao tempo "selecionado". Repita isto para cada ângulo de câmera necessário, todos em seu devido tempo.
+Os movimentos de câmera devem ser animados na câmera, enquanto que a ordem de entrada das câmeras é definida pelo backstage.

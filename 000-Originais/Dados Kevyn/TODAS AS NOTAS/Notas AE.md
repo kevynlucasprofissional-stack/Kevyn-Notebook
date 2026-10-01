@@ -1,0 +1,8 @@
+[[Converter em texto editável AE]]
+[[Escalonando máscaras AE]]
+[[Sobre aparador de formas]]
+[[Como visualizar duas composições]]
+[[Mascarando efeitos]]
+[[Sobre o 3D do AE]]
+[[Efeito Parallax Rig]]
+[[Navegação na viewport com câmera 3D no AE]]

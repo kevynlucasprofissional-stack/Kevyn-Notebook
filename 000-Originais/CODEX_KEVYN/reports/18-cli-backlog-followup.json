@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-04-04T18:00:00-03:00",
+  "objective": "Executar backlog de navegabilidade deixado para depois por depender do CLI/ambiente do Obsidian.",
+  "scope": {
+    "applied_notes": [
+      "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/PRINCÍPIO 2 - Aprecie honesta e sinceramente.md",
+      "HOME/O Professor/05_PERSONA 03 - O PENDURADO/Comunicação Não Violenta/O Foco no Positivo.md"
+    ],
+    "excluded_scope": [
+      "diários",
+      "sub-vaults de fronteira",
+      "moves/renames sem candidato explícito"
+    ]
+  },
+  "applied_changes": [
+    {
+      "path": "HOME/O Professor/04_PERSONA 02 - O SOL/Como fazer amigos e influenciar pessoas/PRINCÍPIO 2 - Aprecie honesta e sinceramente.md",
+      "change": "added_backlink",
+      "target": "[[A Chave da Influência - Falar sobre o que o Outro Quer]]"
+    },
+    {
+      "path": "HOME/O Professor/05_PERSONA 03 - O PENDURADO/Comunicação Não Violenta/O Foco no Positivo.md",
+      "change": "added_backlink",
+      "target": "[[A Raiz dos Sentimentos]]"
+    }
+  ],
+  "suggested_not_applied": {
+    "reason": "confidence not high enough for automatic action",
+    "areas": [
+      "HOME/Cérebro Profissional",
+      "HOME/ACIRV",
+      "HOME/O Professor (restante)"
+    ]
+  },
+  "rejected_candidates": {
+    "reason": "no explicit safe path rename/move candidates were found in the available manifests",
+    "count": 0
+  },
+  "residual_inconsistencies": [
+    "remaining AI-suggestion blocks in core notes",
+    "naming inconsistency in a subset of O Professor files",
+    "heterogeneous navigation layer in ACIRV and Cérebro Profissional"
+  ]
+}

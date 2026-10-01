@@ -1,0 +1,4 @@
+Ative o grid do illustrator e comece com formas ásperas e simples das letras, para depois ir refinando. Crie diversas opções e se concentre no processo de criar design. Um bom ponto de partida, após se criar a estrutura básica das letras é fazer incisões nas letras, ou seja, ir cortando pedaços dela para criar novas formas, trabalhando no limiar que tornará a fonte em algo abstrato mas mantendo sua legibilidade (Mesmo que minimamente).
+Para serifas, use e abuse de formas triangulares.
+## O segredo é brincar - DTTAP
+Se divirta com a imaginação, tal como uma criança. O processo criativo se torna prazeroso na medida em que se torna experimental. Teste e experimentação de todos os tipos, exagerando proporções, misturando estilos (Curvas, arestas, ângulos, serifas, sans serifa, slab serifa), arte totalmente experimental e criativa.

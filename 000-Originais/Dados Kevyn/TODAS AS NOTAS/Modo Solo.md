@@ -1,0 +1,1 @@
+* **Modo Solo:** Utilize o modo "Solo" para visualizar apenas a camada marcada. Ativado pela caixa de seleção da coluna com uma bolinha, ao lado do bloquear camada na timeline.

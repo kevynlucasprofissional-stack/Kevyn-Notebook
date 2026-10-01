@@ -1,0 +1,1 @@
+Grab facilita selecionar o mesmo parâmetros de várias camadas ao mesmo tempo, basta selecionar as camadas alvos, e selecionar um parâmetro de uma cada e clicar no grab, assim ele selecionará aquele mesmo parâmetro de todas as camadas.

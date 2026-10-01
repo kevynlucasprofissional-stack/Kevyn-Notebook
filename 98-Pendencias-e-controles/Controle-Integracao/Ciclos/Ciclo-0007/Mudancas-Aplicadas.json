@@ -1,0 +1,112 @@
+[
+    {
+        "mudanca_id": "MUD-000043",
+        "caminho": "08-Estudos-e-Referencias/Negocios e marketing.md",
+        "operacao": "modificar",
+        "motivo": "registrar analise de copy e oferta com framework Hormozi",
+        "fontes": [
+            "SRC-000051"
+        ],
+        "unidades": [
+            "UNI-000026"
+        ],
+        "hash_anterior": "95136DA111E370F956BB994D39C742608A119EB227B70244278C702BCAEF0F2E",
+        "hash_posterior": "235cae17b190411fefa7fec3ca68221bd1054a0541c6bb37b12940d70bf83671",
+        "ciclo": "CICLO-0007",
+        "validacao": "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id": "MUD-000044",
+        "caminho": "04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md",
+        "operacao": "modificar",
+        "motivo": "registrar metricas DS21 e participacao em edicao e copy",
+        "fontes": [
+            "SRC-000052",
+            "SRC-000053",
+            "SRC-000054"
+        ],
+        "unidades": [
+            "UNI-000027"
+        ],
+        "hash_anterior": "76F495B84D83A633F4A49A98F58F8E72E6477F1508CD67A02B98E92DE91F2A9C",
+        "hash_posterior": "031576ab596001b4f892bfae80a507c7d175c0eecbc88f089174cd535e250802",
+        "ciclo": "CICLO-0007",
+        "validacao": "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id": "MUD-000045",
+        "caminho": "02-Cronologia-e-Memorias/Salus e Desafio Svelte.md",
+        "operacao": "modificar",
+        "motivo": "atualizar metricas de lancamento com dados das analises; corrigir relacao exemplifica para aplica",
+        "fontes": [
+            "SRC-000052",
+            "SRC-000053",
+            "SRC-000054"
+        ],
+        "unidades": [
+            "UNI-000027"
+        ],
+        "hash_anterior": "2380B9A9FAD85386F0F7D4C41A70330C9C5E32306939D30B7E1E28CF0E387303",
+        "hash_posterior": "cad7ddb9fc0fc0fc8974bae82206d1f42288e7123e68c430453db3012aa53daf",
+        "ciclo": "CICLO-0007",
+        "validacao": "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id": "MUD-000046",
+        "caminho": "09-Fontes-e-Evidencias/Fonte - Analises de copy e lancamento DS21 2025.md",
+        "operacao": "criar",
+        "motivo": "nota-fonte de proveniencia para as 4 fontes do Ciclo 0007",
+        "fontes": [
+            "SRC-000051",
+            "SRC-000052",
+            "SRC-000053",
+            "SRC-000054"
+        ],
+        "unidades": [
+            "UNI-000026",
+            "UNI-000027"
+        ],
+        "hash_anterior": null,
+        "hash_posterior": "9d60807e0fa6c86725fc8aabbaba3f3ef37e719fdcd87ab6c5e7f837632bf489",
+        "ciclo": "CICLO-0007",
+        "validacao": "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id": "MUD-000047",
+        "caminho": "04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md",
+        "operacao": "modificar",
+        "motivo": "registrar leitura de projeto DS21 e evidencias associadas",
+        "fontes": [
+            "SRC-000052",
+            "SRC-000053",
+            "SRC-000054"
+        ],
+        "unidades": [
+            "UNI-000027"
+        ],
+        "hash_anterior": "9BAD368CE84CF4A75C4177A06D3C086B11BF06EFC24E09161C1E9DA1E3B1C0CB",
+        "hash_posterior": "0ad0b6cd34dfa33d2b1b0c59138a31b0c1b6489440fcd7f002520281c8a42b03",
+        "ciclo": "CICLO-0007",
+        "validacao": "auditoria_complementar_ok"
+    },
+    {
+        "mudanca_id": "MUD-000048",
+        "caminho": "09-Fontes-e-Evidencias/Indice geral de fontes selecionadas.md",
+        "operacao": "modificar",
+        "motivo": "incluir nova nota-fonte de copy/lancamento no indice geral",
+        "fontes": [
+            "SRC-000051",
+            "SRC-000052",
+            "SRC-000053",
+            "SRC-000054"
+        ],
+        "unidades": [
+            "UNI-000026",
+            "UNI-000027"
+        ],
+        "hash_anterior": "49B679EA2F8B775439D48B1D41D59EEB21222F0F7E3D27054D4EEDB447603B60",
+        "hash_posterior": "26018d36513d9fda3546bfa27b6b3513c7c77fdda82d1980cb12d2a5c0fa846d",
+        "ciclo": "CICLO-0007",
+        "validacao": "auditoria_complementar_ok"
+    }
+]

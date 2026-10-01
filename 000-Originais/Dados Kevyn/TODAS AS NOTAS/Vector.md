@@ -1,0 +1,1 @@
+Vector cria uma linha entre objetos selecionados. Se aplica-se ele entre 4 objetos, se cria uma animação parecida com um triângulo.

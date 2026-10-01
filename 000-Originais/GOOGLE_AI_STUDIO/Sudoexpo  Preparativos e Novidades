@@ -1,0 +1,167 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "environmentMode": "new"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveAudio": {
+        "id": "13MRVLVig-AxrA4hU0Xed45RB91kyADz7"
+      },
+      "role": "user",
+      "tokenCount": 13876,
+      "createTime": "2026-05-11T20:02:48.606Z"
+    }, {
+      "text": "Consegue criar um resumo de tudo o que foi debatido, quem falou, quero um dossiê completo.",
+      "role": "user",
+      "tokenCount": 24,
+      "createTime": "2026-05-11T20:02:48.606Z"
+    }, {
+      "text": "**Defining the Task\u0027s Scope**\n\nI\u0027m focused on grasping the project\u0027s parameters. I understand the ultimate aim is a comprehensive summary, a dossier if you will, encompassing both the conversational content and speaker identification from the input. I am beginning to break down the user\u0027s requirements to ensure a precise response.\n\n\n**Pinpointing Essential Facts**\n\nI\u0027ve zeroed in on the core data. The speakers are identified: Ana Paula, the interviewer, and Zé (José), the Acirv president. They\u0027re discussing the 18th Sudoexpo, a biennial event. My understanding confirms the goal - a dossier detailing the conversational aspects and speaker roles. I\u0027m moving toward summarizing the key details of the discussed event.\n\n\n**Summarizing Key Details**\n\nI\u0027m now consolidating essential data about Sudoexpo. I\u0027ve noted its long history in Rio Verde (36 years in the productive sector), and its next edition scheduled for September 9-12, 2026, at the Lauro Martins Theater parking lot. Over 90% of spaces are sold, despite economic challenges. The event will involve over 150 exhibitors, expecting R$ 100M in business, and a R$ 5M investment, with an anticipated 60,000+ visitors. I\u0027m focusing on the \"Agro\" and \"Automobile\" new spaces.\n\n\n**Analyzing Event\u0027s Progression**\n\nI\u0027m now integrating information from Tecnoshow, an agro fair, into my understanding. The 17th Sudoexpo\u0027s exhibitor renewal rate is a critical piece, and I\u0027m aware of the challenge of transitioning the event to an annual schedule, a topic Zé leaves for the incoming presidency. Crucially, I\u0027ve identified the key partnerships: TV Sucesso as the master sponsor and media partner, plus Sebrae, and Facieg. I am moving towards structuring the response to create the Dossier.\n\n\\n\\n\n\n**Organizing the Dossier\u0027s Sections**\n\nI\u0027m working on the dossier\u0027s architecture now. I\u0027ve broken down the structure, making sure that the flow and sections are logical. I\u0027m focusing on organizing the sections: an introduction, participant identification, the central subject of Sudoexpo 2026, key details including dates, location, and figures, the economic impact and structural details, new features of the upcoming edition, and the future challenges, like the prospect of an annual event.",
+      "role": "model",
+      "tokenCount": 1275,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Task\u0027s Scope**\n\nI\u0027m focused on grasping the project\u0027s parameters. I understand the ultimate aim is a comprehensive summary, a dossier if you will, encompassing both the conversational content and speaker identification from the input. I am beginning to break down the user\u0027s requirements to ensure a precise response.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Pinpointing Essential Facts**\n\nI\u0027ve zeroed in on the core data. The speakers are identified: Ana Paula, the interviewer, and Zé (José), the Acirv president. They\u0027re discussing the 18th Sudoexpo, a biennial event. My understanding confirms the goal - a dossier detailing the conversational aspects and speaker roles. I\u0027m moving toward summarizing the key details of the discussed event.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Summarizing Key Details**\n\nI\u0027m now consolidating essential data about Sudoexpo. I\u0027ve noted its long history in Rio Verde (36 years in the productive sector), and its next edition scheduled for September 9-12, 2026, at the Lauro Martins Theater parking lot. Over 90% of spaces are sold, despite economic challenges. The event will involve over 150 exhibitors, expecting R$ 100M in business, and a R$ 5M investment, with an anticipated 60,000+ visitors. I\u0027m focusing on the \"Agro\" and \"Automobile\" new spaces.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Analyzing Event\u0027s Progression**\n\nI\u0027m now integrating information from Tecnoshow, an agro fair, into my understanding. The 17th Sudoexpo\u0027s exhibitor renewal rate is a critical piece, and I\u0027m aware of the challenge of transitioning the event to an annual schedule, a topic Zé leaves for the incoming presidency. Crucially, I\u0027ve identified the key partnerships: TV Sucesso as the master sponsor and media partner, plus Sebrae, and Facieg. I am moving towards structuring the response to create the Dossier.\n\n\\n\\n\n\n**Organizing the Dossier\u0027s Sections**\n\nI\u0027m working on the dossier\u0027s architecture now. I\u0027ve broken down the structure, making sure that the flow and sections are logical. I\u0027m focusing on organizing the sections: an introduction, participant identification, the central subject of Sudoexpo 2026, key details including dates, location, and figures, the economic impact and structural details, new features of the upcoming edition, and the future challenges, like the prospect of an annual event.",
+        "thought": true
+      }],
+      "createTime": "2026-05-11T20:02:48.606Z"
+    }, {
+      "text": "\n\n\nAqui está um dossiê completo e estruturado com o resumo de tudo o que foi debatido no diálogo, organizado por tópicos para facilitar a compreensão:\n\n### 📄 Dossiê da Entrevista: Preparativos para a 18ª Sudoexpo\n\n**Contexto Geral:** \nA conversa ocorre durante a realização da **Tecnoshow** (uma feira agropecuária). A entrevistadora aproveita a presença do presidente da Associação Comercial local para falar sobre os preparativos e as novidades de outro grande evento da cidade de Rio Verde (Goiás): a **Sudoexpo**.\n\n---\n\n### 👥 Os Participantes\n*   **Ana Paula:** A entrevistadora/apresentadora. Representa a **TV Sucesso** (afiliada da região).\n*   **Zé (José):** O entrevistado. É o atual presidente da **ACIRV** (Associação Comercial e Industrial de Rio Verde), cargo que assumiu em junho de 2025. Ele já fazia parte da diretoria há quase 10 anos.\n*   *Mencionados indiretamente:* Gilson e Ester (diretores/proprietários da TV Sucesso, patrocinadora master do evento).\n\n---\n\n### 🎪 O Evento: 18ª Sudoexpo\nA Sudoexpo é descrita como a **maior feira multissetorial do estado de Goiás** (reconhecimento chancelado pelo Sebrae e Facieg). É um evento tradicional, com 36 anos de história participando do setor produtivo de Rio Verde, e que ocorre a cada dois anos.\n\n**Dados e Números da 18ª Edição:**\n*   **Data:** 9 a 12 de setembro de 2026.\n*   **Local:** Estacionamento do Teatro Lauro Martins (mesmo espaço novo utilizado na 17ª edição).\n*   **Vendas:** Mais de 90% dos espaços já estão comercializados, um sucesso surpreendente dado o atual cenário econômico e de inadimplência. Cerca de 50% dos expositores da edição anterior (17ª) já haviam renovado seus contratos logo na saída do último evento.\n*   **Expositores:** Cresceu de 120 (na 17ª edição) para a expectativa de **150 expositores** nesta edição.\n*   **Público Estimado:** Mais de 60.000 pessoas.\n*   **Expectativa de Negócios:** Movimentar mais de **R$ 100 milhões**.\n\n---\n\n### 💰 Impactos Econômicos e Estrutura\n*   **Investimento:** Cerca de **R$ 5 milhões** serão investidos apenas na montagem e estruturação da feira.\n*   **Movimentação da Cidade:** O evento promete aquecer toda a cadeia produtiva e de serviços de Rio Verde, impactando bares, restaurantes, empresas de comunicação, som, equipamentos e gerando muita mão de obra local.\n*   **Estratégia de Negócios:** Zé destaca que ter dois grandes eventos em semestres diferentes (Tecnoshow no primeiro semestre e Sudoexpo no segundo) é excelente para o empresariado fortalecer suas marcas e realizar negócios o ano inteiro.\n\n---\n\n### 🚀 Novidades desta Edição\nPara a 18ª edição, a feira trará novos espaços segmentados para atrair ainda mais o público e diversificar os negócios:\n1.  **Espaço Agro:** Inédito na feira.\n2.  **Espaço de Automóveis:** Também uma novidade no formato atual do evento.\n\n---\n\n### 🎯 Desafios e Futuro\n*   **O \"Desafio Anual\":** Ao final da entrevista, Zé revela um grande desafio (que ele brinca que deixará para o próximo presidente da ACIRV): **transformar a Sudoexpo em um evento anual**, em vez de bienal (de 2 em 2 anos), devido à alta demanda e sucesso contínuo.\n\n---\n\n### 🤝 Parcerias Citadas\n*   **TV Sucesso:** É a patrocinadora master do evento. Ana Paula reforça que estarão lá cobrindo a feira e convida a população.\n*   **Sebrae e Facieg:** Parceiros institucionais que validam a magnitude da feira e levam expositores parceiros para o evento. \n\n**Resumo da Mensagem Final:**\nAmbos convidam os empresários que ainda não compraram seus estandes a procurarem a comissão da ACIRV, e estendem o convite a toda a população de Rio Verde e região para prestigiarem a feira em setembro de 2026, garantindo que será um ambiente de excelentes negócios e vitrine de marcas.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1040,
+      "parts": [{
+        "text": "\n\n\nAqui está um dossiê completo e estruturado com o resumo de tudo o que foi debatido no diálogo,"
+      }, {
+        "text": " organizado por tópicos para facilitar a compreensão:\n\n### 📄 Dossiê da Entrevista: Preparativos para a 18"
+      }, {
+        "text": "ª Sudoexpo\n\n**Contexto Geral:** \nA conversa ocorre durante a realização da **Tecnoshow**"
+      }, {
+        "text": " (uma feira agropecuária). A entrevistadora aproveita a presença do presidente da Associação Comercial local para falar sobre os preparativos e as"
+      }, {
+        "text": " novidades de outro grande evento da cidade de Rio Verde (Goiás): a **Sudoexpo**.\n\n---\n\n###"
+      }, {
+        "text": " 👥 Os Participantes\n*   **Ana Paula:** A entrevistadora/apresentadora. Representa a **TV Su"
+      }, {
+        "text": "cesso** (afiliada da região).\n*   **Zé (José):** O entrevistado. É o atual"
+      }, {
+        "text": " presidente da **ACIRV** (Associação Comercial e Industrial de Rio Verde), cargo que assumiu em junho de 202"
+      }, {
+        "text": "5. Ele já fazia parte da diretoria há quase 10 anos.\n*   *Mencionados indiretamente"
+      }, {
+        "text": ":* Gilson e Ester (diretores/proprietários da TV Sucesso, patrocinadora master do evento).\n\n---\n\n###"
+      }, {
+        "text": " 🎪 O Evento: 18ª Sudoexpo\nA Sudoexpo é descrita como a **maior feira multisset"
+      }, {
+        "text": "orial do estado de Goiás** (reconhecimento chancelado pelo Sebrae e Facieg). É um evento tradicional"
+      }, {
+        "text": ", com 36 anos de história participando do setor produtivo de Rio Verde, e que ocorre a cada dois anos."
+      }, {
+        "text": "\n\n**Dados e Números da 18ª Edição:**\n*   **Data:** 9 a 12"
+      }, {
+        "text": " de setembro de 2026.\n*   **Local:** Estacionamento do Teatro Lauro Martins ("
+      }, {
+        "text": "mesmo espaço novo utilizado na 17ª edição).\n*   **Vendas:** Mais de 90% dos espaços já estão"
+      }, {
+        "text": " comercializados, um sucesso surpreendente dado o atual cenário econômico e de inadimplência. Cerca de 50%"
+      }, {
+        "text": " dos expositores da edição anterior (17ª) já haviam renovado seus contratos logo na saída do último evento.\n*   **"
+      }, {
+        "text": "Expositores:** Cresceu de 120 (na 17ª edição) para a expectativa de **150 expos"
+      }, {
+        "text": "itores** nesta edição.\n*   **Público Estimado:** Mais de 60.000"
+      }, {
+        "text": " pessoas.\n*   **Expectativa de Negócios:** Movimentar mais de **R$ 100"
+      }, {
+        "text": " milhões**.\n\n---\n\n### 💰 Impactos Econômicos e Estrutura\n*   **Investimento:** Cerca de **"
+      }, {
+        "text": "R$ 5 milhões** serão investidos apenas na montagem e estruturação da feira.\n*   **"
+      }, {
+        "text": "Movimentação da Cidade:** O evento promete aquecer toda a cadeia produtiva e de serviços de Rio Verde, impact"
+      }, {
+        "text": "ando bares, restaurantes, empresas de comunicação, som, equipamentos e gerando muita mão de obra local.\n*   **E"
+      }, {
+        "text": "stratégia de Negócios:** Zé destaca que ter dois grandes eventos em semestres diferentes (Tecnoshow no primeiro semestre"
+      }, {
+        "text": " e Sudoexpo no segundo) é excelente para o empresariado fortalecer suas marcas e realizar negócios o ano inteiro.\n\n---\n\n###"
+      }, {
+        "text": " 🚀 Novidades desta Edição\nPara a 18ª edição, a feira trará novos espaços segmentados para atrair"
+      }, {
+        "text": " ainda mais o público e diversificar os negócios:\n1.  **Espaço Agro:** Inédito na feira."
+      }, {
+        "text": "\n2.  **Espaço de Automóveis:** Também uma novidade no formato atual do evento.\n\n---"
+      }, {
+        "text": "\n\n### 🎯 Desafios e Futuro\n*   **O \"Desafio Anual\":** Ao final da entrevista"
+      }, {
+        "text": ", Zé revela um grande desafio (que ele brinca que deixará para o próximo presidente da ACIRV): **transform"
+      }, {
+        "text": "ar a Sudoexpo em um evento anual**, em vez de bienal (de 2 em 2 anos), devido à alta demanda e"
+      }, {
+        "text": " sucesso contínuo.\n\n---\n\n### 🤝 Parcerias Citadas\n*   **TV Sucesso:** É a patrocin"
+      }, {
+        "text": "adora master do evento. Ana Paula reforça que estarão lá cobrindo a feira e convida a população."
+      }, {
+        "text": "\n*   **Sebrae e Facieg:** Parceiros institucionais que validam a magnitude da feira e levam"
+      }, {
+        "text": " expositores parceiros para o evento. \n\n**Resumo da Mensagem Final:**\nAmbos convidam os empresários que"
+      }, {
+        "text": " ainda não compraram seus estandes a procurarem a comissão da ACIRV, e estendem o convite a"
+      }, {
+        "text": " toda a população de Rio Verde e região para prestigiarem a feira em setembro de 2026, garant"
+      }, {
+        "text": "indo que será um ambiente de excelentes negócios e vitrine de marcas."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-05-11T20:03:11.227Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

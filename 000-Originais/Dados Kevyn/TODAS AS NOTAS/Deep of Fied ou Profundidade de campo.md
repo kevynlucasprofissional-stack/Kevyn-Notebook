@@ -1,0 +1,1 @@
+Se trata da relação de profundidade e desfoque da câmera. Está disponível na aba de atributos da câmera.

@@ -1,0 +1,175 @@
+[
+  {
+    "mudanca_id": "MUD-000056",
+    "caminho": "08-Estudos-e-Referencias/Negocios e marketing.md",
+    "operacao": "modificar",
+    "motivo": "registrar repertorio de oferta sem atribuir autoria integral",
+    "fontes": [
+      "SRC-000067",
+      "SRC-000068",
+      "SRC-000069"
+    ],
+    "unidades": [
+      "UNI-000034"
+    ],
+    "hash_anterior": "f2e76d525aa074f7d0008564915ec79a8f53175e5ec878080c7baf9fc63a3d1a",
+    "hash_posterior": "fa55583ce4f36a6d986ca19f3205312a2045582dc5623116866fadffc900e6ce",
+    "ciclo": "CICLO-0009",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000057",
+    "caminho": "04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md",
+    "operacao": "modificar",
+    "motivo": "contextualizar campanha, marca, oferta e avatar",
+    "fontes": [
+      "SRC-000063",
+      "SRC-000065",
+      "SRC-000066",
+      "SRC-000067",
+      "SRC-000068",
+      "SRC-000069"
+    ],
+    "unidades": [
+      "UNI-000032",
+      "UNI-000033",
+      "UNI-000034"
+    ],
+    "hash_anterior": "5aa7565220f1735a8c95423c947225ba1b48789fe262aefcb9ab30a3972622a1",
+    "hash_posterior": "ce4e602a856efc050b6f538d95aba4227df9e82872455fcc9e8e3ed6d9b94b4a",
+    "ciclo": "CICLO-0009",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000058",
+    "caminho": "02-Cronologia-e-Memorias/Salus e Desafio Svelte.md",
+    "operacao": "modificar",
+    "motivo": "diferenciar autoria da apresentacao e contexto de projeto",
+    "fontes": [
+      "SRC-000063",
+      "SRC-000068",
+      "SRC-000069"
+    ],
+    "unidades": [
+      "UNI-000032",
+      "UNI-000034"
+    ],
+    "hash_anterior": "c037a5b1b6c81ed033ab44f7fe3f085715ae6fd7cdd44bede699bb36e0a876c8",
+    "hash_posterior": "cbde8865c0e9739beba06ffefa8010898cd8a503714de18f59295c339d477b9c",
+    "ciclo": "CICLO-0009",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000059",
+    "caminho": "04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md",
+    "operacao": "modificar",
+    "motivo": "registrar contexto documental de campanha e produto",
+    "fontes": [
+      "SRC-000063",
+      "SRC-000065",
+      "SRC-000066",
+      "SRC-000067",
+      "SRC-000068",
+      "SRC-000069"
+    ],
+    "unidades": [
+      "UNI-000032",
+      "UNI-000033",
+      "UNI-000034"
+    ],
+    "hash_anterior": "fcde5a3f7ba7f86538b3747f153434f998f9a8f88eaf545c813f0a32094db4dd",
+    "hash_posterior": "dbff651a7261c4ffc6344637e11fc23ff267b790a34c56d5bad9bde68902bd26",
+    "ciclo": "CICLO-0009",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000060",
+    "caminho": "04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md",
+    "operacao": "modificar",
+    "motivo": "registrar contexto operacional sem extrapolar implementacao",
+    "fontes": [
+      "SRC-000066",
+      "SRC-000067",
+      "SRC-000068",
+      "SRC-000069"
+    ],
+    "unidades": [
+      "UNI-000033",
+      "UNI-000034"
+    ],
+    "hash_anterior": "5797ad630db39eff1cf24f9fd9fd23ba7d17d322e8845c3b44081b3ad8a62674",
+    "hash_posterior": "081a55561c5d3ad03ae6449486844754358e26cef9ce3610cc41d33355f3bc00",
+    "ciclo": "CICLO-0009",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000061",
+    "caminho": "05-Sonhos-Simbolos-e-Espiritualidade/Thelema e vontade.md",
+    "operacao": "modificar",
+    "motivo": "preservar leitura como simbolica e espiritual",
+    "fontes": [
+      "SRC-000070"
+    ],
+    "unidades": [
+      "UNI-000035"
+    ],
+    "hash_anterior": "3af325ff9be2f242d24e21e22e99622eb7c10f1b5c0330218e14916786e63525",
+    "hash_posterior": "7ba4d1e9adaea9e42d07773fe911dd230f20e9df4b27ffc03bb47cd00584d077",
+    "ciclo": "CICLO-0009",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000062",
+    "caminho": "09-Fontes-e-Evidencias/Fonte - Contextos WSI Salus e Cha e Prosa 2025.md",
+    "operacao": "criar",
+    "motivo": "centralizar proveniencia sem copiar materiais tematicos",
+    "fontes": [
+      "SRC-000063",
+      "SRC-000064",
+      "SRC-000065",
+      "SRC-000066",
+      "SRC-000067",
+      "SRC-000068",
+      "SRC-000069",
+      "SRC-000070"
+    ],
+    "unidades": [
+      "UNI-000032",
+      "UNI-000033",
+      "UNI-000034",
+      "UNI-000035",
+      "UNI-000037"
+    ],
+    "hash_anterior": null,
+    "hash_posterior": "29c9c415df3b8f26fbb9091e6fca4719ca37ab6d5156a820bc1605ed4bef2ab2",
+    "ciclo": "CICLO-0009",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000075",
+    "caminho": "09-Fontes-e-Evidencias/Indice geral de fontes selecionadas.md",
+    "operacao": "modificar",
+    "motivo": "indexar a nota-fonte do ciclo",
+    "fontes": [
+      "SRC-000063",
+      "SRC-000064",
+      "SRC-000065",
+      "SRC-000066",
+      "SRC-000067",
+      "SRC-000068",
+      "SRC-000069",
+      "SRC-000070"
+    ],
+    "unidades": [
+      "UNI-000032",
+      "UNI-000033",
+      "UNI-000034",
+      "UNI-000035",
+      "UNI-000037"
+    ],
+    "hash_anterior": "42c1146b13773b57fb113ab0e14239125e88a55b0da8c33020883945bd690303",
+    "hash_posterior": "63bfc2ac86763218c6262efb6d5789b5948b47590c7e5dc3b50480c822913f0d",
+    "ciclo": "CICLO-0009",
+    "validacao": "auditoria_corretiva_20260619"
+  }
+]

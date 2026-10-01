@@ -1,0 +1,1 @@
+É possível, só não é prático, as ferramentas de manipulação de vídeo do Photoshop são limitadíssimas. Basta abrir a janela de timeline, talvez esta janela seja idealizada mais para editar animações frame a frame do que para editar vídeos no geral.

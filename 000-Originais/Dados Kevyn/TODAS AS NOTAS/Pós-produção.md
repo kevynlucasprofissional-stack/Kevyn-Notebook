@@ -1,0 +1,1 @@
+Ajuste o Ruído. Habilite e ajuste o plugin RSMB (Desfoque de movimento).

@@ -1,0 +1,1 @@
+É um efeito de correção de cores, vários ajustes reunidos em um único efeito, é bem prático.

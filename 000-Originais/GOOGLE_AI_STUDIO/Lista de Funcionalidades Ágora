@@ -1,0 +1,185 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1TYi2qNc6MON60JoyOS88GuKewG_gyabz"
+      },
+      "role": "user",
+      "tokenCount": 2842,
+      "createTime": "2026-03-15T07:29:24.762Z"
+    }, {
+      "driveDocument": {
+        "id": "1RoO2N8CQ7gR3bvQ2w0Egzj0VvNQF8Xjl"
+      },
+      "role": "user",
+      "tokenCount": 46,
+      "createTime": "2026-03-15T07:29:24.762Z"
+    }, {
+      "driveDocument": {
+        "id": "1T8awu2lPmx9qPyrmMc8Wfup3gGswlQl0"
+      },
+      "role": "user",
+      "tokenCount": 1328,
+      "createTime": "2026-03-15T07:29:24.762Z"
+    }, {
+      "driveDocument": {
+        "id": "1E1hSNHdlbFoJJqHtJTXynMjr71jMUdvN"
+      },
+      "role": "user",
+      "tokenCount": 1677,
+      "createTime": "2026-03-15T07:29:24.762Z"
+    }, {
+      "driveDocument": {
+        "id": "1U1_X_u7wNzxln6Ny_EC6w6LICz5lLs4T"
+      },
+      "role": "user",
+      "tokenCount": 287,
+      "createTime": "2026-03-15T07:29:24.762Z"
+    }, {
+      "driveDocument": {
+        "id": "1wH_Fgo7pLXIMjfsdHCji-js7ELaKoP6R"
+      },
+      "role": "user",
+      "tokenCount": 9619,
+      "createTime": "2026-03-15T07:29:24.762Z"
+    }, {
+      "driveDocument": {
+        "id": "1hMrQ7SNHzLameIzBL6fVAl6gay2ZfHDK"
+      },
+      "role": "user",
+      "tokenCount": 1121,
+      "createTime": "2026-03-15T07:29:24.762Z"
+    }, {
+      "text": "Com base em todos os arquivos anexado crie a Lista de Funcionalidades:\nsegue abaixo um EXEMPLO de documento simples de Lista de Funcionalidades:\n\n```\nAuth\n- login\n- cadastro\n\nPerfis\n- perfil cliente\n- perfil profissional\n\nServiços\n- criar serviço\n- editar serviço\n\nBusca\n- buscar por categoria\n- buscar por localização\n\nContratação\n- solicitar serviço\n```",
+      "role": "user",
+      "tokenCount": 225,
+      "createTime": "2026-03-15T07:29:24.762Z"
+    }, {
+      "text": "**Defining the Objective**\n\nI\u0027m now zeroing in on the core goal: generating that concise \"Feature List\" like the example, grounded in the context files. I\u0027m focusing on the format. I need to make sure I understand the sample structure, so that my output is perfect.\n\n\n**Examining the Context**\n\nI\u0027ve just finished dissecting the context files. I now have a solid grasp of the problem, the proposed solution (Ágora), and the MVP user journey, from input to generated report. The \"Fluxo MVP.md\" file is particularly insightful. Now, I will start to extract the important aspects to make a feature list.\n\n\n**Adapting Features to Context**\n\nI\u0027m now integrating the UI/UX flow from \"Fluxos de telas desenvolvido pelo Henrique.md,\" which initially seemed misaligned. I\u0027m focusing on the structural features like authentication, dashboard, and history, but adapting the context to the marketing platform. The file upload, AI grading, and chat interface concepts are key. I\u0027ll translate these into general system features and map them effectively to Ágora.\n\n\n**Extracting Key Features**\n\nI am now focusing on distilling the features from the mentoring insights, Ágora\u0027s AI backend, and the PDF analysis. I\u0027m prioritizing B2B/B2C aspects and monetization tiers. I\u0027m also confirming key features derived from the AI backend: data normalization, triaging, and campaign scoring. I need to integrate these insights with the UI/UX features, and align with the value equation.\n\n\n**Prioritizing Core Features**\n\nI am now structuring the feature list with primary sections for User Area (dashboard, navigation), Input (chat, upload, triaging), and the Ágora Analysis Engine (audience analysis, consumer psychology, value proposition, KPIs). This breakdown will provide clarity on core features, specifically, how the UI/UX flows feed into the value prop. I\u0027m focusing on the integration of user flow aspects from the inputs.\n\n\n**Refining the Output**\n\nI\u0027m now focusing on the final output format. I\u0027m prioritizing the structure, which includes competitor benchmarking, timing analysis, and synthetic audience simulation. I\u0027ll translate these insights into executive reports, campaign optimization suggestions, and downloadable assets. Crucially, I\u0027m integrating feedback loops and integrations with platforms like Meta, along with publication features for seamless campaign launches.",
+      "role": "model",
+      "tokenCount": 1600,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Objective**\n\nI\u0027m now zeroing in on the core goal: generating that concise \"Feature List\" like the example, grounded in the context files. I\u0027m focusing on the format. I need to make sure I understand the sample structure, so that my output is perfect.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Examining the Context**\n\nI\u0027ve just finished dissecting the context files. I now have a solid grasp of the problem, the proposed solution (Ágora), and the MVP user journey, from input to generated report. The \"Fluxo MVP.md\" file is particularly insightful. Now, I will start to extract the important aspects to make a feature list.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Adapting Features to Context**\n\nI\u0027m now integrating the UI/UX flow from \"Fluxos de telas desenvolvido pelo Henrique.md,\" which initially seemed misaligned. I\u0027m focusing on the structural features like authentication, dashboard, and history, but adapting the context to the marketing platform. The file upload, AI grading, and chat interface concepts are key. I\u0027ll translate these into general system features and map them effectively to Ágora.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Extracting Key Features**\n\nI am now focusing on distilling the features from the mentoring insights, Ágora\u0027s AI backend, and the PDF analysis. I\u0027m prioritizing B2B/B2C aspects and monetization tiers. I\u0027m also confirming key features derived from the AI backend: data normalization, triaging, and campaign scoring. I need to integrate these insights with the UI/UX features, and align with the value equation.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Prioritizing Core Features**\n\nI am now structuring the feature list with primary sections for User Area (dashboard, navigation), Input (chat, upload, triaging), and the Ágora Analysis Engine (audience analysis, consumer psychology, value proposition, KPIs). This breakdown will provide clarity on core features, specifically, how the UI/UX flows feed into the value prop. I\u0027m focusing on the integration of user flow aspects from the inputs.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Refining the Output**\n\nI\u0027m now focusing on the final output format. I\u0027m prioritizing the structure, which includes competitor benchmarking, timing analysis, and synthetic audience simulation. I\u0027ll translate these insights into executive reports, campaign optimization suggestions, and downloadable assets. Crucially, I\u0027m integrating feedback loops and integrations with platforms like Meta, along with publication features for seamless campaign launches.",
+        "thought": true
+      }],
+      "createTime": "2026-03-15T07:31:14.090Z"
+    }, {
+      "text": "\n\n\nCom base em todos os arquivos e documentos anexados, realizei a síntese e a categorização das funcionalidades do sistema Ágora (plataforma SaaS de marketing científico e simulação). \n\nEmbora o arquivo de fluxos de telas fizesse referência a análises clínicas/água, adaptei a estrutura de navegação e interface (Dashboard, Histórico, Upload, Chat) para o contexto de marketing do Ágora, conforme a lógica do projeto.\n\nAqui está a Lista de Funcionalidades consolidada:\n\n```text\nAutenticação e Perfis\n- login\n- cadastro\n- recuperação de senha\n- gerenciamento de perfil e configurações\n\nGestão de Assinaturas (Monetização)\n- plano Freemium (recursos reduzidos)\n- plano Standard (recursos completos, uploads limitados)\n- plano Pro (recursos e uploads ilimitados)\n- plano Enterprise (dashboard, previsibilidade e histórico de dados)\n\nDashboard e Navegação\n- visualizar painel principal com resumo de análises recentes\n- acessar histórico de campanhas analisadas com status e filtros\n- iniciar nova análise de campanha\n\nEntrada de Dados (Input da Campanha)\n- interagir via chat (estilo ChatGPT) para descrever a campanha\n- fazer upload de arquivos e documentos de apoio\n- responder a perguntas de triagem/clarificação (IA solicita dados faltantes)\n- preencher pesquisa inicial sobre o perfil do usuário/negócio\n\nMotor de Análise por IA (Core Ágora)\n- analisar e classificar a era do marketing (1.0 a 4.0)\n- segmentar público-alvo por geração (Z, Millennials, X, Boomers) e dados demográficos (IBGE)\n- aplicar psicologia do consumidor e neuromarketing (vieses cognitivos, gatilhos)\n- avaliar a proposta de valor (Fórmula de Hormozi e Framework RICE)\n- analisar e definir KPIs de negócio (punição de métricas de vaidade)\n- realizar benchmarking (concorrentes e inspirações de outros nichos)\n- avaliar timing e tendências (Demand momentum, Context shock)\n- simular impacto em audiências sintéticas\n- analisar sentimento da marca (reviews, comentários)\n\nGeração de Resultados e Relatórios\n- gerar Report Executivo (Score geral da campanha de 0 a 100, erros e acertos)\n- gerar Campanha Otimizada (nova promessa, mix de canais recomendados, plano de teste A/B)\n- interagir com o Agente Estrategista no chat para dúvidas sobre o resultado\n- avaliar os resultados gerados (botão de like/deslike e formulário de feedback)\n\nExportação e Integrações\n- exportar/baixar relatórios e materiais (PDF, PPT, DOCX, PNG, JPEG)\n- gerar documentos visuais via integrações (Canva, Gamma, Claude)\n- integrar com a API da Meta (Ads/Pixel/Conversions API) - exclusivo plano Enterprise\n\nExecução de Campanha\n- acionar botão de \"lançar campanha\" após otimização\n```",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 668,
+      "parts": [{
+        "text": "\n\n\nCom base em todos os arquivos e documentos anexados, realizei a síntese e a categorização das"
+      }, {
+        "text": " funcionalidades do sistema Ágora (plataforma SaaS de marketing científico e simulação). \n\nEmbora o arquivo de"
+      }, {
+        "text": " fluxos de telas fizesse referência a análises clínicas/água, adaptei a estrutura de navegação e interface"
+      }, {
+        "text": " (Dashboard, Histórico, Upload, Chat) para o contexto de marketing do Ágora, conforme a lógica do projeto"
+      }, {
+        "text": ".\n\nAqui está a Lista de Funcionalidades consolidada:\n\n```text\nAutenticação e Perfis"
+      }, {
+        "text": "\n- login\n- cadastro\n- recuperação de senha\n- gerenciamento de perfil e configurações\n\nGestão de Assinaturas"
+      }, {
+        "text": " (Monetização)\n- plano Freemium (recursos reduzidos)\n- plano Standard (recursos completos,"
+      }, {
+        "text": " uploads limitados)\n- plano Pro (recursos e uploads ilimitados)\n- plano Enterprise (dashboard,"
+      }, {
+        "text": " previsibilidade e histórico de dados)\n\nDashboard e Navegação\n- visualizar painel principal com resumo de análises recentes\n-"
+      }, {
+        "text": " acessar histórico de campanhas analisadas com status e filtros\n- iniciar nova análise de campanha\n\nEntrada de Dados (Input"
+      }, {
+        "text": " da Campanha)\n- interagir via chat (estilo ChatGPT) para descrever a campanha\n- fazer upload de"
+      }, {
+        "text": " arquivos e documentos de apoio\n- responder a perguntas de triagem/clarificação (IA solicita dados faltantes)\n- preencher"
+      }, {
+        "text": " pesquisa inicial sobre o perfil do usuário/negócio\n\nMotor de Análise por IA (Core Ágora)"
+      }, {
+        "text": "\n- analisar e classificar a era do marketing (1.0 a 4.0)\n- segmentar público-alvo"
+      }, {
+        "text": " por geração (Z, Millennials, X, Boomers) e dados demográficos (IBGE)\n- aplicar psicologia"
+      }, {
+        "text": " do consumidor e neuromarketing (vieses cognitivos, gatilhos)\n- avaliar a proposta de valor (Fórmula"
+      }, {
+        "text": " de Hormozi e Framework RICE)\n- analisar e definir KPIs de negócio (punição de métricas de vaidade"
+      }, {
+        "text": ")\n- realizar benchmarking (concorrentes e inspirações de outros nichos)\n- avaliar timing e tend"
+      }, {
+        "text": "ências (Demand momentum, Context shock)\n- simular impacto em audiências sintéticas\n- analisar sentimento da marca (reviews"
+      }, {
+        "text": ", comentários)\n\nGeração de Resultados e Relatórios\n- gerar Report Executivo (Score geral da campanha de 0 a"
+      }, {
+        "text": " 100, erros e acertos)\n- gerar Campanha Otimizada (nova promessa, mix de canais recomend"
+      }, {
+        "text": "ados, plano de teste A/B)\n- interagir com o Agente Estrategista no chat para dúvidas sobre"
+      }, {
+        "text": " o resultado\n- avaliar os resultados gerados (botão de like/deslike e formulário de feedback)\n\nExport"
+      }, {
+        "text": "ação e Integrações\n- exportar/baixar relatórios e materiais (PDF, PPT, DOCX, PNG, JPEG"
+      }, {
+        "text": ")\n- gerar documentos visuais via integrações (Canva, Gamma, Claude)\n- integrar com a API da Meta ("
+      }, {
+        "text": "Ads/Pixel/Conversions API) - exclusivo plano Enterprise\n\nExecução de Campanha\n- acionar botão de \""
+      }, {
+        "text": "lançar campanha\" após otimização\n```"
+      }, {
+        "text": "",
+        "thoughtSignature": "Eqc6CqQ6Ab4+9vs2fGIRWtmiopXTOjfysSJUzeUeg6mbhG0LrfOseZuYMefFM4bVaoIYzDS/hI4km/AU1O0foTa1DZKouAev6b5J9KhWjqoBlgDjIYCmBBSGMiXi5cHyzExcjxdFrAtg5y2SheOD/h3QRLIJrzdK9XFrd6RCmNF5hLYi9ucX4RFp26w1LNucWFEJZsuN4NiJMWqBX/WMW4PrvDGGAfOR8HmH7kvORSk1ab51lI0a82I2Ey4oMvGCKGd3wcNYu3Q+ieag+npvqvl91XfMH9tG0ZXGdcG9dnq6t7ec4ZqDmcK6VXZgZKXlKBD5gJL+WBjz5j1I7CFwHbLDdu92bYmRFKqyihjb0xj/G64odhFw5YYrFbTgW/TensQGK68ZhRcIXr8yhvTmN4BWg9mThUYGhWumtu2YJwtGUf+dsxYx8VtSmD/4Ck+4SUvb5S3vqMQPHdZVN4Ols1WuPjVpEGmB9JmTddep8tTXqqdrP7EKoofb91JFLFxS51Ts55q/sdb79dvnO52+2voGeNIu3RGcs3KJg1tmVitVHOwj2BpMGX+DeoCS2sSqCRTzyOtydw92XqbllPxVhyXdSuGTH5B135dTI3xtkNyTXJsYjhd9j26TRody+DQvqKXj2BLMmkhOpElcwLMpoWnrkvoLh2/Xrso5LeUocxcVfxR5r0u0ObXCBXAVNUMqqn0nW+nZRmVo10Ib0c3bUcWiSCSUQt733ciWnloUWQOJ8lj2CHQixiK/4J55GHjsew0wHmhNSuPvuvb24c8Yll3/YKVixt1KnYduyWimK+FTxwpUre4TLrQzLui7qbevS4gTR0yxwAH6EDl4U0kIX1USoEWPu750oDRP3hfyRerVxYHn/mS1n9FvQwXd7No6U+gl+yaBRJL5S1WX6zL0Z7i2NmDH19QOP4MZY0lF5pdea2Mupf4WgTdVoNa19DFMt4GqPJX0RVxgf3uOy7OSSzoUA5A9B/KVM9ZdfQHuiiCh+pnCrixm1Lh1AkuoZlRe+hNH77uJb6TmgLgjPbNzeF9J4C37xnuYdsFLaGOesPrGsqn+AOcy8eS2MfZr3FddtVkzUFQA0AYxYL+a/m1Pe+8eh7C5chpkmwmdItfwVIm1draXNl2/Dq2gsUR0Aox0V4cK2A0i8/xmliCaPnZzQNdLlIS8OiGc3LUsMuWG1lHGZueo5dAplAzfijm43Gyij5hKWSp6aWL81nYchraTsm/hYkYTUi6BeZ6oQFuhYV0FTc/i95Y0O5d3+dq4/jymwgBEdQS8tgw88XgCyG0dnkYNG7wLYio1XiOLj8Dp1MFc5UFVP1BE5JJkUB14gYbWaSQrfeYZvIwVzNrQ7oNlMJ8/WPEHq93yNLkj9JA6VSdSljRoA6skGSRZ3xs8qO8WioQCgk2cVnvd21wTqrbHra0IyU+2hbAGGApwEe9hghCovMEO+z7cXFgBf5ATGqeFrX4eI6btPS8dJSYwfOO8bMxDhEoLuysoGwcH2toFQJ+fkk49LAGIXukUl5OlChitBj/TKGZ/TsVRh2/IW3584OK8kqkM0RE6yLZWQuZJ/ZXa54p7HpRdY7pJ7qWkIImXLuknKw1oR+Tsf0wPjLNHeGYP24uc1MLj7qlZ41CuewA8NX70ElxzfLhElzFXuB10Y1GtD6WhO2kJR+0VQsXChmRlMXA9SbR/2somKMq+W1V3YasOxaf9hZnYFiJTy+gXZCYQliFWm+WxhTmTNoVl18o9k2tMNd3kXmEoDjw34osVKMtbPxcGOzmNfICFXPuzjdVUpfoEGvbPu8UP6IQJMNZhuRpLEgoQeZx6/KKAqRSHwBC24V6vBLkY1O5KVTLUgGMVTgiL55rBgGVi2JbdmYLoBnEuJJhfF2hJnVri/AVpUkHefSvaXbQxpvXw7bfScGLQKNOgd+gPyfBhxS8BqrFwewO6un6SyfxQbFqFGjl/Cw7PME5aP8Gp+QjbE5A+8XZUP9i7eB4qmAMoRvTxx911HWq0mt5WF6CoTjDjkTJ+B14izZTt1nTtlY++4FiRLvOxarimrWdieddfxBZDsAm0Y+xsf84pu0ThmRpph5D/PGNEm1J9BHOimPQSoluwUmrDKIgF2vTc45xIkk5vUoNIo08q8LjNZyrIBYl9uT4NPncDogZwftDJTNwjcOeGly06KhUyDtw4gcuqWhZKPbrrT4dIEWrA//UNMy+p7NywC9Cn1QvW5pc2HkbgKAYFqmZ9V6EVabQPTf8cAb9GGpNq7nRXp3FFYSPqfyE3k71HRjXTAD2IKeGRBFL7wJGm6QlKhOXX8WmRtyDAXHWjVUVy7nS/3Fob39RMqkoUZiyR/mlgRAbQZmc/4sUr/HhRV8b1b0UE81dJfq3/ZA7R7cw3jYjgHexljvno0pcsSvzDtq4FEs/o4JeGOEivoQE0rquSt1F9EN05hg5VcNMT7/mRQy1Cc9rtdMJuLHzu359gZ8Jy5K6rsUHCBZbm1UBeQF8dTlesQxLozpNqurDgLw+td2W3vnXBSpkuT1slOjkbwno5V7x1hLgHWYUuZ7PuGkXp7YkpCNKRyOxSuP49cjaH9jXnghNg5vs6ua5fRUm5QA3p0vcl0i/Cwdw3cjaaJyeflFl3ajyLVwoBfc489DwtL5rfkgcdH2pKV+IpwlAG2UumXI6XJMGC1+pbQG+7jfAK7PrHQpTtj9Yhuh/JBEc6fXALoo4xOatiGkN9fURLP6lL5Frci3PnSMMf/DvShu4n0Iyt0+1ofzaniCsEMxy6hHLpWppkcYyF/XXKz698+RYxHMFykiQibdv3AEF6xmjQC5bVnkcppV1XrWUsUpSZgngYpjQN6z6KDwxzA5p0NSTiuwIj98YPZItsNDC2TaqHDDPIxdnhwJbfQE4ww0hAv2qwydyMmFrk6iFXiwq+HM8byjp/a42PS/5bFZ/TN4ZZHj9LexzvQyV4A0vALejnaUFkQ2Gr0CLROq5Zp8yKYkYOs6yhBLS5dYId/brlA762w8CDYn7fYXhO4he7zzo8/op5B6S559N9lURdKUV/1bBpSPktTu7qTqs4i74P/Q8n9kjV9pyltdK3IYnBLRJPo37D+J9OBV18qjEHL9w8UQ8524rFvTo1CgnJXeE+/FWS2GBTK4z11Kloj7Fa2AhK7d3JgZZNt5wy+sBO3vm9NxqVtRRzXAzLnrJOYUiLDS4FSeEWaYdZ7yJs/Ct6KZ11xs8Ce3CxhnTMF1j/nZgwPbewb4gPOTQzN0Thmxw2qUyuBMhineo1W0dbTC2iysukDCgh6xnBkZqBw/NjJtLP+pAVV0VuwM9kQFjKRtBPPGl+nplS073gPEnLdirT00YqxjUIpxaIId9aOmV3bt91HKA72ZgsUihhx7xu0jwFcsg3dWb1/altGmVJ9fm8cECD8ON7pR0Si0Fnsvq1P98JPcXHwOJdT9ryFNC0RAuSx7Ah3BsXVAj1ljwXKRSaIDTW9TDfK8cSjfn05vfAsl8EDsW/9IJ+WMrys66izI4NInelkV5/O30EPBpo3VAG+NsvzdaO0g/6CNrJujIQH7PuO00vZLW/P0NXlJInoR/Oa1RH5APwGbRfVX9WxPg4Q6AvcyL5PjBpGeXU4H7WwOg8KksEtR0vl0iull6FarlYCTCPst8xoLt+xlmlXt5CEXWDIfXSJlhGOtIHnmjjBBaamQ26okGvCsRXKwu+QFIn7vC5Q1nXuS5D7pngzNAKqWx7S0GDqUM7Q6qvMPR/sVKe6IjxGbsanoU7k1kX99R7GyNO496rsU35c0T/DOahPZw+RFuC+7wh3KnAAatqn/lpskwPiaPlHIxh+TsJ8CVFq14x4ZFbnbqsmD4iUutk7WrJn0ScyFtgAbpN67RNxA92XdUQncVgp77lT0LsBarGNqilRfSi9iPR60XP21412bjh8r5F9EAe2gZ95VaFSmvPzgWVKhuOwyFHF1vNmvxZEvHZd5umi5GlLLsKjYSNhru/aBmUY/44UkHw4OhN4VdWUgMjB3GER2WTEoSy+ZMwKYy9UQcEkyaDjqSqecSgQexO82cdBVyC6AyZiKtkpZOmtn10lB8a4GsUKBqQTzWQS/aAyS/OCAlehpaAoctlZqkiH98rDj1SJrqKUiBlggIwlydcEgx7cC70g+WgdmXhb8pv6dxDd1bGQFRVI30z+2thgVMXiOStqzFrspyaagR76WIeBSHIFuQ9UYUHzTliZqPDRuhEQIKff5sPF/aGSzHZRWcqpkcbCw2ly9ZysH2mRQpBc1/aA+R7SsUS9g8v1rVdI6iyPTm3g2lhyMVVA7Un/HxftpWuIBx/SLAfWhhNgiihbl/G27/Ux7AMNh6eulL1kfbMygzW5qsXCA+nbKafFcoy/tp/QHShxK7Y73Adpxl5KcamsBRZH45caCaKGJcignDD14tYQkPkaCB5GRmKVo1VIzftbYe+JvUrkMvV5ZNOJz1EuX91kvUE7eHMo19ik6R1I3MjO2TeNl2lsAaoe+VaiJ13ByrS/q81Fws7ThxN+B0OEqqaHKIakFTPjoicZwXBbkvfTlDSJDF7tdQyXklXmKt8KoH54+zwZOM8QzbWmazV6rqJmUWCOxjKgOk+rMqJvOmXqhp35tkz9zWQ6sqydS2vzFETNUbZpl+Dda36XtpfB1fdqZlonmKCc5szvwfA+WGAZe3gN1xzkkYfyeM70TIXgj0KqUtleDRnDWG6ybuZuZKE0wI6Uqtg+svIjDrq+qlZuudd3J/RJHV2kH979O0qiLZ/mPkbzN12hCB7EvQkSDmBOMjetqkMzn4KRjmrRTSsAcb7+kP8+c4qewh7khEkcD2XU+yVuzNvZVIXqebFw6uleLhPIkjT3IQ1ZNCpck8A69t7k7lX8Rm6CY7Fl2FkaaSlPVrLUvsPu9t2YSdJgYM/K9j8gkYsFfXlRSpZVqqMJCGvZLRdA/tXudjGquepIZAAJkmXuWhLrc6e74l0sEjbN3XlCwLqyjMNegCDUjVbcaFkkIvlyIWy93QDiybCk7wMKhcRVEXx84IOk2WnhLmTPK3K9U5YrKEZNMgdZ7xoc2YBIGXN8AeWTy06ZREJ6AF5bY1ZkPGEwOKiI0uOJccabYO8I6IcF97e6QN5Py8uhtNR9PDNwBO9rD3YTaYjutvTJPmpn0FbtGlO6UzsCvHfK1aKa0wBBFzeiZSmqFcaEpuJcFWl0B1UKufzKicvE3PLqfkogKTS3k9pDkmBA8KOUcKYR/CNer8ylLeCjPB6OuZIUS8m78nNjfmaEPV7yLWqDqf56ikNUKpeFkYBsOeql80flENbfGDu+0UyJPg/pXDd4+n57Dqz+9md+4GBj7AFADb6NNus7en1QTlt4zc0ByTzRsbvy1D7CJHZmAoTBtImG2/xFCpEWouc01ddjln7vQ8CiBN/+SBcpCSmXJT9eLkLpLXtnNSClGs+wkHnQvw1Upq3VaOWHoP6e4awKUYbpIcehv9zisjebgRzAq8FLzKWP1MTGWYpJ02w/GBOWEnp5ap+e0Ie9awx+2U4t/6Y3peOZny+9nSNupUCvbNENEY8i1uxP4nUJ1/iDV9Dgmc5NR2nCeeJ/daV58V0RMnXqpuS+vLGZ+XxinRm4sk4YEvvhxD6+RQ7wLs7S7a7GpNh+NUSwJjpjkCTQv1f2bje1fpccSou1/xS3b1T2S+ZmR+hLl0Bwp7Mq5Voo25ijCQLC8cnFSPhu2vR5quGZGYLTv/7q8enL1EiMGEXSU+JiMAu7P1H6CVCHuWEVhpgL21opuanmjlTxeI7v/p0nNrURjZnsF/wtOGzKzElmZvgX/9y0l4gfQPj1aMAP1QdamJ83a74vM7LHN2w6/kQCUxi7OxlIZAn1fT28URfWmzOJ4ZJ6MS+XLRBO1hBolcGADupMBwNnnGjSJytWUzKSDpfI54VmGlwvGOaoEpIMECauV2QgUX0sGfcxTfjf9yrE8qrSSlW8QlYa2LxEnByag8Qn4AJ1yZLuRFwRlZVRznGPPGkWokfqsTJGrlPQ2dTb1YUr/8PL36Cn8alX+2m2kzXzt3/Gax/2CYexwQoy7jO1MwLiK3r0khOAKwncxN3B2P+leUf0KmZo/+P1Y26NaALBGuRg9mwo2eITEAuDTncmKg2v2ArUOLRbX8qYZbnkFKTlJQ2+sUMWrtMY5e9kHzqJ54LS3ByM1+fJET9eY0NumtBN7FCQw3wNW9zpDRg1mWytqnxPe26HbQL+yCRXaxq4ZeucrhBAzdWKIEv4kG45pAnIg6fuqzcdWF44Ad+yqPGUIugy8+gQNcGPOPdbhWp6T8Acr/SrvA5S3IiPVj3cAGtaISDPUa5bsTfzI3CX8vhawDAVQ3+1yLm3CUTt3rq0LXUHhbt3SowcCsoyjJk7iNu5ZTMOoVTX4A1/on6xbkinve05rDIYiyKvd9Z8pGhUUofVm3UwZxWFXqy6yArv9X6R04EapswYl1ah6CBMR6bjCCNDd38XCDWWBt2yoOK5lijKjGcCt2eS7sKuOuN5qMxx6jLUL6ZmmNMgAc/iUPNxiB4A6WPNUclnHRU2JnpJgX0RTopJuwnZEjXnRKjIEDsCATRwgLGhZbQ+ojl2R5K7Pj+lerkdAAZQCAq/FY1257rZy4HcNlgOJ5412FQw4blLTa4UXckICgUBPRRHWmWLo0z7Mw++062SrLGGF65I+BOVYQN50KW+vPZ5EAXXAIfJx7pfebsHldW5REvOdp520m9ISaVjC0hr2Sv9sobhf9bC15ey/k/03HjPRweZD4agRsD3GVNAvKKu+13gGvyMiflPWvMdNBaWcHyuyfkiZ1ZovE0wD58xcwR5udhTjdQledRlHJERA0pmT1xK3aMzx8ajAvaxbnmUxMS54dTlO8iy6VmZVPTLx4nyksiBd9Np7/2cLWhbBHBSkzIyYQDF4OnWnHXyFLSdoCj8MIkkxyuJPhm46A4ySSwkM0LfYSvTnRiLCJwtb6hZ3GNGaz/CY2pf3S9eGsSOm9+DgJtFIu+vmbXKIiye2BeAOAkMGZr5UNn/PuoKhI3lbjo76Ybd9IXNTlds4B/HiAbnL9Oop75nGewfvnfSoUxz5XYSjyB9rHtKPZPuO+8yonDvGcR33/iQ/09YdbKCq8FJJGVN5SjfpKIR4YvZBQrSX6U83seqhl3Yg5HY5UJtvPfJIM5LYTJU+FgwJdk8u85hCE5l1W1Db3vBKmVv3hejBKyHxJ+TA4wRSZ6r2jN0oeQKLs8BBGKvBRuLSePTOlcrp6YY1hB87gtfW8Tm7f8QVEMhwtmP3gd2IWQzsGEfQa8NrH/Ve2FlAD1KmOv1APNmUq23fo1+Q9bi77tTqWDEfJoGyAtXt1/sM2lNzWhUhLtbrJTY0mXcoUo1matZpIHcGRbioiCsFkzZavUqpFit51i1z/nN3jGnZpDWQLA5Pz2T4hI1kxGWbfL2Bn/np60yMHjSLWvrrvObgbCXllo8FMeDIHYv+0EPiCeF6CgMdywrYAXj2+csO4ADnxxGwZupcpWRBdctteX5dkXnTuJa/0GKe8QksTEttZ8wtZTR/yjI1ZXAYH613phSHYIAxootIXufkbi3Cq2NFYuBX/Vd6GBjrBM0FU52n+wsRqfyiUv5y5dHwnq0uOtBXczMxQsOp+6JCPjKk9W3B8q8pXTjLM58VtAFsZCClH3GwLQR6znmBDdqwA3c6nadzeXpDSI3kORrgBVFK5/RlsHWcVyE23XEuiZ4ap34dFMg4ztN60awo6dGliPHcXB1xpAZVLdN3rFP78MtUJDpCmKHfgDdwHnsxvRwADWgyy3gnDy+95zzWn6Uayp0gAth8GnVcuOMNAW3n0QiGyFT1fvTU9UQr1RTvSpBk2sqhjohRoAieGkfD4iCxKgVq7H0z+EIiSXJrRbmVYOpXgNay3GAP0g0cNWzUSbUzOrhUKyh89E13yIGDXXKhXFiM7Bl0kKqAxUzFcbdBI9E/3BiVzVYV6GS3ft+tgfvUsP3qPgVcFS1RsQnn4F0+W2BjPF9nch8hda9wI7+2pMNge3x8qjsFwrqBTaKaDs8JeRicBRNIPk5maxseaqdzeiRX3O2mf0UkmNwmokTiKC4OyjltirbbWepZdg+iNA3enErBWKlrJZfI5SF3AjaueOYL0xkbUGhSYPSgurbEmg9Yam1s6TfsBdHWpR7MY3eBOFGTsEDTBg0WqUt/9MV5P2hETQ10Y61s28rAtbibHUqC3YhIuvxLaVzcVtCOy/TQQUPS1E2ZYtON7YwRBdoVG0eK1VOscbMxgu3xoioA/Hyfti7tNFvyg1213e7qJ7iY8f2dB9sW7p78tZah7pNTQa76Kxa0EyHCwPaON59nPtulqHkcFz3uQiKhypTJYSlQUDdu3yyMhuBj+/pqomWBS+Zswb/1FdM6l/Oo79aFzyuzLjtn0t0vOz6VTrx8tFUd2iVyDkSU/+6HKoIqeVKwpm0T9PUK7ZwS6I2Yrua2yt182EHECGK8ZvxN4GklENcDix3I2b6dj8eTITuE21Om/DB2G7U1wHqMPDWkxTTeLjAJAS9FxrBGiKiunIIPv2oHdM+cVuQOlUW4mSInJhmHvqXAKYJmZyxqduDHQkMAZQ3z+vKhKdOAM8P6cSqtjma7ENb5RonP2iLvymNioPdKEzZMs/cuRbCDHiiqOt6I5TdB4HRHgJQvU+LHIVH+D1pVDG0kewe9RTp6sxCxAFCUp2t+TLFiBxXh5zDRMu+zopqi1JJ5OtAGXPORuMlTeG8UeGZX61wvit3j3LjQUVyVw7X9tZMC4MFq4G8RZ9dL+zlsff3VOK7SYePr35XsfNaMLhrZMgmszKHakTh/mpiZQ1u2+SyA/ipfOkFVOlbLWbEY019Y7CyR+/AbCYFee8oLEKcTO5xH0aiZGZj+q4LK5QudOR2tapp3brTK/NGedF0FL6IDZhgICCtC1/QwazP01A5btVK4Wtj1bVwgmQ2gloVYecBoQEgY7sF/32Ulj+so5riu0rqt3SauNeKm7Pt1rOn8pHD3IIRWEo/kt8Am1TeGS8a9nW1C/eHIXzbnc8UTJaPQQqcAQwAZUJlRVUD8fbVTr71BAjNfeZPl6Qz4YG5OinbTZGdDSnR1SuLu4RF8oyTKI8TEevlyI22hO8cg8Eab6OO+fxSm3a5/xGRk7nOfKeQdGtRbyoo15s1IBOOY86tk48FYBQXzkod47jCL44UB4pSHTJV9WJzHJ3z0ycCJqRkki2BWm930cn+qI+lc4s2JmITKAZJHHhuh3kclQYBq7zZOaB69oemeJT5j1mB1sBWQqHPDKSuaq/xe2uRoCM0mH84lBzxW8k3Vg/5djOpoNYnVaT+y+GK9ba9CFwl3QE3zZaxVoF5jW8EvNRrdK88yG6hZFT60mmfTa9nnBimZmL7pT+90JeRoeWQW/9erM8cOHCs3WTsBFvKgpF0y+q68XoJMcLljrZCVTo1hK12g/w5poT2Dpk5Nue6hDlhZ61EUIFGN64OEaIM4Vzk1UDOvWDVYuFfGZ6CC7JjZ92RGys3Cnls9UPPLzctqugG6fDZSjpCfGixvzZ9CwJfh4Yu1h97NoUM50AHKcn7ocl2RyWVMFd15IEwk75HFi9xa/10b+5SdOsFc2X05yT4bj4BND8lcyn6vvVbATMjx1L0aeRX7xv8rRx7fKidBugaxACmCFApxRs53RrEuRt98EHIgoMIT1DLvIgqyBX0xmnRCyOcbey5+rCGbwEQyLaXjWy1TTExpFusbHlPlefw6tZsnolBdAYzRuPmHJzSKSwMiPtu/PCN9kJ0/XBYJTrXHLgrTeOTbyMnE0zAWY0wUQf8+C9Ks625v498bv54PExCH4We534zRvtEGBKAbmQ7BBjkhfrSrKTAZMMesWXCqhFJ7M0qTPZcoA8Wt5pbvhuZ17ZGnEjTfBE+o9nLJv/YVYDomg7EeE31/4="
+      }],
+      "createTime": "2026-03-15T07:31:39.394Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

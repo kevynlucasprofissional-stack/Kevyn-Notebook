@@ -1,0 +1,1 @@
+Ao finalizar a modelagem do Pyro, sempre faça o cache e exporte para o seu renderizador, para o renderizador não precisar ficar simulando o Pyro sempre que você clica no espaço para pré-visualizar.

@@ -1,0 +1,81 @@
+---
+id: origens-e-infancia-2003-a-2021
+titulo: Origens e infância — 2003 a 2021
+tipo: evento
+status: curado
+profundidade: avancada
+versao_schema: '1.0'
+versao_conteudo: '1.5'
+idioma: pt-BR
+data_criacao: 2026-06-17
+ultima_revisao: 2026-06-25
+fontes_primarias:
+- '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
+- '[[Fonte - Diario Negro 01 - 241225 ate 130226]]'
+- '[[Fonte - Diario Negro 02 - 130226 ate 250426]]'
+fontes_derivadas:
+- '[[Fonte - Cronologia e fatos]]'
+notas_relacionadas:
+- '[[Kevyn Lucas]]'
+- '[[Claims principais]]'
+- '[[Rede familiar]]'
+- '[[Silvanna]]'
+- '[[Silvanna]]'
+- '[[Historia parental relatada]]'
+- '[[Fonte - Diario Negro 01 - 241225 ate 130226]]'
+- '[[Fonte - Diario Negro 02 - 130226 ate 250426]]'
+- '[[Narrativa de grandeza e vida comum]]'
+- '[[Contradicoes centrais]]'
+- '[[Autonomia e relacao com autoridade]]'
+- '[[Criatividade e capacidade de sintese]]'
+grau_confianca: alto
+sensibilidade: muito_alta
+camada_evidencia: misto
+tags:
+- tipo/evento
+- privacidade/restrita
+data_inicio: '2003-07-17'
+data_fim: '2021-07-17'
+local: Santa Helena de Goiás
+aliases:
+- Origens e infância — 2003 a 2021
+---
+# Origens e infância — 2003 a 2021
+
+## Fatos relatados
+
+Na sessão de junho de 2026, Kevyn informou ter nascido em 17 de julho de 2003, em Goiânia, e ter sido criado por Silvanna em Santa Helena de Goiás. Relatou abandono materno associado à dependência química e ausência paterna desde a infância.
+
+## Formação
+
+Os materiais situam o começo profissional por volta dos 15 anos, em comunicação visual, com contato inicial com CorelDRAW e produção gráfica.
+
+## Base familiar
+
+A leitura biográfica desta fase depende da rede familiar: Silvanna como referência de cuidado, a ausência dos pais como dado estruturante e a mudança de cidade como parte da construção de autonomia. A nota não fecha a infância como diagnóstico; ela mostra a base sobre a qual a vida adulta passou a ser organizada.
+
+## Peso epistemológico
+
+- Forte para origem familiar, deslocamento e autonomia precoce relatados.
+- Médio para ler a relação entre infância, trabalho cedo e formação de sentido.
+- Fraco para transformar o relato em causalidade clínica fechada ou biografia completa de terceiros.
+
+## Interpretações posteriores
+
+Dossiês de IA associam essa história a hiperindependência, busca por controle e dificuldade com autoridade. Essas leituras são plausíveis como perguntas, mas não estão estabelecidas como causalidade clínica.
+
+[[Fonte - Diario Negro 01 - 241225 ate 130226]] registra elaboração direta do trauma: "O seu trauma é que você foi abandonado. Você era uma criança e não conseguiu entender desde o início que a culpa não era sua." Kevyn articula a hipótese de uma crença central de que "quem te vê como você é, uma criança vulnerável, te abandona" e de que a busca por ser extraordinário funciona como compensação.
+
+[[Fonte - Diario Negro 02 - 130226 ate 250426]] acrescenta: "minha infância foi de certa forma solitária e tenho uma família desunida, não tenho contato com meu pai e minha mãe abandonou seu papel para usar drogas, e talvez por isso eu estudo tanto filosofia... meus criadores falharam em me instruir então tive de me adotar, buscar conhecimento através da leitura das fontes foi a maneira que encontrei de me adotar."
+
+## Relações
+
+- [[Rede familiar]] e [[Historia parental relatada]] documentam as figuras mencionadas.
+- [[Autonomia e relacao com autoridade]] explora uma hipótese posterior.
+- [[Criatividade e capacidade de sintese]] registra competências desenvolvidas.
+- [[Independencia e trabalho 2021 a 2024]] sucede este período.
+
+## Proveniencia
+
+- `CICLO-0025`: referencias automaticas dos ciclos `0023` e `0024` foram removidas desta nota por misturarem conteudo estudado e inferencias amplas a um periodo biografico sensivel. Esta nota permanece apoiada na sessao de 12/06/2026, no Diario Negro e nas sinteses ja revisadas manualmente.
+

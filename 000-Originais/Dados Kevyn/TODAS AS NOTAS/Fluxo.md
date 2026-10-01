@@ -1,0 +1,1 @@
+Fluxo é a transparência diária do seu trabalho, é a conexão com o público e o compartilhamento de seu trabalho.

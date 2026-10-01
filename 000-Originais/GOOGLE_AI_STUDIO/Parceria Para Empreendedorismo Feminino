@@ -1,0 +1,78 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "enableWordTimestamps": false,
+    "enableSpeakerDiarization": false,
+    "languageCode": ""
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveAudio": {
+        "id": "1kbDP-r2bBjmkm1giP4ycM4Q5TO-h9AGt"
+      },
+      "role": "user",
+      "tokenCount": 967,
+      "createTime": "2026-08-18T20:58:34.910Z"
+    }, {
+      "text": "Transcreve",
+      "role": "user",
+      "tokenCount": 4,
+      "createTime": "2026-08-18T20:58:34.910Z"
+    }, {
+      "text": "Aqui está a transcrição do áudio:\n\n\"Oi Kevi, a reunião foi o seguinte: nós fizemos uma reunião com a deputada... vereadora, né, Nayara Barcelos, e umas empresárias, eh, daqui de Rio Verde, pra ajustar... pra solicitar nossa parceria pra participar de um projeto de empreendedorismo feminino que vai acontecer no final do semestre. Pode colocar assim. Então elas vieram solicitar o apoio da Acirv Mulher para ajudar a realizar... a realização de um evento que estimula o empreendedorismo feminino.\"",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 114,
+      "parts": [{
+        "text": "Aqui está a transcrição do áudio:\n\n\""
+      }, {
+        "text": "Oi Kevi, a reunião foi o seguinte: nós fizemos uma reunião com a deputada... vereadora, né, Nay"
+      }, {
+        "text": "ara Barcelos, e umas empresárias, eh, daqui de Rio Verde, pra ajustar... pra solicitar nossa parceria pra participar de um projeto"
+      }, {
+        "text": " de empreendedorismo feminino que vai acontecer no final do semestre. Pode colocar assim. Então elas vieram solicitar o apoio"
+      }, {
+        "text": " da Acirv Mulher para ajudar a realizar... a realização de um evento que estimula o empreendedorismo feminino.\""
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-08-18T20:58:34.911Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

@@ -1,0 +1,2 @@
+Vá até "Render Queue" e clique no ícone da claquete, assim terá inicio a renderização.
+Ou você pode clicar em Shift + R, e irá abrir o Live Viewer Renderizer, onde você poderá acompanhar em tempo real a renderização, o tempo de renderização total e por frame.

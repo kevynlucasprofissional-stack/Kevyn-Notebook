@@ -1,0 +1,1 @@
+Trismegistus será minha conta onde serei nerdola de filosofia, review de livros e ocultismo.

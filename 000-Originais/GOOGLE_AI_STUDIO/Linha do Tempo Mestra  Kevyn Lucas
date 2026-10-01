@@ -1,0 +1,234 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-2.5-pro",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K"
+  },
+  "systemInstruction": {
+    "text": "Você é um Analista Forense da Psique. Sua tarefa é analisar o Kevyn Lucas com base nos dados de contexto que o próprio Kevyn Lucas irá anexar no chat com o objetivo de, ao longo de 15 passos, criarmos o resumo definitivo sobre o Kevyn Lucas, além de respeitar com rigidez absoluta as instruções contidas em \u003cregras_globais\u003e\u003c\\regras_globais\u003e e \u003cfluxo_trabalho\u003e\u003c\\fluxo_trabalho\u003e.\n\n\u003cregras_globais\u003e\nRegras:\n1. Sem Filtro: Eu quero a verdade nua e crua. Não suavize diagnósticos.\n2. Base em Evidências: Tudo o que você afirmar deve ser rastreável no anexo.\n3. Foco na Contradição: Procure ativamente onde o que Kevyn diz (discurso) contradiz o que ele faz (ação). É aí que está a verdade.\n4. Falhe com elegância: Se você não encontrar dados verdadeiros sobre o que te foi pedido para procurar, não invente dados, apenas responda algo como \"Procurei dados sobre isto nos arquivos em anexo e não encontrei\".\n5. Postura: Seja extremamente meticuloso. Não generalize. Busque detalhes específicos. Se houver contradições registre a contradição, pois isso é um dado psicológico valioso.\n6. Simplicidade: O seu estilo de comunicação deve ser simples e assertivo como se estivesse explicando para uma criança de 5 anos.\n\u003c\\regras_globais\u003e\n\n\u003cfluxo_trabalho\u003e\nO trabalho de gerar o resumo definitivo sobre o Kevyn Lucas irá fluir da seguinte forma:\n- Etapa 0: Kevyn irá definir as system instructions com a persona do analista.\n- Etapa 1: Kevyn irá anexar os dados de contexto que serão analisados no chat.\n- Etapa 2: Kevyn irá enviar o prompt da etapa do resumo que deve ser executada. Serão 15 etapas, faremos uma de cada vez.\n- Etapa 4: O Analista deve executar a etapa respectiva que o Kevyn enviou no chat e retornar o que a etapa pede, sempre obedecendo com rigidez as instruções de \u003cregras_globais\u003e\u003c\\regras_globais\u003e.\n\u003c\\fluxo_trabalho\u003e"
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1jE2b2hpohhZW7hE_ncfsIzE6wMhB0uDC"
+      },
+      "role": "user",
+      "tokenCount": 189246
+    }, {
+      "driveDocument": {
+        "id": "1MWOImy3mVBFY5Ig0LIU0i-v7SojPYppa"
+      },
+      "role": "user",
+      "tokenCount": 254608
+    }, {
+      "driveDocument": {
+        "id": "1W4VVPzouNgn__3lgxZ0mxGSoxXiY-_7J"
+      },
+      "role": "user",
+      "tokenCount": 340298
+    }, {
+      "text": "PASSO 1: Cronologia e Fatos\nObjetivo: Estabelecer a realidade física e temporal, além de organizar a bagunça temporal dos fatos para dar sentido à história, separando a biografia real (Fato base) da mitologia pessoal (Narrativa do ego). \n\nPrompt:\n\"Aja como um Biógrafo Investigativo. Vamos começar criando a estrutura temporal. Analise todo o arquivo e extraia meticulosamente: o fatos sobre infância, parentes (pai/mãe/avó), origem, crescimento; o modo em que a infância e a origem do Kevyn moldou sua vida adulta; todos os empregos, freelas, bicos e projetos, todos os detalhes que encontrar sobre a trajetória profissional.\n\nCom os dados extraídos, construa a Linha do Tempo Mestra (2003 - Atual) da vida de Kevyn Lucas. Liste os eventos em ordem cronológica (do mais antigo para o mais recente). Para cada entrada, inclua:\n1. Data Aproximada: (Use datas dos arquivos ou pistas no texto).\n2. Evento/Contexto: O que estava acontecendo? (Mudança de emprego, término, viagem, crise, conquista).\n3. Localização: Onde Kevyn estava fisicamente?\n\nRegra: Diferencie o que aconteceu de fato do que eram apenas planos que nunca aconteceram. Se houver lacunas de tempo, apenas pule para o próximo evento registrado. Não invente datas.\"",
+      "role": "user",
+      "tokenCount": 317
+    }, {
+      "text": "**Analyzing the Persona**\n\nI\u0027m currently focused on dissecting the \"Anal ista Forense da Psique\" persona. Understanding this fully will be key. Right now, I\u0027m defining the role\u0027s scope and identifying the specific analytical lenses it suggests, so I can apply the right perspective to Kevyn Lucas\u0027 chat logs. This helps me frame my approach.\n\n\n**Defining the Biographer Task**\n\nI\u0027ve clarified the core task: Acting as an \"Investigative Biographer\" to build a detailed timeline for Kevyn Lucas. My focus is on extracting factual information from the chat logs, specifically regarding childhood, family, career, and projects between 2003 and the present. I\u0027m prioritizing accuracy, adhering to the \"no filter\" rule and emphasizing evidence-based analysis. I\u0027m actively looking for contradictions and ready to state when data is unavailable. My approach is meticulous and straightforward, geared toward generating a \"resumo definitivo.\"\n\n\n**Outlining the Approach**\n\nI\u0027m now integrating the \"Analista Forense da Psique\" persona with the \"Biógrafo Investigativo\" task, and I\u0027m deconstructing the 15-step process. Right now, I\u0027m focusing on Step 1, which entails extracting and organizing facts from the chat logs into a detailed timeline, covering family, childhood, career, and projects between 2003 and the present. I\u0027m taking the \"no filter\" approach, demanding evidence-based analysis, and watching out for contradictions. My initial scan of the data identified varied JSON files that suggest diverse conversations.\n\n\n**Extracting Biographical Clues**\n\nI\u0027m now diving into the JSON files, systematically looking for any biographical threads related to Kevyn Lucas\u0027 childhood, family, or work history. It\u0027s a detective-style approach, gleaning facts from the contextual clues in these diverse conversations. The varied topics - marketing, philosophy, personal projects – mean the \"investigative biographer\" persona is key to spotting subtle links that might reveal the required biographical details. My initial focus is to differentiate facts from plans and follow the *no filter* rule.\n\n\n**Uncovering Biographical Facts**\n\nI\u0027m now methodically extracting biographical data, focusing on applying the investigative lens to the JSON files. Initial findings, like those in \"parte\\_17.json,\" reveal Kevyn Lucas\u0027s professional role as an entrepreneur in the creative marketing field. The client interactions, documented in the JSON, show financial disputes and provide potential leads for deeper dives into his work history. I\u0027m focusing on facts and plans, and the \"no filter\" rule, and I\u0027m watching out for contradictions.\n\n\n**Extracting the Narrative**\n\nI\u0027m now taking the collected data and constructing a timeline. The focus is to connect the dots between Kevyn Lucas\u0027s professional interactions and extract underlying events. So far, the JSON reveals the context of his work, client relationships, and business dealings. I\u0027m focusing on \"parte\\_17.json,\" which clearly shows financial issues and client dissatisfaction, and \"parte\\_15.json,\" with details on client interactions and professional self-perception. I\u0027m prioritizing factual statements and carefully documenting each connection.\n\n\n**Extracting Biographical Clues**\n\nI\u0027m now methodically extracting information based on the initial scan, primarily concentrating on identifying biographical clues about Kevyn Lucas\u0027s professional journey, especially his entrepreneurship in the marketing field and his client relationships. The JSON data is rich with details on client projects and internal reflections, allowing the construction of a detailed portrait. Specifically, \"parte\\_17.json\" and \"parte\\_15.json\" highlight a professional trajectory punctuated by client interactions, financial disputes, and an entrepreneurial approach.\n\n\n**Extracting Early Client Data**\n\nI\u0027m now integrating the extracted information into a timeline-like structure. Currently, I\u0027m focusing on the professional sphere. I\u0027ve noted his interactions with clients like Dra. Mariane and Wemerson, documenting their disputes and his financial concerns, as documented in \"parte\\_17.json\". I\u0027m also organizing specific dates, project scopes, and amounts to make the timeline\u0027s construction more straightforward. I\u0027m taking the *no filter* approach.\n\n\n**Constructing the Timeline**\n\nI\u0027m now focusing on arranging the extracted data into a structured timeline format. I\u0027m taking the \"no filter\" approach to date and content, and using the timestamps to establish a chronological sequence. I\u0027m linking the identified skills and client interactions to his entrepreneurial activities and tracking the financial details in each client project. I\u0027m watching for contradictions and using the \"failure\" strategy when no data is found.\n\n\n**Extracting Early Client Data**\n\nI\u0027m now methodically compiling a preliminary timeline. \"parte\\_17.json\" offers key data points, and I\u0027m correlating specific project dates, and the scope of work (like videos and marketing campaigns) with financial details and client feedback. For example, Dr. Mariane rejected the video work and didn\u0027t communicate effectively, Wemerson was dissatisfied with the work. I am noting these early interactions and extracting the data to begin building the timeline.\n\n\n**Extracting Timeline Data**\n\nI\u0027m now collating the timelines, noting specific dates and extracting client interaction details. I\u0027m focusing on \"parte\\_17.json\" and \"parte\\_15.json\" to extract the key dates and project descriptions, while also adhering to the \"no filter\" rule and keeping an eye out for contradictions. My goal is to build a chronology that captures Kevyn Lucas\u0027 professional life.\n\n\n**Extracting Client Interactions**\n\nI\u0027m now collating the collected professional details into a structured timeline format. I\u0027m focusing on \"parte\\_17.json\" to connect dates and project details and the *no filter* approach. I\u0027ve noted early professional interactions with the client, Dr. Mariane, documenting financial disputes, and highlighting potential leads into Kevyn Lucas\u0027s work history.\n\n\n**Extracting Early Timeline Data**\n\nI\u0027m now integrating the extracted information into a structured format, focusing on a client-based timeline. I\u0027ve noted specific events, such as the initial client interactions, project descriptions, and financial disputes, from files like \"parte\\_17.json\". I\u0027m recording specific client names and documenting early interactions, like those with Dr. Mariane and Wemerson, to start building a chronological narrative. I\u0027m taking the *no filter* approach.\n\n\n",
+      "role": "model",
+      "tokenCount": 3120,
+      "isThought": true,
+      "thinkingBudget": -1,
+      "parts": [{
+        "text": "**Analyzing the Persona**\n\nI\u0027m currently focused on dissecting the \"Anal ista Forense da Psique\" persona. Understanding this fully will be key. Right now, I\u0027m defining the role\u0027s scope and identifying the specific analytical lenses it suggests, so I can apply the right perspective to Kevyn Lucas\u0027 chat logs. This helps me frame my approach.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining the Biographer Task**\n\nI\u0027ve clarified the core task: Acting as an \"Investigative Biographer\" to build a detailed timeline for Kevyn Lucas. My focus is on extracting factual information from the chat logs, specifically regarding childhood, family, career, and projects between 2003 and the present. I\u0027m prioritizing accuracy, adhering to the \"no filter\" rule and emphasizing evidence-based analysis. I\u0027m actively looking for contradictions and ready to state when data is unavailable. My approach is meticulous and straightforward, geared toward generating a \"resumo definitivo.\"\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Outlining the Approach**\n\nI\u0027m now integrating the \"Analista Forense da Psique\" persona with the \"Biógrafo Investigativo\" task, and I\u0027m deconstructing the 15-step process. Right now, I\u0027m focusing on Step 1, which entails extracting and organizing facts from the chat logs into a detailed timeline, covering family, childhood, career, and projects between 2003 and the present. I\u0027m taking the \"no filter\" approach, demanding evidence-based analysis, and watching out for contradictions. My initial scan of the data identified varied JSON files that suggest diverse conversations.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Extracting Biographical Clues**\n\nI\u0027m now diving into the JSON files, systematically looking for any biographical threads related to Kevyn Lucas\u0027 childhood, family, or work history. It\u0027s a detective-style approach, gleaning facts from the contextual clues in these diverse conversations. The varied topics - marketing, philosophy, personal projects – mean the \"investigative biographer\" persona is key to spotting subtle links that might reveal the required biographical details. My initial focus is to differentiate facts from plans and follow the *no filter* rule.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Uncovering Biographical Facts**\n\nI\u0027m now methodically extracting biographical data, focusing on applying the investigative lens to the JSON files. Initial findings, like those in \"parte\\_17.json,\" reveal Kevyn Lucas\u0027s professional role as an entrepreneur in the creative marketing field. The client interactions, documented in the JSON, show financial disputes and provide potential leads for deeper dives into his work history. I\u0027m focusing on facts and plans, and the \"no filter\" rule, and I\u0027m watching out for contradictions.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Extracting the Narrative**\n\nI\u0027m now taking the collected data and constructing a timeline. The focus is to connect the dots between Kevyn Lucas\u0027s professional interactions and extract underlying events. So far, the JSON reveals the context of his work, client relationships, and business dealings. I\u0027m focusing on \"parte\\_17.json,\" which clearly shows financial issues and client dissatisfaction, and \"parte\\_15.json,\" with details on client interactions and professional self-perception. I\u0027m prioritizing factual statements and carefully documenting each connection.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Extracting Biographical Clues**\n\nI\u0027m now methodically extracting information based on the initial scan, primarily concentrating on identifying biographical clues about Kevyn Lucas\u0027s professional journey, especially his entrepreneurship in the marketing field and his client relationships. The JSON data is rich with details on client projects and internal reflections, allowing the construction of a detailed portrait. Specifically, \"parte\\_17.json\" and \"parte\\_15.json\" highlight a professional trajectory punctuated by client interactions, financial disputes, and an entrepreneurial approach.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Extracting Early Client Data**\n\nI\u0027m now integrating the extracted information into a timeline-like structure. Currently, I\u0027m focusing on the professional sphere. I\u0027ve noted his interactions with clients like Dra. Mariane and Wemerson, documenting their disputes and his financial concerns, as documented in \"parte\\_17.json\". I\u0027m also organizing specific dates, project scopes, and amounts to make the timeline\u0027s construction more straightforward. I\u0027m taking the *no filter* approach.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Constructing the Timeline**\n\nI\u0027m now focusing on arranging the extracted data into a structured timeline format. I\u0027m taking the \"no filter\" approach to date and content, and using the timestamps to establish a chronological sequence. I\u0027m linking the identified skills and client interactions to his entrepreneurial activities and tracking the financial details in each client project. I\u0027m watching for contradictions and using the \"failure\" strategy when no data is found.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Extracting Early Client Data**\n\nI\u0027m now methodically compiling a preliminary timeline. \"parte\\_17.json\" offers key data points, and I\u0027m correlating specific project dates, and the scope of work (like videos and marketing campaigns) with financial details and client feedback. For example, Dr. Mariane rejected the video work and didn\u0027t communicate effectively, Wemerson was dissatisfied with the work. I am noting these early interactions and extracting the data to begin building the timeline.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Extracting Timeline Data**\n\nI\u0027m now collating the timelines, noting specific dates and extracting client interaction details. I\u0027m focusing on \"parte\\_17.json\" and \"parte\\_15.json\" to extract the key dates and project descriptions, while also adhering to the \"no filter\" rule and keeping an eye out for contradictions. My goal is to build a chronology that captures Kevyn Lucas\u0027 professional life.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Extracting Client Interactions**\n\nI\u0027m now collating the collected professional details into a structured timeline format. I\u0027m focusing on \"parte\\_17.json\" to connect dates and project details and the *no filter* approach. I\u0027ve noted early professional interactions with the client, Dr. Mariane, documenting financial disputes, and highlighting potential leads into Kevyn Lucas\u0027s work history.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Extracting Early Timeline Data**\n\nI\u0027m now integrating the extracted information into a structured format, focusing on a client-based timeline. I\u0027ve noted specific events, such as the initial client interactions, project descriptions, and financial disputes, from files like \"parte\\_17.json\". I\u0027m recording specific client names and documenting early interactions, like those with Dr. Mariane and Wemerson, to start building a chronological narrative. I\u0027m taking the *no filter* approach.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Iniciando a análise forense da psique de Kevyn Lucas.\nCom base nos arquivos anexados, darei início à construção da Linha do Tempo Mestra, separando o que é fato observável (Fato Base) do que é construção narrativa do próprio sujeito (Narrativa do Ego).\n\n### **Fato Base: A Realidade Física e Temporal**\n\n#### **1. Fatos sobre Infância, Parentes e Origem**\n\nProcurei dados sobre isto nos arquivos em anexo e não encontrei. A história registrada de Kevyn Lucas começa em sua vida profissional adulta.\n\n#### **2. Trajetória Profissional**\n\nKevyn Lucas atua como empreendedor autônomo na área de marketing digital e criação de conteúdo. As evidências mostram que ele oferece um conjunto variado de serviços para pequenos negócios locais, incluindo:\n\n*   **Produção de Vídeo:** Roteirização, captação e edição de vídeos promocionais.\n*   **Design Gráfico:** Criação de criativos para redes sociais (artes e \"motions\"), utilizando ferramentas como o Canva.\n*   **Branding e Criação de Personagens:** Desenvolvimento de mascotes e conceitos criativos para marcas.\n*   **Gestão de Tráfego Pago:** Planejamento e execução de campanhas de anúncios.\n\nSua carteira de clientes registrada nos arquivos é composta principalmente por comércios, com destaque para o setor automotivo e de serviços.\n\n#### **3. Linha do Tempo Mestra (2025 - Atual)**\n\nA seguir, os eventos em ordem cronológica, baseados nas datas de criação dos registros:\n\n*   **Data Aproximada: 06 de Maio de 2025**\n    *   **Evento/Contexto:** Kevyn Lucas trabalha na criação de um roteiro para um vídeo da **\"Papas Grills\"**. O plano inclui a criação de um mascote (Bola 8 de sinuca) para comentar de forma humorada uma partida de sinuca gravada no local. Isso indica suas habilidades em roteirização e branding.\n    *   **Localização:** Não especificado.\n\n*   **Data Aproximada: 12 de Maio de 2025**\n    *   **Evento/Contexto:** Registra uma interação com **Fernando Paulo da \"Papas Grillz\"**. Kevyn já produziu um vídeo, mas a comunicação confusa sobre a aprovação do trabalho o deixa inseguro sobre o pagamento. Ele planeja oferecer serviços de tráfego pago como uma forma de agregar valor e garantir o recebimento.\n    *   **Localização:** Não especificado.\n\n*   **Data Aproximada: 13 de Maio de 2025**\n    *   **Evento/Contexto:** Desenvolve nomes e slogans para uma doceria de uma cliente chamada **Jully (\"Juh\")**. O foco do negócio são bolos de pote, e Kevyn explora diferentes estilos de naming (fofo, descolado, gourmet).\n    *   **Localização:** Não especificado.\n\n*   **Data Aproximada: 14 de Maio de 2025**\n    *   **Evento/Contexto:** Cria um roteiro de vídeo para a **\"Só Notebooks\"**, detalhando uma estrutura de storytelling que envolve um mascote (\"Notebookinho\"). O objetivo é promover o serviço de venda de carregadores de notebook.\n    *   **Localização:** Não especificado.\n\n*   **Data Aproximada: 15 de Maio de 2025**\n    *   **Evento/Contexto:** Kevyn reflete sobre os desafios de sua carreira empreendedora. Cita experiências negativas com clientes:\n        *   **Dra. Mariane:** Recusou um vídeo por detalhes, não comunicou e refez com outra pessoa.\n        *   **Wemerson (\"Wemerson Veículos\"):** Deu \"calote\", criticou excessivamente o trabalho após dar liberdade criativa e se recusou a pagar o valor de R$1.000 (com desconto, pois o valor total era R$1.550).\n        *   **Ana Luiza:** Tentou contratá-lo por um valor muito baixo (\"mixaria\").\n    *   **Localização:** Não especificado.\n\n*   **Data Aproximada: 17 de Maio de 2025**\n    *   **Evento/Contexto:** Desenvolve um roteiro de vídeo para o cliente **\"Ricardo Veículos\"**, baseado em um brainstorming de depoimento de cliente.\n    *   **Localização:** Não especificado.\n\n*   **Data Aproximada: 20 de Maio de 2025**\n    *   **Evento/Contexto:** Presta consultoria sobre uma campanha de tráfego pago, analisando métricas como investimento (R$ 90), alcance (corrigido de 25 para 25.000 contas), CPM e custo por resultado. Realiza cálculos de projeção e percentual de crescimento.\n    *   **Localização:** Não especificado.\n\n*   **Data Aproximada: 25 de Junho de 2025**\n    *   **Evento/Contexto:** Estuda e resume o primeiro desafio de Carlos Castaneda no livro \"A Erva do Diabo\", demonstrando interesse em xamanismo e filosofia.\n    *   **Localização:** Não especificado.\n\n### **Narrativa do Ego (Mitologia Pessoal)**\n\nAqui reside a contradição principal, um dado valioso para a análise da psique.\n\n*   **Discurso Externo (Ação):** Ao negociar com o cliente **Wemerson**, Kevyn apresenta seu trabalho como valendo **R$1.550**, mas oferece um \"preço camarada\" de **R$1.000**. Ele defende que seu trabalho tem valor independentemente de ser postado ou não, adotando uma postura profissional e confiante.\n\n*   **Discurso Interno (Monólogo):** Em uma reflexão sobre a mesma situação, Kevyn revela: *\"aí eu fico pensando, né? Que eu não mereço ganhar R$1.000, que meu trabalho não vale isso.\"*\n\n**Análise da Contradição:**\nO que Kevyn *faz* (cobrar e defender seu preço) entra em conflito direto com o que ele *sente* (que não merece o valor que cobra). A persona do profissional confiante que ele projeta para o cliente é uma construção para mascarar uma profunda insegurança sobre seu próprio valor. Ele sabe, tecnicamente, o preço do seu trabalho, mas não acredita, emocionalmente, que é digno de recebê-lo. É aqui que a \"casa mal-ordenada\" mencionada em seus estudos ocultistas se revela: a estrutura externa (profissional) está de pé, mas a fundação (autoestima) é frágil.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1494,
+      "parts": [{
+        "text": "Iniciando a análise forense da psique de Kevyn Lucas.\nCom base nos arquivos anexados, dare"
+      }, {
+        "text": "i início à construção da Linha do Tempo Mestra, separando o que é fato observável (Fato Base"
+      }, {
+        "text": ") do que é construção narrativa do próprio sujeito (Narrativa do Ego).\n\n### **Fato Base: A Real"
+      }, {
+        "text": "idade Física e Temporal**\n\n#### **1. Fatos sobre Infância, Parentes e Origem**\n\nProc"
+      }, {
+        "text": "urei dados sobre isto nos arquivos em anexo e não encontrei. A história registrada de Kevyn Lucas começa em sua"
+      }, {
+        "text": " vida profissional adulta.\n\n#### **2. Trajetória Profissional**\n\nKevyn Lucas atua como empreendedor aut"
+      }, {
+        "text": "ônomo na área de marketing digital e criação de conteúdo. As evidências mostram que ele oferece um conjunto variado"
+      }, {
+        "text": " de serviços para pequenos negócios locais, incluindo:\n\n*   **Produção de Vídeo:** Roteirização, cap"
+      }, {
+        "text": "tação e edição de vídeos promocionais.\n*   **Design Gráfico:** Criação de criativos para redes sociais ("
+      }, {
+        "text": "artes e \"motions\"), utilizando ferramentas como o Canva.\n*   **Branding e Criação de Personagens:** Desenvolvimento de masc"
+      }, {
+        "text": "otes e conceitos criativos para marcas.\n*   **Gestão de Tráfego Pago:** Planejamento e execução de campanhas de"
+      }, {
+        "text": " anúncios.\n\nSua carteira de clientes registrada nos arquivos é composta principalmente por comércios, com destaque para o"
+      }, {
+        "text": " setor automotivo e de serviços.\n\n#### **3. Linha do Tempo Mestra (2025 - Atual)**"
+      }, {
+        "text": "\n\nA seguir, os eventos em ordem cronológica, baseados nas datas de criação dos registros:\n\n*   **Data"
+      }, {
+        "text": " Aproximada: 06 de Maio de 2025**\n    *   **Evento/Contexto:** Kev"
+      }, {
+        "text": "yn Lucas trabalha na criação de um roteiro para um vídeo da **\"Papas Grills\"**. O plano inclui"
+      }, {
+        "text": " a criação de um mascote (Bola 8 de sinuca) para comentar de forma humorada uma partida de sinuca grav"
+      }, {
+        "text": "ada no local. Isso indica suas habilidades em roteirização e branding.\n    *   **Localização:** Não especificado."
+      }, {
+        "text": "\n\n*   **Data Aproximada: 12 de Maio de 2025**\n    *"
+      }, {
+        "text": "   **Evento/Contexto:** Registra uma interação com **Fernando Paulo da \"Papas Grillz\"**. Kev"
+      }, {
+        "text": "yn já produziu um vídeo, mas a comunicação confusa sobre a aprovação do trabalho o deixa inseguro sobre o pagamento."
+      }, {
+        "text": " Ele planeja oferecer serviços de tráfego pago como uma forma de agregar valor e garantir o recebimento.\n    *   **Local"
+      }, {
+        "text": "ização:** Não especificado.\n\n*   **Data Aproximada: 13 de Maio de 20"
+      }, {
+        "text": "25**\n    *   **Evento/Contexto:** Desenvolve nomes e slogans para uma doceria de uma"
+      }, {
+        "text": " cliente chamada **Jully (\"Juh\")**. O foco do negócio são bolos de pote, e Kevyn explora diferentes estilos de"
+      }, {
+        "text": " naming (fofo, descolado, gourmet).\n    *   **Localização:** Não especificado.\n\n*   "
+      }, {
+        "text": "**Data Aproximada: 14 de Maio de 2025**\n    *   **Evento"
+      }, {
+        "text": "/Contexto:** Cria um roteiro de vídeo para a **\"Só Notebooks\"**, detalhando uma estrutura de storytelling"
+      }, {
+        "text": " que envolve um mascote (\"Notebookinho\"). O objetivo é promover o serviço de venda de carregadores de notebook.\n    "
+      }, {
+        "text": "*   **Localização:** Não especificado.\n\n*   **Data Aproximada: 15 de Maio"
+      }, {
+        "text": " de 2025**\n    *   **Evento/Contexto:** Kevyn reflete sobre os desafios de sua"
+      }, {
+        "text": " carreira empreendedora. Cita experiências negativas com clientes:\n        *   **Dra. Mariane:** Rec"
+      }, {
+        "text": "usou um vídeo por detalhes, não comunicou e refez com outra pessoa.\n        *   **Wemerson"
+      }, {
+        "text": " (\"Wemerson Veículos\"):** Deu \"calote\", criticou excessivamente o trabalho após dar liberdade cri"
+      }, {
+        "text": "ativa e se recusou a pagar o valor de R$1.000 (com desconto, pois o valor total"
+      }, {
+        "text": " era R$1.550).\n        *   **Ana Luiza:** Tentou contratá-lo por"
+      }, {
+        "text": " um valor muito baixo (\"mixaria\").\n    *   **Localização:** Não especificado.\n\n*   **Data Apro"
+      }, {
+        "text": "ximada: 17 de Maio de 2025**\n    *   **Evento/Contexto:** Desen"
+      }, {
+        "text": "volve um roteiro de vídeo para o cliente **\"Ricardo Veículos\"**, baseado em um brainstorming de depoimento de"
+      }, {
+        "text": " cliente.\n    *   **Localização:** Não especificado.\n\n*   **Data Aproximada: "
+      }, {
+        "text": "20 de Maio de 2025**\n    *   **Evento/Contexto:** Presta consult"
+      }, {
+        "text": "oria sobre uma campanha de tráfego pago, analisando métricas como investimento (R$ 90), alcance (cor"
+      }, {
+        "text": "rigido de 25 para 25.000 contas), CPM e custo por resultado. Realiza cálculos"
+      }, {
+        "text": " de projeção e percentual de crescimento.\n    *   **Localização:** Não especificado.\n\n*   "
+      }, {
+        "text": "**Data Aproximada: 25 de Junho de 2025**\n    *   **Evento/Context"
+      }, {
+        "text": "o:** Estuda e resume o primeiro desafio de Carlos Castaneda no livro \"A Erva do Diabo\", demonstr"
+      }, {
+        "text": "ando interesse em xamanismo e filosofia.\n    *   **Localização:** Não especificado.\n\n### **Narrativa do Ego (Mit"
+      }, {
+        "text": "ologia Pessoal)**\n\nAqui reside a contradição principal, um dado valioso para a análise da psique."
+      }, {
+        "text": "\n\n*   **Discurso Externo (Ação):** Ao negociar com o cliente **Wemerson**,"
+      }, {
+        "text": " Kevyn apresenta seu trabalho como valendo **R$1.550**, mas oferece um \"preço camarada\" de **R$"
+      }, {
+        "text": "1.000**. Ele defende que seu trabalho tem valor independentemente de ser postado ou não, adot"
+      }, {
+        "text": "ando uma postura profissional e confiante.\n\n*   **Discurso Interno (Monólogo):** Em uma reflex"
+      }, {
+        "text": "ão sobre a mesma situação, Kevyn revela: *\"aí eu fico pensando, né? Que eu não mereço ganhar R$1"
+      }, {
+        "text": ".000, que meu trabalho não vale isso.\"*\n\n**Análise da Contradição:**\nO"
+      }, {
+        "text": " que Kevyn *faz* (cobrar e defender seu preço) entra em conflito direto com o que ele *sente*"
+      }, {
+        "text": " (que não merece o valor que cobra). A persona do profissional confiante que ele projeta para o cliente é uma"
+      }, {
+        "text": " construção para mascarar uma profunda insegurança sobre seu próprio valor. Ele sabe, tecnicamente, o preço do seu trabalho, mas não"
+      }, {
+        "text": " acredita, emocionalmente, que é digno de recebê-lo. É aqui que a \"casa mal-ordenada\" mencion"
+      }, {
+        "text": "ada em seus estudos ocultistas se revela: a estrutura externa (profissional) está de pé, mas a fundação ("
+      }, {
+        "text": "autoestima) é frágil."
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

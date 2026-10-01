@@ -1,0 +1,9 @@
+# Plano de Mudanças
+
+| Unidade | Destino | Operação | Justificativa | Impacto | Frontmatter | Links/MOCs | Risco de duplicação | Risco interpretativo | Validação prevista |
+|---|---|---|---|---|---|---|---|---|---|
+| SRC-000116 | Salus e Capital Green.md | ampliar | Adicionar estudo de caso sobre autoridade pos-lancamento e qualidade de clientes. | Proveniencia mais precisa. | fontes_primarias, versao_conteudo, ultima_revisao | Salus e Capital Green; Marketing comunicacao e processos | baixo | baixo | conferir se a nota nao virou biografia do empresario. |
+| SRC-000117 | Salus e Desafio Svelte.md | ampliar | Registrar o criativo de frustacao pos-parto como gancho emocional de topo de funil. | Linha curta de escopo e proveniencia. | fontes_primarias, versao_conteudo, ultima_revisao | Salus e Desafio Svelte; Marketing comunicacao e processos | baixo | baixo | verificar se a frase nao validou promessa clinica. |
+| SRC-000118 | Marketing comunicacao e processos.md | ampliar | Adicionar estudo de funil e jornada do cliente como evidencia de linguagem de conversao. | Reforco de repertorio. | fontes_primarias, versao_conteudo, ultima_revisao | Marketing comunicacao e processos | baixo | baixo | conferir que o material nao foi inflado como performance comprovada. |
+| SRC-000119 | Marketing comunicacao e processos.md | ampliar | Registrar o funil de vendas como estrutura de copy e decisao. | Reforco de repertorio. | fontes_primarias, versao_conteudo, ultima_revisao | Marketing comunicacao e processos | baixo | baixo | conferir que o texto permaneceu curto e util. |
+| SRC-000120 | Marketing comunicacao e processos.md | ampliar | Registrar gatilhos mentais como linguagem de conversao e nao como verdade psicologica. | Reforco de repertorio. | fontes_primarias, versao_conteudo, ultima_revisao | Marketing comunicacao e processos | baixo | baixo | conferir que o texto nao virou secao tematica extensa. |

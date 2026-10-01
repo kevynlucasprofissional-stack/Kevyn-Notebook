@@ -1,0 +1,1 @@
+Vignete cria uma vinheta.

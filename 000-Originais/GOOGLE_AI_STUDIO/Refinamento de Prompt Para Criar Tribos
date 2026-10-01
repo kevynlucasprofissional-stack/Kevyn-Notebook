@@ -1,0 +1,197 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": false,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "10er7PIw-Ogv1zgdjkPEkGDK1aqQ_1wN2"
+      },
+      "role": "user",
+      "tokenCount": 38081
+    }, {
+      "driveDocument": {
+        "id": "1IugcptVbRS8S1aJm3nhGflz0QxDdyn4b"
+      },
+      "role": "user",
+      "tokenCount": 48308
+    }, {
+      "text": "Estou criando um resumo definitivo sobre mim, estou na etapa de que preciso revisar os prompts para que ele entregue resultados insanamente ótimos, preciso de ajuda para refinar o prompt do processo de gerar dossiê, o prompt a ser melhorado está em \u003cprompt_melhorar\u003e\u003c\\prompt_melhorar\u003e. Vou anexar alguns livros sobre engenharia de prompt dos quais você irá extrair frameworks para me ajudar no meu objetivo.\n\n\u003cprompt_melhorar\u003e\n\nPASSO 8: Extração da \"Estratégia de Tribo\"\n**Objetivo:** Mapear o plano de negócios/movimento social que Kevyn desenhou.\n\n\u003e **Comando:**  \n\u003e \"Analise o Contexto Completo focando exclusivamente na visão de **Comunidade, Liderança e Marketing** de Kevyn Lucas. Reconstrua o \u0027Manifesto da Tribo\u0027 que ele planejou.\n\u003e \n\u003e Por favor, extraia e organize:\n\u003e \n\u003e 1. **A Identidade da Tribo:** Quais nomes ele usa para seus seguidores ideais? Quem são eles?\n\u003e 2. **A Metodologia de Ensino:** Como ele planeja ensinar?\n\u003e 3. **A Filosofia do Movimento:** Qual é o dogma central?\n\u003e 4. **A Estratégia de Conteúdo:** O que ele planeja produzir?\n\u003e 5. **O Diferencial de Mercado:** O que ele acredita que só ele pode oferecer? Qual a característica realmente marcante do plano dele?\n\u003e 6. **A força oculta:** Qual a força oculta da tribo que ele planeja? Onde ela é realmente um diamante bruto?\n\n\u003c\\prompt_melhorar\u003e",
+      "role": "user",
+      "tokenCount": 390
+    }, {
+      "text": "**Refining the Goal**\n\nI\u0027m zeroing in on the core request: refining `\u003cprompt_melhorar\u003e` to elicit a \"Tribe Strategy\" from Kev\u0027s context. I\u0027m focusing on dissecting the desired outcome - a plan - and the nature of the context, which is likely extensive. The goal is clear: make this prompt highly efficient for extracting key strategy elements.\n\n\n**Defining the Core Elements**\n\nI\u0027m now zeroing in on defining the key elements needed for a \"Tribe Strategy\" based on the \"Tribes\" book. I\u0027ve dissected the book\u0027s core concepts: defining a tribe, the role of a leader (especially the \"heretic\"), and the components of a movement (narrative, connection, and action). I\u0027m also considering the \"1,000 True Fans\" concept and the shift from conformity to leadership. Next, I must synthesize this knowledge.\n\n\n**Analyzing the Framework**\n\nI\u0027m now examining how to integrate Godin\u0027s \"Tribe\" elements – leaders, insiders, and outsiders – with key concepts. I\u0027m considering \"the Big Yes vs. the Little No\" as a leadership lever. The distinction between faith and religion within a tribe is also crucial: defining actions and rituals is important. Finally, I\u0027m focusing on defining the prompts to tighten the focus on tribe identity, which can include both who is in and not in the tribe.\n\n\n**Refining the Prompt Structure**\n\nI\u0027m now integrating Godin\u0027s principles explicitly. My focus is structuring the prompt around the \"Anatomy of a Movement\" elements. I will have the AI act as a community builder with a Seth Godin filter. I\u0027ve broken down dimensions like the status quo, the narrative, and calls to action. My aim is to extract the strategy, and provide a structured and actionable output. Next, I\u0027ll draft the updated prompt.\n\n\n**Crafting the Questions**\n\nI\u0027m now iterating on the final prompt, grounding it firmly in Portuguese, and refining its structure. I\u0027m focusing on incorporating a \"Chain of Thought\" element to ensure the AI digs deep. I\u0027m mapping specific questions to Godin\u0027s framework for enhanced analysis. My goal is to extract the core elements of Kev\u0027s \"Tribe Strategy\" in a structured, insightful manner, emphasizing the \"soul\" of the movement. I am also working on understanding how Kev leads, who the tribe is, and what they believe. Finally, I\u0027m finding the \"heretic\" in him. I am using the concept of his \"True Fans\", status quo he attacks, communication style, differentiator and the manifesto.\n\n\n**Synthesizing the Information**\n\nI\u0027m now focusing on synthesizing rather than simply extracting. I need to make sure the AI identifies the tension between the current state and Kevyn\u0027s vision. I\u0027ve structured a final prompt featuring the \"Anatomy of a Movement,\" focusing on \"heresy,\" status quo, rituals, and the \"Big Yes.\" I\u0027m also including a \"Manifesto\" output.\n\n\n",
+      "role": "model",
+      "tokenCount": 1563,
+      "isThought": true,
+      "parts": [{
+        "text": "**Refining the Goal**\n\nI\u0027m zeroing in on the core request: refining `\u003cprompt_melhorar\u003e` to elicit a \"Tribe Strategy\" from Kev\u0027s context. I\u0027m focusing on dissecting the desired outcome - a plan - and the nature of the context, which is likely extensive. The goal is clear: make this prompt highly efficient for extracting key strategy elements.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Defining the Core Elements**\n\nI\u0027m now zeroing in on defining the key elements needed for a \"Tribe Strategy\" based on the \"Tribes\" book. I\u0027ve dissected the book\u0027s core concepts: defining a tribe, the role of a leader (especially the \"heretic\"), and the components of a movement (narrative, connection, and action). I\u0027m also considering the \"1,000 True Fans\" concept and the shift from conformity to leadership. Next, I must synthesize this knowledge.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing the Framework**\n\nI\u0027m now examining how to integrate Godin\u0027s \"Tribe\" elements – leaders, insiders, and outsiders – with key concepts. I\u0027m considering \"the Big Yes vs. the Little No\" as a leadership lever. The distinction between faith and religion within a tribe is also crucial: defining actions and rituals is important. Finally, I\u0027m focusing on defining the prompts to tighten the focus on tribe identity, which can include both who is in and not in the tribe.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Prompt Structure**\n\nI\u0027m now integrating Godin\u0027s principles explicitly. My focus is structuring the prompt around the \"Anatomy of a Movement\" elements. I will have the AI act as a community builder with a Seth Godin filter. I\u0027ve broken down dimensions like the status quo, the narrative, and calls to action. My aim is to extract the strategy, and provide a structured and actionable output. Next, I\u0027ll draft the updated prompt.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Crafting the Questions**\n\nI\u0027m now iterating on the final prompt, grounding it firmly in Portuguese, and refining its structure. I\u0027m focusing on incorporating a \"Chain of Thought\" element to ensure the AI digs deep. I\u0027m mapping specific questions to Godin\u0027s framework for enhanced analysis. My goal is to extract the core elements of Kev\u0027s \"Tribe Strategy\" in a structured, insightful manner, emphasizing the \"soul\" of the movement. I am also working on understanding how Kev leads, who the tribe is, and what they believe. Finally, I\u0027m finding the \"heretic\" in him. I am using the concept of his \"True Fans\", status quo he attacks, communication style, differentiator and the manifesto.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Synthesizing the Information**\n\nI\u0027m now focusing on synthesizing rather than simply extracting. I need to make sure the AI identifies the tension between the current state and Kevyn\u0027s vision. I\u0027ve structured a final prompt featuring the \"Anatomy of a Movement,\" focusing on \"heresy,\" status quo, rituals, and the \"Big Yes.\" I\u0027m also including a \"Manifesto\" output.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Com base na leitura detalhada do livro **\"Tribos\" de Seth Godin** (e referências a outros conceitos dele presentes no texto, como a \"Vaca Roxa\" e os \"1.000 Fãs Verdadeiros\"), refinei o seu prompt.\n\nO objetivo agora não é apenas \"listar\" o que Kevyn planeja, mas **encontrar a \"alma\" do movimento** que ele está criando. Godin enfatiza que liderança é sobre **criar mudanças**, **desafiar o status quo** e **conectar pessoas**.\n\nAqui está a versão \"insanamente ótima\" do seu prompt, utilizando os frameworks do livro:\n\n***\n\n### Prompt Refinado (Copie e Cole)\n\n```markdown\n# PASSO 8: A Engenharia da Tribo e o Manifesto do Movimento\n\n**ROLE:** Aja como um estrategista de comunidades e movimentos sociais de elite, profundamente fundamentado na filosofia de **Seth Godin (autor de \"Tribos\")**.\n\n**CONTEXTO:** Você está analisando o \"Contexto Completo\" de Kevyn Lucas para extrair a essência de sua liderança. Não estamos procurando apenas um plano de negócios, mas a arquitetura de um **Movimento**.\n\n**TAREFA:** Analise os dados focando na tríade **Comunidade, Liderança e Marketing**. Sua missão é decodificar como Kevyn pretende transformar um grupo de interessados em uma Tribo coesa e apaixonada.\n\n Utilize os seguintes frameworks do livro \"Tribos\" para estruturar sua resposta:\n\n## 1. O Herege e o Status Quo (A Tensão)\n*   **O Inimigo Comum:** Qual é o \"Status Quo\" ou a \"Fábrica\" (o modo industrial/padrão de pensar) que Kevyn está desafiando? O que ele quer destruir ou mudar no mercado/mundo?\n*   **A Heresia:** Qual é a verdade controversa ou a \"ideia corajosa\" que Kevyn defende e que exige liderança para ser implementada?\n*   **A \"Vaca Roxa\" (Diferencial):** O que torna a liderança dele notável a ponto de as pessoas quererem comentar sobre ela?\n\n## 2. Anatomia da Tribo (Identidade e Conexão)\n*   **Perfil dos \"1.000 Fãs Verdadeiros\":** Quem são os primeiros seguidores? Não descreva demografia, mas sim **psicografia**: no que eles acreditam, o que temem e o que desejam ardentemente?\n*   **O Código da Tribo (Nomenclatura):** Como eles se chamam? Quais palavras, gírias ou termos específicos Kevyn usa para criar um senso de pertencimento (\"nós\" vs \"eles\")?\n*   **A Dinâmica de Conexão:** Godin diz que tribos precisam de comunicação em 4 vias (Líder-\u003eTribo, Tribo-\u003eLíder, Tribo-\u003eTribo, Tribo-\u003eFora). Como Kevyn planeja facilitar essas conexões?\n\n## 3. A Religião do Movimento (Sem Dogmas, com Fé)\n*   **Rituais e Símbolos:** Quais práticas, hábitos ou formatos de conteúdo recorrentes criarão a cultura da tribo?\n*   **A Metodologia (O Caminho da Fé):** Como ele planeja ensinar/liderar? É através do exemplo, de desafios, de curadoria ou de criação de caos controlado?\n*   **A Força Oculta (O Diamante Bruto):** Qual elemento subestimado ou \"invisível\" neste plano tem o maior potencial de alavancagem (leverage) para transformar seguidores passivos em evangelistas?\n\n## 4. O Manifesto da Tribo (Síntese Criativa)\nCom base em tudo acima, escreva o **Manifesto da Tribo de Kevyn Lucas**.\n*   *Tom de voz:* Inspirador, desafiador e urgente (estilo \"Líder Herege\").\n*   *Estrutura:* Deve declarar quem \"Nós\" somos, o que \"Nós\" rejeitamos e qual futuro \"Nós\" estamos construindo juntos.\n\n**Nota de Saída:** Seja profundo. Não liste apenas tópicos; conecte os pontos para revelar a estratégia emocional e psicológica por trás da comunidade.\n```\n\n***\n\n### O que mudou e por que (Baseado no Livro):\n\n1.  **De \"Diferencial de Mercado\" para \"O Herege e o Status Quo\":**\n    *   *Conceito do Livro:* Godin diz que líderes são hereges que desafiam o status quo. Para entender a tribo, precisamos saber contra o que ela luta (a \"Fábrica\" ou \"Criação de Ovelhas\"). Isso dá muito mais força do que apenas perguntar o diferencial.\n\n2.  **De \"Seguidores Ideais\" para \"1.000 Fãs Verdadeiros\" (Psicografia):**\n    *   *Conceito do Livro:* O livro cita Kevin Kelly sobre os fãs verdadeiros. A tribo não precisa de *todos*, precisa dos *crentes*. O prompt agora foca em *crenças* e *medos*, não apenas em \"quem são\".\n\n3.  **Inclusão de \"Dinâmica de Conexão\":**\n    *   *Conceito do Livro:* Uma tribo sem comunicação é apenas uma multidão. O livro enfatiza que o líder deve facilitar a conexão entre os membros (*Tribo-\u003eTribo*), não apenas falar de cima para baixo.\n\n4.  **De \"Filosofia\" para \"A Religião do Movimento\":**\n    *   *Conceito do Livro:* Godin diferencia Fé (crença na mudança) de Religião (rituais e regras que reforçam a fé). Perguntar sobre \"Rituais\" ajuda a tangibilizar a estratégia de conteúdo de uma forma que gera hábito.\n\n5.  **O Manifesto:**\n    *   Em vez de pedir para o IA explicar a estratégia, pedi para ele **escrever o Manifesto**. Isso força a IA a assumir a voz de Kevyn e sintetizar a visão de futuro (um elemento chave da liderança segundo Godin: \"Pintar um quadro do futuro e ir para lá\").",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1384,
+      "parts": [{
+        "text": "Com base na leitura detalhada do livro **\"Tribos\" de Seth Godin** (e referências a outros conceitos"
+      }, {
+        "text": " dele presentes no texto, como a \"Vaca Roxa\" e os \"1.000 Fãs Verdadeiros\"),"
+      }, {
+        "text": " refinei o seu prompt.\n\nO objetivo agora não é apenas \"listar\" o que Kevyn planeja, mas **"
+      }, {
+        "text": "encontrar a \"alma\" do movimento** que ele está criando. Godin enfatiza que liderança é sobre **criar mudanças"
+      }, {
+        "text": "**, **desafiar o status quo** e **conectar pessoas**.\n\nAqui está a versão \"insanamente ótima"
+      }, {
+        "text": "\" do seu prompt, utilizando os frameworks do livro:\n\n***\n\n### Prompt Refinado (Copie e Cole)\n\n"
+      }, {
+        "text": "```markdown\n# PASSO 8: A Engenharia da Tribo e o Manifesto do Movimento\n\n**ROLE:** A"
+      }, {
+        "text": "ja como um estrategista de comunidades e movimentos sociais de elite, profundamente fundamentado na filosofia de **Seth Godin ("
+      }, {
+        "text": "autor de \"Tribos\")**.\n\n**CONTEXTO:** Você está analisando o \"Contexto Completo\" de"
+      }, {
+        "text": " Kevyn Lucas para extrair a essência de sua liderança. Não estamos procurando apenas um plano de negócios, mas a arquitetura"
+      }, {
+        "text": " de um **Movimento**.\n\n**TAREFA:** Analise os dados focando na tríade **Comunidade,"
+      }, {
+        "text": " Liderança e Marketing**. Sua missão é decodificar como Kevyn pretende transformar um grupo de interessados em uma"
+      }, {
+        "text": " Tribo coesa e apaixonada.\n\n Utilize os seguintes frameworks do livro \"Tribos\" para estruturar sua resposta:\n\n"
+      }, {
+        "text": "## 1. O Herege e o Status Quo (A Tensão)\n*   **O Inimigo Com"
+      }, {
+        "text": "um:** Qual é o \"Status Quo\" ou a \"Fábrica\" (o modo industrial/padrão de pensar"
+      }, {
+        "text": ") que Kevyn está desafiando? O que ele quer destruir ou mudar no mercado/mundo?\n*   **A Her"
+      }, {
+        "text": "esia:** Qual é a verdade controversa ou a \"ideia corajosa\" que Kevyn defende e que exige"
+      }, {
+        "text": " liderança para ser implementada?\n*   **A \"Vaca Roxa\" (Diferencial):** O que torna"
+      }, {
+        "text": " a liderança dele notável a ponto de as pessoas quererem comentar sobre ela?\n\n## 2. Anatomia da"
+      }, {
+        "text": " Tribo (Identidade e Conexão)\n*   **Perfil dos \"1.000 Fãs Verd"
+      }, {
+        "text": "adeiros\":** Quem são os primeiros seguidores? Não descreva demografia, mas sim **psicografia**: no"
+      }, {
+        "text": " que eles acreditam, o que temem e o que desejam ardentemente?\n*   **O Código da"
+      }, {
+        "text": " Tribo (Nomenclatura):** Como eles se chamam? Quais palavras, gírias ou termos específicos"
+      }, {
+        "text": " Kevyn usa para criar um senso de pertencimento (\"nós\" vs \"eles\")?\n*   **A Dinâmica"
+      }, {
+        "text": " de Conexão:** Godin diz que tribos precisam de comunicação em 4 vias (Líder-\u003eTribo, Trib"
+      }, {
+        "text": "o-\u003eLíder, Tribo-\u003eTribo, Tribo-\u003eFora). Como Kevyn planeja facilitar"
+      }, {
+        "text": " essas conexões?\n\n## 3. A Religião do Movimento (Sem Dogmas, com Fé)\n"
+      }, {
+        "text": "*   **Rituais e Símbolos:** Quais práticas, hábitos ou formatos de conteúdo recorrentes criarão a cultura"
+      }, {
+        "text": " da tribo?\n*   **A Metodologia (O Caminho da Fé):** Como ele planeja ensinar/"
+      }, {
+        "text": "liderar? É através do exemplo, de desafios, de curadoria ou de criação de caos controlado?\n*   "
+      }, {
+        "text": "**A Força Oculta (O Diamante Bruto):** Qual elemento subestimado ou \"invisível\" neste"
+      }, {
+        "text": " plano tem o maior potencial de alavancagem (leverage) para transformar seguidores passivos em evangelistas?\n\n## "
+      }, {
+        "text": "4. O Manifesto da Tribo (Síntese Criativa)\nCom base em tudo acima, escreva o"
+      }, {
+        "text": " **Manifesto da Tribo de Kevyn Lucas**.\n*   *Tom de voz:* Inspirador, desafi"
+      }, {
+        "text": "ador e urgente (estilo \"Líder Herege\").\n*   *Estrutura:* Deve declarar quem"
+      }, {
+        "text": " \"Nós\" somos, o que \"Nós\" rejeitamos e qual futuro \"Nós\" estamos construindo juntos"
+      }, {
+        "text": ".\n\n**Nota de Saída:** Seja profundo. Não liste apenas tópicos; conecte os pontos para revelar a estratégia"
+      }, {
+        "text": " emocional e psicológica por trás da comunidade.\n```\n\n***\n\n### O que mudou e por que (Baseado no Livro"
+      }, {
+        "text": "):\n\n1.  **De \"Diferencial de Mercado\" para \"O Herege e o Status Quo"
+      }, {
+        "text": "\":**\n    *   *Conceito do Livro:* Godin diz que líderes são hereges que desafiam o"
+      }, {
+        "text": " status quo. Para entender a tribo, precisamos saber contra o que ela luta (a \"Fábrica\" ou \""
+      }, {
+        "text": "Criação de Ovelhas\"). Isso dá muito mais força do que apenas perguntar o diferencial.\n\n2."
+      }, {
+        "text": "  **De \"Seguidores Ideais\" para \"1.000 Fãs Verdadeiros\" (Psicografia"
+      }, {
+        "text": "):**\n    *   *Conceito do Livro:* O livro cita Kevin Kelly sobre os fãs verdadeiros"
+      }, {
+        "text": ". A tribo não precisa de *todos*, precisa dos *crentes*. O prompt agora foca em *cre"
+      }, {
+        "text": "nças* e *medos*, não apenas em \"quem são\".\n\n3.  **Inclusão de \"Din"
+      }, {
+        "text": "âmica de Conexão\":**\n    *   *Conceito do Livro:* Uma tribo sem comunicação é"
+      }, {
+        "text": " apenas uma multidão. O livro enfatiza que o líder deve facilitar a conexão entre os membros (*Tribo-\u003eTribo"
+      }, {
+        "text": "*), não apenas falar de cima para baixo.\n\n4.  **De \"Filosofia\" para \"A"
+      }, {
+        "text": " Religião do Movimento\":**\n    *   *Conceito do Livro:* Godin diferencia Fé"
+      }, {
+        "text": " (crença na mudança) de Religião (rituais e regras que reforçam a fé). Perguntar sobre \"R"
+      }, {
+        "text": "ituais\" ajuda a tangibilizar a estratégia de conteúdo de uma forma que gera hábito.\n\n5.  **O Manifesto"
+      }, {
+        "text": ":**\n    *   Em vez de pedir para o IA explicar a estratégia, pedi para ele **escrever o Manifesto"
+      }, {
+        "text": "**. Isso força a IA a assumir a voz de Kevyn e sintetizar a visão de futuro (um elemento chave da"
+      }, {
+        "text": " liderança segundo Godin: \"Pintar um quadro do futuro e ir para lá\")."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

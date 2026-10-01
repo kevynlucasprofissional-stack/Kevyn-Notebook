@@ -1,0 +1,1 @@
+O ideal para tirar o melhor proveito de expressões é aprender a programar em Java Script.

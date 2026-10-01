@@ -1,0 +1,3 @@
+* **Gráfico de Velocidade:** Analisar o gráfico de velocidade de uma propriedade revela informações sobre a dinâmica do movimento. Um pico no início sugere leveza, enquanto um pico no final indica peso.
+* **Gráfico de Valores:** Familiarizar-se com o gráfico de valores do After Effects facilita a transição para softwares como o Cinema 4D. Utilize-o para um controle preciso da interpolação, embora a necessidade do gráfico de velocidade dependa do workflow e do projeto.
+* **Visualização Múltipla de Gráficos:** Selecione múltiplas camadas e abra o Graph Editor em modo de valor para visualizar seus gráficos simultaneamente. É possível manter o gráfico de uma camada visível mesmo ao editar outras ativando o botão de gráfico ao lado do relógio de animação.

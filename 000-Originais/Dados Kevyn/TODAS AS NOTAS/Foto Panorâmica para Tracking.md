@@ -1,0 +1,1 @@
+Sempre tire uma foto panorâmica de qualquer ambiente que fazer uma filmagem para tracking.

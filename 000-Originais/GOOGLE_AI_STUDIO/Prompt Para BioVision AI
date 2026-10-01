@@ -1,0 +1,251 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveVideo": {
+        "id": "1dao5W6TRTXcpIfBVX5M1Vu3R-urRhDgd"
+      },
+      "role": "user",
+      "tokenCount": 8447,
+      "createTime": "2026-03-08T21:23:06.119Z"
+    }, {
+      "driveDocument": {
+        "id": "1QfnUMdr-UuhiYtiF34B8i8Ww4DtmP25B"
+      },
+      "role": "user",
+      "tokenCount": 6410,
+      "createTime": "2026-03-08T21:23:06.119Z"
+    }, {
+      "text": "Você é um especialista e engenheiro de prompts de design de produtos. Analise o video que estou te enviando e crie um prompt otimizado para que o lovable possa clonar a plataforma do video, inclua tambem ideias que ache interessante.\n\nO objetivo é criar uma página inicial para o SaaS que estou criando o \"BioVision/LabControl\", então crie o promtp já colocando todos os textos de um jeito que faça sentido para o meu SaaS.",
+      "role": "user",
+      "tokenCount": 97,
+      "createTime": "2026-03-08T21:23:06.119Z"
+    }, {
+      "text": "**Analyzing the Request**\n\nI\u0027m starting by breaking down the task into its core components. My role is clear: I\u0027m a Product Design Prompt Engineer, tasked with crafting a prompt for Lovable based on a video. I\u0027m focusing on identifying the crucial elements needed for prompt optimization, keeping in mind the clone/adapt objective. I need to ensure the prompt is precise and effective, guiding Lovable to produce a similar output.\n\n\n**Defining the Design Parameters**\n\nI\u0027m now integrating context to establish precise design parameters. My focus sharpens: crafting text specifically for BioVision AI, derived entirely from the provided markdown document. This foundational text will be crucial for the subsequent steps, and will inform my aesthetic analysis of the given video.\n\n\n**Identifying Key Elements**\n\nI\u0027ve moved on to meticulously dissecting the video\u0027s visual components. Currently, I\u0027m cataloging each element, such as CTA buttons, interactive graphics, and social proof. I am focusing on the order, style, and presentation of the information, building a hierarchical structure of the layout. I\u0027m taking note of the use case sections and the distinct features and metrics provided. My goal is to extract the core visual ideas, and build out a set of prompt elements. I\u0027m focusing on features such as integration capabilities, and code vs UI presentation.\n\n\n**Mapping Visual Elements**\n\nI\u0027m now detailing the specifics of the layout from the video, including the side-by-side UI node editor. I\u0027ve noted the \"Run. Tweak. Repeat.\" workflow section, and the case studies with dark cards. Badges for enterprise security are noted, along with the bottom CTA elements. Finally, the footer structure is mapped. I\u0027m focusing on aligning the structure with BioVision AI\u0027s SaaS context, including a sleek, high-tech aesthetic, and biotech-focused color considerations.\n\n\n**Refining the Prompt Elements**\n\nI\u0027m now integrating the additional social proof, interactive demo idea, and specific features into the prompt. I\u0027m focusing on \"Trusted by modern laboratories...\" as the key social proof, and developing the \"Upload, Segment, Results\" interaction. I\u0027ve also clarified the code/UI concept, and I\u0027m adding in testimonials and the bottom CTA details. I\u0027m building out feature sections, including Automated counting, cloud-based SaaS capabilities, and standardized reporting.\n\n\n**Integrating Key Features**\n\nI\u0027m now incorporating the specific features and CTAs for the prompt. I\u0027m focusing on the \"Intelligent Automation\" concept for microbiological analyses. I\u0027m integrating the value proposition to detect, segment, and count colony-forming units (CFU) in seconds, accessible directly from the browser, and the \"Try for Free\" and \"Speak to an Expert\" CTAs. I\u0027m also adding in the social proof (industry logos), interactive showcase (visual Petri dish comparison), SaaS features, workflow steps, metrics for time/accuracy/waste reduction, and the final CTA.\n\n\n**Developing \"Value-Add\" Concepts**\n\nI\u0027m now focusing on actionable \"value-add\" ideas to elevate the prompt. I\u0027ve developed before/after sliders showcasing AI results on Petri dishes, a live ROI calculator demonstrating time and cost savings, and a Bioluminescent aesthetic, incorporating cyan/magenta to reflect lab stains, which I find quite compelling.\n\n\\n\\n\n**Structuring for Clarity**\n\nI\u0027m structuring the output to ensure maximum clarity and usability. I\u0027ve planned an introduction contextualizing the prompt\u0027s purpose and origin, followed by the Lovable prompt itself, formatted for immediate use. Following that, I\u0027ll include the \"value-add\" ideas, and finally, advice to Lovable on effective prompting techniques.",
+      "role": "model",
+      "tokenCount": 1938,
+      "isThought": true,
+      "parts": [{
+        "text": "**Analyzing the Request**\n\nI\u0027m starting by breaking down the task into its core components. My role is clear: I\u0027m a Product Design Prompt Engineer, tasked with crafting a prompt for Lovable based on a video. I\u0027m focusing on identifying the crucial elements needed for prompt optimization, keeping in mind the clone/adapt objective. I need to ensure the prompt is precise and effective, guiding Lovable to produce a similar output.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Defining the Design Parameters**\n\nI\u0027m now integrating context to establish precise design parameters. My focus sharpens: crafting text specifically for BioVision AI, derived entirely from the provided markdown document. This foundational text will be crucial for the subsequent steps, and will inform my aesthetic analysis of the given video.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Identifying Key Elements**\n\nI\u0027ve moved on to meticulously dissecting the video\u0027s visual components. Currently, I\u0027m cataloging each element, such as CTA buttons, interactive graphics, and social proof. I am focusing on the order, style, and presentation of the information, building a hierarchical structure of the layout. I\u0027m taking note of the use case sections and the distinct features and metrics provided. My goal is to extract the core visual ideas, and build out a set of prompt elements. I\u0027m focusing on features such as integration capabilities, and code vs UI presentation.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Mapping Visual Elements**\n\nI\u0027m now detailing the specifics of the layout from the video, including the side-by-side UI node editor. I\u0027ve noted the \"Run. Tweak. Repeat.\" workflow section, and the case studies with dark cards. Badges for enterprise security are noted, along with the bottom CTA elements. Finally, the footer structure is mapped. I\u0027m focusing on aligning the structure with BioVision AI\u0027s SaaS context, including a sleek, high-tech aesthetic, and biotech-focused color considerations.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Refining the Prompt Elements**\n\nI\u0027m now integrating the additional social proof, interactive demo idea, and specific features into the prompt. I\u0027m focusing on \"Trusted by modern laboratories...\" as the key social proof, and developing the \"Upload, Segment, Results\" interaction. I\u0027ve also clarified the code/UI concept, and I\u0027m adding in testimonials and the bottom CTA details. I\u0027m building out feature sections, including Automated counting, cloud-based SaaS capabilities, and standardized reporting.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Integrating Key Features**\n\nI\u0027m now incorporating the specific features and CTAs for the prompt. I\u0027m focusing on the \"Intelligent Automation\" concept for microbiological analyses. I\u0027m integrating the value proposition to detect, segment, and count colony-forming units (CFU) in seconds, accessible directly from the browser, and the \"Try for Free\" and \"Speak to an Expert\" CTAs. I\u0027m also adding in the social proof (industry logos), interactive showcase (visual Petri dish comparison), SaaS features, workflow steps, metrics for time/accuracy/waste reduction, and the final CTA.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Developing \"Value-Add\" Concepts**\n\nI\u0027m now focusing on actionable \"value-add\" ideas to elevate the prompt. I\u0027ve developed before/after sliders showcasing AI results on Petri dishes, a live ROI calculator demonstrating time and cost savings, and a Bioluminescent aesthetic, incorporating cyan/magenta to reflect lab stains, which I find quite compelling.\n\n\\n\\n\n**Structuring for Clarity**\n\nI\u0027m structuring the output to ensure maximum clarity and usability. I\u0027ve planned an introduction contextualizing the prompt\u0027s purpose and origin, followed by the Lovable prompt itself, formatted for immediate use. Following that, I\u0027ll include the \"value-add\" ideas, and finally, advice to Lovable on effective prompting techniques.",
+        "thought": true
+      }],
+      "createTime": "2026-03-08T21:23:06.120Z"
+    }, {
+      "text": "\n\n\nComo especialista em Design de Produtos e Engenharia de Prompts, analisei o vídeo enviado. O site no vídeo pertence à **n8n** (uma plataforma de automação de workflows). Ele possui um design extremamente moderno, focado em **Dark Mode**, com uso intenso de **Glassmorphism (efeito de vidro)**, **bordas brilhantes (neon/glow)**, tipografia robusta sem serifa, gradientes de texto e layouts no estilo **Bento Grid** (cartões arredondados agrupados).\n\nPara clonar essa estética e adaptá-la perfeitamente ao seu SaaS, o **BioVision AI** (conforme os dados do seu documento), criei um super-prompt otimizado para o **Lovable**. \n\nO Lovable funciona melhor quando você dá a direção de design clara e entrega o \"copy\" (textos) já estruturado seção por seção.\n\n---\n\n### 📋 Copie e cole o prompt abaixo no Lovable:\n\n```text\nAtue como um Engenheiro de Front-end e UX/UI Designer de nível Sênior. Quero que você crie a Landing Page de um SaaS chamado \"BioVision AI\". \n\nA inspiração de design é o site da \"n8n\". A estética deve ser estritamente \"Dark Mode\" (fundo quase preto, ex: bg-slate-950 ou bg-black), visual high-tech, moderno e voltado para times técnicos e laboratoriais. \n\nREGRAS DE DESIGN (ESTILO VISUAL):\n1. Use a paleta de cores: Fundo escuro (Slate/Black), textos principais em branco puro ou cinza claro, e detalhes/botões em um gradiente neon (sugiro Azul Ciano para Roxo/Magenta, remetendo à biotecnologia e IA).\n2. Utilize \"Glassmorphism\" nos cartões (fundos levemente translúcidos com blur e bordas finas com opacidade de 10% a 20%).\n3. Textos de destaque (Headings) devem usar \"gradient text\" (bg-clip-text text-transparent bg-gradient-to-r).\n4. Adicione brilhos sutis (glow) atrás de elementos importantes.\n5. A tipografia deve ser limpa, sem serifa (como Inter, Roboto ou Geist), com pesos variados (Bold para títulos, Regular para corpo).\n6. Use ícones modernos da biblioteca Lucide React.\n\nESTRUTURA E TEXTOS DA PÁGINA (Preencha os componentes exatamente com estes textos):\n\n1. HEADER (Navegação):\n- Logo: \"BioVision AI\" (com um ícone minimalista de uma placa de Petri ou nó de IA).\n- Links: Produto, Casos de Uso, Tecnologia, Preços.\n- Botões à direita: \"Entrar\" (texto simples) e \"Começar Grátis\" (botão primário com gradiente/brilho).\n\n2. HERO SECTION (Seção Principal):\n- Título principal (Gigante, centralizado ou alinhado à esquerda, usando texto gradiente em algumas palavras): \"Automação Inteligente de IA para Microbiologia.\"\n- Subtítulo (Cinza claro, tamanho médio): \"Detecte, segmente e conte Unidades Formadoras de Colônia (UFC) com a precisão da visão computacional. Sem equipamentos caros, direto do seu navegador.\"\n- Botões: \"Começar Grátis\" (Primário) e \"Falar com Especialistas\" (Secundário, outline).\n- Imagem/Visual ao lado ou abaixo: Crie um mockup simulando uma interface flutuante mostrando uma placa de Petri escaneada com vários pontos/bounding boxes verdes/azuis indicando contagem de colônias.\n\n3. SOCIAL PROOF (Prova Social - Faixa horizontal):\n- Texto pequeno: \"Transformando o controle de qualidade nos setores:\"\n- Adicione ícones fictícios (ou ícones Lucide) representando indústrias: Alimentos \u0026 Bebidas, Água e Saneamento, Aquicultura, Indústria Farmacêutica.\n\n4. BENTO GRID DE FUNCIONALIDADES (Inspirado nos cartões do vídeo):\n- Crie um grid assimétrico com 3 ou 4 cartões.\n- Cartão 1 (Largo): \"Processamento Automatizado em Nuvem.\" Texto: \"Faça upload das imagens capturadas por smartphones ou câmeras convencionais. A IA processa e padroniza a iluminação automaticamente.\" (Ícone de Nuvem/IA).\n- Cartão 2 (Quadrado): \"Zero Subjetividade.\" Texto: \"Elimine o erro humano e o cansaço visual. Padronize seus laudos com precisão matemática.\" (Ícone de Alvo/Precisão).\n- Cartão 3 (Quadrado): \"Rastreabilidade Total.\" Texto: \"Armazenamento histórico de análises e geração automática de relatórios em PDF para auditorias.\" (Ícone de Documento/Escudo).\n\n5. SEÇÃO DE COMPARAÇÃO (Estilo \"Code vs UI\" do vídeo, mas adaptado):\n- Título: \"Análise Tradicional vs BioVision AI\"\n- Crie dois painéis lado a lado.\n- Painel Esquerdo (Tradicional): \"Processo Manual: Lento, sujeito a erros, requer contadores de alto custo.\" (Mostre um ícone de prancheta e relógio).\n- Painel Direito (BioVision): \"Com IA: Resultados em segundos, relatórios digitais, escalável (SaaS).\" (Mostre um gráfico de velocidade e ícone de IA brilhando).\n\n6. MÉTRICAS E IMPACTO (Cartões escuros com bordas brilhantes):\n- Cartão 1: \"Reduz o tempo de análise em até 80%\"\n- Cartão 2: \"Evita o descarte desnecessário de reagentes\"\n- Cartão 3: \"Aumenta a segurança sanitária\"\n\n7. CALL TO ACTION FINAL (Rodapé superior):\n- Título gigante: \"Pronto para modernizar seu laboratório?\"\n- Subtítulo: \"A democratização do acesso à análise microbiológica automatizada começou. Experimente na prática.\"\n- Botão: \"Criar Conta Gratuita\"\n\n8. FOOTER:\n- Logo BioVision AI.\n- Colunas simples para Produto, Suporte, Termos de Privacidade e Redes Sociais.\n\nPor favor, gere o código completo focando em animações suaves de entrada (fade-in, slide-up) e design responsivo perfeito para mobile e desktop.\n```\n\n---\n\n### 💡 Ideias Extras para você implementar no Lovable (Dicas de Ouro)\n\nComo Engenheiro de Produto, lendo o escopo do seu projeto, sugiro algumas interações que você pode pedir para o Lovable adicionar depois que a estrutura inicial for gerada:\n\n1. **Slider de Antes e Depois (Image Comparison Slider):**\n   * *O que é:* No lugar de uma imagem estática na \"Hero Section\", peça para o Lovable criar um componente de arrastar (slider).\n   * *Impacto:* O usuário arrasta a barra para a direita e vê a foto real da placa de Petri; arrasta para a esquerda e vê a imagem processada pelo BioVision, com as colônias contadas, marcadas e segmentadas. Isso vende a solução instantaneamente.\n\n2. **Calculadora de ROI interativa:**\n   * *O que é:* Uma pequena seção onde o usuário desliza uma barra dizendo *\"Quantas placas você analisa por mês?\"* (Ex: 1000). E embaixo o sistema calcula dinamicamente: *\"Horas economizadas com IA: 80 horas/mês\"*. \n   * *Impacto:* Justifica na hora o modelo de assinatura SaaS (B2B) frente ao custo do analista.\n\n3. **Efeito \"Scanner\" no Hover:**\n   * *O que é:* Nas imagens das placas de Petri do site, pedir para adicionar uma animação CSS onde, ao passar o mouse por cima, uma linha neon verde/azul desce pela imagem, simulando a IA escaneando as bactérias/colônias.\n\n4. **Micro-interações de \"Loading\" de IA:**\n   * Para dar o \"feeling\" de tecnologia profunda, adicione um terminal falso ou pequenos logs de texto animado na hero section: `\u003e Carregando imagem... \u003e Padronizando iluminação... \u003e IA detectou 142 UFC... \u003e Laudo gerado.`\n\n**Como usar o Lovable de forma eficiente:** Não peça alterações drásticas de uma vez. Primeiro, cole o prompt acima. Espere ele gerar a página. Depois, vá pedindo os refinamentos (ex: *\"Ficou ótimo! Agora troque a imagem principal por um componente interativo de slider antes/depois...\"*).",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1929,
+      "parts": [{
+        "text": "\n\n\nComo especialista em Design de Produtos e Engenharia de Prompts, analisei o vídeo enviado. O"
+      }, {
+        "text": " site no vídeo pertence à **n8n** (uma plataforma de automação de workflows). Ele possui um design extremamente"
+      }, {
+        "text": " moderno, focado em **Dark Mode**, com uso intenso de **Glassmorphism (efeito de vidro)**, **"
+      }, {
+        "text": "bordas brilhantes (neon/glow)**, tipografia robusta sem serifa, gradientes de texto e layouts"
+      }, {
+        "text": " no estilo **Bento Grid** (cartões arredondados agrupados).\n\nPara clonar essa estética e adaptá-"
+      }, {
+        "text": "la perfeitamente ao seu SaaS, o **BioVision AI** (conforme os dados do seu documento), criei um"
+      }, {
+        "text": " super-prompt otimizado para o **Lovable**. \n\nO Lovable funciona melhor quando você dá a direção"
+      }, {
+        "text": " de design clara e entrega o \"copy\" (textos) já estruturado seção por seção.\n\n---\n\n### 📋"
+      }, {
+        "text": " Copie e cole o prompt abaixo no Lovable:\n\n```text\nAtue como um Engenheiro de Front-end e UX"
+      }, {
+        "text": "/UI Designer de nível Sênior. Quero que você crie a Landing Page de um SaaS chamado \"BioVision AI\"."
+      }, {
+        "text": " \n\nA inspiração de design é o site da \"n8n\". A estética deve ser estritamente \"Dark"
+      }, {
+        "text": " Mode\" (fundo quase preto, ex: bg-slate-950 ou bg-black), visual high"
+      }, {
+        "text": "-tech, moderno e voltado para times técnicos e laboratoriais. \n\nREGRAS DE DESIGN (ESTILO VIS"
+      }, {
+        "text": "UAL):\n1. Use a paleta de cores: Fundo escuro (Slate/Black), textos principais em branco puro ou"
+      }, {
+        "text": " cinza claro, e detalhes/botões em um gradiente neon (sugiro Azul Ciano para Roxo/Magenta,"
+      }, {
+        "text": " remetendo à biotecnologia e IA).\n2. Utilize \"Glassmorphism\" nos cartões (fund"
+      }, {
+        "text": "os levemente translúcidos com blur e bordas finas com opacidade de 10% a 20%)."
+      }, {
+        "text": "\n3. Textos de destaque (Headings) devem usar \"gradient text\" (bg-clip-text text-transparent bg"
+      }, {
+        "text": "-gradient-to-r).\n4. Adicione brilhos sutis (glow) atrás de elementos importantes."
+      }, {
+        "text": "\n5. A tipografia deve ser limpa, sem serifa (como Inter, Roboto ou Geist), com pesos variados ("
+      }, {
+        "text": "Bold para títulos, Regular para corpo).\n6. Use ícones modernos da biblioteca Lucide React.\n\nESTRUTURA"
+      }, {
+        "text": " E TEXTOS DA PÁGINA (Preencha os componentes exatamente com estes textos):\n\n1. HEADER (Navegação"
+      }, {
+        "text": "):\n- Logo: \"BioVision AI\" (com um ícone minimalista de uma placa de Petri ou nó"
+      }, {
+        "text": " de IA).\n- Links: Produto, Casos de Uso, Tecnologia, Preços.\n- Botões à"
+      }, {
+        "text": " direita: \"Entrar\" (texto simples) e \"Começar Grátis\" (botão primário com gradiente/"
+      }, {
+        "text": "brilho).\n\n2. HERO SECTION (Seção Principal):\n- Título principal (Gigante, central"
+      }, {
+        "text": "izado ou alinhado à esquerda, usando texto gradiente em algumas palavras): \"Automação Inteligente de IA para"
+      }, {
+        "text": " Microbiologia.\"\n- Subtítulo (Cinza claro, tamanho médio): \"Detecte, segmente e conte Un"
+      }, {
+        "text": "idades Formadoras de Colônia (UFC) com a precisão da visão computacional. Sem equipamentos caros,"
+      }, {
+        "text": " direto do seu navegador.\"\n- Botões: \"Começar Grátis\" (Primário) e \"Falar com Especial"
+      }, {
+        "text": "istas\" (Secundário, outline).\n- Imagem/Visual ao lado ou abaixo: Crie um mockup simulando"
+      }, {
+        "text": " uma interface flutuante mostrando uma placa de Petri escaneada com vários pontos/bounding boxes verdes/azuis indicando cont"
+      }, {
+        "text": "agem de colônias.\n\n3. SOCIAL PROOF (Prova Social - Faixa horizontal):\n- Texto pequeno"
+      }, {
+        "text": ": \"Transformando o controle de qualidade nos setores:\"\n- Adicione ícones fictícios (ou ícones Lucide)"
+      }, {
+        "text": " representando indústrias: Alimentos \u0026 Bebidas, Água e Saneamento, Aquicultura, Indústria Farmacê"
+      }, {
+        "text": "utica.\n\n4. BENTO GRID DE FUNCIONALIDADES (Inspirado nos cartões do vídeo):\n-"
+      }, {
+        "text": " Crie um grid assimétrico com 3 ou 4 cartões.\n- Cartão 1 (Largo): \"Process"
+      }, {
+        "text": "amento Automatizado em Nuvem.\" Texto: \"Faça upload das imagens capturadas por smartphones ou câmeras convenc"
+      }, {
+        "text": "ionais. A IA processa e padroniza a iluminação automaticamente.\" (Ícone de Nuvem/IA).\n- Cart"
+      }, {
+        "text": "ão 2 (Quadrado): \"Zero Subjetividade.\" Texto: \"Elimine o erro humano e o cansaço visual"
+      }, {
+        "text": ". Padronize seus laudos com precisão matemática.\" (Ícone de Alvo/Precisão).\n- Cartão"
+      }, {
+        "text": " 3 (Quadrado): \"Rastreabilidade Total.\" Texto: \"Armazenamento histórico de análises e geração automática de rel"
+      }, {
+        "text": "atórios em PDF para auditorias.\" (Ícone de Documento/Escudo).\n\n5. SEÇÃO DE COMP"
+      }, {
+        "text": "ARAÇÃO (Estilo \"Code vs UI\" do vídeo, mas adaptado):\n- Título: \"An"
+      }, {
+        "text": "álise Tradicional vs BioVision AI\"\n- Crie dois painéis lado a lado.\n- Painel Esquerdo ("
+      }, {
+        "text": "Tradicional): \"Processo Manual: Lento, sujeito a erros, requer contadores de alto custo.\" (Most"
+      }, {
+        "text": "re um ícone de prancheta e relógio).\n- Painel Direito (BioVision): \"Com IA: Resultados"
+      }, {
+        "text": " em segundos, relatórios digitais, escalável (SaaS).\" (Mostre um gráfico de velocidade e ícone de IA brilh"
+      }, {
+        "text": "ando).\n\n6. MÉTRICAS E IMPACTO (Cartões escuros com bordas brilhantes):\n- Cart"
+      }, {
+        "text": "ão 1: \"Reduz o tempo de análise em até 80%\"\n- Cartão 2: \"Ev"
+      }, {
+        "text": "ita o descarte desnecessário de reagentes\"\n- Cartão 3: \"Aumenta a segurança sanit"
+      }, {
+        "text": "ária\"\n\n7. CALL TO ACTION FINAL (Rodapé superior):\n- Título gigante: \"Pronto para modern"
+      }, {
+        "text": "izar seu laboratório?\"\n- Subtítulo: \"A democratização do acesso à análise microbiológica automatizada começou"
+      }, {
+        "text": ". Experimente na prática.\"\n- Botão: \"Criar Conta Gratuita\"\n\n8. FOOTER"
+      }, {
+        "text": ":\n- Logo BioVision AI.\n- Colunas simples para Produto, Suporte, Termos de Privacidade e Red"
+      }, {
+        "text": "es Sociais.\n\nPor favor, gere o código completo focando em animações suaves de entrada (fade-in,"
+      }, {
+        "text": " slide-up) e design responsivo perfeito para mobile e desktop.\n```\n\n---\n\n### 💡 Ideias"
+      }, {
+        "text": " Extras para você implementar no Lovable (Dicas de Ouro)\n\nComo Engenheiro de Produto, lendo o esc"
+      }, {
+        "text": "opo do seu projeto, sugiro algumas interações que você pode pedir para o Lovable adicionar depois que a estrutura inicial"
+      }, {
+        "text": " for gerada:\n\n1. **Slider de Antes e Depois (Image Comparison Slider):**\n   * *O"
+      }, {
+        "text": " que é:* No lugar de uma imagem estática na \"Hero Section\", peça para o Lovable criar um componente de"
+      }, {
+        "text": " arrastar (slider).\n   * *Impacto:* O usuário arrasta a barra para a direita e vê a foto"
+      }, {
+        "text": " real da placa de Petri; arrasta para a esquerda e vê a imagem processada pelo BioVision, com as colônias cont"
+      }, {
+        "text": "adas, marcadas e segmentadas. Isso vende a solução instantaneamente.\n\n2. **Calculadora de ROI inter"
+      }, {
+        "text": "ativa:**\n   * *O que é:* Uma pequena seção onde o usuário desliza uma barra dizendo *\"Quantas placas você"
+      }, {
+        "text": " analisa por mês?\"* (Ex: 1000). E embaixo o sistema calcula dinamicamente: *\""
+      }, {
+        "text": "Horas economizadas com IA: 80 horas/mês\"*. \n   * *Impacto:* Just"
+      }, {
+        "text": "ifica na hora o modelo de assinatura SaaS (B2B) frente ao custo do analista.\n\n3. **"
+      }, {
+        "text": "Efeito \"Scanner\" no Hover:**\n   * *O que é:* Nas imagens das placas de Petri do site"
+      }, {
+        "text": ", pedir para adicionar uma animação CSS onde, ao passar o mouse por cima, uma linha neon verde/azul desce"
+      }, {
+        "text": " pela imagem, simulando a IA escaneando as bactérias/colônias.\n\n4. **Micro-interações de"
+      }, {
+        "text": " \"Loading\" de IA:**\n   * Para dar o \"feeling\" de tecnologia profunda, adicione um terminal falso"
+      }, {
+        "text": " ou pequenos logs de texto animado na hero section: `\u003e Carregando imagem... \u003e Padronizando iluminação... \u003e IA"
+      }, {
+        "text": " detectou 142 UFC... \u003e Laudo gerado.`\n\n**Como usar o Lovable de forma eficiente:** Não"
+      }, {
+        "text": " peça alterações drásticas de uma vez. Primeiro, cole o prompt acima. Espere ele gerar a página. Depois,"
+      }, {
+        "text": " vá pedindo os refinamentos (ex: *\"Ficou ótimo! Agora troque a imagem principal por um componente inter"
+      }, {
+        "text": "ativo de slider antes/depois...\"*)."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-08T21:23:30.618Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

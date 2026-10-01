@@ -1,0 +1,1 @@
+O Octane tem o próprio banco de texturas e materiais nativos dele. Muita coisa interessante.

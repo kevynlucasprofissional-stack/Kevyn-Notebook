@@ -1,0 +1,106 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "enableWordTimestamps": false,
+    "enableSpeakerDiarization": false,
+    "languageCode": ""
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveAudio": {
+        "id": "1t7lC36yAE5HLeTO7oRp9-MkjTXWK3jLC"
+      },
+      "role": "user",
+      "tokenCount": 744,
+      "createTime": "2026-08-19T00:28:28.610Z"
+    }, {
+      "driveAudio": {
+        "id": "17lnLH_dAuY7UQCb3mVajuooew_SRKWWA"
+      },
+      "role": "user",
+      "tokenCount": 796,
+      "createTime": "2026-08-19T00:28:28.610Z"
+    }, {
+      "text": "Transcreva",
+      "role": "user",
+      "tokenCount": 3,
+      "createTime": "2026-08-19T00:28:28.610Z"
+    }, {
+      "text": "**Defining the Audio Task**\n\nI\u0027m now zeroing in on the core of the request: transcribing those audio files. Currently, I\u0027m analyzing the first segment (00:00 - 00:23) of Audio 1. I am working on the initial identification of the speakers and trying to understand the content.\n\n\n**Refining the Transcription**\n\nNow, I\u0027m accurately transcribing Audio 1\u0027s initial portion: \"Kevin, aquele material que eu te enviei e tudo que tá aí nessa cópia aí, ele precisa ser clicável para as pessoas encontrarem. Por exemplo, o post nas redes sociais, um PDF todinho onde tem aquele aquele que eu te enviei, tem que colocar ele em algum lugar para as\". I\u0027m making sure to capture the nuances accurately. I\u0027m also preparing for Audio 2\u0027s start.\n\n\n",
+      "role": "model",
+      "tokenCount": 749,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Audio Task**\n\nI\u0027m now zeroing in on the core of the request: transcribing those audio files. Currently, I\u0027m analyzing the first segment (00:00 - 00:23) of Audio 1. I am working on the initial identification of the speakers and trying to understand the content.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Transcription**\n\nNow, I\u0027m accurately transcribing Audio 1\u0027s initial portion: \"Kevin, aquele material que eu te enviei e tudo que tá aí nessa cópia aí, ele precisa ser clicável para as pessoas encontrarem. Por exemplo, o post nas redes sociais, um PDF todinho onde tem aquele aquele que eu te enviei, tem que colocar ele em algum lugar para as\". I\u0027m making sure to capture the nuances accurately. I\u0027m also preparing for Audio 2\u0027s start.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-08-19T00:28:28.610Z"
+    }, {
+      "text": "Aqui está a transcrição dos áudios:\n\n**Áudio 1:**\n\"Kevin, aquele material que eu te enviei e tudo que tá aí nessa cópia aí, ele precisa ser clicável para as pessoas encontrarem. Por exemplo, o post nas redes sociais, um PDF todinho onde tem aquela... aquele... aquele que eu te enviei, tem que colocar ele em algum lugar pras pessoas verem. Tudo que eu te mandei, ele precisa tá clicável. Entendeu?\"\n\n**Áudio 2:**\n\"Outra coisa, Kevin, eu só quero que cita a Lilian e o... o povo de Rio Verde. Eu não quero que cita mais ninguém nesse negócio. Eu tô falando de Rio Verde, então aqueles nomes que cê colocou lá, não me interessa, me interessa a ex-primeira-dama e eu quero que tenha a foto deles também. Eu quero que tenha a foto do Paulo do Vale.\"",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 197,
+      "parts": [{
+        "text": "Aqui está a transcrição"
+      }, {
+        "text": " dos áudios:\n\n**Áudio 1:**\n\"Kevin, aquele material que eu te enviei e"
+      }, {
+        "text": " tudo que tá aí nessa cópia aí, ele precisa ser clicável para as pessoas encontrarem. Por exemplo, o post nas redes"
+      }, {
+        "text": " sociais, um PDF todinho onde tem aquela... aquele... aquele que eu te enviei, tem que colocar ele em algum lugar pras pessoas"
+      }, {
+        "text": " verem. Tudo que eu te mandei, ele precisa tá clicável. Entendeu?\"\n\n**Áudio "
+      }, {
+        "text": "2:**\n\"Outra coisa, Kevin, eu só quero que cita a Lilian e o... o povo de"
+      }, {
+        "text": " Rio Verde. Eu não quero que cita mais ninguém nesse negócio. Eu tô falando de Rio Verde, então aqueles nomes que"
+      }, {
+        "text": " cê colocou lá, não me interessa, me interessa a ex-primeira-dama e eu quero que tenha"
+      }, {
+        "text": " a foto deles também. Eu quero que tenha a foto do Paulo do Vale.\""
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-08-19T00:28:37.525Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

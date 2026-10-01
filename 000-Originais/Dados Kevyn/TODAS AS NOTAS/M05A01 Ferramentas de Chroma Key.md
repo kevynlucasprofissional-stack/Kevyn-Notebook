@@ -1,0 +1,2 @@
+É sempre bom tentar aumentar ainda mais o contraste entre o modelo e o fundo a ser recortado, use curves, brightness & Contrast, Hue/Saturation e outros ajustes para isso.
+As principais ferramentas usadas para recortar fundos são a Keylight e a Linear Color Key.

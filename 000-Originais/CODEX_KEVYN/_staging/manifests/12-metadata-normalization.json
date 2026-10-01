@@ -1,0 +1,395 @@
+{
+  "generated_at": "2026-04-04T17:27:30.986287-03:00",
+  "root": "C:\\Users\\Kevyn Lucas\\Documents\\Codex Kevyn",
+  "apply": true,
+  "summary": {
+    "notes_considered": 706,
+    "files_changed": 10,
+    "low_value_area_files_changed": 10,
+    "singleton_tags_removed": 14,
+    "tag_values_before": 53,
+    "tag_values_after": 39,
+    "alias_values_before": 0,
+    "alias_values_after": 0,
+    "areas_touched": 1,
+    "tag_frequency_distinct": 889,
+    "alias_frequency_distinct": 71
+  },
+  "standard_properties": [
+    "title",
+    "created",
+    "updated",
+    "status",
+    "source_area",
+    "tags",
+    "aliases"
+  ],
+  "changes": [
+    {
+      "path": "HOME\\Muad’Dib\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\PARTE I - Técnicas fundamentais para lidar com as pessoas\\temp\\O Desejo de Ser Importante (Dewey).md",
+      "top_level_area": "HOME",
+      "in_low_value_area": true,
+      "removed_singleton_tags": [
+        "motivacao_profunda"
+      ],
+      "tags_before": [
+        "flashcards",
+        "psicologia",
+        "john_dewey",
+        "motivacao_profunda"
+      ],
+      "tags_after": [
+        "flashcards",
+        "psicologia",
+        "john_dewey"
+      ],
+      "aliases_before": [],
+      "aliases_after": [],
+      "frontmatter_before": "---\nResumo: John Dewey define o desejo de ser importante como a solicitação mais profunda da natureza humana.\nContexto: Capítulo 2 - Comparação entre as teorias de Freud (sexo) e Dewey (importância) sobre a motivação humana\ntags:\n  - \"#flashcards\"\n  - \"#psicologia\"\n  - \"#john_dewey\"\n  - \"#motivacao_profunda\"\nID único: 20260131165616-tdygrl\ncreated: 2026-01-31\n---\n",
+      "frontmatter_after": "---\nResumo: John Dewey define o desejo de ser importante como a solicitação mais profunda da natureza humana.\nContexto: Capítulo 2 - Comparação entre as teorias de Freud (sexo) e Dewey (importância) sobre a motivação humana\ntags:\n  - \"flashcards\"\n  - \"psicologia\"\n  - \"john_dewey\"\n\nID único: 20260131165616-tdygrl\ncreated: 2026-01-31\n---\n",
+      "summary": {
+        "had_target_sections": true,
+        "removed_singleton_tags": 1,
+        "final_tags": [
+          "flashcards",
+          "psicologia",
+          "john_dewey"
+        ],
+        "final_aliases": []
+      }
+    },
+    {
+      "path": "HOME\\O Professor\\02_EGO - O MAGUS\\A guerra da arte\\Medo como Indicador de Importância.md",
+      "top_level_area": "HOME",
+      "in_low_value_area": true,
+      "removed_singleton_tags": [
+        "bussola",
+        "heuristica"
+      ],
+      "tags_before": [
+        "flashcards",
+        "bussola",
+        "heuristica",
+        "medo",
+        "resistencia"
+      ],
+      "tags_after": [
+        "flashcards",
+        "medo",
+        "resistencia"
+      ],
+      "aliases_before": [],
+      "aliases_after": [],
+      "frontmatter_before": "---\nResumo: A intensidade do medo sinaliza o valor do projeto para a evolução pessoal.\nContexto: Capítulo 'Resistência e Medo', transformando o medo em guia.\ntags:\n  - \"#flashcards\"\n  - \"#bussola\"\n  - \"#heuristica\"\n  - \"#medo\"\n  - \"#resistencia\"\nID único: 20251123154523-r3gryj\ncreated: 2025-11-23\n---\n",
+      "frontmatter_after": "---\nResumo: A intensidade do medo sinaliza o valor do projeto para a evolução pessoal.\nContexto: Capítulo 'Resistência e Medo', transformando o medo em guia.\ntags:\n  - \"flashcards\"\n  - \"medo\"\n  - \"resistencia\"\n\nID único: 20251123154523-r3gryj\ncreated: 2025-11-23\n---\n",
+      "summary": {
+        "had_target_sections": true,
+        "removed_singleton_tags": 2,
+        "final_tags": [
+          "flashcards",
+          "medo",
+          "resistencia"
+        ],
+        "final_aliases": []
+      }
+    },
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Insanidade como Fuga para um Mundo de Importância.md",
+      "top_level_area": "HOME",
+      "in_low_value_area": true,
+      "removed_singleton_tags": [
+        "realidade_psiquica",
+        "fantasia",
+        "dissociacao"
+      ],
+      "tags_before": [
+        "flashcards",
+        "psicologia",
+        "realidade_psiquica",
+        "mecanismo_de_defesa",
+        "fantasia",
+        "dissociacao"
+      ],
+      "tags_after": [
+        "flashcards",
+        "psicologia",
+        "mecanismo_de_defesa"
+      ],
+      "aliases_before": [],
+      "aliases_after": [],
+      "frontmatter_before": "---\nResumo: \"A insanidade pode ser uma forma de encontrar na fantasia a satisfação do desejo de importância negado pela realidade.\"\nContexto: \"Parte 1, Capítulo 2, páginas 55-56. O relato do médico-chefe de um hospital psiquiátrico.\"\ntags:\n  - \"#flashcards\"\n  - \"#psicologia\"\n  - \"#realidade_psiquica\"\n  - \"#mecanismo_de_defesa\"\n  - \"#fantasia\"\n  - \"#dissociacao\"\nID único: 20260101084420-evdz8o\ncreated: 2026-01-01\n---\n",
+      "frontmatter_after": "---\nResumo: \"A insanidade pode ser uma forma de encontrar na fantasia a satisfação do desejo de importância negado pela realidade.\"\nContexto: \"Parte 1, Capítulo 2, páginas 55-56. O relato do médico-chefe de um hospital psiquiátrico.\"\ntags:\n  - \"flashcards\"\n  - \"psicologia\"\n  - \"mecanismo_de_defesa\"\n\nID único: 20260101084420-evdz8o\ncreated: 2026-01-01\n---\n",
+      "summary": {
+        "had_target_sections": true,
+        "removed_singleton_tags": 3,
+        "final_tags": [
+          "flashcards",
+          "psicologia",
+          "mecanismo_de_defesa"
+        ],
+        "final_aliases": []
+      }
+    },
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\Bajulação como Espelho do Ego Alheio.md",
+      "top_level_area": "HOME",
+      "in_low_value_area": true,
+      "removed_singleton_tags": [
+        "espelhamento"
+      ],
+      "tags_before": [
+        "flashcards",
+        "bajulacao",
+        "psicologia",
+        "ego",
+        "manipulacao",
+        "espelhamento"
+      ],
+      "tags_after": [
+        "flashcards",
+        "bajulacao",
+        "psicologia",
+        "ego",
+        "manipulacao"
+      ],
+      "aliases_before": [],
+      "aliases_after": [],
+      "frontmatter_before": "---\nResumo: \"'Bajulação consiste em dizer ao outro justamente o que ele pensa acerca de si mesmo'.\"\nContexto: \"Parte 1, Capítulo 2, página 61. Uma citação que define bajulação.\"\ntags:\n  - \"#flashcards\"\n  - \"#bajulacao\"\n  - \"#psicologia\"\n  - \"#ego\"\n  - \"#manipulacao\"\n  - \"#espelhamento\"\nID único: 20260101084421-gkr4ei\ncreated: 2026-01-01\n---\n",
+      "frontmatter_after": "---\nResumo: \"'Bajulação consiste em dizer ao outro justamente o que ele pensa acerca de si mesmo'.\"\nContexto: \"Parte 1, Capítulo 2, página 61. Uma citação que define bajulação.\"\ntags:\n  - \"flashcards\"\n  - \"bajulacao\"\n  - \"psicologia\"\n  - \"ego\"\n  - \"manipulacao\"\n\nID único: 20260101084421-gkr4ei\ncreated: 2026-01-01\n---\n",
+      "summary": {
+        "had_target_sections": true,
+        "removed_singleton_tags": 1,
+        "final_tags": [
+          "flashcards",
+          "bajulacao",
+          "psicologia",
+          "ego",
+          "manipulacao"
+        ],
+        "final_aliases": []
+      }
+    },
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\Faça a Outra Pessoa Sentir-se Importante (Princípio).md",
+      "top_level_area": "HOME",
+      "in_low_value_area": true,
+      "removed_singleton_tags": [
+        "influencia_etica"
+      ],
+      "tags_before": [
+        "flashcards",
+        "principios",
+        "leis_universais",
+        "psicologia_social",
+        "influencia_etica"
+      ],
+      "tags_after": [
+        "flashcards",
+        "principios",
+        "leis_universais",
+        "psicologia_social"
+      ],
+      "aliases_before": [],
+      "aliases_after": [],
+      "frontmatter_before": "---\nResumo: \"Faça a outra pessoa sentir-se importante, e faça-o com sinceridade.\"\nContexto: \"Parte 2, Capítulo 6 - A formulação do Princípio 6, que conclui e sintetiza todas as lições da seção sobre como fazer as pessoas gostarem de você.\"\ntags:\n  - \"#flashcards\"\n  - \"#principios\"\n  - \"#leis_universais\"\n  - \"#psicologia_social\"\n  - \"#influencia_etica\"\nID único: 20260102035532-qqihum\ncreated: 2026-01-02\n---\n",
+      "frontmatter_after": "---\nResumo: \"Faça a outra pessoa sentir-se importante, e faça-o com sinceridade.\"\nContexto: \"Parte 2, Capítulo 6 - A formulação do Princípio 6, que conclui e sintetiza todas as lições da seção sobre como fazer as pessoas gostarem de você.\"\ntags:\n  - \"flashcards\"\n  - \"principios\"\n  - \"leis_universais\"\n  - \"psicologia_social\"\n\nID único: 20260102035532-qqihum\ncreated: 2026-01-02\n---\n",
+      "summary": {
+        "had_target_sections": true,
+        "removed_singleton_tags": 1,
+        "final_tags": [
+          "flashcards",
+          "principios",
+          "leis_universais",
+          "psicologia_social"
+        ],
+        "final_aliases": []
+      }
+    },
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\O Cartaz 'VOCÊ É IMPORTANTE'.md",
+      "top_level_area": "HOME",
+      "in_low_value_area": true,
+      "removed_singleton_tags": [
+        "lembrete"
+      ],
+      "tags_before": [
+        "flashcards",
+        "sistema",
+        "lembrete",
+        "lideranca",
+        "cultura_organizacional"
+      ],
+      "tags_after": [
+        "flashcards",
+        "sistema",
+        "lideranca",
+        "cultura_organizacional"
+      ],
+      "aliases_before": [],
+      "aliases_after": [],
+      "frontmatter_before": "---\nResumo: \"Um professor, após uma experiência com um aluno, pendurou um cartaz para lembrá-lo de que cada aluno é importante.\"\nContexto: \"Parte 2, Capítulo 6 - A ação do professor Ronald J. Rowland após ver a transformação do aluno Chris.\"\ntags:\n  - \"#flashcards\"\n  - \"#sistema\"\n  - \"#lembrete\"\n  - \"#lideranca\"\n  - \"#cultura_organizacional\"\nID único: 20260102035532-ym8hdq\ncreated: 2026-01-02\n---\n",
+      "frontmatter_after": "---\nResumo: \"Um professor, após uma experiência com um aluno, pendurou um cartaz para lembrá-lo de que cada aluno é importante.\"\nContexto: \"Parte 2, Capítulo 6 - A ação do professor Ronald J. Rowland após ver a transformação do aluno Chris.\"\ntags:\n  - \"flashcards\"\n  - \"sistema\"\n  - \"lideranca\"\n  - \"cultura_organizacional\"\n\nID único: 20260102035532-ym8hdq\ncreated: 2026-01-02\n---\n",
+      "summary": {
+        "had_target_sections": true,
+        "removed_singleton_tags": 1,
+        "final_tags": [
+          "flashcards",
+          "sistema",
+          "lideranca",
+          "cultura_organizacional"
+        ],
+        "final_aliases": []
+      }
+    },
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\O Caráter Determinado pela Forma de Buscar Importância.md",
+      "top_level_area": "HOME",
+      "in_low_value_area": true,
+      "removed_singleton_tags": [
+        "filosofia_moral"
+      ],
+      "tags_before": [
+        "flashcards",
+        "etica",
+        "carater",
+        "escolha",
+        "motivacao_humana",
+        "filosofia_moral"
+      ],
+      "tags_after": [
+        "flashcards",
+        "etica",
+        "carater",
+        "escolha",
+        "motivacao_humana"
+      ],
+      "aliases_before": [],
+      "aliases_after": [],
+      "frontmatter_before": "---\nResumo: \"A maneira como uma pessoa satisfaz seu desejo de importância determina seu caráter (Rockefeller vs. Dillinger).\"\nContexto: \"Parte 1, Capítulo 2, página 54.\"\ntags:\n  - \"#flashcards\"\n  - \"#etica\"\n  - \"#carater\"\n  - \"#escolha\"\n  - \"#motivacao_humana\"\n  - \"#filosofia_moral\"\nID único: 20260101084420-fb3fcn\ncreated: 2026-01-01\n---\n",
+      "frontmatter_after": "---\nResumo: \"A maneira como uma pessoa satisfaz seu desejo de importância determina seu caráter (Rockefeller vs. Dillinger).\"\nContexto: \"Parte 1, Capítulo 2, página 54.\"\ntags:\n  - \"flashcards\"\n  - \"etica\"\n  - \"carater\"\n  - \"escolha\"\n  - \"motivacao_humana\"\n\nID único: 20260101084420-fb3fcn\ncreated: 2026-01-01\n---\n",
+      "summary": {
+        "had_target_sections": true,
+        "removed_singleton_tags": 1,
+        "final_tags": [
+          "flashcards",
+          "etica",
+          "carater",
+          "escolha",
+          "motivacao_humana"
+        ],
+        "final_aliases": []
+      }
+    },
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\O Desejo de Importância como Estímulo para a Ambição.md",
+      "top_level_area": "HOME",
+      "in_low_value_area": true,
+      "removed_singleton_tags": [
+        "desejo_de_importancia"
+      ],
+      "tags_before": [
+        "flashcards",
+        "ambicao",
+        "motivacao",
+        "desejo_de_importancia",
+        "legado"
+      ],
+      "tags_after": [
+        "flashcards",
+        "ambicao",
+        "motivacao",
+        "legado"
+      ],
+      "aliases_before": [],
+      "aliases_after": [],
+      "frontmatter_before": "---\nResumo: \"O desejo de ser importante inspirou Lincoln a estudar direito e Dickens a escrever seus romances.\"\nContexto: \"Parte 1, Capítulo 2, página 53. Exemplos de como o desejo de ser importante motivou grandes figuras históricas.\"\ntags:\n  - \"#flashcards\"\n  - \"#ambicao\"\n  - \"#motivacao\"\n  - \"#desejo_de_importancia\"\n  - \"#legado\"\nID único: 20260101084420-e2zw63\ncreated: 2026-01-01\n---\n",
+      "frontmatter_after": "---\nResumo: \"O desejo de ser importante inspirou Lincoln a estudar direito e Dickens a escrever seus romances.\"\nContexto: \"Parte 1, Capítulo 2, página 53. Exemplos de como o desejo de ser importante motivou grandes figuras históricas.\"\ntags:\n  - \"flashcards\"\n  - \"ambicao\"\n  - \"motivacao\"\n  - \"legado\"\n\nID único: 20260101084420-e2zw63\ncreated: 2026-01-01\n---\n",
+      "summary": {
+        "had_target_sections": true,
+        "removed_singleton_tags": 1,
+        "final_tags": [
+          "flashcards",
+          "ambicao",
+          "motivacao",
+          "legado"
+        ],
+        "final_aliases": []
+      }
+    },
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\O Desejo de Importância como Motor da Civilização.md",
+      "top_level_area": "HOME",
+      "in_low_value_area": true,
+      "removed_singleton_tags": [
+        "progresso",
+        "historia_das_ideias"
+      ],
+      "tags_before": [
+        "flashcards",
+        "civilizacao",
+        "progresso",
+        "ambicao",
+        "legado",
+        "historia_das_ideias"
+      ],
+      "tags_after": [
+        "flashcards",
+        "civilizacao",
+        "ambicao",
+        "legado"
+      ],
+      "aliases_before": [],
+      "aliases_after": [],
+      "frontmatter_before": "---\nResumo: \"Sem o desejo de se sentir importante, a civilização seria impossível; seríamos como os animais.\"\nContexto: \"Parte 1, Capítulo 2, página 53.\"\ntags:\n  - \"#flashcards\"\n  - \"#civilizacao\"\n  - \"#progresso\"\n  - \"#ambicao\"\n  - \"#legado\"\n  - \"#historia_das_ideias\"\nID único: 20260101084420-642wm8\ncreated: 2026-01-01\n---\n",
+      "frontmatter_after": "---\nResumo: \"Sem o desejo de se sentir importante, a civilização seria impossível; seríamos como os animais.\"\nContexto: \"Parte 1, Capítulo 2, página 53.\"\ntags:\n  - \"flashcards\"\n  - \"civilizacao\"\n  - \"ambicao\"\n  - \"legado\"\n\nID único: 20260101084420-642wm8\ncreated: 2026-01-01\n---\n",
+      "summary": {
+        "had_target_sections": true,
+        "removed_singleton_tags": 2,
+        "final_tags": [
+          "flashcards",
+          "civilizacao",
+          "ambicao",
+          "legado"
+        ],
+        "final_aliases": []
+      }
+    },
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\O Desejo de Ser Importante (John Dewey).md",
+      "top_level_area": "HOME",
+      "in_low_value_area": true,
+      "removed_singleton_tags": [
+        "necessidade_fundamental"
+      ],
+      "tags_before": [
+        "flashcards",
+        "psicologia_humanista",
+        "motivacao_humana",
+        "necessidade_fundamental",
+        "john_dewey"
+      ],
+      "tags_after": [
+        "flashcards",
+        "psicologia_humanista",
+        "motivacao_humana",
+        "john_dewey"
+      ],
+      "aliases_before": [],
+      "aliases_after": [],
+      "frontmatter_before": "---\nResumo: \"Para John Dewey, a mais profunda solicitação na natureza humana é o desejo de ser importante.\"\nContexto: \"Parte 1, Capítulo 2, página 51.\"\ntags:\n  - \"#flashcards\"\n  - \"#psicologia_humanista\"\n  - \"#motivacao_humana\"\n  - \"#necessidade_fundamental\"\n  - \"#john_dewey\"\nID único: 20260101084420-vxpnqz\ncreated: 2026-01-01\n---\n",
+      "frontmatter_after": "---\nResumo: \"Para John Dewey, a mais profunda solicitação na natureza humana é o desejo de ser importante.\"\nContexto: \"Parte 1, Capítulo 2, página 51.\"\ntags:\n  - \"flashcards\"\n  - \"psicologia_humanista\"\n  - \"motivacao_humana\"\n  - \"john_dewey\"\n\nID único: 20260101084420-vxpnqz\ncreated: 2026-01-01\n---\n",
+      "summary": {
+        "had_target_sections": true,
+        "removed_singleton_tags": 1,
+        "final_tags": [
+          "flashcards",
+          "psicologia_humanista",
+          "motivacao_humana",
+          "john_dewey"
+        ],
+        "final_aliases": []
+      }
+    }
+  ],
+  "skipped": []
+}

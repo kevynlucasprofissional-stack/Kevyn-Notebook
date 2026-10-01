@@ -1,0 +1,17 @@
+﻿0A175E1A17C9A2924B777D7498605B07A4EE7C50FF8846DCA2F2CBB3D686A096  3942  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\Controle-Integracao\Estado-Integracao.json
+01ED5F1FCEB567AED1EEAD8BD8D08330A857D5B0310D32D7F4962E73286AEC4B  1332730  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\Controle-Integracao\Manifesto-Fontes.csv
+4585F4EDE981368BBA63C2687867CC1EB728E2E0F53F4D763787E1B51F5F51D2  583295  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\Controle-Integracao\Matriz-Cobertura.csv
+9CA7A7D3DC9C617FD6961AAB2CC78828B8C357C8B861E521D52D4E999711BEC9  1865  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\Controle-Integracao\Matriz-Claims.csv
+7D77AF39AEC911976B5E8E69BBAEE7D902B2C02394170DADB1DD610EF1BC6CAE  14413  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\Controle-Integracao\Registro-de-Decisoes.md
+ABB5B843D421241846B748B2B31CC349C595FF64F224E4C2051CE334EC9AB785  42366  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\Controle-Revisao-100\Matriz-Revisao-100.csv
+FC0C4701AD495018D820A8BA8EA80C79EA3006F23D685E9EC73F28F1F42239BA  6487  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\Changelog.md
+86036E1CB6CF7E642C3938F6493475C5FF3FC73B25F6CD4DABB71719B89E17B6  4354  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\Pendencias-Assumidas.md
+9685E4696527E3E530416A5C6F3D8935C4A67A6661B9F50D72ACE867202AC040  5749  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\Metricas.json
+A2E8CAD67C26FC06EC4213EFA4C9740AC1E52F654C2606931C75AAE2AA538F4C  7878  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\Relatorio-Executivo.md
+C9A6B2F08822FCBEEAE16A7C1DA415BE8A960D2BDEAFF17247CBFBFF5C765064  5128  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\Relatorio-de-Auditoria.md
+E7A289BD6A0F2A6AD1B20CB069086E3062398374667A2E84194713EA43F59A67  4435  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\09-Fontes-e-Evidencias\Fonte - Reuniao com psicologa Suzana 2026-06-26.md
+5B1C1F5D9E2F3AD671BA0FB9ACA1597BF72B29542E35E7F0756F931D8154BB70  3961  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\06-Saude-Autocuidado-e-Autorregulacao\Estado atual - 27 de junho de 2026.md
+09DC35C9DCF5609E43D1EEDBDBAE1973C46923897D33662545A22E43D39C25B1  3351  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\95-Auditorias\auditoria-inicial-integracao-dados-270626.md
+ED6B822BE64C7B00323AE6532D6B23038E7234C593E86FE9D27D5607D7B9A5F9  1597  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\95-Auditorias\auditoria-final-escopo-ativo-integracao-270626.md
+DA77E139719473F66D3FC0FF419308158C23827C1D4325379DF50D03A94F1868  1645  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\95-Auditorias\auditoria-final-escopo-completo-integracao-270626.md
+1E8F1E8FBB99FC987D1D25C15C4624018419390E7741BD1F614AFD5BD81B08DE  2294  C:\Users\Kevyn Lucas\Documents\Vault Neo\Kevyn Neo\95-Auditorias\relatorio-final-integracao-dados-270626.md

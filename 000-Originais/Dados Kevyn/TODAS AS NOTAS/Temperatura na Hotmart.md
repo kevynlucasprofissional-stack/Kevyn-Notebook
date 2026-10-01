@@ -1,0 +1,1 @@
+Sempre fique atento aos graus de temperatura de um produto na Hotmart, ela indica o quanto um produto está sendo bem falado, se ele está vendendo bem.

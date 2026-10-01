@@ -1,0 +1,2 @@
+* **Atalhos com Shift:** A tecla Shift permite combinar múltiplos atalhos de uma única letra. Por exemplo, para visualizar as propriedades de escala e transparência de uma camada, pressione "S" seguido de "Shift + T".
+* **Composições a partir de Elementos:** É possível criar uma nova composição diretamente a partir de um elemento selecionado, herdando as configurações deste, basta arrastar para uma timeline vazia e pronto.

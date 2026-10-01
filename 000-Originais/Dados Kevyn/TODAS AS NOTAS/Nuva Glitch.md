@@ -1,0 +1,1 @@
+É um plugin que gera um efeito de glitch numa camada.

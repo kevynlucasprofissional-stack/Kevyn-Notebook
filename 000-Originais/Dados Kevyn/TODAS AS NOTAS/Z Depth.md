@@ -1,0 +1,1 @@
+Serve para configurar o desfoque de profundidade. Geralmente é usado em conjunto com "FL Depth of Field" para ajustar o foco e o desfoque.

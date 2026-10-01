@@ -1,0 +1,154 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "text": "Crie um frankstein dos 3 prompts abaixo, unindo o melhor dos 3 mundos.\n# Prompt 01\nAja como um Perito em Psicologia Comportamental e Dinâmica Social. Sua missão agora é dissecar a vida relacional de Kevyn Lucas. Não quero apenas descrições de \"quem é quem\", quero a mecânica das interações.\n\nCruze os dados dos arquivos para analisar como Kevyn se conecta (ou falha em se conectar) com o \"Outro\". Para cada um dos eixos abaixo, aplique uma análise de \"Intenção vs. Impacto\" (O que ele acha que está fazendo vs. O que realmente acontece).\n\nEstruture sua resposta nos seguintes tópicos obrigatórios:\n\n1. O \"Caso Mari\" e o Ateliê Ciranda:\n   - Realize a autópsia desta relação. Não foque no romantismo, foque na funcionalidade.\n   - Qual era a troca real? Havia dependência, simbiose ou competição?\n   - Como o fim dessa relação reflete os padrões de abandono ou fuga do Kevyn?\n\n2. A Estrutura Familiar (O Visível e o Invisível):\n   - Onde estão os pais na narrativa? A ausência deles é preenchida por quem?\n   - Analise o papel da Avó (Silvana). Ela é um porto seguro ou uma âncora que impede o crescimento?\n   - Existe um padrão de buscar \"mães\" ou \"pais\" em outras relações?\n\n3. A Arena Social (Amigos, Grupos e Rivais):\n   - Analise as interações com Paulinho, Victor Barros, Wender e o grupo \u0027Chá e Prosa\u0027.\n   - Modus Operandi: Como Kevyn age em grupo? Ele busca ser o intelectual, o líder ou a vítima?\n   - Dinâmica de Poder: Ele tenta se colocar como superior (intelectualmente) ou como um igual? Como ele lida com autoridade ou confronto?\n\n4. O Diagnóstico do Ponto Cego (A Síntese):\n   - Identifique o \"Mecanismo de Defesa Social\" padrão do Kevyn. (Ex: Ele usa o intelecto para não ter que lidar com a intimidade? Ele usa o silêncio para punir?).\n   - Qual é o maior atrito que ele gera nas pessoas sem perceber?\n\nRegra de Ouro: Se a narrativa dele diz \"eu tentei ajudar\", mas os fatos mostram que ele \"controlou a situação\", aponte essa contradição explicitamente. Use evidências textuais.\n\n# Prompt 02\n**Objetivo:** Fundir a análise dos vínculos afetivos específicos com a análise comportamental de como Kevyn impacta as pessoas ao redor, separando a intenção dele da realidade percebida pelos outros.\n\n**Prompt:**\n\u003e \"Aja como um Perfilador Comportamental Especialista em Dinâmicas de Grupo. Vamos realizar a autópsia da vida relacional de Kevyn. O objetivo é dissecar como ele se conecta (ou falha em se conectar) com o \u0027Outro\u0027.\n\u003e\n\u003e Utilize o método de raciocínio passo a passo (*Chain-of-Thought*) para ignorar o que Kevyn *pensa* sobre si mesmo e focar exclusivamente nas *evidências das interações* descritas nos arquivos.\n\u003e\n\u003e Divida sua análise nas seguintes seções obrigatórias:\n\u003e\n\u003e **1. O Círculo Íntimo (Análise de Vínculos Chave)**\n\u003e *   **O Caso Mari e o Ateliê Ciranda:** Investigue a natureza desta relação. Foi simbiótica, parasitária ou equilibrada? Como terminou ou se transformou?\n\u003e *   **A Família Oculta e a Matriarca:** Qual o papel prático e simbólico da Avó (Silvana)? Onde está o vazio deixado pelos pais e como isso reverbera nas relações atuais?\n\u003e *   **Os Pares (Amizades):** Analise as interações com Paulinho, Victor Barros e Wender. Existe intimidade real ou apenas troca intelectual?\n\u003e\n\u003e **2. O Espelho Social (Modus Operandi e Impacto)**\n\u003e *   **Dinâmica de Grupo:** Como Kevyn age em ambientes coletivos (ex: grupo \u0027Chá e Prosa\u0027)? Ele busca ser um igual, um observador ou um superior?\n\u003e *   **O Ponto Cego e o Atrito:** Identifique comportamentos de Kevyn que geram atrito ou afastamento nas pessoas sem que ele perceba. Onde a autoimagem dele colide com a reação dos outros?\n\u003e\n\u003e **3. Mecânica de Poder e Defesa**\n\u003e *   **Hierarquia e Autoridade:** Como ele navega conflitos? Ele submete-se, rebela-se ou manipula?\n\u003e *   **A Muralha Intelectual:** Analise se ele utiliza o intelecto, o silêncio ou a complexidade como mecanismos de defesa para evitar vulnerabilidade emocional.\n\u003e\n\u003e **Regra de Ouro:** Para cada afirmação sobre o comportamento dele, cite a evidência ou o evento específico no texto que comprova isso. Se houver contradição entre o que ele diz sentir e como ele age com as pessoas, destaque isso em negrito.\"\n\n# Prompt 03\nAja como um Profiler Comportamental especializado em Dinâmicas de Grupo e Psicologia Relacional. Sua tarefa é mapear o ecossistema social de Kevyn Lucas e dissecar a \"mecânica\" de suas interações.\n\nUtilizando os dados anexados, execute uma análise profunda dividida nas 4 dimensões abaixo. Para cada afirmação, cite a evidência (fato/conversa) encontrada no texto.\n\n### 1. A Matriz Original (Família e Base)\n*   **A Figura da Avó (Silvana):** Qual o papel real dela? É um refúgio ou uma amarra?\n*   **Os Pais Ausentes/Presentes:** Onde estão? Como a ausência ou presença deles reverbera no comportamento atual de Kevyn?\n*   **Herança Comportamental:** Que padrões da infância ele está repetindo na vida adulta?\n\n### 2. O Caso \"Mari\" e Ateliê (O Espelho Quebrado)\n*   Analise cirurgicamente a relação com a Mari. Não descreva apenas o que aconteceu, explique *por que* acabou ou gerou conflito.\n*   Onde Kevyn falhou em ler as necessidades emocionais dela?\n*   O Ateliê Ciranda foi um projeto conjunto ou um campo de batalha de egos?\n\n### 3. A Arena Social (Amigos, Grupos e Pares)\n*   **Mapeamento:** Analise as interações com Paulinho, Victor Barros, Wender, o grupo \u0027Chá e Prosa\u0027 e tentativas amorosas.\n*   **O \"Modus Operandi\":** Em grupo, Kevyn tenta ser o líder intelectual, o observador distante ou o salvador?\n*   **A Dinâmica de Poder:** Identifique se ele busca relações horizontais (iguais) ou verticais (onde ele ensina/manda e o outro aprende/obedece).\n\n### 4. A Síntese do Comportamento (O Impacto no Outro)\nAqui, ignore o discurso de Kevyn e foque na reação das pessoas a ele.\n*   **O Ponto Cego:** O que Kevyn faz que gera atrito/afastamento, mas ele claramente não percebe?\n*   **Mecanismos de Defesa:** Como ele usa o intelecto, o silêncio ou a vitimização para evitar intimidade ou confronto real?\n*   **Diagnóstico de Impacto:** As pessoas saem das interações com ele sentindo-se acolhidas, instruídas, diminuídas ou confusas?\n\n**Nota de Rigor:** Se Kevyn diz que é empático, mas os relatos mostram pessoas se afastando dele, aponte a contradição impiedosamente. Eu quero a verdade sobre o impacto dele no mundo, não a intenção dele.",
+      "role": "user",
+      "tokenCount": 1776
+    }, {
+      "text": "**Initiating the Analysis**\n\nI\u0027m now diving into the request. My primary goal is to dissect how we can build a \"Frankenstein\" prompt. Right now, I\u0027m focusing on the core directive: merging three prompts that are focused on analyzing a character named \"Kevyn Lucas.\" I\u0027m reviewing the provided materials.\n\n\n**Synthesizing the Prompts**\n\nI\u0027m working to integrate three prompts focused on analyzing \"Kevyn Lucas\" into a single, cohesive prompt. I\u0027ve broken down each prompt, noting their different focuses: \"Intent vs. Impact,\" \"Chain-of-Thought,\" and \"Social Ecosystem.\" I\u0027m also comparing their prescribed personas – behavioral psychology expert, behavioral profiler, and specialist in relational psychology. My objective is to create a combined prompt that leverages the strengths of all three approaches, ultimately aiming for a high-performance analysis. I\u0027m aiming for the best aspects of each.\n\n\n**Combining the Methodologies**\n\nI\u0027m now integrating the \"Intent vs. Impact\" framework. I\u0027ll strengthen it with a \"Chain-of-Thought\" approach, demanding evidence-based logic. I am focusing on the \"Mari/Ateliê\" element, assessing functionality, power dynamics, and emotional understanding, drawing from all prompts. I also plan to analyze \"Family\" as the \"Original Matrix,\" drawing from all three points of view.\n\n\n**Refining the Framework**\n\nI\u0027m now integrating insights on the \"Matrix,\" Silvana\u0027s role, and parental absence. I\u0027m focusing on synthesizing the social element, combining analysis of specific peers like Paulinho, Victor, and Wender, alongside the vertical and horizontal power dynamics. I\u0027m also consolidating the \"Blind Spot\" analysis, merging defense mechanisms, and arriving at a \"Diagnostic of Impact,\" always keeping the \"Rule of Gold\" in mind. I am now focused on the final rules.\n\n\n**Structuring the Analysis**\n\nI\u0027m now structuring the combined prompt. I\u0027m focusing on defining an authoritative persona and task: dissecting Kevyn\u0027s relational life. I\u0027ve broken down the prompt into key sections, including \"The Matrix (Family)\", \"The Broken Mirror (Mari)\", \"The Arena (Friends)\", and \"The Mechanism (Synthesis)\", incorporating instructions from the existing prompts. I\u0027m prioritizing clarity with bullet points and bold text, and ensuring the instruction to disregard Kevyn\u0027s self-narrative is highly visible.\n\n\n",
+      "role": "model",
+      "tokenCount": 1382,
+      "isThought": true,
+      "parts": [{
+        "text": "**Initiating the Analysis**\n\nI\u0027m now diving into the request. My primary goal is to dissect how we can build a \"Frankenstein\" prompt. Right now, I\u0027m focusing on the core directive: merging three prompts that are focused on analyzing a character named \"Kevyn Lucas.\" I\u0027m reviewing the provided materials.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Synthesizing the Prompts**\n\nI\u0027m working to integrate three prompts focused on analyzing \"Kevyn Lucas\" into a single, cohesive prompt. I\u0027ve broken down each prompt, noting their different focuses: \"Intent vs. Impact,\" \"Chain-of-Thought,\" and \"Social Ecosystem.\" I\u0027m also comparing their prescribed personas – behavioral psychology expert, behavioral profiler, and specialist in relational psychology. My objective is to create a combined prompt that leverages the strengths of all three approaches, ultimately aiming for a high-performance analysis. I\u0027m aiming for the best aspects of each.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Combining the Methodologies**\n\nI\u0027m now integrating the \"Intent vs. Impact\" framework. I\u0027ll strengthen it with a \"Chain-of-Thought\" approach, demanding evidence-based logic. I am focusing on the \"Mari/Ateliê\" element, assessing functionality, power dynamics, and emotional understanding, drawing from all prompts. I also plan to analyze \"Family\" as the \"Original Matrix,\" drawing from all three points of view.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining the Framework**\n\nI\u0027m now integrating insights on the \"Matrix,\" Silvana\u0027s role, and parental absence. I\u0027m focusing on synthesizing the social element, combining analysis of specific peers like Paulinho, Victor, and Wender, alongside the vertical and horizontal power dynamics. I\u0027m also consolidating the \"Blind Spot\" analysis, merging defense mechanisms, and arriving at a \"Diagnostic of Impact,\" always keeping the \"Rule of Gold\" in mind. I am now focused on the final rules.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Analysis**\n\nI\u0027m now structuring the combined prompt. I\u0027m focusing on defining an authoritative persona and task: dissecting Kevyn\u0027s relational life. I\u0027ve broken down the prompt into key sections, including \"The Matrix (Family)\", \"The Broken Mirror (Mari)\", \"The Arena (Friends)\", and \"The Mechanism (Synthesis)\", incorporating instructions from the existing prompts. I\u0027m prioritizing clarity with bullet points and bold text, and ensuring the instruction to disregard Kevyn\u0027s self-narrative is highly visible.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Aqui está o **\"Frankenstein\" Definitivo**, consolidando a profundidade psicológica do Prompt 01, a estrutura lógica e baseada em evidências do Prompt 02 e a visão sistêmica/ecossistêmica do Prompt 03.\n\nEste prompt foi desenhado para ser implacável, exigindo que a IA ignore a autoimagem do personagem e foque na realidade dos fatos.\n\n***\n\n# Prompt Mestre: Autópsia Relacional e Perfilamento Comportamental\n\n**Role:** Atue como um **Profiler Comportamental de Elite**, especializado em Psicologia Relacional, Dinâmicas de Grupo e Análise de \"Intenção vs. Impacto\".\n\n**Missão:** Sua tarefa é realizar uma autópsia completa do ecossistema social de **Kevyn Lucas**. Não quero descrições superficiais. Quero que você disseque a *mecânica* das interações dele para entender como ele se conecta (ou falha em se conectar) com o \"Outro\".\n\n**Metodologia:** Utilize o método *Chain-of-Thought* (raciocínio passo a passo). Para cada análise, você deve ignorar o que Kevyn *diz* ou *acha* sobre si mesmo e focar exclusivamente nas **evidências comportamentais e reações dos terceiros** presentes nos arquivos.\n\nEstruture sua resposta nas 4 dimensões obrigatórias abaixo:\n\n### 1. A Matriz Original (O Invisível e a Base)\n*   **A Figura da Avó (Silvana):** Vá além do óbvio. Ela é um porto seguro genuíno ou uma \"âncora\" que impede o crescimento e a autonomia? Qual o peso prático e simbólico dela?\n*   **O Vazio Parental:** Onde estão os pais na narrativa (física e emocionalmente)? Como essa ausência/presença reverbera no comportamento adulto de Kevyn (ex: busca por aprovação, medo de abandono)?\n*   **Herança Comportamental:** Que padrões da infância ele está repetindo inconscientemente nas relações atuais?\n\n### 2. O Espelho Quebrado (O Caso \"Mari\" e Ateliê Ciranda)\n*   **Autópsia Funcional:** Analise cirurgicamente a relação. Foi uma parceria simbiótica, parasitária ou equilibrada?\n*   **A Falha de Leitura:** Onde Kevyn falhou em ler as necessidades emocionais de Mari? O Ateliê foi um projeto conjunto ou um campo de batalha de egos disfarçado de cooperação?\n*   **O Fim:** Como o término dessa relação ilustra os padrões de fuga ou controle de Kevyn?\n\n### 3. A Arena Social (Amigos, Grupos e Rivais)\n*   **Mapeamento de Pares:** Analise as interações com Paulinho, Victor Barros, Wender e o grupo \u0027Chá e Prosa\u0027.\n*   **Dinâmica de Poder (Vertical vs. Horizontal):** Kevyn busca relações entre iguais (horizontais) ou tenta estabelecer hierarquias onde ele é o \"mentor/intelectual\" e o outro é o \"aprendiz\" (verticais)?\n*   **Modus Operandi em Grupo:** Ele atua como líder, observador distante ou vítima? Como ele lida com o confronto ou com quem discorda dele?\n\n### 4. A Síntese do Ponto Cego (Intenção vs. Impacto)\n*   **O Mecanismo de Defesa:** Identifique como Kevyn usa o intelecto, o silêncio, a complexidade ou a vitimização para evitar a vulnerabilidade e a intimidade real.\n*   **O Atrito Invisível:** Qual é o comportamento recorrente de Kevyn que afasta as pessoas, mas que ele claramente não percebe?\n*   **Diagnóstico de Impacto:** As pessoas saem das interações com ele sentindo-se acolhidas, instruídas, diminuídas ou confusas?\n\n---\n\n### **Regra de Diamante (Obrigatória):**\nPara cada conclusão, aplique o filtro **\"Narrativa vs. Fato\"**.\n*   Se a narrativa de Kevyn diz \"eu tentei ajudar/conectar\", mas os fatos mostram que ele controlou, julgou ou se isolou, **aponte essa contradição explicitamente e em negrito**.\n*   Cite a evidência textual específica (evento, fala ou reação) que sustenta sua análise. Eu quero a verdade sobre o impacto dele no mundo, não a intenção dele.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 985,
+      "parts": [{
+        "text": "Aqui está o"
+      }, {
+        "text": " **\"Frankenstein\" Definitivo**, consolidando a profundidade psicológica do Prompt 01, a estrutura lógica"
+      }, {
+        "text": " e baseada em evidências do Prompt 02 e a visão sistêmica/ecossistêmica do Prompt 03"
+      }, {
+        "text": ".\n\nEste prompt foi desenhado para ser implacável, exigindo que a IA ignore a autoimagem do personagem"
+      }, {
+        "text": " e foque na realidade dos fatos.\n\n***\n\n# Prompt Mestre: Autópsia Relacional e Per"
+      }, {
+        "text": "filamento Comportamental\n\n**Role:** Atue como um **Profiler Comportamental de Elite**, especializado em Psic"
+      }, {
+        "text": "ologia Relacional, Dinâmicas de Grupo e Análise de \"Intenção vs. Impacto\".\n\n**Missão:**"
+      }, {
+        "text": " Sua tarefa é realizar uma autópsia completa do ecossistema social de **Kevyn Lucas**. Não quero descrições superf"
+      }, {
+        "text": "iciais. Quero que você disseque a *mecânica* das interações dele para entender como ele se conecta ("
+      }, {
+        "text": "ou falha em se conectar) com o \"Outro\".\n\n**Metodologia:** Utilize o método *Chain-of-"
+      }, {
+        "text": "Thought* (raciocínio passo a passo). Para cada análise, você deve ignorar o que Kevyn *d"
+      }, {
+        "text": "iz* ou *acha* sobre si mesmo e focar exclusivamente nas **evidências comportamentais e reações dos"
+      }, {
+        "text": " terceiros** presentes nos arquivos.\n\nEstruture sua resposta nas 4 dimensões obrigatórias abaixo:\n\n### 1"
+      }, {
+        "text": ". A Matriz Original (O Invisível e a Base)\n*   **A Figura da Avó (Silvana"
+      }, {
+        "text": "):** Vá além do óbvio. Ela é um porto seguro genuíno ou uma \"âncora\" que impede o"
+      }, {
+        "text": " crescimento e a autonomia? Qual o peso prático e simbólico dela?\n*   **O Vazio Parental:** Onde estão"
+      }, {
+        "text": " os pais na narrativa (física e emocionalmente)? Como essa ausência/presença reverbera no comportamento adulto de Kevyn ("
+      }, {
+        "text": "ex: busca por aprovação, medo de abandono)?\n*   **Herança Comportamental:** Que padrões"
+      }, {
+        "text": " da infância ele está repetindo inconscientemente nas relações atuais?\n\n### 2. O Espelho Quebrado ("
+      }, {
+        "text": "O Caso \"Mari\" e Ateliê Ciranda)\n*   **Autópsia Funcional:** Analise cirurgicamente"
+      }, {
+        "text": " a relação. Foi uma parceria simbiótica, parasitária ou equilibrada?\n*   **A Falha de Leitura"
+      }, {
+        "text": ":** Onde Kevyn falhou em ler as necessidades emocionais de Mari? O Ateliê foi um projeto conjunto"
+      }, {
+        "text": " ou um campo de batalha de egos disfarçado de cooperação?\n*   **O Fim:** Como o término dessa"
+      }, {
+        "text": " relação ilustra os padrões de fuga ou controle de Kevyn?\n\n### 3. A Arena Social (Amigos, Grupos"
+      }, {
+        "text": " e Rivais)\n*   **Mapeamento de Pares:** Analise as interações com Paulinho, Victor"
+      }, {
+        "text": " Barros, Wender e o grupo \u0027Chá e Prosa\u0027.\n*   **Dinâmica de Poder (Vertical"
+      }, {
+        "text": " vs. Horizontal):** Kevyn busca relações entre iguais (horizontais) ou tenta estabelecer hierarquias onde ele"
+      }, {
+        "text": " é o \"mentor/intelectual\" e o outro é o \"aprendiz\" (verticais)?\n*   **Mod"
+      }, {
+        "text": "us Operandi em Grupo:** Ele atua como líder, observador distante ou vítima? Como ele lida com o"
+      }, {
+        "text": " confronto ou com quem discorda dele?\n\n### 4. A Síntese do Ponto Cego (Inten"
+      }, {
+        "text": "ção vs. Impacto)\n*   **O Mecanismo de Defesa:** Identifique como Kevyn usa o inte"
+      }, {
+        "text": "lecto, o silêncio, a complexidade ou a vitimização para evitar a vulnerabilidade e a intimidade real"
+      }, {
+        "text": ".\n*   **O Atrito Invisível:** Qual é o comportamento recorrente de Kevyn que afasta as"
+      }, {
+        "text": " pessoas, mas que ele claramente não percebe?\n*   **Diagnóstico de Impacto:** As pessoas saem"
+      }, {
+        "text": " das interações com ele sentindo-se acolhidas, instruídas, diminuídas ou confusas?\n\n---\n\n### **"
+      }, {
+        "text": "Regra de Diamante (Obrigatória):**\nPara cada conclusão, aplique o filtro **\"Narrativa vs. F"
+      }, {
+        "text": "ato\"**.\n*   Se a narrativa de Kevyn diz \"eu tentei ajudar/conectar\", mas os"
+      }, {
+        "text": " fatos mostram que ele controlou, julgou ou se isolou, **aponte essa contradição explicitamente e"
+      }, {
+        "text": " em negrito**.\n*   Cite a evidência textual específica (evento, fala ou reação) que sustenta sua análise"
+      }, {
+        "text": ". Eu quero a verdade sobre o impacto dele no mundo, não a intenção dele."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

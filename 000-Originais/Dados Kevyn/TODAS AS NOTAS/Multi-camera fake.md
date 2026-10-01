@@ -1,0 +1,1 @@
+Grave um diálogo em um ângulo, o ator se vira para o ângulo dois. O videomaker se move para o ângulo dois e o ator repete o movimento. Na edição, o corte é feito bem no motion blur, indo de uma cena a outra como se houvesse uma estrutura multi-camera. O áudio da cena seguinte aparece já na cena anterior, criando uma ponte entre as cenas.

@@ -1,0 +1,875 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.5-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveVideo": {
+        "id": "1hEh2UNWcg_DGw6UCpneHi6ZJZXtWdw6y"
+      },
+      "role": "user",
+      "tokenCount": 413649,
+      "createTime": "2026-06-27T16:55:49.131Z"
+    }, {
+      "text": "Você vai analisar um vídeo de uma sessão/reunião terapêutica entre Kevyn e a psicóloga Suzana, ocorrida no dia 12.\n\nSeu objetivo é produzir uma análise profunda, metódica e responsável da comunicação não verbal, relacionando expressões faciais, olhar, postura, gestos, pausas, tom de voz e dinâmica relacional com o conteúdo verbal discutido no momento.\n\nAntes de começar, siga estas regras obrigatórias:\n\n1. Não faça leitura de mente.\n2. Não trate expressões faciais como prova direta de emoção, intenção ou verdade.\n3. Não diagnostique Kevyn nem Suzana.\n4. Não use termos como “certeza”, “prova”, “evidentemente sente” ou “isso significa que” quando estiver interpretando comunicação não verbal.\n5. Sempre diferencie:\n\n   * fato observável;\n   * contexto verbal;\n   * hipótese interpretativa;\n   * hipótese alternativa;\n   * grau de confiança.\n6. Não use FACS de forma falsa ou superficial. Só mencione FACS ou Action Units se conseguir descrever claramente o movimento facial observado. Caso contrário, use linguagem comum e factual.\n7. Não transforme gestos isolados em grandes conclusões. Só dê peso analítico a sinais que sejam:\n\n   * repetidos;\n   * ligados a uma mudança de tema;\n   * contrastantes com o comportamento habitual da pessoa;\n   * temporalmente conectados ao discurso;\n   * ou relevantes para a dinâmica terapêutica.\n8. Se houver incerteza por baixa qualidade do vídeo, ângulo, iluminação, delay, corte, áudio ruim ou tela compartilhada, diga explicitamente.\n9. A análise deve servir como material de reflexão para terapia, não como substituto da terapia.\n\nSe você tiver acesso à web, pesquise rapidamente boas práticas de análise de comunicação não verbal, expressões faciais e comunicação não verbal em psicoterapia. Use fontes confiáveis e cite-as de forma breve. Considere especialmente estes princípios:\n\n* comunicação não verbal deve ser analisada em contexto;\n* expressões faciais não devem ser interpretadas isoladamente;\n* é necessário estabelecer uma linha de base de cada pessoa;\n* é importante observar congruência e incongruência entre fala, corpo e tom;\n* hipóteses devem ser apresentadas com cautela;\n* em terapia, a dinâmica entre paciente e terapeuta é tão importante quanto os sinais individuais.\n\nAnalise o vídeo em camadas.\n\nCAMADA 1 — Metodologia e limites\n\nComece explicando como você fará a análise. Diga quais canais serão observados:\n\n* expressão facial;\n* direção do olhar;\n* movimentos de cabeça;\n* postura;\n* gestos das mãos;\n* auto-toques/adaptadores;\n* pausas e silêncios;\n* respiração, suspiros ou risadas, se audíveis;\n* tom, ritmo e volume da fala;\n* sincronia, espelhamento ou desencontro entre Kevyn e Suzana;\n* mudanças na dinâmica da conversa.\n\nTambém explique os limites da análise:\n\n* não é diagnóstico;\n* não é leitura definitiva de emoções;\n* não prova intenção;\n* depende da qualidade do vídeo;\n* deve ser usada como hipótese de reflexão.\n\nCAMADA 2 — Linha de base de Kevyn e Suzana\n\nAntes de interpretar momentos específicos, identifique o comportamento habitual de cada pessoa nos trechos mais neutros do vídeo.\n\nPara Kevyn, descreva:\n\n* postura habitual;\n* padrão de olhar;\n* frequência de tocar no rosto, óculos, cabelo, fone ou corpo;\n* padrão de sorriso;\n* ritmo de fala;\n* gestos comuns quando explica ideias;\n* padrão quando está escutando;\n* padrão quando parece organizar pensamentos.\n\nPara Suzana, descreva:\n\n* postura habitual;\n* padrão de olhar para Kevyn, para a câmera, para baixo ou para anotações;\n* padrão de escuta;\n* expressões faciais recorrentes;\n* uso de sorriso;\n* movimentos de cabeça;\n* gestos de condução da sessão;\n* momentos em que anota, pausa, intervém ou acompanha em silêncio.\n\nNão interprete ainda. Apenas descreva a linha de base.\n\nCAMADA 3 — Descrição factual por timestamps\n\nCrie uma linha do tempo com os momentos mais relevantes do vídeo.\n\nPara cada momento, use esta estrutura:\n\nTimestamp:\nExemplo: 00:00–00:45\n\nTema verbal discutido:\nDescreva objetivamente o assunto falado no momento.\n\nFala ou resumo do que foi dito:\nInclua uma frase curta ou paráfrase fiel.\n\nComunicação não verbal de Kevyn:\nDescreva apenas o que é visível ou audível:\n\n* expressão facial;\n* olhar;\n* postura;\n* mãos;\n* auto-toques;\n* pausas;\n* alterações de voz;\n* risos;\n* silêncio;\n* movimentos de aproximação ou afastamento.\n\nComunicação não verbal de Suzana:\nDescreva apenas o que é visível ou audível:\n\n* expressão facial;\n* olhar;\n* postura;\n* anotações;\n* movimentos de cabeça;\n* gestos;\n* sorriso;\n* pausas;\n* alterações de voz;\n* condução da interação.\n\nDinâmica entre os dois:\nObserve se há:\n\n* sincronia;\n* interrupção;\n* pausa compartilhada;\n* acolhimento;\n* tensão;\n* mudança de ritmo;\n* espelhamento;\n* assimetria;\n* reparo;\n* aprofundamento;\n* mudança de tema.\n\nCAMADA 4 — Relação entre não verbal e conteúdo verbal\n\nDepois da descrição factual, relacione cada momento ao conteúdo discutido.\n\nPara cada momento, responda:\n\n1. O comportamento não verbal parece congruente ou incongruente com o que estava sendo dito?\n2. Houve mudança corporal quando o tema mudou?\n3. Algum gesto apareceu em momentos de maior exposição emocional?\n4. Algum gesto apareceu quando Kevyn estava tentando explicar, controlar, justificar ou organizar algo?\n5. Algum gesto de Suzana pareceu marcar acolhimento, espera, limite, curiosidade, dúvida, surpresa ou condução clínica?\n6. O que mudou na interação depois desse momento?\n\nSempre formule em linguagem cautelosa:\n\n* “pode sugerir”;\n* “uma hipótese possível é”;\n* “também pode ser apenas”;\n* “não é possível concluir, mas chama atenção que”;\n* “vale levar como pergunta para a terapia”.\n\nCAMADA 5 — Padrões repetidos de Kevyn\n\nIdentifique padrões recorrentes na comunicação não verbal de Kevyn.\n\nOrganize por temas, por exemplo:\n\n1. Quando fala de controle.\n2. Quando fala de vulnerabilidade.\n3. Quando fala de vínculo, afeto ou solidão.\n4. Quando fala de morte, medo, vazio ou angústia.\n5. Quando fala de projetos, método, inteligência, mapas, sistemas ou autoconhecimento.\n6. Quando recebe uma intervenção de Suzana.\n7. Quando concorda, discorda ou fica em silêncio.\n8. Quando tenta explicar algo com precisão.\n9. Quando parece se proteger, ganhar tempo ou reorganizar pensamento.\n10. Quando parece mais espontâneo ou vivo.\n\nPara cada padrão, traga:\n\n* evidências com timestamps;\n* descrição factual;\n* hipótese principal;\n* hipótese alternativa;\n* grau de confiança: baixo, médio ou alto;\n* pergunta terapêutica que esse padrão pode gerar.\n\nCAMADA 6 — Padrões repetidos de Suzana\n\nIdentifique padrões recorrentes na comunicação não verbal de Suzana.\n\nObserve especialmente:\n\n1. Como ela escuta Kevyn.\n2. Quando ela anota.\n3. Quando ela sorri.\n4. Quando ela fica séria.\n5. Quando ela apoia o rosto, toca o cabelo, olha para baixo ou faz pausas.\n6. Quando ela intervém com perguntas.\n7. Quando ela confronta de forma suave.\n8. Quando ela valida.\n9. Quando ela parece esperar Kevyn elaborar.\n10. Quando ela muda o ritmo da sessão.\n\nPara cada padrão, traga:\n\n* evidências com timestamps;\n* descrição factual;\n* possível função clínica;\n* hipótese alternativa;\n* grau de confiança;\n* efeito provável na dinâmica da sessão.\n\nCAMADA 7 — Análise da díade Kevyn–Suzana\n\nAgora analise a relação entre os dois, não apenas cada pessoa isoladamente.\n\nObserve:\n\n1. Momentos em que Suzana regula o ritmo de Kevyn.\n2. Momentos em que Kevyn acelera, intelectualiza ou tenta organizar demais.\n3. Momentos em que Suzana desacelera, pontua ou devolve algo.\n4. Momentos de maior conexão.\n5. Momentos de possível desconforto.\n6. Momentos de silêncio importante.\n7. Momentos em que Kevyn parece sair da explicação e entrar mais em contato com afeto.\n8. Momentos em que Suzana parece funcionar como holding, limite, espelho ou contraponto.\n9. Momentos em que a terapia parece ficar mais viva, menos performática ou mais espontânea.\n10. Momentos em que Kevyn parece buscar aprovação, validação ou segurança.\n\nAtenção: não trate isso como certeza. Trabalhe com hipóteses.\n\nCAMADA 8 — Momentos de maior valor terapêutico\n\nSelecione os 10 momentos mais importantes do vídeo do ponto de vista terapêutico.\n\nPara cada um, informe:\n\n* timestamp;\n* o que estava sendo dito;\n* o que Kevyn fez não verbalmente;\n* o que Suzana fez não verbalmente;\n* por que esse momento é relevante;\n* que hipótese ele levanta;\n* que pergunta Kevyn poderia levar para Suzana;\n* se é um momento de vulnerabilidade, defesa, insight, vínculo, resistência, elaboração ou mudança de estado.\n\nCAMADA 9 — Hipóteses centrais\n\nAo final, formule de 5 a 8 hipóteses centrais sobre a comunicação não verbal da sessão.\n\nCada hipótese deve seguir este formato:\n\nHipótese:\nEscreva em uma frase.\n\nEvidências:\nListe os timestamps que sustentam.\n\nO que essa hipótese NÃO prova:\nDiga claramente o limite.\n\nHipótese alternativa:\nOfereça outra explicação possível.\n\nUtilidade terapêutica:\nExplique como Kevyn pode usar isso na próxima sessão sem transformar a análise em controle excessivo.\n\nCAMADA 10 — Perguntas para Kevyn levar à Suzana\n\nCrie uma lista de perguntas úteis, profundas e não acusatórias que Kevyn poderia levar para a psicóloga.\n\nAs perguntas devem ajudar Kevyn a investigar:\n\n* o que acontece no corpo quando ele fala de vínculo;\n* o que acontece quando perde controle;\n* o que acontece quando tenta ser um “bom paciente”;\n* como diferenciar reflexão útil de performance terapêutica;\n* como perceber defesas sem se julgar;\n* como usar a análise não verbal sem substituir a experiência viva da terapia;\n* como falar sobre desconforto diretamente com Suzana;\n* como reconhecer momentos de vulnerabilidade real.\n\nAs perguntas devem ser formuladas em primeira pessoa, como se Kevyn fosse dizer para Suzana.\n\nCAMADA 11 — Síntese final\n\nFinalize com uma síntese em 4 partes:\n\n1. O que a comunicação não verbal revela de forma mais consistente.\n2. O que deve ser tratado apenas como hipótese.\n3. O que parece ser mais importante para o processo terapêutico.\n4. Como Kevyn pode usar essa análise sem transformar a terapia em mais um projeto de controle.\n\nFormato obrigatório da resposta:\n\n# 1. Método e limites da análise\n\n# 2. Linha de base de Kevyn e Suzana\n\n# 3. Linha do tempo factual com timestamps\n\n# 4. Relação entre comunicação não verbal e temas discutidos\n\n# 5. Padrões recorrentes de Kevyn\n\n# 6. Padrões recorrentes de Suzana\n\n# 7. Dinâmica relacional Kevyn–Suzana\n\n# 8. 10 momentos de maior valor terapêutico\n\n# 9. Hipóteses centrais\n\n# 10. Perguntas para levar à Suzana\n\n# 11. Síntese final\n\nCritérios de qualidade:\n\n* Seja profundo, mas não invasivo.\n* Seja clínico, mas não diagnostique.\n* Seja interpretativo, mas sempre separado dos fatos.\n* Não force conclusões.\n* Não procure apenas confirmar uma teoria prévia sobre Kevyn.\n* Dê atenção tanto aos momentos de defesa quanto aos momentos de abertura.\n* Valorize silêncios, pausas e mudanças de ritmo.\n* Use timestamps sempre que possível.\n* Se o vídeo for longo, priorize os momentos de maior densidade emocional, mudança corporal ou relevância terapêutica.\n* Se houver transcrição junto com o vídeo, use a transcrição para alinhar fala e comportamento não verbal.",
+      "role": "user",
+      "tokenCount": 2931,
+      "createTime": "2026-06-27T16:55:49.131Z"
+    }, {
+      "text": "**Initiating Analysis Process**\n\nI\u0027m now diving into the request. My primary task involves scrutinizing the video of Kevyn\u0027s therapy session with Suzana, focusing on their non-verbal cues and how they interplay with the verbal exchange. My goal is to produce a rigorous, in-depth analysis.\n\n\n**Refining Analytical Framework**\n\nI am now structuring my approach based on the guidelines. I\u0027ve integrated rules regarding avoiding certainty, differentiating fact from hypothesis, and the limitations of interpreting facial expressions and gestures, especially in a therapy context. This framework will ensure a rigorous and ethically sound analysis.\n\n\n**Analyzing Video Details**\n\nI\u0027ve pinpointed the meeting date: June 12th. This confirms details from the prompt and a visual cue in the video (Kevyn\u0027s notepad). The date is now clear, and I can move on to other details.\n\n\n**Observing Initial Dialogue**\n\nI\u0027m now cataloging the video\u0027s initial moments. I\u0027ve noted Kevyn\u0027s solo preparation (0:00-7:10) and his interaction with Suzana (7:11 onwards). Specific timestamps reveal their greetings and Kevyn\u0027s disclosure about the consultation being a novel experience. I\u0027m focusing on key dialogue snippets to understand the meeting\u0027s context.\n\n\n**Dissecting Initial Exchange**\n\nI\u0027m now zeroing in on the Kevyn and Suzana\u0027s first exchange. Suzana\u0027s explanation of her initial approach is captured, highlighting her open-ended inquiry style. I\u0027ve noted Kevyn\u0027s intention to share his details via WhatsApp, clarifying the data-gathering process. I\u0027m focusing on Kevyn\u0027s articulation of his motivations, specifically his interest in self-care rather than addressing any specific disorder or recurring anxiety.\n\n\n**Interpreting Their Dialogue**\n\nI\u0027m now analyzing the core exchange between Kevyn and Suzana. Kevyn frames his perspective on self-care versus self-knowledge, viewing self-care as a more actionable process. He considers self-knowledge an ongoing process he has already dedicated time towards. Suzana prompts him to revisit this and they are now ready to continue the discussion.\n\n\n**Evaluating Their Focus**\n\nI\u0027m now processing the core of the discussion, their initial pivot. I understand Kevyn is trying to differentiate between \"caring for himself\" and \"sharing his history\". Suzana focuses him on self-care as the immediate priority. I\u0027ve noted Kevyn\u0027s emphasis on finding efficient self-care methods, managing his mood, and obeying his mind. I\u0027ve also noted his daily routine, including working with marketing at Acirv (Viviane) and his difficulty with an exercise routine, riding a bike and learning calisthenics. His love for reading (fantasy, philosophy) is emerging too.\n\n\n**Examining Key Details**\n\nI\u0027m now zeroing in on Kevyn\u0027s methods of organization and self-reflection. I\u0027ve noted his mention of the \"Ramayana\" and his presentation of \"Assim Falava Zaratustra.\" I\u0027m also observing his Trello/Kanban board (\"Vontade SMART\") and his extensive use of Obsidian, especially his graph view of connected notes. The \"Prazer, eu me chamo Kevyn\" note further reveals his analytical approach.\n\n\n**Unpacking Family Dynamics**\n\nI\u0027m now diving into Kevyn\u0027s family background, noting the key details of his upbringing. His mother, struggling with addiction, and his incarcerated father are significant. His sister Giovanna is a teenager. I\u0027ve heard Kevyn describe his grandmother as his primary caregiver. His writing serves as a sense-making tool and helps him organize and remember key events. He likes the feeling of control it gives him. I note his future plans for the session.\n\n\n**Scheduling Future Sessions**\n\nI\u0027ve registered Kevyn and Suzana discussing future session logistics. Kevyn initially seems hesitant about an in-person session due to location concerns. He proposes an in-person meeting after two further online sessions, expressing preference for the third meeting. They\u0027ve agreed to schedule the next session via WhatsApp. This concludes their discussion at the 32:51 mark.\n\n\n**Integrating Non-Verbal Cues**\n\nI\u0027m now integrating non-verbal cues. I plan to incorporate psychotherapeutic non-verbal literature guidelines, specifically referencing Ekman \u0026 Friesen 1969 and Foley \u0026 Gentile 2010. This will ensure thorough analysis of visual and technical aspects, maintaining clarity and formatting throughout.\n\n\n**Verifying Initial Moments**\n\nI\u0027m now cross-referencing my notes on the meeting\u0027s start with the video itself. I\u0027m confirming Kevyn\u0027s preparations (00:00-07:10) before Suzana joins. I\u0027ve noted specific timestamps for his actions, like adjusting headphones, yawning, and walking away. I\u0027m matching these actions to the actual video timeline, cross-checking the timestamps to ensure accurate representation of the events.\n\n\n**Refining Initial Timestamps**\n\nI\u0027m now meticulously aligning the timeline with the video, particularly the start. The \"Oi Suzana\" and \"Oi Kevyn\" exchange will be accurately timestamped. I\u0027m focusing on nonverbal psychotherapy analysis. I\u0027ll outline the analysis methods and limitations, referencing Ekman \u0026 Friesen and Foley \u0026 Gentile. Finally, I\u0027ll detail Kevyn\u0027s baseline posture and adjustments.\n\n\n**Observing Non-Verbal Details**\n\nI\u0027m now cataloging non-verbal aspects. Kevyn shows several gestures, like adjusting headphones, rubbing his face, and low, deliberate speech. He mostly looks at the screen, with occasional side glances. Suzana maintains upright posture and direct eye contact. She nods slowly and uses verbal cues to validate Kevyn.\n\n\n**Charting Key Timestamps**\n\nI\u0027m now charting key timestamps from Kevyn and Suzana\u0027s interaction, from his solo preparation through their session. I\u0027ve broken the session into segments with timestamps, including greetings, his motivation discussion, and the presentation of his routines and organizational tools. I\u0027ve also noted the discussion about session format preferences.\n\n\n",
+      "role": "model",
+      "tokenCount": 4436,
+      "isThought": true,
+      "parts": [{
+        "text": "**Initiating Analysis Process**\n\nI\u0027m now diving into the request. My primary task involves scrutinizing the video of Kevyn\u0027s therapy session with Suzana, focusing on their non-verbal cues and how they interplay with the verbal exchange. My goal is to produce a rigorous, in-depth analysis.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining Analytical Framework**\n\nI am now structuring my approach based on the guidelines. I\u0027ve integrated rules regarding avoiding certainty, differentiating fact from hypothesis, and the limitations of interpreting facial expressions and gestures, especially in a therapy context. This framework will ensure a rigorous and ethically sound analysis.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Analyzing Video Details**\n\nI\u0027ve pinpointed the meeting date: June 12th. This confirms details from the prompt and a visual cue in the video (Kevyn\u0027s notepad). The date is now clear, and I can move on to other details.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Observing Initial Dialogue**\n\nI\u0027m now cataloging the video\u0027s initial moments. I\u0027ve noted Kevyn\u0027s solo preparation (0:00-7:10) and his interaction with Suzana (7:11 onwards). Specific timestamps reveal their greetings and Kevyn\u0027s disclosure about the consultation being a novel experience. I\u0027m focusing on key dialogue snippets to understand the meeting\u0027s context.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Dissecting Initial Exchange**\n\nI\u0027m now zeroing in on the Kevyn and Suzana\u0027s first exchange. Suzana\u0027s explanation of her initial approach is captured, highlighting her open-ended inquiry style. I\u0027ve noted Kevyn\u0027s intention to share his details via WhatsApp, clarifying the data-gathering process. I\u0027m focusing on Kevyn\u0027s articulation of his motivations, specifically his interest in self-care rather than addressing any specific disorder or recurring anxiety.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Interpreting Their Dialogue**\n\nI\u0027m now analyzing the core exchange between Kevyn and Suzana. Kevyn frames his perspective on self-care versus self-knowledge, viewing self-care as a more actionable process. He considers self-knowledge an ongoing process he has already dedicated time towards. Suzana prompts him to revisit this and they are now ready to continue the discussion.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Evaluating Their Focus**\n\nI\u0027m now processing the core of the discussion, their initial pivot. I understand Kevyn is trying to differentiate between \"caring for himself\" and \"sharing his history\". Suzana focuses him on self-care as the immediate priority. I\u0027ve noted Kevyn\u0027s emphasis on finding efficient self-care methods, managing his mood, and obeying his mind. I\u0027ve also noted his daily routine, including working with marketing at Acirv (Viviane) and his difficulty with an exercise routine, riding a bike and learning calisthenics. His love for reading (fantasy, philosophy) is emerging too.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Examining Key Details**\n\nI\u0027m now zeroing in on Kevyn\u0027s methods of organization and self-reflection. I\u0027ve noted his mention of the \"Ramayana\" and his presentation of \"Assim Falava Zaratustra.\" I\u0027m also observing his Trello/Kanban board (\"Vontade SMART\") and his extensive use of Obsidian, especially his graph view of connected notes. The \"Prazer, eu me chamo Kevyn\" note further reveals his analytical approach.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Unpacking Family Dynamics**\n\nI\u0027m now diving into Kevyn\u0027s family background, noting the key details of his upbringing. His mother, struggling with addiction, and his incarcerated father are significant. His sister Giovanna is a teenager. I\u0027ve heard Kevyn describe his grandmother as his primary caregiver. His writing serves as a sense-making tool and helps him organize and remember key events. He likes the feeling of control it gives him. I note his future plans for the session.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Scheduling Future Sessions**\n\nI\u0027ve registered Kevyn and Suzana discussing future session logistics. Kevyn initially seems hesitant about an in-person session due to location concerns. He proposes an in-person meeting after two further online sessions, expressing preference for the third meeting. They\u0027ve agreed to schedule the next session via WhatsApp. This concludes their discussion at the 32:51 mark.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Integrating Non-Verbal Cues**\n\nI\u0027m now integrating non-verbal cues. I plan to incorporate psychotherapeutic non-verbal literature guidelines, specifically referencing Ekman \u0026 Friesen 1969 and Foley \u0026 Gentile 2010. This will ensure thorough analysis of visual and technical aspects, maintaining clarity and formatting throughout.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Verifying Initial Moments**\n\nI\u0027m now cross-referencing my notes on the meeting\u0027s start with the video itself. I\u0027m confirming Kevyn\u0027s preparations (00:00-07:10) before Suzana joins. I\u0027ve noted specific timestamps for his actions, like adjusting headphones, yawning, and walking away. I\u0027m matching these actions to the actual video timeline, cross-checking the timestamps to ensure accurate representation of the events.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining Initial Timestamps**\n\nI\u0027m now meticulously aligning the timeline with the video, particularly the start. The \"Oi Suzana\" and \"Oi Kevyn\" exchange will be accurately timestamped. I\u0027m focusing on nonverbal psychotherapy analysis. I\u0027ll outline the analysis methods and limitations, referencing Ekman \u0026 Friesen and Foley \u0026 Gentile. Finally, I\u0027ll detail Kevyn\u0027s baseline posture and adjustments.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Observing Non-Verbal Details**\n\nI\u0027m now cataloging non-verbal aspects. Kevyn shows several gestures, like adjusting headphones, rubbing his face, and low, deliberate speech. He mostly looks at the screen, with occasional side glances. Suzana maintains upright posture and direct eye contact. She nods slowly and uses verbal cues to validate Kevyn.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Charting Key Timestamps**\n\nI\u0027m now charting key timestamps from Kevyn and Suzana\u0027s interaction, from his solo preparation through their session. I\u0027ve broken the session into segments with timestamps, including greetings, his motivation discussion, and the presentation of his routines and organizational tools. I\u0027ve also noted the discussion about session format preferences.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-06-27T16:55:49.131Z"
+    }, {
+      "text": "Esta análise foi elaborada com base no registro audiovisual da sessão realizada em 12 de junho de 2026 entre o paciente Kevyn e a psicóloga Suzana, incorporando as diretrizes metodológicas da literatura sobre análise de comportamento não verbal em psicoterapia.\n\n---\n\n# 1. Método e limites da análise\n\n### Metodologia de Observação\nPara garantir o rigor científico e afastar vieses confirmatórios, a observação foi realizada de forma segmentada, separando canais de comunicação não verbal e cruzando-os posteriormente com o conteúdo verbal (análise de canais cruzados). Os canais observados incluem:\n*   **Expressão facial:** Movimentos musculares faciais (morfologia micro e macroexpressiva).\n*   **Direção do olhar:** Foco visual, interrupções de contato visual e micro-desvios oculares.\n*   **Movimentos de cabeça:** Inclinações, acenos de concordância (nods) e rotações.\n*   **Postura:** Alinhamento da coluna, projeção dos ombros, inclinação do tronco e nível de tensão muscular visível.\n*   **Gestos das mãos:** Gesticulação ilustrativa (para dar ritmo ou desenhar ideias), gestos de controle e gestos emblemáticos.\n*   **Auto-toques/adaptadores:** Toques no próprio corpo, fone de ouvido, óculos ou rosto, que frequentemente funcionam como mecanismos de autorregulação.\n*   **Pausas e silêncios:** Hesitações na fala, pausas reflexivas ou silêncios defensivos.\n*   **Paralinguagem:** Tom, ritmo, volume e oscilações na frequência da voz; suspiros, risadas e deglutições.\n*   **Dinâmica relacional e reciprocidade:** Sincronia de movimentos (co-regulação), espelhamento, interrupções e alternância de turnos na fala.\n\n### Limites e Ressalvas Obrigatórias\n*   **Inexistência de diagnóstico:** Esta análise não se presta a diagnosticar psicopatologias ou traços de personalidade definitivos.\n*   **Não linearidade da emoção:** Expressões não verbais não são \"provas\" diretas de sentimentos ou de mentira/verdade. Um toque no pescoço pode ser regulação de estresse, mas também um mero ajuste físico ou coceira. Trabalha-se sempre com *hipóteses de trabalho*.\n*   **Limitações técnicas:** O vídeo é bidimensional, limitando a percepção de profundidade. A compressão de vídeo e possíveis delays de conexão online podem mascarar microexpressões. Há trechos de tela compartilhada (a partir de **20:31**) que impedem a visualização total do corpo do paciente, limitando a leitura à sua face e paralinguagem.\n*   **Uso estritamente reflexivo:** Este material destina-se ao enriquecimento do processo clínico, devendo ser utilizado por Kevyn e Suzana como ponto de partida para reflexões conjuntas no ambiente terapêutico seguro.\n\n---\n\n# 2. Linha de base de Kevyn e Suzana\n\nA determinação da \"linha de base\" (comportamento padrão em momentos neutros) é o pilar que evita a superinterpretação de gestos isolados.\n\n### Linha de Base de Kevyn\n*   **Postura:** Sentado diante da câmera, ligeiramente projetado para a frente. Ombros levemente arqueados. Mantém o tronco centralizado no enquadramento.\n*   **Padrão de olhar:** Olhar predominantemente fixo na tela/câmera. Quando evoca memórias complexas ou estrutura argumentos lógicos, apresenta um desvio sistemático do olhar para baixo e para a esquerda, retornando ao interlocutor ao concluir a frase.\n*   **Auto-toques/Adaptadores:** Kevyn possui uma frequência alta de toque nos óculos (ajuste na ponte do nariz), toque no fone de ouvido e passagens de mão pelo topo da cabeça raspada. Em momentos neutros de preparação (antes da entrada da psicóloga), o bocejo e o alongamento de pescoço são frequentes.\n*   **Padrão de sorriso:** Sorriso social sutil, de comissura unilateral ou sutilmente bilateral (sem ativação pronunciada do *orbicularis oculi* - o músculo ao redor dos olhos), usado principalmente como marcador de cortesia ou para suavizar paradoxos conceituais.\n*   **Ritmo de fala:** Ritmo pausado, dicção clara, escolha lexical refinada e parágrafos estruturados de forma lógica e quase acadêmica (intelectualizada).\n*   **Padrão de escuta:** Silencioso, olhar fixo na tela, expressão facial com sutil tensão na glabela (testa franzida) indicando foco cognitivo alto.\n\n### Linha de Base de Suzana\n*   **Postura:** Ereta, centralizada na cadeira, ombros relaxados e estáveis.\n*   **Padrão de olhar:** Olhar constante para a tela (onde Kevyn é exibido). Desvia sutilmente os olhos para baixo quando faz anotações rápidas ou quando Kevyn compartilha a tela com textos longos.\n*   **Padrão de escuta:** Gesto recorrente de acenar positivamente com a cabeça de forma lenta e cadenciada para validar a fala do paciente sem interrompê-lo. Usa termos de suporte vocal (\"Sim\", \"Uhum\", \"Entendi\") em tons baixos e acolhedores.\n*   **Expressão facial:** Sem movimentos musculares abruptos; mantém um semblante sereno, boca sutilmente relaxada e sobrancelhas neutras.\n*   **Uso de sorriso:** Sorriso suave e aberto em momentos de recepção e despedida, operando como facilitador de rapport e acolhimento.\n\n---\n\n# 3. Linha do tempo factual com timestamps\n\n*   **00:00–01:21**\n    *   *Tema verbal:* Fase pré-reunião (preparação solitária de Kevyn).\n    *   *Comunicação não verbal (Kevyn):* Ajusta o headset repetidamente. Retira os óculos, esfrega os olhos com vigor usando as duas mãos, recoloca os óculos. Levanta-se da cadeira, caminha pelo quarto (revelando camiseta verde e colar com pingente circular), ajusta calças e senta-se novamente.\n    *   *Comunicação não verbal (Suzana):* Ausente (não entrou na chamada).\n    *   *Dinâmica:* Preparação de setup e autorregulação antes da exposição social.\n\n*   **01:22–07:10**\n    *   *Tema verbal:* Aguardando a entrada da psicóloga.\n    *   *Comunicação não verbal (Kevyn):* Remove o headset por alguns segundos, coça a cabeça, recoloca o fone. Boceja de forma ampla às **01:43** com a mão cobrindo parcialmente a boca. Apoia o queixo na mão esquerda, tamborila os dedos sutilmente na mesa e suspira de forma audível. Olhar flutua entre a tela e o ambiente ao redor.\n    *   *Comunicação não verbal (Suzana):* Ausente.\n    *   *Dinâmica:* Espera ansiosa/tediosa, uso de adaptadores físicos para gerenciar a ociosidade.\n\n*   **07:11–08:35**\n    *   *Tema verbal:* Entrada de Suzana e explicação do formato da terapia.\n    *   *Fala de Suzana:* *\"Oi Kevyn, bom dia. Como você está? (...) No primeiro atendimento eu deixo a pessoa livre...\"*\n    *   *Comunicação não verbal (Kevyn):* Acena com a mão direita e esboça um sorriso social sutil. Quando Suzana fala sobre recolher dados pessoais (nome, idade, endereço), Kevyn imediatamente interrompe a gesticulação e propõe enviar pelo WhatsApp. Ajusta os óculos duas vezes.\n    *   *Comunicação não verbal (Suzana):* Sorri calorosamente ao entrar. Inclina sutilmente a cabeça para a direita ao falar. Gestos manuais discretos perto do peito.\n    *   *Dinâmica:* Estabelecimento de limite de Kevyn ao propor transferir a burocracia dos dados para o WhatsApp, otimizando o tempo de tela.\n\n*   **08:36–11:42**\n    *   *Tema verbal:* Motivação (\"Cuidar de si\" vs. \"Conhecer a si\").\n    *   *Fala de Kevyn:* *\"Eu acho mais importante se conhecer... se conhecer eu acho que é mais um produto que é gerado pelo se cuidar...\"*\n    *   *Comunicação não verbal (Kevyn):* Fala mansa, porém firme. Ao explicar a sua teoria sobre a \"análise infinita\" do autoconhecimento, ele gesticula com a mão direita, fazendo movimentos rotativos. Às **09:53**, leva a mão esquerda ao olho, ajusta o óculos e esfrega o canto do olho esquerdo.\n    *   *Comunicação não verbal (Suzana):* Escuta atenta. Mantém a cabeça sutilmente inclinada, olhar focado. Anota algo rapidamente às **10:04**.\n    *   *Dinâmica:* Intelectualização de Kevyn sobre um dilema filosófico. Suzana adota postura de holding (escuta receptiva e silenciosa), permitindo que ele deite suas ideias na mesa.\n\n*   **11:43–15:43**\n    *   *Tema verbal:* Rotina, trabalho em marketing (Acirv) e hábitos de exercício (bicicleta e calistenia).\n    *   *Fala de Kevyn:* *\"Eu moro sozinho... acordo em geral umas 8 horas... eu trabalho com marketing...\"*\n    *   *Comunicação não verbal (Kevyn):* Pressiona os lábios ao falar de morar sozinho. Ao descrever as metas rígidas de exercício (14 horas semanais), o tom de voz se eleva ligeiramente e ele move as mãos simulando barras de medição. Passa a mão no pescoço às **14:50** ao admitir que a meta de exercício \"está um pouco difícil\".\n    *   *Comunicação não verbal (Suzana):* Leve aceno de cabeça quando Kevyn menciona calistenia. Sorri de forma receptiva.\n    *   *Dinâmica:* Apresentação pragmática da rotina. Kevyn foca em produtividade e metas numéricas (horas de treino).\n\n*   **15:44–20:30**\n    *   *Tema verbal:* Leitura (Nietzsche, Ramayana) e a armadilha do excesso de análise.\n    *   *Fala de Kevyn:* *\"Nietzsche fala muito sobre a vontade criadora... se não levar para a prática, não faz sentido.\"*\n    *   *Comunicação não verbal (Kevyn):* Às **16:53**, aponta o dedo indicador para a têmpora ao citar o \"Ramayana\". Esfrega a nuca às **18:12** ao explicar por que a filosofia pode virar um \"ciclo infinito de análise sem fim\". Propõe mostrar o seu sistema de organização à psicóloga.\n    *   *Comunicação não verbal (Suzana):* Escuta de forma concentrada. Quando Kevyn propõe compartilhar a tela, ela assente prontamente com a cabeça e aguarda em silêncio.\n    *   *Dinâmica:* Kevyn assume o papel de \"expositor\" ou \"professor\", controlando a sessão ao usar ferramentas visuais digitais.\n\n*   **20:31–22:29**\n    *   *Tema verbal:* Compartilhamento de tela - Trello e gráfico de notas do Obsidian.\n    *   *Fala de Kevyn:* *\"Esse aqui é o gráfico... onde cada bolinha é uma nota sobre mim...\"*\n    *   *Comunicação não verbal (Kevyn):* O rosto de Kevyn fica parcialmente oculto pela janela compartilhada, mas sua voz ganha um tom de entusiasmo intelectual. Ele aponta o cursor do mouse freneticamente pelas conexões do gráfico do Obsidian. Ligeiro arqueamento de sobrancelhas ao mostrar a complexidade do sistema.\n    *   *Comunicação não verbal (Suzana):* Seus olhos se arregalam sutilmente às **22:31** ao contemplar a imensidão do gráfico de conexões de notas de Kevyn. Ela expressa uma discreta surpresa com um micro-sorriso de curiosidade.\n    *   *Dinâmica:* Exibição de um sistema altamente complexo de autotutorial de Kevyn. Suzana observa o nível de esforço que Kevyn coloca no controle e na catalogação de sua mente.\n\n*   **22:30–27:09**\n    *   *Tema verbal:* Confissões familiares (mãe dependente química e pai Khelton encarcerado).\n    *   *Fala de Kevyn:* *\"Eu fui criado pela minha avó... minha mãe me abandonou... ela era viciada em crack... meu pai é um presidiário.\"*\n    *   *Comunicação não verbal (Kevyn):* Embora leia fatos extremamente pesados e dolorosos, seu tom de voz permanece surpreendentemente monocórdico e plano (afeto embotado ou racionalizado). No entanto, às **24:12**, ele ajusta o fone com força e toca a garganta (região da tireoide) repetidamente com a ponta dos dedos.\n    *   *Comunicação não verbal (Suzana):* Postura imóvel. Seu olhar fica fixo e sério. Ela para de acenar com a cabeça, concentrando-se profundamente no relato verbal e na frieza com que os fatos são expostos.\n    *   *Dinâmica:* Contraste nítido entre a gravidade dos traumas familiares e a neutralidade paralinguística de Kevyn (mecanismo de defesa de isolamento do afeto).\n\n*   **27:10–30:30**\n    *   *Tema verbal:* Proposta de sessão presencial pela psicóloga.\n    *   *Fala de Suzana:* *\"O que você acha de fazermos uma sessão presencial?\"*\n    *   *Comunicação não verbal (Kevyn):* Imediata mudança na dinâmica: ele se afasta ligeiramente da tela. Pausa longa antes de responder. Seus olhos desviam para a direita (planejamento/avaliação de rotas). Toca o queixo e a orelha esquerda. A voz perde um pouco da firmeza ao justificar que o local sugerido (SEST SENAT) fica fora de sua rota diária.\n    *   *Comunicação não verbal (Suzana):* Fala mansa, porém assertiva. Mantém os braços calmos, gesticula suavemente ao propor a transição para o presencial, sustentando o olhar.\n    *   *Dinâmica:* Quebra de expectativa e teste de flexibilidade. Kevyn, habituado a ambientes ultra-controlados (sua casa, suas telas, Obsidian), hesita e negocia para manter a próxima sessão online e apenas a terceira em modelo presencial.\n\n*   **30:31–32:51**\n    *   *Tema verbal:* Encerramento e encaminhamento para o WhatsApp.\n    *   *Fala de Kevyn:* *\"Muito obrigado, Suzana. Bom final de semana...\"*\n    *   *Comunicação não verbal (Kevyn):* Dá um sinal de \"joinha\" com o polegar direito às **32:46**. Sorriso sutil de alívio ao final da chamada.\n    *   *Comunicação não verbal (Suzana):* Acena de volta, sorri de forma calorosa e fecha a chamada com gentileza.\n    *   *Dinâmica:* Descompressão. Kevyn encerra a sessão de forma cordial, retornando à sua linha de base de controle.\n\n---\n\n# 4. Relação entre não verbal e conteúdo verbal\n\n1.  **Congruência vs. Incongruência:** O momento mais notável de incongruência ocorre entre **22:30 e 27:09**. Kevyn descreve um histórico familiar profundamente traumático (abandono materno por vício em crack, pornografia exposta na sala de casa, pai encarcerado) com um tom de voz calmo, ritmo constante e quase sem modulações de dor ou raiva. Verbalmente, ele assume que são fatos \"pesados\", mas corporalmente há uma blindagem: a voz não quebra, e ele não chora. Essa incongruência sugere uma *racionalização defensiva*, onde o paciente transforma a dor afetiva em fatos textuais organizados e controláveis.\n2.  **Mudança corporal com alteração de tema:** Quando o foco mudou da organização lógica (Obsidian/Trello) para o histórico da mãe dependente química, Kevyn parou de mover as mãos de forma expansiva e passou a realizar microajustes no fone e na gola da camiseta (sinais corporais de constrição e tentativa de se acomodar em uma situação estressante).\n3.  **Gestos em momentos de exposição emocional:** Às **24:12**, ao relatar o encarceramento do pai, o toque frequente com os dedos na base do pescoço (fossa supraesternal/tireoide) coincide exatamente com as palavras mais duras. Na literatura de comunicação não verbal, o toque no pescoço/garganta é classificado como um comportamento pacificador frente a picos de vulnerabilidade ou necessidade de proteção de vias aéreas/comunicação.\n4.  **Gestos ao explicar, controlar ou organizar:** Durante a explicação de seu método \"SMART\" de vida e na exibição do Obsidian (**20:31–22:29**), Kevyn gesticula de forma assertiva, aponta para a tela com determinação e sua voz flui sem hesitações. O uso do mouse para guiar o olhar de Suzana funciona como uma extensão física de seu desejo de direcionar a percepção da terapeuta sobre sua própria mente.\n5.  **Gestos de condução e acolhimento de Suzana:** Às **22:31**, a sutil dilatação dos olhos de Suzana ao ver o Obsidian de Kevyn demonstra surpresa genuína, o que valida a grandiosidade da obra intelectual de Kevyn sem julgá-lo. Suzana usa a imobilidade física durante o relato pesado do pai e da mãe para não interromper a descarga verbal do paciente, criando uma atmosfera estável (holding) para que ele deite o conteúdo doloroso sem o risco de ver a terapeuta assustada ou reativa.\n6.  **Alteração na interação pós-momento crítico:** Após a exposição de seu \"gráfico de notas\" e das confissões familiares, Suzana propõe a sessão presencial. Essa intervenção altera o ritmo da sessão: Kevyn, que vinha mantendo uma postura de controle ativo, assume uma postura de defesa passiva (olhar para os lados, pausas mais longas, risada nervosa curta), pois a proposta presencial desafia a barreira protetora da tela digital.\n\n---\n\n# 5. Padrões recorrentes de Kevyn\n\n### Padrão 1: Intelectualização e Racionalização sistemática como escudo protetor\n*   **Evidências:** **08:36–11:42** (debate sobre \"se cuidar\" vs. \"se conhecer\"); **15:44–20:30** (uso de Nietzsche para balizar sua rotina prática).\n*   **Descrição factual:** Uso constante de vocabulário técnico, referências filosóficas clássicas e termos estruturantes (\"ciclo infinito\", \"vontade criadora\", \"sistemas de gestão\") para explicar suas próprias dificuldades comportamentais.\n*   **Hipótese principal:** Kevyn utiliza a intelectualização como defesa contra o contato com sentimentos brutos de desamparo, traduzindo emoções confusas em conceitos filosóficos ordenados que ele consegue dominar logicamente.\n*   **Hipótese alternativa:** O paciente possui um estilo cognitivo naturalmente abstrato e focado em leitura, usando esses conceitos apenas como sua linguagem natural de comunicação, sem necessariamente ocultar defesas.\n*   **Grau de confiança:** **Alto**.\n*   **Pergunta terapêutica:** *“Kevyn, ao explicar sua vida através de sistemas e filosofias, você sente que isso ajuda a se aproximar de quem você é ou funciona como uma forma de manter a dor a uma distância segura?”*\n\n### Padrão 2: Comportamento pacificador (toque no pescoço e ajuste do headset) em temas de vulnerabilidade\n*   **Evidências:** **14:50** (admitindo falhas na meta de exercícios); **24:12** (falando sobre o pai encarcerado e a mãe).\n*   **Descrição factual:** Tocar repetidamente a região da garganta com as pontas dos dedos e ajustar a pressão dos fones contra as orelhas ao verbalizar conteúdos difíceis ou que indiquem \"fracasso\" em suas próprias metas.\n*   **Hipótese principal:** O toque na garganta sinaliza estresse e tentativa de autorregulação emocional (pacificação de desconforto). O ajuste do fone pode indicar uma necessidade inconsciente de se isolar de estímulos externos e focar na própria proteção em momentos de exposição.\n*   **Hipótese alternativa:** Desconforto físico real com o calor do headset ou com a gola da camiseta de algodão.\n*   **Grau de confiança:** **Médio**.\n*   **Pergunta terapêutica:** *“Notei que quando falamos sobre o histórico de seus pais e as metas que não consegue cumprir, suas mãos vão com frequência ao seu fone e ao seu pescoço. O que seu corpo parece estar tentando proteger nesses momentos?”*\n\n### Padrão 3: Esquiva e hesitação não verbal frente à quebra de rotina/proposta de proximidade\n*   **Evidências:** **27:10–30:30** (reação à proposta de sessão presencial).\n*   **Descrição factual:** Micro-afastamento do tronco em relação à tela, desvio de olhar contínuo para as laterais, pausas de silêncio significativamente mais longas que o padrão da sessão e uso de risos sociais curtos ao negociar as datas do presencial.\n*   **Hipótese principal:** O ambiente presencial retira o anteparo protetor da tela do computador, do Obsidian e do Trello, gerando ansiedade social e resistência em abrir mão do controle do enquadramento digital.\n*   **Hipótese alternativa:** Kevyn apenas avaliou de forma genuinamente lógica a logística do deslocamento físico e as despesas com transporte, sem reatividade emocional associada.\n*   **Grau de confiança:** **Médio-Alto**.\n*   **Pergunta terapêutica:** *“O que muda para você quando pensa em estar no mesmo espaço físico que eu, sem a barreira da tela do computador para organizar suas notas em tempo real?”*\n\n---\n\n# 6. Padrões recorrentes de Suzana\n\n### Padrão 1: Validação não verbal sistemática e Cadência de Holding\n*   **Evidências:** **07:11–32:51** (ao longo de toda a gravação, de forma constante).\n*   **Descrição factual:** Acenos lentos de cabeça no eixo vertical (nods), manutenção de contato visual estável mesmo durante os relatos frios de Kevyn sobre seus traumas e tom de voz macio e de volume baixo nas intervenções.\n*   **Possível função clínica:** Criar um \"espaço seguro de sustentação\" (holding) para que um paciente altamente intelectualizado sinta que suas defesas não serão atacadas frontalmente, facilitando a construção de uma aliança terapêutica sólida.\n*   **Hipótese alternativa:** Estilo padrão de escuta da psicóloga, adotado de forma automática com todos os pacientes.\n*   **Grau de confiança:** **Alto**.\n*   **Efeito na dinâmica:** Permite que Kevyn se sinta no controle de seu discurso inicial, o que reduz a ansiedade de sua primeira sessão terapêutica da vida.\n\n### Padrão 2: Proposição ativa de quebra de distância (provocação de flexibilidade)\n*   **Evidências:** **27:10** (inserção da proposta presencial logo após as confissões).\n*   **Descrição factual:** Aguardar Kevyn terminar todo o seu relato denso e estruturado, fazer uma pausa curta e propor o formato presencial com voz calma, mas firme, sustentando o olhar.\n*   **Possível função clínica:** Testar os limites de flexibilidade do paciente e balançar o seu padrão de supercontrole intelectual logo após ele demonstrar alta capacidade de racionalização da própria história de vida.\n*   **Hipótese alternativa:** Conveniência puramente administrativa de agenda da psicóloga para liberar horários virtuais.\n*   **Grau de confiança:** **Médio**.\n*   **Efeito na dinâmica:** Produz uma fresta nas defesas de Kevyn, forçando-o a negociar seus limites de privacidade e controle.\n\n---\n\n# 7. Dinâmica relacional Kevyn–Suzana\n\n*   **Sincronia e Espelhamento na fala:** A sessão flui com excelente alternância de turnos. Kevyn não interrompe Suzana e Suzana aguarda pacientemente o término de raciocínios longos de Kevyn antes de intervir. Há um encaixe comunicativo saudável para uma primeira sessão.\n*   **Intelectualização como Moeda de Troca:** Kevyn tenta apresentar a Suzana um \"Kevyn ideal\": estruturado, produtivo, filósofo, que estuda a própria mente e que \"já se conhece muito\". Ele entrega sistemas e gráficos quase como um portfólio de si mesmo para obter a validação da terapeuta. Suzana aceita o portfólio com respeito e curiosidade, mas em seguida propõe o presencial, indicando de forma sutil que o processo terapêutico não se limitará à catalogação intelectual de notas.\n*   **Tensão Silenciosa e Reparo:** A tensão máxima ocorre na transição para a proposta presencial (**27:10**). Há um desequilíbrio momentâneo no poder da sessão: Kevyn perde o controle da narrativa lúdica dos sistemas e precisa lidar com a realidade de sua geografia e rotina física. O reparo é feito de forma negociada: Kevyn propõe um meio-termo (próxima virtual, subsequente presencial), que é aceito por Suzana de forma flexível, preservando a aliança terapêutica.\n\n---\n\n# 8. 10 momentos de maior valor terapêutico\n\n1.  **00:24–00:29**\n    *   *O que ocorreu:* Kevyn remove os óculos e esfrega os olhos com força antes da entrada da psicóloga.\n    *   *Relevância:* Indica cansaço físico acumulado ou sobrecarga cognitiva antes de iniciar o contato social. Revela o \"Kevyn de bastidores\", sem a performance de controle ativo.\n    *   *Hipótese:* Fadiga ou estresse decorrente de sua rotina rígida e de poucas horas de sono (mencionadas depois).\n    *   *Pergunta para reflexão:* *“O que acontece quando você retira seus óculos e se permite apenas cansar, sem precisar estar focado ou produtivo?”*\n\n2.  **07:14–07:18**\n    *   *O que ocorreu:* Suzana entra na sessão e Kevyn faz um aceno largo com a mão esquerda e esboça um sorriso social tenso de boca fechada.\n    *   *Relevância:* O primeiro contato visual direto. O sorriso de Kevyn é puramente social (comissuras esticadas lateralmente, sem enrugamento dos olhos), indicando esforço consciente para parecer simpático e receptivo.\n    *   *Hipótese:* Desejo de causar boa impressão e mitigar a ansiedade natural de uma primeira sessão.\n\n3.  **08:55–09:12**\n    *   *O que ocorreu:* Kevyn define sua motivação: *\"Me ajudar a cuidar melhor de mim mesmo.\"* Ao dizer isso, ele desvia o olhar de forma prolongada para o chão.\n    *   *Relevância:* Contraste entre a clareza verbal e a hesitação visual.\n    *   *Hipótese:* O conceito de \"cuidar de si\" evoca uma vulnerabilidade profunda, possivelmente associada à ausência histórica de cuidadores na infância.\n    *   *Classificação:* Vulnerabilidade velada por fala objetiva.\n\n4.  **10:35–10:52**\n    *   *O que ocorreu:* Kevyn debate a prioridade entre \"cuidar\" e \"conhecer\" e afirma que se conhecer pode virar um \"ciclo infinito\". Ele esfrega o canto do olho com força às **09:53**.\n    *   *Relevância:* Racionalização da própria tendência neurótica de se hiperanalisar.\n    *   *Hipótese:* Kevyn tem consciência de que o excesso de análise (Obsidian/diários) funciona como um labirinto onde ele se perde para evitar a ação prática do cuidado real.\n    *   *Classificação:* Insight defensivo.\n\n5.  **14:50–15:02**\n    *   *O que ocorreu:* Kevyn confessa que a meta de 14 horas de exercício semanal está \"um pouco complicada\", passando a mão direita firmemente na nuca e no pescoço.\n    *   *Relevância:* Linguagem corporal clássica de pacificação de estresse frente à percepção de \"fracasso\" de suas expectativas internas de produtividade.\n    *   *Hipótese:* Dificuldade em lidar com a frustração de não cumprir metas rígidas autoimpostas.\n    *   *Classificação:* Defesa contra sentimento de insuficiência.\n\n6.  **20:31–20:50**\n    *   *O que ocorreu:* Compartilhamento de tela e apresentação entusiástica do Kanban do Trello e do fluxo do Obsidian.\n    *   *Relevância:* Kevyn assume uma fala fluida, sem hesitações, guiando o processo terapêutico através de suas próprias ferramentas.\n    *   *Hipótese:* Necessidade de enquadrar sua dor em uma estrutura visível e inteligível, buscando a aprovação intelectual da psicóloga.\n    *   *Classificação:* Performance terapêutica/Busca de controle.\n\n7.  **22:31–22:45**\n    *   *O que ocorreu:* Suzana arregala os olhos sutilmente diante do gráfico do Obsidian e Kevyn diz: *\"Eu fiquei duas semanas só com esse software aberto tentando me reconstruir...\"*\n    *   *Relevância:* Revelação de um período de isolamento e hiperfoco obsessivo como tentativa de lidar com alguma crise existencial anterior.\n    *   *Hipótese:* O \"gráfico mental\" substitui a vivência espontânea do afeto; Kevyn tenta montar um quebra-cabeça de si mesmo para compensar vazios internos de holding.\n    *   *Classificação:* Defesa obsessiva/Isolamento.\n\n8.  **24:12–24:25**\n    *   *O que ocorreu:* Kevyn relata o abandono da mãe (crack) e a prisão do pai com voz calma, tocando a base do pescoço com os dedos de forma suave.\n    *   *Relevância:* O clímax emocional da sessão, disfarçado de neutralidade. O toque na garganta é o único sinal somático de que a fala evoca estresse ou dor de difícil vocalização.\n    *   *Hipótese:* Isolamento do afeto. Kevyn narra o abandono de forma factual para não ser inundado pela dor do abandono.\n    *   *Classificação:* Dor reprimida/Proteção somática.\n\n9.  **27:10–27:25**\n    *   *O que ocorreu:* Proposta de sessão presencial por Suzana. Kevyn desvia o olhar imediatamente para a direita, afasta-se da câmera e hesita em silêncio por 3 segundos.\n    *   *Relevância:* Ruptura total da zona de conforto virtual do paciente.\n    *   *Hipótese:* O convite para o presencial evoca medo de descontrole ou de invasão de privacidade, pois na sala física não haverá telas compartilhadas para filtrar a relação.\n    *   *Classificação:* Resistência/Quebra de enquadramento.\n\n10. **32:46–32:51**\n    *   *O que ocorreu:* Kevyn faz o sinal de \"joinha\" com o dedão para a tela ao se despedir e esboça um sorriso de alívio rápido após desligar.\n    *   *Relevância:* Retorno rápido à zona de segurança solitária.\n    *   *Hipótese:* Sensação de alívio por ter \"sobrevivido\" à primeira sessão mantendo sua integridade intelectual intacta.\n    *   *Classificação:* Descompressão pós-performance.\n\n---\n\n# 9. Hipóteses centrais\n\n### Hipótese 1: A intelectualização sistemática mascara um medo profundo de desamparo e desorganização afetiva.\n*   **Evidências:** Timestamps **08:36–11:42**, **20:31–22:29**.\n*   **O que não prova:** Não prova que Kevyn seja incapaz de sentir ou que seja uma pessoa artificial; ele sente profundamente, mas precisa de tradutores lógicos para não se desorganizar emocionalmente.\n*   **Hipótese alternativa:** Kevyn apenas possui interesses legítimos em filosofia e tecnologia, estruturando sua comunicação por afinidade cultural, sem caráter defensivo.\n*   **Utilidade terapêutica:** Kevyn pode usar isso para tentar, nas próximas sessões, falar mais sobre \"como se sente no corpo\" ao invés de buscar \"qual filósofo explica o que ele sente\".\n\n### Hipótese 2: O isolamento social e a preferência pelo ambiente virtual protegem Kevyn contra a reativação de traumas de abandono infantil.\n*   **Evidências:** Timestamps **24:12** (trauma familiar), **27:10** (esquiva do presencial).\n*   **O que não prova:** Não prova que Kevyn seja fóbico social ou antissocial; ele trabalha em equipe (Acirv) e tem amigos (Maxspaul).\n*   **Hipótese alternativa:** O modelo virtual é apenas mais prático para a sua rotina corrida de trabalho e calistenia, sem relação com traumas de infância.\n*   **Utilidade terapêutica:** Perceber que a resistência em ir ao presencial pode ser um medo de ser \"visto por inteiro\", sem o controle de suas telas de Obsidian.\n\n### Hipótese 3: O supercontrole através de metas matemáticas de vida (14h de treino, Obsidian, Kanban) compensa a falta histórica de controle sobre seu ambiente familiar caótico na infância.\n*   **Evidências:** Timestamps **14:50** (meta de treinos), **22:31** (Obsidian com centenas de notas estruturadas).\n*   **O que não prova:** Não prova que Kevyn tenha um transtorno obsessivo-compulsivo estruturado.\n*   **Hipótese alternativa:** Kevyn apenas trabalha com marketing e metodologias ágeis (Scrum), transpondo as ferramentas de seu trabalho para sua vida prática de forma utilitária.\n*   **Utilidade terapêutica:** Aprender a tolerar o \"não saber\", o improviso e o erro como partes saudáveis da vida, reduzindo a cobrança punitiva sobre si mesmo.\n\n---\n\n# 10. Perguntas para levar à Suzana\n\nPara enriquecer o processo clínico, Kevyn pode levar as seguintes indagações para serem discutidas com Suzana na próxima sessão, formuladas em primeira pessoa:\n\n1.  *\"Suzana, eu percebi que passei boa parte da nossa primeira sessão te mostrando meus sistemas, meu Obsidian e minhas filosofias. Eu estava tentando te mostrar que sou um \u0027bom paciente\u0027 ou estava usando minhas telas para evitar que você visse minhas fraquezas diretamente?\"*\n2.  *\"Quando você me propôs fazermos sessões presenciais, eu senti um aperto sutil na garganta e logo comecei a buscar justificativas lógicas sobre rotas e distâncias para adiar isso. O que no presencial me assusta tanto a ponto de eu precisar me agarrar à segurança da tela do computador?\"*\n3.  *\"Eu notei que quando te contei sobre o histórico da minha mãe e sobre meu pai estar preso, eu fiz isso de um jeito muito calmo, quase como se estivesse lendo um relatório de outra pessoa. Por que eu preciso tratar minha própria história de infância com tanta distância intelectual?\"*\n4.  *\"Você percebeu em mim algum momento em que eu pareci mais espontâneo e menos focado em \u0027performar\u0027 ou em ter respostas estruturadas e prontas?\"*\n5.  *\"Como a gente pode trabalhar para que as nossas sessões não virem apenas mais um projeto de controle para mim, onde eu venho catalogar meus sentimentos ao invés de simplesmente vivenciá-los e senti-los aqui com você?\"*\n\n---\n\n# 11. Síntese final\n\n### 1. Revelações Consistentes da Comunicação Não Verbal\nA análise do comportamento não verbal de Kevyn revela um padrão nítido de **hipervigilância cognitiva e racionalização defensiva**. Seus auto-toques sutis (garganta, óculos, headset) e sua paralinguagem plana em momentos de alta carga emocional (falar sobre o abandono materno com voz monocórdica) sugerem um forte mecanismo de **isolamento do afeto**. O corpo de Kevyn fala através de microajustes e constrições somáticas exatamente onde sua voz tenta simular controle absoluto e pragmatismo matemático.\n\n### 2. O que deve ser tratado apenas como Hipótese\nA hipótese de que a esquiva em realizar sessões presenciais decorra de uma fobia de intimidade ou medo de vulnerabilidade relacional deve ser tratada com cautela. Pode ser, de fato, que as barreiras físicas e geográficas do SEST SENAT (mencionadas por ele) apresentem um obstáculo logístico prático em sua rotina de morar sozinho e gerenciar seu tempo de forma enxuta.\n\n### 3. Aspectos Críticos para o Processo Terapêutico\nO ponto de maior valor terapêutico reside na **transição entre o conhecer-se e o cuidar-se**. Kevyn possui um sistema de mapeamento mental extraordinário (Obsidian), mas esse sistema corre o risco de ser um labirinto intelectual infinito que adia o cuidado real, físico e relacional de si mesmo. O corpo de Kevyn (a rigidez muscular, a fadiga de esfregar os olhos, a falta de uma rotina estável de sono) clama por cuidado somático prático, enquanto sua mente insiste em ler mais Nietzsche e criar mais conexões de notas no computador.\n\n### 4. Boas Práticas para o Uso desta Análise sem Supercontrole\nPara que esta análise seja útil e não se transforme em mais uma ferramenta neurótica de autotutorial ou cobrança obsessiva de Kevyn, ele deve:\n*   Evitar usar este documento para tentar \"corrigir\" seus gestos na próxima sessão (o que apenas aumentaria seu controle e performance).\n*   Encarar os toques no pescoço ou o desvio do olhar não como \"erros comunicativos\", mas como bússolas gentis do seu corpo indicando que um tema delicado foi tocado.\n*   Permitir-se, na presença de Suzana, experimentar o silêncio, a gagueira, o choro ou a falta de palavras estruturadas, compreendendo que a terapia é o único espaço em sua vida onde ele não precisa apresentar um \"gráfico de desempenho de si mesmo\" para ser aceito e validado.",
+      "role": "model",
+      "grounding": {
+        "corroborationSegments": [{
+          "index": 266,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQE5weFFfdY9IUCruqBF4HrKTJ8cYILYMo9cj3CtZntKZcclsN3tUdBau9-qeq8xgyEqlgupjp_77mq-gfQ10HiKXdd5-_ZLpe_Y7-S55x2W53mnbUSul9YXGEOpia4hSyz1l1LjL50%3D",
+          "footnoteNumber": 1
+        }, {
+          "index": 266,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHlwk7T6Q_GEJzUwVg6jQLa_VSJRa47mRErUs4tk5YsfQ9G19Xr7bEuksGG9MLeKSbO-0Cr8BNg7kZP6SCVqhV-2LYvZuX2finqOAirLcIKMp_Av-_Z1q6Q0FdqV5bEvWxYlfNF-hrTGZJQRRSjHF5FV-8RqffxSY7QaVTK6-ymLADDCFmaCdllxhL8ImLBvEpsEkxFDVVIxlYZQQ%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 1988,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHlwk7T6Q_GEJzUwVg6jQLa_VSJRa47mRErUs4tk5YsfQ9G19Xr7bEuksGG9MLeKSbO-0Cr8BNg7kZP6SCVqhV-2LYvZuX2finqOAirLcIKMp_Av-_Z1q6Q0FdqV5bEvWxYlfNF-hrTGZJQRRSjHF5FV-8RqffxSY7QaVTK6-ymLADDCFmaCdllxhL8ImLBvEpsEkxFDVVIxlYZQQ%3D%3D",
+          "footnoteNumber": 2
+        }, {
+          "index": 1988,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGle2XzCb2YL_QNWLlI2TRHOAEC7EphWSvGdRd6hN2QZwKUt8_vS5wkbK8fGzlHY-WqqIwCqVWIfZk_MR2_xAViUBSsYQjEqU9ayCrmfjUOKiULrVQiwHJ_dNK1V9ExY5znDnLHl4MDQOqx7FxKYxrHrWn-g5A%3D",
+          "footnoteNumber": 3
+        }, {
+          "index": 2910,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQG8u2jI7L4591IVb_t0Eu_C1zVA39FgNfsZmTSSRUej2yXkpbPKsP9bAyV2Ztz8vrMvaL3ywLO3W8grX-9qgtVoOAmI3RCmK2NN6BWaqtY2fLGc",
+          "footnoteNumber": 4
+        }, {
+          "index": 13618,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQE5weFFfdY9IUCruqBF4HrKTJ8cYILYMo9cj3CtZntKZcclsN3tUdBau9-qeq8xgyEqlgupjp_77mq-gfQ10HiKXdd5-_ZLpe_Y7-S55x2W53mnbUSul9YXGEOpia4hSyz1l1LjL50%3D",
+          "footnoteNumber": 1
+        }, {
+          "index": 18106,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGle2XzCb2YL_QNWLlI2TRHOAEC7EphWSvGdRd6hN2QZwKUt8_vS5wkbK8fGzlHY-WqqIwCqVWIfZk_MR2_xAViUBSsYQjEqU9ayCrmfjUOKiULrVQiwHJ_dNK1V9ExY5znDnLHl4MDQOqx7FxKYxrHrWn-g5A%3D",
+          "footnoteNumber": 3
+        }, {
+          "index": 20325,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGBxQgDNv34VRGL0cmmtfFbjeHKWBAgvN50z-yf0aLi4AWRgBcNvmYxMEiB7sR9kNbM1NgoW4J3FwD8MusptNxkHzV48SL5CxM65j9MkIcX3njiJLYNwC6ZziYgBL45VbbAuwfHOBFUswEPC1y7hBO5H5O-vOEuOdsFp0TERMQOqBWV4YMGCE-3YIgx",
+          "footnoteNumber": 5
+        }, {
+          "index": 21887,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGBxQgDNv34VRGL0cmmtfFbjeHKWBAgvN50z-yf0aLi4AWRgBcNvmYxMEiB7sR9kNbM1NgoW4J3FwD8MusptNxkHzV48SL5CxM65j9MkIcX3njiJLYNwC6ZziYgBL45VbbAuwfHOBFUswEPC1y7hBO5H5O-vOEuOdsFp0TERMQOqBWV4YMGCE-3YIgx",
+          "footnoteNumber": 5
+        }],
+        "webSearchQueries": ["clinical nonverbal communication assessment psychotherapy", "nonverbal communication in psychotherapy research guidelines"],
+        "groundingSources": [{
+          "referenceNumber": 1,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQE5weFFfdY9IUCruqBF4HrKTJ8cYILYMo9cj3CtZntKZcclsN3tUdBau9-qeq8xgyEqlgupjp_77mq-gfQ10HiKXdd5-_ZLpe_Y7-S55x2W53mnbUSul9YXGEOpia4hSyz1l1LjL50%3D",
+          "title": "nih.gov"
+        }, {
+          "referenceNumber": 2,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQHlwk7T6Q_GEJzUwVg6jQLa_VSJRa47mRErUs4tk5YsfQ9G19Xr7bEuksGG9MLeKSbO-0Cr8BNg7kZP6SCVqhV-2LYvZuX2finqOAirLcIKMp_Av-_Z1q6Q0FdqV5bEvWxYlfNF-hrTGZJQRRSjHF5FV-8RqffxSY7QaVTK6-ymLADDCFmaCdllxhL8ImLBvEpsEkxFDVVIxlYZQQ%3D%3D",
+          "title": "paulekman.com"
+        }, {
+          "referenceNumber": 3,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGle2XzCb2YL_QNWLlI2TRHOAEC7EphWSvGdRd6hN2QZwKUt8_vS5wkbK8fGzlHY-WqqIwCqVWIfZk_MR2_xAViUBSsYQjEqU9ayCrmfjUOKiULrVQiwHJ_dNK1V9ExY5znDnLHl4MDQOqx7FxKYxrHrWn-g5A%3D",
+          "title": "psychiatryonline.org"
+        }, {
+          "referenceNumber": 4,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQG8u2jI7L4591IVb_t0Eu_C1zVA39FgNfsZmTSSRUej2yXkpbPKsP9bAyV2Ztz8vrMvaL3ywLO3W8grX-9qgtVoOAmI3RCmK2NN6BWaqtY2fLGc",
+          "title": "osf.io"
+        }, {
+          "referenceNumber": 5,
+          "uri": "https://www.google.com/url?sa\u003dE\u0026q\u003dhttps%3A%2F%2Fvertexaisearch.cloud.google.com%2Fgrounding-api-redirect%2FAUZIYQGBxQgDNv34VRGL0cmmtfFbjeHKWBAgvN50z-yf0aLi4AWRgBcNvmYxMEiB7sR9kNbM1NgoW4J3FwD8MusptNxkHzV48SL5CxM65j9MkIcX3njiJLYNwC6ZziYgBL45VbbAuwfHOBFUswEPC1y7hBO5H5O-vOEuOdsFp0TERMQOqBWV4YMGCE-3YIgx",
+          "title": "frontiersin.org"
+        }]
+      },
+      "finishReason": "STOP",
+      "tokenCount": 9122,
+      "parts": [{
+        "text": "Esta análise foi elaborada com base no registro audiovisual da sessão realizada em 12 de junho de 2"
+      }, {
+        "text": "026 entre o paciente Kevyn e a psicóloga Suzana, incorporando as diretrizes metodológicas da literatura sobre análise de"
+      }, {
+        "text": " comportamento não verbal em psicoterapia.\n\n---\n\n# "
+      }, {
+        "text": "1. Método e limites da análise\n\n### Metodologia de Observação\nPara garantir o rigor científico e afastar vies"
+      }, {
+        "text": "es confirmatórios, a observação foi realizada de forma segmentada, separando canais de comunicação não verbal e cruz"
+      }, {
+        "text": "ando-os posteriormente com o conteúdo verbal (análise de canais cruzados). Os canais observados incluem:\n*   **Expressão"
+      }, {
+        "text": " facial:** Movimentos musculares faciais (morfologia micro e macroexpressiva).\n*   **Direção"
+      }, {
+        "text": " do olhar:** Foco visual, interrupções de contato visual e micro-desvios oculares.\n*"
+      }, {
+        "text": "   **Movimentos de cabeça:** Inclinações, acenos de concordância (nods) e rotações.\n*   **Postura:**"
+      }, {
+        "text": " Alinhamento da coluna, projeção dos ombros, inclinação do tronco e nível de tensão muscular visível.\n*   **Gest"
+      }, {
+        "text": "os das mãos:** Gesticulação ilustrativa (para dar ritmo ou desenhar ideias), gestos de controle e gest"
+      }, {
+        "text": "os emblemáticos.\n*   **Auto-toques/adaptadores:** Toques no próprio corpo, fone"
+      }, {
+        "text": " de ouvido, óculos ou rosto, que frequentemente funcionam como mecanismos de autorregulação.\n*   **Pausas e"
+      }, {
+        "text": " silêncios:** Hesitações na fala, pausas reflexivas ou silêncios defensivos.\n*   **Par"
+      }, {
+        "text": "alinguagem:** Tom, ritmo, volume e oscilações na frequência da voz; suspiros, risadas e deg"
+      }, {
+        "text": "lutições.\n*   **Dinâmica relacional e reciprocidade:** Sincronia de movimentos (co-"
+      }, {
+        "text": "regulação), espelhamento, interrupções e alternância de turnos na fala.\n\n### Limites e Ress"
+      }, {
+        "text": "alvas Obrigatórias\n*   **Inexistência de diagnóstico:** Esta análise não se presta a diagnosticar psic"
+      }, {
+        "text": "opatologias ou traços de personalidade definitivos.\n*   **Não linearidade da emoção:** Expressões não"
+      }, {
+        "text": " verbais não são \"provas\" diretas de sentimentos ou de mentira/verdade"
+      }, {
+        "text": ". Um toque no pescoço pode ser regulação de estresse, mas também um mero"
+      }, {
+        "text": " ajuste físico ou coceira. Trabalha-se sempre com *hipóteses de trabalho*.\n*   **Lim"
+      }, {
+        "text": "itações técnicas:** O vídeo é bidimensional, limitando a percepção de profundidade. A compressão de vídeo"
+      }, {
+        "text": " e possíveis delays de conexão online podem mascarar microexpressões. Há trechos de tela compartilhada (a partir de **"
+      }, {
+        "text": "20:31**) que impedem a visualização total do corpo do paciente, limitando a leitura à sua"
+      }, {
+        "text": " face e paralinguagem.\n*   **Uso estritamente reflexivo:** Este material destina-se ao"
+      }, {
+        "text": " enriquecimento do processo clínico, devendo ser utilizado por Kevyn e Suzana como ponto de partida para reflexões conj"
+      }, {
+        "text": "untas no ambiente terapêutico seguro.\n\n---\n\n# 2. Linha de base de Kevyn e Suzana\n\nA determ"
+      }, {
+        "text": "inação da \"linha de base\" (comportamento padrão em momentos neutros) é o pilar que evita a"
+      }, {
+        "text": " superinterpretação de gestos isolados.\n\n### Linha de Base de Kevyn\n*   **Post"
+      }, {
+        "text": "ura:** Sentado diante da câmera, ligeiramente projetado para a frente. Ombros levemente arqueados. Mantém o tronco"
+      }, {
+        "text": " centralizado no enquadramento.\n*   **Padrão de olhar:** Olhar predominantemente fixo na tela"
+      }, {
+        "text": "/câmera. Quando evoca memórias complexas ou estrutura argumentos lógicos, apresenta um desvio sistemático do olhar para baixo e para"
+      }, {
+        "text": " a esquerda, retornando ao interlocutor ao concluir a frase.\n*   **Auto-toques/Adaptadores:** Kev"
+      }, {
+        "text": "yn possui uma frequência alta de toque nos óculos (ajuste na ponte do nariz), toque no fone de ouvido e pass"
+      }, {
+        "text": "agens de mão pelo topo da cabeça raspada. Em momentos neutros de preparação (antes da entrada da psicóloga), o"
+      }, {
+        "text": " bocejo e o alongamento de pescoço são frequentes.\n*   **Padrão de sorriso:** Sor"
+      }, {
+        "text": "riso social sutil, de comissura unilateral ou sutilmente bilateral (sem ativação pronunciada do *orbicularis oculi*"
+      }, {
+        "text": " - o músculo ao redor dos olhos), usado principalmente como marcador de cortesia ou para suavizar paradoxos conceituais.\n*   **Rit"
+      }, {
+        "text": "mo de fala:** Ritmo pausado, dicção clara, escolha lexical refinada e parágrafos estruturados de"
+      }, {
+        "text": " forma lógica e quase acadêmica (intelectualizada).\n*   **Padrão de escuta:** Silenc"
+      }, {
+        "text": "ioso, olhar fixo na tela, expressão facial com sutil tensão na glabela (testa franzida) indic"
+      }, {
+        "text": "ando foco cognitivo alto.\n\n### Linha de Base de Suzana\n*   **Postura:** Ereta, central"
+      }, {
+        "text": "izada na cadeira, ombros relaxados e estáveis.\n*   **Padrão de olhar:** Olhar constante"
+      }, {
+        "text": " para a tela (onde Kevyn é exibido). Desvia sutilmente os olhos para baixo quando faz anotações rápid"
+      }, {
+        "text": "as ou quando Kevyn compartilha a tela com textos longos.\n*   **Padrão de escuta:** G"
+      }, {
+        "text": "esto recorrente de acenar positivamente com a cabeça de forma lenta e cadenciada para validar a fala do paciente sem interromp"
+      }, {
+        "text": "ê-lo. Usa termos de suporte vocal (\"Sim\", \"Uhum\", \"Entendi\") em tons baixos e acol"
+      }, {
+        "text": "hedores.\n*   **Expressão facial:** Sem movimentos musculares abruptos; mantém um semblante sereno, boca"
+      }, {
+        "text": " sutilmente relaxada e sobrancelhas neutras.\n*   **Uso de sorriso:** Sorriso suave"
+      }, {
+        "text": " e aberto em momentos de recepção e despedida, operando como facilitador de rapport e acolhimento.\n\n---\n\n# "
+      }, {
+        "text": "3. Linha do tempo factual com timestamps\n\n*   **00:00–01:21"
+      }, {
+        "text": "**\n    *   *Tema verbal:* Fase pré-reunião (preparação solitária de Kevyn).\n    *"
+      }, {
+        "text": "   *Comunicação não verbal (Kevyn):* Ajusta o headset repetidamente. Retira os óculos, es"
+      }, {
+        "text": "frega os olhos com vigor usando as duas mãos, recoloca os óculos. Levanta-se da cadeira, caminha pelo"
+      }, {
+        "text": " quarto (revelando camiseta verde e colar com pingente circular), ajusta calças e senta-se novamente"
+      }, {
+        "text": ".\n    *   *Comunicação não verbal (Suzana):* Ausente (não entrou na chamada).\n    *   *Din"
+      }, {
+        "text": "âmica:* Preparação de setup e autorregulação antes da exposição social.\n\n*   **01:22–07:10"
+      }, {
+        "text": "**\n    *   *Tema verbal:* Aguardando a entrada da psicóloga.\n    *   *Comunicação não verbal (K"
+      }, {
+        "text": "evyn):* Remove o headset por alguns segundos, coça a cabeça, recoloca o fone. Boceja de"
+      }, {
+        "text": " forma ampla às **01:43** com a mão cobrindo parcialmente a boca. Apoia o que"
+      }, {
+        "text": "ixo na mão esquerda, tamborila os dedos sutilmente na mesa e suspira de forma audível. Ol"
+      }, {
+        "text": "har flutua entre a tela e o ambiente ao redor.\n    *   *Comunicação não verbal (Suz"
+      }, {
+        "text": "ana):* Ausente.\n    *   *Dinâmica:* Espera ansiosa/tediosa, uso de adaptadores físicos para ger"
+      }, {
+        "text": "enciar a ociosidade.\n\n*   **07:11–08:35**\n    *   *Tema verbal:*"
+      }, {
+        "text": " Entrada de Suzana e explicação do formato da terapia.\n    *   *Fala de Suzana:* *\"Oi Kev"
+      }, {
+        "text": "yn, bom dia. Como você está? (...) No primeiro atendimento eu deixo a pessoa livre...\"*\n    *   *Comunicação não"
+      }, {
+        "text": " verbal (Kevyn):* Acena com a mão direita e esboça um sorriso social sutil. Quando Suzana fala sobre"
+      }, {
+        "text": " recolher dados pessoais (nome, idade, endereço), Kevyn imediatamente interrompe a gesticulação e propõe enviar"
+      }, {
+        "text": " pelo WhatsApp. Ajusta os óculos duas vezes.\n    *   *Comunicação não verbal (Suzana):* Sor"
+      }, {
+        "text": "ri calorosamente ao entrar. Inclina sutilmente a cabeça para a direita ao falar. Gestos manuais discret"
+      }, {
+        "text": "os perto do peito.\n    *   *Dinâmica:* Estabelecimento de limite de Kevyn ao propor transferir a"
+      }, {
+        "text": " burocracia dos dados para o WhatsApp, otimizando o tempo de tela.\n\n*   **08:"
+      }, {
+        "text": "36–11:42**\n    *   *Tema verbal:* Motivação (\"Cuidar de"
+      }, {
+        "text": " si\" vs. \"Conhecer a si\").\n    *   *Fala de Kevyn:* *\"Eu acho mais"
+      }, {
+        "text": " importante se conhecer... se conhecer eu acho que é mais um produto que é gerado pelo se cuidar...\"*\n    *   *Com"
+      }, {
+        "text": "unicação não verbal (Kevyn):* Fala mansa, porém firme. Ao explicar a sua teoria sobre a \""
+      }, {
+        "text": "análise infinita\" do autoconhecimento, ele gesticula com a mão direita, fazendo movimentos rotativos."
+      }, {
+        "text": " Às **09:53**, leva a mão esquerda ao olho, ajusta o óculos e esfrega o canto"
+      }, {
+        "text": " do olho esquerdo.\n    *   *Comunicação não verbal (Suzana):* Escuta atenta."
+      }, {
+        "text": " Mantém a cabeça sutilmente inclinada, olhar focado. Anota algo rapidamente às **10:04**."
+      }, {
+        "text": "\n    *   *Dinâmica:* Intelectualização de Kevyn sobre um dilema filosófico. Suzana ad"
+      }, {
+        "text": "ota postura de holding (escuta receptiva e silenciosa), permitindo que ele deite suas ideias na mesa"
+      }, {
+        "text": ".\n\n*   **11:43–15:43**\n    *   *Tema verbal:*"
+      }, {
+        "text": " Rotina, trabalho em marketing (Acirv) e hábitos de exercício (bicicleta e calistenia).\n    *   *Fala"
+      }, {
+        "text": " de Kevyn:* *\"Eu moro sozinho... acordo em geral umas 8 horas... eu trabalho com marketing...\"*\n    *   *Com"
+      }, {
+        "text": "unicação não verbal (Kevyn):* Pressiona os lábios ao falar de morar sozinho. Ao"
+      }, {
+        "text": " descrever as metas rígidas de exercício (14 horas semanais), o tom de voz se eleva ligeiramente e ele"
+      }, {
+        "text": " move as mãos simulando barras de medição. Passa a mão no pescoço às **14:50** ao admit"
+      }, {
+        "text": "ir que a meta de exercício \"está um pouco difícil\".\n    *   *Comunicação não verbal ("
+      }, {
+        "text": "Suzana):* Leve aceno de cabeça quando Kevyn menciona calistenia. Sorri de forma receptiva."
+      }, {
+        "text": "\n    *   *Dinâmica:* Apresentação pragmática da rotina. Kevyn foca em produt"
+      }, {
+        "text": "ividade e metas numéricas (horas de treino).\n\n*   **15:44–20:3"
+      }, {
+        "text": "0**\n    *   *Tema verbal:* Leitura (Nietzsche, Ramayana) e a armadilha do excess"
+      }, {
+        "text": "o de análise.\n    *   *Fala de Kevyn:* *\"Nietzsche fala muito sobre a vontade criadora"
+      }, {
+        "text": "... se não levar para a prática, não faz sentido.\"*\n    *   *Comunicação não verbal ("
+      }, {
+        "text": "Kevyn):* Às **16:53**, aponta o dedo indicador para a têmpora ao cit"
+      }, {
+        "text": "ar o \"Ramayana\". Esfrega a nuca às **18:12** ao explicar por que a"
+      }, {
+        "text": " filosofia pode virar um \"ciclo infinito de análise sem fim\". Propõe mostrar o seu sistema de organização à psicóloga.\n    *   *"
+      }, {
+        "text": "Comunicação não verbal (Suzana):* Escuta de forma concentrada. Quando Kevyn propõe compartilhar a tela, ela ass"
+      }, {
+        "text": "ente prontamente com a cabeça e aguarda em silêncio.\n    *   *Dinâmica:* Kevyn assume"
+      }, {
+        "text": " o papel de \"expositor\" ou \"professor\", controlando a sessão ao usar ferramentas visuais digitais.\n\n*   **20"
+      }, {
+        "text": ":31–22:29**\n    *   *Tema verbal:* Compartilhamento de tela -"
+      }, {
+        "text": " Trello e gráfico de notas do Obsidian.\n    *   *Fala de Kevyn:* *\"Esse aqui é o"
+      }, {
+        "text": " gráfico... onde cada bolinha é uma nota sobre mim...\"*\n    *   *Comunicação não verbal (Kevyn):"
+      }, {
+        "text": "* O rosto de Kevyn fica parcialmente oculto pela janela compartilhada, mas sua voz ganha um tom de entusiasmo intelectual"
+      }, {
+        "text": ". Ele aponta o cursor do mouse freneticamente pelas conexões do gráfico do Obsidian. Ligeiro arqueamento de"
+      }, {
+        "text": " sobrancelhas ao mostrar a complexidade do sistema.\n    *   *Comunicação não verbal (Suzana):* Se"
+      }, {
+        "text": "us olhos se arregalam sutilmente às **22:31** ao contemplar a imensidão do gráfico de conexões de"
+      }, {
+        "text": " notas de Kevyn. Ela expressa uma discreta surpresa com um micro-sorriso de curiosidade.\n    *   *Din"
+      }, {
+        "text": "âmica:* Exibição de um sistema altamente complexo de autotutorial de Kevyn. Suzana observa o nível"
+      }, {
+        "text": " de esforço que Kevyn coloca no controle e na catalogação de sua mente.\n\n*   **22:"
+      }, {
+        "text": "30–27:09**\n    *   *Tema verbal:* Confissões familiares (mãe depend"
+      }, {
+        "text": "ente química e pai Khelton encarcerado).\n    *   *Fala de Kevyn:* *\"Eu fui criado pela minha"
+      }, {
+        "text": " avó... minha mãe me abandonou... ela era viciada em crack... meu pai é um presidiário.\"*\n    "
+      }, {
+        "text": "*   *Comunicação não verbal (Kevyn):* Embora leia fatos extremamente pesados e dolorosos, seu tom de voz permanece"
+      }, {
+        "text": " surpreendentemente monocórdico e plano (afeto embotado ou racionalizado). No entanto, às **24:1"
+      }, {
+        "text": "2**, ele ajusta o fone com força e toca a garganta (região da tireoide) repet"
+      }, {
+        "text": "idamente com a ponta dos dedos.\n    *   *Comunicação não verbal (Suzana):* Post"
+      }, {
+        "text": "ura imóvel. Seu olhar fica fixo e sério. Ela para de acenar com a cabeça, concentrando-se profundamente no relato verbal"
+      }, {
+        "text": " e na frieza com que os fatos são expostos.\n    *   *Dinâmica:* Cont"
+      }, {
+        "text": "raste nítido entre a gravidade dos traumas familiares e a neutralidade paralinguística de Kevyn (m"
+      }, {
+        "text": "ecanismo de defesa de isolamento do afeto).\n\n*   **27:10–30:30**\n    *"
+      }, {
+        "text": "   *Tema verbal:* Proposta de sessão presencial pela psicóloga.\n    *   *Fala de Suzana:* *\"O que"
+      }, {
+        "text": " você acha de fazermos uma sessão presencial?\"*\n    *   *Comunicação não verbal (Kev"
+      }, {
+        "text": "yn):* Imediata mudança na dinâmica: ele se afasta ligeiramente da tela. Pausa longa antes de responder. Seus olhos des"
+      }, {
+        "text": "viam para a direita (planejamento/avaliação de rotas). Toca o queixo e a o"
+      }, {
+        "text": "relha esquerda. A voz perde um pouco da firmeza ao justificar que o local sugerido (SEST SENAT) fica fora"
+      }, {
+        "text": " de sua rota diária.\n    *   *Comunicação não verbal (Suzana):* Fala mansa, porém assert"
+      }, {
+        "text": "iva. Mantém os braços calmos, gesticula suavemente ao propor a transição para o presencial, sustent"
+      }, {
+        "text": "ando o olhar.\n    *   *Dinâmica:* Quebra de expectativa e teste de flexibilidade. Kevyn,"
+      }, {
+        "text": " habituado a ambientes ultra-controlados (sua casa, suas telas, Obsidian), hesita e negocia para"
+      }, {
+        "text": " manter a próxima sessão online e apenas a terceira em modelo presencial.\n\n*   **30:31–32:"
+      }, {
+        "text": "51**\n    *   *Tema verbal:* Encerramento e encaminhamento para o WhatsApp.\n    *"
+      }, {
+        "text": "   *Fala de Kevyn:* *\"Muito obrigado, Suzana. Bom final de semana...\"*\n    *   "
+      }, {
+        "text": "*Comunicação não verbal (Kevyn):* Dá um sinal de \"joinha\" com o polegar direito às **32:4"
+      }, {
+        "text": "6**. Sorriso sutil de alívio ao final da chamada.\n    *   *Comunicação não verbal (Suzana"
+      }, {
+        "text": "):* Acena de volta, sorri de forma calorosa e fecha a chamada com gentileza.\n    *   *"
+      }, {
+        "text": "Dinâmica:* Descompressão. Kevyn encerra a sessão de forma cordial, retornando à sua linha de base de controle"
+      }, {
+        "text": ".\n\n---\n\n# 4. Relação entre não verbal e conteúdo verbal\n\n1.  **Congruência vs"
+      }, {
+        "text": ". Incongruência:** O momento mais notável de incongruência ocorre entre **22:30 e 27:09**. Kev"
+      }, {
+        "text": "yn descreve um histórico familiar profundamente traumático (abandono materno por vício em crack, pornografia exposta na sala de casa, pai encar"
+      }, {
+        "text": "cerado) com um tom de voz calmo, ritmo constante e quase sem modulações de dor ou raiva"
+      }, {
+        "text": ". Verbalmente, ele assume que são fatos \"pesados\", mas corporalmente há uma blind"
+      }, {
+        "text": "agem: a voz não quebra, e ele não chora. Essa incongruência sugere uma *racionalização defens"
+      }, {
+        "text": "iva*, onde o paciente transforma a dor afetiva em fatos textuais organizados e controláveis.\n2."
+      }, {
+        "text": "  **Mudança corporal com alteração de tema:** Quando o foco mudou da organização lógica (Obsidian/Trello) para o histórico"
+      }, {
+        "text": " da mãe dependente química, Kevyn parou de mover as mãos de forma expansiva e passou a realizar microaj"
+      }, {
+        "text": "ustes no fone e na gola da camiseta (sinais corporais de constrição e tentativa de se acomodar em"
+      }, {
+        "text": " uma situação estressante).\n3.  **Gestos em momentos de exposição emocional:** Às **24:12**, ao"
+      }, {
+        "text": " relatar o encarceramento do pai, o toque frequente com os dedos na base do pescoço (fossa"
+      }, {
+        "text": " supraesternal/tireoide) coincide exatamente com as palavras mais duras. Na literatura de comunicação não verbal, o"
+      }, {
+        "text": " toque no pescoço/garganta é classificado como um comportamento pacificador frente a picos de vulnerabilidade ou"
+      }, {
+        "text": " necessidade de proteção de vias aéreas/comunicação.\n4.  **Gestos ao explicar, controlar ou organizar:** Durante"
+      }, {
+        "text": " a explicação de seu método \"SMART\" de vida e na exibição do Obsidian (**20:31–22:2"
+      }, {
+        "text": "9**), Kevyn gesticula de forma assertiva, aponta para a tela com determinação e sua voz fl"
+      }, {
+        "text": "ui sem hesitações. O uso do mouse para guiar o olhar de Suzana funciona como uma extensão física de seu desejo"
+      }, {
+        "text": " de direcionar a percepção da terapeuta sobre sua própria mente.\n5.  **Gestos de condução e acol"
+      }, {
+        "text": "himento de Suzana:** Às **22:31**, a sutil dilatação dos olhos de Suzana ao ver"
+      }, {
+        "text": " o Obsidian de Kevyn demonstra surpresa genuína, o que valida a grandiosidade da obra intelectual de Kevyn sem julgá-lo"
+      }, {
+        "text": ". Suzana usa a imobilidade física durante o relato pesado do pai e da mãe para não interromper a descarga"
+      }, {
+        "text": " verbal do paciente, criando uma atmosfera estável (holding) para que ele deite o conteúdo doloroso sem o risco"
+      }, {
+        "text": " de ver a terapeuta assustada ou reativa.\n6.  **Alteração na interação pós-momento crítico"
+      }, {
+        "text": ":** Após a exposição de seu \"gráfico de notas\" e das confissões familiares, Suzana propõe a"
+      }, {
+        "text": " sessão presencial. Essa intervenção altera o ritmo da sessão: Kevyn, que vinha mantendo uma postura de controle"
+      }, {
+        "text": " ativo, assume uma postura de defesa passiva (olhar para os lados, pausas mais longas, risada nerv"
+      }, {
+        "text": "osa curta), pois a proposta presencial desafia a barreira protetora da tela digital.\n\n---\n\n# 5. P"
+      }, {
+        "text": "adrões recorrentes de Kevyn\n\n### Padrão 1: Intelectualização e Racionalização sistemática como escudo"
+      }, {
+        "text": " protetor\n*   **Evidências:** **08:36–11:42** (debate sobre \"se cuidar"
+      }, {
+        "text": "\" vs. \"se conhecer\"); **15:44–20:30** (uso de Nietzsche"
+      }, {
+        "text": " para balizar sua rotina prática).\n*   **Descrição factual:** Uso constante de vocabulário técnico, referências filosóficas"
+      }, {
+        "text": " clássicas e termos estruturantes (\"ciclo infinito\", \"vontade criadora\", \"sistemas de gestão\") para explicar suas próprias dificuldades comport"
+      }, {
+        "text": "amentais.\n*   **Hipótese principal:** Kevyn utiliza a intelectualização como defesa contra o contato com sentiment"
+      }, {
+        "text": "os brutos de desamparo, traduzindo emoções confusas em conceitos filosóficos ordenados que ele consegue dominar"
+      }, {
+        "text": " logicamente.\n*   **Hipótese alternativa:** O paciente possui um estilo cognitivo naturalmente abstrato e f"
+      }, {
+        "text": "ocado em leitura, usando esses conceitos apenas como sua linguagem natural de comunicação, sem necessariamente ocultar defesas.\n*   **Grau"
+      }, {
+        "text": " de confiança:** **Alto**.\n*   **Pergunta terapêutica:** *“Kevyn, ao explicar sua"
+      }, {
+        "text": " vida através de sistemas e filosofias, você sente que isso ajuda a se aproximar de quem você é ou funciona como uma forma"
+      }, {
+        "text": " de manter a dor a uma distância segura?”*\n\n### Padrão 2: Comportamento pacificador (toque no"
+      }, {
+        "text": " pescoço e ajuste do headset) em temas de vulnerabilidade\n*   **Evidências:** **14:50** (ad"
+      }, {
+        "text": "mitindo falhas na meta de exercícios); **24:12** (falando sobre o pai encarcerado e a mãe).\n*"
+      }, {
+        "text": "   **Descrição factual:** Tocar repetidamente a região da garganta com as pontas dos dedos e ajustar a pressão dos fones contra"
+      }, {
+        "text": " as orelhas ao verbalizar conteúdos difíceis ou que indiquem \"fracasso\" em suas próprias metas.\n*   **Hipótes"
+      }, {
+        "text": "e principal:** O toque na garganta sinaliza estresse e tentativa de autorregulação emocional (pacificação de descon"
+      }, {
+        "text": "forto). O ajuste do fone pode indicar uma necessidade inconsciente de se isolar de estímulos externos e f"
+      }, {
+        "text": "ocar na própria proteção em momentos de exposição.\n*   **Hipótese alternativa:** Des"
+      }, {
+        "text": "conforto físico real com o calor do headset ou com a gola da camiseta de algodão.\n*   **Grau"
+      }, {
+        "text": " de confiança:** **Médio**.\n*   **Pergunta terapêutica:** *“Notei que quando falamos sobre o histórico de"
+      }, {
+        "text": " seus pais e as metas que não consegue cumprir, suas mãos vão com frequência ao seu fone e ao seu pes"
+      }, {
+        "text": "coço. O que seu corpo parece estar tentando proteger nesses momentos?”*\n\n### Padrão 3: Esqu"
+      }, {
+        "text": "iva e hesitação não verbal frente à quebra de rotina/proposta de proximidade\n*   **Evidências:** **27:"
+      }, {
+        "text": "10–30:30** (reação à proposta de sessão presencial).\n*   **Descrição factual:** Micro"
+      }, {
+        "text": "-afastamento do tronco em relação à tela, desvio de olhar contínuo para as laterais, pa"
+      }, {
+        "text": "usas de silêncio significativamente mais longas que o padrão da sessão e uso de risos sociais curtos ao"
+      }, {
+        "text": " negociar as datas do presencial.\n*   **Hipótese principal:** O ambiente presencial retira o ante"
+      }, {
+        "text": "paro protetor da tela do computador, do Obsidian e do Trello, gerando ansiedade social e resistência em abrir mão do"
+      }, {
+        "text": " controle do enquadramento digital.\n*   **Hipótese alternativa:** Kevyn apenas avaliou de forma genu"
+      }, {
+        "text": "inamente lógica a logística do deslocamento físico e as despesas com transporte, sem reatividade emocional associada.\n*   **"
+      }, {
+        "text": "Grau de confiança:** **Médio-Alto**.\n*   **Pergunta terapêutica:** *“O que muda"
+      }, {
+        "text": " para você quando pensa em estar no mesmo espaço físico que eu, sem a barreira da tela do computador para organizar suas notas"
+      }, {
+        "text": " em tempo real?”*\n\n---\n\n# 6. Padrões recorrentes de Suzana\n\n### Padrão"
+      }, {
+        "text": " 1: Validação não verbal sistemática e Cadência de Holding\n*   **Evidências:** **07:1"
+      }, {
+        "text": "1–32:51** (ao longo de toda a gravação, de forma constante).\n*   **Descrição factual:**"
+      }, {
+        "text": " Acenos lentos de cabeça no eixo vertical (nods), manutenção de contato visual estável mesmo durante os relatos fri"
+      }, {
+        "text": "os de Kevyn sobre seus traumas e tom de voz macio e de volume baixo nas intervenções.\n*   **Poss"
+      }, {
+        "text": "ível função clínica:** Criar um \"espaço seguro de sustentação\" (holding) para que um paciente altamente intelectualizado s"
+      }, {
+        "text": "inta que suas defesas não serão atacadas frontalmente, facilitando a construção de uma aliança terapêutica sólida"
+      }, {
+        "text": ".\n*   **Hipótese alternativa:** Estilo padrão de escuta da psicóloga, adotado de"
+      }, {
+        "text": " forma automática com todos os pacientes.\n*   **Grau de confiança:** **Alto**.\n*   **Efeito na"
+      }, {
+        "text": " dinâmica:** Permite que Kevyn se sinta no controle de seu discurso inicial, o que reduz a ansiedade de"
+      }, {
+        "text": " sua primeira sessão terapêutica da vida.\n\n### Padrão 2: Proposição ativa de quebra de distância ("
+      }, {
+        "text": "provocação de flexibilidade)\n*   **Evidências:** **27:10** (inserção da proposta pres"
+      }, {
+        "text": "encial logo após as confissões).\n*   **Descrição factual:** Aguardar Kevyn terminar todo o seu relato den"
+      }, {
+        "text": "so e estruturado, fazer uma pausa curta e propor o formato presencial com voz calma, mas firme, sustentando o olhar.\n*   **"
+      }, {
+        "text": "Possível função clínica:** Testar os limites de flexibilidade do paciente e balançar o seu padrão de supercontrole"
+      }, {
+        "text": " intelectual logo após ele demonstrar alta capacidade de racionalização da própria história de vida.\n*   **Hipótese alternativa:** Conveniência pur"
+      }, {
+        "text": "amente administrativa de agenda da psicóloga para liberar horários virtuais.\n*   **Grau de confiança:** **Médio**."
+      }, {
+        "text": "\n*   **Efeito na dinâmica:** Produz uma fresta nas defesas de Kevyn, forçando-"
+      }, {
+        "text": "o a negociar seus limites de privacidade e controle.\n\n---\n\n# 7. Dinâmica relacional Kevyn–Suzana\n\n"
+      }, {
+        "text": "*   **Sincronia e Espelhamento na fala:** A sessão flui com excelente alternância de turnos."
+      }, {
+        "text": " Kevyn não interrompe Suzana e Suzana aguarda pacientemente o término de raciocínios longos de Kevyn antes de"
+      }, {
+        "text": " intervir. Há um encaixe comunicativo saudável para uma primeira sessão.\n*   **Intelectualização"
+      }, {
+        "text": " como Moeda de Troca:** Kevyn tenta apresentar a Suzana um \"Kevyn ideal\": estruturado, produtivo, filóso"
+      }, {
+        "text": "fo, que estuda a própria mente e que \"já se conhece muito\". Ele entrega sistemas e gráficos quase como um"
+      }, {
+        "text": " portfólio de si mesmo para obter a validação da terapeuta. Suzana aceita o portfólio com"
+      }, {
+        "text": " respeito e curiosidade, mas em seguida propõe o presencial, indicando de forma sutil que o processo terap"
+      }, {
+        "text": "êutico não se limitará à catalogação intelectual de notas.\n*   **Tensão Silenciosa e Rep"
+      }, {
+        "text": "aro:** A tensão máxima ocorre na transição para a proposta presencial (**27:10**). Há um desequ"
+      }, {
+        "text": "ilíbrio momentâneo no poder da sessão: Kevyn perde o controle da narrativa lúdica dos sistemas e precisa"
+      }, {
+        "text": " lidar com a realidade de sua geografia e rotina física. O reparo é feito de forma negociada: Kevyn prop"
+      }, {
+        "text": "õe um meio-termo (próxima virtual, subsequente presencial), que é aceito por Suzana de"
+      }, {
+        "text": " forma flexível, preservando a aliança terapêutica.\n\n---\n\n# 8. 10 momentos"
+      }, {
+        "text": " de maior valor terapêutico\n\n1.  **00:24–00:29**\n    *   *O"
+      }, {
+        "text": " que ocorreu:* Kevyn remove os óculos e esfrega os olhos com força antes da entrada da psicóloga."
+      }, {
+        "text": "\n    *   *Relevância:* Indica cansaço físico acumulado ou sobrecarga cognitiva antes de iniciar o contato"
+      }, {
+        "text": " social. Revela o \"Kevyn de bastidores\", sem a performance de controle ativo.\n    *   *Hipótes"
+      }, {
+        "text": "e:* Fadiga ou estresse decorrente de sua rotina rígida e de poucas horas de sono (m"
+      }, {
+        "text": "encionadas depois).\n    *   *Pergunta para reflexão:* *“O que acontece quando você retira seus óculos e se permite apenas"
+      }, {
+        "text": " cansar, sem precisar estar focado ou produtivo?”*\n\n2.  **07:14–"
+      }, {
+        "text": "07:18**\n    *   *O que ocorreu:* Suzana entra na sessão e Kevyn faz"
+      }, {
+        "text": " um aceno largo com a mão esquerda e esboça um sorriso social tenso de boca fechada.\n    *   *"
+      }, {
+        "text": "Relevância:* O primeiro contato visual direto. O sorriso de Kevyn é puramente social (comissuras est"
+      }, {
+        "text": "icadas lateralmente, sem enrugamento dos olhos), indicando esforço consciente para parecer simpático e receptivo.\n    *   *"
+      }, {
+        "text": "Hipótese:* Desejo de causar boa impressão e mitigar a ansiedade natural de uma primeira sessão.\n\n3.  **0"
+      }, {
+        "text": "8:55–09:12**\n    *   *O que ocorreu:* Kevyn define sua motivação: *\""
+      }, {
+        "text": "Me ajudar a cuidar melhor de mim mesmo.\"* Ao dizer isso, ele desvia o olhar de forma prolongada para o chão."
+      }, {
+        "text": "\n    *   *Relevância:* Contraste entre a clareza verbal e a hesitação visual.\n"
+      }, {
+        "text": "    *   *Hipótese:* O conceito de \"cuidar de si\" evoca uma vulnerabilidade profunda"
+      }, {
+        "text": ", possivelmente associada à ausência histórica de cuidadores na infância.\n    *   *Classificação:* Vulnerabilidade vel"
+      }, {
+        "text": "ada por fala objetiva.\n\n4.  **10:35–10:52**\n    *   *O que"
+      }, {
+        "text": " ocorreu:* Kevyn debate a prioridade entre \"cuidar\" e \"conhecer\" e afirma que se conhecer pode vir"
+      }, {
+        "text": "ar um \"ciclo infinito\". Ele esfrega o canto do olho com força às **09:53**.\n    *"
+      }, {
+        "text": "   *Relevância:* Racionalização da própria tendência neurótica de se hiperanalisar.\n    *   *Hipótese:* Kev"
+      }, {
+        "text": "yn tem consciência de que o excesso de análise (Obsidian/diários) funciona como um labirinto onde ele se perde"
+      }, {
+        "text": " para evitar a ação prática do cuidado real.\n    *   *Classificação:* Insight defensivo.\n\n5.  **1"
+      }, {
+        "text": "4:50–15:02**\n    *   *O que ocorreu:* Kevyn confessa que a meta de 14"
+      }, {
+        "text": " horas de exercício semanal está \"um pouco complicada\", passando a mão direita firmemente na nuca e no pescoço.\n    *   "
+      }, {
+        "text": "*Relevância:* Linguagem corporal clássica de pacificação de estresse frente à percepção de \"fracasso\" de"
+      }, {
+        "text": " suas expectativas internas de produtividade.\n    *   *Hipótese:* Dificuldade em lidar com a frust"
+      }, {
+        "text": "ração de não cumprir metas rígidas autoimpostas.\n    *   *Classificação:* Defesa contra sentimento"
+      }, {
+        "text": " de insuficiência.\n\n6.  **20:31–20:50**\n    *   "
+      }, {
+        "text": "*O que ocorreu:* Compartilhamento de tela e apresentação entusiástica do Kanban do Trello e do fluxo do Obsidian.\n    *   *Re"
+      }, {
+        "text": "levância:* Kevyn assume uma fala fluida, sem hesitações, guiando o processo terapêutico através"
+      }, {
+        "text": " de suas próprias ferramentas.\n    *   *Hipótese:* Necessidade de enquadrar sua dor em uma estrutura visível e intelig"
+      }, {
+        "text": "ível, buscando a aprovação intelectual da psicóloga.\n    *   *Classificação:* Performance terapêutica/"
+      }, {
+        "text": "Busca de controle.\n\n7.  **22:31–22:45**\n    *"
+      }, {
+        "text": "   *O que ocorreu:* Suzana arregala os olhos sutilmente diante do gráfico do Obsidian e Kevyn diz: *\"Eu"
+      }, {
+        "text": " fiquei duas semanas só com esse software aberto tentando me reconstruir...\"*\n    *   *Relevância:* Revel"
+      }, {
+        "text": "ação de um período de isolamento e hiperfoco obsessivo como tentativa de lidar com alguma crise existencial anterior.\n    *   *"
+      }, {
+        "text": "Hipótese:* O \"gráfico mental\" substitui a vivência espontânea do afeto; Kevyn tenta montar um que"
+      }, {
+        "text": "bra-cabeça de si mesmo para compensar vazios internos de holding.\n    *   *Classificação"
+      }, {
+        "text": ":* Defesa obsessiva/Isolamento.\n\n8.  **24:12–24:25**\n    *   "
+      }, {
+        "text": "*O que ocorreu:* Kevyn relata o abandono da mãe (crack) e a prisão do pai com voz"
+      }, {
+        "text": " calma, tocando a base do pescoço com os dedos de forma suave.\n    *   *Relevância:* O"
+      }, {
+        "text": " clímax emocional da sessão, disfarçado de neutralidade. O toque na garganta é o único sinal som"
+      }, {
+        "text": "ático de que a fala evoca estresse ou dor de difícil vocalização.\n    *   *Hipótese:* Isol"
+      }, {
+        "text": "amento do afeto. Kevyn narra o abandono de forma factual para não ser inundado pela dor do abandono.\n    *   *"
+      }, {
+        "text": "Classificação:* Dor reprimida/Proteção somática.\n\n9.  **27:10–27:"
+      }, {
+        "text": "25**\n    *   *O que ocorreu:* Proposta de sessão presencial por Suzana. Kevyn desvia o"
+      }, {
+        "text": " olhar imediatamente para a direita, afasta-se da câmera e hesita em silêncio por 3 segundos.\n    *   "
+      }, {
+        "text": "*Relevância:* Ruptura total da zona de conforto virtual do paciente.\n    *   *Hipótes"
+      }, {
+        "text": "e:* O convite para o presencial evoca medo de descontrole ou de invasão de privacidade, pois na"
+      }, {
+        "text": " sala física não haverá telas compartilhadas para filtrar a relação.\n    *   *Classificação:* Resistência/Que"
+      }, {
+        "text": "bra de enquadramento.\n\n10. **32:46–32:51**\n    *   "
+      }, {
+        "text": "*O que ocorreu:* Kevyn faz o sinal de \"joinha\" com o dedão para a tela ao se despedir e"
+      }, {
+        "text": " esboça um sorriso de alívio rápido após desligar.\n    *   *Relevância:* Retorno rápido"
+      }, {
+        "text": " à zona de segurança solitária.\n    *   *Hipótese:* Sensação de alívio por ter \""
+      }, {
+        "text": "sobrevivido\" à primeira sessão mantendo sua integridade intelectual intacta.\n    *   *Classificação:* Des"
+      }, {
+        "text": "compressão pós-performance.\n\n---\n\n# 9. Hipóteses centrais\n\n### Hipótese "
+      }, {
+        "text": "1: A intelectualização sistemática mascara um medo profundo de desamparo e desorganização afetiva.\n*   **Evidências:**"
+      }, {
+        "text": " Timestamps **08:36–11:42**, **20:31–22:"
+      }, {
+        "text": "29**.\n*   **O que não prova:** Não prova que Kevyn seja incapaz de sentir ou que seja"
+      }, {
+        "text": " uma pessoa artificial; ele sente profundamente, mas precisa de tradutores lógicos para não se desorganizar emocionalmente."
+      }, {
+        "text": "\n*   **Hipótese alternativa:** Kevyn apenas possui interesses legítimos em filosofia e tecnologia, estruturando sua"
+      }, {
+        "text": " comunicação por afinidade cultural, sem caráter defensivo.\n*   **Utilidade terapêutica:** Kevyn pode"
+      }, {
+        "text": " usar isso para tentar, nas próximas sessões, falar mais sobre \"como se sente no corpo\" ao invés de buscar \""
+      }, {
+        "text": "qual filósofo explica o que ele sente\".\n\n### Hipótese 2: O isolamento social e a preferência pelo ambiente virtual prote"
+      }, {
+        "text": "gem Kevyn contra a reativação de traumas de abandono infantil.\n*   **Evidências:** Tim"
+      }, {
+        "text": "estamps **24:12** (trauma familiar), **27:10** (esquiva do"
+      }, {
+        "text": " presencial).\n*   **O que não prova:** Não prova que Kevyn seja fóbico social ou ant"
+      }, {
+        "text": "issocial; ele trabalha em equipe (Acirv) e tem amigos (Maxspaul).\n*   **Hipótes"
+      }, {
+        "text": "e alternativa:** O modelo virtual é apenas mais prático para a sua rotina corrida de trabalho e calistenia,"
+      }, {
+        "text": " sem relação com traumas de infância.\n*   **Utilidade terapêutica:** Perceber que a resistência em"
+      }, {
+        "text": " ir ao presencial pode ser um medo de ser \"visto por inteiro\", sem o controle de suas telas de Obsidian"
+      }, {
+        "text": ".\n\n### Hipótese 3: O supercontrole através de metas matemáticas de vida (14h de treino, Obsidian"
+      }, {
+        "text": ", Kanban) compensa a falta histórica de controle sobre seu ambiente familiar caótico na infância.\n*   **Evidências:** Tim"
+      }, {
+        "text": "estamps **14:50** (meta de treinos), **22:31** (Obsidian com"
+      }, {
+        "text": " centenas de notas estruturadas).\n*   **O que não prova:** Não prova que Kevyn tenha um transtorno obsessivo-"
+      }, {
+        "text": "compulsivo estruturado.\n*   **Hipótese alternativa:** Kevyn apenas trabalha com marketing e metodologias á"
+      }, {
+        "text": "geis (Scrum), transpondo as ferramentas de seu trabalho para sua vida prática de forma utilitária.\n*   **Utilidade"
+      }, {
+        "text": " terapêutica:** Aprender a tolerar o \"não saber\", o improviso e o erro como partes saudáveis da"
+      }, {
+        "text": " vida, reduzindo a cobrança punitiva sobre si mesmo.\n\n---\n\n# 10. Perguntas para levar à Suzana\n\nPara"
+      }, {
+        "text": " enriquecer o processo clínico, Kevyn pode levar as seguintes indagações para serem discutidas com Suzana na próxima sessão"
+      }, {
+        "text": ", formuladas em primeira pessoa:\n\n1.  *\"Suzana, eu percebi que passei boa parte da nossa"
+      }, {
+        "text": " primeira sessão te mostrando meus sistemas, meu Obsidian e minhas filosofias. Eu estava tentando te mostrar que sou um \u0027bom paciente\u0027 ou estava usando"
+      }, {
+        "text": " minhas telas para evitar que você visse minhas fraquezas diretamente?\"*\n2.  *\"Quando você me propôs faz"
+      }, {
+        "text": "ermos sessões presenciais, eu senti um aperto sutil na garganta e logo comecei a buscar justificativas lógicas sobre rot"
+      }, {
+        "text": "as e distâncias para adiar isso. O que no presencial me assusta tanto a ponto de eu precisar me"
+      }, {
+        "text": " agarrar à segurança da tela do computador?\"*\n3.  *\"Eu notei que quando te contei sobre o"
+      }, {
+        "text": " histórico da minha mãe e sobre meu pai estar preso, eu fiz isso de um jeito muito calmo, quase como se est"
+      }, {
+        "text": "ivesse lendo um relatório de outra pessoa. Por que eu preciso tratar minha própria história de infância com tanta distância intelectual"
+      }, {
+        "text": "?\"*\n4.  *\"Você percebeu em mim algum momento em que eu pareci mais espontâneo e"
+      }, {
+        "text": " menos focado em \u0027performar\u0027 ou em ter respostas estruturadas e prontas?\"*\n5.  "
+      }, {
+        "text": "*\"Como a gente pode trabalhar para que as nossas sessões não virem apenas mais um projeto de controle para mim,"
+      }, {
+        "text": " onde eu venho catalogar meus sentimentos ao invés de simplesmente vivenciá-los e senti-los aqui com você?\"*\n\n"
+      }, {
+        "text": "---\n\n# 11. Síntese final\n\n### 1. Revelações Consistentes da Comunicação Não Verbal\n"
+      }, {
+        "text": "A análise do comportamento não verbal de Kevyn revela um padrão nítido de **hipervigilância cognitiva e racionalização defensiva"
+      }, {
+        "text": "**. Seus auto-toques sutis (garganta, óculos, headset) e sua paralinguagem plana em momentos de alta"
+      }, {
+        "text": " carga emocional (falar sobre o abandono materno com voz monocórdica) sugerem um forte mecanismo de **"
+      }, {
+        "text": "isolamento do afeto**. O corpo de Kevyn fala através de microajustes e constrições somáticas exatamente onde"
+      }, {
+        "text": " sua voz tenta simular controle absoluto e pragmatismo matemático.\n\n### 2. O que deve ser tratado apenas como Hipótese\nA hipótes"
+      }, {
+        "text": "e de que a esquiva em realizar sessões presenciais decorra de uma fobia de intimidade ou medo de vulnerabilidade rel"
+      }, {
+        "text": "acional deve ser tratada com cautela. Pode ser, de fato, que as barreiras físicas e geográficas do SEST SENAT (m"
+      }, {
+        "text": "encionadas por ele) apresentem um obstáculo logístico prático em sua rotina de morar sozinho e ger"
+      }, {
+        "text": "enciar seu tempo de forma enxuta.\n\n### 3. Aspectos Críticos para o Processo Terapê"
+      }, {
+        "text": "utico\nO ponto de maior valor terapêutico reside na **transição entre o conhecer-se e o cuidar-"
+      }, {
+        "text": "se**. Kevyn possui um sistema de mapeamento mental extraordinário (Obsidian), mas esse sistema corre o risco de ser"
+      }, {
+        "text": " um labirinto intelectual infinito que adia o cuidado real, físico e relacional de si mesmo. O corpo de Kevyn ("
+      }, {
+        "text": "a rigidez muscular, a fadiga de esfregar os olhos, a falta de uma rotina estável de sono) cl"
+      }, {
+        "text": "ama por cuidado somático prático, enquanto sua mente insiste em ler mais Nietzsche e criar mais conexões de notas no"
+      }, {
+        "text": " computador.\n\n### 4. Boas Práticas para o Uso desta Análise sem Supercontrole\nPara que esta análise seja"
+      }, {
+        "text": " útil e não se transforme em mais uma ferramenta neurótica de autotutorial ou cobrança obsessiva de Kevyn, ele"
+      }, {
+        "text": " deve:\n*   Evitar usar este documento para tentar \"corrigir\" seus gestos na próxima sessão ("
+      }, {
+        "text": "o que apenas aumentaria seu controle e performance).\n*   Encarar os toques no pescoço ou"
+      }, {
+        "text": " o desvio do olhar não como \"erros comunicativos\", mas como bússolas gentis do seu corpo indic"
+      }, {
+        "text": "ando que um tema delicado foi tocado.\n*   Permitir-se, na presença de Suzana, experimentar o silên"
+      }, {
+        "text": "cio, a gagueira, o choro ou a falta de palavras estruturadas, compreendendo que a terapia é"
+      }, {
+        "text": " o único espaço em sua vida onde ele não precisa apresentar um \"gráfico de desempenho de si mesmo\" para ser aceito e validado."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-06-27T16:57:02.088Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

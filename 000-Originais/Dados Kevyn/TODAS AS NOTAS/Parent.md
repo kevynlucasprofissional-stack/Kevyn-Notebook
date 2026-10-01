@@ -1,0 +1,1 @@
+Parente faz um pareamento de acordo com a seleção das camadas, sendo o último o pai.

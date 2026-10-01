@@ -1,0 +1,1 @@
+Preenche uma camada com uma cor. É quase a mesma coisa que uma sobreposição de cor, que pode ser alcançado com os estilos de camada.

@@ -1,0 +1,1 @@
+Ajuda a controlar a velocidade de reprodução. Opção de detalhe e desfoque de movimento.

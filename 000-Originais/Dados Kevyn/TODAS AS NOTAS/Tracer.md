@@ -1,0 +1,1 @@
+Tracer é uma ferramenta que facilita trabalhar com caminhos e traçados, usando o caminho de posição animado de uma camada.

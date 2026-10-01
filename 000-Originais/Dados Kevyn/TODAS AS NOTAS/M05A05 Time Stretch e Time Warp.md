@@ -1,0 +1,2 @@
+Ao habilitar a coluna "Stretch", será possível aumentar o tempo de um vídeo alterando um valor diretamente da timeline.
+Ao segurar Alt e arrastar as bordas de um video, o After irá esticar a duração daquele vídeo automaticamente.

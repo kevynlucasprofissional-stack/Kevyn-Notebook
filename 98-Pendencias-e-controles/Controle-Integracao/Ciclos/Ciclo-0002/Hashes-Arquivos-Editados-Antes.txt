@@ -1,0 +1,5 @@
+﻿bff7e703b4b7162436c5be0219bf686a4ed1728a182c5fc682eb674327659900  05-Sonhos-Simbolos-e-Espiritualidade/Sonhos imaginacao ativa e registros simbolicos.md
+0a57110a587e3767f14636eafe3b64f110cc3dbd73ef82c3504331da508ebc90  01-Perfil-e-Autoconhecimento/Organizacao do conhecimento.md
+383570bef6678310c31987b54eaf1e7d104ca5134a5de7e56349612cc661ccc4  08-Estudos-e-Referencias/Metodo de estudo e producao.md
+1d6111ccf64e20c19e64d1ef7e1efb05b1695207293f034df9551cd41e72e046  04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md
+e5cb9a721fdf3e582ad7717bae94d5bcd9cd179932ef83be12f2c121ee2791d4  09-Fontes-e-Evidencias/Indice geral de fontes selecionadas.md

@@ -1,0 +1,71 @@
+{
+  "phase": 3,
+  "batch": [
+    {
+      "ficha": "ARQ-092.md",
+      "src": "SRC-001878",
+      "path": "C:\\Users\\Kevyn Lucas\\Documents\\Vault Neo\\Dados Kevyn\\Sessões com Psicóloga Suzana\\120626 às 09h\\120626 - Kevyn da reunião com a Suzana VS Kevyn do Dossiê.md",
+      "name": "120626 - Kevyn da reunião com a Suzana VS Kevyn do Dossiê.md",
+      "size": 42049,
+      "exists": true
+    },
+    {
+      "ficha": "ARQ-098.md",
+      "src": "SRC-002910",
+      "path": "C:\\Users\\Kevyn Lucas\\Documents\\Vault Neo\\Dados Kevyn\\Vontade\\150626 RNIDIQAOUP.md",
+      "name": "150626 RNIDIQAOUP.md",
+      "size": 33919,
+      "exists": true
+    },
+    {
+      "ficha": "ARQ-094.md",
+      "src": "SRC-002906",
+      "path": "C:\\Users\\Kevyn Lucas\\Documents\\Vault Neo\\Dados Kevyn\\Vontade\\010626 RNIDIQAOUP.md",
+      "name": "010626 RNIDIQAOUP.md",
+      "size": 38248,
+      "exists": true
+    },
+    {
+      "ficha": "ARQ-095.md",
+      "src": "SRC-002907",
+      "path": "C:\\Users\\Kevyn Lucas\\Documents\\Vault Neo\\Dados Kevyn\\Vontade\\050626 RNIDIQAOUP.md",
+      "name": "050626 RNIDIQAOUP.md",
+      "size": 17762,
+      "exists": true
+    },
+    {
+      "ficha": "ARQ-096.md",
+      "src": "SRC-002908",
+      "path": "C:\\Users\\Kevyn Lucas\\Documents\\Vault Neo\\Dados Kevyn\\Vontade\\060626 RNIDIQAOUP.md",
+      "name": "060626 RNIDIQAOUP.md",
+      "size": 23430,
+      "exists": true
+    },
+    {
+      "ficha": "ARQ-097.md",
+      "src": "SRC-002909",
+      "path": "C:\\Users\\Kevyn Lucas\\Documents\\Vault Neo\\Dados Kevyn\\Vontade\\070626 RNIDIQAOUP.md",
+      "name": "070626 RNIDIQAOUP.md",
+      "size": 23010,
+      "exists": true
+    },
+    {
+      "ficha": "ARQ-007.md",
+      "src": "SRC-000009",
+      "path": "C:\\Users\\Kevyn Lucas\\Documents\\Vault Neo\\Dados Kevyn\\Diário FGV\\Diário.md",
+      "name": "Diário.md",
+      "size": 539,
+      "exists": true
+    },
+    {
+      "ficha": "ARQ-030.md",
+      "src": "SRC-000084",
+      "path": "C:\\Users\\Kevyn Lucas\\Documents\\Vault Neo\\Dados Kevyn\\Outras notas criadas por Kevyn\\Diário\\2026\\01 - janeiro\\26 - segunda-feira.md",
+      "name": "26 - segunda-feira.md",
+      "size": 8420,
+      "exists": true
+    }
+  ],
+  "pendentes": 77,
+  "lidas": 23
+}

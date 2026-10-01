@@ -1,0 +1,173 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.8-flash",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "thinkingLevel": "THINKING_MEDIUM",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false,
+    "enableAgentThinkingSummariesControl": false,
+    "enableAgentVisualizationControl": false,
+    "enableAgentCollaborativePlanningControl": false,
+    "enableWordTimestamps": false,
+    "enableSpeakerDiarization": false,
+    "enablePolishedTranscript": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveImage": {
+        "id": "1iF1lPCKYHyCew7v-Fh2Bu3INNZ_Cojx3"
+      },
+      "role": "user",
+      "tokenCount": 1076,
+      "createTime": "2026-09-08T23:15:06.417Z"
+    }, {
+      "driveImage": {
+        "id": "1yHC4HGcS1-w8TMebedhuDB_paD9xd9vk"
+      },
+      "role": "user",
+      "tokenCount": 1108,
+      "createTime": "2026-09-08T23:15:06.417Z"
+    }, {
+      "driveImage": {
+        "id": "1MXsPE602AMqssEAUSUZ4yRM8Dw0PQMfA"
+      },
+      "role": "user",
+      "tokenCount": 1093,
+      "createTime": "2026-09-08T23:15:06.417Z"
+    }, {
+      "driveImage": {
+        "id": "13fWciOQHnLcSmoy539cfmzH3-oz0Eal7"
+      },
+      "role": "user",
+      "tokenCount": 1093,
+      "createTime": "2026-09-08T23:15:06.417Z"
+    }, {
+      "driveAudio": {
+        "id": "1Yif1K5KuMd6erx8rVWa6OYY2h6bYklUG"
+      },
+      "role": "user",
+      "tokenCount": 1770,
+      "createTime": "2026-09-08T23:15:06.417Z"
+    }, {
+      "driveAudio": {
+        "id": "1W1NcLG_oQ9KLZdmK_zkuGIdNDfFydH0h"
+      },
+      "role": "user",
+      "tokenCount": 2643,
+      "createTime": "2026-09-08T23:15:06.417Z"
+    }, {
+      "driveImage": {
+        "id": "1tLH2Wd6eWFWBNaATogJm9cu1nCVRC5IA"
+      },
+      "role": "user",
+      "tokenCount": 1074,
+      "createTime": "2026-09-08T23:15:06.417Z"
+    }, {
+      "driveImage": {
+        "id": "1WPiVK-5JUdV_v7y_eQqU8Vu-5F2KodeD"
+      },
+      "role": "user",
+      "tokenCount": 1089,
+      "createTime": "2026-09-08T23:15:06.417Z"
+    }, {
+      "text": "Transforma tudo isso em um briefing único\n",
+      "role": "user",
+      "tokenCount": 10,
+      "createTime": "2026-09-08T23:15:06.417Z"
+    }, {
+      "text": "**Defining the Objective**\n\nOkay, I\u0027m zeroing in on the core objective: consolidating those scattered WhatsApp revision requests into a single, organized document. I\u0027m focusing on the \"what\" and \"why\" behind the user\u0027s need to understand the ultimate purpose. This will inform how I approach the rest of the problem.\n\n\n",
+      "role": "model",
+      "tokenCount": 1631,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Objective**\n\nOkay, I\u0027m zeroing in on the core objective: consolidating those scattered WhatsApp revision requests into a single, organized document. I\u0027m focusing on the \"what\" and \"why\" behind the user\u0027s need to understand the ultimate purpose. This will inform how I approach the rest of the problem.\n\n\n",
+        "thought": true
+      }],
+      "createTime": "2026-09-08T23:15:06.417Z"
+    }, {
+      "text": "Aqui está o briefing consolidado, organizado e direto ao ponto, pronto para você copiar e colar no WhatsApp da equipe de edição:\n\n---\n\n### 📋 Briefing Consolidado de Ajustes de Edição\n\n---\n\n#### 1. Ajustes Gerais de Efeitos e Identidade\n* **Efeitos:** Retirar **todos** os efeitos de *glitch* do vídeo.\n* **Logo final / Marca:** \n  * Remover o logo da SudoExpo do canto superior direito no bloco final.\n  * Na tela final (*ending*), substituir a logo da SudoExpo pela logo da **ACIRV**.\n\n---\n\n#### 2. Ajustes por Minutagem (Timecodes)\n* **`00:00`** – Trocar o texto para **\"Casa do empresário\"** (em vez de *\"Casa do empreendedor\"*).\n* **`02:00`** – Remover o texto *\"Save The Date\"*. Organizar com a **logo em cima** e embaixo o texto **\"De 09 a 12...\"**.\n* **`06:44`** – Substituir a foto atual pela foto do link:  \n  👉 [Acessar Foto do Drive](https://drive.google.com/file/d/10kYluTo5TxJLr0XkHSqbHkGCiWBqOkxs/view?usp\u003ddrivesdk)\n* **`07:48`** – **Corte seco:** Cortar tudo a partir de **07:48** e ir direto para a finalização com a logo da ACIRV.\n\n---\n\n#### 3. Ajustes por Blocos e Transições\n\n* **Bloco 01 (Serviços):**\n  * *(Condicional/Se viável)* Inserir imagens/vídeos ilustrativos relacionados aos serviços (Cân, ACIRV Mulher, etc.) **apenas** se houver material na horizontal e se não quebrar o layout/animação do After Effects. Caso vá prejudicar a estética do slide, pode manter como está.\n* **Transição (Bloco 01 ➔ Bloco 02):**\n  * Aprovado conforme a prévia: na introdução com a imagem de fundo, substituir o texto *\"Linha do tempo SudoExpo\"* por **\"Conheça nossa história\"**.\n* **Bloco 02 (SudoExpo):**\n  * Inserir a imagem da **SudoExpo 2024** (visão geral/drone do pavilhão com o badge \"SudoExpo 2024\", conforme aprovado no print).\n\n---",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 583,
+      "parts": [{
+        "text": "Aqui está o briefing consolidado, organizado e direto ao ponto, pronto para você copiar e colar"
+      }, {
+        "text": " no WhatsApp da equipe de edição:\n\n---\n\n### 📋 Briefing Consolidado de Ajustes de Edição\n\n"
+      }, {
+        "text": "---\n\n#### 1. Ajustes Gerais de Efeitos e Identidade\n* **Efeitos:** Retirar **todos**"
+      }, {
+        "text": " os efeitos de *glitch* do vídeo.\n* **Logo final / Marca:** \n  * Remover o logo da SudoExpo do canto"
+      }, {
+        "text": " superior direito no bloco final.\n  * Na tela final (*ending*), substituir a logo da SudoExpo pela"
+      }, {
+        "text": " logo da **ACIRV**.\n\n---\n\n#### 2. Ajustes por Minutagem (Timecodes)\n"
+      }, {
+        "text": "* **`00:00`** – Trocar o texto para **\"Casa do empresário\"**"
+      }, {
+        "text": " (em vez de *\"Casa do empreendedor\"*).\n* **`02:00`** – Remover o texto"
+      }, {
+        "text": " *\"Save The Date\"*. Organizar com a **logo em cima** e embaixo o texto **\"De 09"
+      }, {
+        "text": " a 12...\"**.\n* **`06:44`** – Substituir a foto atual pela"
+      }, {
+        "text": " foto do link:  \n  👉 [Acessar Foto do Drive](https://drive.google.com/file/"
+      }, {
+        "text": "d/10kYluTo5TxJLr0XkHSqbHkGCiWBqOkxs/view?usp\u003dd"
+      }, {
+        "text": "rivesdk)\n* **`07:48`** – **Corte seco:** Cortar tudo a partir de **"
+      }, {
+        "text": "07:48** e ir direto para a finalização com a logo da ACIRV.\n\n---\n\n#### 3. Ajustes"
+      }, {
+        "text": " por Blocos e Transições\n\n* **Bloco 01 (Serviços):**\n  * *(Condicional"
+      }, {
+        "text": "/Se viável)* Inserir imagens/vídeos ilustrativos relacionados aos serviços (Cân, ACIRV Mulher, etc.)"
+      }, {
+        "text": " **apenas** se houver material na horizontal e se não quebrar o layout/animação do After Effects. Caso"
+      }, {
+        "text": " vá prejudicar a estética do slide, pode manter como está.\n* **Transição (Bloco 01 "
+      }, {
+        "text": "➔ Bloco 02):**\n  * Aprovado conforme a prévia: na introdução com a"
+      }, {
+        "text": " imagem de fundo, substituir o texto *\"Linha do tempo SudoExpo\"* por **\"Conheça nossa história"
+      }, {
+        "text": "\"**.\n* **Bloco 02 (SudoExpo):**\n  * Inserir a imagem"
+      }, {
+        "text": " da **SudoExpo 2024** (visão geral/drone do pavilhão com o badge \"SudoExpo 2"
+      }, {
+        "text": "024\", conforme aprovado no print).\n\n---"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-09-08T23:15:23.770Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

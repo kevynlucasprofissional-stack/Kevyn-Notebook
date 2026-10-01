@@ -1,0 +1,289 @@
+{
+  "generated_at": "2026-04-04T11:45:00-03:00",
+  "objective": "Melhorar a consultabilidade do vault sem reestruturar o cofre inteiro, priorizando hubs/MOCs mínimos, aliases prováveis e reparos de links em ordem de risco.",
+  "method": [
+    "Reuso dos relatórios 02-inventory, 05-link-audit, 06-quarantine-candidates e 07-frontmatter-minimum.",
+    "Triagem de notas centrais por backlinks e conectividade local.",
+    "Triagem de áreas valiosas porém órfãs por soma de priority_score e exclusão de espelhos/imports evidentes.",
+    "Busca manual pontual por títulos existentes para distinguir alias ausente de nota realmente inexistente."
+  ],
+  "criteria": [
+    "Não executar renames, moves ou merges.",
+    "Não cruzar fronteiras de sub-vault.",
+    "Priorizar navegação mínima e reversível.",
+    "Tratar áreas pessoais densas como sensíveis."
+  ],
+  "summary": {
+    "central_notes": 8,
+    "high_value_orphan_areas": 5,
+    "proposed_mocs": 5,
+    "proposed_aliases": 10,
+    "repair_fronts": 5
+  },
+  "central_notes": [
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\O Desejo de Ser Importante (John Dewey).md",
+      "incoming_links": 22,
+      "outgoing_links": 6,
+      "reason": "Polo natural da área de influência e apreciação."
+    },
+    {
+      "path": "HOME\\O Professor\\00_Aleatórios\\Cérebro Atômico\\Dicotomia do Controle.md",
+      "incoming_links": 22,
+      "outgoing_links": 4,
+      "reason": "Conceito transversal já conectado a outras áreas."
+    },
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Fome Humana Insaciável por Apreciação.md",
+      "incoming_links": 20,
+      "outgoing_links": 6,
+      "reason": "Centralidade temática alta dentro da coleção."
+    },
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Universalidade da Autojustificativa.md",
+      "incoming_links": 18,
+      "outgoing_links": 8,
+      "reason": "Boa nota para costurar subtemas da coleção."
+    },
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Chave da Influência - Falar sobre o que o Outro Quer.md",
+      "incoming_links": 20,
+      "outgoing_links": 5,
+      "reason": "Bom ponto de entrada para a coleção."
+    },
+    {
+      "path": "HOME\\O Professor\\05_PERSONA 03 - O PENDURADO\\Comunicação Não Violenta\\A Raiz dos Sentimentos.md",
+      "incoming_links": 16,
+      "outgoing_links": 6,
+      "reason": "Melhor âncora local para CNV."
+    },
+    {
+      "path": "HOME\\Cérebro Profissional\\Notas\\Desafio Svelte.md",
+      "incoming_links": 17,
+      "outgoing_links": 3,
+      "reason": "Nó operacional/projeto já consolidado."
+    },
+    {
+      "path": "HOME\\Cérebro Profissional\\Notas\\Modelos Mentais.md",
+      "priority_score": 222,
+      "outgoing_links": 222,
+      "reason": "Melhor candidato a índice leve para a área profissional."
+    }
+  ],
+  "high_value_orphan_areas": [
+    {
+      "area": "HOME\\Cérebro Profissional\\Notas",
+      "orphan_count": 79,
+      "total_score": 643,
+      "examples": [
+        "HOME\\Cérebro Profissional\\Notas\\Modelos Mentais.md",
+        "HOME\\Cérebro Profissional\\Notas\\Masterclasse DISC.md"
+      ],
+      "why_it_matters": "Mistura estratégia, marketing, IA, projetos e playbooks com alto potencial de consulta."
+    },
+    {
+      "area": "HOME\\O Professor\\04_PERSONA 02 - O SOL",
+      "orphan_count": 32,
+      "total_score": 183,
+      "examples": [
+        "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\O Sorriso como Ação Deliberada.md",
+        "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Fina Arte de Tratar as Pessoas (Franklin D. Roosevelt).md"
+      ],
+      "why_it_matters": "Coleção extensa e coesa, mas sem página-mãe explícita."
+    },
+    {
+      "area": "HOME\\O Professor\\01_SELF - O IMPERADOR",
+      "orphan_count": 39,
+      "total_score": 166,
+      "examples": [
+        "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\Contemplação das Estrelas.md",
+        "HOME\\O Professor\\01_SELF - O IMPERADOR\\Meditações\\O Promontório.md"
+      ],
+      "why_it_matters": "Área conceitualmente coesa com vários links que parecem resolvíveis."
+    },
+    {
+      "area": "HOME\\Kevyn Lucas\\Outros",
+      "orphan_count": 91,
+      "total_score": 148,
+      "examples": [
+        "HOME\\Kevyn Lucas\\Outros\\Integrados\\Ato e Potência.md",
+        "HOME\\Kevyn Lucas\\Outros\\Integrados\\Sobre a simbiose romântica, minhas tribos e a Odisséia psicológica.md"
+      ],
+      "why_it_matters": "Alto valor pessoal e contextual, porém sensível demais para reorganização ampla."
+    },
+    {
+      "area": "HOME\\ACIRV\\Notas",
+      "orphan_count": 130,
+      "total_score": 89,
+      "examples": [
+        "HOME\\ACIRV\\Notas\\Dados sobre o Fórum.md",
+        "HOME\\ACIRV\\Notas\\Oficina VITRINE QUE VENDE.md"
+      ],
+      "why_it_matters": "Área operacional viva com ganho rápido por índice funcional."
+    }
+  ],
+  "moc_proposals": [
+    {
+      "path": "HOME\\Cérebro Profissional\\Notas\\MOC - Operações, IA e Projetos.md",
+      "scope": "Estratégia, oferta, IA, projetos ativos e referências de execução.",
+      "risk": "low"
+    },
+    {
+      "path": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\MOC - Influência e Relações Humanas.md",
+      "scope": "Apreciação, crítica, interesse genuíno e persuasão.",
+      "risk": "low"
+    },
+    {
+      "path": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Sobre a brevidade da vida e a firmeza do sábio\\MOC - Firmeza do Sábio.md",
+      "scope": "Injúria/ofensa, tempo/vida e autonomia/fortuna.",
+      "risk": "low"
+    },
+    {
+      "path": "HOME\\ACIRV\\Notas\\MOC - Operação ACIRV.md",
+      "scope": "Planejamento, métricas, eventos, cerimonial, conteúdo e SaaS.",
+      "risk": "low"
+    },
+    {
+      "path": "HOME\\Kevyn Lucas\\MOC - Contexto Operacional do Kevyn.md",
+      "scope": "Porta de entrada curta para contexto e manuais, sem expandir o dossiê.",
+      "risk": "medium"
+    }
+  ],
+  "alias_proposals": [
+    {
+      "alias": "Invulnerabilidade do Sábio",
+      "target": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Sobre a brevidade da vida e a firmeza do sábio\\A Invulnerabilidade do Sábio.md",
+      "confidence": "high"
+    },
+    {
+      "alias": "Inexistência de Dano ao Sábio",
+      "target": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Sobre a brevidade da vida e a firmeza do sábio\\A Inexistência de Dano ao Sábio.md",
+      "confidence": "high"
+    },
+    {
+      "alias": "Velhice Infantil",
+      "target": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Sobre a brevidade da vida e a firmeza do sábio\\A Velhice Infantil.md",
+      "confidence": "high"
+    },
+    {
+      "alias": "Autossuficiência Absoluta",
+      "target": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Sobre a brevidade da vida e a firmeza do sábio\\A Autossuficiência Absoluta.md",
+      "confidence": "high"
+    },
+    {
+      "alias": "Fraqueza do Mal",
+      "target": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Sobre a brevidade da vida e a firmeza do sábio\\A Fraqueza do Mal.md",
+      "confidence": "high"
+    },
+    {
+      "alias": "Analogia do Médico e o Louco",
+      "target": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Sobre a brevidade da vida e a firmeza do sábio\\A Analogia do Médico e o Louco.md",
+      "confidence": "high"
+    },
+    {
+      "alias": "Natureza dos Bens do Sábio",
+      "target": "HOME\\O Professor\\01_SELF - O IMPERADOR\\Sobre a brevidade da vida e a firmeza do sábio\\A Natureza dos Bens do Sábio.md",
+      "confidence": "high"
+    },
+    {
+      "alias": "Perfil Comportamental Alto S/C (Castro)",
+      "target": "HOME\\O Professor\\00_Aleatórios\\Cérebro Atômico\\Perfil Comportamental Alto SC (Castro).md",
+      "confidence": "high"
+    },
+    {
+      "alias": "A Regra dos Dois Meses vs. Dois Anos",
+      "target": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Regra dos Dois Meses vs. Dois Anos.md",
+      "confidence": "medium"
+    },
+    {
+      "alias": "A Futilidade da Crítica Pública (Roosevelt vs. Taft)",
+      "target": "HOME\\O Professor\\04_PERSONA 02 - O SOL\\Como fazer amigos e influenciar pessoas\\A Futilidade da Crítica Pública (Roosevelt vs. Taft).md",
+      "confidence": "medium"
+    }
+  ],
+  "link_repair_priorities": [
+    {
+      "priority": 1,
+      "risk": "low",
+      "action": "Corrigir links para notas existentes com divergência simples de artigo inicial ou abreviação.",
+      "examples": [
+        "Invulnerabilidade do Sábio",
+        "Inexistência de Dano ao Sábio",
+        "Velhice Infantil",
+        "Autossuficiência Absoluta",
+        "Fraqueza do Mal",
+        "Analogia do Médico e o Louco",
+        "Natureza dos Bens do Sábio",
+        "Perfil Comportamental Alto S/C (Castro)"
+      ]
+    },
+    {
+      "priority": 2,
+      "risk": "low_medium",
+      "action": "Corrigir targets vazios ou tecnicamente inválidos.",
+      "examples": [
+        "",
+        "Funnel do Alan.canvas|Funnel do Alan"
+      ]
+    },
+    {
+      "priority": 3,
+      "risk": "medium",
+      "action": "Revisar links para notas que aparentemente já existem mas não foram resolvidas pela heurística atual.",
+      "examples": [
+        "A Regra dos Dois Meses vs. Dois Anos",
+        "A Futilidade da Crítica Pública (Roosevelt vs. Taft)",
+        "O Trabalho Sob Aprovação vs. Sob Crítica",
+        "Superação Através da Comunicação (Patrick J. O'Haire)",
+        "Reforço Positivo vs. Punição (B. F. Skinner)",
+        "Existir vs. Viver",
+        "Avareza Temporal vs. Avareza Pecuniária"
+      ]
+    },
+    {
+      "priority": 4,
+      "risk": "medium_high",
+      "action": "Revisar links para canvas e imagens faltantes em notas operacionais.",
+      "examples": [
+        "Sprint 01.canvas",
+        "Pasted Image 20250826202725_931.png",
+        "Pasted Image 20250828195454_871.png"
+      ]
+    },
+    {
+      "priority": 5,
+      "risk": "high",
+      "action": "Deixar links de áreas pessoais densas para revisão humana.",
+      "examples": [
+        "Aragorn",
+        "Numenor",
+        "Projeto de Transformação da Psique",
+        "O Ego e o Self"
+      ]
+    }
+  ],
+  "recommended_sequence": [
+    "Criar MOC - Influência e Relações Humanas.",
+    "Criar MOC - Operações, IA e Projetos.",
+    "Aplicar aliases e correções da prioridade 1.",
+    "Validar a causa dos falsos negativos da prioridade 3.",
+    "Criar MOC - Firmeza do Sábio.",
+    "Entrar em ACIRV e Kevyn Lucas apenas com intervenção mínima e revisável."
+  ],
+  "risks": [
+    "Parte dos links quebrados pode ser falso positivo de normalização, encoding ou resolução por pasta.",
+    "Áreas pessoais densas podem ganhar complexidade em vez de clareza se o MOC crescer demais.",
+    "ACIRV e Kevyn Lucas exigem contexto humano maior que áreas conceituais como O Professor."
+  ],
+  "next_steps": [
+    "Validar amostra manual da prioridade 1 e da prioridade 3.",
+    "Se o padrão se confirmar, aplicar aliases mínimos.",
+    "Criar no máximo 3 MOCs curtos.",
+    "Rodar nova auditoria de links."
+  ],
+  "affected_files": [
+    "reports/05-navigation-plan.md",
+    "reports/05-navigation-plan.json",
+    "logs/05-navigation-plan.md"
+  ]
+}

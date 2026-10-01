@@ -1,0 +1,1 @@
+Stare serve para fazer com que um objeto fique "encarando" um outro.

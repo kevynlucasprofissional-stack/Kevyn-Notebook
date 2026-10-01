@@ -1,0 +1,1 @@
+Uso como base para compor minhas peças criativas o livro "Design para quem não é designer", e toda a expertise acumulada ao longo de vários anos de experiência e estudo sobre soluções criativas. Uso ferramentas de edição e manipulação para alcançar soluções criativas para diversos problemas, sempre com excelência e buscando o "Wow" de meus clientes.

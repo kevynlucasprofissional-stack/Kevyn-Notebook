@@ -1,0 +1,1 @@
+O objeto máscara deve sempre estar acima do objeto a ser mascarado.

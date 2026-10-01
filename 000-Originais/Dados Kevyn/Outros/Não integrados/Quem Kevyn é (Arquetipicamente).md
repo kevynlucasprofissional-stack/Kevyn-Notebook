@@ -1,0 +1,1 @@
+Um Peregrino-Alquimista que teve vislumbres do Absoluto e está sendo chamado a se tornar um Guerreiro para sustentar essa visão.

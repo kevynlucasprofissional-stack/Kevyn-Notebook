@@ -1,0 +1,695 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3.1-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH",
+    "enableImageSearch": false,
+    "enableGoogleMaps": false
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveImage": {
+        "id": "1fToQ1uwnufoBZkMcY5xzaBM81LSQeIQT"
+      },
+      "role": "user",
+      "tokenCount": 259,
+      "createTime": "2026-03-17T13:21:26.149Z"
+    }, {
+      "text": "Eu tenho diversos cofres do obsidian. Resolvi juntar todos eles em um único cofre e essa é a print do gráfico global do cofre. O que podemos ver nesse gráfico? Quais insights? Faça uma análise.",
+      "role": "user",
+      "tokenCount": 46,
+      "createTime": "2026-03-17T13:21:26.149Z"
+    }, {
+      "text": "**Analyzing the Context**\n\nI\u0027m currently focused on grasping the user\u0027s overarching goal. The key context is the consolidation of multiple Obsidian vaults into a unified one, indicated by the global graph view of the merged content. This merger represents a significant organizational change that I need to fully understand.\n\n\n**Observing the Structure**\n\nNow I\u0027m focusing on the image itself, as requested in Portuguese. I can see a large circular graph, typical of Obsidian\u0027s visual style. There\u0027s a ring of disconnected notes, a large, messy central cluster, and a dense cluster at the top right. I\u0027m extracting insights about the note structure to provide a thorough analysis of the visual evidence.\n\n\n**Interpreting the Clusters**\n\nI\u0027m now diving deeper into specific clusters. I see a dense central node connected to a dense, circular cluster slightly up and left. The left side is a hierarchical structure, like a tree. The bottom left is a hub-and-spoke model, and the top left is a smaller, less dense version of the top right cluster. I\u0027m focusing on node size to understand their role, and the connections for how they relate.\n\n\n**Deciphering the Visuals**\n\nI\u0027m interpreting the disconnected dots as potential orphan notes, daily entries, or incomplete thoughts. Dense clusters seem to represent the developed core of individual topics. Large nodes look like hubs or maps of content, and bridges between clusters represent the interconnection of separate vaults or topics. Branching structures are clearly hierarchical. I\u0027m building out a better understanding of the visual representation now.\n\n\n**Synthesizing the Knowledge**\n\nI\u0027m now integrating insights derived from the graph\u0027s structure and the underlying PKM concepts. My key focus is identifying \"Vault Signatures\" within distinct clusters, recognizing the potential within the orphan notes, and highlighting the contrasting note-taking styles. Furthermore, I\u0027m analyzing the significance of hubs and Maps of Content. Finally, I\u0027m formulating actionable recommendations for the user.\n\n\n**Unveiling the Structure**\n\nI\u0027m now diving into the \"anatomy\" of this graph. I\u0027m calling the outer ring of loose notes the \"Asteroid Belt,\" which I\u0027m interpreting as orphaned or incomplete notes. The dense clusters I\u0027m viewing as \"Continents\" or \"Constellations,\" and represent individual vaults. Large nodes, or \"Supernovas,\" are the central notes, or MoCs. The separation shows the old vaults did not communicate. The dense central cluster might be the main one, the tree-like one on the left a hierarchy, and the isolated one on the bottom left, a separate project. The benefit of the merge reveals itself in the ability to create unexpected connections.",
+      "role": "model",
+      "tokenCount": 1564,
+      "isThought": true,
+      "parts": [{
+        "text": "**Analyzing the Context**\n\nI\u0027m currently focused on grasping the user\u0027s overarching goal. The key context is the consolidation of multiple Obsidian vaults into a unified one, indicated by the global graph view of the merged content. This merger represents a significant organizational change that I need to fully understand.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Observing the Structure**\n\nNow I\u0027m focusing on the image itself, as requested in Portuguese. I can see a large circular graph, typical of Obsidian\u0027s visual style. There\u0027s a ring of disconnected notes, a large, messy central cluster, and a dense cluster at the top right. I\u0027m extracting insights about the note structure to provide a thorough analysis of the visual evidence.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Interpreting the Clusters**\n\nI\u0027m now diving deeper into specific clusters. I see a dense central node connected to a dense, circular cluster slightly up and left. The left side is a hierarchical structure, like a tree. The bottom left is a hub-and-spoke model, and the top left is a smaller, less dense version of the top right cluster. I\u0027m focusing on node size to understand their role, and the connections for how they relate.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Deciphering the Visuals**\n\nI\u0027m interpreting the disconnected dots as potential orphan notes, daily entries, or incomplete thoughts. Dense clusters seem to represent the developed core of individual topics. Large nodes look like hubs or maps of content, and bridges between clusters represent the interconnection of separate vaults or topics. Branching structures are clearly hierarchical. I\u0027m building out a better understanding of the visual representation now.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Synthesizing the Knowledge**\n\nI\u0027m now integrating insights derived from the graph\u0027s structure and the underlying PKM concepts. My key focus is identifying \"Vault Signatures\" within distinct clusters, recognizing the potential within the orphan notes, and highlighting the contrasting note-taking styles. Furthermore, I\u0027m analyzing the significance of hubs and Maps of Content. Finally, I\u0027m formulating actionable recommendations for the user.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Unveiling the Structure**\n\nI\u0027m now diving into the \"anatomy\" of this graph. I\u0027m calling the outer ring of loose notes the \"Asteroid Belt,\" which I\u0027m interpreting as orphaned or incomplete notes. The dense clusters I\u0027m viewing as \"Continents\" or \"Constellations,\" and represent individual vaults. Large nodes, or \"Supernovas,\" are the central notes, or MoCs. The separation shows the old vaults did not communicate. The dense central cluster might be the main one, the tree-like one on the left a hierarchy, and the isolated one on the bottom left, a separate project. The benefit of the merge reveals itself in the ability to create unexpected connections.",
+        "thought": true
+      }],
+      "createTime": "2026-03-17T13:21:26.149Z"
+    }, {
+      "text": "\n\n\nÉ fascinante observar o gráfico global de um cofre do Obsidian, especialmente após uma fusão. O gráfico age como uma verdadeira \"impressão digital\" ou um mapa do seu cérebro e do seu conhecimento.\n\nAo analisar a imagem que você enviou, podemos extrair observações muito claras sobre a estrutura das suas anotações, os \"vestígios\" dos seus cofres antigos e como você organiza a informação.\n\nAqui está uma análise detalhada e os insights que podemos tirar desse gráfico:\n\n### 1. A Anatomia do seu Gráfico (O que estamos vendo)\n\n*   **O \"Anel de Asteroides\" (Notas Órfãs):** Toda essa vasta borda circular formada por milhares de pequenos pontos brancos isolados. Estas são notas que não possuem links de entrada nem de saída. A física do gráfico do Obsidian empurra notas sem conexões para as bordas.\n*   **Os \"Continentes\" (Aglomerados):** Dentro do anel, vemos grupos distintos e isolados de anotações (ou com conexões muito fracas entre si). Fica muito evidente que **cada um desses grandes aglomerados representa um dos seus antigos cofres separados**.\n*   **As \"Estrelas Maiores\" (Nodos/Hubs):** Em cada aglomerado, há pontos visivelmente maiores. O Obsidian aumenta o tamanho do nodo com base no número de conexões que ele tem. Estas são suas notas de índice, *Maps of Content* (MoCs), tags principais ou conceitos centrais.\n\n### 2. Insights e Padrões de Pensamento\n\nA forma de cada \"continente\" revela que você usava metodologias diferentes em cada um dos antigos cofres:\n\n*   **A \"Galáxia Central\" (O Núcleo Complexo):** No centro-direito, há um aglomerado massivo, denso e um pouco \"caótico\" (no bom sentido de *networked thought*). Este parece ser o seu cofre principal ou o mais antigo, onde o pensamento em rede, os *backlinks* e as associações livres fluíam mais. Há muita interconectividade aqui.\n*   **A \"Árvore de Ramificação\" (Lado Esquerdo):** O padrão do lado esquerdo é completamente diferente do centro. Ele tem o formato de uma árvore ou de ramificações (hubs com sub-hubs, que têm sub-notas). Isso indica um pensamento estritamente **hierárquico e estruturado**. Provavelmente era um cofre usado para estudos de faculdade, cursos curtos, resumos de livros em capítulos ou gestão de projetos com tarefas e sub-tarefas.\n*   **As \"Esferas Densas\" (Centro-Cima e Topo-Direito):** Existem aglomerados que formam círculos quase perfeitos em volta de um único (ou poucos) pontos centrais. Isso é o clássico padrão \"Cubo e Raio\" (*Hub-and-Spoke*). Todas as notas apontam para um índice central, mas não se conectam muito entre si. Pode ser um diário (onde os dias apontam para o mês), um CRM ou fichamentos.\n*   **O \"Planeta Isolado\" (Canto Inferior Esquerdo):** Um cofre pequeno e bem definido, com um hub central claro. Está praticamente (ou totalmente) sem pontes para o resto do conhecimento.\n\n### 3. A Grande Oportunidade (O que fazer agora?)\n\nVocê tomou uma excelente decisão ao juntar tudo. O poder de metodologias como Zettelkasten ou *Personal Knowledge Management* (PKM) está na **polinização cruzada** de ideias.\n\nAqui estão algumas ações sugeridas baseadas na sua imagem:\n\n1.  **Construa \"Pontes\" (Cross-pollination):** Atualmente, seus ex-cofres ainda vivem em \"silos\". O gráfico mostra pouquíssimas linhas conectando o aglomerado da esquerda com o centro, por exemplo. O próximo passo lógico é começar a procurar relações entre assuntos que antes estavam separados. Como seus estudos estruturados (esquerda) se conectam com seus pensamentos gerais (centro)?\n2.  **O Desafio das Notas Órfãs:** O anel externo de notas órfãs é gigantesco (parece ser a maior parte do volume de notas do cofre). Isso pode ser fruto de anotações diárias não linkadas, arquivos importados (como web clippings de artigos) ou apenas ideias soltas.\n    *   *Dica:* Use o plugin \"Random Note\" (Nota Aleatória) focado em pastas específicas, ou apenas passe alguns minutos por dia conectando algumas dessas órfãs ao centro do seu conhecimento. Elas são um potencial desperdiçado no momento.\n3.  **Crie um \"Super Hub\" (Homepage):** Já que agora você tem um mega-cofre, considere criar uma nota inicial (um painel ou dashboard) que contenha links diretos para as \"Estrelas Maiores\" (os nodos grandões) de cada um dos aglomerados. Isso servirá como uma porta de entrada para navegar por esse vasto universo que você construiu.\n\n**Resumo:**\nO seu gráfico prova que você é um usuário prolífico e que escreve muito. A fusão revelou as \"cicatrizes\" organizacionais do seu passado (os antigos cofres). O seu próximo e mais empolgante passo no Obsidian será ver, com o passar dos meses, essas ilhas isoladas se fundirem em um único e gigante cérebro digital interconectado.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1200,
+      "parts": [{
+        "text": "\n\n\nÉ fascinante observar o gráfico global de um cofre do Obsidian, especialmente após"
+      }, {
+        "text": " uma fusão. O gráfico age como uma verdadeira \"impressão digital\" ou um mapa do seu cérebro e"
+      }, {
+        "text": " do seu conhecimento.\n\nAo analisar a imagem que você enviou, podemos extrair observações muito claras sobre a estrutura"
+      }, {
+        "text": " das suas anotações, os \"vestígios\" dos seus cofres antigos e como você organiza a informação.\n\nAqui"
+      }, {
+        "text": " está uma análise detalhada e os insights que podemos tirar desse gráfico:\n\n### 1. A Anatomia do seu Gráfico ("
+      }, {
+        "text": "O que estamos vendo)\n\n*   **O \"Anel de Asteroides\" (Notas Órfãs):** Toda"
+      }, {
+        "text": " essa vasta borda circular formada por milhares de pequenos pontos brancos isolados. Estas são notas que não possuem links de entrada"
+      }, {
+        "text": " nem de saída. A física do gráfico do Obsidian empurra notas sem conexões para as bordas.\n*   **Os"
+      }, {
+        "text": " \"Continentes\" (Aglomerados):** Dentro do anel, vemos grupos distintos e isolados de anotações (ou"
+      }, {
+        "text": " com conexões muito fracas entre si). Fica muito evidente que **cada um desses grandes aglomerados representa um dos seus antigos"
+      }, {
+        "text": " cofres separados**.\n*   **As \"Estrelas Maiores\" (Nodos/Hubs):** Em"
+      }, {
+        "text": " cada aglomerado, há pontos visivelmente maiores. O Obsidian aumenta o tamanho do nodo com base no número de"
+      }, {
+        "text": " conexões que ele tem. Estas são suas notas de índice, *Maps of Content* (MoCs), tags principais ou conceitos"
+      }, {
+        "text": " centrais.\n\n### 2. Insights e Padrões de Pensamento\n\nA forma de cada \"continente\" revela"
+      }, {
+        "text": " que você usava metodologias diferentes em cada um dos antigos cofres:\n\n*   **A \"Galáxia Central"
+      }, {
+        "text": "\" (O Núcleo Complexo):** No centro-direito, há um aglomerado massivo, den"
+      }, {
+        "text": "so e um pouco \"caótico\" (no bom sentido de *networked thought*). Este parece ser o seu"
+      }, {
+        "text": " cofre principal ou o mais antigo, onde o pensamento em rede, os *backlinks* e as associações livres"
+      }, {
+        "text": " fluíam mais. Há muita interconectividade aqui.\n*   **A \"Árvore de Ramificação\" (L"
+      }, {
+        "text": "ado Esquerdo):** O padrão do lado esquerdo é completamente diferente do centro. Ele tem o formato de uma árvore"
+      }, {
+        "text": " ou de ramificações (hubs com sub-hubs, que têm sub-notas). Isso indica um pensamento"
+      }, {
+        "text": " estritamente **hierárquico e estruturado**. Provavelmente era um cofre usado para estudos de faculdade, cursos"
+      }, {
+        "text": " curtos, resumos de livros em capítulos ou gestão de projetos com tarefas e sub-tarefas.\n*"
+      }, {
+        "text": "   **As \"Esferas Densas\" (Centro-Cima e Topo-Direito):** Existem ag"
+      }, {
+        "text": "lomerados que formam círculos quase perfeitos em volta de um único (ou poucos) pontos centrais. Isso"
+      }, {
+        "text": " é o clássico padrão \"Cubo e Raio\" (*Hub-and-Spoke*). Todas as notas apontam"
+      }, {
+        "text": " para um índice central, mas não se conectam muito entre si. Pode ser um diário (onde os dias apontam para"
+      }, {
+        "text": " o mês), um CRM ou fichamentos.\n*   **O \"Planeta Isolado\" (Canto Inferior Es"
+      }, {
+        "text": "querdo):** Um cofre pequeno e bem definido, com um hub central claro. Está praticamente (ou totalmente) sem"
+      }, {
+        "text": " pontes para o resto do conhecimento.\n\n### 3. A Grande Oportunidade (O que fazer agora?)"
+      }, {
+        "text": "\n\nVocê tomou uma excelente decisão ao juntar tudo. O poder de metodologias como Zettelkasten ou"
+      }, {
+        "text": " *Personal Knowledge Management* (PKM) está na **polinização cruzada** de ideias.\n\nAqui estão algumas ações"
+      }, {
+        "text": " sugeridas baseadas na sua imagem:\n\n1.  **Construa \"Pontes\" (Cross-poll"
+      }, {
+        "text": "ination):** Atualmente, seus ex-cofres ainda vivem em \"silos\". O gráfico mostra pouquíssimas linhas"
+      }, {
+        "text": " conectando o aglomerado da esquerda com o centro, por exemplo. O próximo passo lógico é começar a procurar relações"
+      }, {
+        "text": " entre assuntos que antes estavam separados. Como seus estudos estruturados (esquerda) se conectam com seus pensamentos gerais (centro)?"
+      }, {
+        "text": "\n2.  **O Desafio das Notas Órfãs:** O anel externo de notas órfãs é gigantes"
+      }, {
+        "text": "co (parece ser a maior parte do volume de notas do cofre). Isso pode ser fruto de anotações"
+      }, {
+        "text": " diárias não linkadas, arquivos importados (como web clippings de artigos) ou apenas ideias soltas."
+      }, {
+        "text": "\n    *   *Dica:* Use o plugin \"Random Note\" (Nota Aleatória) focado em pastas específicas, ou apenas"
+      }, {
+        "text": " passe alguns minutos por dia conectando algumas dessas órfãs ao centro do seu conhecimento. Elas são um potencial desperdiçado"
+      }, {
+        "text": " no momento.\n3.  **Crie um \"Super Hub\" (Homepage):** Já que agora você tem um"
+      }, {
+        "text": " mega-cofre, considere criar uma nota inicial (um painel ou dashboard) que contenha links diretos para as \""
+      }, {
+        "text": "Estrelas Maiores\" (os nodos grandões) de cada um dos aglomerados. Isso servirá como uma porta"
+      }, {
+        "text": " de entrada para navegar por esse vasto universo que você construiu.\n\n**Resumo:**\nO seu gráfico prova"
+      }, {
+        "text": " que você é um usuário prolífico e que escreve muito. A fusão revelou as \"cicatrizes\" organiz"
+      }, {
+        "text": "acionais do seu passado (os antigos cofres). O seu próximo e mais empolgante passo no Obsidian será ver"
+      }, {
+        "text": ", com o passar dos meses, essas ilhas isoladas se fundirem em um único e gigante cérebro digital inter"
+      }, {
+        "text": "conectado."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-17T13:21:46.488Z"
+    }, {
+      "driveDocument": {
+        "id": "1Y7XEwYkcfQvMJtVfypnSntuqxtpZoBr8"
+      },
+      "role": "user",
+      "tokenCount": 75099,
+      "createTime": "2026-03-17T13:36:41.848Z"
+    }, {
+      "text": "Eu anexei a lista dos nomes de todas as notas do meu cofre.Crie para mim o fluxo de prompts que vai me ajudar a fazer o seguinte:\nConstrua \"Pontes\" (Cross-pollination): Atualmente, seus ex-cofres ainda vivem em \"silos\". O gráfico mostra pouquíssimas linhas conectando o aglomerado da esquerda com o centro, por exemplo. O próximo passo lógico é começar a procurar relações entre assuntos que antes estavam separados. Como seus estudos estruturados (esquerda) se conectam com seus pensamentos gerais (centro)?\nO Desafio das Notas Órfãs: O anel externo de notas órfãs é gigantesco (parece ser a maior parte do volume de notas do cofre). Isso pode ser fruto de anotações diárias não linkadas, arquivos importados (como web clippings de artigos) ou apenas ideias soltas.\nDica: Use o plugin \"Random Note\" (Nota Aleatória) focado em pastas específicas, ou apenas passe alguns minutos por dia conectando algumas dessas órfãs ao centro do seu conhecimento. Elas são um potencial desperdiçado no momento.\nCrie um \"Super Hub\" (Homepage): Já que agora você tem um mega-cofre, considere criar uma nota inicial (um painel ou dashboard) que contenha links diretos para as \"Estrelas Maiores\" (os nodos grandões) de cada um dos aglomerados. Isso servirá como uma porta de entrada para navegar por esse vasto universo que você construiu.",
+      "role": "user",
+      "tokenCount": 325,
+      "createTime": "2026-03-17T13:36:41.848Z"
+    }, {
+      "text": "**Defining the Prompt Workflow**\n\nI\u0027m focusing on the user\u0027s ultimate aim: creating a prompt workflow. The key is understanding their need to integrate the newly merged Obsidian vault. I\u0027m starting to visualize the sequence of prompts needed, breaking down the vault integration into manageable steps, each prompting for specific actions. I\u0027m exploring the most efficient order to maximize success.\n\n\n**Identifying Key Clusters**\n\nI\u0027ve shifted focus to analyzing the provided note titles to identify key clusters. I\u0027m noting significant sections like \"ACIRV,\" Alex Hormozi materials, and the philosophy/psychology/personal development categories. I\u0027m looking for natural groupings within these areas, which will help build bridges and tackle orphaned notes. The goal now is to map these clusters to create the \"Super Hub\" later.\n\n\n**Categorizing Data Areas**\n\nI\u0027m now identifying core areas within the data. I see clusters for freelance video work (plugins, local businesses), personal journaling (dates, \"Diário\"), and projects related to SaaS and AI (\"Neuron,\" \"ECO\"). There are health/fitness, self-analysis (\"Dossiê\"), and Obsidian/PKM notes to consider. This categorization informs the prompt workflow\u0027s top-down \"Super Hub\" approach.\n\n\n**Defining Super Hub Categories**\n\nI\u0027m now drafting prompts for categorization. My initial prompt will ask for high-level semantic grouping to form the \"Super Hub.\" Afterward, I\u0027ll transition to Phase 2, focusing on cross-pollination. I intend to prompt for unexpected connections between identified silos, such as bridging Stoicism with motion design or Hormozi sales with marketing. I\u0027m focusing on \"MoC\" suggestions to create links. Finally, I\u0027ll address orphan notes with a bottom-up methodology.\n\n\n**Developing Maintenance Prompts**\n\nI\u0027m now focusing on Zettelkasten maintenance. My current task is drafting prompts to prevent future orphan notes and facilitate seamless integration of new material. I\u0027m aiming for a daily/weekly prompt that suggests links for random notes, plus a prompt to handle new raw material. I\u0027m also preparing to refine the prompts, making them ready to copy-paste, including placeholders for user input, and adopting a persona to enhance their effectiveness. All outputs will be in Portuguese.",
+      "role": "model",
+      "tokenCount": 1351,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Prompt Workflow**\n\nI\u0027m focusing on the user\u0027s ultimate aim: creating a prompt workflow. The key is understanding their need to integrate the newly merged Obsidian vault. I\u0027m starting to visualize the sequence of prompts needed, breaking down the vault integration into manageable steps, each prompting for specific actions. I\u0027m exploring the most efficient order to maximize success.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Identifying Key Clusters**\n\nI\u0027ve shifted focus to analyzing the provided note titles to identify key clusters. I\u0027m noting significant sections like \"ACIRV,\" Alex Hormozi materials, and the philosophy/psychology/personal development categories. I\u0027m looking for natural groupings within these areas, which will help build bridges and tackle orphaned notes. The goal now is to map these clusters to create the \"Super Hub\" later.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Categorizing Data Areas**\n\nI\u0027m now identifying core areas within the data. I see clusters for freelance video work (plugins, local businesses), personal journaling (dates, \"Diário\"), and projects related to SaaS and AI (\"Neuron,\" \"ECO\"). There are health/fitness, self-analysis (\"Dossiê\"), and Obsidian/PKM notes to consider. This categorization informs the prompt workflow\u0027s top-down \"Super Hub\" approach.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Defining Super Hub Categories**\n\nI\u0027m now drafting prompts for categorization. My initial prompt will ask for high-level semantic grouping to form the \"Super Hub.\" Afterward, I\u0027ll transition to Phase 2, focusing on cross-pollination. I intend to prompt for unexpected connections between identified silos, such as bridging Stoicism with motion design or Hormozi sales with marketing. I\u0027m focusing on \"MoC\" suggestions to create links. Finally, I\u0027ll address orphan notes with a bottom-up methodology.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Developing Maintenance Prompts**\n\nI\u0027m now focusing on Zettelkasten maintenance. My current task is drafting prompts to prevent future orphan notes and facilitate seamless integration of new material. I\u0027m aiming for a daily/weekly prompt that suggests links for random notes, plus a prompt to handle new raw material. I\u0027m also preparing to refine the prompts, making them ready to copy-paste, including placeholders for user input, and adopting a persona to enhance their effectiveness. All outputs will be in Portuguese.",
+        "thought": true
+      }],
+      "createTime": "2026-03-17T13:36:41.848Z"
+    }, {
+      "text": "\n\n\nCom base na lista gigantesca de anotações que você enviou, fica muito claro quem é você e quais são os \"continentes\" (antigos cofres) que formam o seu gráfico. \n\nVocê tem blocos massivos e distintos sobre:\n1. **Trabalho Institucional/Social Media:** ACIRV (Associação Comercial), métricas, cerimonial, releases.\n2. **Marketing, Vendas e Negócios:** Uma base enorme de Alex Hormozi, Seth Godin, funis de vendas, copywriting, \"$100M Offers\".\n3. **Design e Audiovisual:** Motion Design, After Effects, Cinema 4D, Premiere, projetos de clientes locais.\n4. **Filosofia, Psicologia e Ocultismo:** Jung, Freud, Sócrates, Estoicismo, Wicca, Thelema, análise da própria psique (\"Kevyn\").\n5. **Tecnologia, SaaS e IA:** Projetos como Neuron, ECO, Ágora, Lovable, prompts de IA.\n6. **Saúde e Projetos Pessoais:** Esbelta, Svelte, notas de diário e produtividade.\n\nPara resolver os três desafios que você propôs (Criar o Super Hub, Fazer Polinização Cruzada e Salvar Notas Órfãs), eu criei um **Fluxo de Prompts**. \n\nVocê usará esses prompts em sequência, em conversas com o ChatGPT, Claude ou Gemini.\n\n---\n\n### FASE 1: Construindo o \"Super Hub\" (Homepage)\n*O objetivo aqui é criar a \"nota mãe\" que servirá de mapa para todo o seu cofre.*\n\n**Como usar:** Abra um novo chat e envie o prompt abaixo. (Se o chat reclamar que o texto é muito grande, envie primeiro o seu arquivo de texto com a lista de notas e depois o prompt).\n\n\u003e **Prompt 1: Arquitetura do Super Hub**\n\u003e \"Aja como um especialista em Personal Knowledge Management (PKM) e Zettelkasten. Eu juntei vários cofres do Obsidian em um só. Eu tenho uma lista com o título de mais de 2.000 notas. Quero que você crie a estrutura da minha nova nota \u0027🏠 HOME\u0027 (Super Hub).\n\u003e \n\u003e Com base na lista de títulos fornecida, identifique de 6 a 8 \u0027Pilares Principais\u0027 da minha vida e do meu conhecimento (ex: Marketing, Filosofia, Audiovisual, etc.).\n\u003e \n\u003e Para cada Pilar, crie um índice estruturado em Markdown usando links no formato `[[Nome da Nota]]`. Selecione os 5 a 10 nós mais importantes (hubs, índices ou MOCs - Maps of Content) que já existem na minha lista para colocar debaixo de cada pilar. O objetivo é que essa nota seja o ponto de partida perfeito para navegar em todo o meu cérebro digital.\"\n\n---\n\n### FASE 2: Construindo Pontes (Polinização Cruzada)\n*Como conectar seus \"estudos estruturados\" (ex: Filosofia, Hormozi) com seus \"pensamentos gerais\" ou \"projetos\" (ex: ACIRV, SaaS Lovable).*\n\n**Como usar:** Use este prompt para forçar a sua IA a encontrar conexões ocultas entre dois continentes diferentes do seu cofre.\n\n\u003e **Prompt 2: A Máquina de Insights (Cross-Pollination)**\n\u003e \"Aja como um pensador interdisciplinar. No meu cofre do Obsidian, percebi que o meu pilar de **[INSERIR PILAR 1, ex: Marketing / Alex Hormozi]** não está conectado com o meu pilar de **[INSERIR PILAR 2, ex: Psicologia Junguiana / Filosofia]**. \n\u003e \n\u003e Olhando para os títulos das notas que eu tenho sobre esses dois temas, sugira 5 novas ideias de notas que sirvam como \u0027pontes\u0027 entre esses dois mundos. \n\u003e \n\u003e Para cada ideia, dê o título da nova nota que eu devo criar, explique o insight central dela, e liste quais notas já existentes no meu cofre eu devo \u0027linkar\u0027 dentro dessa nova nota. Seja criativo e busque paralelos filosóficos ou práticos inusitados.\"\n\n*Dica de uso para o seu cofre:* Tente pedir para a IA cruzar \"Estoicismo\" com \"Motion Design\" ou \"Alex Hormozi\" com \"Projetos de IA (Neuron)\". Você se surpreenderá.\n\n---\n\n### FASE 3: O Desafio das Notas Órfãs\n*Este é um prompt de **manutenção**. Use o plugin \"Random Note\" do Obsidian para abrir 3 a 5 notas órfãs que estão soltas na borda do seu gráfico. Depois, jogue os títulos (ou o conteúdo delas) na IA.*\n\n**Como usar:** Uma vez por semana, ou alguns minutos por dia, use este prompt.\n\n\u003e **Prompt 3: O Resgate de Órfãs**\n\u003e \"Estou fazendo a manutenção do meu Zettelkasten no Obsidian. Eu tenho algumas \u0027notas órfãs\u0027 (sem links) e preciso integrá-las ao meu gráfico principal.\n\u003e \n\u003e Aqui estão os títulos (e um breve contexto, se necessário) de 5 notas órfãs:\n\u003e 1. [Nota Aleatória 1]\n\u003e 2. [Nota Aleatória 2]\n\u003e 3. [Nota Aleatória 3]\n\u003e 4. [Nota Aleatória 4]\n\u003e 5. [Nota Aleatória 5]\n\u003e \n\u003e Com base no conhecimento sobre os pilares do meu cofre (Marketing, ACIRV, Filosofia, Audiovisual, IA, etc), me diga:\n\u003e A) Em qual(is) nota(s) índice ou MOCs principais eu deveria inserir um link apontando para essas notas?\n\u003e B) Há alguma relação entre essas 5 notas aleatórias que justifique a criação de uma nova tag ou conceito que as una?\"\n\n---\n\n### FASE 4: O Prompt do \"Conector Automático\" (Para criar novas notas no futuro)\n*Para garantir que o seu \"anel de asteroides\" de notas soltas pare de crescer, você precisa garantir que **toda nova anotação** já nasça linkada. Crie um template no Obsidian para usar com o Copilot ou ChatGPT.*\n\n**Como usar:** Sempre que escrever uma nova reflexão solta ou estudo, jogue lá e use este prompt.\n\n\u003e **Prompt 4: O Zettelkasten Linker**\n\u003e \"Eu acabei de escrever uma nova nota para o meu Obsidian. O título dela é: \u0027[NOME DA NOVA NOTA]\u0027 e o texto é este:\n\u003e \u0027[COLE O TEXTO DA NOTA AQUI]\u0027\n\u003e \n\u003e O meu cofre possui as seguintes áreas principais (baseado na lista que você já conhece: Marketing, Hormozi, Filosofia/Psicologia de Jung/Freud, Audiovisual/Motion, SaaS/IA, ACIRV).\n\u003e \n\u003e Quero que você leia esta nota e sugira um bloco chamado \u0027Links Relacionados\u0027 para eu colocar no final do texto. Sugira de 3 a 6 links para notas **que já existem no meu cofre** e que conversam com esse novo assunto. Tente achar conexões óbvias, mas também conexões interdisciplinares.\"\n\n### 💡 Uma sugestão prática baseada na sua lista:\nSua lista de notas tem muitos arquivos soltos como: `\"A fazer\", \"Acessos site\", \"Ajustes site\", \"Contas e Senhas\"`. Muitas dessas notas órfãs **não precisam ser linkadas no gráfico de conhecimento**. Elas são arquivos utilitários/operacionais. \n\nUma excelente prática para \"limpar\" a borda do seu gráfico global é colocar uma tag específica nessas notas (ex: `#operacional` ou `#dashboard`) e **configurar as opções do seu Graph View no Obsidian para ocultar essas tags específicas**. Seu gráfico ficará limpo instantaneamente, mostrando apenas as reais conexões de *conhecimento*.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1780,
+      "parts": [{
+        "text": "\n\n\nCom base na lista gigantesca de anotações que"
+      }, {
+        "text": " você enviou, fica muito claro quem é você e quais são os \"continentes\" (antigos cofres)"
+      }, {
+        "text": " que formam o seu gráfico. \n\nVocê tem blocos massivos e distintos sobre:\n1. **Tr"
+      }, {
+        "text": "abalho Institucional/Social Media:** ACIRV (Associação Comercial), métricas, cerimonial, releases"
+      }, {
+        "text": ".\n2. **Marketing, Vendas e Negócios:** Uma base enorme de Alex Hormozi, Seth Godin,"
+      }, {
+        "text": " funis de vendas, copywriting, \"$100M Offers\".\n3. **Design e Audiovisual:** Motion"
+      }, {
+        "text": " Design, After Effects, Cinema 4D, Premiere, projetos de clientes locais.\n4. **Filosofia,"
+      }, {
+        "text": " Psicologia e Ocultismo:** Jung, Freud, Sócrates, Estoicismo, Wicca, Thelema, análise da própria"
+      }, {
+        "text": " psique (\"Kevyn\").\n5. **Tecnologia, SaaS e IA:** Projetos como Neuron, ECO, Á"
+      }, {
+        "text": "gora, Lovable, prompts de IA.\n6. **Saúde e Projetos Pessoais:** Es"
+      }, {
+        "text": "belta, Svelte, notas de diário e produtividade.\n\nPara resolver os três desafios que você propôs (Cri"
+      }, {
+        "text": "ar o Super Hub, Fazer Polinização Cruzada e Salvar Notas Órfãs), eu criei um"
+      }, {
+        "text": " **Fluxo de Prompts**. \n\nVocê usará esses prompts em sequência, em conversas com o ChatGPT,"
+      }, {
+        "text": " Claude ou Gemini.\n\n---\n\n### FASE 1: Construindo o \"Super Hub\" (Homepage)\n*O"
+      }, {
+        "text": " objetivo aqui é criar a \"nota mãe\" que servirá de mapa para todo o seu cofre.*\n\n**Como"
+      }, {
+        "text": " usar:** Abra um novo chat e envie o prompt abaixo. (Se o chat reclamar que o texto é muito grande"
+      }, {
+        "text": ", envie primeiro o seu arquivo de texto com a lista de notas e depois o prompt).\n\n\u003e **Prompt 1:"
+      }, {
+        "text": " Arquitetura do Super Hub**\n\u003e \"Aja como um especialista em Personal Knowledge Management (PKM) e Zettelk"
+      }, {
+        "text": "asten. Eu juntei vários cofres do Obsidian em um só. Eu tenho uma lista com o título de mais de"
+      }, {
+        "text": " 2.000 notas. Quero que você crie a estrutura da minha nova nota \u0027🏠 HOME\u0027 ("
+      }, {
+        "text": "Super Hub).\n\u003e \n\u003e Com base na lista de títulos fornecida, identifique de 6 a"
+      }, {
+        "text": " 8 \u0027Pilares Principais\u0027 da minha vida e do meu conhecimento (ex: Marketing, Filosofia, Audiovisual, etc"
+      }, {
+        "text": ".).\n\u003e \n\u003e Para cada Pilar, crie um índice estruturado em Markdown usando links no formato `["
+      }, {
+        "text": "[Nome da Nota]]`. Selecione os 5 a 10 nós mais importantes (hubs, índices ou MOCs -"
+      }, {
+        "text": " Maps of Content) que já existem na minha lista para colocar debaixo de cada pilar. O objetivo é que essa nota"
+      }, {
+        "text": " seja o ponto de partida perfeito para navegar em todo o meu cérebro digital.\"\n\n---\n\n### FASE 2"
+      }, {
+        "text": ": Construindo Pontes (Polinização Cruzada)\n*Como conectar seus \"estudos estruturados\" ("
+      }, {
+        "text": "ex: Filosofia, Hormozi) com seus \"pensamentos gerais\" ou \"projetos\" (ex: ACIRV"
+      }, {
+        "text": ", SaaS Lovable).*\n\n**Como usar:** Use este prompt para forçar a sua IA a encontrar conexões ocultas entre dois"
+      }, {
+        "text": " continentes diferentes do seu cofre.\n\n\u003e **Prompt 2: A Máquina de Insights (Cross-Poll"
+      }, {
+        "text": "ination)**\n\u003e \"Aja como um pensador interdisciplinar. No meu cofre do Obsidian, percebi que o"
+      }, {
+        "text": " meu pilar de **[INSERIR PILAR 1, ex: Marketing / Alex Hormozi]** não"
+      }, {
+        "text": " está conectado com o meu pilar de **"
+      }, {
+        "text": "[INSERIR PILAR 2, ex: Psicologia Junguiana / Filosofia]**. \n\u003e \n\u003e Olhando para os títulos das notas que eu tenho sobre esses dois temas,"
+      }, {
+        "text": " sugira 5 novas ideias de notas que sirvam como \u0027pontes\u0027 entre esses dois mundos. \n\u003e"
+      }, {
+        "text": " \n\u003e Para cada ideia, dê o título da nova nota que eu devo criar, explique o insight central dela, e liste"
+      }, {
+        "text": " quais notas já existentes no meu cofre eu devo \u0027linkar\u0027 dentro dessa nova nota. Seja criativo e busque"
+      }, {
+        "text": " paralelos filosóficos ou práticos inusitados.\"\n\n*Dica de uso para o seu cofre:* T"
+      }, {
+        "text": "ente pedir para a IA cruzar \"Estoicismo\" com \"Motion Design\" ou \"Alex Hormozi\" com \"Pro"
+      }, {
+        "text": "jetos de IA (Neuron)\". Você se surpreenderá.\n\n---\n\n### FASE 3: O Desafio"
+      }, {
+        "text": " das Notas Órfãs\n*Este é um prompt de **manutenção**. Use o plugin \"Random Note\" do Obsidian"
+      }, {
+        "text": " para abrir 3 a 5 notas órfãs que estão soltas na borda do seu gráfico. Depois, j"
+      }, {
+        "text": "ogue os títulos (ou o conteúdo delas) na IA.*\n\n**Como usar:** Uma vez por semana, ou alguns"
+      }, {
+        "text": " minutos por dia, use este prompt.\n\n\u003e **Prompt 3: O Resgate de Órfãs**\n\u003e \"Est"
+      }, {
+        "text": "ou fazendo a manutenção do meu Zettelkasten no Obsidian. Eu tenho algumas \u0027notas órfãs\u0027 (sem"
+      }, {
+        "text": " links) e preciso integrá-las ao meu gráfico principal.\n\u003e \n\u003e Aqui estão os títulos (e um"
+      }, {
+        "text": " breve contexto, se necessário) de 5 notas órfãs:\n\u003e 1. [Nota Aleatória 1]"
+      }, {
+        "text": "\n\u003e 2. [Nota Aleatória 2]\n\u003e 3. [Nota Aleatória 3]"
+      }, {
+        "text": "\n\u003e 4. [Nota Aleatória 4]\n\u003e 5. [Nota Aleatória 5]"
+      }, {
+        "text": "\n\u003e \n\u003e Com base no conhecimento sobre os pilares do meu cofre (Marketing, ACIRV, Filosof"
+      }, {
+        "text": "ia, Audiovisual, IA, etc), me diga:\n\u003e A) Em qual(is) nota(s) índice"
+      }, {
+        "text": " ou MOCs principais eu deveria inserir um link apontando para essas notas?\n\u003e B) Há alguma relação entre"
+      }, {
+        "text": " essas 5 notas aleatórias que justifique a criação de uma nova tag ou conceito que as una?\"\n\n---"
+      }, {
+        "text": "\n\n### FASE 4: O Prompt do \"Conector Automático\" (Para criar novas notas no futuro)\n*"
+      }, {
+        "text": "Para garantir que o seu \"anel de asteroides\" de notas soltas pare de crescer, você precisa garantir que **"
+      }, {
+        "text": "toda nova anotação** já nasça linkada. Crie um template no Obsidian para usar com o Cop"
+      }, {
+        "text": "ilot ou ChatGPT.*\n\n**Como usar:** Sempre que escrever uma nova reflexão solta ou estudo, jogue lá"
+      }, {
+        "text": " e use este prompt.\n\n\u003e **Prompt 4: O Zettelkasten Linker**\n\u003e \"Eu ac"
+      }, {
+        "text": "abei de escrever uma nova nota para o meu Obsidian. O título dela é: \u0027[NOME DA NOVA NOTA]\u0027 e"
+      }, {
+        "text": " o texto é este:\n\u003e \u0027[COLE O TEXTO DA NOTA AQUI]\u0027\n\u003e \n\u003e O"
+      }, {
+        "text": " meu cofre possui as seguintes áreas principais (baseado na lista que você já conhece: Marketing, Hormozi, Filosof"
+      }, {
+        "text": "ia/Psicologia de Jung/Freud, Audiovisual/Motion, SaaS/IA, ACIRV)."
+      }, {
+        "text": "\n\u003e \n\u003e Quero que você leia esta nota e sugira um bloco chamado \u0027Links Relacionados\u0027 para eu"
+      }, {
+        "text": " colocar no final do texto. Sugira de 3 a 6 links para notas **que já existem no meu cofre**"
+      }, {
+        "text": " e que conversam com esse novo assunto. Tente achar conexões óbvias, mas também conexões interdisciplinares.\""
+      }, {
+        "text": "\n\n### 💡 Uma sugestão prática baseada na sua lista:\nSua lista de notas tem muitos arquivos soltos como: `\""
+      }, {
+        "text": "A fazer\", \"Acessos site\", \"Ajustes site\", \"Contas e Senhas\"`. Muit"
+      }, {
+        "text": "as dessas notas órfãs **não precisam ser linkadas no gráfico de conhecimento**. Elas são arquivos utilitários/operacionais"
+      }, {
+        "text": ". \n\nUma excelente prática para \"limpar\" a borda do seu gráfico global é colocar uma tag específica ness"
+      }, {
+        "text": "as notas (ex: `#operacional` ou `#dashboard`) e **configurar as opções do seu Graph View no"
+      }, {
+        "text": " Obsidian para ocultar essas tags específicas**. Seu gráfico ficará limpo instantaneamente, mostrando apenas as reais conexões de *"
+      }, {
+        "text": "conhecimento*."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-17T13:37:00.496Z"
+    }, {
+      "text": "\"Aja como um especialista em Personal Knowledge Management (PKM) e Zettelkasten. Eu juntei vários cofres do Obsidian em um só. Eu tenho uma lista com o título de mais de 2.000 notas. Quero que você crie a estrutura da minha nova nota \u0027🏠 HOME\u0027 (Super Hub).\nCom base na lista de títulos fornecida, identifique de 6 a 8 \u0027Pilares Principais\u0027 da minha vida e do meu conhecimento (ex: Marketing, Filosofia, Audiovisual, etc.).\nPara cada Pilar, crie um índice estruturado em Markdown usando links no formato [[Nome da Nota]]. Selecione os 5 a 10 nós mais importantes (hubs, índices ou MOCs - Maps of Content) que já existem na minha lista para colocar debaixo de cada pilar. O objetivo é que essa nota seja o ponto de partida perfeito para navegar em todo o meu cérebro digital.\"",
+      "role": "user",
+      "tokenCount": 203,
+      "createTime": "2026-03-17T13:41:16.304Z"
+    }, {
+      "text": "**Defining the Core Structure**\n\nI\u0027m now zeroing in on defining the initial structure for the Obsidian \"HOME\" note. I\u0027m focusing on those 6-8 \"Main Pillars\" that the user specified, ensuring they\u0027re logical and easily navigable. I plan to use Obsidian\u0027s linking and embedding to create a seamless user experience.\n\n\n**Prioritizing Node Organization**\n\nI\u0027m now diving into the structure of each pillar. I\u0027ll focus on grouping the most important nodes into each main pillar. I\u0027m aiming for 5-10 crucial nodes per pillar, formatted as Obsidian links for quick access. This also requires recall of a large list of note titles. Key themes are marketing/business, philosophy/psychology, motion design, and institutional work. I\u0027m focusing on defining the key hubs, indices, and MOCs.\n\n\n**Refining Note Categories**\n\nI\u0027m now integrating new categories into the Obsidian structure, adding Technology (SaaS, AI \u0026 Automation), and Personal (Productivity \u0026 Health). I am finalizing the structure of the pillars, including *Filosofia*, *Marketing*, *Design*, *Trabalho Institucional*, *Tecnologia*, *Desenvolvimento Pessoal*, and *Sistema*. I am expanding on the key themes within each pillar.\n\n\n**Organizing Core Nodes**\n\nI\u0027m now focusing on selecting and organizing core nodes for each pillar, specifically 5-10 key hubs or MOCs per category. I\u0027m choosing these from a provided list, ensuring a balance between key thinkers and essential concepts within Filosofia, Marketing, Design, and other pillars. For the philosophy pillar, I\u0027m focusing on \"O mapa da psique e o tarô na prática\" and \"Zaratustra\". In Marketing, I\u0027m leaning toward \"Estratégias de vendas por AFILIAÇÃO\" and \"Oferta Grand Slam\".\n\n\n**Adding Design Content**\n\nI\u0027m now integrating motion design elements into the Design pillar, including nodes for After Effects, Cinema 4D, Typography, Video Editing, Photoshop, CGI/VFX, and Premiere Pro mastery. I\u0027m also adding institutional nodes to the *Trabalho Institucional* pillar, focusing on ACIRV-related materials, such as strategy guides, social media responsibilities, tone of voice guidelines, event playbooks, and a retrospective. I am also working on adding specific content regarding AI and SaaS.\n\n\n\n**Integrating New Nodes**\n\nI am now focusing on integrating new nodes into Pillars 5, 6, and 7. Specifically, I am incorporating nodes related to AI interpretation systems, the MVP of Lovable, and system prompts for AI agents into the Technology pillar. For Development, I am including nodes centered on personal identity, mapping the psyche, productivity, and health with my \"Kevyn\" journey. In the HQ/Zettelkasten pillar, I am adding nodes like \"Diário,\" \"Mestre,\" \"Modelos,\" and \"GALPÃO DE TAREFAS\" to facilitate operational efficiency.\n\n\n**Constructing the Home Note**\n\nI\u0027m now focusing on drafting the actual content for the \"HOME\" note. I\u0027m starting with a concise welcome message to set the context. I\u0027m then structuring the seven pillars with short descriptions and the curated links. Also I am adding a tip on how to use the \"HOME\" note effectively, like keeping it pinned or using shortcuts. I\u0027m meticulously checking that the links accurately reflect the original note titles.",
+      "role": "model",
+      "tokenCount": 2288,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Core Structure**\n\nI\u0027m now zeroing in on defining the initial structure for the Obsidian \"HOME\" note. I\u0027m focusing on those 6-8 \"Main Pillars\" that the user specified, ensuring they\u0027re logical and easily navigable. I plan to use Obsidian\u0027s linking and embedding to create a seamless user experience.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Prioritizing Node Organization**\n\nI\u0027m now diving into the structure of each pillar. I\u0027ll focus on grouping the most important nodes into each main pillar. I\u0027m aiming for 5-10 crucial nodes per pillar, formatted as Obsidian links for quick access. This also requires recall of a large list of note titles. Key themes are marketing/business, philosophy/psychology, motion design, and institutional work. I\u0027m focusing on defining the key hubs, indices, and MOCs.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Refining Note Categories**\n\nI\u0027m now integrating new categories into the Obsidian structure, adding Technology (SaaS, AI \u0026 Automation), and Personal (Productivity \u0026 Health). I am finalizing the structure of the pillars, including *Filosofia*, *Marketing*, *Design*, *Trabalho Institucional*, *Tecnologia*, *Desenvolvimento Pessoal*, and *Sistema*. I am expanding on the key themes within each pillar.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Organizing Core Nodes**\n\nI\u0027m now focusing on selecting and organizing core nodes for each pillar, specifically 5-10 key hubs or MOCs per category. I\u0027m choosing these from a provided list, ensuring a balance between key thinkers and essential concepts within Filosofia, Marketing, Design, and other pillars. For the philosophy pillar, I\u0027m focusing on \"O mapa da psique e o tarô na prática\" and \"Zaratustra\". In Marketing, I\u0027m leaning toward \"Estratégias de vendas por AFILIAÇÃO\" and \"Oferta Grand Slam\".",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Adding Design Content**\n\nI\u0027m now integrating motion design elements into the Design pillar, including nodes for After Effects, Cinema 4D, Typography, Video Editing, Photoshop, CGI/VFX, and Premiere Pro mastery. I\u0027m also adding institutional nodes to the *Trabalho Institucional* pillar, focusing on ACIRV-related materials, such as strategy guides, social media responsibilities, tone of voice guidelines, event playbooks, and a retrospective. I am also working on adding specific content regarding AI and SaaS.",
+        "thought": true
+      }, {
+        "text": "\n\n\n\n**Integrating New Nodes**\n\nI am now focusing on integrating new nodes into Pillars 5, 6, and 7. Specifically, I am incorporating nodes related to AI interpretation systems, the MVP of Lovable, and system prompts for AI agents into the Technology pillar. For Development, I am including nodes centered on personal identity, mapping the psyche, productivity, and health with my \"Kevyn\" journey. In the HQ/Zettelkasten pillar, I am adding nodes like \"Diário,\" \"Mestre,\" \"Modelos,\" and \"GALPÃO DE TAREFAS\" to facilitate operational efficiency.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Constructing the Home Note**\n\nI\u0027m now focusing on drafting the actual content for the \"HOME\" note. I\u0027m starting with a concise welcome message to set the context. I\u0027m then structuring the seven pillars with short descriptions and the curated links. Also I am adding a tip on how to use the \"HOME\" note effectively, like keeping it pinned or using shortcuts. I\u0027m meticulously checking that the links accurately reflect the original note titles.",
+        "thought": true
+      }],
+      "createTime": "2026-03-17T13:41:16.305Z"
+    }, {
+      "text": "\n\n\nComo especialista em *Personal Knowledge Management* (PKM), posso dizer que a lista do seu cofre é um prato cheio. Você tem um universo mental riquíssimo, com interesses profundos que vão desde o design visual e a tecnologia, até as profundezas da psique humana e a estruturação de negócios. \n\nPara organizar esse caos criativo e transformar o seu Obsidian em um verdadeiro \"Segundo Cérebro\", criei a estrutura do seu **Super Hub**. \n\nCopie o código Markdown abaixo e cole em uma nova nota chamada `🏠 HOME` (ou `000_HOME`). Você pode fixá-la (pin) no seu Obsidian ou defini-la para abrir automaticamente junto com o aplicativo.\n\n***\n\n# 🏠 HOME - Meu Cérebro Digital\n\nBem-vindo ao centro de comando. Este é o ponto de partida para navegar pelas conexões, projetos, estudos e ideias que formam a sua mente. \n\n\u003e *\"O invisível gera o visível. Use o tempo, e não deixe o tempo usar você.\"*\n\n---\n\n### 🧠 1. Filosofia, Psicologia e Ocultismo\n*A exploração da mente humana, da sabedoria clássica, do inconsciente e dos mistérios da vontade.*\n* [[Freud]]\n* [[Jung]]\n* [[Sócrates]]\n* [[Marco Aurélio - Meditações]]\n* [[Clarissa]]\n* [[O caminho do Magus]]\n* [[O mapa da psique e o tarô na prática]]\n* [[Zaratustra]]\n* [[Estudo sobre a ritualística Wicca]]\n\n### 💼 2. Marketing, Vendas e Negócios\n*Estratégias de aquisição, funis, branding, persuasão e estruturação de ofertas irresistíveis.*\n* [[Alex Hormozi]]\n* [[Seth Godin]]\n* [[Philip Kotler]]\n* [[Funil de vendas]]\n* [[100M Models]]\n* [[Oferta Grand Slam]]\n* [[Liber Vendas, uma introdução]]\n* [[Estratégias de vendas por AFILIAÇÃO]]\n* [[Hoor Digital]]\n\n### 🎬 3. Design, Audiovisual e Motion 3D\n*Estudos técnicos, softwares, efeitos visuais, texturas e projetos de clientes.*\n* [[AE para Motion Design]]\n* [[Cinema 4D]]\n* [[Photoshop]]\n* [[Edição de vídeo]]\n* [[Desenho tipográfico - DTTAP]]\n* [[CGI \u0026 VFX]]\n* [[Dominando o Adobe Premiere 2.0]]\n* [[OZI - Detonando no After Effects]]\n* [[Áreas de atuação para Motion Design]]\n\n### 🤖 4. Tecnologia, IA e SaaS\n*Desenvolvimento de produtos, engenharia de prompt, automações e agentes de inteligência artificial.*\n* [[ECO - Plataforma de Agentes IA insanamente ótimos]]\n* [[Neuron - Plataforma de Aprendizado em Inteligência Artificial]]\n* [[Ágora — Marketing Baseado em Dados]]\n* [[BioVision IA]]\n* [[Inteligências Artificiais]]\n* [[PROMPT - Criador de System Prompt para Agentes de IA]]\n* [[Primeiro Prompt Lovable]]\n* [[ChatGPT e outras IAs pelo Telegram]]\n\n### 🏢 5. Trabalho Institucional (ACIRV)\n*Comunicação institucional, comunidade, eventos, releases e gestão de mídias.*\n* [[Guia Estratégico para Gestão da Comunidade ACIRV]]\n* [[Responsabilidades do Social Media da ACIRV]]\n* [[Novo tom de voz 2026]]\n* [[PLAYBOOK Cerimonial Café entre Amigos]]\n* [[Playbook de Releases]]\n* [[1º Fórum de IA da ACIRV - Planejamento Social Media]]\n* [[RETROSPECTIVA 2026]]\n\n### 👤 6. Identidade, Saúde e Jornada Pessoal\n*A anatomia psíquica do Kevyn, reflexões, projetos de saúde e individuação.*\n* [[Prazer, eu me chamo Kevyn.]]\n* [[Mapa Pessoal da Psique Individuada]]\n* [[Em busca da sabedoria]]\n* [[Desafio Svelte]]\n* [[EsbeltAI]]\n* [[Produtividade e Gestão]]\n* [[Gestão de conhecimento e tempo]]\n\n### ⚙️ 7. Sistema Zettelkasten e Operacional\n*A engrenagem do cofre: modelos, rotinas diárias e anotações atômicas estruturais.*\n* [[O Segundo Cérebro Definitivo]]\n* [[Zettelkasten]]\n* [[Mestre]]\n* [[Diário]]\n* [[Modelos]]\n* [[GALPÃO DE TAREFAS]]\n* [[00_lista_de_notas]]\n\n---\n**💡 Dica de Manutenção:** \n*Se você não sabe onde colocar uma anotação nova, coloque o link dela aqui no Hub temporariamente ou certifique-se de linká-la a pelo menos um dos grandes nós acima para que ela não se torne uma nota órfã no gráfico global.*\n\n***\n\n### Por que essa estrutura funciona?\n\n1. **Top-Down MOC (Map of Content):** Nós transformamos o \"Cubo de Rubik\" das suas anotações em algo plano e navegável. Cada pilar funciona como uma \"Pasta Virtual\".\n2. **Cristalização dos seus alter-egos:** Você tem o Kevyn Designer/Motion, o Kevyn Profissional/Institucional (ACIRV), o Kevyn Estrategista/SaaS (Neuron/ECO) e o Kevyn Filósofo/Analítico. Separar essas instâncias na Home ajuda o seu cérebro a \"vestir o chapéu\" certo na hora de trabalhar no Obsidian.\n3. **Escalabilidade:** Quando você quiser aprofundar em *Copywriting*, por exemplo, você não precisa procurar notas soltas, você clica em `[[Alex Hormozi]]` ou `[[Funil de vendas]]` e, a partir dessas notas-índice, o conhecimento se ramifica.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1352,
+      "parts": [{
+        "text": "\n\n\nComo"
+      }, {
+        "text": " especialista em *Personal Knowledge Management* (PKM), posso dizer que a lista do seu cofre é um prato cheio. Você"
+      }, {
+        "text": " tem um universo mental riquíssimo, com interesses profundos que vão desde o design visual e a tecnologia, até as"
+      }, {
+        "text": " profundezas da psique humana e a estruturação de negócios. \n\nPara organizar esse caos criativo e transformar o"
+      }, {
+        "text": " seu Obsidian em um verdadeiro \"Segundo Cérebro\", criei a estrutura do seu **Super Hub**. \n\nCopie"
+      }, {
+        "text": " o código Markdown abaixo e cole em uma nova nota chamada `🏠 HOME` (ou `000_HOME`). Você"
+      }, {
+        "text": " pode fixá-la (pin) no seu Obsidian ou defini-la para abrir automaticamente junto com o aplicativo.\n\n***"
+      }, {
+        "text": "\n\n# 🏠 HOME - Meu Cérebro Digital\n\nBem-vindo ao centro de comando. Este é o ponto de"
+      }, {
+        "text": " partida para navegar pelas conexões, projetos, estudos e ideias que formam a sua mente. \n\n\u003e *\"O invis"
+      }, {
+        "text": "ível gera o visível. Use o tempo, e não deixe o tempo usar você.\"*\n\n---\n\n### 🧠"
+      }, {
+        "text": " 1. Filosofia, Psicologia e Ocultismo\n*A exploração da mente humana, da sabedoria cláss"
+      }, {
+        "text": "ica, do inconsciente e dos mistérios da vontade.*\n* [[Freud]]\n* [[Jung]]\n* ["
+      }, {
+        "text": "[Sócrates]]\n* [[Marco Aurélio - Meditações]]\n* [[Clarissa]]\n* ["
+      }, {
+        "text": "[O caminho do Magus]]\n* [[O mapa da psique e o tarô na prática]]\n* ["
+      }, {
+        "text": "[Zaratustra]]\n* [[Estudo sobre a ritualística Wicca]]\n\n### 💼 2. Marketing"
+      }, {
+        "text": ", Vendas e Negócios\n*Estratégias de aquisição, funis, branding, persuasão e"
+      }, {
+        "text": " estruturação de ofertas irresistíveis.*\n* [[Alex Hormozi]]\n* [[Seth Godin]]\n* ["
+      }, {
+        "text": "[Philip Kotler]]\n* [[Funil de vendas]]\n* [[100M Models]]\n* ["
+      }, {
+        "text": "[Oferta Grand Slam]]\n* [[Liber Vendas, uma introdução]]\n* ["
+      }, {
+        "text": "[Estratégias de vendas por AFILIAÇÃO]]\n* [[Hoor Digital]]\n\n### 🎬 3. Design, Audiovis"
+      }, {
+        "text": "ual e Motion 3D\n*Estudos técnicos, softwares, efeitos visuais, texturas e projetos de clientes.*"
+      }, {
+        "text": "\n* [[AE para Motion Design]]\n* [[Cinema 4D]]\n* [[Photoshop]]\n*"
+      }, {
+        "text": " [[Edição de vídeo]]\n* [[Desenho tipográfico - DTTAP]]\n* [[CGI \u0026 VFX]]"
+      }, {
+        "text": "\n* [[Dominando o Adobe Premiere 2.0]]\n* [[OZI - Detonando no After Effects]]"
+      }, {
+        "text": "\n* [[Áreas de atuação para Motion Design]]\n\n### 🤖 4. Tecnologia, IA e SaaS\n*Desenvolvimento"
+      }, {
+        "text": " de produtos, engenharia de prompt, automações e agentes de inteligência artificial.*\n* ["
+      }, {
+        "text": "[ECO - Plataforma de Agentes IA insanamente ótimos]]\n* [[Neuron - Plataforma de Aprendizado em Inteligência Artificial]]"
+      }, {
+        "text": "\n* [[Ágora — Marketing Baseado em Dados]]\n* [[BioVision IA]]\n* ["
+      }, {
+        "text": "[Inteligências Artificiais]]\n* [[PROMPT - Criador de System Prompt para Agentes de IA]]"
+      }, {
+        "text": "\n* [[Primeiro Prompt Lovable]]\n* [[ChatGPT e outras IAs pelo Telegram]]\n\n### 🏢"
+      }, {
+        "text": " 5. Trabalho Institucional (ACIRV)\n*Comunicação institucional, comunidade, eventos, releases e gestão de m"
+      }, {
+        "text": "ídias.*\n* [[Guia Estratégico para Gestão da Comunidade ACIRV]]\n* ["
+      }, {
+        "text": "[Responsabilidades do Social Media da ACIRV]]\n* [[Novo tom de voz 2026]]\n* ["
+      }, {
+        "text": "[PLAYBOOK Cerimonial Café entre Amigos]]\n* [[Playbook de Releases]]\n* ["
+      }, {
+        "text": "[1º Fórum de IA da ACIRV - Planejamento Social Media]]\n* ["
+      }, {
+        "text": "[RETROSPECTIVA 2026]]\n\n### 👤 6. Identidade, Saúde e Jornada Pessoal\n*A anatomia psíqu"
+      }, {
+        "text": "ica do Kevyn, reflexões, projetos de saúde e individuação.*\n* ["
+      }, {
+        "text": "[Prazer, eu me chamo Kevyn.]]\n* [[Mapa Pessoal da Psique Individuada]]\n* ["
+      }, {
+        "text": "[Em busca da sabedoria]]\n* [[Desafio Svelte]]\n* [[EsbeltAI]]\n* ["
+      }, {
+        "text": "[Produtividade e Gestão]]\n* [[Gestão de conhecimento e tempo]]\n\n### ⚙️ 7. Sistema Zettel"
+      }, {
+        "text": "kasten e Operacional\n*A engrenagem do cofre: modelos, rotinas diárias e anotações at"
+      }, {
+        "text": "ômicas estruturais.*\n* [[O Segundo Cérebro Definitivo]]\n* ["
+      }, {
+        "text": "[Zettelkasten]]\n* [[Mestre]]\n* [[Diário]]\n* [[Modelos]]\n* ["
+      }, {
+        "text": "[GALPÃO DE TAREFAS]]\n* [[00_lista_de_notas]]\n\n---\n**💡 Dica de"
+      }, {
+        "text": " Manutenção:** \n*Se você não sabe onde colocar uma anotação nova, coloque o link dela aqui no"
+      }, {
+        "text": " Hub temporariamente ou certifique-se de linká-la a pelo menos um dos grandes nós acima para que ela não se"
+      }, {
+        "text": " torne uma nota órfã no gráfico global.*\n\n***\n\n### Por que essa estrutura funciona?\n\n1. **Top"
+      }, {
+        "text": "-Down MOC (Map of Content):** Nós transformamos o \"Cubo de Rubik\" das suas anotações"
+      }, {
+        "text": " em algo plano e navegável. Cada pilar funciona como uma \"Pasta Virtual\".\n2. **Cristalização dos seus"
+      }, {
+        "text": " alter-egos:** Você tem o Kevyn Designer/Motion, o Kevyn Profissional/Institucional (AC"
+      }, {
+        "text": "IRV), o Kevyn Estrategista/SaaS (Neuron/ECO) e o Kevyn Filósofo/Anal"
+      }, {
+        "text": "ítico. Separar essas instâncias na Home ajuda o seu cérebro a \"vestir o chapéu\" certo"
+      }, {
+        "text": " na hora de trabalhar no Obsidian.\n3. **Escalabilidade:** Quando você quiser aprofundar em *"
+      }, {
+        "text": "Copywriting*, por exemplo, você não precisa procurar notas soltas, você clica em `[[Alex Hormozi]]"
+      }, {
+        "text": "` ou `[[Funil de vendas]]` e, a partir dessas notas-índice, o conhecimento se ramifica."
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-17T13:41:41.775Z"
+    }, {
+      "text": "\"Aja como um pensador interdisciplinar. No meu cofre do Obsidian, percebi que o meu pilar de [INSERIR PILAR 1, ex: Marketing / Alex Hormozi] não está conectado com o meu pilar de [INSERIR PILAR 2, ex: Psicologia Junguiana / Filosofia].\nOlhando para os títulos das notas que eu tenho sobre esses dois temas, sugira 5 novas ideias de notas que sirvam como \u0027pontes\u0027 entre esses dois mundos.\nPara cada ideia, dê o título da nova nota que eu devo criar, explique o insight central dela, e liste quais notas já existentes no meu cofre eu devo \u0027linkar\u0027 dentro dessa nova nota. Seja criativo e busque paralelos filosóficos ou práticos inusitados.\"",
+      "role": "user",
+      "tokenCount": 171,
+      "createTime": "2026-03-17T13:43:26.898Z"
+    }, {
+      "text": "**Defining the Bridge**\n\nI\u0027m now zeroing in on defining what constitutes a good \"bridge\" note, considering the user\u0027s focus on connecting Pillar 1 concepts (Marketing/Alex Hormozi) with other pillars. I\u0027m exploring the best way to determine the degree of overlap and relevance across different knowledge domains. I need to ensure the bridges are novel and insightful, while still being practical.\n\n\n**Connecting the Pillars**\n\nI\u0027m now focusing on connecting Pillar 1 with Pillar 2, based on the user\u0027s note list. My current focus involves analyzing the inputs from the two pillars, looking at notes such as \"100M Offers\" and \"Jung,\" with a view to brainstorming novel connections. For instance, I\u0027m considering how archetypes from Jung might inform branding strategies, or how the principles from Hormozi could apply to self-development based on Jungian philosophy. I will now start focusing on more unique connections.\n\n\n**Analyzing Archetypes and Objections**\n\nI\u0027m currently integrating Jungian archetypes with marketing strategies, specifically considering how brands can embody archetypes to resonate deeply with consumers and build a strong \"Tribe.\" I\u0027m also connecting this to Hormozi\u0027s principles, focusing on how addressing the \"Shadow\" (consumer objections) relates to risk reversal and ego defense mechanisms. I\u0027m exploring how understanding consumer psychology can refine value propositions.\n\n\n**Synthesizing Stoicism and Business**\n\nI\u0027m now integrating Stoic principles with Hormozi\u0027s entrepreneurial framework, noting the parallels between enduring hard work and controlling what\u0027s within one\u0027s sphere. I\u0027m exploring how \"doing the basics\" aligns with Stoic philosophy, specifically focusing on the Dicotomia do Controle, and its relation to the Nigredo Alquímico, and the four stages of business growth, as described in Hormozi\u0027s work. This can be viewed as an application of Stoic \"Dicotomia do Controle\".\n\n**Connecting Individuation and Marketing**\n\nI\u0027m also exploring the connection between Jungian Individuation and creating a \"Category of One\" in business (Godin/Hormozi). Becoming your true self, as described by Jung, can be paralleled to developing a unique market position, and I\u0027m examining how these concepts can be interconnected. I want to emphasize how both concepts can be combined to make a more holistic view of business.\n\n\n**Refining Offer Individuation**\n\nI now see the \"Grand Slam Offer\" as the business equivalent of Jungian Individuation—a truly unique product. This unique positioning reduces competition, and I am exploring the connections between this concept and the overall marketing strategy. I am also relating it to the concepts of Plato and Socrates. Generating demand is about making the client recognize their own lack through Maiêutica, aligning with Hormozi and Carnegie.\n\n\n**Analyzing Persuasion Principles**\n\nI\u0027m now integrating principles of persuasion from various sources, especially focusing on how to align marketing messages with the audience\u0027s needs and interests, as described in \"Como Convencer Alguém em 90s.\" I\u0027m relating this to Hormozi\u0027s value equation and the underlying psychology.",
+      "role": "model",
+      "tokenCount": 1829,
+      "isThought": true,
+      "parts": [{
+        "text": "**Defining the Bridge**\n\nI\u0027m now zeroing in on defining what constitutes a good \"bridge\" note, considering the user\u0027s focus on connecting Pillar 1 concepts (Marketing/Alex Hormozi) with other pillars. I\u0027m exploring the best way to determine the degree of overlap and relevance across different knowledge domains. I need to ensure the bridges are novel and insightful, while still being practical.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Connecting the Pillars**\n\nI\u0027m now focusing on connecting Pillar 1 with Pillar 2, based on the user\u0027s note list. My current focus involves analyzing the inputs from the two pillars, looking at notes such as \"100M Offers\" and \"Jung,\" with a view to brainstorming novel connections. For instance, I\u0027m considering how archetypes from Jung might inform branding strategies, or how the principles from Hormozi could apply to self-development based on Jungian philosophy. I will now start focusing on more unique connections.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Analyzing Archetypes and Objections**\n\nI\u0027m currently integrating Jungian archetypes with marketing strategies, specifically considering how brands can embody archetypes to resonate deeply with consumers and build a strong \"Tribe.\" I\u0027m also connecting this to Hormozi\u0027s principles, focusing on how addressing the \"Shadow\" (consumer objections) relates to risk reversal and ego defense mechanisms. I\u0027m exploring how understanding consumer psychology can refine value propositions.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Synthesizing Stoicism and Business**\n\nI\u0027m now integrating Stoic principles with Hormozi\u0027s entrepreneurial framework, noting the parallels between enduring hard work and controlling what\u0027s within one\u0027s sphere. I\u0027m exploring how \"doing the basics\" aligns with Stoic philosophy, specifically focusing on the Dicotomia do Controle, and its relation to the Nigredo Alquímico, and the four stages of business growth, as described in Hormozi\u0027s work. This can be viewed as an application of Stoic \"Dicotomia do Controle\".\n\n**Connecting Individuation and Marketing**\n\nI\u0027m also exploring the connection between Jungian Individuation and creating a \"Category of One\" in business (Godin/Hormozi). Becoming your true self, as described by Jung, can be paralleled to developing a unique market position, and I\u0027m examining how these concepts can be interconnected. I want to emphasize how both concepts can be combined to make a more holistic view of business.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Refining Offer Individuation**\n\nI now see the \"Grand Slam Offer\" as the business equivalent of Jungian Individuation—a truly unique product. This unique positioning reduces competition, and I am exploring the connections between this concept and the overall marketing strategy. I am also relating it to the concepts of Plato and Socrates. Generating demand is about making the client recognize their own lack through Maiêutica, aligning with Hormozi and Carnegie.",
+        "thought": true
+      }, {
+        "text": "\n\n\n**Analyzing Persuasion Principles**\n\nI\u0027m now integrating principles of persuasion from various sources, especially focusing on how to align marketing messages with the audience\u0027s needs and interests, as described in \"Como Convencer Alguém em 90s.\" I\u0027m relating this to Hormozi\u0027s value equation and the underlying psychology.",
+        "thought": true
+      }],
+      "createTime": "2026-03-17T13:43:26.899Z"
+    }, {
+      "text": "\n\n\nComo um pensador interdisciplinar, adoro esse desafio. A verdadeira genialidade em um sistema *Zettelkasten* não está em acumular resumos de livros, mas sim em criar ideias que não existiam antes, fazendo dois mundos distintos colidirem.\n\nVocê possui uma base incrível de **Marketing/Vendas** (com Alex Hormozi, Seth Godin, Dale Carnegie) e uma profundidade enorme em **Filosofia/Psicologia** (Jung, Freud, Sócrates, Estoicismo).\n\nAqui estão 5 ideias de notas-ponte para conectar esses dois polos do seu cérebro digital:\n\n---\n\n### 🌉 Ideia de Ponte 1: O Produto Inconsciente\n**Título da Nova Nota:** `Branding Arquetípico: A Oferta Grand Slam como o \"Self\" do Consumidor`\n* **O Insight Central:** Seth Godin fala sobre criar \"Tribos\" e Hormozi fala sobre a \"Oferta Grand Slam\". Mas por que as pessoas compram de forma irracional? A resposta está em Jung. Um produto que se torna uma \"Vaca Roxa\" é aquele que encarna perfeitamente um arquétipo do inconsciente coletivo. Quando a marca assume o papel do Arquétipo, o cliente não compra o produto, ele compra a própria \"Individuação\" (a versão idealizada de si mesmo).\n* **Notas que você deve linkar dentro dela:**\n    * `[[Jung - Os arquétipos e o inconsciente coletivo]]`\n    * `[[Oferta Grand Slam (Metodologia Hormozi)]]`\n    * `[[Tribos - Seth Godin]]`\n    * `[[A Vaca Roxa - Seth Godin]]`\n    * `[[Jung Processo de Individuação]]`\n\n### 🌉 Ideia de Ponte 2: O Medo e a Compra\n**Título da Nova Nota:** `A Sombra do Cliente: Objeções de Vendas como Mecanismos de Defesa do Ego`\n* **O Insight Central:** Em vendas, uma objeção (\"está muito caro\", \"não tenho tempo\") raramente é lógica; ela é a *Sombra* freudiana e junguiana agindo. É a resistência do Ego à mudança e ao desconforto. Quando Hormozi ensina a usar a \"Garantia Condicional (Risk Reversal)\", ele não está apenas fazendo uma tática de negócios, ele está criando um ambiente psicologicamente seguro para desarmar o mecanismo de defesa do cliente, permitindo que a \"Pulsão de Vida\" (desejo de melhorar) vença a resistência.\n* **Notas que você deve linkar dentro dela:**\n    * `[[Freud - O Ego e o Id]]`\n    * `[[A Bússola da Resistência]]`\n    * `[[Garantia Condicional (Risk Reversal)]]`\n    * `[[Venda A Pergunta de Objeção Oculta]]`\n    * `[[Ação Emana do Desejo Fundamental]]`\n\n### 🌉 Ideia de Ponte 3: A Maiêutica das Vendas\n**Título da Nova Nota:** `A Maiêutica de Sócrates aplicada ao Funil de Vendas de Alta Conversão`\n* **O Insight Central:** Sócrates nunca ensinava nada diretamente; ele fazia perguntas (Maiêutica) até que a pessoa \"desse à luz\" a própria ignorância ou verdade. Em vendas B2B ou High-Ticket, o melhor vendedor é um filósofo socrático. Você não \"empurra\" o produto. Você faz as perguntas certas até que o cliente perceba a própria dor e chegue à conclusão de que precisa da sua solução. É a união perfeita da retórica grega com a engenharia de vendas moderna.\n* **Notas que você deve linkar dentro dela:**\n    * `[[Maiêutica]]`\n    * `[[Sócrates - O Banquete]]` (onde se discute que o Desejo é a falta de algo)\n    * `[[Método Socrático (Elenchus)]]`\n    * `[[Nicholas Boothman - Como convencer alguém em 90s]]`\n    * `[[A Pergunta de Pré-Persuasão]]`\n\n### 🌉 Ideia de Ponte 4: Estoicismo para Escalar Negócios\n**Título da Nova Nota:** `O Estoicismo da Escala: Suportando a Dor do Crescimento (Nigredo)`\n* **O Insight Central:** Hormozi bate muito na tecla de que \"Advanced People Always Do The Basics\" (Pessoas avançadas sempre fazem o básico) e que o segredo é focar no \"Volume x Tempo\" sem se deixar abalar pelas falhas. Isso é Estoicismo puro e aplicado. O empreendedor que quer ir de zero a $100M precisa passar pela *Nigredo Alquímica* (o apodrecimento, a frustração) e dominar a \"Dicotomia do Controle\": focar na métrica de esforço (fazer as ligações) e ser indiferente ao resultado imediato (o sim ou o não).\n* **Notas que você deve linkar dentro dela:**\n    * `[[Marco Aurélio - Meditações]]`\n    * `[[Dicotomia do Controle]]`\n    * `[[Nigredo Alquímico]]`\n    * `[[Advanced People Always Do The Basics.md]]`\n    * `[[The 4 Stages of Business Growth ( 0- 100MYr).md]]`\n\n### 🌉 Ideia de Ponte 5: Preço e Valor Percebido\n**Título da Nova Nota:** `A Equação de Valor de Hormozi e a Transitoriedade Universal do Estoicismo`\n* **O Insight Central:** A \"Equação de Valor\" de Hormozi diz que o valor aumenta se o esforço e o tempo de espera do cliente diminuírem. Curiosamente, a filosofia clássica (Sêneca, Marco Aurélio) nos ensina sobre a preciosidade do tempo e a efemeridade da vida humana (Memento Mori). O ser humano paga mais caro pelo que é rápido e sem atrito justamente porque, inconscientemente, sabe que o tempo é o seu único recurso não renovável. O \"preço\" é apenas a métrica capitalista para o medo da morte e o desejo por \"mais vida\".\n* **Notas que você deve linkar dentro dela:**\n    * `[[Equação de Valor de Hormozi]]`\n    * `[[Memento Mori]]`\n    * `[[Valor do Tempo Presente]]`\n    * `[[O Medo da Condenação como Motivação Humana]]`\n    * `[[O invisível Gera o Visível]]`\n\n---\n\n**Como executar isso no seu Obsidian:**\nCrie essas notas, copie o texto do \"Insight Central\" que eu escrevi como o seu rascunho inicial e adicione os links. Apenas ao criar essas 5 notas, você construirá instantaneamente dezenas de linhas no seu gráfico visual, unindo a massa da extrema esquerda (Filosofia) com a massa central (Marketing e Negócios). A mágica da polinização cruzada começou!",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1569,
+      "parts": [{
+        "text": "\n\n\nComo um pensador interdisciplinar, adoro esse desafio. A verdadeira genial"
+      }, {
+        "text": "idade em um sistema *Zettelkasten* não está em acumular resumos de livros, mas sim em criar ideias"
+      }, {
+        "text": " que não existiam antes, fazendo dois mundos distintos colidirem.\n\nVocê possui uma base incrível de **Marketing/"
+      }, {
+        "text": "Vendas** (com Alex Hormozi, Seth Godin, Dale Carnegie) e uma profundidade enorme em **Filosof"
+      }, {
+        "text": "ia/Psicologia** (Jung, Freud, Sócrates, Estoicismo).\n\nAqui estão 5 ideias"
+      }, {
+        "text": " de notas-ponte para conectar esses dois polos do seu cérebro digital:\n\n---\n\n### 🌉 Ide"
+      }, {
+        "text": "ia de Ponte 1: O Produto Inconsciente\n**Título da Nova Nota:** `Branding Arquetíp"
+      }, {
+        "text": "ico: A Oferta Grand Slam como o \"Self\" do Consumidor`\n* **O Insight Central:**"
+      }, {
+        "text": " Seth Godin fala sobre criar \"Tribos\" e Hormozi fala sobre a \"Oferta Grand Slam\". Mas"
+      }, {
+        "text": " por que as pessoas compram de forma irracional? A resposta está em Jung. Um produto que se torna uma \"Vaca Rox"
+      }, {
+        "text": "a\" é aquele que encarna perfeitamente um arquétipo do inconsciente coletivo. Quando a marca assume o papel"
+      }, {
+        "text": " do Arquétipo, o cliente não compra o produto, ele compra a própria \"Individuação\" (a versão"
+      }, {
+        "text": " idealizada de si mesmo).\n* **Notas que você deve linkar dentro dela:**\n    * `["
+      }, {
+        "text": "[Jung - Os arquétipos e o inconsciente coletivo]]`\n    * `["
+      }, {
+        "text": "[Oferta Grand Slam (Metodologia Hormozi)]]`\n    * `[[Tribos - Seth Godin]]`\n    *"
+      }, {
+        "text": " `[[A Vaca Roxa - Seth Godin]]`\n    * `[[Jung Processo de Individuação]]"
+      }, {
+        "text": "`\n\n### 🌉 Ideia de Ponte 2: O Medo e a Compra\n**Título da Nova Nota:**"
+      }, {
+        "text": " `A Sombra do Cliente: Objeções de Vendas como Mecanismos de Defesa do Ego`\n* **"
+      }, {
+        "text": "O Insight Central:** Em vendas, uma objeção (\"está muito caro\", \"não tenho tempo\") raramente é"
+      }, {
+        "text": " lógica; ela é a *Sombra* freudiana e junguiana agindo. É a resistência do Ego"
+      }, {
+        "text": " à mudança e ao desconforto. Quando Hormozi ensina a usar a \"Garantia Condicional ("
+      }, {
+        "text": "Risk Reversal)\", ele não está apenas fazendo uma tática de negócios, ele está criando um ambiente psicologicamente seguro para"
+      }, {
+        "text": " desarmar o mecanismo de defesa do cliente, permitindo que a \"Pulsão de Vida\" (dese"
+      }, {
+        "text": "jo de melhorar) vença a resistência.\n* **Notas que você deve linkar dentro dela:**\n    *"
+      }, {
+        "text": " `[[Freud - O Ego e o Id]]`\n    * `["
+      }, {
+        "text": "[A Bússola da Resistência]]`\n    * `[[Garantia Condicional (Risk Reversal)]]`\n    * `["
+      }, {
+        "text": "[Venda A Pergunta de Objeção Oculta]]`\n    * `["
+      }, {
+        "text": "[Ação Emana do Desejo Fundamental]]`\n\n### 🌉 Ideia de Ponte 3: A Maiêutica das Vendas\n**Título"
+      }, {
+        "text": " da Nova Nota:** `A Maiêutica de Sócrates aplicada ao Funil de Vendas de Alta Conversão`"
+      }, {
+        "text": "\n* **O Insight Central:** Sócrates nunca ensinava nada diretamente; ele fazia perguntas (Maiêutica) até que"
+      }, {
+        "text": " a pessoa \"desse à luz\" a própria ignorância ou verdade. Em vendas B2B ou High-Ticket, o"
+      }, {
+        "text": " melhor vendedor é um filósofo socrático. Você não \"empurra\" o produto. Você faz as perguntas certas até"
+      }, {
+        "text": " que o cliente perceba a própria dor e chegue à conclusão de que precisa da sua solução. É a união perfeita"
+      }, {
+        "text": " da retórica grega com a engenharia de vendas moderna.\n* **Notas que você deve linkar dentro dela:**"
+      }, {
+        "text": "\n    * `[[Maiêutica]]`\n    * `[[Sócrates - O Banquete]]` (onde se"
+      }, {
+        "text": " discute que o Desejo é a falta de algo)\n    * `["
+      }, {
+        "text": "[Método Socrático (Elenchus)]]`\n    * `[[Nicholas Boothman - Como convencer alguém em 90s]]`"
+      }, {
+        "text": "\n    * `[[A Pergunta de Pré-Persuasão]]`\n\n### 🌉 Ideia de Ponte 4"
+      }, {
+        "text": ": Estoicismo para Escalar Negócios\n**Título da Nova Nota:** `O Estoicismo da Escala: Su"
+      }, {
+        "text": "portando a Dor do Crescimento (Nigredo)`\n* **O Insight Central:** Hormozi bate muito"
+      }, {
+        "text": " na tecla de que \"Advanced People Always Do The Basics\" (Pessoas avançadas sempre fazem o básico) e que"
+      }, {
+        "text": " o segredo é focar no \"Volume x Tempo\" sem se deixar abalar pelas falhas. Isso é Esto"
+      }, {
+        "text": "icismo puro e aplicado. O empreendedor que quer ir de zero a $100M precisa passar pela *N"
+      }, {
+        "text": "igredo Alquímica* (o apodrecimento, a frustração) e dominar a \"Dicotomia do"
+      }, {
+        "text": " Controle\": focar na métrica de esforço (fazer as ligações) e ser indiferente ao resultado imedi"
+      }, {
+        "text": "ato (o sim ou o não).\n* **Notas que você deve linkar dentro dela:**\n    * `["
+      }, {
+        "text": "[Marco Aurélio - Meditações]]`\n    * `[[Dicotomia do Controle]]`"
+      }, {
+        "text": "\n    * `[[Nigredo Alquímico]]`\n    * `[[Advanced People Always Do The Basics.md]]"
+      }, {
+        "text": "`\n    * `["
+      }, {
+        "text": "[The 4 Stages of Business Growth ( 0- 100MYr).md]]`\n\n### 🌉 Ideia de Ponte 5: Preço e Valor Percebido\n**Título da Nova Nota:**"
+      }, {
+        "text": " `A Equação de Valor de Hormozi e a Transitoriedade Universal do Estoicismo`\n* **"
+      }, {
+        "text": "O Insight Central:** A \"Equação de Valor\" de Hormozi diz que o valor aumenta se o esforço e"
+      }, {
+        "text": " o tempo de espera do cliente diminuírem. Curiosamente, a filosofia clássica (Sêneca, Marco Aurélio"
+      }, {
+        "text": ") nos ensina sobre a preciosidade do tempo e a efemeridade da vida humana (Memento Mori). O ser"
+      }, {
+        "text": " humano paga mais caro pelo que é rápido e sem atrito justamente porque, inconscientemente, sabe que o tempo é o seu único"
+      }, {
+        "text": " recurso não renovável. O \"preço\" é apenas a métrica capitalista para o medo da morte e o desejo por"
+      }, {
+        "text": " \"mais vida\".\n* **Notas que você deve linkar dentro dela:**\n    * `["
+      }, {
+        "text": "[Equação de Valor de Hormozi]]`\n    * `[[Memento Mori]]`\n    * `[[Valor do Tempo Presente]]"
+      }, {
+        "text": "`\n    * `[[O Medo da Condenação como Motivação Humana]]`\n    * `["
+      }, {
+        "text": "[O invisível Gera o Visível]]`\n\n---\n\n**Como executar isso no seu Obsidian:**\nCrie essas notas"
+      }, {
+        "text": ", copie o texto do \"Insight Central\" que eu escrevi como o seu rascunho inicial e adicione os links."
+      }, {
+        "text": " Apenas ao criar essas 5 notas, você construirá instantaneamente dezenas de linhas no seu gráfico visual, unindo a"
+      }, {
+        "text": " massa da extrema esquerda (Filosofia) com a massa central (Marketing e Negócios). A mágica da poliniz"
+      }, {
+        "text": "ação cruzada começou!"
+      }, {
+        "text": "",
+        "thoughtSignature": "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"
+      }],
+      "createTime": "2026-03-17T13:43:48.608Z"
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

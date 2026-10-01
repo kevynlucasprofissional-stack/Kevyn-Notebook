@@ -1,0 +1,1 @@
+Existem várias áreas válidas e potencialmente lucrativas no Design, muitas vezes o que acontece é de existir a demanda mas não o profissional adequado para suprir a demanda.

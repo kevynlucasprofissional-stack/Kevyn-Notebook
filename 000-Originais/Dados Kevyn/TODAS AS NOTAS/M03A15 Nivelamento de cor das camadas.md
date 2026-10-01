@@ -1,0 +1,2 @@
+Segurar no botão de formas irá mostrar todas as opções de formas disponíveis. Enquanto que clicar duas vezes no botão de formas, irá criar uma forma do tamanho da composição.
+Use sempre curvas, adjustement layer e vinheta nas edições para dar um tcham.

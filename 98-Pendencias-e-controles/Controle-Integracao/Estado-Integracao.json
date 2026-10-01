@@ -1,0 +1,112 @@
+{
+  "versao_schema": "2.1",
+  "projeto": "Kevyn Neo",
+  "data_finalizacao": null,
+  "ultimo_ciclo": "CICLO-0036",
+  "auditor": "Codex GPT-5",
+  "status_global": "em_andamento",
+  "arquivos_fonte_total": 2927,
+  "selecao_100": {
+    "fichas_total": 100,
+    "lidas_integralmente": 100,
+    "com_placeholders": 0,
+    "srcs_unicos": 100,
+    "matriz_validada": true
+  },
+  "notas_integradas": {
+    "linha_do_tempo": "atualizada_com_41_eventos",
+    "trajetoria_profissional": "atualizada_com_cronologia_e_metricas",
+    "projetos": "DS21_Salus_ACIRV_atualizados",
+    "espiritualidade": "Thelema_Daime_Espiritualidade_atualizados",
+    "autorregulacao": "Vontade_SMART_Diarios_atualizados",
+    "relacionamentos": "Silvanna_unificada",
+    "fontes": "807_novas_notas_fonte_criadas_em_total"
+  },
+  "integracao_270626": {
+    "data": "2026-06-27",
+    "lote": "270626 Dados novos",
+    "arquivos_novos": 4,
+    "fontes_inventariadas": 4,
+    "fontes_integradas": 1,
+    "fontes_arquivadas_sem_integracao": 3,
+    "duplicatas_exatas": 0,
+    "claims_criados": 4,
+    "notas_criadas": 2,
+    "notas_atualizadas": 5,
+    "estado": "concluido",
+    "observacoes": [
+      "Transcricao de 26/06 curada como fonte principal.",
+      "Analises derivadas preservadas como apoio documental.",
+      "Estado atual posterior criado para 27/06/2026.",
+      "Auditoria final e checksums finais gerados.",
+      "Matriz-Revisao-100 reconciliada para status_final = analisado_nao_integrado."
+    ]
+  },
+  "curadoria_semantica": {
+    "data": "2026-06-30",
+    "escopo": "reconciliacao de manifesto, cobertura, evidencias, claims, nota central e MOCs",
+    "regra_cobertura": "duplicatas exatas contam como coberto_por_duplicata sob representante canonico",
+    "hoor_digital": "referencia de manifesto no SRC-000726; arquivo nao materializado no recorte ativo",
+    "status": "concluido"
+  },
+  "fases": {
+    "F1_diagnostico": "concluido",
+    "F2_controle": "concluido",
+    "F3_revisao_100": "concluido",
+    "F4_aprofundamento": "concluido",
+    "F5_arquitetura": "concluido",
+    "F6_auditorias": "concluido",
+    "F7_encerramento": "reaberto"
+  },
+  "auditoria_tecnica": {
+    "yaml_erros": 0,
+    "json_erros": 0,
+    "csv_erros": 0,
+    "ids_duplicados_reais": 0,
+    "links_quebrados_reais": 2451,
+    "links_case_sensitive_false_positive": 0,
+    "placeholders_fichas": 0
+  },
+  "scripts": [
+    "loop_master.py - orquestrador de fases",
+    "loop_execucao.py - loop de revisao de fichas"
+  ],
+  "limitacoes": [
+    "O escopo ativo foi revalidado e ficou com 0 links quebrados, 0 frontmatter ausente, 0 arquivos .pyc e 0 diretorios __pycache__.",
+    "O escopo completo ainda preserva 2451 links quebrados, majoritariamente em fontes brutas e controle herdado.",
+    "4 divergencias de case (negro/Negro) seguem tratadas como observacao historica, nao como falha do nucleo ativo.",
+    "Interpretacoes psicologicas nas fontes sao majoritariamente geradas por IA e exigem curadoria epistemica explicita.",
+    "O lote 270626 foi integrado com curadoria: a transcricao ficou como fonte principal e as analises derivadas permaneceram como apoio documental.",
+    "Duplicatas exatas na cobertura sao registradas sob representante canonico; Hoor Digital segue como referencia de manifesto no recorte ativo."
+  ],
+  "revisao_ciclos_0005_0010": {
+    "data": "2026-06-19",
+    "escopo": "CICLO-0005 a CICLO-0010",
+    "artefatos_verificados": 72,
+    "fontes_verificadas": 44,
+    "hashes_fontes_validos": true,
+    "fronteiras_validas": true,
+    "cobertura_valida": true,
+    "ids_duplicados": 0,
+    "segredos_reproduzidos": 0,
+    "status": "aprovado_apos_revisao_corretiva"
+  },
+  "ultima_execucao": "2026-06-30T10:24:01-03:00",
+  "proximo_item": "SRC-002928",
+  "encerramento_invalidado_em": "2026-06-19",
+  "revisao_ciclos_0011_0024": {
+    "data": "2026-06-19",
+    "ciclo_0011": "triagem_ampla_sem_equivalencia_a_analise_integral",
+    "ciclos_0023_0024": "sem_artefatos_contratuais_completos_e_com_auto_sintese_ampla_no_nucleo",
+    "notas_limpas": 23,
+    "fontes_rebaixadas_para_parcial": 1156,
+    "fontes_recuradas_manualmente": 16,
+    "proximo_item": "SRC-002928",
+    "status": "em_andamento"
+  },
+  "observacoes": {
+    "silvanna": "Notas legadas `Silvana` e `Avo materna` foram unificadas em `Silvanna`.",
+    "higienizacao": "Notas legadas removidas do diretorio de relacionamentos; inventario atualizado.",
+    "cobertura_semantica": "Duplicatas exatas na cobertura sao registradas sob representante canonico; Hoor Digital segue como referencia de manifesto no recorte ativo."
+  }
+}

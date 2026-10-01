@@ -1,0 +1,55 @@
+[
+    {
+        "mudanca_id": "MUD-000070",
+        "caminho": "Controle-Integracao/Manifesto-Fontes.csv",
+        "operacao": "marcar_cobertura",
+        "motivo": "registrar CICLO-0011 como ultimo ciclo para SRC-000079 a SRC-000500",
+        "fonte_inicio": "SRC-000079",
+        "fonte_fim": "SRC-000500",
+        "quantidade_fontes": 422,
+        "hash_anterior": "7e9c15d588e1977a98f605b18acd0f0553ca889378c153ee72464076d77042a0",
+        "hash_posterior": "7e9c15d588e1977a98f605b18acd0f0553ca889378c153ee72464076d77042a0",
+        "ciclo": "CICLO-0011",
+        "validacao": "triagem_ampla_ok"
+    },
+    {
+        "mudanca_id": "MUD-000071",
+        "caminho": "Controle-Integracao/Estado-Integracao.json",
+        "operacao": "reconciliar_estado",
+        "motivo": "refletir triagem ampla sem inflar analise completa",
+        "hash_anterior": "e82da8903653a0cadab8ee58b4483511b3860f33f3ef05ee7856d23ff77edd2b",
+        "hash_posterior": "97f0286e1d1384fddcdb1142ee26b21f851bf4ac1c5b39848e2ce9fd59fa07d5",
+        "ciclo": "CICLO-0011",
+        "validacao": "estado_reconciliado_ok"
+    },
+    {
+        "mudanca_id": "MUD-000072",
+        "caminho": "Controle-Integracao/Relatorio-Acumulado.md",
+        "operacao": "append_resumo",
+        "motivo": "registrar o fechamento do ciclo 0011",
+        "hash_anterior": "2be4702be7a8ebdf1f0e958e797106f20d50c6839022921dc407003ac661408e",
+        "hash_posterior": "ebb214d6a5404893f29aa2f4751a8a706eb6aa72e1af757bb482c5d02d8812ab",
+        "ciclo": "CICLO-0011",
+        "validacao": "relatorio_atualizado_ok"
+    },
+    {
+        "mudanca_id": "MUD-000073",
+        "caminho": "Controle-Integracao/Registro-de-Decisoes.md",
+        "operacao": "append_decisao",
+        "motivo": "registrar criterio de cobertura por metadados",
+        "hash_anterior": "f8364f633e3d153c7432a9fab4f40e86fcf91a34a566c7715fd84dd1045bceda",
+        "hash_posterior": "1e1463d548f68bb5ee21a5e96c6408071d282d482b82e2f3ac264a31024a70b3",
+        "ciclo": "CICLO-0011",
+        "validacao": "decisoes_atualizadas_ok"
+    },
+    {
+        "mudanca_id": "MUD-000074",
+        "caminho": "Controle-Integracao/CHECKSUMS-INTEGRACAO.txt",
+        "operacao": "recalcular",
+        "motivo": "manter trilha de integracao coerente apos atualizacoes de controle",
+        "hash_anterior": "2ba95ccf9f36403b2220b755c9c241ee701a198b116cd34b32248d56a4e5b294",
+        "hash_posterior": "2ba95ccf9f36403b2220b755c9c241ee701a198b116cd34b32248d56a4e5b294",
+        "ciclo": "CICLO-0011",
+        "validacao": "checksums_atualizados_ok"
+    }
+]

@@ -1,0 +1,2 @@
+Tem que verificar se existe algum arquivo duplicado, e existir tem que trabalhar em uma unificação, uma síntese desses arquivos duplicados, depois manter a síntese e apagar os arquivos antigos.
+"ACIRV" não existe, é apenas uma corruptela de "ACIRV". Foi um erro de transcrição.

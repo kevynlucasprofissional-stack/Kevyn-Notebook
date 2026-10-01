@@ -1,0 +1,3 @@
+Ao utilizar o Octane, sempre coloque a tag de OctaneCameraTag nas câmeras.
+É possível ajustar o foco da câmera com este renderizador. Pode ser pelo foto automático nas configurações de propriedades da câmera ou pelo Pick Focus (Disponível no preview do Octane), este último foca no modelo que você quer que a câmera foque.
+É possível criar KeyFrames de foco de câmera, mudando o foco ao longo do tempo.

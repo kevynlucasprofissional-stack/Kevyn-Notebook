@@ -1,0 +1,1 @@
+É interessante aplicar este em uma camada de ajuste. Serve para criar distorções, como se é intuitivo de perceber. Talvez o efeito de deslocamento turbulento seja melhor para a maioria das situações, mas este não deixa de ser uma opção.

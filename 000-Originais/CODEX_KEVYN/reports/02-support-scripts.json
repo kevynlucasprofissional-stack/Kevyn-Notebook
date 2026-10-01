@@ -1,0 +1,52 @@
+{
+  "generated_at": "2026-04-04T00:00:00-03:00",
+  "objective": "Criar scripts de apoio para auditoria, deduplicação, navegação e frontmatter mínimo no vault Obsidian.",
+  "created_files": [
+    "scripts/_vault_utils.py",
+    "scripts/inventory.py",
+    "scripts/exact_dedupe.py",
+    "scripts/near_dedupe.py",
+    "scripts/link_audit.py",
+    "scripts/quarantine_candidates.py",
+    "scripts/frontmatter_minimum.py"
+  ],
+  "outputs_defined_by_default": [
+    "reports/02-inventory.json",
+    "reports/02-inventory.md",
+    "reports/03-exact-dedupe.json",
+    "reports/03-exact-dedupe.md",
+    "reports/04-near-dedupe.json",
+    "reports/04-near-dedupe.md",
+    "reports/05-link-audit.json",
+    "reports/05-link-audit.md",
+    "reports/06-quarantine-candidates.json",
+    "reports/06-quarantine-candidates.md",
+    "reports/07-frontmatter-minimum.json",
+    "reports/07-frontmatter-minimum.md",
+    "logs/02-inventory.md",
+    "logs/03-exact-dedupe.md",
+    "logs/04-near-dedupe.md",
+    "logs/05-link-audit.md",
+    "logs/06-quarantine-candidates.md",
+    "logs/07-frontmatter-minimum.md"
+  ],
+  "safety_model": {
+    "read_only_by_default": [
+      "inventory.py",
+      "exact_dedupe.py",
+      "near_dedupe.py",
+      "link_audit.py",
+      "quarantine_candidates.py"
+    ],
+    "conditional_write": [
+      "frontmatter_minimum.py --apply"
+    ],
+    "never_deletes": true,
+    "never_merges_content": true,
+    "respects_nested_subvault_boundaries_by_default": true
+  },
+  "validation_limitations": [
+    "Python não está disponível no PATH desta sessão, então os scripts não foram executados.",
+    "Git não está disponível no PATH desta sessão, então não houve checkpoint Git local pelo agente."
+  ]
+}

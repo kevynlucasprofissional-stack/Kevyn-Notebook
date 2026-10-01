@@ -1,0 +1,1 @@
+A break quebra vetores unidos em várias camadas (Shape layers e arquivos illustrator).

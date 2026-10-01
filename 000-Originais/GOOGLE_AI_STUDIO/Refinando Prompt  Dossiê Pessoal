@@ -1,0 +1,188 @@
+{
+  "runSettings": {
+    "temperature": 1.0,
+    "model": "models/gemini-3-pro-preview",
+    "topP": 0.95,
+    "topK": 64,
+    "maxOutputTokens": 65536,
+    "safetySettings": [{
+      "category": "HARM_CATEGORY_HARASSMENT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_HATE_SPEECH",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+      "threshold": "OFF"
+    }, {
+      "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+      "threshold": "OFF"
+    }],
+    "enableCodeExecution": false,
+    "enableSearchAsATool": true,
+    "enableBrowseAsATool": false,
+    "enableAutoFunctionResponse": false,
+    "thinkingBudget": -1,
+    "googleSearch": {
+    },
+    "outputResolution": "1K",
+    "thinkingLevel": "THINKING_HIGH"
+  },
+  "systemInstruction": {
+  },
+  "chunkedPrompt": {
+    "chunks": [{
+      "driveDocument": {
+        "id": "1qSGbTDaZsw4uwALcbUDZbEcPfwx6d48s"
+      },
+      "role": "user",
+      "tokenCount": 157921
+    }, {
+      "text": "Estou criando um resumo definitivo sobre mim, estou na etapa de que preciso revisar os prompts para que ele entregue resultados insanamente ótimos, preciso de ajuda para refinar o prompt do processo de gerar dossiê, o prompt a ser melhorado está em \u003cprompt_melhorar\u003e\u003c\\prompt_melhorar\u003e. Vou anexar alguns livros sobre engenharia de prompt dos quais você irá extrair frameworks para me ajudar no meu objetivo.\n\n\u003cprompt_melhorar\u003e\nVou colar aqui o passo 1 e 6. Quero que esses 2 passos agora sejam um só.\n\nPASSO 1: Cronologia e Fatos\n\n```\nPASSO 1: Cronologia e Fatos\nObjetivo: Estabelecer a realidade física e temporal, além de organizar a bagunça temporal dos fatos para dar sentido à história, separando a biografia real (Fato base) da mitologia pessoal (Narrativa do ego). \n\nPrompt:\n\"Aja como um Biógrafo Investigativo. Vamos começar criando a estrutura temporal. Analise todo o arquivo e extraia meticulosamente: o fatos sobre infância, parentes (pai/mãe/avó), origem, crescimento; o modo em que a infância e a origem do Kevyn moldou sua vida adulta; todos os empregos, freelas, bicos e projetos, todos os detalhes que encontrar sobre a trajetória profissional.\n\nCom os dados extraídos, construa a Linha do Tempo Mestra (2003 - Atual) da vida de Kevyn Lucas. Liste os eventos em ordem cronológica (do mais antigo para o mais recente). Para cada entrada, inclua:\n1. Data Aproximada: (Use datas dos arquivos ou pistas no texto).\n2. Evento/Contexto: O que estava acontecendo? (Mudança de emprego, término, viagem, crise, conquista).\n3. Localização: Onde Kevyn estava fisicamente?\n\nRegra: Diferencie o que aconteceu de fato do que eram apenas planos que nunca aconteceram. Se houver lacunas de tempo, apenas pule para o próximo evento registrado. Não invente datas.\"\n```\n\nPASSO 6: FATOS CONCRETOS\n*Objetivo: Extrair informações concretas para a ficha técnica, ignorando sentimentos por enquanto.*\n\n**Prompt:**\n\u003e \"Com base no texto completo, extraia os **Fatos Concretos** e organize-os nas seguintes categorias. Seja exaustivo, liste tudo o que encontrar:\n\u003e\n\u003e 1.  **Interesses e Habilidades:** O que Kevyn estuda? Quais tecnologias, hobbies, livros ou assuntos ele menciona dominar ou ter interesse?\n\u003e 2.  **Saúde e Biologia:** Histórico médico, sono, alimentação, exercícios, dores físicas ou diagnósticos mencionados.\n\u003e 3.  **Rede de Relacionamentos:** Liste nomes de pessoas citadas (amigos, parceiros, família) e defina brevemente a relação de Kevyn com elas.\n\u003e 4.  **Projetos e Trabalho:** Em que ele trabalhou? Quais projetos pessoais ele iniciou (terminados ou não)?\n\u003e 5.  **Bens e Consumo:** Coisas que ele comprou, setup que usa, ferramentas que gosta.\"\n\n\u003c\\prompt_melhorar\u003e",
+      "role": "user",
+      "tokenCount": 711
+    }, {
+      "text": "**Initiating Prompt Refinement**\n\nOkay, I\u0027m currently focused on dissecting the initial request to create a dossier on \"Kevyn Lucas.\" My immediate task is to sharpen a particular prompt, combining elements of the original prompt for a more effective result. I\u0027m aiming to create an optimized prompt structure.\n\n\n**Merging Extraction Processes**\n\nI\u0027m now merging the initial chronological timeline and the factual extraction prompts into one cohesive extraction step. The goal is to define an \"Investigative Biographer\" persona, drawing heavily on the provided text, and creating a unified prompt. The focus remains on accurate dates and events, incorporating specific categories for comprehensive data gathering while avoiding fabricated information.\n\n\n**Refining Output Structure**\n\nI\u0027m now focusing on formatting and structure. I am exploring structured formats such as Markdown tables or lists to organize the extracted data, as this simplifies parsing. I\u0027m also considering chain-of-thought prompting to improve reasoning, especially in differentiating factual information from potentially biased narratives. I am also working on few-shot prompting to guide the output granularity and desired format. Finally, I\u0027m trying to break complex tasks into smaller subtasks, and use clarity of directives.\n\n\n**Prioritizing Prompt Placement**\n\nI\u0027m now implementing the \"Valley of Meh\" concept. I will place crucial instructions at the beginning and end of the prompts. I will prioritize a \"Forensic Investigative Biographer\" persona, and utilize a Markdown output structure. My strategy involves a two-step approach: first the timeline, then the profile. I also added a \"Scratchpad\" step for plans and reality analysis.\n\n\n**Structuring the Biographer Prompt**\n\nI\u0027m now iterating on the improved prompt, particularly focusing on how to guide data processing. I\u0027m focusing on incorporating a \"fact base\" requirement and a two-part output format, as a chronological table for the timeline, and categorized lists for the profile. This includes defining the input as raw and messy data. I am structuring the information into timeline and categorized lists. I will iterate using a \"mental sandbox\" filter, and apply chain-of-thought to prevent fabrication.\n\n\n",
+      "role": "model",
+      "tokenCount": 1426,
+      "isThought": true,
+      "parts": [{
+        "text": "**Initiating Prompt Refinement**\n\nOkay, I\u0027m currently focused on dissecting the initial request to create a dossier on \"Kevyn Lucas.\" My immediate task is to sharpen a particular prompt, combining elements of the original prompt for a more effective result. I\u0027m aiming to create an optimized prompt structure.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Merging Extraction Processes**\n\nI\u0027m now merging the initial chronological timeline and the factual extraction prompts into one cohesive extraction step. The goal is to define an \"Investigative Biographer\" persona, drawing heavily on the provided text, and creating a unified prompt. The focus remains on accurate dates and events, incorporating specific categories for comprehensive data gathering while avoiding fabricated information.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Refining Output Structure**\n\nI\u0027m now focusing on formatting and structure. I am exploring structured formats such as Markdown tables or lists to organize the extracted data, as this simplifies parsing. I\u0027m also considering chain-of-thought prompting to improve reasoning, especially in differentiating factual information from potentially biased narratives. I am also working on few-shot prompting to guide the output granularity and desired format. Finally, I\u0027m trying to break complex tasks into smaller subtasks, and use clarity of directives.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Prioritizing Prompt Placement**\n\nI\u0027m now implementing the \"Valley of Meh\" concept. I will place crucial instructions at the beginning and end of the prompts. I will prioritize a \"Forensic Investigative Biographer\" persona, and utilize a Markdown output structure. My strategy involves a two-step approach: first the timeline, then the profile. I also added a \"Scratchpad\" step for plans and reality analysis.\n\n\n",
+        "thought": true
+      }, {
+        "text": "**Structuring the Biographer Prompt**\n\nI\u0027m now iterating on the improved prompt, particularly focusing on how to guide data processing. I\u0027m focusing on incorporating a \"fact base\" requirement and a two-part output format, as a chronological table for the timeline, and categorized lists for the profile. This includes defining the input as raw and messy data. I am structuring the information into timeline and categorized lists. I will iterate using a \"mental sandbox\" filter, and apply chain-of-thought to prevent fabrication.\n\n\n",
+        "thought": true
+      }]
+    }, {
+      "text": "Com base nos princípios de **Engenharia de Prompt** extraídos do livro *Prompt Engineering for LLMs* (Berryman \u0026 Ziegler), especialmente os conceitos de **Persona (Role)**, **Chain of Thought (Cadeia de Pensamento)**, **Estruturação de Documentos** e **Restrições Explícitas**, aqui está uma versão refinada e unificada do seu prompt.\n\nEste prompt foi desenhado para evitar o \"Valley of Meh\" (o fenômeno onde o modelo perde foco no meio da instrução) e utiliza uma estrutura clara para garantir que tanto a cronologia quanto os fatos concretos sejam extraídos com alta fidelidade.\n\n### O Novo Prompt Unificado (Copie e Cole)\n\n```markdown\n# Role \u0026 Objetivo\nAja como um **Biógrafo Investigativo Forense** especializado em reconstrução de vidas baseada em dados não estruturados. Seu objetivo é analisar o arquivo completo e gerar o **\"Dossiê Mestre de Realidade\"** de Kevyn Lucas.\n\nSua missão é separar a \"Biografia Real\" (o que comprovadamente aconteceu, ações tomadas, eventos físicos) da \"Mitologia Pessoal\" (planos, desejos, intenções que nunca se concretizaram).\n\n# Instruções de Processamento\nPara realizar esta tarefa, você deve seguir estritamente as duas fases abaixo:\n\n## FASE 1: A Linha do Tempo Mestra (2003 - Atual)\nAnalise o texto cronologicamente. Identifique a origem, influências familiares (pai/mãe/avó) e como isso moldou a vida adulta. Mapeie cada emprego, freela, projeto, mudança geográfica e evento marcante.\n\n**Formato de Saída da Fase 1:**\nCrie uma tabela Markdown com as colunas:\n| Data Aproximada | Localização | Evento/Contexto | Status (Fato ou Plano?) |\n|-----------------|-------------|-----------------|-------------------------|\n| [Ano/Mês] | [Cidade/Local] | [Descrição detalhada do evento] | [Concretizado / Apenas Ideia] |\n\n*Regras Críticas da Fase 1:*\n1. Se houver lacunas de tempo, pule para o próximo evento registrado. Não alucine datas.\n2. Identifique explicitamente quando algo foi apenas um plano (\"Queria ir para X\") versus um fato (\"Mudou-se para X\").\n\n## FASE 2: O Inventário de Fatos Concretos (Ficha Técnica)\nVarra o texto novamente ignorando a ordem cronológica e focando em entidades e categorias. Extraia dados brutos e compile-os nas listas abaixo. Seja exaustivo.\n\n**Formato de Saída da Fase 2:**\nUtilize listas com marcadores para cada categoria:\n\n### 1. Interesses e Capital Intelectual\n*   **Estudos:** (O que ele estuda formal ou informalmente?)\n*   **Tech \u0026 Habilidades:** (Linguagens, softwares, hard skills mencionadas)\n*   **Cultura:** (Livros, hobbies, assuntos de domínio)\n\n### 2. Bio-Dados (Saúde e Físico)\n*   **Histórico:** (Diagnósticos, dores, condições físicas)\n*   **Rotina:** (Padrões de sono, alimentação, exercícios relatados)\n\n### 3. Rede Neural (Relacionamentos)\n*   *Formato: [Nome] - [Vínculo/Papel na vida dele]*\n*   (Liste familiares, amigos, parceiros românticos e colegas citados)\n\n### 4. Portfólio de Vida (Trabalho e Projetos)\n*   **Carreira:** (Cargos e empresas)\n*   **Projetos Pessoais:** (Iniciativas próprias, terminadas ou abandonadas)\n\n### 5. Inventário Material (Bens e Consumo)\n*   **Setup/Ferramentas:** (Equipamentos que usa)\n*   **Aquisições:** (Coisas que comprou ou deseja comprar)\n\n---\n**Inicie a análise agora. Não faça preâmbulos, vá direto para a Tabela da Fase 1.**\n```\n\n---\n\n### Por que este prompt funciona melhor (Baseado no Livro):\n\n1.  **Definição de Persona Forte (Chapter 6 - *Anatomy of the Ideal Prompt*):**\n    Mudamos de \"Biógrafo Investigativo\" para \"**Biógrafo Investigativo Forense**\". O termo \"Forense\" e \"Dossiê Mestre de Realidade\" ancora o modelo (conceito de *Anchoring*) para ser mais analítico, frio e focado em fatos, reduzindo a tendência do LLM de ser excessivamente criativo ou poético.\n\n2.  **Formatação Estruturada (Chapter 6 - *The Structured Document*):**\n    O livro ensina que LLMs seguem melhor instruções quando o formato de saída é explicitamente definido (como Markdown ou JSON). Ao pedir uma **Tabela** para a cronologia e **Listas Categorizadas** para os fatos, forçamos o modelo a organizar o pensamento, facilitando sua leitura posterior.\n\n3.  **Separação de Tarefas (Chapter 9 - *LLM Workflows*):**\n    Embora tenhamos unificado o prompt, dividimos internamente em **Fase 1 (Temporal)** e **Fase 2 (Categórica)**. Isso evita que o modelo tente fazer tudo ao mesmo tempo e \"esqueça\" informações (alucinação por sobrecarga cognitiva). Primeiro ele organiza o tempo, depois ele extrai os dados estáticos.\n\n4.  **Coluna de \"Status\" (Chapter 8 - *Reasoning*):**\n    Adicionei a coluna \"Status (Fato ou Plano?)\" na tabela. Isso obriga o modelo a realizar um raciocínio (*Chain of Thought*) para cada linha, decidindo ativamente se aquilo aconteceu ou não, atendendo diretamente ao seu requisito de separar a \"mitologia do ego\" da \"biografia real\".\n\n5.  **Instruções Negativas e Positivas (Chapter 5 - *Prompt Content*):**\n    Instruções como \"Não alucine datas\" e \"Não faça preâmbulos\" (no final) ajudam a limpar a saída (redução de *fluff*), focando apenas no que importa para o seu resumo.",
+      "role": "model",
+      "finishReason": "STOP",
+      "tokenCount": 1391,
+      "parts": [{
+        "text": "Com base nos princípios de **Engenharia de Prompt** extraídos do livro *Prompt Engineering for"
+      }, {
+        "text": " LLMs* (Berryman \u0026 Ziegler), especialmente os conceitos de **Persona (Role)**, **Chain of Thought (C"
+      }, {
+        "text": "adeia de Pensamento)**, **Estruturação de Documentos** e **Restrições Explícitas**, aqui"
+      }, {
+        "text": " está uma versão refinada e unificada do seu prompt.\n\nEste prompt foi desenhado para evitar o \"Valley of Meh\" (o fenômeno onde"
+      }, {
+        "text": " o modelo perde foco no meio da instrução) e utiliza uma estrutura clara para garantir que tanto a cronologia quanto os fatos concret"
+      }, {
+        "text": "os sejam extraídos com alta fidelidade.\n\n### O Novo Prompt Unificado (Copie e Cole)\n\n"
+      }, {
+        "text": "```markdown\n# Role \u0026 Objetivo\nAja como um **Biógrafo Investigativo Forense** especializado em reconstrução de vidas base"
+      }, {
+        "text": "ada em dados não estruturados. Seu objetivo é analisar o arquivo completo e gerar o **\"Dossiê Mestre de Real"
+      }, {
+        "text": "idade\"** de Kevyn Lucas.\n\nSua missão é separar a \"Biografia Real\" (o que comprovadamente aconteceu,"
+      }, {
+        "text": " ações tomadas, eventos físicos) da \"Mitologia Pessoal\" (planos, desejos, intenções que nunca se"
+      }, {
+        "text": " concretizaram).\n\n# Instruções de Processamento\nPara realizar esta tarefa, você deve seguir estritamente as"
+      }, {
+        "text": " duas fases abaixo:\n\n## FASE 1: A Linha do Tempo Mestra (2003 - Atual)\nAnal"
+      }, {
+        "text": "ise o texto cronologicamente. Identifique a origem, influências familiares (pai/mãe/avó"
+      }, {
+        "text": ") e como isso moldou a vida adulta. Mapeie cada emprego, freela, projeto, mudança geográfica e evento marc"
+      }, {
+        "text": "ante.\n\n**Formato de Saída da Fase 1:**\nCrie uma tabela Markdown com as colunas:\n|"
+      }, {
+        "text": " Data Aproximada | Localização | Evento/Contexto | Status (Fato ou Plano?) |\n|----------------"
+      }, {
+        "text": "-|-------------|-----------------|-------------------------|\n| [Ano/Mês] | [Cidade/Local] | [Descrição detal"
+      }, {
+        "text": "hada do evento] | [Concretizado / Apenas Ideia] |\n\n*Regras Críticas da Fase 1:*\n1. Se"
+      }, {
+        "text": " houver lacunas de tempo, pule para o próximo evento registrado. Não alucine datas.\n2. Identifique explicitamente"
+      }, {
+        "text": " quando algo foi apenas um plano (\"Queria ir para X\") versus um fato (\"Mudou-se para X\").\n\n"
+      }, {
+        "text": "## FASE 2: O Inventário de Fatos Concretos (Ficha Técnica)\nVarra o texto novamente ignor"
+      }, {
+        "text": "ando a ordem cronológica e focando em entidades e categorias. Extraia dados brutos e compile-os nas listas abaixo"
+      }, {
+        "text": ". Seja exaustivo.\n\n**Formato de Saída da Fase 2:**\nUtilize listas com marcadores para cada"
+      }, {
+        "text": " categoria:\n\n### 1. Interesses e Capital Intelectual\n*   **Estudos:** (O que ele estuda formal ou"
+      }, {
+        "text": " informalmente?)\n*   **Tech \u0026 Habilidades:** (Linguagens, softwares, hard skills mencionadas)\n*   **"
+      }, {
+        "text": "Cultura:** (Livros, hobbies, assuntos de domínio)\n\n### 2. Bio-Dados (Saúde e F"
+      }, {
+        "text": "ísico)\n*   **Histórico:** (Diagnósticos, dores, condições físicas)\n*   **Rotina"
+      }, {
+        "text": ":** (Padrões de sono, alimentação, exercícios relatados)\n\n### 3. Rede Neural (Relacionamentos)\n*   "
+      }, {
+        "text": "*Formato: [Nome] - [Vínculo/Papel na vida dele]*\n*   (Liste"
+      }, {
+        "text": " familiares, amigos, parceiros românticos e colegas citados)\n\n### 4. Portfólio de"
+      }, {
+        "text": " Vida (Trabalho e Projetos)\n*   **Carreira:** (Cargos e empresas)\n*   **Projetos P"
+      }, {
+        "text": "essoais:** (Iniciativas próprias, terminadas ou abandonadas)\n\n### 5. Inventário Material ("
+      }, {
+        "text": "Bens e Consumo)\n*   **Setup/Ferramentas:** (Equipamentos que usa)\n*   **Aqu"
+      }, {
+        "text": "isições:** (Coisas que comprou ou deseja comprar)\n\n---\n**Inicie a análise agora. Não"
+      }, {
+        "text": " faça preâmbulos, vá direto para a Tabela da Fase 1.**\n```\n\n---\n\n### Por que este prompt funciona"
+      }, {
+        "text": " melhor (Baseado no Livro):\n\n1.  **Definição de Persona Forte (Chapter 6 - *An"
+      }, {
+        "text": "atomy of the Ideal Prompt*):**\n    Mudamos de \"Biógrafo Investigativo\" para \"**Biógrafo Investig"
+      }, {
+        "text": "ativo Forense**\". O termo \"Forense\" e \"Dossiê Mestre de Realidade\" ancora"
+      }, {
+        "text": " o modelo (conceito de *Anchoring*) para ser mais analítico, frio e focado em fatos,"
+      }, {
+        "text": " reduzindo a tendência do LLM de ser excessivamente criativo ou poético.\n\n2.  **Formatação"
+      }, {
+        "text": " Estruturada (Chapter 6 - *The Structured Document*):**\n    O livro ensina que LLMs segu"
+      }, {
+        "text": "em melhor instruções quando o formato de saída é explicitamente definido (como Markdown ou JSON). Ao pedir uma **Tabela** para a cronologia"
+      }, {
+        "text": " e **Listas Categorizadas** para os fatos, forçamos o modelo a organizar o pensamento, facilitando sua"
+      }, {
+        "text": " leitura posterior.\n\n3.  **Separação de Tarefas (Chapter 9 - *LLM Workflows*):"
+      }, {
+        "text": "**\n    Embora tenhamos unificado o prompt, dividimos internamente em **Fase 1 ("
+      }, {
+        "text": "Temporal)** e **Fase 2 (Categórica)**. Isso evita que o modelo tente fazer tudo ao mesmo tempo e \""
+      }, {
+        "text": "esqueça\" informações (alucinação por sobrecarga cognitiva). Primeiro ele organiza o tempo, depois ele extrai os"
+      }, {
+        "text": " dados estáticos.\n\n4.  **Coluna de \"Status\" (Chapter 8 - *Reasoning*):**\n    Ad"
+      }, {
+        "text": "icionei a coluna \"Status (Fato ou Plano?)\" na tabela. Isso obriga o modelo a realizar um rac"
+      }, {
+        "text": "iocínio (*Chain of Thought*) para cada linha, decidindo ativamente se aquilo aconteceu ou não, atendendo diretamente ao seu requisito"
+      }, {
+        "text": " de separar a \"mitologia do ego\" da \"biografia real\".\n\n5.  **Instruções Neg"
+      }, {
+        "text": "ativas e Positivas (Chapter 5 - *Prompt Content*):**\n    Instruções como \"Não alucine datas"
+      }, {
+        "text": "\" e \"Não faça preâmbulos\" (no final) ajudam a limpar a saída (redução de *fluff*), focando"
+      }, {
+        "text": " apenas no que importa para o seu resumo."
+      }, {
+        "text": "",
+        "thoughtSignature": "ErU0CrI0AXLI2nzNshpJvPncHw3rubITJjitI8GByQtzRMQvUM6AyXSUnyEkXja6XuT7A9EXyn6iMu2xQ0qIyjcmVeMftTGYv4fdUlDlZ16kaAWLxpfC9o4pUcPohJKaeMaGir9CEYr967WOavlZC42sv81nz7rkNZqJDv7i5d+C+jz3OK+pulF6NcmqEatIM8joPaHEcR8Ckdj6vEOoDWc5CKDD1Qa+HUksJjyu0GQ3aaPlIcVCrZiN8Hng0Z+1ZzFHs3WCCipdLss52WTCqml6KWOcsxYjpO71wEwRhRleqqaRWFki3L9Eb8hsEQobQc/Sq7qRjPuar+cPB8OfoSTYxdiC+woTDZOdsoxhq4Gd2pY8USKA6a8x4ujqBP30nN2o+5GaBO2m8i26h84WOh2xeKjQiHW/1X1JsoC5oLKNXeOayeDc2Rua07Kp6ExKcTOrP/8j5ygp7WiW63NWNtUCtcQ7FEm/JSHjbKV/pe/ka1eDUgJbGPlAeQkj4pdFO9rR15n9pIulQ9Bwp3MpAvCQbv3zdxjv7pQZ4bl1JuKqybBX+Kv9sF9gNO8RPa7R58Xt1i5o9m9HpWebXEvIaNVf9L3KW7PueBejMA57GNlTQB1CgBU5wgXVWETTJiruqSpVn8q4lln1yLb5A1r+2O98ieU9ney7J42E8rqFcJY3RDDPYfkZ4PsCtdYJlrY5Hi8MHq0GvNc+epYoJdsxW7XBPFcAwfFW4pnL08BshjVHaeVNH92uBQALL7o36mWT98xMDf9AUfhuIcL2pxyjfCAYBTYhh89dCDCyatd7Mk509nUe0ZO+TePE3mMgn/yj/N11hsdWNLPupbhLwyg4lVR0RhPo/xDda7fL5PyImt7Yoc08j6Ircy9mWL1yOnwbvDQ5NYgBBMa19H4h+uRGAXFfMKhsUYeD67ooyJWg8Fh+qVBMPTSf/jhduT93P4mQa9f3WVj8vcLq5i/sv7SOPoVtH0H7GwHikBadnNfWTEwPvFgsRoNN/qDUnF+2AEZ1Dzryfddfo+2vPF+VmCidyrkqxtG5USOAZp88+6z5A4/3T4fuvY6nwoxVedm5xPpG9n7xGUMIZPdtYj2jGO6KLI5Ez1cUyhoDdqIEtbkCywbdAibzlk8wisbu/BJ3lzMOYl/L0b4qNHT4+wCV6ZshJ4DsmKKxoNp9q+PvzzL++EFjCiPrvfiDbw6gt90uGVTmjoQRy9bK1XqG5XMQv3ZpsbsaiAGX3OKiZCllT3UznSD+JGLLPxmGWFizY7A13K7TaAeK88KRiX3ZzFiGgpejHMRpjtkjRCCuk1TOCYAQMQUp+nSFpCKbzgT+J43BHLOIdtKkrD5KUFL53F7ka2ySN+t2RR1C2DC8oAQtXnAl4MMzAmv8ofPiqUzNtH3pSGgFN5YogNkh5UvFqhxMQtg4lqoHouBLCE6B+Q0bv+U0amIsyubizmXYrCy+Xc4ECFzHPcKLVV5zzMqorprW2+tTirgoDExmYl16rrF29SDnxmwYOhg7GWF0a05GEfokmw98P1/w7+UhEfd+FROFKWzrQnD3b+dILxNBj7Tko9BZAL91PemRYm647fcW6bkNaHw4CJa3SVFSWWPZn2jKDUkz0Lr40D3MU2XA1SAyi+CSpHTqIIp2Sp63O8kiiK7o7IT1ZyFmmjg9O0vKpvYIv+wNnVqpvk/x7sSbCdBIsRAiUK4oVhzpbSq+AjiKuY48IypC1ekazXcHjQgO15g8QB8BkSiOSMqrWPDsCLDI4Q2xpp5seKDXscmoFK/7pX6sZ3S70K0FZH52T9ClcE+zFqkT9O+w/x0LCIOFq3kzFQvQ9bFgoGMRwCD1PdUVZsp+ppABTRK1HWMdINMlx9FSa31kkNjAeJceSdXLmQTuBEJ4uVDsvUoprFGZFaL5f+pGqH4pkXIdoLtVg0EdAeu7vFQIKz8nu+ho975Bq/n0YYbHZA5Jeadv+/2hPVPSiV4jfATA+3Gs4HIOOB79rsKYv18GKUQuGPVvezGVCHCGECo6Iuvi46Af0IgIJ/sDy4sA3Q7mWuSHJpflVNNLGSrz5D6hNdu2v6IndYVuDcGb/9C14yKzLVfZhE1NkNyOLWHGj4XB5QD/j75E+BwqKZM+vl7WPrmX3coy5ogbOxFairBWi+Dsgic8A8wWzzhXPk4o8kil3OndywALc5Qv1iwdJSS6JdDPwN+zagzVw2JUTfnwCloc9VCe/+yecV/jJ8Q1HOxfhN1K8NADktAoZiesquJZkPunDghA3iZrOk95X1sRAuePV+rZQCkRGoR1vZ83axKx9mL0ZY138KDjvGVlTU4w2DTOhSy4RNq8lIoju/hdd+ZD2ONROMpOjZdZM67vGliymlpVxgoGzIrqEgV/zheRb1xWd1ka+KX7Ys3aYw/00g26npoC51mhC4bEoxpsn3Wi5w4o7Q+Vf/lXXg3tHp40lqhfICNEhcLqgcNQGXbEAb8+4nXll7zSTk4uRiNh7rHdimPk0HFnsqxjEA7b432COxElBPrJM3cIWN17NRNBAg3pm6AqAeEkKk92iUkyLGqd+dftZf7venGWt4FJTIapvwCps1vr1jcmBgFAfIYR+4RwQvHVbmBYrtsyNF/ppyLDiLgqS38BLqXk4q4wghnGHrmxJWn1KFSIoeI3KgJZBiTizvYz4xjMDc0wpyskw89sHMs5PP/E0HJXFsdPfiKGCChj3jxLwcK3BaqKd9JnnJQyqXGlya8b7RfVhjQhGbKbhHlXNliqYWiT5fiHNKc9n/iytYjHV3tIEtvZ1hM2U436O9YIqIXNEFJ3ZADt01BAlYJp/0bgeetWg1KZ0XtYECAXYjyS9Ko/AtB/RCQXG+xxPXOKSYu2m0HUkVYw2lfJj2I7A6VSuVei1k2Nkd1SGrbrgR6MPqq2gP/gcjuvTnMbEZZmJN3EbgnefEQXia/3ujrRL9XhP/tvA8bi3+YORlKqYb9jJuKuIAr93PfecINLBJL4VgeXpLJ9Ejd18nqMej0cJcSnx3AdmxANMkzNuQyMJWMbAkIS04W3O8HdHz9iuym92boa50bxwRStzYZcHKmSfjcw3P0BXpq1XZwl1pPKH49E73YICKWmWOcUWelxH9UeqoeNio/x5UF2jfVa2Xmjp/ESwAJbOxzoJGXlcPtcMz4IASZzmnymS7JVKFSL/z/9Hk9d3D9CUtfvCbp6MMccCU4MFe1HkHFGHph3SS6/unytXFys89yv/fXqCMrrbPQEchcsxx5AAR0GzoOKG1rxQS7+Ie4tvXx8ANokgKW7wlnfyFHUit8HVdIE3ZytqiFynxDv5+qnF04TyVZnhMycCd2dmuAvCrCQ83HZrsvduQBa/31G1YrQntQn/T7gG2BnJOX6wFjuZODQtIm7eXK6mG3sLa0V0sldDt52875RTKtXnko3/DJjZf8djkD4hvhOR17wQWtRnupFpxbjwQaarm2S50NhEpKOdGs/8sfwboPtd5+GJmI8r5ICNTaj2KP2vQtfeJxn0UQzUFOZW3yJ8z/vgB7IscuHlRdITt7YxsLMk1Y//QRLoLRisf92tE+Kiu6QyxQzNzMRmDSoVghDHEhiIVdqx9nT7+YWOwjZG4yJucBI2q5S41k/KtfPho+fu9vypIxK0ipnbDUg0Q1ms4EXJpEhppyh+siL1JxQDv5sD9zNDjCigj8lqzcflRUIL9wXyOGPImwVoD3PLCQJRdTDfCXNlUT4YuaBw9ElrtpYGep1uS2Zzf2z2NEk6P21ls5jo1KEEmQsBBgpA3aK8/aNhvXWAD6uGihxYCGJJosO5hPLrW81nXg1Yhr0JjKEp8KuODODDr8B/V1K/QtuNgPrt0/mGi9ZWnRnY8p1oNVcY/HjmBn8Vvp/xtOz2QiVupjA2VaHohQrL3tVERfYqtO8sJR5SmFlOu3ngtiHrA++x8Iri7hjHQDmd40yZJNqz2JV5D2tz/MtT41yd2UJsm7k6P/LtyTFzxbJbiNYK9grVu5Gn0UmDpfvgO7jl3DK+pslWay2VeDtfVhNPT/cznAg3zSvbljll+vJgdG0WqTce3vztnFsQ/rIMZD5MPrik82aI1kh8W+TgCUBXVQiNknzMaFMAVvMcz+cFdSLagq4zst7e3R1y78qtPsLgp1mExI8bJ45QCrf/Ove0Cq9pfgMRg+Eucnf6fXdIp0NNuT6a5zxRszCksKpPj2RcNPZSZamLashRzr9XUtxDjNK2KI36uVraAtR+TNtlNs6x6wpB1lDTtxgeb6R3ZOYPC/TdXl5TtP+Rd6CRlgWj77N2Nk6KaY5THE2r8vCNFxpz9EvIZDHepZPcIGszdHFHly9E9XiTasDV8eOgwTc03QgByhJH4ExtwDiyg7zaxUdDZehMXeLIP3C93xie6IJUEam6keets5KtF1uGu8oSEzselhhFLiQaxwfNacsEHZVX4eyA7nQ1+eU7aZpcoNAQhjCh1fJGewedSsr52BKLwza8O3oi18lh+HAtuGtGi8CKgplGxvYTVVIDqojnmptRN+qVsf4b2Apmo99RVbvWxw5tDlNtWBoUF4YgpQ7HJab3Z/9prQot0RddrCP4tyY7iddJvty00wp7j3y3MBrDngCEioz2ccOZVyJqNIbesdBK02Z+FnVWuXlmI+J5sTDSk+u77iNjMGj3rn5dgt885RqzF3TJlATXw+EU5VgH2JHF7egbGCm4Vm2g96Bgy6ych7Cg+yKb6xZH7NYM6WPGBbLOoeCgu2w1Po/U7lObhY33TByKpsEntSz0CoEc7ddM1TVMCoRbUqIg7xOS25G/rWqybJnu4jEesIQyaACKQTPt9I+ivupjcizz0WiMTQNQ65hsTKtIxlzJbbGohp1gucmkM5lH95zkKKIApW1R7zDobb52qEw6aGn1GhhdwMHLi729WCHdGp9CXRMaseDWk52Y/ZEH1sQafsab3G/YoqZNLnGMn4imuUhcz1oZE1h9bzLVt6Z4djuGUngPP3oSP19xEKDDO/xiXiXRMcIh8AQIbGy5z8QJmn1YpR3LAW7n16AnoC4gLaRYctb0N6il708yFe+fiSbKSHMKewtJaNhmVe/x8BzhyUj9zcmaKvK++xosvaEBzLDkuw4bxb9H2oi7nanC6loNbZZ0k1Z7RfcbzONfCz3jWt6xgZwuyggRSJrviHKbmXUqf0JksimWdg7MWjJ9NjQ7WdVRYC89kCDN7QTCMWaKA6lx6mPEnADiiEAKX3TnXQ6CoJOooOA0RUI9zH5Nh0cQGAJnBnDlaytQoW8+dBPWaMaLcbGw0bUO/nXZvnS1LwSXkYPD0PFAmeVPasTwQRzimv8+ewc9RJt6cj1pGFKqCVBu0Ly76xsUG3R6SaGSPH1w+wBF3+3aFGJ9/Y0NDa6z71nomcdW9u+u9B7y4+8tdbC+iMlJ2B4sEPh25KaexL06kSu5KxcgqR2O2wZFAe6bapghY3LGO79OG+lPpNUIFKFh4mVDqAlfG+IsfKhkndu1QsDiQ0M1JlBArDMyhCx1tUMXDlQCkAlMofKXAFBJznFUqSLLpF1km6U2PQvUusWi3pBjcHfRt1cvWbeY5vYbZx9HtreUJRir+OXyH7rUkVaieD9GsqgRfW3dIpstFg/TI+I8TvBqasf3qzZxCdjzCiCCCN17JBp2jnhZzp5IXpSnJXRudYRJ12GD0JUvjwqAr323RMwTYLZdKw4dBYLdBcJqFuYrl44aAbhu7vOsZX3zHA3z2N0mo9YJ553g0LanYVRFxIJz+fCcLR9xJJUlmiSvpk0LctZashL/Ade9ZdFxSwUt5K5G+N8lnDA9i7zckZ0XDo3ZE2mfo/4bT5seiO6raATU0P7YImv26kSaFwU2c2Zq2e6K/iDlDqO38/rVDebtCtzYTOgRjXrK9baHU3XBoQZlAa1SvUX4B79pTcEPvADiIvnlrnUW+dcGMVDhR1we/VvGbPm/zVEmBtKje2yrj7uwelpSwPiu7wzgXBUdK0QoEVB1jTXypszzhqbzDsj+1DMA3BUNWphGqTSH/ZhEh4zHEoF/0gtuTpc6KqyIgjU8fbrE+8ptWSbgVvhW7XeItA4bNte/V4MZV6d1xmHiliLP7GfZ/5ToI058RYw2gvvDJaBtzu4//Gz/ZiZaRtk+W4AoS3xJKI0UzeW+2/bdR/EnXQjwYhH4ZQ/IfuEFid8RS+8P+aQjKp0BqV0W3Qw9iAoZIsbMOklOgagr3EHY0P0sNKmoOAFizBiFs48KVzarBRlExovY3yBA46EliXQYmrbkr7zsi+NvUhWCpvN7nBaAf08SzrAkEcQo85AiNHzXtec9D6GgzggEoV6ltC4j9UUIVQu3S+S3o+8UxI7OPPkAdVHWQuNb70m9mDwP7oEHhP8iitoMZwXybHmXhDCxBBQk5AHWegcXkRFbE8UU2ym/881Hxk45ESeiHG7+wAtXVmbF80LTDuUV/kkUEiUNW6TcnsihvbrBtFx1/Ih0ulXs4/8Grovp3LlS+IMTeI0sJEPnkisuMuK+uh3imFueQpxkMHVvf+d4AshlL3S/MDlfqWHqk8GrLIGLqBgoq0VVquv5ood8bcXAVPLGczetOhxMncLxCWZk99SMssZwpZ+vTUz99kefTFo2Twz4qVTblYl2vly9igVzfSHMP1St3COCz7C41BSw/wt2Kbll4fTPbbGqMLXPv0F9BpaDCy7xHT2rL/Q/Hqigj8lnv/0+XmBkp7IWLs116rPyXsXLl6lUqbwPMLezvzkIpptxfJChECn4KHlSElS/igmA2/z8OMowCXyvnXj8jQdw3PvrucnWDdKbj/9+fZehDV/7byc+I0Zn0r8kBBrAOXhUuwBJKvYAldpH7XxZfF6dT2geZy9+kXr4Wtbp0K9p2IPAMSQaonIb157PMn2igQQmudRkkptAVMCzDxvjLZY9incp60Qj7ku2iCRMXUgyPf9rxEfoWFJXRyi06qTRkXH3W/u+NDQCgHaoNqUusAXjMwJPRrbnRpYPxWBxwgpm2bSWrcRCD4q7jW7CAGR9fVNTlLY7+7YOQq2uaMJC7wXshg2PWV+CMrqOtYScJCl7YMss7STnQGAW1TEp8H7SD5ktbuGhAiMUftah3RP5lo8eHHTfaNx6hSy0zpsg/4vmam+F/fBwXtWRBKh7rp99KGYFLR2EadQ3SSX6B6tw3CaegJ6k2g4YdzK+/RdsyKcnJ6PP4YSebwpwnYAgvtSjwJ5TMnKEkLKOIVF09tpvRKQ044xj6XXSh24JLDUi6AbZpOZyKcosxj9Mw7FQ7WMkNP0Hfzueuwyds272pQhyS+L/qBJwtgLvnSjLyYM62BcY5uOjc5Mnn/RfGdCx1m0e25hHdVGFDH1PG2eohAhuCtfH8yFqax8lO3nE0bL/4Dzc2KEnUCtPZMl0bO2/ePLv9tcnV/7UIn2zWC4LLEVNic52+ZgifFXWkJuhlXLueuLCPVHA6887ZQeSqjLwnzemk1m/ifU5jRWQBMlP8EjXNrJ/kfS/PBSS2RZVkoRwYvgZBmmmDJ51XDPIxy7vp/Hv7YWUwY0T4ku+Uw7YcmXwT+UewhRYvFNU/lmh1XIBk8XrKOFd2B3BBBtMk95IFY+vPGtoI2K1Mr6anYNsE+IrbFs76TISODIa0jkUeoDeDucYY1cpipV+bGqBkNChFrEK7tM/LB1kFg26uvKoWBxSmx/9AoIg0IORKedw7AH0D8Y6SEPBs+u8kOtoJo/AEn3AbkqsCwP6f259qUjMa+IAoLbZt+QclPLTWmYGnhrI/IVLC31VhvVx7M8ACjUCQCPUGxqHd0gbI27yTv1gKsA9mO+npJEujUHkVCbE5+Me/wdEV2U6RGMHK1l1eLX3qeWIPJJmxoXZLiRTiM2kX64JUUjHFpl+EFue3KxlVaF7EiASdCGp2BirIDbq2n5Lzhz8Var1W2tAAwoOBAU0wAoSenaSJUvl8hzAt2YY6FmpGq+t+ay4VJW4F3u/+6GsY7sGEB8BPUdf4kV1QTYiisabZT3xLuU5q7oxnCrU+LwIJUVlk9GCCCsjWQ4GjTcpdWq2J1KbQoVuDxwwzNHiWHhoDELLBXlTcxLDOAOL2PGmzWHWZ2sHyWAF8kbn2zPlfHYKh4qR6FaNBKuBwACrb4DsLLEMTZ3k0f6nZmau4ae8U1nzJ4hX+UJ3wlEIX/eAzA9+U2iSuVJH2fQlGGYwRW8eHwLqUxZHTTrcAd5wEY142dVOIlYXDlIgkqER2NJomzBdFAy0VYxj/vKyU1YRY7HTM2SAUV/A7L/hOj6w+MFyPLkPDv+KREnP2tyUT++eT+gtpZ9VaE5i6j4feAyAmPVjI3nF6Ea1NfUxl43v1hGD1Hq7rnaomztgDUqnMlhwqj0TqzX3zwxnL/FCD23x+n7rYXF/DO066PgXOOCBDakkMqEhkTis5Vux2hSrhqyTx5yDa98TmjzilvoA4JYl3PHRyU5BoPqEuXTPHceXw6nrEvo2+uc8rn+jRZvxtixDUj0+rCGmLGT8sHymfjGFXfc3qDmbfUlocI9BkzfzagiED/kLNayN4zibNyyumiAaoQ1lXtC1q20Fk464WL0QwEtNXMzzLFWnNdD2OPQFALBhJVbKJ9gt+DvKL64U8MceakUbNK3VtCzNDlO9+2yQDMqrnGoThuvW0R2DCZEBVGnQfWFD4BxeghOFWnyqhRzKKpidWizYDzP0YbKaWlPfqYWA96nHw38uAQG2YjoleMvSWs2exLw5+AU3owRDYS7G0Zl9MJ0yEDaVFC6D/YkMcMgikPMzG7dDD7QqWlY4l2qbg/bf1he8mFqPNKzs3lF+RqllIe81JvSgzsi0b7rrqMmm5Jh9GNJd5pku2Lxmr0cEpwYEMS125Iga/vuL0nwPjj1bWB6WSOmX/kQ+MvNAXAiYl6Kvh+sr6YvNYFYYWy0s9BW3+k0JJkgpsIYmUSkj/rrbQ=="
+      }]
+    }],
+    "pendingInputs": [{
+      "text": "",
+      "role": "user"
+    }]
+  }
+}

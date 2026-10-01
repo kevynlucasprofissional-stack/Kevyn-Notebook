@@ -1,0 +1,1 @@
+Taxa de emissão que será mostrada na viewport.

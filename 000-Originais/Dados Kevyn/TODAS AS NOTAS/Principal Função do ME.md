@@ -1,0 +1,1 @@
+A principal função deste é de livrar o Premier e o After Effects da tarefa de renderização. Permitindo você renderizar e trabalhar em composições ao mesmo tempo.

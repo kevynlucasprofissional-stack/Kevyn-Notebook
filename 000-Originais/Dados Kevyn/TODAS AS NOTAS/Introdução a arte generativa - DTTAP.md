@@ -1,0 +1,1 @@
+Aprenda a programar (Processing, p5.js ou Open Frameworks) ou use o Blender para criar as artes generativas. Hoje em dia pode ser uma boa ideia trabalhar também com as IA's.

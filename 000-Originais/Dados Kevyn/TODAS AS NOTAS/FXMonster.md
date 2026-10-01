@@ -1,0 +1,1 @@
+É um plugin com um starter pack bem generoso, com vários efeitos para utilizar.

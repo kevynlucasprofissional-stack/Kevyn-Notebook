@@ -1,0 +1,1 @@
+Arrastar um polígono enquanto se segura Ctrl faz uma extrusão.

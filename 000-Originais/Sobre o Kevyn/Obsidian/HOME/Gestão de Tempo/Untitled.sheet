@@ -1,0 +1,70 @@
+[
+    {
+        "id": "639cf36b-00f5-4940-ae62-f97386af7ba8",
+        "name": "Sheet1",
+        "plugin": "divams_spreadsheets_for_obsidian",
+        "celldata": [
+            {
+                "r": 0,
+                "c": 0,
+                "v": {
+                    "m": "Tarefa",
+                    "ct": {
+                        "fa": "General",
+                        "t": "g"
+                    },
+                    "v": "Tarefa"
+                }
+            },
+            {
+                "r": 0,
+                "c": 1,
+                "v": {
+                    "m": "Início",
+                    "ct": {
+                        "fa": "General",
+                        "t": "g"
+                    },
+                    "v": "Início"
+                }
+            },
+            {
+                "r": 0,
+                "c": 2,
+                "v": {
+                    "m": "Fim",
+                    "ct": {
+                        "fa": "General",
+                        "t": "g"
+                    },
+                    "v": "Fim"
+                }
+            },
+            {
+                "r": 0,
+                "c": 3,
+                "v": {
+                    "m": "Expectativa",
+                    "ct": {
+                        "fa": "General",
+                        "t": "g"
+                    },
+                    "v": "Expectativa"
+                }
+            },
+            {
+                "r": 0,
+                "c": 4,
+                "v": {
+                    "m": "Realidade",
+                    "ct": {
+                        "fa": "General",
+                        "t": "g"
+                    },
+                    "v": "Realidade"
+                }
+            }
+        ],
+        "calcChain": []
+    }
+]

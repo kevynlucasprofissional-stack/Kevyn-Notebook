@@ -1,0 +1,3 @@
+* **Substituir Conteúdo:** Selecione a camada a ser substituída, pressione Alt e arraste um novo elemento da janela de projeto para cima da camada selecionada. Os parâmetros, efeitos e personalizações serão mantidos, apenas o conteúdo é substituido.
+* **Efeito de Eco:** Crie um efeito de "eco" interessante duplicando uma animação, atrasando as cópias e reduzindo sua opacidade.
+* **Motion Blur:** Para aplicar o Motion Blur, ative-o tanto nas propriedades da camada quanto na opção correspondente ao lado do Graph Editor.

@@ -1,0 +1,197 @@
+[
+  {
+    "mudanca_id": "MUD-000063",
+    "caminho": "08-Estudos-e-Referencias/Negocios e marketing.md",
+    "operacao": "modificar",
+    "motivo": "registrar estudo de SEO e repertorio editorial sem alegar resultado",
+    "fontes": [
+      "SRC-000072",
+      "SRC-000076",
+      "SRC-000077"
+    ],
+    "unidades": [
+      "UNI-000039",
+      "UNI-000043",
+      "UNI-000054"
+    ],
+    "hash_anterior": "f2e76d525aa074f7d0008564915ec79a8f53175e5ec878080c7baf9fc63a3d1a",
+    "hash_posterior": "fa55583ce4f36a6d986ca19f3205312a2045582dc5623116866fadffc900e6ce",
+    "ciclo": "CICLO-0010",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000064",
+    "caminho": "04-Trabalho-Vocacao-e-Projetos/Marketing comunicacao e processos.md",
+    "operacao": "modificar",
+    "motivo": "registrar campanha, estudo de conteudo e responsabilidades planejadas",
+    "fontes": [
+      "SRC-000072",
+      "SRC-000074",
+      "SRC-000076",
+      "SRC-000077"
+    ],
+    "unidades": [
+      "UNI-000039",
+      "UNI-000041",
+      "UNI-000043",
+      "UNI-000054"
+    ],
+    "hash_anterior": "5aa7565220f1735a8c95423c947225ba1b48789fe262aefcb9ab30a3972622a1",
+    "hash_posterior": "ce4e602a856efc050b6f538d95aba4227df9e82872455fcc9e8e3ed6d9b94b4a",
+    "ciclo": "CICLO-0010",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000065",
+    "caminho": "02-Cronologia-e-Memorias/Salus e Desafio Svelte.md",
+    "operacao": "modificar",
+    "motivo": "documentar campanha e responsabilidades sem converter plano em entrega",
+    "fontes": [
+      "SRC-000074",
+      "SRC-000077"
+    ],
+    "unidades": [
+      "UNI-000041",
+      "UNI-000054"
+    ],
+    "hash_anterior": "c037a5b1b6c81ed033ab44f7fe3f085715ae6fd7cdd44bede699bb36e0a876c8",
+    "hash_posterior": "cbde8865c0e9739beba06ffefa8010898cd8a503714de18f59295c339d477b9c",
+    "ciclo": "CICLO-0010",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000067",
+    "caminho": "04-Trabalho-Vocacao-e-Projetos/Portfolio de projetos.md",
+    "operacao": "modificar",
+    "motivo": "registrar iteracao tecnica, campanha e responsabilidades",
+    "fontes": [
+      "SRC-000071",
+      "SRC-000074",
+      "SRC-000077"
+    ],
+    "unidades": [
+      "UNI-000038",
+      "UNI-000041",
+      "UNI-000054"
+    ],
+    "hash_anterior": "fcde5a3f7ba7f86538b3747f153434f998f9a8f88eaf545c813f0a32094db4dd",
+    "hash_posterior": "dbff651a7261c4ffc6344637e11fc23ff267b790a34c56d5bad9bde68902bd26",
+    "ciclo": "CICLO-0010",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000068",
+    "caminho": "04-Trabalho-Vocacao-e-Projetos/Inteligencia artificial e automacao.md",
+    "operacao": "modificar",
+    "motivo": "registrar manutencao, RAG e acessos com segredos omitidos",
+    "fontes": [
+      "SRC-000071",
+      "SRC-000075",
+      "SRC-000078"
+    ],
+    "unidades": [
+      "UNI-000038",
+      "UNI-000042"
+    ],
+    "hash_anterior": "5797ad630db39eff1cf24f9fd9fd23ba7d17d322e8845c3b44081b3ad8a62674",
+    "hash_posterior": "081a55561c5d3ad03ae6449486844754358e26cef9ce3610cc41d33355f3bc00",
+    "ciclo": "CICLO-0010",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000069",
+    "caminho": "04-Trabalho-Vocacao-e-Projetos/Sustentabilidade financeira e trabalho.md",
+    "operacao": "modificar",
+    "motivo": "distinguir responsabilidade planejada e risco operacional",
+    "fontes": [
+      "SRC-000075",
+      "SRC-000077",
+      "SRC-000078"
+    ],
+    "unidades": [
+      "UNI-000042",
+      "UNI-000054"
+    ],
+    "hash_anterior": "397bc5ed19dc4c785bfd73c7bff5288d2fbd4f140e7891887e69ea2782e76964",
+    "hash_posterior": "d0193eaab4f6682c8afe2e3c0603e67d83229da9bd28912f0800bfa9c5fe5187",
+    "ciclo": "CICLO-0010",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000076",
+    "caminho": "08-Estudos-e-Referencias/Tecnologia IA e automacao.md",
+    "operacao": "modificar",
+    "motivo": "registrar contato tecnico e tratamento seguro de credenciais",
+    "fontes": [
+      "SRC-000071",
+      "SRC-000075",
+      "SRC-000078"
+    ],
+    "unidades": [
+      "UNI-000038",
+      "UNI-000042"
+    ],
+    "hash_anterior": "5697e9808cd1f606f3a193389ff8e1eeb9213deed8876ee98303bb2e27771113",
+    "hash_posterior": "74145df72809d4c8ff953ee8846b011898531a421fe0d768c489b8ef7d114744",
+    "ciclo": "CICLO-0010",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000077",
+    "caminho": "09-Fontes-e-Evidencias/Fonte - Operacao WSI Salus e acessos 2025.md",
+    "operacao": "criar",
+    "motivo": "centralizar proveniencia e limites sem reproduzir segredos",
+    "fontes": [
+      "SRC-000071",
+      "SRC-000072",
+      "SRC-000073",
+      "SRC-000074",
+      "SRC-000075",
+      "SRC-000076",
+      "SRC-000077",
+      "SRC-000078"
+    ],
+    "unidades": [
+      "UNI-000038",
+      "UNI-000039",
+      "UNI-000040",
+      "UNI-000041",
+      "UNI-000042",
+      "UNI-000043",
+      "UNI-000054"
+    ],
+    "hash_anterior": null,
+    "hash_posterior": "079458f95560427327f5657b98d4daa98bc39478a34a0c6cc32be6a5be6949dd",
+    "ciclo": "CICLO-0010",
+    "validacao": "auditoria_corretiva_20260619"
+  },
+  {
+    "mudanca_id": "MUD-000078",
+    "caminho": "09-Fontes-e-Evidencias/Indice geral de fontes selecionadas.md",
+    "operacao": "modificar",
+    "motivo": "indexar a nota-fonte do ciclo",
+    "fontes": [
+      "SRC-000071",
+      "SRC-000072",
+      "SRC-000073",
+      "SRC-000074",
+      "SRC-000075",
+      "SRC-000076",
+      "SRC-000077",
+      "SRC-000078"
+    ],
+    "unidades": [
+      "UNI-000038",
+      "UNI-000039",
+      "UNI-000040",
+      "UNI-000041",
+      "UNI-000042",
+      "UNI-000043",
+      "UNI-000054"
+    ],
+    "hash_anterior": "42c1146b13773b57fb113ab0e14239125e88a55b0da8c33020883945bd690303",
+    "hash_posterior": "63bfc2ac86763218c6262efb6d5789b5948b47590c7e5dc3b50480c822913f0d",
+    "ciclo": "CICLO-0010",
+    "validacao": "auditoria_corretiva_20260619"
+  }
+]
