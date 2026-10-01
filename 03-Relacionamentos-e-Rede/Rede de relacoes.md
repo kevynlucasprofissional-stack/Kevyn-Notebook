@@ -89,6 +89,8 @@ Os vínculos afetivos aparecem com investimento alto, idealização e revisão p
 - [[Amor intimidade e vulnerabilidade]] — exposição, proteção e reciprocidade.
 - [[Tribo pertencimento e lideranca]] — desejo de comunidade e papel de organizador.
 - [[Cha e Prosa]] — grupo social e espaço de experimentação intelectual e afetiva.
+- [[Aline e o ciclo de reciprocidade e ritmo]] — reciprocidade real, limite e luto (jul–set/2026).
+- [[Iasmin Alencar]] — vínculo afetivo curto de jun–jul/2026, com aceleração, término e revisão posterior.
 
 ### Vínculos profissionais e de cuidado
 

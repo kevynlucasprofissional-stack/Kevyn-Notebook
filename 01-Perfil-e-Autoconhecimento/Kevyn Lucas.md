@@ -150,7 +150,7 @@ Em 2026, o cofre registra uma passagem mais explicita de autoleitura para rotina
 
 ### Atualizacao julho-setembro de 2026
 
-Entre julho e setembro, três movimentos convivem. Primeiro, vínculos novos com Eros e incerteza aceleram significado: com Aline há reciprocidade real sem garantia de futuro, seguida de luto e decisão de focar em si; com Yasmin há intimidade rápida, plano "Operação Bebê", término e revisão moral posterior. Segundo, Kevyn formula ritmo como habilidade: sentir profundamente e avançar devagar, suportar incerteza, escrever sem obrigação de enviar. Terceiro, há recalibração profissional com critério de prova: missão híbrida, contrato de renúncia, plano de 48 semanas e avaliação que corrige inflação (Design 78; Marketing 58; Administração 52; Psicologia 43; Software 40). Símbolos (Thymos, Philautia, Ágape, Rei, Graal) seguem como linguagem de sentido, com regra explícita de não autenticar destino.
+Entre julho e setembro, três movimentos convivem. Primeiro, vínculos novos com Eros e incerteza aceleram significado: com Aline há reciprocidade real sem garantia de futuro, seguida de luto e decisão de focar em si; com [[Iasmin Alencar|Iasmin]] há intimidade rápida, plano "Operação Bebê", término e revisão moral posterior. Segundo, Kevyn formula ritmo como habilidade: sentir profundamente e avançar devagar, suportar incerteza, escrever sem obrigação de enviar. Terceiro, há recalibração profissional com critério de prova: missão híbrida, contrato de renúncia, plano de 48 semanas e avaliação que corrige inflação (Design 78; Marketing 58; Administração 52; Psicologia 43; Software 40). Símbolos (Thymos, Philautia, Ágape, Rei, Graal) seguem como linguagem de sentido, com regra explícita de não autenticar destino.
 
 ### Camada simbolica
 
@@ -169,7 +169,7 @@ A espiritualidade, a idealizacao amorosa e o vocabulario simbolico nao sao enfei
 - `CLM-000016` / `EVD-000025`: Kevyn executa melhor quando o trabalho tem prazo, destinatario e consequencia externa.
 - `CLM-000020` / `EVD-000035 + EVD-000032`: em julho-agosto de 2026, vínculo novo com reciprocidade real convive com extrapolação de futuro, seguida de limite, luto e decisão de ritmo.
 - `CLM-000021` / `EVD-000033`: em setembro de 2026, Kevyn recalibra direção e competências com critério de prova e prioridades de autogoverno, coordenação e julgamento empírico.
-- `CLM-000022` / `EVD-000034`: a sessão de 10/07/2026 com a psicóloga Suzana sobre a relação com Yasmin registra aceleração afetiva, responsabilidade rápida e revisão posterior, sem fechar a cena completa.
+- `CLM-000022` / `EVD-000034`: a sessão de 10/07/2026 com a psicóloga Suzana sobre a relação com [[Iasmin Alencar|Iasmin]] registra aceleração afetiva, responsabilidade rápida e revisão posterior, sem fechar a cena completa.
 - `CLM-000019` / `EVD-000028 + EVD-000029 + EVD-000030`: a faixa tecnica combinada envolve SQL, N8N, Supabase, RAG, Google Cloud, marketing e copy.
 - `CLM-000014` / `EVD-000026`: Hoor Digital funciona como camada de marca e oferta em construcao, mas permanece parcial no recorte ativo.
 

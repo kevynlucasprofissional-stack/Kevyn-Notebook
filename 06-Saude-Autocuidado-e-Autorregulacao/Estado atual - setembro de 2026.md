@@ -53,7 +53,7 @@ O "casamento com a sabedoria" é formulado como comportamento observável, não 
 
 ## Relações
 
-O ciclo com Aline termina com limite e raiva datada; o caso Yasmin termina com revisão moral. A decisão registrada é focar em si, no dever e no que não abandona, com ritmo como habilidade treinável: sentir profundamente e avançar devagar.
+O ciclo com Aline termina com limite e raiva datada; o caso [[Iasmin Alencar|Iasmin]] termina com revisão moral. A decisão registrada é focar em si, no dever e no que não abandona, com ritmo como habilidade treinável: sentir profundamente e avançar devagar.
 
 ## Método
 

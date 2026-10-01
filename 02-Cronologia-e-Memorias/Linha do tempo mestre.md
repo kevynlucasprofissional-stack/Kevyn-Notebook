@@ -122,7 +122,7 @@ Esta nota organiza a trajetória de Kevyn como uma passagem de formação precoc
 | 26/06/2026 | Segunda sessão com Suzana, controle, vínculo, solidão, autodocumentação e próximo encontro em 10/07 | o acompanhamento segue em curso e ganha contorno mais objetivo | alto |
 | 15/06/2026 | Revisão RNIDIQAOUP | execução profissional forte sob prazo e destinatário claro | alto |
 | 17/06/2026 | Estado atual - 17 de junho de 2026 | fotografia datada de trabalho, estudo, autocuidado e projetos em convergência | alto |
-| 10/07/2026 | Terceira sessão com Suzana e caso Yasmin | intimidade rápida, Operação Bebê, término e revisão; progresso corporal e de conteúdo | alto |
+| 10/07/2026 | Terceira sessão com Suzana e caso [[Iasmin Alencar|Iasmin]] | intimidade rápida, Operação Bebê, término e revisão; progresso corporal e de conteúdo | alto |
 | 25-29/07/2026 | Ciclo Aline: reciprocidade, luto e limite | reciprocidade real sem garantia de futuro; decisão de ritmo e foco em si | alto |
 | 26/07/2026 | Tratado de ética | vergonha versus responsabilidade; honra como sustentar sem abandonar-se | alto |
 | 31/07/2026 | Estudo Sloterdijk: thymos e philautia | TIPO 1 como abundância; Rei coordena em vez de destruir partes | medio_alto |
@@ -150,7 +150,7 @@ Com a mudança para Rio Verde, a trajetória deixa de ser apenas formação téc
 
 Em 2026, a linha do tempo começa a se deslocar do autoconhecimento abstrato para o cuidado e a regulação concreta. ACIRV, Hoor Digital em construção, terapia, Vontade SMART, revisão semanal, FGV, Diário Negro, RNIDIQAOUP e plugins de Obsidian compõem uma fase em que trabalho, rotina e conhecimento começam a ser tratados como sistema vivo. As notas mais recentes também deixam mais claro o núcleo familiar ativo, a separação entre estudo concluído, em andamento e exploração, e o uso atual de Tarô de Thoth, Thelema e Santo Daime como práticas de sentido.
 A sessão de 26/06/2026 reforça a continuidade da terapia e acrescenta um recorte mais preciso: Kevyn quer controle, mas também quer que o processo tenha medida, utilidade e limite. Isso não resolve a fase, mas mostra que ela segue em movimento.
-Entre julho e setembro, a fase ganha três camadas novas. A relação com Aline mostra reciprocidade real com extrapolação de futuro, seguida de luto, limite e decisão de ritmo; a sessão de 10/07 com a psicóloga Suzana sobre a Yasmin mostra aceleração, responsabilidade rápida e revisão posterior. Kevyn formula ritmo como habilidade treinável e recalibra direção com critério de prova, sem converter símbolo em destino.
+Entre julho e setembro, a fase ganha três camadas novas. A relação com Aline mostra reciprocidade real com extrapolação de futuro, seguida de luto, limite e decisão de ritmo; a sessão de 10/07 com a psicóloga Suzana sobre a [[Iasmin Alencar|Iasmin]] mostra aceleração, responsabilidade rápida e revisão posterior. Kevyn formula ritmo como habilidade treinável e recalibra direção com critério de prova, sem converter símbolo em destino.
 
 ## Padrões que atravessam a linha do tempo
 

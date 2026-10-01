@@ -102,6 +102,7 @@ Correções técnicas finais são registradas também no arquivo externo `Change
   - `Fonte - Conversa do WhatsApp com Iasmim` (19–22/06/2026);
   - `Fonte - Conversa do WhatsApp com Mari que Cria` (18/10–26/11/2025);
 - criada a nota canônica `Iasmin Alencar` para a relação afetiva de jun–jul/2026 e registrada a **disambiguação** com `Yasmin` (prima de Kevyn, mãe de Hariel) em ambas as notas e na nota-fonte da sessão de 10/07/2026;
+- `Linha do tempo mestre`, `Kevyn Lucas`, `Estado atual - setembro de 2026`, `Rede de relacoes`, `Claims principais` e `Matriz-Claims.csv` passam a referenciar `Iasmin Alencar`, eliminando a ambiguidade de nome;
 - `Cha e Prosa` (v2.3) passa a datar a criação do grupo (17/10/2025) e a listar as novas fontes;
 - `Mari e a experiencia de idealizacao` (v1.5) ganha afirmação sustentada por fonte primária sobre a parceria criativa (edital Centelha, "Muralistas do Futuro", Ateliê Ciranda);
 - links internos permanecem em 0 quebrados.

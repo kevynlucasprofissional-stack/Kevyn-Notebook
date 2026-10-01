@@ -125,7 +125,7 @@ Esta pagina resume as claims que melhor sustentam a leitura de Kevyn. A referenc
 | CLM-000018 | A crise de 2025 funcionou como ponto de reorganizacao material e simbolica. | integrado | EVD-000021 | Crise e reorganizacao 2025; Narrativa de grandeza e vida comum | Resume uma fase, nao julga a pessoa. |
 | CLM-000020 | Em julho-agosto de 2026, vínculo novo com reciprocidade real convive com extrapolação de futuro, seguida de limite, luto e decisão de ritmo. | integrado | EVD-000035 + EVD-000032 | Kevyn Lucas; Linha do tempo mestre; Amor idealizacao e projecao | Fala direta de Aline confirma reciprocidade e pedido de ritmo; não prova traço fixo. |
 | CLM-000021 | Em setembro de 2026, Kevyn recalibra direção e competências com critério de prova e prioridades de autogoverno, coordenação e julgamento empírico. | integrado | EVD-000033 | Kevyn Lucas; Trajetoria profissional; MOC Planos e decisoes | Plano e autoavaliação; sem prova externa independente. |
-| CLM-000022 | A sessão de 10/07/2026 com a psicóloga Suzana sobre a relação com Yasmin registra aceleração afetiva, responsabilidade rápida e revisão posterior, sem fechar a cena completa. | integrado | EVD-000034 | Acompanhamento psicologico; Kevyn Lucas | Autorrelato unilateral; não expandir além do documentado. |
+| CLM-000022 | A sessão de 10/07/2026 com a psicóloga Suzana sobre a relação com [[Iasmin Alencar|Iasmin]] registra aceleração afetiva, responsabilidade rápida e revisão posterior, sem fechar a cena completa. | integrado | EVD-000034 | Acompanhamento psicologico; Kevyn Lucas | Autorrelato unilateral; não expandir além do documentado. |
 
 ## Claims de metodo, trabalho e projeto
 
