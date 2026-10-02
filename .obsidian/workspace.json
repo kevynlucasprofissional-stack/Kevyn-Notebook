@@ -13,26 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03-Relacionamentos-e-Rede/Paulinho.md",
+                "file": "03-Relacionamentos-e-Rede/Vinculo.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Paulinho"
+              "title": "Vinculo"
             }
           },
           {
-            "id": "06ee82db4e2f679d",
+            "id": "cebd2921990c8131",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "roadmap.md",
+                "file": "000-Originais/01.10.2026.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "roadmap"
+              "title": "01.10.2026"
             }
           }
         ],
@@ -203,14 +203,34 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "06ee82db4e2f679d",
+  "active": "cebd2921990c8131",
   "lastOpenFiles": [
+    "03-Relacionamentos-e-Rede/Vinculo.md",
+    "03-Relacionamentos-e-Rede/Tribo pertencimento e lideranca.md",
+    "03-Relacionamentos-e-Rede/Suzana.md",
+    "03-Relacionamentos-e-Rede/Silvanna.md",
+    "03-Relacionamentos-e-Rede/Lethicia.md",
+    "03-Relacionamentos-e-Rede/Igor.md",
+    "03-Relacionamentos-e-Rede/Iasmin Alencar.md",
+    "03-Relacionamentos-e-Rede/Historia parental relatada.md",
+    "03-Relacionamentos-e-Rede/Hariel.md",
+    "03-Relacionamentos-e-Rede/Geovanna.md",
+    "03-Relacionamentos-e-Rede/Cha e Prosa.md",
+    "03-Relacionamentos-e-Rede/Arthur.md",
+    "03-Relacionamentos-e-Rede/Amor intimidade e vulnerabilidade.md",
+    "03-Relacionamentos-e-Rede/Amor idealizacao e projecao.md",
+    "03-Relacionamentos-e-Rede/Aline e o ciclo de reciprocidade e ritmo.md",
+    "03-Relacionamentos-e-Rede/Mari e a experiencia de idealizacao.md",
+    "03-Relacionamentos-e-Rede/Paulinho.md",
+    "000-Originais/Dados Kevyn/TODAS AS NOTAS/Quero ler.md",
+    "000-Originais/Dados Kevyn/TODAS AS NOTAS/Livros lidos.md",
+    "000-Originais/01.10.2026.md",
+    "roadmap.md",
+    "95-Auditorias/Auditoria de saude da camada canonica 2026-09-29.md",
     "README.md",
     "AGENTS.md",
     "000-Originais/Alternativas open source Plugins ChatGPT-20260930-1548.md",
     "000-Originais/Dados Kevyn/TODAS AS NOTAS/08 - quarta-feira.md",
-    "000-Originais/300926.md",
-    "000-Originais/Motivo do individualismo e perguntas para fechar lacunas do Kevyn Notebook-20260930-1837.md",
     "000-Originais/Não confirmado 997923.crdownload",
     "000-Originais/Arquivos pesados/conversations.json",
     "000-Originais/Arquivos pesados/Conversas com o ChatGPT.json",
@@ -221,26 +241,6 @@
     "000-Originais/Arquivos pesados/Kevyn Lucas.html",
     "000-Originais/Arquivos pesados",
     "000-Originais/Nova pasta",
-    "000-Originais/Conversas e zap, talvez redundantes, mas tudo bem/Notas de uma conversa com o Copilot, não lembro o dia.__Cérebro Profissional.md",
-    "000-Originais/Conversas e zap, talvez redundantes, mas tudo bem/Notas de uma conversa com o Copilot, não lembro o dia..md",
-    "000-Originais/Conversas e zap, talvez redundantes, mas tudo bem/ChatGPT_2026-04-03-18-40-21.md",
-    "01-Perfil-e-Autoconhecimento/Autonomia e relacao com autoridade.md",
-    "Analise.md",
-    "000-Originais/VAULTS_NEO/MAT/Dados ACIRV/Notas/Dados sobre o novo tom de voz e planejamento de 2026.md",
-    "000-Originais/VAULTS_NEO/MAT/Dados ACIRV/Notas/(RELATÓRIO MÉTRICAS) - Fevereiro.md",
-    "000-Originais/VAULTS_NEO/MAT/Dados ACIRV/Notas/(MÉTRICAS) - 2025.md",
-    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Vendedor de Pílulas (Economia de Tempo).md",
-    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Monólogo vs. Diálogo.md",
-    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Medo do Barulho (Tigres).md",
-    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Guarda-Chaves (Inquietude Adulta).md",
-    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Essencial é Invisível.md",
-    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Eco e a Falta de Originalidade.md",
-    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Desenho da Jiboia (Visão Adulta vs. Infantil).md",
-    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/O Conceito de Efêmero.md",
-    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/A Vaidade da Flor.md",
-    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/A Raposa e o Conceito de Cativar.md",
-    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/A Pedagogia da Desistência.md",
-    "000-Originais/Sobre o Kevyn/Obsidian/HOME/O Professor/05_PERSONA 03 - O PENDURADO/O Pequeno Príncipe/A Paisagem Mais Triste e Bela.md",
     "000-Originais/Sobre o Kevyn/Obsidian/HOME/Cérebro Profissional/Notas/Workshop com Alan Nicolas.svg",
     "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/SAFE ZONE.PNG",
     "000-Originais/Dados Kevyn/TODAS AS NOTAS/SAFE ZONE.PNG",
