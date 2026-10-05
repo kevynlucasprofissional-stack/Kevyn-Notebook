@@ -43,7 +43,7 @@ Autoavaliação rica, não benchmark externo de senioridade. O ganho principal �
 
 A frase da transcrição bruta em que Kevyn afirma ter se mudado "para Goiânia" foi corrigida diretamente em 05/10/2026. A leitura canônica correta é: provável nascimento em Goiânia → mudança ainda muito jovem para Santa Helena de Goiás → primeiro emprego na Sigma Comunicação Visual, em Santa Helena → mudança para Rio Verde aos 18 anos. Ver [[Fonte - Retificacao biografica 2026-10-05]].
 
-A retificação corrige a geografia, mas não autoriza inferir qual cidade ou empresa o trecho pós-Sigma pretendia nomear.
+A retificação posterior também identifica a etapa seguinte: aos 18 anos, Kevyn mudou-se de Santa Helena para Rio Verde e, junto com a mudança, saiu da Sigma e passou a trabalhar na Mídia e Cia, também em comunicação visual.
 
 ## Proveniência
 Original: `000-Originais/Audios/O Kevyn faz.md`  
