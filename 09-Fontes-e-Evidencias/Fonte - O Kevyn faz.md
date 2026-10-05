@@ -5,10 +5,10 @@ tipo: fonte
 status: revisado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.0'
+versao_conteudo: '1.1'
 idioma: pt-BR
 data_criacao: 2026-10-04
-ultima_revisao: 2026-10-04
+ultima_revisao: 2026-10-05
 subtipo: relato_autobiografico_em_audio_transcrito
 camada_evidencia: registro_direto
 grau_confianca: alto
@@ -20,6 +20,7 @@ notas_relacionadas:
 - '[[Criatividade e capacidade de sintese]]'
 - '[[Tecnologia IA e automacao]]'
 - '[[Trabalho como eixo de identidade]]'
+- '[[Fonte - Retificacao biografica 2026-10-05]]'
 ---
 
 # Fonte - O Kevyn faz
@@ -37,6 +38,12 @@ Relato autobiográfico recente sobre formação, trajetória profissional e prof
 
 ## Limite
 Autoavaliação rica, não benchmark externo de senioridade. O ganho principal é calibrar profundidade relativa.
+
+## Retificação posterior
+
+A frase da transcrição bruta em que Kevyn afirma ter se mudado "para Goiânia" foi corrigida diretamente em 05/10/2026. A leitura canônica correta é: provável nascimento em Goiânia → mudança ainda muito jovem para Santa Helena de Goiás → primeiro emprego na Sigma Comunicação Visual, em Santa Helena → mudança para Rio Verde aos 18 anos. Ver [[Fonte - Retificacao biografica 2026-10-05]].
+
+A retificação corrige a geografia, mas não autoriza inferir qual cidade ou empresa o trecho pós-Sigma pretendia nomear.
 
 ## Proveniência
 Original: `000-Originais/Audios/O Kevyn faz.md`  
