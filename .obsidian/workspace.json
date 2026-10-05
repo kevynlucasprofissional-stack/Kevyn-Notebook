@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "Uma visão psicológica da mente do Kevyn"
             }
+          },
+          {
+            "id": "9875ed73fc101b53",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-Originais/Audios/Reescrito - O Kevyn faz.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Reescrito - O Kevyn faz"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -188,11 +203,19 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "48e673893b66af8f",
+  "active": "9875ed73fc101b53",
   "lastOpenFiles": [
+    "000-Originais/Audios/Reescrito - O Kevyn faz.md",
+    "000-Originais/Audios/O Kevyn faz.md",
+    "000-Originais/Audios/O Kevyn faz.m4a",
+    "000-Originais/Audios/Conversa séria.md",
+    "000-Originais/Audios/Conversa séria.m4a",
+    "000-Originais/Audios/Considerações.md",
+    "000-Originais/Audios/Considerações.m4a",
+    "000-Originais/Audios",
+    "000-Originais/Uma visão psicológica da mente do Kevyn.md",
     "000-Originais/Pasted image 20261004003907.png",
     "000-Originais/04.10.26 às 00h08 - O sonho do Kevyn.md",
-    "000-Originais/Uma visão psicológica da mente do Kevyn.md",
     "000-Originais/02.10.26.md",
     "000-Originais/03.10.26.md",
     "000-Originais/Diário provisório do kevyn/020926.md",
@@ -213,19 +236,12 @@
     "03-Relacionamentos-e-Rede/Arthur.md",
     "03-Relacionamentos-e-Rede/Amor intimidade e vulnerabilidade.md",
     "03-Relacionamentos-e-Rede/Amor idealizacao e projecao.md",
-    "03-Relacionamentos-e-Rede/Aline e o ciclo de reciprocidade e ritmo.md",
-    "03-Relacionamentos-e-Rede/Mari e a experiencia de idealizacao.md",
-    "03-Relacionamentos-e-Rede/Paulinho.md",
     "000-Originais/Não confirmado 997923.crdownload",
     "000-Originais/Arquivos pesados/conversations.json",
     "000-Originais/Arquivos pesados/Conversas com o ChatGPT.json",
     "000-Originais/Arquivos pesados/chat.html",
     "000-Originais/Arquivos pesados/Auditoria e correção do cofre Kevyn Neo.html",
     "000-Originais/Arquivos pesados/rollout-2026-06-18T02-45-27-019ed943-4042-7b00-932b-d8921482b9f9.jsonl",
-    "000-Originais/Arquivos pesados/rollout-2026-06-17T21-29-41-019ed822-3825-7e12-82fa-a784d41d6e19.jsonl",
-    "000-Originais/Arquivos pesados/Kevyn Lucas.html",
-    "000-Originais/Arquivos pesados",
-    "000-Originais/Nova pasta",
     "000-Originais/Sobre o Kevyn/Obsidian/HOME/Cérebro Profissional/Notas/Workshop com Alan Nicolas.svg",
     "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/SAFE ZONE.PNG",
     "000-Originais/Dados Kevyn/TODAS AS NOTAS/SAFE ZONE.PNG",
@@ -235,7 +251,6 @@
     "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/imagens/Pasted image 20251011161341.png",
     "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/imagens/Pasted image 20251011154942.png",
     "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/imagens/Pasted image 20251011154832.png",
-    "000-Originais/Dados Kevyn/Primeiro Segundo Cérebro/imagens/Pasted image 20251011153214.png",
     "000-Originais/Sobre o Kevyn/Obsidian/HOME/AULAS FGV - FUNDAÇÃO GETÚLIO VARGAS/Notas/Exemplo de Construção de portfólio.canvas",
     "000-Originais/Sobre o Kevyn/Obsidian/HOME/Cérebro Profissional/Diário/2025/10 - outubro/Funnel do Alan.canvas",
     "80-MOCs-e-Trilhas/Projetos e Execucao.canvas",
