@@ -5,10 +5,10 @@ tipo: auditoria
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '3.3'
+versao_conteudo: '3.4'
 idioma: pt-BR
 data_criacao: 2026-06-21
-ultima_revisao: 2026-10-04
+ultima_revisao: 2026-10-05
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-26]]'
@@ -34,6 +34,7 @@ fontes_primarias:
 - '[[Fonte - O sonho do Kevyn 2026-10-04]]'
 - '[[Fonte - Conversa seria 2026-09-25]]'
 - '[[Fonte - O Kevyn faz]]'
+- '[[Fonte - Retificacao biografica 2026-10-05]]'
 fontes_derivadas:
 - '[[Fonte - Visao geral consolidada]]'
 - '[[Fonte - Contexto curado 030926]]'
@@ -123,6 +124,7 @@ Esta pagina resume as claims que melhor sustentam a leitura de Kevyn. A referenc
 | CLM-000005 | A base familiar de Kevyn se organiza em torno de Silvanna, fratura familiar e autonomia precoce. | integrado | EVD-000001 | Kevyn Lucas; Rede familiar; Silvanna | Relato biografico, nao prova externa independente. |
 | CLM-000006 | A trajetoria de Kevyn nao e linear: ela se organiza em viradas de fase, com crise em 2025 e reorganizacao em 2026. | integrado | EVD-000010 | Kevyn Lucas; Linha do tempo mestre | Captura padrao, nao fecha cronologia fina. |
 | CLM-000007 | Kevyn comecou cedo em comunicacao visual/design e depois ampliou o repertorio para marketing, processos e IA. | integrado | EVD-000009 | Trajetoria profissional; Kevyn Lucas | Escopo evolutivo, nao carreira fechada. |
+| CLM-000027 | A sequência profissional inicial corrigida é: aos 15 anos, primeiro emprego na Sigma Comunicação Visual em Santa Helena; aos 18, mudança para Rio Verde e entrada na Mídia e Cia, também de comunicação visual. | integrado | EVD-000046 | Trajetoria profissional; Linha do tempo mestre; Origens e infancia 2003 a 2021 | Retificação direta posterior; o nascimento em Goiânia permanece provável, não absolutamente confirmado por esta fonte. |
 | CLM-000008 | Trabalho funciona como eixo de identidade e sustentacao concreta, nao so como ocupacao. | integrado | EVD-000008 | Trabalho como eixo de identidade; Kevyn Lucas | Leitura estrutural, nao rotulo fixo. |
 | CLM-000009 | Estudo e organizacao do conhecimento funcionam como infraestrutura biografica. | integrado | EVD-000009 | Organizacao do conhecimento; MOC Estudos e referencias | Uso recorrente nao equivale a dominio final. |
 | CLM-000011 | 2026 marca um deslocamento concreto do autoconhecimento abstrato para cuidado, rotina e apoio externo. | integrado | EVD-000022 | Cuidado de si; Acompanhamento psicologico; Vontade SMART | Processo em curso. |
@@ -159,7 +161,7 @@ Esta pagina resume as claims que melhor sustentam a leitura de Kevyn. A referenc
 - Hoor Digital ja aparece como camada de marca no manifesto e na cobertura, mas continua sem arquivo materializado no recorte ativo.
 - O eixo de IA aplicada ainda precisa ser separado com mais clareza entre uso real, proposta comercial e pesquisa.
 - Projetos como `[[Projeto Cosmo]]`, `[[Projeto Neuron]]` e `[[Atom]]` continuam melhor representados como intencao e desenho do que como execucao.
-- A cronologia anterior a 2021 ainda pode ser refinada com fontes biograficas mais fortes.
+- A cronologia anterior a 2021 ainda pode ser refinada, mas a sequência Sigma aos 15 → Rio Verde aos 18 → Mídia e Cia está diretamente retificada e deve prevalecer sobre a frase geográfica incorreta do áudio.
 - A camada de competencia tecnica fora do ambiente textual de IA ainda exige evidencia mais direta.
 
 ## Uso recomendado
