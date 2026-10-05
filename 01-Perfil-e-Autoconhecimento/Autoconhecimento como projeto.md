@@ -5,18 +5,21 @@ tipo: tema_pessoal
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.0'
+versao_conteudo: '1.1'
 idioma: pt-BR
 data_criacao: 2026-06-30
-ultima_revisao: 2026-06-30
+ultima_revisao: 2026-10-04
 fontes_primarias:
   - '[[Fonte - Gerador de dossie]]'
   - '[[Fonte - Gerador de visao geral]]'
   - '[[Fonte - Reuniao com psicologa Suzana 2026-06-26]]'
   - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
+  - '[[Fonte - Conversa seria 2026-09-25]]'
+  - '[[Fonte - O sonho do Kevyn 2026-10-04]]'
 fontes_derivadas:
   - '[[Fonte - Segundo cerebro consolidado]]'
   - '[[Fonte - Todas as notas consolidado]]'
+  - '[[Fonte - Uma visao psicologica da mente do Kevyn]]'
 grau_confianca: medio_alto
 sensibilidade: muito_alta
 camada_evidencia: sintese_derivada
@@ -62,6 +65,16 @@ Os materiais mostram uma convergência forte entre:
 | Kevyn diferencia dados primários de leituras sintéticas para sustentar o projeto de autoconhecimento. | `CLM-000004` / `EVD-000007` | alto       | O critério reduz ruído, mas não garante totalidade factual. |
 | 2026 marca uma passagem de autoconhecimento abstrato para cuidado e rotina.                           | `CLM-000011` / `EVD-000022` | alto       | A passagem está em curso.                                   |
 | O autoconhecimento só melhora quando encontra ação verificável e custo real.                          | `CLM-000017` / `EVD-000023` | medio_alto | A regra descreve uma direção, não um resultado acabado.     |
+
+## O eu como principal projeto — de hipótese a formulação direta
+
+[[Fonte - Conversa seria 2026-09-25]] fornece a evidência mais explícita até agora: Kevyn chama a própria pessoa de "esse projeto grandioso que é você". No mesmo áudio, afirma que sistemas de gestão não importam se não virarem comportamento e descreve uma tarefa de autoformação que inclui corpo, disciplina, palavra, trabalho, espiritualidade e paciência com o processo.
+
+[[Fonte - O sonho do Kevyn 2026-10-04]] radicaliza essa direção ao ligar competência, disciplina e autossuficiência à tentativa de retirar poder da vulnerabilidade.
+
+Com isso, a imagem do "eu como projeto" já não depende de [[Fonte - Uma visao psicologica da mente do Kevyn]]. A interpretação de IA continua útil, mas agora ocupa seu lugar correto: sintetiza uma estrutura que também aparece em fala direta.
+
+A pergunta de controle passa a ser: **quando projetar a si mesmo aumenta agência e quando transforma toda fragilidade, descanso ou dependência em defeito a ser corrigido?**
 
 ## Convergências
 
