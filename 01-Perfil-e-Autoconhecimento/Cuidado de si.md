@@ -5,14 +5,16 @@ tipo: padrao_recorrente
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.5'
+versao_conteudo: '1.6'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-26
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - Tecnologias de Si]]'
 - '[[Fonte - Diarios em audio abril 2026]]'
+- '[[Fonte - Conversa seria 2026-09-25]]'
+- '[[Fonte - Diario 03.10.26]]'
 fontes_derivadas:
 - '[[Fonte - 150626 RNIDIQAOUP]]'
 grau_confianca: alto
@@ -56,6 +58,14 @@ Na atualização mais recente, Kevyn explicitou como fatos seguros a necessidade
 | Em 2026, cuidado de si passa a orientar práticas observáveis. | [[Acompanhamento psicologico]], [[Vontade SMART]], [[Revisao semanal de autocuidado]] | alto | A prática varia e precisa de manutenção. |
 | Leituras simbólicas só conservam valor quando ajudam sono, corpo, rotina e vínculo. | [[Espiritualidade como linguagem de sentido]], [[Thelema e vontade]], [[Etica da interpretacao simbolica]] | alto | O símbolo apoia; não substitui prática concreta. |
 | Cuidado de si funciona como eixo de sustentação para trabalho e saúde. | [[Trabalho como eixo de identidade]], [[MOC Saude autocuidado e autorregulacao]], [[Estado atual - 17 de junho de 2026]] | alto | Sustentação não elimina custo; apenas o administra melhor. |
+
+## Evidências recentes — hábito e descanso
+
+[[Fonte - Conversa seria 2026-09-25]] transforma cuidado em compromissos mínimos: exercício diário, fio dental e repetição suficiente para a rotina deixar de depender de vontade momentânea. O próprio áudio insiste que sistema e intenção não bastam se não virarem comportamento.
+
+O diário de 03/10 mostra o outro lado. Kevyn reconhece explicitamente que precisa descansar, mas registra que não quer aceitar isso e que o corpo parece precisar "enganá-lo" para conseguir repouso.
+
+O contraste é importante: no fim de setembro, cuidado já está formulado em linguagem comportamental; em outubro, a resistência ao descanso continua presente. Isso reforça que a mudança deve ser medida por repetição e sustentabilidade, não pela qualidade da formulação.
 
 ## Dimensões
 
