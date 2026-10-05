@@ -5,7 +5,7 @@ tipo: tema_pessoal
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '3.3'
+versao_conteudo: '3.4'
 idioma: pt-BR
 data_criacao: 2026-06-17
 ultima_revisao: 2026-10-05
@@ -80,11 +80,11 @@ A trajetória de trabalho não pode ser lida separada da base familiar, da auton
 
 ### Formação prática inicial em Santa Helena
 
-O registro da reunião com Suzana e a retificação direta de 05/10/2026 convergem em que Kevyn começou a trabalhar por volta dos **15 a 16 anos** na **Sigma Comunicação Visual**, em **Santa Helena de Goiás**, onde aprendeu CorelDRAW e consolidou a base mais antiga de experiência em design. Kevyn confirmou explicitamente que a Sigma foi seu **primeiro emprego**.
+O registro da reunião com Suzana e a retificação direta de 05/10/2026 convergem em que Kevyn começou a trabalhar aos **15 anos** na **Sigma Comunicação Visual**, em **Santa Helena de Goiás**, onde aprendeu CorelDRAW e consolidou a base mais antiga de experiência em design. Kevyn confirmou explicitamente que a Sigma foi seu **primeiro emprego**.
 
 ### Mudança para Rio Verde e ampliação de escopo
 
-O mesmo registro sustenta a mudança para **Rio Verde aos 18 anos**. A partir daí, cronologias derivadas posicionam passagens por Mídia e Cia e outros vínculos do eixo comunicação/marketing, mas nem todas essas etapas já contam com fonte curada forte no mesmo nível da Sigma ou da ACIRV.
+A retificação direta sustenta a mudança para **Rio Verde aos 18 anos** e esclarece que a mudança de cidade coincidiu com uma mudança de emprego: Kevyn saiu da Sigma e passou a trabalhar na **Mídia e Cia**, em Rio Verde, também no setor de comunicação visual. A duração exata do vínculo ainda pode ser refinada, mas a sequência Sigma → Rio Verde → Mídia e Cia está diretamente confirmada.
 
 ### Instabilidade e transições rápidas
 
@@ -111,7 +111,7 @@ Essa mesma fase de reorganização já produz instrumentos de revisão como [[Vo
 Esse relato melhora a precisão da trajetória porque distingue exposição, prática e profundidade. Continua sendo autoavaliação, portanto não substitui portfólio, código ou avaliação externa.
 
 > [!info] Retificação geográfica resolvida em 05/10/2026
-> A frase "me mudei para Goiânia" em [[Fonte - O Kevyn faz]] foi corrigida diretamente por Kevyn. Ele nunca se mudou **para** Goiânia nessa etapa: provavelmente nasceu na cidade, mudou-se ainda muito jovem **de Goiânia para Santa Helena de Goiás**, iniciou ali a vida profissional na **Sigma Comunicação Visual** e, aos **18 anos**, mudou-se para **Rio Verde**. A transcrição original permanece intacta. Ainda não está identificado qual cidade/empresa o trecho pós-Sigma pretendia nomear.
+> A frase "me mudei para Goiânia" em [[Fonte - O Kevyn faz]] foi corrigida diretamente por Kevyn. Ele nunca se mudou **para** Goiânia nessa etapa: provavelmente nasceu na cidade, mudou-se ainda muito jovem **de Goiânia para Santa Helena de Goiás**, iniciou aos **15 anos** a vida profissional na **Sigma Comunicação Visual** e, aos **18 anos**, mudou-se para **Rio Verde**, passando então a trabalhar na **Mídia e Cia**, também de comunicação visual. A transcrição original permanece intacta.
 
 ## Atualizacao de contexto
 
@@ -134,9 +134,9 @@ Na revisao atual, Kevyn informou que Hoor Digital já teve clientes, entregas e 
 
 | Período | Frente | Leitura atual | Confiança |
 |---|---|---|---|
-| ~2018 a ~2020 | Sigma Comunicação Visual — Santa Helena de Goiás | primeiro emprego; início profissional em design e aprendizado de CorelDRAW | alto |
+| ~2018/2019 até 2021 | Sigma Comunicação Visual — Santa Helena de Goiás | primeiro emprego, iniciado aos 15 anos; design e aprendizado de CorelDRAW | alto |
 | 2021 | mudança de Santa Helena para Rio Verde, aos 18 anos | início da vida mais autônoma e reorganização do trabalho | alto |
-| 2021 a 2023 | Mídia e Cia | vínculo recorrente em cronologias derivadas | medio_alto |
+| desde 2021 | Mídia e Cia — Rio Verde | emprego assumido ao mudar de cidade; continuidade em comunicação visual | alto |
 | ~2023 | Amplie Marketing | passagem citada em síntese derivada | medio |
 | ~2024 | Play Publicidade / Symbol | fase de experiência negativa e instabilidade, melhor tratada em notas cronológicas específicas | medio |
 | ago a out/2025 | [[Salus e Capital Green|DS21]] | copywriting, edição de vídeo e análise de lançamento | medio_alto |
@@ -155,7 +155,7 @@ Na revisao atual, Kevyn informou que Hoor Digital já teve clientes, entregas e 
 ## Limites e incertezas
 
 - Nem todas as passagens profissionais antigas já têm nota-fonte curada com a mesma força da documentação mais recente.
-- A geografia inicial está corrigida, mas ainda não foi identificado com segurança qual vínculo/cidade o trecho pós-Sigma do áudio pretendia descrever.
+- A sequência inicial Sigma → mudança para Rio Verde → Mídia e Cia está diretamente corrigida; a duração exata do vínculo com a Mídia e Cia ainda pode ser refinada.
 - A cronologia entre ACIRV e outras frentes de 2026 ainda precisa de reconciliação.
 - Algumas empresas e datas entram no cofre via síntese derivada; portanto, devem permanecer abertas a correção.
 
