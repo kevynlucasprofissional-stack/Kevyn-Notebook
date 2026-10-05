@@ -5,10 +5,10 @@ tipo: tema_pessoal
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '3.2'
+versao_conteudo: '3.3'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-10-04
+ultima_revisao: 2026-10-05
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - Prazer eu me chamo Kevyn]]'
@@ -18,6 +18,7 @@ fontes_primarias:
 - '[[Fonte - Kevyn Lucas - dossie sintetico]]'
 - '[[Fonte - 150626 RNIDIQAOUP]]'
 - '[[Fonte - O Kevyn faz]]'
+- '[[Fonte - Retificacao biografica 2026-10-05]]'
 fontes_derivadas:
 - '[[Fonte - Cronologia e fatos]]'
 notas_relacionadas:
@@ -79,7 +80,7 @@ A trajetória de trabalho não pode ser lida separada da base familiar, da auton
 
 ### Formação prática inicial em Santa Helena
 
-O registro da reunião com Suzana documenta que Kevyn começou a trabalhar por volta dos **15 a 16 anos** na **Sigma Comunicação Visual**, onde aprendeu CorelDRAW e consolidou a base mais antiga de experiência em design. Essa é a âncora mais forte para o início da trajetória.
+O registro da reunião com Suzana e a retificação direta de 05/10/2026 convergem em que Kevyn começou a trabalhar por volta dos **15 a 16 anos** na **Sigma Comunicação Visual**, em **Santa Helena de Goiás**, onde aprendeu CorelDRAW e consolidou a base mais antiga de experiência em design. Kevyn confirmou explicitamente que a Sigma foi seu **primeiro emprego**.
 
 ### Mudança para Rio Verde e ampliação de escopo
 
@@ -109,8 +110,8 @@ Essa mesma fase de reorganização já produz instrumentos de revisão como [[Vo
 
 Esse relato melhora a precisão da trajetória porque distingue exposição, prática e profundidade. Continua sendo autoavaliação, portanto não substitui portfólio, código ou avaliação externa.
 
-> [!warning] Discrepância a reconciliar
-> Em uma passagem da transcrição, Kevyn diz ter se mudado para "Goiânia" depois da primeira comunicação visual. Isso conflita com a cronologia já sustentada por outras fontes sobre a mudança para Rio Verde. A passagem não foi usada para alterar a cronologia e pode ser erro de transcrição ou lembrança que exige fonte adicional.
+> [!info] Retificação geográfica resolvida em 05/10/2026
+> A frase "me mudei para Goiânia" em [[Fonte - O Kevyn faz]] foi corrigida diretamente por Kevyn. Ele nunca se mudou **para** Goiânia nessa etapa: provavelmente nasceu na cidade, mudou-se ainda muito jovem **de Goiânia para Santa Helena de Goiás**, iniciou ali a vida profissional na **Sigma Comunicação Visual** e, aos **18 anos**, mudou-se para **Rio Verde**. A transcrição original permanece intacta. Ainda não está identificado qual cidade/empresa o trecho pós-Sigma pretendia nomear.
 
 ## Atualizacao de contexto
 
@@ -133,8 +134,8 @@ Na revisao atual, Kevyn informou que Hoor Digital já teve clientes, entregas e 
 
 | Período | Frente | Leitura atual | Confiança |
 |---|---|---|---|
-| ~2018 a ~2020 | Sigma Comunicação Visual | início profissional em design e aprendizado de CorelDRAW | alto |
-| 2021 | mudança para Rio Verde | início da vida mais autônoma e reorganização do trabalho | alto |
+| ~2018 a ~2020 | Sigma Comunicação Visual — Santa Helena de Goiás | primeiro emprego; início profissional em design e aprendizado de CorelDRAW | alto |
+| 2021 | mudança de Santa Helena para Rio Verde, aos 18 anos | início da vida mais autônoma e reorganização do trabalho | alto |
 | 2021 a 2023 | Mídia e Cia | vínculo recorrente em cronologias derivadas | medio_alto |
 | ~2023 | Amplie Marketing | passagem citada em síntese derivada | medio |
 | ~2024 | Play Publicidade / Symbol | fase de experiência negativa e instabilidade, melhor tratada em notas cronológicas específicas | medio |
@@ -154,6 +155,7 @@ Na revisao atual, Kevyn informou que Hoor Digital já teve clientes, entregas e 
 ## Limites e incertezas
 
 - Nem todas as passagens profissionais antigas já têm nota-fonte curada com a mesma força da documentação mais recente.
+- A geografia inicial está corrigida, mas ainda não foi identificado com segurança qual vínculo/cidade o trecho pós-Sigma do áudio pretendia descrever.
 - A cronologia entre ACIRV e outras frentes de 2026 ainda precisa de reconciliação.
 - Algumas empresas e datas entram no cofre via síntese derivada; portanto, devem permanecer abertas a correção.
 
