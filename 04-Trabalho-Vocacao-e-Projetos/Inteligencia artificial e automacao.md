@@ -5,10 +5,10 @@ tipo: tema_pessoal
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '2.5'
+versao_conteudo: '2.6'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-30
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Conversas com ChatGPT]]'
 - '[[Fonte - Segundo cerebro consolidado]]'
@@ -21,6 +21,8 @@ fontes_primarias:
 - '[[Fonte - Mentorias produtos e ferramentas IA 2025]]'
 - '[[Fonte - Contextos WSI Salus e Cha e Prosa 2025]]'
 - '[[Fonte - Operacao WSI Salus e acessos 2025]]'
+- '[[Fonte - O Kevyn faz]]'
+- '[[Fonte - Consideracoes sobre Rafael Serve e Hermes]]'
 fontes_derivadas:
 - '[[Fonte - Modus operandi]]'
 grau_confianca: alto
@@ -76,6 +78,14 @@ Kevyn demonstra competência operacional em IA aplicada quando precisa estrutura
 
 - [[Fonte - Operacao WSI Salus e acessos 2025]] e [[Fonte - Notas profissionais e tecnicas 2025]] preservam SQL com `pgvector`, funções de busca semântica, integrações e linguagem de automação.
 - O material sustenta contato operacional com RAG, banco vetorial, n8n, Supabase e stacks correlatas, mas não permite atribuir implantação estável ou autoria integral sem evidência adicional.
+
+## Evidência direta recente
+
+[[Fonte - O Kevyn faz]] confirma, em primeira pessoa, uso de Lovable para aplicativos/MVPs, automações n8n integradas ao WhatsApp e desenvolvimento do Hermes Work com auxílio de IA. O mesmo relato limita a interpretação: programação tradicional aparece como estudo parcial e a maior parte do desenvolvimento recente é explicitamente assistida por IA.
+
+[[Fonte - Consideracoes sobre Rafael Serve e Hermes]] mostra uma camada mais operacional. Kevyn avalia um agente por tempo, precisão, número de chamadas e tokens, compara o fluxo atual com o browser do Hermes upstream e propõe protocolos pré-definidos para tarefas repetitivas. Isso é evidência forte de pensamento de workflow e otimização; ainda não prova que as melhorias propostas já foram implementadas.
+
+Essas fontes fortalecem o claim de IA aplicada sem justificar o rótulo de engenharia de software madura.
 
 ## Afirmações sustentadas
 
