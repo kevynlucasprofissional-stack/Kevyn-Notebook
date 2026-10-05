@@ -5,17 +5,21 @@ tipo: padrao
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.0'
+versao_conteudo: '1.1'
 idioma: pt-BR
 data_criacao: 2026-06-30
-ultima_revisao: 2026-06-30
+ultima_revisao: 2026-10-04
 fontes_primarias:
   - '[[Fonte - Reuniao com psicologa Suzana 2026-06-26]]'
   - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
   - '[[Fonte - Diarios em audio abril 2026]]'
+  - '[[Fonte - Conversa seria 2026-09-25]]'
+  - '[[Fonte - Diario 03.10.26]]'
+  - '[[Fonte - O sonho do Kevyn 2026-10-04]]'
 fontes_derivadas:
   - '[[Fonte - Analises Diario Negro 01]]'
   - '[[Fonte - Visao geral consolidada]]'
+  - '[[Fonte - Uma visao psicologica da mente do Kevyn]]'
 grau_confianca: medio_alto
 sensibilidade: muito_alta
 camada_evidencia: sintese_derivada
@@ -58,6 +62,17 @@ As fontes convergem em três usos do controle:
 | Kevyn teme que a terapia vire análise infinita. | `CLM-000001` / `EVD-000004` | alto | O medo é situacional e não encerra o valor da terapia. |
 | Kevyn diferencia dados primários de leituras sintéticas como forma de controlar ruído. | `CLM-000004` / `EVD-000007` | alto | O critério ajuda, mas não garante completude factual. |
 | Controle se torna mais útil quando termina em ação simples e verificável. | `CLM-000016` / `EVD-000025` | validado | O padrão é funcional, não absoluto. |
+
+## Atualização setembro-outubro de 2026
+
+As fontes recentes permitem formular a tensão com maior precisão. Em 25/09, Kevyn afirma que nenhum sistema de controle ou gestão vale se não virar comportamento e, simultaneamente, descreve autoformação, disciplina e evidência visível de integridade como formas de construir uma versão de si mais forte. Em 03/10, registra receio de expor ideias ainda em formação ao julgamento alheio. Em 04/10, liga diretamente competência, disciplina e autossuficiência ao desejo de retirar poder da vulnerabilidade.
+
+Isso sustenta uma hipótese mais estreita do que "Kevyn precisa controlar tudo": **em certos momentos, controle, competência e autossuficiência funcionam também como maneiras desejadas de reduzir exposição e incerteza**.
+
+> [!warning] Sinal ainda não consolidado
+> No diário de 03/10 aparece interesse explícito em estudar manipulação, rapport e influência imperceptível, inclusive controle da própria imagem e do enquadramento de assuntos. Isso prova a curiosidade/intenção registrada naquele momento, não prática efetiva, padrão estável nem impacto sobre terceiros.
+
+[[Fonte - Uma visao psicologica da mente do Kevyn]] propõe um ciclo vulnerabilidade → ideal elevado → sistemas → desempenho → validação. A convergência com fontes diretas torna a hipótese mais interessante, mas ainda não autoriza tratá-la como mecanismo causal fechado.
 
 ## Convergências
 
