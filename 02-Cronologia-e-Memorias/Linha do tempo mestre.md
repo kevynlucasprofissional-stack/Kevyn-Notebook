@@ -5,7 +5,7 @@ tipo: periodo
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '3.3'
+versao_conteudo: '3.4'
 idioma: pt-BR
 data_criacao: 2026-06-17
 ultima_revisao: 2026-10-05
@@ -113,9 +113,9 @@ Esta nota organiza a trajetória de Kevyn como uma passagem de formação precoc
 |---|---|---|---|
 | 17/07/2003 | Nascimento provavelmente em Goiânia | ponto de partida biográfico; a retificação de 05/10/2026 mantém pequena incerteza sobre o local de nascimento | medio_alto |
 | infância | Mudança ainda muito jovem de Goiânia para Santa Helena de Goiás e criação pela avó | base material e afetiva da trajetória | alto |
-| ~2018 | Primeiro emprego na Sigma Comunicação Visual, em Santa Helena | início profissional em design e entrada precoce no trabalho | alto |
+| ~2018/2019 | Aos 15 anos, primeiro emprego na Sigma Comunicação Visual, em Santa Helena | início profissional em design e entrada precoce no trabalho | alto |
 | 2021 | Mudança de Santa Helena para Rio Verde, aos 18 anos | maior autonomia e reorganização da vida prática | alto |
-| 2021-2023 | Mídia e Cia | ampliação do repertório de comunicação e marketing | medio_alto |
+| 2021 | Entrada na Mídia e Cia, em Rio Verde, simultânea à mudança de cidade | continuidade em comunicação visual em novo contexto profissional | alto |
 | 2023-2024 | Diário, textos simbólicos e experimentação espiritual | símbolo passa a ser linguagem de sentido e método de autoanálise | alto |
 | 29/03/2025 | Incêndio e mudança emergencial | crise material e reordenação forçada da vida | medio_alto |
 | ago-set/2025 | Salus/DS21 e AI First | marketing, copy e automação ganham forma operacional | alto |
@@ -148,7 +148,7 @@ Esta nota organiza a trajetória de Kevyn como uma passagem de formação precoc
 
 ### 2003-2021
 
-O eixo mais confiável aqui é simples: provável nascimento em Goiânia, mudança ainda muito jovem para Santa Helena de Goiás, criação pela avó e entrada precoce no trabalho em design. O primeiro emprego confirmado é a Sigma Comunicação Visual, em Santa Helena. Aos 18 anos, Kevyn se muda para Rio Verde. A frase posterior "me mudei para Goiânia" em [[Fonte - O Kevyn faz]] foi retificada em 05/10/2026 como incorreta; o original permanece preservado.
+O eixo mais confiável aqui é simples: provável nascimento em Goiânia, mudança ainda muito jovem para Santa Helena de Goiás, criação pela avó e entrada precoce no trabalho em design. Aos 15 anos, Kevyn inicia o primeiro emprego na Sigma Comunicação Visual, em Santa Helena. Aos 18, muda-se para Rio Verde e, junto com a mudança, troca de emprego: sai da Sigma e entra na Mídia e Cia, também de comunicação visual. A frase posterior "me mudei para Goiânia" em [[Fonte - O Kevyn faz]] foi retificada em 05/10/2026 como incorreta; o original permanece preservado.
 
 ### 2021-2024
 
@@ -185,7 +185,7 @@ A transição do fim de setembro para outubro ganha uma continuidade nova. Em 25
 
 - A cronologia exata entre ACIRV e outras frentes de 2026 ainda precisa de reconciliação fina.
 - Algumas passagens de 2023-2024 entram por síntese derivada e precisam de curadoria adicional.
-- A retificação de 05/10/2026 resolve a direção dos deslocamentos iniciais, mas não identifica qual cidade/empresa o trecho pós-Sigma da transcrição pretendia nomear.
+- A retificação de 05/10/2026 resolve a direção dos deslocamentos iniciais e identifica a etapa pós-Sigma como mudança para Rio Verde e entrada na Mídia e Cia; a duração exata desse vínculo ainda pode ser refinada.
 - O período entre abril e junho de 2026 mostra mais progresso do que fechamento.
 
 ## Relações
