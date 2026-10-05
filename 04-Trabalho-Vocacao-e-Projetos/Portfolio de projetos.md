@@ -5,10 +5,10 @@ tipo: moc
 status: curado
 profundidade: intermediaria
 versao_schema: '1.0'
-versao_conteudo: '2.4'
+versao_conteudo: '2.5'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-26
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - 150626 RNIDIQAOUP]]'
@@ -19,6 +19,8 @@ fontes_primarias:
 - '[[Fonte - Mentorias produtos e ferramentas IA 2025]]'
 - '[[Fonte - Contextos WSI Salus e Cha e Prosa 2025]]'
 - '[[Fonte - Operacao WSI Salus e acessos 2025]]'
+- '[[Fonte - O Kevyn faz]]'
+- '[[Fonte - Consideracoes sobre Rafael Serve e Hermes]]'
 fontes_derivadas:
 - '[[Fonte - Cronologia e fatos]]'
 - '[[Fonte - Modus operandi]]'
@@ -105,6 +107,14 @@ ACIRV é o polo mais verificável do recorte recente. Salus e Capital Green func
 ## Frentes em construção
 
 - [[Bela Ja]] — startup em desenho/validação; importante porque revela impulso empreendedor, mas ainda sem fechamento documental suficiente.
+
+### Hermes Work — projeto ativo, não produto fechado
+
+Os novos relatos justificam tornar Hermes Work visível no portfólio sem criar, neste vault pessoal, uma documentação técnica paralela ao repositório do projeto.
+
+[[Fonte - O Kevyn faz]] descreve Hermes Work como modificação em desenvolvimento para agentes que navegam na web, executam tarefas repetitivas e buscam reduzir consumo de tokens. [[Fonte - Consideracoes sobre Rafael Serve e Hermes]] mostra trabalho atual de comparação com o upstream, crítica de velocidade/precisão e proposta de protocolos pré-definidos.
+
+**Classificação atual:** projeto técnico ativo com execução observável no processo de desenvolvimento, mas sem evidência suficiente neste vault para tratá-lo como produto estável ou concluído.
 
 ## Frentes estacionadas
 
