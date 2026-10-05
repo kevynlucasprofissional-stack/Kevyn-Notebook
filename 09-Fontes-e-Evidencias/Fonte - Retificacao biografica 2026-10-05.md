@@ -5,7 +5,7 @@ tipo: fonte
 status: revisado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.0'
+versao_conteudo: '1.1'
 idioma: pt-BR
 data_criacao: 2026-10-05
 ultima_revisao: 2026-10-05
@@ -33,9 +33,10 @@ Retificação autobiográfica direta produzida após a identificação de uma fr
 
 - Kevyn considera **Goiânia como local provável de nascimento**, mas formula essa lembrança atual com incerteza.
 - Ainda muito jovem, mudou-se **de Goiânia para Santa Helena de Goiás**.
-- O início profissional ocorreu em **Santa Helena de Goiás**.
+- O início profissional ocorreu em **Santa Helena de Goiás**, aos **15 anos**.
 - O **primeiro emprego foi na Sigma Comunicação Visual**.
-- Aos **18 anos**, mudou-se para **Rio Verde**.
+- Aos **18 anos**, mudou-se para **Rio Verde** e, junto com a mudança de cidade, mudou também de emprego.
+- O emprego seguinte foi na **Mídia e Cia**, em Rio Verde, também no setor de comunicação visual.
 - A frase da transcrição "me mudei para Goiânia" está incorreta: a direção correta do deslocamento inicial é **de Goiânia**, não **para Goiânia**.
 - Goiânia reaparece posteriormente apenas como referência ao projeto **Svelte**, porque os donos do projeto se mudaram para a cidade; isso não representa mudança residencial de Kevyn.
 
@@ -47,7 +48,7 @@ A retificação resolve a discrepância geográfica sem modificar a transcriçã
 
 O local de nascimento deve ser escrito como **provável** quando a nota depender especificamente desta retificação, porque a formulação atual foi "acho que nasci em Goiânia". Registros anteriores são mais assertivos, portanto a síntese canônica deve registrar a pequena incerteza em vez de escolher silenciosamente uma versão.
 
-A retificação não identifica qual cidade ou empresa o trecho pós-Sigma do áudio pretendia nomear. Não preencher essa lacuna por inferência.
+A etapa pós-Sigma está agora identificada diretamente: mudança para Rio Verde aos 18 anos e entrada na Mídia e Cia. A duração exata do vínculo com a Mídia e Cia continua dependente de outras fontes.
 
 ## Proveniência
 
