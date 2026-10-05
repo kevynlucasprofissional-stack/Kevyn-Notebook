@@ -5,10 +5,10 @@ tipo: auditoria
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '3.2'
+versao_conteudo: '3.3'
 idioma: pt-BR
 data_criacao: 2026-06-21
-ultima_revisao: 2026-09-28
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-26]]'
@@ -30,10 +30,16 @@ fontes_primarias:
 - '[[Fonte - Missao da minha vida 2026-09-05]]'
 - '[[Fonte - Contrato comigo mesmo 2026-09-25]]'
 - '[[Fonte - Plano de estudo 050926]]'
+- '[[Fonte - Diario 03.10.26]]'
+- '[[Fonte - O sonho do Kevyn 2026-10-04]]'
+- '[[Fonte - Conversa seria 2026-09-25]]'
+- '[[Fonte - O Kevyn faz]]'
 fontes_derivadas:
 - '[[Fonte - Visao geral consolidada]]'
 - '[[Fonte - Contexto curado 030926]]'
 - '[[Fonte - Avaliacao de competencias 050926]]'
+- '[[Fonte - A caridade teoria dos jogos e design de mecanismos]]'
+- '[[Fonte - Conversa politica 02.10.26]]'
 grau_confianca: medio_alto
 sensibilidade: alta
 camada_evidencia: sintese_derivada
@@ -85,6 +91,7 @@ notas_relacionadas:
 - '[[Projeto Cosmo]]'
 - '[[Projeto Neuron]]'
 - '[[Atom]]'
+- '[[Experimentalismo institucional e governanca policentrica]]'
 ---
 # Claims principais
 
@@ -126,6 +133,15 @@ Esta pagina resume as claims que melhor sustentam a leitura de Kevyn. A referenc
 | CLM-000020 | Em julho-agosto de 2026, vínculo novo com reciprocidade real convive com extrapolação de futuro, seguida de limite, luto e decisão de ritmo. | integrado | EVD-000035 + EVD-000032 | Kevyn Lucas; Linha do tempo mestre; Amor idealizacao e projecao | Fala direta de Aline confirma reciprocidade e pedido de ritmo; não prova traço fixo. |
 | CLM-000021 | Em setembro de 2026, Kevyn recalibra direção e competências com critério de prova e prioridades de autogoverno, coordenação e julgamento empírico. | integrado | EVD-000033 | Kevyn Lucas; Trajetoria profissional; MOC Planos e decisoes | Plano e autoavaliação; sem prova externa independente. |
 | CLM-000022 | A sessão de 10/07/2026 com a psicóloga Suzana sobre a relação com [[Iasmin Alencar|Iasmin]] registra aceleração afetiva, responsabilidade rápida e revisão posterior, sem fechar a cena completa. | integrado | EVD-000034 | Acompanhamento psicologico; Kevyn Lucas | Autorrelato unilateral; não expandir além do documentado. |
+
+## Claims recentes — setembro e outubro de 2026
+
+| ID | Claim | Status | Evidência principal | Destino | Limite |
+|---|---|---|---|---|---|
+| CLM-000023 | Entre 25/09 e 04/10/2026, Kevyn formula o autoaperfeiçoamento como projeto central e, em 04/10, liga explicitamente competência, disciplina e autossuficiência ao desejo de retirar poder da vulnerabilidade. | integrado | EVD-000036 + EVD-000043 | Autoconhecimento como projeto; Controle e incerteza; Narrativa de grandeza e vida comum | Autorrelato direto e repetido, mas não prova uma causa psicológica única. |
+| CLM-000024 | Em 03/10/2026, Kevyn registra conflito entre necessidade de descanso e resistência a aceitá-lo, enquanto conclui uma entrega profissional e gera novas ideias paralelas. | integrado | EVD-000037 | Cuidado de si; Execucao versus complexidade | Fotografia de um dia; não descreve todo o funcionamento. |
+| CLM-000025 | Entre 06/09 e 02/10/2026, Kevyn formula uma direção intelectual centrada em incentivos, desenho institucional e correção de erros e a submete explicitamente a críticas de tecnocracia e concentração de poder. | integrado | EVD-000038 + EVD-000040 | Experimentalismo institucional e governanca policentrica; Filosofia e psicologia | Direção em elaboração; não define identidade política fixa nem neutralidade ideológica. |
+| CLM-000026 | Em autorrelato recente, Kevyn diferencia design/motion como áreas de maior prática, 3D como base menos aprofundada, programação tradicional como contato parcial e IA/n8n/Lovable/Hermes Work como aplicação recente assistida. | integrado | EVD-000044 | Trajetoria profissional; Design video e direcao criativa; Inteligencia artificial e automacao | Autoavaliação sem benchmark externo. |
 
 ## Claims de metodo, trabalho e projeto
 
