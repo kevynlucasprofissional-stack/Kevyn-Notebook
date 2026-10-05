@@ -5,10 +5,10 @@ tipo: tema_pessoal
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '3.1'
+versao_conteudo: '3.2'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-26
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - Prazer eu me chamo Kevyn]]'
@@ -17,6 +17,7 @@ fontes_primarias:
 - '[[Fonte - Resumo 19.01.26]]'
 - '[[Fonte - Kevyn Lucas - dossie sintetico]]'
 - '[[Fonte - 150626 RNIDIQAOUP]]'
+- '[[Fonte - O Kevyn faz]]'
 fontes_derivadas:
 - '[[Fonte - Cronologia e fatos]]'
 notas_relacionadas:
@@ -95,6 +96,21 @@ Entre 2023 e 2025, o quadro geral é de alternância entre empregos, tentativas 
 Na mesma recomposicao, [[Hoor Digital]] aparece como a camada de marca e oferta em construção, com clientes, entregas e faturamento ja relatados, mas ainda sem fechamento publico da identidade. O conjunto sugere menos uma troca limpa de empregos e mais uma convivencia entre frente institucional, marca propria, aprendizado continuo e pressao material.
 
 Essa mesma fase de reorganização já produz instrumentos de revisão como [[Vontade SMART]], que traduzem a tentativa de estabilizar rotina, trabalho e autocuidado em algo observável.
+
+## Autorretrato recente de competências
+
+[[Fonte - O Kevyn faz]] acrescenta um autorrelato detalhado que ajuda a calibrar a expansão lateral descrita nesta nota.
+
+- **Design e arte-final:** aparecem como a base profissional mais antiga, aprendida principalmente na prática.
+- **Motion/After Effects:** é descrito como um dos campos de maior aprofundamento, incluindo câmera 3D, expressões e rigging.
+- **3D/Cinema 4D:** há formação e prática real, mas o próprio Kevyn a coloca abaixo de design e motion em profundidade.
+- **Programação tradicional:** HTML, lógica, Python e Java aparecem como contatos parciais, não como eixo de domínio consolidado.
+- **IA e automação:** Lovable, n8n, agentes e Hermes Work aparecem como camada aplicada recente, frequentemente com assistência de IA.
+
+Esse relato melhora a precisão da trajetória porque distingue exposição, prática e profundidade. Continua sendo autoavaliação, portanto não substitui portfólio, código ou avaliação externa.
+
+> [!warning] Discrepância a reconciliar
+> Em uma passagem da transcrição, Kevyn diz ter se mudado para "Goiânia" depois da primeira comunicação visual. Isso conflita com a cronologia já sustentada por outras fontes sobre a mudança para Rio Verde. A passagem não foi usada para alterar a cronologia e pode ser erro de transcrição ou lembrança que exige fonte adicional.
 
 ## Atualizacao de contexto
 
