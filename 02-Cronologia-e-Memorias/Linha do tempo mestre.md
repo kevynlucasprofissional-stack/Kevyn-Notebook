@@ -5,10 +5,10 @@ tipo: periodo
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '3.1'
+versao_conteudo: '3.2'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-09-28
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-26]]'
@@ -32,12 +32,18 @@ fontes_primarias:
 - '[[Fonte - Contrato comigo mesmo 2026-09-25]]'
 - '[[Fonte - 310726 Sloterdijk Thymos]]'
 - '[[Fonte - Plano de estudo 050926]]'
+- '[[Fonte - Conversa seria 2026-09-25]]'
+- '[[Fonte - Diario 03.10.26]]'
+- '[[Fonte - O sonho do Kevyn 2026-10-04]]'
+- '[[Fonte - A caridade teoria dos jogos e design de mecanismos]]'
+- '[[Fonte - O Kevyn faz]]'
 fontes_derivadas:
 - '[[Fonte - Cronologia e fatos]]'
 - '[[Fonte - Visao geral jan 2026]]'
 - '[[Fonte - Autopsia do Kevyn]]'
 - '[[Fonte - Contexto curado 030926]]'
 - '[[Fonte - Avaliacao de competencias 050926]]'
+- '[[Fonte - Conversa politica 02.10.26]]'
 grau_confianca: medio_alto
 sensibilidade: alta
 camada_evidencia: sintese_derivada
@@ -76,6 +82,7 @@ notas_relacionadas:
 - '[[Cuidado de si]]'
 - '[[Vontade SMART]]'
 - '[[Estado atual - 17 de junho de 2026]]'
+- '[[Experimentalismo institucional e governanca policentrica]]'
 ---
 
 # Linha do tempo mestre
@@ -129,8 +136,12 @@ Esta nota organiza a trajetória de Kevyn como uma passagem de formação precoc
 | 02/08/2026 | Lenda do Rei do Graal para Aline | amor-próprio como taça que serve primeiro ao rei | medio |
 | 03/09/2026 | Contexto curado | hierarquia de evidência, princípios de ritmo e execução simples | alto |
 | 05/09/2026 | Missão, plano de 48 semanas e recalibração | direção híbrida; prova acima de narrativa; Design 78, Marketing 58, Admin 52, Psicologia 43, Software 40 | alto |
+| 06-07/09/2026 | Ensaio sobre teoria dos jogos, design de mecanismos e instituições adaptativas | surge direção de experimentalismo institucional com ética, feedback e limites ao poder; ainda em elaboração | medio_alto |
+
 | 25-27/09/2026 | Contrato e estado atual | renúncia como transvaloração; casamento com a sabedoria como comportamento; limite relacional | alto |
 | 28/09/2026 | Planejamento ACIRV e SCRUM | organização operacional do resto do ano | medio |
+
+| 03-04/10/2026 | Diário, entrega ACIRV e declaração sobre competência/autossuficiência | coexistem necessidade de descanso, execução profissional, expansão de ideias e ideal explícito de reduzir o poder da vulnerabilidade | alto |
 
 ## Leitura por fase
 
@@ -151,6 +162,8 @@ Com a mudança para Rio Verde, a trajetória deixa de ser apenas formação téc
 Em 2026, a linha do tempo começa a se deslocar do autoconhecimento abstrato para o cuidado e a regulação concreta. ACIRV, Hoor Digital em construção, terapia, Vontade SMART, revisão semanal, FGV, Diário Negro, RNIDIQAOUP e plugins de Obsidian compõem uma fase em que trabalho, rotina e conhecimento começam a ser tratados como sistema vivo. As notas mais recentes também deixam mais claro o núcleo familiar ativo, a separação entre estudo concluído, em andamento e exploração, e o uso atual de Tarô de Thoth, Thelema e Santo Daime como práticas de sentido.
 A sessão de 26/06/2026 reforça a continuidade da terapia e acrescenta um recorte mais preciso: Kevyn quer controle, mas também quer que o processo tenha medida, utilidade e limite. Isso não resolve a fase, mas mostra que ela segue em movimento.
 Entre julho e setembro, a fase ganha três camadas novas. A relação com Aline mostra reciprocidade real com extrapolação de futuro, seguida de luto, limite e decisão de ritmo; a sessão de 10/07 com a psicóloga Suzana sobre a [[Iasmin Alencar|Iasmin]] mostra aceleração, responsabilidade rápida e revisão posterior. Kevyn formula ritmo como habilidade treinável e recalibra direção com critério de prova, sem converter símbolo em destino.
+
+A transição do fim de setembro para outubro ganha uma continuidade nova. Em 25/09, Kevyn chama a si mesmo de "projeto grandioso", exige que sistemas virem comportamento e usa Hermes/alquimia como linguagem de autoformação. Em 03-04/10, o corpo exige descanso enquanto a entrega continua e o ideal de competência/autossuficiência passa a ser ligado diretamente à vulnerabilidade. Em paralelo, a elaboração institucional de setembro é retomada em 02/10 por meio de teste adversarial contra críticas de neoliberalismo e tecnocracia; ver [[Experimentalismo institucional e governanca policentrica]].
 
 ## Padrões que atravessam a linha do tempo
 
