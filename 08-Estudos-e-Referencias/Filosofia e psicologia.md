@@ -5,21 +5,24 @@ tipo: moc
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.1'
+versao_conteudo: '1.2'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Anatomia psiquica]]'
 - '[[Fonte - Contexto completo]]'
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - Diario FGV e aulas Nova Acropole 2026]]'
+- '[[Fonte - A caridade teoria dos jogos e design de mecanismos]]'
+- '[[Fonte - Conversa politica 02.10.26]]'
 notas_relacionadas:
 - '[[Estudos na Nova Acropole]]'
 - '[[Metodo de estudo e producao]]'
 - '[[MOC Estudos e referencias]]'
 - '[[Espiritualidade como linguagem de sentido]]'
 - '[[Narrativa de grandeza e vida comum]]'
+- '[[Experimentalismo institucional e governanca policentrica]]'
 grau_confianca: medio_alto
 sensibilidade: alta
 camada_evidencia: sintese_derivada
@@ -43,6 +46,14 @@ Os materiais mostram uso de filosofia, psicologia, mitologia e linguagem clínic
 ## Evidencia de estudo recorrente
 
 As notas de [[Estudos na Nova Acropole]] mostram Kevyn acompanhando aulas filosoficas entre janeiro e abril de 2026 e convertendo os temas em perguntas praticas sobre convivencia, virtude, dever, vontade, obra e autoconduta. Isso reforca o padrao de usar filosofia como linguagem de orientacao pessoal, sem autorizar tratar os conteudos estudados como dominio formal.
+
+## Virada sistêmica de setembro-outubro de 2026
+
+[[Fonte - A caridade teoria dos jogos e design de mecanismos]] acrescenta filosofia política e institucional ao repertório pessoal por meio de epistemologia, teoria da decisão, teoria dos jogos, mechanism design, complexidade, cibernética e ética.
+
+A novidade não é uma nova filiação partidária. É uma preferência metodológica por analisar incentivos, regras, concentração de poder, feedback e capacidade de revisão antes de aceitar um pacote político. [[Fonte - Conversa politica 02.10.26]] mostra que a proposta é posteriormente submetida, pelo próprio Kevyn, a críticas de neoliberalismo e tecnocracia.
+
+A linha foi isolada em [[Experimentalismo institucional e governanca policentrica]] para permitir genealogia e revisão sem transformar esta nota geral em tratado político.
 
 ## Regra de leitura
 

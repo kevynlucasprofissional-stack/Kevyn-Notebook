@@ -5,10 +5,10 @@ tipo: controle
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.3'
+versao_conteudo: '1.4'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Modus operandi]]'
 - '[[Fonte - Visao geral consolidada]]'
@@ -16,6 +16,9 @@ fontes_primarias:
 - '[[Fonte - Gerador de visao geral]]'
 - '[[Fonte - Materiais IMRIA e marketing 2025]]'
 - '[[Fonte - Notas profissionais e tecnicas 2025]]'
+- '[[Fonte - Conversa seria 2026-09-25]]'
+- '[[Fonte - Consideracoes sobre Rafael Serve e Hermes]]'
+- '[[Fonte - A caridade teoria dos jogos e design de mecanismos]]'
 grau_confianca: medio_alto
 sensibilidade: alta
 camada_evidencia: sintese_derivada
@@ -72,6 +75,16 @@ O padrão de estudo de Kevyn produz valor quando reduz a distância entre leitur
 Os geradores de dossiê e visão geral mostram preferência por decompor problemas em papéis, etapas, critérios de realidade e formatos obrigatórios. O método é útil quando termina em um artefato verificável; vira custo quando só aumenta a sofisticação do planejamento.
 
 [[Fonte - Materiais IMRIA e marketing 2025]] registra a intenção operacional de transformar curso em gravações, notas atômicas e agente RAG. Notas de outubro de 2025 preservam aplicação do método RAG atômico ao livro "$100 Million Money Models" de Alex Hormozi, com seções indexadas para busca semântica via pgvector. O Kanban "21 dias com Kevyn" documenta um fluxo editorial de oito etapas: Base, Brainstorming, Roteiro, Revisao, Gravacao, Edicao, Cronograma e Postado.
+
+## Formulação direta recente do método
+
+Três fontes convergem em um princípio que antes aparecia mais como síntese editorial.
+
+- Em [[Fonte - Conversa seria 2026-09-25]], Kevyn afirma que um sistema de controle ou gestão não importa se não virar comportamento: "no final, só o que importa é virar comportamento".
+- Em [[Fonte - Consideracoes sobre Rafael Serve e Hermes]], propõe transformar caminhos já testados em protocolos operacionais pré-definidos para reduzir improviso, chamadas e tempo.
+- Em [[Fonte - A caridade teoria dos jogos e design de mecanismos]], o próprio programa de estudo evita currículo infinito e sugere problema real → modelagem → lacuna → estudo → aplicação → feedback.
+
+O método recente, portanto, fica mais bem descrito como **estrutura que deve colapsar em comportamento, protocolo ou teste**. A sofisticação só é mantida quando reduz custo de decisão ou melhora execução.
 
 ## Critério de término
 

@@ -5,10 +5,10 @@ tipo: dominio_conhecimento
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.5'
+versao_conteudo: '1.6'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Visao geral consolidada]]'
 - '[[Fonte - Contexto completo]]'
@@ -16,6 +16,8 @@ fontes_primarias:
 - '[[Fonte - Mentorias produtos e ferramentas IA 2025]]'
 - '[[Fonte - Estrategia de criacao e agentes IA 2025]]'
 - '[[Fonte - Operacao WSI Salus e acessos 2025]]'
+- '[[Fonte - O Kevyn faz]]'
+- '[[Fonte - Consideracoes sobre Rafael Serve e Hermes]]'
 grau_confianca: medio
 sensibilidade: alta
 camada_evidencia: sintese_derivada
@@ -62,6 +64,14 @@ Framework AI First documentado em agosto/setembro de 2025 com 5 pilares: fundaca
 Notas de outubro de 2025 registram comparacao de transcritores de IA (HappyScribe, Notta.Ai, Cockatool, TurboScribe, Monica), com precos e limitacoes. Esse tipo de comparacao indica avaliacao de ferramentas para fluxo de trabalho com IA.
 
 Outro lote de setembro e outubro de 2025 reforca duas frentes. A primeira e pesquisa de mercado em produtos de personality clone/chatbot, preservada apenas por links e titulos, o que sustenta interesse aplicado no formato sem autorizar inferencia detalhada sobre funcionalidades. A segunda e o conceito do agente `Esbelta`, pensado para suporte aos membros do DS21 com base no conhecimento da Barbara, incluindo extracao de metodologias, tom de voz, casos, limites do clone e rotinas de acompanhamento. Isso evidencia desenho de produto e arquitetura de agente especialista, nao implantacao real nem autonomia segura em saude.
+
+## Atualização de repertório — outubro de 2026
+
+Os registros recentes mostram a passagem de "ferramentas de IA" para uma busca mais explícita por **pontes técnicas**. [[Fonte - O Kevyn faz]] parte da descoberta do Three.js para perguntar que outras bibliotecas, frameworks e linguagens podem conectar repertório prévio de design/motion/3D à programação assistida por IA. O interesse inclui web graphics, agentes, automação e música por código.
+
+[[Fonte - Consideracoes sobre Rafael Serve e Hermes]] adiciona um critério de engenharia de processo: escolher o caminho não apenas pela capacidade, mas por velocidade, precisão, custo de chamadas e possibilidade de cristalizar rotas boas em protocolos reutilizáveis.
+
+O estado correto continua sendo exploração/aplicação. A descoberta de uma biblioteca ou a geração assistida de código não equivale a domínio da linguagem subjacente.
 
 ## Regra de evidência
 

@@ -5,10 +5,10 @@ tipo: padrao_recorrente
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '2.9'
+versao_conteudo: '3.0'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Diario gravity falls 2024-06-17]]'
 - '[[Fonte - Diario Parte 01 (set 2023 a abr 2024)]]'
@@ -18,10 +18,12 @@ fontes_primarias:
 - '[[Fonte - Roadmap engenharia psiquica]]'
 - '[[Fonte - 00 Diario Parte 01 parte 02]]'
 - '[[Fonte - 00 Diario Parte 01 parte 03]]'
+- '[[Fonte - Conversa seria 2026-09-25]]'
 fontes_derivadas:
 - '[[Fonte - Contexto completo]]'
 - '[[Fonte - Contexto extra]]'
 - '[[Fonte - Visao geral jan 2026]]'
+- '[[Fonte - Kevyn e so um cara]]'
 notas_relacionadas:
 - '[[Cuidado de si]]'
 - '[[Acompanhamento psicologico]]'
@@ -96,6 +98,16 @@ O valor biográfico desse material não está em provar o mundo espiritual como 
 - [[Fonte - Diario gravity falls 2024-06-17]] registra elaboração simbólica em registro pessoal.
 - [[Fonte - Roadmap engenharia psiquica]] mostra formalização posterior desse repertório em linguagem de processo e individuação.
 - [[Fonte - Diarios em audio abril 2026]] sugere continuidade do tema já em outra fase da trajetória.
+
+## Hermes como linguagem de mediação
+
+Há agora duas camadas diferentes que não devem ser confundidas.
+
+**Fonte primária:** em [[Fonte - Conversa seria 2026-09-25]], Kevyn usa espontaneamente "alquimista" e "discípulo de Hermes" ao falar de transformar ressentimento, desamparo e matéria bruta em ação, disciplina e criação. Isso prova que Hermes participa diretamente do vocabulário simbólico de autoformação naquele registro.
+
+**Interpretação derivada:** [[Fonte - Kevyn e so um cara]] lê um ensaio político pela função hermética de tradução entre domínios, mediação de opostos e construção de interfaces. A mesma análise alerta para uma sombra possível de manipulação e inflação intelectual.
+
+A fonte direta fortalece a presença biográfica do símbolo, mas não transforma a interpretação arquetípica em fato. Hermes continua sendo tratado como linguagem de sentido; qualquer leitura psicológica mais forte permanece subordinada a [[Etica da interpretacao simbolica]].
 
 ## O que isso permite concluir
 

@@ -5,10 +5,10 @@ tipo: pessoa
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '3.2'
+versao_conteudo: '3.3'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-09-28
+ultima_revisao: 2026-10-04
 fontes_primarias:
   - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
   - '[[Fonte - Reuniao com psicologa Suzana 2026-06-26]]'
@@ -32,6 +32,10 @@ fontes_primarias:
   - '[[Fonte - Plano de estudo 050926]]'
   - '[[Fonte - 220626 Revisao de Autorregulacao]]'
   - '[[Fonte - 050626 Revisao de Autorregulacao]]'
+  - '[[Fonte - Diario 03.10.26]]'
+  - '[[Fonte - O sonho do Kevyn 2026-10-04]]'
+  - '[[Fonte - Conversa seria 2026-09-25]]'
+  - '[[Fonte - O Kevyn faz]]'
 fontes_derivadas:
   - '[[Fonte - Visao geral consolidada]]'
   - '[[Fonte - Contexto completo]]'
@@ -40,6 +44,7 @@ fontes_derivadas:
   - '[[Fonte - ChatGPT Autoconhecimento 2026-09-06]]'
   - '[[Fonte - Por qual motivo Kevyn e como e]]'
   - '[[Fonte - Arquetipos do Kevyn]]'
+  - '[[Fonte - Uma visao psicologica da mente do Kevyn]]'
 grau_confianca: medio_alto
 sensibilidade: muito_alta
 camada_evidencia: sintese_derivada
@@ -102,6 +107,7 @@ notas_relacionadas:
   - '[[Espiritualidade como linguagem de sentido]]'
   - '[[Fonte - Prazer eu me chamo Kevyn]]'
   - '[[Fonte - Kevyn Lucas - dossie sintetico]]'
+  - '[[Experimentalismo institucional e governanca policentrica]]'
 localidades:
   - Goiânia
   - Santa Helena de Goiás
@@ -151,6 +157,20 @@ Em 2026, o cofre registra uma passagem mais explicita de autoleitura para rotina
 ### Atualizacao julho-setembro de 2026
 
 Entre julho e setembro, três movimentos convivem. Primeiro, vínculos novos com Eros e incerteza aceleram significado: com Aline há reciprocidade real sem garantia de futuro, seguida de luto e decisão de focar em si; com [[Iasmin Alencar|Iasmin]] há intimidade rápida, plano "Operação Bebê", término e revisão moral posterior. Segundo, Kevyn formula ritmo como habilidade: sentir profundamente e avançar devagar, suportar incerteza, escrever sem obrigação de enviar. Terceiro, há recalibração profissional com critério de prova: missão híbrida, contrato de renúncia, plano de 48 semanas e avaliação que corrige inflação (Design 78; Marketing 58; Administração 52; Psicologia 43; Software 40). Símbolos (Thymos, Philautia, Ágape, Rei, Graal) seguem como linguagem de sentido, com regra explícita de não autenticar destino.
+
+### Atualização 25/09 a 04/10/2026
+
+Os novos registros diretos tornam algumas formulações antes apenas hipotéticas muito mais verificáveis.
+
+Em [[Fonte - Conversa seria 2026-09-25]], Kevyn chama o autoaperfeiçoamento de "esse projeto grandioso que é você", afirma que sistemas de controle só têm valor se virarem comportamento e liga disciplina a saúde, força, integridade, admiração, validação e evidências visíveis de cumprimento da própria palavra. No mesmo áudio, descreve a própria história como uma tarefa de autoformação e usa "alquimista" e "discípulo de Hermes" como linguagem simbólica.
+
+Em [[Fonte - Diario 03.10.26]], reconhece precisar de descanso ao mesmo tempo em que resiste a aceitá-lo; apesar da expansão de novas ideias durante o trabalho, conclui e envia o relatório da ACIRV. Às 14:20 registra também preocupação em proteger ideias ainda imaturas do julgamento alheio.
+
+Às 00h08 de 04/10, [[Fonte - O sonho do Kevyn 2026-10-04]] torna a tensão ainda mais explícita: competência, disciplina e autossuficiência são desejadas como forma de retirar poder da vulnerabilidade.
+
+[[Fonte - O Kevyn faz]] acrescenta uma autoavaliação profissional mais calibrada: design e motion aparecem como os campos de prática mais profunda; 3D como base real, porém menos aprofundada; programação tradicional como contato parcial; e IA, n8n, Lovable e Hermes Work como extensão aplicada recente. Isso melhora a precisão do perfil sem equivaler autoavaliação a benchmark externo.
+
+[[Fonte - Uma visao psicologica da mente do Kevyn]] organiza esses elementos na imagem do "eu como projeto", mas permanece interpretação de IA. Ela ganha plausibilidade onde converge com as fontes diretas acima, sem se tornar prova independente.
 
 ### Camada simbolica
 

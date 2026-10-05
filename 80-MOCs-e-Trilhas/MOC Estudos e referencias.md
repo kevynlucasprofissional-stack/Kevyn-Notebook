@@ -5,10 +5,10 @@ tipo: moc
 status: curado
 profundidade: intermediaria
 versao_schema: '1.0'
-versao_conteudo: '1.6'
+versao_conteudo: '1.7'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-04
 fontes_primarias:
   - '[[Fonte - Briefing do projeto]]'
 notas_relacionadas:
@@ -36,6 +36,7 @@ notas_relacionadas:
   - '[[Fonte - Kevyn Lucas - dossie sintetico]]'
   - '[[Trilha autobiografica]]'
   - '[[Trilha de auditoria das interpretacoes]]'
+  - '[[Experimentalismo institucional e governanca policentrica]]'
 grau_confianca: alto
 sensibilidade: alta
 camada_evidencia: sintese_derivada
@@ -65,8 +66,9 @@ Este território reúne o que Kevyn estuda, lê, experimenta e referencia. O pon
 2. [[Organizacao do conhecimento]] para ver como estudo vira sistema.
 3. [[Formacao em Data Science]], [[Negocios e marketing]] e [[Tecnologia IA e automacao]] para a formação aplicada.
 4. [[Tecnologias de si e Foucault]], [[Filosofia e psicologia]], [[Estudos na Nova Acropole]] e [[Repertorio criativo]] para o repertório interpretativo.
-5. [[Influencias e mentores]] para entender a camada de referência e admiração.
-6. [[Portfolio de projetos]] para checar se o estudo produziu artefato, decisão ou prática.
+5. [[Experimentalismo institucional e governanca policentrica]] para acompanhar teoria dos jogos, desenho institucional, policentrismo e autocrítica tecnocrática.
+6. [[Influencias e mentores]] para entender a camada de referência e admiração.
+7. [[Portfolio de projetos]] para checar se o estudo produziu artefato, decisão ou prática.
 
 ## Eixos principais
 
@@ -91,6 +93,7 @@ Neste territorio, a distinção central nao e entre "tema importante" e "tema ir
 | [[Filosofia e psicologia]] | repertorio interpretativo | Campo usado como linguagem de leitura da experiencia. |
 | [[Tecnologias de si e Foucault]] | repertorio interpretativo | Referencia teórica, nao prova de especializacao formal. |
 | [[Repertorio criativo]] | exploracao | Campo de interesse e prova parcial de saida criativa. |
+| [[Experimentalismo institucional e governanca policentrica]] | em revisão | Direção político-intelectual recente; forte como registro de elaboração, ainda fraca como identidade política estável. |
 | [[Influencias e mentores]] | elaboracao | Mapa de referencias, nao conclusao de dominio. |
 
 ## Legenda de maturidade
@@ -111,6 +114,8 @@ Neste territorio, a distinção central nao e entre "tema importante" e "tema ir
 - [[Trajetoria profissional]] e [[Portfolio de projetos]] mostram onde esse estudo sai da leitura e vira execução, limite ou ajuste.
 - [[MOC Fontes e evidencias]] lembra que estudo sem proveniência e sem camada de evidência ainda não é conhecimento consolidado.
 
+- [[Experimentalismo institucional e governanca policentrica]] mostra um caso em que repertório filosófico, metáforas de software e desenho institucional convergem numa hipótese explícita acompanhada de contraditório.
+
 ## Notas maduras
 
 - [[Metodo de estudo e producao]]
@@ -124,6 +129,7 @@ Neste territorio, a distinção central nao e entre "tema importante" e "tema ir
 
 ## Notas em amadurecimento
 
+- [[Experimentalismo institucional e governanca policentrica]]
 - [[Tecnologia IA e automacao]]
 - [[Repertorio criativo]]
 - [[Influencias e mentores]]

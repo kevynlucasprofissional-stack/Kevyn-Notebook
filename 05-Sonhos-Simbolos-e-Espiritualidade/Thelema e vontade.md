@@ -5,10 +5,10 @@ tipo: tema_pessoal
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '2.3'
+versao_conteudo: '2.4'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-04
 fontes_primarias:
   - '[[Fonte - Diario gravity falls 2024-06-17]]'
   - '[[Fonte - Conversa com minha alma 2024-06]]'
@@ -18,6 +18,7 @@ fontes_primarias:
   - '[[Fonte - Diario em audio - Parte 01]]'
   - '[[Fonte - 00 Diario Parte 01 parte 02]]'
   - '[[Fonte - Contextos WSI Salus e Cha e Prosa 2025]]'
+  - '[[Fonte - Conversa seria 2026-09-25]]'
 fontes_secundarias:
   - '[[Fonte - Roadmap engenharia psiquica]]'
 notas_relacionadas:
@@ -82,6 +83,12 @@ Na revisão atual, Kevyn informou que continua em contato com Thelema como eixo 
 | [[Fonte - Zaratustra e mapa Thothiano]] | o repertório simbólico ganha forma interpretativa, mas continua dependente de contexto relacional e editorial | media |
 | [[Fonte - Diarios em audio abril 2026]] | o eixo não fica restrito a 2024 e reaparece em outra fase da trajetória | media |
 | [[Fonte - Diario Parte 01 (set 2023 a abr 2024)]] | há continuidade de linguagem de sentido e busca de direção antes da fase mais recente | media |
+
+## Registro direto de 25/09/2026
+
+[[Fonte - Conversa seria 2026-09-25]] acrescenta uma fonte primária importante para o estado atual dessa linguagem. Kevyn se chama diretamente de "alquimista" e "discípulo de Hermes", fala em transformar matéria bruta em ouro e descreve a espiritualidade como algo sendo organizado em torno da realização da vontade.
+
+No mesmo registro, porém, vontade não aparece apenas como símbolo: ela é cobrada em exercício, cuidado, cumprimento da palavra, trabalho e comportamento. Isso reforça a leitura de Thelema como gramática de auto-governo, mas também mostra seu risco: vontade pode virar cobrança absoluta se não permanecer cruzada com [[Cuidado de si]].
 
 ## O que isso permite concluir
 

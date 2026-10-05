@@ -5,18 +5,21 @@ tipo: padrao
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.6'
+versao_conteudo: '1.7'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Diario Negro 01 - 241225 ate 130226]]'
 - '[[Fonte - 150626 RNIDIQAOUP]]'
 - '[[Fonte - SRC-000081 - Desisti de tentar ser extraordinário (E isso salvou minha vida)]]'
+- '[[Fonte - Conversa seria 2026-09-25]]'
+- '[[Fonte - O sonho do Kevyn 2026-10-04]]'
 fontes_derivadas:
 - '[[Fonte - Sintese]]'
 - '[[Fonte - Contexto completo]]'
 - '[[Fonte - Analises Diario Negro 01]]'
+- '[[Fonte - Uma visao psicologica da mente do Kevyn]]'
 grau_confianca: medio
 sensibilidade: alta
 camada_evidencia: sintese_derivada
@@ -64,6 +67,14 @@ Esse mesmo deslocamento também aparece em vínculos: quando a imaginação rela
 | A leitura mais útil não é escolher um lado, e sim observar se a narrativa produz ação, cuidado e passo mínimo. | [[Fonte - Diario Negro 01 - 241225 ate 130226]], [[Cuidado de si]], [[Vontade SMART]] | alto | O critério é prático, não moralizante. |
 | A tensão também aparece em vínculos quando a imaginação cresce antes da base concreta. | [[Mari e a experiencia de idealizacao]], [[Amor idealizacao e projecao]], [[Amor intimidade e vulnerabilidade]] | medio_alto | Um caso relacional não basta para generalizar todos os vínculos. |
 | A narrativa de grandeza pode virar interface de trabalho quando encontra marca, oferta e presença pública. | [[Hoor Digital]], [[Portfolio de projetos]], [[Trabalho como eixo de identidade]] | medio | A tradução para trabalho não prova estabilidade comercial. |
+
+## Evidência recente — setembro e outubro de 2026
+
+Em 25/09, Kevyn descreve a si mesmo como um "projeto grandioso", imagina tornar visíveis e quase incontestáveis sua disciplina, integridade, força, saúde e prosperidade, mas também diz que isso precisa ser vivido no processo e convertido em comportamento.
+
+Em 04/10, a linguagem fica ainda mais totalizante: competência, disciplina e autossuficiência são ligadas diretamente à meta de retirar poder da vulnerabilidade.
+
+Isso atualiza a tensão desta nota. O conflito não é apenas extraordinário versus ordinário; também aparece como **invulnerabilidade idealizada versus dependência real de corpo, descanso, vínculo, tempo e limites**. A vida comum deixa de ser apenas o polo menos grandioso: ela é o lugar onde a promessa precisa sobreviver sem exigir perfeição.
 
 ## Leitura conservadora
 
