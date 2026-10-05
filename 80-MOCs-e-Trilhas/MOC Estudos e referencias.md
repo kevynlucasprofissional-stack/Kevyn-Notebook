@@ -94,7 +94,6 @@ Neste territorio, a distinção central nao e entre "tema importante" e "tema ir
 | [[Tecnologias de si e Foucault]] | repertorio interpretativo | Referencia teórica, nao prova de especializacao formal. |
 | [[Repertorio criativo]] | exploracao | Campo de interesse e prova parcial de saida criativa. |
 | [[Experimentalismo institucional e governanca policentrica]] | em revisão | Direção político-intelectual recente; forte como registro de elaboração, ainda fraca como identidade política estável. |
-
 | [[Influencias e mentores]] | elaboracao | Mapa de referencias, nao conclusao de dominio. |
 
 ## Legenda de maturidade
@@ -131,8 +130,6 @@ Neste territorio, a distinção central nao e entre "tema importante" e "tema ir
 ## Notas em amadurecimento
 
 - [[Experimentalismo institucional e governanca policentrica]]
-
-
 - [[Tecnologia IA e automacao]]
 - [[Repertorio criativo]]
 - [[Influencias e mentores]]
