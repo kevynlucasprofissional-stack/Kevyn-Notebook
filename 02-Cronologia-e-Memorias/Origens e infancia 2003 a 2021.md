@@ -5,7 +5,7 @@ tipo: evento
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.6'
+versao_conteudo: '1.7'
 idioma: pt-BR
 data_criacao: 2026-06-17
 ultima_revisao: 2026-10-05
@@ -49,7 +49,7 @@ Na sessão de junho de 2026, Kevyn informou ter nascido em 17 de julho de 2003, 
 
 ## Formação
 
-Os materiais situam o começo profissional por volta dos 15 anos, em comunicação visual, com contato inicial com CorelDRAW e produção gráfica. A retificação de 05/10/2026 confirma **Sigma Comunicação Visual**, em Santa Helena de Goiás, como o primeiro emprego.
+Os materiais situam o começo profissional aos **15 anos**, em comunicação visual, com contato inicial com CorelDRAW e produção gráfica. A retificação de 05/10/2026 confirma **Sigma Comunicação Visual**, em Santa Helena de Goiás, como o primeiro emprego. Aos **18 anos**, a mudança para Rio Verde coincide com a saída da Sigma e a entrada na **Mídia e Cia**, também de comunicação visual.
 
 ## Base familiar
 
@@ -71,7 +71,7 @@ Dossiês de IA associam essa história a hiperindependência, busca por controle
 
 ## Retificação geográfica de 05/10/2026
 
-A transcrição [[Fonte - O Kevyn faz]] contém a frase "me mudei para Goiânia". Kevyn corrigiu diretamente esse ponto: a direção correta foi **de Goiânia para Santa Helena de Goiás**, ainda muito jovem; depois, aos **18 anos**, de Santa Helena para **Rio Verde**. O original não é reescrito retroativamente.
+A transcrição [[Fonte - O Kevyn faz]] contém a frase "me mudei para Goiânia". Kevyn corrigiu diretamente esse ponto: a direção correta foi **de Goiânia para Santa Helena de Goiás**, ainda muito jovem; depois, aos **18 anos**, de Santa Helena para **Rio Verde**. A mesma retificação confirma que ele começou na **Sigma Comunicação Visual aos 15 anos** e que, ao se mudar para Rio Verde, passou a trabalhar na **Mídia e Cia**. O original não é reescrito retroativamente.
 
 ## Relações
 
