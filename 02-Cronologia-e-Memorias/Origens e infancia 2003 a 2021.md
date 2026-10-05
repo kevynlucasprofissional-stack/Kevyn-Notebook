@@ -5,14 +5,15 @@ tipo: evento
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.5'
+versao_conteudo: '1.7'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-05
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - Diario Negro 01 - 241225 ate 130226]]'
 - '[[Fonte - Diario Negro 02 - 130226 ate 250426]]'
+- '[[Fonte - Retificacao biografica 2026-10-05]]'
 fontes_derivadas:
 - '[[Fonte - Cronologia e fatos]]'
 notas_relacionadas:
@@ -44,15 +45,15 @@ aliases:
 
 ## Fatos relatados
 
-Na sessão de junho de 2026, Kevyn informou ter nascido em 17 de julho de 2003, em Goiânia, e ter sido criado por Silvanna em Santa Helena de Goiás. Relatou abandono materno associado à dependência química e ausência paterna desde a infância.
+Na sessão de junho de 2026, Kevyn informou ter nascido em 17 de julho de 2003, em Goiânia, e ter sido criado por Silvanna em Santa Helena de Goiás. Em retificação direta de 05/10/2026, formulou Goiânia como local **provável** de nascimento, confirmou que saiu de Goiânia ainda muito jovem para Santa Helena e que nunca se mudou posteriormente **para** Goiânia. Relatou abandono materno associado à dependência química e ausência paterna desde a infância.
 
 ## Formação
 
-Os materiais situam o começo profissional por volta dos 15 anos, em comunicação visual, com contato inicial com CorelDRAW e produção gráfica.
+Os materiais situam o começo profissional aos **15 anos**, em comunicação visual, com contato inicial com CorelDRAW e produção gráfica. A retificação de 05/10/2026 confirma **Sigma Comunicação Visual**, em Santa Helena de Goiás, como o primeiro emprego. Aos **18 anos**, a mudança para Rio Verde coincide com a saída da Sigma e a entrada na **Mídia e Cia**, também de comunicação visual.
 
 ## Base familiar
 
-A leitura biográfica desta fase depende da rede familiar: Silvanna como referência de cuidado, a ausência dos pais como dado estruturante e a mudança de cidade como parte da construção de autonomia. A nota não fecha a infância como diagnóstico; ela mostra a base sobre a qual a vida adulta passou a ser organizada.
+A leitura biográfica desta fase depende da rede familiar: Silvanna como referência de cuidado, a ausência dos pais como dado estruturante e os deslocamentos Goiânia → Santa Helena → Rio Verde como parte da construção de autonomia. A nota não fecha a infância como diagnóstico; ela mostra a base sobre a qual a vida adulta passou a ser organizada.
 
 ## Peso epistemológico
 
@@ -67,6 +68,10 @@ Dossiês de IA associam essa história a hiperindependência, busca por controle
 [[Fonte - Diario Negro 01 - 241225 ate 130226]] registra elaboração direta do trauma: "O seu trauma é que você foi abandonado. Você era uma criança e não conseguiu entender desde o início que a culpa não era sua." Kevyn articula a hipótese de uma crença central de que "quem te vê como você é, uma criança vulnerável, te abandona" e de que a busca por ser extraordinário funciona como compensação.
 
 [[Fonte - Diario Negro 02 - 130226 ate 250426]] acrescenta: "minha infância foi de certa forma solitária e tenho uma família desunida, não tenho contato com meu pai e minha mãe abandonou seu papel para usar drogas, e talvez por isso eu estudo tanto filosofia... meus criadores falharam em me instruir então tive de me adotar, buscar conhecimento através da leitura das fontes foi a maneira que encontrei de me adotar."
+
+## Retificação geográfica de 05/10/2026
+
+A transcrição [[Fonte - O Kevyn faz]] contém a frase "me mudei para Goiânia". Kevyn corrigiu diretamente esse ponto: a direção correta foi **de Goiânia para Santa Helena de Goiás**, ainda muito jovem; depois, aos **18 anos**, de Santa Helena para **Rio Verde**. A mesma retificação confirma que ele começou na **Sigma Comunicação Visual aos 15 anos** e que, ao se mudar para Rio Verde, passou a trabalhar na **Mídia e Cia**. O original não é reescrito retroativamente.
 
 ## Relações
 
