@@ -5,16 +5,19 @@ tipo: padrao_recorrente
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.8'
+versao_conteudo: '1.9'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - 150626 RNIDIQAOUP]]'
 - '[[Fonte - Diario Negro 01 - 241225 ate 130226]]'
 - '[[Fonte - Diario Negro 02 - 130226 ate 250426]]'
 - '[[Fonte - Diarios em audio abril 2026]]'
+- '[[Fonte - Conversa seria 2026-09-25]]'
+- '[[Fonte - Diario 03.10.26]]'
+- '[[Fonte - O sonho do Kevyn 2026-10-04]]'
 fontes_derivadas:
 - '[[Fonte - Visao geral consolidada]]'
 - '[[Fonte - Autopsia do Kevyn]]'
@@ -77,6 +80,9 @@ As contradições aqui não são defeitos morais nem diagnósticos. Elas indicam
 | Ferramenta vs meta-trabalho | IA e Obsidian ampliam capacidade, mas também podem virar sistema que substitui decisão | [[Inteligencia artificial e automacao]], [[Execucao versus complexidade]] | ferramenta útil pode virar desvio se ocupar o centro |
 | Disciplina vs calibragem | quer controle, cronograma e meta alta, mas rotina rígida demais quebra quando a vida muda | [[Vontade SMART]], [[Linha do tempo mestre]] | disciplina precisa caber na vida real |
 | Trabalho como identidade vs cuidado como limite | trabalho continua sendo eixo de valor, mas 2026 introduz cuidado, apoio e rotina como limite concreto | [[Trabalho como eixo de identidade]], [[Cuidado de si]], [[Acompanhamento psicologico]], [[Vontade SMART]], [[Sustentabilidade financeira e trabalho]] | a reorganização está em curso e não elimina o peso do trabalho como medida de valor |
+
+| Sistema vs comportamento | em 25/09, Kevyn afirma diretamente que um sistema de gestão não vale se não virar ação; em 03/10, novas ideias surgem no meio de uma obrigação, mas a entrega é concluída | [[Fonte - Conversa seria 2026-09-25]], [[Fonte - Diario 03.10.26]] | preservar sistemas como suporte, não substituto da conduta |
+| Autossuficiência vs vulnerabilidade | em 04/10, competência, disciplina e autossuficiência são formuladas explicitamente como forma desejada de retirar poder da vulnerabilidade | [[Fonte - O sonho do Kevyn 2026-10-04]], [[Fonte - Conversa seria 2026-09-25]] | força e autonomia podem organizar ação, mas viram custo quando dependência, descanso e exposição são tratados apenas como algo a vencer |
 
 ## Como interpretar
 
