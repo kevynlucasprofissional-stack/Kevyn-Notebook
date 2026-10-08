@@ -5,10 +5,10 @@ tipo: periodo
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '3.4'
+versao_conteudo: '3.5'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-10-05
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-26]]'
@@ -38,6 +38,7 @@ fontes_primarias:
 - '[[Fonte - A caridade teoria dos jogos e design de mecanismos]]'
 - '[[Fonte - O Kevyn faz]]'
 - '[[Fonte - Retificacao biografica 2026-10-05]]'
+- '[[Fonte - Respostas autobiograficas 1 a 3]]'
 fontes_derivadas:
 - '[[Fonte - Cronologia e fatos]]'
 - '[[Fonte - Visao geral jan 2026]]'
@@ -197,3 +198,7 @@ A transição do fim de setembro para outubro ganha uma continuidade nova. Em 25
 - [[Integracao e cuidado de si 2026]], [[Vontade SMART]] e [[Revisao semanal de autocuidado]] mostram a forma prática dessa virada.
 - [[Espiritualidade como linguagem de sentido]] mostra a camada simbólica que atravessa a linha do tempo.
 - [[Claims principais]] concentra as afirmações mais úteis que esta cronologia ajuda a sustentar.
+
+## Integração de outubro de 2026
+
+As respostas autobiográficas ampliam a resolução de aproximadamente 2015–2021 (escola, EJA, trabalho juvenil, contribuições domésticas e sociabilidade) e da mudança para Rio Verde aos 18 anos (autossustento cotidiano com apoio familiar pontual). Não foram obtidas datas anuais confiáveis para todos os episódios; não distribuí-los artificialmente pelos anos. O arquivo nominalmente dedicado às perguntas 1 e 2 inclui também resposta à pergunta 3. Evidência: [[Fonte - Respostas autobiograficas 1 a 3]].

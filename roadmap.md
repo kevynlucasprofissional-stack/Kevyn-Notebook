@@ -5,10 +5,10 @@ tipo: roadmap
 status: ativo
 profundidade: avancada
 versao_schema: "1.0"
-versao_conteudo: "1.2"
+versao_conteudo: "1.3"
 idioma: pt-BR
 data_criacao: 2026-09-28
-ultima_revisao: 2026-09-29
+ultima_revisao: 2026-10-08
 tags:
   - planejamento/roadmap
   - sistema/curadoria
@@ -764,3 +764,7 @@ O objetivo final não é responder de uma vez:
 É construir um sistema capaz de acompanhar, com memória, evidência e contexto:
 
 > **Como Kevyn se torna Kevyn ao longo do tempo?**
+
+## Integração de outubro de 2026
+
+**Ciclo incremental de 08/10/2026 (fontes do commit `e569fa2`):** cinco documentos Markdown novos foram avaliados e incorporados por notas-fonte; duas gravações `.m4a` pareadas continuam com necessidade de escuta humana. Foram enriquecidas notas de cronologia, independência, autonomia, conhecimento, projetos, prioridades, espiritualidade e tarô, além do controle de perguntas em [[Perguntas investigativas - outubro de 2026]]. Este ciclo **não conclui** a curadoria global dos originais nem prova eficácia dos projetos relatados. A proveniência segue em `Controle-Curadoria-Originais.csv`.

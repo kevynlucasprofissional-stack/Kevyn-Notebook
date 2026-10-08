@@ -5,15 +5,16 @@ tipo: evento
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.7'
+versao_conteudo: '1.8'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-10-05
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - Diario Negro 01 - 241225 ate 130226]]'
 - '[[Fonte - Diario Negro 02 - 130226 ate 250426]]'
 - '[[Fonte - Retificacao biografica 2026-10-05]]'
+- '[[Fonte - Respostas autobiograficas 1 a 3]]'
 fontes_derivadas:
 - '[[Fonte - Cronologia e fatos]]'
 notas_relacionadas:
@@ -84,3 +85,8 @@ A transcrição [[Fonte - O Kevyn faz]] contém a frase "me mudei para Goiânia"
 
 - `CICLO-0025`: referencias automaticas dos ciclos `0023` e `0024` foram removidas desta nota por misturarem conteudo estudado e inferencias amplas a um periodo biografico sensivel. Esta nota permanece apoiada na sessao de 12/06/2026, no Diario Negro e nas sinteses ja revisadas manualmente.
 
+## Integração de outubro de 2026
+
+A transcrição de respostas a perguntas sobre lacunas autobiográficas acrescenta recordações da adolescência em Santa Helena: frequentes mudanças de residência na família (quantidade aproximada não confirmada), desempenho escolar relatado como bom, atividades com amigos e RPG, início do trabalho na comunicação visual e conclusão do ensino médio por EJA. O relato indica salário inicial de cerca de R$ 500 e contribuição doméstica de aproximadamente 30% da remuneração; valores e idades são lembranças retrospectivas, não comprovantes.
+
+Sobre cuidado e autonomia, Kevyn relata recorrer à avó ou a adultos disponíveis, mas também passar a ocultar dificuldades escolares porque certas intervenções o expunham diante dos colegas. **Isso documenta episódios e uma explicação retrospectiva; não prova origem causal única da independência posterior.** Ver [[Autonomia e relacao com autoridade]] e [[Fonte - Respostas autobiograficas 1 a 3]]. A distribuição anual dos fatos entre 12 e 18 anos continua incerta.

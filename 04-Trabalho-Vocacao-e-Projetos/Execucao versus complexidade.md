@@ -5,10 +5,10 @@ tipo: padrao
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.8'
+versao_conteudo: '1.9'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-10-04
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - 150626 RNIDIQAOUP]]'
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
@@ -16,9 +16,11 @@ fontes_primarias:
 - '[[Fonte - Conversa seria 2026-09-25]]'
 - '[[Fonte - Diario 03.10.26]]'
 - '[[Fonte - Consideracoes sobre Rafael Serve e Hermes]]'
+- '[[Fonte - Briefing de prioridades e projetos]]'
 fontes_derivadas:
 - '[[Fonte - Modus operandi]]'
 - '[[Fonte - Analises Diario Negro 01]]'
+- '[[Fonte - Perguntas importantes e lacunas]]'
 grau_confianca: medio_alto
 sensibilidade: alta
 camada_evidencia: sintese_derivada
@@ -127,3 +129,7 @@ Em 03/10, o diário mostra a tensão acontecendo ao vivo. Durante um relatório 
 - [[Cuidado de si]] e [[Acompanhamento psicologico]] mostram o limite material da execução sustentável.
 - [[Portfolio de projetos]] é onde a diferença entre ideia, sistema e execução precisa ficar visível.
 - [[Hoor Digital]] mostra a camada de marca e oferta como possível expansão precoce da complexidade.
+
+## Integração de outubro de 2026
+
+O briefing fornece um contraste útil: Kevyn relata gostar de arquitetura, pesquisa e desenvolvimento, análise de dados e escrita, mas perceber alto custo em tarefas manuais repetitivas de vídeo, acompanhamento de design e briefings. Busca automatizar relatórios, planejamento editorial e consolidação de tarefas. Isso é **preferência e percepção de custo**, não medida independente de produtividade. A auditoria [[Fonte - Perguntas importantes e lacunas]] pede contraprovas: localizar casos nos quais complexidade técnica *aumentou* o resultado e casos em que atrasou a entrega. O padrão deve ser testado bilateralmente.

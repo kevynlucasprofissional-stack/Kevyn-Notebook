@@ -5,10 +5,10 @@ tipo: moc
 status: curado
 profundidade: indice
 versao_schema: '1.0'
-versao_conteudo: '2.3'
+versao_conteudo: '2.4'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-09-29
+ultima_revisao: 2026-10-08
 notas_relacionadas:
   - '[[Claims principais]]'
   - '[[Kevyn Lucas]]'
@@ -192,3 +192,7 @@ Estas são as notas que melhor sustentam a leitura de Kevyn como base de conheci
 - Manter `09-Fontes-e-Evidencias/Processamento-Automatico` fora do centro narrativo até curadoria manual.
 - Reduzir dependência de material derivado de IA em notas biográficas e padrões recorrentes.
 - Reescrever, ao longo do tempo, os mapas que ainda funcionam mais como índice do que como explicação.
+
+## Integração de outubro de 2026
+
+O ciclo de 08/10/2026 ingressou duas transcrições diretas e três materiais escritos novos: [[Fonte - Respostas autobiograficas 1 a 3]], [[Fonte - Briefing de prioridades e projetos]], [[Fonte - Sabedoria sexo santidade e sacramento]], [[Fonte - Perguntas importantes e lacunas]] e [[Fonte - Referencia para site de taro]]. Para as lacunas ainda abertas, consultar [[Perguntas investigativas - outubro de 2026]]; a prioridade editorial é enriquecer as notas existentes de origem, autonomia, projetos e decisões.

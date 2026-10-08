@@ -5,10 +5,10 @@ tipo: tema_pessoal
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '2.4'
+versao_conteudo: '2.5'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-10-04
+ultima_revisao: 2026-10-08
 fontes_primarias:
   - '[[Fonte - Diario gravity falls 2024-06-17]]'
   - '[[Fonte - Conversa com minha alma 2024-06]]'
@@ -19,6 +19,7 @@ fontes_primarias:
   - '[[Fonte - 00 Diario Parte 01 parte 02]]'
   - '[[Fonte - Contextos WSI Salus e Cha e Prosa 2025]]'
   - '[[Fonte - Conversa seria 2026-09-25]]'
+- '[[Fonte - Sabedoria sexo santidade e sacramento]]'
 fontes_secundarias:
   - '[[Fonte - Roadmap engenharia psiquica]]'
 notas_relacionadas:
@@ -118,3 +119,7 @@ No mesmo registro, porém, vontade não aparece apenas como símbolo: ela é cob
 
 - [ ] Confirmar, em outros registros, se o vocabulário thelêmico aparece como prática estável ou mais como linguagem de interpretação.
 - [ ] Mapear melhor quando a vontade funciona como motor e quando funciona como cobrança.
+
+## Integração de outubro de 2026
+
+[[Fonte - Sabedoria sexo santidade e sacramento]] aproxima versos de *Liber AL* (II:70–71), disciplina, prazer, corpo e criação. A associação é um ensaio pessoal de leitura thelêmica; afirmações simbólicas sobre sexualidade e autocontrole não são evidências clínicas nem recomendações médicas. Trechos atribuídos a autores externos no original não foram verificados como citações autênticas.

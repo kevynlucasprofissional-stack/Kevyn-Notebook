@@ -5,15 +5,17 @@ tipo: padrao
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.3'
+versao_conteudo: '1.4'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
+- '[[Fonte - Respostas autobiograficas 1 a 3]]'
 fontes_derivadas:
 - '[[Fonte - Cronologia e fatos]]'
 - '[[Fonte - Autopsia relacional]]'
+- '[[Fonte - Perguntas importantes e lacunas]]'
 notas_relacionadas:
 - '[[Origens e infancia 2003 a 2021]]'
 - '[[Independencia e trabalho 2021 a 2024]]'
@@ -88,3 +90,7 @@ Autonomia não é recusa de toda autoridade. É capacidade de decidir com lastro
 - [[Rede de relacoes]] permite comparar vínculos hierárquicos e horizontais.
 - [[Cuidado de si]] e [[Vontade SMART]] ajudam a distinguir autonomia de isolamento.
 - [[Relacao com complexidade]] mostra quando a defesa contra autoridade vira sistema excessivo.
+
+## Integração de outubro de 2026
+
+O relato recente oferece um mecanismo *percebido* em primeira pessoa: ao procurar ajuda para problemas escolares, algumas intervenções públicas de adultos eram vividas como exposição, o que Kevyn associa posteriormente a reservar problemas para si. A mesma fonte documenta **contraexemplos à autossuficiência total**: cuidado familiar na infância e apoio material pontual na vida adulta. Portanto, convém testar as hipóteses “evita qualquer dependência” e “evita dependência percebida como invasiva ou imprevisível” sem assumir uma causa clínica. [[Fonte - Respostas autobiograficas 1 a 3]]; perguntas de falsificação em [[Perguntas investigativas - outubro de 2026]].

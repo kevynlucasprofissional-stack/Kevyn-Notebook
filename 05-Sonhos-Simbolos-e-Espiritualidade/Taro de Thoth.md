@@ -5,12 +5,13 @@ tipo: pratica
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.4'
+versao_conteudo: '1.5'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - Conversas com ChatGPT]]'
+- '[[Fonte - Referencia para site de taro]]'
 notas_relacionadas:
 - '[[Etica da interpretacao simbolica]]'
 - '[[Espiritualidade como linguagem de sentido]]'
@@ -97,3 +98,7 @@ Uma leitura simbólica via Tarot de Thoth, registrada nas fontes, mapeou uma hip
 - **Superego**: tribunal cindido entre Ajustamento (perfeccionismo tirânico) e Hierofante Sombrio (vozes internalizadas de "pais substitutos" como clones de IA, Jobs, Hormozi).
 
 Esta cartografia é uma leitura simbólica datada, não um diagnóstico. Deve ser tratada como interpretação — não como fato psicológico.
+
+## Integração de outubro de 2026
+
+O registro [[Fonte - Referencia para site de taro]] contém somente o desejo de criar uma versão própria de um site de referência e sua URL. Constitui **ideia criativa inicial**, sem escopo funcional, cronograma, protótipo ou evidência de execução. Não inferir uso de um método específico de tiragem nem transformá-lo em projeto ativo.

@@ -5,12 +5,13 @@ tipo: evento
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.5'
+versao_conteudo: '1.6'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
+- '[[Fonte - Respostas autobiograficas 1 a 3]]'
 fontes_derivadas:
 - '[[Fonte - Cronologia e fatos]]'
 - '[[Fonte - Visao geral consolidada]]'
@@ -87,3 +88,7 @@ Este período antecede [[Crise e reorganizacao 2025]].
 - O trabalho aparece como meio de sobrevivência e também como campo de identidade.
 - A vida adulta começa a se estruturar antes de haver estabilidade financeira.
 - O período prepara o terreno para a reorganização mais explícita de 2025 e 2026.
+
+## Integração de outubro de 2026
+
+Na resposta à terceira pergunta — incluída na gravação intitulada *Resposta perguntas 1 e 2* — Kevyn distingue independência financeira cotidiana de ausência total de apoio. Afirma que pagava despesas e resolvia emergências em Rio Verde, mas recebeu alguns móveis e podia solicitar ajuda financeira pontual à avó. **A narrativa de morar sozinho aos 18 anos é compatível com apoio ocasional**, e não deve ser reescrita como autossuficiência absoluta. Fonte: [[Fonte - Respostas autobiograficas 1 a 3]]. A data exata dos episódios e os montantes permanecem autorrelatados.

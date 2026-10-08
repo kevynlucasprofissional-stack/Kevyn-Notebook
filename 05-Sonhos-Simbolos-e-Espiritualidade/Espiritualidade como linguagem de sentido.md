@@ -5,10 +5,10 @@ tipo: padrao_recorrente
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '3.0'
+versao_conteudo: '3.1'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-10-04
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - Diario gravity falls 2024-06-17]]'
 - '[[Fonte - Diario Parte 01 (set 2023 a abr 2024)]]'
@@ -19,6 +19,7 @@ fontes_primarias:
 - '[[Fonte - 00 Diario Parte 01 parte 02]]'
 - '[[Fonte - 00 Diario Parte 01 parte 03]]'
 - '[[Fonte - Conversa seria 2026-09-25]]'
+- '[[Fonte - Sabedoria sexo santidade e sacramento]]'
 fontes_derivadas:
 - '[[Fonte - Contexto completo]]'
 - '[[Fonte - Contexto extra]]'
@@ -152,3 +153,7 @@ Na revisão atual, Kevyn informou que continua em contato com Thelema, Santo Dai
 - [[Rede de relacoes]], [[Mari e a experiencia de idealizacao]], [[Amor idealizacao e projecao]] e [[Amor intimidade e vulnerabilidade]] mostram a versão afetiva desse repertório.
 - [[Contradicoes centrais]] mostra como esse repertório também pode amplificar ambivalências.
 - [[Claims principais]] limita o que pode subir de leitura simbólica para afirmação sustentada.
+
+## Integração de outubro de 2026
+
+O ensaio autoral [[Fonte - Sabedoria sexo santidade e sacramento]] articula sabedoria, vitalidade corporal, disciplina e potência criativa por meio de linguagem erótica e sacramental, com referência a Thelema. Seu valor documental é mostrar **a formulação simbólica de Kevyn**, não validar uma prática fisiológica, uma prescrição de saúde ou a autenticidade de citações atribuídas a terceiros. Preservar metáfora e posicionamento filosófico separados de fato empírico.

@@ -5,10 +5,10 @@ tipo: infraestrutura
 status: ativo
 profundidade: avancada
 versao_schema: "1.0"
-versao_conteudo: "1.1"
+versao_conteudo: "1.2"
 idioma: pt-BR
 data_criacao: 2026-09-28
-ultima_revisao: 2026-09-28
+ultima_revisao: 2026-10-08
 tags:
   - curadoria/fontes
   - infraestrutura/controle
@@ -195,3 +195,7 @@ Foi concluído um pré-processamento em dois filtros — estrutura/nome e leitur
 - [[Pré-seleção de 70 fontes prioritárias]]
 
 A lista usa `P0/P1/P2` apenas para ordenar a curadoria. Essas classes **não substituem** a nota oficial `relevancia = 0–10`, que continua exigindo análise suficiente do arquivo e atualização de `Controle-Curadoria-Originais.csv`.
+
+## Integração de outubro de 2026
+
+**Ingestão 08/10/2026:** foram adicionados ao CSV central sete registros novos (cinco `.md` e dois `.m4a`) do commit `e569fa2`. As notas 0–10 para transcrições e documentos refletem leitura textual; os áudios pareados estão como `analisado=parcial` e `revisitar=sim` por ausência de escuta independente. As datas reais das gravações são incertas; o dia 08/10/2026 representa data de curadoria. Ver [[Perguntas investigativas - outubro de 2026]].

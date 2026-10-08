@@ -5,10 +5,10 @@ tipo: moc
 status: curado
 profundidade: intermediaria
 versao_schema: '1.0'
-versao_conteudo: '2.5'
+versao_conteudo: '2.6'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-10-04
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - 150626 RNIDIQAOUP]]'
@@ -21,6 +21,7 @@ fontes_primarias:
 - '[[Fonte - Operacao WSI Salus e acessos 2025]]'
 - '[[Fonte - O Kevyn faz]]'
 - '[[Fonte - Consideracoes sobre Rafael Serve e Hermes]]'
+- '[[Fonte - Briefing de prioridades e projetos]]'
 fontes_derivadas:
 - '[[Fonte - Cronologia e fatos]]'
 - '[[Fonte - Modus operandi]]'
@@ -188,3 +189,9 @@ Hoor Digital deve ser lido como marca em construção: há trabalho real, mas o 
 - [[Vontade SMART]] mostra a interface entre portfólio e rotina.
 - [[Cuidado de si]] delimita o custo de sustentar as frentes abertas.
 - [[Claims principais]] ajuda a distinguir competência real de promessa.
+
+## Integração de outubro de 2026
+
+### Calibração por uso real — depoimento sem data confirmada
+
+No [[Fonte - Briefing de prioridades e projetos]], Kevyn diferencia **ter criado**, **ter usado** e **ter demonstrado utilidade externa**: afirma ter usado Eco e Atom (o primeiro com maior frequência), não ter utilizado pessoalmente Bilvísio, Neuron ou Ágora e escolher Eco se precisasse concentrar 60 dias de trabalho em uma frente. A utilidade percebida de Eco é autorrelatada; **não constitui validação de mercado**. A classificação de Atom como estacionado e Neuron como observação nas seções acima não é automaticamente substituída: o depoimento não possui data de gravação verificada e descreve uma fotografia de prioridades que exige reconciliação cronológica. A distinção entre produção e uso, contudo, passa a integrar os critérios de revisão.

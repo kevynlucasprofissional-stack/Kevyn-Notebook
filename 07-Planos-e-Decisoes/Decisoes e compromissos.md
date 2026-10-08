@@ -5,13 +5,14 @@ tipo: controle
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.3'
+versao_conteudo: '1.4'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - 150626 RNIDIQAOUP]]'
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
+- '[[Fonte - Briefing de prioridades e projetos]]'
 grau_confianca: alto
 sensibilidade: muito_alta
 camada_evidencia: sintese_derivada
@@ -95,3 +96,7 @@ Decisões profissionais recentes devem ser confrontadas com [[Estado atual - 17 
 - [[Mapa de prioridades]] organiza a hierarquia.
 - [[Kanban de projetos]] mostra a execução operacional.
 - [[Claims principais]] impede que decisão vire certeza inflada.
+
+## Integração de outubro de 2026
+
+O briefing documenta uma **preferência de decisão condicional**, não uma execução já verificada: diante de limitação a apenas um projeto pessoal por 60 dias, Kevyn escolheria Eco. Ele também afirma disposição para arquivar ideias sem horizonte imediato. Data original do relato não confirmada; não criar compromisso datado ou registrar abandono de outros projetos sem evidência posterior. [[Fonte - Briefing de prioridades e projetos]].

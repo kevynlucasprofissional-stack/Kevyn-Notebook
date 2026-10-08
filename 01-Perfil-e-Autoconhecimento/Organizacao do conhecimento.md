@@ -5,17 +5,19 @@ tipo: tema_pessoal
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.6'
+versao_conteudo: '1.7'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - Segundo cerebro consolidado]]'
 - '[[Fonte - Todas as notas consolidado]]'
 - '[[Fonte - Gerador de dossie]]'
 - '[[Fonte - Gerador de visao geral]]'
+- '[[Fonte - Briefing de prioridades e projetos]]'
 fontes_derivadas:
 - '[[Fonte - Analises Diario Negro 01]]'
+- '[[Fonte - Perguntas importantes e lacunas]]'
 notas_relacionadas:
 - '[[Kevyn Lucas]]'
 - '[[Claims principais]]'
@@ -111,3 +113,7 @@ A nota se relaciona com [[Relacao com complexidade]] e [[Metodologia]].
 ## Estratégia de presença digital
 
 Notas de setembro de 2025 articulam filosofia pessoal de 4 degraus (dados→informação→conhecimento→sabedoria) com ênfase no FAZER, e uma estratégia de 3 perfis de redes sociais com funções distintas e narrativas cruzadas: @tresvezeskevyn (pessoal/criativo sem compromisso), [[Hoor Digital]] (portfólio/mentoria profissional) e @21diascomkevyn (transformação/soluções de emagrecimento).
+
+## Integração de outubro de 2026
+
+No briefing autobiográfico recém-ingressado, Kevyn declara não possuir uma única fonte operacional de verdade: demandas e registros estão distribuídos entre Trello, Obsidian, Drive, mensagens e arquivos locais. Informa que o Trello mistura ações executáveis e ideias futuras; manifesta disposição para arquivar prioridades concorrentes e para automatizar a consolidação diária de tarefas. **É um diagnóstico declarado, não prova de que uma centralização tenha sido implementada.** A auditoria de lacunas [[Fonte - Perguntas importantes e lacunas]] também pede testar se a autodocumentação melhorou decisões concretas, em vez de medir apenas volume de material. [[Fonte - Briefing de prioridades e projetos]].

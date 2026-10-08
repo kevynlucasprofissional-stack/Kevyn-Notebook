@@ -5,10 +5,10 @@ tipo: moc
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.2'
+versao_conteudo: '1.3'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-10-04
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - Anatomia psiquica]]'
 - '[[Fonte - Contexto completo]]'
@@ -16,6 +16,7 @@ fontes_primarias:
 - '[[Fonte - Diario FGV e aulas Nova Acropole 2026]]'
 - '[[Fonte - A caridade teoria dos jogos e design de mecanismos]]'
 - '[[Fonte - Conversa politica 02.10.26]]'
+- '[[Fonte - Sabedoria sexo santidade e sacramento]]'
 notas_relacionadas:
 - '[[Estudos na Nova Acropole]]'
 - '[[Metodo de estudo e producao]]'
@@ -76,3 +77,6 @@ Conceitos complexos podem ampliar autoconhecimento ou tornar-se defesa contra ex
 
 - `CICLO-0025`: consolidacoes automaticas amplas dos ciclos `0023` e `0024` foram removidas desta nota. O que vier desses lotes so deve retornar ao nucleo apos curadoria manual que mostre estudo, repertorio ou aplicacao relevante sobre Kevyn.
 
+## Integração de outubro de 2026
+
+O texto autoral [[Fonte - Sabedoria sexo santidade e sacramento]] é evidência de elaboração pessoal que aproxima ética, desejo, corpo, Thelema e criatividade. Classificá-lo como **síntese simbólico-filosófica do autor**; suas metáforas não equivalem a conclusões científicas nem a dados sobre comportamento efetivo.

@@ -5,13 +5,15 @@ tipo: controle
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.2'
+versao_conteudo: '1.3'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - Visao geral consolidada]]'
 - '[[Fonte - Contexto completo]]'
+- '[[Fonte - Briefing de prioridades e projetos]]'
+- '[[Fonte - Referencia para site de taro]]'
 grau_confianca: medio_alto
 sensibilidade: alta
 camada_evidencia: sintese_derivada
@@ -59,3 +61,7 @@ O acervo contém Neuron, Cosmo, Atom, Bela Já, Salus e outras iniciativas. Elas
 - [[Cuidado de si]] evita que ideias consumam mais energia do que permitem.
 - [[Vontade SMART]] ajuda a revisar o que sai do estacionamento.
 - [[Portfolio de projetos]] mostra o destino das ideias maduras.
+
+## Integração de outubro de 2026
+
+Registro adicional: a ideia de criar um site próprio inspirado em uma referência de tarô aparece em [[Fonte - Referencia para site de taro]], sem desenvolvimento confirmado; permanece em incubação, não como projeto ativo. O briefing [[Fonte - Briefing de prioridades e projetos]] distingue projetos usados pessoalmente (Eco, Atom, segundo a fala) daqueles criados sem uso pessoal comprovado (Bilvísio, Neuron e Ágora, segundo a mesma fonte). Essa classificação é histórica e sujeita a evidência mais recente.

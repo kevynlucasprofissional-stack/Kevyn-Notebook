@@ -5,13 +5,14 @@ tipo: moc
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.3'
+versao_conteudo: '1.4'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-08
 fontes_primarias:
 - '[[Fonte - 150626 RNIDIQAOUP]]'
 - '[[Fonte - Modus operandi]]'
+- '[[Fonte - Briefing de prioridades e projetos]]'
 grau_confianca: medio_alto
 sensibilidade: muito_alta
 camada_evidencia: sintese_derivada
@@ -82,3 +83,7 @@ Verificar mensalmente se a camada de exploração está ameaçando sustentação
 - [[Vontade SMART]] traduz prioridade em revisão operacional.
 - [[Cuidado de si]] impede que prioridade destrua sustentação.
 - [[MOC Planos e decisoes]] organiza a hierarquia maior.
+
+## Integração de outubro de 2026
+
+O [[Fonte - Briefing de prioridades e projetos]] registra, como **preferências declaradas num momento ainda sem data confirmada**, três frentes para melhorar em 90 dias: finanças, competência/reputação profissional e conhecimento; registra também “patrimônio e legado” como objetivo de fundo. A ideia de priorizar Eco se apenas um projeto pudesse ser escolhido é uma **escolha hipotética**, não compromisso operacional comprovado. Revisar essas prioridades com o estado presente antes de convertê-las em rotina.
