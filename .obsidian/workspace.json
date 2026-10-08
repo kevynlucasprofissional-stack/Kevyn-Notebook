@@ -34,9 +34,37 @@
               "icon": "lucide-file",
               "title": "Reescrito - O Kevyn faz"
             }
+          },
+          {
+            "id": "a2ee27eb7a35e3ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-Originais/Perguntas importantes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Perguntas importantes"
+            }
+          },
+          {
+            "id": "45db79c02fd1cc77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "000-Originais/Sabedoria, sexo, santidade e sacramento.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Sabedoria, sexo, santidade e sacramento"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -56,7 +84,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false,
+                "autoReveal": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
@@ -203,8 +231,15 @@
       "bases:Criar nova base": false
     }
   },
-  "active": "9875ed73fc101b53",
+  "active": "a2ee27eb7a35e3ad",
   "lastOpenFiles": [
+    "000-Originais/Sabedoria, sexo, santidade e sacramento.md",
+    "000-Originais/Site incrível de tarô.md",
+    "000-Originais/O problema de 1 milhão de dólares.md",
+    "000-Originais/O Magus.md",
+    "000-Originais/Não existe atalho.md",
+    "000-Originais/O Pilar do meio na cabala.md",
+    "000-Originais/Perguntas importantes.md",
     "000-Originais/Audios/Reescrito - O Kevyn faz.md",
     "000-Originais/Audios/O Kevyn faz.md",
     "000-Originais/Audios/O Kevyn faz.m4a",
@@ -229,13 +264,6 @@
     "03-Relacionamentos-e-Rede/Lethicia.md",
     "03-Relacionamentos-e-Rede/Igor.md",
     "03-Relacionamentos-e-Rede/Iasmin Alencar.md",
-    "03-Relacionamentos-e-Rede/Historia parental relatada.md",
-    "03-Relacionamentos-e-Rede/Hariel.md",
-    "03-Relacionamentos-e-Rede/Geovanna.md",
-    "03-Relacionamentos-e-Rede/Cha e Prosa.md",
-    "03-Relacionamentos-e-Rede/Arthur.md",
-    "03-Relacionamentos-e-Rede/Amor intimidade e vulnerabilidade.md",
-    "03-Relacionamentos-e-Rede/Amor idealizacao e projecao.md",
     "000-Originais/Não confirmado 997923.crdownload",
     "000-Originais/Arquivos pesados/conversations.json",
     "000-Originais/Arquivos pesados/Conversas com o ChatGPT.json",
