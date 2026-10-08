@@ -5,13 +5,14 @@ tipo: qualidade
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.3'
+versao_conteudo: '1.4'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - 150626 RNIDIQAOUP]]'
+- '[[Fonte - O Kevyn faz]]'
 fontes_derivadas:
 - '[[Fonte - Visao geral consolidada]]'
 grau_confianca: medio_alto
@@ -61,6 +62,12 @@ Kevyn combina linguagem visual, escrita, marketing, filosofia, psicologia, tecno
 ## Evidência prática
 
 A criatividade aparece em trabalhos de design e vídeo, campanhas, apresentações, fluxogramas, BPMN, roteiros e estruturas de IA. Nas revisões recentes, entregas profissionais receberam retorno positivo.
+
+## Evidência recente de transferência entre domínios
+
+[[Fonte - O Kevyn faz]] oferece um exemplo direto de transferência de repertório: a experiência anterior com Cinema 4D permite que Kevyn reconheça e manipule escala, rotação, posição e objetos em um modelo Three.js gerado com IA; a descoberta, por sua vez, abre perguntas sobre outras pontes entre design, código, música, web e agentes.
+
+O valor biográfico não é "saber tudo isso", mas a tendência de procurar uma interface entre competências já adquiridas e ferramentas novas. O limite é o mesmo desta nota: facilidade para conectar domínios não prova profundidade equivalente em todos eles.
 
 ## Risco associado
 

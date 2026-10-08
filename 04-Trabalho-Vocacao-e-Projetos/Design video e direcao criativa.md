@@ -5,13 +5,14 @@ tipo: tema_pessoal
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.2'
+versao_conteudo: '1.3'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - Segundo cerebro consolidado]]'
 - '[[Fonte - 150626 RNIDIQAOUP]]'
+- '[[Fonte - O Kevyn faz]]'
 grau_confianca: alto
 sensibilidade: media
 camada_evidencia: sintese_derivada
@@ -47,6 +48,12 @@ Os materiais documentam anos de contato com comunicação visual e ferramentas c
 - campanhas e apresentações;
 - direção visual e identidades;
 - motion e experimentos 3D.
+
+## Calibragem por autoavaliação recente
+
+Em [[Fonte - O Kevyn faz]], Kevyn diferencia o nível de prática entre ferramentas. After Effects, motion e design são descritos como campos de prática mais profunda; Cinema 4D e modelagem 3D como repertório real, porém menos aprofundado. O relato cita câmera 3D, expressões, rigging, Puppet Pin/DuIK, extrusão, deformadores, Voronoi e dinâmica.
+
+A fonte é forte para mostrar como ele próprio hierarquiza o repertório e para confirmar continuidade entre comunicação visual, motion e experimentação 3D. Não é benchmark técnico externo.
 
 ## Nível de confiança
 

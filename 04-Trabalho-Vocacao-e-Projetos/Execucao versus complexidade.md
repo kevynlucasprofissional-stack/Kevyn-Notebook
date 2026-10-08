@@ -5,14 +5,17 @@ tipo: padrao
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.7'
+versao_conteudo: '1.8'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-06-25
+ultima_revisao: 2026-10-04
 fontes_primarias:
 - '[[Fonte - 150626 RNIDIQAOUP]]'
 - '[[Fonte - Reuniao com psicologa Suzana 2026-06-12]]'
 - '[[Fonte - Estrategia de criacao e agentes IA 2025]]'
+- '[[Fonte - Conversa seria 2026-09-25]]'
+- '[[Fonte - Diario 03.10.26]]'
+- '[[Fonte - Consideracoes sobre Rafael Serve e Hermes]]'
 fontes_derivadas:
 - '[[Fonte - Modus operandi]]'
 - '[[Fonte - Analises Diario Negro 01]]'
@@ -92,6 +95,14 @@ O registro `150626 RNIDIQAOUP` mostra o contrapeso desse padrão: diante de víd
 | [[Fonte - Analises Diario Negro 01]] | hipótese editorial de que linguagem e lucidez podem substituir ação concreta | baixa |
 | [[Salus e Capital Green]] | risco de investir em estrutura e sofisticação antes de prova comercial suficiente | media |
 | [[Hoor Digital]] | marca e oferta podem crescer como camada de complexidade antes da validação operacional | media |
+
+## Evidências diretas recentes
+
+Em 25/09, [[Fonte - Conversa seria 2026-09-25]] formula o problema em primeira pessoa: criar um sistema de gestão "bom o suficiente" não resolve nada se a distância entre pensamento e execução continuar grande.
+
+Em 03/10, o diário mostra a tensão acontecendo ao vivo. Durante um relatório da ACIRV, surgem ideias de scraping, análise e calendário; Kevyn registra "você é um só, mas termina as obrigações primeiro" e conclui/envia o relatório. É simultaneamente evidência do impulso de expansão e contraprova da ideia de que expansão sempre impede entrega.
+
+[[Fonte - Consideracoes sobre Rafael Serve e Hermes]] acrescenta outro mecanismo: quando uma tarefa de IA demora mais do que a execução manual, Kevyn tenta converter o aprendizado em protocolo operacional reutilizável. Nesse caso, arquitetura surge depois do atrito concreto, não antes dele.
 
 ## Contraprovas e limites
 
