@@ -5,10 +5,10 @@ tipo: moc
 status: curado
 profundidade: intermediaria
 versao_schema: '1.0'
-versao_conteudo: '1.7'
+versao_conteudo: '1.8'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-10-04
+ultima_revisao: 2026-10-09
 fontes_primarias:
   - '[[Fonte - Briefing do projeto]]'
 notas_relacionadas:
@@ -17,6 +17,7 @@ notas_relacionadas:
   - '[[Formacao em Data Science]]'
   - '[[Negocios e marketing]]'
   - '[[Tecnologia IA e automacao]]'
+  - '[[Playbook de engenharia com agentes de IA]]'
   - '[[Tecnologias de si e Foucault]]'
   - '[[Filosofia e psicologia]]'
   - '[[Estudos na Nova Acropole]]'
@@ -69,6 +70,10 @@ Este território reúne o que Kevyn estuda, lê, experimenta e referencia. O pon
 5. [[Experimentalismo institucional e governanca policentrica]] para acompanhar teoria dos jogos, desenho institucional, policentrismo e autocrítica tecnocrática.
 6. [[Influencias e mentores]] para entender a camada de referência e admiração.
 7. [[Portfolio de projetos]] para checar se o estudo produziu artefato, decisão ou prática.
+
+## Referência operacional de engenharia com IA
+
+- [[Playbook de engenharia com agentes de IA]] formaliza o método quality-first, SDD/TDD, testes, auditoria e memória de engenharia, incluindo o roteamento em quatro níveis de modelos nas IDEs agênticas. É um protocolo de prática consultável, não evidência de que cada procedimento já tenha sido executado em projetos reais.
 
 ## Eixos principais
 
