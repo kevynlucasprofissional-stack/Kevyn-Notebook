@@ -5,10 +5,10 @@ tipo: dominio_conhecimento
 status: curado
 profundidade: avancada
 versao_schema: '1.0'
-versao_conteudo: '1.6'
+versao_conteudo: '1.7'
 idioma: pt-BR
 data_criacao: 2026-06-17
-ultima_revisao: 2026-10-04
+ultima_revisao: 2026-10-09
 fontes_primarias:
 - '[[Fonte - Visao geral consolidada]]'
 - '[[Fonte - Contexto completo]]'
@@ -35,6 +35,7 @@ notas_relacionadas:
 - '[[Formacao em Data Science]]'
 - '[[Metodo de estudo e producao]]'
 - '[[Estilo de aprendizagem]]'
+- '[[Playbook de engenharia com agentes de IA]]'
 ---
 # Tecnologia, IA e automação
 
@@ -72,6 +73,10 @@ Os registros recentes mostram a passagem de "ferramentas de IA" para uma busca m
 [[Fonte - Consideracoes sobre Rafael Serve e Hermes]] adiciona um critério de engenharia de processo: escolher o caminho não apenas pela capacidade, mas por velocidade, precisão, custo de chamadas e possibilidade de cristalizar rotas boas em protocolos reutilizáveis.
 
 O estado correto continua sendo exploração/aplicação. A descoberta de uma biblioteca ou a geração assistida de código não equivale a domínio da linguagem subjacente.
+
+## Protocolo operacional de engenharia
+
+O [[Playbook de engenharia com agentes de IA]] reúne um método explícito para trabalho técnico assistido por agentes: hipóteses, especificações, implementação, testes, auditoria e memória durável. Sua seção 43 acrescenta o roteamento de modelos por arquitetura, código, testes/debug e documentação/commits, conforme preferência registrada em 09/10/2026. A existência do protocolo não é prova automática de adoção em todos os projetos.
 
 ## Regra de evidência
 
