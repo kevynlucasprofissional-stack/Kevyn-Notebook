@@ -5,7 +5,7 @@ tipo: pratica
 status: revisado
 profundidade: dossie
 versao_schema: '1.0'
-versao_conteudo: '1.0'
+versao_conteudo: '1.1'
 idioma: pt-BR
 data_criacao: 2026-10-09
 ultima_revisao: 2026-10-09
@@ -3488,17 +3488,17 @@ Esta matriz é uma **preferência operacional explícita** para o trabalho com a
 
 | Nível | Responsabilidade | Claude | Codex | DeepSeek | Gemini |
 |---|---|---|---|---|---|
-| **1 — Arquitetura e orquestração** | Investigar contexto, analisar arquitetura, decompor tarefas, avaliar riscos, definir gates, escolher modelos e **grau de esforço de cada etapa** | **Fable** | **Astra** | **Pro** | **Pro** |
-| **2 — Implementação de código** | Implementar alterações aprovadas, integrar componentes, preservar contratos e invariantes | **Opus** | **Sol** | **Pro** | **Pro** |
-| **3 — Testes e depuração** | Criar e executar testes, reproduzir falhas, depurar, fazer regressão, verificar integração e evidências | **Sonnet** | **Terra** | **Flash** | **Flash** |
-| **4 — Documentação e commits** | Atualizar documentação técnica, Journal, especificações, changelog, preparar e realizar commits autorizados | **Haikyu** | **Luna** | **Flash** | **Flash** |
+| **1 — Arquitetura e orquestração** | Investigar contexto, analisar arquitetura, decompor tarefas, avaliar riscos, definir gates, escolher modelos e **grau de esforço de cada etapa** | **Fable** | **Astra 6** | **Pro** | **Pro** |
+| **2 — Implementação de código** | Implementar alterações aprovadas, integrar componentes, preservar contratos e invariantes | **Opus** | **Sol 6.1** | **Pro** | **Pro** |
+| **3 — Testes e depuração** | Criar e executar testes, reproduzir falhas, depurar, fazer regressão, verificar integração e evidências | **Sonnet** | **Terra 5.6** | **Flash** | **Flash** |
+| **4 — Documentação e commits** | Atualizar documentação técnica, Journal, especificações, changelog, preparar e realizar commits autorizados | **Haikyu** | **Luna 5.6** | **Flash** | **Flash** |
 
 > [!important] Nomes e disponibilidade
 > A tabela usa **exatamente os nomes/perfis definidos nesta política** (inclusive `Fable` e `Haikyu`). Não pressuponha que sejam identificadores de API oficiais, disponíveis ou selecionáveis em qualquer IDE. Resolva o identificador real e as permissões da plataforma antes de executar. Quando um nome for um alias, documente seu mapeamento; não invente suporte ou afirme que ocorreu uma troca de modelo que a ferramenta não realizou.
 
 ## 43.3. Responsabilidades e controle de esforço
 
-**Nível 1 — Arquitetura (Fable / Astra / Pro / Pro)**
+**Nível 1 — Arquitetura (Fable / Astra 6 / Pro / Pro)**
 
 - Antes de implementar, inspecionar o estado real do repositório e a documentação canônica existente.
 - Escolher o modelo/perfil para cada trabalho, levando em conta complexidade, risco, custo, latência, ferramentas e disponibilidade.
@@ -3506,20 +3506,20 @@ Esta matriz é uma **preferência operacional explícita** para o trabalho com a
 - Reservar raciocínio mais intenso para arquitetura, hipóteses difíceis, mudanças transversais e revisão de decisões irreversíveis. Não usar o modelo mais caro por padrão em todas as etapas.
 - Produzir spec/plan/tasks com critérios observáveis; delegar tarefas com contexto suficiente, limites, evidências esperadas e ponto claro de retorno.
 
-**Nível 2 — Código (Opus / Sol / Pro / Pro)**
+**Nível 2 — Código (Opus / Sol 6.1 / Pro / Pro)**
 
 - Implementar tarefas de acordo com o plano vigente e a menor mudança completa que solucione o problema.
 - Executar verificações rápidas durante a implementação; não substituir os gates de testes independentes do nível 3.
 - Em caso de mudança de premissas, retornar ao nível 1 para replanejamento em vez de alterar a arquitetura silenciosamente.
 
-**Nível 3 — Testes e debug (Sonnet / Terra / Flash / Flash)**
+**Nível 3 — Testes e debug (Sonnet / Terra 5.6 / Flash / Flash)**
 
 - Verificar os critérios de aceitação por evidências adequadas: unitárias, integração, ponta a ponta, comportamento real e regressão conforme o risco.
 - Registrar falhas reproduzidas, primeiro boundary quebrado, hipótese causal, correção, reteste e prevenção de recorrência.
 - Sempre que possível, revisar independentemente a implementação do nível 2 e devolver falhas ao nível 2; acionar o nível 1 quando elas invalidarem o design.
 - **Modelo mais econômico não significa teste superficial**. Se a complexidade exceder sua capacidade, escalonar esforço/modelo de forma explícita.
 
-**Nível 4 — Documentação e commit (Haikyu / Luna / Flash / Flash)**
+**Nível 4 — Documentação e commit (Haikyu / Luna 5.6 / Flash / Flash)**
 
 - Atualizar `README`, Engineering Journal, `CURRENT_STATE`, decisões, issues conhecidas, specs, changelog e evidências **quando aplicáveis**.
 - Checar correspondência entre relato e resultados observados; nunca afirmar testes ou validações não executados.
@@ -3564,19 +3564,19 @@ orquestracao:
   ambiente: "IDE/agente utilizado"
   provedor: "Claude | Codex | DeepSeek | Gemini | outro"
   arquitetura:
-    perfil_solicitado: "Fable | Astra | Pro | ..."
+    perfil_solicitado: "Fable | Astra 6 | Pro | ..."
     modelo_efetivo: "identificador verificado ou nao_disponivel"
     esforco: "baixo | medio | alto | maximo | nao_suportado"
   codigo:
-    perfil_solicitado: "Opus | Sol | Pro | ..."
+    perfil_solicitado: "Opus | Sol 6.1 | Pro | ..."
     modelo_efetivo: "identificador verificado ou nao_disponivel"
     esforco: "..."
   testes_debug:
-    perfil_solicitado: "Sonnet | Terra | Flash | ..."
+    perfil_solicitado: "Sonnet | Terra 5.6 | Flash | ..."
     modelo_efetivo: "identificador verificado ou nao_disponivel"
     esforco: "..."
   documentacao_commit:
-    perfil_solicitado: "Haikyu | Luna | Flash | ..."
+    perfil_solicitado: "Haikyu | Luna 5.6 | Flash | ..."
     modelo_efetivo: "identificador verificado ou nao_disponivel"
     esforco: "..."
   desvios: []
